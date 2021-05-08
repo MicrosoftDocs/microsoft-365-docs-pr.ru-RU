@@ -21,12 +21,12 @@ ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.technology: m365d
-ms.openlocfilehash: 31162944f4728f2c84efbe2cd5eafbd0c70e00f6
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 80546d44bc1ba222c736b397a272f9f1f1a01d4a
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245856"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52269472"
 ---
 # <a name="remediation-actions-in-microsoft-365-defender"></a>Действия по исправлению в Microsoft 365 Defender
 
@@ -36,8 +36,6 @@ ms.locfileid: "52245856"
 **Область применения:**
 - Microsoft 365 Defender
 
-## <a name="remediation-actions"></a>Действия по исправлению
-
 Во время и после автоматического расследования в Microsoft 365 Defender выявляются действия по исправлению вредоносных или подозрительных элементов. На устройствах принимаются некоторые действия по исправлению, которые также называют конечными точками. Другие действия по исправлению принимаются в отношении контента электронной почты. Автоматические расследования завершались после выполнения действий по исправлению, утверждения или отказа.
 
 > [!IMPORTANT]
@@ -46,7 +44,7 @@ ms.locfileid: "52245856"
 > - [Устранение угроз на устройствах](../defender-endpoint/automated-investigations.md)
 > - [Угрозы и действия по исправлению в контенте совместной & электронной почты](../office-365-security/air-remediation-actions.md#threats-and-remediation-actions)
 
-В следующей таблице подводятся итоги действий по исправлению, которые в настоящее время поддерживаются в Microsoft 365 Defender: 
+В следующей таблице подводятся итоги действий по исправлению, которые в настоящее время поддерживаются в Microsoft 365 Defender. 
 
 |Действия по исправлению устройства (конечной точки)  |Действия по исправления для электронной почты  |
 |:---------|:---------|
@@ -60,7 +58,7 @@ ms.locfileid: "52245856"
 
 В таблице ниже перечислены возможные заключения и результаты.
 
-| Заключение    | Область    | Результаты|
+| Заключение    | Затронутые сущности    | Результаты|
 |------|------|------|
 | Вредоносные    | Устройства (конечные точки)    | Действия по исправлению принимаются автоматически (при [](m365d-configure-auto-investigation-response.md#review-or-change-the-automation-level-for-device-groups) условии, что группы устройств вашей организации настроены на **полное устранение** угроз автоматически)|
 | Вредоносные    | Содержимое электронной почты (URL-адреса или вложения) | Рекомендуемые действия по исправлению ожидают утверждения|
@@ -70,17 +68,17 @@ ms.locfileid: "52245856"
 
 ## <a name="remediation-actions-that-are-taken-manually"></a>Действия по исправлению, которые принимаются вручную
 
-Помимо действий по исправлению последствий, которые следуют автоматическим расследованиям, группа операций безопасности может выполнять определенные действия по исправлению вручную. К ним относятся следующие действия:
+Помимо действий по исправлению последствий, которые следуют автоматическим расследованиям, группа операций безопасности может выполнять определенные действия по исправлению вручную. К ним относятся:
 
-- Действие ручного устройства, например изоляция устройства или карантин файлов.
-- Ручное действие электронной почты, например мягкое удаление сообщений электронной почты. 
-- [Расширенные действия по охоте](../defender-endpoint/advanced-hunting-overview.md) на устройствах или электронной почте.
-- [Действие обозревателя](../office-365-security/threat-explorer.md) по контенту электронной почты, например перенос электронной почты на нежелательное, электронное письмо с мягким удалением или жесткое удаление электронной почты.
-- Действие [живого ответа](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/live-response) вручную, например удаление файла, остановка процесса и удаление запланированной задачи.
-- Live response action with [Microsoft Defender for Endpoint API](../defender-endpoint/management-apis.md#microsoft-defender-for-endpoint-apis), such as isolating a device, running an antivirus scan, and getting information about a file. 
+- Действие ручного устройства, например изоляция устройства или карантин файлов
+- Ручное действие электронной почты, например мягкие удаления сообщений электронной почты 
+- [Расширенные действия по охоте](../defender-endpoint/advanced-hunting-overview.md) на устройствах или электронной почте
+- [Действия проводника](../office-365-security/threat-explorer.md) по контенту электронной почты, такие как перенос электронной почты на нежелательное, электронное сообщение с мягким удалением или жесткое удаление электронной почты.
+- Действие [живого ответа](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/live-response) вручную, например удаление файла, остановка процесса и удаление запланированной задачи
+- Live response action with [Microsoft Defender for Endpoint API](../defender-endpoint/management-apis.md#microsoft-defender-for-endpoint-apis), such as isolating a device, running an antivirus scan, and getting information about a file
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
 - [Посещение Центра уведомлений](m365d-action-center.md)
-- [Просмотр и управление действиями по исправлению]( m365d-autoir-actions.md)
-- [Обработка ложных срабатыва-](m365d-autoir-report-false-positives-negatives.md)
+- [Просмотр и управление действиями по исправлению](m365d-autoir-actions.md)
+- [Устранение ложных срабатыва-](m365d-autoir-report-false-positives-negatives.md)

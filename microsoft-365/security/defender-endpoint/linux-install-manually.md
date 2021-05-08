@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 0374c1a44a4d942ea631d97f51fa48df15d3ec13
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: c13138f3d80a95dbda3a899507f662c081831d94
+ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51929089"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52259683"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-linux-manually"></a>Развертывание Microsoft Defender для конечной точки на Linux вручную
 
@@ -166,10 +166,10 @@ ms.locfileid: "51929089"
     sudo mv ./microsoft.list /etc/apt/sources.list.d/microsoft-[channel].list
     ```
     Например, если вы выбрали *канал prod:*
-    
+
     ```bash
     sudo mv ./microsoft.list /etc/apt/sources.list.d/microsoft-prod.list
-    ```   
+    ```
 
 - Установите `gpg` пакет, если он еще не установлен:
 
@@ -266,13 +266,13 @@ ms.locfileid: "51929089"
 
 ## <a name="download-the-onboarding-package"></a>Скачайте пакет onboarding
 
-Скачайте бортовой пакет из Центра безопасности Защитника Майкрософт:
+Скачайте бортовой пакет из Центр безопасности в Microsoft Defender:
 
-1. В Центре безопасности Защитника Майкрософт перейдите в **параметры > управления устройствами > onboarding.**
+1. В Центр безопасности в Microsoft Defender перейдите **к Параметры > управления устройствами > onboarding**.
 2. В первом выпадаемом меню выберите **Linux Server** в качестве операционной системы. Во втором выпадаемом меню выберите локальный скрипт **(для до 10 устройств)** в качестве метода развертывания.
 3. Выберите **пакет загрузки.** Сохраните файл как WindowsDefenderATPOnboardingPackage.zip.
 
-    ![Снимок экрана Центра безопасности Защитника Майкрософт](images/atp-portal-onboarding-linux.png)
+    ![Центр безопасности в Microsoft Defender скриншот](images/atp-portal-onboarding-linux.png)
 
 4. С командной подсказки убедитесь, что у вас есть файл.
     Извлечение содержимого архива:
@@ -341,7 +341,7 @@ ms.locfileid: "51929089"
     - Откройте окно терминала. Скопируйте и выполните следующую команду:
 
         ``` bash
-        curl -o ~/Downloads/eicar.com.txt https://www.eicar.org/download/eicar.com.txt
+        curl -o /tmp/eicar.com.txt https://www.eicar.org/download/eicar.com.txt
         ```
 
     - Файл должен был быть карантином для Defender для конечной точки на Linux. Чтобы перечислить все обнаруженные угрозы, используйте следующую команду:
@@ -352,7 +352,7 @@ ms.locfileid: "51929089"
 
 ## <a name="installer-script"></a>Сценарий установки
 
-Кроме того, вы можете использовать автоматический скрипт [bash](https://github.com/microsoft/mdatp-xplat/blob/master/linux/installation/mde_installer.sh) установки, предоставляемый в нашем публичном репозитории [GitHub](https://github.com/microsoft/mdatp-xplat/).
+Кроме того, вы можете [](https://github.com/microsoft/mdatp-xplat/blob/master/linux/installation/mde_installer.sh) использовать автоматический скрипт bash установки, предоставляемый в нашем [репозитории GitHub.](https://github.com/microsoft/mdatp-xplat/)
 Сценарий определяет распределение и версию и настраивает устройство, чтобы вытащить последний пакет и установить его.
 Вы также можете работать на борту с предоставленным скриптом.
 

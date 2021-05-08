@@ -2,8 +2,8 @@
 title: Как автоматизированные исследования и ответы работают в Microsoft Defender для Office 365
 f1.keywords:
 - NOCSH
-ms.author: deniseb
-author: denisebmsft
+author: JoeDavies-MSFT
+ms.author: josephd
 manager: dansimp
 audience: ITPro
 ms.topic: article
@@ -16,18 +16,18 @@ ms.collection:
 - m365initiative-defender-office365
 keywords: автоматизированная реакция на инциденты, расследование, исправление, защита от угроз
 ms.date: 01/29/2021
-description: Узнайте, как работают автоматизированные возможности расследования и реагирования в Microsoft Defender для Office 365
+description: Узнайте, как автоматизированные возможности расследования и реагирования работают в Microsoft Defender для Office 365
 ms.custom:
 - air
 - seo-marvel-mar2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e377927156e8c98d07f4527bca09e3764bed3f74
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: a8d33804e8c1405093843709e06250beb7f10512
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205261"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52269640"
 ---
 # <a name="how-automated-investigation-and-response-works-in-microsoft-defender-for-office-365"></a>Как автоматизированные исследования и ответы работают в Microsoft Defender для Office 365
 
@@ -45,7 +45,7 @@ AIR позволяет вашей группе операций безопасн
 
 - [Пример 1. Сообщение о фишинге, сообщаемом пользователем, запускает книгу расследований](#example-a-user-reported-phish-message-launches-an-investigation-playbook)
 - [Пример 2. Администратор безопасности запускает расследование из Обозревателя угроз](#example-a-security-administrator-triggers-an-investigation-from-threat-explorer)
-- [Пример 3. Группа операций безопасности интегрирует AIR с их SIEM с помощью API управления Office 365](#example-a-security-operations-team-integrates-air-with-their-siem-using-the-office-365-management-activity-api)
+- [Пример 3. Группа операций безопасности интегрирует AIR с их SIEM с помощью API Office 365 управления](#example-a-security-operations-team-integrates-air-with-their-siem-using-the-office-365-management-activity-api)
 
 ## <a name="example-a-user-reported-phish-message-launches-an-investigation-playbook"></a>Пример: сообщение о фишинге, о чем сообщалось пользователем, запускает книгу расследований
 
@@ -54,7 +54,7 @@ AIR позволяет вашей группе операций безопасн
 На этапе корневого исследования оцениваются различные аспекты электронной почты. Эти аспекты включают в себя:
 
 - Определение типа угрозы;
-- Кто его отправил;
+- Кто отправлено;
 - Отправка электронной почты (отправка инфраструктуры);
 - Были ли доставлены или заблокированы другие экземпляры электронной почты;
 - Оценка наших аналитиков;
@@ -69,7 +69,7 @@ AIR позволяет вашей группе операций безопасн
 - Сигнал передается другим платформам, например [Microsoft Defender для конечной точки.](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)
 - Будет принято решение о том, щелкнули ли пользователи какие-либо вредоносные ссылки в подозрительных сообщениях электронной почты.
 - Проверка проводится в Exchange Online Protection[(EOP)](exchange-online-protection-overview.md)и[(Microsoft Defender для Office 365),](defender-for-office-365.md)чтобы узнать, есть ли другие аналогичные сообщения, о чем сообщают пользователи.
-- Проводится проверка, чтобы узнать, был ли скомпрометирован пользователь. Эта проверка использует сигналы в Office 365, [Microsoft Cloud App Security](/cloud-app-security)и Azure Active [Directory,](/azure/active-directory)соотнося все связанные аномалии активности пользователей.
+- Проводится проверка, чтобы узнать, был ли скомпрометирован пользователь. Эта проверка использует сигналы Office 365, [Microsoft Cloud App Security](/cloud-app-security)и [Azure Active Directory,](/azure/active-directory)соотнося все связанные аномалии активности пользователей.
 
 На этапе охоты рискам и угрозам назначены различные этапы охоты.
 
@@ -89,11 +89,11 @@ AIR позволяет вашей группе операций безопасн
 
 Как и в играх, запускаемых оповещением, автоматические расследования, которые запускаются из представления в Explorer, включают корневое исследование, действия по выявлению и сопоставлению угроз, а также рекомендуемые действия по смягчению этих угроз.
 
-## <a name="example-a-security-operations-team-integrates-air-with-their-siem-using-the-office-365-management-activity-api"></a>Пример. Группа операций безопасности интегрирует AIR с их SIEM с помощью API управления Office 365
+## <a name="example-a-security-operations-team-integrates-air-with-their-siem-using-the-office-365-management-activity-api"></a>Пример. Группа операций безопасности интегрирует AIR со своим SIEM с помощью API Office 365 управления
 
-Возможности AIR в Microsoft Defender для Office [](air-view-investigation-results.md) 365 включают отчеты &, которые группы операций безопасности могут использовать для мониторинга и устранения угроз. Но вы также можете интегрировать возможности AIR с другими решениями. В качестве примеров можно привести систему управления сведениями о безопасности и событиями (SIEM), систему управления случаями или настраиваемую систему отчетности. Такие интеграции можно сделать с помощью API управления [Office 365.](/office/office-365-management-api/office-365-management-activity-api-reference)
+Возможности AIR в Microsoft Defender для [](air-view-investigation-results.md) Office 365 включают отчеты &, которые группы операций безопасности могут использовать для мониторинга и устранения угроз. Но вы также можете интегрировать возможности AIR с другими решениями. В качестве примеров можно привести систему управления сведениями о безопасности и событиями (SIEM), систему управления случаями или настраиваемую систему отчетности. Такие интеграции можно сделать с помощью [API Office 365 управления.](/office/office-365-management-api/office-365-management-activity-api-reference)
 
-Например, недавно организация установила для своей группы операций безопасности способ просмотра сообщений о фишинге пользователей, которые уже были обработаны air. Их решение интегрирует соответствующие оповещения с сервером SIEM организации и их системой управления случаями. Решение значительно сокращает количество ложных срабатывавай, чтобы их группа операций безопасности сосредоточила свое время и усилия на реальных угрозах. Дополнительные информацию об этом пользовательском решении см. в блоге Tech Community: Повышение эффективности soc с [помощью Microsoft Defender для Office 365 и API управления O365.](https://techcommunity.microsoft.com/t5/microsoft-security-and/improve-the-effectiveness-of-your-soc-with-office-365-atp-and/ba-p/1525185)
+Например, недавно организация установила для своей группы операций безопасности способ просмотра сообщений о фишинге пользователей, которые уже были обработаны air. Их решение интегрирует соответствующие оповещения с сервером SIEM организации и их системой управления случаями. Решение значительно сокращает количество ложных срабатывавай, чтобы их группа операций безопасности сосредоточила свое время и усилия на реальных угрозах. Дополнительные информацию об этом настраиваемом решении см. в блоге Tech Community: Повышение эффективности soc с Помощью Microsoft Defender для Office 365 и API управления [O365.](https://techcommunity.microsoft.com/t5/microsoft-security-and/improve-the-effectiveness-of-your-soc-with-office-365-atp-and/ba-p/1525185)
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

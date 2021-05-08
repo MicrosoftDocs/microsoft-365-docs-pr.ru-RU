@@ -19,16 +19,16 @@ ms.collection:
 search.appverid:
 - MET150
 description: Настройте Защиту от потери данных в конечной точке Microsoft 365 для отслеживания действий с файлами и применения в конечных точках защитных мер для этих файлов.
-ms.openlocfilehash: 98f4355e06ef2724ef4eb5f8d4db3dca017678c2
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 118c2f3f87df5ac9930bebd1338157d323b1e5e1
+ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50926427"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52259503"
 ---
 # <a name="get-started-with-endpoint-data-loss-prevention"></a>Начало работы с функцией защиты от потери данных в конечной точке
 
-Защита от потери данных Microsoft Endpoint (DLP конечной точки) является частью набора функций защиты от потери данных Microsoft 365 (DLP), которые можно использовать для обнаружения и защиты конфиденциальных элементов в службах Microsoft 365. Дополнительные сведения обо всех предложениях защиты от потери данных Microsoft см. в статье [Обзор политик защиты от потери данных](data-loss-prevention-policies.md). Дополнительные сведения о защите от потери данных в конечной точке см. в статье [Сведения о защите от потери данных в конечных точках](endpoint-dlp-learn-about.md)
+Защита от потери данных Microsoft Endpoint (DLP конечной точки) является частью набора функций защиты от потери данных Microsoft 365 (DLP), которые можно использовать для обнаружения и защиты конфиденциальных элементов в службах Microsoft 365. Дополнительные сведения обо всех предложениях Майкрософт по защите от потери данных см. в статье [Сведения о защите от потери данных](dlp-learn-about-dlp.md). Дополнительные сведения о защите от потери данных в конечной точке см. в статье [Сведения о защите от потери данных в конечных точках](endpoint-dlp-learn-about.md)
 
 Защита от потери данных Microsoft Endpoint позволяет отслеживать устройства с Windows 10, а также определять, когда используются и распространяются конфиденциальные элементы. Это обеспечивает необходимый уровень контроля и видимости для их правильного использования и защиты, а также для предотвращения рискованного поведения, которое может поставить их под угрозу.
 
@@ -102,7 +102,7 @@ ms.locfileid: "50926427"
     - Для Windows 10 версии 2004 — KB4568831, KB4577063
     - Для устройств с Office 2016 (но не других версий Office) — KB4577063 
 
-4. Все устройства должны быть подключены к [Azure Active Directory (Azure AD)](/azure/active-directory/devices/concept-azure-ad-join) или иметь гибридное присоединение к Azure AD.
+4. Все устройства должны быть либо подключены к [Azure Active Directory (Azure AD)](/azure/active-directory/devices/concept-azure-ad-join) или Active Directory, либо зарегистрированы в AAD, либо иметь гибридное присоединение к Azure AD.
 
 5. Установите браузер Microsoft Chromium Edge на устройство конечных точек для применения действия политики к отправке в облако. См. статью [Загрузка нового браузера Microsoft Edge на основе Chromium](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium).
 
@@ -209,7 +209,7 @@ ms.locfileid: "50926427"
 
 - [Сведения о защите от потери данных в конечной точке ](endpoint-dlp-learn-about.md)
 - [Использование защиты от потери данных в конечной точке ](endpoint-dlp-using.md)
-- [Общие сведения о защите от потери данных](data-loss-prevention-policies.md)
+- [Сведения о защите от потери данных](dlp-learn-about-dlp.md)
 - [Создание, тестирование и настройка политики защиты от потери данных](create-test-tune-dlp-policy.md)
 - [Начало работы с обозревателем действий](data-classification-activity-explorer.md)
 - [Microsoft Defender для конечной точки](/windows/security/threat-protection/)

@@ -1,5 +1,5 @@
 ---
-title: Обработка ложных сраб Microsoft 365 атыва-
+title: Адрес false positives or false negatives in Microsoft 365 Defender
 description: Было ли что-то пропущено или неправильно обнаружено air в Microsoft 365 Defender? Узнайте, как отправить ложные срабатыва или ложные отрицательные результаты в Корпорацию Майкрософт для анализа.
 keywords: автоматическое, исследование, оповещение, исправление, ложное срабатывательство, ложный отрицательный
 search.appverid: met150
@@ -21,25 +21,25 @@ ms.topic: how-to
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.technology: m365d
-ms.openlocfilehash: 727ca529dc1a16af778e01a08c9adcfe42b9b974
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 3cffa97d26b2b28de8d9e45d7030e0931a7ba072
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245472"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52269583"
 ---
-# <a name="handle-false-positivesnegatives-in-automated-investigation-and-response-capabilities"></a>Обработка ложных срабатыва-
+# <a name="address-false-positives-or-false-negatives-in-microsoft-365-defender"></a>Адрес false positives or false negatives in Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 **Область применения:**
 - Microsoft 365 Defender
 
-Ложные срабатывательство или отрицательные срабатывательство иногда может возникать с любым решением защиты от угроз. Если [автоматизированные возможности](m365d-autoir.md) расследования и реагирования в Microsoft 365 Defender пропустили или неправильно обнаружили что-то, ваша группа операций безопасности может предпринять следующие действия:
+Ложные срабатывательство или негативы могут иногда возникать с любым решением защиты от угроз. Если [автоматизированные возможности](m365d-autoir.md) расследования и реагирования в Microsoft 365 Defender пропустили или неправильно обнаружили что-то, ваша группа операций безопасности может предпринять следующие действия:
 
-- [Сообщение о ложном срабатыве или отрицательном отзыве в Корпорацию Майкрософт;](#report-a-false-positivenegative-to-microsoft-for-analysis)
-- [Настройка оповещений](#adjust-an-alert-to-prevent-false-positives-from-recurring) (при необходимости); и 
-- [Отмена действий по исправлению, принятых на устройствах.](#undo-a-remediation-action-that-was-taken-on-a-device) 
+- [Сообщение о ложном срабатыве или отрицательном срабатывии в Корпорации Майкрософт](#report-a-false-positivenegative-to-microsoft-for-analysis)
+- [Настройка оповещений](#adjust-an-alert-to-prevent-false-positives-from-recurring) (при необходимости)
+- [Отмена действий по исправлению, принятых на устройствах](#undo-a-remediation-action-that-was-taken-on-a-device)
 
 В следующих разделах описано, как выполнять эти задачи.
 
@@ -47,14 +47,14 @@ ms.locfileid: "52245472"
 
 |Элемент, пропущенный или неправильно обнаруженный |Служба  |Действия  |
 |---------|---------|---------|
-|- Сообщение электронной почты <br/>- Вложение электронной почты <br/>- URL-адрес в сообщении электронной почты<br/>- URL-адрес Office файле      |[Microsoft Defender для Office 365](/microsoft-365/security/office-365-security/defender-for-office-365)        |[Отправка подозрительных спама, фишинга, URL-адресов и файлов в Корпорацию Майкрософт для сканирования](../office-365-security/admin-submission.md)         |
+|- Сообщение электронной почты <br/>- Вложение электронной почты <br/>- URL-адрес в сообщении электронной почты<br/>- URL-адрес в файле Office      |[Microsoft Defender для Office 365](/microsoft-365/security/office-365-security/defender-for-office-365)        |[Отправка подозрительных спама, фишинга, URL-адресов и файлов в Корпорацию Майкрософт для сканирования](../office-365-security/admin-submission.md)         |
 |Файл или приложение на устройстве    |[Microsoft Defender для конечной точки](/windows/security/threat-protection)         |[Отправка файла в Корпорацию Майкрософт для анализа вредоносных программ](https://www.microsoft.com/wdsi/filesubmission)         |
 
 ## <a name="adjust-an-alert-to-prevent-false-positives-from-recurring"></a>Настройка оповещений, чтобы предотвратить повторение ложных срабатыва
 
 |Сценарий |Служба |Действия |
 |--------|--------|--------|
-|- Оповещение вызывается законным использованием <br/>- Оповещение является неточным    |[Microsoft Cloud App Security](/cloud-app-security)<br/> или <br/>[Обнаружение расширенных угроз Azure](/azure/security/fundamentals/threat-detection)         |[Управление оповещениями на Cloud App Security портале](/cloud-app-security/managing-alerts)         |
+|- Оповещение вызывается законным использованием <br/>- Оповещение является неточным    |[Microsoft Cloud App Security](/cloud-app-security)<br/> или <br/>[Защита от угроз Azure](/azure/security/fundamentals/threat-detection)         |[Управление оповещениями на портале безопасности облачных приложений](/cloud-app-security/managing-alerts)         |
 |Файл, IP-адрес, URL-адрес или домен рассматриваются как вредоносные программы на устройстве, даже если это безопасно|[Microsoft Defender для конечной точки](/windows/security/threat-protection) |[Создание настраиваемой индикаторной области с помощью действия "Разрешить"](/windows/security/threat-protection/microsoft-defender-atp/manage-indicators) |
 
 ## <a name="undo-a-remediation-action-that-was-taken-on-a-device"></a>Отмена действия по исправлению, которое было принято на устройстве

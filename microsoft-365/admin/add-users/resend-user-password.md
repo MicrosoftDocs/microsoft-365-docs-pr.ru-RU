@@ -19,13 +19,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 9b838071-94aa-4b8e-8d84-d17ece1ee951
-description: Узнайте, как сбросить пароль и отправить сообщение электронной почты новому пользователю Microsoft 365.
-ms.openlocfilehash: 2b2c8657a4bbd4745a3fee34fc259244b83640d3
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+description: Узнайте, как сбросить пароль и отправить сообщение электронной почты новому Microsoft 365 пользователю.
+ms.openlocfilehash: 17db9a61dc12c349f0aea032655b56c2a448653f
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222103"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244048"
 ---
 # <a name="resend-a-users-password---admin-help"></a>Повторная отправка пароля пользователя. Справка для администраторов
 
@@ -39,23 +39,7 @@ ms.locfileid: "51222103"
 
 ## <a name="resend-user-password"></a>Повторная отправка пароля пользователя
   
-::: moniker range="o365-worldwide"  
-  
 1. В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Активные пользователи</a>.
-
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-1. В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Активные пользователи</a>.  
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Активные пользователи</a>. 
-
-::: moniker-end
 
 2. На странице **Активные пользователи** выберите пользователя и выберите **пароль Reset**.
 
