@@ -19,12 +19,12 @@ ms.collection:
 description: Какие наиболее оптимальные методы для параметров безопасности Exchange Online Protection (EOP) и Defender для Office 365? Каковы текущие рекомендации по стандартной защите? Что следует использовать, если вы хотите быть более строгими? А какие дополнительные функции вы получите, если вы также используете Defender для Office 365?
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8ba88f9b9ebcc34e0ea146a74c01dea8f200ee0b
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 3a4447d6eaeeb907eb750d2ad668fdbb9031c28b
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206648"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274872"
 ---
 # <a name="recommended-settings-for-eop-and-microsoft-defender-for-office-365-security"></a>Рекомендуемые параметры безопасности EOP и Microsoft Defender для Office 365
 
@@ -57,6 +57,8 @@ ms.locfileid: "51206648"
 
 Чтобы создать и настроить политики борьбы со нежелательной почтой, см. в сообщении [Configure anti-spam policies in Office 365.](configure-your-spam-filter-policies.md)
 
+<br>
+
 ****
 
 |Имя функции безопасности|По умолчанию|Стандартный|Strict|Comment|
@@ -83,6 +85,8 @@ ms.locfileid: "51206648"
 Существует несколько других параметров advanced Spam Filter (ASF) в политиках по борьбе со спамом, которые находятся в процессе отката. Дополнительные сведения о сроках амортизации этих функций будут сообщены за пределами этой статьи.
 
 Рекомендуется отключить эти параметры ASF как для стандартных, так и **для** **строгих** уровней.  Дополнительные сведения о параметрах ASF см. в дополнительных настройках фильтра нежелательной почты [(ASF) в Office 365.](advanced-spam-filtering-asf-options.md)
+
+<br>
 
 ****
 
@@ -111,6 +115,8 @@ ms.locfileid: "51206648"
 
 Дополнительные сведения о ограничениях отправки по умолчанию в службе см. в [рублях Отправка ограничений.](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-1)
 
+<br>
+
 ****
 
 |Имя функции безопасности|По умолчанию|Стандартный|Strict|Comment|
@@ -125,6 +131,8 @@ ms.locfileid: "51206648"
 
 Чтобы создать и настроить политики по борьбе с вредоносными программами, см. в руб. Настройка политик по борьбе с вредоносными программами [в Office 365.](configure-anti-malware-policies.md)
 
+<br>
+
 ****
 
 |Имя функции безопасности|По умолчанию|Стандартный|Strict|Comment|
@@ -132,13 +140,15 @@ ms.locfileid: "51206648"
 |**Вы хотите уведомить получателей, если их сообщения находятся на карантине?** <p> _Действие_|Нет <p> _DeleteMessage_|Нет <p> _DeleteMessage_|Нет <p> _DeleteMessage_|Если в вложении электронной почты обнаружена вредоносная программа, сообщение находится на карантине и может быть выпущено только администратором.|
 |**Фильтр типов общих вложений** <p> _EnableFileFilter_|Выкл. <p> `$false`|Вкл. <p> `$true`|Вкл. <p> `$true`|Этот параметр карантинных сообщений, которые содержат исполняемые вложения на основе типа файла, независимо от содержимого вложения.|
 |**Вредоносные программы Zero-hour Auto Purge** <p> _ZapEnabled_|Вкл. <p> `$true`|Вкл. <p> `$true`|Вкл. <p> `$true`||
-|**Уведомление внутренних отправителей** о незаверяемом сообщении <p> _EnableInternalSenderNotifications_|Отключено <p> `$false`|Отключено <p> `$false`|Отключено <p> `$false`||
-|**Уведомление внешних отправителей** о незаверяемом сообщении <p> _EnableExternalSenderNotifications_|Отключено <p> `$false`|Отключено <p> `$false`|Отключено <p> `$false`||
+|**Уведомление внутренних отправителей** о незаверяемом сообщении <p> _EnableInternalSenderNotifications_|Отключена <p> `$false`|Отключена <p> `$false`|Отключена <p> `$false`||
+|**Уведомление внешних отправителей** о незаверяемом сообщении <p> _EnableExternalSenderNotifications_|Отключена <p> `$false`|Отключена <p> `$false`|Отключена <p> `$false`||
 |
 
 ### <a name="eop-default-anti-phishing-policy-settings"></a>Параметры политики защиты от фишинга по умолчанию EOP
 
 Дополнительные сведения об этих параметрах см. в параметрах [Spoof.](set-up-anti-phishing-policies.md#spoof-settings) Чтобы настроить эти параметры, см. в [сообщении Configure anti-phishing policies in EOP.](configure-anti-phishing-policies-eop.md)
+
+<br>
 
 ****
 
@@ -171,6 +181,8 @@ ms.locfileid: "51206648"
 
 Дополнительные сведения об этих параметрах см. в дополнительных сведениях о параметрах Impersonation в политиках защиты от фишинга в [Microsoft Defender для Office 365.](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365) Чтобы настроить эти параметры, см. в [сообщении Configure anti-phishing policies in Defender for Office 365.](configure-atp-anti-phishing-policies.md)
 
+<br>
+
 ****
 
 |Имя функции безопасности|По умолчанию|Стандартный|Strict|Comment|
@@ -194,6 +206,8 @@ ms.locfileid: "51206648"
 
 Обратите внимание, что это те же параметры, которые доступны в параметрах политики по борьбе со спамом [в EOP.](#eop-anti-spam-policy-settings)
 
+<br>
+
 ****
 
 |Имя функции безопасности|По умолчанию|Стандартный|Strict|Comment|
@@ -206,6 +220,8 @@ ms.locfileid: "51206648"
 #### <a name="advanced-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Расширенные параметры политики защиты от фишинга в Microsoft Defender для Office 365
 
 Дополнительные сведения об этом параметре см. в дополнительных пороговых значениях фишинга в политиках по борьбе с фишингом в [Microsoft Defender для Office 365.](set-up-anti-phishing-policies.md#advanced-phishing-thresholds-in-anti-phishing-policies-in-microsoft-defender-for-office-365) Чтобы настроить этот параметр, см. в перенастройке политик защиты от фишинга [в Defender for Office 365.](configure-atp-anti-phishing-policies.md)
+
+<br>
 
 ****
 
@@ -224,6 +240,8 @@ ms.locfileid: "51206648"
 
 В PowerShell для этих параметров используется комлет [Set-AtpPolicyForO365.](/powershell/module/exchange/set-atppolicyforo365)
 
+<br>
+
 ****
 
 |Имя функции безопасности|По умолчанию|Стандартный|Strict|Comment|
@@ -241,6 +259,8 @@ ms.locfileid: "51206648"
 
 > [!NOTE]
 > Как было описано выше, политика безопасных ссылок по умолчанию не существует. Значения в столбце По умолчанию — это значения по умолчанию в новых политиках безопасных ссылок, которые вы создаете.
+
+<br>
 
 ****
 
@@ -265,6 +285,8 @@ ms.locfileid: "51206648"
 
 В PowerShell для этих параметров используется комлет [Set-AtpPolicyForO365.](/powershell/module/exchange/set-atppolicyforo365)
 
+<br>
+
 ****
 
 |Имя функции безопасности|По умолчанию|Стандартный|Strict|Comment|
@@ -282,6 +304,8 @@ ms.locfileid: "51206648"
 
 > [!NOTE]
 > Как описано выше, политика безопасных вложений по умолчанию не существует. Значения в столбце По умолчанию — это значения по умолчанию в новых политиках безопасных вложений, которые вы создаете.
+
+<br>
 
 ****
 

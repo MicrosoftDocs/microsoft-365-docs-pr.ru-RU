@@ -21,12 +21,12 @@ ms.custom:
 description: Администраторы могут узнать о уведомлениях о нежелательной почте конечных пользователей для карантинов в Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9cff91be399bd98eb7e6e5a2a6d91a4a8bb602ec
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 3f5eafbb51cd0ff32c69fa0cff85729ef95d3d1f
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206080"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274992"
 ---
 # <a name="use-user-spam-notifications-to-release-and-report-quarantined-messages"></a>Использование уведомлений о нежелательной почте пользователей для выпуска и сообщения с карантином
 
@@ -56,7 +56,7 @@ ms.locfileid: "51206080"
 
 - **Дата.** Дата и время (в UTC), когда сообщение было на карантине.
 
-- **Блок отправитель.** Щелкните эту ссылку, чтобы добавить отправитель в список заблокированных отправителей. Дополнительные сведения см. [в сообщении Block a mail sender.](https://support.microsoft.com/office/b29fd867-cac9-40d8-aed1-659e06a706e4)
+- **Блок отправитель.** Щелкните эту ссылку, чтобы добавить отправитель в список заблокированных отправителей в почтовом ящике. Дополнительные сведения см. [в сообщении Block a mail sender.](https://support.microsoft.com/office/b29fd867-cac9-40d8-aed1-659e06a706e4)
 
 - **Выпуск.** Для сообщений о нежелательной почте (не фишинга) вы можете освободить это сообщение здесь, не заехав на карантин центра & соответствия требованиям.
 

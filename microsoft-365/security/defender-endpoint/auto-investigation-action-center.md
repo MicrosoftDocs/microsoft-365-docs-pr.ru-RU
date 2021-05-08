@@ -7,8 +7,8 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: deniseb
-author: denisebmsft
+author: JoeDavies-MSFT
+ms.author: josephd
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -19,12 +19,12 @@ ms.topic: how-to
 ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs
 ms.date: 01/28/2021
 ms.technology: mde
-ms.openlocfilehash: f8dd48364f60da789ac95638018245cf46434822
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: e51cc1d613e6f9e7ab96653692362ed7fe239e3e
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51197641"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274848"
 ---
 # <a name="visit-the-action-center-to-see-remediation-actions"></a>Посетите центр действий, чтобы увидеть действия по исправлению
 
@@ -53,7 +53,7 @@ ms.locfileid: "51197641"
 Единый центр действий объединяет действия по исправлению в Defender для конечной точки и Defender для Office 365. Он определяет общий язык для всех действий по исправлению и предоставляет унифицированный опыт исследования. 
 
 Вы можете использовать единый центр действий, если у вас есть соответствующие разрешения и одна или несколько следующих подписок:
-- [Defender для конечной точки](microsoft-defender-endpoint.md)
+- [Защитник для конечной точки](microsoft-defender-endpoint.md)
 - [Defender для Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)
 - [Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection) 
 
@@ -82,7 +82,7 @@ ms.locfileid: "51197641"
 - Выберите столбцы, которые необходимо просмотреть.
 - Укажите, сколько элементов необходимо включить на каждой странице данных.
 - Используйте фильтры для просмотра только элементов, которые необходимо просмотреть.
-- Выберите **экспорт** для экспорта результатов в файл csv. 
+- Выберите **Экспорт** для экспорта результатов в .csv файл. 
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
@@ -91,4 +91,4 @@ ms.locfileid: "51197641"
  
 ## <a name="see-also"></a>См. также
 
-- [Устранение ложных срабатыва-минусов в Microsoft Defender для конечной точки](defender-endpoint-false-positives-negatives.md)
+- [Устранение ложных положительных/отрицательных срабатываний в Microsoft Defender для конечной точки](defender-endpoint-false-positives-negatives.md)

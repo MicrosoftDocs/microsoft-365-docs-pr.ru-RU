@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: e8084fab434246a5c9f12af40872ade66e6fa163
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 1f8428c2995eec2dece290049eda67a3683b4c1e
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934265"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244984"
 ---
 # <a name="troubleshoot-license-issues-for-microsoft-defender-for-endpoint-on-macos"></a>Устранение неполадок с лицензиями для Microsoft Defender для конечной точки на macOS
 
@@ -46,15 +46,14 @@ ms.locfileid: "51934265"
 
 Лицензия не найдена
 
-Похоже, у вашей организации нет лицензии на подписку microsoft 365 Enterprise.
+Похоже, что у организации нет лицензии на Microsoft 365 корпоративный подписки.
 
 Обратитесь к системному администратору.
 
 **Причина:** 
 
-Вы развернули и/или установили microsoft Defender для конечной точки на пакете macOS ("Пакет установки загрузки"), но, возможно, вы запустите сценарий конфигурации ("Скачайте пакет onboarding").
+Вы развернули и/или установили Microsoft Defender для конечной точки для пакета macOS ("Пакет установки загрузки"), но, возможно, вы запустите сценарий конфигурации ("Скачайте пакет onboarding"), либо не назначите пользователю лицензию.
 
 **Решение:**
 
 Следуйте инструкциям MicrosoftDefenderATPOnboardingMacOs.py, задокументированным здесь: [конфигурация клиента](mac-install-manually.md#client-configuration)
-

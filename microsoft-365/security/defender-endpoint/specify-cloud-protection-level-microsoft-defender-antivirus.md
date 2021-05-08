@@ -1,13 +1,13 @@
 ---
-title: Укажите уровень облачной защиты антивируса Microsoft Defender
-description: Установите уровень облачной защиты для антивируса Microsoft Defender.
-keywords: Антивирус Microsoft Defender, антивирусные программы, безопасность, защита, облако, агрессивность, уровень защиты
+title: Укажите уровень облачной защиты для антивирусная программа в Microsoft Defender
+description: Установите уровень облачной защиты для антивирусная программа в Microsoft Defender.
+keywords: антивирусная программа в Microsoft Defender, защита, защита, облачность, агрессивность, уровень защиты
 search.product: eADQiWindows 10XVcnh
 ms.pagetype: security
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
-localization_priority: normal
+localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.date: 10/26/2020
@@ -15,12 +15,13 @@ ms.reviewer: ''
 manager: dansimp
 ms.custom: nextgen
 ms.technology: mde
-ms.openlocfilehash: a0c73c8dd341c4940e3eddd4ede75240e57502d6
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.topic: article
+ms.openlocfilehash: f441b1bd444cd70fb5b00dfcb5ebcddadf62b220
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51764125"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274908"
 ---
 # <a name="specify-the-cloud-delivered-protection-level"></a>Указать уровень облачной защиты
 
@@ -31,19 +32,19 @@ ms.locfileid: "51764125"
 
 - [Microsoft Defender для конечной точки](/microsoft-365/security/defender-endpoint/)
 
-Уровень облачной защиты, предлагаемый антивирусом Microsoft Defender, можно указать с помощью Microsoft Endpoint Manager (рекомендуется) или групповой политики.
+Вы можете указать уровень облачной защиты, предлагаемый антивирусная программа в Microsoft Defender с помощью Microsoft Endpoint Manager (рекомендуется) или групповой политики.
 
 > [!TIP]
-> Облачная защита — это не просто защита файлов, хранимых в облаке. Облачная служба антивирусных программ Microsoft Defender — это механизм доставки обновленной защиты на сеть и устройства (также называемые конечными точками). Облачная защита с помощью антивируса Microsoft Defender использует распределенные ресурсы и машинное обучение для обеспечения защиты конечных точек со скоростью, значительно более быстрой, чем традиционные обновления сведений о безопасности. Microsoft Intune и Microsoft Endpoint Manager теперь являются частью [Microsoft Endpoint Manager.](/mem/endpoint-manager-overview) 
+> Облачная защита — это не просто защита файлов, хранимых в облаке. Облачная антивирусная программа в Microsoft Defender — это механизм доставки обновленной защиты на сеть и устройства (также называемые конечными точками). Облачная защита с антивирусная программа в Microsoft Defender использует распределенные ресурсы и машинное обучение для обеспечения защиты конечных точек со скоростью, значительно более быстрой, чем традиционные обновления сведений о безопасности. Microsoft Intune и Microsoft Endpoint Manager теперь являются частью [Microsoft Endpoint Manager](/mem/endpoint-manager-overview). 
 
 
 ## <a name="use-microsoft-endpoint-manager-to-specify-the-level-of-cloud-delivered-protection"></a>Используйте Microsoft Endpoint Manager, чтобы указать уровень облачной защиты
 
-1. Перейдите в центр администрирования конечной точки Microsoft Manager [https://endpoint.microsoft.com](https://endpoint.microsoft.com) () и войдите.
+1. Перейдите в центр администрирования Microsoft Endpoint Manager [https://endpoint.microsoft.com](https://endpoint.microsoft.com) () и войдите.
 
 2. Выберите **антивирус безопасности**  >  **конечных точек**.
 
-3. Выберите антивирусный профиль. (Если у вас еще нет его или вы хотите создать новый профиль, см. параметры ограничения устройств в [Microsoft Intune.](/intune/device-restrictions-configure)
+3. Выберите антивирусный профиль. (Если у вас еще нет его или вы хотите создать новый [профиль,](/intune/device-restrictions-configure)см. параметры ограничения устройств в Microsoft Intune .
 
 4. Выбор **свойств**. Затем, рядом с **настройками конфигурации,** выберите **Изменить**.
 
@@ -57,7 +58,7 @@ ms.locfileid: "51764125"
 
 > [!TIP]
 > Нужна помощь? См. следующие ресурсы:
-> - [Настройка защиты конечных точек](/mem/configmgr/protect/deploy-use/endpoint-protection-configure)
+> - [Настройка Endpoint Protection](/mem/configmgr/protect/deploy-use/endpoint-protection-configure)
 > - [Добавление параметров защиты конечных точек в Intune](/mem/intune/protect/endpoint-protection-configure)
   
 
@@ -69,7 +70,7 @@ ms.locfileid: "51764125"
 
 3.  В **редакторе управления групповой политикой** перейдите к **шаблонам администрирования конфигурации**  >  **компьютеров.**
 
-4.  Расширь дерево до **компонентов Windows** Microsoft  >  **Defender Antivirus**  >  **MpEngine**.
+4.  Расширь **дерево, Windows компоненты**  >  **антивирусная программа в Microsoft Defender**  >  **MpEngine**.
 
 5.  Дважды щелкните **параметр Выберите параметр уровня облачной защиты** и установите его **включено.** Выберите уровень защиты:
     - **Уровень блокировки по** умолчанию обеспечивает сильное обнаружение без увеличения риска обнаружения законных файлов.
@@ -86,10 +87,10 @@ ms.locfileid: "51764125"
 7. Развертывание обновленного объекта групповой политики. См. [консоль управления групповой политикой](/windows/win32/srvnodes/group-policy)
 
 > [!TIP]
-> Вы используете объекты групповой политики в помещениях? Узнайте, как они переводятся в облаке. [Анализ объектов локальной групповой политики с помощью аналитики групповой](/mem/intune/configuration/group-policy-analytics)политики в Microsoft Endpoint Manager . 
+> Вы используете объекты групповой политики в помещениях? Узнайте, как они переводятся в облаке. [Анализ объектов локальной групповой политики](/mem/intune/configuration/group-policy-analytics)с помощью аналитики групповой политики в Microsoft Endpoint Manager - Preview . 
   
 ## <a name="related-articles"></a>Статьи по теме
 
-- [Антивирус Microsoft Defender в Windows 10](microsoft-defender-antivirus-in-windows-10.md)
+- [антивирусная программа в Microsoft Defender в Windows 10](microsoft-defender-antivirus-in-windows-10.md)
 - [Включить облачную защиту](enable-cloud-protection-microsoft-defender-antivirus.md)
 - [Создание и развертывание политик противомалярийных программ: служба облачной защиты](/configmgr/protect/deploy-use/endpoint-antimalware-policies#cloud-protection-service)

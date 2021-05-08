@@ -3,8 +3,8 @@ title: Действия по исправлению в Microsoft Defender для
 keywords: AIR, autoIR, Microsoft Defender for Endpoint, automated, investigation, response, remediation, threats, advanced, threat, threat, protection
 f1.keywords:
 - NOCSH
-ms.author: deniseb
-author: denisebmsft
+author: JoeDavies-MSFT
+ms.author: josephd
 manager: dansimp
 audience: ITPro
 ms.topic: article
@@ -21,12 +21,12 @@ ms.custom:
 - air
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ffaa7c46d81070a6443bf2233bbfdfd741ceb915
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: 3be0a270bff2d75623fe5e0d6e004dd82aabf1f4
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52114334"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52275100"
 ---
 # <a name="remediation-actions-in-microsoft-defender-for-office-365"></a>Действия по исправлению в Microsoft Defender для Office 365
 
@@ -51,7 +51,7 @@ ms.locfileid: "52114334"
 
 Microsoft Defender для Office 365 включает действия по исправлению последствий для устранения различных угроз. Автоматические расследования часто приводит к одному или несколько действий по исправлению последствий для проверки и утверждения. В некоторых случаях автоматическое расследование не приводит к определенным действиям по исправлению. Чтобы дополнительно изучить и принять соответствующие меры, используйте руководство в следующей таблице.
 
-|Category|Угроза/риск|Действие по исправлению (s)|
+|Категория|Угроза/риск|Действие по исправлению (s)|
 |:---|:---|:---|
 |Электронная почта|Вредоносные программы|Soft delete email/cluster <p> Если несколько сообщений электронной почты в кластере содержат вредоносные программы, кластер считается вредоносным.|
 |Электронная почта|Вредоносный URL-адрес<br/>(Вредоносный URL-адрес был обнаружен Сейф [ссылками.)](safe-links.md)|Soft delete email/cluster <br/>Блокировка URL-адреса (проверка времени щелчка мыши)<p> Электронная почта, содержаная вредоносный URL-адрес, считается вредоносной.|

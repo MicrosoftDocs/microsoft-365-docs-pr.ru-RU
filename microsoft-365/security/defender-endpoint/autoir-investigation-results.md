@@ -10,8 +10,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: deniseb
-author: denisebmsft
+author: JoeDavies-MSFT
+ms.author: josephd
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
-ms.openlocfilehash: 8ecf39090d368427c103c7ec78e22bc13f7c339f
-ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
+ms.openlocfilehash: c593dfe384649b1599d5c0bab8fa6a8204d105dc
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51591772"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274836"
 ---
 # <a name="view-the-details-and-results-of-an-automated-investigation"></a>Просмотр сведений и результатов автоматического исследования
 
@@ -86,7 +86,7 @@ ms.locfileid: "51591772"
 | **Alerts**    | Содержит список оповещений, связанных с исследованием. Оповещения могут исходить из функций защиты от угроз на устройстве пользователя, в приложениях Office, cloud App Security и других функций Защитника Microsoft 365.|
 | **Устройства** | Списки устройств, включенных в исследование, а также их уровень исправлений. (Уровни восстановления соответствуют уровню [автоматизации для групп устройств.)](automation-levels.md) |
 | **Почтовые ящики** |Списки почтовых ящиков, на которые влияют обнаруженные угрозы.  |
-| **пользователи**;  | Списки учетных записей пользователей, на которые влияют обнаруженные угрозы. |
+| **Пользователи**  | Списки учетных записей пользователей, на которые влияют обнаруженные угрозы. |
 | **Доказательства** | Списки доказательств, поднятые оповещений и расследований. Включает приговоры *(вредоносные,* *подозрительные* или *не* найденные угрозы) и состояние исправлений. |
 | **Entities**  | Содержит сведения о каждой анализируемой сущности, включая вердикт для каждого типа сущности *(вредоносный,* подозрительный или не *найденный).*|
 |**Log**    | Предоставляет хронологическое, подробное представление всех действий по расследованию, принятых после срабатывного оповещения.|

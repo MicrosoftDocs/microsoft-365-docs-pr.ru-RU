@@ -8,8 +8,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: deniseb
-author: denisebmsft
+author: JoeDavies-MSFT
+ms.author: josephd
 ms.prod: m365-security
 ms.date: 01/29/2021
 localization_priority: Normal
@@ -22,12 +22,12 @@ ms.topic: how-to
 ms.custom:
 - autoir
 ms.technology: mdo
-ms.openlocfilehash: 4476578939f2ece90c638c919c7e4d134ea2d9ec
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 036ef1c97788f310c5b906ae5f80076ca2359cdb
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206847"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52275088"
 ---
 # <a name="how-to-report-false-positivesnegatives-in-automated-investigation-and-response-capabilities"></a>Как сообщать о ложных срабатывах и отрицательных результатах в возможностях автоматического расследования и ответа
 
@@ -37,7 +37,7 @@ ms.locfileid: "51206847"
 - [Microsoft Defender для Office 365 (план 2)](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-Если функции автоматического расследования [и реагирования (AIR) в Office 365](automated-investigation-response-office.md) что-то пропустили или неправильно обнаружили, для исправления этого могут предпринять действия, которые может предпринять ваша группа по работе с безопасностью. Такие действия включают:
+Если возможности автоматического расследования и реагирования [(AIR)](automated-investigation-response-office.md) в Office 365 что-то пропустили или неправильно обнаружили, есть действия, которые может предпринять ваша группа операций безопасности, чтобы исправить это. Такие действия включают:
 
 - [Сообщение о ложном срабатыве или отрицательном срабатывии в Корпорации Майкрософт;](#report-a-false-positivenegative-to-microsoft-for-analysis)
 - [Настройка оповещений](#adjust-an-alert-to-prevent-false-positives-from-recurring) (при необходимости); и
@@ -47,15 +47,15 @@ ms.locfileid: "51206847"
 
 ## <a name="report-a-false-positivenegative-to-microsoft-for-analysis"></a>Сообщение о ложном срабатыве или отрицательном сообщении в Корпорацию Майкрософт для анализа
 
-Если AIR в Microsoft Defender для Office 365 пропустил сообщение электронной почты, вложение электронной почты, URL-адрес в сообщении электронной почты или URL-адрес в файле Office, вы можете отправить подозрительный спам, фишинг, URL-адреса и файлы в Microsoft для сканирования [Office 365](admin-submission.md).
+Если AIR в Microsoft Defender для Office 365 пропустил сообщение электронной почты, вложение электронной почты, URL-адрес в сообщении электронной почты или URL-адрес в файле Office, вы можете отправить подозрительный [спам, фишинг,](admin-submission.md)URL-адреса и файлы в Корпорацию Майкрософт для Office 365 сканирования .
 
 Вы также можете [отправить файл в Корпорацию Майкрософт для анализа вредоносных программ.](https://www.microsoft.com/wdsi/filesubmission)
 
 ## <a name="adjust-an-alert-to-prevent-false-positives-from-recurring"></a>Настройка оповещений, чтобы предотвратить повторение ложных срабатыва
 
-Если оповещение вызывается законным использованием или оповещение является неточным, вы можете управлять оповещениями на портале [безопасности облачных приложений.](/cloud-app-security/managing-alerts)
+Если оповещение вызывается законным использованием или оповещение является неточным, вы можете управлять оповещениями на Cloud App Security [портале](/cloud-app-security/managing-alerts).
 
-Если ваша организация использует [Microsoft Defender для](/windows/security/threat-protection) конечной точки в дополнение к Office 365, а файл, IP-адрес, URL-адрес или домен рассматриваются как вредоносные программы на устройстве, даже если это безопасно, вы можете создать настраиваемый индикатор с действием ["Разрешить"](/windows/security/threat-protection/microsoft-defender-atp/manage-indicators)для вашего устройства .
+Если ваша организация использует [Microsoft Defender](/windows/security/threat-protection) для конечной точки в дополнение к Office 365, а файл, IP-адрес, URL-адрес или домен рассматриваются как вредоносные программы на устройстве, даже если это безопасно, вы можете создать настраиваемый индикатор с действием ["Разрешить"](/windows/security/threat-protection/microsoft-defender-atp/manage-indicators)для вашего устройства .
 
 ## <a name="undo-a-remediation-action"></a>Отмена действия по исправлению
 
@@ -78,7 +78,7 @@ ms.locfileid: "51206847"
 
 В центре действий можно увидеть действия по исправлению, которые были приняты и потенциально отменяют действие.
 
-1. Перейдите в центр безопасности Microsoft 365 ( <https://security.microsoft.com> ).
+1. Перейдите в центр Microsoft 365 безопасности ( <https://security.microsoft.com> ).
 2. В области навигации выберите **Центр действий.**
 3. Выберите **вкладку История,** чтобы просмотреть список завершенных действий.
 4. Выберите элемент. Откроется его поле для вылетов.

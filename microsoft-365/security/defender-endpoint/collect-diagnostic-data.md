@@ -1,13 +1,13 @@
 ---
-title: Сбор диагностических данных антивируса Microsoft Defender
-description: Используйте средство для сбора данных для устранения неполадок антивируса Microsoft Defender
+title: Сбор диагностических данных антивирусная программа в Microsoft Defender
+description: Используйте средство для сбора данных для устранения антивирусная программа в Microsoft Defender
 keywords: устранение неполадок, ошибка, исправление, обновление соответствия требованиям, oms, монитор, отчет, Microsoft Defender av, объект групповой политики, параметр, диагностические данные
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-localization_priority: normal
+localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -15,12 +15,13 @@ ms.date: 06/29/2020
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: d74a8921af677f6ed66580bd00830440d59cf1aa
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.topic: article
+ms.openlocfilehash: ccf6da0e1bc91a29865868305b5333f7ef9c47cc
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51764727"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274788"
 ---
 # <a name="collect-microsoft-defender-av-diagnostic-data"></a>Сбор диагностических данных Microsoft Defender AV
 
@@ -36,7 +37,7 @@ ms.locfileid: "51764727"
 > [!NOTE]
 > В рамках процесса расследования или ответа можно собрать пакет исследований с устройства. Вот как: [сбор пакета исследований с устройств.](/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#collect-investigation-package-from-devices)
 
-По крайней мере на двух устройствах, столкнующихся с одной и той же проблемой, получите диагностический файл .cab, предприняв следующие действия:
+По крайней мере на двух устройствах, столкнующихся с одной и той же проблемой, .cab диагностический файл с помощью следующих действий:
 
 1. Откройте версию командной подсказки на уровне администратора следующим образом:
 
@@ -57,12 +58,12 @@ ms.locfileid: "51764727"
     mpcmdrun.exe -GetFiles
     ```
   
-4. Создается файл .cab, содержащий различные диагностические журналы. Расположение файла будет указано в выходе в командной подсказке. По умолчанию расположение `C:\ProgramData\Microsoft\Microsoft Defender\Support\MpSupportFiles.cab` является .
+4. Будет .cab файл, содержащий различные диагностические журналы. Расположение файла будет указано в выходе в командной подсказке. По умолчанию расположение `C:\ProgramData\Microsoft\Microsoft Defender\Support\MpSupportFiles.cab` является .
 
 > [!NOTE]
 > Чтобы перенаправить файл кабины на другой путь или долю UNC, используйте следующую команду: `mpcmdrun.exe -GetFiles -SupportLogLocation <path>`  <br/>Дополнительные сведения см. в [раздел Перенаправление диагностических данных в раздел UNC.](#redirect-diagnostic-data-to-a-unc-share)
 
-5. Скопируйте эти файлы .cab в расположение, к нему можно получить доступ с помощью службы поддержки Майкрософт. Примером может быть защищенная паролем папка OneDrive, которую вы можете поделиться с нами.
+5. Скопируйте .cab файлы в расположение, к нему можно получить доступ с помощью службы поддержки Майкрософт. Примером может быть защищенная паролем папка OneDrive которую вы можете поделиться с нами.
 
 > [!NOTE]
 >Если у вас возникла проблема с соответствием требованиям обновления, отправьте сообщение электронной почты с помощью шаблона поддержки обновления и заполните шаблон следующими сведениями: <a href="mailto:ucsupport@microsoft.com?subject=WDAV assessment issue&body=I%20am%20encountering%20the%20following%20issue%20when%20using%20Windows%20Defender%20AV%20in%20Update%20Compliance%3a%20%0d%0aI%20have%20provided%20at%20least%202%20support%20.cab%20files%20at%20the%20following%20location%3a%20%3Caccessible%20share%2c%20including%20access%20details%20such%20as%20password%3E%0d%0aMy%20OMS%20workspace%20ID%20is%3a%20%0d%0aPlease%20contact%20me%20at%3a"></a>
@@ -102,7 +103,7 @@ mpcmdrun.exe -GetFiles -SupportLogLocation <path>
 
 ## <a name="specify-location-where-diagnostic-data-is-created"></a>Укажите расположение, где создаются диагностические данные
 
-Вы также можете указать, где будет создан диагностический файл .cab с помощью объекта групповой политики (GPO). 
+Вы также можете указать, .cab диагностический файл будет создан с помощью объекта групповой политики (GPO). 
 
 1. Откройте редактор локальной групповой политики и найдите GPO SupportLogLocation по: `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\SupportLogLocation`
    
@@ -119,4 +120,4 @@ mpcmdrun.exe -GetFiles -SupportLogLocation <path>
 
 ## <a name="see-also"></a>См. также
 
-- [Устранение неполадок в антивирусной отчетности Microsoft Defender](troubleshoot-reporting.md)
+- [Устранение антивирусная программа в Microsoft Defender отчетов](troubleshoot-reporting.md)

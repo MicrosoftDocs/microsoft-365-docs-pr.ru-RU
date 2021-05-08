@@ -8,16 +8,16 @@ manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.collection: Adm_Commerce_Pay
+ms.custom: CommercePayInfo
 localization_priority: Normal
 description: Узнайте, куда отправить платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 2b33ec0e9bdcdb8a82ae5e5518cb8b2a77a354b5
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 06c8b274b1058564d142b9cb08cee89cec00e9c2
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50543332"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52273372"
 ---
 # <a name="payment-information-for-luxembourg"></a>Сведения об оплате для Люксембурга
 

@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: В этой статье определяются поля метаданных для документов в наборе обзоров в случае, Advanced eDiscovery в Microsoft 365.
-ms.openlocfilehash: e801f60b69c796dfcd2cb6d83cc4fbc721dc7658
-ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
+ms.openlocfilehash: 77df40f4922718a7ed30431b0c1bd91f5c075425
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/06/2021
-ms.locfileid: "52259467"
+ms.locfileid: "52244604"
 ---
 # <a name="document-metadata-fields-in-advanced-ediscovery"></a>Поля метаданных документов в Advanced eDiscovery
 
@@ -112,14 +112,14 @@ ms.locfileid: "52259467"
 |Класс элемента|ItemClass|Item_class|Класс item, поставляемого сервером exchange; например, **IPM. Примечание**|
 |Дата последнего изменения|LastModifiedDate|Doc_date_modified|Последняя измененная дата из метаданных документов.|
 |Load ID|LoadId|Load_ID|Id набора нагрузки, в котором элемент был добавлен в набор отзывов.|
-|Location|Location|Location|Строка, которая указывает тип расположения, из который были из него были задюс-ные документы.<br /><br />**Импортируемые** данные — не Office 365 данных<br />**Teams** - Microsoft Teams<br />**Exchange** — Exchange почтовых ящиков<br />**SharePoint** - SharePoint сайтов<br />**OneDrive** - OneDrive учетные записи|
+|Расположение|Расположение|Расположение|Строка, которая указывает тип расположения, из который были из него были задюс-ные документы.<br /><br />**Импортируемые** данные — не Office 365 данных<br />**Teams** - Microsoft Teams<br />**Exchange** — Exchange почтовых ящиков<br />**SharePoint** - SharePoint сайтов<br />**OneDrive** - OneDrive учетные записи|
 |Имя расположения|LocationName|Location_name|Строка, определяемая источником элемента. Для exchange это будет SMTP-адрес почтового ящика; для SharePoint OneDrive и OneDrive URL-адрес для коллекции сайтов.|
 |||Marked_as_pivot|Этот файл является поворотным в ближайшем дублирующем наборе.|
 |Помечено как представительное|MarkAsRepresentative||Один документ из каждого набора точных дубликатов помечен как представители.|
 |Дата окончания собрания|MeetingEndDate|Meeting_end_date|Дата окончания собрания для собраний.|
 |Дата начала собрания|MeetingStartDate|Meeting_start_date|Дата начала собрания для собраний.|
 |Тип сообщения|MessageKind|Message_kind|Тип сообщения для поиска. Возможные значения: контакты документы электронной почты externaldata факсы im журналы собраний **<br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> microsoftteams** (возвращает элементы из чатов, собраний и вызовов в Microsoft Teams) отмечает сообщения **<br /> <br /> <br /> rssfeeds <br /> <br />** задач голосовой почты| 
-|Современный родительский id вложения||ModernAttachment_ParentId|Неоменяемый id родительского документа.|
+|ModernAttachment_ParentId||ModernAttachment_ParentId||
 |Расширение native|NativeExtension|Native_extension|Родной расширение элемента.|
 |Имя файла native|NativeFileName|Native_file_name|Имя родного файла элемента.|
 |NativeMD5||Native_MD5|AD5 hash (128-bit hash value) of the file stream.|
@@ -164,7 +164,6 @@ ms.locfileid: "52259467"
 |Title|Title|Doc_title|Название из метаданных документа.|
 |To|To|Email_to|Поле для типов сообщений. Формат **displayName \<SmtpAddress>**|
 |Уникальный в наборе электронной почты|UniqueInEmailSet||**False,** если в наборе электронной почты есть дубликат вложения.|
-|ID группы версии||Version_Group_Id|Группировать различные версии одного и того же документа.|
 |Исправлено|WasRemediated|Was_Remediated|**True,** если элемент был исправлен, в противном случае **False**.|
 |Word count|WordCount|Word_count|Количество слов в элементе.|
 |||||

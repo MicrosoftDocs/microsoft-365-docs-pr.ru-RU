@@ -1,28 +1,29 @@
 ---
-title: Настройка исключений антивируса Microsoft Defender на Windows Server
+title: Настройка антивирусная программа в Microsoft Defender исключений на Windows Server
 ms.reviewer: ''
 manager: dansimp
-description: Windows Server включает автоматические исключения, основанные на роли сервера. Можно также добавить настраиваемые исключения.
-keywords: исключения, сервер, автоматические исключения, автоматические, пользовательские, сканы, антивирус Microsoft Defender
+description: Windows Сервер включает автоматические исключения, основанные на роли сервера. Можно также добавить настраиваемые исключения.
+keywords: исключения, сервер, автоматические исключения, автоматические, настраиваемые, сканы, антивирусная программа в Microsoft Defender
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-localization_priority: normal
+localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
 ms.technology: mde
 ms.date: 02/10/2021
-ms.openlocfilehash: 507edb980f671b2f39403cc41e540150f5e82891
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.topic: article
+ms.openlocfilehash: f82da8eb0dcba39404c2b7f191e166aa78357cee
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51764345"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274764"
 ---
-# <a name="configure-microsoft-defender-antivirus-exclusions-on-windows-server"></a>Настройка исключений антивируса Microsoft Defender на Windows Server
+# <a name="configure-microsoft-defender-antivirus-exclusions-on-windows-server"></a>Настройка антивирусная программа в Microsoft Defender исключений на Windows Server
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -30,7 +31,7 @@ ms.locfileid: "51764345"
 
 - [Microsoft Defender для конечной точки](/microsoft-365/security/defender-endpoint/)
 
-Антивирус Microsoft Defender на Windows Server 2016 и Windows Server 2019 автоматически регистрируется в определенных исключениях, определенных определенной ролью сервера. Эти исключения не отображаются в стандартных списках исключений, которые отображаются в [приложении Windows Security.](microsoft-defender-security-center-antivirus.md)
+антивирусная программа в Microsoft Defender на Windows Server 2016 и Windows Server 2019 автоматически регистрируется в определенных исключениях, определенных указанной ролью сервера. Эти исключения не отображаются в стандартных списках исключений, которые отображаются в [Безопасность Windows приложении.](microsoft-defender-security-center-antivirus.md)
 
 > [!NOTE]
 > Автоматические исключения применяются только к проверке защиты в режиме реального времени (RTP). Автоматические исключения не будут соблюдаться во время проверки full/quick или on-demand.
@@ -46,11 +47,11 @@ ms.locfileid: "51764345"
 - Пользовательские исключения имеют приоритет над автоматическими исключениями.
 - Автоматические исключения применяются только к проверке защиты в режиме реального времени (RTP). Автоматические исключения не будут соблюдаться во время проверки full/quick или on-demand.
 - Настраиваемые и дублирующиеся исключения не конфликтуют с автоматическими исключениями.
-- Антивирус Microsoft Defender использует средства обслуживания и управления изображениями развертывания (DISM) для определения ролей, установленных на компьютере.
+- антивирусная программа в Microsoft Defender средства обслуживания и управления изображениями развертывания (DISM) для определения ролей, установленных на компьютере.
 
 ## <a name="opt-out-of-automatic-exclusions"></a>Отказ от автоматических исключений
 
-В Windows Server 2016 и Windows Server 2019 заранее заданные исключения, доставленные обновлениями разведки безопасности, исключают только пути по умолчанию для роли или функции. Если вы установили роль или функцию на настраиваемом пути или хотите вручную управлять набором исключений, не забудьте отказаться от автоматических исключений, доставленных в обновлениях разведки безопасности. Но помните, что автоматически доставляемые исключения оптимизированы для ролей Windows Server 2016 и 2019. Рекомендации [по определению исключений](configure-exclusions-microsoft-defender-antivirus.md#recommendations-for-defining-exclusions) перед определением списков исключений.
+В Windows Server 2016 и Windows Server 2019 предопределяемые исключения, доставленные обновлениями разведки безопасности, исключают только пути по умолчанию для роли или функции. Если вы установили роль или функцию на настраиваемом пути или хотите вручную управлять набором исключений, не забудьте отказаться от автоматических исключений, доставленных в обновлениях разведки безопасности. Но помните, что автоматически доставляемые исключения оптимизируются для ролей Windows Server 2016 и 2019 года. См. [Рекомендации для определения исключений](configure-exclusions-microsoft-defender-antivirus.md#recommendations-for-defining-exclusions) перед определением списков исключений.
 
 > [!WARNING]
 > Отказ от автоматических исключений может отрицательно сказаться на производительности или привести к повреждениям данных. Автоматически доставляемые исключения оптимизированы для ролей Windows Server 2016 и Windows Server 2019.
@@ -61,12 +62,12 @@ ms.locfileid: "51764345"
 
 ### <a name="use-group-policy-to-disable-the-auto-exclusions-list-on-windows-server-2016-and-windows-server-2019"></a>Использование групповой политики для отключения списка автоматических исключений на Windows Server 2016 и Windows Server 2019
 
-1. На компьютере управления групповой политикой откройте консоль [управления групповой политикой.](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc725752(v=ws.11)) Щелкните правой кнопкой мыши объект групповой политики, который необходимо настроить, а затем нажмите **кнопку Изменить**.
+1. На компьютере управления групповыми политиками откройте [консоль управления групповыми политиками](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc725752(v=ws.11)). Щелкните правой кнопкой мыши объект групповой политики, который необходимо настроить, а затем нажмите **кнопку Изменить**.
 2. В **редакторе управления групповой политикой** перейдите к **конфигурации компьютера** и нажмите **административные шаблоны.**
-3. Расширь дерево до **компонентов**  >  **Антивирусного исключения Microsoft Defender**  >  **Microsoft** Defender.
+3. Расширь **дерево до Windows компонентов**  >  **антивирусная программа в Microsoft Defender**  >  **исключений.**
 4. Дважды **щелкните Кнопку Отключение автоматических исключений** и установите параметр **Включено**. Нажмите кнопку **ОК**. 
 
-### <a name="use-powershell-cmdlets-to-disable-the-auto-exclusions-list-on-windows-server-2016-and-2019"></a>Чтобы отключить список автоматических исключений на Windows Server 2016 и 2019, используйте cmdlets PowerShell
+### <a name="use-powershell-cmdlets-to-disable-the-auto-exclusions-list-on-windows-server-2016-and-2019"></a>Чтобы отключить список автоматических исключений на Windows Server 2016 2019 г., используйте cmdlets PowerShell
 
 Используйте следующие cmdlets:
 
@@ -76,10 +77,10 @@ Set-MpPreference -DisableAutoExclusions $true
 
 Для получения дополнительных сведений ознакомьтесь с приведенными ниже ресурсами.
 
-- [Используйте cmdlets PowerShell для](use-powershell-cmdlets-microsoft-defender-antivirus.md)настройки и запуска антивируса Microsoft Defender.
-- [Используйте PowerShell с антивирусом Microsoft Defender.](/powershell/module/defender/)
+- [Используйте cmdlets PowerShell](use-powershell-cmdlets-microsoft-defender-antivirus.md)для настройки и запуска антивирусная программа в Microsoft Defender.
+- [Использование PowerShell с антивирусная программа в Microsoft Defender](/powershell/module/defender/).
 
-### <a name="use-windows-management-instruction-wmi-to-disable-the-auto-exclusions-list-on-windows-server-2016-and-windows-server-2019"></a>Использование инструкции по управлению Windows (WMI) для отключения списка автоматических исключений на Windows Server 2016 и Windows Server 2019
+### <a name="use-windows-management-instruction-wmi-to-disable-the-auto-exclusions-list-on-windows-server-2016-and-windows-server-2019"></a>Используйте Windows управления (WMI), чтобы отключить список автоматических исключений на Windows Server 2016 и Windows Server 2019
 
 Используйте метод **Set** класса [MSFT_MpPreference](/previous-versions/windows/desktop/defender/msft-mppreference) для следующих свойств:
 
@@ -96,17 +97,17 @@ DisableAutoExclusions
 
 ### <a name="default-exclusions-for-all-roles"></a>Исключения по умолчанию для всех ролей
 
-В этом разделе перечислены исключения по умолчанию для всех ролей Windows Server 2016 и 2019.
+В этом разделе перечислены исключения по умолчанию для всех ролей Windows Server 2016 и 2019 года.
 
 > [!NOTE]
 > Расположение по умолчанию может быть иным, чем то, что указано в этой статье.
 
-#### <a name="windows-tempedb-files"></a>Файлы Windows "temp.edb"
+#### <a name="windows-tempedb-files"></a>Windows Файлы "temp.edb"
 
 - `%windir%\SoftwareDistribution\Datastore\*\tmp.edb`
 - `%ProgramData%\Microsoft\Search\Data\Applications\Windows\*\*.log`
 
-#### <a name="windows-update-files-or-automatic-update-files"></a>Файлы обновления Windows или файлы автоматического обновления
+#### <a name="windows-update-files-or-automatic-update-files"></a>Windows Файлы обновления или файлы автоматического обновления
 
 - `%windir%\SoftwareDistribution\Datastore\*\Datastore.edb`
 - `%windir%\SoftwareDistribution\Datastore\*\edb.chk`
@@ -114,7 +115,7 @@ DisableAutoExclusions
 - `%windir%\SoftwareDistribution\Datastore\*\Edb\*.jrs`
 - `%windir%\SoftwareDistribution\Datastore\*\Res\*.log`
 
-#### <a name="windows-security-files"></a>Файлы безопасности Windows
+#### <a name="windows-security-files"></a>Безопасность Windows файлы
 
 - `%windir%\Security\database\*.chk`
 - `%windir%\Security\database\*.edb`
@@ -258,9 +259,9 @@ DisableAutoExclusions
 
 - `%systemroot%\System32\dns.exe`
 
-### <a name="file-and-storage-services-exclusions"></a>Исключения служб хранения и файлов
+### <a name="file-and-storage-services-exclusions"></a>Исключения файлов и служба хранилища служб
 
-В этом разделе перечислены исключения файлов и папок, которые доставляются автоматически при установке роли Службы файлов и хранения. Перечисленные ниже исключения не содержат исключений для роли Кластеризация.
+В этом разделе перечислены исключения файлов и папок, которые доставляются автоматически при установке роли File и служба хранилища Services. Перечисленные ниже исключения не содержат исключений для роли Кластеризация.
 
 - `%SystemDrive%\ClusterStorage`
 - `%clusterserviceaccount%\Local Settings\Temp`
@@ -325,9 +326,9 @@ DisableAutoExclusions
 - `*.ins`
 - `Oscfilter.ini`
 
-### <a name="windows-server-update-services-exclusions"></a>cлужбы Windows Server Update Services исключений
+### <a name="windows-server-update-services-exclusions"></a>Windows Server Update Services исключений
 
-В этом разделе перечислены исключения папок, которые доставляются автоматически при установке роли cлужбы Windows Server Update Services (WSUS). Папка WSUS указана в ключе реестра `HKEY_LOCAL_MACHINE\Software\Microsoft\Update Services\Server\Setup`
+В этом разделе перечислены исключения папок, которые доставляются автоматически при установке роли Windows Server Update Services (WSUS). Папка WSUS указана в ключе реестра `HKEY_LOCAL_MACHINE\Software\Microsoft\Update Services\Server\Setup`
 
 - `%systemroot%\WSUS\WSUSContent`
 - `%systemroot%\WSUS\UpdateServicesDBFiles`
@@ -336,9 +337,9 @@ DisableAutoExclusions
 
 ## <a name="see-also"></a>См. также
 
-- [Настройка и проверка исключений для проверки антивирусных программ Microsoft Defender](configure-exclusions-microsoft-defender-antivirus.md)
+- [Настройка и проверка исключений для антивирусная программа в Microsoft Defender сканирования](configure-exclusions-microsoft-defender-antivirus.md)
 - [Настройка и проверка исключений на основе имени, расширения и расположения папки](configure-extension-file-exclusions-microsoft-defender-antivirus.md)
 - [Настройка и проверка исключений для файлов, открытых процессами](configure-process-opened-file-exclusions-microsoft-defender-antivirus.md)
 - [Распространенные ошибки, которых следует избегать при определении исключений](common-exclusion-mistakes-microsoft-defender-antivirus.md)
-- [Настройка, инициирование и проверка результатов проверки и устранения антивирусных программ Microsoft Defender](customize-run-review-remediate-scans-microsoft-defender-antivirus.md)
-- [Антивирус Microsoft Defender в Windows 10](microsoft-defender-antivirus-in-windows-10.md)
+- [Настройка, инициирование и проверка результатов антивирусная программа в Microsoft Defender и исправлений](customize-run-review-remediate-scans-microsoft-defender-antivirus.md)
+- [антивирусная программа в Microsoft Defender в Windows 10](microsoft-defender-antivirus-in-windows-10.md)

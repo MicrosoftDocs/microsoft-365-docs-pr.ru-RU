@@ -7,7 +7,7 @@ ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-localization_priority: normal
+localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -15,12 +15,13 @@ ms.date: 09/03/2018
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 81c7fb2bb7cd20fea3f343097811078ed744c3eb
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.topic: article
+ms.openlocfilehash: 4199f55488ef0dc5989af88e8be83a3d51190d1f
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51765375"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52275064"
 ---
 # <a name="manage-microsoft-defender-antivirus-updates-and-scans-for-endpoints-that-are-out-of-date"></a>Управление обновлениями и проверками устаревших конечных точек антивирусной программы в Microsoft Defender
 
@@ -31,19 +32,19 @@ ms.locfileid: "51765375"
 
 - [Microsoft Defender для конечной точки](/microsoft-365/security/defender-endpoint/)
 
-Антивирус Microsoft Defender позволяет определить, как долго конечная точка может избежать обновления или сколько сканов она может пропустить, прежде чем потребуется обновить и сканировать себя. Это особенно полезно в средах, где устройства не часто подключены к корпоративной или внешней сети, или устройства, которые не используются ежедневно.
+антивирусная программа в Microsoft Defender позволяет определить, как долго конечная точка может избежать обновления или сколько сканов она может пропустить, прежде чем потребуется обновить и сканировать себя. Это особенно полезно в средах, где устройства не часто подключены к корпоративной или внешней сети, или устройства, которые не используются ежедневно.
 
 Например, сотрудник, использующий определенный компьютер, находится в перерыве в течение трех дней и не входит на свой компьютер в течение этого времени.
 
-Когда пользователь вернется к работе и войдите на свой компьютер, антивирус Microsoft Defender немедленно проверит и загрузит последние обновления защиты и запустит сканирование.
+Когда пользователь возвращается к работе и войдет на свой компьютер, антивирусная программа в Microsoft Defender немедленно проверит и загрузит последние обновления защиты и запустит сканирование.
 
 ## <a name="set-up-catch-up-protection-updates-for-endpoints-that-havent-updated-for-a-while"></a>Настройка обновлений защиты для конечных точек, которые не обновлялись некоторое время
 
-Если антивирус Microsoft Defender не скачал обновления защиты за указанный период, его можно настроить для автоматической проверки и скачивания последнего обновления в следующем журнале. Это полезно, если во всем мире отключены автоматические загрузки обновлений [при запуске.](manage-event-based-updates-microsoft-defender-antivirus.md)
+Если антивирусная программа в Microsoft Defender не скачали обновления защиты за указанный период, вы можете настроить его для автоматической проверки и скачивания последнего обновления в следующем журнале. Это полезно, если во всем мире отключены автоматические загрузки обновлений [при запуске.](manage-event-based-updates-microsoft-defender-antivirus.md)
 
 ### <a name="use-configuration-manager-to-configure-catch-up-protection-updates"></a>Использование Диспетчер конфигурации для настройки обновлений защиты догонять
 
-1.  На консоли Microsoft Endpoint Manager откройте политику противомалярийных программ, которые необходимо изменить (нажмите кнопку Активы и соответствие требованиям в области навигации слева, а затем расширите дерево до Обзор политики защиты конечных   >    >  точек)
+1.  На консоли Microsoft Endpoint Manager откройте политику противомалярийных программ,  которые необходимо изменить (щелкните Активы и соответствие требованиям в области навигации слева, а затем разогнайте дерево до Endpoint Protection  >    >  **antimalware Policies**)
 
 2.  Перейдите в **раздел Обновления** сведении безопасности и настройте следующие параметры:
 
@@ -62,7 +63,7 @@ ms.locfileid: "51765375"
 
 3. Щелкните **Политики,** а **затем административные шаблоны**.
 
-4. Расширь дерево до **компонентов Windows > антивируса Microsoft Defender > обновлений подписи**.
+4. Расширь **дерево до Windows компонентов > антивирусная программа в Microsoft Defender > обновлений подписи.**
 
 5. Дважды щелкните **определение** числа дней, после которых требуется настройка догонять обновление сведении о безопасности, и установите параметр **Включено**. Введите количество дней, после которых вы хотите, чтобы microsoft Defender AV проверил и скачал последнее обновление защиты.
 
@@ -76,9 +77,9 @@ ms.locfileid: "51765375"
 Set-MpPreference -SignatureUpdateCatchupInterval
 ```
 
-Дополнительные сведения о том, как использовать [PowerShell](use-powershell-cmdlets-microsoft-defender-antivirus.md)  с антивирусным вирусом Microsoft Defender и [Defender,](/powershell/module/defender/) см. в этой ссылке.
+Дополнительные сведения о том, как использовать [PowerS антивирусная программа в Microsoft Defender hell](use-powershell-cmdlets-microsoft-defender-antivirus.md) с антивирусная программа в Microsoft Defender и [Defender,](/powershell/module/defender/) см. в этой ссылке.
 
-### <a name="use-windows-management-instruction-wmi-to-configure-catch-up-protection-updates"></a>Используйте инструкцию по управлению Windows (WMI) для настройки обновлений защиты догонять
+### <a name="use-windows-management-instruction-wmi-to-configure-catch-up-protection-updates"></a>Используйте Windows управления (WMI) для настройки догонять обновления защиты
 
 Используйте метод [ **Set** класса **MSFT_MpPreference**](/previous-versions/windows/desktop/legacy/dn455323(v=vs.85)) для следующих свойств:
 
@@ -92,7 +93,7 @@ SignatureUpdateCatchupInterval
 
 ## <a name="set-the-number-of-days-before-protection-is-reported-as-out-of-date"></a>Установите количество дней до того, как защита будет отчитаться о том, что она устарела
 
-Вы также можете указать количество дней, после которых антивирусная защита Microsoft Defender считается старой или устарелой. После указанного числа дней клиент будет сообщать о себе как о устарелом состоянии и показывать ошибку пользователю компьютера. Это также может вызвать попытку загрузки антивируса Microsoft Defender из других [](manage-protection-updates-microsoft-defender-antivirus.md#fallback-order)источников (на основе определенного источника отката), например при использовании MMPC в качестве дополнительного источника после установки WSUS или Microsoft Update в качестве первого источника.
+Можно также указать количество дней, после которых антивирусная программа в Microsoft Defender считается старой или устарелой. После указанного числа дней клиент будет сообщать о себе как о устарелом состоянии и показывать ошибку пользователю компьютера. Кроме того, антивирусная программа в Microsoft Defender может привести к попытке скачивания обновления из [](manage-protection-updates-microsoft-defender-antivirus.md#fallback-order)других источников (на основе определенного порядка источника отката), например при использовании MMPC в качестве дополнительного источника после установки WSUS или Microsoft Update в качестве первого источника.
 
 ### <a name="use-group-policy-to-specify-the-number-of-days-before-protection-is-considered-out-of-date"></a>Используйте групповую политику, чтобы указать количество дней до того, как защита будет считаться устарелой
 
@@ -102,7 +103,7 @@ SignatureUpdateCatchupInterval
 
 4.  Щелкните **Политики,** а **затем административные шаблоны**.
 
-5.  Расширь дерево до компонентов **Windows > антивируса Microsoft Defender >** обновления подписей и настройте следующие параметры:
+5.  Расширив **дерево, Windows компоненты** > антивирусная программа в Microsoft Defender > обновления подписи и настроив следующие параметры:
 
     1.  Дважды **щелкните Определить количество** дней до того, как определения программ-шпионов будут считаться устарели, и установите параметр **Включен**. Введите количество дней, после которых microsoft Defender AV считает данные службы безопасности шпионских программ устарели.
 
@@ -115,7 +116,7 @@ SignatureUpdateCatchupInterval
 
 ## <a name="set-up-catch-up-scans-for-endpoints-that-have-not-been-scanned-for-a-while"></a>Настройка доголовных сканов для конечных точек, которые не были сканированы некоторое время
 
-Вы можете установить количество последовательных запланированных сканов, которые можно пропустить до того, как антивирус Microsoft Defender принудит к проверке.
+Вы можете установить количество последовательных запланированных сканов, которые можно пропустить до антивирусная программа в Microsoft Defender будет принудительное сканирование.
 
 Процесс включения этой функции:
 
@@ -135,7 +136,7 @@ SignatureUpdateCatchupInterval
 
 4.  Щелкните **Политики,** а **затем административные шаблоны**.
 
-5.  Расширь дерево до **компонентов Windows > антивируса Microsoft Defender >** сканирование и настройте следующие параметры:
+5.  Расширив **дерево, Windows компоненты > антивирусная программа в Microsoft Defender > сканировать** и настроить следующие параметры:
 
     1.  Если вы настроили запланированные быстрые проверки, дважды нажмите кнопку Включить параметр быстрого сканирования и установите параметр **Включено**.  
     2. Если вы настроили запланированные полные проверки, дважды щелкните параметр **Turn on catch-up full scan** и установите параметр **Включено**. Нажмите кнопку **ОК**.
@@ -155,9 +156,9 @@ Set-MpPreference -DisableCatchupQuickScan
 
 ```
 
-Дополнительные сведения о том, как использовать [PowerShell](use-powershell-cmdlets-microsoft-defender-antivirus.md)  с антивирусным вирусом Microsoft Defender и [Defender,](/powershell/module/defender/) см. в этой ссылке.
+Дополнительные сведения о том, как использовать [PowerS антивирусная программа в Microsoft Defender hell](use-powershell-cmdlets-microsoft-defender-antivirus.md) с антивирусная программа в Microsoft Defender и [Defender,](/powershell/module/defender/) см. в этой ссылке.
 
-### <a name="use-windows-management-instruction-wmi-to-configure-catch-up-scans"></a>Использование инструкции по управлению Windows (WMI) для настройки доголовных сканов
+### <a name="use-windows-management-instruction-wmi-to-configure-catch-up-scans"></a>Используйте Windows управления (WMI) для настройки доголовных сканов
 
 Используйте метод [ **Set** класса **MSFT_MpPreference**](/previous-versions/windows/desktop/legacy/dn455323(v=vs.85)) для следующих свойств:
 
@@ -172,7 +173,7 @@ DisableCatchupQuickScan
 
 ### <a name="use-configuration-manager-to-configure-catch-up-scans"></a>Настройка доголовных сканов с помощью диспетчера конфигурации
 
-1.  На консоли Microsoft Endpoint Manager откройте политику противомалярийных программ, которые необходимо изменить (нажмите кнопку Активы и соответствие требованиям в области навигации слева, а затем расширите дерево до Обзор политики защиты конечных   >    >  точек)
+1.  На консоли Microsoft Endpoint Manager откройте политику противомалярийных программ,  которые необходимо изменить (щелкните Активы и соответствие требованиям в области навигации слева, а затем разогнайте дерево до Endpoint Protection  >    >  **antimalware Policies**)
 
 2.  Перейдите в раздел **Запланированные** проверки и привяжье сканирование выбранного типа сканирования, если клиентский компьютер находится в автономном **режиме...** 
 
@@ -182,9 +183,9 @@ DisableCatchupQuickScan
 
 ## <a name="related-articles"></a>Статьи по теме
 
-- [Развертывание антивируса Microsoft Defender](deploy-manage-report-microsoft-defender-antivirus.md)
-- [Управление обновлениями антивируса Microsoft Defender и применение базовых показателей](manage-updates-baselines-microsoft-defender-antivirus.md)
+- [Развертывание антивирусная программа в Microsoft Defender](deploy-manage-report-microsoft-defender-antivirus.md)
+- [Управление антивирусная программа в Microsoft Defender обновлениями и применение базовых показателей](manage-updates-baselines-microsoft-defender-antivirus.md)
 - [Управление загрузкой и приложением обновлений защиты](manage-protection-update-schedule-microsoft-defender-antivirus.md)
 - [Управление принудительными обновлениями на основе событий](manage-event-based-updates-microsoft-defender-antivirus.md)
 - [Управление обновлениями для мобильных устройств и виртуальных машин (ВМ)](manage-updates-mobile-devices-vms-microsoft-defender-antivirus.md)
-- [Антивирус Microsoft Defender в Windows 10](microsoft-defender-antivirus-in-windows-10.md)
+- [антивирусная программа в Microsoft Defender в Windows 10](microsoft-defender-antivirus-in-windows-10.md)

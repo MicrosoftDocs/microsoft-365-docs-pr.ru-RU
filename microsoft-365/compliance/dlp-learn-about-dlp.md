@@ -15,12 +15,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Узнайте, как защитить конфиденциальные сведения с помощью Microsoft 365 политики и средства предотвращения потери данных, а также пройти экскурсию по жизненному циклу DLP.
-ms.openlocfilehash: 451622d15b1f422304dd498264ff2fe4a343bb6c
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: 88cf913f62d28c89bce7054473eb577217de9489
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52127793"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244616"
 ---
 # <a name="learn-about-data-loss-prevention"></a>Сведения о защите от потери данных
 
@@ -212,3 +212,5 @@ DLP сообщает об огромном количестве сведений
 - [Узнайте о локальном сканере для защиты от потери данных Microsoft 365 (предварительная версия)](dlp-on-premises-scanner-learn.md)
 - [Сведения о расширении соответствия требованиям Майкрософт (предварительная версия)](dlp-chrome-learn-about.md)
 - [Сведения о панели мониторинга оповещений для защиты от потери данных](dlp-alerts-dashboard-learn.md)
+
+Сведения о том, как использовать предотвращение потери данных в соответствии с правилами конфиденциальности данных, см. в странице Deploy [information protection for data privacy regulations with Microsoft 365](../solutions/information-protection-deploy.md) (aka.ms/m365dataprivacy).

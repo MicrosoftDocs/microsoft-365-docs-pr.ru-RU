@@ -1,35 +1,36 @@
 ---
 title: Распространенные ошибки, которых следует избегать при определении исключений
-description: Избегайте распространенных ошибок при определении исключений для антивирусного сканирования Microsoft Defender.
+description: Избегайте распространенных ошибок при определении исключений для антивирусная программа в Microsoft Defender сканирования.
 keywords: исключения, файлы, расширение, тип файла, имя папки, имя файла, сканирование
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-localization_priority: normal
+localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: eb3ac89eb05b39ff3337aa8e9c5ead1c308fbefb
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.topic: article
+ms.openlocfilehash: de739ca3c6a4ab305b575fa7e2f419d044d997a8
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51764919"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274975"
 ---
 # <a name="common-mistakes-to-avoid-when-defining-exclusions"></a>Распространенные ошибки, которых следует избегать при определении исключений
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
-Список исключений можно определить для элементов, которые не нужно проверять антивирусу Microsoft Defender. Такие исключенные элементы могут содержать угрозы, которые делают ваше устройство уязвимым. 
+Список исключений можно определить для элементов, которые не антивирусная программа в Microsoft Defender проверки. Такие исключенные элементы могут содержать угрозы, которые делают ваше устройство уязвимым. 
 
 В этой статье описываются некоторые распространенные ошибки, которые следует избегать при определении исключений. 
 
-Перед определением списков исключений см. [рекомендации по определению исключений.](configure-exclusions-microsoft-defender-antivirus.md#recommendations-for-defining-exclusions)
+Перед определением списков исключений [см. Рекомендации для определения исключений.](configure-exclusions-microsoft-defender-antivirus.md#recommendations-for-defining-exclusions)
 
 ## <a name="excluding-certain-trusted-items"></a>Исключение некоторых доверенных элементов
 
@@ -54,13 +55,13 @@ ms.locfileid: "51764919"
 
 ## <a name="using-incorrect-environment-variables-as-wildcards-in-the-file-name-and-folder-path-or-extension-exclusion-lists"></a>Использование неправильных переменных среды в качестве подстройки в пути имени файла и пути к папке или списках исключений расширения
 
-Антивирусная служба Microsoft Defender выполняется в системных контекстах с помощью учетной записи LocalSystem, что означает, что она получает информацию из переменной системной среды, а не из переменной среды пользователя. Использование переменных среды в качестве под диктовки в списках исключений ограничено системными переменными и теми, которые применимы к процессам, запущенным в качестве учетной записи NT AUTHORITY\SYSTEM. Поэтому при добавлении антивирусной папки Microsoft Defender и исключений процесса не используйте переменные среды пользователя в качестве подкард. Полный список переменных системной среды см. в таблице в статье [Параметры](configure-extension-file-exclusions-microsoft-defender-antivirus.md#system-environment-variables) среды Системы.
+антивирусная программа в Microsoft Defender Служба выполняется в системной среде с помощью учетной записи LocalSystem, что означает, что она получает информацию из переменной системной среды, а не из переменной среды пользователя. Использование переменных среды в качестве под диктовки в списках исключений ограничено системными переменными и теми, которые применимы к процессам, запущенным в качестве учетной записи NT AUTHORITY\SYSTEM. Поэтому при добавлении антивирусная программа в Microsoft Defender и исключений процесса не используйте переменные среды пользователя в качестве поддиам. Полный список переменных системной среды см. в таблице в статье [Параметры](configure-extension-file-exclusions-microsoft-defender-antivirus.md#system-environment-variables) среды Системы.
 
 Сведения [о](configure-extension-file-exclusions-microsoft-defender-antivirus.md#use-wildcards-in-the-file-name-and-folder-path-or-extension-exclusion-lists) том, как использовать подкарды в списках исключений файлов и папок или списки исключений для расширения, см. в руб.
 
 ## <a name="related-articles"></a>Статьи по теме
 
-- [Настройка и проверка исключений в антивирусных проверках Microsoft Defender](configure-exclusions-microsoft-defender-antivirus.md)
+- [Настройка и проверка исключений в антивирусная программа в Microsoft Defender сканирования](configure-exclusions-microsoft-defender-antivirus.md)
 - [Настройка и проверка исключений в зависимости от расположения расширения файлов и папок](configure-extension-file-exclusions-microsoft-defender-antivirus.md)
 - [Настройка и проверка исключений для файлов, открытых процессами](configure-process-opened-file-exclusions-microsoft-defender-antivirus.md)
-- [Настройка исключений антивируса Microsoft Defender на Windows Server](configure-server-exclusions-microsoft-defender-antivirus.md)
+- [Настройка антивирусная программа в Microsoft Defender исключений на Windows Server](configure-server-exclusions-microsoft-defender-antivirus.md)

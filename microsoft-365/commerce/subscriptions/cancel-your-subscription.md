@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 description: Узнайте, как отменить пробную или платную подписку на Microsoft 365 для бизнеса.
 ms.date: 04/08/2021
-ms.openlocfilehash: f052a08cfe0e7582690864556cfc3039d6caf99c
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.openlocfilehash: 15ab7ed31af24fa4cb1c83c6babc945871584375
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52107006"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244664"
 ---
 # <a name="cancel-your-subscription"></a>Отмена подписки
 
@@ -126,7 +126,7 @@ ms.locfileid: "52107006"
 
 - Сведения о том, как перенести сообщения, контакты, задачи и данные из календаря в другую учетную запись, см. в статье [Экспорт и резервное копирование электронной почты, контактов и календаря в PST-файл Outlook](https://support.microsoft.com/office/14252b52-3075-4e9b-be4e-ff9ef1068f91.aspx).
 
-- О том, как сохранить содержимое библиотеки документов или списка (например, контактов) из среды SharePoint Online (OneDrive для бизнеса или сайтов групп) в общие папки или на локальный компьютер, читайте в статье [Перенос контента SharePoint Online вручную](https://support.microsoft.com/kb/2783484).
+- О том, как сохранить содержимое библиотеки документов или списка (например, контактов) из среды SharePoint Online (OneDrive для бизнеса или сайтов групп) в общие папки или на локальный компьютер, читайте в статье [Перенос контента SharePoint Online вручную](https://docs.microsoft.com/sharepoint/troubleshoot/migration-tool/content-manual-migration).
 
 ### <a name="uninstall-office-optional"></a>Удаление Office (необязательно)
 

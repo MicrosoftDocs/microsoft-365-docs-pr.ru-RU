@@ -1,25 +1,26 @@
 ---
-title: Управление получением обновлений антивирусной программой Microsoft Defender и ее получением
-description: Управление порядком отката для получения обновлений защиты антивирусом Microsoft Defender.
+title: Управление получением антивирусная программа в Microsoft Defender и получением обновлений
+description: Управление порядком отката для получения обновлений антивирусная программа в Microsoft Defender защиты.
 keywords: обновления, базовые показатели безопасности, защита, порядок отката, ADL, MMPC, UNC, путь к файлу, share, wsus
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-localization_priority: normal
+localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.reviewer: pahuijbr
 manager: dansimp
 ms.custom: nextgen
 ms.technology: mde
-ms.openlocfilehash: 9b1c9bc8c86c5b348e3c4d2a51e0bfafaf3e7174
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.topic: article
+ms.openlocfilehash: c6961c4eac375ea36d801e278f5208f16d2558d9
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51765471"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52275028"
 ---
 # <a name="manage-the-sources-for-microsoft-defender-antivirus-protection-updates"></a>Управление источниками обновлений антивирусной программы в Microsoft Defender
 
@@ -33,14 +34,14 @@ ms.locfileid: "51765471"
 <a id="protection-updates"></a>
 <!-- this has been used as anchor in VDI content -->
 
-Важно поддерживать антивирусную защиту в соответствии с данными. Для управления обновлениями защиты антивируса Microsoft Defender существуют два компонента: 
+Важно поддерживать антивирусную защиту в соответствии с данными. Существует два компонента управления обновлениями защиты для антивирусная программа в Microsoft Defender: 
 - *Загрузка* обновлений; и 
 - *При* загрузке и применении обновлений. 
 
-В этой статье описывается, как указать, откуда должны загружаться обновления (это также называется заказом на откат). Сведения о работе обновлений и настройке других аспектов обновлений (например, планирования обновлений) см. в разделе Управление обновлениями антивируса Microsoft [Defender](manage-updates-baselines-microsoft-defender-antivirus.md) и применение базовых версий.
+В этой статье описывается, как указать, откуда должны загружаться обновления (это также называется заказом на откат). См. [антивирусная программа в Microsoft Defender](manage-updates-baselines-microsoft-defender-antivirus.md) управление обновлениями и применение базовых версий для обзора работы обновлений и настройки других аспектов обновлений (например, планирования обновлений).
 
 > [!IMPORTANT]
-> Обновления антивирусной безопасности Microsoft Defender доставляются с помощью обновления Windows, и начиная с понедельника, 21 октября 2019 г., все обновления аналитики безопасности будут подписаны исключительно на SHA-2. Чтобы обновить сведения о безопасности, необходимо обновить устройства для поддержки SHA-2. Дополнительные новости см. в [ок. 2019 требование](https://support.microsoft.com/help/4472027/2019-sha-2-code-signing-support-requirement-for-windows-and-wsus)о поддержке подписи кода SHA-2 для Windows и WSUS.  
+> антивирусная программа в Microsoft Defender Обновления разведки безопасности доставляются через Windows обновления и начиная с понедельника, 21 октября 2019 г., все обновления разведки безопасности будут подписаны исключительно sha-2. Чтобы обновить сведения о безопасности, необходимо обновить устройства для поддержки SHA-2. Дополнительные дополнительные новости см. в [2019 г. В sha-2 Code Signing Support requirement for Windows и WSUS.](https://support.microsoft.com/help/4472027/2019-sha-2-code-signing-support-requirement-for-windows-and-wsus)  
 
 
 <a id="fallback-order"></a>
@@ -58,32 +59,32 @@ ms.locfileid: "51765471"
 Существует пять местоположений, в которых можно указать, где конечная точка должна получать обновления: 
 
 - [Центр обновления Майкрософт](https://support.microsoft.com/help/12373/windows-update-faq)
-- [Служба обновления Windows Server](/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus)
+- [Windows Служба обновления сервера](/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus)
 - [Microsoft Endpoint Configuration Manager](/configmgr/core/servers/manage/updates)
 - [Доля сетевых файлов](#unc-share)
-- [Обновления сведений](https://www.microsoft.com/en-us/wdsi/defenderupdates) о безопасности для антивируса Microsoft Defender и других антивирусных программ Майкрософт (ваша политика и реестр могут иметь этот список как Центр Майкрософт по защите от вредоносных программ безопасности (MMPC) с его прежним именем.)
+- [Обновления аналитики](https://www.microsoft.com/en-us/wdsi/defenderupdates) безопасности для антивирусная программа в Microsoft Defender и других антивирусных программ Майкрософт (ваша политика и реестр могут иметь этот список как Центр Майкрософт по защите от вредоносных программ (MMPC) и его прежнее имя.)
 
-Чтобы обеспечить наилучший уровень защиты, Microsoft Update позволяет быстро выпускать, что означает частые скачивания. Службы обновления Windows Server, Microsoft Endpoint Configuration Manager и источники обновлений службы безопасности Майкрософт обеспечивают менее частые обновления. Таким образом, дельта может быть больше, что приводит к большим загрузкам. 
+Чтобы обеспечить наилучший уровень защиты, Microsoft Update позволяет быстро выпускать, что означает частые скачивания. Источники Windows обновления серверов, Microsoft Endpoint Configuration Manager и microsoft security updates обеспечивают менее частые обновления. Таким образом, дельта может быть больше, что приводит к большим загрузкам. 
 
 > [!IMPORTANT]
-> Если после [](https://www.microsoft.com/security/portal/definitions/adl.aspx) обновления Windows Server Update или Microsoft Update вы задаете обновления страницы разведки Майкрософт в качестве источника отката, обновления загружаются только из обновлений разведки безопасности, если текущее обновление считается устарелым. (По умолчанию это семь дней подряд, когда не удалось применить обновления из Службы обновления Windows Server или службы обновления Майкрософт).
+> Если после Windows службы обновления серверов или обновления Microsoft Update вы задаете обновления страницы разведки Microsoft [Security](https://www.microsoft.com/security/portal/definitions/adl.aspx) в качестве источника отката, обновления загружаются только из обновлений разведки безопасности, если текущее обновление считается устарелым. (По умолчанию это семь дней подряд, когда не удалось применить обновления из службы обновления Windows сервера или службы обновления Майкрософт).
 > Однако можно установить количество дней до того, как защита будет отчитаться о том, что она [устарела.](/windows/threat-protection/microsoft-defender-antivirus/manage-outdated-endpoints-microsoft-defender-antivirus#set-the-number-of-days-before-protection-is-reported-as-out-of-date)<p>
-> Начиная с понедельника, 21 октября 2019 г., обновления аналитики безопасности будут подписывался исключительно sha-2. Устройства должны обновляться для поддержки SHA-2 для получения последних обновлений разведки безопасности. Дополнительные новости см. в [ок. 2019 требование](https://support.microsoft.com/help/4472027/2019-sha-2-code-signing-support-requirement-for-windows-and-wsus)о поддержке подписи кода SHA-2 для Windows и WSUS.
+> Начиная с понедельника, 21 октября 2019 г., обновления аналитики безопасности будут подписывался исключительно sha-2. Устройства должны обновляться для поддержки SHA-2 для получения последних обновлений разведки безопасности. Дополнительные дополнительные новости см. в [2019 г. В sha-2 Code Signing Support requirement for Windows и WSUS.](https://support.microsoft.com/help/4472027/2019-sha-2-code-signing-support-requirement-for-windows-and-wsus)
 
 Каждый источник имеет типичные сценарии, которые зависят от настройки сети, а также от того, как часто они публикуют обновления, как описано в следующей таблице:
 
-|Расположение | Пример сценария |
+|Location | Пример сценария |
 |---|---|
-|Служба обновления Windows Server | Вы используете службу обновления Windows Server для управления обновлениями для вашей сети.|
-|Центр обновления Майкрософт | Вы хотите, чтобы конечные точки подключались непосредственно к Microsoft Update. Это может быть полезно для конечных точек, которые нерегулярно подключаются к корпоративной сети, или если вы не используете службу обновления Windows Server для управления обновлениями.|
+|Windows Служба обновления сервера | Вы используете службу Windows сервера для управления обновлениями для вашей сети.|
+|Центр обновления Майкрософт | Вы хотите, чтобы конечные точки подключались непосредственно к Microsoft Update. Это может быть полезно для конечных точек, которые нерегулярно подключаются к корпоративной сети, или если вы не используете службу обновления Windows сервера для управления обновлениями.|
 |Файловый ресурс | У вас есть устройства, не подключенные к Интернету (например, VMs). Вы можете использовать подключенный к Интернету VM-хост для скачивания обновлений в сеть, из которой VMs могут получать обновления. См. руководство по развертыванию [VDI](deployment-vdi-microsoft-defender-antivirus.md) для использования файловых акций в средах виртуальной инфраструктуры настольных компьютеров (VDI).|
-|Менеджер конечных точек Майкрософт | Вы используете Microsoft Endpoint Manager для обновления конечных точек.|
-|Обновления аналитики безопасности для антивируса Microsoft Defender и других антивирусных программ Майкрософт (ранее именуемого MMPC) |[Убедитесь, что ваши устройства обновляются для поддержки SHA-2.](https://support.microsoft.com/help/4472027/2019-sha-2-code-signing-support-requirement-for-windows-and-wsus) Обновления антивирусной безопасности Microsoft Defender доставляются с помощью обновления Windows, и начиная с понедельника 21 октября 2019 г. обновления аналитики безопасности будут подписываться исключительно на SHA-2. <br/>Скачайте последние обновления защиты из-за недавней инфекции или чтобы помочь в предоставлении сильного базового изображения для [развертывания VDI.](deployment-vdi-microsoft-defender-antivirus.md) Обычно этот параметр следует использовать только в качестве конечного источника отката, а не основного источника. Он будет использоваться только в том случае, если обновления не могут быть загружены из службы обновления Windows Server или Обновления Microsoft в течение определенного числа [дней.](/windows/threat-protection/microsoft-defender-antivirus/manage-outdated-endpoints-microsoft-defender-antivirus#set-the-number-of-days-before-protection-is-reported-as-out-of-date)|
+|Microsoft Endpoint Manager | Вы используете Microsoft Endpoint Manager для обновления конечных точек.|
+|Обновления аналитики безопасности для антивирусная программа в Microsoft Defender и других антивирусных программ Майкрософт (ранее именуемой MMPC) |[Убедитесь, что ваши устройства обновляются для поддержки SHA-2.](https://support.microsoft.com/help/4472027/2019-sha-2-code-signing-support-requirement-for-windows-and-wsus) антивирусная программа в Microsoft Defender Обновления разведки безопасности доставляются через Windows Update, и начиная с понедельника 21 октября 2019 г. обновления сведении о безопасности будут подписываться исключительно на SHA-2. <br/>Скачайте последние обновления защиты из-за недавней инфекции или чтобы помочь в предоставлении сильного базового изображения для [развертывания VDI.](deployment-vdi-microsoft-defender-antivirus.md) Обычно этот параметр следует использовать только в качестве конечного источника отката, а не основного источника. Он будет использоваться только в том случае, если обновления не могут быть загружены Windows службы обновления сервера или Обновления Майкрософт в течение определенного числа [дней.](/windows/threat-protection/microsoft-defender-antivirus/manage-outdated-endpoints-microsoft-defender-antivirus#set-the-number-of-days-before-protection-is-reported-as-out-of-date)|
 
-Вы можете управлять порядком, в котором источники обновления используются с помощью групповой политики, Microsoft Endpoint Configuration Manager, команды PowerShell и WMI.
+Вы можете управлять порядком, в котором источники обновления используются с помощью групповых политик, Microsoft Endpoint Configuration Manager, powerShell и WMI.
 
 > [!IMPORTANT]
-> Если вы установите службу обновления Windows Server в качестве места загрузки, необходимо утвердить обновления независимо от средства управления, используемого для указания местоположения. Вы можете настроить автоматическое правило утверждения в службе обновления Windows Server, которое может быть полезно по мере поступления обновлений по крайней мере один раз в день. Дополнительные данные см. в дополнительных данных о синхронизации обновлений защиты конечных точек в автономных [службах обновления Windows Server.](/configmgr/protect/deploy-use/endpoint-definitions-wsus#to-synchronize-endpoint-protection-definition-updates-in-standalone-wsus)
+> Если вы Windows службу обновления сервера в качестве расположения загрузки, необходимо утвердить обновления независимо от средства управления, используемого для указания местоположения. Вы можете настроить автоматическое правило утверждения с Windows службой обновления сервера, которое может быть полезно по мере поступления обновлений по крайней мере один раз в день. Дополнительные данные см. в том, как синхронизировать обновления защиты конечной точки в автономных [Windows службе обновления сервера.](/configmgr/protect/deploy-use/endpoint-definitions-wsus#to-synchronize-endpoint-protection-definition-updates-in-standalone-wsus)
 
 Процедуры в этой статье сначала описывают, как настроить порядок, а затем настроить параметр **Share File,** если он включен.
 
@@ -95,7 +96,7 @@ ms.locfileid: "51765471"
 
 3. Щелкните **Политики,** а **затем административные шаблоны**.
 
-4. Расширь дерево до **компонентов Windows > Защитник Windows > обновлений Signature** и настройте следующие параметры:
+4. Расширь **дерево, Windows компоненты > Защитник Windows > Подписи** и настройте следующие параметры:
 
    1.  Дважды щелкните **кнопку Определить порядок источников** для скачивания параметров обновлений разведки безопасности и установите параметр **Включено**.
 
@@ -112,11 +113,11 @@ ms.locfileid: "51765471"
    6. Нажмите кнопку **ОК**. При этом будет задат порядок файловых акций при ссылке на этот источник в параметре **Определить порядок источников...**
 
 > [!NOTE]
-> Для Windows 10 версии 1703 до 1809 и включая 1809 путь политики — это **антивирусные** компоненты Windows > Антивирус Microsoft Defender > Обновления подписей для Windows 10, версия 1903, путь политики — Windows **Components > Антивирус Microsoft Defender >** Обновления разведки безопасности
+> Для Windows 10 версии 1703 до 1809 года путь политики Windows компоненты **> антивирусная программа в Microsoft Defender >** Обновления подписи для Windows 10 версии 1903, путь политики — Windows **Компоненты > антивирусная программа в Microsoft Defender >** Обновления разведки безопасности
 
 ## <a name="use-configuration-manager-to-manage-the-update-location"></a>Использование диспетчера конфигурации для управления расположением обновления
 
-Сведения о настройке Microsoft Endpoint Manager (текущая ветвь) см. в странице Configure Security intelligence [Updates for Endpoint Protection.](/configmgr/protect/deploy-use/endpoint-definition-updates)
+Сведения [о настройке](/configmgr/protect/deploy-use/endpoint-definition-updates) Endpoint Protection безопасности см. в Microsoft Endpoint Manager (текущая ветвь).
 
 
 ## <a name="use-powershell-cmdlets-to-manage-the-update-location"></a>Чтобы управлять расположением обновления, используйте cmdlets PowerShell
@@ -130,10 +131,10 @@ Set-MpPreference -SignatureDefinitionUpdateFileSharesSource {\\UNC SHARE PATH|\\
 Дополнительные сведения см. в следующих статьях:
 - [Set-MpPreference -SignatureFallbackOrder](/powershell/module/defender/set-mppreference)
 - [Set-MpPreference -SignatureDefinitionUpdateFileSharesSource](/powershell/module/defender/set-mppreference#-signaturedefinitionupdatefilesharessources)
-- [Для настройки и запуска антивируса Microsoft Defender используйте cmdlets PowerShell](use-powershell-cmdlets-microsoft-defender-antivirus.md)
+- [Для настройки и запуска антивирусная программа в Microsoft Defender](use-powershell-cmdlets-microsoft-defender-antivirus.md)
 - [Cmdlets Defender](/powershell/module/defender/index)
 
-## <a name="use-windows-management-instruction-wmi-to-manage-the-update-location"></a>Использование инструкции по управлению Windows (WMI) для управления расположением обновления
+## <a name="use-windows-management-instruction-wmi-to-manage-the-update-location"></a>Используйте Windows управления (WMI) для управления расположением обновления
 
 Используйте метод [ **Set** класса **MSFT_MpPreference**](/previous-versions/windows/desktop/legacy/dn455323(v=vs.85)) для следующих свойств:
 
@@ -151,12 +152,12 @@ SignatureDefinitionUpdateFileSharesSource
 
 ## <a name="what-if-were-using-a-third-party-vendor"></a>Что делать, если мы используем сторонного поставщика?
 
-В этой статье описывается настройка и управление обновлениями антивируса Microsoft Defender. Однако для выполнения этих задач можно использовать сторонних поставщиков. 
+В этой статье описывается настройка и управление обновлениями для антивирусная программа в Microsoft Defender. Однако для выполнения этих задач можно использовать сторонних поставщиков. 
 
-Например, предположим, что Contoso наняла Fabrikam для управления решением безопасности, которое включает антивирус Microsoft Defender. Fabrikam обычно использует [средства управления Windows,](./use-wmi-microsoft-defender-antivirus.md) [командлеты PowerShell](./use-powershell-cmdlets-microsoft-defender-antivirus.md)или [командную](./command-line-arguments-microsoft-defender-antivirus.md) строку Windows для развертывания исправлений и обновлений. 
+Например, предположим, что Contoso нанял Fabrikam для управления решением безопасности, которое включает антивирусная программа в Microsoft Defender. Fabrikam обычно использует [Windows](./use-wmi-microsoft-defender-antivirus.md)инструментов управления, командлеты [PowerShell](./use-powershell-cmdlets-microsoft-defender-antivirus.md) [](./command-line-arguments-microsoft-defender-antivirus.md) или Windows командной строки для развертывания исправлений и обновлений. 
 
 > [!NOTE]
-> Корпорация Майкрософт не тестировать сторонние решения для управления антивирусом Microsoft Defender.
+> Корпорация Майкрософт не тестировать сторонние решения для управления антивирусная программа в Microsoft Defender.
 
 <a id="unc-share"></a>
 ## <a name="create-a-unc-share-for-security-intelligence-updates"></a>Создание доли UNC для обновлений сведений о безопасности
@@ -259,9 +260,9 @@ SignatureDefinitionUpdateFileSharesSource
 
 ## <a name="related-articles"></a>Статьи по теме
 
-- [Развертывание антивируса Microsoft Defender](deploy-manage-report-microsoft-defender-antivirus.md)
-- [Управление обновлениями антивируса Microsoft Defender и применение базовых показателей](manage-updates-baselines-microsoft-defender-antivirus.md)
+- [Развертывание антивирусная программа в Microsoft Defender](deploy-manage-report-microsoft-defender-antivirus.md)
+- [Управление антивирусная программа в Microsoft Defender обновлениями и применение базовых показателей](manage-updates-baselines-microsoft-defender-antivirus.md)
 - [Управление обновлениями для устарели конечных точек](manage-outdated-endpoints-microsoft-defender-antivirus.md)
 - [Управление принудительными обновлениями на основе событий](manage-event-based-updates-microsoft-defender-antivirus.md)
 - [Управление обновлениями для мобильных устройств и VMs](manage-updates-mobile-devices-vms-microsoft-defender-antivirus.md)
-- [Антивирус Microsoft Defender в Windows 10](microsoft-defender-antivirus-in-windows-10.md)
+- [антивирусная программа в Microsoft Defender в Windows 10](microsoft-defender-antivirus-in-windows-10.md)

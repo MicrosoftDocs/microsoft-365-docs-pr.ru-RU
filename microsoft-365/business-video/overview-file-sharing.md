@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Обзор того, как обмениваться бизнес-файлами.
-ms.openlocfilehash: a28830b9dc863c38ff45e2d6a140ab764ae66b06
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 408979728e4f834acb57f39a6eed3ac40057feba
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580526"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244912"
 ---
 # <a name="overview-of-sharing-business-files"></a>Обзор общего доступа к бизнес-файлам
 
@@ -47,28 +47,28 @@ ms.locfileid: "51580526"
 
 ## <a name="share-and-collaborate-with-a-client-or-business-partner"></a>Совместное взаимодействие с клиентом или бизнес-партнером
 
-Общий доступ в рамках проекта? Или в рамках текущих отношений с бизнес-партнером или поставщиком? Вы можете уделить немного времени и настроить группу в Microsoft Teams и иметь постоянное место для совместной работы и совместной работы. Легко работать с людьми за пределами вашего бизнеса, и вы даже можете настроить отдельные каналы для дополнительных поставщиков или партнеров, чтобы сохранить все это прямо.
+Общий доступ в рамках проекта? Или в рамках текущих отношений с бизнес-партнером или поставщиком? Вы можете уделить немного времени и настроить команду в Microsoft Teams и иметь постоянное место для совместной работы и совместной работы. Легко работать с людьми за пределами вашего бизнеса, и вы даже можете настроить отдельные каналы для дополнительных поставщиков или партнеров, чтобы сохранить все это прямо.
 
 1. Создайте команду.
-1. Загрузите файлы.
+1. Upload файлы.
 1. Приглашайте партнеров или поставщиков в команду в качестве "гостевых" пользователей, чтобы предоставить им доступ.
 
-Узнайте больше о том, как обмениваться [файлами за пределами организации с помощью безопасной ссылки](https://support.microsoft.com/office/7266f44e-3e06-4736-b9d3-0580c24bba34)s.
+Узнайте больше о том, как обмениваться [файлами за пределами организации с помощью безопасной ссылки.](securely-share-files-externally.md)
 
 ## <a name="share-inside-your-business"></a>Share inside your business
 
-Если вы работаете с файлами, которые вы делитесь в своем бизнесе, также неплохо настроить команду в Microsoft Teams. Делитесь файлами там, и все в вашем бизнесе могут легко найти и изменить их, и вы знаете, что все вы работаете на одной странице.
+Если вы работаете с файлами, которые вы делитесь внутри вашего бизнеса, также неплохо настроить команду в Microsoft Teams. Делитесь файлами там, и все в вашем бизнесе могут легко найти и изменить их, и вы знаете, что все вы работаете на одной странице.
 
 1. Создайте команду и пригласите в нее свою команду.
-1. Загрузите файлы.
+1. Upload файлы.
 
-Дополнительные материалы о [хранилище файлов компании и](https://support.microsoft.com/office/e4d98e10-3532-4eed-85d6-92728454e32b) хранилище файлов [сотрудников.](https://support.microsoft.com/office/12dbe3e4-dbef-48f8-a90e-87f1bc607073)
+Дополнительные материалы о [хранилище файлов компании и](files-to-sharepoint.md) хранилище файлов [сотрудников.](files-to-onedrive.md)
 
 ## <a name="how-to-get-it-done"></a>Как это сделать
 
 Нужна небольшая помощь? Узнайте, как:
 
-- [Отправка и получение вложений](https://support.microsoft.com/en-us/office/sending-and-receiving-attachments-d32cd5ad-c7c5-49df-814d-4c17a5d3beb0)
-- [Share files and folders with OneDrive](https://support.microsoft.com/en-us/office/share-files-and-folders-with-microsoft-365-business-72f26d6c-bf9e-432c-8b96-e3c2437f5b65)
-- [Создание всей компании](https://support.microsoft.com/en-us/office/create-an-org-wide-team-037bb27a-bcc9-48fe-8d72-44d9482420a3)
-- [Добавление гостей в команду](https://support.microsoft.com/en-us/office/add-guests-to-a-team-in-teams-fccb4fa6-f864-4508-bdde-256e7384a14f)
+- [Отправка и получение вложений](https://support.microsoft.com/office/sending-and-receiving-attachments-d32cd5ad-c7c5-49df-814d-4c17a5d3beb0)
+- [Делитесь файлами и папками с OneDrive](https://support.microsoft.com/office/share-files-and-folders-with-microsoft-365-business-72f26d6c-bf9e-432c-8b96-e3c2437f5b65)
+- [Создание всей компании](org-wide-team.md)
+- [Добавление гостей в команду](https://support.microsoft.com/office/add-guests-to-a-team-in-teams-fccb4fa6-f864-4508-bdde-256e7384a14f)

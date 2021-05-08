@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Узнайте, как настроить локальное Exchange Server для использования гибридной современной проверки подлинности (HMA), предлагая более безопасную проверку подлинности и авторизацию пользователей.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9cb6d25a346ac48c9875a26f385cb733f1ff051f
-ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
+ms.openlocfilehash: 2ae7a09387b62abc9e8c74f4a38c2fe8750bab19
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/06/2021
-ms.locfileid: "52259455"
+ms.locfileid: "52244555"
 ---
 # <a name="how-to-configure-exchange-server-on-premises-to-use-hybrid-modern-authentication"></a>Как настроить локальное развертывание Exchange Server для использования гибридной современной проверки подлинности
 
@@ -140,7 +140,7 @@ ExternalAuthenticationMethods : {Ntlm, OAuth, Negotiate}
 Возвращайся к локальной Exchange командной оболочке для этой последней команды. Теперь вы можете проверить, есть ли у локального поставщика проверки подлинности evoSTS запись:
 
 ```powershell
-Get-AuthServer | where {$_.Name -like "EvoSts"}
+Get-AuthServer | where {$_.Name -eq "EvoSts"}
 ```
 
 На выходе должен быть показываться AuthServer имени EvoSts, а состояние "Включено" должно быть True. Если этого не видно, следует скачать и запустить новейшую версию мастера гибридной конфигурации.

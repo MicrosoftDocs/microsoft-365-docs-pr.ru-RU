@@ -25,17 +25,17 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: d868561b-d340-4c04-a973-e2575d7f09bc
-description: Установите Office на iPhone или android-телефон, а ваши файлы в приложениях Office будут защищены Microsoft 365 для бизнеса.
-ms.openlocfilehash: fefec17344d199ced230907fbaa85d98198cfb94
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: Установите Office на iPhone или android-телефон, и ваши файлы в Office приложениях будут защищены Microsoft 365 для бизнеса.
+ms.openlocfilehash: 7b411b6ae1223963b8583e1e3cd0ee00e13ff958
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578174"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244803"
 ---
 # <a name="set-up-mobile-devices-for-microsoft-365-for-business-users"></a>Настройка мобильных устройств для Microsoft 365 для бизнес-пользователей
 
-Следуя инструкциям на этих вкладках, вы можете установить Office на iPhone или телефоне с Android. После этого ваши файлы, созданные в приложениях Office, будут защищены Microsoft 365 для бизнеса.
+Следуя инструкциям на этих вкладках, вы можете установить Office на iPhone или телефоне с Android. После этого ваши файлы, созданные в Office приложениях, будут защищены Microsoft 365 для бизнеса.
 
 Пример приведен для Outlook, но он относится и к другим приложениям Office.
   
@@ -43,11 +43,11 @@ ms.locfileid: "51578174"
 
 ## <a name="iphone"></a>[iPhone](#tab/iPhone)
   
-Просмотрите короткое видео о том, как настроить приложения Office на устройствах с iOS с помощью Microsoft 365 для бизнеса.<br><br>
+Просмотрите короткое видео о том, как настроить Office на устройствах iOS с помощью Microsoft 365 для бизнеса.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWee2n] 
 
-Если это видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если это видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](../business-video/index.yml).
 
 Откройте приложение **App store** и в поле поиска введите Microsoft Outlook.
   
@@ -61,13 +61,13 @@ ms.locfileid: "51578174"
   
 ![Screenshot of Outlook with Get Started button](../media/005bedec-ae50-4d75-b3bb-e7cef9e2561c.png)
   
-Введите рабочий адрес электронной почты на экране **Добавить** учетную запись учетной записи электронной почты, а затем введите свой \> Microsoft 365 для входа учетных данных \> **бизнеса**.
+Введите рабочий адрес электронной почты на экране **Добавить** учетную запись учетной записи электронной почты, а затем введите свой Microsoft 365 для входа учетных \> данных \> **бизнеса**.
   
 ![Sign in to your work account](../media/3cef1fb5-7bec-4d3d-8542-872b731ce19f.png)
   
 Если ваша организация защищает файлы в приложениях, вы увидите диалоговое окно, в котором говорится, что ваша организация сейчас защищает данные в приложении, и для ее использования необходимо перезапустить приложение. Нажмите **ОК** и закройте Outlook. 
   
-![Снимок экрана, который показывает, что ваша организация теперь защищает приложение Outlook](../media/fb4c1c84-b1e9-42e1-8070-c13dcf79fb09.png)
+![Снимок экрана, который показывает, что ваша организация теперь защищает ваше Outlook приложение](../media/fb4c1c84-b1e9-42e1-8070-c13dcf79fb09.png)
   
 Найдите приложение Outlook на iPhone и перезапустите его. При запросе введите ПИН-код и убедитесь в этом. Теперь приложение Outlook на iPhone готово к работе.
   
@@ -75,21 +75,21 @@ ms.locfileid: "51578174"
   
 ## <a name="android"></a>[Android](#tab/Android)
   
-Просмотрите видео об установке Outlook и Office на устройствах с Android.<br><br>
+Просмотрите видео об установке Outlook и Office на устройствах Android.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/ecc2e9c0-bc7e-4f26-8b14-91d84dbcfef0] 
 
-Если это видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если это видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](../business-video/index.yml).
 
 Чтобы приступить к настройке на android-телефоне, перейдите в магазин Play.
   
 ![On the Android home screen, tap Play Store](../media/93df88e7-c778-40e1-b35e-868ca6e97f6c.png)
   
-Введите Microsoft Outlook в поле поиска Google Play и нажмите **кнопку Установить**. После установки Outlook нажмите кнопку **Открыть**.
+Введите microsoft Outlook в поле поиска Google Play и нажмите **установить**. После Outlook установки нажмите кнопку **Открыть**.
   
 ![Tap Open to open Outlook app](../media/8b4c5937-8875-4b5a-a5b6-b8c6c9cd6240.png)
   
-В приложении Outlook нажмите кнопку **Начало** работы, затем добавьте учетную запись Microsoft 365 для учетной записи электронной почты для бизнеса Continue и вопишитесь в учетные \> данные организации.
+В приложении Outlook нажмите **кнопку Начало работы,** затем добавьте Microsoft 365 учетную запись электронной почты для бизнеса Продолжить и впишитесь в учетные данные \> организации.
   
 ![Sign in to your organizational account in Outlook](../media/18f67c66-4bab-4b99-94bd-080839312e29.png)
   
@@ -97,7 +97,7 @@ ms.locfileid: "51578174"
   
 ![Tap on Go to store to get Intune Company Portal app](../media/a702d712-5622-45dd-a511-b1adaee63071.png)
   
-В Play Store установите портал компании Intune.
+В Play Store установите Корпоративный портал Intune.
   
 ![Screenshot that shows the install button for Intune Company Portal in Google Play Store](../media/5e0408f2-3f37-44dd-80ed-13ca2ac6df0c.png)
   
@@ -107,6 +107,6 @@ ms.locfileid: "51578174"
 
 ## <a name="see-also"></a>См. также
 
-[Обучающие видеоролики по Microsoft 365 для бизнеса](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Обучающие видеоролики по Microsoft 365 для бизнеса](../business-video/index.yml)
 
 ---

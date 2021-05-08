@@ -9,8 +9,8 @@ ms.technology: mde
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: deniseb
-author: denisebmsft
+author: JoeDavies-MSFT
+ms.author: josephd
 ms.date: 02/02/2021
 localization_priority: Normal
 manager: dansimp
@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: how-to
 ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs
 ms.custom: AIR
-ms.openlocfilehash: 5ea869d4016cc794b3046a664c1519f6b3250c67
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: d4b0751938b66cc22dd59e2e7035077c5ef59ff9
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933977"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274824"
 ---
 # <a name="overview-of-automated-investigations"></a>Обзор автоматизированных расследований
 
@@ -77,7 +77,7 @@ ms.locfileid: "51933977"
 Все действия по исправлению, отложенные или завершенные, отслеживаются в [центре действий.](auto-investigation-action-center.md) При необходимости группа операций безопасности может отменить действие по исправлению. Дополнительные дополнительные ссылки см. в [обзоре и утверждении](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/manage-auto-investigation)действий по исправлению после автоматического расследования.
 
 > [!TIP]
-> Ознакомьтесь с новой единой страницей расследования в центре безопасности Microsoft 365. Дополнительные дополнительные возможности см. [в (NEW!) Страница Единое исследование](/microsoft-365/security/defender/m365d-autoir-results#new-unified-investigation-page).
+> Ознакомьтесь с новой единой страницей расследования в центре Microsoft 365 безопасности. Дополнительные дополнительные возможности см. [в (NEW!) Страница Единое исследование](/microsoft-365/security/defender/m365d-autoir-results#new-unified-investigation-page).
 
 
 ## <a name="requirements-for-air"></a>Требования к AIR
@@ -86,9 +86,9 @@ ms.locfileid: "51933977"
 
 В настоящее время AIR поддерживает только следующие версии ОС:
 - Windows Server 2019
-- Windows 10, версия 1709 (сборка ОС 16299.1085 с [KB4493441)](https://support.microsoft.com/help/4493441/windows-10-update-kb4493441)или более поздней версии
-- Windows 10, версия 1803 (сборка ОС 17134.704 с [KB4493464)](https://support.microsoft.com/help/4493464/windows-10-update-kb4493464)или более поздней версии
-- Windows 10, версия [1803 или](https://docs.microsoft.com/windows/release-information/status-windows-10-1809-and-windows-server-2019) более поздней версии
+- Windows 10 версии 1709 (сборка ОС 16299.1085 с [KB4493441)](https://support.microsoft.com/help/4493441/windows-10-update-kb4493441)или более поздней версии
+- Windows 10 версии 1803 (сборка ОС 17134.704 с [KB4493464)](https://support.microsoft.com/help/4493464/windows-10-update-kb4493464)или более поздней версии
+- Windows 10 версии [1803](https://docs.microsoft.com/windows/release-information/status-windows-10-1809-and-windows-server-2019) или более поздней версии
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
@@ -99,5 +99,5 @@ ms.locfileid: "51933977"
 ## <a name="see-also"></a>См. также
 
 - [Защита PUA](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/detect-block-potentially-unwanted-apps-microsoft-defender-antivirus)
-- [Автоматическое расследование и ответ в Microsoft Defender для Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)
-- [Автоматическое исследование и ответ в Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/defender/mtp-autoir)
+- [Автоматическое исследование и ответ в Microsoft Defender для Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)
+- [Автоматическое расследование и ответ в Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/defender/mtp-autoir)

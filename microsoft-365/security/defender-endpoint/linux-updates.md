@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 9cb0c7375b538f502cf6165f13c68fd4b2fdcc64
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: fc5a64f4be1b782c423c2ae9e2222a1424be97e0
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934757"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274728"
 ---
 # <a name="deploy-updates-for-microsoft-defender-for-endpoint-on-linux"></a>Развертывание обновлений для Microsoft Defender для конечной точки в Linux
 
@@ -44,6 +44,10 @@ ms.locfileid: "51934757"
 > ```bash
 > mdatp health --field product_expiration
 > ```
+
+
+Общедоступные возможности Microsoft Defender для конечных точек эквивалентны независимо от канала обновления, используемого для развертывания (Beta (Insider), Preview (External), Current (Production)).
+
 
 Чтобы обновить Defender для конечной точки на Linux вручную, выполните одну из следующих команд:
 
