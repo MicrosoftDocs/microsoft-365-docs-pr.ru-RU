@@ -16,12 +16,12 @@ ms.collection:
 localization_priority: None
 description: Узнайте, как настроить источники обучающего контента для Microsoft Viva Learning (Preview) в центре Microsoft 365 администрирования.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: a1bbe65db9dee028f57849de8a5538c996c3e2a4
-ms.sourcegitcommit: d3f8c69519c593b1580cfa7187ce085a99b8a846
+ms.openlocfilehash: b2e6ab6306db9a5ac9d91226431e5876cc244499
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52101101"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245424"
 ---
 # <a name="configure-learning-content-sources-for-microsoft-viva-learning-preview-in-the-microsoft-365-admin-center"></a>Настройка источников учебного контента для Microsoft Viva Learning (Preview) в центре администрирования Microsoft 365
 
@@ -35,7 +35,7 @@ ms.locfileid: "52101101"
 > [!NOTE]
 >  Пользователи во время регистрации в не microsoft и LinkedIn Learning Pro в браузере или встроенном пользователе. Это настраиваемое обучение подлежит раздельным условиям лицензии, конфиденциальности и службы между организацией и третьей стороной, а не условиям Viva Learning (Preview). Прежде чем выбирать этот тип обучения, убедитесь, что у вас есть соглашение для вашей организации и пользователей.
 
-## <a name="assign-the-knowledge-admin-role-optional"></a>Назначение роли администратора знаний [Необязательный]
+## <a name="assign-the-knowledge-admin-role-optional"></a>Назначение роли администратора знаний (необязательный)
 
 Вы должны быть глобальным администратором Microsoft 365 для выполнения этих задач.
 
@@ -78,11 +78,11 @@ ms.locfileid: "52101101"
 
 1.  В левой навигации центра администрирования Microsoft 365 перейдите к **Параметры**  >  **параметров Org.**
 
-2.  На странице **Параметры Org** на вкладке **Services** выберите **приложение Learning (Preview).**
+2.  На странице **Параметры Org** на вкладке **Services** выберите **Viva Learning (Preview).**
 
      ![Параметры странице в центре администрирования Microsoft 365 с перечислением приложения Learning.](../media/learning/learning-sharepoint-configure1.png)
 
-3.  На панели **Learning app (Preview)** выберите источники контента для обучения, которые необходимо настроить для организации, а затем выберите **Сохранить**.
+3.  На панели **Viva Learning (Preview)** выберите источники контента для обучения, которые необходимо настроить для организации, а затем выберите **Сохранить**.
 
      ![Панель обучения в центре администрирования Microsoft 365 с вариантами источников контента.](../media/learning/learning-sharepoint-configure2.png)
 

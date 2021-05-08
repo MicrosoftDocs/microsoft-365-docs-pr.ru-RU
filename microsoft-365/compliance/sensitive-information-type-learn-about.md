@@ -16,12 +16,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: ''
-ms.openlocfilehash: 01dd5feab17c68eed1da9d66c4310c50e90032c6
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: 7d23230ebe4321f355128d1f3268e967a35a0a89
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52114229"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245652"
 ---
 # <a name="learn-about-sensitive-information-types"></a>Дополнительные сведения о типах конфиденциальной информации
 
@@ -38,7 +38,7 @@ ms.locfileid: "52114229"
 - [Политики предотвращения потери данных](dlp-learn-about-dlp.md) 
 - [Метки конфиденциальности](sensitivity-labels.md)
 - [Метки хранения](retention.md)
-- [Управление внутренними рисками](insider-risk-management.md)
+- [Управление рисками изнутри](insider-risk-management.md)
 - [Соответствие требованиям к обмену данными](communication-compliance.md)
 - [Политики автоматической маркировки](apply-sensitivity-label-automatically.md#how-to-configure-auto-labeling-for-office-apps)
 
@@ -104,7 +104,7 @@ ms.locfileid: "52114229"
 #### <a name="keyword_argentina_national_id"></a>Keyword_argentina_national_id
 
 - Argentina National Identity number 
-- Удостоверение 
+- Identity 
 - Удостоверение национальной идентификации 
 - DNI 
 - Национальный реестр лиц NIC 
@@ -158,5 +158,7 @@ ms.locfileid: "52114229"
 - [Определения объектов типа конфиденциальной информации](sensitive-information-type-entity-definitions.md)
 - [Создание пользовательского типа конфиденциальных данных](create-a-custom-sensitive-information-type.md)
 - [Создание настраиваемого типа конфиденциальной информации в PowerShell](create-a-custom-sensitive-information-type-in-scc-powershell.md)
+
+Сведения о том, как использовать типы конфиденциальной информации для соблюдения правил конфиденциальности данных, см. в странице Развертывание защиты информации для правил конфиденциальности данных с [помощью Microsoft 365](../solutions/information-protection-deploy.md) (aka.ms/m365dataprivacy).
 
 <!-- fwlink for this topic https://go.microsoft.com/fwlink/?linkid=2135644-->

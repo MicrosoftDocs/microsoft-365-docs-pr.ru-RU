@@ -16,12 +16,12 @@ ms.custom:
 - AdminSurgePortfolio
 - adminvideo
 description: Узнайте о списках Майкрософт. С помощью списков Майкрософт можно отслеживать сведения о клиентах, такие как тип клиента, выполнение заказов и ход выполнения заказа.
-ms.openlocfilehash: 79094c6b039e62ba88720424985814354bd299b4
-ms.sourcegitcommit: a6b998fef5bdb35ec6726c743a24fea721535fcd
+ms.openlocfilehash: bbe88fb5a241c5991c7f7532f3ea70930e550ab5
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50509433"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245196"
 ---
 # <a name="use-microsoft-lists-to-track-business-info"></a>Использование списков Майкрософт для отслеживания бизнес-данных
 
@@ -29,7 +29,7 @@ ms.locfileid: "50509433"
 
 ## <a name="try-it"></a>Попробуйте
 
-Отслеживание сведений и организация работы с списками Майкрософт. Создайте список с нуля, из Excel, из существующего списка или из шаблона. Вы можете начать работу с Microsoft 365, Microsoft Teams или SharePoint.
+Отслеживание сведений и организация работы с списками Майкрософт. Создайте список с нуля, Excel, из существующего списка или из шаблона. Вы можете начать работу с Microsoft 365, Microsoft Teams или SharePoint.
 
 ### <a name="add-an-item-to-the-list"></a>Добавление элемента в список
 
@@ -72,6 +72,6 @@ ms.locfileid: "50509433"
 
 - Дважды щелкните элемент, чтобы открыть его, и обновить ход заказа.
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-content"></a>См. также:
 
 [Создание списка из приложения Списки](https://support.microsoft.com/office/create-a-list-from-the-lists-app-b5e0b7f8-136f-425f-a108-699586f8e8bd)

@@ -1,5 +1,5 @@
 ---
-title: Помогите пользователям установить Office на устройствах с Windows 10
+title: Помогите пользователям установить Office на Windows 10 устройствах
 f1.keywords:
 - NOCSH
 ms.author: efrene
@@ -26,27 +26,27 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: cbc6bfe5-565a-4fb8-95f0-b06e7b74ac46
-description: Помогите пользователям установить приложения Office на устройствах с Windows 10 и легко установить Office на ПК с Windows 10 из центра администрирования Microsoft 365.
-ms.openlocfilehash: 35588589cf0b816bcbd686c69684d82b62383f17
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: Помогите пользователям установить Office на Windows 10 устройствах и легко установить Office на Windows 10 пк из центра администрирования Microsoft 365.
+ms.openlocfilehash: 74c17533995b74655be57524b77d9c508f703c50
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580221"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245171"
 ---
-# <a name="help-your-users-install-office-on-windows-10-devices"></a>Помогите пользователям установить Office на устройствах с Windows 10
+# <a name="help-your-users-install-office-on-windows-10-devices"></a>Помогите пользователям установить Office на Windows 10 устройствах
 
 [![Надпись, оповещающая об изменении Центра администрирования. Дополнительные сведения см. на сайте aka.ms/aboutM365preview.](../media/m365admincenterchanging.png)](/office365/admin/microsoft-365-admin-center-preview)
 
-Вы можете быстро и легко установить Office на ПК с Windows 10 из центра администрирования Microsoft 365.
+Вы можете быстро и легко установить Office на Windows 10 пк из центра Microsoft 365 администрирования.
   
 Прежде чем начать, прочитайте статью [Подготовка к установке Office для клиентов](prepare-for-office-client-deployment.md), чтобы понять, как это работает с ранее установленными приложениями Office.
 
-Просмотрите короткое видео об установке приложений Office.<br><br>
+Просмотрите короткое видео об установке Office приложений.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/acce002c-0756-4b64-ac5d-2198ee96a9b1] 
 
-Если это видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если это видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](../business-video/index.yml).
 
 ## <a name="manage-office-deployments"></a>Управление развертываниями Office
 
@@ -54,14 +54,14 @@ ms.locfileid: "51580221"
 
 2. Перейдите **к установке** в левой области навигации, а на странице **Настройка** прокрутите в приложения **и обновления.**
     > [!NOTE]
-    > Вы можете не увидеть эту карту, если все пользователи установили приложения Office.
+    > Вы можете не увидеть эту карту, если все пользователи установили Office приложения.
   
-3. На **службе справки пользователи устанавливают карточки приложений Office,** выберите **Просмотр** и **начало работы.**
+3. В **справке пользователи устанавливают Office карты** приложений, выберите **Просмотр** и **начало работы.**
     
-4. На **электронной почте пользователей ссылку для загрузки панели Office,** выберите пользователей, которые вы хотите по электронной почте, а затем электронной **почты выбранных пользователей**.
+4. На **электронной почте пользователей** ссылку для загрузки Office панели, выберите пользователей, которые вы хотите по электронной почте, а затем электронной почты **выбранных пользователей**.
 
-   ![Выберите пользователей для отправки электронной почты со ссылкой на загрузку Office.](../media/sendemailtousers.png)
+   ![Выберите пользователей для отправки электронной почты с Office ссылкой на скачивание.](../media/sendemailtousers.png)
 
-## <a name="for-more-on-setting-up-and-using-microsoft-365-business-premium"></a>Дополнительные дополнительные работы по настройке и использованию Microsoft 365 Бизнес Премиум
+## <a name="for-more-on-setting-up-and-using-microsoft-365-business-premium"></a>Дополнительные для настройки и использования Microsoft 365 бизнес премиум
 
-[Обучающие видеоролики по Microsoft 365 для бизнеса](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Обучающие видеоролики по Microsoft 365 для бизнеса](../business-video/index.yml)

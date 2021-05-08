@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 817ed5e33505f691b11970e3da4c956afa7dc76c
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: ea37ad4302eedf7d43e3ad03e94357a146c2216c
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861063"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245580"
 ---
 # <a name="microsoft-defender-for-endpoint-preview-features"></a>Функции предварительного просмотра в Microsoft Defender для конечной точки
 
@@ -44,7 +44,7 @@ ms.locfileid: "51861063"
 Узнайте о новых функциях в выпуске предварительного просмотра Defender для конечной точки и одними из первых попробуйте новые функции, включив функцию предварительного просмотра.
 
 >[!TIP]
->Получите уведомление, когда эта страница обновляется путем копирования и вклейки следующего URL-адреса в читателя каналов: `https://docs.microsoft.com/api/search/rss?search=%22Microsoft+Defender+ATP+preview+features%22&locale=en-us`
+>Получите уведомление, когда эта страница обновляется путем копирования и вклейки следующего URL-адреса в читателя каналов: `https://docs.microsoft.com/api/search/rss?search=%22In+the+navigation+pane%2C+select+Settings+%3E+Advanced+features+%3E+Preview+features.%22&locale=en-us&facet=`
 
 Дополнительные сведения о новых возможностях, которые, как правило, доступны, см. в дополнительных сведениях о новых возможностях [в Defender для конечной точки.](whats-new-in-microsoft-defender-atp.md)
 
@@ -54,7 +54,7 @@ ms.locfileid: "51861063"
 
 Включите параметр предварительной версии, чтобы быть в числе тех, кто первым попробует новые функции.
 
-1. В области навигации выберите **параметры**  >  **Расширенные функции**  >  **Preview.**
+1. В области навигации выберите **Параметры**  >  **расширенные функции**  >  **Preview.**
 
 2. Переключите параметр между **параметром "Включай** и **выключи"** и выберите **параметр Сохранить предпочтения.**
 

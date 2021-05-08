@@ -1,6 +1,6 @@
 ---
 title: Оценка безопасности (Майкрософт)
-description: Описывает microsoft Secure Score в центре безопасности Microsoft 365, как улучшить осанку безопасности и что могут ожидать администраторы безопасности.
+description: Описывает microsoft Secure Score в центре Microsoft 365 безопасности, как улучшить осанку безопасности и что могут ожидать администраторы безопасности.
 keywords: Microsoft secure score, secure score, office 365 secure score, microsoft security score, Microsoft 365 security center, improvement actions
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -21,20 +21,20 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 19b83fe7dd733bb8a0668039d4df2b692a398ad4
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+ms.openlocfilehash: 4a2c220cab15751671b9b38c3bb2fda3db12c9e1
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51570467"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245381"
 ---
 # <a name="microsoft-secure-score"></a>Оценка безопасности (Майкрософт)
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-Оценка безопасности (Майкрософт) — это измерение уровня безопасности организации. Чем выше она, тем больше действий по укреплению безопасности предпринимает организация. Его можно найти в https://security.microsoft.com/securescore центре [безопасности Microsoft 365.](overview-security-center.md)
+Оценка безопасности (Майкрософт) — это измерение уровня безопасности организации. Чем выше она, тем больше действий по укреплению безопасности предпринимает организация. Его можно найти в https://security.microsoft.com/securescore центре [Microsoft 365 безопасности.](overview-security-center.md)
 
-Следуя рекомендациям по оценке безопасности, вы сможете защитить организацию от угроз. С централизованной панели мониторинга в центре безопасности Microsoft 365 организации могут отслеживать и работать над безопасностью удостоверений, приложений и устройств Microsoft 365.
+Следуя рекомендациям по оценке безопасности, вы сможете защитить организацию от угроз. С централизованной панели мониторинга в центре Microsoft 365 организации могут отслеживать и работать над безопасностью Microsoft 365 удостоверений, приложений и устройств.
 
 Оценка безопасности (Майкрософт) помогает организациям:  
 
@@ -44,9 +44,9 @@ ms.locfileid: "51570467"
 
 Организации получают доступ к надежным визуализациям показателей и тенденций, интеграции с другими продуктами Майкрософт, сопоставлению показателей с аналогичными организациями и многое другое. Оценка также может отражать, когда сторонние решения рассмотрели рекомендуемые действия.
 
-![Домашняя страницы Secure Score](../../media/secure-score/secure-score-homepage-new.png)
+![Домашняя страницы Secure Score](../../media/secure-score/secure-score-home-page.png)
 
-## <a name="how-it-works"></a>Принципы работы
+## <a name="how-it-works"></a>Как это работает
 
 Вам даются очки для следующих действий:
 
@@ -81,14 +81,14 @@ ms.locfileid: "51570467"
 - Azure Active Directory
 - Microsoft Defender для конечной точки
 - Microsoft Defender для удостоверений
-- Cloud App Security
+- Безопасность облачных приложений
 - Microsoft Teams
 
-Рекомендации по другим продуктам безопасности скоро будут. Рекомендации не охватывают все поверхности атаки, связанные с каждым продуктом, но они хороший базовый уровень. Вы также можете отметить действия по улучшению, охватываемых стороной или альтернативной мерой смягчения.
+Рекомендации для других продуктов безопасности скоро. Рекомендации не охватывают все поверхности атаки, связанные с каждым продуктом, но они хороший базовый уровень. Вы также можете отметить действия по улучшению, охватываемых стороной или альтернативной мерой смягчения.
 
 ### <a name="security-defaults"></a>Параметры безопасности по умолчанию
 
-Microsoft Secure Score обновила действия по улучшению для поддержки по умолчанию безопасности в [Azure Active Directory,](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)что упрощает защиту организации с заранее настроенными настройками безопасности для распространенных атак.
+Microsoft Secure Score обновила действия по улучшению для поддержки Azure Active Directory безопасности в [Azure Active Directory,](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)что упрощает защиту организации с заранее настроенными настройками безопасности для распространенных атак.
 
 Если включить по умолчанию безопасность, вам будут награждаться полные баллы за следующие действия по улучшению:
 

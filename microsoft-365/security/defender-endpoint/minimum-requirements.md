@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 330406b3540becafb0ffac8cbbc36437a2e57f60
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 12ed9b8648630428c6da347252d077521d859482
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688841"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245712"
 ---
 # <a name="minimum-requirements-for-microsoft-defender-for-endpoint"></a>Минимальные требования к Microsoft Defender для конечной точки
 
@@ -37,7 +37,7 @@ ms.locfileid: "51688841"
 Для бортовых устройств к службе существует несколько минимальных требований. Узнайте о требованиях к лицензированию, оборудованию и программному обеспечению и других параметрах конфигурации для бортовых устройств службы.
 
 > [!TIP]
-> - Узнайте о последних усовершенствованиях в сообществе Защитник для конечной точки: [Защитник для конечной точки.](https://techcommunity.microsoft.com/t5/Windows-Defender-Advanced-Threat/ct-p/WindowsDefenderAdvanced)
+> - Узнайте о последних улучшениях в Defender for Endpoint: [Defender for Endpoint Tech Community.](https://techcommunity.microsoft.com/t5/Windows-Defender-Advanced-Threat/ct-p/WindowsDefenderAdvanced)
 > - Defender for Endpoint в недавней оценке MITRE продемонстрировал ведущие в отрасли возможности оптики и обнаружения. Read: [Insights from the MITRE ATT&CK-based assessment](https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/insights-from-the-mitre-attack-based-evaluation-of-windows-defender-atp/).
 
 ## <a name="licensing-requirements"></a>Требования к лицензированию
@@ -45,7 +45,7 @@ Microsoft Defender для конечной точки требует одно и
 
 - Windows 10 Корпоративная E5
 - Windows 10 для образовательных учреждений A5
-- Microsoft 365 E5 (M365 E5), которая включает Windows 10 Enterprise E5
+- Microsoft 365 E5 (M365 E5), которая включает Windows 10 Корпоративная E5
 - Microsoft 365 A5 (M365 A5)
 - Безопасность Microsoft 365 E5
 - Microsoft 365 A5 Security
@@ -53,7 +53,7 @@ Microsoft Defender для конечной точки требует одно и
 
 > [!NOTE]
 > Лицензированные пользователи могут использовать Microsoft Defender для конечной точки на пяти одновременном устройстве.
-> Microsoft Defender для конечной точки также доступен для покупки у поставщика облачных решений (CSP).
+> Microsoft Defender для конечной точки также доступен для покупки в поставщик облачных решений (CSP).
 > Для VMs RDSH не требуется отдельная лицензия Defender для конечной точки.
 
 Microsoft Defender для конечной точки для серверов требует одного из следующих вариантов лицензирования:
@@ -67,13 +67,13 @@ Microsoft Defender для конечной точки для серверов т
 > * Microsoft Defender для конечной точки
 > * Windows E5/A5
 > * Microsoft 365 E5/A5
-> * Безопасность Microsoft 365 E5/A5
+> * Microsoft 365 E5/A5 Security
 
 Подробные сведения о лицензировании см. на [сайте Условия](https://www.microsoft.com/licensing/terms/) продукта и поработать с командой учетных записей, чтобы узнать больше об условиях и условиях.
 
-Дополнительные сведения о массиве функций в выпусках Windows 10 см. в выпуске [Compare Windows 10.](https://www.microsoft.com/windowsforbusiness/compare)
+Дополнительные сведения о массиве функций в Windows 10 выпусках см. в [Windows 10.](https://www.microsoft.com/windowsforbusiness/compare)
 
-Подробную таблицу сравнения сравнения коммерческих выпусков Windows 10 см. в сопоставлении [PDF.](https://wfbdevicemanagementprod.blob.core.windows.net/windowsforbusiness/Windows10_CommercialEdition_Comparison.pdf)
+Подробную таблицу сравнения сравнения Windows 10 коммерческого выпуска см. в таблице [сравнения PDF.](https://wfbdevicemanagementprod.blob.core.windows.net/windowsforbusiness/Windows10_CommercialEdition_Comparison.pdf)
 
 ## <a name="browser-requirements"></a>Требования к браузеру
 Доступ к Защитнику для конечной точки делается через браузер, поддерживая следующие браузеры:
@@ -87,21 +87,21 @@ Microsoft Defender для конечной точки для серверов т
 
 ## <a name="hardware-and-software-requirements"></a>Требования к оборудованию и программному обеспечению
 
-### <a name="supported-windows-versions"></a>Поддерживаемые версии Windows
-- Windows 7 SP1 Enterprise[(требуется ESU для поддержки.)](https://docs.microsoft.com/troubleshoot/windows-client/windows-7-eos-faq/windows-7-extended-security-updates-faq)
-- Windows 7 SP1 Pro[(требуется ESU для поддержки.)](https://docs.microsoft.com/troubleshoot/windows-client/windows-7-eos-faq/windows-7-extended-security-updates-faq)
+### <a name="supported-windows-versions"></a>Поддерживаемые Windows версии
+- Windows 7 sp1 Enterprise[(требуется ESU для поддержки.)](https://docs.microsoft.com/troubleshoot/windows-client/windows-7-eos-faq/windows-7-extended-security-updates-faq)
+- Windows 7 sp1 Pro[(требуется ESU для поддержки.)](https://docs.microsoft.com/troubleshoot/windows-client/windows-7-eos-faq/windows-7-extended-security-updates-faq)
 - Windows 8.1 Корпоративная
-- Windows 8.1 Pro
+- Windows 8.1 Профессиональная
 - Windows 10 Корпоративная
-- [Windows 10 Enterprise LTSC](https://docs.microsoft.com/windows/whats-new/ltsc/)
+- [Windows 10 Корпоративная LTSC 2016 (или более позднее)](/windows/whats-new/ltsc/)
 - Windows 10 для образовательных учреждений
 - Windows 10 Pro
-- Windows 10 Pro Education
-- Сервер Windows
+- Windows 10 Pro для образовательных учреждений
+- Windows сервер
   - Windows Server 2008 R2 с пакетом обновления 1 (SP1)
   - Windows Server 2012 R2
   - Windows Server 2016
-  - Windows Server, версия 1803 или более поздней версии
+  - Windows Сервер, версия 1803 или более поздней версии
   - Windows Server 2019
 - Виртуальный рабочий стол Windows
 
@@ -110,11 +110,11 @@ Microsoft Defender для конечной точки для серверов т
 Требования к оборудованию для Defender для конечной точки на устройствах одинаковы для поддерживаемых выпусков.
 
 > [!NOTE]
-> Машины с мобильными версиями Windows (например, Windows CE Windows 10 Mobile) не поддерживаются.
+> Машины с мобильными версиями Windows (например, Windows CE и Windows 10 Mobile) не поддерживаются.
 >
-> Виртуальные машины под управлением Windows 10 Enterprise 2016 LTSB могут столкнуться с проблемой производительности при работе на платформах виртуализации, не в microsoft.
+> Виртуальные Windows 10 Корпоративная 2016 с долгосрочным обслуживанием могут столкнуться с проблемой производительности при работе на платформах виртуализации, не в microsoft.
 >
-> В виртуальных средах рекомендуется использовать Windows 10 Enterprise LTSC 2019 или более поздней версии.
+> В виртуальных средах рекомендуется использовать Windows 10 Корпоративная LTSC 2019 или более поздней.
 
 
 ### <a name="other-supported-operating-systems"></a>Другие поддерживаемые операционные системы
@@ -144,7 +144,7 @@ Microsoft Defender для конечной точки для серверов т
 Убедитесь, что служба диагностических данных включена на всех устройствах организации.
 По умолчанию эта служба включена. Это хорошая практика, чтобы проверить, чтобы убедиться, что вы получите данные датчика от них.
 
-**Используйте командную строку, чтобы проверить тип** запуска службы диагностических данных Windows 10:
+**Используйте командную строку для проверки типа Windows 10 службы диагностических данных:**
 
 1. Откройте на устройстве повышенную командную строку:
 
@@ -166,7 +166,7 @@ Microsoft Defender для конечной точки для серверов т
 Необходимо настроить службу для автоматического запуска,  если START_TYPE не установлено AUTO_START **.**
 
 
-**Чтобы автоматически запустить службу диагностических данных Windows 10, используйте командную строку:**
+**Используйте командную строку, чтобы Windows 10 службу диагностических данных для автоматического запуска:**
 
 1.  Откройте повышенную командную строку в конечной точке:
 
@@ -197,27 +197,27 @@ Microsoft Defender для конечной точки для серверов т
 Перед устройством необходимо включить службу диагностических данных. Служба включена по умолчанию в Windows 10.
 
 
-## <a name="microsoft-defender-antivirus-configuration-requirement"></a>Требование конфигурации антивируса Microsoft Defender
-Агент Defender для конечной точки зависит от способности антивируса Microsoft Defender сканировать файлы и предоставлять сведения о них.
+## <a name="microsoft-defender-antivirus-configuration-requirement"></a>антивирусная программа в Microsoft Defender конфигурации
+Агент Defender для конечной точки зависит от способности антивирусная программа в Microsoft Defender сканировать файлы и предоставлять сведения о них.
 
-Настройте обновления аналитики безопасности на устройствах Defender для конечных точек независимо от того, является ли антивирус Microsoft Defender активным антивирусом или нет. Дополнительные сведения см. в [веб-сайте Управление обновлениями антивирусного](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/manage-updates-baselines-microsoft-defender-antivirus)антивируса Microsoft Defender и применение базовых данных.
+Настройка обновлений для аналитики безопасности на устройствах Defender для конечных точек независимо антивирусная программа в Microsoft Defender является активным антивирусом или нет. Дополнительные сведения см. в [антивирусная программа в Microsoft Defender обновления и применение базовых показателей.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/manage-updates-baselines-microsoft-defender-antivirus)
 
-Если антивирус Microsoft Defender не является активным антивирусом в организации и вы используете службу Defender для конечных точек, антивирус Microsoft Defender переходит в пассивный режим.
+Если антивирусная программа в Microsoft Defender не является активным антивирусным программным обеспечением в организации и используется служба Defender для конечных точек, антивирусная программа в Microsoft Defender переходит в пассивный режим.
 
-Если ваша организация отключил антивирус Microsoft Defender с помощью групповой политики или других методов, устройства, которые находятся на борту, должны быть исключены из этой групповой политики.
+Если организация отключается антивирусная программа в Microsoft Defender групповой политики или другими методами, устройства, которые находятся на борту, должны быть исключены из этой групповой политики.
 
-Если вы на бортовых серверах, а антивирус Microsoft Defender не является активным антивирусным обеспечением на серверах, антивирус Microsoft Defender необходимо настроить, чтобы перейти в пассивный режим или отсеять. Конфигурация зависит от версии сервера. Дополнительные сведения см. в [веб-сайте Совместимость антивирусных программ Microsoft Defender.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus-compatibility.md)
+Если вы на бортовых серверах и антивирусная программа в Microsoft Defender не является активным антивирусным программным обеспечением на серверах, антивирусная программа в Microsoft Defender необходимо настроить, чтобы перейти в пассивный режим или отсеять. Конфигурация зависит от версии сервера. Дополнительные сведения см. [в антивирусная программа в Microsoft Defender совместимости.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus-compatibility.md)
 
 > [!NOTE]
-> Обычная политика группы не применяется к защите от тамперов, и изменения параметров антивируса Microsoft Defender будут игнорироваться при внесения в нее защиты.
+> Обычная политика группы не применяется к tamper Protection, и изменения антивирусная программа в Microsoft Defender параметров будут игнорироваться при виостановке защиты от тамперов.
 
 
-## <a name="microsoft-defender-antivirus-early-launch-antimalware-elam-driver-is-enabled"></a>Включен драйвер антивируса Microsoft Defender Early Launch Antimalware (ELAM)
-Если антивирус Microsoft Defender запущен в качестве основного антивирусного продукта на устройствах, агент Defender для конечных точек успешно будет на борту.
+## <a name="microsoft-defender-antivirus-early-launch-antimalware-elam-driver-is-enabled"></a>антивирусная программа в Microsoft Defender Включен драйвер раннего запуска антивирусных программ (ELAM)
+Если вы работаете антивирусная программа в Microsoft Defender в качестве основного антивирусного продукта на устройствах, агент Defender для конечных точек успешно будет на борту.
 
-Если вы работаете с сторонним клиентом антивирусных программ и используете решения для управления мобильными устройствами или Microsoft Endpoint Manager (текущая ветвь), необходимо убедиться, что драйвер ELAM антивируса Microsoft Defender включен. Дополнительные сведения см. в [веб-сайте Убедитесь,](troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy)что антивирус Microsoft Defender не отключен политикой.
+Если вы работаете с сторонним клиентом противомалярийных программ и используете решения для управления мобильными устройствами или Microsoft Endpoint Manager (текущая ветвь), необходимо убедиться, что антивирусная программа в Microsoft Defender драйвер ELAM включен. Дополнительные сведения см. в антивирусная программа в Microsoft Defender, чтобы политика не [отключалась.](troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy)
 
 
 ## <a name="related-topics"></a>Статьи по теме
 - [Настройка microsoft Defender для развертывания конечных точек](production-deployment.md)
-- [Бортовых устройств](onboard-configure.md)
+- [Подключение устройств](onboard-configure.md)

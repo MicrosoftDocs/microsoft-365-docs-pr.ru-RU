@@ -9,8 +9,8 @@ ms.sitesec: library
 ms.pagetype: security
 f1.keywords:
 - NOCSH
-ms.author: deniseb
-author: denisebmsft
+ms.author: josephd
+author: JoeDavies-MSFT
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -21,12 +21,12 @@ ms.topic: how-to
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.technology: m365d
-ms.openlocfilehash: 7106f5d2e740d2b4cacbcaeb0b9391095bbeb356
-ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
+ms.openlocfilehash: e3e842f812c5675334cc25fa35544165129db2b4
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51592028"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245892"
 ---
 # <a name="view-and-manage-actions-in-the-action-center"></a>Просмотр и управление действиями в центре действий
 
@@ -42,7 +42,7 @@ ms.locfileid: "51592028"
 - Ваша группа операций безопасности может принимать действия по [](advanced-hunting-overview.md) исправлению в ручном режиме, например во время предварительной охоты или при расследовании оповещений [или](investigate-alerts.md) [инцидентов.](investigate-incidents.md)
 
 > [!NOTE]
-> Чтобы утвердить или отклонить действия по исправлению, необходимы [соответствующие разрешения](m365d-action-center.md#required-permissions-for-action-center-tasks). Дополнительные сведения см. в дополнительных сведениях, необходимых для автоматического расследования и ответа [в Microsoft 365 Defender.](m365d-configure-auto-investigation-response.md#prerequisites-for-automated-investigation-and-response-in-microsoft-365-defender)
+> Чтобы утвердить или отклонить действия по исправлению, необходимы [соответствующие разрешения](m365d-action-center.md#required-permissions-for-action-center-tasks). Дополнительные сведения см. в [дополнительных сведениях,](m365d-configure-auto-investigation-response.md#prerequisites-for-automated-investigation-and-response-in-microsoft-365-defender)необходимых для автоматического расследования и ответа в Microsoft 365 Defender.
 
 ## <a name="review-pending-actions-in-the-action-center"></a>Просмотр ожидающих действий в центре действий
 
@@ -68,7 +68,7 @@ ms.locfileid: "51592028"
 
 | Источник действий | Поддерживаемые действия |
 |:---|:---|
-| - Автоматическое расследование <br/>- Антивирус Microsoft Defender <br/>- Действия ручного ответа | - Изолировать устройство <br/>- Ограничение выполнения кода <br/>- Карантин файла <br/>- Удаление ключа реестра <br/>- Остановка службы <br/>- Отключить драйвер <br/>- Удаление запланированной задачи |
+| - Автоматическое расследование <br/>- антивирусная программа в Microsoft Defender <br/>- Действия ручного ответа | - Изолировать устройство <br/>- Ограничение выполнения кода <br/>- Карантин файла <br/>- Удаление ключа реестра <br/>- Остановка службы <br/>- Отключить драйвер <br/>- Удаление запланированной задачи |
 
 ### <a name="undo-one-remediation-action"></a>Отмена одного действия по исправлению
 
