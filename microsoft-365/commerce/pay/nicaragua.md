@@ -8,27 +8,27 @@ manager: scotv
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.collection: Adm_Commerce_Pay
+ms.custom: CommercePayInfo
 localization_priority: Normal
 description: Узнайте, куда отправить платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: fd46c7487bf41431d7daf255a84aa7df06f71c5e
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: afcf8009b9310dcab41f7cade641f927a883600d
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50543020"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52273180"
 ---
-# <a name="payment-information-for-nicaragua"></a><span data-ttu-id="caf49-103">Сведения об оплате для Никарагуа</span><span class="sxs-lookup"><span data-stu-id="caf49-103">Payment information for Nicaragua</span></span>
+# <a name="payment-information-for-nicaragua"></a><span data-ttu-id="ae1b6-103">Сведения об оплате для Никарагуа</span><span class="sxs-lookup"><span data-stu-id="ae1b6-103">Payment information for Nicaragua</span></span>
 
-<span data-ttu-id="caf49-104">[Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="caf49-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="ae1b6-104">[Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="ae1b6-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="caf49-105">Пожалуйста, оплатите только в долларах США и справочный номер счета-фактуры(ы) на ваш денежный перевод.</span><span class="sxs-lookup"><span data-stu-id="caf49-105">Please pay in USD only and reference invoice number(s) on your payment remittance.</span></span>
+<span data-ttu-id="ae1b6-105">Пожалуйста, оплатите только в долларах США и справочный номер счета-фактуры(ы) на ваш денежный перевод.</span><span class="sxs-lookup"><span data-stu-id="ae1b6-105">Please pay in USD only and reference invoice number(s) on your payment remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="caf49-106">Электронный платеж</span><span class="sxs-lookup"><span data-stu-id="caf49-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="ae1b6-106">Электронный платеж</span><span class="sxs-lookup"><span data-stu-id="ae1b6-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="caf49-107">**Банк:** Bank of America</span><span class="sxs-lookup"><span data-stu-id="caf49-107">**Bank:** Bank of America</span></span>  
-<span data-ttu-id="caf49-108">**Ветвь:** Даллас</span><span class="sxs-lookup"><span data-stu-id="caf49-108">**Branch:** Dallas</span></span>  
-<span data-ttu-id="caf49-109">**Код SWIFT:** BOFAUS3N</span><span class="sxs-lookup"><span data-stu-id="caf49-109">**SWIFT Code:** BOFAUS3N</span></span>  
-<span data-ttu-id="caf49-110">**Номер учетной записи:** 4426587954</span><span class="sxs-lookup"><span data-stu-id="caf49-110">**Account Number:** 4426587954</span></span>  
-<span data-ttu-id="caf49-111">**Имя учетной записи:** Microsoft</span><span class="sxs-lookup"><span data-stu-id="caf49-111">**Account Name:** Microsoft</span></span>  
+<span data-ttu-id="ae1b6-107">**Банк:** Bank of America</span><span class="sxs-lookup"><span data-stu-id="ae1b6-107">**Bank:** Bank of America</span></span>  
+<span data-ttu-id="ae1b6-108">**Ветвь:** Даллас</span><span class="sxs-lookup"><span data-stu-id="ae1b6-108">**Branch:** Dallas</span></span>  
+<span data-ttu-id="ae1b6-109">**Код SWIFT:** BOFAUS3N</span><span class="sxs-lookup"><span data-stu-id="ae1b6-109">**SWIFT Code:** BOFAUS3N</span></span>  
+<span data-ttu-id="ae1b6-110">**Номер учетной записи:** 4426587954</span><span class="sxs-lookup"><span data-stu-id="ae1b6-110">**Account Number:** 4426587954</span></span>  
+<span data-ttu-id="ae1b6-111">**Имя учетной записи:** Microsoft</span><span class="sxs-lookup"><span data-stu-id="ae1b6-111">**Account Name:** Microsoft</span></span>  
