@@ -12,33 +12,33 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ec8d63ae92fea3d0bd95ec632aaa1cb7b441bcc4
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 87827742885c15d52417671a224930988be7a7e8
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50544556"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52295431"
 ---
-# <a name="contact-support-for-senegal"></a><span data-ttu-id="1746c-103">Поддержка контактов для Сенегала</span><span class="sxs-lookup"><span data-stu-id="1746c-103">Contact support for Senegal</span></span>
+# <a name="contact-support-for-senegal"></a><span data-ttu-id="3b5bd-103">Поддержка контактов для Сенегала</span><span class="sxs-lookup"><span data-stu-id="3b5bd-103">Contact support for Senegal</span></span>
 
-<span data-ttu-id="1746c-104">[Найдите другую страну или регион.](../contact-support-for-business-products.md)</span><span class="sxs-lookup"><span data-stu-id="1746c-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="3b5bd-104">[Найдите другую страну или регион.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="3b5bd-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="1746c-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="1746c-105">Phone number</span></span>
-<span data-ttu-id="1746c-106">800 103 072</span><span class="sxs-lookup"><span data-stu-id="1746c-106">800 103 072</span></span>
+## <a name="phone-number"></a><span data-ttu-id="3b5bd-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="3b5bd-105">Phone number</span></span>
+<span data-ttu-id="3b5bd-106">800 103 072</span><span class="sxs-lookup"><span data-stu-id="3b5bd-106">800 103 072</span></span>
 
-<span data-ttu-id="1746c-107">После набора введите</span><span class="sxs-lookup"><span data-stu-id="1746c-107">After dialing, enter</span></span>
+<span data-ttu-id="3b5bd-107">После набора введите</span><span class="sxs-lookup"><span data-stu-id="3b5bd-107">After dialing, enter</span></span>
 
-<span data-ttu-id="1746c-108">877 867 2337</span><span class="sxs-lookup"><span data-stu-id="1746c-108">877 867 2337</span></span>
+<span data-ttu-id="3b5bd-108">877 867 2337</span><span class="sxs-lookup"><span data-stu-id="3b5bd-108">877 867 2337</span></span>
 
-## <a name="hours"></a><span data-ttu-id="1746c-109">Часы</span><span class="sxs-lookup"><span data-stu-id="1746c-109">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="1746c-110">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="1746c-110">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="3b5bd-109">Часы</span><span class="sxs-lookup"><span data-stu-id="3b5bd-109">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="3b5bd-110">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="3b5bd-110">Billing Support:</span></span>
 
-<span data-ttu-id="1746c-111">Французский: Mon-Fri 8 am-4 PM</span><span class="sxs-lookup"><span data-stu-id="1746c-111">French: Mon-Fri 8 AM-4 PM</span></span>
+<span data-ttu-id="3b5bd-111">Французский: Mon-Fri 8 am-4 PM</span><span class="sxs-lookup"><span data-stu-id="3b5bd-111">French: Mon-Fri 8 AM-4 PM</span></span>
 
-<span data-ttu-id="1746c-112">Английский: Mon-Fri 8:00</span><span class="sxs-lookup"><span data-stu-id="1746c-112">English: Mon-Fri 8 AM-4 PM</span></span>
+<span data-ttu-id="3b5bd-112">Английский: Mon-Fri 8:00</span><span class="sxs-lookup"><span data-stu-id="3b5bd-112">English: Mon-Fri 8 AM-4 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="1746c-113">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="1746c-113">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="3b5bd-113">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="3b5bd-113">Technical Support:</span></span>
 
-<span data-ttu-id="1746c-114">Французский: Mon-Fri 7 am-8 PM</span><span class="sxs-lookup"><span data-stu-id="1746c-114">French: Mon-Fri 7 AM-8 PM</span></span>
+<span data-ttu-id="3b5bd-114">Французский: Mon-Fri 7 am-8 PM</span><span class="sxs-lookup"><span data-stu-id="3b5bd-114">French: Mon-Fri 7 AM-8 PM</span></span>
 
-<span data-ttu-id="1746c-115">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="1746c-115">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="3b5bd-115">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="3b5bd-115">English: 24 hours a day, 7 days a week</span></span>
