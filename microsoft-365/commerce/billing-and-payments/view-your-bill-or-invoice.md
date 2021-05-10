@@ -24,12 +24,12 @@ ms.custom:
 - PPM_jmueller
 description: Найдите свой счет или выписку по счету в центре администрирования Microsoft 365. Вы также можете сохранить и распечатать копию счета.
 ms.date: 07/31/2020
-ms.openlocfilehash: f9dc6fb9be765e6e221ddf43f703d64737870f01
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: eff193689817c1c89fff7c8ffbc5335fff64ee0f
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52280827"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297360"
 ---
 # <a name="view-your-bill-or-invoice"></a>Просмотр счета
 
@@ -37,7 +37,7 @@ ms.locfileid: "52280827"
   
 Если вам нужна помощь с интерпретацией расходов, которые вы видите в своем счете, см. раздел [Понимание вашего счета или Счет-фактуры](understand-your-invoice2.md) для подробного ознакомления.
   
-**Возникла проблема с вашим счетом?** [Обратитесь в службу поддержки для бизнес-продуктов](../../admin/contact-support-for-business-products.md).
+**Возникла проблема с вашим счетом?** [Обратитесь в службу поддержки для бизнес-продуктов](../../business-video/get-help-support.md).
 
 ## <a name="before-you-begin"></a>Прежде чем начать
 
