@@ -12,29 +12,29 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: f6c8a8e0b58fe31e7dcaba91b81ca36bd03e9f06
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 9a634f05c1d4a7adbe7df16b328429e91dbb20ce
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50547424"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52296231"
 ---
-# <a name="contact-support-for-finland"></a><span data-ttu-id="112d7-103">Поддержка контактов для Финляндии</span><span class="sxs-lookup"><span data-stu-id="112d7-103">Contact support for Finland</span></span>
+# <a name="contact-support-for-finland"></a><span data-ttu-id="68c53-103">Поддержка контактов для Финляндии</span><span class="sxs-lookup"><span data-stu-id="68c53-103">Contact support for Finland</span></span>
 
-<span data-ttu-id="112d7-104">[Найдите другую страну или регион.](../contact-support-for-business-products.md)</span><span class="sxs-lookup"><span data-stu-id="112d7-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="68c53-104">[Найдите другую страну или регион.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="68c53-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="112d7-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="112d7-105">Phone number</span></span>
-<span data-ttu-id="112d7-106">0800 98462</span><span class="sxs-lookup"><span data-stu-id="112d7-106">0800 98462</span></span>
+## <a name="phone-number"></a><span data-ttu-id="68c53-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="68c53-105">Phone number</span></span>
+<span data-ttu-id="68c53-106">0800 98462</span><span class="sxs-lookup"><span data-stu-id="68c53-106">0800 98462</span></span>
 
-## <a name="hours"></a><span data-ttu-id="112d7-107">Часы</span><span class="sxs-lookup"><span data-stu-id="112d7-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="112d7-108">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="112d7-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="68c53-107">Часы</span><span class="sxs-lookup"><span data-stu-id="68c53-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="68c53-108">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="68c53-108">Billing Support:</span></span>
 
-<span data-ttu-id="112d7-109">Английский: Mon-Fri 09:00</span><span class="sxs-lookup"><span data-stu-id="112d7-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="68c53-109">Английский: Mon-Fri 09:00</span><span class="sxs-lookup"><span data-stu-id="68c53-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="112d7-110">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="112d7-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="68c53-110">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="68c53-110">Technical Support:</span></span>
 
-<span data-ttu-id="112d7-111">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="112d7-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="68c53-111">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="68c53-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="112d7-112">Альтернативный номер телефона: 09 72 51 96 30</span><span class="sxs-lookup"><span data-stu-id="112d7-112">Alternative Phone Number: 09 72 51 96 30</span></span>
+<span data-ttu-id="68c53-112">Номер альтернативного Телефон: 09 72 51 96 30</span><span class="sxs-lookup"><span data-stu-id="68c53-112">Alternative Phone Number: 09 72 51 96 30</span></span>
 
-<span data-ttu-id="112d7-113">Применяются локальные платежи за вызовы</span><span class="sxs-lookup"><span data-stu-id="112d7-113">Local call charges apply</span></span>
+<span data-ttu-id="68c53-113">Применяются локальные платежи за вызовы</span><span class="sxs-lookup"><span data-stu-id="68c53-113">Local call charges apply</span></span>

@@ -94,12 +94,14 @@
               href: manage-incidents.md
             - name: Реагирование на инциденты
               items:
-                - name: Анализ инцидентов
+                - name: Исследование инцидентов
                   href: investigate-incidents.md
-                - name: Анализ оповещений
+                - name: Исследование оповещений
                   href: investigate-alerts.md
-                - name: Анализ пользователей
+                - name: Исследование пользователей
                   href: investigate-users.md
+                - name: Книги ответов на инциденты
+                  href: 'https://docs.microsoft.com/security/compass/incident-response-playbooks'
                 - name: Ответ на первый инцидент
                   items:
                     - name: Общие сведения

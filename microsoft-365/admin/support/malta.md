@@ -12,25 +12,25 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 4bc0e7998a37bdf35085819749498edbd0ffebae
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: a3c728d05137db26877bb8910d6a4b477e791f7e
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50545944"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52295859"
 ---
-# <a name="contact-support-for-malta"></a><span data-ttu-id="9776a-103">Поддержка контактов для Мальты</span><span class="sxs-lookup"><span data-stu-id="9776a-103">Contact support for Malta</span></span>
+# <a name="contact-support-for-malta"></a><span data-ttu-id="341d7-103">Поддержка контактов для Мальты</span><span class="sxs-lookup"><span data-stu-id="341d7-103">Contact support for Malta</span></span>
 
-<span data-ttu-id="9776a-104">[Найдите другую страну или регион.](../contact-support-for-business-products.md)</span><span class="sxs-lookup"><span data-stu-id="9776a-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="341d7-104">[Найдите другую страну или регион.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="341d7-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="9776a-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="9776a-105">Phone number</span></span>
-<span data-ttu-id="9776a-106">8006 2231</span><span class="sxs-lookup"><span data-stu-id="9776a-106">8006 2231</span></span>
+## <a name="phone-number"></a><span data-ttu-id="341d7-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="341d7-105">Phone number</span></span>
+<span data-ttu-id="341d7-106">8006 2231</span><span class="sxs-lookup"><span data-stu-id="341d7-106">8006 2231</span></span>
 
-## <a name="hours"></a><span data-ttu-id="9776a-107">Часы</span><span class="sxs-lookup"><span data-stu-id="9776a-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="9776a-108">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="9776a-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="341d7-107">Часы</span><span class="sxs-lookup"><span data-stu-id="341d7-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="341d7-108">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="341d7-108">Billing Support:</span></span>
 
-<span data-ttu-id="9776a-109">Английский: Mon-Fri 09:00</span><span class="sxs-lookup"><span data-stu-id="9776a-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="341d7-109">Английский: Mon-Fri 09:00</span><span class="sxs-lookup"><span data-stu-id="341d7-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="9776a-110">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="9776a-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="341d7-110">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="341d7-110">Technical Support:</span></span>
 
-<span data-ttu-id="9776a-111">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="9776a-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="341d7-111">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="341d7-111">English: 24 hours a day, 7 days a week</span></span>

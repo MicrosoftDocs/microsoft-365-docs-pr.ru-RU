@@ -12,39 +12,39 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: aa3250f530fd37454f28e22457c731264e0bfdbb
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: b2cde3754f06d5aa567c923eb51f5cee72bb6d92
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50545672"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52295715"
 ---
-# <a name="contact-support-for-morocco"></a><span data-ttu-id="15b00-103">Поддержка контактов для Марокко</span><span class="sxs-lookup"><span data-stu-id="15b00-103">Contact support for Morocco</span></span>
+# <a name="contact-support-for-morocco"></a><span data-ttu-id="c11e6-103">Поддержка контактов для Марокко</span><span class="sxs-lookup"><span data-stu-id="c11e6-103">Contact support for Morocco</span></span>
 
-<span data-ttu-id="15b00-104">[Найдите другую страну или регион.](../contact-support-for-business-products.md)</span><span class="sxs-lookup"><span data-stu-id="15b00-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="c11e6-104">[Найдите другую страну или регион.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="c11e6-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="15b00-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="15b00-105">Phone number</span></span>
-<span data-ttu-id="15b00-106">0801 000 809</span><span class="sxs-lookup"><span data-stu-id="15b00-106">0801 000 809</span></span>
+## <a name="phone-number"></a><span data-ttu-id="c11e6-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="c11e6-105">Phone number</span></span>
+<span data-ttu-id="c11e6-106">0801 000 809</span><span class="sxs-lookup"><span data-stu-id="c11e6-106">0801 000 809</span></span>
 
-<span data-ttu-id="15b00-107">Выбор варианта 9</span><span class="sxs-lookup"><span data-stu-id="15b00-107">Select option 9</span></span>
+<span data-ttu-id="c11e6-107">Выбор варианта 9</span><span class="sxs-lookup"><span data-stu-id="c11e6-107">Select option 9</span></span>
 
-<span data-ttu-id="15b00-108">Ввод кода 7700</span><span class="sxs-lookup"><span data-stu-id="15b00-108">Enter code 7700</span></span>
+<span data-ttu-id="c11e6-108">Ввод кода 7700</span><span class="sxs-lookup"><span data-stu-id="c11e6-108">Enter code 7700</span></span>
 
-## <a name="hours"></a><span data-ttu-id="15b00-109">Часы</span><span class="sxs-lookup"><span data-stu-id="15b00-109">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="15b00-110">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="15b00-110">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="c11e6-109">Часы</span><span class="sxs-lookup"><span data-stu-id="c11e6-109">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="c11e6-110">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="c11e6-110">Billing Support:</span></span>
 
-<span data-ttu-id="15b00-111">Арабский: Sun-Thu 8 am-4 PM</span><span class="sxs-lookup"><span data-stu-id="15b00-111">Arabic: Sun-Thu 8 AM-4 PM</span></span>
+<span data-ttu-id="c11e6-111">Арабский: Sun-Thu 8 am-4 PM</span><span class="sxs-lookup"><span data-stu-id="c11e6-111">Arabic: Sun-Thu 8 AM-4 PM</span></span>
 
-<span data-ttu-id="15b00-112">Французский: Mon-Fri 8 am-4 PM</span><span class="sxs-lookup"><span data-stu-id="15b00-112">French: Mon-Fri 8 AM-4 PM</span></span>
+<span data-ttu-id="c11e6-112">Французский: Mon-Fri 8 am-4 PM</span><span class="sxs-lookup"><span data-stu-id="c11e6-112">French: Mon-Fri 8 AM-4 PM</span></span>
 
-<span data-ttu-id="15b00-113">Английский: Mon-Fri 8:00</span><span class="sxs-lookup"><span data-stu-id="15b00-113">English: Mon-Fri 8 AM-4 PM</span></span>
+<span data-ttu-id="c11e6-113">Английский: Mon-Fri 8:00</span><span class="sxs-lookup"><span data-stu-id="c11e6-113">English: Mon-Fri 8 AM-4 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="15b00-114">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="15b00-114">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="c11e6-114">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="c11e6-114">Technical Support:</span></span>
 
-<span data-ttu-id="15b00-115">Арабский: Sun-Thu 8 am-4 PM</span><span class="sxs-lookup"><span data-stu-id="15b00-115">Arabic: Sun-Thu 8 AM-4 PM</span></span>
+<span data-ttu-id="c11e6-115">Арабский: Sun-Thu 8 am-4 PM</span><span class="sxs-lookup"><span data-stu-id="c11e6-115">Arabic: Sun-Thu 8 AM-4 PM</span></span>
 
-<span data-ttu-id="15b00-116">Французский: Mon-Fri 7 am-8 PM</span><span class="sxs-lookup"><span data-stu-id="15b00-116">French: Mon-Fri 7 AM-8 PM</span></span>
+<span data-ttu-id="c11e6-116">Французский: Mon-Fri 7 am-8 PM</span><span class="sxs-lookup"><span data-stu-id="c11e6-116">French: Mon-Fri 7 AM-8 PM</span></span>
 
-<span data-ttu-id="15b00-117">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="15b00-117">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="c11e6-117">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="c11e6-117">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="15b00-118">Применяются локальные платежи за вызовы</span><span class="sxs-lookup"><span data-stu-id="15b00-118">Local call charges apply</span></span>
+<span data-ttu-id="c11e6-118">Применяются локальные платежи за вызовы</span><span class="sxs-lookup"><span data-stu-id="c11e6-118">Local call charges apply</span></span>
