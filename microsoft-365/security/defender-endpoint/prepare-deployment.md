@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 00e57d03ae636837120b53c0de16861ad142ef76
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: e3df1286c69132c960c412f6f74512bb49c32b28
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52280937"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52291047"
 ---
 # <a name="prepare-microsoft-defender-for-endpoint-deployment"></a>Подготовка Microsoft Defender к развертыванию конечных точек
 
@@ -134,7 +134,6 @@ Defender for Endpoint поддерживает два способа управ�
 | эксперты Майкрософт по угрозам (MTE)          | эксперты Майкрософт по угрозам это служба управляемой охоты, которая предоставляет центрам операций безопасности (SOCs) мониторинг и анализ на уровне экспертов, чтобы обеспечить, чтобы критические угрозы в их уникальной среде не пропускались. <br>[Подробнее.](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/microsoft-threat-experts)                                                                                                                                                                                                                                                                                                                     | Неприменимо      |
 
 ## <a name="next-step"></a>Следующий шаг
-|||
-|:-------|:-----|
-|![Этап 2. Настройка](images/setup.png) <br>[Этап 2. Настройка](production-deployment.md) | Настройка microsoft Defender для развертывания конечных точек
+
+![Этап 2. Настройка](images/setup.png) <br>[Этап 2. Установка](production-deployment.md) | Настройка microsoft Defender для развертывания конечных точек
 

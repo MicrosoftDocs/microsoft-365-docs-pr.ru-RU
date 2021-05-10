@@ -12,16 +12,16 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 9fd3a9dec07e4eb6cd543384d82b317fa1da9acc
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: f90daea81f1d0918be852d7ac9269393a1eb37f0
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50544820"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52295503"
 ---
 # <a name="contact-support-for-russia"></a>Поддержка контактов для России
 
-[Найдите другую страну или регион.](../contact-support-for-business-products.md)
+[Найдите другую страну или регион.](../../business-video/get-help-support.md)
 
 ## <a name="phone-number"></a>Номер телефона
 8 10 800 2548 1044
@@ -39,6 +39,6 @@ ms.locfileid: "50544820"
 
 Английский: круглосуточно, без выходных
 
-Альтернативный номер телефона: 499 922 86 23
+Альтернативный Телефон: 499 922 86 23
 
 Применяются локальные платежи за вызовы

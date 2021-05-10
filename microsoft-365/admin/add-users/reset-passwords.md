@@ -27,12 +27,12 @@ search.appverid:
 - GEA150
 ms.assetid: 7a5d073b-7fae-4aa5-8f96-9ecd041aba9c
 description: Узнайте, как сбросить пароль для пользователя в Microsoft 365 для подписки на бизнес.
-ms.openlocfilehash: fa368c7f44d4df847cf007568853c11970e7adc1
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 8720942d60b5ce4efaca8885bd5209cb3e7e7ef8
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52241704"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52290999"
 ---
 # <a name="reset-passwords"></a>Сброс паролей
 
@@ -86,7 +86,7 @@ ms.locfileid: "52241704"
 
 - Убедитесь, что вы предоставили альтернативные контактные данные, включая номер мобильного телефона.
 
-- Или [позвоните в службу поддержки Майкрософт.](../contact-support-for-business-products.md)
+- Или [позвоните в службу поддержки Майкрософт.](../../business-video/get-help-support.md)
 
 ## <a name="reset-all-business-passwords-for-everyone-in-your-organization-at-the-same-time"></a>Сброс всех бизнес-паролей для всех в организации одновременно
 <a name="bkmk_forgot"> </a>

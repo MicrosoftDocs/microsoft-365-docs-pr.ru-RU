@@ -12,16 +12,16 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 400a14b6a4c0a8e1c7ca1ab9eaeb4358f13a7396
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 955c77e53172c9cc82ff49eaee2bade7f30cc655
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50545000"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52295534"
 ---
 # <a name="contact-support-for-poland"></a>Поддержка контактов для Польши
 
-[Найдите другую страну или регион.](../contact-support-for-business-products.md)
+[Найдите другую страну или регион.](../../business-video/get-help-support.md)
 
 ## <a name="phone-number"></a>Номер телефона
 800 70 23 20
@@ -39,6 +39,6 @@ ms.locfileid: "50545000"
 
 Английский: круглосуточно, без выходных
 
-Альтернативный номер телефона: 022 306 05 17
+Альтернативный Телефон: 022 306 05 17
 
 Применяются локальные платежи за вызовы

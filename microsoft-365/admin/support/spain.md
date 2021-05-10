@@ -12,16 +12,16 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 8de63fad7741171dc628ff9064796d64dccd96da
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 55b2406147272cf1aff69e0469f1cc7e6fce9ef2
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50544256"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52295179"
 ---
 # <a name="contact-support-for-spain"></a>Поддержка контактов для Испании
 
-[Найдите другую страну или регион.](../contact-support-for-business-products.md)
+[Найдите другую страну или регион.](../../business-video/get-help-support.md)
 
 ## <a name="phone-number"></a>Номер телефона
 900 814 197
@@ -39,6 +39,6 @@ ms.locfileid: "50544256"
 
 Английский: круглосуточно, без выходных
 
-Альтернативный номер телефона: 912 718 160
+Альтернативный Телефон: 912 718 160
 
 Применяются локальные платежи за вызовы
