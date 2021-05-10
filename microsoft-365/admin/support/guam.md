@@ -12,27 +12,27 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: f41cd607e3dd418c70cdcfa2733f036531548244
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 91297585050d1b580b0cd9ed96339cebcadad0bb
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50547112"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52298774"
 ---
-# <a name="contact-support-for-guam"></a><span data-ttu-id="9da87-103">Поддержка контактов для Гуама</span><span class="sxs-lookup"><span data-stu-id="9da87-103">Contact support for Guam</span></span>
+# <a name="contact-support-for-guam"></a><span data-ttu-id="9053f-103">Поддержка контактов для Гуама</span><span class="sxs-lookup"><span data-stu-id="9053f-103">Contact support for Guam</span></span>
 
-<span data-ttu-id="9da87-104">[Найдите другую страну или регион.](../contact-support-for-business-products.md)</span><span class="sxs-lookup"><span data-stu-id="9da87-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="9053f-104">[Найдите другую страну или регион.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="9053f-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="9da87-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="9da87-105">Phone number</span></span>
-<span data-ttu-id="9da87-106">800-865-9408</span><span class="sxs-lookup"><span data-stu-id="9da87-106">800-865-9408</span></span>
+## <a name="phone-number"></a><span data-ttu-id="9053f-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="9053f-105">Phone number</span></span>
+<span data-ttu-id="9053f-106">800-865-9408</span><span class="sxs-lookup"><span data-stu-id="9053f-106">800-865-9408</span></span>
 
-## <a name="hours"></a><span data-ttu-id="9da87-107">Часы</span><span class="sxs-lookup"><span data-stu-id="9da87-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="9da87-108">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="9da87-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="9053f-107">Часы</span><span class="sxs-lookup"><span data-stu-id="9053f-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="9053f-108">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="9053f-108">Billing Support:</span></span>
 
-<span data-ttu-id="9da87-109">Английский: Mon-Fri 3 am-12 PM</span><span class="sxs-lookup"><span data-stu-id="9da87-109">English: Mon-Fri 3 AM-12 PM</span></span>
+<span data-ttu-id="9053f-109">Английский: Mon-Fri 3 am-12 PM</span><span class="sxs-lookup"><span data-stu-id="9053f-109">English: Mon-Fri 3 AM-12 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="9da87-110">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="9da87-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="9053f-110">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="9053f-110">Technical Support:</span></span>
 
-<span data-ttu-id="9da87-111">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="9da87-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="9053f-111">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="9053f-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="9da87-112">Применяются локальные платежи за вызовы</span><span class="sxs-lookup"><span data-stu-id="9da87-112">Local call charges apply</span></span>
+<span data-ttu-id="9053f-112">Применяются локальные платежи за вызовы</span><span class="sxs-lookup"><span data-stu-id="9053f-112">Local call charges apply</span></span>

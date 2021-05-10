@@ -12,25 +12,25 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 3389a4641ce779960c0c19c20cf2cfce0231367b
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: cb1c6611a35683fe321c76a550db710be4fab0f4
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50547172"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52298798"
 ---
-# <a name="contact-support-for-greece"></a><span data-ttu-id="ada68-103">Поддержка контактов для Греции</span><span class="sxs-lookup"><span data-stu-id="ada68-103">Contact support for Greece</span></span>
+# <a name="contact-support-for-greece"></a><span data-ttu-id="958c8-103">Поддержка контактов для Греции</span><span class="sxs-lookup"><span data-stu-id="958c8-103">Contact support for Greece</span></span>
 
-<span data-ttu-id="ada68-104">[Найдите другую страну или регион.](../contact-support-for-business-products.md)</span><span class="sxs-lookup"><span data-stu-id="ada68-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="958c8-104">[Найдите другую страну или регион.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="958c8-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="ada68-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="ada68-105">Phone number</span></span>
-<span data-ttu-id="ada68-106">00800 4414 2831</span><span class="sxs-lookup"><span data-stu-id="ada68-106">00800 4414 2831</span></span>
+## <a name="phone-number"></a><span data-ttu-id="958c8-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="958c8-105">Phone number</span></span>
+<span data-ttu-id="958c8-106">00800 4414 2831</span><span class="sxs-lookup"><span data-stu-id="958c8-106">00800 4414 2831</span></span>
 
-## <a name="hours"></a><span data-ttu-id="ada68-107">Часы</span><span class="sxs-lookup"><span data-stu-id="ada68-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="ada68-108">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="ada68-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="958c8-107">Часы</span><span class="sxs-lookup"><span data-stu-id="958c8-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="958c8-108">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="958c8-108">Billing Support:</span></span>
 
-<span data-ttu-id="ada68-109">Английский: Mon-Fri 09:00</span><span class="sxs-lookup"><span data-stu-id="ada68-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="958c8-109">Английский: Mon-Fri 09:00</span><span class="sxs-lookup"><span data-stu-id="958c8-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="ada68-110">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="ada68-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="958c8-110">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="958c8-110">Technical Support:</span></span>
 
-<span data-ttu-id="ada68-111">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="ada68-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="958c8-111">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="958c8-111">English: 24 hours a day, 7 days a week</span></span>
