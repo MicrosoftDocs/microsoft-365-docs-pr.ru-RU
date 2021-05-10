@@ -12,31 +12,31 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 74eb1cb065410033a9f9ec538cc4ef5d8fe35a5e
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: c5e47b95390cf2235be1af8e75db6d0841dde780
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50544748"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297792"
 ---
-# <a name="contact-support-for-saint-martin"></a><span data-ttu-id="f345b-103">Поддержка контактов для Saint Martin</span><span class="sxs-lookup"><span data-stu-id="f345b-103">Contact support for Saint Martin</span></span>
+# <a name="contact-support-for-saint-martin"></a><span data-ttu-id="44d7d-103">Поддержка контактов для Saint Martin</span><span class="sxs-lookup"><span data-stu-id="44d7d-103">Contact support for Saint Martin</span></span>
 
-<span data-ttu-id="f345b-104">[Найдите другую страну или регион.](../contact-support-for-business-products.md)</span><span class="sxs-lookup"><span data-stu-id="f345b-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="44d7d-104">[Найдите другую страну или регион.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="44d7d-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="f345b-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="f345b-105">Phone number</span></span>
-<span data-ttu-id="f345b-106">+1 312 843 5147</span><span class="sxs-lookup"><span data-stu-id="f345b-106">+1 312 843 5147</span></span>
+## <a name="phone-number"></a><span data-ttu-id="44d7d-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="44d7d-105">Phone number</span></span>
+<span data-ttu-id="44d7d-106">+1 312 843 5147</span><span class="sxs-lookup"><span data-stu-id="44d7d-106">+1 312 843 5147</span></span>
 
-## <a name="hours"></a><span data-ttu-id="f345b-107">Часы</span><span class="sxs-lookup"><span data-stu-id="f345b-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="f345b-108">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="f345b-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="44d7d-107">Часы</span><span class="sxs-lookup"><span data-stu-id="44d7d-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="44d7d-108">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="44d7d-108">Billing Support:</span></span>
 
-<span data-ttu-id="f345b-109">Французский: Mon-Fri 4:00</span><span class="sxs-lookup"><span data-stu-id="f345b-109">French: Mon-Fri 4 AM-noon</span></span>
+<span data-ttu-id="44d7d-109">Французский: Mon-Fri 4:00</span><span class="sxs-lookup"><span data-stu-id="44d7d-109">French: Mon-Fri 4 AM-noon</span></span>
 
-<span data-ttu-id="f345b-110">Английский: Mon-Fri 4:00</span><span class="sxs-lookup"><span data-stu-id="f345b-110">English: Mon-Fri 4 AM-noon</span></span>
+<span data-ttu-id="44d7d-110">Английский: Mon-Fri 4:00</span><span class="sxs-lookup"><span data-stu-id="44d7d-110">English: Mon-Fri 4 AM-noon</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="f345b-111">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="f345b-111">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="44d7d-111">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="44d7d-111">Technical Support:</span></span>
 
-<span data-ttu-id="f345b-112">Французский: Mon-Fri 3 am-4 PM</span><span class="sxs-lookup"><span data-stu-id="f345b-112">French: Mon-Fri 3 AM-4 PM</span></span>
+<span data-ttu-id="44d7d-112">Французский: Mon-Fri 3 am-4 PM</span><span class="sxs-lookup"><span data-stu-id="44d7d-112">French: Mon-Fri 3 AM-4 PM</span></span>
 
-<span data-ttu-id="f345b-113">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="f345b-113">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="44d7d-113">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="44d7d-113">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="f345b-114">Применяются международные сборы за вызовы</span><span class="sxs-lookup"><span data-stu-id="f345b-114">International call charges apply</span></span>
+<span data-ttu-id="44d7d-114">Применяются международные сборы за вызовы</span><span class="sxs-lookup"><span data-stu-id="44d7d-114">International call charges apply</span></span>

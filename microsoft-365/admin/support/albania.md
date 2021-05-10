@@ -12,31 +12,31 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: d8943e3a2374786ea91b322e5b1e896965e4cc75
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 4826aea7355a3d37f93d1803c5b7696a7756092f
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50549128"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297012"
 ---
-# <a name="contact-support-for-albania"></a><span data-ttu-id="0b63c-103">Поддержка контактов для Албании</span><span class="sxs-lookup"><span data-stu-id="0b63c-103">Contact support for Albania</span></span>
+# <a name="contact-support-for-albania"></a><span data-ttu-id="c3beb-103">Поддержка контактов для Албании</span><span class="sxs-lookup"><span data-stu-id="c3beb-103">Contact support for Albania</span></span>
 
-<span data-ttu-id="0b63c-104">[Найдите другую страну или регион.](../contact-support-for-business-products.md)</span><span class="sxs-lookup"><span data-stu-id="0b63c-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="c3beb-104">[Найдите другую страну или регион.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="c3beb-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="0b63c-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="0b63c-105">Phone number</span></span>
-<span data-ttu-id="0b63c-106">04 451 5151</span><span class="sxs-lookup"><span data-stu-id="0b63c-106">04 451 5151</span></span>
+## <a name="phone-number"></a><span data-ttu-id="c3beb-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="c3beb-105">Phone number</span></span>
+<span data-ttu-id="c3beb-106">04 451 5151</span><span class="sxs-lookup"><span data-stu-id="c3beb-106">04 451 5151</span></span>
 
-<span data-ttu-id="0b63c-107">Выбор варианта 9</span><span class="sxs-lookup"><span data-stu-id="0b63c-107">Select option 9</span></span>
+<span data-ttu-id="c3beb-107">Выбор варианта 9</span><span class="sxs-lookup"><span data-stu-id="c3beb-107">Select option 9</span></span>
 
-<span data-ttu-id="0b63c-108">Ввод кода 7700</span><span class="sxs-lookup"><span data-stu-id="0b63c-108">Enter code 7700</span></span>
+<span data-ttu-id="c3beb-108">Ввод кода 7700</span><span class="sxs-lookup"><span data-stu-id="c3beb-108">Enter code 7700</span></span>
 
-## <a name="hours"></a><span data-ttu-id="0b63c-109">Часы</span><span class="sxs-lookup"><span data-stu-id="0b63c-109">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="0b63c-110">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="0b63c-110">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="c3beb-109">Часы</span><span class="sxs-lookup"><span data-stu-id="c3beb-109">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="c3beb-110">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="c3beb-110">Billing Support:</span></span>
 
-<span data-ttu-id="0b63c-111">Английский: Mon-Fri 09:00</span><span class="sxs-lookup"><span data-stu-id="0b63c-111">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="c3beb-111">Английский: Mon-Fri 09:00</span><span class="sxs-lookup"><span data-stu-id="c3beb-111">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="0b63c-112">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="0b63c-112">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="c3beb-112">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="c3beb-112">Technical Support:</span></span>
 
-<span data-ttu-id="0b63c-113">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="0b63c-113">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="c3beb-113">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="c3beb-113">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="0b63c-114">Применяются локальные платежи за вызовы</span><span class="sxs-lookup"><span data-stu-id="0b63c-114">Local call charges apply</span></span>
+<span data-ttu-id="c3beb-114">Применяются локальные платежи за вызовы</span><span class="sxs-lookup"><span data-stu-id="c3beb-114">Local call charges apply</span></span>

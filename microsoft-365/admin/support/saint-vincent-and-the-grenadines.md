@@ -12,27 +12,27 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: b75a91cda2f0e9515b4d3bf630ca7eb1acb01944
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: ff07f662cbcc6ed9f9bbe38bd4496652702e27d1
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50544724"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297780"
 ---
-# <a name="contact-support-for-saint-vincent-and-the-grenadines"></a><span data-ttu-id="6559e-103">Поддержка контактов для Saint Vincent и Grenadines</span><span class="sxs-lookup"><span data-stu-id="6559e-103">Contact support for Saint Vincent and the Grenadines</span></span>
+# <a name="contact-support-for-saint-vincent-and-the-grenadines"></a><span data-ttu-id="146cd-103">Поддержка контактов для Saint Vincent и Grenadines</span><span class="sxs-lookup"><span data-stu-id="146cd-103">Contact support for Saint Vincent and the Grenadines</span></span>
 
-<span data-ttu-id="6559e-104">[Найдите другую страну или регион.](../contact-support-for-business-products.md)</span><span class="sxs-lookup"><span data-stu-id="6559e-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="146cd-104">[Найдите другую страну или регион.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="146cd-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="6559e-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="6559e-105">Phone number</span></span>
-<span data-ttu-id="6559e-106">+1 312 843 5145</span><span class="sxs-lookup"><span data-stu-id="6559e-106">+1 312 843 5145</span></span>
+## <a name="phone-number"></a><span data-ttu-id="146cd-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="146cd-105">Phone number</span></span>
+<span data-ttu-id="146cd-106">+1 312 843 5145</span><span class="sxs-lookup"><span data-stu-id="146cd-106">+1 312 843 5145</span></span>
 
-## <a name="hours"></a><span data-ttu-id="6559e-107">Часы</span><span class="sxs-lookup"><span data-stu-id="6559e-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="6559e-108">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="6559e-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="146cd-107">Часы</span><span class="sxs-lookup"><span data-stu-id="146cd-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="146cd-108">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="146cd-108">Billing Support:</span></span>
 
-<span data-ttu-id="6559e-109">Английский: Mon-Fri 09:00</span><span class="sxs-lookup"><span data-stu-id="6559e-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="146cd-109">Английский: Mon-Fri 09:00</span><span class="sxs-lookup"><span data-stu-id="146cd-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="6559e-110">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="6559e-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="146cd-110">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="146cd-110">Technical Support:</span></span>
 
-<span data-ttu-id="6559e-111">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="6559e-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="146cd-111">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="146cd-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="6559e-112">Применяются международные сборы за вызовы</span><span class="sxs-lookup"><span data-stu-id="6559e-112">International call charges apply</span></span>
+<span data-ttu-id="146cd-112">Применяются международные сборы за вызовы</span><span class="sxs-lookup"><span data-stu-id="146cd-112">International call charges apply</span></span>
