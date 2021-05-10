@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Подготовьтесь к использованию расширения соответствия требованиям Майкрософт и разверните его.
-ms.openlocfilehash: c6f56c65de6428374d912545db38337d34720c94
-ms.sourcegitcommit: 8f1721de52dbe3a12c11a0fa5ed0ef5972ca8196
+ms.openlocfilehash: 6ae44a86d415161cd3d7adf40671f02d93fb83c6
+ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50838352"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52113867"
 ---
 # <a name="get-started-with-microsoft-compliance-extension-preview"></a>Начало работы с расширением соответствия требованиям Майкрософт (предварительная версия)
 
@@ -35,7 +35,7 @@ ms.locfileid: "50838352"
 Чтобы использовать расширение соответствия требованиям Майкрософт, устройство должно быть подключено к защите от потери данных в конечной точке. Просмотрите эти статьи, если вы незнакомы с защитой от потери данных (DLP) или DLP в конечной точке
 
 - [Сведения о расширении соответствия требованиям Майкрософт](dlp-chrome-learn-about.md)
-- [Общие сведения о защите от потери данных](data-loss-prevention-policies.md)
+- [Сведения о защите от потери данных](dlp-learn-about-dlp.md)
 - [Создание, тестирование и настройка политики защиты от потери данных](create-test-tune-dlp-policy.md)
 - [Создание политики защиты от потери данных на основе шаблона](create-a-dlp-policy-from-a-template.md)
 - [Сведения о защите от потери данных в конечной точке](endpoint-dlp-learn-about.md)
@@ -274,7 +274,7 @@ ms.locfileid: "50838352"
 
 - [Сведения о защите от потери данных в конечной точке ](endpoint-dlp-learn-about.md)
 - [Использование защиты от потери данных в конечной точке ](endpoint-dlp-using.md)
-- [Общие сведения о защите от потери данных](data-loss-prevention-policies.md)
+- [Сведения о защите от потери данных](dlp-learn-about-dlp.md)
 - [Создание, тестирование и настройка политики защиты от потери данных](create-test-tune-dlp-policy.md)
 - [Начало работы с обозревателем действий](data-classification-activity-explorer.md)
 - [Microsoft Defender для конечной точки](https://docs.microsoft.com/windows/security/threat-protection/)

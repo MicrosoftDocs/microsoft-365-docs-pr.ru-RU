@@ -24,12 +24,12 @@ search.appverid:
 - MOE150
 - BEA160
 description: Узнайте, как настроить подписку на Microsoft 365 бизнес базовый.
-ms.openlocfilehash: 409d2fd4698452a1694d39c4ca3cc7f378d355e8
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: a4636006a6819769752ef6ae61a5cb7155d5289e
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580790"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244471"
 ---
 # <a name="set-up-microsoft-365-business-basic"></a>Настройка Microsoft 365 бизнес базовый
 
@@ -37,7 +37,7 @@ ms.locfileid: "51580790"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vk3W]
 
-Если это видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если это видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](../../business-video/index.yml).
 
 ## <a name="add-your-domain-to-personalize-sign-in"></a>Добавление домена для персонализации входа
 
