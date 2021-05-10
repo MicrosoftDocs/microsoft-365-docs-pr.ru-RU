@@ -22,18 +22,18 @@ search.appverid:
 ROBOTS: NOINDEX
 description: Узнайте, как активировать, обновлять или добавлять лицензии в Microsoft 365 для бизнеса.
 ms.date: 10/21/2020
-ms.openlocfilehash: e0e317dc0917876c6299fe1eea5812b7bfe0cd8b
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.openlocfilehash: 04df3b24693ac92875cc667aea61e0e9b35cb270
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52107596"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52293635"
 ---
 # <a name="enter-your-product-key-purchased-from-microsoft-open"></a>Введите ключ продукта, приобретенный в Microsoft Open
 
 Если вы приобрели Microsoft 365 для бизнеса из [программы Microsoft Open License Program,](https://go.microsoft.com/fwlink/p/?LinkID=613298)эта статья для вас. Клиенты, которые приобрели ключ продукта по программе корпоративного лицензирования, могут воспользоваться инструкциями в этой статье, чтобы активировать, продлить лицензии или добавить их в подписку.
   
- **Требуется срочная помощь?** [Вызов службы поддержки Майкрософт](../admin/contact-support-for-business-products.md) . 
+ **Требуется срочная помощь?** [Вызов службы поддержки Майкрософт](..//business-video/get-help-support.md) . 
   
  **Нужно выполнить другую задачу?**
  
@@ -67,4 +67,4 @@ ms.locfileid: "52107596"
   
 Участники программ корпоративного лицензирования могут посетить сайт [Обучающие программы и другие ресурсы Центра обслуживания для корпоративного лицензирования корпорации Майкрософт](https://go.microsoft.com/fwlink/p/?LinkId=618103).
   
-Или, если вы хотите поговорить с человеком, [позвоните в службу поддержки Майкрософт.](../admin/contact-support-for-business-products.md)
+Или, если вы хотите поговорить с человеком, [позвоните в службу поддержки Майкрософт.](../business-video/get-help-support.md)

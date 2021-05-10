@@ -12,16 +12,16 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ba6129d4b33a67a31c0fe3a8993ac2fb3d386696
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 6a8d5d3dfcdf718fe36653488d6a319d59d6267e
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50544304"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297684"
 ---
 # <a name="contact-support-for-south-africa"></a>Поддержка контактов для Южной Африки
 
-[Найдите другую страну или регион.](../contact-support-for-business-products.md)
+[Найдите другую страну или регион.](../../business-video/get-help-support.md)
 
 ## <a name="phone-number"></a>Номер телефона
 080 020 2883
@@ -35,6 +35,6 @@ ms.locfileid: "50544304"
 
 Английский: круглосуточно, без выходных
 
-Альтернативный номер телефона: 021 427 3315
+Альтернативный Телефон: 021 427 3315
 
 Применяются локальные платежи за вызовы

@@ -22,12 +22,12 @@ ms.custom:
 ms.reviewer: jkinma
 description: Узнайте, как покупать и управлять надстройки для вашей Microsoft 365 для бизнеса подписки.
 ms.date: 04/02/2021
-ms.openlocfilehash: c0b5a76f8690c64723782640738ac3817bc64714
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.openlocfilehash: d60503cd7ab7be219c3ed813dd1d9aef480cd4dc
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52107440"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297336"
 ---
 # <a name="buy-or-manage-add-ons"></a>Приобретение и управление надстройками
 
@@ -71,7 +71,7 @@ ms.locfileid: "52107440"
 
 Чтобы удалить подписку на автономные [](subscriptions/cancel-your-subscription.md)надстройки, отмените подписку, как и любую другую подписку. Или вы можете [отключить повторяющиеся платежи.](subscriptions/renew-your-subscription.md)
 
-Вы не можете удалить традиционную надстройка. Если вы хотите удалить традиционную надстройка, обратитесь за помощью в [службу поддержки.](../admin/contact-support-for-business-products.md)
+Вы не можете удалить традиционную надстройка. Если вы хотите удалить традиционную надстройка, обратитесь за помощью в [службу поддержки.](../business-video/get-help-support.md)
   
 ## <a name="related-content"></a>См. также:
 

@@ -15,12 +15,12 @@ ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 description: Пользователи могут научиться управлять покупками с самообслуживаем.
-ms.openlocfilehash: 73b044ab9954744e89a13ccff0145f35bc1b821b
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 9935259f05432b964fbe138b39397f192e203eb2
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920196"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297300"
 ---
 # <a name="manage-self-service-purchases-users"></a>Управление самостоятельно приобретенными лицензиями (пользователи)
 
@@ -107,4 +107,4 @@ ms.locfileid: "50920196"
 
 Общие вопросы о покупках с самообслуживаем см. в [faq.](self-service-purchase-faq.md)
 
-Если у вас есть вопросы или вам нужна помощь с покупками самообслуживки, [обратитесь в службу поддержки.](../../admin/contact-support-for-business-products.md)
+Если у вас есть вопросы или вам нужна помощь с покупками самообслуживки, [обратитесь в службу поддержки.](../../business-video/get-help-support.md)

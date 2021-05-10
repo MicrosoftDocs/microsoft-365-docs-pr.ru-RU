@@ -22,14 +22,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 1ceea1dbdb3f9d149f4e5a0bd892eda2bb9128aa
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: 44f583d32de166fe3d68a182406eb3a2ee814084
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52114782"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297156"
 ---
-# <a name="step-3-perform-a-post-incident-review-of-your-first-incident"></a>Шаг 3. Выполните после инцидента обзор вашего первого инцидента
+# <a name="step-3-perform-a-post-incident-review-of-your-first-incident"></a>Этап 3. Выполните после инцидента обзор вашего первого инцидента
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -61,5 +61,5 @@ Microsoft 365 Defender может помочь в выполнении дейс�
 ## <a name="see-also"></a>См. также
 
 - [Обзор инцидентов](incidents-overview.md)
-- [Анализ инцидентов](investigate-incidents.md)
+- [Исследование инцидентов](investigate-incidents.md)
 - [Управление инцидентами](manage-incidents.md)

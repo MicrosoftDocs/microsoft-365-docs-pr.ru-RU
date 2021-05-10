@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: f66c9821e5db00cc3da5718f52b8aaaeff5a431e
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: 5ea847e822e094049dd8f0b941f22f3bb4f7eff4
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52114758"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297180"
 ---
 # <a name="introduction-to-responding-to-your-first-incident"></a>Введение в ответ на первый инцидент
 
@@ -58,6 +58,17 @@ ms.locfileid: "52114758"
 
 ## <a name="see-also"></a>См. также
 
+Руководство по реагированию на инциденты для Microsoft 365 Defender:
+
 - [Обзор инцидентов](incidents-overview.md)
-- [Анализ инцидентов](investigate-incidents.md)
+- [Исследование инцидентов](investigate-incidents.md)
 - [Управление инцидентами](manage-incidents.md)
+
+Дополнительные примеры первых ответов на инциденты:
+
+- [Фишинговое письмо](first-incident-path-phishing.md)
+- [Атака на базу удостоверений](first-incident-path-identity.md)
+
+[Подробные книги ответов на инциденты](https://docs.microsoft.com/security/compass/incident-response-playbooks)
+
+

@@ -21,16 +21,16 @@ search.appverid:
 - MET150
 description: Узнайте, как отменить пробную или платную подписку на Microsoft 365 для бизнеса.
 ms.date: 04/08/2021
-ms.openlocfilehash: 15ab7ed31af24fa4cb1c83c6babc945871584375
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 329bc10adbe6c2ad0efe3609e7cb72141ae346bd
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244664"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297312"
 ---
 # <a name="cancel-your-subscription"></a>Отмена подписки
 
-*Приемлемость.* Если вам назначено менее 25 лицензий, вы можете отменить пробную или платную подписку на Microsoft 365 для бизнеса через Интернет в Центре администрирования Microsoft 365 в любое время. Если вам назначено более 25 лицензий, уменьшите число до 25 или [обратитесь в службу поддержки для отмены подписки](../../admin/contact-support-for-business-products.md).
+*Приемлемость.* Если вам назначено менее 25 лицензий, вы можете отменить пробную или платную подписку на Microsoft 365 для бизнеса через Интернет в Центре администрирования Microsoft 365 в любое время. Если вам назначено более 25 лицензий, уменьшите число до 25 или [обратитесь в службу поддержки для отмены подписки](../../business-video/get-help-support.md).
 
 *Возмещение:* Пропорциональная сумма будет возвращена вам в следующем цикле выставления счетов.
 

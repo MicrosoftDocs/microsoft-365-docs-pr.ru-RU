@@ -23,12 +23,12 @@ ms.custom:
 ms.reviewer: jkinma
 description: Узнайте, как выкупить ключ Microsoft 365 бизнес стандарт, приобретенный в розничном магазине.
 ms.date: 11/13/2020
-ms.openlocfilehash: 0e647b8d52d024750b3944a03133755c1257ee4c
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.openlocfilehash: ed9fb3c1ecc02930f55ddc11c523cf5989d6bbbe
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52107452"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297324"
 ---
 # <a name="enter-your-product-key-for-microsoft-365-business-standard"></a>Введите ключ продукта для Microsoft 365 бизнес стандарт
 
@@ -67,4 +67,4 @@ ms.locfileid: "52107452"
 
 Ознакомьтесь с этим списком распространенных ошибок и решений: проблемы [с Microsoft 365 для ключа бизнес-продукта?](product-key-errors-and-solutions.md)
   
-Или [позвоните в службу поддержки Майкрософт.](../admin/contact-support-for-business-products.md)
+Или [позвоните в службу поддержки Майкрософт.](../business-video/get-help-support.md)

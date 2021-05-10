@@ -21,12 +21,12 @@ search.appverid: MET150
 description: Узнайте, как обновить подписку Office 365 E4.
 ms.date: 08/14/2020
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: f9143497ac2ee15009a3a2b3af9e76426d408d38
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: 0e30ece58cfc10ea258a684f9ac6ca4dba1b8692
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52280515"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297288"
 ---
 # <a name="upgrade-from-an-office-365-e4-subscription"></a>Обновление из подписки Office 365 E4
 
@@ -63,7 +63,7 @@ ms.locfileid: "52280515"
 3. Выберите **вкладку Upgrade.** Если в списке указаны другие планы, это означает, что вы можете обновить планы автоматически.
 4. Если вы не можете обновиться автоматически, вы увидите сообщение, в нем описывается причина, по которой нельзя обновить.
 
-Существует несколько причин, по которым нельзя автоматически обновлять планы. Большинство проблем являются временными, например проблемы со здоровьем службы, которые можно устранить. Дополнительные сведения [см. в статью Почему нельзя обновить планы?](upgrade-to-different-plan.md#why-cant-i-upgrade-plans) Если вам нужна помощь в обновлении, [обратитесь в службу поддержки.](../../admin/contact-support-for-business-products.md)
+Существует несколько причин, по которым нельзя автоматически обновлять планы. Большинство проблем являются временными, например проблемы со здоровьем службы, которые можно устранить. Дополнительные сведения [см. в статью Почему нельзя обновить планы?](upgrade-to-different-plan.md#why-cant-i-upgrade-plans) Если вам нужна помощь в обновлении, [обратитесь в службу поддержки.](../../business-video/get-help-support.md)
 
 ## <a name="will-a-credit-check-be-required"></a>Потребуется ли проверка кредитоспособности?
 
@@ -71,7 +71,7 @@ ms.locfileid: "52280515"
 
 ## <a name="upgrade-your-plan-by-using-the-upgrade-tab"></a>Обновление плана с помощью вкладки Upgrade
 
-### <a name="before-you-begin"></a>Прежде чем начать
+### <a name="before-you-begin"></a>Подготовка
 
 Прежде чем начинать, обратите внимание на перечисленные ниже моменты.
 

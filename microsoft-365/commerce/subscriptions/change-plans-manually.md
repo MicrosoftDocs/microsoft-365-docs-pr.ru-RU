@@ -22,12 +22,12 @@ search.appverid:
 ROBOTS: NOINDEX
 description: Измените подписки вручную, приобретая новую подписку и обеспечивая перечислены и активные подписки.
 ms.date: 03/17/2021
-ms.openlocfilehash: 1dc7ff8cd6b8a43db7d70ab6c17aec16a020baac
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.openlocfilehash: 7361b459e61961efbb729d80dcbb55dfdad65933
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52107684"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52293623"
 ---
 # <a name="change-plans-manually"></a>Изменение планов вручную
 
@@ -74,7 +74,7 @@ OR
 
 - **Если вы приобрели две подписки, и они обе не указаны**, возможно, они были приобретены для разных организаций (разных доменов). Подписки не распространяются за пределы организаций.
 
-- **Если вы знаете, что у вас** есть дополнительная подписка, и она не указана здесь или не активна, позвоните [в службу поддержки Майкрософт.](../../admin/contact-support-for-business-products.md)
+- **Если вы знаете, что у вас** есть дополнительная подписка, и она не указана здесь или не активна, позвоните [в службу поддержки Майкрософт.](../../business-video/get-help-support.md)
 
 ### <a name="what-about-the-old-licenses"></a>Что насчет старых лицензий?
 
@@ -115,4 +115,4 @@ OR
 Если вы переместили в другую подписку только часть пользователей, [удалите лицензии](../licenses/buy-licenses.md), которые вам больше не нужны.
 
 ## <a name="call-support-to-help-you-change-plans"></a>Поддержка вызова, чтобы помочь вам изменить планы
-[Вызов службы поддержки Майкрософт](../../admin/contact-support-for-business-products.md)
+[Вызов службы поддержки Майкрософт](../../business-video/get-help-support.md)

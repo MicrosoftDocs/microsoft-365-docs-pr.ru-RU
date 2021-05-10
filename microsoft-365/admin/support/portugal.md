@@ -12,16 +12,16 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 397357f7a66ed9e8cb405088c9b61f3387f0d839
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 25bbc1b643b7b69975d2886cda8ba762fc41c165
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50544988"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52297852"
 ---
 # <a name="contact-support-for-portugal"></a>Поддержка контактов для Португалии
 
-[Найдите другую страну или регион.](../contact-support-for-business-products.md)
+[Найдите другую страну или регион.](../../business-video/get-help-support.md)
 
 ## <a name="phone-number"></a>Номер телефона
 800 208 745
@@ -37,6 +37,6 @@ ms.locfileid: "50544988"
 
 Английский: круглосуточно, без выходных
 
-Альтернативный номер телефона: 21 366 5030
+Номер альтернативного Телефон: 21 366 5030
 
 Применяются локальные платежи за вызовы

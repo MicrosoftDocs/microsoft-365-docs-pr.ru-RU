@@ -20,12 +20,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Администраторы могут узнать, как управлять покупками самообслуживаем, сделанными пользователями в их организации.
-ms.openlocfilehash: 59d64c047ddf4f33c2ef3277f3139f1b7692b891
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 5378d14affd074bfad356fea4bb2adbd6ca104dd
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244996"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52293575"
 ---
 # <a name="manage-self-service-purchases-admin"></a>Управление самостоятельно приобретенными лицензиями (администратор)
 
@@ -201,4 +201,4 @@ ms.locfileid: "52244996"
 
 Общие вопросы о покупках с самообслуживаем см. в [faq.](self-service-purchase-faq.md)
 
-Если у вас есть вопросы или вам нужна помощь с покупками самообслуживки, [обратитесь в службу поддержки.](../../admin/contact-support-for-business-products.md)
+Если у вас есть вопросы или вам нужна помощь с покупками самообслуживки, [обратитесь в службу поддержки.](../../business-video/get-help-support.md)

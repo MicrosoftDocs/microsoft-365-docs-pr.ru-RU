@@ -22,18 +22,18 @@ search.appverid:
 - MET150
 description: Узнайте, как закрыть учетную запись в Корпорации Майкрософт.
 ms.date: 04/02/2021
-ms.openlocfilehash: 4fa1366186f0a37d3319208224628332d958a0ea
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.openlocfilehash: 86232e3f433526cc60ef369eda03ef8d20ab08c9
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52107476"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52293671"
 ---
 # <a name="close-your-account"></a>Закрытие учетной записи
 
 Когда вы закрываете свою учетную запись в Microsoft, вся информация, связанная с вашей учетной записью, удаляется. Эта информация включает в себя подписки, лицензии, способы оплаты, пользователей и пользовательские данные.
 
-## <a name="before-you-begin"></a>Прежде чем начать
+## <a name="before-you-begin"></a>Подготовка
 
 Перед началом этого процесса обязательно сделайте резервную копию любых данных, которые вы хотите сохранить.
 
@@ -69,7 +69,7 @@ ms.locfileid: "52107476"
 6. Для каждой отключенной подписки повторите действия от 3 до 5 до удаления всех подписок.
 
 > [!NOTE]
-> Если вы не можете немедленно удалить отключенную подписку, обратитесь [в службу поддержки.](../admin/contact-support-for-business-products.md)
+> Если вы не можете немедленно удалить отключенную подписку, обратитесь [в службу поддержки.](../business-video/get-help-support.md)
 
 ## <a name="step-4-disable-multi-factor-authentication"></a>Шаг 4. Отключение многофакторной проверки подлинности
 
