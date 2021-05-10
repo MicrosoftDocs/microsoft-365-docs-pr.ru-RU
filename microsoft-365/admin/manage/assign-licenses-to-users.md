@@ -22,12 +22,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Узнайте, как назначать лицензии пользователям.
-ms.openlocfilehash: 9fa8981949215c4cf7779a21ff7089d7534e1ef0
-ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
+ms.openlocfilehash: ae088ab5c26df9b782bd4433bbd0c9f2d0ed9348
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52023753"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274380"
 ---
 # <a name="assign-licenses-to-users"></a>Назначение лицензий пользователям
 
@@ -41,9 +41,10 @@ ms.locfileid: "52023753"
 ## <a name="before-you-begin"></a>Прежде чем начать
 
 - Чтобы назначать лицензии необходимо быть глобальным администратором либо администратором лицензией или пользователей. Дополнительные сведения см. в статье [Роли администраторов в Microsoft 365](../add-users/about-admin-roles.md).
-- Вы можете [назначать лицензии учетным записям пользователей с помощью Office 365 PowerShell](../../enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell.md).
+- Вы можете [назначать лицензии Microsoft 365 учетным записям пользователей с помощью Windows PowerShell](../../enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell.md).
 - Сведения об использовании группового лицензирования см. в статье [Назначение лицензий пользователям в соответствии с членством в группах в Azure Active Directory](/azure/active-directory/users-groups-roles/licensing-groups-assign)
 - Некоторые службы, такие как Sway, назначаются пользователям автоматически и не требуют отдельного назначения.
+
 
 ## <a name="use-the-licenses-page-to-assign-licenses-to-users"></a>Назначение лицензий пользователям на странице "Лицензии"
 
@@ -128,6 +129,10 @@ ms.locfileid: "52023753"
 5. В области **Добавить к имеющимся продуктам** установите переключатель для лицензии, которую вы хотите назначить выбранным пользователям, в положение **Вкл.**.
     По умолчанию пользователям автоматически назначаются все службы, связанные с этими лицензиями. Вы можете ограничить доступные для пользователей службы. Для служб, которых не должно быть у пользователей, установите переключатель в положение **Выкл**.
 6. Внизу области выберите **Добавить** \> **Закрыть**.  
+
+
+> [!NOTE]
+> Если нужно назначить лицензии большому количеству пользователей, используйте [Назначение лицензий пользователям по членству в группах в Azure Active Directory](/azure/active-directory/enterprise-users/licensing-groups-assign)
 
 ### <a name="assign-licenses-to-one-user"></a>Назначение лицензий одному пользователю
 

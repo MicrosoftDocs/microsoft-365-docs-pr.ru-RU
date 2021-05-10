@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 recommendations: false
 description: Реализуйте возможности управления информацией (Майкрософт) для управления своими данными с целью соответствия требованиям или выполнения нормативных обязательств.
-ms.openlocfilehash: 6a0db63f218db72dbda9afc510cb5ef5f5e13eaa
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.openlocfilehash: 304b4e57702c55242e49fae7fdf4a36e9b2f7cdb
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52107707"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244568"
 ---
 # <a name="microsoft-information-governance-in-microsoft-365"></a>Управление информацией (Майкрософт) в Microsoft 365
 
@@ -31,6 +31,8 @@ ms.locfileid: "52107707"
 ![Управление своими данными — управление информацией и записями](../media/information-governance-records-management.png)
 
 Ищете способ защиты своих данных? См. статью [Microsoft Information Protection в Microsoft 365](information-protection.md).
+
+С целью соблюдения правил конфиденциальности данных мы разработали рабочий процесс, который поможет вам выполнить полный процесс планирования и реализации возможностей Microsoft 365, включая безопасный доступ, защиту от угроз, защиту информации и управление данными. Дополнительные сведения см. в статье [Развертывание защиты информации в соответствии с требованиями к конфиденциальности данных в Microsoft 365](../solutions/information-protection-deploy.md) (aka.ms/m365dataprivacy). 
 
 ## <a name="information-governance"></a>Управление информацией
 

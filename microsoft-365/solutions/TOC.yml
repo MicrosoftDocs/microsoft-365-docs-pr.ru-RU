@@ -13,13 +13,13 @@
       href: architecture-icons-templates.md
 - name: Основные решения Microsoft 365
   items:
-    - name: "Повышение эффективности работы удаленных сотрудников с помощью Microsoft\_365"
+    - name: Настройка инфраструктуры для удаленной работы
       items:
         - name: Обзор
           href: empower-people-to-work-remotely.md
         - name: Этап 1. Повышение безопасности входа
           href: empower-people-to-work-remotely-secure-sign-in.md
-        - name: "Этап\_2. Обеспечение удаленного доступа"
+        - name: Шаг 2. Обеспечение удаленного доступа
           href: empower-people-to-work-remotely-remote-access.md
         - name: Этап 3. Развертывание служб безопасности и соответствия требованиям
           href: empower-people-to-work-remotely-security-compliance.md
@@ -33,7 +33,7 @@
       items:
         - name: Обзор
           href: setup-secure-collaboration-with-teams.md
-        - name: Этап 1. Настройка трех уровней защиты в Microsoft Teams
+        - name: Шаг 1. Настройка трех уровней защиты в Microsoft Teams
           items:
             - name: Обзор трех уровней защиты
               href: configure-teams-three-tiers-protection.md
@@ -107,7 +107,7 @@
           href: tenant-management-networking.md
         - name: "Этап\_3. Удостоверение"
           href: tenant-management-identity.md
-        - name: "Этап\_4. Миграция"
+        - name: Этап 4. Миграция
           href: tenant-management-migration.md
         - name: "Этап\_5. Управление устройствами и приложениями"
           href: tenant-management-device-management.md
@@ -123,7 +123,7 @@
               href: /MicrosoftTeams/cloud-voice-landing-page?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
             - name: "Шаг\_2. Настройка телефонной системы"
               href: /microsoftteams/setting-up-your-phone-system?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
-            - name: "Шаг\_3. Настройка связи с ТСОП"
+            - name: Шаг 3. Настройка связи с ТСОП
               items:
                 - name: Параметр тарифного плана
                   href: /microsoftteams/set-up-calling-plans?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json

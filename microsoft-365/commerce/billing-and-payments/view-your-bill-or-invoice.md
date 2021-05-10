@@ -5,35 +5,31 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Priority
-search.appverid:
-- MET150
+search.appverid: MET150
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
-- commerce
 ms.custom:
 - TopSMBIssues
 - okr_smb
-- BCS160
-- MET150
-- MOE150
-- BEA160
 - TRN_M365B
 - OKR_SMB_Videos
 - AdminSurgePortfolio
+- commerce_billing
+- PPM_jmueller
 description: Найдите свой счет или выписку по счету в центре администрирования Microsoft 365. Вы также можете сохранить и распечатать копию счета.
 ms.date: 07/31/2020
-ms.openlocfilehash: d391d99f5d5870d964fc4c420a105f25032e3640
-ms.sourcegitcommit: e5b1a900043e2e41650ea1cbf4227043729c6053
+ms.openlocfilehash: f9dc6fb9be765e6e221ddf43f703d64737870f01
+ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52060971"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52280827"
 ---
 # <a name="view-your-bill-or-invoice"></a>Просмотр счета
 
@@ -49,25 +45,39 @@ ms.locfileid: "52060971"
   
 ## <a name="view-a-bill-or-invoice"></a>Просмотр счета или счета-фактуры
 
+::: moniker range="o365-worldwide"
+
 1. В центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">Счета и платежи</a>.
-    - Если вы используете Office 365 Германии, перейдите на эту страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=848040" target="_blank">Счета и платежи</a>.
-    - Если вы используете Office 365, управляемую 21Vianet, перейдите на страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=2127421" target="_blank">Счета и платежи</a>.
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. В центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=848040" target="_blank">Счета и платежи</a>.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. В центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2127421" target="_blank">Счета и платежи</a>.
+
+::: moniker-end
+
 2. На вкладке **Счета** выберите диапазон дат из раскрывающегося списка, а затем выберите порядок, который вы хотите просмотреть.
 3. На странице сводных данных можно просмотреть элементы, количество, цену, скидку и итог по всем позициям в счете.
 4. Чтобы напечатать или сохранить копию счета в формате PDF, выберите пункт **скачать PDF-файл**.
 
-::: moniker region="o365-21vianet"
+::: moniker range="o365-21vianet"
 
 ## <a name="request-a-fapiao"></a>Запросить фапяо
 
 Вы можете отправить запрос на фапяо в нашу [систему управления Fapiao](https://go.microsoft.com/fwlink/p/?linkid=837465) приблизительно через 3 дня после оплаты.
 
-1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">Центре администрирования</a> перейдите на страницу **Выставление счетов** > **Счета и платежи**.
-
+1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">центре администрирования</a> перейдите на страницу **Выставление счетов** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2127421" target="_blank">**Счета и платежи**</a>.
 2. Найдите нужный счет, затем выберите **Получить фапяо**.
 
 > [!NOTE]
-
+>
 > Для доступа к [системе управления фапяо](https://go.microsoft.com/fwlink/p/?linkid=837465) требуется зарегистрированная учетная запись. Если вы еще не настроили учетную запись, см. статью [Получение фапяо для Office 365 под управлением 21Vianet](../../admin/services-in-china/apply-for-a-fapiao.md).
 
 ::: moniker-end

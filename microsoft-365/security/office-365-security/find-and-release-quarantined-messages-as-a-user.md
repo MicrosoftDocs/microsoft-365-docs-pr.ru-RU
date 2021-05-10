@@ -20,12 +20,12 @@ ms.custom:
 description: Пользователи могут узнать о том, как просматривать сообщения, помещенные на карантин в Exchange Online Protection (EOP), и управлять ими.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e9a9da170dc0d3effba495c29672fb8f6bb02031
-ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
+ms.openlocfilehash: 036aa164b8b77efd2365d56c07d26870eac243f5
+ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51599939"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52274452"
 ---
 # <a name="find-and-release-quarantined-messages-as-a-user-in-eop"></a>Поиск и разблокирование сообщений, находящихся на карантине, для пользователя в EOP
 
@@ -156,7 +156,9 @@ ms.locfileid: "51599939"
 
 - **Удалить из карантина**: После нажатия кнопки **Да** в появившемся предупреждении сообщение немедленно удаляется.
 
-- **Блокировать отправителя**: запрещает указанному отправителю отправлять вам сообщения.
+- **Блокировка отправителя**: добавление отправителей в список заблокированных отправителей в вашем почтовом ящике. Подробнее см. в разделе [Блокировка отправителя почтового сообщения](https://support.microsoft.com/office/b29fd867-cac9-40d8-aed1-659e06a706e4).
+
+Отправитель будет добавлен в список заблокированных отправителей в вашем почтовом ящике. Подробнее см. в разделе [Блокировка отправителя почтового сообщения](https://support.microsoft.com/office/b29fd867-cac9-40d8-aed1-659e06a706e4).
 
 Когда закончите, нажмите кнопку **Закрыть**.
 
