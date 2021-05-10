@@ -539,6 +539,12 @@
 ####### [Список компьютеров по рекомендациям](get-recommendation-machines.md)
 ####### [Список уязвимостей по рекомендациям](get-recommendation-vulnerabilities.md)
 
+###### [Действия по исправлению]()
+####### [Методы и свойства действий по исправлению](get-remediation-methods-properties.md)
+####### [Получение одного действия по исправлению по ИД](get-remediation-one-activity.md)
+####### [Перечисление всех действий по исправлению](get-remediation-all-activities.md)
+####### [Перечисление устройств, затрагиваемых одним действием по исправлению](get-remediation-exposed-devices-activities.md)
+
 ###### [Показатель]()
 ####### [Методы и свойства оценки](score.md)
 ####### [Список показателей уязвимости по группе компьютеров](get-machine-group-exposure-score.md)
