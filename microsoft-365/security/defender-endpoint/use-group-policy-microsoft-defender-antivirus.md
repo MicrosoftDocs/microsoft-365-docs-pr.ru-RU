@@ -10,18 +10,18 @@ localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.date: 04/13/2021
+ms.date: 05/07/2021
 ms.reviewer: ksarens, jtoole, pahuijbr
 manager: dansimp
 ms.technology: mde
 audience: ITPro
 ms.topic: how-to
-ms.openlocfilehash: 8db14b016491ac10872f29f04b8166e548d6c63b
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 81cba445482b1fceb8bd520f2be88d55db2a47fb
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275340"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52296735"
 ---
 # <a name="use-group-policy-settings-to-configure-and-manage-microsoft-defender-antivirus"></a>Используйте параметры групповой политики для настройки и управления антивирусная программа в Microsoft Defender
 
@@ -33,6 +33,8 @@ ms.locfileid: "52275340"
 - [Microsoft Defender для конечной точки](/microsoft-365/security/defender-endpoint/)
 
 [Групповая политика может](/windows/win32/srvnodes/group-policy) настраивать и управлять антивирусная программа в Microsoft Defender конечными точками.
+
+## <a name="configure-microsoft-defender-antivirus-using-group-policy"></a>Настройка антивирусная программа в Microsoft Defender с помощью групповой политики
 
 В общем, вы можете использовать следующую процедуру для настройки или изменения параметров антивирусная программа в Microsoft Defender групповой политики:
 
@@ -48,9 +50,14 @@ ms.locfileid: "52275340"
 
 6. [Развертывание обновленного GPO, как обычно.](/windows/win32/srvnodes/group-policy) 
 
-В следующей таблице в этом разделе перечислены параметры групповой политики, доступные в Windows 10 версии 1703, а также ссылки на соответствующую тему в этой библиотеке документации (где это применимо).
+## <a name="group-policy-settings-and-resources"></a>Параметры и ресурсы групповой политики
 
-| Location | Setting | Статья |
+В следующей таблице в этом разделе перечислены параметры групповой политики, доступные в Windows 10 версии 1703, а также ссылки на соответствующую тему в этой библиотеке документации (где это применимо). 
+
+> [!TIP]
+> Скачайте таблицу Параметры групповой политики для обновления Windows 10 мая [2020 г. (2004 г.).](https://www.microsoft.com/download/101451) В этой электронной таблице перечислены параметры политики для компьютеров и конфигураций пользователей, включенных в файлы административных шаблонов, доставленные с обновлением за Windows 10 мая 2020 г. (2004 г.). Эти параметры политики можно настроить при редактировании объектов групповой политики.
+
+| Location | Параметр | Статья |
 |:---|:---|:---|
 | Клиентский интерфейс | Включить безголовый режим пользовательского интерфейса | [Запретить пользователям видеть или взаимодействовать с антивирусная программа в Microsoft Defender пользовательским интерфейсом](prevent-end-user-interaction-microsoft-defender-antivirus.md) |
 | Клиентский интерфейс | Отображение дополнительных текстов для клиентов при необходимости выполнения действия | [Настройка уведомлений, которые отображаются в конечных точках](configure-notifications-microsoft-defender-antivirus.md) |
@@ -61,14 +68,14 @@ ms.locfileid: "52275340"
 | Исключения | Исключения процессов | [Настройка и проверка исключений в антивирусная программа в Microsoft Defender сканирования](configure-exclusions-microsoft-defender-antivirus.md) | 
 | Исключения | Отключение автоматических исключений | [Настройка и проверка исключений в антивирусная программа в Microsoft Defender сканирования](configure-exclusions-microsoft-defender-antivirus.md) |
 | MAPS | Настройка функции "Блок с первого взгляда" | [Включить блок с первого взгляда](configure-block-at-first-sight-microsoft-defender-antivirus.md) |
-| MAPS | Присоединяйтесь к Microsoft MAPS | [Включить облачную защиту](enable-cloud-protection-microsoft-defender-antivirus.md) |
-| MAPS | Отправка образцов файлов при необходимости дополнительного анализа | [Включить облачную защиту](enable-cloud-protection-microsoft-defender-antivirus.md) |
+| MAPS | Присоединяйтесь к Microsoft MAPS | [Включение облачной защиты](enable-cloud-protection-microsoft-defender-antivirus.md) |
+| MAPS | Отправка образцов файлов при необходимости дополнительного анализа | [Включение облачной защиты](enable-cloud-protection-microsoft-defender-antivirus.md) |
 | MAPS | Настройка переопределения локального параметра для отчетов в Microsoft MAPS | [Предотвращение или разрешение пользователям локально изменять параметры политики](configure-local-policy-overrides-microsoft-defender-antivirus.md) |
 | MpEngine | Настройка расширенной облачной проверки | [Настройка времени ожидания блокировки облака](configure-cloud-block-timeout-period-microsoft-defender-antivirus.md) |
 | MpEngine | Выберите уровень облачной защиты | [Указать уровень облачной защиты](specify-cloud-protection-level-microsoft-defender-antivirus.md) |
-| Система сетевого контроля | Укажите дополнительные наборы определений для проверки сетевого трафика | Больше не релевантно |
-| Система сетевого контроля | Включив выход на пенсию определения | Больше не релевантно |
-| Система сетевого контроля | Включив распознавание протокола | Больше не релевантно |
+| Система сетевого контроля | Укажите дополнительные наборы определений для проверки сетевого трафика | [Укажите дополнительные наборы определений для проверки сетевого трафика](specify-additional-definitions-network-traffic-inspection-mdav.md) |
+| Система сетевого контроля | Включив выход на пенсию определения | [Настройка выхода на пенсию определения](turn-on-definition-retirement.md)  |
+| Система сетевого контроля | Включив распознавание протокола | [Включив распознавание протокола](turn-on-protocol-recognition.md)  |
 | Карантин | Настройка переопределения локального параметра для удаления элементов из папки Карантина | [Предотвращение или разрешение пользователям локально изменять параметры политики](configure-local-policy-overrides-microsoft-defender-antivirus.md) |
 | Карантин | Настройка удаления элементов из папки Карантина | [Настройка исправлений для антивирусная программа в Microsoft Defender проверки](configure-remediation-microsoft-defender-antivirus.md) |
 | Защита в режиме реального времени | Настройка переопределения локального параметра для мониторинга действий файла и программы на компьютере | [Предотвращение или разрешение пользователям локально изменять параметры политики](configure-local-policy-overrides-microsoft-defender-antivirus.md) |
@@ -144,8 +151,7 @@ ms.locfileid: "52275340"
 | Threats | Укажите уровни оповещений об угрозах, на которых по умолчанию не следует принимать меры при обнаружении | [Настройка исправлений для антивирусная программа в Microsoft Defender проверки](configure-remediation-microsoft-defender-antivirus.md) |
 | Threats | Укажите угрозы, при которых по умолчанию не следует принимать меры при обнаружении | [Настройка исправлений для антивирусная программа в Microsoft Defender проверки](configure-remediation-microsoft-defender-antivirus.md) |
 
-
-## <a name="related-articles"></a>Статьи по теме
+## <a name="see-also"></a>См. также
 
 - [Справочные темы для средств управления и конфигурации](configuration-management-reference-microsoft-defender-antivirus.md)
-- [антивирусная программа в Microsoft Defender в Windows 10](microsoft-defender-antivirus-in-windows-10.md)
+- [Антивирусная программа в Microsoft Defender (Windows 10)](microsoft-defender-antivirus-in-windows-10.md)

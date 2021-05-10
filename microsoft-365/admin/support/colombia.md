@@ -12,16 +12,16 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: b275665c62368e87832bc0e863d03875039ba427
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 2e4ee234b18a42103d4e1a7014af54090cffb015
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50548072"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52296784"
 ---
 # <a name="contact-support-for-colombia"></a>Поддержка контактов для Колумбии
 
-[Найдите другую страну или регион.](../contact-support-for-business-products.md)
+[Найдите другую страну или регион.](../../business-video/get-help-support.md)
 
 ## <a name="phone-number"></a>Номер телефона
 01 800 518 1781

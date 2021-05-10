@@ -12,16 +12,16 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 0885c0ff31d2e98fe6975fcde0bd5c3dd674da7e
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 9c60296176044ed4736e355d7a42ef645d47bd98
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50547664"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52296291"
 ---
 # <a name="contact-support-for-ecuador"></a>Поддержка контактов для Эквадора
 
-[Найдите другую страну или регион.](../contact-support-for-business-products.md)
+[Найдите другую страну или регион.](../../business-video/get-help-support.md)
 
 ## <a name="phone-number"></a>Номер телефона
 1 800 225 528

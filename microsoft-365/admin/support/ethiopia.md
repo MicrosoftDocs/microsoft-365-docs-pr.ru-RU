@@ -12,16 +12,16 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 84a2e7dd1c412023d95ae7e2a3fe58c25ed8b3a6
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 3c75d318ea469f03fc30d84a46436ab3c18267ca
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50547568"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52296255"
 ---
 # <a name="contact-support-for-ethiopia"></a>Поддержка контактов для Эфиопии
 
-[Найдите другую страну или регион.](../contact-support-for-business-products.md)
+[Найдите другую страну или регион.](../../business-video/get-help-support.md)
 
 ## <a name="phone-number"></a>Номер телефона
 +27 21 427 3315

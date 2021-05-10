@@ -12,16 +12,16 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: bcf357cc47b2ab0fb06553b117c0dd3fa117e76b
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 989f4bb1d71b12f8893291106f49db1f02bc28ae
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50546968"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52296123"
 ---
 # <a name="contact-support-for-guinea-bissau"></a>Поддержка контактов для Guinea-Bissau
 
-[Найдите другую страну или регион.](../contact-support-for-business-products.md)
+[Найдите другую страну или регион.](../../business-video/get-help-support.md)
 
 ## <a name="phone-number"></a>Номер телефона
 +1 312 843 5153

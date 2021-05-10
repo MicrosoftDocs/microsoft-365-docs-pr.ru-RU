@@ -12,16 +12,16 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: cc497cd7452a0502af40d1466ae1480c8b6f8cc0
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 6df569c2919e9941bc5c7c6ee92970fa694af225
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50546908"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52296099"
 ---
 # <a name="contact-support-for-heard-island-and-mcdonald-islands"></a>Поддержка контактов для островов Херд и Макдональд
 
-[Найдите другую страну или регион.](../contact-support-for-business-products.md)
+[Найдите другую страну или регион.](../../business-video/get-help-support.md)
 
 ## <a name="phone-number"></a>Номер телефона
 +1 312 843 5148

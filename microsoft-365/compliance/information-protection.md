@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-compliance
 recommendations: false
 description: Внедрение Microsoft Information Protection (MIP) для защиты конфиденциальной информации в любом расположении, где она находится или куда перемещается.
-ms.openlocfilehash: f39890db2338d5811e15c81dfafef47c60b028c5
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 86b4704ab12d14702bb0a8dde47208f054c67a54
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244336"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52296747"
 ---
 # <a name="microsoft-information-protection-in-microsoft-365"></a>Microsoft Information Protection в Microsoft 365
 
@@ -82,15 +82,4 @@ ms.locfileid: "52244336"
 |[Сведения о защите от потери данных в конечной точке](endpoint-dlp-learn-about.md)| Расширение возможностей DLP для элементов, которые используются и к которым предоставляется общий доступ на компьютерах с Windows 10. | [Начало работы с функцией защиты от потери данных в конечной точке](endpoint-dlp-getting-started.md)|
 |[Сведения о расширении соответствия требованиям Майкрософт (предварительная версия)](dlp-chrome-learn-about.md) | Расширение возможностей защиты от потери данных в браузере Chrome | [Начало работы с расширением соответствия требованиям Майкрософт (предварительная версия)](dlp-chrome-get-started.md)|
 |[Сведения о локальном сканере для защиты от потери данных Microsoft 365 (предварительная версия)](dlp-on-premises-scanner-learn.md)|Расширяет возможности защиты от потери данных по отслеживанию действий и защитных мер для файлов в локальных общих папках, а также в папках и библиотеках документов SharePoint.|[Начало работы с локальным сканером для защиты от потери данных Microsoft 365 (предварительная версия)](dlp-on-premises-scanner-get-started.md)|
-|[Защита конфиденциальной информации в чатах и сообщениях каналов Microsoft Teams](dlp-microsoft-teams.md) | Расширяет некоторые функции защиты от потери данных для чатов и сообщений каналов Teams | [Сведения о политике защиты от потери данных по умолчанию в Microsoft Teams (предварительная версия)](dlp-teams-default-policy.md)| 
-
-
-## <a name="additional-resources"></a>Дополнительные ресурсы
-
-Многие организации используют эти возможности защиты информации в соответствии с нормативными правилами о конфиденциальности данных. Мы разработали рабочий процесс, который поможет вам выполнить полный процесс планирования и реализации возможностей Microsoft 365, включая безопасный доступ, защиту от угроз, защиту информации и управление данными. Дополнительные сведения см. в статье [Развертывание защиты информации в соответствии с требованиями к конфиденциальности данных в Microsoft 365](../solutions/information-protection-deploy.md) (aka.ms/m365dataprivacy). 
-
-Кроме того, чтобы спланировать интегрированную стратегию реализации возможностей защиты информации, скачайте набор иллюстраций *Защита информации и соответствие требованиям Microsoft 365*.  Вы можете адаптировать эти изображения для собственного применения.
-
-| Элемент | Описание |
-|:-----|:------------|
-|[![Плакат модели: возможности защиты информации и соответствия требованиям Microsoft 365](../media/solutions-architecture-center/m365-compliance-illustrations-thumb.png)](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf) <br/> [Скачать в виде PDF-файла](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.pdf)  \| [Скачать в виде файла Visio](https://download.microsoft.com/download/3/a/6/3a6ab1a3-feb0-4ee2-8e77-62415a772e53/m365-compliance-illustrations.vsdx) <br/> Японский язык: [Скачать в виде PDF-файла](https://download.microsoft.com/download/6/f/1/6f1a7d0e-dd8e-442e-b073-8e94327ae4f8/m365-compliance-illustrations.pdf)  \| [Скачать в виде файла Visio](https://download.microsoft.com/download/6/f/1/6f1a7d0e-dd8e-442e-b073-8e94327ae4f8/m365-compliance-illustrations.vsdx) <br/> Обновлено в октябре 2020 г.|Содержимое: <ul><li>  Защита информации (Майкрософт) и защита от потери данных</li><li>Политики и метки хранения </li><li>Информационные барьеры</li><li>Соответствие требованиям к обмену данными</li><li>Управление внутренними рисками</li><li>Внедрение сторонних данных</li>|
+|[Защита конфиденциальной информации в чатах и сообщениях каналов Microsoft Teams](dlp-microsoft-teams.md) | Расширяет некоторые функции защиты от потери данных для чатов и сообщений каналов Teams | [Сведения о политике защиты от потери данных по умолчанию в Microsoft Teams (предварительная версия)](dlp-teams-default-policy.md)|

@@ -12,16 +12,16 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 1118c8ec115b01083259d23bdbd955c3d0d6beac
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 94d8996f876451fd30e39c08cdff9cb7d8c61996
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50548864"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52296615"
 ---
 # <a name="contact-support-for-australia"></a>Поддержка контактов для Австралии
 
-[Найдите другую страну или регион.](../contact-support-for-business-products.md)
+[Найдите другую страну или регион.](../../business-video/get-help-support.md)
 
 ## <a name="phone-number"></a>Номер телефона
 1800 197 503
@@ -35,6 +35,6 @@ ms.locfileid: "50548864"
 
 Английский: круглосуточно, без выходных
 
-Альтернативный номер телефона: 02 8223 9959
+Альтернативный Телефон: 02 8223 9959
 
 Применяются локальные платежи за вызовы

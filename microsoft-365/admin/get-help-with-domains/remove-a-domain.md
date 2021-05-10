@@ -22,18 +22,18 @@ search.appverid:
 - GEA150
 ms.assetid: f09696b2-8c29-4588-a08b-b333da19810c
 description: Узнайте, как удалить старый домен из Microsoft 365 и переместить пользователей и группы в другой домен.
-ms.openlocfilehash: 916730975e9e17c42b01d9fa0ff55b3cb7078f66
-ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
+ms.openlocfilehash: ca12a886c508024bf39ae9e619744a355376a80d
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51470969"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52296711"
 ---
 # <a name="remove-a-domain"></a>Удаление домена
   
  Если вы не нашли то, что вы ищете, см. раздел **[Вопросы и ответы по доменам](../setup/domains-faq.yml)**. 
   
-Вы удаляете домен, так как хотите добавить его в другой план подписки Microsoft 365? Или вам нужно просто отменить свою подписку? Вы можете [сменить план или подписку](../../commerce/subscriptions/switch-to-a-different-plan.md) либо [отменить подписку](../../commerce/subscriptions/cancel-your-subscription.md).
+Вы удаляете домен, так как хотите добавить его в другой Microsoft 365 подписки? Или вам нужно просто отменить свою подписку? Вы можете [сменить план или подписку](../../commerce/subscriptions/switch-to-a-different-plan.md) либо [отменить подписку](../../commerce/subscriptions/cancel-your-subscription.md).
   
 ### <a name="step-1-move-users-to-another-domain"></a>Шаг 1. Перемещение пользователей в другой домен
 
@@ -101,7 +101,7 @@ ms.locfileid: "51470969"
 
 5. Вход с новым доменом и тем же паролем.
 
-Вы также можете использовать PowerShell для перемещения пользователей в другой домен. Дополнительные сведения см. в дополнительных сведениях в [set-MsolUserPrincipalName.](/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0) Чтобы установить домен по умолчанию, [используйте Set-MsolDomain.](/powershell/module/msonline/set-msoldomain?view=azureadps-1.0)
+Переместить пользователей в другой домен можно также с помощью PowerShell. Дополнительные сведения см. в статье о командлете [Set-MsolUserPrincipalName](/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0). Чтобы задать домен по умолчанию, используйте командлет [Set-MsolDomain](/powershell/module/msonline/set-msoldomain?view=azureadps-1.0).
 
 ::: moniker-end
 
@@ -117,7 +117,7 @@ ms.locfileid: "51470969"
 
 5. Вход с новым доменом и тем же паролем.
 
-Вы также можете использовать PowerShell для перемещения пользователей в другой домен. Дополнительные сведения см. в дополнительных сведениях в [set-MsolUserPrincipalName.](/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0) Чтобы установить домен по умолчанию, [используйте Set-MsolDomain.](/powershell/module/msonline/set-msoldomain?view=azureadps-1.0)
+Переместить пользователей в другой домен можно также с помощью PowerShell. Дополнительные сведения см. в статье о командлете [Set-MsolUserPrincipalName](/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0). Чтобы задать домен по умолчанию, используйте командлет [Set-MsolDomain](/powershell/module/msonline/set-msoldomain?view=azureadps-1.0).
 
 ::: moniker-end
 
@@ -133,7 +133,7 @@ ms.locfileid: "51470969"
 
 5. Вход с новым доменом и тем же паролем.
 
-Вы также можете использовать PowerShell для перемещения пользователей в другой домен. Дополнительные сведения см. в дополнительных сведениях в [set-MsolUserPrincipalName.](/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0) Чтобы установить домен по умолчанию, [используйте Set-MsolDomain.](/powershell/module/msonline/set-msoldomain?view=azureadps-1.0)
+Переместить пользователей в другой домен можно также с помощью PowerShell. Дополнительные сведения см. в статье о командлете [Set-MsolUserPrincipalName](/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0). Чтобы задать домен по умолчанию, используйте командлет [Set-MsolDomain](/powershell/module/msonline/set-msoldomain?view=azureadps-1.0).
 
 ::: moniker-end
 
@@ -203,7 +203,7 @@ ms.locfileid: "51470969"
 
 ## <a name="how-long-does-it-take-for-a-domain-to-be-removed"></a>Время, необходимое для удаления домена
 
-Удаление домена Microsoft 365 может занять всего 5 минут, если он не ссылается во многих местах, таких как группы безопасности, списки рассылки, пользователи и группы Microsoft 365. Если же домен используется очень широко, на его удаление может потребоваться несколько часов или один день.
+Удаление домена может занять всего 5 минут Microsoft 365 если он не указан во многих местах, таких как группы безопасности, списки рассылки, пользователи и Microsoft 365 группы. Если же домен используется очень широко, на его удаление может потребоваться несколько часов или один день.
   
 Если у вас сотни или тысячи пользователей, используйте PowerShell, чтобы отправить им всем запрос, а затем перенести их в другой домен. В противном случае может оказаться, что нескольких пользователей нет в интерфейсе. В результате вы не сможете удалить домен и не сумеете определить причину. Дополнительные сведения см. в статье о командлете [Set-MsolUserPrincipalName](/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0). Чтобы задать домен по умолчанию, используйте командлет [Set-MsolDomain](/powershell/module/msonline/set-msoldomain?view=azureadps-1.0).
   
@@ -214,7 +214,7 @@ ms.locfileid: "51470969"
 > [!NOTE]
 > Не удается удалить домен [".onmicrosoft.com"](../setup/domains-faq.yml) из вашей учетной записи. После удаления домена учетные записи пользователей будут возвращаться к адресу ".onmicrosoft.com" в качестве основного SMTP/UserprincipalName.
   
-Не получилось? Возможно, ваш домен необходимо удалить вручную. [Позвоните нем](../contact-support-for-business-products.md), и мы поможем вам это сделать.
+Не получилось? Возможно, ваш домен необходимо удалить вручную. [Позвоните нем](../../business-video/get-help-support.md), и мы поможем вам это сделать.
   
 ::: moniker-end
 

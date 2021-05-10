@@ -12,16 +12,16 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 35bd5570fce2f20e95a2793ee7ecb78230f8b3e1
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 631b39d2ba1c07a30614ce0fb52480dcbeefc245
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50548096"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52296351"
 ---
 # <a name="contact-support-for-cocos-keeling-islands"></a>Поддержка контактов для островов Cocos (Keeling)
 
-[Найдите другую страну или регион.](../contact-support-for-business-products.md)
+[Найдите другую страну или регион.](../../business-video/get-help-support.md)
 
 ## <a name="phone-number"></a>Номер телефона
 +1 312 843 5148

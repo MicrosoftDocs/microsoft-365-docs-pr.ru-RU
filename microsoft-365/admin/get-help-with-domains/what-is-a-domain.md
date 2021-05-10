@@ -23,12 +23,12 @@ ms.custom:
 - okr_smb
 - AdminSurgePortfolio
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 2527389634cda9912f45ecdcd3213f7d987b7bb8
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: 0d4c59f24f5d5979d0f63d035edd1ca668ff4314
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51221875"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52296699"
 ---
 # <a name="what-is-a-domain"></a>Что такое домен?
 
@@ -46,7 +46,7 @@ ms.locfileid: "51221875"
   
  **Используйте домен, который у вас уже есть:**
   
-Если у вас уже есть домен типа  *you@yourcompany. <span> com*  вы можете добавить его и начать использовать приложения OneDrive и Microsoft сразу. Настройка почты и Skype для бизнеса займет у вас буквально несколько минут. 
+Если у вас уже есть домен типа *you@yourcompany. <span> com* вы можете добавить его и начать использовать приложения OneDrive и Microsoft сразу. Настройка почты и Skype для бизнеса займет у вас буквально несколько минут. 
   
 > [!TIP]
 > Не знаете точно, где зарегистрирован ваш домен? [Получите помощь в определении своего регистратора доменных имен](find-your-domain-registrar.md).
@@ -57,6 +57,6 @@ ms.locfileid: "51221875"
   
 ## <a name="feeling-stuck"></a>Не знаете, как поступить?
 
-Вызов службы поддержки Майкрософт . [Справка по настройке домена](../contact-support-for-business-products.md)
+Вызов службы поддержки Майкрософт . [Справка по настройке домена](../../business-video/get-help-support.md)
   
 

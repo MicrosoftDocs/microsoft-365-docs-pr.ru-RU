@@ -12,16 +12,16 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: aace89665d8c1034f8af41b0991ed5cf217512aa
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: cf1a847d367f3783b47260a07d1db040336295ac
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50547208"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52296171"
 ---
 # <a name="contact-support-for-germany"></a>Поддержка контактов для Германии
 
-[Найдите другую страну или регион.](../contact-support-for-business-products.md)
+[Найдите другую страну или регион.](../../business-video/get-help-support.md)
 
 ## <a name="phone-number"></a>Номер телефона
 0800 589 2332
@@ -39,6 +39,6 @@ ms.locfileid: "50547208"
 
 Английский: круглосуточно, без выходных
 
-Альтернативный номер телефона: 069 380 789 508
+Альтернативный Телефон номер: 069 380 789 508
 
 Применяются локальные платежи за вызовы
