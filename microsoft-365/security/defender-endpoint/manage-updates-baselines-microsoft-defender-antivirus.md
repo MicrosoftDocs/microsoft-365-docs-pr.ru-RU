@@ -16,13 +16,13 @@ ms.custom: nextgen
 ms.reviewer: pahuijbr
 manager: dansimp
 ms.technology: mde
-ms.date: 05/06/2021
-ms.openlocfilehash: 22a173d39c3ab8d1afd91a33b05e02e58da24aaa
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.date: 05/08/2021
+ms.openlocfilehash: 4f2b931018d49affa2d94ddf1a147c4fd2e02085
+ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274560"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52302080"
 ---
 # <a name="manage-microsoft-defender-antivirus-updates-and-apply-baselines"></a>Управление антивирусная программа в Microsoft Defender обновлениями и применение базовых показателей
 
@@ -49,8 +49,8 @@ ms.locfileid: "52274560"
 
 > [!NOTE]
 > Обновления выпускаются под номерами ниже KB:  
-> антивирусная программа в Microsoft Defender: KB2267602  
-> System Center Endpoint Protection: KB2461484
+> - антивирусная программа в Microsoft Defender: KB2267602  
+> - System Center Endpoint Protection: KB2461484
 
 Защита с облачной доставкой всегда работает и требует активного подключения к Интернету для работы. Обновления сведении безопасности происходят в запланированной каденции (настраиваемой с помощью политики). Дополнительные сведения см. в [веб-сайте Use Microsoft cloud-provided protection in антивирусная программа в Microsoft Defender.](cloud-protection-microsoft-defender-antivirus.md) 
 
@@ -83,11 +83,11 @@ ms.locfileid: "52274560"
 - улучшения интеграции (Cloud, Microsoft 365 Defender).
 <br/>
 <details>
-<summary> Апрель-2021 (платформа: 4.19.2104.9| Двигатель: 1.1.18100.5)</summary>
+<summary> Апрель-2021 (платформа: 4.18.2104.9| Двигатель: 1.1.18100.5)</summary>
 
 &ensp;Версия обновления аналитики безопасности: **1.337.2.0**  
 &ensp;Выпущено: **1 апреля 2021 г.**  
-&ensp;Платформа: **4.19.2104.9**  
+&ensp;Платформа: **4.18.2104.9**  
 &ensp;Двигатель: **1.1.18100.5**  
 &ensp;Этап поддержки: **безопасность и критически важные обновления**
     
@@ -101,11 +101,11 @@ ms.locfileid: "52274560"
 </details>
 
 <details>
-<summary> Март-2021 (платформа: 4.19.2103.7 | Двигатель: 1.1.18000.5)</summary>
+<summary> Март-2021 (платформа: 4.18.2103.7 | Двигатель: 1.1.18000.5)</summary>
 
 &ensp;Версия обновления аналитики безопасности: **1.335.36.0**  
 &ensp;Выпущено: **1 апреля 2021 г.**  
-&ensp;Платформа: **4.19.2103.7**  
+&ensp;Платформа: **4.18.2103.7**  
 &ensp;Двигатель: **1.1.18000.5**  
 &ensp;Этап поддержки: **безопасность и критически важные обновления**
     
@@ -119,11 +119,11 @@ ms.locfileid: "52274560"
 Отсутствие известных проблем  
 <br/>
 </details><details>
-<summary> Февраль-2021 (платформа: 4.19.2102.3 | Двигатель: 1.1.17900.7)</summary>
+<summary> Февраль-2021 (платформа: 4.18.2102.3 | Двигатель: 1.1.17900.7)</summary>
 
 &ensp;Версия обновления аналитики безопасности: **1.333.7.0**  
 &ensp;Выпущено: **9 марта 2021 г.**  
-&ensp;Платформа: **4.19.2102.3**  
+&ensp;Платформа: **4.18.2102.3**  
 &ensp;Двигатель: **1.1.17900.7**  
 &ensp;Этап поддержки: **безопасность и критически важные обновления**
     
@@ -216,7 +216,7 @@ ms.locfileid: "52274560"
    - Защита сети на сервере 2019
    - Исключения IP-адресов для защиты сети
 - Улучшенная видимость измерений TPM
-- Улучшенное сканирование модулей VBA Office
+- Улучшенное сканирование Office VBA
 
 ### <a name="known-issues"></a>Известные проблемы
 
@@ -239,7 +239,7 @@ ms.locfileid: "52274560"
 - Улучшенный мониторинг поведения при проверке памяти
 - Улучшенное сканирование макропотоков
 - Добавлен `AMRunningMode` в Get-MpComputerStatus PowerShell
-- [ОтключениеAntiSpyware](/windows-hardware/customize/desktop/unattend/security-malware-windows-defender-disableantispyware) игнорируется. Антивирус Microsoft Defender автоматически выключается при обнаружении другой антивирусной программы.
+- [ОтключениеAntiSpyware](/windows-hardware/customize/desktop/unattend/security-malware-windows-defender-disableantispyware) игнорируется. антивирусная программа в Microsoft Defender автоматически выключается при обнаружении другой антивирусной программы.
 
 
 ### <a name="known-issues"></a>Известные проблемы
@@ -456,13 +456,13 @@ ms.locfileid: "52274560"
 |1703 (RS2) |4.11.15603.2 |1.1.13504.0 | Техническая поддержка обновления (только) |
 |1607 (RS1) |4.10.14393.3683 |1.1.12805.0 | Техническая поддержка обновления (только) |  
 
-Сведения о выпуске Windows 10 см. в листе фактов [жизненного цикла Windows.](https://support.microsoft.com/help/13853/windows-lifecycle-fact-sheet)
+Сведения Windows 10 релиза см. в Windows [информационном листе жизненного цикла.](https://support.microsoft.com/help/13853/windows-lifecycle-fact-sheet)
 
 ## <a name="updates-for-deployment-image-servicing-and-management-dism"></a>Обновления для обслуживания и управления изображениями развертывания (DISM)
 
-Рекомендуется обновить изображения установки Windows 10 (корпоративные, профессиональные и домашние выпуски), Windows Server 2019 и Windows Server 2016 с последними обновлениями антивирусных и антивирусных программ. Сохранение изображений установки ОС в курсе данных помогает избежать пробела в защите. 
+Рекомендуется обновить Windows 10 (Enterprise, Pro и Домашние выпуски), Windows Server 2019 и Windows Server 2016 изображений установки ОС с последними обновлениями антивирусных и антивирусных программ. Сохранение изображений установки ОС в курсе данных помогает избежать пробела в защите. 
 
-Дополнительные сведения см. в [обновлении Microsoft Defender для изображений установки операционной системы Windows.](https://support.microsoft.com/help/4568292/defender-update-for-windows-operating-system-installation-images)
+Дополнительные сведения см. в [обновлении Microsoft Defender для Windows изображений установки операционной системы.](https://support.microsoft.com/help/4568292/defender-update-for-windows-operating-system-installation-images)
 
 <details>
 <summary>1.1.2105.01</summary>
@@ -560,7 +560,7 @@ ms.locfileid: "52274560"
 - Нет
 
 ### <a name="additional-information"></a>Дополнительные сведения
-- Обновленные антивирусные подписи Защитника Майкрософт  
+- Обновленные антивирусная программа в Microsoft Defender подписи  
 <br/>
 </details><details>
 <summary>1.1.2011.01</summary>
@@ -588,7 +588,7 @@ ms.locfileid: "52274560"
 - Нет
 
 ### <a name="additional-information"></a>Дополнительные сведения
-- Добавлена поддержка для Windows 10 RS1 или более поздней осмии установки изображений.  
+- Добавлена поддержка Windows 10 RS1 или более поздней оси установки изображений.  
 <br/>
 </details>
 
@@ -596,7 +596,7 @@ ms.locfileid: "52274560"
 
 | Статья | Описание  |
 |:---|:---|
-|[Обновление Microsoft Defender для изображений установки операционной системы Windows](https://support.microsoft.com/help/4568292/defender-update-for-windows-operating-system-installation-images)  | Просмотрите пакеты обновления антивирусных программ для изображений установки ОС (WIM и VHD-файлы). Получите антивирусные обновления Microsoft Defender для Windows 10 (корпоративные, профессиональные и домашние выпуски), Windows Server 2019 и Windows Server 2016.  |
+|[Обновление Microsoft Defender для Windows изображений установки операционной системы](https://support.microsoft.com/help/4568292/defender-update-for-windows-operating-system-installation-images)  | Просмотрите пакеты обновления антивирусных программ для изображений установки ОС (WIM и VHD-файлы). Получите антивирусная программа в Microsoft Defender обновления для Windows 10 (Enterprise, Pro и домашних выпусков), Windows Server 2019 и Windows Server 2016 изображений установки.  |
 |[Управление загрузкой и приложением обновлений защиты](manage-protection-updates-microsoft-defender-antivirus.md) | Обновления защиты могут быть доставлены из многих источников. |
 |[Управление загрузкой и приложением обновлений защиты](manage-protection-update-schedule-microsoft-defender-antivirus.md) | Можно запланировать загрузку обновлений защиты. |
 |[Управление обновлениями для устарели конечных точек](manage-outdated-endpoints-microsoft-defender-antivirus.md) | Если конечная точка пропустит обновление или запланированное сканирование, вы можете принудить к обновлению или сканировать при следующем взявке пользователя. |

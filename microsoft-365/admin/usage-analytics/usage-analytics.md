@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 77ff780d-ab19-4553-adea-09cb65ad0f1f
 description: Получите обзор того, как ваша организация принимает Microsoft 365 для взаимодействия и совместной работы.
-ms.openlocfilehash: 7d267dcbbb35a03794567991fddb2e3a573d47dc
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: ac54e8bbc24393b7140fbc32efd48047beca2a1c
+ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297396"
+ms.locfileid: "52301744"
 ---
 # <a name="microsoft-365-usage-analytics"></a>Аналитика использования Microsoft 365
 
@@ -89,6 +89,9 @@ Microsoft 365 использования содержит ряд отчетов,
 Это не бесплатно, вам потребуется Power BI Pro лицензии. Дополнительные сведения [см. в дополнительных](/power-bi/service-template-apps-install-distribute#prerequisites) сведениях об установке, настройке и распространении приложения-шаблона.
 
 Чтобы поделиться панелями мониторинга с другими, см. дополнительные данные на панели мониторинга [и отчеты Share.](/power-bi/service-how-to-collaborate-distribute-dashboards-reports#share-dashboards-and-reports)
+### <a name="is-the-usage-summary-reports-reader-role-enough-to-view-the-usage-analytics"></a>Достаточно ли роли читателя сводных отчетов об использовании для просмотра аналитики использования?
+
+Роль читателя сводных отчетов об использовании позволяет получить доступ только к совокупным данным уровня клиента Microsoft 365 аналитике использования.  Мы рекомендуем роль чтения отчетов или сводки об использовании для всех, кто отвечает за управление изменениями и принятие, но не обязательно является ИТ-администратором.
 
 ### <a name="who-can-connect-to-microsoft-365-usage-analytics"></a>Кто может подключаться к аналитике использования Microsoft 365?
 

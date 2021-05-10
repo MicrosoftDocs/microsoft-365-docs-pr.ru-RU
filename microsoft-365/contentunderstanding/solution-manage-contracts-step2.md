@@ -12,14 +12,14 @@ search.appverid: ''
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: Узнайте, как использовать Microsoft Teams для создания канала управления контрактами с помощью Microsoft 365 решения.
-ms.openlocfilehash: a97f6a77818fc53aa28a5924b97e3c7309d01e3a
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: d703f6f7286a6d9584e8b18d4e283174f42a95bd
+ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52281320"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52301804"
 ---
-# <a name="step-2-use-microsoft-teams-to-create-your-contract-management-channel"></a>Этап 2. Используйте Microsoft Teams для создания канала управления контрактами
+# <a name="step-2-use-microsoft-teams-to-create-your-contract-management-channel"></a>Шаг 2. Используйте Microsoft Teams для создания канала управления контрактами
 
 Когда организация создает решение по управлению контрактами, необходимо центральное расположение, в котором заинтересованные стороны могут просмотреть и управлять контрактами. Для этого можно использовать [](https://docs.microsoft.com/microsoftteams/) Microsoft Teams для Teams канала и использовать функции в Teams:
 
@@ -42,6 +42,9 @@ ms.locfileid: "52281320"
    ![Представление списка.](../media/content-understanding/list-view.png) 
 
 ## <a name="customize-your-contracts-tab-tile-view"></a>Настройка представления плитки вкладок Contracts
+
+> [!NOTE]
+> В этом разделе упоминаются примеры кода, содержащиеся вContractCard.jsфайле, который включен в почтовый файл **solutionfiles.** 
 
 Хотя Teams позволяет просматривать контракты в представлении плитки, может потребоваться настроить его для просмотра данных контрактов, которые необходимо сделать видимыми на карточке контракта. Например, для вкладки **"Контракты"** важно, чтобы участники видели на карточке контракта сумму клиента, подрядчика и сумму платы. Все эти поля извлекались из каждого контракта с помощью модели SharePoint Syntex, которая была применена к библиотеке документов. Кроме того, необходимо изменить планку заголовки плитки на разные цвета для каждого состояния, чтобы участники могли легко видеть, где находится контракт в процессе утверждения. Например, во всех утвержденных контрактах будет синяя заголовка.
 

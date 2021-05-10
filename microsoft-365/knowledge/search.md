@@ -10,12 +10,12 @@ ms.service: o365-administration
 search.appverid: ''
 localization_priority: None
 description: Узнайте, как можно искать темы в Microsoft Viva.
-ms.openlocfilehash: 15b42c9d3689a73c865be53bb29f298fcbf896bd
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: 54a143ea0960bf56a0d1c5224658bea404c7621e
+ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52281046"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52301720"
 ---
 # <a name="use-microsoft-search-to-find-topics-in-microsoft-viva-topics"></a>Поиск в Microsoft Search используется для поиска тем в темах Microsoft Viva
 
@@ -26,7 +26,7 @@ ms.locfileid: "52281046"
 При поиске определенной темы в Microsoft Search (например, "Сатурн"), если тема существует и найдена, она будет отображать результат в формате предложения Answers.
 
 В ответе на тему будет отображаться:
-- Имя темы
+- Название темы
 - Альтернативные имена. Альтернативные имена или аббревиатуры для темы.
 - Определение. Описание темы, предоставленной ИИ или вручную добавленной человеком.
 - Предложенные или закрепленные люди: люди, предложенные ИИ или прикрепив к этой теме человека
@@ -36,7 +36,7 @@ ms.locfileid: "52281046"
 
 Страница темы может отображаться в результатах поиска, даже если карточка ответа на эту тему не отображается.
 
-Результаты поиска в Word и PowerPoint также покажут ответ на тему при его обнаружении.
+Результаты поиска в Word, PowerPoint, Outlook и Excel также будут показывать ответ на тему при обнаружении.
 
 
 ## <a name="acronyms"></a>Акронимы

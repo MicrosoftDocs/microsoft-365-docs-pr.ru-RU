@@ -10,18 +10,18 @@ localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.date: 05/07/2021
+ms.date: 05/08/2021
 ms.reviewer: ksarens, jtoole, pahuijbr
 manager: dansimp
 ms.technology: mde
 audience: ITPro
 ms.topic: how-to
-ms.openlocfilehash: 81cba445482b1fceb8bd520f2be88d55db2a47fb
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 74f58959c22313806ebc95aef14e8ccb2d75326b
+ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/10/2021
-ms.locfileid: "52296735"
+ms.locfileid: "52302104"
 ---
 # <a name="use-group-policy-settings-to-configure-and-manage-microsoft-defender-antivirus"></a>Используйте параметры групповой политики для настройки и управления антивирусная программа в Microsoft Defender
 
@@ -55,7 +55,7 @@ ms.locfileid: "52296735"
 В следующей таблице в этом разделе перечислены параметры групповой политики, доступные в Windows 10 версии 1703, а также ссылки на соответствующую тему в этой библиотеке документации (где это применимо). 
 
 > [!TIP]
-> Скачайте таблицу Параметры групповой политики для обновления Windows 10 мая [2020 г. (2004 г.).](https://www.microsoft.com/download/101451) В этой электронной таблице перечислены параметры политики для компьютеров и конфигураций пользователей, включенных в файлы административных шаблонов, доставленные с обновлением за Windows 10 мая 2020 г. (2004 г.). Эти параметры политики можно настроить при редактировании объектов групповой политики.
+> Скачайте таблицу Параметры групповой политики для обновления Windows 10 мая [2020 г. (2004 г.).](https://www.microsoft.com/download/101451) В этой электронной таблице перечислены параметры политики для компьютеров и конфигураций пользователей, включенных в файлы административных шаблонов, доставленные с обновлением за Windows 10 мая 2020 г. (2004 г.). Можно настроить ссылку на таблицу при редактировании объектов групповой политики.
 
 | Location | Параметр | Статья |
 |:---|:---|:---|

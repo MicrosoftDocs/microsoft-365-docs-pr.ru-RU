@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 76abde885aa16c174bb81d22e5939d47894a59bf
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 64a96256ff4bb4b77ec634195f6d89b92252142a
+ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934973"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52301768"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint-on-ios"></a>Новые возможности в Microsoft Defender для конечной точки на iOS
 
@@ -37,7 +37,9 @@ ms.locfileid: "51934973"
 
 ## <a name="1115140101"></a>1.1.15140101
 
-- Теперь имя продукта ATP Защитника Майкрософт обновлено до Microsoft Defender для конечной точки в магазине приложений.
+- **Обнаружение джейлбрейка** находится в предварительном режиме. Дополнительные сведения см. в [сайте Setup Conditional Access Policy based on device risk signals.](ios-configure-features.md#conditional-access-with-defender-for-endpoint-on-ios)
+- **Автоматическая настройка ПРОФИЛЯ VPN** в предварительном режиме для зарегистрированных устройств Microsoft Endpoint Manager (Intune). Дополнительные сведения см. в [странице Auto-Setup VPN-профиль для зарегистрированных устройств iOS.](ios-install.md#auto-onboarding-of-vpn-profile-simplified-onboarding)
+- Имя ATP в Защитнике Microsoft теперь обновлено в Microsoft Defender для конечной точки в магазине приложений.
 - Улучшенный опыт регистрации.
 - Исправления ошибок.
 
