@@ -12,16 +12,16 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 9475a197b189c98cd920a5eb6b52be82c0e7144d
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: 925d924c4e4bdd1de36516942a0c585ee10984e4
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50546872"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52298651"
 ---
 # <a name="contact-support-for-hungary"></a>Поддержка контактов для Венгрии
 
-[Найдите другую страну или регион.](../contact-support-for-business-products.md)
+[Найдите другую страну или регион.](../../business-video/get-help-support.md)
 
 ## <a name="phone-number"></a>Номер телефона
 +36 80 983 899
@@ -37,6 +37,6 @@ ms.locfileid: "50546872"
 
 Английский: круглосуточно, без выходных
 
-Альтернативный номер телефона: +36 1 778 9292
+Альтернативный Телефон: +36 1 778 9292
 
 Применяются локальные платежи за вызовы

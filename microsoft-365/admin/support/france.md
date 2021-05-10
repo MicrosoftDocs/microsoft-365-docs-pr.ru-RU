@@ -12,16 +12,16 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 0a6e29a3ff2879f3d2eb44ff3a2e11b1ebc7853a
-ms.sourcegitcommit: 6e260f5f5842debe1098138eecea9068330dc17f
+ms.openlocfilehash: b0837e2169e1cd20fd11b0d2987ad8265a60adb5
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50547412"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52298858"
 ---
 # <a name="contact-support-for-france"></a>Поддержка контактов для Франции
 
-[Найдите другую страну или регион.](../contact-support-for-business-products.md)
+[Найдите другую страну или регион.](../../business-video/get-help-support.md)
 
 ## <a name="phone-number"></a>Номер телефона
 0805 540 594
@@ -39,6 +39,6 @@ ms.locfileid: "50547412"
 
 Английский: круглосуточно, без выходных
 
-Альтернативный номер телефона: 01 57 32 42 97
+Альтернативный Телефон: 01 57 32 42 97
 
 Применяются локальные платежи за вызовы

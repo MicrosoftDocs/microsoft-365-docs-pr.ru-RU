@@ -18,14 +18,14 @@ ms.custom:
 description: Администратор может узнать, как настроить поддержку анонимной входящие сообщения электронной почты из источников IPv6 в Exchange Online и Exchange Online Protection.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: df06891401802d212cbfdb55085662901f5546e9
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 80fdcc9dcfe3006ef8b21aa19856fe8c0ea3ff70
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206477"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52300053"
 ---
-# <a name="add-support-for-anonymous-inbound-email-over-ipv6-in-microsoft-365"></a>Добавление поддержки анонимной входящие сообщения электронной почты по IPv6 в Microsoft 365
+# <a name="add-support-for-anonymous-inbound-email-over-ipv6-in-microsoft-365"></a>Добавьте поддержку анонимной входящие сообщения электронной почты над IPv6 в Microsoft 365
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -34,13 +34,13 @@ ms.locfileid: "51206477"
 - [Microsoft Defender для Office 365 (план 1 и план 2)](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-Организации Microsoft 365 с почтовыми ящиками Exchange Online и автономными организациями Exchange Online Protection (EOP) без почтовых ящиков Exchange Online поддерживают анонимные входящие сообщения электронной почты над IPv6. Исходный сервер электронной почты IPv6 должен соответствовать следующим требованиям:
+Microsoft 365 с Exchange Online почтовыми ящиками и автономными Exchange Online Protection (EOP) без Exchange Online почтовых ящиков поддерживают анонимные входящие сообщения электронной почты по IPv6. Исходный сервер электронной почты IPv6 должен соответствовать следующим требованиям:
 
 - Исходный адрес IPv6 должен иметь допустимую обратную запись поиска DNS (PTR), которая позволяет пункту назначения находить доменное имя с адреса IPv6.
 
 - Отправитель должен пройти проверку инфраструктуры политики отправителей (определенную в документе [RFC 7208](https://tools.ietf.org/html/rfc7208)) или [проверку DKIM](http://dkim.org/) (которая описана в документе [RFC 6376](https://www.rfc-editor.org/rfc/rfc6376.txt)).
 
-Прежде чем ваша организация сможет получать анонимные входящие сообщения электронной почты по IPv6, администратору необходимо обратиться в службу поддержки Майкрософт и попросить ее. Инструкции о том, как открыть запрос на поддержку, см. в справке [Contact support for business products - Admin Help.](../../admin/contact-support-for-business-products.md)
+Прежде чем ваша организация сможет получать анонимные входящие сообщения электронной почты по IPv6, администратору необходимо обратиться в службу поддержки Майкрософт и попросить ее. Инструкции о том, как открыть запрос на поддержку, см. в справке [Contact support for business products - Admin Help.](../../business-video/get-help-support.md)
 
 После включения анонимной поддержки сообщений IPv6 в организации сообщение будет проходить обычную фильтрацию сообщений, предоставляемую службой.
 

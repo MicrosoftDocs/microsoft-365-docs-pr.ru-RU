@@ -12,19 +12,19 @@ ms.service: o365-solutions
 localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
-description: Дорожная карта по настройкам облачных служб для Microsoft 365.
-ms.openlocfilehash: 5049d24a2cff696ee44429f809b2b91c15a4b4d1
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+description: Дорожная карта для настройка облачных служб для Microsoft 365.
+ms.openlocfilehash: 3303d91b5ec72090c69ae0b1fb14434e03c83729
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50928264"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52300029"
 ---
 # <a name="cloud-services-roadmap-for-microsoft-365"></a>Дорожная карта облачных служб для Microsoft 365
 
-Чтобы получить творческие, командные и продуктивные преимущества Microsoft 365 для предприятия, разверните облачные службы, которые наилучшим образом соответствуют потребностям вашей организации.
+Чтобы получить творческие, командные и Microsoft 365 для предприятия, разверните облачные службы, которые наилучшим образом соответствуют потребностям вашей организации.
 
-Если у вас есть существующие серверные развертывания для Exchange, SharePoint или Skype для бизнеса и вы хотите перенести всю организацию в Microsoft 365 для предприятия, см. в разделе Дорожная карта клиентского и серверного программного [обеспечения.](client-server-software-roadmap-microsoft-365.md) Эта дорожная карта включает Microsoft Office клиентские продукты, продукты Office Server на локальной основе и устройства Microsoft &ndash; Windows.
+Если у вас есть существующие серверные развертывания для Exchange, SharePoint или Skype для бизнеса и вы хотите перенести всю организацию на Microsoft 365 для предприятия, см. в веб-сайте дорожная карта клиентского и серверного программного [обеспечения.](client-server-software-roadmap-microsoft-365.md) Эта дорожная карта включает Microsoft Office клиентские продукты, локальное Office Server и устройства Windows &ndash; Microsoft.
 
 ## <a name="deploy"></a>Развертывание
 
@@ -45,7 +45,7 @@ ms.locfileid: "50928264"
 Управление облачными службами: 
 
 - [Проверка состояния службы](view-service-health.md)
-- [Понимание параметров поддержки](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+- [Понимание параметров поддержки](../business-video/get-help-support.md)
 - Администрирование облачных служб
   - [Exchange Online](/Exchange/exchange-online)
   - [SharePoint Online](https://support.office.com/article/79eb0420-8cbd-4bcb-a90b-ddc7d3ab4b3a)
@@ -54,14 +54,14 @@ ms.locfileid: "50928264"
   - [Yammer](https://support.office.com/article/e1464355-1f97-49ac-b2aa-dd320b179dbe)
 - [Настройка производительности для облачных служб](tune-microsoft-365-performance.md)
 
-## <a name="how-microsoft-does-cloud-services-for-microsoft-365"></a>Как Microsoft делает облачные службы для Microsoft 365
+## <a name="how-microsoft-does-cloud-services-for-microsoft-365"></a>Как Корпорация Майкрософт делает облачные службы для Microsoft 365
 
-Сведения о развертывании или управлении облачными службами Microsoft 365:
+Сведения о развертывании или управлении облачными Microsoft 365 Майкрософт:
 
 1. Перейдите в [ИТ-витрину Майкрософт](https://www.microsoft.com/itshowcase).
 2. Выберите **содержимое поиска.**
-3. В **статье Уточнение результатов** выберите **ИТ-профессионал** под **аудиторией,** а затем **в продукте** выберите облачную службу.
+3. В **соответствии с результатами уточнения** выберите **ИТ Pro** **в audience,** а затем **в продукте** выберите облачную службу.
 
 ## <a name="next-step"></a>Следующий шаг
 
-Запустите реализацию облачных служб. Инструкции см. [в приложении Configure Microsoft 365 Корпоративные службы](configure-services-and-applications.md)и приложения.
+Запустите реализацию облачных служб. Инструкции см. [в Microsoft 365 корпоративный служб и приложений.](configure-services-and-applications.md)

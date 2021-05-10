@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 5f66189979f401430353f4c15978a85276b48840
-ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
+ms.openlocfilehash: 09c391d6b02e1273f55070283a6e11454f677114
+ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51939758"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52300005"
 ---
 # <a name="manage-incidents-in-microsoft-365-defender"></a>Управление инцидентами в Microsoft 365 Defender
 
@@ -39,7 +39,7 @@ ms.locfileid: "51939758"
 
 Управление инцидентами имеет решающее значение для обеспечения сдерживания и решения угроз.
 
-Вы управляете инцидентами из & оповещения **> инцидентов** при быстром запуске центра безопасности Microsoft 365 [(security.microsoft.com).](https://security.microsoft.com) Ниже приведен пример.
+Вы управляете инцидентами из & оповещений > **инцидентов** при быстром запуске центра Microsoft 365 безопасности [(security.microsoft.com).](https://security.microsoft.com) Ниже приведен пример.
 
 :::image type="content" source="../../media/incidents-queue/incidents-ss-incidents.png" alt-text="Пример очереди инцидента":::
 
@@ -98,8 +98,16 @@ Microsoft 365 Defender автоматически назначает имя на
 
 Вы можете добавить несколько комментариев к инциденту с **полем Комментарий.** Каждый комментарий добавляется к историческим событиям инцидента. Комментарии и история инцидента см. в разделе **Комментарии** и история на странице **Сводка.**
 
-## <a name="related-topics"></a>См. также
+## <a name="next-steps"></a>Следующие шаги
+
+Для новых инцидентов, начните [свое расследование](investigate-incidents.md).
+
+В случае инцидентов в процессе продолжайте [расследование.](investigate-incidents.md)
+
+Для разрешения инцидентов выполните [проверку после инцидента.](first-incident-post.md)
+
+## <a name="see-also"></a>См. также
 
 - [Обзор инцидентов](incidents-overview.md)
 - [Управление приоритетом инцидентов](incident-queue.md)
-- [Анализ инцидентов](investigate-incidents.md)
+- [Исследование инцидентов](investigate-incidents.md)
