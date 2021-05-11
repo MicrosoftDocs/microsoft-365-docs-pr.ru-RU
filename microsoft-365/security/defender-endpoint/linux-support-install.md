@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 12f648ce476f6e29cbb6b038cc42f2e744d77104
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: dc1e8707dc0810c0986698674a64e969792b5fb8
+ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933305"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52311236"
 ---
 # <a name="troubleshoot-installation-issues-for-microsoft-defender-for-endpoint-on-linux"></a>Проблемы с установкой неполадок для Microsoft Defender для конечной точки в Linux
 
@@ -40,8 +40,8 @@ ms.locfileid: "51933305"
 
 Ошибка при установке может привести или не привести к содержательному сообщению об ошибке диспетчером пакетов. Чтобы проверить, удалось ли установить установку, получите и проверьте журналы установки с помощью:
 
- ```bash
- sudo journalctl | grep 'microsoft-mdatp'  > installation.log
+```bash
+ sudo journalctl --no-pager | grep 'microsoft-mdatp' > installation.log
 ```
 
 ```bash
@@ -50,7 +50,7 @@ ms.locfileid: "51933305"
 
 ```Output
  microsoft-mdatp-installer[102243]: postinstall end [2020-03-26 07:04:43OURCE +0000] 102216
- ```
+```
 
 Выход из предыдущей команды с правильной датой и временем установки указывает на успех.
 
@@ -77,6 +77,7 @@ ms.locfileid: "51933305"
 ```bash
 systemctl status mdatp
 ```
+
 ```Output
  ● mdatp.service - Microsoft Defender for Endpoint
    Loaded: loaded (/lib/systemd/system/mdatp.service; enabled; vendor preset: enabled)
@@ -119,7 +120,7 @@ systemctl status mdatp
     sudo cp /opt/microsoft/mdatp/conf/mdatp.service <systemd_path>
     ```
 
-    где ```<systemd_path>``` для ```/lib/systemd/system``` дистрибутивов Ubuntu и Debian, а также для ```/usr/lib/systemd/system``` Rhel, CentOS, Oracle и SLES.
+    где `<systemd_path>` для `/lib/systemd/system` дистрибутивов Ubuntu и Debian, а также для `/usr/lib/systemd/system` Rhel, CentOS, Oracle и SLES.
    Затем повторно повторяем шаг 2.
 
 4. Если вышеперечисленные действия не работают, проверьте, установлен ли SELinux в режиме принудительного действия. Если это так, попробуйте установить его в разрешительном (предпочтительно) или отключенном режиме. Это можно сделать, задав параметр `SELINUX` "допустимый" или "отключенный" в файле, а затем `/etc/selinux/config` перезагружается. Дополнительные сведения ознакомьтесь с man-page selinux.

@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 60220d00ca1b612564b72103b9206e3d6d89dc60
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 9c4f3da57796903fc22314574f389bcdd92ca4b3
+ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51689453"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52311992"
 ---
 # <a name="troubleshoot-siem-tool-integration-issues"></a>Устранение неполадок с интеграцией средства SIEM
 
@@ -51,15 +51,15 @@ ms.locfileid: "51689453"
 
 4. Нажмите **кнопку Регистрация приложений**. Затем в списке приложений выберите приложение.
 
-5. Выберите **раздел Клавиши,** затем укажите описание ключа и укажите длительность действия ключа.
+5. Выберите **раздел & Сертификаты,** нажмите кнопку New Client Secret, а затем укажите описание и укажите срок действия.
 
-6. Щелкните **Сохранить**. Отображается ключевое значение.
+6. Нажмите кнопку **Сохранить**. Отображается ключевое значение.
 
 7. Скопируйте значение и сохраните его в безопасном месте.
 
 
 ## <a name="error-when-getting-a-refresh-access-token"></a>Ошибка при получении маркера доступа к обновлению
-Если вы столкнулись с ошибкой при попытке получить маркер обновления при использовании API-API или средств SIEM-аналитики, необходимо добавить URL-адрес ответа для соответствующего приложения в Azure Active Directory.
+Если вы столкнулись с ошибкой при попытке получить маркер обновления при использовании API-API или siEM-инструментов, необходимо добавить URL-адрес ответа для соответствующего приложения в Azure Active Directory.
 
 1. Вход на портал [управления Azure.](https://ms.portal.azure.com)
 
@@ -74,7 +74,7 @@ ms.locfileid: "51689453"
    - Для Соединенного Королевства: `https://winatpmanagement-uk.securitycenter.windows.com/UserAuthenticationCallback`
    - Для Соединенных Штатов:  `https://winatpmanagement-us.securitycenter.windows.com/UserAuthenticationCallback` .
  
-6. Щелкните **Сохранить**.
+6. Нажмите кнопку **Сохранить**.
 
 ## <a name="error-while-enabling-the-siem-connector-application"></a>Ошибка при включении приложения соединиттеля SIEM
 Если вы столкнулись с ошибкой при попытке включить соединителем SIEM-приложение, проверьте параметры блокатора всплывающее окна в браузере. Это может быть блокировка открываемого окна при вскрывии возможности.

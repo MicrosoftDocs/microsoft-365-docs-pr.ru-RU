@@ -16,13 +16,13 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: В этой статье описываются ограничения в случае с основными электронными данными в Microsoft 365.
-ms.openlocfilehash: e18e1e6c1d9d7ecd78deaf267be72ccdc9d1ba5d
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+description: В этой статье описываются ограничения в случае с основными данными об обнаружении электронных Microsoft 365.
+ms.openlocfilehash: e7b1013abd9fd94748baf3b83dd04efbc3831a1d
+ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50905891"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52311428"
 ---
 # <a name="limits-in-core-ediscovery"></a>Ограничения в core eDiscovery
 
@@ -31,18 +31,18 @@ ms.locfileid: "50905891"
   | Описание ограничения | Ограничение |
   |:-----|:-----|
   |Максимальное количество случаев для организации.  <br/> |Нет ограничений  <br/> |
-  |Максимальное количество случаев для организации.  <br/> |10 000  <br/> |
-  |Максимальное количество почтовых ящиков в одном удержании. Это ограничение включает общее количество почтовых ящиков пользователей и почтовых ящиков, связанных с группами Microsoft 365, Microsoft Teams и Yammer Groups.  <br/> |1,000  <br/> |
-  |Максимальное количество сайтов в одном удержании. Это ограничение включает общее количество сайтов OneDrive для бизнеса, сайтов SharePoint и сайтов, связанных с Группами Microsoft 365, Microsoft Teams и Yammer Groups.  <br/> |100  <br/> |
+  |Максимальное количество случаев для организации.  <br/> |10,000  <br/> |
+  |Максимальное количество почтовых ящиков в одном удержании. Это ограничение включает общее общее число почтовых ящиков пользователей и почтовых ящиков, связанных с Microsoft 365, Microsoft Teams и Yammer групп.  <br/> |1,000  <br/> |
+  |Максимальное количество сайтов в одном удержании. Это ограничение включает общее количество OneDrive для бизнеса, SharePoint сайтов и сайтов, связанных с Microsoft 365, Microsoft Teams и Yammer groups.  <br/> |100  <br/> |
   |Максимальное число случаев, отображаемых на основной домашней странице электронного поиска, и максимальное количество элементов, отображаемых на вкладке "Удерживает", "Поиск" и "Экспорт" в рамках дела. <sup>1</sup> |1,000|
   |||
 
    > [!NOTE]
-   > <sup>1</sup> Чтобы просмотреть список из более чем 1000 дел, удерживаний, поисков или экспортов, можно использовать соответствующие cmdlets Office 365 Security & Compliance PowerShell:
+   > <sup>1</sup> Чтобы просмотреть список из более чем 1000 случаев, удерживаний, поисков или экспорта, можно использовать соответствующие Office 365 безопасности & PowerShell:
    > 
    > - [Get-ComplianceCase](/powershell/module/exchange/get-compliancecase)
    > - [Get-CaseHoldPolicy](/powershell/module/exchange/get-caseholdpolicy)
    > - [Get-ComplianceSearch](/powershell/module/exchange/get-compliancesearch)
    > - [Get-ComplianceSearchAction](/powershell/module/exchange/get-compliancesearchaction)
 
-Дополнительные сведения об ограничениях, связанных с поиском контента и экспортом, связанными с делом об обнаружении основных данных, см. в материалах [Limits for Content Search and Core eDiscovery.](limits-for-content-search.md)
+Дополнительные сведения об ограничениях, связанных с поиском и экспортом, связанным с делом об обнаружении основных электронных данных, см. в материалах [Limits for Content search and Core eDiscovery.](limits-for-content-search.md)
