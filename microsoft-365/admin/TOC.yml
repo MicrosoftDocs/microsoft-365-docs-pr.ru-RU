@@ -119,17 +119,17 @@
               href: add-users/remove-former-employee.md
             - name: Этап 1. Запрет входа в систему для сотрудника и блокировка доступа к службам Microsoft 365
               href: add-users/remove-former-employee-step-1.md
-            - name: "Этап\_2. Сохранение содержимого почтового ящика бывшего сотрудника"
+            - name: Этап 2. Сохранение содержимого почтового ящика бывшего сотрудника
               href: add-users/remove-former-employee-step-2.md
-            - name: "Этап\_3. Переадресация электронной почты бывшего сотрудника другому сотруднику или преобразование в общий почтовый ящик"
+            - name: Этап 3. Переадресация электронной почты бывшего сотрудника другому сотруднику или преобразование в общий почтовый ящик
               href: add-users/remove-former-employee-step-3.md
-            - name: "Этап\_4. Предоставление другому сотруднику доступ к данным OneDrive и Outlook"
+            - name: Этап 4. Предоставление другому сотруднику доступ к данным OneDrive и Outlook
               href: add-users/remove-former-employee-step-4.md
             - name: Этап 5. Очистка и блокирование мобильного устройства бывшего сотрудника
               href: add-users/remove-former-employee-step-5.md
             - name: Этап 6. Удаление лицензии на Microsoft 365 у бывшего сотрудника
               href: add-users/remove-former-employee-step-6.md
-            - name: "Этап\_7. Удаление учетной записи бывшего сотрудника"
+            - name: Этап 7. Удаление учетной записи бывшего сотрудника
               href: add-users/remove-former-employee-step-7.md
         - name: Группы
           items:
@@ -273,8 +273,6 @@
           href: manage/manage-office-scripts-settings.md
         - name: Поиск партнера или торгового посредника
           href: manage/find-your-partner-or-reseller.md
-        - name: Управление Microsoft Rewards
-          href: manage/manage-microsoft-rewards.md
         - name: Управление отзывами Майкрософт в организации
           href: /admin/manage/manage-feedback-ms-org.md
         - name: Настройка вариантов получения выпусков
@@ -422,4 +420,4 @@
     - name: Устранение неполадок
       href: /office/troubleshoot/
     - name: Обратитесь в службу поддержки
-      href: contact-support-for-business-products.md
+      href: ../business-video/get-help-support.md
