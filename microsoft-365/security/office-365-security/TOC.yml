@@ -38,8 +38,14 @@
           href: turn-on-mdo-for-spo-odb-and-teams.md
         - name: "Обзор Центра безопасности Microsoft\_365"
           href: ../defender/overview-security-center.md
-        - name: Обозреватель угроз (и обнаружение в режиме реального времени)
-          href: threat-explorer.md
+        - name: Обозреватель угроз для Defender для Office 365
+          items:
+            - name: Охота на угрозы в обозревателе угроз
+              href: threat-hunting-in-threat-explorer.md
+            - name: Безопасность электронной почты с помощью обозревателя угроз
+              href: email-security-in-microsoft-defender.md
+            - name: Обозреватель угроз и основы обнаружения в режиме реального времени
+              href: real-time-detections.md
         - name: Страница сущности "Электронная почта"
           href: mdo-email-entity-page.md
         - name: Обзор автоматического исследования и реагирования
@@ -188,6 +194,8 @@
           href: message-trace-scc.md
         - name: Передача информации о сообщениях и файлах в корпорацию Майкрософт
           href: report-junk-email-messages-to-microsoft.md
+        - name: Включение надстроек "Пожаловаться на сообщение" и "Пожаловаться на фишинг"
+          href: enable-the-report-message-add-in.md
         - name: Использование правил потока почты для блокировки сообщений с исполняемыми вложениями в EOP
           href: reducing-malware-threats-through-file-attachment-blocking-in-exchange-online-pro.md
         - name: Использование правил потока почты для фильтрации массовой рассылки в EOP

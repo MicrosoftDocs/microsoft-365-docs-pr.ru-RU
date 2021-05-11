@@ -344,6 +344,8 @@
 #### [Управление устройством]()
 ##### [Отчеты управления устройством](device-control-report.md)
 ##### [Управление USB-устройствами](control-usb-devices-using-intune.md)
+##### [Защита съемных носителей](device-control-removable-storage-protection.md)
+##### [Управление доступом к съемным носителям](device-control-removable-storage-access-control.md)
 
 #### [Блокировка с учетом поведения и автономность]()
 ##### [Блокировка с учетом поведения и автономность](behavioral-blocking-containment.md)
