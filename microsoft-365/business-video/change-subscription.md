@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -15,24 +16,25 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- commerce_subscriptions
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Узнайте, как переместить пользователей в другую подписку.
-ms.openlocfilehash: 4f26e890e7c3c008c807dfed75829562dbebd087
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 8d919cc4d84654a17ac52813a287da0d75590536
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578981"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332202"
 ---
 # <a name="move-users-to-different-subscriptions"></a>Перемещение пользователей в различные подписки
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1SBE2?autoplay=false]
 
-По мере изменения ролей пользователям могут потребоваться функции, недоступные в текущей подписке microsoft 365 Business Premium. В этом случае можно добавить новую подписку, которая включает эти функции, и назначить лицензии тем, кто в них нуждается.
+При изменении ролей пользователям могут потребоваться функции, недоступные в текущей подписке Microsoft 365 бизнес премиум подписки. В этом случае можно добавить новую подписку, которая включает эти функции, и назначить лицензии тем, кто в них нуждается.
 
 ## <a name="try-it"></a>Проверьте, как это работает!
 
@@ -53,6 +55,6 @@ ms.locfileid: "51578981"
 
 ### <a name="remove-an-unused-license"></a>Удаление неиспользоваемой лицензии
 
-1. В центре администрирования Microsoft 365 выберите **биллинг,** а затем продукты & **службы.**
+1. В центре Microsoft 365 выберите **биллинг,** а затем **продукты & службы.**
 1. Выберите подписку, которая необходимо изменить, а затем выберите **Добавить или удалить лицензии.**
 1. Используйте стрелку вниз, чтобы уменьшить количество лицензий для этой подписки, а затем выберите **Отправить изменение.** Теперь у вас есть нужное количество лицензий для пользователей.

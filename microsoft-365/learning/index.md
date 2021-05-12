@@ -4,7 +4,7 @@ ms.author: chucked
 author: chuckedmonson
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
-ms.date: 04/30/2021
+ms.date: 05/12/2021
 audience: enabler
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -14,13 +14,12 @@ ms.collection:
 - m365initiative-viva-learning
 localization_priority: None
 description: Узнайте, как найти ресурсы для Microsoft Viva Learning (Preview).
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 31e39680fc18ec52b65c29899ec16e72ccbccf58
-ms.sourcegitcommit: d3f8c69519c593b1580cfa7187ce085a99b8a846
+ms.openlocfilehash: 48162a619d37ac764db5a98153efec79ee1a4632
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52101098"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52333510"
 ---
 # <a name="introduction-to-microsoft-viva-learning-preview"></a>Введение в Microsoft Viva Learning (Предварительная версия)
 
@@ -38,12 +37,12 @@ Microsoft Viva Learning (Preview) позволяет группам и отде�
 | Если вы хотите узнать больше: | Источник |
 |:-----|:-----|
 |Дополнительные знания о Viva Learning (Preview)|[Обзор microsoft Viva Learning (Preview)](overview-viva-learning.md)|
-|Поиск ресурсов в Центре Community Microsoft Tech|[Microsoft Viva Learning (Preview) Tech Community](https://resources.techcommunity.microsoft.com/viva-learning/)|
+|Поиск ресурсов в центре ресурсов сообщества Майкрософт|[Техническое сообщество Microsoft Viva Learning (Preview)](https://resources.techcommunity.microsoft.com/viva-learning/)|
 |Найдите руководство по обучению Viva (Preview) для конечных пользователей|[Справка microsoft Viva Learning (Preview)](https://support.microsoft.com/office/learning-preview-app-01bfed12-c327-41e0-a68f-7fa527dcc98a)|
 
 ## <a name="set-up-and-administration"></a>Настройка и администрирование
 
-Ресурсы в этом разделе помогают администратору в организации настроить и настроить Viva Learning (Preview) в Microsoft 365 среде.
+Ресурсы в этом разделе помогают администратору в организации настроить и настроить Viva Learning (Preview) в среде Microsoft 365.
 
 | Если вы хотите узнать больше: | Источник |
 |:-----|:-----|

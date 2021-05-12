@@ -22,12 +22,12 @@ ms.custom:
 description: Администраторы могут узнать о карантине в Exchange Online Protection (EOP), который содержит потенциально опасные или нежелательные сообщения.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: bd748871cc09905f9878d5917351b1c185cc1106
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: b2a11f5f9e1e730a3b0cc09625ec8e8cb592d869
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205780"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52333810"
 ---
 # <a name="quarantined-email-messages-in-eop"></a>Карантин сообщений электронной почты в EOP
 
@@ -54,4 +54,4 @@ ms.locfileid: "51205780"
 
 - Администраторы и пользователи могут сообщать о ложных срабатывающих в Microsoft на карантине.
 
-Дополнительные сведения о карантине см. в [faq quarantine.](quarantine-faq.md)
+Дополнительные сведения о карантине см. в [faq quarantine.](quarantine-faq.yml)

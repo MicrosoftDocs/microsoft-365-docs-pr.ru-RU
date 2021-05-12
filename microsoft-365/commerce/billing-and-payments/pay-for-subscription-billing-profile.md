@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
-ms.reviewer: jkinma
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -19,14 +19,13 @@ ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 - commerce_billing
-- PPM_jmueller
 ms.date: 04/02/2021
-ms.openlocfilehash: 00c1fdca0f1ba227dcd10dffb7c46b03618593e7
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: 73acb6a12499953e56eda7d4274160c6e79ee440
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52280863"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52331986"
 ---
 # <a name="how-to-pay-for-your-subscription-with-a-billing-profile"></a>Оплата подписки с помощью профиля вы выставления счета
 
@@ -220,7 +219,7 @@ ms.locfileid: "52280863"
 
 ## <a name="can-i-pay-my-invoice-online"></a>Можно ли оплачивать счета через Интернет?
 
-Если для вашего профиля выставления счетов отключается повторная выставления счетов, вы можете использовать кредитную карту для оплаты счета в Интернете. Чтобы сделать оплату, используйте кнопку **Pay now** on your invoice в центре Microsoft 365 администрирования. Чтобы найти счет, [см. в обзоре счет или счет.](view-your-bill-or-invoice.md)
+Если для вашего профиля выставления счетов отключается повторная выставления счетов, вы можете использовать кредитную карту для оплаты счета в Интернете. Чтобы сделать платеж, используйте кнопку **Pay now** on your invoice в центре администрирования Microsoft 365. Чтобы найти счет, [см. в обзоре счет или счет.](view-your-bill-or-invoice.md)
 
 ## <a name="can-i-change-from-my-current-payment-method-to-paying-by-invoice"></a>Можно ли изменить текущий метод оплаты на оплату с помощью счета-фактуры?
 
@@ -230,7 +229,7 @@ ms.locfileid: "52280863"
 
 Если ваш профиль выставления счетов основан на оплате счетов, вы не можете изменить способ оплаты. Вы можете использовать кнопку **Pay now** на счете для оплаты с помощью кредитной или дебетовой карты или с помощью чека или EFT.
 
-## <a name="related-content"></a>См. также:
+## <a name="related-content"></a>Связанные материалы
 
 [Управление методами оплаты](manage-payment-methods.md) (статья)\
 [Просмотр счета](view-your-bill-or-invoice.md) (статья)\

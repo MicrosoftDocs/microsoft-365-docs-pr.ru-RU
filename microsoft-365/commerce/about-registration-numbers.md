@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: drjones, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -12,22 +13,19 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-search.appverid:
-- MET150
+search.appverid: MET150
 ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 - commerce_purchase
-- PPM_jmueller
-ms.reviewer: drjones
 description: Узнайте о регистрационных номерах и уведомлениях о недосмотре при покупке продуктов или служб Майкрософт.
 ms.date: 03/17/2021
-ms.openlocfilehash: 25302ce9481fba146d4fcda5fe72c31b5126fd08
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.openlocfilehash: 8ec97356f9859e928a8ee435f406c15f4f17a4c4
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52107404"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332226"
 ---
 # <a name="about-registration-numbers-and-under-review-notifications"></a>О регистрационных номерах и уведомлениях о просмотре
 
@@ -71,7 +69,7 @@ ms.locfileid: "52107404"
 
 В следующей таблице представлены примеры регистрационных номеров, собранных для каждой страны.  В случаях, когда перечислены несколько ИД, требуется только один.
 
-| "Страна или регион" | Сведения |  |  |  |  |
+| Страна или регион | Сведения |  |  |  |  |
 |:--|:--|:--|:--|:--|:--|
 | **Армения** | INN — налоговый идентификационный номер<br>Номер НДС — также известный как номер регистрации НДС. Это уникальный номер, который идентифицирует облагаемое налогом лицо (бизнес) или не облагаемое налогом юридическое лицо, зарегистрированное по НДС.<br>Номер общедоступных служб |  |  | |  |
 | **Азербайджан**  | [TIN](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Azerbaijan-TIN.pdf) — номер налоговой идентификации<br>INN — налоговый идентификационный номер |  |  |  |  |

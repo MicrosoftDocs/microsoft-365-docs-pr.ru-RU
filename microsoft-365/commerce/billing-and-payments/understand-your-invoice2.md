@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
-ms.reviewer: jkinma
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -18,16 +18,15 @@ ms.custom:
 - okr_smb
 - AdminSurgePortfolio
 - commerce_billing
-- PPM_jmueller
 search.appverid: MET150
 description: Узнайте, как разобраться в расходах, выставлении счетов и данных об оплате по счету за Microsoft 365 для бизнеса и как изменить номер заказа на покупку.
 ms.date: 05/04/2021
-ms.openlocfilehash: 9eb9d063b3634269600d5f6566e9e5f373ab08c2
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: 3b183c219e25bcef21add70e2c704a7a0f3fe354
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52280491"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52331962"
 ---
 # <a name="understand-your-bill-or-invoice-for-microsoft-365-for-business"></a>Общие сведения о счетах за Microsoft 365 для бизнеса
 
@@ -127,7 +126,7 @@ ms.locfileid: "52280491"
 
 1. В нижней части сведений **Об** редактировании для оплаты голосовой строкой введите номер PO и выберите **Сохранить**.
 
-## <a name="related-content"></a>См. также:
+## <a name="related-content"></a>Связанные материалы
 
-[Оплата Microsoft 365 подписки](pay-for-your-subscription.md) на бизнес (статья)\
+[Оплата подписки на Microsoft 365](pay-for-your-subscription.md) для бизнеса (статья)\
 [Варианты оплаты Minecraft: Education Edition](/education/windows/school-get-minecraft) (статья)

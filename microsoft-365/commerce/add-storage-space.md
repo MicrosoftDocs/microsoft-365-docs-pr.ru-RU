@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: drjones, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -18,18 +19,15 @@ ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 - commerce_purchase
-- PPM_jmueller
-ms.reviewer: drjones
-search.appverid:
-- MET150
+search.appverid: MET150
 description: Научитесь добавлять и уменьшать хранение файлов в Microsoft 365 подписки. С помощью дополнительного хранилища файлов можно хранить больше контента в SharePoint и OneDrive.
 ms.date: 04/02/2021
-ms.openlocfilehash: 14f72f59493be04165f0e7b28f26b14f8ae01a08
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 98fdb4412f263bd9e0a22b6890ff66509cb3e799
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52293683"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332190"
 ---
 # <a name="add-storage-space-for-your-subscription"></a>Добавление пространства для хранения для подписки
 
@@ -103,7 +101,7 @@ ms.locfileid: "52293683"
 > [!NOTE]
 > Office 365 с дополнительным хранилищем также доступен для GCC, GCC и doD-планов.
 
-## <a name="related-content"></a>См. также:
+## <a name="related-content"></a>Связанные материалы
 
-[Управление ограничениями хранения сайтов](https://docs.microsoft.com/sharepoint/manage-site-collection-storage-limits) (статья)\
+[Управление ограничениями хранения сайтов](/sharepoint/manage-site-collection-storage-limits) (статья)\
 [Установите пространство хранения по умолчанию для OneDrive пользователей](/onedrive/set-default-storage-space)(статья)

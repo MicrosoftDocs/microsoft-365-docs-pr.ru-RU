@@ -2,9 +2,10 @@
 title: Приобретение новых лицензий
 f1.keywords:
 - NOCSH
-ms.author: twerner
-author: twernermsft
+ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -15,28 +16,29 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- commerce_purchase
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Узнайте, как купить новый Microsoft 365 для бизнес-лицензий.
-ms.openlocfilehash: 3ca503abdf35e1bef95f784b7fc19c70a8de84bd
-ms.sourcegitcommit: 355bd51ab6a79d5c36a4e4f57df74ae6873eba19
+description: Узнайте, как купить новые Microsoft 365 для бизнес-лицензий.
+ms.openlocfilehash: c9077dbb4c653d162df97e7f7bda47d929eb67ce
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50422979"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332214"
 ---
-# <a name="buy-microsoft-365-licenses"></a>Покупка лицензий Microsoft 365
+# <a name="buy-microsoft-365-licenses"></a>Покупка Microsoft 365 лицензий
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4KWvE?autoplay=false]
 
-При добавлении новых пользователей необходимо приобрести дополнительные лицензии Microsoft 365 для этих пользователей.
+При добавлении новых пользователей необходимо приобрести больше Microsoft 365 лицензий для этих пользователей.
 
 ## <a name="try-it"></a>Проверьте, как это работает!
 
-1. В центре администрирования Microsoft 365 выберите **"Биллинг",** **"Ваши** продукты", а затем выберите подписку.
+1. В центре Microsoft 365 выберите **Billing**, **Your Products**, а затем выберите подписку.
 1. Выберите **купить лицензии**.
 1. Введите количество лицензий, которые вы хотите купить.
 1. Нажмите **Сохранить**.

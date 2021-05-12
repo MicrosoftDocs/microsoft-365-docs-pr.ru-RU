@@ -13,12 +13,12 @@ localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: df2d1e0f-b476-42c9-aade-4a260b24f193
 description: Чтобы быстро найти электронную почту в почтовых ящиках Exchange, документах на сайтах SharePoint и в расположениях OneDrive, а также беседах по обмену мгновенными сообщениями в Skype для бизнеса, используйте средство электронного поиска контента в Центре обеспечения безопасности &.
-ms.openlocfilehash: a6aa416768e7910e546b39d5866f884d2d532732
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 80234a512d13deda29a61073bec62990d135f30e
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50927595"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52333690"
 ---
 # <a name="search-for-content-using-the-content-search-tool"></a>Поиск контента с помощью средства поиска контента
 
@@ -28,7 +28,9 @@ ms.locfileid: "50927595"
 
 На первом этапе необходимо приступить к использованию средства поиска контента для выбора расположения контента для поиска и настройки ключевого запроса для поиска определенных элементов. Или можно просто оставить запрос пустым и вернуть все элементы в целевых расположениях.
   
-- [Создание и запуск](content-search.md) поиска контента 
+- [Создание и запуск](content-search.md) поиска контента
+
+- [Ссылка на функции] для поиска контента (content-search-reference.md)
 
 - [Создание поисковых запросов и использование условий для](keyword-queries-and-search-conditions.md) сужение поиска 
 

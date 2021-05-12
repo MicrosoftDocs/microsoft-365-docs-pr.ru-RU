@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 1f0005ed4614a8d01d2a64e8853be99a204825c8
-ms.sourcegitcommit: 1206319a5d3fed8d52a2581b8beafc34ab064b1c
+ms.openlocfilehash: 189cb574a436a457cce312f6cb02ca1bf7863a18
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "52086820"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52333498"
 ---
 # <a name="microsoft-defender-for-endpoint-for-us-government-customers"></a>Microsoft Defender для конечной точки для государственных служб США
 
@@ -78,7 +78,7 @@ Windows 10 версии 1909 (с [KB4586819)](https://support.microsoft.com/help
 Windows 10 версии 1903 (с [KB4586819)](https://support.microsoft.com/help/4586819) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
 Windows 10 версии 1809 (с [KB4586839)](https://support.microsoft.com/help/4586839) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
 Windows 10 версии 1803 (с [KB4598245)](https://support.microsoft.com/help/4598245) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
-Windows 10 версии 1709 | ![Нет](images/svg/check-no.svg)<br />Примечание. Не будет поддерживаться | ![Да ](images/svg/check-yes.svg) с [KB4499147](https://support.microsoft.com/help/4499147)<br />Примечание: [Deprecated](https://docs.microsoft.com/lifecycle/announcements/revised-end-of-service-windows-10-1709), пожалуйста, обновление | ![Нет](images/svg/check-no.svg)<br />Примечание. Не будет поддерживаться
+Windows 10 версии 1709 | ![Нет](images/svg/check-no.svg)<br />Примечание. Не будет поддерживаться | ![Да ](images/svg/check-yes.svg) с [KB4499147](https://support.microsoft.com/help/4499147)<br />Примечание: [Deprecated](/lifecycle/announcements/revised-end-of-service-windows-10-1709), пожалуйста, обновление | ![Нет](images/svg/check-no.svg)<br />Примечание. Не будет поддерживаться
 Windows 10 версии 1703 и более ранней версии | ![Нет](images/svg/check-no.svg)<br />Примечание. Не будет поддерживаться | ![Нет](images/svg/check-no.svg)<br />Примечание. Не будет поддерживаться | ![Нет](images/svg/check-no.svg)<br />Примечание. Не будет поддерживаться
 Windows Server 2019 (с [KB4586839)](https://support.microsoft.com/help/4586839) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
 Windows Server 2016 | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
@@ -88,8 +88,8 @@ Windows 8.1 Корпоративная | ![Да](images/svg/check-yes.svg) | ![�
 Windows 8 профессиональная | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
 Windows 7 sp1 Enterprise | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
 Windows 7 sp1 Pro | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
-Linux | ![Да](images/svg/check-yes.svg) В предварительной версии<br />См. примечание ниже | ![Да](images/svg/check-yes.svg) В предварительной версии<br />См. примечание ниже | ![Да](images/svg/check-yes.svg) В предварительной версии<br />См. примечание ниже
-macOS | ![Да](images/svg/check-yes.svg) В предварительной версии<br />См. примечание ниже | ![Да](images/svg/check-yes.svg) В предварительной версии<br />См. примечание ниже | ![Да](images/svg/check-yes.svg) В предварительной версии<br />См. примечание ниже
+Linux | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
+macOS | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
 Android | ![Нет](images/svg/check-no.svg) На неополненном техническом отставание | ![Нет](images/svg/check-no.svg) На неополненном техническом отставание | ![Нет](images/svg/check-no.svg) На неополненном техническом отставание
 iOS | ![Нет](images/svg/check-no.svg) На неополненном техническом отставание | ![Нет](images/svg/check-no.svg) На неополненном техническом отставание | ![Нет](images/svg/check-no.svg) На неополненном техническом отставание
 
@@ -97,13 +97,10 @@ iOS | ![Нет](images/svg/check-no.svg) На неополненном техн�
 > Если исправление задано, оно должно быть развернуто до встройки устройства, чтобы настроить Defender для конечной точки в правильную среду.
 
 > [!NOTE]
-> Попытка использовать Windows устройства старше Windows 10 или Windows Server 2019 [с Microsoft Monitoring Agent?](configure-server-endpoints.md#option-1-onboard-by-installing-and-configuring-microsoft-monitoring-agent-mma) Вам необходимо выбрать "Azure US Government" в "Azure Cloud", если с [](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#install-agent-using-command-line) помощью мастера настройки [или](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#install-agent-using-setup-wizard)с помощью командной строки или скрипта [задан](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#install-agent-using-dsc-in-azure-automation) параметр "OPINSIGHTS_WORKSPACE_AZURE_CLOUD_TYPE" до 1.
-
-> [!NOTE]
-> Для Linux потребуется версия 101.25.72 и выше, а для macOS версии 101.25.69 и выше.
+> Попытка использовать Windows устройства старше Windows 10 или Windows Server 2019 [с Microsoft Monitoring Agent?](configure-server-endpoints.md#option-1-onboard-by-installing-and-configuring-microsoft-monitoring-agent-mma) Вам необходимо выбрать "Azure US Government" в "Azure Cloud", если с [](/azure/log-analytics/log-analytics-windows-agents#install-agent-using-command-line) помощью мастера настройки [или](/azure/log-analytics/log-analytics-windows-agents#install-agent-using-setup-wizard)с помощью командной строки или скрипта [задан](/azure/log-analytics/log-analytics-windows-agents#install-agent-using-dsc-in-azure-automation) параметр "OPINSIGHTS_WORKSPACE_AZURE_CLOUD_TYPE" до 1.
 
 ### <a name="os-versions-when-using-azure-defender-for-servers"></a>Версии ОС при использовании Azure Defender для серверов
-При использовании Azure Defender для серверов поддерживаются следующие версии [ОС:](https://docs.microsoft.com/azure/security-center/security-center-wdatp)
+При использовании Azure Defender для серверов поддерживаются следующие версии [ОС:](/azure/security-center/security-center-wdatp)
 
 Версия ОС | GCC | GCC High | DoD
 :---|:---|:---|:---
@@ -160,11 +157,11 @@ SIEM | `https://wdatp-alertexporter-us.gcc.securitycenter.windows.us` | `https:/
 ## <a name="feature-parity-with-commercial"></a>Паритет функций с коммерческими
 Defender for Endpoint для государственных клиентов США не имеет полного паритета с коммерческим предложением. Хотя наша цель заключается в том, чтобы предоставить все коммерческие функции и функции нашим государственным клиентам США, есть некоторые возможности, которые еще не доступны, которые мы хотим выделить.
 
-Это известные пробелы по апрель 2021 г.:
+Вот известные пробелы:
 
 Функция | GCC | GCC High | DoD
 :---|:---|:---|:---
-Управление и API: потоковый API | ![Да](images/svg/check-yes.svg) | ![Нет](images/svg/check-no.svg) В разработке | ![Нет](images/svg/check-no.svg) В разработке
+Управление и API: потоковый API | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
 Фильтрация веб-содержимого | ![Нет](images/svg/check-no.svg) В разработке | ![Нет](images/svg/check-no.svg) В разработке | ![Нет](images/svg/check-no.svg) В разработке
 Интеграция: Azure Sentinel | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) Оповещения <br /> ![Нет](images/svg/check-no.svg) Инциденты & необработанные данные: в разработке | ![Да](images/svg/check-yes.svg) Оповещения <br /> ![Нет](images/svg/check-no.svg) Инциденты & необработанные данные: в разработке
 Интеграция: Microsoft Cloud App Security | ![Нет](images/svg/check-no.svg) В разработке | ![Нет](images/svg/check-no.svg) В разработке | ![Нет](images/svg/check-no.svg) В разработке

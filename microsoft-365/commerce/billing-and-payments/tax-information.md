@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
-ms.reviewer: tugu
+ms.reviewer: tugu, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -19,14 +19,13 @@ ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 - commerce_billing
-- PPM_jmueller
 ms.date: 03/17/2021
-ms.openlocfilehash: fc1e2924a6b28c30841f890396d5d82ed2944bea
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: 5c472615846ba6460bc829bc0157c6c6da940292
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52280599"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332022"
 ---
 # <a name="tax-information"></a>Сведения о налогах
 
@@ -89,7 +88,7 @@ ms.locfileid: "52280599"
 - Швейцария
 - Тайвань
 - Турция
-- Объединенные Арабские Эмираты
+- ОАЭ
 - Великобритания
     :::column-end:::
 :::row-end:::
@@ -141,7 +140,7 @@ ms.locfileid: "52280599"
 2. На вкладке **Продукты** выберите подписку, которую нужно обновить.
 3. На странице сведения о подписке в разделе Адрес использования **службы** выберите **адрес использования службы Редактирование.**
 4. На области **адресов** использования службы  Редактирование в поле номерОВ НДС введите свой номер НДС, включая префикс, и без пробелов.
-5. Нажмите кнопку **Сохранить**.
+5. Нажмите **Сохранить**.
 
 ## <a name="how-taxes-are-calculated"></a>Как рассчитываются налоги
 
@@ -169,7 +168,7 @@ ms.locfileid: "52280599"
 | Соединенные Штаты | Сертификат об освобождении от налогов с продаж |
 | Пуэрто-Рико | Certificado de Compras Exentas |
   
-## <a name="related-content"></a>См. также:
+## <a name="related-content"></a>Связанные материалы
   
 [Просмотр счета](view-your-bill-or-invoice.md) (статья)\
 [Ознакомление со счетом](understand-your-invoice.md) (статья)\
