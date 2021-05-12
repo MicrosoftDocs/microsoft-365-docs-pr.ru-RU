@@ -20,14 +20,14 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.custom: migrationguides
-ms.date: 03/03/2021
+ms.date: 05/10/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: cb480e743be9184fd60cba0f82a287b8562c1901
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 357301bff92bb34b55630d3e699c86268fb0b6de
+ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934217"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52327370"
 ---
 # <a name="migrate-from-mcafee---phase-1-prepare-for-your-migration"></a>Миграция из McAfee — этап 1. Подготовка к миграции
 
@@ -82,11 +82,11 @@ ms.locfileid: "51934217"
 
 1. Купить или попробовать Microsoft Defender для конечной точки сегодня. [Начните бесплатную пробную работу или запросить цитату.](https://aka.ms/mdatp) 
 
-2. Убедитесь, что лицензии надлежащим образом подготовить. [Проверьте состояние лицензии.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/production-deployment#check-license-state)
+2. Убедитесь, что лицензии надлежащим образом подготовить. [Проверьте состояние лицензии.](production-deployment.md#check-license-state)
 
-3. В качестве глобального администратора или администратора безопасности установите специальный облачный экземпляр Microsoft Defender для конечной точки. См. [в веб-сайте Microsoft Defender для установки конечной точки: конфигурация клиента.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/production-deployment#tenant-configuration)
+3. В качестве глобального администратора или администратора безопасности установите специальный облачный экземпляр Microsoft Defender для конечной точки. См. [в веб-сайте Microsoft Defender для установки конечной точки: конфигурация клиента.](production-deployment.md#tenant-configuration)
 
-4. Если конечные точки (например, устройства) в вашей организации используют прокси-сервер для доступа к Интернету, см. в [веб-сайте Microsoft Defender for Endpoint setup: Network configuration.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/production-deployment#network-configuration)
+4. Если конечные точки (например, устройства) в вашей организации используют прокси-сервер для доступа к Интернету, см. в [веб-сайте Microsoft Defender for Endpoint setup: Network configuration.](production-deployment.md#network-configuration)
  
 На этом этапе вы готовы предоставить доступ администраторам безопасности и операторам безопасности, которые будут использовать Центр безопасности Microsoft Defender ( [https://aka.ms/MDATPportal](https://aka.ms/MDATPportal) ). 
 
@@ -95,20 +95,20 @@ ms.locfileid: "51934217"
 
 ## <a name="grant-access-to-the-microsoft-defender-security-center"></a>Предоставление доступа к Центру безопасности защитника Майкрософт
 
-Центр безопасности Защитника Майкрософт () — это место, где вы можете получить доступ и настроить функции и возможности [https://aka.ms/MDATPportal](https://aka.ms/MDATPportal) Microsoft Defender для конечной точки. Дополнительные сведения см. в обзоре Центра безопасности [защитника Майкрософт.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/use)
+Центр безопасности Защитника Майкрософт () — это место, где вы можете получить доступ и настроить функции и возможности [https://aka.ms/MDATPportal](https://aka.ms/MDATPportal) Microsoft Defender для конечной точки. Дополнительные сведения см. в обзоре Центра безопасности [защитника Майкрософт.](use.md)
 
 Разрешения центру безопасности Microsoft Defender можно предоставить с помощью базовых разрешений или управления доступом на основе ролей (RBAC). Рекомендуется использовать RBAC для более детального контроля над разрешениями.
 
-1. Планирование ролей и разрешений для администраторов безопасности и операторов безопасности. См. [управление доступом на основе ролей.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/prepare-deployment#role-based-access-control)
+1. Планирование ролей и разрешений для администраторов безопасности и операторов безопасности. См. [управление доступом на основе ролей.](prepare-deployment.md#role-based-access-control)
 
-2. Настройка и настройка RBAC. Мы рекомендуем использовать [Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune) для настройки RBAC, особенно если ваша организация использует сочетание устройств с Windows 10, macOS, iOS и Android. Настройка [RBAC с помощью Intune](https://docs.microsoft.com/mem/intune/fundamentals/role-based-access-control).
+2. Настройка и настройка RBAC. Мы рекомендуем использовать [Intune](/mem/intune/fundamentals/what-is-intune) для настройки RBAC, особенно если ваша организация использует сочетание устройств с Windows 10, macOS, iOS и Android. Настройка [RBAC с помощью Intune](/mem/intune/fundamentals/role-based-access-control).
 
     Если вашей организации требуется метод, не intune, выберите один из следующих вариантов:
-    - [Диспетчер конфигураций](https://docs.microsoft.com/mem/configmgr/core/servers/deploy/configure/configure-role-based-administration)
-    - [Расширенное управление групповыми политиками](https://docs.microsoft.com/microsoft-desktop-optimization-pack/agpm)
-    - [Центр администрирования Windows](https://docs.microsoft.com/windows-server/manage/windows-admin-center/overview)
+    - [Диспетчер конфигураций](/mem/configmgr/core/servers/deploy/configure/configure-role-based-administration)
+    - [Расширенное управление групповыми политиками](/microsoft-desktop-optimization-pack/agpm)
+    - [Центр администрирования Windows](/windows-server/manage/windows-admin-center/overview)
 
-3. Предоставление доступа к Центру безопасности Защитника Майкрософт. (Нужна помощь? См. [в руб. Управление доступом к порталу с помощью RBAC).](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/rbac)
+3. Предоставление доступа к Центру безопасности Защитника Майкрософт. (Нужна помощь? См. [в руб. Управление доступом к порталу с помощью RBAC).](rbac.md)
 
 ## <a name="configure-device-proxy-and-internet-connectivity-settings"></a>Настройка параметров прокси-сервера устройства и подключения к Интернету
 
@@ -116,12 +116,12 @@ ms.locfileid: "51934217"
 
 |Возможности  | Операционная система | Ресурсы |
 |--|--|--|
-|[Обнаружение конечных точек и ответ](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response) (EDR) |- [Windows 10](https://docs.microsoft.com/windows/release-health/release-information) <br/>- [Windows Server 2019](https://docs.microsoft.com/windows/release-health/status-windows-10-1809-and-windows-server-2019)<br/>- [Windows Server 1803 или более поздней версии](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1803)  |[Настройка параметров прокси-сервера и подключения к Интернету](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-proxy-internet) |
-|EDR |- [Windows Server 2016](https://docs.microsoft.com/windows/release-health/status-windows-10-1607-and-windows-server-2016) <br/>- [Windows Server 2012 R2](https://docs.microsoft.com/windows/release-health/status-windows-8.1-and-windows-server-2012-r2)<br/>- [Windows Server 2008 R2 SP1](https://docs.microsoft.com/windows/release-health/status-windows-7-and-windows-server-2008-r2-sp1)<br/>- [Windows 8.1](https://docs.microsoft.com/windows/release-health/status-windows-8.1-and-windows-server-2012-r2)<br/>- [Windows 7 SP1](https://docs.microsoft.com/windows/release-health/status-windows-7-and-windows-server-2008-r2-sp1) |[Настройка параметров прокси и подключения к Интернету](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/onboard-downlevel#configure-proxy-and-internet-connectivity-settings) |
-|EDR  |macOS: <br/>- 10.15 (Каталина)<br/>- 10.14 (Mojave) <br/>- 10.13 (Высокая сьерра)  |[Microsoft Defender для конечной точки на macOS: сетевые подключения](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-defender-atp-mac#network-connections) |
-|[Антивирусная программа в Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10) |- [Windows 10](https://docs.microsoft.com/windows/release-health/release-information) <br/>- [Windows Server 2019](https://docs.microsoft.com/windows/release-health/status-windows-10-1809-and-windows-server-2019)<br/>- [Windows Server 1803 или более поздней версии](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1803) <br/>- [Windows Server 2016](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-2016) |[Настройка и проверка сетевого подключения антивирусной программы в Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-network-connections-microsoft-defender-antivirus)<br/> |
-|Защита от вирусов |macOS: <br/>- 10.15 (Каталина)<br/>- 10.14 (Mojave) <br/>- 10.13 (Высокая сьерра) |[Microsoft Defender для конечной точки на macOS: сетевые подключения](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-defender-atp-mac#network-connections) |
-|Защита от вирусов |Linux: <br/>- RHEL 7.2+<br/>- CentOS Linux 7.2+<br/>- Ubuntu 16 LTS или более высокий LTS<br/>- SLES 12+<br/>- Debian 9+<br/>- Oracle Linux 7.2 |[Microsoft Defender для конечной точки в Linux: сетевые подключения](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/microsoft-defender-atp-linux#network-connections) 
+|[Обнаружение конечных точек и ответ](overview-endpoint-detection-response.md) (EDR) |- [Windows 10](/windows/release-health/release-information) <br/>- [Windows Server 2019](/windows/release-health/status-windows-10-1809-and-windows-server-2019)<br/>- [Windows Server 1803 или более поздней версии](/windows-server/get-started/whats-new-in-windows-server-1803)  |[Настройка параметров прокси-сервера и подключения к Интернету](configure-proxy-internet.md) |
+|EDR |- [Windows Server 2016](/windows/release-health/status-windows-10-1607-and-windows-server-2016) <br/>- [Windows Server 2012 R2](/windows/release-health/status-windows-8.1-and-windows-server-2012-r2)<br/>- [Windows Server 2008 R2 SP1](/windows/release-health/status-windows-7-and-windows-server-2008-r2-sp1)<br/>- [Windows 8.1](/windows/release-health/status-windows-8.1-and-windows-server-2012-r2)<br/>- [Windows 7 SP1](/windows/release-health/status-windows-7-and-windows-server-2008-r2-sp1) |[Настройка параметров прокси и подключения к Интернету](onboard-downlevel.md#configure-proxy-and-internet-connectivity-settings) |
+|EDR  |macOS: <br/>- 11.3.1 (Big Sur)<br/>- 10.15 (Каталина)<br/>- 10.14 (Mojave)  |[Microsoft Defender для конечной точки на macOS: сетевые подключения](microsoft-defender-endpoint-mac.md#network-connections) |
+|[Антивирусная программа в Microsoft Defender](microsoft-defender-antivirus-in-windows-10.md) |- [Windows 10](/windows/release-health/release-information) <br/>- [Windows Server 2019](/windows/release-health/status-windows-10-1809-and-windows-server-2019)<br/>- [Windows Server 1803 или более поздней версии](/windows-server/get-started/whats-new-in-windows-server-1803) <br/>- [Windows Server 2016](/windows-server/get-started/whats-new-in-windows-server-2016) |[Настройка и проверка сетевого подключения антивирусной программы в Microsoft Defender](configure-network-connections-microsoft-defender-antivirus.md)<br/> |
+|Защита от вирусов |macOS: <br/>- 10.15 (Каталина)<br/>- 10.14 (Mojave) <br/>- 10.13 (Высокая сьерра) |[Microsoft Defender для конечной точки на macOS: сетевые подключения](microsoft-defender-endpoint-mac.md#network-connections) |
+|Защита от вирусов |Linux: <br/>- RHEL 7.2+<br/>- CentOS Linux 7.2+<br/>- Ubuntu 16 LTS или более высокий LTS<br/>- SLES 12+<br/>- Debian 9+<br/>- Oracle Linux 7.2 |[Microsoft Defender для конечной точки в Linux: сетевые подключения](microsoft-defender-endpoint-linux.md#network-connections) 
 
 ## <a name="next-step"></a>Следующий шаг
 

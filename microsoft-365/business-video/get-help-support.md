@@ -10,7 +10,6 @@ ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
-- M365-subscription-management
 - Adm_O365
 ms.custom:
 - AdminSurgePortfolio
@@ -20,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Узнайте, как получить справку или поддержку для администраторов в Microsoft 365 бизнес премиум.
-ms.openlocfilehash: 5494b51ba59304de8dde71c9c7fa0434ec5dd0c8
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
-ms.translationtype: HT
+ms.openlocfilehash: 8db4f7675f96bac2157c9c0f93ab506c8a39e1bb
+ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244936"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52327190"
 ---
 # <a name="get-support"></a>Получение поддержки
 
@@ -44,7 +43,7 @@ ms.locfileid: "52244936"
 
 Экономьте время, создавая запросы на обслуживание в Интернете. Мы поможем найти решение или направим вас к специалисту из службы технической поддержки.
 
-1. Перейдите в Центр администрирования <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>. Если появляется сообщение "У вас нет разрешения на доступ к этой странице или на выполнение этого действия", это означает, что вы не являетесь администратором. [У кого в моей организации есть разрешения администратора?](https://docs.microsoft.com/microsoft-365/business-video/admin-center-overview?#who-has-admin-permissions-in-my-business)
+1. Перейдите в Центр администрирования <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>. Если вы получаете сообщение, в которое говорится, что у вас нет разрешения на доступ к этой странице или выполнение этого действия, то вы не администратор. (Дополнительные сведения см. в статье Кто имеет разрешения администратора в моем [бизнесе?.)](admin-center-overview.md#who-has-admin-permissions-in-my-business)
 
 2. Нажмите кнопку **Нужна помощь?**
 
@@ -216,7 +215,7 @@ ms.locfileid: "52244936"
 
 ## <a name="feature-availability"></a>Доступность функций
 
-Сведения о доступности функций в планах Office 365 см. в статье [Описание служб Office 365](/office365/servicedescriptions/office-365-platform-service-description/office-365-operated-by-21vianet).
+Чтобы просмотреть доступность функций в Office 365 планах, [см. Office 365 Описание службы.](/office365/servicedescriptions/office-365-platform-service-description/office-365-operated-by-21vianet)
 
 ## <a name="follow-us-on-wechat"></a>Подпишитесь на нас в WeChat
 

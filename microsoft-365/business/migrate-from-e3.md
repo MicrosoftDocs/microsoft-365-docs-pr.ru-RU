@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Узнайте, как переместить бизнес в Microsoft 365 бизнес премиум из Office 365 E3.
-ms.openlocfilehash: f08b054473fdd63ec2372e81c776a1b64f89fe9d
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 990ca8bdae979f1efb8a60a3460add2953a51892
+ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244843"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52327177"
 ---
 # <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>Перенос из Office 365 E3 в Microsoft 365 бизнес премиум
 
@@ -39,25 +39,24 @@ Microsoft 365 бизнес премиум имеет все необходимо
 
 В этой таблице показаны различия между Microsoft 365 бизнес премиум и Office 365 E3.
 
-| Функция    | Поддержка в Microsoft 365 бизнес премиум    | Поддержка Office 365 E3 | 
+| Возможность    | Поддержка в Microsoft 365 бизнес премиум    | Поддержка Office 365 E3 |
 |:-------|:-----|:-----|
-| **Локальная среда**        | | | 
-| Office приложения<sup>1</sup>    | Приложения Microsoft 365 для бизнеса    | Microsoft 365 корпоративные приложения | 
-| **Приложения облачной производительности**        | | | 
-| Exchange Online и Outlook    | Ограничение хранения 50 ГБ на почтовый ящик и неограниченное Exchange Online Archiving    | Ограничение хранения 100 ГБ на почтовый ящик и неограниченное Exchange Online Archiving | 
+| **Локальная среда**        | | |
+| Office приложения<sup>1</sup>    | Приложения Microsoft 365 для бизнеса    | Приложения Microsoft 365 для предприятий |
+| **Приложения облачной производительности**        | | |
+| Exchange Online и Outlook    | Ограничение хранения 50 ГБ на почтовый ящик и неограниченное Exchange Online Archiving    | Ограничение хранения 100 ГБ на почтовый ящик и неограниченное Exchange Online Archiving |
 | Teams    | ![Включено в Microsoft 365 бизнес премиум](../media/check-mark.png)    | ![Включено в Office 365 E3](../media/check-mark.png) | 
 | OneDrive для бизнеса    | Ограничение хранения 1 ТБ на пользователя    | Без ограничений | 
 | Yammer, SharePoint Online, Planner, Stream    | ![Включено в Microsoft 365 бизнес премиум](../media/check-mark.png)    | ![Включено в Office 365 E3](../media/check-mark.png) | 
-| StaffHub    | ![Включено в Microsoft 365 бизнес премиум](../media/check-mark.png)    | ![Включено в Office 365 E3](../media/check-mark.png) | 
-| MileIQ    | ![Включено в Microsoft 365 бизнес премиум](../media/check-mark.png)    | | 
-| **Защита от угроз**        | | | 
-| Defender для Office 365 (план 1) | ![Включено в Microsoft 365 бизнес премиум](../media/check-mark.png)    | Не включено, но может быть добавлено в | 
-| **управление удостоверениями;**        | | | 
-| Сброс пароля самообслуживления для гибридных учетных записей Azure Active Directory (Azure AD), многофакторной проверки подлинности Azure AD (MFA), условного доступа, списания паролей для идентификаторов локального доступа|     ![Включено в Microsoft 365 бизнес премиум](../media/check-mark.png)    |  | 
+| StaffHub    | ![Включено в Microsoft 365 бизнес премиум](../media/check-mark.png)    | ![Включено в Office 365 E3](../media/check-mark.png) |
+| **Защита от угроз**        | | |
+| Defender для Office 365 (план 1) | ![Включено в Microsoft 365 бизнес премиум](../media/check-mark.png)    | Не включено, но может быть добавлено в |
+| **управление удостоверениями;**        | | |
+| Сброс пароля самообслуживления для гибридных учетных записей Azure Active Directory (Azure AD), многофакторной проверки подлинности Azure AD (MFA), условного доступа, списания паролей для идентификаторов локального доступа|     ![Включено в Microsoft 365 бизнес премиум](../media/check-mark.png)    |  |
 | **Управление устройствами и приложениями**        | | |
 | Microsoft Intune, Windows AutoPilot|     ![Включено в Microsoft 365 бизнес премиум](../media/check-mark.png)    |  |
 | Активация совместно используемого компьютера|     ![Включено в Microsoft 365 бизнес премиум](../media/check-mark.png)    | ![Включено в Office 365 E3](../media/check-mark.png)| 
-| Обновление прав на Windows 10 Pro из лицензий Win 7/8.1 Pro|     ![Включено в Microsoft 365 бизнес премиум](../media/check-mark.png)    || 
+| Обновление прав на Windows 10 Pro из лицензий Win 7/8.1 Pro|     ![Включено в Microsoft 365 бизнес премиум](../media/check-mark.png)    ||
 | **Защита информации**        | | |
 |Защита от потери данных в Office 365|    ![Включено в Microsoft 365 бизнес премиум](../media/check-mark.png)|![Включено в Office 365 E3](../media/check-mark.png)|
 |План 1, BitLocker Azure|![Включено в Microsoft 365 бизнес премиум](../media/check-mark.png)||
@@ -96,29 +95,28 @@ Microsoft 365 бизнес премиум имеет все необходимо
 Вы также можете выполнить эти действия на странице Устройства:
   
 1. В центре администрирования в левом nav перейдите к **политикам устройств.** \> 
-    
+
 2. На странице **Политики устройства** выберите **Добавить**.
-    
-3. В области **Добавить политику** удайте политику имя, а затем выберите тип **политики** из отсея. 
-    
+
+3. В области **Добавить политику** удайте политику имя, а затем выберите тип **политики** из отсея.
+
      Можно настроить политики приложений для защиты файлов на устройствах Android и iPhone, а также Windows 10, а также настроить политики конфигурации устройств для устройств, Windows 10 устройств. Подробные сведения см. в следующих ссылках:
-    
+
   - [Настройка параметров защиты приложений для устройств с Android и iOS](app-protection-settings-for-android-and-ios.md)
-    
+
   - [Настройка параметров защиты приложений для устройств с Windows 10](protection-settings-for-windows-10-devices.md)
-    
+
   - [Установите параметры защиты устройств для Windows 10 ПК](protection-settings-for-windows-10-pcs.md)
   
 4. После того как вы настроите политики, вы и ваши сотрудники сможете настроить устройства:
-    
+
   - См. [в Windows устройств для Microsoft 365 бизнес премиум для](set-up-windows-devices.md) действий для Windows устройств. 
-    
+
   - Настройка [мобильных устройств для Microsoft 365 бизнес премиум для](set-up-mobile-devices.md) действий для android-телефонов и iPhone. 
   
 ### <a name="mailbox-size"></a>Размер почтового ящика
 
 Microsoft 365 бизнес премиум имеет ограничение хранилища в 50 ГБ, так как Exchange Online 1. При переносе в Microsoft 365 бизнес премиум, если объем хранилища почтовых ящиков превышает 50 ГБ, рекомендуется назначить этому пользователю Exchange Online Plan 2 и удалить Exchange Online Plan 1, так как назначение обоих нецелесообразны.
-
 
 ### <a name="threat-protection"></a>Защита от угроз
 

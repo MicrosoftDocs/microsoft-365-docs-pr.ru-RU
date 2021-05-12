@@ -19,14 +19,14 @@ ms.collection:
 - m365solution-migratetomdatp
 ms.topic: article
 ms.custom: migrationguides
-ms.date: 05/06/2021
+ms.date: 05/10/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: 7b8a34fe1c7e73c172db2a06c31e2a1d239be428
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 1047d39c70e230e2765f82da4d687b36c4719b3e
+ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274668"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52327468"
 ---
 # <a name="switch-to-microsoft-defender-for-endpoint---phase-2-setup"></a>Переключиться на Microsoft Defender для конечной точки — этап 2: настройка
 
@@ -39,28 +39,27 @@ ms.locfileid: "52274668"
 ||*Вы здесь!* | |
 
 **Добро пожаловать на этап установки перехода [на Microsoft Defender для конечной точки.](switch-to-microsoft-defender-migration.md#the-migration-process)** Этот этап включает в себя следующие действия:
-1. [Включить антивирусная программа в Microsoft Defender и подтвердить, что он в пассивном режиме](#enable-microsoft-defender-antivirus-and-confirm-its-in-passive-mode).
-2. [Получать обновления для антивирусная программа в Microsoft Defender](#get-updates-for-microsoft-defender-antivirus).
+1. [Включить антивирус Microsoft Defender и подтвердить, что он в пассивном режиме.](#enable-microsoft-defender-antivirus-and-confirm-its-in-passive-mode)
+2. [Получите обновления антивируса Microsoft Defender.](#get-updates-for-microsoft-defender-antivirus)
 3. [Добавьте Microsoft Defender для конечной точки в список исключений для существующего решения конечной точки.](#add-microsoft-defender-for-endpoint-to-the-exclusion-list-for-your-existing-solution)
-4. [Добавьте существующее решение в список исключений для антивирусная программа в Microsoft Defender.](#add-your-existing-solution-to-the-exclusion-list-for-microsoft-defender-antivirus)
-5. [Добавьте существующее решение в список исключений для Microsoft Defender для конечной точки.](#add-your-existing-solution-to-the-exclusion-list-for-microsoft-defender-for-endpoint)
-6. [Настройка групп устройств, коллекций устройств и подразделений организации.](#set-up-your-device-groups-device-collections-and-organizational-units)
-7. [Настройка политик антивирусного обеспечения и защиты в режиме реального времени.](#configure-antimalware-policies-and-real-time-protection)
+4. [Добавьте существующее решение в список исключений для антивируса Microsoft Defender.](#add-your-existing-solution-to-the-exclusion-list-for-microsoft-defender-antivirus)
+5. [Настройка групп устройств, коллекций устройств и подразделений организации.](#set-up-your-device-groups-device-collections-and-organizational-units)
+6. [Настройка политик антивирусного обеспечения и защиты в режиме реального времени.](#configure-antimalware-policies-and-real-time-protection)
 
-## <a name="enable-microsoft-defender-antivirus-and-confirm-its-in-passive-mode"></a>Включить антивирусная программа в Microsoft Defender и подтвердить, что он в пассивном режиме
+## <a name="enable-microsoft-defender-antivirus-and-confirm-its-in-passive-mode"></a>Включить антивирус Microsoft Defender и подтвердить, что он в пассивном режиме
 
-В некоторых версиях Windows, например Windows Server, антивирусная программа в Microsoft Defender могли быть отключены или отключены при установке решения McAfee. Когда вы будете готовы к вводу конечных точек в Defender для конечной точки, антивирусная программа в Microsoft Defender автоматически не вступает в пассивный или отключенный режим. Кроме того, на Windows Server вы не можете антивирусная программа в Microsoft Defender активном режиме наряду с антивирусным и антивирусным решением, не в microsoft, например McAfee, Symantec или другими. Подробнее о том, что происходит с решениями Defender для конечной точки и антивирусными решениями, см. в антивирусная программа в Microsoft Defender [совместимости.](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)
+В некоторых версиях Windows, таких как Windows Server, антивирус Microsoft Defender мог быть отключен или отключен при установке решения McAfee. При готовности к входу конечных точек в Защитник для конечной точки антивирус Microsoft Defender автоматически не вступает в пассивный или отключенный режим. Кроме того, на Windows Server нельзя иметь антивирус Microsoft Defender в активном режиме наряду с антивирусным и антивирусным решением, не относяжимся к Майкрософт, таким как McAfee, Symantec или другие. Дополнительные информацию о том, что происходит с решениями Defender для конечной точки и антивирусными решениями, см. в этой ссылке. [](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)
 
-Чтобы обеспечить антивирусная программа в Microsoft Defender и в пассивном режиме, выполните следующие задачи, описанные в этой статье:
+Чтобы убедиться, что антивирус Microsoft Defender включен и находится в пассивном режиме, выполните следующие задачи, описанные в этой статье:
 - [Настройка параметра DisableAntiSpyware для ложного на Windows Server](#set-disableantispyware-to-false-on-windows-server)
-- [Переустановка антивирусная программа в Microsoft Defender на Windows Server;](#reinstall-microsoft-defender-antivirus-on-windows-server)
-- [Настройка антивирусная программа в Microsoft Defender пассивного режима на Windows Server](#set-microsoft-defender-antivirus-to-passive-mode-on-windows-server)
-- [Включение антивирусная программа в Microsoft Defender на Windows клиентских устройствах;](#enable-microsoft-defender-antivirus-on-your-windows-client-devices) и
-- [Подтверждение того, антивирусная программа в Microsoft Defender установлен пассивный режим](#confirm-that-microsoft-defender-antivirus-is-in-passive-mode).  
+- [Переустановка антивируса Microsoft Defender на Windows Server;](#reinstall-microsoft-defender-antivirus-on-windows-server)
+- [Настройка антивируса Microsoft Defender в пассивном режиме на Windows Server](#set-microsoft-defender-antivirus-to-passive-mode-on-windows-server)
+- [Включение антивируса Microsoft Defender на клиентских устройствах Windows;](#enable-microsoft-defender-antivirus-on-your-windows-client-devices) и
+- [Подтверждение того, что антивирус Microsoft Defender настроен на пассивный режим.](#confirm-that-microsoft-defender-antivirus-is-in-passive-mode)  
 
-### <a name="set-disableantispyware-to-false-on-windows-server"></a>Установите отключениеAntiSpyware на ложный Windows Server
+### <a name="set-disableantispyware-to-false-on-windows-server"></a>Установите отключениеAntiSpyware на ложный сервер Windows Server
 
-Ключ [реестра DisableAntiSpyware](/windows-hardware/customize/desktop/unattend/security-malware-windows-defender-disableantispyware) использовался в прошлом для отключения антивирусная программа в Microsoft Defender и развертывания другого антивирусного продукта, например McAfee. Как правило, этот ключ реестра не должен быть на Windows устройствах и конечных точках; Однако, если у вас есть настройка, вот как установить `DisableAntiSpyware` его значение false:
+В прошлом ключ реестра [DisableAntiSpyware](/windows-hardware/customize/desktop/unattend/security-malware-windows-defender-disableantispyware) использовался для отключения антивируса Microsoft Defender и развертывания другого антивирусного продукта, например McAfee. Как правило, этот ключ реестра не должен быть на устройствах и конечных точках Windows; Однако, если у вас есть настройка, вот как установить `DisableAntiSpyware` его значение false:
 
 1. На устройстве Windows Server откройте редактор реестра.
 
@@ -77,13 +76,13 @@ ms.locfileid: "52274668"
 > [!TIP]
 > Дополнительные информацию об этом ключе реестра см. в [см. в записи DisableAntiSpyware.](/windows-hardware/customize/desktop/unattend/security-malware-windows-defender-disableantispyware)
 
-### <a name="reinstall-microsoft-defender-antivirus-on-windows-server"></a>Переустановка антивирусная программа в Microsoft Defender на Windows Server
+### <a name="reinstall-microsoft-defender-antivirus-on-windows-server"></a>Переустановка антивируса Microsoft Defender на Windows Server
 
 > [!NOTE]
-> Следующая процедура применяется только к конечным точкам или устройствам, которые запускают следующие версии Windows:
+> Следующая процедура применяется только к конечным точкам или устройствам, работающим в следующих версиях Windows:
 > - Windows Server 2019
-> - Windows Сервер, версия 1803 (режим только для ядра)
-> - Windows Server 2016 (см. важную информацию в [Вы используете Windows Server 2016?)](#are-you-using-windows-server-2016)
+> - Windows Server, версия 1803 (режим только для ядра)
+> - Windows Server 2016 (см. важные сведения о том, используете ли [вы Windows Server 2016?](#are-you-using-windows-server-2016))
 
 1. Как локальный администратор на конечной точке или устройстве откройте Windows PowerShell.
 
@@ -97,31 +96,31 @@ ms.locfileid: "52274668"
     > `c:\windows\sysnative\cmd.exe /c Dism /online /Get-FeatureInfo /FeatureName:Windows-Defender-Features`<p>
     > `c:\windows\sysnative\cmd.exe /c Dism /online /Get-FeatureInfo /FeatureName:Windows-Defender`<br/>
 
-3. Чтобы проверить антивирусная программа в Microsoft Defender запущен, используйте следующий комдлет PowerShell: <br/>
+3. Чтобы убедиться, что антивирус Microsoft Defender запущен, используйте следующий cmdlet PowerShell: <br/>
    `Get-Service -Name windefend`
 
-#### <a name="are-you-using-windows-server-2016"></a>Вы используете Windows Server 2016?
+#### <a name="are-you-using-windows-server-2016"></a>Используете ли вы Windows Server 2016?
 
-Если у вас есть конечные точки Windows Server 2016, вы не антивирусная программа в Microsoft Defender запустить антивирусная программа в Microsoft Defender наряду с антивирусным и антивирусным решением, не относя к Майкрософт. антивирусная программа в Microsoft Defender не может работать в пассивном режиме на Windows Server 2016. В этом случае необходимо удалить решение, не влияемого на антивирусы и антивирусные программы Майкрософт, и установить или включить антивирусная программа в Microsoft Defender. Дополнительные дополнительные возможности см. в этой ссылке в списке совместимость антивирусных [решений с Защитником для конечной точки.](microsoft-defender-antivirus-compatibility.md)
+Если у вас есть конечные точки под управлением Windows Server 2016, нельзя запускать антивирус Microsoft Defender наряду с антивирусным и антивирусным решением, не работающим с Microsoft. Антивирус Microsoft Defender не может работать в пассивном режиме на Windows Server 2016. В этом случае необходимо удалить антивирусное и антивирусное решение, не в microsoft, и установить и включить антивирус Microsoft Defender. Дополнительные дополнительные возможности см. в этой ссылке в списке совместимость антивирусных [решений с Защитником для конечной точки.](microsoft-defender-antivirus-compatibility.md)
 
-Если вы используете Windows Server 2016 и у вас возникли проблемы с включением антивирусная программа в Microsoft Defender, используйте следующий cmdlet PowerShell:
+Если вы используете Windows Server 2016 и у вас возникли проблемы с включением антивируса Microsoft Defender, используйте следующий cmdlet PowerShell:
 
 `mpcmdrun -wdenable`
 
 > [!TIP]
-> Требуется дополнительная помощь? См. [антивирусная программа в Microsoft Defender на Windows Server.](microsoft-defender-antivirus-on-windows-server.md)
+> Остались вопросы? См. [антивирус Microsoft Defender на Windows Server.](microsoft-defender-antivirus-on-windows-server.md)
 
-### <a name="set-microsoft-defender-antivirus-to-passive-mode-on-windows-server"></a>Настройка антивирусная программа в Microsoft Defender пассивного режима на Windows Server
+### <a name="set-microsoft-defender-antivirus-to-passive-mode-on-windows-server"></a>Установите антивирус Microsoft Defender в пассивный режим на Windows Server
 
 > [!IMPORTANT]
-> Вы можете антивирусная программа в Microsoft Defender пассивный режим на Windows Server, версии 1803 или более новой версии или Windows Server 2019. Но пассивный режим не поддерживается на Windows Server 2016. Дополнительные дополнительные возможности см. в дополнительных данных о совместимости антивирусных [решений с Microsoft Defender для конечной точки.](defender-compatibility.md)
+> Антивирус Microsoft Defender можно настроить в пассивном режиме на Windows Server, версии 1803 или более новой версии или Windows Server 2019. Но пассивный режим не поддерживается на Windows Server 2016. Дополнительные дополнительные возможности см. в дополнительных данных о совместимости антивирусных [решений с Microsoft Defender для конечной точки.](defender-compatibility.md)
 
-Так как организация по-прежнему использует существующее решение для защиты конечных точек, необходимо антивирусная программа в Microsoft Defender пассивный режим. Таким образом, существующее решение и антивирусная программа в Microsoft Defender могут работать бок о бок, пока вы не закончите запись в Microsoft Defender для конечной точки.
+Так как ваша организация по-прежнему использует существующее решение по защите конечной точки, необходимо настроить антивирус Microsoft Defender в пассивный режим. Таким образом, существующее решение и антивирус Microsoft Defender могут работать бок о бок, пока не закончится запись в Microsoft Defender для конечной точки.
 
 1. Откройте редактор реестра и перейдите к <br/>
    `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Advanced Threat Protection`.
 
-2. Изменить (или создать) запись DWORD под названием **ForceDefenderPassiveMode** и указать следующие параметры:
+2. Изменить (или создать) запись DWORD под названием **ForcePassiveMode** и указать следующие параметры:
    - Установите значение DWORD в **1**.
    - В **базовой** статье выберите **Hexadecimal**.
 
@@ -131,16 +130,16 @@ ms.locfileid: "52274668"
 >- [Локальный объект групповой политики](/windows/security/threat-protection/security-compliance-toolkit-10#what-is-the-local-group-policy-object-lgpo-tool)
 >- [Пакет в диспетчере конфигурации](/mem/configmgr/apps/deploy-use/packages-and-programs)
 
-### <a name="enable-microsoft-defender-antivirus-on-your-windows-client-devices"></a>Включить антивирусная программа в Microsoft Defender на Windows клиентских устройствах
+### <a name="enable-microsoft-defender-antivirus-on-your-windows-client-devices"></a>Включить антивирус Microsoft Defender на клиентских устройствах Windows
 
-Так как ваша организация использует антивирусное решение, антивирусная программа в Microsoft Defender, скорее всего, отключено на устройствах Windows организации. Этот шаг процесса миграции включает включение антивирусная программа в Microsoft Defender. 
+Так как в вашей организации используется антивирусное решение, не в microsoft, антивирус Microsoft Defender, скорее всего, отключен на устройствах Windows организации. Этот этап процесса миграции включает включение антивируса Microsoft Defender. 
 
-Чтобы включить антивирусная программа в Microsoft Defender, рекомендуется использовать Intune. Однако вы можете использовать любые методы, перечисленные в следующей таблице:
+Чтобы включить антивирус Microsoft Defender, рекомендуется использовать Intune. Однако вы можете использовать любые методы, перечисленные в следующей таблице:
 
 |Метод  |Действия  |
 |---------|---------|
-|[Intune](/mem/intune/fundamentals/tutorial-walkthrough-endpoint-manager) <br/>**ПРИМЕЧАНИЕ.** Intune теперь Microsoft Endpoint Manager. | 1. Перейдите в [центр администрирования Microsoft Endpoint Manager и](https://go.microsoft.com/fwlink/?linkid=2109431) войдите.<p> 2. **Выберите профили конфигурации** устройств и выберите тип профиля, который  >  необходимо настроить. Если вы еще не  создали тип профиля ограничений устройства или хотите создать новый, см. в этой странице Настройка параметров ограничения устройств в [Microsoft Intune.](/intune/device-restrictions-configure)<p> 3. Выберите **свойства,** а затем выберите **параметры конфигурации: Изменить**.<p> 4. Расширение **антивирусная программа в Microsoft Defender**. <p> 5. Включить **облачную защиту.**<p> 6. В **запросных пользователях перед** отсевом образца отправки выберите отправку всех **образцов автоматически.**<p> 7. При **обнаружении потенциально нежелательных** приложений при отсеве выберите **Включить** или **Аудит.**<p> 8. **Выберите обзор + сохранить,** а затем выберите **Сохранить**.<p>**Совет.** Дополнительные сведения о профилях устройств Intune, в том числе о создании и настройке параметров, см. в Microsoft Intune [профилей устройств?](/intune/device-profiles).|
-|Панель управления в Windows     |Следуйте указаниям здесь: [включи антивирусная программа в Microsoft Defender](/mem/intune/user-help/turn-on-defender-windows). <p>**ПРИМЕЧАНИЕ.** Вы можете *антивирусная программа* вместо антивирусная программа в Microsoft Defender *в* некоторых версиях Windows.        |
+|[Intune](/mem/intune/fundamentals/tutorial-walkthrough-endpoint-manager) <br/>**ПРИМЕЧАНИЕ.** Intune теперь является Microsoft Endpoint Manager. | 1. Перейдите в центр администрирования [конечной](https://go.microsoft.com/fwlink/?linkid=2109431) точки Microsoft Manager и войдите.<p> 2. **Выберите профили конфигурации** устройств и выберите тип профиля, который  >  необходимо настроить. Если вы еще не  создали тип профиля ограничения устройств или хотите создать новый, см. в странице Настройка параметров ограничения устройств в [Microsoft Intune.](/intune/device-restrictions-configure)<p> 3. Выберите **свойства,** а затем выберите **параметры конфигурации: Изменить**.<p> 4. Расширение **антивируса Microsoft Defender**. <p> 5. Включить **облачную защиту.**<p> 6. В **запросных пользователях перед** отсевом образца отправки выберите отправку всех **образцов автоматически.**<p> 7. При **обнаружении потенциально нежелательных** приложений при отсеве выберите **Включить** или **Аудит.**<p> 8. **Выберите обзор + сохранить,** а затем выберите **Сохранить**.<p>**Совет.** Дополнительные сведения о профилях устройств Intune, в том числе о создании и настройке параметров, см. в странице [What are Microsoft Intune device profiles?.](/intune/device-profiles)|
+|Панель управления в Windows     |Следуйте указаниям здесь: [Включи антивирус Microsoft Defender](/mem/intune/user-help/turn-on-defender-windows). <p>**ПРИМЕЧАНИЕ.** В некоторых версиях *Windows Защитник Windows* антивирус, а не антивирус *Microsoft Defender.*        |
 |[Расширенное управление групповыми политиками](/microsoft-desktop-optimization-pack/agpm/) <br/>или<br/>[Консоль управления групповой политикой](/windows/security/threat-protection/microsoft-defender-antivirus/use-group-policy-microsoft-defender-antivirus)  | 1. Перейдите к **конфигурации** компьютера  >  **Административные**  >  **шаблоны** Windows компонентов  >  **антивирусная программа в Microsoft Defender**. <p> 2. И посмотрите на политику, называемую **отключением антивирусная программа в Microsoft Defender**.<p> 3. **Выберите параметр политики редактирования** и убедитесь, что политика отключена. Это действие позволяет антивирусная программа в Microsoft Defender. <p>**ПРИМЕЧАНИЕ.** Вы можете *антивирусная программа* вместо антивирусная программа в Microsoft Defender *в* некоторых версиях Windows. |
 
 
@@ -192,7 +191,6 @@ ms.locfileid: "52274668"
 
 Вы можете выбрать один из нескольких способов добавления исключений в антивирусная программа в Microsoft Defender, как указано в следующей таблице:
 
-
 |Метод | Действия|
 |--|--|
 |[Intune](/mem/intune/fundamentals/tutorial-walkthrough-endpoint-manager) <br/>**ПРИМЕЧАНИЕ.** Intune теперь Microsoft Endpoint Manager. | 1. Перейдите в [центр администрирования Microsoft Endpoint Manager и](https://go.microsoft.com/fwlink/?linkid=2109431) войдите.<p> 2. **Выберите профили**  >  **конфигурации устройств,** а затем выберите профиль, который необходимо настроить.<p> 3. В **соответствии с управлением** выберите **свойства**.<p> 4. Выберите **параметры конфигурации: Изменить**.<p> 5. **Расширь антивирусная программа в Microsoft Defender,** а затем **антивирусная программа в Microsoft Defender исключений.**<p> 6. Укажите файлы и папки, расширения и процессы, чтобы исключить антивирусная программа в Microsoft Defender сканирования. Для справки [см. антивирусная программа в Microsoft Defender исключения.](/mem/intune/configuration/device-restrictions-windows-10#microsoft-defender-antivirus-exclusions)<p> 7. **Выберите обзор + сохранить**, а затем выбрать **сохранить**.  |
@@ -200,54 +198,6 @@ ms.locfileid: "52274668"
 |[Объект групповой политики](/previous-versions/windows/desktop/Policy/group-policy-objects) | 1. На компьютере управления групповой политикой откройте консоль управления групповой политикой [правой](https://technet.microsoft.com/library/cc731212.aspx)кнопкой мыши объект групповой политики, который необходимо настроить, а затем выберите **Изменить**.<p> 2. В **редакторе управления групповой политикой** перейдите к **конфигурации компьютера** и выберите **административные шаблоны.**<p> 3. Расширь дерево до **Windows компонентов > антивирусная программа в Microsoft Defender > исключений.**<br/>**ПРИМЕЧАНИЕ.** Вы можете *антивирусная программа* вместо антивирусная программа в Microsoft Defender *в* некоторых версиях Windows.<p> 4. Дважды щелкните параметр **"Исключения** пути" и добавьте исключения.<br/>- Установите параметр **Включено**.<br/>- В разделе **Параметры** выберите **Показать...**.<br/>- Укажите каждую папку по своей строке в столбце **Имя значения.**<br/>- Если вы указываете файл, убедитесь, что введите полностью квалифицированный путь к файлу, включая письмо диска, путь папки, имя файла и расширение. Введите **0** в **столбце Значение.**<p> 5. Выберите **ОК**.<p> 6. Дважды щелкните параметр **Исключения расширения** и добавьте исключения.<br/>- Установите параметр **Включено**.<br/>- В разделе **Параметры** выберите **Показать...**.<br/>- Введите каждое расширение файла по своей строке в столбце **Имя значения.**  Введите **0** в **столбце Значение.**<p> 7. Выберите **ОК**. |
 |Объект локальной групповой политики |1. На конечной точке или устройстве откройте редактор локальной групповой политики. <p>2. Перейдите к **административным** шаблонам конфигурации  >    >  **компьютера Windows компоненты**  >  **антивирусная программа в Microsoft Defender**  >  **исключений**.<p>**ПРИМЕЧАНИЕ.** Вы можете *антивирусная программа* вместо антивирусная программа в Microsoft Defender *в* некоторых версиях Windows.<p>3. Укажите пути и исключения процесса. |
 |Раздел реестра |1. Экспорт следующего ключа реестра: `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\exclusions` .<p>2. Импорт ключа реестра. Далее приведено два примера.<br/>- Локальный путь: `regedit.exe /s c:\temp\ MDAV_Exclusion.reg` <br/>- Доля сети: `regedit.exe /s \\FileServer\ShareName\MDAV_Exclusion.reg` |
-
-## <a name="add-your-existing-solution-to-the-exclusion-list-for-microsoft-defender-for-endpoint"></a>Добавьте существующее решение в список исключений для Microsoft Defender для конечной точки
-
-Чтобы добавить исключения в Microsoft Defender для конечной точки, создайте [индикаторы.](/microsoft-365/security/defender-endpoint/manage-indicators#create-indicators-for-files)
-
-1. Перейдите в Центр безопасности защитника Майкрософт [https://aka.ms/MDATPportal](https://aka.ms/MDATPportal) () и войдите.<br/>
-
-1. В области навигации выберите **индикаторы правил**  >    >  **параметров.**<br/>
-
-2. На **вкладке "Хеши файла"** выберите **индикатор Добавить**.<br/>
-
-3. На **вкладке Индикатор** укажите следующие параметры:
-   - Hash file (Need help? См. [в статье Найти hash файла с помощью CMPivot.)](#find-a-file-hash-using-cmpivot)
-   - В **соответствии с истекает на (UTC)**, выберите **Никогда**.<br/>
-   
-4. На **вкладке Действие** укажите следующие параметры:
-   - **Действие отклика:** **Разрешить**
-   - Название и описание<br/>
-   
-5. На **вкладке Область** в **группах Устройств** выберите все устройства в **моей** области или Выберите **из списка**.<br/>
-
-6. На **вкладке Сводка** просмотрите параметры и выберите **Сохранить**.
-
-### <a name="find-a-file-hash-using-cmpivot"></a>Поиск hash файла с помощью CMPivot
-
-CMPivot — это утилита для диспетчера конфигурации в консоли. CMPivot предоставляет доступ к устройству в режиме реального времени в вашей среде. Он немедленно запускает запрос на все подключенные к настоящему моменту устройства в целевой коллекции и возвращает результаты. Дополнительные сведения см. [в обзоре CMPivot.](/mem/configmgr/core/servers/manage/cmpivot-overview)
-
-Чтобы использовать CMPivot для получения хаша файла, выполните следующие действия:
-
-1. Просмотрите [необходимые условия.](/mem/configmgr/core/servers/manage/cmpivot#prerequisites)
-
-2. [Запуск CMPivot](/mem/configmgr/core/servers/manage/cmpivot#start-cmpivot). 
-
-3. Подключение к диспетчеру конфигурации `SCCM_ServerName.DomainName.com` ( ).
-
-4. Выберите **вкладку Запрос.**
-
-5. В **списке коллекция устройств** выберите **Все системы (по умолчанию).**
-
-6. В поле запроса введите следующий запрос:<br/>
-
-   ```kusto
-   File(c:\\windows\\notepad.exe)
-   | project Hash
-   ```
-   
-   > [!NOTE]
-   > В запросе выше замените *notepad.exe* на имя сторонних продуктов безопасности. 
 
 ## <a name="set-up-your-device-groups-device-collections-and-organizational-units"></a>Настройка групп устройств, коллекций устройств и подразделений организации
 

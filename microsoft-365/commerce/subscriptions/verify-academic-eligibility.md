@@ -6,6 +6,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: pablom
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -13,18 +14,18 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- commerce
-ms.custom: ''
-search.appverid:
-- MET150
+ms.custom:
+- AdminSurgePortfolio
+- commerce_subscriptions
+search.appverid: MET150
 description: Узнайте, как проверить право вашей школы на получение Microsoft 365 для образования академических цен.
 ms.date: 07/21/2020
-ms.openlocfilehash: ad014cd72d82413073e1e645484f2a7fd0090b3c
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: e0e85e53ed00c1c7c23e86f380a6440038d775c9
+ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52293491"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52326882"
 ---
 # <a name="verify-academic-eligibility-for-microsoft-365-education-subscriptions"></a>Проверка академических прав на Microsoft 365 для образования подписки
 
@@ -93,11 +94,11 @@ ms.locfileid: "52293491"
 
 Если у вас есть вопросы о решении учебного права вашей школы, [обратитесь в службу поддержки.](../../business-video/get-help-support.md)
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Чтобы узнать, как развернуть учебные Microsoft 365, посетите Microsoft 365 для образования [документацию и ресурсы.](/microsoft-365/education/deploy/) Далее можно [добавлять пользователей и назначать лицензии](../../admin/add-users/add-users.md)одновременно. Если это необходимо, вы также можете [приобрести больше лицензий для подписки.](../licenses/buy-licenses.md)
 
-## <a name="related-content"></a>См. также:
+## <a name="related-content"></a>Связанные материалы
 
 [Microsoft 365 для образования документации для ИТ-администраторов](/education/itadmins) (ссылки на статьи)\
 [Microsoft Teams для образования](https://microsoft.com/education/products/teams/default.aspx) (страница продукта)\

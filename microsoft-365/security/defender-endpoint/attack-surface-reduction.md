@@ -16,21 +16,22 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 461bc7c8d4d8d5c9bb8c905f3b160d0af226b077
-ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
+ms.openlocfilehash: 56ab6c6c11bd2c0786c0d797e5302a1f06f9bd53
+ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52023229"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52327262"
 ---
 # <a name="use-attack-surface-reduction-rules-to-prevent-malware-infection"></a>Используйте правила уменьшения поверхности атаки, чтобы предотвратить заражение вредоносными программами
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Область применения:**
-- [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/?linkid=2154037)
-- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
+- [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/?linkid=2154037)
+
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 ## <a name="why-attack-surface-reduction-rules-are-important"></a>Why attack surface reduction rules are important
 
@@ -159,6 +160,7 @@ DeviceEvents
 
 |Имя правила|GUID|Исключения & папки|Минимальная поддержка ОС|
 |---|:---:|---|---|
+|[Блокировка злоупотреблений с использованием уязвимых подписанных драйверов](#block-abuse-of-exploited-vulnerable-signed-drivers)|`56a863a9-875e-4185-98a7-b882c64b5ce5`|Поддерживается|[Windows 10, версия 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709)|
 |[Блокировка Adobe Reader от создания детских процессов](#block-adobe-reader-from-creating-child-processes)|`7674ba52-37eb-4a4f-a9a1-f0f9a1619a2c`|Поддерживается|[Windows 10, версия 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) (RS3, сборка 16299) или более|
 |[Блокировка всех приложений Office от создания детских процессов](#block-all-office-applications-from-creating-child-processes)|`D4F940AB-401B-4EFC-AADC-AD5F3C50688A`|Поддерживается|[Windows 10, версия 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) (RS3, сборка 16299) или более|
 |[Блокировка кражи учетных данных из подсистемы локального органа безопасности Windows (lsass.exe)](#block-credential-stealing-from-the-windows-local-security-authority-subsystem)|`9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2`|Поддерживается|[Windows 10, версия 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) (RS3, сборка 16299) или более|
@@ -175,6 +177,33 @@ DeviceEvents
 |[Блокировка вызовов API Win32 из макрос Office](#block-win32-api-calls-from-office-macros)|`92E97FA1-2EDF-4476-BDD6-9DD0B4DDDC7B`|Поддерживается|[Windows 10, версия 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) (RS3, сборка 16299) или более|
 |[Используйте расширенные средства защиты от программ-вымогателей](#use-advanced-protection-against-ransomware)|`c1db55ab-c21a-4637-bb3f-a12568109d35`|Поддерживается|[Windows 10, версия 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) (RS3, сборка 16299) или более|
 |
+
+### <a name="block-abuse-of-exploited-vulnerable-signed-drivers"></a>Блокировка злоупотреблений с использованием уязвимых подписанных драйверов
+
+Это правило не позволяет приложению писать уязвимый подписанный драйвер на диск. В дикой природе уязвимые подписанные драйверы могут использоваться локальными приложениями, которые имеют достаточные привилегии для получения доступа \-  \- к ядру. Уязвимые подписанные драйверы позволяют злоумышленникам отключать или обходить решения безопасности, что в конечном итоге приводит к системным компромиссам.
+
+Это правило не блокирует загрузку уже существующего в системе драйвера.
+
+Это правило поддерживается во всех версиях, в которых поддерживается ASR; который:
+
+- [Windows 10 Pro, версия 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) или более поздней версии
+- [Windows 10 Enterprise, версия 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) или более поздней версии
+- [Windows Server, версия 1803 (полугодовой канал)](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1803) или более поздней версии
+- [Windows Server 2019](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
+
+Имя Intune: `Block abuse of exploited vulnerable signed drivers`
+
+GUID:  `56a863a9-875e-4185-98a7-b882c64b5ce5`
+
+См. [настраиваемую процедуру Microsoft Endpoint Manager для](enable-attack-surface-reduction.md#microsoft-endpoint-manager-custom-procedure) сведений о процедуре пользовательских правил MEM.
+
+Эту команду можно запустить в командной строке, чтобы включить правило ASR:
+
+```powershell
+"& {&'Add-MpPreference' -AttackSurfaceReductionRules_Ids 56a863a9-875e-4185-98a7-b882c64b5ce5 -AttackSurfaceReductionRules_Actions Enabled"}
+```
+
+Этот веб-сайт можно использовать для [отправки драйвера для анализа.](https://www.microsoft.com/en-us/wdsi/driversubmission)
 
 ### <a name="block-adobe-reader-from-creating-child-processes"></a>Блокировка Adobe Reader от создания детских процессов
 
@@ -239,8 +268,8 @@ GUID: `9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2`
 
 Это правило блокирует запуск следующих типов файлов из электронной почты, открытой в приложении Microsoft Outlook, или Outlook.com и других популярных поставщиков веб-почты:
 
-- Исполняемые файлы (такие как .exe, dll или .scr)
-- Файлы скриптов (например, файл PowerShell .ps, Visual Basic .vbs или файл JavaScript .js)
+- Исполняемые файлы (например, .exe, .dll или .scr)
+- Файлы скриптов (например, файл PowerShell .ps, Visual Basic vbs или файл JavaScript .js)
 
 Это правило было введено в:
 
@@ -266,7 +295,7 @@ GUID: `BE9BA2D9-53EA-4CDC-84E5-9B1EEEE46550`
 
 Это правило блокирует запуск следующих типов файлов, если они не соответствуют критериям распространенности или возраста, или они в доверенного списка или списка исключений:
 
-- Исполняемые файлы (такие как .exe, dll или .scr)
+- Исполняемые файлы (например, .exe, .dll или .scr)
 
 Запуск неустановленных или неизвестных исполняемых файлов может быть рискованным, так как изначально может быть не ясно, являются ли файлы вредоносными.
 
@@ -432,7 +461,7 @@ GUID: `d1e49aac-8f56-4280-b9ba-993a6d77406c`
 
 ### <a name="block-untrusted-and-unsigned-processes-that-run-from-usb"></a>Блокировка ненарушимых и неподписаных процессов, которые запускают из USB
 
-С помощью этого правила администраторы могут запретить запуск неподписанных или ненадежных исполняемых файлов на съемных дисках USB, включая SD-карты. Заблокированные типы файлов включают исполняемые файлы (такие как .exe, dll или .scr)
+С помощью этого правила администраторы могут запретить запуск неподписанных или ненадежных исполняемых файлов на съемных дисках USB, включая SD-карты. Заблокированные типы файлов включают исполняемые файлы (например, .exe, .dll или .scr)
 
 Это правило было введено в:
 

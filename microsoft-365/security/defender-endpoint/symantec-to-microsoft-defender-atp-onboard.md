@@ -21,12 +21,12 @@ ms.topic: article
 ms.date: 03/03/2021
 ms.custom: migrationguides
 ms.reviewer: depicker, yongrhee, chriggs
-ms.openlocfilehash: 63c870c5682e963e6ab29160218c7405cabb0838
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 1bca1cf32bc92a7c19be8d36d03166fd121c0295
+ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935549"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52327638"
 ---
 # <a name="migrate-from-symantec---phase-3-onboard-to-microsoft-defender-for-endpoint"></a>Миграция из Symantec — этап 3: на борту в Microsoft Defender для конечной точки
 
@@ -59,11 +59,11 @@ ms.locfileid: "51935549"
 
 |Операционная система  |Метод  |
 |---------|---------|
-|Windows 10     |- [Групповой политики](configure-endpoints-gp.md)<br/>- [Диспетчер конфигурации](configure-endpoints-sccm.md)<br/>- [Управление мобильными устройствами (Intune)](configure-endpoints-mdm.md)<br/>- [Локальный скрипт](configure-endpoints-script.md) <br/><br/>**ПРИМЕЧАНИЕ.** Локальный сценарий подходит для доказательства концепции, но не должен использоваться для развертывания производства. Для развертывания производства рекомендуется использовать групповую политику, Microsoft Endpoint Configuration Manager или Intune.         |
-|- Windows 8.1 Корпоративная <br/>- Windows 8.1 Pro <br/>- Windows 7 SP1 Enterprise <br/>- Windows 7 SP1 Pro     | [Агент мониторинга Майкрософт](onboard-downlevel.md#install-and-configure-microsoft-monitoring-agent-mma-to-report-sensor-data-to-microsoft-defender-for-endpoint)<br/><br/>**ПРИМЕЧАНИЕ.** Агент мониторинга Майкрософт теперь является агентом Аналитики журналов Azure. Дополнительные сведения см. в обзоре агента [log Analytics.](https://docs.microsoft.com/azure/azure-monitor/platform/log-analytics-agent)        |
-|- Windows Server 2019 и более поздний <br/>- Основное издание Windows Server 2019 <br/>- Windows Server версии 1803 и более поздней версии |- [Локальный скрипт](configure-endpoints-script.md) <br/>- [Групповой политики](configure-endpoints-gp.md) <br/>- [Диспетчер конфигурации](/configure-endpoints-sccm.md) <br/>- [Диспетчер конфигурации центра системы](configure-endpoints-sccm.md#onboard-devices-using-system-center-configuration-manager)<br/>- [Скрипты на борту VDI для нестандартных устройств](configure-endpoints-vdi.md) <br/><br/>**ПРИМЕЧАНИЕ.** Локальный сценарий подходит для доказательства концепции, но не должен использоваться для развертывания производства. Для развертывания производства рекомендуется использовать групповую политику, Microsoft Endpoint Configuration Manager или Intune.    |
-|- Windows Server 2016 <br/>- Windows Server 2012 R2 <br/>- Windows Server 2008 R2 SP1  |- [Центр безопасности Защитника Майкрософт](configure-server-endpoints.md)<br/>- [Защитник Azure](https://docs.microsoft.com/azure/security-center/security-center-wdatp) |
-|macOS<br/>- 10.15 (Каталина)<br/>- 10.14 (Mojave)<br/>- 10.13 (Высокая сьерра)<br/><br/>iOS<br/><br/>Linux:<br/>- RHEL 7.2+<br/>- CentOS Linux 7.2+<br/>- Ubuntu 16 LTS или более высокий LTS<br/>- SLES 12+<br/>- Debian 9+<br/>- Oracle Linux 7.2 |[Подключение устройствах, отличных от Windows](configure-endpoints-non-windows.md)  |
+|Windows 10     |- [Групповой политики](configure-endpoints-gp.md)<br/>- [Диспетчер конфигурации](configure-endpoints-sccm.md)<br/>- [Управление мобильными устройствами (Intune)](configure-endpoints-mdm.md)<br/>- [Локальный скрипт](configure-endpoints-script.md) <p>**ПРИМЕЧАНИЕ.** Локальный сценарий подходит для доказательства концепции, но не должен использоваться для развертывания производства. Для развертывания производства рекомендуется использовать групповую политику, Microsoft Endpoint Configuration Manager или Intune.         |
+|- Windows 8.1 Корпоративная <br/>- Windows 8.1 Pro <br/>- Windows 7 SP1 Enterprise <br/>- Windows 7 SP1 Pro     | [Агент мониторинга Майкрософт](onboard-downlevel.md#install-and-configure-microsoft-monitoring-agent-mma-to-report-sensor-data-to-microsoft-defender-for-endpoint)<p>**ПРИМЕЧАНИЕ.** Агент мониторинга Майкрософт теперь является агентом Аналитики журналов Azure. Дополнительные сведения см. в обзоре агента [log Analytics.](/azure/azure-monitor/platform/log-analytics-agent)        |
+|- Windows Server 2019 и более поздний <br/>- Основное издание Windows Server 2019 <br/>- Windows Server версии 1803 и более поздней версии |- [Локальный скрипт](configure-endpoints-script.md) <br/>- [Групповой политики](configure-endpoints-gp.md) <br/>- [Диспетчер конфигурации](configure-endpoints-sccm.md) <br/>- [Диспетчер конфигурации центра системы](configure-endpoints-sccm.md#onboard-devices-using-system-center-configuration-manager)<br/>- [Скрипты на борту VDI для нестандартных устройств](configure-endpoints-vdi.md) <p>**ПРИМЕЧАНИЕ.** Локальный сценарий подходит для доказательства концепции, но не должен использоваться для развертывания производства. Для развертывания производства рекомендуется использовать групповую политику, Microsoft Endpoint Configuration Manager или Intune.    |
+|- Windows Server 2016 <br/>- Windows Server 2012 R2 <br/>- Windows Server 2008 R2 SP1  |- [Центр безопасности Защитника Майкрософт](configure-server-endpoints.md)<br/>- [Защитник Azure](/azure/security-center/security-center-wdatp) |
+|macOS<br/>- 10.15 (Каталина)<br/>- 10.14 (Mojave)<br/>- 10.13 (Высокая сьерра)<p>iOS<p>Linux:<br/>- RHEL 7.2+<br/>- CentOS Linux 7.2+<br/>- Ubuntu 16 LTS или более высокий LTS<br/>- SLES 12+<br/>- Debian 9+<br/>- Oracle Linux 7.2 |[Подключение устройствах, отличных от Windows](configure-endpoints-non-windows.md)  |
 
 ## <a name="run-a-detection-test"></a>Выполнить тест обнаружения
 
@@ -71,9 +71,9 @@ ms.locfileid: "51935549"
 
 |Операционная система  |Рекомендации  |
 |---------|---------|
-|- Windows 10 <br/>- Windows Server 2019 <br/>- Windows Server, версия 1803 <br/>- Windows Server 2016 <br/>- Windows Server 2012 R2     |См. [тест run a detection](run-detection-test.md). <br/><br/>Посетите сайт демонстрационных сценариев Microsoft Defender for Endpoint () и попробуйте один или [https://demo.wd.microsoft.com](https://demo.wd.microsoft.com) несколько сценариев. Например, попробуйте демонстрационный сценарий **облачной** защиты.         |
-|macOS<br/>- 10.15 (Каталина)<br/>- 10.14 (Mojave)<br/>- 10.13 (Высокая сьерра)     |Скачайте и используйте приложение DIY по [https://aka.ms/mdatpmacosdiy](https://aka.ms/mdatpmacosdiy) ссылке . <br/><br/>Дополнительные сведения см. [в сайте Microsoft Defender для конечной точки на macOS.](microsoft-defender-endpoint-mac.md)        |
-|Linux:<br/>- RHEL 7.2+<br/>- CentOS Linux 7.2+<br/>- Ubuntu 16 LTS или более высокий LTS<br/>- SLES 12+<br/>- Debian 9+<br/>- Oracle Linux 7.2 |1. Выполнить следующую команду и искать результат **1**: <br/>`mdatp health --field real_time_protection_enabled`. <br/><br/>2. Откройте окно терминала и запустите следующую команду: <br/>`curl -o ~/Downloads/eicar.com.txt https://www.eicar.org/download/eicar.com.txt`. <br/><br/>3. Запустите следующую команду, чтобы перечислить все обнаруженные угрозы: <br/>`mdatp threat list`. <br/><br/>Дополнительные сведения см. [в веб-сайте Microsoft Defender для конечной точки в Linux.](microsoft-defender-endpoint-linux.md) |
+|- Windows 10 <br/>- Windows Server 2019 <br/>- Windows Server, версия 1803 <br/>- Windows Server 2016 <br/>- Windows Server 2012 R2     |См. [тест run a detection](run-detection-test.md). <p>Посетите сайт демонстрационных сценариев Microsoft Defender for Endpoint () и попробуйте один или [https://demo.wd.microsoft.com](https://demo.wd.microsoft.com) несколько сценариев. Например, попробуйте демонстрационный сценарий **облачной** защиты.         |
+|macOS<br/>- 11.3.1 (Big Sur)<br/>- 10.15 (Каталина)<br/>- 10.14 (Mojave)     |Скачайте и используйте приложение DIY по [https://aka.ms/mdatpmacosdiy](https://aka.ms/mdatpmacosdiy) ссылке . <p>Дополнительные сведения см. [в сайте Microsoft Defender для конечной точки на macOS.](microsoft-defender-endpoint-mac.md)        |
+|Linux:<br/>- RHEL 7.2+<br/>- CentOS Linux 7.2+<br/>- Ubuntu 16 LTS или более высокий LTS<br/>- SLES 12+<br/>- Debian 9+<br/>- Oracle Linux 7.2 |1. Выполнить следующую команду и искать результат **1**: <br/>`mdatp health --field real_time_protection_enabled`. <p>2. Откройте окно терминала и запустите следующую команду: <br/>`curl -o ~/Downloads/eicar.com.txt https://www.eicar.org/download/eicar.com.txt`. <p>3. Запустите следующую команду, чтобы перечислить все обнаруженные угрозы: <br/>`mdatp threat list`. <p>Дополнительные сведения см. [в веб-сайте Microsoft Defender для конечной точки в Linux.](microsoft-defender-endpoint-linux.md) |
 
 ## <a name="uninstall-symantec"></a>Удалить Symantec
 
@@ -81,19 +81,19 @@ ms.locfileid: "51935549"
 
 1. [Отключение защиты от взлома](https://knowledge.broadcom.com/external/article?legacyId=tech192023) в Symantec.
 2. Удалите пароль для Symantec:<br/>
-   1. На устройствах Windows откройте редактор реестра в качестве администратора.
+   1. На Windows устройствах откройте редактор реестра в качестве администратора.
    2. Перейдите на сайт `HKEY_LOCAL_MACHINE\SOFTWARE\Symantec\Symantec Endpoint Protection\SMC`.
    3. Найди запись с именем **SmcInstData.** 
    4. Щелкните правой кнопкой мыши элемент, а затем выберите **Удалить**. 
 3. Удалите Symantec с устройств. Если вам нужна помощь в этом, см. в документации Broadcom. Вот несколько ресурсов Broadcom: 
-   - [Uninstall Symantec Endpoint Protection](https://knowledge.broadcom.com/external/article/156148/uninstall-symantec-endpoint-protection.html)
-   - Устройства Windows: вручную удалить клиенты [endpoint Protection 14 в Windows](https://knowledge.broadcom.com/external/article?articleId=170040)
+   - [Удалить Symantec Endpoint Protection](https://knowledge.broadcom.com/external/article/156148/uninstall-symantec-endpoint-protection.html)
+   - Windows устройства: вручную удалить Endpoint Protection [14](https://knowledge.broadcom.com/external/article?articleId=170040) клиентов на Windows
    - macOS-компьютеры: [удаление программного обеспечения Symantec для Mac с помощью RemoveSymantecMacFiles](https://knowledge.broadcom.com/external/article?articleId=151387)
-   - Устройства Linux: [часто задающие вопросы для защиты конечных точек на Linux](https://knowledge.broadcom.com/external/article?articleId=162054)
+   - Устройства Linux: [часто задающие вопросы для Endpoint Protection на Linux](https://knowledge.broadcom.com/external/article?articleId=162054)
 
 ## <a name="make-sure-microsoft-defender-for-endpoint-is-in-active-mode"></a>Убедитесь, что Microsoft Defender для конечной точки находится в активном режиме
 
-Теперь, когда у вас есть uninstalled Symantec, следующим шагом будет убедиться, что антивирус Microsoft Defender и Microsoft Defender для конечной точки включены и в активном режиме.
+Теперь, когда у вас есть uninstalled Symantec, следующим шагом будет убедиться, что антивирусная программа в Microsoft Defender и Microsoft Defender для конечной точки включены и в активном режиме.
 
 Для этого посетите веб-сайт демонстрационных сценариев Microsoft Defender for Endpoint [https://demo.wd.microsoft.com](https://demo.wd.microsoft.com) (). Попробуйте один или несколько демонстрационных сценариев на этой странице, включая по крайней мере следующие:
 - Облачная защита
@@ -101,10 +101,10 @@ ms.locfileid: "51935549"
 - Защита сети (NP)
 
 > [!IMPORTANT]
-> Если вы используете Windows Server 2016, вам может потребоваться запустить антивирус Microsoft Defender вручную. Это можно сделать с помощью cmdlet PowerShell `mpcmdrun.exe -wdenable` на устройстве.
+> Если вы используете Windows Server 2016, вам может потребоваться начать антивирусная программа в Microsoft Defender вручную. Это можно сделать с помощью cmdlet PowerShell `mpcmdrun.exe -wdenable` на устройстве.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
 **Поздравляем!** Вы завершили [миграцию из Symantec в Microsoft Defender для конечной точки!](symantec-to-microsoft-defender-endpoint-migration.md#the-migration-process) 
-- [Посетите панель мониторинга операций безопасности](security-operations-dashboard.md) в Центре безопасности Защитника Майкрософт [https://aka.ms/MDATPportal](https://aka.ms/MDATPportal) (). 
+- [Посетите панель мониторинга операций безопасности](security-operations-dashboard.md) в Центр безопасности в Microsoft Defender ( [https://aka.ms/MDATPportal](https://aka.ms/MDATPportal) ). 
 - [Управление Microsoft Defender для конечной точки, после миграции.](manage-atp-post-migration.md)

@@ -22,12 +22,12 @@ ms.topic: article
 ms.custom: migrationguides
 ms.date: 03/03/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: 36dc50aa66df932703e50a5d2c57afb42871e5b1
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 0145f48a5bcf53cd06c70b18e9c48aa6e5e5c06c
+ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933089"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52327590"
 ---
 # <a name="migrate-from-mcafee---phase-2-set-up-microsoft-defender-for-endpoint"></a>Миграция из McAfee — этап 2. Настройка Microsoft Defender для конечной точки
 
@@ -50,7 +50,7 @@ ms.locfileid: "51933089"
 
 ## <a name="enable-microsoft-defender-antivirus-and-confirm-its-in-passive-mode"></a>Включить антивирус Microsoft Defender и подтвердить, что он в пассивном режиме
 
-В некоторых версиях Windows, таких как Windows Server, антивирус Microsoft Defender мог быть отключен или отключен при установке решения McAfee. Это происходит из-за того, что антивирус Microsoft Defender не входит в пассивный или отключенный режим при установке сторонного антивирусного продукта, например McAfee. Подробнее об этом см. в сайте [Microsoft Defender Antivirus compatibility.)](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)
+В некоторых версиях Windows, таких как Windows Server, антивирус Microsoft Defender мог быть отключен или отключен при установке решения McAfee. Это происходит из-за того, что антивирус Microsoft Defender не входит в пассивный или отключенный режим при установке сторонного антивирусного продукта, например McAfee. Подробнее об этом см. в сайте [Microsoft Defender Antivirus compatibility.)](microsoft-defender-antivirus-compatibility.md)
 
 Этот этап процесса миграции включает в себя следующие задачи:
 - [Настройка параметра DisableAntiSpyware для ложного на Windows Server](#set-disableantispyware-to-false-on-windows-server)
@@ -61,7 +61,7 @@ ms.locfileid: "51933089"
 
 ### <a name="set-disableantispyware-to-false-on-windows-server"></a>Установите отключениеAntiSpyware на ложный сервер Windows Server
 
-В прошлом ключ реестра [DisableAntiSpyware](https://docs.microsoft.com/windows-hardware/customize/desktop/unattend/security-malware-windows-defender-disableantispyware) использовался для отключения антивируса Microsoft Defender и развертывания другого антивирусного продукта, например McAfee. Как правило, этот ключ реестра не должен быть на устройствах и конечных точках Windows; Однако, если у вас есть настройка, вот как установить `DisableAntiSpyware` его значение false:
+В прошлом ключ реестра [DisableAntiSpyware](/windows-hardware/customize/desktop/unattend/security-malware-windows-defender-disableantispyware) использовался для отключения антивируса Microsoft Defender и развертывания другого антивирусного продукта, например McAfee. Как правило, этот ключ реестра не должен быть на устройствах и конечных точках Windows; Однако, если у вас есть настройка, вот как установить `DisableAntiSpyware` его значение false:
 
 1. На устройстве Windows Server откройте редактор реестра.
 
@@ -78,7 +78,7 @@ ms.locfileid: "51933089"
 5. Установите значение `0` . (Это задает значение ключа реестра *ложным.)*
 
 > [!TIP]
-> Дополнительные информацию об этом ключе реестра см. в [см. в записи DisableAntiSpyware.](https://docs.microsoft.com/windows-hardware/customize/desktop/unattend/security-malware-windows-defender-disableantispyware)
+> Дополнительные информацию об этом ключе реестра см. в [см. в записи DisableAntiSpyware.](/windows-hardware/customize/desktop/unattend/security-malware-windows-defender-disableantispyware)
 
 ### <a name="reinstall-microsoft-defender-antivirus-on-windows-server"></a>Переустановка антивируса Microsoft Defender на Windows Server
 
@@ -113,7 +113,7 @@ ms.locfileid: "51933089"
 `mpcmdrun -wdenable`
 
 > [!TIP]
-> Остались вопросы? См. [антивирус Microsoft Defender на Windows Server 2016 и 2019](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-on-windows-server-2016).
+> Остались вопросы? См. [антивирус Microsoft Defender на Windows Server 2016 и 2019](microsoft-defender-antivirus-on-windows-server.md).
 
 ### <a name="set-microsoft-defender-antivirus-to-passive-mode-on-windows-server"></a>Установите антивирус Microsoft Defender в пассивный режим на Windows Server
 
@@ -122,7 +122,7 @@ ms.locfileid: "51933089"
 1. Откройте редактор реестра и перейдите к <br/>
    `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Advanced Threat Protection`.
 
-2. Изменить (или создать) запись DWORD под названием **ForceDefenderPassiveMode** и указать следующие параметры:
+2. Изменить (или создать) запись DWORD под названием **ForcePassiveMode** и указать следующие параметры:
    
    - Установите значение DWORD в **1**.
    
@@ -130,9 +130,8 @@ ms.locfileid: "51933089"
 
 > [!NOTE]
 > Для набора ключа реестра можно использовать другие методы, например следующие:
->- [Предпочтения групповой политики](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn581922(v=ws.11))
->- [Локальный объект групповой политики](https://docs.microsoft.com/windows/security/threat-protection/security-compliance-toolkit-10#what-is-the-local-group-policy-object-lgpo-tool)
->- [Пакет в диспетчере конфигурации](https://docs.microsoft.com/mem/configmgr/apps/deploy-use/packages-and-programs)
+>- [Предпочтения групповой политики](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn581922(v=ws.11))
+>- [Пакет в диспетчере конфигурации](/mem/configmgr/apps/deploy-use/packages-and-programs)
 
 ### <a name="enable-microsoft-defender-antivirus-on-your-windows-client-devices"></a>Включить антивирус Microsoft Defender на клиентских устройствах Windows
 
@@ -142,9 +141,9 @@ ms.locfileid: "51933089"
 
 |Метод  |Действия  |
 |---------|---------|
-|[Intune](https://docs.microsoft.com/mem/intune/fundamentals/tutorial-walkthrough-endpoint-manager) <br/><br/>**ПРИМЕЧАНИЕ.** Intune теперь является Microsoft Endpoint Manager. |1. Перейдите в центр администрирования [конечной](https://go.microsoft.com/fwlink/?linkid=2109431) точки Microsoft Manager и войдите.<br/><br/>2. **Выберите профили конфигурации** устройств и выберите тип профиля, который  >  необходимо настроить. <br/>Если вы еще не  создали тип профиля ограничения устройств или хотите создать новый, см. в странице Настройка параметров ограничения устройств в [Microsoft Intune.](https://docs.microsoft.com/intune/device-restrictions-configure)<br/><br/>3. Выберите **свойства,** а затем выберите **параметры конфигурации: Изменить**.<br/><br/>4. Расширение **антивируса Microsoft Defender**. <br/><br/>5. Включить **облачную защиту.**<br/><br/>6. В **запросных пользователях перед** отсевом образца отправки выберите отправку всех **образцов автоматически.**<br/><br/>7. При **обнаружении потенциально нежелательных** приложений при отсеве выберите **Включить** или **Аудит.**<br/><br/>8. **Выберите обзор + сохранить,** а затем выберите **Сохранить**.<br/><br/>Дополнительные сведения о профилях устройств Intune, в том числе о создании и настройке параметров, см. в странице [What are Microsoft Intune device profiles?.](https://docs.microsoft.com/intune/device-profiles)|
-|Панель управления в Windows     |Следуйте указаниям здесь: [Включи антивирус Microsoft Defender](https://docs.microsoft.com/mem/intune/user-help/turn-on-defender-windows). <br/><br/>**ПРИМЕЧАНИЕ.** В некоторых версиях *Windows Защитник Windows* антивирус, а не антивирус *Microsoft Defender.*        |
-|[Расширенное управление групповыми политиками](https://docs.microsoft.com/microsoft-desktop-optimization-pack/agpm/) <br/>Кроме того:<br/>[Консоль управления групповой политикой](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/use-group-policy-microsoft-defender-antivirus)  |1. Перейдите к `Computer configuration > Administrative templates > Windows components > Microsoft Defender Antivirus` . <br/><br/>2. Найди политику, называемую **отключением антивируса Microsoft Defender.**<br/> <br/>3. **Выберите параметр политики редактирования** и убедитесь, что политика отключена. Это позволяет антивирус Microsoft Defender. <br/><br/>**ПРИМЕЧАНИЕ.** В некоторых версиях *Windows Защитник Windows* антивирус, а не антивирус *Microsoft Defender.* |
+|[Intune](/mem/intune/fundamentals/tutorial-walkthrough-endpoint-manager) <p>**ПРИМЕЧАНИЕ.** Intune теперь является Microsoft Endpoint Manager. |1. Перейдите в центр администрирования [конечной](https://go.microsoft.com/fwlink/?linkid=2109431) точки Microsoft Manager и войдите.<p>2. **Выберите профили конфигурации** устройств и выберите тип профиля, который  >  необходимо настроить. <br/>Если вы еще не  создали тип профиля ограничения устройств или хотите создать новый, см. в странице Настройка параметров ограничения устройств в [Microsoft Intune.](/intune/device-restrictions-configure)<p>3. Выберите **свойства,** а затем выберите **параметры конфигурации: Изменить**.<p>4. Расширение **антивируса Microsoft Defender**. <p>5. Включить **облачную защиту.**<p>6. В **запросных пользователях перед** отсевом образца отправки выберите отправку всех **образцов автоматически.**<p>7. При **обнаружении потенциально нежелательных** приложений при отсеве выберите **Включить** или **Аудит.**<p>8. **Выберите обзор + сохранить,** а затем выберите **Сохранить**.<p>Дополнительные сведения о профилях устройств Intune, в том числе о создании и настройке параметров, см. в странице [What are Microsoft Intune device profiles?.](/intune/device-profiles)|
+|Панель управления в Windows     |Следуйте указаниям здесь: [Включи антивирус Microsoft Defender](/mem/intune/user-help/turn-on-defender-windows). <p>**ПРИМЕЧАНИЕ.** В некоторых версиях *Windows Защитник Windows* антивирус, а не антивирус *Microsoft Defender.*        |
+|[Расширенное управление групповыми политиками](/microsoft-desktop-optimization-pack/agpm/) <br/>или<br/>[Консоль управления групповой политикой](use-group-policy-microsoft-defender-antivirus.md)  |1. Перейдите к `Computer configuration > Administrative templates > Windows components > Microsoft Defender Antivirus` . <p>2. Найди политику, называемую **отключением антивируса Microsoft Defender.**<br/> <br/>3. **Выберите параметр политики редактирования** и убедитесь, что политика отключена. Это позволяет антивирус Microsoft Defender. <p>**ПРИМЕЧАНИЕ.** В некоторых версиях *Windows Защитник Windows* антивирус, а не антивирус *Microsoft Defender.* |
 
 ### <a name="confirm-that-microsoft-defender-antivirus-is-in-passive-mode"></a>Подтверждение того, что антивирус Microsoft Defender находится в пассивном режиме
 
@@ -152,21 +151,21 @@ ms.locfileid: "51933089"
 
 |Метод  |Действия  |
 |---------|---------|
-|Командная строка     |1. На устройстве Windows откройте командную подсказку в качестве администратора. <br/><br/>2. Введите `sc query windefend` и нажмите кнопку Ввод.<br/><br/>3. Просмотрите результаты, чтобы подтвердить, что антивирус Microsoft Defender работает в пассивном режиме.         |
-|PowerShell     |1. На устройстве Windows откройте Windows PowerShell в качестве администратора.<br/><br/>2. Запустите [комлет Get-MpComputerStatus.](https://docs.microsoft.com/powershell/module/defender/Get-MpComputerStatus) <br/><br/>3. В списке результатов найди **amRunningMode: Пассивный режим** или **AMRunningMode: пассивный режим SxS.**|
+|Командная строка     |1. На устройстве Windows откройте командную подсказку в качестве администратора. <p>2. Введите `sc query windefend` и нажмите кнопку Ввод.<p>3. Просмотрите результаты, чтобы подтвердить, что антивирус Microsoft Defender работает в пассивном режиме.         |
+|PowerShell     |1. На устройстве Windows откройте Windows PowerShell в качестве администратора.<p>2. Запустите [комлет Get-MpComputerStatus.](/powershell/module/defender/Get-MpComputerStatus) <p>3. В списке результатов найди **amRunningMode: Пассивный режим** или **AMRunningMode: пассивный режим SxS.**|
 
 > [!NOTE]
 > В некоторых версиях *Windows Защитник Windows* *антивирус,* а не антивирус Microsoft Defender.
 
 ## <a name="get-updates-for-microsoft-defender-antivirus"></a>Получать обновления антивируса Microsoft Defender
 
-Обновление антивируса Microsoft Defender имеет решающее значение для обеспечения того, чтобы устройства были оснащены новейшими технологиями и функциями, необходимыми для защиты от новых вредоносных программ и методов атак, даже если антивирус Microsoft Defender работает в пассивном [режиме.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)
+Обновление антивируса Microsoft Defender имеет решающее значение для обеспечения того, чтобы устройства были оснащены новейшими технологиями и функциями, необходимыми для защиты от новых вредоносных программ и методов атак, даже если антивирус Microsoft Defender работает в пассивном [режиме.](microsoft-defender-antivirus-compatibility.md)
 
 Существует два типа обновлений, связанных с обновлением антивируса Microsoft Defender:
 - Обновления аналитики безопасности
 - Обновления продукта
 
-Чтобы получить обновления, следуйте указаниям в управлении обновлениями антивирусного антивируса Microsoft Defender и [применяйте базовые показатели.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/manage-updates-baselines-microsoft-defender-antivirus)
+Чтобы получить обновления, следуйте указаниям в управлении обновлениями антивирусного антивируса Microsoft Defender и [применяйте базовые показатели.](manage-updates-baselines-microsoft-defender-antivirus.md)
 
 ## <a name="add-microsoft-defender-for-endpoint-to-the-exclusion-list-for-mcafee"></a>Добавление Защитника Майкрософт для конечной точки в список исключений для McAfee
 
@@ -179,32 +178,35 @@ ms.locfileid: "51933089"
 
 |OS |Исключения |
 |--|--|
-|- Windows 10, [версия 1803 или](https://docs.microsoft.com/windows/release-health/status-windows-10-1803) более поздней версии (см. сведения о выпуске [Windows 10)](https://docs.microsoft.com/windows/release-health/release-information)<br/>- Windows 10, версия 1703 или [1709](https://docs.microsoft.com/windows/release-health/status-windows-10-1709) с [установленным KB4493441](https://support.microsoft.com/help/4493441) <br/>- [Windows Server 2019](https://docs.microsoft.com/windows/release-health/status-windows-10-1809-and-windows-server-2019)<br/>- [Windows Server, версия 1803](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1803) |`C:\Program Files\Windows Defender Advanced Threat Protection\MsSense.exe`<br/><br/>`C:\Program Files\Windows Defender Advanced Threat Protection\SenseCncProxy.exe`<br/><br/>`C:\Program Files\Windows Defender Advanced Threat Protection\SenseSampleUploader.exe`<br/><br/>`C:\Program Files\Windows Defender Advanced Threat Protection\SenseIR.exe`<br/>  |
-|- [Windows 8.1](https://docs.microsoft.com/windows/release-health/status-windows-8.1-and-windows-server-2012-r2) <br/>- [Windows 7](https://docs.microsoft.com/windows/release-health/status-windows-7-and-windows-server-2008-r2-sp1)<br/>- [Windows Server 2016](https://docs.microsoft.com/windows/release-health/status-windows-10-1607-and-windows-server-2016)<br/>- [Windows Server 2012 R2](https://docs.microsoft.com/windows/release-health/status-windows-8.1-and-windows-server-2012-r2)<br/>- [Windows Server 2008 R2 SP1](https://docs.microsoft.com/windows/release-health/status-windows-7-and-windows-server-2008-r2-sp1) |`C:\Program Files\Microsoft Monitoring Agent\Agent\Health Service State\Monitoring Host Temporary Files 6\45\MsSenseS.exe`<br/><br/>**ПРИМЕЧАНИЕ.** В тех случаях, когда мониторинг временных файлов 6\45 может быть различным про номерами подмостки.<br/><br/>`C:\Program Files\Microsoft Monitoring Agent\Agent\AgentControlPanel.exe`<br/><br/>`C:\Program Files\Microsoft Monitoring Agent\Agent\HealthService.exe`<br/><br/>`C:\Program Files\Microsoft Monitoring Agent\Agent\HSLockdown.exe`<br/><br/>`C:\Program Files\Microsoft Monitoring Agent\Agent\MOMPerfSnapshotHelper.exe`<br/><br/>`C:\Program Files\Microsoft Monitoring Agent\Agent\MonitoringHost.exe`<br/><br/>`C:\Program Files\Microsoft Monitoring Agent\Agent\TestCloudConnection.exe` |
+|- Windows 10, [версия 1803 или](/windows/release-health/status-windows-10-1803) более поздней версии (см. сведения о выпуске [Windows 10)](/windows/release-health/release-information)<br/>- Windows 10, версия 1703 или [1709](/windows/release-health/status-windows-10-1709) с [установленным KB4493441](https://support.microsoft.com/help/4493441) <br/>- [Windows Server 2019](/windows/release-health/status-windows-10-1809-and-windows-server-2019)<br/>- [Windows Server, версия 1803](/windows-server/get-started/whats-new-in-windows-server-1803) |`C:\Program Files\Windows Defender Advanced Threat Protection\MsSense.exe`<p>`C:\Program Files\Windows Defender Advanced Threat Protection\SenseCncProxy.exe`<p>`C:\Program Files\Windows Defender Advanced Threat Protection\SenseSampleUploader.exe`<p>`C:\Program Files\Windows Defender Advanced Threat Protection\SenseIR.exe`<br/>  |
+|- [Windows 8.1](/windows/release-health/status-windows-8.1-and-windows-server-2012-r2) <br/>- [Windows 7](/windows/release-health/status-windows-7-and-windows-server-2008-r2-sp1)<br/>- [Windows Server 2016](/windows/release-health/status-windows-10-1607-and-windows-server-2016)<br/>- [Windows Server 2012 R2](/windows/release-health/status-windows-8.1-and-windows-server-2012-r2)<br/>- [Windows Server 2008 R2 SP1](/windows/release-health/status-windows-7-and-windows-server-2008-r2-sp1) |`C:\Program Files\Microsoft Monitoring Agent\Agent\Health Service State\Monitoring Host Temporary Files 6\45\MsSenseS.exe`<p>**ПРИМЕЧАНИЕ.** В тех случаях, когда мониторинг временных файлов 6\45 может быть различным про номерами подмостки.<p>`C:\Program Files\Microsoft Monitoring Agent\Agent\AgentControlPanel.exe`<p>`C:\Program Files\Microsoft Monitoring Agent\Agent\HealthService.exe`<p>`C:\Program Files\Microsoft Monitoring Agent\Agent\HSLockdown.exe`<p>`C:\Program Files\Microsoft Monitoring Agent\Agent\MOMPerfSnapshotHelper.exe`<p>`C:\Program Files\Microsoft Monitoring Agent\Agent\MonitoringHost.exe`<p>`C:\Program Files\Microsoft Monitoring Agent\Agent\TestCloudConnection.exe` |
 
 ## <a name="add-mcafee-to-the-exclusion-list-for-microsoft-defender-antivirus"></a>Добавление McAfee в список исключений для антивируса Microsoft Defender
 
 На этом этапе процесса настройки вы добавляете McAfee и другие решения безопасности в список исключений антивируса Microsoft Defender. 
 
-При [добавлении исключений в антивирусные](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-exclusions-microsoft-defender-antivirus)проверки Microsoft Defender необходимо добавить исключения пути и процесса. Имейте в виду следующие моменты:
+При [добавлении исключений в антивирусные](configure-exclusions-microsoft-defender-antivirus.md)проверки Microsoft Defender необходимо добавить исключения пути и процесса. Имейте в виду следующие моменты:
 - Исключения пути исключают определенные файлы и все, к каким именно файлам можно получить доступ.
 - Исключения процесса исключают все, что касается процесса, но не исключают самого процесса.
-- Если вы перечислите каждый исполняемый (.exe) как исключение пути, так и исключение процесса, процесс и все, к чем он прикасается, исключаются.
+- Если каждый исполняемый (.exe) как исключение пути, так и исключение процесса, процесс и все, к чем он прикасается, исключаются.
 - Список исключений процесса с использованием полного пути, а не только их имени. (Метод только для имен менее безопасен.)
 
 Вы можете выбрать один из нескольких способов добавления исключений в антивирус Microsoft Defender, как указано в следующей таблице:
 
 |Метод | Действия|
 |--|--|
-|[Intune](https://docs.microsoft.com/mem/intune/fundamentals/tutorial-walkthrough-endpoint-manager) <br/><br/>**ПРИМЕЧАНИЕ.** Intune теперь является Microsoft Endpoint Manager. |1. Перейдите в центр администрирования [конечной](https://go.microsoft.com/fwlink/?linkid=2109431) точки Microsoft Manager и войдите.<br/><br/>2. **Выберите профили**  >  **конфигурации устройств,** а затем выберите профиль, который необходимо настроить.<br/><br/>3. В **соответствии с управлением** выберите **свойства**. <br/><br/>4. Выберите **параметры конфигурации: Изменить**.<br/><br/>5. Расширение **антивируса Microsoft Defender,** а затем расширение **исключений антивируса Microsoft Defender.**<br/><br/>6. Укажите файлы и папки, расширения и процессы, чтобы исключить из антивирусного сканирования Microsoft Defender. Для справки см. [исключения антивируса Microsoft Defender.](https://docs.microsoft.com/mem/intune/configuration/device-restrictions-windows-10#microsoft-defender-antivirus-exclusions)<br/><br/>7. **Выберите обзор + сохранить**, а затем выбрать **сохранить**.  |
-|[Microsoft Endpoint Configuration Manager](https://docs.microsoft.com/mem/configmgr/) |1. С помощью консоли Configuration  [Manager](https://docs.microsoft.com/mem/configmgr/core/servers/manage/admin-console)перейдите к политикам защиты от конечной точки и активов и защите соответствия требованиям, а затем выберите политику, которую необходимо  >    >  изменить. <br/><br/>2. Укажите параметры исключения для файлов и папок, расширений и процессов, чтобы исключить из антивирусного сканирования Microsoft Defender. |
-|[Объект групповой политики](https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-objects) | 1. На компьютере управления групповой политикой откройте консоль управления групповой политикой [правой](https://technet.microsoft.com/library/cc731212.aspx)кнопкой мыши объект групповой политики, который необходимо настроить, и нажмите **кнопку Изменить**.<br/><br/>2. В **редакторе управления групповой политикой** перейдите к **конфигурации компьютера** и щелкните **административные шаблоны.**<br/><br/>3. Расширь дерево до компонентов Windows > **антивируса Microsoft Defender > исключений.**<br/>**ПРИМЕЧАНИЕ.** В некоторых версиях *Windows Защитник Windows* антивирус, а не антивирус *Microsoft Defender.*<br/><br/>4. Дважды щелкните параметр **"Исключения** пути" и добавьте исключения.<br/>- Установите параметр **Включено**.<br/>- В разделе **Параметры** щелкните **Показать...**.<br/>- Укажите каждую папку по своей строке в столбце **Имя значения.**<br/>- Если вы указываете файл, убедитесь, что введите полностью квалифицированный путь к файлу, включая письмо диска, путь папки, имя файла и расширение. Введите **0** в **столбце Значение.**<br/><br/>5. Нажмите **кнопку ОК**.<br/><br/>6. Дважды щелкните параметр **Исключения расширения** и добавьте исключения.<br/>- Установите параметр **Включено**.<br/>- В разделе **Параметры** щелкните **Показать...**.<br/>- Введите каждое расширение файла по своей строке в столбце **Имя значения.**  Введите **0** в **столбце Значение.**<br/><br/>7. Нажмите **кнопку ОК**. |
-|Объект локальной групповой политики |1. На конечной точке или устройстве откройте редактор локальной групповой политики. <br/><br/>2. Перейдите к **административным** шаблонам конфигурации  >    >  **компьютеров Windows Components**  >  **Антивирусные**  >  **исключения** Microsoft Defender . <br/>**ПРИМЕЧАНИЕ.** В некоторых версиях *Windows Защитник Windows* антивирус, а не антивирус *Microsoft Defender.*<br/><br/>3. Укажите пути и исключения процесса. |
-|Раздел реестра |1. Экспорт следующего ключа реестра: `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\exclusions` .<br/><br/>2. Импорт ключа реестра. Далее приведено два примера.<br/>- Локальный путь: `regedit.exe /s c:\temp\ MDAV_Exclusion.reg` <br/>- Доля сети: `regedit.exe /s \\FileServer\ShareName\MDAV_Exclusion.reg` |
+|[Intune](/mem/intune/fundamentals/tutorial-walkthrough-endpoint-manager) <p>**ПРИМЕЧАНИЕ.** Intune теперь является Microsoft Endpoint Manager. |1. Перейдите в центр администрирования [конечной](https://go.microsoft.com/fwlink/?linkid=2109431) точки Microsoft Manager и войдите.<p>2. **Выберите профили**  >  **конфигурации устройств,** а затем выберите профиль, который необходимо настроить.<p>3. В **соответствии с управлением** выберите **свойства**. <p>4. Выберите **параметры конфигурации: Изменить**.<p>5. Расширение **антивируса Microsoft Defender,** а затем расширение **исключений антивируса Microsoft Defender.**<p>6. Укажите файлы и папки, расширения и процессы, чтобы исключить из антивирусного сканирования Microsoft Defender. Для справки см. [исключения антивируса Microsoft Defender.](/mem/intune/configuration/device-restrictions-windows-10#microsoft-defender-antivirus-exclusions)<p>7. **Выберите обзор + сохранить**, а затем выбрать **сохранить**.  |
+|[Microsoft Endpoint Configuration Manager](/mem/configmgr/) |1. С помощью консоли Configuration  [Manager](/mem/configmgr/core/servers/manage/admin-console)перейдите к политикам защиты от конечной точки и активов и защите соответствия требованиям, а затем выберите политику, которую необходимо  >    >  изменить. <p>2. Укажите параметры исключения для файлов и папок, расширений и процессов, чтобы исключить из антивирусного сканирования Microsoft Defender. |
+|[Объект групповой политики](/previous-versions/windows/desktop/Policy/group-policy-objects) | 1. На компьютере управления групповой политикой откройте консоль управления групповой политикой [правой](https://technet.microsoft.com/library/cc731212.aspx)кнопкой мыши объект групповой политики, который необходимо настроить, и нажмите **кнопку Изменить**.<p>2. В **редакторе управления групповой политикой** перейдите к **конфигурации компьютера** и щелкните **административные шаблоны.**<p>3. Расширь дерево до компонентов Windows > **антивируса Microsoft Defender > исключений.**<br/>**ПРИМЕЧАНИЕ.** В некоторых версиях *Windows Защитник Windows* антивирус, а не антивирус *Microsoft Defender.*<p>4. Дважды щелкните параметр **"Исключения** пути" и добавьте исключения.<br/>- Установите параметр **Включено**.<br/>- В разделе **Параметры** щелкните **Показать...**.<br/>- Укажите каждую папку по своей строке в столбце **Имя значения.**<br/>- Если вы указываете файл, убедитесь, что введите полностью квалифицированный путь к файлу, включая письмо диска, путь папки, имя файла и расширение. Введите **0** в **столбце Значение.**<p>5. Нажмите **кнопку ОК**.<p>6. Дважды щелкните параметр **Исключения расширения** и добавьте исключения.<br/>- Установите параметр **Включено**.<br/>- В разделе **Параметры** щелкните **Показать...**.<br/>- Введите каждое расширение файла по своей строке в столбце **Имя значения.**  Введите **0** в **столбце Значение.**<p>7. Нажмите **кнопку ОК**. |
+|Объект локальной групповой политики |1. На конечной точке или устройстве откройте редактор локальной групповой политики. <p>2. Перейдите к **административным** шаблонам конфигурации  >    >  **компьютеров Windows Components**  >  **Антивирусные**  >  **исключения** Microsoft Defender . <br/>**ПРИМЕЧАНИЕ.** В некоторых версиях *Windows Защитник Windows* антивирус, а не антивирус *Microsoft Defender.*<p>3. Укажите пути и исключения процесса. |
+|Раздел реестра |1. Экспорт следующего ключа реестра: `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\exclusions` .<p>2. Импорт ключа реестра. Далее приведено два примера.<br/>- Локальный путь: `regedit.exe /s c:\temp\ MDAV_Exclusion.reg` <br/>- Доля сети: `regedit.exe /s \\FileServer\ShareName\MDAV_Exclusion.reg` |
 
 ## <a name="add-mcafee-to-the-exclusion-list-for-microsoft-defender-for-endpoint"></a>Добавление McAfee в список исключений для Microsoft Defender для конечной точки
 
-Чтобы добавить исключения в Microsoft Defender для конечной точки, создайте [индикаторы.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/manage-indicators#create-indicators-for-files)
+> [!IMPORTANT]
+> Как правило, не следует добавлять исключения для Defender для конечной точки, особенно если вы уже определили исключения для антивируса Microsoft Defender. Однако, если у вас есть проблемы, из-за которых антивирус Microsoft Defender не будет оставаться в пассивном режиме, выполните следующую задачу. В противном случае пропустить этот раздел и приступить к настройкам групп [устройств, коллекций устройств и подразделений организации.](#set-up-your-device-groups-device-collections-and-organizational-units)
+
+Чтобы добавить исключения в Microsoft Defender для конечной точки, создайте [индикаторы.](indicator-file.md)
 
 1. Перейдите в Центр безопасности защитника Майкрософт [https://aka.ms/MDATPportal](https://aka.ms/MDATPportal) () и войдите.
 
@@ -226,13 +228,13 @@ ms.locfileid: "51933089"
 
 ### <a name="find-a-file-hash-using-cmpivot"></a>Поиск hash файла с помощью CMPivot
 
-CMPivot — это утилита для диспетчера конфигурации в консоли. CMPivot предоставляет доступ к устройству в режиме реального времени в вашей среде. Он немедленно запускает запрос на все подключенные к настоящему моменту устройства в целевой коллекции и возвращает результаты. Дополнительные сведения см. [в обзоре CMPivot.](https://docs.microsoft.com/mem/configmgr/core/servers/manage/cmpivot-overview)
+CMPivot — это утилита для диспетчера конфигурации в консоли. CMPivot предоставляет доступ к устройству в режиме реального времени в вашей среде. Он немедленно запускает запрос на все подключенные к настоящему моменту устройства в целевой коллекции и возвращает результаты. Дополнительные сведения см. [в обзоре CMPivot.](/mem/configmgr/core/servers/manage/cmpivot-overview)
 
 Чтобы использовать CMPivot для получения хаша файла, выполните следующие действия:
 
-1. Просмотрите [необходимые условия.](https://docs.microsoft.com/mem/configmgr/core/servers/manage/cmpivot#prerequisites)
+1. Просмотрите [необходимые условия.](/mem/configmgr/core/servers/manage/cmpivot#prerequisites)
 
-2. [Запуск CMPivot](https://docs.microsoft.com/mem/configmgr/core/servers/manage/cmpivot#start-cmpivot). 
+2. [Запуск CMPivot](/mem/configmgr/core/servers/manage/cmpivot#start-cmpivot). 
 
 3. Подключение к диспетчеру конфигурации `SCCM_ServerName.DomainName.com` ( ).
 
@@ -253,17 +255,17 @@ File(c:\\windows\\notepad.exe)
 
 | Тип коллекции | Действия |
 |--|--|
-|[Группы устройств](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/machine-groups) (ранее называемые группами машин) позволяют группе операций безопасности настраивать возможности безопасности, такие как автоматическое расследование и исправление.<br/><br/> Группы устройств также полезны для назначения доступа к этим устройствам, чтобы ваша группа операций безопасности при необходимости может принимать меры по исправлению. <br/><br/>Группы устройств создаются в Центре безопасности Защитника Майкрософт. |1. Перейдите в Центр безопасности защитника Майкрософт ( [https://aka.ms/MDATPportal](https://aka.ms/MDATPportal) ).<br/><br/>2. В области навигации слева выберите **группы устройств**  >  **Settings Permissions.**  >    <br/><br/>3. Выберите **+ Добавить группу устройств**.<br/><br/>4. Укажите имя и описание группы устройств.<br/><br/>5. В **списке уровня автоматизации** выберите параметр. (Мы рекомендуем автоматически устранять угрозы full **- исправление.)** Дополнительные статьи о различных уровнях автоматизации см. в статьи Как устраняются [угрозы.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/automated-investigations#how-threats-are-remediated)<br/><br/>6. Укажите условия для правила совпадения, чтобы определить, какие устройства относятся к группе устройств. Например, можно выбрать домен, версии ОС или даже использовать [теги устройств.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/machine-tags) <br/><br/>7. На **вкладке Доступ пользователя** укажите роли, которые должны иметь доступ к устройствам, включенным в группу устройств. <br/><br/>8. Выберите **Готово**. |
-|[Коллекции устройств позволяют](https://docs.microsoft.com/mem/configmgr/core/clients/manage/collections/introduction-to-collections) группе операций безопасности управлять приложениями, развертывать параметры соответствия требованиям или устанавливать обновления программного обеспечения на устройствах в организации. <br/><br/>Коллекции устройств создаются с помощью [диспетчера конфигурации.](https://docs.microsoft.com/mem/configmgr/) |Выполните действия в [Create a collection](https://docs.microsoft.com/mem/configmgr/core/clients/manage/collections/create-collections#bkmk_create). |
-|[Организационные подразделения](https://docs.microsoft.com/azure/active-directory-domain-services/create-ou) позволяют логически группить объекты, такие как учетные записи пользователей, учетные записи служб или учетные записи компьютера. Затем можно назначить администраторов определенным организационным подразделениям и применить групповую политику для применения целевых параметров конфигурации.<br/><br/> Организационные единицы определяются в [службах домена Azure Active Directory.](https://docs.microsoft.com/azure/active-directory-domain-services) | Выполните действия в ["Создание организационного подразделения" в управляемом домене Azure Active Directory Domain Services.](https://docs.microsoft.com/azure/active-directory-domain-services/create-ou) |
+|[Группы устройств](machine-groups.md) (ранее называемые группами машин) позволяют группе операций безопасности настраивать возможности безопасности, такие как автоматическое расследование и исправление.<p> Группы устройств также полезны для назначения доступа к этим устройствам, чтобы ваша группа операций безопасности при необходимости может принимать меры по исправлению. <p>Группы устройств создаются в Центре безопасности Защитника Майкрософт. |1. Перейдите в Центр безопасности защитника Майкрософт ( [https://aka.ms/MDATPportal](https://aka.ms/MDATPportal) ).<p>2. В области навигации слева выберите **группы устройств**  >  **Settings Permissions.**  >    <p>3. Выберите **+ Добавить группу устройств**.<p>4. Укажите имя и описание группы устройств.<p>5. В **списке уровня автоматизации** выберите параметр. (Мы рекомендуем автоматически устранять угрозы full **- исправление.)** Дополнительные статьи о различных уровнях автоматизации см. в статьи Как устраняются [угрозы.](automated-investigations.md#how-threats-are-remediated)<p>6. Укажите условия для правила совпадения, чтобы определить, какие устройства относятся к группе устройств. Например, можно выбрать домен, версии ОС или даже использовать [теги устройств.](machine-tags.md) <p>7. На **вкладке Доступ пользователя** укажите роли, которые должны иметь доступ к устройствам, включенным в группу устройств. <p>8. Выберите **Готово**. |
+|[Коллекции устройств позволяют](/mem/configmgr/core/clients/manage/collections/introduction-to-collections) группе операций безопасности управлять приложениями, развертывать параметры соответствия требованиям или устанавливать обновления программного обеспечения на устройствах в организации. <p>Коллекции устройств создаются с помощью [диспетчера конфигурации.](/mem/configmgr/) |Выполните действия в [Create a collection](/mem/configmgr/core/clients/manage/collections/create-collections#bkmk_create). |
+|[Организационные подразделения](/azure/active-directory-domain-services/create-ou) позволяют логически группить объекты, такие как учетные записи пользователей, учетные записи служб или учетные записи компьютера. Затем можно назначить администраторов определенным организационным подразделениям и применить групповую политику для применения целевых параметров конфигурации.<p> Организационные единицы определяются в [службах домена Azure Active Directory.](/azure/active-directory-domain-services) | Выполните действия в ["Создание организационного подразделения" в управляемом домене Azure Active Directory Domain Services.](/azure/active-directory-domain-services/create-ou) |
 
 ## <a name="configure-antimalware-policies-and-real-time-protection"></a>Настройка политик антивирусного обеспечения и защиты в режиме реального времени
 
 С помощью диспетчера конфигурации и коллекции устройств настройте политики антивирусного обеспечения.
 
-- См. [в рублях Create and deploy antimalware policies for Endpoint Protection in Configuration Manager.](https://docs.microsoft.com/mem/configmgr/protect/deploy-use/endpoint-antimalware-policies)
+- См. [в рублях Create and deploy antimalware policies for Endpoint Protection in Configuration Manager.](/mem/configmgr/protect/deploy-use/endpoint-antimalware-policies)
 
-- При создании и настройке политик антивирусного программного обеспечения [](https://docs.microsoft.com/mem/configmgr/protect/deploy-use/endpoint-antimalware-policies#real-time-protection-settings) убедитесь, что необходимо просмотреть параметры защиты в режиме реального времени и включить блокировку [на первый взгляд.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-block-at-first-sight-microsoft-defender-antivirus)
+- При создании и настройке политик антивирусного программного обеспечения [](/mem/configmgr/protect/deploy-use/endpoint-antimalware-policies#real-time-protection-settings) убедитесь, что необходимо просмотреть параметры защиты в режиме реального времени и включить блокировку [на первый взгляд.](configure-block-at-first-sight-microsoft-defender-antivirus.md)
 
 > [!TIP]
 > Вы можете развернуть политики перед устройствами организации на борту.
