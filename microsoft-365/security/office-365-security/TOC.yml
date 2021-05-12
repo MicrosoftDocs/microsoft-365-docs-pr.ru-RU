@@ -303,19 +303,19 @@
     - name: Вопросы и ответы
       items:
         - name: Вопросы и ответы по делегированному администрированию
-          href: delegated-administration-faq.md
+          href: delegated-administration-faq.yml
         - name: Общие вопросы и ответы по EOP
-          href: eop-general-faq.md
+          href: eop-general-faq.yml
         - name: 'Поставленные в очередь, отложенные и возвращенные сообщения EOP: вопросы и ответы'
-          href: eop-queued-deferred-and-bounced-messages-faq.md
+          href: eop-queued-deferred-and-bounced-messages-faq.yml
         - name: Вопросы и ответы о защите от вредоносных программ
-          href: anti-malware-protection-faq-eop.md
+          href: anti-malware-protection-faq-eop.yml
         - name: Вопросы и ответы о защите от нежелательной почты
-          href: anti-spam-protection-faq.md
+          href: anti-spam-protection-faq.yml
         - name: Вопросы и ответы о защите от спуфинга
-          href: anti-spoofing-protection-faq.md
+          href: anti-spoofing-protection-faq.yml
         - name: Вопросы и ответы о карантине
-          href: quarantine-faq.md
+          href: quarantine-faq.yml
     - name: Справочные материалы
       items:
         - name: Стратегия повышения безопасности
