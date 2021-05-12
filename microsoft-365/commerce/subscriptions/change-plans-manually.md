@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -15,19 +16,16 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - commerce_subscriptions
-- PPM_jmueller
-ms.reviewer: jkinma
-search.appverid:
-- MET150
+search.appverid: MET150
 ROBOTS: NOINDEX
 description: Измените подписки вручную, приобретая новую подписку и обеспечивая перечислены и активные подписки.
 ms.date: 03/17/2021
-ms.openlocfilehash: 7361b459e61961efbb729d80dcbb55dfdad65933
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 99bb732405d6420e430adad3ece7ea7f0c93579b
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52293623"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52333306"
 ---
 # <a name="change-plans-manually"></a>Изменение планов вручную
 

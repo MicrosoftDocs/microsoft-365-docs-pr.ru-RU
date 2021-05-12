@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: tugu, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -15,18 +16,15 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - commerce_billing
-- PPM_jmueller
-ms.reviewer: tugu
-search.appverid:
-- MET150
+search.appverid: MET150
 description: Узнайте о выставлении счетов и управлении ими.
 ms.date: 03/17/2021
-ms.openlocfilehash: ecac005b8b49739cb74efc4ca2fae44667f37bad
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 05ab759f300cb7fa6b02e06714d7d98e64890be8
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52293647"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52331602"
 ---
 # <a name="manage-billing-accounts"></a>Управление учетными записями выставления счетов
 
@@ -78,7 +76,7 @@ ms.locfileid: "52293647"
 > [!Note]
 > Роли учетных записей для биллинга применяются только к учетным записям и не применяются к другим сценариям Microsoft 365 центра администрирования.
 
-## <a name="related-content"></a>См. также:
+## <a name="related-content"></a>Связанные материалы
 
 [Сведения о налогах](billing-and-payments/tax-information.md) (статья) \
 [Понимание профилей биллинга](billing-and-payments/manage-billing-profiles.md) (статья)

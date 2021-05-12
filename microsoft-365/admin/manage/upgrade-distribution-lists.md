@@ -1,5 +1,5 @@
 ---
-title: Обновление списков рассылки для Microsoft 365 групп в Outlook
+title: Обновление списков рассылки до Групп Microsoft 365 в Outlook
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -19,46 +19,46 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 787d7a75-e201-46f3-a242-f698162ff09f
-description: Узнайте, как обновить один или несколько списков рассылки до Microsoft 365 групп в Outlook и как использовать PowerShell для обновления нескольких списков рассылки одновременно.
-ms.openlocfilehash: 72a98cdfda441dc71fcc5ae21f0042dafef3aefb
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+description: Узнайте, как обновить один или несколько списков рассылки до Microsoft 365 Groups в Outlook и как использовать PowerShell для одновременного обновления нескольких списков рассылки.
+ms.openlocfilehash: 8179937cafa26a2258f67baee29fcec65bd60632
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297084"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332454"
 ---
-# <a name="upgrade-distribution-lists-to-microsoft-365-groups-in-outlook"></a>Обновление списков рассылки для Microsoft 365 групп в Outlook
+# <a name="upgrade-distribution-lists-to-microsoft-365-groups-in-outlook"></a>Обновление списков рассылки до Групп Microsoft 365 в Outlook
 
-Списки рассылки можно обновить до Microsoft 365 групп в Outlook. Это отличный способ предоставить в списки рассылки организации все функции и функции Microsoft 365 Groups. [Причины для перехода со списков рассылки на группы в Outlook](https://support.microsoft.com/office/7fb3d880-593b-4909-aafa-950dd50ce188)
+Списки рассылки можно обновить до Microsoft 365 Groups в Outlook. Это отличный способ предоставить в списки рассылки организации все функции и функции Microsoft 365 Groups. [Причины для перехода со списков рассылки на группы в Outlook](https://support.microsoft.com/office/7fb3d880-593b-4909-aafa-950dd50ce188)
 
 Вы можете обновить один или сразу несколько списков рассылки.
 
-## <a name="upgrade-one-or-many-distribution-list-groups-to-microsoft-365-groups-in-outlook"></a>Обновление одной или многих групп списков рассылки для Microsoft 365 групп в Outlook
+## <a name="upgrade-one-or-many-distribution-list-groups-to-microsoft-365-groups-in-outlook"></a>Обновление одной или многих групп списков рассылки до Групп Microsoft 365 в Outlook
 
-Вы должны быть глобальным администратором или администратором Exchange для обновления группы списков рассылки. Чтобы обновить Microsoft 365 Группы, группа списков рассылки должна иметь владельца с почтовым ящиком.
+Чтобы обновить группу списков рассылки, необходимо быть глобальным администратором или администратором Exchange. Чтобы перейти на Microsoft 365 Groups, группа списков рассылки должна иметь владельца с почтовым ящиком.
 
-### <a name="use-the-new-eac-to-upgrade-one-or-many-distribution-list-groups-to-microsoft-365-groups-in-outlook"></a>Используйте новый EAC для обновления одной или многих групп списков рассылки для Microsoft 365 групп в Outlook
+### <a name="use-the-new-eac-to-upgrade-one-or-many-distribution-list-groups-to-microsoft-365-groups-in-outlook"></a>Используйте новый EAC для обновления одной или многих групп списков рассылки до Microsoft 365 Groups в Outlook
 
-1. Перейдите в новый [центр администрирования Exchange](https://admin.exchange.microsoft.com)и перейдите в **группы** \> **получателей**.
+1. Перейдите в новый [центр администрирования Exchange](https://admin.exchange.microsoft.com)и перейдите в **группы** \> **получателей.**
 
-2. Выберите группу списка рассылки (также называемую группой рассылки), которую необходимо обновить до Microsoft 365 группы со страницы **Группы.**
+2. Выберите группу списков рассылки (также называемую группой **рассылки),** которую необходимо обновить до группы Microsoft 365 со страницы **Группы.**
 
 3. Выберите **группу рассылки обновления из** панели инструментов.
 
 4. В диалоговом окне **Готов к обновлению?,** нажмите **кнопку Обновление**. Процесс начинается немедленно. В зависимости от размера и количества обновляемой группы списков рассылки процесс может занять несколько минут или часов.
 
 > [!NOTE]
-> Баннер в верхней части указывает, что обновление, например, *группа рассылки (s) была обновлена. На отражение изменений ушло 5 минут. Фильтр по Microsoft 365 группы, чтобы увидеть обновленные группы distrubtion (s).*
+> Баннер в верхней части указывает, что обновление, например, *группа рассылки (s) была обновлена. На отражение изменений ушло 5 минут. Фильтр группы Microsoft 365,* чтобы увидеть обновленные группы деструкции (ы).
 
-### <a name="use-the-classic-eac-to-upgrade-one-or-many-distribution-list-groups-to-microsoft-365-groups-in-outlook"></a>Используйте Классический центр EAC для обновления одной или многих групп списков рассылки для Microsoft 365 групп в Outlook
+### <a name="use-the-classic-eac-to-upgrade-one-or-many-distribution-list-groups-to-microsoft-365-groups-in-outlook"></a>С помощью классического EAC можно обновить одну или несколько групп списков рассылки до Microsoft 365 Groups в Outlook
 
-1. Перейдите в <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">центр администрирования Classic Exchange центра администрирования.</a>
+1. Перейдите в центр <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">администрирования Classic Exchange.</a>
 
 2. В центре администрирования Classic Exchange перейдите в **группы** \> **получателей.**<br/>Вы увидите уведомление, указывающее на то, что у вас есть списки рассылки (также называемые группами рассылки), которые могут быть обновлены до Microsoft 365 Groups.<br/> ![Выберите кнопку Начало работы](../../media/8cf838b4-2644-401f-a366-08c1eea183eb.png)
 
 3. Выберите один или несколько списков рассылки (также **называемых** группой рассылки) на странице **группы.**<br/>![Выберите группу рассылки](../../media/2c303433-d60b-4100-a6ae-5809b03a8cdb.png)
 
-4. Выберите значок обновления.<br/>![Обновление до значка Microsoft 365 групп](../../media/1e28cb3d-bff3-4be3-8329-1902d2d54720.png)
+4. Выберите значок обновления.<br/>![Обновление до значка Microsoft 365 Groups](../../media/1e28cb3d-bff3-4be3-8329-1902d2d54720.png)
 
 5. В диалоговом окте "Да" выберите **"Да",** чтобы подтвердить обновление. Процесс начинается немедленно. В зависимости от размера и количества обновляемого DLs процесс может занять несколько минут или часов.<br/>Если список рассылки не может быть обновлен, появится диалоговое окно. См. [список рассылки, которые нельзя обновить?](#which-distribution-lists-cant-be-upgraded).
 
@@ -86,13 +86,13 @@ ms.locfileid: "52297084"
 Чтобы обновить один DL, запустите следующую команду:
 
 ```PowerShell
-Upgrade-DistributionGroup -DlIdentities \<Dl SMTP address\>`
+Upgrade-DistributionGroup -DlIdentities \<Dl SMTP address\>
 ```
 
 Например, если вы хотите обновить DLs с помощью smTP-dl1@contoso.com, запустите следующую команду:
 
 ```PowerShell
-Upgrade-DistributionGroup -DlIdentities dl1@contoso.com`
+Upgrade-DistributionGroup -DlIdentities dl1@contoso.com
 ```
 
 > [!NOTE]
@@ -134,7 +134,7 @@ Get-DistributionGroup| Foreach-Object{
 }
 ```
 
-## <a name="faq-about-upgrading-distribution-lists-to-microsoft-365-groups-in-outlook"></a>FaQ об обновлении списков рассылки до Microsoft 365 групп в Outlook
+## <a name="faq-about-upgrading-distribution-lists-to-microsoft-365-groups-in-outlook"></a>FaQ об обновлении списков рассылки до Microsoft 365 Groups в Outlook
 
 ### <a name="which-distribution-lists-cant-be-upgraded"></a>Какие списки рассылки нельзя обновить?
 
@@ -167,13 +167,13 @@ Get-DistributionGroup| Foreach-Object{
 
 ### <a name="who-can-run-the-upgrade-scripts"></a>Кто может выполнять сценарии обновления?
 
-Люди с глобальными правами администратора или Exchange администратора.
+Люди с правами глобального администратора или администратора Exchange.
 
 ### <a name="why-is-the-contact-card-still-showing-a-distribution-list-what-should-i-do-to-prevent-an-upgraded-distribution-list-from-showing-up-in-my-auto-suggest-list"></a>Почему карточка контакта по-прежнему отображается в списке рассылки? Что нужно сделать, чтобы обновленный список рассылки не появлялся в списке автоматической рассылки?
 
-- Для Outlook. Если кто-то пытается отправить сообщение в Outlook, введя имя группы Microsoft 365 после миграции, получатель будет решен в качестве списка рассылки, а не группы. Карточка контакта этого получателя останется в списке рассылки. Это связано с кэшем получателей или кэшем псевдонимов в Outlook. Сообщение будет успешно отправлено в группу, но может вызвать путаницу в отправитель.<br/>Вы можете выполнить шаги в этой статье, сведения о списке Outlook [AutoComplete](/outlook/troubleshoot/contacts/information-about-the-outlook-autocomplete-list) для сброса кэша, который исправит эту проблему.
+- Для Outlook. Если кто-то пытается отправить сообщение электронной почты в Outlook, введя имя группы Microsoft 365 после миграции, получатель будет решаться в качестве списка рассылки, а не группы. Карточка контакта этого получателя останется в списке рассылки. Это связано с кэшем получателей или кэшем псевдонимов в Outlook. Сообщение будет успешно отправлено в группу, но может вызвать путаницу в отправитель.<br/>Вы можете выполнить шаги в этой статье, Сведения о списке [Outlook AutoComplete](/outlook/troubleshoot/contacts/information-about-the-outlook-autocomplete-list) для сброса кэша, который исправит эту проблему.
 
-- Для Outlook в Интернете: в случае Outlook в Интернете получатель списка рассылки по-прежнему будет оставаться в кэше. Чтобы обновить кэш, можно выполнить действия в ["Удалить](https://support.microsoft.com/office/9E1419D9-E88F-445B-B07F-F558B8A37C58) предложенное имя или адрес электронной почты из списка автозаполнений", чтобы увидеть контактную карточку группы.
+- Для Outlook в Интернете. В случае Outlook в Интернете получатель списка рассылки по-прежнему останется в кэше. Чтобы обновить кэш, можно выполнить действия в ["Удалить](https://support.microsoft.com/office/9E1419D9-E88F-445B-B07F-F558B8A37C58) предложенное имя или адрес электронной почты из списка автозаполнений", чтобы увидеть контактную карточку группы.
 
 ### <a name="do-new-group-members-get-a-welcome-email-in-their-inbox"></a>Получат ли участники группы приветственные сообщения?
 

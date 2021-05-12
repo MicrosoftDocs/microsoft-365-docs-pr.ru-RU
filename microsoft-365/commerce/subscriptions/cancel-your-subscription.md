@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -15,18 +16,15 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - commerce_subscriptions
-- PPM_jmueller
-ms.reviewer: jkinma
-search.appverid:
-- MET150
+search.appverid: MET150
 description: Узнайте, как отменить пробную или платную подписку на Microsoft 365 для бизнеса.
 ms.date: 04/08/2021
-ms.openlocfilehash: 329bc10adbe6c2ad0efe3609e7cb72141ae346bd
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 022981e91abc985a0540acccccd6f211b39620a4
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297312"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52333318"
 ---
 # <a name="cancel-your-subscription"></a>Отмена подписки
 
@@ -126,7 +124,7 @@ ms.locfileid: "52297312"
 
 - Сведения о том, как перенести сообщения, контакты, задачи и данные из календаря в другую учетную запись, см. в статье [Экспорт и резервное копирование электронной почты, контактов и календаря в PST-файл Outlook](https://support.microsoft.com/office/14252b52-3075-4e9b-be4e-ff9ef1068f91.aspx).
 
-- О том, как сохранить содержимое библиотеки документов или списка (например, контактов) из среды SharePoint Online (OneDrive для бизнеса или сайтов групп) в общие папки или на локальный компьютер, читайте в статье [Перенос контента SharePoint Online вручную](https://docs.microsoft.com/sharepoint/troubleshoot/migration-tool/content-manual-migration).
+- О том, как сохранить содержимое библиотеки документов или списка (например, контактов) из среды SharePoint Online (OneDrive для бизнеса или сайтов групп) в общие папки или на локальный компьютер, читайте в статье [Перенос контента SharePoint Online вручную](/sharepoint/troubleshoot/migration-tool/content-manual-migration).
 
 ### <a name="uninstall-office-optional"></a>Удаление Office (необязательно)
 

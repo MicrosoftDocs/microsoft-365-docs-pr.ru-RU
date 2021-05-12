@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -12,22 +13,19 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-search.appverid:
-- MET150
+search.appverid: MET150
 ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 - commerce_purchase
-- PPM_jmueller
-ms.reviewer: jkinma
-description: Узнайте, как покупать и управлять надстройки для вашей Microsoft 365 для бизнеса подписки.
+description: Узнайте, как покупать и управлять надстройки для microsoft 365 для бизнес-подписки.
 ms.date: 04/02/2021
-ms.openlocfilehash: d60503cd7ab7be219c3ed813dd1d9aef480cd4dc
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 8cf586114c9b6ab30a9f4e5acdd669e185edd71b
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297336"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52331782"
 ---
 # <a name="buy-or-manage-add-ons"></a>Приобретение и управление надстройками
 
@@ -73,7 +71,7 @@ ms.locfileid: "52297336"
 
 Вы не можете удалить традиционную надстройка. Если вы хотите удалить традиционную надстройка, обратитесь за помощью в [службу поддержки.](../business-video/get-help-support.md)
   
-## <a name="related-content"></a>См. также:
+## <a name="related-content"></a>Связанные материалы
 
 [Добавление пространства для хранения подписки](add-storage-space.md) (статья)\
 [Покупка или удаление лицензий на подписку](licenses/buy-licenses.md) (статья)\

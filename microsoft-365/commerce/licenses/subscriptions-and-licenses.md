@@ -5,28 +5,28 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: micurn, nicholak
 ms.audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
 - M365-subscription-management
-- Adm_TOC
-- commerce
+- Adm_O365
 ms.custom:
 - okr_smb
 - AdminSurgePortfolio
 - manage_licenses
-search.appverid:
-- MET150
+- commerce_licensing
+search.appverid: MET150
 description: Узнайте о подписках и лицензиях в Microsoft 365 для бизнеса.
 ms.date: 07/01/2020
-ms.openlocfilehash: 6310b3e48c59da3243746cceca2d0516f511b827
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: a8ec5b0716a5ceaa02526520e76dc390a6fba0f7
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911438"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52331494"
 ---
 # <a name="understand-subscriptions-and-licenses-in-microsoft-365-for-business"></a>Понимание подписок и лицензий в Microsoft 365 для бизнеса
 
@@ -58,7 +58,7 @@ ms.locfileid: "50911438"
 |Exchange Online  <br/> |Для пользователя создается почтовый ящик. <br/> Чтобы узнать о SLA для завершения этой задачи, см. в статью ["Настройка...". сообщения в центре администрирования Microsoft 365](https://support.microsoft.com/help/2635238/setting-up-messages-in-the-office-365-admin-center). |
 |SharePoint Online  <br/> |Назначаются разрешения на изменение стандартного сайта группы SharePoint Online.  <br/> |
 |Skype для бизнеса online  <br/> |У человека есть доступ к функциям, связанным с лицензией.  <br/> |
-|Приложения Microsoft 365 для предприятий  <br/> |Пользователи могут загружать приложения Office на пять компьютеров или компьютеров Mac, пять планшетов и пять смартфонов.  <br/> |
+|Приложения Microsoft 365 для предприятий  <br/> |Пользователи могут загружать приложения Office на пять компьютеров или компьютеров Mac, пять планшетов и пять смартфонов.  <br/> |
 
 ## <a name="understand-licenses-for-non-user-mailboxes"></a>Лицензии для почтовых ящиков, не относящихся к пользователям
 

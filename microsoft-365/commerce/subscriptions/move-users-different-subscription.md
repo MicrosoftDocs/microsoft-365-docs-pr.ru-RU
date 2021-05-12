@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
-ms.reviewer: micurn
+ms.reviewer: micurn, nicholak
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -17,16 +17,15 @@ ms.custom:
 - AdminSurgePortfolio
 - manage_licenses
 - commerce_subscriptions
-- PPM_nicholak
 search.appverid: MET150
 description: Узнайте, как перемещать пользователей между подписками.
 ms.date: 07/01/2020
-ms.openlocfilehash: 7adaa0eba1ccc06029ab5f4e1ada1d961155e66b
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: 0261ee15d16e895cb2552320097d8e6b396d5220
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52280479"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52333210"
 ---
 # <a name="move-users-to-a-different-subscription"></a>Перевод пользователей на другую подписку
 
@@ -64,11 +63,11 @@ ms.locfileid: "52280479"
 
 5. В нижней части выберите **Сохранить изменения** \> **Закрыть**.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Если вы не собираетесь перенаходить неиспользование лицензий другим [](../../commerce/licenses/buy-licenses.md) [пользователям,](../../managed-desktop/get-started/assign-licenses.md)рассмотрите возможность удаления лицензий из подписки, чтобы не платить за больше лицензий, чем нужно.
 
-## <a name="related-content"></a>См. также:
+## <a name="related-content"></a>Связанные материалы
 
 [Назначение лицензий пользователям](../../admin/manage/assign-licenses-to-users.md) (статья)\
 [Удаление лицензий из подписки](../licenses/buy-licenses.md) (статья)\

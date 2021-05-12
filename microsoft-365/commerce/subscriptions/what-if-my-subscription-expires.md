@@ -19,12 +19,12 @@ ms.custom:
 search.appverid: MET150
 description: 'Узнайте, что происходит с данными при окончании срока действия, отключении или отмене подписки на Microsoft 365 для бизнеса. '
 ms.date: 04/08/2021
-ms.openlocfilehash: f226514078a9f6d6bc1f4761269e2740300ef88d
-ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
+ms.openlocfilehash: d0821214f9a8c242306685db2ee7faf3779cecff
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52326802"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52333030"
 ---
 # <a name="what-happens-to-my-data-and-access-when-my-microsoft-365-for-business-subscription-ends"></a>Что происходит с данными и возможностями доступа при окончании срока действия подписки на Microsoft 365 для бизнеса?
 
@@ -50,6 +50,7 @@ ms.locfileid: "52326802"
 *Для большинства предложений в большинстве стран и регионов.
   
 > [!NOTE]
+>
 > **Что такое "данные клиента"?** Данные клиента в соответствии с определением, содержащимся в [условиях использования веб-служб](https://go.microsoft.com/fwlink/p/?LinkId=613649), — это все данные, в том числе текст, звуки или рисунки, предоставленные корпорации Майкрософт клиентом или от его имени посредством служб Microsoft 365. Дополнительные сведения о защите данных клиента см. в статье [Начало работы с порталом Microsoft Service Trust Portal](../../compliance/get-started-with-service-trust-portal.md).
 
 ## <a name="what-happens-if-i-cancel-a-subscription"></a>Что происходит при отмене подписки?
@@ -68,6 +69,7 @@ ms.locfileid: "52326802"
 > Если вам нужно, чтобы данные вашей подписки были удалены до истечения стандартной стадии отключения, вы можете [закрыть свою учетную запись](../close-your-account.md).
   
 > [!NOTE]
+>
 > Если вы явно удаляете подписку, она пропускает этапы "Просрочено" и "Отключено", и данные и содержимое SharePoint Online, включая OneDrive, удаляются немедленно.
 
 ## <a name="what-are-my-options-if-my-subscription-is-about-to-expire"></a>Что делать, если завершается срок действия моей подписки?

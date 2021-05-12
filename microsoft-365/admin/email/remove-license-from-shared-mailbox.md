@@ -4,6 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: sharik
 author: SKjerland
+ms.reviewer: nicholak
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -12,22 +13,20 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
 ms.custom:
-- MSStore_Link
 - AdminSurgePortfolio
+- commerce_licensing
 search.appverid:
 - BCS160
 - MET150
 - MOE150
-ms.assetid: bb229ee9-e7be-4990-b3eb-354e75740496
 description: 'Удалите лицензию из общего почтового ящика, чтобы назначить ее другому пользователю. '
-ms.openlocfilehash: 873b50b34b9887ada92cc56f7083e3b748a52035
-ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
+ms.openlocfilehash: 2d0e6e6b1d6222bea80265bf6cc008e21ac3239c
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52327226"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332658"
 ---
 # <a name="remove-a-license-from-a-shared-mailbox"></a>Удаление лицензии из общего почтового ящика
 
@@ -42,7 +41,6 @@ ms.locfileid: "52327226"
 > 3. Общий почтовый ящик помещается в удержание судебного разбирательства.
 > 4. Общий почтовый ящик имеет лицензию Microsoft Defender.
 
-  
 ## <a name="remove-the-license"></a>Удаление лицензии
 
 ::: moniker range="o365-worldwide"
@@ -50,7 +48,7 @@ ms.locfileid: "52327226"
 1. В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Активные пользователи</a>.
 
    > [!NOTE]
-   > Необходимо удалить лицензию со страницы Активные пользователи. Вы не можете удалить лицензию со страницы Общих почтовых ящиков, так как лицензии — это параметры пользователя. 
+   > Необходимо удалить лицензию со страницы Активные пользователи. Вы не можете удалить лицензию со страницы Общих почтовых ящиков, так как лицензии — это параметры пользователя.
   
 2. Выберите общий почтовый ящик.
 
@@ -100,9 +98,7 @@ ms.locfileid: "52327226"
 
 6. Вы по-прежнему платите за лицензию. Чтобы перестать платить за это, [снимите лицензию из подписки.](../../commerce/licenses/buy-licenses.md)
 
-::: moniker-end 
-
- 
+::: moniker-end
 
 ## <a name="related-articles"></a>Связанные статьи
 

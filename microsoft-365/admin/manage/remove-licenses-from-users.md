@@ -5,28 +5,28 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: sinakassaw, nicholak
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
 - M365-subscription-management
-- Adm_TOC
+- Adm_O365
 ms.custom:
 - AdminSurgePortfolio
-- manage_licenses
 - okr_smb
-- commerce
-search.appverid:
-- MET150
+- manage_licenses
+- commerce_licensing
+search.appverid: MET150
 description: Узнайте, как отогнать лицензии из учетных записей пользователей.
 ms.date: 07/01/2020
-ms.openlocfilehash: 87bb8f6fe0e85fc4ac832f2bc4ad746e8d6386eb
-ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
+ms.openlocfilehash: 6f2cbf65e1d6a38a4b1ed00976d4dd473d7331e9
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52310996"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332418"
 ---
 # <a name="unassign-licenses-from-users"></a>Отмена назначения лицензий пользователям
 
@@ -35,7 +35,7 @@ ms.locfileid: "52310996"
 > [!NOTE]
 > В качестве администратора вы не можете назначить лицензии или отменить их назначение для подписок, самостоятельно приобретенных пользователем в организации. Вы можете [получить контроль над самостоятельно приобретенной подпиской](../../commerce/subscriptions/manage-self-service-purchases-admins.md#take-over-a-self-service-purchase-subscription), а затем назначить лицензии или отменить их назначение.
 
-## <a name="before-you-begin"></a>Прежде чем начать
+## <a name="before-you-begin"></a>Подготовка
 
 - Чтобы отогнать лицензии, необходимо быть администратором глобальной лицензии, лицензии и пользователя. Дополнительные сведения см. в статье [Роли администраторов в Microsoft 365](../add-users/about-admin-roles.md).
 - Вы можете [удалить лицензии из учетных записей пользователей с помощью Office 365 PowerShell](../../enterprise/remove-licenses-from-user-accounts-with-microsoft-365-powershell.md).
@@ -95,7 +95,7 @@ ms.locfileid: "52310996"
 3. В области справа выберите **Лицензии и приложения**.
 4. **Расширите раздел Лицензии,** очистите поля для лицензий, которые необходимо отостановить, а затем выберите **Сохранить изменения.**
 
-###  <a name="unassign-licenses-from-multiple-users"></a>Unassign licenses from multiple users
+### <a name="unassign-licenses-from-multiple-users"></a>Unassign licenses from multiple users
 
 ::: moniker range="o365-worldwide"
 
@@ -123,17 +123,17 @@ ms.locfileid: "52310996"
 ## <a name="what-happens-to-a-users-data-when-you-remove-their-license"></a>Что происходит с данными пользователя при удале лицензии?
 
 - При удалении лицензии у пользователя данные, связанные с этой учетной записью, удерживаются в течение 30 дней. После 30-дневного льготного периода данные удаляются и не могут быть восстановлены.
-- Файлы, сохраненные в OneDrive для бизнеса, не удаляются, если пользователь не удаляется из центра администрирования Microsoft 365 или удаляется с помощью синхронизации Active Directory. Дополнительные сведения см. [в OneDrive хранения и удаления.](/onedrive/retention-and-deletion)
-- При удалении лицензии почтовый ящик пользователя перестает искать с помощью средства поиска электронных данных, например поиска контента или Advanced eDiscovery. Дополнительные сведения см. в справке "Поиск отключенных или от лицензированных почтовых ящиков" в [справочной ссылке на поиск контента.](../../compliance/content-search-reference.md#searching-disconnected-or-de-licensed-mailboxes)
-- Если у Enterprise подписка, например Office 365 корпоративный E3, Exchange Online позволяет сохранять данные почтовых ящиков удаленных учетных записей пользователей с помощью неактивных почтовых [ящиков.](../../compliance/inactive-mailboxes-in-office-365.md) Дополнительные сведения см. в [сообщении Create and manage inactive mailboxes in Exchange Online.](../../compliance/create-and-manage-inactive-mailboxes.md)
-- Сведения о том, как заблокировать доступ пользователя к данным Microsoft 365 после удаления лицензии, а также как получить доступ к данным после этого, см. в этой записи [Remove a former employee.](../add-users/remove-former-employee.md)
-- Если вы удалите лицензию пользователя и Office установлены приложения, [](https://support.microsoft.com/office/0d23d3c0-c19c-4b2f-9845-5344fedc4380) они увидят ошибки без лицензии на продукт и активацию Office при использовании Office приложений.
+- Файлы, сохраненные в OneDrive для бизнеса, не удаляются, если пользователь не удаляется из центра администрирования Microsoft 365 или удаляется с помощью синхронизации Active Directory. Дополнительные сведения см. в [сайте Хранения и удаления OneDrive.](/onedrive/retention-and-deletion)
+- При удалении лицензии почтовый ящик пользователя больше не будет искаться с помощью средства поиска электронных данных, например поиска контента или предварительного поиска электронных данных. Дополнительные сведения см. в материалах "Поиск отключенных или от лицензированных почтовых ящиков" в "Поиск контента" [в Microsoft 365.](../../compliance/content-search.md)
+- Если у вас есть подписка enterprise, например Office 365 Enterprise E3, Exchange Online позволяет сохранять данные почтовых ящиков удаленных учетных записей пользователей с помощью неактивных почтовых [ящиков.](../../compliance/inactive-mailboxes-in-office-365.md) Дополнительные сведения см. в рублях Создание и управление неактивными почтовыми [ящиками в Exchange Online.](../../compliance/create-and-manage-inactive-mailboxes.md)
+- Сведения о том, как заблокировать доступ пользователя к данным Microsoft 365 после удаления лицензии, а также как получить доступ к данным после этого, см. в см. в twitter [Remove a former employee.](../add-users/remove-former-employee.md)
+- Если вы удалите лицензию пользователя и у них все еще установлены приложения Office, они увидят ошибки без лицензии на продукт и активацию в [Office](https://support.microsoft.com/office/0d23d3c0-c19c-4b2f-9845-5344fedc4380) при использовании приложений Office.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
 Если вы не собираетесь перенаходить неиспользование лицензий другим [](../../commerce/licenses/buy-licenses.md) [пользователям,](../../managed-desktop/get-started/assign-licenses.md)рассмотрите возможность удаления лицензий из подписки, чтобы не платить за больше лицензий, чем нужно.
 
-## <a name="related-content"></a>См. также:
+## <a name="related-content"></a>Связанные материалы
 
 [Удаление лицензий из подписки](../../commerce/licenses/buy-licenses.md) (статья)\
 [Назначение лицензий пользователям](assign-licenses-to-users.md) (статья)\

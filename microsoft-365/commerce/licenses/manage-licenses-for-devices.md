@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: shegu, nicholak
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -12,27 +13,26 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
-- commerce
 description: Узнайте, как назначать лицензии группам для использования с устройствами.
 ms.custom:
-- okr_SMB
 - AdminSurgePortfolio
-search.appverid:
-- MET150
-ms.openlocfilehash: a316810e3e6ddb1373697dc56b2fccb5a32cf0b1
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+- okr_SMB
+- commerce_licensing
+search.appverid: MET150
+ms.date: 03/17/2021
+ms.openlocfilehash: 67bd0734953c64f51390aac949a7da477914c7b4
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911486"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52331662"
 ---
 # <a name="manage-licenses-for-devices"></a>Управление лицензиями для устройств
 
 Если у вас есть приложения Microsoft 365 для корпоративных (устройств) или Microsoft 365 Apps для образования (устройства), вы можете назначить лицензии устройствам с помощью групп Azure AD. Если у устройства есть лицензия, любой, кто использует это устройство, может использовать Приложения Microsoft 365 для предприятия (ранее названный Office 365 ProPlus). Например, предположим, что у вас есть 20 ноутбуков и планшетов, которые используются людьми в вашей организации. При назначении лицензии каждому устройству каждый человек, войдите на одно из устройств, использует Microsoft 365 Apps для предприятия без необходимости иметь собственную лицензию.
 
 > [!IMPORTANT]
-> Лицензирование на основе устройств для Microsoft 365 Apps для предприятия доступно только в качестве надстройки для некоторых коммерческих клиентов и некоторых образовательных клиентов. Для коммерческих клиентов лицензия *microsoft 365 Apps для предприятия (устройства)* доступна только Соглашение Enterprise/Соглашение Enterprise Подписка. Для образовательных клиентов лицензия *является Microsoft 365 Apps for Education (device)* и доступна только через систему Регистрации для образовательных решений (EES). Дополнительные сведения читайте в блоге о доступности [образования.](https://educationblog.microsoft.com/2019/08/attention-it-administrators-announcing-device-based-subscription-for-education/) Для коммерческой доступности обратитесь к представителю учетной записи Майкрософт.
+> Лицензирование на основе устройств для Microsoft 365 Apps для предприятия доступно только в качестве надстройки для некоторых коммерческих клиентов и некоторых образовательных клиентов. Для коммерческих клиентов лицензия *microsoft 365 Apps для предприятия (устройства)* доступна только Соглашение Enterprise/Соглашение Enterprise Подписка. Для образовательных клиентов лицензия *является Microsoft 365 Apps for Education (device)* и доступна только через систему Регистрации для образовательных решений (EES). Дополнительные сведения читайте в блоге о доступности [образования.](https://educationblog.microsoft.com/2019/08/attention-it-administrators-announcing-office-365-proplus-device-based-subscription-for-education) Для коммерческой доступности обратитесь к представителю учетной записи Майкрософт.
 
 Для начала создайте группу в центре администрирования Azure Active Directory и назначьте устройства группе. Дополнительные информацию о лицензировании устройств, включая требования к устройствам, типах групп, которые можно использовать, и о настройке Microsoft 365 Apps для корпоративного использования лицензирования устройств см. в статью Лицензирование на основе устройств для [Microsoft 365 Apps для](/deployoffice/device-based-licensing)предприятия.
 

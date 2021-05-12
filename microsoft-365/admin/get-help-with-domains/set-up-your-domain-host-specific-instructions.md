@@ -1,5 +1,5 @@
 ---
-title: Настройка домена (инструкции для конкретных узлов)
+title: Настройка домена
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -22,14 +22,14 @@ search.appverid:
 - GEA150
 ms.assetid: ae950c9e-e8d9-4108-b0cb-449156998580
 description: Узнайте, как управлять собственными записями DNS или позволить Корпорации Майкрософт управлять записями DNS для вас.
-ms.openlocfilehash: e58242feb2a881bea9d7457a2b606bd3a6989949
-ms.sourcegitcommit: d3101e0c7f4ce52fc34402c28d4acb81206532c5
+ms.openlocfilehash: 475e2c13a1b73a58cfb9f72e9d335a2d1c8b4da5
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/17/2021
-ms.locfileid: "51880686"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332478"
 ---
-# <a name="set-up-your-domain-host-specific-instructions"></a>Настройка домена (инструкции для конкретных узлов)
+# <a name="set-up-your-domain"></a>Настройка домена
 
 Чтобы начать использовать настраиваемый домен (contoso.com) с Microsoft 365, необходимо проверить домен и настроить DNS-записи домена. 
   

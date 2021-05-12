@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: a7c98273-067e-4162-b3a1-4ba081796012
 description: Узнайте, как отправлять электронную почту в качестве списка рассылки в Microsoft 365.
-ms.openlocfilehash: 379f2471fd38da5098bf8f2ca82f4f76ee82bd8e
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: bb1d5a62d2b1a3bbfae87849e8aa96cef14c173e
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915162"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52332439"
 ---
 # <a name="send-email-as-a-distribution-list"></a>Отправка электронной почты в качестве списка рассылки
 
@@ -38,6 +38,8 @@ ms.locfileid: "50915162"
   
  **Администраторы.** Убедитесь, что вы следовали шагам пользователя Или контакта [Microsoft 365](../email/add-user-or-contact-to-distribution-list.md) к списку и разрешить пользователям отправлять электронную почту в качестве [темы группы Microsoft 365,](../../solutions/allow-members-to-send-as-or-send-on-behalf-of-group.md#allow-members-to-send-email-as-a-group) и добавьте правильных людей в список рассылки.
   
+## <a name="outlook-on-the-web"></a>Outlook в Интернете
+
 1. Откройте Outlook в Интернете и войдите в почтовый ящик. 
     
 2. Откройте сообщение, адресованное списку рассылки. 
@@ -49,3 +51,13 @@ ms.locfileid: "50915162"
 5. Щелкните правой кнопкой мыши по адресу From `Ina@weewalter.me` (например, удалить) и выберите **Удалить**.<br/> ![Удаление псевдонима FROM](../../media/9b8d8e8f-dc46-499c-89bd-0a480603bf1f.png)
   
 6. Затем введите адрес списка рассылки, например support@contoso.com, и отправьте сообщение. При следующем ответе из списка рассылки его адрес будет отображаться в качестве параметра в **списке From.**<br/>![Появляется псевдоним общего почтового ящика](../../media/f7632a9a-9cab-446c-9e37-23ef50c5b975.png)
+
+## <a name="outlook"></a>Outlook
+
+1. Открытый клиент для настольных компьютеров Outlook.
+
+2. Сопишите новое сообщение электронной почты. Щелкните **поле From** и выберите другой адрес **электронной почты.** Если вы не видите поле From, перейдите в **Параметры** и выберите **В** разделе Поля Показать.
+
+3. Выберите адрес **списка рассылки** из глобального списка адресов.
+
+4. Отправка электронной почты.

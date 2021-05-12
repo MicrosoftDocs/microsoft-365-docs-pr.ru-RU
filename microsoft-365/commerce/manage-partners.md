@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: tugu, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -15,18 +16,15 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - commerce_subscriptions
-- PPM_jmueller
-ms.reviewer: tugu
-search.appverid:
-- MET150
+search.appverid: MET150
 description: Узнайте, как работать с поставщиками решений (партнерами), сертифицированными корпорацией Майкрософт, для приобретения и управления продуктами и службами для вашей организации или школы.
 ms.date: 04/13/2021
-ms.openlocfilehash: e225fa0c525d484e8c5a3887b82277a1da5861b0
-ms.sourcegitcommit: 794f9767aaebe13ab1aead830b214ea674289d19
+ms.openlocfilehash: 63c5595d14ca0a531f50875ea8058663b626bb89
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52107572"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52331578"
 ---
 # <a name="manage-partner-relationships"></a>Управление партнерскими отношениями
 
@@ -36,7 +34,7 @@ ms.locfileid: "52107572"
 2. Партнеры отправляют клиентам запрос по электронной почте для установления партнерских отношений.
 3. Клиенты принимают приглашение в Microsoft 365 центре администрирования и начинают работать с партнером.
 
-## <a name="before-you-begin"></a>Прежде чем начать
+## <a name="before-you-begin"></a>Подготовка
 
 Для этого необходимо быть администратором Global или Billing. Дополнительные сведения см. в статье [О ролях администраторов](../admin/add-users/about-admin-roles.md).
 

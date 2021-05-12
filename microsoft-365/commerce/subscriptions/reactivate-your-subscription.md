@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
-ms.reviewer: jkinma
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -18,22 +18,21 @@ ms.custom:
 - fwlink 874703
 - AdminSurgePortfolio
 - commerce_subscriptions
-- PPM_jmueller
 search.appverid: MET150
 description: Узнайте, как активировать подписку по истечении срока действия, отключению или отмене подписки.
 ms.date: 04/07/2021
-ms.openlocfilehash: 80d1594890ec15fc4c2391d439ccbc16be6ae707
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: 7f77a9782e9028521cbcefbdbffc49bc28db8e9c
+ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52280899"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52333174"
 ---
 # <a name="reactivate-your-subscription"></a>Повторная активация подписки
 
 Вы можете активировать подписку в центре администрирования, если: срок действия подписки истек, был отключен корпорацией Майкрософт или если вы отменили ее в середине срока подписки.
   
-## <a name="before-you-begin"></a>Прежде чем начать
+## <a name="before-you-begin"></a>Подготовка
 
 Чтобы активировать подписку, необходимо быть администратором Global или Billing. Дополнительные сведения см. в статье [О ролях администраторов](../../admin/add-users/about-admin-roles.md).
 
@@ -64,7 +63,7 @@ ms.locfileid: "52280899"
 3. В области **Повторно активировать эту подписку** выберите способ оплаты из раскрывающегося списка или нажмите **Добавить способ оплаты**.
 4. Нажмите **Сохранить**.
 
-## <a name="related-content"></a>См. также:
+## <a name="related-content"></a>Связанные материалы
 
 [Попробуйте или Microsoft 365 подписку](../try-or-buy-microsoft-365.md) на бизнес (статья)\
 [Продление подписки Microsoft 365 для бизнеса](renew-your-subscription.md) (статья)\
