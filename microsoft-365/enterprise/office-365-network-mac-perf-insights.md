@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Network Insights (preview)
+title: Microsoft 365 Network Insights
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -13,15 +13,15 @@ search.appverid:
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
-description: Microsoft 365 Network Insights (preview)
-ms.openlocfilehash: ca665f4e492b071e5a387ffde0efae8336bd96bc
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+description: Microsoft 365 Network Insights
+ms.openlocfilehash: 10b1c66a8f9aae555c2841b2b290f341bec3c7ec
+ms.sourcegitcommit: fb6c5e04ade1e82b26b2f911577b5ac721f1c544
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245784"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52470572"
 ---
-# <a name="microsoft-365-network-insights-preview"></a>Microsoft 365 Network Insights (preview)
+# <a name="microsoft-365-network-insights"></a>Microsoft 365 Network Insights
 
 **Сетевые сведения** — это показатели производительности, собранные Microsoft 365 клиента, и доступные для просмотра только административными пользователями в клиенте. Сведения отображаются в центре администрирования Microsoft 365 на <https://portal.microsoft.com/adminportal/home#/networkperformance> .
 

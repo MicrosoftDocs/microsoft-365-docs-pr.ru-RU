@@ -1,5 +1,5 @@
 ---
-title: Подключение к сети в центре администрирования Microsoft 365 (предварительный просмотр)
+title: Подключение к сети в центре Microsoft 365 администрирования
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -14,15 +14,15 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 - m365initiative-coredeploy
-description: Обзор сетевого подключения в центре администрирования Microsoft 365 (предварительный просмотр)
-ms.openlocfilehash: 4f88b3ad5bf8f0c32059a26348a651a6024ad544
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+description: Обзор сетевых подключений в центре администрирования Microsoft 365
+ms.openlocfilehash: 75451a73ed56dade796f6de288f7f4acfb147960
+ms.sourcegitcommit: fb6c5e04ade1e82b26b2f911577b5ac721f1c544
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245772"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52470668"
 ---
-# <a name="network-connectivity-in-the-microsoft-365-admin-center-preview"></a>Подключение к сети в центре администрирования Microsoft 365 (предварительный просмотр)
+# <a name="network-connectivity-in-the-microsoft-365-admin-center"></a>Подключение к сети в центре Microsoft 365 администрирования
 
 Центр администрирования Microsoft 365 теперь включает агрегированные метрики сетевой подключения, собранные из Microsoft 365 клиента и доступные для просмотра только административными пользователями в клиенте.
 

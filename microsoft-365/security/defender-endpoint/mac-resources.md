@@ -18,18 +18,19 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 34feeec0f8c34748678862b9aa7b20f84087eb5e
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 29e9eefdf85c80b6d3c44eba01d0df57be0193a4
+ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934529"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52346394"
 ---
 # <a name="resources-for-microsoft-defender-for-endpoint-on-macos"></a>Ресурсы для Microsoft Defender для конечной точки на macOS
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Область применения:**
+
 - [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
@@ -51,7 +52,7 @@ ms.locfileid: "51934529"
 
 2. Воспроизведение проблемы
 
-3. Запустите `sudo mdatp diagnostic create` для поддержки журналов Microsoft Defender для конечных точек. Файлы будут храниться в архиве .zip. Эта команда также распечатает путь файла к резервному копированию после успешной операции.
+3. Запустите `sudo mdatp diagnostic create` для поддержки журналов Microsoft Defender для конечных точек. Файлы будут храниться в .zip архиве. Эта команда также распечатает путь файла к резервному копированию после успешной операции.
 
    > [!TIP]
    > По умолчанию журналы диагностики сохраняются до `/Library/Application Support/Microsoft/Defender/wdavdiag/` . Чтобы изменить каталог, в котором сохраняются диагностические журналы, перейдите в приведенную ниже команду, заменив `--path [directory]` `[directory]` нужный каталог.
@@ -59,6 +60,7 @@ ms.locfileid: "51934529"
    ```bash
    sudo mdatp diagnostic create
    ```
+
    ```console
    Diagnostic file created: "/Library/Application Support/Microsoft/Defender/wdavdiag/932e68a8-8f2e-4ad0-a7f2-65eb97c0de01.zip"
    ```
@@ -68,6 +70,7 @@ ms.locfileid: "51934529"
    ```bash
    mdatp log level set --level info
    ```
+
    ```console
    Log level configured successfully
    ```
@@ -80,7 +83,7 @@ ms.locfileid: "51934529"
 
 ## <a name="uninstalling"></a>Uninstalling
 
-Существует несколько способов удалить Microsoft Defender для конечной точки на macOS. Обратите внимание, что, несмотря на то, что централизованный централизованный отмывок доступен в JAMF, он еще не доступен для Microsoft Intune.
+Существует несколько способов удалить Microsoft Defender для конечной точки на macOS. Обратите внимание, что, хотя централизованная управляемая удалить доступна на JAMF, она еще недоступна для Microsoft Intune.
 
 ### <a name="interactive-uninstallation"></a>Интерактивная деинсталлация
 
@@ -88,14 +91,13 @@ ms.locfileid: "51934529"
 
 ### <a name="from-the-command-line"></a>Из командной строки
 
-- ```sudo rm -rf '/Applications/Microsoft Defender ATP.app'```
-- ```sudo rm -rf '/Library/Application Support/Microsoft/Defender/'```
+- ```sudo '/Library/Application Support/Microsoft/Defender/uninstall/uninstall'```
 
 ## <a name="configuring-from-the-command-line"></a>Настройка из командной строки
 
 Из командной строки можно выполнять важные задачи, такие как управление настройками продуктов и сканы по запросу.
 
-|Group        |Сценарий                                   |Команда                                                                           |
+|Group        |Сценарий                                   |Command                                                                           |
 |-------------|-------------------------------------------|----------------------------------------------------------------------------------|
 |Конфигурация|Включите/отключите защиту в режиме реального времени           |`mdatp config real-time-protection --value [enabled/disabled]`                    |
 |Конфигурация|Включите/отключите облачную защиту               |`mdatp config cloud --value [enabled/disabled]`                                   |
@@ -108,8 +110,8 @@ ms.locfileid: "51934529"
 |Конфигурация|Отключение защиты PUA                    |`mdatp threat policy set --type potentially_unwanted_application -- action off`   |
 |Конфигурация|Включим режим аудита для защиты PUA      |`mdatp threat policy set --type potentially_unwanted_application -- action audit` |
 |Конфигурация|Включите/отключите passiveMode                    |`mdatp config passive-mode --value enabled [enabled/disabled]`                    |
-|Диагностика  |Изменение уровня журнала                       |`mdatp log level set --level [error/warning/info/verbose]`                        |
-|Диагностика  |Создание журналов диагностики                   |`mdatp diagnostic create --path [directory]`                                      |
+|Diagnostics  |Изменение уровня журнала                       |`mdatp log level set --level [error/warning/info/verbose]`                        |
+|Diagnostics  |Создание журналов диагностики                   |`mdatp diagnostic create --path [directory]`                                      |
 |Здравоохранение       |Проверка состояния продукта                 |`mdatp health`                                                                    |
 |Здравоохранение       |Проверка атрибута spefic product       |`mdatp health --field [attribute: healthy/licensed/engine_version...]`            |
 |Защита   |Сканирование пути                                |`mdatp scan custom --path [path] [--ignore-exclusions]`                           |
@@ -117,7 +119,7 @@ ms.locfileid: "51934529"
 |Защита   |Полное сканирование                             |`mdatp scan full`                                                                 |
 |Защита   |Отмена текущего сканирования по запросу           |`mdatp scan cancel`                                                               |
 |Защита   |Запрос обновления сведений о безопасности     |`mdatp definitions update`                                                        |
-|EDR          |Добавление тега группы на устройство. Теги EDR используются для управления группами устройств. Дополнительные сведения можно получить на сайте https://docs.microsoft.com/microsoft-365/security/defender-endpoint/machine-groups |`mdatp edr tag set --name GROUP --value [name]` |
+|EDR          |Добавление тега группы на устройство. EDR теги используются для управления группами устройств. Дополнительные сведения можно получить на сайте https://docs.microsoft.com/microsoft-365/security/defender-endpoint/machine-groups |`mdatp edr tag set --name GROUP --value [name]` |
 |EDR          |Удаление тега группы с устройства               |`mdatp edr tag remove --tag-name [name]`                                          |
 |EDR          |Добавление группового ID                               |`mdatp edr group-ids --group-id [group]`                                          |
 
@@ -158,4 +160,4 @@ echo "source /Applications/Microsoft\ Defender\ ATP.app/Contents/Resources/Tools
 
 ## <a name="microsoft-defender-for-endpoint-portal-information"></a>Сведения портала Microsoft Defender для конечных точек
 
-[Возможности EDR](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/edr-capabilities-for-macos-have-now-arrived/ba-p/1047801)для macOS уже прибыли, в блоге Microsoft Defender for Endpoint, содержит подробные указания о том, чего ожидать в Центре безопасности конечных точек Microsoft Defender.
+EDR возможности [macOS](https://techcommunity.microsoft.com/t5/microsoft-defender-atp/edr-capabilities-for-macos-have-now-arrived/ba-p/1047801)уже прибыли в блоге Microsoft Defender for Endpoint, где подробно описано, чего ожидать в Центре безопасности конечных точек Microsoft Defender.

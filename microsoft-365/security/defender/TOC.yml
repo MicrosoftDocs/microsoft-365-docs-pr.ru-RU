@@ -104,13 +104,13 @@
                   href: 'https://docs.microsoft.com/security/compass/incident-response-playbooks'
                 - name: Ответ на первый инцидент
                   items:
-                    - name: Общие сведения
+                    - name: Введение
                       href: first-incident-overview.md
                     - name: Подготовка
                       href: first-incident-prepare.md
                     - name: Этап 1. Анализ и анализ
                       href: first-incident-analyze.md
-                    - name: "Этап\_2. Устранение ошибок"
+                    - name: "Этап\_2. Исправление"
                       href: first-incident-remediate.md
                     - name: "Этап\_3. Проверка"
                       href: first-incident-post.md
@@ -118,7 +118,7 @@
                       items:
                         - name: Фишинговое письмо
                           href: first-incident-path-phishing.md
-                        - name: Identity
+                        - name: Удостоверение
                           href: first-incident-path-identity.md
             - name: Получение уведомлений по электронной почте
               href: get-incident-notifications.md
@@ -186,8 +186,6 @@
                   href: advanced-hunting-alertevidence-table.md
                 - name: AlertInfo
                   href: advanced-hunting-alertinfo-table.md
-                - name: AppFileEvents
-                  href: advanced-hunting-appfileevents-table.md
                 - name: CloudAppEvents
                   href: advanced-hunting-cloudappevents-table.md
                 - name: DeviceEvents

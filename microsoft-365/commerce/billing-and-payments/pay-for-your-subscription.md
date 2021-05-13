@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -12,23 +13,26 @@ localization_priority: Priority
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-search.appverid:
-- MET150
-ms.assetid: 734f4aab-df2d-4e9b-8cb1-691910bde216
+search.appverid: MET150
 description: Узнайте о доступных вариантах оплаты подписки на Microsoft 365 для бизнеса.
 ms.custom:
 - okr_SMB
 - fwlink 808700 for SEPA UI glink 906 for older uI
 - AdminSurgePortfolio
-- commerce
-ms.openlocfilehash: 582ecb0f9b46d877c30aa29334b30b9209c93993
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+- commerce_billing
+- PPM_jmueller
+ms.date: 05/04/2021
+ms.openlocfilehash: 85fdcc0aca52b91ed34b1729f6eea805cce37ade
+ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51576941"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52280587"
 ---
 # <a name="how-to-pay-for-your-subscription"></a>Оплата подписки
+
+> [!IMPORTANT]
+> С 26 января 2021 г. новые банковские счета больше не поддерживаются для клиентов в Бельгии, Франции, Италии, Люксембурге, Португалии, Испании и Соединенных Штатах. Если вы являетесь клиентом в одной из этих стран, вы можете продолжать оплачивать имеющуюся подписку с помощью существующего банковского счета и добавлять новые подписки, пока поддерживается хорошая репутация счета.
 
 Оплатить подписку можно с помощью кредитной или дебетовой карты, а также с помощью банковского счета. В некоторых случаях оплату можно оплатить с помощью счета-фактуры, используя чек или электронный платеж (EFT). При наличии профиля выставления счетов параметры будут отличаться. Дополнительные сведения см. в статье [Оплата подписки с помощью профиля выставления счетов](pay-for-subscription-billing-profile.md). Если вы не знаете, есть ли у вашей учетной записи профиль выставления счетов, см. статью [Общие сведения о профилях выставления счетов](manage-billing-profiles.md).
 
@@ -37,7 +41,7 @@ ms.locfileid: "51576941"
 ## <a name="before-you-begin"></a>Прежде чем начать
 
 - Для выполнения описанных в этой статье действий необходимы права глобального администратора или администратора по выставлению счетов. Дополнительные сведения см. в статье [О ролях администраторов](../../admin/add-users/about-admin-roles.md).
-- Способ оплаты, выбираемый при оформлении заказа, — это способ оплаты, который будет использоваться для всех будущих расчетных периодов. Изменить способ оплаты можно в любое время.
+- Метод оплаты, выбираемый при оформлении заказа, будет использоваться для всех будущих периодов выставления счетов. Вы можете изменить его в любое время.
 
 ## <a name="paying-by-credit-or-debit-card-or-bank-account"></a>Оплата с помощью кредитной или дебетовой карты либо банковского счета
 
@@ -86,6 +90,7 @@ ms.locfileid: "51576941"
  **Выберите в раскрывающемся меню ниже страну или регион выставления счета.**
 
 > [!div class="op_single_selector"]
+>
 > - **Выберите свою страну или регион**
 > - [Афганистан](../pay/afghanistan.md)
 > - [Албания](../pay/albania.md)
@@ -251,7 +256,7 @@ ms.locfileid: "51576941"
 
 Вы не можете автоматически изменить оплату по счету-фактуре на другой метод оплаты. Вместо этого вы должны [приобрести другую подписку](../try-or-buy-microsoft-365.md#buy-a-different-subscription), оплаченную с помощью кредитной или дебетовой карты либо банковского счета, [переместить всех пользователей в новую подписку](../subscriptions/move-users-different-subscription.md), а затем [отменить старую подписку](../subscriptions/cancel-your-subscription.md).
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-content"></a>См. также:
 
 [Управление методами оплаты](manage-payment-methods.md) (статья)\
 [Просмотр счета](view-your-bill-or-invoice.md) (статья)\

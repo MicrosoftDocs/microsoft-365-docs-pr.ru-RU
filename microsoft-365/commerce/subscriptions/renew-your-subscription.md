@@ -5,6 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -12,23 +13,25 @@ localization_priority: Priority
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
-- commerce
 ms.custom:
 - SaRA
 - AdminSurgePortfolio
-search.appverid:
-- MET150
-ms.assetid: 8d83b530-f4ca-47f6-a666-e5791cbacc7e
+- commerce_subscriptions
+- PPM_jmueller
+search.appverid: MET150
 description: Узнайте, как продлить подписку Microsoft 365, включив или отключив автоматическое продление.
-ms.openlocfilehash: 76be85fe3cbeafb275478e6236e051b6a252c099
-ms.sourcegitcommit: 0ff6edbf52562138a69c6675cb0274ec984986c3
+ms.date: 05/04/2021
+ms.openlocfilehash: 25b0e4f8e94780bd301b41591cd1c06978cbd68e
+ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51615175"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52285698"
 ---
 # <a name="renew-microsoft-365-for-business"></a>Продление подписки Microsoft 365 для бизнеса
+
+> [!IMPORTANT]
+> С 26 января 2021 г. новые банковские счета больше не поддерживаются для клиентов в Бельгии, Франции, Италии, Люксембурге, Португалии, Испании и Соединенных Штатах. Если вы являетесь клиентом в одной из этих стран, вы можете продолжать оплачивать имеющуюся подписку с помощью существующего банковского счета и добавлять новые подписки, пока поддерживается хорошая репутация счета.
 
 Сведения в этой статье относятся к большинству платных подписок Microsoft 365 для бизнеса.
   
@@ -46,6 +49,7 @@ ms.locfileid: "51615175"
 ::: moniker range="o365-worldwide"
 
 1. В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Ваши продукты</a>.
+
 ::: moniker-end
 
 ::: moniker range="o365-germany"
@@ -57,6 +61,7 @@ ms.locfileid: "51615175"
 ::: moniker range="o365-21vianet"
 
 1. В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Ваши продукты</a>.
+
 ::: moniker-end
 
 2. Выберите подписку, для которой нужно настроить автоматическое продление.
@@ -65,17 +70,15 @@ ms.locfileid: "51615175"
 5. Нажмите **Сохранить**.
 
     > [!NOTE]
+    >
     > - Параметр **Автоматическое продление** можно изменять только для активных подписок. Если срок действия подписки истек или она отключена, необходимо [повторно активировать подписку](reactivate-your-subscription.md), прежде чем можно будет включить или выключить **автоматическое продление**.
     > - Если **автоматическое продление** выключено, подписка не отменяется. Если вы хотите, чтобы подписка оставалась активной, необходимо оплатить счет вручную.
     > - Если отключить **автоматическое продление**, подписка остается активной до окончания срока действия. Дату окончания срока действия можно просмотреть на странице сведений о подписке в разделе **Параметры подписки и платежей**.
     > - Сведения о том, как немедленно отменить подписку, см. в статье [Отмена подписки](cancel-your-subscription.md).
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-content"></a>См. также:
 
-[Повторная активация подписки](reactivate-your-subscription.md)
-  
-[Что происходит с данными и возможностями доступа при окончании срока действия подписки?](what-if-my-subscription-expires.md)
-
-[Ввод ключа продукта](../enter-your-product-key.md)
-  
-[Приобретение пробной версии Microsoft 365 для бизнеса](../try-or-buy-microsoft-365.md)
+[Повторная активация подписки](reactivate-your-subscription.md) (статья)\
+[Что происходит с данными и возможностями доступа после окончания срока действия подписки?](what-if-my-subscription-expires.md) (статья)\
+[Ввод ключа продукта](../enter-your-product-key.md) (статья)\
+[Приобретение пробной версии Microsoft 365 для бизнеса](../try-or-buy-microsoft-365.md) (статья)

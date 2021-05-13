@@ -17,19 +17,19 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 8e861055067a55630da458e87b7376a607dc69c4
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: bd506caa041af2585778fb3ecd7a40562463b17e
+ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934301"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52346418"
 ---
 # <a name="configure-and-validate-exclusions-for-microsoft-defender-for-endpoint-on-linux"></a>Настройка и проверка исключений для Microsoft Defender для конечной точки на Linux
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
-
 **Область применения:**
+
 - [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
@@ -38,7 +38,7 @@ ms.locfileid: "51934301"
 В этой статье данная статья содержит сведения о том, как определить исключения, применимые к проверкам по запросу, а также защиту и мониторинг в режиме реального времени.
 
 > [!IMPORTANT]
-> Исключения, описанные в этой статье, не применяются к другим возможностям Defender для конечной точки в Linux, включая обнаружение конечных точек и ответ (EDR). Файлы, исключаемые с помощью методов, описанных в этой статье, по-прежнему могут вызывать оповещения EDR и другие обнаружения.
+> Исключения, описанные в этой статье, не применяются к другим возможностям Defender для конечной точки Linux, включая обнаружение и нейтрализация атак на конечные точки (EDR). Файлы, исключаемые с помощью методов, описанных в этой статье, по-прежнему могут вызывать EDR оповещения и другие обнаружения.
 
 Вы можете исключить определенные файлы, папки, процессы и открытые процессом файлы из Defender для конечной точки на проверках Linux.
 

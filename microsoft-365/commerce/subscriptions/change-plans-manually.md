@@ -17,15 +17,15 @@ ms.custom:
 - AdminSurgePortfolio
 - commerce_subscriptions
 search.appverid: MET150
-ROBOTS: NOINDEX
 description: Измените подписки вручную, приобретая новую подписку и обеспечивая перечислены и активные подписки.
+ROBOTS: NOINDEX
 ms.date: 03/17/2021
-ms.openlocfilehash: 99bb732405d6420e430adad3ece7ea7f0c93579b
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 4935301c6d2a530f34d628f946032b7007e5c907
+ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/12/2021
-ms.locfileid: "52333306"
+ms.locfileid: "52345182"
 ---
 # <a name="change-plans-manually"></a>Изменение планов вручную
 

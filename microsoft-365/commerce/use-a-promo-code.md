@@ -17,15 +17,15 @@ ms.custom:
 - AdminSurgePortfolio
 - okr_SMB
 - commerce_purchase
-search.appverid: MET150
-description: Узнайте, как применить рекламный код к подписке Microsoft 365 для снижения цены, а также как устранить неполадки в случае ошибки.
+search.appverid: MET150 S
+description: Узнайте, как применить рекламный код к подписке Microsoft 365, чтобы снизить цену, и как устранить ошибки в промокоде в случае ошибки.
 ms.date: 03/17/2021
-ms.openlocfilehash: 30484915246e1d8b1389f09d71d9d67865962a7e
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 2a75f3e31a417e505c0f91044c61270f8bad8bae
+ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332922"
+ms.locfileid: "52344654"
 ---
 # <a name="use-your-promo-code-to-reduce-price"></a>Используйте промокод для снижения цены
 

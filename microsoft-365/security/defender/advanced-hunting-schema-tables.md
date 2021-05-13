@@ -1,7 +1,7 @@
 ---
-title: Таблицы данных в схеме расширенных охотничьих данных Microsoft 365 Defender
+title: Таблицы данных в схеме Microsoft 365 Defender
 description: Ознакомьтесь со сведениями о таблицах в схеме расширенной охоты на угрозы, чтобы понять, для каких типов данных можно выполнять запросы на охоту на угрозы
-keywords: расширенный поиск, охота на угрозы, поиск киберугроз, Microsoft 365 Defender, Microsoft 365, m365, поиск, запрос, телеметрия, ссылка схемы, кусто, таблица, данные
+keywords: передовая охота, охота на угрозы, поиск киберугроз, Microsoft 365 Defender, Microsoft 365, m365, поиск, запрос, телеметрия, ссылка схемы, кусто, таблица, данные
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 0313d1e95682d52e44cf90360c8ef322f0cad5db
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 3c8c65d012467317bf8335f47c3f686a5d7255d1
+ms.sourcegitcommit: fb6c5e04ade1e82b26b2f911577b5ac721f1c544
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932921"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52470584"
 ---
 # <a name="understand-the-advanced-hunting-schema"></a>Общие сведения о схеме расширенной охоты на угрозы
 
@@ -58,9 +58,8 @@ ms.locfileid: "51932921"
 | Имя таблицы | Описание |
 |------------|-------------|
 | **[AlertEvidence](advanced-hunting-alertevidence-table.md)** | Файлы, IP-адреса, URL-адреса, пользователи или устройства, связанные с оповещениями |
-| **[AlertInfo](advanced-hunting-alertinfo-table.md)** | Оповещения от Microsoft Defender для конечной точки, Microsoft Defender для Office 365, Microsoft Cloud App Security и Microsoft Defender for Identity, включая сведения о серьезности и категоризации угроз  |
-| **[AppFileEvents](advanced-hunting-appfileevents-table.md)** | Действия, связанные с файлами в облачных приложениях и службах |
-| **[CloudAppEvents](advanced-hunting-cloudappevents-table.md)** | События, связанные с учетными записями и объектами в Office 365 и другими облачными приложениями и службами |
+| **[AlertInfo](advanced-hunting-alertinfo-table.md)** | Оповещения от Microsoft Defender для конечной точки, Microsoft Defender для Office 365, Microsoft Cloud App Security и Microsoft Defender для удостоверений, включая сведения о серьезности и категоризации угроз  |
+| **[CloudAppEvents](advanced-hunting-cloudappevents-table.md)** | События, связанные с учетными записями и объектами в Office 365 и других облачных приложениях и службах |
 | **[DeviceEvents](advanced-hunting-deviceevents-table.md)** | Несколько типов событий, в том числе события, запускаемые такими элементами управления безопасностью, как антивирусная программа "Защитник Windows" и защита от эксплойтов |
 | **[DeviceFileCertificateInfo](advanced-hunting-DeviceFileCertificateInfo-table.md)** | Сведения о сертификатах подписанных файлов, полученных в ходе событий проверки сертификатов на конечных точках |
 | **[DeviceFileEvents](advanced-hunting-devicefileevents-table.md)** | Создание файла, изменение и другие события файловой системы |
@@ -77,15 +76,15 @@ ms.locfileid: "51932921"
 | **[DeviceTvmSoftwareVulnerabilities](advanced-hunting-devicetvmsoftwarevulnerabilities-table.md)** | Уязвимости программного обеспечения, найденные на устройствах, и список доступных обновлений безопасности, которые будут рассматривать каждую уязвимость. |
 | **[DeviceTvmSoftwareVulnerabilitiesKB](advanced-hunting-devicetvmsoftwarevulnerabilitieskb-table.md)** | База знаний уязвимостей, о которых сообщалось в открытых источниках, включая информацию о том, является ли эксплойт общедоступным. |
 | **[EmailAttachmentInfo](advanced-hunting-emailattachmentinfo-table.md)** | Сведения о файлах, присоединенных к электронным письмам |
-| **[EmailEvents](advanced-hunting-emailevents-table.md)** | События электронной почты Microsoft 365, включая доставку электронной почты и блокировку событий |
-| **[EmailPostDeliveryEvents](advanced-hunting-emailpostdeliveryevents-table.md)** | События безопасности, которые происходят после доставки, после того, как Microsoft 365 доставила сообщения электронной почты в почтовый ящик получателя |
+| **[EmailEvents](advanced-hunting-emailevents-table.md)** | Microsoft 365 событий электронной почты, включая доставку электронной почты и блокирование событий |
+| **[EmailPostDeliveryEvents](advanced-hunting-emailpostdeliveryevents-table.md)** | События безопасности, которые происходят после доставки, Microsoft 365 после доставки сообщений электронной почты в почтовый ящик получателя |
 | **[EmailUrlInfo](advanced-hunting-emailurlinfo-table.md)** | Сведения об URL-адресах в электронных письмах |
 | **[IdentityDirectoryEvents](advanced-hunting-identitydirectoryevents-table.md)** | События с участием локального контроллера домена под управлением Active Directory (AD). В этой таблице описывается ряд событий, связанных с удостоверением, и системных событий на контроллере домена. |
 | **[IdentityInfo](advanced-hunting-identityinfo-table.md)** | Сведения об учетных записях из различных источников, включая Azure Active Directory |
 | **[IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md)** | События проверки подлинности в службах Active Directory и Microsoft online |
 | **[IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)** | Запросы для объектов Active Directory, таких как пользователи, группы, устройства и домены |
 
-## <a name="related-topics"></a>Похожие темы
+## <a name="related-topics"></a>Статьи по теме
 - [Обзор расширенной охоты](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Работа с результатами запросов](advanced-hunting-query-results.md)

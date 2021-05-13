@@ -15,12 +15,12 @@ ms.reviewer: oogunrinde
 manager: dansimp
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: fc04db0c9fe8ee6d09efc9802ab4a747af0b3e9c
-ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
+ms.openlocfilehash: fc952ceec7d26d853e39cab0a803daace62a4767
+ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52326706"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52345892"
 ---
 # <a name="enable-attack-surface-reduction-rules"></a>Включить правила сокращения направлений атак
 
@@ -38,12 +38,12 @@ ms.locfileid: "52326706"
 
 **Требования** Вы можете установить правила уменьшения поверхности атаки для устройств, которые работают с любыми из следующих выпусков и версий Windows:
 
-- Windows 10 Pro, [версия 1709](/windows/whats-new/whats-new-windows-10-version-1709) или более поздней версии
-- Windows 10 Enterprise, [версия 1709](/windows/whats-new/whats-new-windows-10-version-1709) или более поздней версии
-- Windows Server, [версия 1803 (полугодовой канал)](/windows-server/get-started/whats-new-in-windows-server-1803) или более поздней версии
+- Windows 10 Pro версии [1709](/windows/whats-new/whats-new-windows-10-version-1709) или более поздней версии
+- Windows 10 Корпоративная версии [1709](/windows/whats-new/whats-new-windows-10-version-1709) или более поздней версии
+- Windows Сервер, [версия 1803 (полугодовой канал)](/windows-server/get-started/whats-new-in-windows-server-1803) или более поздний
 - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 
-Хотя правила уменьшения поверхности атаки не требуют лицензии [Windows E5,](/windows/deployment/deploy-enterprise-licenses)если у вас есть Windows E5, вы получите расширенные возможности управления. Эти возможности, доступные только в Windows E5, включают мониторинг, аналитику и рабочий процесс, доступные в [Defender для](/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint?view=o365-worldwide&preserve-view=true)конечной точки, а также возможности отчетности и конфигурации в центре безопасности [Microsoft 365](/microsoft-365/security/defender/overview-security-center?view=o365-worldwide&preserve-view=true). Эти расширенные возможности недоступны с лицензией Windows Professional или Windows E3; Однако, если у вас есть эти лицензии, вы можете использовать журналы просмотра событий и антивирусных журналов Microsoft Defender для просмотра событий правил уменьшения поверхности атаки.
+Хотя правила уменьшения поверхности атаки не требуют лицензии Windows E5, если у вас есть Windows [E5,](/windows/deployment/deploy-enterprise-licenses)вы получите расширенные возможности управления. Эти возможности, доступные только в Windows E5, включают мониторинг, аналитику и рабочий процесс, доступные в [Defender для](/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint?view=o365-worldwide&preserve-view=true)конечной точки, а также возможности отчетности и [конфигурации](/microsoft-365/security/defender/overview-security-center?view=o365-worldwide&preserve-view=true)в центре безопасности Microsoft 365 безопасности . Эти расширенные возможности недоступны с лицензией Windows Professional или Windows E3; Однако, если у вас есть эти лицензии, вы можете использовать журналы viewer и антивирусная программа в Microsoft Defender для просмотра событий правила уменьшения поверхности атаки.
 
 Каждое правило ASR содержит один из четырех параметров:
 
@@ -55,10 +55,10 @@ ms.locfileid: "52326706"
 > [!IMPORTANT]
 > В настоящее время режим предупреждения не поддерживается для трех правил ASR при настройке правил ASR в Microsoft Endpoint Manager (MEM). Дополнительные дополнительные информации см. [в том, как не](attack-surface-reduction.md#cases-where-warn-mode-is-not-supported)поддерживается режим предупреждения.
 
-Настоятельно рекомендуется использовать правила ASR с лицензией Windows E5 (или аналогичный SKU лицензирования), чтобы использовать расширенные возможности мониторинга и отчетности, доступные в Microsoft Defender for Endpoint (Defender for [Endpoint).](https://docs.microsoft.com/windows/security/threat-protection) Однако для других лицензий, таких как Windows Professional или E3, которые не имеют доступа к расширенным возможностям мониторинга и отчетности, можно разработать собственные средства мониторинга и отчетности в верхней части событий, которые создаются на каждой конечной точке при запуске правил ASR (например, переадмиссии событий).
+Настоятельно рекомендуется использовать правила ASR с лицензией Windows E5 (или аналогичный SKU лицензирования), чтобы воспользоваться расширенными возможностями мониторинга и отчетности, доступными в [Microsoft Defender for Endpoint](https://docs.microsoft.com/windows/security/threat-protection) (Defender for Endpoint). Однако для других лицензий, таких как Windows Professional или E3, которые не имеют доступа к расширенным возможностям мониторинга и отчетности, вы можете разработать собственные средства мониторинга и отчетности в верхней части событий, которые создаются в каждой конечной точке при запуске правил ASR (например, forwarding событий).
 
 > [!TIP]
-> Дополнительные информацию о лицензировании Windows см. в руководстве по лицензированию [Windows 10](https://www.microsoft.com/licensing/product-licensing/windows10?activetab=windows10-pivot:primaryr5) и руководстве по лицензированию томов [для Windows 10.](https://download.microsoft.com/download/2/D/1/2D14FE17-66C2-4D4C-AF73-E122930B60F6/Windows-10-Volume-Licensing-Guide.pdf)
+> Дополнительные дополнительные Windows см. Windows 10 [лицензирование](https://www.microsoft.com/licensing/product-licensing/windows10?activetab=windows10-pivot:primaryr5) и руководство по лицензированию томов [для Windows 10](https://download.microsoft.com/download/2/D/1/2D14FE17-66C2-4D4C-AF73-E122930B60F6/Windows-10-Volume-Licensing-Guide.pdf).
 
 Вы можете включить правила уменьшения поверхности атаки с помощью любого из этих методов:
 
@@ -68,7 +68,7 @@ ms.locfileid: "52326706"
 - [Групповая политика](#group-policy)
 - [PowerShell](#powershell)
 
-Рекомендуется управление на корпоративном уровне, например Intune или Microsoft Endpoint Manager. Управление на уровне предприятия перезаписывает любые противоречивые параметры групповой политики или PowerShell при запуске.
+Enterprise, например Intune или Microsoft Endpoint Manager, рекомендуется. Enterprise управления на уровне будет переписать любые противоречивые параметры групповой политики или PowerShell при запуске.
 
 ## <a name="exclude-files-and-folders-from-asr-rules"></a>Исключение файлов и папок из правил ASR
 
@@ -88,9 +88,9 @@ ms.locfileid: "52326706"
 
 ## <a name="intune"></a>Intune
 
-1. Выберите **профили**  >  **конфигурации устройств.** Выберите существующий профиль защиты конечной точки или создайте новый. Чтобы создать новый, выберите **Создать профиль** и ввести сведения для этого профиля. Для **типа профиля** выберите защиту **конечных точек.** Если вы выбрали существующий профиль, выберите **свойства** и выберите **Параметры.**
+1. Выберите **профили**  >  **конфигурации устройств.** Выберите существующий профиль защиты конечной точки или создайте новый. Чтобы создать новый, выберите **Создать профиль** и ввести сведения для этого профиля. Для **типа профиля** выберите защиту **конечных точек.** Если вы выбрали существующий профиль, выберите **свойства** и **выберите** Параметры.
 
-2. В области **защиты конечных** точек выберите Защитник Windows **Exploit Guard**, а затем выберите **сокращение поверхности атаки.** Выберите нужный параметр для каждого правила ASR.
+2. В области **защиты конечной** точки выберите Защитник Windows **Exploit Guard,** а затем выберите **сокращение поверхности атаки.** Выберите нужный параметр для каждого правила ASR.
 
 3. В **соответствии с исключениями для** уменьшения поверхности атаки введите отдельные файлы и папки. Вы также можете выбрать **Импорт для** импорта CSV-файла, который содержит файлы и папки, чтобы исключить из правил ASR. Каждая строка в CSV-файле должна быть отформатирована следующим образом:
 
@@ -128,7 +128,7 @@ ms.locfileid: "52326706"
 
 ## <a name="microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager
 
-1. В Microsoft Endpoint Configuration Manager перейдите в **службу Assets and**  >  **Compliance Endpoint Protection** Защитник Windows Exploit  >  **Guard.**
+1. В Microsoft Endpoint Configuration Manager перейдите в **службу Assets and Compliance**  >  **Endpoint Protection** Защитник Windows  >  **Exploit Guard**.
 
 2. Выберите   >  **домашнее создание политики защиты от эксплойтов**.
 
@@ -149,7 +149,7 @@ ms.locfileid: "52326706"
 
 2. В **редакторе управления групповыми политиками** перейдите к **конфигурации компьютера** и выберите **Административные шаблоны**.
 
-3. Расширь дерево до **компонентов**  >  **Windows, антивирус Microsoft Defender** Microsoft Defender Exploit Guard  >    >  **Attack.**
+3. Расширь **дерево, Windows компоненты антивирусная программа в Microsoft Defender**  >    >  **Exploit Guard в Microsoft Defender**  >  **атаки.**
 
 4. Выберите **Настройка правил уменьшения поверхности атаки и** выберите **Включено.** Затем можно установить отдельное состояние для каждого правила в разделе параметры.
 
@@ -167,9 +167,9 @@ ms.locfileid: "52326706"
    > [!WARNING]
    > Не используйте кавычка, так как они не поддерживаются ни для столбца **value name,** ни для **столбца Value.**
 
-## <a name="microsoft-endpoint-manager-custom-procedure"></a>Настраиваемая процедура Microsoft Endpoint Manager
+## <a name="microsoft-endpoint-manager-custom-procedure"></a>Microsoft Endpoint Manager настраиваемой процедуры
 
-Для настройки настраиваемых правил ASR можно использовать центр администрирования Microsoft Endpoint Manager (MEM).
+Вы можете использовать центр администрирования Microsoft Endpoint Manager (MEM) для настройки настраиваемых правил ASR.
 
 1. Откройте центр администрирования Microsoft Endpoint Manager (MEM). В **домашнем меню** нажмите  **кнопку Устройства,** выберите **профиль конфигурации** и нажмите **кнопку Создать профиль**.
 
@@ -177,22 +177,22 @@ ms.locfileid: "52326706"
 
 2. В **"Создание профиля"** в следующих двух списках выпадаемой части выберите следующее:
 
-   - В **Платформе** выберите **Windows 10 и более поздние версии**
+   - В **Платформе** выберите Windows 10 **и более поздней**
    - В **типе profile** выберите **Шаблоны**
 
    Выберите **настраиваемый,** а затем нажмите **кнопку Создать**.
 
    ![Атрибуты профилей правил MEM](images/mem02-profile-attributes.png)
 
-3. Настраиваемый инструмент шаблона открывается для шага **1 Basics**. В **1 Basics,** in **Name** введите имя шаблона, а в **Описании** можно ввести необязательное описание.
+3. Настраиваемый инструмент шаблона открывается для шага **1 Basics**. В **1 Basics,** in **Name** введите имя шаблона, а в **Описании** можно ввести описание (необязательно).
 
    ![Основные атрибуты MEM](images/mem03-1-basics.png)
 
-4. Нажмите **Далее**. Параметры **конфигурации шага 2 открываются.** Параметры OMA-URI нажмите кнопку **Добавить**. Теперь отображаются два варианта: **Добавить и** **экспортировать**.
+4. Нажмите **Далее**. Параметры **конфигурации шага 2 открываются.** Для OMA-URI Параметры нажмите **кнопку Добавить**. Теперь отображаются два варианта: **Добавить и** **экспортировать**.
 
    ![Параметры конфигурации MEM](images/mem04-2-configuration-settings.png)
 
-5. Щелкните **Добавить** еще раз. Открываются **параметры Add Row OMA-URI.** В **строке Добавить** строку сделайте следующее:
+5. Щелкните **Добавить** еще раз. Откроется **добавление строки OMA-URI Параметры.** В **строке Добавить** строку сделайте следующее:
 
    - В **Name** введите имя правила.
    - В **описании** введите краткое описание.
@@ -223,7 +223,7 @@ ms.locfileid: "52326706"
    - В **Свойстве** выберите свойство, к которому необходимо применить это правило
    - В **Value** введите применимое значение или диапазон значений
 
-   ![Правила применения MEM](images/mem07-5-applicability -rules.png)
+   ![Правила применения MEM](images/mem07-5-applicability-rules.png)
 
 10. Нажмите **Далее**. В **шаге 6 Обзор + создание**, просмотрите параметры и сведения, которые вы выбрали и ввели, а затем нажмите **кнопку Создать**.
 
@@ -260,6 +260,12 @@ ms.locfileid: "52326706"
     ```PowerShell
     Add-MpPreference -AttackSurfaceReductionRules_Ids <rule ID> -AttackSurfaceReductionRules_Actions Warn
     ```
+
+    Чтобы включить злоупотребление asR Block для эксплуатируемого уязвимого подписанного драйвера, используйте следующий cmdlet:
+
+   ```PowerShell
+   "& {&'Add-MpPreference' -AttackSurfaceReductionRules_Ids 56a863a9-875e-4185-98a7-b882c64b5ce5 -AttackSurfaceReductionRules_Actions Enabled"}
+   ```
 
     Чтобы отключить правила ASR, используйте следующий cmdlet:
 

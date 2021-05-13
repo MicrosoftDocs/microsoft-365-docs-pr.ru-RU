@@ -20,12 +20,12 @@ search.appverid: MET150
 description: Узнайте о предложениях, которые помогут вам приобрести продукты и службы Майкрософт.
 ROBOTS: NOINDEX
 ms.date: 03/17/2021
-ms.openlocfilehash: c61fa53267f2fdb60e78a05cd89aa6f364cb2395
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 5dece5ccc0cc26b157ae0cc33ec9bb1fe44c44b3
+ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332958"
+ms.locfileid: "52345086"
 ---
 # <a name="understand-the-proposal-workflow"></a>Понимание рабочего процесса предложения
 
@@ -63,7 +63,7 @@ ms.locfileid: "52332958"
 
 - Имя человека в предложении\
     OR
-- Глобальный администратор [Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) для вашей организации уже является глобальным администратором.
+- Уже являются глобальным [администратором Azure Active Directory для](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) вашей организации
 
 ## <a name="what-is-the-overall-workflow"></a>Каков общий рабочий процесс?
 
@@ -170,7 +170,7 @@ ms.locfileid: "52332958"
 
 Если вы новый клиент и приобрели продукты Azure в рамках предложения, следующим шагом будет настройка новой учетной записи счетов. Подробнее о том, как настроить учетную запись вы выставления счетов [для соглашения с клиентами Майкрософт.](/azure/cost-management-billing/manage/mca-setup-account)
 
-Если вы существующий клиент Azure с Соглашение Enterprise, и вы подписываете MCA впервые, следующим шагом будет узнать об изменениях между соглашениями и о том, как выполнять задачи с помощью новой учетной записи счетов. Дополнительные данные см. в Соглашение Enterprise задач в учетной записи вы выставления счетов для [соглашения о клиентах Майкрософт.](/azure/cost-management-billing/manage/mca-enterprise-operations)
+Если вы существующий клиент Azure с Соглашение Enterprise, и вы подписываете MCA впервые, следующим шагом будет узнать об изменениях между соглашениями и о том, как выполнять задачи с помощью новой учетной записи счетов. Дополнительные дополнительные данные см. в Соглашение Enterprise задач в учетной записи вы выставления счетов [для соглашения о клиентах Майкрософт.](/azure/cost-management-billing/manage/mca-enterprise-operations)
 
 ## <a name="understand-invoicing"></a>Понимание взимаемой
 

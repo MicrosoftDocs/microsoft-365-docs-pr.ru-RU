@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Узнайте, как установить Microsoft Office приложения.
-ms.openlocfilehash: 4970fa2698c413aad24aa94c16031823a16e9001
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 3626b21a3c98fba1830350568440467869577ccb
+ms.sourcegitcommit: aff2331f9a3f22591f8ace1a646809969d28c120
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578871"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52464373"
 ---
 # <a name="install-office-apps"></a>Установка приложений Office 
 
@@ -36,9 +36,20 @@ ms.locfileid: "51578871"
 Microsoft Office приложения можно найти в меню **Пуск.** Если вы не&#39;их, вы можете установить их самостоятельно.
 
 1. Перейдите в office.com. Возможно, вам потребуется войти в свою учетную запись.
-2. Выберите **Установите приложения Office** Microsoft   >   **365**   >   **Run,** а затем выберите **Да**.
-3. Будут установлены приложения Office. Процесс может занять несколько минут. Когда он завершится, выберите  **Закрыть**.
-4. Чтобы установить Microsoft Teams, перейдите на страницу office.com и выберите **Teams.**
-5. Получите приложение Windows, а затем выберите  **Выполнить**. Teams отображает подсказку, когда установка завершена.
+2. Выберите **Установите Office**   >   **Microsoft 365, а** затем выберите   >    **Да**.
+3. Будут Office приложения. Процесс может занять несколько минут. Когда он завершится, выберите  **Закрыть**.
+4. Чтобы установить Microsoft Teams, перейдите на страницу office.com и выберите **Teams**.
+5. Получите приложение Windows, а затем выберите **Выполнить**. Teams отображает подсказку после завершения установки.
 
-Установленные приложения Office теперь отображаются в меню **Пуск.**
+Установленные Office теперь отображаются в меню **Пуск.**
+
+## <a name="related-content"></a>Связанные материалы
+
+[Перенос контента в Microsoft 365](/sharepointmigration/migrate-to-sharepoint-online.md) (статья)
+
+[Установите мобильное приложение Microsoft 365 Admin на телефоне](admin-mobile.md) (видео)
+
+[Начало работы с Microsoft Teams в малом бизнесе](get-started-teams-small-business.md) (видео)
+
+[Легко обмениваться файлами внешне](share-files-externally.md) (видео)
+

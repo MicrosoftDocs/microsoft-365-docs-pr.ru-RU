@@ -19,12 +19,12 @@ ms.custom:
 search.appverid: MET150
 description: Узнайте, как управлять бесплатными подписками на самообслуживку для вашей организации.
 ms.date: 03/17/2021
-ms.openlocfilehash: b469515a649399c71ef64ba2567dfa376f21e9a7
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 9c29d36ff28e312fa3782b60f89fa755d4df9bf3
+ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/12/2021
-ms.locfileid: "52333222"
+ms.locfileid: "52345134"
 ---
 # <a name="manage-self-service-sign-up-subscriptions"></a>Управление подписками на самообслуживку
 
@@ -58,4 +58,4 @@ ms.locfileid: "52333222"
 
 ## <a name="i-have-a-self-service-sign-up-subscription-that-blocks-directory-deletion"></a>У меня есть подписка на самообслуживку, которая блокирует удаление каталогов
 
-Продукты самообслуживления, для регистрации на которые могут зарегистрироваться отдельные пользователи, также создают гостевого пользователя для проверки подлинности в каталоге Azure AD. Чтобы избежать потери данных, эти продукты самообслуживания блокируют удаления каталогов, пока они не будут полностью удалены из каталога. Они могут быть удалены только администратором Azure AD. Дополнительные сведения см. в [публикации Delete a directory in Azure Active Directory.](/azure/active-directory/users-groups-roles/directory-delete-howto)
+Продукты самообслуживления, для регистрации на которые могут зарегистрироваться отдельные пользователи, также создают гостевого пользователя для проверки подлинности в каталоге Azure AD. Чтобы избежать потери данных, эти продукты самообслуживания блокируют удаления каталогов, пока они не будут полностью удалены из каталога. Они могут быть удалены только администратором Azure AD. Дополнительные сведения см. [в публикации Delete a directory in Azure Active Directory.](/azure/active-directory/users-groups-roles/directory-delete-howto)

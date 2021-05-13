@@ -19,14 +19,14 @@ ms.collection:
 - m365solution-migratetomdatp
 ms.custom: migrationguides
 ms.topic: article
-ms.date: 05/10/2021
+ms.date: 05/11/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: 6b3b9fda0060108bd6a3c48188ff6e89261be096
-ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
+ms.openlocfilehash: 66d24f5a479a903c8d42d509f1bbe956293c9ac3
+ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52327250"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52346344"
 ---
 # <a name="switch-to-microsoft-defender-for-endpoint---phase-3-onboard"></a>Переход на Microsoft Defender для конечной точки — этап 3. На борту
 
@@ -42,15 +42,21 @@ ms.locfileid: "52327250"
 **Добро пожаловать в фазу 3 перехода на [Microsoft Defender для конечной точки.](switch-to-microsoft-defender-migration.md#the-migration-process)** Этот этап миграции включает следующие действия:
 
 1. [Onboard devices to Microsoft Defender for Endpoint.](#onboard-devices-to-microsoft-defender-for-endpoint)
+
 2. [Запустите тест обнаружения](#run-a-detection-test).
+
 3. [Удалить решение, не в microsoft.](#uninstall-your-non-microsoft-solution)
+
 4. [Убедитесь, что Microsoft Defender для конечной точки находится в активном режиме.](#make-sure-microsoft-defender-for-endpoint-is-in-active-mode)
 
 ## <a name="onboard-devices-to-microsoft-defender-for-endpoint"></a>Подключение устройств к Microsoft Defender для конечной точки
 
 1. Перейдите в Центр безопасности в Microsoft Defender [https://aka.ms/MDATPportal](https://aka.ms/MDATPportal) () и войдите.
+
 2. Выберите **Параметры**  >  **управления**  >  **устройствами.** 
+
 3. В **списке Выберите операционную систему для** запуска списка процессов бортового управления выберите операционную систему. 
+
 4. В **методе Развертывания** выберите параметр. Следуйте ссылкам и подсказкам на устройствах организации. Нужна помощь? См. [методы onboarding](#onboarding-methods) (в этой статье).
 
 ### <a name="onboarding-methods"></a>Методы onboarding
@@ -98,4 +104,5 @@ ms.locfileid: "52327250"
 **Поздравляем!** Вы завершили [миграцию в Microsoft Defender для конечной точки!](switch-to-microsoft-defender-migration.md#the-migration-process) 
 
 - [Посетите панель мониторинга операций безопасности](security-operations-dashboard.md) в Центр безопасности в Microsoft Defender ( [https://aka.ms/MDATPportal](https://aka.ms/MDATPportal) ). 
+
 - [Управление Microsoft Defender для конечной точки, после миграции.](manage-atp-post-migration.md)
