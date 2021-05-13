@@ -506,54 +506,54 @@
           items:
             - name: Запросы ключевых слов и условия поиска
               href: keyword-queries-and-search-conditions.md
-            - name: Просмотр статистики ключевых слов для результатов поиска
+            - name: Предварительный просмотр результатов поиска при обнаружении электронных данных
+              href: preview-ediscovery-search-results.md
+            - name: Просмотр статистики результатов поиска
               href: view-keyword-statistics-for-content-search.md
             - name: Экспорт результатов поиска
               href: export-search-results.md
             - name: Экспорт отчета о поиске
               href: export-a-content-search-report.md
-            - name: Использование Microsoft Edge для скачивания результатов поиска
-              href: configure-edge-to-export-search-results.md
             - name: Поиск и удаление сообщений электронной почты
               href: search-for-and-delete-messages-in-your-organization.md
             - name: Поиск данных чата локальных пользователей в Teams
               href: search-cloud-based-mailboxes-for-on-premises-users.md
-            - name: Массовое редактирование нескольких поисков контента
-              href: bulk-edit-content-searches.md
             - name: Подготовка CSV-файла для поиска по списку идентификаторов
               href: csv-file-for-an-id-list-content-search.md
-            - name: Проверка поискового запроса на наличие ошибок
-              href: check-your-content-search-query-for-errors.md
+            - name: Настройка фильтрации разрешений для поиска контента
+              href: permissions-filtering-for-content-search.md
             - name: Устранение распространенных проблем с обнаружением электронных данных
               href: ediscovery-troubleshooting-common-issues.md
             - name: Повторение неудачного поиска
               href: retry-failed-content-search.md
             - name: Сохранение получателей скрытой копии для поиска
               href: preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery.md
-        - name: Настройка поиска контента
-          items:
-            - name: Настройка фильтрации разрешений для поиска контента
-              href: permissions-filtering-for-content-search.md
-            - name: Изменение размера PST-файлов при экспорте результатов поиска
-              href: change-the-size-of-pst-files-when-exporting-results.md
-            - name: Отключение отчетов при экспорте результатов поиска
-              href: disable-reports-when-you-export-content-search-results.md
         - name: Справочник по поиску контента
           items:
-            - name: Ограничения поиска контента
+            - name: Ограничения поиска для обнаружения электронных данных
               href: limits-for-content-search.md
+            - name: 'Контент, хранящийся в почтовых ящиках для обнаружения электронных данных'
+              href: what-is-stored-in-exo-mailbox.md
+            - name: Различия между ожидаемыми и фактическими результатами поиска
+              href: differences-between-estimated-and-actual-ediscovery-search-results.md
             - name: Частично индексированные элементы
               href: partially-indexed-items-in-content-search.md
             - name: Анализ частично индексированных элементов
               href: investigating-partially-indexed-items-in-ediscovery.md
             - name: Дедупликация результатов поиска
               href: de-duplication-in-ediscovery-search-results.md
-            - name: Различия между ожидаемыми и фактическими результатами поиска
-              href: differences-between-estimated-and-actual-ediscovery-search-results.md
-            - name: 'Контент, хранимый в почтовых ящиках для обнаружения электронных данных'
-              href: what-is-stored-in-exo-mailbox.md
             - name: Расшифровка в средствах обнаружения электронных данных
               href: ediscovery-decryption.md
+            - name: Изменение размера PST-файлов при экспорте результатов поиска
+              href: change-the-size-of-pst-files-when-exporting-results.md
+            - name: Отключение отчетов при экспорте результатов поиска
+              href: disable-reports-when-you-export-content-search-results.md
+            - name: Проверка поискового запроса на наличие ошибок
+              href: check-your-content-search-query-for-errors.md
+            - name: Скачивание результатов поиска с помощью Microsoft Edge
+              href: configure-edge-to-export-search-results.md
+            - name: Массовое редактирование нескольких операций поиска контента
+              href: bulk-edit-content-searches.md
         - name: Сценарии PowerShell для поиска контента
           items:
             - name: Использование поиска контента для целевых коллекций
@@ -578,23 +578,29 @@
           href: close-reopen-delete-core-ediscovery-cases.md
         - name: Справочник по Core eDiscovery
           items:
+            - name: Ограничения поиска для обнаружения электронных данных
+              href: limits-for-content-search.md
             - name: Назначение разрешений на обнаружение электронных данных
               href: assign-ediscovery-permissions.md
             - name: Запросы ключевых слов и условия поиска
               href: keyword-queries-and-search-conditions.md
             - name: 'Контент, хранимый в почтовых ящиках для обнаружения электронных данных'
               href: what-is-stored-in-exo-mailbox.md
+            - name: Предварительный просмотр результатов поиска при обнаружении электронных данных
+              href: preview-ediscovery-search-results.md
+            - name: Настройка ограничений соответствия требованиям
+              href: set-up-compliance-boundaries.md
             - name: Настройка фильтрации разрешений поиска
               href: permissions-filtering-for-content-search.md
-            - name: Настройка границ обеспечения соответствия требованиям
-              href: set-up-compliance-boundaries.md
+            - name: Различия между ожидаемыми и фактическими результатами поиска
+              href: differences-between-estimated-and-actual-ediscovery-search-results.md
+            - name: Экспорт отчета о поиске
+              href: export-a-content-search-report.md
             - name: 'Использование сценария для добавления пользователей в удержание электронных данных '
               href: use-a-script-to-add-users-to-a-hold-in-ediscovery.md
             - name: Создание отчета об удержаниях электронных данных
               href: create-a-report-on-holds-in-ediscovery-cases.md
-            - name: Экспорт отчета о поиске
-              href: export-a-content-search-report.md
-            - name: Просмотр статистики ключевых слов для результатов поиска
+            - name: Просмотр статистики результатов поиска
               href: view-keyword-statistics-for-content-search.md
             - name: Поиск и очистка утечки данных
               href: data-spillage-scenariosearch-and-purge.md
@@ -786,18 +792,22 @@
       href: preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery.md
 - name: Управление политиками аудита и оповещений
   items:
+    - name: "Решения для аудита в Microsoft\_365"
+      href: auditing-solutions-overview.md
     - name: Базовый аудит
       items:
+        - name: Настройка базового аудита
+          href: set-up-basic-auditing.md
         - name: Поиск в журнале аудита
           href: search-the-audit-log-in-security-and-compliance.md
         - name: Поиск по журналу аудита с помощью сценария PowerShell
           href: audit-log-search-script.md
-        - name: Включение и отключение поиска в журнале аудита
-          href: turn-audit-log-search-on-or-off.md
         - name: Подробные свойства в журнале аудита
           href: detailed-properties-in-the-office-365-audit-log.md
         - name: 'Экспорт, настройка и просмотр записей журнала аудита'
           href: export-view-audit-log-records.md
+        - name: Включение и отключение поиска в журнале аудита
+          href: turn-audit-log-search-on-or-off.md
         - name: Использование журнала аудита для изучения распространенных проблем
           href: auditing-troubleshooting-scenarios.md
         - name: Использование аудита общего доступа в журнале аудита
@@ -810,16 +820,18 @@
               href: /office/office-365-management-api/office-365-management-activity-api-schema
             - name: 'Вопросы и ответы по API действий управления Office 365, а также устранение неполадок, связанных с ним'
               href: /office/office-365-management-api/troubleshooting-the-office-365-management-activity-api
-    - name: Аудит почтового ящика
-      href: enable-mailbox-auditing.md
     - name: Расширенный аудит
       items:
         - name: Обзор расширенного аудита
           href: advanced-audit.md
+        - name: Настройка расширенного аудита
+          href: set-up-advanced-audit.md
         - name: Управление политиками хранения журнала аудита
           href: audit-log-retention-policies.md
         - name: Исследование скомпрометированных учетных записей с помощью расширенного аудита
           href: mailitemsaccessed-forensics-investigations.md
+    - name: Аудит почтовых ящиков
+      href: enable-mailbox-auditing.md
     - name: Политики оповещений
       href: alert-policies.md
 - name: 'Управление рисками, связанными с соответствием требованиям'

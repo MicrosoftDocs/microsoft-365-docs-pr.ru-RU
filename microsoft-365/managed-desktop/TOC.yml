@@ -48,6 +48,8 @@
           href: service-description/support.md
         - name: Операции и мониторинг
           href: service-description/operations-and-monitoring.md
+        - name: Журналы диагностики
+          href: service-description/diagnostic-logs.md
         - name: Требования к приложениям
           href: service-description/mmd-app-requirements.md
         - name: Элемент управления приложениями
@@ -104,6 +106,8 @@
           href: get-started/enterprise-state-roaming.md
         - name: Локализация пользовательского интерфейса
           href: get-started/localization.md
+        - name: Утвердить новые устройства
+          href: get-started/validate-device.md
         - name: Настройка устройств
           href: get-started/set-up-devices.md
           items:
