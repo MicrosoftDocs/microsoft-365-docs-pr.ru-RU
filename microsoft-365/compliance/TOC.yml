@@ -501,10 +501,12 @@
       items:
         - name: Общие сведения о поиске контента
           href: search-for-content.md
-        - name: Использование поиска контента
+        - name: Поиск содержимого
           href: content-search.md
           items:
-            - name: Запросы ключевых слов и условия поиска
+            - name: Справочник по функции поиска контента
+              href: content-search-reference.md
+            - name: Запросы по ключевым словам и условия поиска
               href: keyword-queries-and-search-conditions.md
             - name: Предварительный просмотр результатов поиска при обнаружении электронных данных
               href: preview-ediscovery-search-results.md
@@ -663,32 +665,20 @@
               href: error-remediation-when-processing-data-in-advanced-ediscovery.md
             - name: Исправление ошибки одного элемента
               href: single-item-error-remediation.md
-        - name: Сбор контента для дела (предварительная версия)
+        - name: Сбор контента для дела
           items:
-            - name: Подробнее о коллекциях (предварительная версия)
+            - name: Сведения о коллекциях
               href: collections-overview.md
-            - name: Создание коллекции черновиков (предварительная версия)
+            - name: Создание коллекции черновиков
               href: create-draft-collection.md
-            - name: Отправка коллекции черновиков в набор для проверки (предварительная версия)
+            - name: Отправка коллекции черновиков в набор для проверки
               href: commit-draft-collection.md
-            - name: Статистика коллекции и отчеты (предварительная версия)
+            - name: Отчеты и статистика коллекции
               href: collection-statistics-reports.md
             - name: Создание поисковых запросов для коллекций
               href: building-search-queries.md
             - name: Запросы ключевых слов и условия поиска
               href: keyword-queries-and-search-conditions.md
-        - name: Сбор данных для дела
-          items:
-            - name: Создание поискового запроса
-              href: create-search-to-collect-data.md
-            - name: Создание поисковых запросов
-              href: building-search-queries.md
-            - name: Запросы ключевых слов и условия поиска
-              href: keyword-queries-and-search-conditions.md
-            - name: Статистика поиска
-              href: search-statistics-in-advanced-ediscovery.md
-            - name: Добавление результатов поиска в набор для проверки
-              href: add-data-to-review-set.md
         - name: Управление наборами для проверки
           href: managing-review-sets.md
           items:
@@ -840,6 +830,8 @@
       items:
         - name: Сведения о диспетчере соответствия требованиям
           href: compliance-manager.md
+        - name: Новые возможности диспетчера соответствия требованиям
+          href: compliance-manager-whats-new.md
         - name: Быстрое начало работы с диспетчером соответствия требованиям
           href: compliance-manager-quickstart.md
         - name: Начало работы с диспетчером соответствия требованиям

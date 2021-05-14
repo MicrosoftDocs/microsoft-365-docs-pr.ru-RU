@@ -21,7 +21,7 @@ search.appverid:
 description: Узнайте, как получить справку или поддержку для администраторов в Microsoft 365 бизнес премиум.
 ms.openlocfilehash: 8db4f7675f96bac2157c9c0f93ab506c8a39e1bb
 ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/11/2021
 ms.locfileid: "52327190"
@@ -43,7 +43,7 @@ ms.locfileid: "52327190"
 
 Экономьте время, создавая запросы на обслуживание в Интернете. Мы поможем найти решение или направим вас к специалисту из службы технической поддержки.
 
-1. Перейдите в Центр администрирования <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>. Если вы получаете сообщение, в которое говорится, что у вас нет разрешения на доступ к этой странице или выполнение этого действия, то вы не администратор. (Дополнительные сведения см. в статье Кто имеет разрешения администратора в моем [бизнесе?.)](admin-center-overview.md#who-has-admin-permissions-in-my-business)
+1. Перейдите в Центр администрирования <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>. Если появляется сообщение "У вас нет разрешения на доступ к этой странице или на выполнение этого действия", это означает, что вы не являетесь администратором. (Подробности см. в статье [У кого в моей организации есть разрешения администратора?](admin-center-overview.md#who-has-admin-permissions-in-my-business).)
 
 2. Нажмите кнопку **Нужна помощь?**
 
@@ -215,7 +215,7 @@ ms.locfileid: "52327190"
 
 ## <a name="feature-availability"></a>Доступность функций
 
-Чтобы просмотреть доступность функций в Office 365 планах, [см. Office 365 Описание службы.](/office365/servicedescriptions/office-365-platform-service-description/office-365-operated-by-21vianet)
+Сведения о доступности функций в планах Office 365 см. в статье [Описание служб Office 365](/office365/servicedescriptions/office-365-platform-service-description/office-365-operated-by-21vianet).
 
 ## <a name="follow-us-on-wechat"></a>Подпишитесь на нас в WeChat
 
