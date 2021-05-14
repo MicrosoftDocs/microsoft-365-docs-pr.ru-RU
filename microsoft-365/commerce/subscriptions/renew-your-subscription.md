@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
-ms.reviewer: jkinma
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -17,16 +17,15 @@ ms.custom:
 - SaRA
 - AdminSurgePortfolio
 - commerce_subscriptions
-- PPM_jmueller
 search.appverid: MET150
 description: Узнайте, как продлить подписку Microsoft 365, включив или отключив автоматическое продление.
 ms.date: 05/04/2021
-ms.openlocfilehash: 25b0e4f8e94780bd301b41591cd1c06978cbd68e
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: 7421bb59a26d3c88114ebd9145dcbfe3916e7472
+ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52285698"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52344642"
 ---
 # <a name="renew-microsoft-365-for-business"></a>Продление подписки Microsoft 365 для бизнеса
 
