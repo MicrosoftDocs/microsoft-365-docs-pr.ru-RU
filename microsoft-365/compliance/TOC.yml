@@ -172,13 +172,11 @@
           href: office-365-service-encryption.md
         - name: Ключ клиента
           items:
-            - name: Ключ клиента для Microsoft 365 на уровне клиента (общедоступная предварительная версия)
-              href: customer-key-tenant-level.md
-            - name: Шифрование службы с помощью ключа клиента в Office 365
+            - name: Ключ клиента в Microsoft 365
               href: customer-key-overview.md
-            - name: Настройка ключа клиента для Office 365
+            - name: Настройка ключа клиента для Microsoft 365
               href: customer-key-set-up.md
-            - name: Управление ключом клиента для Office 365
+            - name: Управление ключом клиента для Microsoft 365
               href: customer-key-manage.md
             - name: Смена или ротация ключа клиента или ключа доступности
               href: customer-key-availability-key-roll.md
@@ -506,7 +504,7 @@
           items:
             - name: Справочник по функции поиска контента
               href: content-search-reference.md
-            - name: Запросы по ключевым словам и условия поиска
+            - name: Запросы ключевых слов и условия поиска
               href: keyword-queries-and-search-conditions.md
             - name: Предварительный просмотр результатов поиска при обнаружении электронных данных
               href: preview-ediscovery-search-results.md
