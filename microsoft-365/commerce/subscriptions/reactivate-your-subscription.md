@@ -21,50 +21,50 @@ ms.custom:
 search.appverid: MET150
 description: Узнайте, как активировать подписку по истечении срока действия, отключению или отмене подписки.
 ms.date: 04/07/2021
-ms.openlocfilehash: 902be48b32acdff5173a0dd5cc84dbd5972e1ba9
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: 63c65e90d01bfd2c67d1d2ecfed32a4d4ff8d27a
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52345146"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538463"
 ---
-# <a name="reactivate-your-subscription"></a><span data-ttu-id="872ce-103">Повторная активация подписки</span><span class="sxs-lookup"><span data-stu-id="872ce-103">Reactivate your subscription</span></span>
+# <a name="reactivate-your-subscription"></a><span data-ttu-id="1d101-103">Повторная активация подписки</span><span class="sxs-lookup"><span data-stu-id="1d101-103">Reactivate your subscription</span></span>
 
-<span data-ttu-id="872ce-104">Вы можете активировать подписку в центре администрирования, если: срок действия подписки истек, был отключен корпорацией Майкрософт или если вы отменили ее в середине срока подписки.</span><span class="sxs-lookup"><span data-stu-id="872ce-104">You can reactivate your subscription in the admin center if: the subscription expired, was disabled by Microsoft, or if you canceled it in the middle of a subscription term.</span></span>
+<span data-ttu-id="1d101-104">Вы можете активировать подписку в центре администрирования, если: срок действия подписки истек, был отключен корпорацией Майкрософт или если вы отменили ее в середине срока подписки.</span><span class="sxs-lookup"><span data-stu-id="1d101-104">You can reactivate your subscription in the admin center if: the subscription expired, was disabled by Microsoft, or if you canceled it in the middle of a subscription term.</span></span>
   
-## <a name="before-you-begin"></a><span data-ttu-id="872ce-105">Подготовка</span><span class="sxs-lookup"><span data-stu-id="872ce-105">Before you begin</span></span>
+## <a name="before-you-begin"></a><span data-ttu-id="1d101-105">Прежде чем начать</span><span class="sxs-lookup"><span data-stu-id="1d101-105">Before you begin</span></span>
 
-<span data-ttu-id="872ce-106">Чтобы активировать подписку, необходимо быть администратором Global или Billing.</span><span class="sxs-lookup"><span data-stu-id="872ce-106">You must be a Global or Billing admin to reactivate a subscription.</span></span> <span data-ttu-id="872ce-107">Дополнительные сведения см. в статье [О ролях администраторов](../../admin/add-users/about-admin-roles.md).</span><span class="sxs-lookup"><span data-stu-id="872ce-107">For more information, see [About admin roles](../../admin/add-users/about-admin-roles.md).</span></span>
+<span data-ttu-id="1d101-106">Чтобы активировать подписку, необходимо быть администратором Global или Billing.</span><span class="sxs-lookup"><span data-stu-id="1d101-106">You must be a Global or Billing admin to reactivate a subscription.</span></span> <span data-ttu-id="1d101-107">Дополнительные сведения см. в статье [О ролях администраторов](../../admin/add-users/about-admin-roles.md).</span><span class="sxs-lookup"><span data-stu-id="1d101-107">For more information, see [About admin roles](../../admin/add-users/about-admin-roles.md).</span></span>
 
-<span data-ttu-id="872ce-108">**Вы не являетесь администратором?**</span><span class="sxs-lookup"><span data-stu-id="872ce-108">**Not an admin?**</span></span> <span data-ttu-id="872ce-109">Свяжитесь с администрацией, чтобы повторно активировать подписку.</span><span class="sxs-lookup"><span data-stu-id="872ce-109">Contact your administration to reactivate your subscription.</span></span>
+<span data-ttu-id="1d101-108">**Вы не являетесь администратором?**</span><span class="sxs-lookup"><span data-stu-id="1d101-108">**Not an admin?**</span></span> <span data-ttu-id="1d101-109">Свяжитесь с администрацией, чтобы повторно активировать подписку.</span><span class="sxs-lookup"><span data-stu-id="1d101-109">Contact your administration to reactivate your subscription.</span></span>
 
-## <a name="reactivate-a-subscription"></a><span data-ttu-id="872ce-110">Повторная активация подписки</span><span class="sxs-lookup"><span data-stu-id="872ce-110">Reactivate a subscription</span></span>
+## <a name="reactivate-a-subscription"></a><span data-ttu-id="1d101-110">Повторная активация подписки</span><span class="sxs-lookup"><span data-stu-id="1d101-110">Reactivate a subscription</span></span>
 
 ::: moniker range="o365-worldwide"
 
-1. <span data-ttu-id="872ce-111">В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Ваши продукты</a>.</span><span class="sxs-lookup"><span data-stu-id="872ce-111">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Your products</a> page.</span></span>
+1. <span data-ttu-id="1d101-111">В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Ваши продукты</a>.</span><span class="sxs-lookup"><span data-stu-id="1d101-111">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Your products</a> page.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. <span data-ttu-id="872ce-112">В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Ваши продукты</a>.</span><span class="sxs-lookup"><span data-stu-id="872ce-112">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Your products</a> page.</span></span>
+1. <span data-ttu-id="1d101-112">В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Ваши продукты</a>.</span><span class="sxs-lookup"><span data-stu-id="1d101-112">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Your products</a> page.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <span data-ttu-id="872ce-113">В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Ваши продукты</a>.</span><span class="sxs-lookup"><span data-stu-id="872ce-113">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Your products</a> page.</span></span>
+1. <span data-ttu-id="1d101-113">В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Ваши продукты</a>.</span><span class="sxs-lookup"><span data-stu-id="1d101-113">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Your products</a> page.</span></span>
 
 ::: moniker-end
 
-2. <span data-ttu-id="872ce-114">На вкладке **Продукты** найдите подписку, которую нужно повторно активировать.</span><span class="sxs-lookup"><span data-stu-id="872ce-114">On the **Products** tab, find the subscription that you want to reactivate.</span></span> <span data-ttu-id="872ce-115">Выберите **дополнительные действия** (три точки), а затем \**активировать эту подписку.\**</span><span class="sxs-lookup"><span data-stu-id="872ce-115">Select **More actions** (three dots), then select **Reactivate this subscription**.\</span></span>
-    <span data-ttu-id="872ce-116">Если эта подписка не **активирована,** обратитесь [в службу поддержки.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="872ce-116">If you don't see **Reactivate this subscription**, [contact support](../../business-video/get-help-support.md).</span></span>
-3. <span data-ttu-id="872ce-117">В области **Повторно активировать эту подписку** выберите способ оплаты из раскрывающегося списка или нажмите **Добавить способ оплаты**.</span><span class="sxs-lookup"><span data-stu-id="872ce-117">In the **Reactivate this subscription** pane, select a payment method from the drop-down list, or select **Add payment method**.</span></span>
-4. <span data-ttu-id="872ce-118">Нажмите **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="872ce-118">Select **Save**.</span></span>
+2. <span data-ttu-id="1d101-114">На вкладке **Продукты** найдите подписку, которую нужно повторно активировать.</span><span class="sxs-lookup"><span data-stu-id="1d101-114">On the **Products** tab, find the subscription that you want to reactivate.</span></span> <span data-ttu-id="1d101-115">Выберите три точки (больше действий), а затем выберите **Повторно активировать эту подписку**.</span><span class="sxs-lookup"><span data-stu-id="1d101-115">Select the three dots (more actions), then select **Reactivate this subscription**.</span></span>\
+    <span data-ttu-id="1d101-116">Если эта подписка не **активирована,** обратитесь [в службу поддержки.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="1d101-116">If you don't see **Reactivate this subscription**, [contact support](../../business-video/get-help-support.md).</span></span>
+3. <span data-ttu-id="1d101-117">В области **Повторно активировать эту подписку** выберите способ оплаты из раскрывающегося списка или нажмите **Добавить способ оплаты**.</span><span class="sxs-lookup"><span data-stu-id="1d101-117">In the **Reactivate this subscription** pane, select a payment method from the drop-down list, or select **Add payment method**.</span></span>
+4. <span data-ttu-id="1d101-118">Нажмите **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="1d101-118">Select **Save**.</span></span>
 
-## <a name="related-content"></a><span data-ttu-id="872ce-119">Связанные материалы</span><span class="sxs-lookup"><span data-stu-id="872ce-119">Related content</span></span>
+## <a name="related-content"></a><span data-ttu-id="1d101-119">См. также:</span><span class="sxs-lookup"><span data-stu-id="1d101-119">Related content</span></span>
 
-<span data-ttu-id="872ce-120">[Попробуйте или Microsoft 365 подписку](../try-or-buy-microsoft-365.md) на бизнес (статья)</span><span class="sxs-lookup"><span data-stu-id="872ce-120">[Try or buy a Microsoft 365 for business subscription](../try-or-buy-microsoft-365.md) (article)</span></span>\
-<span data-ttu-id="872ce-121">[Продление подписки Microsoft 365 для бизнеса](renew-your-subscription.md) (статья)</span><span class="sxs-lookup"><span data-stu-id="872ce-121">[Renew Microsoft 365 for business](renew-your-subscription.md) (article)</span></span>\
-<span data-ttu-id="872ce-122">[Отмена подписки](cancel-your-subscription.md) (статья)</span><span class="sxs-lookup"><span data-stu-id="872ce-122">[Cancel your subscription](cancel-your-subscription.md) (article)</span></span>
+<span data-ttu-id="1d101-120">[Попробуйте или Microsoft 365 подписку](../try-or-buy-microsoft-365.md) на бизнес (статья)</span><span class="sxs-lookup"><span data-stu-id="1d101-120">[Try or buy a Microsoft 365 for business subscription](../try-or-buy-microsoft-365.md) (article)</span></span>\
+<span data-ttu-id="1d101-121">[Продление подписки Microsoft 365 для бизнеса](renew-your-subscription.md) (статья)</span><span class="sxs-lookup"><span data-stu-id="1d101-121">[Renew Microsoft 365 for business](renew-your-subscription.md) (article)</span></span>\
+<span data-ttu-id="1d101-122">[Отмена подписки](cancel-your-subscription.md) (статья)</span><span class="sxs-lookup"><span data-stu-id="1d101-122">[Cancel your subscription](cancel-your-subscription.md) (article)</span></span>
