@@ -22,12 +22,12 @@ search.appverid: MET150
 description: Узнайте, как читать и знакомиться со счетом, выставленным за продукты Microsoft для бизнеса.
 keywords: учетные записи выставления счетов, сведения об организации, счета
 ms.date: 05/04/2021
-ms.openlocfilehash: dc83db458d1d91942352795c9b67578e9f1a2fc2
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: d173df1eac827eb835b8544f64858c28ccf0fb75
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52331947"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537311"
 ---
 # <a name="understand-your-bill-or-invoice"></a>Ознакомление со счетом
 
@@ -143,6 +143,17 @@ ms.locfileid: "52331947"
 ### <a name="why-dont-i-see-azure-prepayment-as-a-payment-method"></a>Почему предоплата Azure не является способом оплаты?
 
 Предоплата Azure доступна в качестве способа оплаты только для соответствующих продуктов и услуг Azure.
+
+## <a name="related-content"></a>См. также:
+
+[Понимание счета или](understand-your-invoice2.md) счета Microsoft 365 для бизнеса (статья)
+
+[Отслеживание кредитного баланса Microsoft Customer Agreement Azure](/azure/billing/billing-mca-check-azure-credits-balance) (статья)
+
+[Просмотрите счет-фактуру соглашения](/azure/cost-management-billing/understand/review-customer-agreement-bill) о клиентах Майкрософт (статья)
+
+[Начало работы с учетной записью биллинга microsoft Customer Agreement](/azure/billing/billing-mca-overview) (статья)
+
 
 ## <a name="need-help-contact-support"></a>Нужна помощь? Обратитесь в службу поддержки
 

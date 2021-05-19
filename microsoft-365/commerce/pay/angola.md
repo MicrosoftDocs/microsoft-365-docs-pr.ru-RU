@@ -1,23 +1,24 @@
 ---
 title: Сведения об оплате для Анголы
-author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.custom: CommercePayInfo
+ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: Узнайте, куда отправить платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 636de0c2b340eec79b1e2c60b88b54d8a6001a72
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 5ae0fb4ec58b4bb7cc4411269e751b8fcd179c78
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274320"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537251"
 ---
 # <a name="payment-information-for-angola"></a>Сведения об оплате для Анголы
 
@@ -31,4 +32,4 @@ ms.locfileid: "52274320"
 **Код SWIFT:** CITIGB2L  
 **IBAN:** GB95CITI18500812510049  
 **Номер учетной записи:** 12510049  
-**Имя учетной записи:** Microsoft  
+**Имя учетной записи:** Microsoft

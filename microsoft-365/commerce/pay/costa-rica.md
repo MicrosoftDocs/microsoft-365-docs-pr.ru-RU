@@ -1,23 +1,24 @@
 ---
 title: Сведения о платежах для Коста-Рики
-author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.custom: CommercePayInfo
+ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: Узнайте, куда отправить платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 22c04b4d2c4f8b29dcce2b20e2a4f291955d22e0
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 1cb8feabf2c3046ef6bd51c78fe91920f77730ab
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52273984"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52536938"
 ---
 # <a name="payment-information-for-costa-rica"></a>Сведения о платежах для Коста-Рики
 
@@ -31,4 +32,4 @@ ms.locfileid: "52273984"
 **Ветвь:** Даллас  
 **Код SWIFT:** BOFAUS3N  
 **Номер учетной записи:** 4426587954  
-**Имя учетной записи:** Microsoft  
+**Имя учетной записи:** Microsoft

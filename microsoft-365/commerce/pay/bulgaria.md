@@ -1,23 +1,24 @@
 ---
 title: Сведения об оплате для Болгарии
-author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.custom: CommercePayInfo
+ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: Узнайте, куда отправить платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 5b2bbc2a96543c432a1bd756621171ccfca26eb5
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: b383cbdac20f3197cd95c5419252582f4e0099b3
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274092"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537034"
 ---
 # <a name="payment-information-for-bulgaria"></a>Сведения об оплате для Болгарии
 
@@ -32,4 +33,4 @@ ms.locfileid: "52274092"
 **IBAN:** GB31CITI18500812207591  
 **КОД SORT:** 185008  
 **Номер учетной записи:** 12207591  
-**Имя учетной записи:** Microsoft  
+**Имя учетной записи:** Microsoft

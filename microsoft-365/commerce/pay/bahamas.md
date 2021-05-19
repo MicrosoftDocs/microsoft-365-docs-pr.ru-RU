@@ -1,23 +1,24 @@
 ---
 title: Сведения об оплате для Багамских островов
-author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.custom: CommercePayInfo
+ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: Узнайте, куда отправить платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 94d6ab14a58a4635a6881aac2cc4b32a6e10a972
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 5923d572f73b188d8ef2b706db7f61afe9421061
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274236"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537179"
 ---
 # <a name="payment-information-for-bahamas"></a>Сведения об оплате для Багамских островов
 
@@ -31,4 +32,4 @@ ms.locfileid: "52274236"
 **Ветвь:** Даллас  
 **Код SWIFT:** BOFAUS3N  
 **Номер учетной записи:** 4426587954  
-**Имя учетной записи:** Microsoft  
+**Имя учетной записи:** Microsoft

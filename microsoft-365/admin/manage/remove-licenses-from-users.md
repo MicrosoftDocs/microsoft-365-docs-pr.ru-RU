@@ -21,12 +21,12 @@ ms.custom:
 search.appverid: MET150
 description: Узнайте, как отогнать лицензии из учетных записей пользователей.
 ms.date: 07/01/2020
-ms.openlocfilehash: 6f2cbf65e1d6a38a4b1ed00976d4dd473d7331e9
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 5ef28b3065703ec224e6426c4fdbfffdb5269b22
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332418"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537503"
 ---
 # <a name="unassign-licenses-from-users"></a>Отмена назначения лицензий пользователям
 
@@ -35,7 +35,7 @@ ms.locfileid: "52332418"
 > [!NOTE]
 > В качестве администратора вы не можете назначить лицензии или отменить их назначение для подписок, самостоятельно приобретенных пользователем в организации. Вы можете [получить контроль над самостоятельно приобретенной подпиской](../../commerce/subscriptions/manage-self-service-purchases-admins.md#take-over-a-self-service-purchase-subscription), а затем назначить лицензии или отменить их назначение.
 
-## <a name="before-you-begin"></a>Подготовка
+## <a name="before-you-begin"></a>Прежде чем начать
 
 - Чтобы отогнать лицензии, необходимо быть администратором глобальной лицензии, лицензии и пользователя. Дополнительные сведения см. в статье [Роли администраторов в Microsoft 365](../add-users/about-admin-roles.md).
 - Вы можете [удалить лицензии из учетных записей пользователей с помощью Office 365 PowerShell](../../enterprise/remove-licenses-from-user-accounts-with-microsoft-365-powershell.md).
@@ -47,18 +47,19 @@ ms.locfileid: "52332418"
 
 ::: moniker range="o365-worldwide"
 
-1. В Центре администрирования выберите **Выставление счетов** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Лицензии</a>.
+1. В Центре администрирования выберите **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Лицензии</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">Центре администрирования</a> выберите **Выставление счетов** > **Лицензии**.
+ 1. В Центре администрирования выберите **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=848038" target="_blank">Лицензии</a>.
+
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">Центре администрирования</a> выберите **Выставление счетов** > **Лицензии**.
+ 1. В Центре администрирования выберите **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850625" target="_blank">Лицензии</a>.
 
 ::: moniker-end
 
@@ -72,22 +73,22 @@ ms.locfileid: "52332418"
 Если вы используете **страницу Активные** пользователи для ненамеряния лицензий, вы не передаете лицензии на продукты от пользователей.
 
 ### <a name="unassign-licenses-from-one-user"></a>Unassign licenses from one user
-  
+
 ::: moniker range="o365-worldwide"
 
-1. В Центре администрирования откройте страницу **Пользователи** > <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Активные пользователи</a>.
+1. В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Активные пользователи</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">Центре администрирования</a> откройте страницу **Выставление счетов** > **Активные пользователи**.
+ 1. В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Активные пользователи</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">Центре администрирования</a> откройте страницу **Выставление счетов** > **Активные пользователи**.
+ 1. В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Активные пользователи</a>.
 
 ::: moniker-end
 
@@ -99,41 +100,41 @@ ms.locfileid: "52332418"
 
 ::: moniker range="o365-worldwide"
 
-1. В Центре администрирования откройте страницу **Пользователи** > <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Активные пользователи</a>.
+1. В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Активные пользователи</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">Центре администрирования</a> откройте страницу **Выставление счетов** > **Активные пользователи**.
+ 1. В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Активные пользователи</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">Центре администрирования</a> откройте страницу **Выставление счетов** > **Активные пользователи**.
+ 1. В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Активные пользователи</a>.
 
 ::: moniker-end
 
 2. Выберите круги рядом с именами пользователей, для которых необходимо отогнать лицензии.
-3. Нажмите вверху **Дополнительные параметры (...)** и выберите **Управление лицензиями на продукты**.
+3. В верхней части выберите три точки (больше действий), а затем выберите **Управление лицензиями продукта.**
 4. В области **Управление лицензиями на продукты** выберите **Заменить имеющиеся назначения лицензий на продукты** \> **Далее**.
 5. В нижней части области **Заменить** существующие продукты выберите удалить все лицензии на продукты из выбранного окна пользователей, а затем выберите **заменить**  \> **закрыть**.
 
 ## <a name="what-happens-to-a-users-data-when-you-remove-their-license"></a>Что происходит с данными пользователя при удале лицензии?
 
 - При удалении лицензии у пользователя данные, связанные с этой учетной записью, удерживаются в течение 30 дней. После 30-дневного льготного периода данные удаляются и не могут быть восстановлены.
-- Файлы, сохраненные в OneDrive для бизнеса, не удаляются, если пользователь не удаляется из центра администрирования Microsoft 365 или удаляется с помощью синхронизации Active Directory. Дополнительные сведения см. в [сайте Хранения и удаления OneDrive.](/onedrive/retention-and-deletion)
-- При удалении лицензии почтовый ящик пользователя больше не будет искаться с помощью средства поиска электронных данных, например поиска контента или предварительного поиска электронных данных. Дополнительные сведения см. в материалах "Поиск отключенных или от лицензированных почтовых ящиков" в "Поиск контента" [в Microsoft 365.](../../compliance/content-search.md)
-- Если у вас есть подписка enterprise, например Office 365 Enterprise E3, Exchange Online позволяет сохранять данные почтовых ящиков удаленных учетных записей пользователей с помощью неактивных почтовых [ящиков.](../../compliance/inactive-mailboxes-in-office-365.md) Дополнительные сведения см. в рублях Создание и управление неактивными почтовыми [ящиками в Exchange Online.](../../compliance/create-and-manage-inactive-mailboxes.md)
-- Сведения о том, как заблокировать доступ пользователя к данным Microsoft 365 после удаления лицензии, а также как получить доступ к данным после этого, см. в см. в twitter [Remove a former employee.](../add-users/remove-former-employee.md)
-- Если вы удалите лицензию пользователя и у них все еще установлены приложения Office, они увидят ошибки без лицензии на продукт и активацию в [Office](https://support.microsoft.com/office/0d23d3c0-c19c-4b2f-9845-5344fedc4380) при использовании приложений Office.
+- Файлы, сохраненные в OneDrive для бизнеса, не удаляются, если пользователь не удаляется из центра администрирования Microsoft 365 или удаляется с помощью синхронизации Active Directory. Дополнительные сведения см. [в OneDrive хранения и удаления.](/onedrive/retention-and-deletion)
+- При удалении лицензии почтовый ящик пользователя больше не будет искаться с помощью средства поиска электронных данных, например поиска контента или Advanced eDiscovery. Дополнительные сведения см. в материалах "Поиск отключенных или от лицензированных почтовых ящиков" в области поиска контента [в Microsoft 365.](../../compliance/content-search.md)
+- Если у Enterprise подписка, например Office 365 корпоративный E3, Exchange Online позволяет сохранять данные почтовых ящиков удаленных учетных записей пользователей с помощью неактивных почтовых [ящиков.](../../compliance/inactive-mailboxes-in-office-365.md) Дополнительные сведения см. в [сообщении Create and manage inactive mailboxes in Exchange Online.](../../compliance/create-and-manage-inactive-mailboxes.md)
+- Сведения о том, как заблокировать доступ пользователя к данным Microsoft 365 после удаления лицензии, а также как получить доступ к данным после этого, см. в этой записи [Remove a former employee.](../add-users/remove-former-employee.md)
+- Если вы удалите лицензию пользователя и Office установлены приложения, [](https://support.microsoft.com/office/0d23d3c0-c19c-4b2f-9845-5344fedc4380) они увидят ошибки без лицензии на продукт и активацию Office при использовании Office приложений.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
 Если вы не собираетесь перенаходить неиспользование лицензий другим [](../../commerce/licenses/buy-licenses.md) [пользователям,](../../managed-desktop/get-started/assign-licenses.md)рассмотрите возможность удаления лицензий из подписки, чтобы не платить за больше лицензий, чем нужно.
 
-## <a name="related-content"></a>Связанные материалы
+## <a name="related-content"></a>См. также:
 
 [Удаление лицензий из подписки](../../commerce/licenses/buy-licenses.md) (статья)\
 [Назначение лицензий пользователям](assign-licenses-to-users.md) (статья)\

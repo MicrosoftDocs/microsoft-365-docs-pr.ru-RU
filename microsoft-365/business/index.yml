@@ -15,10 +15,10 @@ metadata:
 productDirectory:
   title: "Безопасная удаленная работа с помощью Microsoft\_365 бизнес премиум"
   items:
-    - title: Чтение
+    - title: Просмотр
       imageSrc: 'https://docs.microsoft.com/office/media/icons/sign-up-blue.svg'
-      summary: Лучшие способы обеспечения безопасной удаленной работы с помощью Microsoft 365 бизнес премиум.
-      url: 'https://techcommunity.microsoft.com/t5/small-and-medium-business-blog/using-microsoft-365-business-to-secure-your-remote-workforce/ba-p/1298623'
+      summary: Пять основных преимуществ Microsoft 365 бизнес премиум.
+      url: 'https://aka.ms/M365BPvideo'
     - title: Получение бесплатного партнерского комплекта
       imageSrc: 'https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg'
       summary: Практические руководства и ресурсы по выходу на рынок для партнеров с целью обеспечения безопасности удаленной работы.

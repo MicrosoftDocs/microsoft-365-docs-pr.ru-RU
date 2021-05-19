@@ -49,7 +49,7 @@
       items:
         - name: Использование Outlook и Teams
           href: collab-outlook-teams.md
-        - name: Начало работы с Microsoft Teams в компаниях малого бизнеса
+        - name: Начало работы с Teams
           href: get-started-teams-small-business.md
         - name: Создание адреса электронной почты группы
           href: group-email.md
