@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: При создании метки конфиденциальности ее можно автоматически назначать файлам или сообщениям электронной почты или можно предложить пользователям выбрать рекомендованную метку.
-ms.openlocfilehash: f5281255db48b61e7cf21a1ac8d6b5bdd18ebc20
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: d7559e5fa75db1fb23592dec1a3a5f35bad603df
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332982"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538542"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Автоматическое применение метки конфиденциальности к содержимому
 
@@ -133,7 +133,7 @@ ms.locfileid: "52332982"
 
 Аналогично настройке политик защиты от потери данных вы можете затем уточнить условие, изменив количество экземпляров и точность совпадений. Пример:
 
-![Параметры точности совпадения и количества экземпляров](../media/sensitivity-labels-instance-count-match-accuracy.png)
+![Параметры точности совпадения и количества экземпляров](../media/sit-confidence-level.png)
 
 Дополнительные сведения об этих параметрах настройки см. в документации по защите от потери данных [Настройка более или менее строгих правил](data-loss-prevention-policies.md#tuning-rules-to-make-them-easier-or-harder-to-match).
 
@@ -189,7 +189,7 @@ ms.locfileid: "52332982"
 
 - Для рекомендованных меток в настольных версиях Word конфиденциальный контент, вызвавший рекомендацию, помечается, чтобы пользователи могли просматривать и удалять конфиденциальный контент вместо применения рекомендуемой метки чувствительности.
 
-- Подробные сведения о том, как эти метки применяются в приложениях Office, примеры снимков экрана и способ обнаружения конфиденциальной информации, см. в разделе [Автоматически применять или рекомендовать метки чувствительности к файлам и сообщениям электронной почты в Office](https://support.office.com/ru-RU/article/automatically-apply-or-recommend-sensitivity-labels-to-your-files-and-emails-in-office-622e0d9c-f38c-470a-bcdb-9e90b24d71a1).
+- Подробные сведения о том, как эти метки применяются в приложениях Office, примеры снимков экрана и способ обнаружения конфиденциальной информации, см. в разделе [Автоматически применять или рекомендовать метки чувствительности к файлам и сообщениям электронной почты в Office](https://support.office.com/en-us/article/automatically-apply-or-recommend-sensitivity-labels-to-your-files-and-emails-in-office-622e0d9c-f38c-470a-bcdb-9e90b24d71a1).
 
 Для клиента унифицированной маркировки Azure Information Protection:
 

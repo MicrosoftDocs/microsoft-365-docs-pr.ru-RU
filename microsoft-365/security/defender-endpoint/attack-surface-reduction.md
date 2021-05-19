@@ -16,12 +16,12 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 3ca8f5234f90624c8570cbfb10e75bd0ee9380ae
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: da4b7fce66a6c51da61edd7c44216ee268c3156a
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52345840"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538667"
 ---
 # <a name="use-attack-surface-reduction-rules-to-prevent-malware-infection"></a>Используйте правила уменьшения поверхности атаки, чтобы предотвратить заражение вредоносными программами
 
@@ -160,7 +160,7 @@ DeviceEvents
 
 |Имя правила|GUID|Исключения & папки|Минимальная поддержка ОС|
 |---|:---:|---|---|
-|[Блокировка злоупотреблений с использованием уязвимых подписанных драйверов](#block-abuse-of-exploited-vulnerable-signed-drivers)|`56a863a9-875e-4185-98a7-b882c64b5ce5`|Поддерживается|[Windows 10 версии 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709)|
+|[Блокировка злоупотреблений с использованием уязвимых подписанных драйверов](#block-abuse-of-exploited-vulnerable-signed-drivers)|`56a863a9-875e-4185-98a7-b882c64b5ce5`|Поддерживается|[Windows 10 версии 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) (RS3, сборка 16299) или больше) |
 |[Блокировка Adobe Reader от создания детских процессов](#block-adobe-reader-from-creating-child-processes)|`7674ba52-37eb-4a4f-a9a1-f0f9a1619a2c`|Поддерживается|[Windows 10 версии 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) (RS3, сборка 16299) или более|
 |[Блокировка всех Office приложений от создания детских процессов](#block-all-office-applications-from-creating-child-processes)|`D4F940AB-401B-4EFC-AADC-AD5F3C50688A`|Поддерживается|[Windows 10 версии 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) (RS3, сборка 16299) или более|
 |[Блокировка кражи учетных данных из Windows локальной подсистемы органов безопасности (lsass.exe)](#block-credential-stealing-from-the-windows-local-security-authority-subsystem)|`9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2`|Поддерживается|[Windows 10 версии 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) (RS3, сборка 16299) или более|
@@ -184,6 +184,14 @@ DeviceEvents
 
 Это правило не блокирует загрузку уже существующего в системе драйвера.
 
+>[!NOTE]
+>
+> Это правило можно настроить с помощью процедурных сведений [meM OMA-URI](enable-attack-surface-reduction.md#mem) для пользовательских правил MEM OMA-URI.
+>
+> Это правило также можно настроить с помощью [PowerShell.](enable-attack-surface-reduction.md#powershell)
+>
+> Этот веб-сайт можно использовать для [отправки драйвера для анализа.](https://www.microsoft.com/en-us/wdsi/driversubmission)
+
 Это правило поддерживается во всех версиях, в которых поддерживается ASR; который:
 
 - [Windows 10 Pro версии 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) или более поздней версии
@@ -194,16 +202,6 @@ DeviceEvents
 Имя Intune: `Block abuse of exploited vulnerable signed drivers`
 
 GUID:  `56a863a9-875e-4185-98a7-b882c64b5ce5`
-
-См. [Microsoft Endpoint Manager настраиваемую процедуру](enable-attack-surface-reduction.md#microsoft-endpoint-manager-custom-procedure) для сведений о процедуре пользовательских правил MEM.
-
-Эту команду можно запустить в командной строке, чтобы включить правило ASR:
-
-```powershell
-"& {&'Add-MpPreference' -AttackSurfaceReductionRules_Ids 56a863a9-875e-4185-98a7-b882c64b5ce5 -AttackSurfaceReductionRules_Actions Enabled"}
-```
-
-Этот веб-сайт можно использовать для [отправки драйвера для анализа.](https://www.microsoft.com/en-us/wdsi/driversubmission)
 
 ### <a name="block-adobe-reader-from-creating-child-processes"></a>Блокировка Adobe Reader от создания детских процессов
 

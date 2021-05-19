@@ -1,5 +1,5 @@
 ---
-title: Выберите домен, который можно использовать при создании групп Microsoft 365
+title: Выберите домен, который можно использовать при создании Microsoft 365 групп
 ms.reviewer: arvaradh
 f1.keywords: NOCSH
 ms.author: mikeplum
@@ -16,21 +16,22 @@ ms.collection:
 search.appverid:
 - MET150
 ms.assetid: 7cf5655d-e523-4bc3-a93b-3ccebf44a01a
-description: Узнайте, как выбрать домен, который можно использовать при создании групп Microsoft 365, настроив политики адресов электронной почты с помощью PowerShell.
-ms.openlocfilehash: 4908d5bd58ca6d0fbb50151983ddb459f0732284
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+recommendations: false
+description: Узнайте, как выбрать домен, который можно использовать при создании Microsoft 365 групп, настроив политики адресов электронной почты с помощью PowerShell.
+ms.openlocfilehash: a0142ea5f5aa088c4be79fc8699a616d9cdd9390
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50904688"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538223"
 ---
-# <a name="choose-the-domain-to-use-when-creating-microsoft-365-groups"></a>Выберите домен, который можно использовать при создании групп Microsoft 365
+# <a name="choose-the-domain-to-use-when-creating-microsoft-365-groups"></a>Выберите домен, который можно использовать при создании Microsoft 365 групп
 
-В некоторых организациях для разных подразделений используются отдельные домены электронной почты. Вы можете указать, какой домен следует использовать при создании пользователями групп Microsoft 365.
+В некоторых организациях для разных подразделений используются отдельные домены электронной почты. Вы можете указать, какой домен следует использовать при создании Microsoft 365 групп.
   
 Если согласно требованиям организации пользователи должны создавать группы в доменах, которые отличаются от обслуживаемого домена организации, используемого по умолчанию, вы можете настроить политики адресов электронной почты (EAP) с помощью PowerShell.
 
-Прежде чем запускать командлеты PowerShell, скачайте и установите модуль, который позволит вам поговорить с организацией. Проверьте Подключение [к Exchange Online с помощью удаленной PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
+Прежде чем запускать командлеты PowerShell, скачайте и установите модуль, который позволит вам поговорить с организацией. Ознакомьтесь [с Подключение Exchange Online с помощью удаленной PowerShell.](/powershell/exchange/connect-to-exchange-online-powershell)
 
 ## <a name="example-scenarios"></a>Примеры сценариев
 
@@ -45,11 +46,11 @@ ms.locfileid: "50904688"
 В следующих двух сценариях объясняется, как это можно сделать.
 
 > [!NOTE]
-> Если у вас есть mulitple EAP, они оцениваются в порядке приоритета. Значение 1 означает наивысший приоритет. После совпадения EAP не будет оцениваться дальнейшая EAP, а адреса, на которые будет напечатан штамп в группе, будут соответствовать EAP. > Если никакие EAP не соответствуют указанным критериям, группа получает предварительную оценку в принятом по умолчанию домене организации. Сведения о добавлении принятого домена можно найти в [Exchange Online.](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)
+> Если у вас есть mulitple EAP, они оцениваются в порядке приоритета. Значение 1 означает наивысший приоритет. После совпадения EAP не будет оцениваться дальнейшая EAP, а адреса, на которые будет напечатан штамп в группе, будут соответствовать EAP. > Если никакие EAP не соответствуют указанным критериям, группа получает предварительную оценку в принятом по умолчанию домене организации. Сведения о добавлении принятого домена [Exchange Online](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains) в области управления принятыми доменами.
   
 ### <a name="scenario-1"></a>Сценарий 1
 
-В следующем примере показана подготовка всех групп Microsoft 365 в организации в groups.contoso.com домене.
+В следующем примере показано, как Microsoft 365 всех групп организации в groups.contoso.com домене.
   
 ```
 New-EmailAddressPolicy -Name Groups -IncludeUnifiedGroupRecipients -EnabledEmailAddressTemplates "SMTP:@groups.contoso.com" -Priority 1
@@ -57,7 +58,7 @@ New-EmailAddressPolicy -Name Groups -IncludeUnifiedGroupRecipients -EnabledEmail
 
 ### <a name="scenario-2"></a>Сценарий 2
 
-Предположим, необходимо контролировать, в каких под доменах созданы группы Microsoft 365. Вам нужны указанные ниже группы и пользователи.
+Предположим, необходимо контролировать, в каких Microsoft 365 создаются под домены. Вам нужны указанные ниже группы и пользователи.
   
 - Группы, созданные учащимися (пользователями, которые имеют набор **Department** **для** студентов) в students.groups.contoso.com домене. Используйте эту команду:
     
@@ -100,7 +101,7 @@ Remove-EmailAddressPolicy -Identity StudentsGroups
   
 ## <a name="hybrid-requirements"></a>Требования к гибридной среде
 
-Если ваша организация настроена в гибридном сценарии, ознакомьтесь с настройками групп [Microsoft 365](/exchange/hybrid-deployment/set-up-microsoft-365-groups) с локальной гибридной версией Exchange, чтобы убедиться, что организация соответствует требованиям для создания групп Microsoft 365. 
+Если ваша организация настроена в гибридном [](/exchange/hybrid-deployment/set-up-microsoft-365-groups) сценарии, ознакомьтесь с настройками Microsoft 365 групп с локальной гибридной Exchange, чтобы убедиться, что организация соответствует требованиям по созданию Microsoft 365 групп. 
   
 ## <a name="additional-info-about-using-email-address-policies-groups"></a>Дополнительные сведения об использовании групп политик адресов электронной почты:
 
@@ -118,7 +119,7 @@ Remove-EmailAddressPolicy -Identity StudentsGroups
     
 - В организации можно настроить не более 100 политик адресов электронной почты.
     
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
 [Пошаговая пошаговая работа по планированию управления совместной работой](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
 

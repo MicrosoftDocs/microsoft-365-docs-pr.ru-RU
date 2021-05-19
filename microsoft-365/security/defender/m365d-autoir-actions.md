@@ -21,12 +21,12 @@ ms.topic: how-to
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.technology: m365d
-ms.openlocfilehash: f3dba2116e0f13f265937ef65fd3b69bcb1e725b
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 9e82f1c5de9fe1f4a03385458338edf18c4f35bd
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274656"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538847"
 ---
 # <a name="view-and-manage-actions-in-the-action-center"></a>Просмотр и управление действиями в центре действий
 
@@ -69,7 +69,7 @@ ms.locfileid: "52274656"
 
 | Источник действий | Поддерживаемые действия |
 |:---|:---|
-| - Автоматическое расследование <br/>- Антивирус Microsoft Defender <br/>- Действия ручного ответа | - Изолировать устройство <br/>- Ограничение выполнения кода <br/>- Карантин файла <br/>- Удаление ключа реестра <br/>- Остановка службы <br/>- Отключить драйвер <br/>- Удаление запланированной задачи |
+| - Автоматическое расследование <br/>- антивирусная программа в Microsoft Defender <br/>- Действия ручного ответа | - Изолировать устройство <br/>- Ограничение выполнения кода <br/>- Карантин файла <br/>- Удаление ключа реестра <br/>- Остановка службы <br/>- Отключить драйвер <br/>- Удаление запланированной задачи |
 
 ### <a name="undo-one-remediation-action"></a>Отмена одного действия по исправлению
 
@@ -98,4 +98,4 @@ ms.locfileid: "52274656"
 ## <a name="next-steps"></a>Дальнейшие действия
 
 - [Просмотр сведений и результатов автоматического исследования](m365d-autoir-results.md)
-- [Адрес false positives or false negatives)](m365d-autoir-report-false-positives-negatives.md)
+- [Устранение ложных срабатыва-](m365d-autoir-report-false-positives-negatives.md)

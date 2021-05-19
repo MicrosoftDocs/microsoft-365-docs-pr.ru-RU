@@ -13,12 +13,12 @@ search.appverid: ''
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: Узнайте, как управлять контрактами с Microsoft 365 решения SharePoint, Microsoft Teams и Power Automate.
-ms.openlocfilehash: 806ea9fd048dec198a19fa79f3b60f3f3cb81018
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: 057c581559aa2e5cfd6e98b379783a7d73e0bccc
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52281312"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538571"
 ---
 # <a name="manage-contracts-using-a-microsoft-365-solution"></a>Управление контрактами с помощью Microsoft 365 решения
 
@@ -67,6 +67,10 @@ ms.locfileid: "52281312"
 4. С помощью Power Automate, контракты перемещаются в процессе утверждения в Teams канале. Когда участник утверждает контракт, статус контракта меняется для утверждения, все участники уведомлены через Teams, и элемент строки создается, чтобы показать, что контракт готов к выплате. Этот процесс можно расширить для записи непосредственно в стороне финансовое приложение для оплаты.
 
 5.  Когда участник отклоняет контракт, статус меняется на отклонение, и все участники уведомлены через Teams сообщение.
+
+6. Конечным результатом этого решения является автоматизированный бизнес-процесс для вашей организации. Сотрудники могут легко использовать настраиваемый вид плитки в Teams, чтобы инициировать и отслеживать рабочий процесс утверждения документов. 
+
+     ![Вкладка Контракты.](../media/content-understanding/tile-view.png)
 
 ## <a name="create-the-solution"></a>Создание решения
 

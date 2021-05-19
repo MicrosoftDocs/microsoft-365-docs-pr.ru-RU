@@ -16,17 +16,15 @@ ms.author: deniseb
 ms.custom: nextgen
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 9a2f37aa0a2a17646862a7a7e1bd8b34685e76b8
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.date: 05/17/2021
+ms.openlocfilehash: ed9eb425d718a2dbdaa2cdb3ab1e6899c9870124
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274716"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538895"
 ---
 # <a name="protect-security-settings-with-tamper-protection"></a>Защита параметров безопасности с помощью защиты от подделки
-
-[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
-
 
 **Область применения:**
 
@@ -52,7 +50,7 @@ ms.locfileid: "52274716"
 - Отключение облачной защиты
 - Удаление обновлений разведки безопасности
 
-### <a name="how-it-works"></a>Как это работает
+### <a name="how-it-works"></a>Принципы работы
 
 Защита от взлома по сути блокирует антивирусная программа в Microsoft Defender и предотвращает изменения параметров безопасности с помощью приложений и методов, таких как:
 
@@ -62,47 +60,40 @@ ms.locfileid: "52274716"
 
 Защита от взлома не мешает вам просматривать параметры безопасности. Защита от взлома не влияет на регистрацию сторонних антивирусных приложений с Безопасность Windows приложением. Если ваша организация использует Windows 10 Корпоративная E5, отдельные пользователи не могут изменить параметр защиты от взлома; в этих случаях защита от взлома управляется вашей командой безопасности.
 
-
-
 ### <a name="what-do-you-want-to-do"></a>Что нужно сделать
 
 | Для выполнения этой задачи... | См. в этом разделе... |
 |:---|:---|
-| Включите защиту от взлома (или выключение) в Центр безопасности в Microsoft Defender <p>Управление защитой от взлома в клиенте | [Управление защитой от взлома для организации с помощью Центр безопасности в Microsoft Defender](#manage-tamper-protection-for-your-organization-using-the-microsoft-defender-security-center) |
-| Включите защиту от взлома (или отключение) для всех или части организации с помощью Intune <p>Настройка параметров защиты от взлома в организации | [Управление защитой от взлома для организации с помощью Intune](#manage-tamper-protection-for-your-organization-using-intune) |
+| Управление защитой от взлома в клиенте <p>Используйте Центр безопасности в Microsoft Defender, чтобы включить или отключить защиту от взлома | [Управление защитой от взлома для организации с помощью Центр безопасности в Microsoft Defender](#manage-tamper-protection-for-your-organization-using-the-microsoft-defender-security-center) |
+| Настройка параметров защиты от взлома в организации <p>Используйте Intune (Microsoft Endpoint Manager) для отключения защиты от взлома. С помощью этого метода можно настроить защиту от взлома для некоторых или всех пользователей. | [Управление защитой от взлома для организации с помощью Intune](#manage-tamper-protection-for-your-organization-using-intune) |
 | Включите защиту от взлома (или отключение) для организации с помощью диспетчера конфигурации | [Управление защитой от взлома для организации с помощью присоединений клиента к Configuration Manager версии 2006](#manage-tamper-protection-for-your-organization-with-configuration-manager-version-2006) |
 | Включите защиту от взлома (или выключение) для отдельного устройства | [Управление защитой от взлома на отдельном устройстве](#manage-tamper-protection-on-an-individual-device) |
 | Просмотр сведений о попытках фальсификации на устройствах | [Просмотр сведений о попытках фальсификации](#view-information-about-tampering-attempts) |
 | Просмотрите рекомендации по безопасности | [Обзор рекомендаций по безопасности](#review-your-security-recommendations) |
 | Просмотрите список часто задаваемого вопроса (часто задаваемой вопросы) | [Просмотр задаваемой темы](#view-information-about-tampering-attempts) |
 
-В зависимости от метода или средства управления, используемого для обеспечения защиты Tamper, может иметься зависимость от MAPS (облачной защиты). 
+В зависимости от метода или средства управления, используемого для обеспечения защиты Tamper, может возникнуть зависимость от MAPS (облачной защиты). 
 
 В следующей таблице приводится подробная информация о методах, средствах и зависимостях.
 
-
-
-|     Как включена защита tamper                                         |     Зависимость от MAPS (облачная защита)    |
-|------------------------------------------------------------------------------|--------------------------------------------------------|
-|     Microsoft Intune                                                         |     Нет                                                 |
-| Microsoft Endpoint Configuration Manager + Присоединение клиента                     |     Нет                                                 |
-|     Портал Microsoft Defender для конечных точек (securitycenter.microsoft.com)    |     Да                                                |
-|     Microsoft 365 Портал Defender (security.microsoft.com)                   |     Да                                                |
+| Как включена защита tamper  | Зависимость от MAPS (облачная защита)    |
+|:----|:----|
+| Microsoft Intune  | Нет |
+| Microsoft Endpoint Configuration Manager + Присоединение клиента  |     Нет  |
+| Центр безопасности в Microsoft Defender ( [https://securitycenter.microsoft.com](https://securitycenter.microsoft.com) )    |     Да |
+| Microsoft 365 центра безопасности ( [https://security.microsoft.com](https://security.microsoft.com) )  |     Да  |
 
 ## <a name="manage-tamper-protection-for-your-organization-using-the-microsoft-defender-security-center"></a>Управление защитой от взлома для организации с помощью Центр безопасности в Microsoft Defender
 
 Защита от взлома может быть включена или отключена для клиента с помощью Центр безопасности в Microsoft Defender ( [https://securitycenter.windows.com](https://securitycenter.windows.com) ). Вот несколько моментов, которые необходимо иметь в виду:
 
-- В настоящее время для новых развертывания по умолчанию Центр безопасности в Microsoft Defender для управления защитой от Центр безопасности в Microsoft Defender. В существующих развертываниях защита от взлома доступна на основе выбора, и в ближайшее время планируется сделать этот метод по умолчанию. (Чтобы выбрать в Центр безопасности в Microsoft Defender, выберите **Параметры**  >  **Расширенные функции**  >  **Защита tamper**.) 
+- В настоящее время для новых развертывания по умолчанию Центр безопасности в Microsoft Defender для управления защитой от Центр безопасности в Microsoft Defender. В существующих развертываниях защита от взлома доступна на основе выбора, и в ближайшее время планируется сделать выбор в методе по умолчанию. (Чтобы выбрать в Центр безопасности в Microsoft Defender, выберите **Параметры**  >  **Расширенные функции**  >  **Защита tamper**.) 
 
 - При использовании Центр безопасности в Microsoft Defender защиты от взлома не нужно использовать метод Intune или присоединение клиента.
 
 - При управлении защитой от Центр безопасности в Microsoft Defender в Центр безопасности в Microsoft Defender параметр применяется широкий клиент, затрагивающий все устройства, работающие Windows 10, Windows Server 2016 или Windows Server 2019. Чтобы настроить защиту от взлома (например, на некоторых устройствах есть защита от взлома, но отключена для других), используйте [intune](#manage-tamper-protection-for-your-organization-using-intune) или Configuration Manager с присоединением [клиента.](#manage-tamper-protection-for-your-organization-with-configuration-manager-version-2006)
 
 - Если у вас гибридная среда, параметры защиты от взлома, настроенные в Intune, имеют приоритет над настройками, настроенными в Центр безопасности в Microsoft Defender. 
-
-
-
 
 ### <a name="requirements-for-managing-tamper-protection-in-the-microsoft-defender-security-center"></a>Требования к управлению защитой от взлома в Центр безопасности в Microsoft Defender
 
@@ -133,7 +124,7 @@ ms.locfileid: "52274716"
 
 ## <a name="manage-tamper-protection-for-your-organization-using-intune"></a>Управление защитой от взлома для организации с помощью Intune
 
-Если вы входите в группу безопасности организации, а ваша подписка включает [Intune,](/intune/fundamentals/what-is-intune)вы можете включить (или отключить) защиту от взлома для организации на портале центра администрирования Microsoft Endpoint Manager [администратора.](https://endpoint.microsoft.com) Используйте Intune для настройки параметров защиты от взлома. Например, если вы хотите включить защиту от взлома на некоторых устройствах, но не на всех, используйте Intune.
+Если вы входите в группу безопасности организации, а ваша подписка включает [Intune,](/intune/fundamentals/what-is-intune)вы можете включить (или отключить) защиту от взлома для организации в центре администрирования Microsoft Endpoint Manager ( [https://endpoint.microsoft.com](https://endpoint.microsoft.com) ). Используйте Intune для настройки параметров защиты от взлома. Например, если вы хотите включить защиту от взлома на некоторых устройствах, но не на всех, используйте Intune.
 
 ### <a name="requirements-for-managing-tamper-protection-in-intune"></a>Требования к управлению защитой от взлома в Intune
 
@@ -179,12 +170,12 @@ ms.locfileid: "52274716"
 
 Если вы используете версию [2006](/mem/configmgr/core/plan-design/changes/whats-new-in-version-2006)configuration Manager, вы можете управлять настройками защиты от взлома на Windows 10, Windows Server 2016 и Windows Server 2019 с помощью метода, называемого присоединением клиента *.* Присоединение к клиенту позволяет синхронизировать локальное устройство Configuration Manager в центр администрирования Microsoft Endpoint Manager, а затем доставить политики конфигурации конечных точек в локальное & устройства.
 
-![Windows безопасности в Endpoint Manager](images/win-security- exp-policy-endpt-security.png)
+:::image type="content" source="images/win-security- exp-policy-endpt-security.png" alt-text="Безопасность Windows в Endpoint Manager":::
 
 > [!NOTE]
 > Процедура может быть использована для расширения защиты от взлома на устройства, работающие Windows 10 и Windows Server 2019. Обязательно просмотрите необходимые условия и другие сведения в ресурсах, указанных в этой процедуре.
 
-1. Настройка присоединений клиента. Чтобы получить помощь в этом, [Microsoft Endpoint Manager присоединение клиента: синхронизация](/mem/configmgr/tenant-attach/device-sync-actions)устройства и действия устройства.
+1. Настройка присоединений клиента. Подробнее см. в Microsoft Endpoint Manager [присоединении клиента: синхронизация](/mem/configmgr/tenant-attach/device-sync-actions)устройств и действия устройства.
 
 2. В центре [администрирования Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431)перейти к **антивирусу безопасности Endpoint,** а затем  >  выбрать + **Создать политику**.<br/> 
    - В **списке Платформы** выберите **Windows 10 и Windows Server (ConfigMgr).**  
@@ -219,8 +210,6 @@ ms.locfileid: "52274716"
 2. Выберите **параметры защиты &**  >  **вирусов & угрозы.**
 
 3. Установите **защиту от взлома** **для включаемой** или **отключенной.**
-
-
 
 ## <a name="view-information-about-tampering-attempts"></a>Просмотр сведений о попытках фальсификации
 

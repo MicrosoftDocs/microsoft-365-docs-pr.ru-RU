@@ -12,20 +12,17 @@ ms.author: deniseb
 ms.custom: nextgen
 ms.reviewer: ksarens
 manager: dansimp
-ms.date: 03/19/2021
+ms.date: 05/17/2021
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: 85fb60d8d4504ba3a4aa8744c1183d094da01a9b
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: eb7fa7fdf5b88bd9361176003817116bcbb1a087
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274752"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538907"
 ---
 # <a name="configure-and-manage-microsoft-defender-antivirus-with-the-mpcmdrunexe-command-line-tool"></a>Настройка и управление антивирусная программа в Microsoft Defender с помощью mpcmdrun.exe командной строки
-
-[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
-
 
 **Область применения:**
 
@@ -35,13 +32,15 @@ ms.locfileid: "52274752"
 
 > [!NOTE]
 > Может потребоваться открыть версию командной подсказки на уровне администратора. При поиске **командной подсказки** в меню Пуск выберите **Выполнить в качестве администратора.**
-> Если вы работаете с обновленной версией платформы Защитника Майкрософт, запустите ее из `**MpCmdRun**` следующего расположения: `C:\ProgramData\Microsoft\Windows Defender\Platform\<version>` .
+> Если вы работаете с обновленной версией платформы Защитника Майкрософт, запустите ее из `**MpCmdRun**` следующего расположения: `C:\ProgramData\Microsoft\Windows Defender\Platform\<antimalware platform version>` .
+> Дополнительные сведения о платформе антивирусных программ см. в антивирусная программа в Microsoft Defender [обновления и базовые версии.](manage-updates-baselines-microsoft-defender-antivirus.md)
 
-Утилита имеет следующие команды:
+Утилита MpCmdRun использует следующий синтаксис:
 
 ```console
 MpCmdRun.exe [command] [-options]
 ```
+
 Пример:
 
 ```console
@@ -51,7 +50,7 @@ MpCmdRun.exe -Scan -ScanType 2
 | Команда  | Описание   |
 |:----|:----|
 | `-?`**или**`-h`   | Отображает все доступные параметры для этого средства |
-| `-Scan [-ScanType [0\|1\|2\|3]] [-File <path> [-DisableRemediation] [-BootSectorScan] [-CpuThrottling]] [-Timeout <days>] [-Cancel]` | Сканирование вредоносного программного обеспечения. Значения для **ScanType:** **0** По умолчанию, в соответствии с конфигурацией, **-1** Быстрое сканирование, **-2** Полное сканирование, **-3** Файл и пользовательский просмотр каталога.  CpuThrottling будет соблюдать регулирование настроенного ЦП из политики |
+| `-Scan [-ScanType [0\|1\|2\|3]] [-File <path> [-DisableRemediation] [-BootSectorScan] [-CpuThrottling]] [-Timeout <days>] [-Cancel]` | Сканирование вредоносного программного обеспечения. Значения для **ScanType:**<p>**0** По умолчанию в соответствии с конфигурацией<p>**-1** Быстрое сканирование<p>**-2** Полное сканирование<p>**-3** Настраиваемая проверка файлов и каталогов.<p>CpuThrottling будет соблюдать регулирование настроенного ЦП из политики |
 | `-Trace [-Grouping #] [-Level #]` | Начало отслеживания диагностики |
 | `-GetFiles [-SupportLogLocation <path>]` | Собирает сведения о поддержке. Сведения о[сборе диагностических данных](collect-diagnostic-data.md)см. в  |
 | `-GetFilesDiagTrack`  | То `-GetFiles` же, что и , но выводит во временную папку DiagTrack |
@@ -71,7 +70,7 @@ MpCmdRun.exe -Scan -ScanType 2
 
 |Сообщение об ошибке | Возможная причина
 |:----|:----|
-| `ValidateMapsConnection failed (800106BA) or 0x800106BA` | Служба антивирусная программа в Microsoft Defender отключена. Включить службу и попробовать еще раз. <br>   **Примечание:**  В Windows 10 1909 и Windows Server 2019 или старше служба называлась "антивирусная программа ".|
+| `ValidateMapsConnection failed (800106BA) or 0x800106BA` | Служба антивирусная программа в Microsoft Defender отключена. Включить службу и попробовать еще раз. <br>   **Примечание:**  В Windows 10 1909 и Windows Server 2019 или старше служба называлась службой *антивирусная программа .*|
 | `0x80070667` | Вы работаете с командой с компьютера, который Windows 10 версии 1607 или старше или Windows Server 2016 `-ValidateMapsConnection` старше. Запустите команду с компьютера, Windows 10 версии 1703 или более новой, или Windows Server 2019 или более новой.|
 | `'MpCmdRun' is not recognized as an internal or external command, operable program or batch file.` | Инструмент должен запускаться либо из: или (где может отличаться, так как обновления платформы `%ProgramFiles%\Windows Defender` `C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2012.4-0` `2012.4-0` ежемесячно, за исключением марта)|
 | `ValidateMapsConnection failed to establish a connection to MAPS (hr=80070005 httpcode=450)` | Не хватает привилегий. Используйте командную подсказку (cmd.exe) в качестве администратора.|
@@ -86,4 +85,4 @@ MpCmdRun.exe -Scan -ScanType 2
 - [Настройка функций антивирусной программы в Microsoft Defender](configure-microsoft-defender-antivirus-features.md)
 - [Управление антивирусная программа в Microsoft Defender бизнесом](configuration-management-reference-microsoft-defender-antivirus.md)
 - [Справочные темы для средств управления и конфигурации](configuration-management-reference-microsoft-defender-antivirus.md)
-- [антивирусная программа в Microsoft Defender в Windows 10](microsoft-defender-antivirus-in-windows-10.md)
+- [Антивирусная программа в Microsoft Defender (Windows 10)](microsoft-defender-antivirus-in-windows-10.md)

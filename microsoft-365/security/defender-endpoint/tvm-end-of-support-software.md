@@ -1,7 +1,7 @@
 ---
 title: Планирование конечных версий программного обеспечения и программного обеспечения
 description: Откройте и запланируйте для версий программного обеспечения и программного обеспечения, которые больше не поддерживаются и не будут получать обновления безопасности.
-keywords: Управление угрозами и уязвимостью, рекомендация по безопасности microsoft Defender для endpoint tvm, рекомендация по кибербезопасности, рекомендация по безопасности
+keywords: контроль угроз и уязвимостей microsoft Defender для конечной точки tvm рекомендации по безопасности, рекомендации по кибербезопасности, рекомендации по безопасности
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -18,21 +18,21 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 8e8fc228b8856df03b580e748bf00efc8d4333c3
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: bb436cbd2d0fa453872760c1d2656585e02d1767
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934133"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538871"
 ---
-# <a name="plan-for-end-of-support-software-and-software-versions-with-threat-and-vulnerability-management"></a>Планирование конечных версий программного обеспечения и программного обеспечения с управлением угрозами и уязвимостью
+# <a name="plan-for-end-of-support-software-and-software-versions-with-threat-and-vulnerability-management"></a>Планирование версий программного обеспечения и программного обеспечения с контроль угроз и уязвимостей
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Область применения:**
 
 - [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/?linkid=2154037)
-- [Управление угрозами и уязвимостями](next-gen-threat-and-vuln-mgt.md)
+- [Угроза и управление уязвимостями](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Хотите испытать Microsoft Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
@@ -41,16 +41,19 @@ End-of-support (EOS), иначе известный как end-of-life (EOL), д
 
 Важно, чтобы администраторы безопасности и ИТ-администраторы работали вместе и обеспечивали настройку инвентаризации программного обеспечения организации для оптимальных результатов, соответствия требованиям и здоровой сетевой экосистемы. Они должны изучить варианты удаления или замены приложений, которые достигли конечной поддержки и обновления версий, которые больше не поддерживаются. Лучше всего создать и реализовать план **до** окончания сроков поддержки.
 
+>[!NOTE]
+> Возможности EOS в настоящее время недоступны для Windows (Mac, Linux); однако он будет добавлен в будущем.
+
 ## <a name="find-software-or-software-versions-that-are-no-longer-supported"></a>Поиск версий программного обеспечения или программного обеспечения, которые больше не поддерживаются
 
-1. Из меню управления угрозами и уязвимостями перейдите к [**рекомендациям по безопасности.**](tvm-security-recommendation.md)
+1. Из меню контроль угроз и уязвимостей перейдите к [**рекомендациям по безопасности.**](tvm-security-recommendation.md)
 2. Перейдите к **панели Фильтры** и найдите раздел теги. Выберите один или несколько параметров тегов EOS. Затем **применить**.
 
     ![Снимок экрана тегов, которые говорят программное обеспечение EOS, версии EOS и предстоящие версии EOS.](images/tvm-eos-tag.png)
 
 3. Вы увидите список рекомендаций, связанных с программным обеспечением с конечной поддержкой, версиями программного обеспечения, завершающим поддержку, или версиями с предстоящим завершением поддержки. Эти теги также видны на странице инвентаризации [программного](tvm-software-inventory.md) обеспечения.
 
-    ![Рекомендации с тегом EOS.](images/tvm-eos-tags-column.png)
+    ![Рекомендации тегом EOS.](images/tvm-eos-tags-column.png)
 
 ## <a name="list-of-versions-and-dates"></a>Список версий и дат
 
@@ -70,8 +73,8 @@ End-of-support (EOS), иначе известный как end-of-life (EOL), д
 
 После того как вы определите, какие версии программного обеспечения и программного обеспечения уязвимы из-за их состояния поддержки, необходимо решить, обновлять или удалять их из организации. Это позволит снизить уровень уязвимостей и постоянных угроз для организаций.
 
-## <a name="related-topics"></a>Похожие темы
+## <a name="related-topics"></a>Связанные статьи
 
-- [Обзор управления угрозами и уязвимостью](next-gen-threat-and-vuln-mgt.md)
+- [Обзор угроз и управление уязвимостями](next-gen-threat-and-vuln-mgt.md)
 - [Рекомендации по безопасности](tvm-security-recommendation.md)
 - [Инвентаризация программного обеспечения](tvm-software-inventory.md)

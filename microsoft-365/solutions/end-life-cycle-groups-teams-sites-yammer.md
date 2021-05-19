@@ -14,13 +14,14 @@ ms.collection:
 ms.custom:
 - M365solutions
 f1.keywords: NOCSH
+recommendations: false
 description: Завершение параметров жизненного цикла для групп, групп и Yammer.
-ms.openlocfilehash: 468f41df747b6cf12d3f6619d79cb97248eba1d1
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: fccdf838b7ebec6a1ab1fae2f709824bfbd3b6d1
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52346430"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538835"
 ---
 # <a name="end-of-lifecycle-options-for-groups-teams-and-yammer"></a>Конец жизненного цикла для групп, групп и Yammer
 
@@ -197,7 +198,7 @@ Power BI и рабочих пространств могут работать н
 
 Вместо этого, если отчет больше не должен быть активным, но данные необходимо сохранить, его можно экспортировать [в Excel](/power-bi/visuals/power-bi-visualization-export-data).
 
-## <a name="project"></a>Project
+## <a name="project"></a>Проект
 
 Проекты и дорожные карты, созданные Project веб-сайта, связаны с Microsoft 365 группами и имеют подходы к отключению от посадки, аналогичные Power BI.
 
@@ -265,3 +266,7 @@ Power BI и рабочих пространств могут работать н
 **Экспорт сетевых данных**
 
 Yammer сетевые администраторы [экспортируют сетевые данные.](/yammer/manage-security-and-compliance/export-yammer-enterprise-data) Однако при этом будут экспортироваться все беседы для всей сети. В результате экспорта перечислены групповой ID. На основе этого ID можно отфильтровать беседы.
+
+## <a name="related-topics"></a>Связанные статьи
+
+[Удаление бывших сотрудников и безопасные данные](/microsoft-365/admin/add-users/remove-former-employee)

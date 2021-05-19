@@ -1,7 +1,7 @@
 ---
 title: Общие сведения о Microsoft Viva Темах
-ms.author: efrene
-author: efrene
+ms.author: chucked
+author: chuckedmonson
 manager: pamgreen
 ms.reviewer: cjtan
 audience: ''
@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-viva-topics
 localization_priority: None
 description: Узнайте, как найти ресурсы по Microsoft Viva Темам.
-ms.openlocfilehash: 31031697b7825b725c020952a6217b278aa09f02
-ms.sourcegitcommit: 375168ee66be862cf3b00f2733c7be02e63408cf
-ms.translationtype: HT
+ms.openlocfilehash: 4596f703f86465e4d2d37e2744493bcaef440b7b
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50454127"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538919"
 ---
 # <a name="introduction-to-microsoft-viva-topics"></a>Общие сведения о Microsoft Viva Темах
 
@@ -29,13 +29,13 @@ ms.locfileid: "50454127"
 </br>
 
 
-Viva Темы — это служба Office 365, помогающая организациям преобразовывать информацию в знания.
+Viva Topics — это Microsoft 365, которая помогает организациям преобразовывать информацию в знания.
 
 Ресурсы, приведенные на этой странице, помогут вам приступить к изучению и использованию Viva Тем в вашей организации.
 
 ## <a name="get-started"></a>Начало работы
 
-Ресурсы, приведенные в этом разделе, помогут вам узнать больше о том, что такое Viva Темы и как они могут вам помочь.
+Ресурсы в этом разделе помогут вам узнать больше о том, что такое Viva Topics и как он может помочь вам.
 
 | Если вы хотите узнать больше: | Источник |
 |:-----|:-----|

@@ -16,16 +16,16 @@ ms.assetid: b10023f6-f30f-45d3-b3ad-b71aa4aa0d58
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Администраторы могут узнать о защите от угроз в Microsoft 365 и настроить ее использование для организации.
+description: Администраторы могут узнать о защите от Microsoft 365 и настроить ее использование для организации.
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b55391247bf7d21c68c67e29f93bac1b7088b035
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 3381ce66433f1f4e32f0251c45601e3cb84865b6
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51687091"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538727"
 ---
 # <a name="protect-against-threats"></a>Защита от угроз
 
@@ -41,31 +41,31 @@ ms.locfileid: "51687091"
 > [!IMPORTANT]
 > **Начальные рекомендуемые** параметры включены для каждого вида политики; однако доступны многие параметры, и вы можете настроить параметры для удовлетворения потребностей конкретной организации. Разрешить примерно 30 минут для политик или изменений, чтобы работать свой путь через центр обработки данных.
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Требования
 
 ### <a name="subscriptions"></a>Подписки
 
-Функции защиты от угроз включены во *все* подписки Microsoft или Office 365; однако некоторые подписки имеют расширенные функции. В таблице ниже перечислены функции защиты, включенные в эту статью, а также минимальные требования к подписке.
+Функции защиты от угроз включены *во* все подписки Microsoft или Office 365; однако некоторые подписки имеют расширенные функции. В таблице ниже перечислены функции защиты, включенные в эту статью, а также минимальные требования к подписке.
 
 > [!TIP]
-> Обратите внимание, что помимо направлений,  которые необходимо включить для аудита, начинаются действия по борьбе с вредоносными программами, фишингом и спамом, которые помечены как часть Office 365 Exchange Online Protection **(EOP).** Это может показаться странным в статье Defender for Office 365, пока вы не помните **(Defender for Office 365)** содержит и строит на EOP.
+> Обратите внимание, что помимо направлений, включающих *аудит,* начинаются действия по борьбе с вредоносными программами, фишингом и нежелательной почтой, которые помечены как часть Office 365 Exchange Online Protection **(EOP).** Это может показаться странным в статье Defender для Office 365, пока вы не помните **(Defender для Office 365**) содержит и строит на EOP.
 
 ****
 
-|Тип защиты|Требование подписки|
+|Тип защиты|Требование к подписке|
 |---|---|
 |Ведение журнала аудита (для целей отчетности)|[Exchange Online](/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description)|
 |Защита от вредоносных программ|[Exchange Online Protection](/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description) **(EOP)**|
 |Защита от фишинга|[EOP](/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)|
 |Защита от нежелательной почты|[EOP](/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)|
 |Автоматическая очистка нулевого часа (для электронной почты)|[EOP](/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)|
-|Защита от вредоносных URL-адресов и файлов в документах электронной почты и Office (безопасные ссылки и безопасные вложения)|[Microsoft Defender для Office 365](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)|
-|Включим безопасные вложения для рабочих нагрузок SharePoint, OneDrive и Microsoft Teams|[Microsoft Defender для Office 365](turn-on-mdo-for-spo-odb-and-teams.md)|
-|Расширенные средства защиты от фишинга|[Microsoft Defender для Office 365](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)|
+|Защита от вредоносных URL-адресов и файлов в документах электронной почты и Office (Сейф ссылки и Сейф вложения)|[Microsoft Defender для Office 365](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)|
+|Включаем Сейф вложения для SharePoint, OneDrive и Microsoft Teams рабочих нагрузок|[Microsoft Defender для Office 365](turn-on-mdo-for-spo-odb-and-teams.md)|
+|Расширенная защита от фишинга|[Microsoft Defender для Office 365](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)|
 
 ### <a name="roles-and-permissions"></a>Роли и разрешения
 
-Чтобы настроить политики Defender для Office 365, вам должна быть назначена соответствующая роль в Центре [& безопасности.](/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center) В таблице ниже приведены роли, которые могут делать эти действия.
+Чтобы настроить defender для Office 365 политик, вам необходимо присвоить соответствующую роль в Центре & [безопасности.](/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center) В таблице ниже приведены роли, которые могут делать эти действия.
 
 ****
 
@@ -96,17 +96,17 @@ ms.locfileid: "51687091"
 
     - В разделе **Фильтр типов общих вложений** выберите **On**.
 
-4. Щелкните **Сохранить**.
+4. Нажмите кнопку **Сохранить**.
 
 Дополнительные информацию о вариантах политики по борьбе с вредоносными программами см. в меню [Configure anti-malware policies.](configure-anti-malware-policies.md)
 
 ## <a name="part-2---anti-phishing-protection"></a>Часть 2 — защита от фишинга
 
-[Защита от фишинга доступна](anti-phishing-protection.md) в подписках, включающих [EOP.](/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description) Расширенные средства защиты от фишинга доступны в [Defender для Office 365.](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)
+[Защита от фишинга доступна](anti-phishing-protection.md) в подписках, включающих [EOP.](/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description) Advanced anti-phishing protection is available in [Defender for Office 365.](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)
 
 В следующей процедуре описывается настройка политики защиты от фишинга в Microsoft Defender для Office 365. Действия аналогичны для настройки политики защиты от фишинга в EOP.
 
-1. В Центре [& безопасности](https://protection.office.com)выберите **политику** управления угрозами \>  \> **ATP для защиты от фишинга.**
+1. В Центре [& безопасности](https://protection.office.com)выберите **политику** управления угрозами для защиты от \>  \> **фишинга.**
 
 2. Щелкните **политику по умолчанию**.
 
@@ -134,7 +134,7 @@ ms.locfileid: "51687091"
 
 5. Закрой страницу параметров политики по умолчанию.
 
-Дополнительные новости о параметрах политики защиты от фишинга см. в дополнительных подробной информации о настройках политик защиты от фишинга в [Microsoft Defender для Office 365.](configure-atp-anti-phishing-policies.md)
+Дополнительные информацию о параметрах политики защиты от фишинга см. в дополнительных подробной информации о настройках политик защиты от фишинга в [Microsoft Defender для](configure-atp-anti-phishing-policies.md)Office 365.
 
 ## <a name="part-3---anti-spam-protection"></a>Часть 3 — защита от нежелательной почты
 
@@ -150,26 +150,26 @@ ms.locfileid: "51687091"
 
    - В разделе **Разрешить списки** просмотрите (и/или редактировать) разрешенные отправители и домены.
 
-4. Щелкните **Сохранить**.
+4. Нажмите кнопку **Сохранить**.
 
 Дополнительные информацию о параметрах политики по борьбе со спамом см. в меню [Configure anti-spam policies in EOP.](configure-your-spam-filter-policies.md)
 
-## <a name="part-4---protection-from-malicious-urls-and-files-safe-links-and-safe-attachments-in-defender-for-office-365"></a>Часть 4 . Защита от вредоносных URL-адресов и файлов (безопасные ссылки и безопасные вложения в Defender для Office 365)
+## <a name="part-4---protection-from-malicious-urls-and-files-safe-links-and-safe-attachments-in-defender-for-office-365"></a>Часть 4 — защита от вредоносных URL-адресов и файлов (Сейф ссылки и Сейф вложения в Defender для Office 365)
 
-Защита от вредоносных URL-адресов и файлов во время щелчка мыши доступна в подписках, включая [Microsoft Defender для Office 365.](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description) Она настроена с помощью политик [безопасных](safe-attachments.md) вложений и [безопасных](safe-links.md) ссылок.
+Защита от вредоносных URL-адресов и файлов во время щелчка мыши доступна в подписках, включая [Microsoft Defender для](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)Office 365. Он настроен через политики [Сейф](safe-attachments.md) и [Сейф ссылки.](safe-links.md)
 
-### <a name="safe-attachments-policies-in-microsoft-defender-for-office-365"></a>Политики безопасных вложений в Microsoft Defender для Office 365
+### <a name="safe-attachments-policies-in-microsoft-defender-for-office-365"></a>Сейф Политики вложений в Microsoft Defender для Office 365
 
-Чтобы настроить [безопасные вложения,](safe-attachments.md)создайте по крайней мере одну политику безопасных ссылок.
+Чтобы настроить Сейф [вложения,](safe-attachments.md)создайте по крайней мере одну Сейф ссылки.
 
-1. В Центре [обеспечения &](https://protection.office.com)безопасности выберите  политики управления угрозами \>  \> **ATP Безопасные** вложения, а затем нажмите **кнопку Создать**.
+1. В Центре [&](https://protection.office.com)безопасности выберите политики  управления угрозами \>  \> **ATP Сейф** вложения, а затем нажмите **кнопку Создать**.
 
-2. В новом **мастере политики** безопасных вложений, который появится, настройте следующие параметры:
+2. В новом **мастере политики Сейф** вложениях, который появится, настройте следующие параметры:
 
    - В поле **Имя** введите `Block malware` и нажмите кнопку **Далее**.
 
-   - На странице **Параметры** настройте следующие параметры:
-     - В разделе **Безопасные вложения неизвестных ответов на вредоносные** программы выберите **Блок**.
+   - На странице **Параметры** настройка следующих параметров:
+     - В разделе **Сейф вложения неизвестных ответов** на вредоносные программы выберите **Блок**.
      - В разделе **Перенаправление вложений** выберите параметр **Включить перенаправление.** Укажите адрес электронной почты администратора или оператора безопасности организации, который будет рассматривать обнаруженные файлы.
 
      Нажмите кнопку **Далее**.
@@ -178,27 +178,27 @@ ms.locfileid: "51687091"
 
 4. Просмотрите параметры и нажмите кнопку **Готово**.
 
-### <a name="safe-links-policies-in-microsoft-defender-for-office-365"></a>Политики безопасных ссылок в Microsoft Defender для Office 365
+### <a name="safe-links-policies-in-microsoft-defender-for-office-365"></a>Сейф Ссылки политик в Microsoft Defender для Office 365
 
-Чтобы настроить [безопасные ссылки,](safe-links.md)просмотрите и отредактировать глобальные параметры безопасных ссылок и создайте по крайней мере одну политику безопасных ссылок.
+Чтобы настроить [Сейф ссылки,](safe-links.md)просмотрите и отредактируете глобальные параметры для Сейф ссылки и создайте по крайней мере одну Сейф ссылки.
 
-1. В Центре [&](https://protection.office.com)безопасности выберите  безопасные ссылки политики управления угрозами ATP и нажмите параметры Global, а затем настройте \>  \> следующие параметры: 
+1. В Центре [&](https://protection.office.com)безопасности выберите политики  управления угрозами \>  \> **ATP Сейф ссылки** и щелкните глобальные параметры, а затем настройте следующие параметры:
 
-   - Проверка **использования безопасных ссылок в: приложения Office 365** включено: ![ Включено ](../../media/scc-toggle-on.png) управление.
-   - **Не отслеживайте, когда пользователи** щелкают "Безопасные ссылки": выключите этот параметр для отслеживания щелчков пользователя: ![ отключение. ](../../media/scc-toggle-off.png)
+   - Проверка **использования Сейф ссылки в: Office 365 приложения** включено: ![ Переключение. ](../../media/scc-toggle-on.png)
+   - **Не отслеживайте,** когда пользователи щелкают Сейф ссылки: выключите этот параметр, чтобы отслеживать щелчки пользователя: ![ отключите ](../../media/scc-toggle-off.png) кнопку .
    - **Не позволяйте пользователям щелкнуть безопасные ссылки** на исходный URL-адрес: Убедитесь, что этот параметр включен: ![ параметр Toggle on ](../../media/scc-toggle-on.png) .
 
-   По завершении нажмите кнопку **Сохранить**.
+   По завершении нажмите **Сохранить**.
 
-2. Возвращаясь на главную страницу "Безопасные ссылки", нажмите **кнопку Создать**.
+2. Возвращаясь на главную страницу Сейф ссылки, нажмите **кнопку Создать**.
 
-3. В **появится мастер политики создания** безопасных ссылок, настройте следующие параметры:
+3. В **появится мастер политики Сейф Create Сейф** ссылки настройте следующие параметры:
 
    - В поле **Имя** введите имя, `Safe Links` например, и нажмите **кнопку Далее**.
 
-   - На странице **Параметры** настройте следующие параметры:
+   - На странице **Параметры** настройка следующих параметров:
      - **Выберите действие для неизвестных потенциально вредоносных URL-адресов** в сообщениях: Выберите **On**.
-     - **Выберите действие для неизвестных или потенциально вредоносных URL-адресов в Microsoft Teams:** Выберите **.**
+     - **Выберите действие для неизвестных или потенциально вредоносных** URL-адресов в Microsoft Teams : Выберите **.**
      - **Применение безопасных ссылок на сообщения электронной почты, отправленные в организации**
      - **Ожидание завершения сканирования URL-адресов перед доставкой сообщения**
      - **Применение безопасных ссылок на сообщения электронной почты, отправленные в организации**
@@ -212,32 +212,32 @@ ms.locfileid: "51687091"
 
 Дополнительные сведения см. в статье [Настройка политик безопасных ссылок](set-up-safe-links-policies.md).
 
-## <a name="part-5---verify-safe-attachments-for-sharepoint-onedrive-and-microsoft-teams-is-turned-on"></a>Часть 5 . Проверка безопасных вложений для SharePoint, OneDrive и Microsoft Teams включена
+## <a name="part-5---verify-safe-attachments-for-sharepoint-onedrive-and-microsoft-teams-is-turned-on"></a>Часть 5 — проверка Сейф вложений для SharePoint, OneDrive и Microsoft Teams включена
 
-Рабочие нагрузки, такие как SharePoint, OneDrive и Teams, построены для совместной работы. Использование Defender для Office 365 помогает блокировать и обнаруживать файлы, идентифицированные как вредоносные на сайтах группы и библиотеках документов. Подробнее о том, как это работает, можно узнать [здесь.](mdo-for-spo-odb-and-teams.md)
+Рабочие нагрузки SharePoint, OneDrive и Teams для совместной работы. Использование Defender для Office 365 помогает блокировать и обнаруживать файлы, которые определены как вредоносные на сайтах группы и библиотеках документов. Подробнее о том, как это работает, можно узнать [здесь.](mdo-for-spo-odb-and-teams.md)
 
 > [!IMPORTANT]
-> **Прежде чем приступить к этой процедуре, убедитесь,** что журнал аудита уже включен для среды Microsoft 365. Обычно это делается тем, кто имеет роль журналов аудита, назначенную в Exchange Online. Дополнительные сведения см. в журнале Включить или отключить [поиск журнала аудита!](../../compliance/turn-audit-log-search-on-or-off.md)
+> **Прежде чем приступить к этой процедуре, убедитесь,** что журнал аудита уже включен для Microsoft 365 среды. Обычно это делается тем, кто имеет роль журналов аудита, назначенную в Exchange Online. Дополнительные сведения см. в журнале Включить или отключить [поиск журнала аудита!](../../compliance/turn-audit-log-search-on-or-off.md)
 
-1. В Центре [обеспечения &](https://protection.office.com)безопасности выберите  политики управления угрозами \>  \> **ATP Безопасные** вложения, а затем щелкните глобальные **параметры**.
+1. В Центре [&](https://protection.office.com)безопасности выберите  atP политики управления угрозами Сейф вложения, а затем нажмите \>  \>  **параметры Global.**
 
-2. Убедитесь, что включите защитник для **Office 365 для SharePoint, OneDrive** и Microsoft Teams справа: нажмите кнопку ![ ](../../media/scc-toggle-on.png) **Сохранить**.
+2. Убедитесь, что включите защитник для Office 365 для **SharePoint, OneDrive и** Microsoft Teams справа: переключите кнопку Кнопка , а затем нажмите кнопку ![ ](../../media/scc-toggle-on.png) **Сохранить**.
 
-3. Просмотрите (и, при необходимости, отредактировать) политики безопасных вложений и политики [](set-up-safe-attachments-policies.md) [безопасных ссылок организации.](set-up-safe-links-policies.md)
+3. Просмотрите (и при необходимости отредактировать) политики [Сейф](set-up-safe-attachments-policies.md) вложений и [Сейф ссылки.](set-up-safe-links-policies.md)
 
 4. (Рекомендуется) В качестве глобального администратора или администратора SharePoint Online запустите комлет **[Set-SPOTenant](/powershell/module/sharepoint-online/Set-SPOTenant)** с параметром _DisallowInfectedFileDownload,_ заданным `$true` для .
 
-   - `$true` блокирует все действия (кроме Delete) для обнаруженных файлов. Люди не могут открывать, перемещать, копировать или делиться обнаруженными файлами.
+   - `$true` блокирует все действия (кроме Delete) для обнаруженных файлов. Люди не могут открывать, перемещать, копировать или совместно использовать обнаруженные файлы.
    - `$false` блокирует все действия, кроме Delete и Download. Люди могут принять риск и скачать обнаруженный файл.
 
    > [!TIP]
-   > Дополнительные новости об использовании PowerShell с Microsoft 365 см. в обзоре [Управление Microsoft 365 с помощью PowerShell.](../../enterprise/manage-microsoft-365-with-microsoft-365-powershell.md)
+   > Дополнительные новости об использовании PowerShell с Microsoft 365 см. в [Microsoft 365 с PowerShell.](../../enterprise/manage-microsoft-365-with-microsoft-365-powershell.md)
 
-5. Разрешить до 30 минут для изменения распространяться во всех центрах обработки данных Microsoft 365.
+5. Разрешить до 30 минут для распространения изменений во Microsoft 365 центрах обработки данных.
 
 ### <a name="now-set-up-alerts-for-detected-files"></a>Теперь настройка оповещений для обнаруженных файлов
 
-Чтобы получить уведомление, когда файл в SharePoint Online, OneDrive для бизнеса или Microsoft Teams был определен как вредоносный, можно настроить оповещение.
+Чтобы получить уведомление, когда файл SharePoint Online, OneDrive для бизнеса или Microsoft Teams был определен как вредоносный, можно настроить оповещение.
 
 1. В Центре [& безопасности](https://protection.office.com)выберите **оповещений** \> **Управление оповещениями.**
 
@@ -245,13 +245,13 @@ ms.locfileid: "51687091"
 
 3. Укажите имя оповещений. Например, можно ввести вредоносные файлы в библиотеках.
 
-4. Введите описание оповещений. Например, при обнаружении вредоносных файлов в SharePoint Online, OneDrive или Microsoft Teams можно ввести для администраторов запросы.
+4. Введите описание оповещений. Например, можно ввести администраторам notifies при обнаружении вредоносных файлов в SharePoint Online, OneDrive или Microsoft Teams.
 
 5. В разделе **Отправить это оповещение, когда...**
 
-   а. В **списке Действия** выберите **обнаруженную вредоносную программу в файле**.
+   А. В **списке Действия** выберите **обнаруженную вредоносную программу в файле**.
 
-   б. Оставьте **поле Users** пустым.
+   Б. Оставьте **поле Users** пустым.
 
 6. В разделе Отправка этого оповещения **в раздел...** Выберите одного или несколько глобальных администраторов, администраторов безопасности или читателей безопасности, которые должны получать уведомления при обнаружении вредоносного файла.
 
@@ -290,6 +290,6 @@ ms.locfileid: "51687091"
 |Действия|Дополнительные ресурсы|
 |---|---|
 |Узнайте, как функции защиты от угроз работают для организации, просматривая отчеты|[Панель мониторинга безопасности](security-dashboard.md) <p> [Отчеты о безопасности электронной почты](view-email-security-reports.md) <p> [Отчеты для Microsoft Defender для Office 365](view-reports-for-mdo.md) <p> [Обозреватель угроз](threat-explorer.md)|
-|Периодически пересматривайте и пересматривайте политики защиты от угроз по мере необходимости|[Оценка безопасности](../defender/microsoft-secure-score.md) <p> [Интеллектуальные отчеты и сведения](reports-and-insights-in-security-and-compliance.md) <p> [Функции расследования и реагирования на угрозы Microsoft 365](./office-365-ti.md)|
+|Периодически пересматривайте и пересматривайте политики защиты от угроз по мере необходимости|[Оценка безопасности](../defender/microsoft-secure-score.md) <p> [Интеллектуальные отчеты и сведения](reports-and-insights-in-security-and-compliance.md) <p> [Microsoft 365 и функции реагирования на угрозы](./office-365-ti.md)|
 |Следите за новыми функциями и обновлениями служб|[Стандартные и целевые параметры выпуска](../../admin/manage/release-options-in-office-365.md) <p> [Центр сообщений](../../admin/manage/message-center.md) <p> [Дорожная карта Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=advanced%2Cthreat%2Cprotection) <p> [Описания служб](/office365/servicedescriptions/office-365-service-descriptions-technet-library)|
-|Сведения о рекомендуемых стандартных и строгих конфигурациях безопасности для EOP и Defender для Office 365|[Рекомендуемые параметры безопасности EOP и Microsoft Defender для Office 365](recommended-settings-for-eop-and-office365.md)|
+|Сведения о рекомендуемых стандартных и строгих конфигурациях безопасности для EOP и Defender для Office 365|[Рекомендуемые параметры для EOP и Microsoft Defender для Office 365 безопасности](recommended-settings-for-eop-and-office365.md)|

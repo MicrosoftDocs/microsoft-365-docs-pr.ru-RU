@@ -16,15 +16,15 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: Администраторы могут узнать, как просматривать и управлять карантинными сообщениями для всех пользователей в Exchange Online Protection (EOP). Администраторы организаций с Microsoft Defender для Office 365 также могут управлять карантинными файлами в SharePoint Online, OneDrive для бизнеса и Microsoft Teams.
+description: Администраторы могут узнать, как просматривать и управлять карантинными сообщениями для всех пользователей в Exchange Online Protection (EOP). Администраторы в организациях с Microsoft Defender для Office 365 также могут управлять карантинными файлами в SharePoint Online, OneDrive для бизнеса и Microsoft Teams.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c5e2d6a3729a24766652d4c7c0973c63b1dcb207
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 508866fd66e4cbd00f559446d4ce52a4be063c94
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52272208"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52539111"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-admin-in-eop"></a>Управление сообщениями и файлами, помещенными в карантин, в качестве администратора в EOP
 
@@ -41,7 +41,7 @@ ms.locfileid: "52272208"
 
 Администраторы в организациях с Microsoft Defender для Office 365 также могут просматривать, скачивать и удалять карантинные файлы в SharePoint Online, OneDrive для бизнеса и Microsoft Teams.
 
-Просмотр и управление карантинными сообщениями в Центре обеспечения безопасности & или в PowerShell (Exchange Online PowerShell для организаций Microsoft 365 с почтовыми ящиками в Exchange Online; автономный EOP PowerShell для организаций без почтовых ящиков Exchange Online).
+Просмотр и управление карантинными сообщениями в Центре соответствия требованиям & безопасности или в PowerShell (Exchange Online PowerShell для Microsoft 365 организаций с почтовыми ящиками в Exchange Online; автономный EOP PowerShell для организаций без Exchange Online почтовых ящиков).
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
@@ -59,12 +59,12 @@ ms.locfileid: "52272208"
 
   - Добавление пользователей в соответствующую роль Azure Active Directory в Центре безопасности Microsoft 365 предоставляет пользователям необходимые разрешения _и_ разрешения для других функций в Microsoft 365. Дополнительные сведения см. в статье [О ролях администраторов](../../admin/add-users/about-admin-roles.md).
   - Группа ролей **Управление организацией с правами только на просмотр** в [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups) также предоставляет доступ только для чтения к этой функции.
-  - <sup>\*</sup>Члены группы  ролей администратора карантина также должны  быть членами группы ролей управления гигиеной в [Exchange Online,](/Exchange/permissions-exo/permissions-exo#role-groups) чтобы делать карантинные процедуры в Exchange Online PowerShell.
+  - <sup>\*</sup>Члены группы ролей администратора карантина также должны  быть членами [](/Exchange/permissions-exo/permissions-exo#role-groups) группы ролей управления гигиеной в Exchange Online, чтобы делать карантинные процедуры в Exchange Online PowerShell. 
 
 - Карантинные сообщения сохраняются в течение определенного периода времени по умолчанию, прежде чем они будут автоматически удалены:
   - 30 дней для сообщений, карантинов с помощью политики защиты от нежелательной почты (спам, фишинг и массовая электронная почта). Это значение по умолчанию и максимальное значение. Чтобы настроить (ниже) это значение, см. в [перенастройке политики по борьбе со спамом.](configure-your-spam-filter-policies.md)
   - 15 дней для сообщений, содержащих вредоносные программы.
-  - 15 дней для файлов, на карантин для файлов SharePoint, OneDrive и Microsoft Teams в Defender для Office 365.
+  - 15 дней на карантин файлов Сейф вложения для SharePoint, OneDrive и Microsoft Teams в Defender для Office 365.
 
   После истечения срока действия сообщения из карантина его не восстановить.
 
@@ -72,7 +72,7 @@ ms.locfileid: "52272208"
 
 ### <a name="view-quarantined-email"></a>Просмотр карантиновой электронной почты
 
-1. В центре безопасности и соответствия требованиям выберите **управление угрозами** \> **просмотр** \> **карантина**.
+1. В Центре & безопасности перейдите в карантин **по** проверке управления \>  \> **угрозами.**
 
 2. Убедитесь, что для параметра **Просмотреть перемещенные на карантин** установлено значение по умолчанию **электронная почта**.
 
@@ -113,7 +113,7 @@ ms.locfileid: "52272208"
 
    - **Тип политики**: фильтрация сообщений по типу политики:
      - **Политика борьбы с вредоносными программами**
-     - **Политика безопасных вложений**
+     - **Сейф Политика вложений**
      - **Политика защиты от фишинга**
      - **Политика фильтрации размещенного содержимого** (политика защиты от нежелательной почты)
      - **Правило транспорта**
@@ -196,7 +196,7 @@ ms.locfileid: "52272208"
 
 - **Загрузка сообщения**: В появившейся всплывающей панели выберите **Я понимаю риски, связанные с загрузкой этого сообщения**, чтобы сохранить локальную копию сообщения в формате .eml.
 
-- **Отправитель** блока. Добавьте отправитель в список заблокированных отправителей в почтовом ящике. Дополнительные сведения см. [в сообщении Block a mail sender.](https://support.microsoft.com/office/b29fd867-cac9-40d8-aed1-659e06a706e4)
+- **Блокировка отправителя**: добавление отправителей в список заблокированных отправителей в вашем почтовом ящике. Подробнее см. в разделе [Блокировка отправителя почтового сообщения](https://support.microsoft.com/office/b29fd867-cac9-40d8-aed1-659e06a706e4).
 
 - **Отправка сообщения.** В области вылетов, которая появится, выберите следующие параметры:
 
@@ -225,16 +225,16 @@ ms.locfileid: "52272208"
 
 Когда закончите, нажмите кнопку **Закрыть**.
 
-## <a name="microsoft-defender-for-office-365-only-use-the-security--compliance-center-to-manage-quarantined-files"></a>Только Microsoft Defender для Office 365: используйте Центр & безопасности для управления карантинными файлами
+## <a name="microsoft-defender-for-office-365-only-use-the-security--compliance-center-to-manage-quarantined-files"></a>Microsoft Defender только для Office 365: Используйте Центр & безопасности для управления карантинными файлами
 
 > [!NOTE]
-> Процедуры для карантинов в этом разделе доступны только подписчикам Microsoft Defender для Office 365 Plan 1 и Plan 2.
+> Процедуры для карантинов в этом разделе доступны только microsoft Defender для Office 365 1 и Plan 2 абонентов.
 
-В организациях с Defender для Office 365 администраторы могут управлять карантинными файлами в SharePoint Online, OneDrive для бизнеса и Microsoft Teams. Чтобы включить защиту для этих файлов, см. в раздел Включить безопасные вложения [для SharePoint, OneDrive и Microsoft Teams.](turn-on-mdo-for-spo-odb-and-teams.md)
+В организациях с defender for Office 365 администраторы могут управлять карантинными файлами в SharePoint Online, OneDrive для бизнеса и Microsoft Teams. Чтобы включить защиту этих файлов, см. в Сейф вложения для [SharePoint, OneDrive и Microsoft Teams.](turn-on-mdo-for-spo-odb-and-teams.md)
 
 ### <a name="view-quarantined-files"></a>Просмотр карантиных файлов
 
-1. В центре безопасности и соответствия требованиям выберите **управление угрозами** \> **просмотр** \> **карантина**.
+1. В Центре & безопасности перейдите в карантин **по** проверке управления \>  \> **угрозами.**
 
 2. Изменение **представления на карантин в** файлы **значений.** Вы можете сортировать на поле, щелкнув доступный заглавной столбец.
 
@@ -271,7 +271,7 @@ ms.locfileid: "52272208"
 - **URL-адрес** файла: URL-адрес, определяя расположение файла (например, в SharePoint Online).
 - **Вредоносный контент, обнаруженный на** Дата и время карантина файла.
 - **Истекает.** Дата удаления файла из карантина.
-- **Обнаружено:** Защитник для Office 365 или антивирусный двигатель Корпорации Майкрософт.
+- **Обнаружено:** Defender для Office 365 или антивирусного двигателя Корпорации Майкрософт.
 - **Выпущено?**
 - **Имя вредоносных программ**
 - **Идентификатор документа:** уникальный идентификатор документа.
@@ -298,7 +298,7 @@ ms.locfileid: "52272208"
 - **Файлы выпуска**
 - **Удаление файлов.** После нажатия **да** в предостережение, которое появится, файлы немедленно удаляются.
 
-## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-view-and-manage-quarantined-messages-and-files"></a>Используйте Exchange Online PowerShell или автономный EOP PowerShell для просмотра и управления карантинными сообщениями и файлами
+## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-view-and-manage-quarantined-messages-and-files"></a>Использование Exchange Online PowerShell или автономных EOP PowerShell для просмотра и управления карантинными сообщениями и файлами
 
 Для просмотра и управления сообщениями и файлами в карантине используются такие коды, как:
 
@@ -308,6 +308,6 @@ ms.locfileid: "52272208"
 
 - [Get-QuarantineMessage](/powershell/module/exchange/get-quarantinemessage)
 
-- [Preview-QuarantineMessage.](/powershell/module/exchange/preview-quarantinemessage)Обратите внимание, что этот командлет только для сообщений, а не для карантинов файлов из безопасных вложений для SharePoint, OneDrive и Microsoft Teams.
+- [Preview-QuarantineMessage:](/powershell/module/exchange/preview-quarantinemessage)Обратите внимание, что этот комлет только для сообщений, а не для карантинов файлов из Сейф Вложения для SharePoint, OneDrive и Microsoft Teams.
 
 - [Release-QuarantineMessage](/powershell/module/exchange/release-quarantinemessage)

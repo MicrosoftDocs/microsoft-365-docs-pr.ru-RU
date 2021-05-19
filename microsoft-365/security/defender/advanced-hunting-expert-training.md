@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 1928e381e861f993d171462833b8807b69dea515
-ms.sourcegitcommit: fb6c5e04ade1e82b26b2f911577b5ac721f1c544
+ms.openlocfilehash: 0b816956442408c9a61f662827f1fd45d9b6511f
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52470680"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538859"
 ---
 # <a name="get-expert-training-on-advanced-hunting"></a>Обучение экспертов по продвинутой охоте
 
@@ -50,7 +50,8 @@ ms.locfileid: "52470680"
 
 | Название | Описание | Часы | Запросы | 
 |--|--|--|--|
-| Эпизод 1  | В этом выпуске вы узнаете различные методы работы с расширенными запросами на охоту. Среди затронутых тем: оптимизация запросов, использование расширенных запросов для вымогателей, обработка JSON как динамического типа и работа с внешними операторами данных. | [YouTube](https://www.youtube.com/watch?v=nMGbK-ALaVg&feature=youtu.be) (56:34) | [Текстовый файл](https://github.com/microsoft/Microsoft-365-Defender-Hunting-Queries/blob/master/Webcasts/l33tSpeak/Performance%2C%20Json%20and%20dynamics%20operator%2C%20external%20data.txt)
+| Эпизод 1  | В этом выпуске вы узнаете различные методы работы с расширенными запросами на охоту. Среди затронутых тем: оптимизация запросов, использование расширенных запросов для вымогателей, обработка JSON как динамического типа и работа с внешними операторами данных. | [YouTube](https://www.youtube.com/watch?v=nMGbK-ALaVg&feature=youtu.be) (56:34) | [Текстовый файл](https://github.com/microsoft/Microsoft-365-Defender-Hunting-Queries/blob/master/Webcasts/l33tSpeak/Performance%2C%20Json%20and%20dynamics%20operator%2C%20external%20data.txt) |
+| Эпизод 2 | В этом выпуске вы узнаете, как исследовать подозрительные или необычные расположения и эксфильтрации данных с помощью правил переададации почтовых ящиков и реагировать на них. Старший менеджер программы CxE по облачной безопасности Себастьян Молендийк (Sebastien Molendijk) делится сведениями о том, как использовать расширенные методы охоты для расследования многоэтапных инцидентов с использованием Microsoft Cloud App Security данных. | [YouTube](https://www.youtube.com/watch?v=QaUxdtNfbd8) (57:07) | [Текстовый файл](https://github.com/microsoft/Microsoft-365-Defender-Hunting-Queries/blob/master/Webcasts/l33tSpeak/MCAS%20-%20The%20Hunt.txt)
 
 
 ## <a name="how-to-use-the-csl-file"></a>Использование CSL-файла
@@ -89,7 +90,7 @@ CloudAppEvents
 | sort by Timestamp desc
 ```
      
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 - [Обзор расширенной охоты](advanced-hunting-overview.md)
 - [Познакомьтесь с языком запросов расширенной охоты](advanced-hunting-query-language.md)
 - [Работа с результатами запросов](advanced-hunting-query-results.md)

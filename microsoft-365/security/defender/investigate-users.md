@@ -1,6 +1,6 @@
 ---
-title: Исследование пользователей в Центре безопасности Microsoft 365
-description: Исследование пользователей в центре Microsoft 365 безопасности
+title: Исследование пользователей в Microsoft 365 Defender
+description: Изучите пользователей на случай инцидента в центре Microsoft 365 безопасности.
 keywords: безопасность, вредоносные программы, Microsoft 365, M365, центр безопасности, монитор, отчет, удостоверения, данные, устройства, приложения, инциденты, анализ, ответ
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -19,14 +19,14 @@ ms.topic: article
 search.appverid: met150
 ms.custom: seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: c03e4d5bd94eb6105ffab91c6dad2b74d7159dde
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 7084b9370a0dd83265b37ff1d152e2164fe32813
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52300065"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52539135"
 ---
-# <a name="investigate-users-in-microsoft-365-security-center"></a>Исследование пользователей в Центре безопасности Microsoft 365
+# <a name="investigate-users-in-microsoft-365-defender"></a>Исследование пользователей в Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -80,7 +80,7 @@ Learn more about how to investigate users and potential risk [in this Cloud App 
 
 --> 
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 По мере необходимости для инцидентов в процессе продолжайте [расследование.](investigate-incidents.md)
 

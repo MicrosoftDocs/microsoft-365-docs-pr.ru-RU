@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 81f1b4154de25f6186679adc5b1f24f78f302415
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 8aaea65c617300a16f99a9a3e3a62d94b7983198
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933761"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538355"
 ---
 # <a name="troubleshoot-service-issues"></a>Устранение неполадок службы
 
@@ -34,14 +34,14 @@ ms.locfileid: "51933761"
 > Хотите испытать Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-pullalerts-abovefoldlink) 
 
 
-В этом разделе будут решаться проблемы, которые могут возникнуть при использовании службы расширенных угроз Microsoft Defender.
+В этом разделе будут решаться проблемы, которые могут возникнуть при использовании службы Microsoft Defender для конечных точек.
 
 ## <a name="server-error---access-is-denied-due-to-invalid-credentials"></a>Ошибка сервера. Доступ отказано из-за недействительных учетных данных
 Если при попытке доступа к службе вы столкнулись с ошибкой сервера, необходимо изменить параметры cookie браузера.
 Настройте браузер, чтобы разрешить файлы cookie.
 
 ## <a name="elements-or-data-missing-on-the-portal"></a>Элементы или данные, отсутствующие на портале
-Если в Центре безопасности Microsoft Defender отсутствуют некоторые элементы или данные, возможно, параметры прокси-сервера блокируют его.
+Если некоторые элементы или данные отсутствуют в Центр безопасности в Microsoft Defender возможно, что параметры прокси-сервера блокируют его.
 
 Убедитесь, `*.securitycenter.windows.com` что он включен в список прокси-серверов.
 
@@ -57,7 +57,7 @@ ms.locfileid: "51933761"
 
 Если бортовые устройства успешно завершатся, но Microsoft Defender для конечной точки не начинается после перезагрузки и показывает ошибку 577, убедитесь, что Защитник Windows не отключена политикой.
 
-Дополнительные сведения см. в [веб-сайте Убедитесь,](troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy)что антивирус Microsoft Defender не отключен политикой.
+Дополнительные сведения см. в антивирусная программа в Microsoft Defender, чтобы политика не [отключалась.](troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy)
 
 ## <a name="known-issues-with-regional-formats"></a>Известные проблемы с региональными форматами
 
@@ -86,6 +86,6 @@ ms.locfileid: "51933761"
 
 
 
-## <a name="related-topics"></a>Похожие темы
+## <a name="related-topics"></a>Связанные статьи
 - [Устранение неполадок в Microsoft Defender для проблем с бортовой точкой конечной точки](troubleshoot-onboarding.md)
 - [Просмотр событий и ошибок с помощью viewer событий](event-error-codes.md)

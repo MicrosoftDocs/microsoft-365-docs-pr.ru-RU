@@ -88,55 +88,55 @@
           items:
             - name: Обзор
               href: incidents-overview.md
-            - name: Управление приоритетом инцидентов
+            - name: Определение приоритетов
               href: incident-queue.md
-            - name: Управление инцидентами
+            - name: Управление
               href: manage-incidents.md
-            - name: Реагирование на инциденты
+            - name: Исследование
               items:
-                - name: Исследование инцидентов
+                - name: Обзор
                   href: investigate-incidents.md
-                - name: Исследование оповещений
+                - name: Оповещения
                   href: investigate-alerts.md
-                - name: Исследование пользователей
+                - name: Пользователи
                   href: investigate-users.md
-                - name: Книги ответов на инциденты
-                  href: 'https://docs.microsoft.com/security/compass/incident-response-playbooks'
-                - name: Ответ на первый инцидент
+            - name: Ответ на первый инцидент
+              items:
+                - name: Введение
+                  href: first-incident-overview.md
+                - name: Подготовка
+                  href: first-incident-prepare.md
+                - name: Этап 1. Анализ и анализ
+                  href: first-incident-analyze.md
+                - name: "Этап\_2. Исправление"
+                  href: first-incident-remediate.md
+                - name: "Этап\_3. Проверка"
+                  href: first-incident-post.md
+                - name: Дополнительные примеры инцидентов
                   items:
-                    - name: Введение
-                      href: first-incident-overview.md
-                    - name: Подготовка
-                      href: first-incident-prepare.md
-                    - name: Этап 1. Анализ и анализ
-                      href: first-incident-analyze.md
-                    - name: "Этап\_2. Исправление"
-                      href: first-incident-remediate.md
-                    - name: "Этап\_3. Проверка"
-                      href: first-incident-post.md
-                    - name: Дополнительные примеры инцидентов
-                      items:
-                        - name: Фишинговое письмо
-                          href: first-incident-path-phishing.md
-                        - name: Удостоверение
-                          href: first-incident-path-identity.md
-            - name: Получение уведомлений по электронной почте
+                    - name: Фишинговое письмо
+                      href: first-incident-path-phishing.md
+                    - name: Удостоверение
+                      href: first-incident-path-identity.md
+            - name: Книги ответов на инциденты
+              href: 'https://docs.microsoft.com/security/compass/incident-response-playbooks'
+            - name: Уведомления по электронной почте
               href: get-incident-notifications.md
         - name: Автоматическое исследование и реагирование
           items:
-            - name: Обзор автоматического исследования и реагирования
+            - name: Обзор
               href: m365d-autoir.md
-            - name: Настройка возможностей автоматического исследования и реагирования
+            - name: Настройка возможностей
               href: m365d-configure-auto-investigation-response.md
             - name: Действия по исправлению
               href: m365d-remediation-actions.md
-            - name: Посещение Центра уведомлений
+            - name: через центр уведомлений
               href: m365d-action-center.md
             - name: Просмотр и управление действиями по исправлению
               href: m365d-autoir-actions.md
-            - name: Просмотр сведений и результатов автоматических исследований
+            - name: Просмотр сведений и результатов
               href: m365d-autoir-results.md
-            - name: Адрес ложных срабатыва-минусов
+            - name: Устранение ложных срабатыва-
               href: m365d-autoir-report-false-positives-negatives.md
         - name: Расширенная охота на угрозы
           items:

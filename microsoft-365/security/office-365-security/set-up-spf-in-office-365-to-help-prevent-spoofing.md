@@ -19,12 +19,12 @@ ms.custom:
 description: Узнайте, как обновить запись службы доменных имен (DNS), чтобы использовать инфраструктуру политики отправителей (SPF) с личным доменом в Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1d200c4cf17a3d42ddafca301fecbf18c249ac37
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 828d76b95a1e3f8d1a1851121d28603a1922f486
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245688"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538991"
 ---
 # <a name="set-up-spf-to-help-prevent-spoofing"></a>Настройка SPF для предотвращения спуфинга
 
@@ -45,6 +45,13 @@ ms.locfileid: "52245688"
 В этой статье описано, как обновить запись DNS, чтобы использовать проверку подлинности электронной почты в инфраструктуре политики отправителей (SPF) с личным доменом в Office 365.
 
 С помощью инфраструктуры политики отправителей можно *проверять* исходящую почту, отправляемую из личного домена (который указан). Это первый шаг в настройке всех рекомендуемых методов проверки подлинности электронной почты для инфраструктуры политики отправителей, [DKIM](use-dkim-to-validate-outbound-email.md)и [DMARC](use-dmarc-to-validate-email.md).
+
+- [Необходимые компоненты](#prerequisites)
+- [Создание или обновление записи SPF TXT](#create-or-update-your-spf-txt-record)
+  - [Как работать с поддоменами?](#how-to-handle-subdomains)
+- [Какие действия выполняет проверка подлинности электронной почты инфраструктуры политики отправителей?](#what-does-spf-email-authentication-actually-do)
+  - [Устранение неполадок инфраструктуры политики отправителей](#troubleshooting-spf)
+- [Дополнительные сведения об инфраструктуре политики отправителей](#more-information-about-spf)
 
 ## <a name="prerequisites"></a>Предварительные условия
 
@@ -118,7 +125,6 @@ ms.locfileid: "52245688"
 ## <a name="troubleshooting-spf"></a>Устранение неполадок инфраструктуры политики отправителей
 
 Возникли проблемы с записью типа TXT инфраструктуры политики отправителей? Прочитайте статью [Устранение неполадок: рекомендации по инфраструктуре политики отправителей в Office 365](how-office-365-uses-spf-to-prevent-spoofing.md#SPFTroubleshoot).
-
 
 ## <a name="what-does-spf-email-authentication-actually-do"></a>Какие действия выполняет проверка подлинности электронной почты инфраструктуры политики отправителей?
 
