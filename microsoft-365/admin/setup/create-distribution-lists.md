@@ -23,14 +23,14 @@ ms.custom:
 - AdminSurgePortfolio
 - okr_smb
 description: Узнайте, как создать группы рассылки или списки в центре администрирования Microsoft 365, чтобы можно было отправлять сообщения электронной почты в группу без необходимости ввести имя каждого получателя.
-ms.openlocfilehash: 5c4781653a5f18b7a41dc20212771368132801cd
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: bd5e246caa8d1b56a33db21d70eb5cbdb7b5ed92
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50914250"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535822"
 ---
-# <a name="create-distribution-groups-in-the-microsoft-365-admin-center"></a>Создание групп рассылки в центре администрирования Microsoft 365
+# <a name="create-distribution-groups-in-the-microsoft-365-admin-center"></a>Создание групп рассылки в центре Microsoft 365 администрирования
   
 Используется при отправке электронной почты группе людей без необходимости ввести имя каждого отдельного получателя, группы рассылки (списки рассылки) организуются определенным субъектом обсуждения (например, "Маркетинг") или пользователями, которые совместно работают, что требует от них частого общения. Они также предоставляют вам возможность автоматически переададовать электронную почту на несколько адресов электронной почты.
 
@@ -70,6 +70,6 @@ ms.locfileid: "50914250"
     
 6. Чтобы добавить пользователей в список рассылки, см. в записи Добавить пользователя или [связаться с группой рассылки.](../email/add-user-or-contact-to-distribution-list.md)
     
-Узнайте, как использовать группу в Outlook 2016 и Outlook в Интернете в разделе Использование контактных групп (ранее - списки [рассылки) в разделе Outlook.](https://support.microsoft.com/office/1c97fcb2-0ed4-41e6-b401-58f9d7d40e39) 
+Узнайте, как использовать группу в Outlook 2016 и Outlook в Интернете в use [contact groups (ранее](https://support.microsoft.com/office/1c97fcb2-0ed4-41e6-b401-58f9d7d40e39)списки рассылки) в Outlook . 
   
 Ознакомьтесь [с вопросами группы рассылки,](/office365/troubleshoot/groups/distribution-list-issues) чтобы помочь с вопросами списка рассылки. 

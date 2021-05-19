@@ -1,23 +1,24 @@
 ---
 title: Сведения об оплате для Сингапура
-author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.custom: CommercePayInfo
+ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: Узнайте, куда отправить платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: f9f3466f11d95fde6aee74243356ebb3eb4da900
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: c6f7dc27add8575063fb3a6ef9327e29a26c08ce
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52272880"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52536290"
 ---
 # <a name="payment-information-for-singapore"></a>Сведения об оплате для Сингапура
 
@@ -30,4 +31,4 @@ ms.locfileid: "52272880"
 **Банк:** Citibank, Сингапур  
 **Код SWIFT:** CITISGSG  
 **Номер учетной записи:** 0-817543-138  
-**Имя учетной записи:** MICROSOFT REGIONAL SALES CORP  
+**Имя учетной записи:** MICROSOFT REGIONAL SALES CORP

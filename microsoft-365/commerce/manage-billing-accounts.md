@@ -1,5 +1,5 @@
 ---
-title: Управление учетными записями выставления счетов
+title: Понимание учетных записей вы выставления счетов
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -17,16 +17,16 @@ ms.custom:
 - AdminSurgePortfolio
 - commerce_billing
 search.appverid: MET150
-description: Узнайте о выставлении счетов и управлении ими.
+description: Узнайте о выставлении счетов и о том, как они используются для управления настройками учетных записей, счетами, методами оплаты и покупками.
 ms.date: 03/17/2021
-ms.openlocfilehash: 05ab759f300cb7fa6b02e06714d7d98e64890be8
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 1eb01ace2fe8b84b813793168cb50db2508b4ebb
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52331602"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535642"
 ---
-# <a name="manage-billing-accounts"></a>Управление учетными записями выставления счетов
+# <a name="understand-billing-accounts"></a>Понимание учетных записей вы выставления счетов
 
 Учетная запись для выставления счетов создается при регистрации, чтобы попробовать или купить продукты Microsoft. Вы используете свою учетную запись для управления настройками учетной записи, счетами, методами оплаты и покупками. Вы можете иметь доступ к нескольким учетным записям с выставлением счетов. Например, вы непосредственно Microsoft 365 или имеете доступ к соглашению о Соглашение Enterprise, Microsoft Product & services agreement или Microsoft Customer Agreement. Для каждого из этих сценариев будет иметься отдельная учетная запись для вычета счетов.
 
@@ -76,7 +76,7 @@ ms.locfileid: "52331602"
 > [!Note]
 > Роли учетных записей для биллинга применяются только к учетным записям и не применяются к другим сценариям Microsoft 365 центра администрирования.
 
-## <a name="related-content"></a>Связанные материалы
+## <a name="related-content"></a>См. также:
 
 [Сведения о налогах](billing-and-payments/tax-information.md) (статья) \
 [Понимание профилей биллинга](billing-and-payments/manage-billing-profiles.md) (статья)

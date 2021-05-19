@@ -24,12 +24,12 @@ search.appverid:
 - MOE150
 - BEA160
 description: Узнайте, как настроить подписку на Приложения Microsoft 365 для бизнеса.
-ms.openlocfilehash: 6978a5402792906ef773934e5201b3ea6671c010
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 9c973866a3bf1008a8c8062e2a5b9e101494d5f9
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244483"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535738"
 ---
 # <a name="set-up-microsoft-365-apps-for-business"></a>Настройка Приложений Microsoft 365 для бизнеса
 
@@ -45,13 +45,13 @@ ms.locfileid: "52244483"
 
 ::: moniker range="o365-germany"
 
-1. Если вы используете Office 365 Germany, перейдите в [этот Центр администрирования](https://go.microsoft.com/fwlink/p/?linkid=848041).
+1. Перейдите в Центр администрирования <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. Если вы используете Службу Office 365 компании 21Vianet, перейдите в [этот Центр администрирования.](https://go.microsoft.com/fwlink/p/?linkid=850627)
+1. Перейдите в Центр администрирования <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">https://portal.partner.microsoftonline.cn</a>.
 
 ::: moniker-end 
 

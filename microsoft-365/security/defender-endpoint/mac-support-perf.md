@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 623717e7b1a3149dbccf07d32200820a7f9083cb
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: d69c7dc30a4cf6a3078f510a02e5572fe8b36cbb
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934253"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52530914"
 ---
 # <a name="troubleshoot-performance-issues-for-microsoft-defender-for-endpoint-on-macos"></a>Устранение неполадок с производительностью для Microsoft Defender для конечной точки на macOS
 
@@ -62,7 +62,7 @@ ms.locfileid: "51934253"
 
       Если устройство управляется организацией, защита в режиме реального времени может быть отключена администратором с помощью инструкций в наборе предпочтений для Microsoft Defender для конечной точки на [macOS.](mac-preferences.md)
       
-      Если проблема производительности сохраняется во время отключения защиты в режиме реального времени, ее происхождение может быть компонентом обнаружения конечной точки и ответа. В этом случае обратитесь в службу поддержки клиентов для получения дополнительных инструкций и смягчения последствий.
+      Если проблема производительности сохраняется при отключении защиты в режиме реального времени, ее происхождение может быть обнаружение и нейтрализация атак на конечные точки компонентом. В этом случае обратитесь в службу поддержки клиентов для получения дополнительных инструкций и смягчения последствий.
 
 2. Откройте finder и перейдите **к**  >  **утилитам приложений**. Откройте **монитор активности** и проанализируйте, какие приложения используют ресурсы в вашей системе. Типичные примеры включают обновление программного обеспечения и компиляторы.
 
@@ -94,7 +94,7 @@ ms.locfileid: "51934253"
       Чтобы собрать текущую статистику, запустите:
 
       ```bash
-      mdatp config real-time-protection --value enabled
+      mdatp config real-time-protection-statistics --output json > real_time_protection.json
       ```
 
       > [!NOTE]
@@ -104,7 +104,7 @@ ms.locfileid: "51934253"
 1. В системе Mac скачайте образец анализара Python high_cpu_parser.py с помощью команды:
 
     ```bash
-    wget -c https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/linux/diagnostic/high_cpu_parser.py
+    curl -O https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/linux/diagnostic/high_cpu_parser.py
     ```
 
     Выход этой команды должен быть похож на следующие:

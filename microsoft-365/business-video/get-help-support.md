@@ -18,13 +18,13 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Узнайте, как получить справку или поддержку для администраторов в Microsoft 365 бизнес премиум.
-ms.openlocfilehash: 8db4f7675f96bac2157c9c0f93ab506c8a39e1bb
-ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
-ms.translationtype: HT
+description: Вы должны быть администратором подписки для бизнеса, чтобы получить помощь администратора или поддержку в Интернете или телефоне в Microsoft 365 бизнес премиум.
+ms.openlocfilehash: e6308a9728731052d540cf3e872b6e153b64aae2
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52327190"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535714"
 ---
 # <a name="get-support"></a>Получение поддержки
 
@@ -252,3 +252,12 @@ ms.locfileid: "52327190"
 Вы также можете [выполнять поиск в форумах сообщества Microsoft 365 для бизнеса](https://go.microsoft.com/fwlink/p/?LinkId=518605), чтобы найти информацию об известных проблемах и популярных темах или опубликовать свой вопрос. Мониторинг форумов сообщества ведут специалисты службы поддержки Майкрософт, которые помогут вам устранить проблему.
 
 ::: moniker-end
+
+
+## <a name="related-content"></a>См. также:
+
+[Поиск документы и обучение](find-help-answers.md) (статья)
+
+[Быстрая настройка сотрудника](employee-quick-setup.md) (статья)
+
+[Обзор Microsoft 365 бизнес премиум (видео)](setup-overview.md)

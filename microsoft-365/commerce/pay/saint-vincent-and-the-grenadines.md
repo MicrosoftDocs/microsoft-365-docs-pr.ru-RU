@@ -1,23 +1,24 @@
 ---
 title: Сведения о платежах для Saint Vincent и Grenadines
-author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.custom: CommercePayInfo
+ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: Узнайте, куда отправить платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: bc2a39a5fe87d376b55686b2332773cec991849a
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 7e4042b0323500bdfc5b212abdd7902fbdd75efb
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52272952"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535210"
 ---
 # <a name="payment-information-for-saint-vincent-and-the-grenadines"></a>Сведения о платежах для Saint Vincent и Grenadines
 
@@ -31,4 +32,4 @@ ms.locfileid: "52272952"
 **Branch** Даллас  
 **Код SWIFT:** BOFAUS3N  
 **Номер учетной записи:** 4426587954  
-**Имя учетной записи:** Microsoft  
+**Имя учетной записи:** Microsoft

@@ -1,27 +1,28 @@
 ---
 title: Сведения о платежах для Македонии, бывшей югославской республики
-author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.custom: CommercePayInfo
+ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: Узнайте, куда отправить платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 121cb3ea0420177f6cc9684e6458de38467da41f
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 84e6f58fb9506a1a8c05e759b1273fa3fa97d7ab
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52273348"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535462"
 ---
 # <a name="payment-information-for-macedonia-former-yugoslav-republic-of"></a>Сведения о платежах для Македонии, бывшей югославской республики
 
-[Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md) 
+[Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)
 
 Пожалуйста, оплатите только в долларах США и обратитесь с номером счета(ы) в счете-фактуре.
 
@@ -31,4 +32,4 @@ ms.locfileid: "52273348"
 **Код SWIFT:** CITIGB2L  
 **IBAN:** GB95CITI18500812510049  
 **Номер учетной записи:** 12510049  
-**Имя учетной записи:** Microsoft  
+**Имя учетной записи:** Microsoft
