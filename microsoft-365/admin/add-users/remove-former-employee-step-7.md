@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Выполните следующие действия, чтобы удалить учетную запись пользователя бывшего сотрудника.
-ms.openlocfilehash: 0afa9b112919d2668d7553ac5bcf08e664bc1749
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 5ca428079091c4af44ef1efa9be3d7340e254995
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244291"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535942"
 ---
 # <a name="step-7---delete-a-former-employees-user-account"></a>Шаг 7 . Удаление учетной записи пользователя бывшего сотрудника
 
@@ -43,7 +43,13 @@ ms.locfileid: "52244291"
 3. Под именем пользователя выберите **Удалить пользователя**. Выберите параметры, которые вы хотите для этого пользователя, а затем выберите **Удалить пользователя**. Если вы уже предоставили другому пользователю доступ к электронной почте и OneDrive этого пользователя, вам не придется делать это снова здесь.
 
 После удаления пользователя его учетная запись становится неактивной на около 30 дней. Вы можете восстановить ее в течение этого срока.
-  
+
+## <a name="watch-delete-a-former-employees-user-account"></a>Watch: Delete a former employee's user account
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOfR]
+
+Если это видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](../../business-video/index.yml).
+
 ## <a name="does-your-organization-use-active-directory"></a>Ваша организация использует Active Directory?
 
 Если ваша организация синхронизирует учетные записи пользователей Microsoft 365 из локальной среды Active Directory, необходимо удалить и восстановить эти учетные записи пользователей в локальной службе Active Directory. Учетные записи нельзя удалить или восстановить в Office 365.
@@ -78,6 +84,8 @@ ms.locfileid: "52244291"
   
  **Самый быстрый способ для пользователя, присутствующего в локальной среде и в центре обработки данных Exchange.** Завершите сеанс с помощью Центра администрирования Azure Active Directory или Центра администрирования Exchange И внесите это изменение в локальной среде. В противном случае изменение, внесенное в Центре администрирования Azure Active Directory или Центре администрирования Exchange, будет перезаписано средством DirSync.
   
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
 [Восстановление пользователя](restore-user.md)
+
+[Сброс паролей](reset-passwords.md)

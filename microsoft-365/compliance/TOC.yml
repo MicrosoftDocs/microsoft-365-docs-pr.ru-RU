@@ -785,7 +785,7 @@
     - name: Базовый аудит
       items:
         - name: Настройка базового аудита
-          href: set-up-basic-auditing.md
+          href: set-up-basic-audit.md
         - name: Поиск в журнале аудита
           href: search-the-audit-log-in-security-and-compliance.md
         - name: Поиск по журналу аудита с помощью сценария PowerShell

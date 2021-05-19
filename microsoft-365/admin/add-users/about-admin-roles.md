@@ -21,13 +21,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: da585eea-f576-4f55-a1e0-87090b6aaa9d
-description: Роли администратора соответствуют бизнес-функциям и предоставляют разрешения на выполнение определенных задач в Центре администрирования. Например, администратор службы может создать запрос в службу поддержки через центр администрирования.
-ms.openlocfilehash: d220ee918f70a56ba27bdad9d7d0f45025fad451
-ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+description: Роли администраторов, такие как "Администратор службы", соответствуют бизнес-функциям и предоставляют разрешения на выполнение определенных задач в Центре администрирования.
+ms.openlocfilehash: 7ba8b6fd483901fde31a9bceca189797b4f2e16d
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51759412"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52536014"
 ---
 # <a name="about-admin-roles"></a>Роли администраторов
 
@@ -43,7 +43,7 @@ ms.locfileid: "51759412"
 
 Подробнее о назначении ролей в центре администрирования Microsoft 365 см. статью [Назначение ролей администратора](assign-admin-roles.md).
 
-### <a name="watch-what-is-an-admin"></a>Видео. Кто такой администратор?
+## <a name="watch-what-is-an-admin"></a>Видео. Кто такой администратор?
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1SRc0]
 
@@ -93,12 +93,12 @@ ms.locfileid: "51759412"
 
 Чтобы партнер мог назначать эти роли пользователям, его требуется добавить в свою учетную запись в качестве делегированного администратора. Этот процесс начинает авторизованный партнер, отправив вам сообщение с просьбой предоставить ему полномочия делегированного администратора. Инструкции см. в статье [Авторизация и удаление взаимоотношений с партнерами](../misc/add-partner.md).
   
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-content"></a>См. также:
 
-[Назначение ролей администратора](assign-admin-roles.md)
+[Назначение ролей администратора](assign-admin-roles.md) (статья)
 
-[Роли Azure AD в Центре администрирования Microsoft 365](azure-ad-roles-in-the-mac.md)
+[Роли Azure AD в Центре администрирования Microsoft 365](azure-ad-roles-in-the-mac.md) (статья)
 
-[Роль администратора Exchange Online](about-exchange-online-admin-role.md)
+[Роль администратора Exchange Online](about-exchange-online-admin-role.md) (статья)
   
-[Отчеты об активности в Центре администрирования Microsoft 365](../activity-reports/activity-reports.md)
+[Отчеты об активности в Центре администрирования Microsoft 365](../activity-reports/activity-reports.md) (статья)

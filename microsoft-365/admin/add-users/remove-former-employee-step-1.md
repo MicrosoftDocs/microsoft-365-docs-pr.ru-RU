@@ -24,16 +24,19 @@ search.appverid:
 - MET150
 - MOE150
 description: Блокирование входа в систему бывшего сотрудника и блокировка доступа к Microsoft 365 службам.
-ms.openlocfilehash: 60f4cf6b5c9a0b5dc2023b3ef7b6460685142d07
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 8eb41c3b449e63284371aaf168262307a4c21941
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244302"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535954"
 ---
 # <a name="step-1---prevent-a-former-employee-from-logging-in-and-block-access-to-microsoft-365-services"></a>Шаг 1 — запретить бывшему сотруднику войти в систему и заблокировать доступ к Microsoft 365 службам
 
 Если необходимо немедленно предотвратить вход пользователя, необходимо сбросить пароль. На этом шаге вынудить пользователя выйти из него Microsoft 365.
+
+> [!NOTE]
+> Чтобы инициировать регистрацию, необходимо быть глобальным администратором.
 
 1. В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Активные пользователи</a>.
 2. Выберите поле рядом с именем пользователя, а затем выберите **пароль Reset**.

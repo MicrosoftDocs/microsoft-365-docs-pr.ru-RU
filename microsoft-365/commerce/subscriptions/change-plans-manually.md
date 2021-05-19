@@ -20,12 +20,12 @@ search.appverid: MET150
 description: Измените подписки вручную, приобретая новую подписку и обеспечивая перечислены и активные подписки.
 ROBOTS: NOINDEX
 ms.date: 03/17/2021
-ms.openlocfilehash: 4935301c6d2a530f34d628f946032b7007e5c907
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: f5a44b7a3c01883ed42ca4ed203b63ccf77f9b72
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52345182"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52536110"
 ---
 # <a name="change-plans-manually"></a>Изменение планов вручную
 
@@ -94,7 +94,7 @@ OR
 
 2. Выберите круги рядом с именами пользователей, для которых необходимо заменить существующие лицензии.
 
-3. В верхней части выберите **дополнительные параметры** **(...),** а затем выберите **Управление лицензиями на продукт.**
+3. В верхней части выберите три точки (больше действий), а затем выберите **Управление лицензиями продукта.**
 
 4. Select **Replace existing product license assignments** \> **Next**.
 

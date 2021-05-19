@@ -19,12 +19,12 @@ ms.custom:
 search.appverid: MET150
 description: Узнайте, как управлять бесплатными подписками на самообслуживку для вашей организации.
 ms.date: 03/17/2021
-ms.openlocfilehash: 9c29d36ff28e312fa3782b60f89fa755d4df9bf3
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: 741c9e0b45f127ffc0753b34982073f90c525d5b
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52345134"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52536074"
 ---
 # <a name="manage-self-service-sign-up-subscriptions"></a>Управление подписками на самообслуживку
 
@@ -39,7 +39,7 @@ ms.locfileid: "52345134"
 
 ## <a name="how-are-these-subscriptions-different-from-self-service-purchase-subscriptions"></a>Чем эти подписки отличаются от подписки на покупку самообслуживки?
 
-Подписки на самообслуживку бесплатны и доступны для большего списка продуктов, чем подписки на покупку самообслуживаний. Когда пользователь подписывает подписку на покупку самостоятельной службы, он несет ответственность за ее оплату. Подписки на самообслуживку доступны только для продуктов Power Platform (Power BI, Power Apps и Power Automate), Project и Visio. Дополнительные сведения см. в [faq самообслуживной покупки.](self-service-purchase-faq.md)
+Подписки на самообслуживку бесплатны и доступны для большего списка продуктов, чем подписки на покупку самообслуживаний. Когда пользователь подписывает подписку на покупку самостоятельной службы, он несет ответственность за ее оплату. Подписки на самообслуживку доступны только для продуктов Power Platform (Power BI, Power Apps и Power Automate), Project и Visio. Дополнительные сведения см. в [faq самообслуживной покупки.](self-service-purchase-faq.yml)
 
 ## <a name="block-users-from-signing-up"></a>Блокировка регистрации пользователей
 

@@ -1,23 +1,24 @@
 ---
 title: Сведения об оплате для США
-author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.custom: CommercePayInfo
+ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: Узнайте, куда отправить платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: dc5eab17acd63b19ae2006ac5cebaa49bfcc76e2
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: f8f5cd4acb6bf8029ba3f953b2681d0619330776
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52272628"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52536242"
 ---
 # <a name="payment-information-for-united-states"></a>Сведения об оплате для США
 
@@ -28,7 +29,7 @@ ms.locfileid: "52272628"
 ## <a name="check"></a>Чек
 
 **Payee:** Microsoft  
-**Адрес рассылки:**   
+**Адрес рассылки:**  
 Стандартная почта: PO Box 842103, Даллас, TX 75284-2103  
 Экспресс-почта: Lockbox 842103, 1950 N. Stemmons Frwy, Ste. 5010, Даллас, TX 75207-2103
 
@@ -38,4 +39,4 @@ ms.locfileid: "52272628"
 **Код SWIFT:** BOFAUS3N  
 **Номер ABA/Routing:** 111 000 012  
 **Номер учетной записи:** 4426587954  
-**Имя учетной записи:** Microsoft  
+**Имя учетной записи:** Microsoft

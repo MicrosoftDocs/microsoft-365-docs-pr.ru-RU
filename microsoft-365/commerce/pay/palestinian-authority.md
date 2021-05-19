@@ -1,23 +1,24 @@
 ---
 title: Сведения об оплате для Палестинского органа
-author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.custom: CommercePayInfo
+ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: Узнайте, куда отправить платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 733740245ba7dbf9ee07d00854aa202a95fd54f7
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: e2245c4d0d247a2f425e28227f655383684dab90
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52273120"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52536398"
 ---
 # <a name="payment-information-for-palestinian-authority"></a>Сведения об оплате для Палестинского органа
 
@@ -31,4 +32,4 @@ ms.locfileid: "52273120"
 **Код SWIFT:** CITIGB2L  
 **IBAN:** GB95CITI18500812510049  
 **Номер учетной записи:** 12510049  
-**Имя учетной записи:** Microsoft  
+**Имя учетной записи:** Microsoft

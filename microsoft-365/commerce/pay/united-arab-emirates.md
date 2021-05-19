@@ -1,23 +1,24 @@
 ---
 title: Сведения об оплате для Объединенных Арабских Эмиратов
-author: cmcatee-MSFT
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: jkinma, jmueller
 audience: Admin
 ms.topic: reference
 ms.service: o365-administration
-ms.custom: CommercePayInfo
+ms.custom: commerce_billing_payinfo
 localization_priority: Normal
 description: Узнайте, куда отправить платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: e61bf3e22fa65bf61a85f6ec50d5621b80f303f8
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 3441b08eefd38ac104e782dcb09e6a666f69562f
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52272652"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52536266"
 ---
 # <a name="payment-information-for-united-arab-emirates"></a>Сведения об оплате для Объединенных Арабских Эмиратов
 
@@ -31,4 +32,4 @@ ms.locfileid: "52272652"
 **Код SWIFT:** CITIGB2L  
 **IBAN:** GB95CITI18500812510049  
 **Номер учетной записи:** 12510049  
-**Имя учетной записи:** Microsoft  
+**Имя учетной записи:** Microsoft

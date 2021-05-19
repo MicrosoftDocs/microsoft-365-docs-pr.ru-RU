@@ -22,13 +22,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 1dbcf12f-a9de-4d1d-b0b3-a227f8a736d8
-description: 'Узнайте, как предоставить пользователю право доступа к почтовому ящику другого пользователя. В результате пользователь будет иметь право на чтение почты и отправку почты из почтового ящика другого пользователя. '
-ms.openlocfilehash: e6b94d4e24b0ff1d5dc397ccbcfba98929a303f2
-ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
+description: Предоставьте пользователю право на доступ к почтовому ящику другого пользователя, что позволит ему читать и отправлять письма из почтового ящика другого пользователя.
+ms.openlocfilehash: 3514be02f2ef82b727edfcf86c0bd3f6b8515510
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49925546"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52535966"
 ---
 # <a name="give-mailbox-permissions-to-another-user---admin-help"></a>Предоставление другому пользователю разрешений доступа к почтовому ящику — справка для администраторов
 
@@ -205,11 +205,11 @@ ms.locfileid: "49925546"
 ::: moniker-end
 
 
-## <a name="send-and-read-from-outlook-and-outlook-on-the-web-for-business"></a>Отправка и чтение почты в Outlook и Outlook в Интернете для бизнеса
-
-
-Хотите узнать, как отправлять почту из почтового ящика другого пользователя? Ознакомьтесь со следующими разделами:
+## <a name="related-content"></a>Связанные материалы
   
-- [Управление элементами почты и календаря другого пользователя](https://support.microsoft.com/office/afb79d6b-2967-43b9-a944-a6b953190af5)
+[Управление элементами почты и календаря другого пользователя (статья)](https://support.microsoft.com/office/afb79d6b-2967-43b9-a944-a6b953190af5)
     
-- [Отправка почты от имени другого пользователя или группы](https://support.microsoft.com/office/0f4964af-aec6-484b-a65c-0434df8cdb6b)
+[Отправка почты от имени другого пользователя или группы](https://support.microsoft.com/office/0f4964af-aec6-484b-a65c-0434df8cdb6b) (статья)
+
+[Изменение имени пользователя и адреса электронной почты](../add-users/change-a-user-name-and-email-address.md) (видео)
+
