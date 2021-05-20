@@ -118,8 +118,6 @@
           href: configure-junk-email-settings-on-exo-mailboxes.md
         - name: Настройка фильтрации исходящего спама
           href: configure-the-outbound-spam-policy.md
-        - name: Настройка аналитики спуфинга
-          href: learn-about-spoof-intelligence.md
         - name: Создать списки отправителей блоков
           href: Create-block-sender-lists-in-office-365.md
         - name: Создайте безопасные списки отправителей
@@ -150,10 +148,6 @@
           href: support-for-anonymous-inbound-email-messages-over-ipv6.md
         - name: Установка Application Guard для Office
           href: install-app-guard.md
-        - name: Настройка групп и пользователей в случае среды разработки и тестирования для политической кампании
-          href: configure-groups-and-users-for-a-political-campaign-dev-test-environment.md
-        - name: Создание сайтов групп в среде разработки и тестирования для политической кампании
-          href: create-team-sites-in-a-political-campaign-dev-test-environment.md
     - name: Миграция
       items:
         - name: 'Переход на EOP с Google Postini, Barracuda Spam и Virus Firewall или Cisco IronPort'
@@ -226,13 +220,13 @@
           href: campaigns.md
         - name: Исследование вредоносной электронной почты
           href: investigate-malicious-email-that-was-delivered.md
-        - name: Просмотр отчетов Defender для Office 365 в Центре безопасности и соответствия требованиям
-          href: view-reports-for-mdo.md
         - name: Просмотр сведений и результатов автоматического исследования
           href: air-view-investigation-results.md
-        - name: Просмотр отчетов о безопасности почты в Центре безопасности и соответствия требованиям
+        - name: Просмотр отчетов Defender для Office 365
+          href: view-reports-for-mdo.md
+        - name: Просмотр отчетов о безопасности электронной почты
           href: view-email-security-reports.md
-        - name: Просмотр отчетов потока обработки почты в Центре безопасности и соответствия требованиям
+        - name: Просмотр правил потока обработки почты
           href: view-mail-flow-reports.md
         - name: Просмотр журнала аудита администратора в автономной службе EOP
           href: view-the-admin-audit-log-eop.md
@@ -240,6 +234,8 @@
           href: reporting-and-message-trace-in-exchange-online-protection.md
         - name: Анализ автоматически пересылаемых сообщений
           href: mfi-auto-forwarded-messages-report.md
+        - name: Сведения об олицетворении
+          href: impersonation-insight.md
         - name: Схема потока обработки почты
           href: mfi-mail-flow-map-report.md
         - name: Отправка сообщений в корпорацию Майкрософт вручную
@@ -256,6 +252,8 @@
           href: mfi-outbound-and-inbound-mail-flow.md
         - name: Анализ и отчет о клиентах SMTP-AUTH
           href: mfi-smtp-auth-clients-report.md
+        - name: Сведения аналитики спуфинга
+          href: learn-about-spoof-intelligence.md
         - name: 'Отправка вредоносных программ и программ, не являющихся вредоносными, в корпорацию Майкрософт'
           href: submitting-malware-and-non-malware-to-microsoft-for-analysis.md
         - name: Анализ состояния для потока обработки почты верхнего домена
@@ -266,8 +264,6 @@
           href: use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft.md
         - name: Анализ очередей
           href: mfi-queue-alerts-and-queues.md
-        - name: "Пошаговое руководство\_— результаты аналитики спуфинга"
-          href: walkthrough-spoof-intelligence-insight.md
     - name: Реагирование
       items:
         - name: Быстрый поиск и определение скомпрометированных учетных записей пользователей

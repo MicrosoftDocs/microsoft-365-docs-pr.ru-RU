@@ -18,13 +18,14 @@ search.appverid:
 f1.keywords: NOCSH
 ms.custom: ''
 localization_priority: Priority
+recommendations: false
 description: Узнайте о возможностях ограничения и отключения общего доступа в Microsoft 365.
-ms.openlocfilehash: 46cef1aac6d3387366a5e8ce9f9c1129f6c83e61
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: f237df883bb401342a3a5c93432beeb5028cfce6
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50920208"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52539195"
 ---
 # <a name="limit-sharing-in-microsoft-365"></a>Ограничение общего доступа в Microsoft 365
 

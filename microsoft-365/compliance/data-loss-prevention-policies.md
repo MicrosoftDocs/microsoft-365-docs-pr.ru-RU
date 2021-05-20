@@ -1,5 +1,5 @@
 ---
-title: Справка о предотвращении потери данных
+title: Справка по предотвращению потери данных
 f1.keywords:
 - CSH
 ms.author: chrfox
@@ -21,18 +21,18 @@ search.appverid:
 - MET150
 ms.custom:
 - seo-marvel-apr2020
-description: справочный материал для предотвращения потери данных
-ms.openlocfilehash: a039b8d99bd92be0040f6207803981e8a2937c6f
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+description: справочный материал по предотвращению потери данных
+ms.openlocfilehash: a6dc0b2702899e05f78c54331fb33b87495672d8
+ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52296772"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52572565"
 ---
-# <a name="data-loss-prevention-reference"></a>Справка о предотвращении потери данных
+# <a name="data-loss-prevention-reference"></a>Ссылка на предотвращение потери данных
  
 > [!IMPORTANT]
-> Эта справочная тема больше не является основным ресурсом для Microsoft 365 данных по предотвращению потери данных (DLP). Набор контента DLP обновляется и реструктуризуется. Темы, затронутые в этой статье, будут перемещены в новые, обновленные статьи. Дополнительные сведения о DLP см. в дополнительных сведениях [о предотвращении потери данных.](dlp-learn-about-dlp.md)
+> Это эталонная тема больше не является основным ресурсом для Microsoft 365 данных (DLP). Набор содержимого DLP обновляется и реструктуризируется. Темы, затронутые в этой статье, будут переходить к новым, обновленным статьям. Для получения дополнительной информации о DLP, [см.](dlp-learn-about-dlp.md)
 
 <!-- this topic needs to be split into smaller, more coherent ones. It is confusing as it is. -->
 <!-- move this note to a more appropriate place, no topic should start with a note -->
@@ -385,7 +385,7 @@ DLP сканирует электронную почту иначе, чем эл
 
 ### <a name="using-a-sensitivity-label-as-a-condition-in-a-dlp-policy"></a>Использование метки конфиденциальности в качестве условия в политике защиты от потери данных
 
-[Дополнительные новости](./dlp-sensitivity-label-as-condition.md) об использовании метки "Чувствительность" в качестве условия в политиках DLP.
+[Узнайте больше об](./dlp-sensitivity-label-as-condition.md) использовании метки Чувствительности в качестве условия в политиках DLP.
   
 ### <a name="how-this-feature-relates-to-other-features"></a>Связь с другими функциями
 
@@ -441,28 +441,30 @@ DLP сканирует электронную почту иначе, чем эл
   
 У вашей организации могут быть собственные уникальные требования. В этом случае вы можете создать политику защиты от потери данных с нуля, выбрав вариант **Пользовательская политика**. Настраиваемая политика создается с нуля и не содержит никаких готовых правил. 
   
-## <a name="roll-out-dlp-policies-gradually-with-test-mode"></a>Постепенное внедрение политик защиты от потери данных с помощью тестового режима
+<!-- ## Roll out DLP policies gradually with test mode
 
-При создании политик защиты от потери данных следует внедрять их постепенно, чтобы оценить их влияние и эффективность перед полноценным развертыванием. Например, нежелательно, чтобы новая политика защиты от потери данных случайно заблокировала доступ к тысячам документов, которые нужны пользователям в рабочих целях.
+rehomed to Plan for DLP
+
+When you create your DLP policies, you should consider rolling them out gradually to assess their impact and test their effectiveness before fully enforcing them. For example, you don't want a new DLP policy to unintentionally block access to thousands of documents that people require access to in order to get their work done.
   
-При создании политик защиты от потери данных с потенциально мощным влиянием рекомендуется выполнить указанные ниже действия.
+If you're creating DLP policies with a large potential impact, we recommend following this sequence:
   
-1. **Начните работу в тестовом режиме без подсказок политики**, а затем оцените влияние политики с помощью отчетов системы защиты от потери данных и отчетов об инцидентах. В них содержатся сведения о количестве, расположении, типе и серьезности совпадений. Вы можете настроить правила с учетом результатов. В тестовом режиме политики защиты от потери данных не влияют на производительность сотрудников вашей организации. 
+1. **Start in test mode without Policy Tips** and then use the DLP reports and any incident reports to assess the impact. You can use DLP reports to view the number, location, type, and severity of policy matches. Based on the results, you can fine tune the rules as needed. In test mode, DLP policies will not impact the productivity of people working in your organization. 
     
-2. **Переключитесь в тестовый режим с уведомлениями и подсказками политики**, чтобы начать знакомить пользователей с политиками соответствия требованиям вашей организации и подготовить их к введению новых правил. На этом этапе можно также попросить пользователей сообщать о ложных срабатываниях, чтобы сделать правила еще точнее. 
+2. **Move to Test mode with notifications and Policy Tips** so that you can begin to teach users about your compliance policies and prepare them for the rules that are going to be applied. At this stage, you can also ask users to report false positives so that you can further refine the rules. 
     
-3. **Начните применять политики в полном объеме**, чтобы защищать контент с помощью действий, заданных в правилах. Продолжайте отслеживать отчеты системы защиты от потери данных и все отчеты об инцидентах или уведомления, чтобы убедиться в соответствии результатов вашим потребностям. 
+3. **Start full enforcement on the policies** so that the actions in the rules are applied and the content's protected. Continue to monitor the DLP reports and any incident reports or notifications to make sure that the results are what you intend. 
 
-    ![Варианты использования режима тестирования и включения политики](../media/49fafaac-c6cb-41de-99c4-c43c3e380c3a.png)
+    ![Options for using test mode and turning on policy](../media/49fafaac-c6cb-41de-99c4-c43c3e380c3a.png)
 
-    Вы можете в любой момент отключить политику защиты от потери данных. При этом будут отключены все правила в политике. Тем не менее каждое правило можно отключить отдельно от других, переключив его состояние в редакторе правил.
+    You can turn off a DLP policy at any time, which affects all rules in the policy. However, each rule can also be turned off individually by toggling its status in the rule editor.
 
-    ![Варианты отключения правила для политики](../media/f7b258ff-1b8b-4127-b580-83c6492f2bef.png)
+    ![Options for turning off a rule in a policy](../media/f7b258ff-1b8b-4127-b580-83c6492f2bef.png)
 
-    Вы также можете изменить приоритет нескольких правил в политике. Чтобы сделать это, откройте политику для редактирования. В строке правила щелкните многоточие (**...**) и выберите один из вариантов, например **Переместить вниз** или **Поместить в конец**.
+    You can also change the priority of multiple rules in a policy. To do that, open a policy for editing. In a row for a rule, choose the ellipses (**...**), and then choose an option, such as **Move down** or **Bring to last**.
 
     > [!div class="mx-imgBorder"]
-    > ![Настройка приоритета правила](../media/dlp-set-rule-priority.png)
+    > ![Set rule priority](../media/dlp-set-rule-priority.png)-->
   
 ## <a name="dlp-reports"></a>Отчеты DLP
 
@@ -520,7 +522,7 @@ DLP сканирует электронную почту иначе, чем эл
 Система защиты от потери данных оценивает любой контент, который можно индексировать. Дополнительные сведения о типах файлов, для которых по умолчанию выполняется обход контента, см. в статье [Анализируемые типы файлов и расширения имен файлов для обхода по умолчанию в SharePoint Server](/SharePoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types).
 
 > [!NOTE]
-> Чтобы предотвратить распространение документов до того, как политики DLP имели возможность их анализировать, обмен новыми файлами в SharePoint может быть заблокирован до индексации контента. Подробные сведения см. в статье [По умолчанию помечать новые файлы как конфиденциальные](/sharepoint/sensitive-by-default). 
+> Для предотвращения обмена документами до того, как политики DLP имели возможность анализировать их, обмен новыми файлами в SharePoint может быть заблокирован до тех пор, пока его содержимое не будет проиндексирован. Подробные сведения см. в статье [По умолчанию помечать новые файлы как конфиденциальные](/sharepoint/sensitive-by-default). 
   
 ### <a name="policy-evaluation-in-exchange-online-outlook-and-outlook-on-the-web"></a>Оценка политик в Exchange Online, Outlook и Outlook в Интернете
 

@@ -17,13 +17,14 @@ ms.collection:
 - m365solution-securecollab
 ms.custom:
 - Ent_Solutions
+recommendations: false
 description: Узнайте, как развернуть группы с защитой для конфиденциальных данных.
-ms.openlocfilehash: fdc3c1ab2c780289b7405623779b8af89da8ba17
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: d83c10df50d02f47a6d70ee80b2ddbf89fff37d0
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50916290"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538199"
 ---
 # <a name="configure-teams-with-protection-for-highly-sensitive-data"></a>Настроить группы с защитой для конфиденциальных данных
 

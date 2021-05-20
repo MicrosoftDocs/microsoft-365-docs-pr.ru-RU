@@ -1,5 +1,5 @@
 ---
-title: Назначение лицензий Microsoft 365 учетным записям пользователей с помощью PowerShell
+title: Назначение Microsoft 365 для учетных записей пользователей с помощью PowerShell
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -20,52 +20,52 @@ ms.custom:
 ms.assetid: ba235f4f-e640-4360-81ea-04507a3a70be
 search.appverid:
 - MET150
-description: В этой статье узнайте, как использовать PowerShell для назначения лицензии Microsoft 365 нелицензированным пользователям.
-ms.openlocfilehash: 5fb5f9095d4f732b0bf23f26eebb22eff608b48c
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+description: В этой статье узнайте, как использовать PowerShell для назначения Microsoft 365 лицензии нелицензированным пользователям.
+ms.openlocfilehash: 6d7e005aff018394810082de57c68ea289057f8e
+ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50905468"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52572625"
 ---
-# <a name="assign-microsoft-365-licenses-to-user-accounts-with-powershell"></a>Назначение лицензий Microsoft 365 учетным записям пользователей с помощью PowerShell
+# <a name="assign-microsoft-365-licenses-to-user-accounts-with-powershell"></a>Назначение Microsoft 365 для учетных записей пользователей с помощью PowerShell
 
-*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
+*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
 
-Пользователи не могут использовать какие-либо службы Microsoft 365 до тех пор, пока их учетной записи не будет назначена лицензия из плана лицензирования. С помощью PowerShell можно быстро назначить лицензии нелицензируемой учетной записи. 
+Пользователи не могут использовать какие-либо Microsoft 365 службы до тех пор, пока их учетная запись не будет назначена лицензия из плана лицензирования. Вы можете использовать PowerShell для быстрого назначения лицензий нелицензированным учетным записям. 
 
-Учетным записям пользователей сначала должно быть назначено расположение. Указание расположения является обязательной частью создания новой учетной записи пользователя в центре администрирования [Microsoft 365.](../admin/add-users/add-users.md) 
+Учетные записи пользователей должны быть сначала назначены местоположение. Определение местоположения является необходимой частью создания новой учетной записи пользователя в [Microsoft 365 администратора.](../admin/add-users/add-users.md) 
 
-Учетные записи, синхронизированные с локальной службой домена Active Directory, по умолчанию не имеют определенного расположения. Вы можете настроить расположение для этих учетных записей из:
+Учетные записи, синхронизированные с вашими службами active Directory Domain Services, по умолчанию не имеют указанного местоположения. Вы можете настроить местоположение для этих учетных записей из:
 
 - Центр администрирования Microsoft 365
  - [PowerShell](configure-user-account-properties-with-microsoft-365-powershell.md)
- - Портал [Azure](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal) **(Пользователи active Directory**> учетной записи >  >   **контактные** данные профилей  >    >  **страны или региона).**
+ - Портал [Azure (Активные](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal) **пользователи**  >  **каталога >** учетную запись >   >  **контактную информацию профиля** Страна или  >  **регион).**
 
 >[!Note]
->[Узнайте, как назначать лицензии учетным](../admin/manage/assign-licenses-to-users.md) записям пользователей в центре администрирования Microsoft 365. Список дополнительных ресурсов см. в списке [Управление пользователями и группами.](../admin/add-users/index.yml)
+>[Узнайте, как присвоить лицензии учетным](../admin/manage/assign-licenses-to-users.md) записям пользователей с помощью Microsoft 365-центра. Список дополнительных ресурсов можно посмотреть с [пользователями и группами Управления.](../admin/add-users/index.yml)
 >
 
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Использование модуля PowerShell Azure Active Directory для Graph
 
-[Во-первых, подключите клиента Microsoft 365.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
+[Во-первых, подключись к Microsoft 365 арендатору.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
   
 
-Далее перечислите планы лицензий для клиента с помощью этой команды.
+Далее перечислите планы лицензий для вашего арендатора с этой командой.
 
 ```powershell
 Get-AzureADSubscribedSku | Select SkuPartNumber
 ```
 
-Далее получите имя входной записи, к которой нужно добавить лицензию, также именуемую главным именем пользователя (UPN).
+Затем получите имя учетной записи, к которой вы хотите добавить лицензию, также известную как главное имя пользователя (UPN).
 
-Далее убедитесь, что учетной записи пользователя назначено расположение использования.
+Далее убедитесь, что учетная запись пользователя имеет местоположение использования назначено.
 
 ```powershell
 Get-AzureADUser -ObjectID <user sign-in name (UPN)> | Select DisplayName, UsageLocation
 ```
 
-Если не назначено расположение использования, можно назначить одну с помощью этих команд:
+Если место использования не назначено, можно назначить одну с этими командами:
 
 ```powershell
 $userUPN="<user sign-in name (UPN)>"
@@ -73,7 +73,7 @@ $userLoc="<ISO 3166-1 alpha-2 country code>"
 Set-AzureADUser -ObjectID $userUPN -UsageLocation $userLoc
 ```
 
-Наконец, укажите имя и имя плана плана регистрации пользователя и запустите эти команды.
+Наконец, укажите имя пользователя и имя плана лицензии и запустите эти команды.
 
 ```powershell
 $userUPN="<user sign-in name (UPN)>"
@@ -87,35 +87,37 @@ Set-AzureADUserLicense -ObjectId $userUPN -AssignedLicenses $LicensesToAssign
 
 ## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a>Использование модуля Microsoft Azure Active Directory для Windows PowerShell
 
-[Во-первых, подключите клиента Microsoft 365.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
+Пожалуйста, обратите внимание, что мы начнем о амортизации этого модуля, когда функциональность этого модуля доступна [в Azure Active Directory PowerShell для Graph](/powershell/azuread/v2/azureactivedirectory) модуля. Мы советуем клиентам, создающих новые скрипты PowerShell, использовать новый модуль вместо этого модуля.
 
-Запустите команду, чтобы просмотреть доступные планы лицензирования и количество доступных лицензий в каждом плане `Get-MsolAccountSku` в вашей организации. Количество доступных лицензий в каждом плане **— ActiveUnits**  -  **WarningUnits**  -  **ConsumedUnits.** Дополнительные сведения о планах лицензирования, лицензиях и службах см. в обзоре лицензий и служб [в PowerShell.](view-licenses-and-services-with-microsoft-365-powershell.md)
+[Во-первых, подключись к Microsoft 365 арендатору.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
+
+Запустите `Get-MsolAccountSku` команду для просмотра доступных планов лицензирования и количества доступных лицензий в каждом плане в вашей организации. Количество доступных лицензий в каждом плане **ActiveUnits**  -  **WarningUnits**  -  **ПотребляемыеUnits**. Для получения дополнительной информации о планах лицензирования, лицензиях и услугах [см.](view-licenses-and-services-with-microsoft-365-powershell.md)
 
 >[!Note]
 >В PowerShell Core не поддерживается модуль Microsoft Azure Active Directory для Windows PowerShell и командлеты с компонентом **Msol** в имени. Чтобы использовать эти командлеты, необходимо запустить их из Windows PowerShell.
 >
 
-Чтобы найти нелицензивные учетные записи в организации, запустите эту команду.
+Чтобы найти нелицензированные учетные записи в вашей организации, запустите эту команду.
 
 ```powershell
 Get-MsolUser -All -UnlicensedUsersOnly
 ```
 
-Лицензии можно назначать только учетным записям пользователей с свойством **UseLocation,** задаваемым допустимым кодом страны ISO 3166-1 alpha-2. Важно указать это значение, так как некоторые службы O365_W14_2nd недоступны в определенных странах. Некоторые службы Microsoft 365 недоступны в некоторых странах. Дополнительные сведения см. [в дополнительных сведениях об ограничениях лицензии.](https://go.microsoft.com/fwlink/p/?LinkId=691730)
+Лицензии могут присваиваться только учетным записям пользователей, которые **имеют свойство UsageLocation,** настроенное на действительный код страны ISO 3166-1 alpha-2. Важно указать это значение, так как некоторые службы O365_W14_2nd недоступны в определенных странах. Некоторые Microsoft 365 услуги не доступны в некоторых странах. Для получения дополнительной информации [см.](https://go.microsoft.com/fwlink/p/?LinkId=691730)
     
-Чтобы найти учетные записи, которые не имеют **значения UseLocation,** запустите эту команду.
+Чтобы найти учетные записи, не которые не имеют **значения использования,** запустите эту команду.
 
 ```powershell
 Get-MsolUser -All | where {$_.UsageLocation -eq $null}
 ```
 
-Чтобы установить значение **UseLocation** для учетной записи, запустите эту команду.
+Чтобы установить значение **Распределения использования в** учетной записи, запустите эту команду.
 
 ```powershell
 Set-MsolUser -UserPrincipalName "<Account>" -UsageLocation <CountryCode>
 ```
 
-Например:
+Пример:
 
 ```powershell
 Set-MsolUser -UserPrincipalName "belindan@litwareinc.com" -UsageLocation US
@@ -125,19 +127,19 @@ Set-MsolUser -UserPrincipalName "belindan@litwareinc.com" -UsageLocation US
 
 ### <a name="assigning-licenses-to-user-accounts"></a>Назначение лицензий учетным записям пользователей
     
-Чтобы назначить лицензию пользователю, используйте следующую команду в PowerShell.
+Чтобы назначить лицензию пользователю, в PowerShell используйте следующую команду.
   
 ```powershell
 Set-MsolUserLicense -UserPrincipalName "<Account>" -AddLicenses "<AccountSkuId>"
 ```
 
-В этом примере лицензия из плана лицензирования **litwareinc:ENTERPRISEPACK** (Office 365 Enterprise E3) назначается нелицензионному пользователю **belindan \@ litwareinc.com:**
+Этот пример присваивает лицензию от **litwareinc:ENTERPRISEPACK** (Office 365 корпоративный E3) план лицензирования нелицензированного пользователя **belindan \@ litwareinc.com:**
   
 ```powershell
 Set-MsolUserLicense -UserPrincipalName "belindan@litwareinc.com" -AddLicenses "litwareinc:ENTERPRISEPACK"
 ```
 
-Чтобы назначить лицензию всем нелицензируемой пользователям, запустите эту команду.
+Чтобы назначить лицензию всем нелицензированным пользователям, запустите эту команду.
   
 ```powershell
 Get-MsolUser -All -UnlicensedUsersOnly [<FilterableAttributes>] | Set-MsolUserLicense -AddLicenses "<AccountSkuId>"
@@ -147,31 +149,31 @@ Get-MsolUser -All -UnlicensedUsersOnly [<FilterableAttributes>] | Set-MsolUserLi
 >Невозможно назначить пользователю несколько лицензий из одного плана лицензирования. Если у вас нет достаточного количества доступных лицензий, они назначаются пользователям в порядке, в котором их возвращает командлет **Get-MsolUser**, пока не закончатся.
 >
 
-В этом примере всем нелицензионным пользователям присваиваются лицензии из плана лицензирования **litwareinc:ENTERPRISEPACK** (Office 365 Enterprise E3):
+Этот пример присваивает лицензии **из плана лицензирования litwareinc:ENTERPRISEPACK** (Office 365 корпоративный E3) всем нелицензированным пользователям:
   
 ```powershell
 Get-MsolUser -All -UnlicensedUsersOnly | Set-MsolUserLicense -AddLicenses "litwareinc:ENTERPRISEPACK"
 ```
 
-В этом примере эти же лицензии назначаются нелицензированным пользователям в отделе продаж в США:
+Этот пример присваивает те же лицензии нелицензированным пользователям в отделе продаж в США:
   
 ```powershell
 Get-MsolUser -All -Department "Sales" -UsageLocation "US" -UnlicensedUsersOnly | Set-MsolUserLicense -AddLicenses "litwareinc:ENTERPRISEPACK"
 ```
   
-## <a name="move-a-user-to-a-different-subscription-license-plan-with-the-azure-active-directory-powershell-for-graph-module"></a>Перемещение пользователя в другую подписку (план лицензии) с помощью модуля Azure Active Directory PowerShell для Graph
+## <a name="move-a-user-to-a-different-subscription-license-plan-with-the-azure-active-directory-powershell-for-graph-module"></a>Перемещение пользователя в другую подписку (лицензионный план) с Azure Active Directory PowerShell для Graph модуля
 
-[Во-первых, подключите клиента Microsoft 365.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
+[Во-первых, подключись к Microsoft 365 арендатору.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
   
-Далее получите имя учетной записи пользователя, для которой нужны подписки на коммутаторы, также известные как основное имя пользователя (UPN).
+Далее, получить имя входят в учетную запись пользователя, для которой вы хотите переключить подписки, также известный как основное имя пользователя (UPN).
 
-Далее перечислите подписки (планы лицензий) для клиента с этой командой.
+Далее перечислите подписки (планы лицензий) для вашего клиента с этой командой.
 
 ```powershell
 Get-AzureADSubscribedSku | Select SkuPartNumber
 ```
 
-Далее укай список подписок, которые в настоящее время есть у учетной записи пользователя с этими командами.
+Далее перечислите подписки, которые пользовательская учетная запись в настоящее время имеет с этими командами.
 
 ```powershell
 $userUPN="<user account UPN>"
@@ -180,9 +182,9 @@ $userList = Get-AzureADUser -ObjectID $userUPN | Select -ExpandProperty Assigned
 $userList | ForEach { $sku=$_.SkuId ; $licensePlanList | ForEach { If ( $sku -eq $_.ObjectId.substring($_.ObjectId.length - 36, 36) ) { Write-Host $_.SkuPartNumber } } }
 ```
 
-Определите подписку, на которую пользователь в настоящее время имеет (подписку FROM) и подписку на которую перемещается (подписка TO).
+Определите подписку, которую пользователь в настоящее время имеет (подписку FROM) и подписку, к которой переезжает пользователь (подписка TO).
 
-Наконец, укажите имена подписок TO и FROM (номера части SKU) и запустите эти команды.
+Наконец, укажите имена подписки TO и FROM (номера части SKU) и запустите эти команды.
 
 ```powershell
 $subscriptionFrom="<SKU part number of the current subscription>"

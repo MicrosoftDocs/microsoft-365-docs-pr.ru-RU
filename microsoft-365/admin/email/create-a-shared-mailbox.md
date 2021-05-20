@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: 871a246d-3acd-4bba-948e-5de8be0544c9
 description: Создайте общий почтовый ящик, чтобы позволить сразу нескольким сотрудникам организации читать электронную почту и отвечать на сообщения, отправленные на один адрес.
-ms.openlocfilehash: 004473b329b14be9287f249b1d640c3b0803412a
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 808b98b45c3d6f5ba3cd9847ba2aa843ff53d106
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915882"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537611"
 ---
 # <a name="create-a-shared-mailbox"></a>Создание общего почтового ящика 
 
@@ -198,14 +198,14 @@ ms.locfileid: "50915882"
 
 3. Любой участник общего почтового ящика может создавать, просматривать и управлять встречами в календаре так же, как личными встречами. Изменения общего календаря будут видны всем участникам общего почтового ящика.
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-content"></a>См. также:
 
-[Сведения об общих почтовых ящиках](about-shared-mailboxes.md)
+[Сведения об общих почтовых ящиках](about-shared-mailboxes.md) (статья)
 
-[Настройка общего почтового ящика](configure-a-shared-mailbox.md)
+[Настройка общего почтового ящика](configure-a-shared-mailbox.md) (статья)
 
-[Преобразование почтового ящика пользователя в общий почтовый ящик](convert-user-mailbox-to-shared-mailbox.md)
+[Преобразование почтового ящика пользователя в общий почтовый ящик](convert-user-mailbox-to-shared-mailbox.md) (статья)
 
-[Удаление лицензии из общего почтового ящика](remove-license-from-shared-mailbox.md)
+[Удаление лицензии из общего почтового ящика](remove-license-from-shared-mailbox.md) (статья)
 
-[Решение проблем с общими почтовыми ящиками](resolve-issues-with-shared-mailboxes.md)
+[Решение проблем с общими почтовыми ящиками](resolve-issues-with-shared-mailboxes.md) (статья)

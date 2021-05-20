@@ -68,7 +68,7 @@
       href: billing-and-payments/psd2.md
 - name: Учетные записи выставления счетов
   items:
-    - name: Управление учетными записями выставления счетов
+    - name: Общие сведения об учетных записях выставления счетов
       href: manage-billing-accounts.md
     - name: Связывание клиента с учетной записью выставления счетов
       href: /microsoft-store/manage-mpsa-software-microsoft-store-for-business

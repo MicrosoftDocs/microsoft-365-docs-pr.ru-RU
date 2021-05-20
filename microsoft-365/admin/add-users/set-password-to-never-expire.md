@@ -21,38 +21,38 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: f493e3af-e1d8-4668-9211-230c245a0466
-description: Узнайте, как установить отдельные пароли пользователей, чтобы никогда не истекал срок действия, используя Windows PowerShell.
-ms.openlocfilehash: c70fce1c3ea9cb1dea66982a27ddb24e2b2de255
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+description: Воехайте в свой Microsoft 365 учетную запись администратора, чтобы установить некоторые отдельные пароли пользователей, чтобы никогда не истекать с помощью Windows PowerShell.
+ms.openlocfilehash: 0747e0bfe8a7389db554d5d6a7f685605e013306
+ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222068"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52571929"
 ---
 # <a name="set-an-individual-users-password-to-never-expire"></a>Установка бессрочных пользовательских паролей
 
-В этой статье объясняется, как установить пароль для отдельного пользователя, чтобы срок действия не истек. Эти действия необходимо выполнить с помощью PowerShell.
+В этой статье объясняется, как установить пароль для отдельного пользователя, чтобы не истекать. Вы должны выполнить эти шаги с помощью PowerShell.
 
 ## <a name="before-you-begin"></a>Прежде чем начать
 
-Эта статья адресована тем, кто устанавливает политику срока действия паролей в компании, учебном заведении или некоммерческой организации. Чтобы выполнить эти действия, вам нужно войти с помощью своей учетной записи администратора Microsoft 365. [Что такое учетная запись администратора?](https://docs.microsoft.com/microsoft-365/business-video/admin-center-overview) 
+Эта статья адресована тем, кто устанавливает политику срока действия паролей в компании, учебном заведении или некоммерческой организации. Чтобы выполнить эти действия, вам нужно войти с помощью своей учетной записи администратора Microsoft 365. [Что такое учетная запись администратора?](../../business-video/admin-center-overview.md) 
 
-Для выполнения этих [действий](about-admin-roles.md) необходимо быть глобальным администратором или администратором паролей.
+Вы должны быть глобальным [администратором или администратором паролей](about-admin-roles.md) для выполнения этих шагов.
 
-Глобальный администратор облачной службы Майкрософт может использовать [Azure Active Directory PowerShell для Graph](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0) для набора паролей, которые не истекают для определенных пользователей. Вы также можете использовать [cmdlets AzureAD](/powershell/module/Azuread) для удаления конфигурации с истекшим сроком действия или для того, чтобы узнать, какие пароли пользователей не истекают.
+Глобальный администратор облачного сервиса Майкрософт может использовать [Azure Active Directory PowerShell для Graph](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0) для настройки паролей, срок действия которых не истекает для конкретных пользователей. Вы также можете использовать [cmdlets AzureAD](/powershell/module/Azuread) для удаления никогда не истекать конфигурации или посмотреть, какие пароли пользователей установлены никогда не истекает.
 
-Это руководство применяется к другим поставщикам, таким как Intune и Microsoft 365, которые также используют Azure AD для служб удостоверений и каталогов. Срок действия пароля — это единственная часть политики, которую можно изменить.
+Это руководство распространяется на других поставщиков, таких как Intune и Microsoft 365, которые также полагаются на Azure AD для служб идентификации и каталогов. Срок действия пароля является единственной частью политики, которая может быть изменена.
 
 > [!NOTE]
-> Можно настроить только пароли для учетных записей пользователей, которые не синхронизируются с помощью синхронизации каталогов. Дополнительные сведения о синхронизации каталогов см. в ссылке [Connect AD с Azure AD.](/azure/active-directory/connect/active-directory-aadconnect)
+> Только пароли для учетных записей пользователей, которые не синхронизированы с помощью синхронизации каталога, могут быть настроены, чтобы не истекать. Для получения дополнительной информации о синхронизации каталогов [см. Подключение нашей эры с Azure AD](/azure/active-directory/connect/active-directory-aadconnect).
 
-## <a name="how-to-check-the-expiration-policy-for-a-password"></a>Проверка политики истечения срока действия пароля
+## <a name="how-to-check-the-expiration-policy-for-a-password"></a>Как проверить полис действия пароля
 
-Дополнительные сведения о команде Get-AzureADUser в модуле AzureAD см. в справочной статье [Get-AzureADUser.](/powershell/module/Azuread/Get-AzureADUser?view=azureadps-2.0)
+Для получения дополнительной информации о Get-AzureADUser команды в модуле [](/powershell/module/Azuread/Get-AzureADUser?view=azureadps-2.0)AzureAD, см.
 
 Выполните одну из следующих команд:
 
-- Чтобы узнать, не установлен ли срок действия пароля одного пользователя, запустите следующий cmdlet с помощью upN (например, *user@contoso.onmicrosoft.com)* или пользовательского ID пользователя, который необходимо проверить:
+- Чтобы узнать, никогда не истечет ли срок действия пароля одного пользователя, запустите следующий cmdlet с помощью UPN *(например, user@contoso.onmicrosoft.com*) или идентификатора пользователя, который вы хотите проверить:
 
     ```powershell
     Get-AzureADUser -ObjectId <user id or UPN> | Select-Object UserprincipalName,@{
@@ -68,7 +68,7 @@ ms.locfileid: "51222068"
     }
     ```  
 
-- Чтобы параметр **Password никогда не истекал** для всех пользователей, запустите следующий cmdlet:
+- Чтобы увидеть, что **срок действия пароля никогда** не истекает для всех пользователей, запустите следующий cmdlet:
 
     ```powershell
     Get-AzureADUser -All $true | Select-Object UserprincipalName,@{
@@ -84,7 +84,7 @@ ms.locfileid: "51222068"
     } | ConvertTo-Html | Out-File $env:userprofile\Desktop\ReportPasswordNeverExpires.html
     ```  
 
-- Чтобы получить отчет всех пользователей с passwordNeverExpires в CSV на рабочем столе текущего пользователя с именем **ReportPasswordNeverExpires.csv**
+- Чтобы получить отчет всех пользователей с PasswordNeverExpires в CSV на рабочем столе текущего пользователя с именем **ReportPasswordNeverExpires.csv**
 
     ```powershell
     Get-AzureADUser -All $true | Select-Object UserprincipalName,@{
@@ -101,20 +101,20 @@ Run one of the following commands:
     Set-AzureADUser -ObjectId <user ID> -PasswordPolicies DisablePasswordExpiration
     ```
 
-- Чтобы пароли всех пользователей организации никогда не истекли, запустите следующий cmdlet:
+- Чтобы установить пароли всех пользователей в организации, чтобы никогда не истекать, запустите следующий cmdlet:
 
     ```powershell
     Get-AzureADUser -All $true | Set-AzureADUser -PasswordPolicies DisablePasswordExpiration
     ```
 
 > [!WARNING]
-> Учетные записи пользователей, настроенные с `-PasswordPolicies DisablePasswordExpiration` параметром still age на основе `pwdLastSet` атрибута. В зависимости от атрибута, если срок действия меняется на, все пароли с pwdLastSet старше 90 дней требуют от пользователя изменить их при следующем `pwdLastSet` `-PasswordPolicies None` входе. Это изменение может повлиять на большое число пользователей.
+> Учетные записи пользователей, настроенные с `-PasswordPolicies DisablePasswordExpiration` параметром, все еще стареют на основе `pwdLastSet` атрибута. На основании `pwdLastSet` атрибута, если вы измените срок `-PasswordPolicies None` действия, все пароли, которые имеют pwdLastSet старше 90 дней требуют, чтобы пользователь изменил их при следующем встраивом. Это изменение может повлиять на большое количество пользователей.
 
-### <a name="set-a-password-to-expire"></a>Установите срок действия пароля
+### <a name="set-a-password-to-expire"></a>Установить пароль для истечения срока действия
 
 Выполните одну из следующих команд:
 
-- Чтобы установить пароль одного пользователя, чтобы срок действия пароля истек, запустите следующий комдлет с помощью upN или пользовательского ID пользователя:
+- Чтобы установить пароль одного пользователя, чтобы срок действия пароля истек, запустите следующий cmdlet с помощью UPN или идентификатор пользователя пользователя:
 
     ```powershell
     Set-AzureADUser -ObjectId <user ID> -PasswordPolicies None
@@ -128,6 +128,6 @@ Run one of the following commands:
 
 ## <a name="related-content"></a>Связанные материалы
 
-[Предоставление пользователям прав на самостоятельный сброс пароля](../add-users/let-users-reset-passwords.md)
+[Предоставление пользователям прав на самостоятельный сброс пароля](../add-users/let-users-reset-passwords.md) (статья)
 
-[Сброс паролей](../add-users/reset-passwords.md)
+[Сброс паролей](../add-users/reset-passwords.md) (статья)

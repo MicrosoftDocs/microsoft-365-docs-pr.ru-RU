@@ -21,13 +21,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 7dc1c01a-090f-4971-9677-f1b192d6c910
-description: Научитесь устанавливать ключи реестра, чтобы включить современную проверку подлинности для устройств, Microsoft Office 2013 г.
-ms.openlocfilehash: f803cf9a30be63e71ef3c4293d0d1ba5b2355e75
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: Научитесь устанавливать ключи реестра, чтобы обеспечить современную аутентификацию для устройств, которые Microsoft Office 2013 года.
+ms.openlocfilehash: d358cb2ffb4284a51779e5a7c1dc894052b9ebc0
+ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580838"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52572289"
 ---
 # <a name="enable-modern-authentication-for-office-2013-on-windows-devices"></a>Включение современной проверки подлинности для Office 2013 на устройствах с Windows
 
@@ -45,7 +45,7 @@ ms.locfileid: "51580838"
 |HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\EnableADAL  |REG_DWORD  |1  |
 |HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\Version |REG_DWORD |1 |
    
-После задания ключей реестра можно настроить приложения для устройств Office 2013 для использования многофакторной проверки подлинности [(MFA)](set-up-multi-factor-authentication.md) с помощью Microsoft 365. 
+После того как вы установили ключи реестра, вы можете установить приложения Office 2013 года для использования [многофакторной аутентификации (MFA)](set-up-multi-factor-authentication.md) с Microsoft 365. 
   
 Если вы вошли в одно из клиентских приложений, выйдите из него и войдите снова, чтобы изменения вступили в силу. В противном случае, файлы, с которыми вы недавно работали, и настройки роуминга останутся недоступными до тех пор, пока не будет установлено удостоверение библиотек ADAL.
   
@@ -57,8 +57,9 @@ ms.locfileid: "51580838"
 |:-------|:------:|--------:|
 |HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\EnableADAL |REG_DWORD|0|
    
-## <a name="related-articles"></a>Статьи по теме
-[Вход в Office 2013 со вторым способом проверки подлинности](https://support.microsoft.com/office/2b856342-170a-438e-9a4f-3c092394d3cb)
+## <a name="related-content"></a>См. также:
 
-[Outlook подсказок для пароля и не использует современную проверку подлинности для подключения к Office 365](/outlook/troubleshoot/authentication/outlook-prompt-password-modern-authentication-enabled)
+[Во вопишитесь Office 2013 года со вторым методом проверки](https://support.microsoft.com/office/2b856342-170a-438e-9a4f-3c092394d3cb) (статья)
+
+[Outlook запросы на пароль и не использует современную аутентификацию для подключения к Office 365](/outlook/troubleshoot/authentication/outlook-prompt-password-modern-authentication-enabled) (статья)
 

@@ -1,7 +1,7 @@
 ---
-title: Часто задающие вопросы при включив Microsoft 365 Defender
-description: Получение ответов на наиболее часто задамые вопросы о лицензировании, разрешениях, начальных параметрах и других продуктах и службах, связанных с включением Microsoft 365 Defender
-keywords: часто задаваемые вопросы, GCC, привнося начало, включить Microsoft 365 Defender, Microsoft 365 Defender, M365, безопасность, расположение данных, необходимые разрешения, право на лицензию, страницу параметров
+title: Часто задаваемые вопросы при Microsoft 365 Defender
+description: Получите ответы на наиболее часто задаваемые вопросы о лицензировании, разрешениях, первоначальных настройках и других продуктах и услугах, связанных с Microsoft 365 Defender
+keywords: часто задаваемые вопросы, часто задаваемые вопросы, GCC, начать работу, включить Microsoft 365 Defender, Microsoft 365 Defender, M365, безопасность, местоположение данных, необходимые разрешения, право на лицензию, настройки страницы
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -20,14 +20,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 55c1a3807fe8e28ca12f4f638c1ab2ca717523ed
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 008e3cc6ee65597a032aa932b74a64ac591927f2
+ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933437"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52572769"
 ---
-# <a name="frequently-asked-questions-when-turning-on-microsoft-365-defender"></a>Часто задающие вопросы при включив Microsoft 365 Defender
+# <a name="frequently-asked-questions-when-turning-on-microsoft-365-defender"></a>Часто задаваемые вопросы при Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -35,42 +35,42 @@ ms.locfileid: "51933437"
 **Область применения:**
 - Microsoft 365 Defender
 
-Ознакомьтесь с ответами на наиболее часто задамые вопросы о включании [защитника Microsoft 365,](microsoft-365-defender.md)включая необходимые лицензии и разрешения, развертывание служб поддержки и начальные параметры.
+Прочитайте ответы на наиболее часто задаваемые вопросы о [Microsoft 365 Defender,](microsoft-365-defender.md)включая необходимые лицензии и разрешения, развертывание служб поддержки и первоначальные настройки.
 
-Инструкции по включению службы читайте в публикации ["Включи Microsoft 365 Defender".](m365d-enable.md)
+Для получения инструкций о том, как включить службу, [читайте Включите Microsoft 365 Defender](m365d-enable.md).
 
-## <a name="i-dont-have-a-microsoft-365-e5-license-can-i-still-use-microsoft-365-defender"></a>У меня нет лицензии Microsoft 365 E5. Могу ли я по-прежнему использовать Microsoft 365 Defender?
+## <a name="i-dont-have-a-microsoft-365-e5-license-can-i-still-use-microsoft-365-defender"></a>У меня нет лицензии Microsoft 365 E5 лицензии. Могу ли я использовать Microsoft 365 Defender?
 
-Клиенты со следующими лицензиями, не относясь к E5, могут использовать Microsoft 365 Defender:
+Клиенты со следующими лицензиями, не являмися E5, могут использовать Microsoft 365 Defender:
 
 - Microsoft Defender для конечной точки
 - Microsoft Defender для удостоверений
 - Microsoft Cloud App Security
-- Defender for Office 365 (Plan 2)
+- Defender для Office 365 (план 2)
  
-Полный список поддерживаемых лицензий [ознакомьтесь с требованиями лицензирования.](prerequisites.md#licensing-requirements)
+Полный список поддерживаемых лицензий будут [сшатать требования к лицензированию.](prerequisites.md#licensing-requirements)
 
-## <a name="do-i-need-to-install-or-deploy-anything-to-start-using-microsoft-365-defender"></a>Необходимо ли установить или развернуть что-либо, чтобы начать использовать Microsoft 365 Defender?
+## <a name="do-i-need-to-install-or-deploy-anything-to-start-using-microsoft-365-defender"></a>Нужно ли мне что-либо устанавливать или развертывать, чтобы начать использовать Microsoft 365 Defender?
 
-Нет, Microsoft 365 Defender консолидирует данные из служб безопасности Microsoft 365, которые вы уже развернули. После его включения опыты инцидентов, автоматизации и охоты начнут работать в пределах развернутых продуктов. Если ни один из этих продуктов не развернут должным образом, Microsoft 365 Defender не будет отображать данные и не сможет принять никаких действий.
+Нет, Microsoft 365 Defender консолидирует данные Microsoft 365 служб безопасности, которые вы уже развернули. Как только вы включите его, опыт работы, автоматизации и охоты начнет работать в рамках развернутых продуктов. Если ни один из этих продуктов не развернут должным образом, Microsoft 365 Defender не будет отображать никаких данных и не сможет принять какие-либо меры.
 
-Для оптимизации работы с Microsoft 365 Defender  рекомендуется развернуть все поддерживаемые продукты и службы безопасности [Microsoft 365.](deploy-supported-services.md)
+Чтобы оптимизировать Microsoft 365 Defender, мы рекомендуем развертывать все *поддерживаемые* [Microsoft 365 и услуги безопасности.](deploy-supported-services.md)
 
-## <a name="where-does-microsoft-365-defender-process-and-store-my-data"></a>Где Microsoft 365 Defender обрабатывает и хранит мои данные?
-Microsoft 365 Defender автоматически выбирает оптимальное расположение для центра обработки и хранения консолидированных данных. Если у вас есть Microsoft Defender для конечной точки, он выбирает то же расположение, что и Защитник для конечной точки.
+## <a name="where-does-microsoft-365-defender-process-and-store-my-data"></a>Где Microsoft 365 Defender и хранится ли мои данные?
+Microsoft 365 Defender автоматически выбирает оптимальное место для центра обработки и хранения данных. Если у вас есть Microsoft Defender для конечной точки, он выбирает то же место, используемое Defender для конечной точки.
 
 >[!NOTE]
->Microsoft Defender для конечной точки автоматически содержит положения в центрах обработки данных Европейского союза (ЕС) при включении через Azure Defender. Microsoft 365 Defender автоматически будет предоставление в том же центре обработки данных ЕС для клиентов, которые таким образом провизировали Microsoft Defender для конечной точки. 
+>Microsoft Defender for Endpoint автоматически предоставляет данные в центрах обработки данных Европейского союза (ЕС) при включении через Azure Defender. Microsoft 365 Defender автоматически будет предоставление в том же центре обработки данных ЕС для клиентов, которые предусмотрели Microsoft Defender для конечной точки таким образом. 
 
-Расположение центра обработки данных отображается до и после предоставления службы на странице параметры для Microsoft 365 Defender **(Параметры > Microsoft 365 Defender).** Если вы предпочитаете использовать другое расположение центра обработки данных, выберите "Нужна **помощь"?** в центре безопасности Microsoft 365 обратитесь в службу поддержки Майкрософт.
+Местоположение центра обработки данных отображается до и после предоставления услуги на странице настроек для Microsoft 365 Defender **(Параметры > Microsoft 365 Defender).** Если вы предпочитаете использовать другое местоположение центра обработки данных, **выберите Need help?** в центре Microsoft 365, чтобы связаться с службой поддержки Майкрософт.
 
-## <a name="where-can-i-access-microsoft-365-defender"></a>Где можно получить доступ к Microsoft 365 Defender?
+## <a name="where-can-i-access-microsoft-365-defender"></a>Где я могу получить доступ Microsoft 365 Defender?
 
-Microsoft 365 Defender доступен в центре безопасности Microsoft 365. Чтобы перейти в центр безопасности, просмотрите [https://security.microsoft.com](https://security.microsoft.com) URL-адрес.
+Microsoft 365 Защитник доступен в Microsoft 365 безопасности. Чтобы перейти к центру безопасности, просмотрите URL [https://security.microsoft.com](https://security.microsoft.com) .
 
-##  <a name="what-permissions-do-i-need-to-access-microsoft-365-defender-in-microsoft-365-security-center"></a>Какие разрешения необходимо получить доступ к Microsoft 365 Defender в центре безопасности Microsoft 365?
+##  <a name="what-permissions-do-i-need-to-access-microsoft-365-defender-in-microsoft-365-security-center"></a>Какие разрешения мне нужны для доступа Microsoft 365 Defender в Microsoft 365 безопасности?
 
-Учетные записи, на которые назначены следующие роли Azure Active Directory (AD), могут получать доступ к функциям и данным Microsoft 365 Defender:
+Учетные записи, назначенные следующим Azure Active Directory (Azure AD), могут получить доступ к Microsoft 365 Defender и данным:
 
 - Глобальный администратор
 - Администратор безопасности
@@ -79,27 +79,27 @@ Microsoft 365 Defender доступен в центре безопасности
 - Читатель сведений о безопасности
 
 >[!NOTE]
->Параметры управления доступом на основе ролей в Microsoft Defender для конечной точки влияют на доступ к данным. Дополнительные сведения об управлении доступом к [Microsoft 365 Defender](m365d-permissions.md).
+>Настройки управления доступом на основе роли в Microsoft Defender for Endpoint влияют на доступ к данным. Для получения дополнительной информации, [прочитайте об управлении доступом к Microsoft 365 Defender](m365d-permissions.md).
 
-## <a name="what-time-zone-does-microsoft-365-defender-default-to"></a>В каком часовом поясе по умолчанию работает Microsoft 365 Defender?
-По умолчанию Microsoft 365 Defender отображает сведения о времени в часовом поясе UTC. Этот параметр можно изменить, чтобы использовать локальный часовой пояс. [Узнайте о настройке часовой зоны](m365d-time-zone.md)
+## <a name="what-time-zone-does-microsoft-365-defender-default-to"></a>В каком часовом Microsoft 365 по умолчанию по умолчанию?
+По умолчанию Microsoft 365 отображает информацию о времени в часовом поясе UTC. Вы можете изменить этот параметр, чтобы использовать местный часовой пояс. [Подробнее об установлении часового пояса](m365d-time-zone.md)
 
-## <a name="how-can-i-learn-about-new-microsoft-365-defender-feature-and-ui-updates"></a>Как узнать о новых обновлениях функции Защитника Microsoft 365 и пользовательского интерфейса?
+## <a name="how-can-i-learn-about-new-microsoft-365-defender-feature-and-ui-updates"></a>Как узнать о новых функциях Microsoft 365 Defender и обновлениях пользовательского интерфейса?
 
-Корпорация Майкрософт регулярно предоставляет информацию по различным каналам, в том числе:
+Корпорация Майкрософт регулярно предоставляет информацию по различным каналам, включая:
 
-- Центр [сообщений в](../../admin/manage/message-center.md) центре администрирования Microsoft 365
-- Blogposts в [сообществе безопасности Microsoft 365 & соответствия требованиям](https://techcommunity.microsoft.com/t5/security-privacy-and-compliance/bg-p/securityprivacycompliance)
+- Центр [сообщений](../../admin/manage/message-center.md) в Microsoft 365 центре
+- Blogposts в [Microsoft 365 безопасности & соответствия технологий сообщества](https://techcommunity.microsoft.com/t5/security-privacy-and-compliance/bg-p/securityprivacycompliance)
 
 Получите последние общедоступные возможности, включив функции [предварительного просмотра.](preview.md)
 
-## <a name="is-microsoft-365-defender-available-for-us-government-community-cloud-gcc-or-gcc-high"></a>Доступен ли Microsoft 365 Defender для облачных правительственных сообществ США (GCC) или GCC High?
+## <a name="is-microsoft-365-defender-available-for-us-government-community-cloud-gcc-or-gcc-high"></a>Доступен Microsoft 365 Defender для американских облако сообщества для государственных организаций (GCC) или GCC High?
 В настоящее время она недоступна.
 
-## <a name="related-topics"></a>Похожие темы
+## <a name="related-topics"></a>Связанные статьи
 
-- [Обзор Защитника Microsoft 365](microsoft-365-defender.md)
-- [Включи Microsoft 365 Defender.](m365d-enable.md)
+- [Microsoft 365 Обзор защитника](microsoft-365-defender.md)
+- [Включите Microsoft 365 Defender](m365d-enable.md).
 - [Требования к лицензированию и другие предварительные требования](prerequisites.md)
 - [Развертывание поддерживаемых служб](deploy-supported-services.md)
 - [Включение предварительных функций](preview.md)

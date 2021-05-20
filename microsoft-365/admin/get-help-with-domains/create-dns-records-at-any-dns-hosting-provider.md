@@ -16,16 +16,16 @@ ms.collection:
 - Adm_O365_Setup
 search.appverid:
 - MET150
-description: Узнайте, как проверить свой домен и создать записи DNS для Microsoft 365 у любого поставщика услуг размещения DNS.
+description: Подключите домен любого поставщика услуг размещения DNS к Microsoft 365, проверив домен и обновив записи DNS в учетной записи регистратора.
 ms.custom:
 - okr_smb
 - AdminSurgePortfolio
-ms.openlocfilehash: 06a5e7d081a16cd8d5aae28268b3aaf737981a43
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: facdd460bd3197e39dd6d4d9f4a5450dc972bf03
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51051046"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537563"
 ---
 # <a name="add-dns-records-to-connect-your-domain"></a>Добавление записей DNS для подключения своего домена
 
@@ -129,7 +129,7 @@ ms.locfileid: "51051046"
 
 Инфраструктура политики отправителей (SPF) призвана предотвратить спуфинг, но существуют некоторые методики, позволяющие обойти ее. Чтобы защититься от таких атак, по завершении настройки SPF необходимо настроить DKIM и DMARC для Microsoft 365. 
 
-Чтобы начать, см. статьи [Проверка исходящей электронной почты, отправляемой со своего домена в Microsoft 365, с помощью DKIM](../../security/defender-365-security/use-dkim-to-validate-outbound-email.md) и [Использование DMARC для проверки электронной почты в Microsoft 365](../../security/defender-365-security/use-dmarc-to-validate-email.md).
+Чтобы начать, см. статьи [Проверка исходящей электронной почты, отправляемой со своего домена в Microsoft 365, с помощью DKIM](../../security/office-365-security/use-dkim-to-validate-outbound-email.md) и [Использование DMARC для проверки электронной почты в Microsoft 365](../../security/office-365-security/use-dmarc-to-validate-email.md).
 
 ### <a name="add-srv-records-for-communications-services-teams-skype-for-business"></a>Добавление записей SRV для служб связи (Teams, Skype для бизнеса)
 
@@ -166,3 +166,11 @@ ms.locfileid: "51051046"
 
 - Пример 1:`100 1 443 sipdir.online.lync.com.`
 - Пример 2: `100 1 443 sipdir.online.lync.com`
+
+## <a name="related-content"></a>См. также:
+
+[Изменение серверов доменных имен для настройки Microsoft 365 с любым регистратором доменных имен](change-nameservers-at-any-domain-registrar.md) (статья)
+
+[Поиск и устранение неполадок после добавления домена и записей DNS](find-and-fix-issues.md) (статья)
+
+[Управление доменами](index.yml) (страница ссылки)

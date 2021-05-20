@@ -9,24 +9,24 @@ audience: ITPro
 ms.topic: conceptual
 localization_priority: Normal
 ms.assetid: faf1efd1-3b0c-411a-804d-17f37292eac0
-description: Следуйте этим рекомендациям передовой практики для автономных exchange Online Protection (EOP), чтобы настроить себя на успех и избежать распространенных ошибок конфигурации.
+description: Следуйте этим рекомендациям передовицы для автономных Exchange Online Protection (EOP), чтобы настроиться на успех и избежать распространенных ошибок конфигурации.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 94586d409d6d8b53ba68c22b6b4f62d2b72266db
-ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
+ms.openlocfilehash: 266da2d8fe6b8ede79e703e49e48d17fccdd2928
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51599479"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52537959"
 ---
 # <a name="best-practices-for-configuring-standalone-eop"></a>Передовая практика настройки автономных EOP
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Область применения**
--  [Автономный exchange Online Protection](exchange-online-protection-overview.md)
+-  [Exchange Online Protection автономный](exchange-online-protection-overview.md)
 
-Следуйте этим рекомендациям передовой практики для автономных exchange Online Protection (EOP), чтобы настроить себя на успех и избежать распространенных ошибок конфигурации. Предполагается, что вы уже завершили установку EOP. В противном случае изучите статью [Настройка службы EOP](set-up-your-eop-service.md).
+Следуйте этим рекомендациям передовицы для автономных Exchange Online Protection (EOP), чтобы настроиться на успех и избежать распространенных ошибок конфигурации. Предполагается, что вы уже завершили установку EOP. В противном случае изучите статью [Настройка службы EOP](set-up-your-eop-service.md).
 
 ## <a name="use-a-test-domain"></a>Использование тестового домена
 
@@ -38,7 +38,7 @@ ms.locfileid: "51599479"
 
 ## <a name="recommended-settings"></a>Рекомендуемые параметры
 
-Мы уполномостили администраторов безопасности настраивать свои параметры безопасности для удовлетворения потребностей своей организации. Хотя, как правило, в EOP и Microsoft Defender для Office 365 есть два уровня безопасности: Стандартный и Строгий. Эти параметры перечислены в рекомендуемых параметрах безопасности EOP и [Microsoft Defender для Office 365.](recommended-settings-for-eop-and-office365.md)
+Мы уполномостили администраторов безопасности настраивать свои параметры безопасности для удовлетворения потребностей своей организации. Хотя, как правило, в EOP и Microsoft Defender существуют два уровня безопасности для Office 365, которые мы рекомендуем: Стандартный и Строгий. Эти параметры перечислены в [рекомендуемых параметрах для EOP](recommended-settings-for-eop-and-office365.md)и Microsoft Defender для Office 365 безопасности.
 
 ### <a name="miscellaneousnon-policy-settings"></a>Параметры, не вступив в политику,
 
@@ -48,7 +48,7 @@ ms.locfileid: "51599479"
 
 ****
 
-|Имя функции безопасности|Стандартный|Strict|Comment|
+|Имя функции безопасности|Стандартный|Strict|Комментарий|
 |---|---|---|---|
 |[Настройка SPF для предотвращения спуфинга](set-up-spf-in-office-365-to-help-prevent-spoofing.md)|Да|Да||
 |[Проверка исходящей электронной почты, отправляемой с личного домена в Office 365, с помощью DKIM](use-dkim-to-validate-outbound-email.md)|Да|Да||
@@ -59,17 +59,17 @@ ms.locfileid: "51599479"
 |Необходимо включить единый аудит|Да|Да||
 |[Подключение IMAP к почтовому ящику](/Exchange/clients-and-mobile-in-exchange-online/pop3-and-imap4/enable-or-disable-pop3-or-imap4-access)|Отключено|Отключено||
 |[Подключение POP к почтовому ящику](/Exchange/clients-and-mobile-in-exchange-online/pop3-and-imap4/enable-or-disable-pop3-or-imap4-access)|Отключено|Отключено||
-|Проверка подлинности отправки SMTP|Отключено|Отключено|Проверка подлинности отправки SMTP клиента (также известная как отправка SMTP или SMTP AUTH) требуется для клиентов и приложений и устройств POP3 и IMAP4, которые создают и отправляют электронную почту. <p> Инструкции по глобальному или выборочному отключению SMTP AUTH см. в материале Включить или отключить проверку подлинности отправки SMTP клиента в [Exchange Online.](/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission)|
-|Подключение EWS к почтовому ящику|Отключено|Отключено|Outlook использует веб-службы Exchange для бесплатных и загруженных параметров, не в офисе и общего доступа к календарю. Если вы не можете отключить EWS глобально, у вас есть следующие параметры: <ul><li>Используйте [политики проверки подлинности,](/exchange/clients-and-mobile-in-exchange-online/disable-basic-authentication-in-exchange-online) чтобы предотвратить использование EWS базовой проверки подлинности, если ваши клиенты поддерживают современную проверку подлинности (современный auth).</li><li>Используйте [правила клиентского доступа,](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules) чтобы ограничить доступ к EWS определенным пользователям или исходным IP-адресам.</li><li>Управление доступом EWS к определенным приложениям глобально или на каждого пользователя. Инструкции см. в [инструкции Control access to EWS in Exchange.](/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)</li></ul> <p> [Надстройка](enable-the-report-message-add-in.md) сообщения Report и надстройка для фишинга [report](enable-the-report-phish-add-in.md) используют REST по умолчанию в поддерживаемых средах, но отпадет в EWS, если REST не доступен. Поддерживаемые среды, которые используют REST:<ul><li>Exchange Online</li><li>Exchange 2019 или Exchange 2016</li><li>Current Outlook для Windows из подписки Microsoft 365 или одномесячной покупки Outlook 2019.</li><li>Current Outlook для Mac из подписки Microsoft 365 или одномесячной покупки Outlook для Mac 2016 или более поздней.</li><li>Outlook для iOS и Android</li><li>Outlook в Интернете</li></ul>|
+|Проверка подлинности отправки SMTP|Отключено|Отключено|Проверка подлинности отправки SMTP клиента (также известная как отправка SMTP или SMTP AUTH) требуется для клиентов и приложений и устройств POP3 и IMAP4, которые создают и отправляют электронную почту. <p> Инструкции по глобальному или выборочному отключению SMTP AUTH см. в материале Включить или отключить отправку SMTP клиента с проверкой подлинности в [Exchange Online.](/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission)|
+|Подключение EWS к почтовому ящику|Отключено|Отключено|Outlook использует Exchange веб-службы для бесплатных и загруженных параметров, не в офисе и общего доступа к календарю. Если вы не можете отключить EWS глобально, у вас есть следующие параметры: <ul><li>Используйте [политики проверки подлинности,](/exchange/clients-and-mobile-in-exchange-online/disable-basic-authentication-in-exchange-online) чтобы предотвратить использование EWS базовой проверки подлинности, если ваши клиенты поддерживают современную проверку подлинности (современный auth).</li><li>Используйте [правила клиентского доступа,](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules) чтобы ограничить доступ к EWS определенным пользователям или исходным IP-адресам.</li><li>Управление доступом EWS к определенным приложениям глобально или на каждого пользователя. Инструкции см. [в инструкции Control access to EWS в Exchange.](/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)</li></ul> <p> [Надстройка](enable-the-report-message-add-in.md) сообщения Report и надстройка для фишинга [report](enable-the-report-phish-add-in.md) используют REST по умолчанию в поддерживаемых средах, но отпадет в EWS, если REST не доступен. Поддерживаемые среды, которые используют REST:<ul><li>Exchange Online</li><li>Exchange 2019 или Exchange 2016 г.</li><li>Текущие Outlook для Windows из Microsoft 365 подписки или Outlook 2019 г.</li><li>Текущий Outlook для Mac из Microsoft 365 или разовая покупка Outlook для Mac 2016 или более поздней.</li><li>Outlook для iOS и Android</li><li>Outlook в Интернете</li></ul>|
 |[Подключение PowerShell](/powershell/exchange/disable-access-to-exchange-online-powershell)|Отключено|Отключено|Доступно для пользователей почтовых ящиков или пользователей почты (объекты пользователей, возвращаемые комлетом [Get-User).](/powershell/module/exchange/get-user)|
-|Используйте [подмену сведений,](learn-about-spoof-intelligence.md) чтобы добавить отправителей в список разрешаний|Да|Да||
+|Используйте сведения [о подмене](learn-about-spoof-intelligence.md) сведений и список [разрешить или блокировать](tenant-allow-block-list.md)клиента, чтобы добавить отправителей в список разрешаний|Да|Да||
 |[Блокировка края на основе каталогов (DBEB)](/Exchange/mail-flow-best-practices/use-directory-based-edge-blocking)|Включена|Включена|Тип домена = Авторитетный|
 |[Настройка многофакторной проверки подлинности для всех учетных записей администратора](../../admin/security-and-compliance/set-up-multi-factor-authentication.md)|Включена|Включена||
 |
 
 ## <a name="troubleshooting"></a>Устранение неполадок
 
-Устранение общих проблем и тенденций с помощью отчетов в центре администрирования. Используйте средство трассировки сообщений, чтобы найти конкретные данные о сообщении. Дополнительные данные об отчетах и [трассировка сообщений](reporting-and-message-trace-in-exchange-online-protection.md)в Exchange Online Protection . Узнайте больше о средстве трассировки сообщений в центре отслеживания сообщений [& безопасности.](message-trace-scc.md)
+Устранение общих проблем и тенденций с помощью отчетов в центре администрирования. Используйте средство трассировки сообщений, чтобы найти конкретные данные о сообщении. Дополнительные данные об отчетах в [отчете и трассировка сообщений в Exchange Online Protection](reporting-and-message-trace-in-exchange-online-protection.md). Узнайте больше о средстве трассировки сообщений в центре отслеживания сообщений [& безопасности.](message-trace-scc.md)
 
 ## <a name="report-false-positives-and-false-negatives-to-microsoft"></a>Сообщение о ложных срабатывавах и ложных отрицательных результатах в Корпорации Майкрософт
 
@@ -83,4 +83,4 @@ ms.locfileid: "51599479"
 
 При развертывании новых правил рассмотрите возможность добавления действия **Создать отчет об инциденте** для отслеживания используемого правила.
 
-В гибридных средах, в которых организация включает как локальное Exchange, так и Exchange Online, рассмотрите условия, которые вы используете в правилах потока почты. Если вы хотите, чтобы правила применялись для всей организации, обязательно используйте условия, доступные как в локальной Exchange, так и в Exchange Online. Хотя большинство условий доступны в обеих средах, существует несколько условий, доступных только в одной или другой среде. Дополнительные сообщения см. [в правилах потока почты (правила транспорта) в Exchange Online.](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules)
+В гибридных средах, в которых организация включает как локальное, так и Exchange Exchange Online, рассмотрите условия, которые вы используете в правилах потока почты. Если вы хотите, чтобы правила применялись для всей организации, обязательно используйте условия, доступные как в локальной Exchange, так и в Exchange Online. Хотя большинство условий доступны в обеих средах, существует несколько условий, доступных только в одной или другой среде. Дополнительные сообщения см. в правилах [потока почты (правила транспорта) в Exchange Online.](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules)

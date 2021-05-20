@@ -16,13 +16,13 @@ ms.custom: nextgen
 ms.reviewer: pahuijbr
 manager: dansimp
 ms.technology: mde
-ms.date: 05/10/2021
-ms.openlocfilehash: 5b599e9d5a5c3d098033af1f1df96ee9f26025ee
-ms.sourcegitcommit: efb932db63ad3ab4af4b585428d567d069410e4e
+ms.date: 05/13/2021
+ms.openlocfilehash: 17a76b39b51293de82cf9b3e5f0e323ec3d28844
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52312016"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538043"
 ---
 # <a name="manage-microsoft-defender-antivirus-updates-and-apply-baselines"></a>Управление антивирусная программа в Microsoft Defender обновлениями и применение базовых показателей
 
@@ -83,11 +83,11 @@ ms.locfileid: "52312016"
 - улучшения интеграции (Cloud, Microsoft 365 Defender).
 <br/>
 <details>
-<summary> Апрель-2021 (платформа: 4.18.2104.9 | Двигатель: 1.1.18100.5)</summary>
+<summary> Апрель-2021 (платформа: 4.18.2104.14 | Двигатель: 1.1.18100.5)</summary>
 
 &ensp;Версия обновления аналитики безопасности: **1.337.2.0**  
 &ensp;Выпущено: **1 апреля 2021 г.**  
-&ensp;Платформа: **4.18.2104.9**  
+&ensp;Платформа: **4.18.2104.14**  
 &ensp;Двигатель: **1.1.18100.5**  
 &ensp;Этап поддержки: **безопасность и критически важные обновления**
     
