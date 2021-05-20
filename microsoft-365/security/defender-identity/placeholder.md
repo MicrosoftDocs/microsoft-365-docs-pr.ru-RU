@@ -1,6 +1,6 @@
 ---
-title: Тема заполнителя для создания папки в мастер-для удаления
-description: Тема заполнителя для создания папки в мастер-для удаления
+title: Тема placeholder для создания папки в мастер-для удаления
+description: Тема placeholder для создания папки в мастер-для удаления
 keywords: ''
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -29,5 +29,5 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52572824"
 ---
-# <a name="placeholder-topic-to-create-the-folder-in-master-to-be-deleted"></a><span data-ttu-id="02ecd-103">Тема заполнителя для создания папки в мастер-для удаления</span><span class="sxs-lookup"><span data-stu-id="02ecd-103">Placeholder topic to create the folder in master-to be deleted</span></span>
+# <a name="placeholder-topic-to-create-the-folder-in-master-to-be-deleted"></a><span data-ttu-id="ddee7-103">Тема placeholder для создания папки в мастер-для удаления</span><span class="sxs-lookup"><span data-stu-id="ddee7-103">Placeholder topic to create the folder in master-to be deleted</span></span>
 

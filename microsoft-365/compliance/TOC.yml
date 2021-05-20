@@ -6,13 +6,13 @@
       href: compliance-quick-tasks.md
     - name: Новые возможности центра соответствия требованиям Microsoft 365
       href: whats-new.md
-    - name: "Центр соответствия требованиям Microsoft\_365"
+    - name: Центр соответствия требованиям Microsoft 365
       href: microsoft-365-compliance-center.md
-    - name: "Каталог решений Microsoft\_365"
+    - name: Каталог решений Microsoft 365
       href: microsoft-365-solution-catalog.md
     - name: Использование бесплатной подписки на Azure Active Directory
       href: use-your-free-azure-ad-subscription-in-office-365.md
-    - name: "Планирование безопасности и соответствия требованиям в Office\_365"
+    - name: Планирование безопасности и соответствия требованиям в Office 365
       href: plan-for-security-and-compliance.md
     - name: Расширяемость соответствия требованиям
       href: compliance-extensibility.md
@@ -187,7 +187,7 @@
           items:
             - name: Шифрование сообщений Office 365 (OME)
               href: ome.md
-            - name: "Настройка новых возможностей шифрования сообщений Office\_365"
+            - name: Настройка новых возможностей шифрования сообщений Office 365
               href: set-up-new-message-encryption-capabilities.md
             - name: Определение правил потока обработки почты для шифрования сообщений электронной почты в Office 365
               href: define-mail-flow-rules-to-encrypt-email.md
@@ -245,6 +245,10 @@
               href: dlp-chrome-learn-about.md
             - name: Сведения о панели мониторинга оповещений для защиты от потери данных
               href: dlp-alerts-dashboard-learn.md
+        - name: Планирование DLP
+          items:
+            - name: Планирование защиты от потери данных
+              href: dlp-overview-plan-for-dlp.md
         - name: Начало работы с защитой от потери данных
           items:
             - name: Начало работы с политикой защиты от потери данных по умолчанию
@@ -271,7 +275,7 @@
                   href: dlp-configure-endpoints-gp.md
                 - name: Подключение устройств Windows 10 с помощью средств управления мобильными устройствами
                   href: dlp-configure-endpoints-mdm.md
-                - name: "Подключение устройств Windows\_10 с помощью Configuration Manager"
+                - name: Подключение устройств Windows 10 с помощью Configuration Manager
                   href: dlp-configure-endpoints-sccm.md
                 - name: Подключение устройств Windows 10 с помощью локального сценария
                   href: dlp-configure-endpoints-script.md
@@ -780,7 +784,7 @@
       href: preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery.md
 - name: Управление политиками аудита и оповещений
   items:
-    - name: "Решения для аудита в Microsoft\_365"
+    - name: Решения для аудита в Microsoft 365
       href: auditing-solutions-overview.md
     - name: Базовый аудит
       items:
@@ -804,7 +808,7 @@
           items:
             - name: Справочник по API действий управления Office 365
               href: /office/office-365-management-api/office-365-management-activity-api-reference
-            - name: "Схема API действий управления Office\_365"
+            - name: Схема API действий управления Office 365
               href: /office/office-365-management-api/office-365-management-activity-api-schema
             - name: 'Вопросы и ответы по API действий управления Office 365, а также устранение неполадок, связанных с ним'
               href: /office/office-365-management-api/troubleshooting-the-office-365-management-activity-api
@@ -865,9 +869,9 @@
       items:
         - name: Настройка функции управления правами на доступ к данным для использования локального сервера служб AD RMS
           href: configure-irm-to-use-an-on-premises-ad-rms-server.md
-- name: "Microsoft\_365 корпоративный"
+- name: Microsoft 365 корпоративный
   href: ../enterprise/index.yml
-- name: "Безопасность Microsoft\_365"
+- name: Безопасность Microsoft 365
   href: ../security/index.yml
 - name: Приложения Microsoft 365 для бизнеса
   href: /office365/admin/admin-home
