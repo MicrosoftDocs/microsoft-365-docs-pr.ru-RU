@@ -12,12 +12,12 @@ search.appverid: ''
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: Узнайте, как использовать SharePoint Syntex для определения файлов контрактов и извлечения данных с помощью Microsoft 365 решения.
-ms.openlocfilehash: f246dd4ed619dd9885d2c45c69d607cfa9c2483f
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 67c0a072b070cd414f5079fe4fb61e7391839951
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538559"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583572"
 ---
 # <a name="step-1-use-sharepoint-syntex-to-identify-contract-files-and-extract-data"></a>Этап 1. Использование SharePoint Syntex для определения файлов контрактов и извлечения данных
 
@@ -42,7 +42,7 @@ ms.locfileid: "52538559"
 ## <a name="steps-to-create-and-train-your-model"></a>Действия по созданию и подготовке модели
 
 > [!NOTE]
-> Для этих действий можно использовать примеры файлов в репозитории [SharePoint Syntex Samples.](https://github.com/pnp/syntex-samples) Примеры в этом репозитории содержат как файлы модели для понимания документов, так и файлы, используемые для подготовки модели.
+> Для этих действий можно использовать примеры файлов в репозитории ресурсов решений по управлению [контрактами.](https://github.com/pnp/syntex-samples/tree/main/scenario%20assets/Contracts%20Management) Примеры в этом репозитории содержат как файлы модели для понимания документов, так и файлы, используемые для подготовки модели.
 
 ### <a name="create-a-contract-model"></a>Создание модели Contract
 

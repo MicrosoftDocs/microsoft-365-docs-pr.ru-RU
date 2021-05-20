@@ -17,14 +17,14 @@ ms.custom:
 - AdminSurgePortfolio
 - commerce_purchase
 search.appverid: MET150
-description: Узнайте, как получить бесплатную пробную версия или купить подписку для Microsoft 365 для бизнеса.
+description: Подпишитесь на бесплатную 30-дневную пробную Microsoft 365 бизнес стандарт, Microsoft 365 бизнес премиум или Приложения Microsoft 365 для бизнеса.
 ms.date: 08/07/2020
-ms.openlocfilehash: 78716d78745616530729ff2fa5cfa31202e056c8
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: 20ceb683c6224e572a1c532330d45fa8fa5c8416
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52344690"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583452"
 ---
 # <a name="try-or-buy-a-microsoft-365-for-business-subscription"></a>Попробуйте или Microsoft 365 подписку на бизнес
 
@@ -43,7 +43,7 @@ Microsoft 365 для бизнеса это служба подписки, кот
 
 ::: moniker-end
 
-## <a name="before-you-begin"></a>Подготовка
+## <a name="before-you-begin"></a>Подготовка к работе
 
 Для регистрации бесплатной пробной пробной записи не требуется существующая учетная запись Майкрософт. Для всех других процедур в этой статье вы должны быть администратором Глобальной или Биллинг для вашей организации. Дополнительные сведения см. в статье [О ролях администраторов](../admin/add-users/about-admin-roles.md).
 
@@ -141,11 +141,11 @@ Microsoft 365 для бизнеса это служба подписки, кот
 
 Если у вас уже есть подписка и вы добавляете новую подписку, вы можете переместить пользователей к ней. Чтобы узнать, как переместить [пользователей в другую подписку.](subscriptions/move-users-different-subscription.md)
 
-## <a name="related-content"></a>Связанные материалы
+## <a name="related-content"></a>См. также:
 
-[Microsoft 365 для видео обучения бизнесу](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816) (обучающие видео)\
+[Microsoft 365 для видео обучения бизнесу](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816) (видео)\
 [Добавление пользователей и назначение лицензий одновременно](../admin/add-users/add-users.md) (статья)\
 [Назначение лицензий пользователям](../admin/manage/assign-licenses-to-users.md) (статья)\
 [Обновление до другого плана](subscriptions/upgrade-to-different-plan.md) (статья)\
 [Купить или изменить надстройку для Microsoft 365 для бизнеса](buy-or-edit-an-add-on.md) (статья)\
-[Добавление пространства для хранения для подписки](add-storage-space.md)
+[Добавление пространства для хранения подписки](add-storage-space.md) (статья)

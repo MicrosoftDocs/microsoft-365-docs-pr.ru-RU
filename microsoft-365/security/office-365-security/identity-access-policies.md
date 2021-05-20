@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-scenario
 ms.technology: mdo
-ms.openlocfilehash: 2bd719377e36cf608a0fe75078ab8bef004ad92e
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: 42ab124f3026cf0b7441edf44c0e6433be5f0ecd
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52346332"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583672"
 ---
 # <a name="common-identity-and-device-access-policies"></a>Основные политики доступа для удостоверений и устройств
 
@@ -42,7 +42,7 @@ ms.locfileid: "52346332"
 
 На следующей схеме иллюстрирует рекомендуемый набор политик. В нем показано, какой уровень защиты применяется к каждой политике и применяются ли политики к ПК, телефонам и планшетам или к обеим категориям устройств. Также указывается, где настраиваются эти политики.
 
-[![Общие политики для настройки удостоверений и доступа к устройствам](../../media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/Identity_device_access_policies_byplan.png)
+[![Общие политики для настройки удостоверений и доступа к устройствам](../../media/microsoft-365-policies-configurations/identity-device-access-policies-byplan.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/microsoft-365-policies-configurations/identity-device-access-policies-byplan.png)
 
 Вот одно страницу сводки PDF со ссылками на отдельные политики:
 

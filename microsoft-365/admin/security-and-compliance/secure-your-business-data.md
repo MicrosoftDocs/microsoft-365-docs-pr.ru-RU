@@ -21,13 +21,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: de2da300-dbb6-4725-bb12-b85a9d296e75
-description: 'Защитите свою бизнес-почту и данные от киберугроз, в том числе программ-вымогателей, фишинга и вредоносных вложений. '
-ms.openlocfilehash: dcaeb9588f50d1e12bdff5164f5f41a0beee2e47
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+description: Защитите свою бизнес-почту и данные от киберугроз, в том числе программ-вымогателей, фишинга и вредоносных вложений.
+ms.openlocfilehash: 12bdb9f12c1b0d3072a4c84c006787c26050cc8b
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52535882"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52582804"
 ---
 # <a name="top-10-ways-to-secure-microsoft-365-for-business-plans"></a>Топ-10 способов Microsoft 365 бизнес-планов
 
@@ -345,3 +345,11 @@ Office Шифрование сообщений предоставляет два
 |
 
 Дополнительные сведения см. [в Сейф Ссылки в Microsoft Defender для Office 365.](../../security/office-365-security/atp-safe-links.md)
+
+## <a name="related-content"></a>См. также:
+
+[Многофакторная](multi-factor-authentication-microsoft-365.md) проверка подлинности для Microsoft 365 (статья)
+
+[Управление и мониторинг учетных записей приоритетов](../setup/priority-accounts.md) (статья)
+
+[Microsoft 365 отчеты в центре администрирования](../activity-reports/activity-reports.md) (видео)

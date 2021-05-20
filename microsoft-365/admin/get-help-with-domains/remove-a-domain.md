@@ -21,13 +21,13 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: f09696b2-8c29-4588-a08b-b333da19810c
-description: Узнайте, как удалить старый домен из Microsoft 365 и переместить пользователей и группы в другой домен.
-ms.openlocfilehash: 3586cc8b288b77725c0dd3484629688e98e0a218
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+description: Узнайте, как удалить старый домен из Microsoft 365 и переместить пользователей и группы в другой домен или отменить подписку.
+ms.openlocfilehash: 089f0378109dd2a5abdf922694390bfdc943693a
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572121"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52582936"
 ---
 # <a name="remove-a-domain"></a>Удаление домена
   
@@ -218,10 +218,10 @@ ms.locfileid: "52572121"
   
 ::: moniker-end
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-content"></a>См. также:
 
-[Вопросы и ответы о доменах](../setup/domains-faq.yml)
+[FaQ доменов](../setup/domains-faq.yml) (статья)
 
-[Переход на другой план Microsoft 365 для бизнеса](../../commerce/subscriptions/switch-to-a-different-plan.md)
+[Переключиться на другой Microsoft 365 бизнес-плана](../../commerce/subscriptions/switch-to-a-different-plan.md) (статья)
 
-[Отмена подписки](../../commerce/subscriptions/cancel-your-subscription.md)
+[Отмена подписки](../../commerce/subscriptions/cancel-your-subscription.md) (статья)

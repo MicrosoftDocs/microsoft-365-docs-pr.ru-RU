@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: 7cf5655d-e523-4bc3-a93b-3ccebf44a01a
 recommendations: false
 description: Узнайте, как выбрать домен, который можно использовать при создании Microsoft 365 групп, настроив политики адресов электронной почты с помощью PowerShell.
-ms.openlocfilehash: a0142ea5f5aa088c4be79fc8699a616d9cdd9390
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 4d620c3344f83f56afd05c00d78615331dd413ed
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538223"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583152"
 ---
 # <a name="choose-the-domain-to-use-when-creating-microsoft-365-groups"></a>Выберите домен, который можно использовать при создании Microsoft 365 групп
 
@@ -119,10 +119,10 @@ Remove-EmailAddressPolicy -Identity StudentsGroups
     
 - В организации можно настроить не более 100 политик адресов электронной почты.
     
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-content"></a>См. также:
 
-[Пошаговая пошаговая работа по планированию управления совместной работой](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
+[Пошаговая работа по планированию управления совместной](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step) работой (статья)
 
-[Создание плана управления совместной работой](collaboration-governance-first.md)
+[Создание плана управления совместной работой](collaboration-governance-first.md) (статья)
 
-[Создание группы Microsoft 365 в центре администрирования](../admin/create-groups/create-groups.md)
+[Создание группы Microsoft 365 в центре администрирования](../admin/create-groups/create-groups.md) (статья)

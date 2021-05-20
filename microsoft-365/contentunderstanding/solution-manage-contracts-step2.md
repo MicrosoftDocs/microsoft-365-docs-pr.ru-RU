@@ -6,20 +6,20 @@ manager: pamgreen
 ms.reviewer: ssquires
 audience: admin
 ms.topic: article
-ms.date: 05/10/2021
+ms.date: 05/19/2021
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: Узнайте, как использовать Microsoft Teams для создания канала управления контрактами с помощью Microsoft 365 решения.
-ms.openlocfilehash: d703f6f7286a6d9584e8b18d4e283174f42a95bd
-ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
+ms.openlocfilehash: 20ace5d17550c8dd800368957dd940c9857bce5d
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52301804"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583140"
 ---
-# <a name="step-2-use-microsoft-teams-to-create-your-contract-management-channel"></a>Шаг 2. Используйте Microsoft Teams для создания канала управления контрактами
+# <a name="step-2-use-microsoft-teams-to-create-your-contract-management-channel"></a>Этап 2. Используйте Microsoft Teams для создания канала управления контрактами
 
 Когда организация создает решение по управлению контрактами, необходимо центральное расположение, в котором заинтересованные стороны могут просмотреть и управлять контрактами. Для этого можно использовать [](https://docs.microsoft.com/microsoftteams/) Microsoft Teams для Teams канала и использовать функции в Teams:
 
@@ -44,13 +44,13 @@ ms.locfileid: "52301804"
 ## <a name="customize-your-contracts-tab-tile-view"></a>Настройка представления плитки вкладок Contracts
 
 > [!NOTE]
-> В этом разделе упоминаются примеры кода, содержащиеся вContractCard.jsфайле, который включен в почтовый файл **solutionfiles.** 
+> В этом разделе ссылаются на примеры кода, [содержащиеся](https://github.com/pnp/syntex-samples/blob/main/scenario%20assets/Contracts%20Management/View%20Formatter/ContractTileFormatting.json) вContractTileFormatting.jsфайле, который включен в репозиторий решения по управлению [контрактами.](https://github.com/pnp/syntex-samples/tree/main/scenario%20assets/Contracts%20Management)
 
 Хотя Teams позволяет просматривать контракты в представлении плитки, может потребоваться настроить его для просмотра данных контрактов, которые необходимо сделать видимыми на карточке контракта. Например, для вкладки **"Контракты"** важно, чтобы участники видели на карточке контракта сумму клиента, подрядчика и сумму платы. Все эти поля извлекались из каждого контракта с помощью модели SharePoint Syntex, которая была применена к библиотеке документов. Кроме того, необходимо изменить планку заголовки плитки на разные цвета для каждого состояния, чтобы участники могли легко видеть, где находится контракт в процессе утверждения. Например, во всех утвержденных контрактах будет синяя заголовка.
 
    ![Представление списка.](../media/content-understanding/tile.png)
 
-Пользовательский вид плитки, который вы используете, требует внесения изменений в файл JSON, используемый для формата текущего представления плитки. Вы можете ссылаться на файл JSON, используемый для создания представления карты, скачавContractCard.js **файле.** В следующих разделах вы увидите определенные разделы кода для функций, которые находятся в карточках контрактов.
+Пользовательский вид плитки, который вы используете, требует внесения изменений в файл JSON, используемый для формата текущего представления плитки. Вы можете ссылаться на файл JSON, используемый для создания представления карты,ContractTileFormatting.js[ в](https://github.com/pnp/syntex-samples/blob/main/scenario%20assets/Contracts%20Management/View%20Formatter/ContractTileFormatting.json) файле. В следующих разделах вы увидите определенные разделы кода для функций, которые находятся в карточках контрактов.
 
 Если вы хотите увидеть или внести изменения в код JSON для просмотра в канале Teams, в канале Teams, выберите выпадаемое меню представления, а затем выберите текущее представление **Format**.
 
@@ -58,7 +58,7 @@ ms.locfileid: "52301804"
 
 ## <a name="card-size-and-shape"></a>Размер и форма карты
 
-В **ContractCard.js** файле, который вы скачали в справочном почтовом файле, посмотрите в следующем разделе, чтобы увидеть код формата размера и формы карты.
+ВContractTileFormatting.js[ в](https://github.com/pnp/syntex-samples/blob/main/scenario%20assets/Contracts%20Management/View%20Formatter/ContractTileFormatting.json) файле см. следующий раздел, чтобы увидеть код формата размера и формы карты.
 
 ```JSON
                   {
@@ -84,7 +84,7 @@ ms.locfileid: "52301804"
 
 ## <a name="contract-status"></a>Состояние контракта
 
-Следующий код позволяет определить состояние каждой титульной карточки. Обратите внимание, что каждое значение состояния *(New,* *In review,* *Approved* и *Rejected)* будет отображать различные цветовые коды для каждого из них. ВContractCard.js **файле,** который вы скачали, посмотрите раздел, который определяет состояние.
+Следующий код позволяет определить состояние каждой титульной карточки. Обратите внимание, что каждое значение состояния *(New,* *In review,* *Approved* и *Rejected)* будет отображать различные цветовые коды для каждого из них. ВContractTileFormatting.js[ в](https://github.com/pnp/syntex-samples/blob/main/scenario%20assets/Contracts%20Management/View%20Formatter/ContractTileFormatting.json) файле посмотрите раздел, который определяет состояние.
 
 ```JSON
           {
@@ -109,9 +109,9 @@ ms.locfileid: "52301804"
 
 Каждая карта контракта будет отображать три поля, извлеченные для каждого контракта *(клиент,* *подрядчик* и *сумма платы).* Кроме того, необходимо также отобразить время и дату классификации файла по модели SharePoint Syntex, используемой для его идентификации. 
 
-ВContractCard.js **файле,** который вы скачали, каждый из них определяется в следующих разделах.
+ВContractTileFormatting.js[ файле](https://github.com/pnp/syntex-samples/blob/main/scenario%20assets/Contracts%20Management/View%20Formatter/ContractTileFormatting.json) указанные ниже разделы определяют каждый из них.
 
-### <a name="client"></a>Client
+### <a name="client"></a>Клиент
 
 В этом разделе определяется, как "Клиент" будет отображаться на карте, и используется значение для конкретного контракта.
 

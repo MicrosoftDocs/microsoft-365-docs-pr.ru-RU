@@ -6,18 +6,18 @@ manager: pamgreen
 ms.reviewer: ssquires
 audience: admin
 ms.topic: article
-ms.date: 05/10/2021
+ms.date: 05/19/2021
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: Узнайте, как использовать Power Automate для создания потока для обработки контрактов с помощью Microsoft 365 решения.
-ms.openlocfilehash: d9892110d6aebd3eaae6fbc21d453b7eb14d7f7e
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: 54e92f36b19cefde92111cdbc960fad7715cf8b0
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52281365"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583104"
 ---
 # <a name="step-3-use-power-automate-to-create-your-flow-to-process-your-contracts"></a>Этап 3. Используйте Power Automate для создания потока для обработки контрактов
 
@@ -36,11 +36,11 @@ ms.locfileid: "52281365"
 
 ## <a name="prepare-your-contract-for-review"></a>Подготовка контракта для проверки
 
-При выявлении и классификации контракта SharePoint модели понимания документов Syntex поток Power Automate сначала изменит состояние на "В обзоре".
+При выявлении и классификации контракта SharePoint модели понимания документов Syntex поток Power Automate сначала изменит состояние на **Обзор**.
 
 ![Состояние обновления.](../media/content-understanding/flow-overview.png)
 
-После проверки файла измените значение состояния на "В просмотре".
+После проверки файла измените значение состояния на **"В обзоре".**
 
 ![В состоянии проверки.](../media/content-understanding/in-review.png)
 
@@ -141,7 +141,7 @@ ms.locfileid: "52281365"
 
    ![Состояние карты утверждено.](../media/content-understanding/approved-contracts-tab.png)
 
-- В потоке состояние изменено на "Утверждено".
+- В потоке состояние изменено на **"Утверждено".**
 
    ![Flow статус утвержден.](../media/content-understanding/status-approved.png)
 
