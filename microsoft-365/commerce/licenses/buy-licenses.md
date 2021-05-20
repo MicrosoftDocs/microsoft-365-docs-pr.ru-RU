@@ -19,20 +19,20 @@ ms.custom:
 - manage_licenses
 - commerce_licensing
 search.appverid: MET150
-description: Узнайте, как купить больше лицензий или уменьшить количество лицензий для Microsoft 365 подписки для бизнеса.
+description: Используйте эти действия, чтобы купить больше лицензий или уменьшить количество лицензий для Microsoft 365 для бизнеса подписки.
 ms.date: 04/07/2021
-ms.openlocfilehash: a20e89ff28c582018c55281a85dbe115b58f9d74
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 144adbd9c21253bd0a8e47205c72e09062fe6552
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537275"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52582708"
 ---
 # <a name="buy-or-remove-licenses"></a>Покупка или удаление лицензий
 
 Вы можете купить больше лицензий или уменьшить количество лицензий для подписки, используя следующие действия.
 
-## <a name="before-you-begin"></a>Прежде чем начать
+## <a name="before-you-begin"></a>Подготовка к работе
 
 - Для выполнения задач, описанных в этой статье, необходимо быть глобальным или администратором биллинга. Дополнительные сведения см. в статье [О ролях администраторов](../../admin/add-users/about-admin-roles.md).
 - Вы можете [добавлять пользователей и назначать лицензии одновременно.](../../admin/add-users/add-users.md)

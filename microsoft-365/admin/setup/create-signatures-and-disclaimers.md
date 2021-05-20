@@ -24,13 +24,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 2d75860f-c527-4352-a7f6-73eba54c0c72
-description: Узнайте, как управлять подписями электронной почты, включая юридические отказы или заявления о раскрытии для всех сообщений электронной почты, которые входят или покидают организацию.
-ms.openlocfilehash: e1c3df235442fdc6f569825a7137c92bfc5bb044
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+description: Управление подписями электронной почты, включая юридические отказы или заявления о раскрытии для всех сообщений электронной почты, которые входят или покидают организацию.
+ms.openlocfilehash: 05cfeeb01231e7f99d2a96fc37581b4c9a23f5aa
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244531"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52582756"
 ---
 # <a name="create-organization-wide-signatures-and-disclaimers"></a>Создание подписей и отказов для всей организации
 
@@ -115,4 +115,13 @@ ms.locfileid: "52244531"
   
 ## <a name="more-resources"></a>Дополнительные ресурсы
 
-- Сведения об использовании PowerShell см. в Exchange Online об отказе от сообщений, [подписей,](/exchange/security-and-compliance/mail-flow-rules/disclaimers-signatures-footers-or-headers) Exchange Online или загонах.
+Сведения об использовании PowerShell см. в тексте об отказе от сообщений, [подписей,](/exchange/security-and-compliance/mail-flow-rules/disclaimers-signatures-footers-or-headers)подносов или заглавных Exchange Online.
+
+## <a name="related-content"></a>См. также:
+
+[Перенос электронной почты](migrate-email-and-contacts-admin.md) и контактов в Microsoft 365 (видео)
+
+[Параметры электронной почты пользователя](../email/office-365-user-email-settings.md) (статья)
+
+[Обзор Центра администрирования Microsoft 365](../../business-video/admin-center-overview.md) (видео)
+

@@ -23,13 +23,13 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Выполните следующие действия, чтобы предоставить другому сотруднику доступ к данным OneDrive и Outlook сотрудников.
-ms.openlocfilehash: 451f8f7f50098c280e3925ef4efe5ad491ac54fa
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+description: Следуйте шагам в этой статье, чтобы предоставить другому сотруднику доступ к данным OneDrive и Outlook сотрудников.
+ms.openlocfilehash: cb5c27cbc7f1c184af8f0d1ad32b822660e93791
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244273"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52582696"
 ---
 # <a name="step-4---give-another-employee-access-to-onedrive-and-outlook-data"></a>Шаг 4 . Предоставить другому сотруднику доступ к OneDrive и Outlook данным
 
@@ -113,7 +113,7 @@ ms.locfileid: "52244273"
   
 9. Если данные экспортируются в уже существующий Файл данных Outlook (PST), в разделе **Настройка** укажите, что следует делать, если экспортируемые элементы уже содержатся в этом файле.
 
-10. Выберите **Готово**.
+10. Нажмите **Готово**.
 
 В Outlook сразу начнется экспорт, если только не требуется создать новый Файл данных Outlook (PST) или экспорт не выполняется в файл, защищенный паролем.
   
@@ -153,7 +153,7 @@ ms.locfileid: "52244273"
 
 8. Настройте параметры импорта элементов. Обычно изменять параметры по умолчанию нет необходимости.
 
-9. Выберите **Готово**.
+9. Нажмите **Готово**.
 
 > [!NOTE]
 > Действия остаются одинаковыми для доступа к данным OneDrive и электронной почты.
@@ -161,10 +161,10 @@ ms.locfileid: "52244273"
 > [!TIP]
 > Если вы хотите импортировать или восстанавливать только несколько элементов из Outlook data File (.pst), вы можете открыть файл Outlook данных. Затем в области навигации перетащите элементы из Outlook файлов данных в существующие Outlook папки. 
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-content"></a>См. также:
 
-[Добавление и удаление администраторов в OneDrive учетной записи](/sharepoint/manage-user-profiles#add-and-remove-admins-for-a-users-onedrive)
+[Добавление и удаление администраторов в OneDrive учетной записи](/sharepoint/manage-user-profiles#add-and-remove-admins-for-a-users-onedrive) (статья)
 
-[Восстановление удаленного хранилища OneDrive](/onedrive/restore-deleted-onedrive)
+[Восстановление удаленных OneDrive](/onedrive/restore-deleted-onedrive) (статья)
   
-[Хранение и удаление OneDrive](/onedrive/retention-and-deletion)
+[OneDrive хранения и удаления](/onedrive/retention-and-deletion) (статья)
