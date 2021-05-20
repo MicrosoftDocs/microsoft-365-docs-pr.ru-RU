@@ -1,5 +1,5 @@
 ---
-title: Справка по предотвращению потери данных
+title: Справка о предотвращении потери данных
 f1.keywords:
 - CSH
 ms.author: chrfox
@@ -21,7 +21,7 @@ search.appverid:
 - MET150
 ms.custom:
 - seo-marvel-apr2020
-description: справочный материал по предотвращению потери данных
+description: справочный материал для предотвращения потери данных
 ms.openlocfilehash: a6dc0b2702899e05f78c54331fb33b87495672d8
 ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
 ms.translationtype: MT
@@ -29,10 +29,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52572565"
 ---
-# <a name="data-loss-prevention-reference"></a>Ссылка на предотвращение потери данных
+# <a name="data-loss-prevention-reference"></a>Справка о предотвращении потери данных
  
 > [!IMPORTANT]
-> Это эталонная тема больше не является основным ресурсом для Microsoft 365 данных (DLP). Набор содержимого DLP обновляется и реструктуризируется. Темы, затронутые в этой статье, будут переходить к новым, обновленным статьям. Для получения дополнительной информации о DLP, [см.](dlp-learn-about-dlp.md)
+> Эта справочная тема больше не является основным ресурсом для Microsoft 365 данных по предотвращению потери данных (DLP). Набор контента DLP обновляется и реструктуризуется. Темы, затронутые в этой статье, будут перемещены в новые, обновленные статьи. Дополнительные сведения о DLP см. в дополнительных сведениях [о предотвращении потери данных.](dlp-learn-about-dlp.md)
 
 <!-- this topic needs to be split into smaller, more coherent ones. It is confusing as it is. -->
 <!-- move this note to a more appropriate place, no topic should start with a note -->
@@ -385,7 +385,7 @@ DLP сканирует электронную почту иначе, чем эл
 
 ### <a name="using-a-sensitivity-label-as-a-condition-in-a-dlp-policy"></a>Использование метки конфиденциальности в качестве условия в политике защиты от потери данных
 
-[Узнайте больше об](./dlp-sensitivity-label-as-condition.md) использовании метки Чувствительности в качестве условия в политиках DLP.
+[Дополнительные новости](./dlp-sensitivity-label-as-condition.md) об использовании метки "Чувствительность" в качестве условия в политиках DLP.
   
 ### <a name="how-this-feature-relates-to-other-features"></a>Связь с другими функциями
 
@@ -522,7 +522,7 @@ If you're creating DLP policies with a large potential impact, we recommend foll
 Система защиты от потери данных оценивает любой контент, который можно индексировать. Дополнительные сведения о типах файлов, для которых по умолчанию выполняется обход контента, см. в статье [Анализируемые типы файлов и расширения имен файлов для обхода по умолчанию в SharePoint Server](/SharePoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types).
 
 > [!NOTE]
-> Для предотвращения обмена документами до того, как политики DLP имели возможность анализировать их, обмен новыми файлами в SharePoint может быть заблокирован до тех пор, пока его содержимое не будет проиндексирован. Подробные сведения см. в статье [По умолчанию помечать новые файлы как конфиденциальные](/sharepoint/sensitive-by-default). 
+> Чтобы предотвратить распространение документов до того, как политики DLP имели возможность их анализировать, обмен новыми файлами в SharePoint может быть заблокирован до индексации контента. Подробные сведения см. в статье [По умолчанию помечать новые файлы как конфиденциальные](/sharepoint/sensitive-by-default). 
   
 ### <a name="policy-evaluation-in-exchange-online-outlook-and-outlook-on-the-web"></a>Оценка политик в Exchange Online, Outlook и Outlook в Интернете
 

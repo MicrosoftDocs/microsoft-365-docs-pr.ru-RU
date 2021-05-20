@@ -15,7 +15,7 @@ ms.custom:
 - Ent_Office_Other
 - seo-marvel-apr2020
 ms.assetid: 1ea4d4ec-af89-496f-9678-701867f5a6fc
-description: 'Описание: Используйте PowerShell Microsoft 365 для создания отчетов, которые нельзя создавать в Microsoft 365 администратора.'
+description: Сводка. Используйте PowerShell для Microsoft 365 для создания отчетов, которые нельзя создавать в центре администрирования Microsoft 365 администратора.
 ms.openlocfilehash: 9e3b90dcdd32f80125175ad2e15a852db51e17f8
 ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
 ms.translationtype: MT
@@ -27,34 +27,34 @@ ms.locfileid: "52572745"
 
 *Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
 
-В центре управления Microsoft 365 доступно множество различных отчетов. Но эти отчеты предоставляют только так много информации, а иногда и нужно больше. Вот когда вам нужно PowerShell для Microsoft 365.
+В центре администрирования Microsoft 365 различных отчетов. Но эти отчеты предоставляют только столько информации, а иногда требуется больше. Вот когда вам нужна PowerShell для Microsoft 365.
   
-В этих статьях описывается, как использовать PowerShell Microsoft 365, чтобы получить информацию от Microsoft 365 арендатора:
+В этих статьях описывается использование PowerShell для Microsoft 365 получения информации от Microsoft 365 клиента:
   
-- Начать с отчетности с помощью PowerShell для Microsoft 365:
+- Начало работы с отчетами с помощью PowerShell для Microsoft 365:
     
   - [Зачем использовать PowerShell для Microsoft 365](./why-you-need-to-use-microsoft-365-powershell.md)
     
     
 - Отчеты для пользовательских учетных записей и лицензий:
     
-  - [Просмотр Microsoft 365 и услуг с помощью PowerShell](view-licenses-and-services-with-microsoft-365-powershell.md)
+  - [Просмотр Microsoft 365 лицензий и служб с помощью PowerShell](view-licenses-and-services-with-microsoft-365-powershell.md)
     
-  - [Просмотр Microsoft 365 и нелицензированных пользователей с Помощью PowerShell](view-licensed-and-unlicensed-users-with-microsoft-365-powershell.md)
+  - [Просмотр Microsoft 365 лицензированных и нелицензионных пользователей с помощью PowerShell](view-licensed-and-unlicensed-users-with-microsoft-365-powershell.md)
     
-  - [Просмотр Microsoft 365 учетной записи и реквизитов обслуживания с помощью PowerShell](view-account-license-and-service-details-with-microsoft-365-powershell.md)
+  - [Просмотр Microsoft 365 учетной записи и сведений о службе в PowerShell](view-account-license-and-service-details-with-microsoft-365-powershell.md)
     
-  - [Просмотр Microsoft 365 учетных записей с помощью PowerShell](view-user-accounts-with-microsoft-365-powershell.md)
+  - [Просмотр Microsoft 365 учетных записей пользователей с помощью PowerShell](view-user-accounts-with-microsoft-365-powershell.md)
     
 - Отчеты для SharePoint Online:
     
   - [Начало работы с командной консолью SharePoint Online](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
     
-  - [Get-SPOSiteGroup - Получает все группы на указанном сайте коллекции](/powershell/module/sharepoint-online/get-spositegroup)
+  - [Get-SPOSiteGroup — получает все группы в указанной коллекции сайтов](/powershell/module/sharepoint-online/get-spositegroup)
     
 - Отчеты для Exchange Online:
     
-  - [Используйте Exchange Online PowerShell для отображения почтового ящика](/exchange/recipients-in-exchange-online/manage-user-mailboxes/use-powershell-to-display-mailbox-information)
+  - [Использование Exchange Online PowerShell для отображения почтового ящика](/exchange/recipients-in-exchange-online/manage-user-mailboxes/use-powershell-to-display-mailbox-information)
     
     
 ## <a name="related-articles"></a>Связанные статьи

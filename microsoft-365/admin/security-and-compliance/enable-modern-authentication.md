@@ -21,7 +21,7 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 7dc1c01a-090f-4971-9677-f1b192d6c910
-description: Научитесь устанавливать ключи реестра, чтобы обеспечить современную аутентификацию для устройств, которые Microsoft Office 2013 года.
+description: Научитесь устанавливать ключи реестра, чтобы включить современную проверку подлинности для устройств, Microsoft Office 2013 г.
 ms.openlocfilehash: d358cb2ffb4284a51779e5a7c1dc894052b9ebc0
 ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
 ms.translationtype: MT
@@ -45,7 +45,7 @@ ms.locfileid: "52572289"
 |HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\EnableADAL  |REG_DWORD  |1  |
 |HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\Version |REG_DWORD |1 |
    
-После того как вы установили ключи реестра, вы можете установить приложения Office 2013 года для использования [многофакторной аутентификации (MFA)](set-up-multi-factor-authentication.md) с Microsoft 365. 
+После задания ключей реестра можно Office 2013 г. приложениям для использования многофакторной проверки подлинности [(MFA)](set-up-multi-factor-authentication.md) с помощью Microsoft 365. 
   
 Если вы вошли в одно из клиентских приложений, выйдите из него и войдите снова, чтобы изменения вступили в силу. В противном случае, файлы, с которыми вы недавно работали, и настройки роуминга останутся недоступными до тех пор, пока не будет установлено удостоверение библиотек ADAL.
   
@@ -59,7 +59,7 @@ ms.locfileid: "52572289"
    
 ## <a name="related-content"></a>См. также:
 
-[Во вопишитесь Office 2013 года со вторым методом проверки](https://support.microsoft.com/office/2b856342-170a-438e-9a4f-3c092394d3cb) (статья)
+[Вход в Office 2013 г. со вторым методом проверки](https://support.microsoft.com/office/2b856342-170a-438e-9a4f-3c092394d3cb) (статья)
 
-[Outlook запросы на пароль и не использует современную аутентификацию для подключения к Office 365](/outlook/troubleshoot/authentication/outlook-prompt-password-modern-authentication-enabled) (статья)
+[Outlook для](/outlook/troubleshoot/authentication/outlook-prompt-password-modern-authentication-enabled) пароля и не использует современную проверку подлинности для подключения к Office 365 (статья)
 

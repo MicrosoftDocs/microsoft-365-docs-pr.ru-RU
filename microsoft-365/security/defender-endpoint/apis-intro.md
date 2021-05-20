@@ -1,8 +1,8 @@
 ---
 title: Доступ к API Microsoft Defender для конечной точки
 ms.reviewer: ''
-description: Узнайте, как можно использовать API для автоматизации рабочих процессов и инноваций на основе возможностей Microsoft Defender for Endpoint
-keywords: apis, api, wdatp, открытый api, Microsoft Defender для endpoint api, Microsoft Defender atp, public api, поддерживаемый apis, оповещения, устройство, пользователь, домен, ip, файл, продвинутая охота, запрос
+description: Узнайте, как можно использовать API для автоматизации рабочего процесса и инновация на основе возможностей Microsoft Defender для конечных точек
+keywords: apis, api, wdatp, open api, microsoft defender for endpoint api, microsoft defender atp, public api, supported apis, alerts, device, user, domain, ip, file, advanced hunting, query
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -35,51 +35,51 @@ ms.locfileid: "52571833"
 **Область применения:** 
 - [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/?linkid=2154037)
 
-> Хотите испытать Microsoft Defender для конечной точки? [Подпишитесь на бесплатную пробную версию.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+> Хотите испытать Microsoft Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
 
 
 
-Defender for Endpoint предоставляет большую часть своих данных и действий с помощью набора программных API. Эти API позволят автоматизировать рабочие процессы и внедрять инновации на основе возможностей Defender for Endpoint. Доступ к API требует проверки подлинности OAuth2.0. Для получения дополнительной информации [см Flow.](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)
+Defender for Endpoint предоставляет большую часть своих данных и действий с помощью набора программных API. Эти API позволят автоматизировать рабочий процесс и инновациям на основе возможностей Defender для конечных точек. Доступ к API требует проверки подлинности OAuth2.0. Дополнительные сведения см. [в тексте OAuth 2.0 Authorization Code Flow.](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)
 
-Посмотрите это видео для краткого обзора API Defender for Endpoint. 
+Просмотрите это видео для краткого обзора API Defender для API endpoint. 
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4d73M]
 
-Как правило, необходимо предпринять следующие шаги для использования API:
+В общем, для использования API необходимо предпринять следующие действия:
 - Создание [приложения AAD](/microsoft-365/security/defender-endpoint/exposed-apis-create-app-nativeapp)
-- Получить токен доступа с помощью этого приложения
-- Используйте токен для доступа к Defender для API конечной точки
+- Получение маркера доступа с помощью этого приложения
+- Использование маркера для доступа к API Defender для endpoint
 
 
-Вы можете получить доступ к API Defender for Endpoint с **контекстом приложения или** **контекстом пользователя.**
+Вы можете получить доступ к API Defender для конечной точки с **помощью контекста приложений** или **пользовательского контекста.**
 
-- **Контекст приложения: (Рекомендуемый)** <br>
-    Используется приложениями, которые работают без ва-во всех пользователей. например, приложения, которые работают в качестве фоновых служб или daemons.
+- **Контекст приложения: (Рекомендуется)** <br>
+    Используется приложениями, которые работают без участия пользователя. например, приложения, которые работают в качестве фоновых служб или daemons.
 
-    Шаги, которые необходимо предпринять для доступа к API Defender for Endpoint с контекстом приложения:
+    Действия, которые необходимо предпринять для доступа к API Defender для конечной точки с контекстом приложения:
 
   1. Создание веб-приложения AAD.
-  2. Назначьте желаемое разрешение приложению, например, 'Read Alerts', 'Isolate Machines'. 
+  2. Назначьте нужное разрешение приложению, например, "Read Alerts", "Isolate Machines". 
   3. Создайте ключ для этого приложения.
-  4. Получите токен с помощью приложения с его ключом.
-  5. Используйте токен для доступа к Microsoft Defender для API конечной точки
+  4. Получение маркера с помощью приложения с его ключом.
+  5. С помощью маркера можно получить доступ к API Microsoft Defender для конечной точки
 
-     Для получения дополнительной информации [см.](exposed-apis-create-app-webapp.md)
+     Дополнительные сведения см. в [приложении Get access with application context.](exposed-apis-create-app-webapp.md)
 
 
 - **Контекст пользователя:** <br>
     Используется для выполнения действий в API от имени пользователя.
 
-    Шаги, которые необходимо предпринять для доступа к API Defender for Endpoint с контекстом приложения:
+    Действия, которые необходимо предпринять для доступа к API Defender для конечной точки с контекстом приложения:
 
-  1. Создайте родное приложение AAD.
-  2. Назначьте желаемое разрешение приложению, например,:« Читать оповещения», «Изолировать машины» и т.д. 
-  3. Получите токен с помощью приложения с учетными данными пользователя.
-  4. Используйте токен для доступа к Microsoft Defender для API конечной точки
+  1. Создание приложения AAD.
+  2. Назначьте нужное разрешение приложению, например"Read Alerts", "Isolate Machines" и т.д. 
+  3. Получение маркера с помощью приложения с учетными данными пользователей.
+  4. С помощью маркера можно получить доступ к API Microsoft Defender для конечной точки
 
-     Для получения дополнительной информации [см.](exposed-apis-create-app-nativeapp.md)
+     Дополнительные сведения см. в [ссылке Получить доступ к пользовательскому контексту.](exposed-apis-create-app-nativeapp.md)
 
 
 ## <a name="related-topics"></a>Связанные статьи
 - [Microsoft Defender для API конечных точек](exposed-apis-list.md)
-- [Доступ к Microsoft Defender для конечной точки с контекстом приложения](exposed-apis-create-app-webapp.md)
-- [Доступ к Microsoft Defender для конечной точки с контекстом пользователя](exposed-apis-create-app-nativeapp.md)
+- [Доступ к Microsoft Defender для конечной точки с контекстом приложений](exposed-apis-create-app-webapp.md)
+- [Доступ к Microsoft Defender для конечной точки с пользовательским контекстом](exposed-apis-create-app-nativeapp.md)
