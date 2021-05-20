@@ -20,13 +20,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 9fa2539a-2211-41fd-85a0-bc37b9619ca4
-description: Узнайте, как обеспечить более надежную защиту организации от атак на пароли, а также почему необходимо запретить распространенные пароли и включить многофакторную проверку подлинности с учетом рисков.
-ms.openlocfilehash: d3f86a6e85ab2f8e469a57ea98a661e4cc453673
-ms.sourcegitcommit: 9063c7a50a1d7dd6d2e1ca44f53d3c26f21f4ae8
+description: Надежнее защищайте организацию от атак на пароли, а также запретите распространенные пароли и включите многофакторную проверку подлинности с учетом рисков.
+ms.openlocfilehash: 1927e481625e93afa8aa064666e75ea8f891669e
+ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52073869"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52572301"
 ---
 # <a name="password-policy-recommendations"></a>Рекомендации политики паролей
 
@@ -128,7 +128,7 @@ ms.locfileid: "52073869"
 
 Многофакторная проверка подлинности с учетом рисков гарантирует, что если наша система обнаружит подозрительную активность, она выведет запрос, позволяющий убедиться, что действия выполнены владельцем учетной записи. 
   
-## <a name="want-to-know-more-recommended-reading"></a>Хотите узнать больше? Рекомендуемая литература
+## <a name="want-to-know-more-recommended-reading"></a>Хотите узнать больше? Рекомендуемое чтение:
 
 - [К каким результатам приводят надежные пароли?](https://go.microsoft.com/fwlink/p/?linkid=861008) (на английском языке)
 

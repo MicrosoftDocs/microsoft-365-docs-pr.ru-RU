@@ -19,19 +19,19 @@ search.appverid:
 - MOE150
 - MET150
 description: Узнайте о политиках и метках хранения, которые помогут вам хранить нужный контент и избавляться от ненужного.
-ms.openlocfilehash: 89a3544c390fdeceea3741a950aad8fe29da25c4
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 2695d34e29492a88da86c2511ce32e4036031e9d
+ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245592"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52572661"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>Сведения о политиках и метках хранения
 
 >*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 > [!NOTE]
-> Если вы получаете сообщения о политиках хранения в ваших приложениях или у вас есть вопросы по поводу меток хранения в приложениях, обратитесь в ИТ-отдел за информацией о том, как они настроены. Тем временем следующие статьи могут оказаться полезными:
+> Если вы получаете сообщения о политиках хранения в Teams или у вас есть вопросы по поводу меток хранения в приложениях, обратитесь в ИТ-отдел за информацией о том, как они настроены. Кроме того, могут быть полезны следующие материалы:
 > -  [Сообщения Teams о политиках хранения](https://support.microsoft.com/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b)
 > - [Применение меток хранения к файлам в SharePoint и OneDrive](https://support.microsoft.com/office/apply-retention-labels-to-files-in-sharepoint-or-onedrive-11a6835b-ec9f-40db-8aca-6f5ef18132df)
 >
@@ -64,7 +64,7 @@ ms.locfileid: "52245592"
 
 ## <a name="how-retention-settings-work-with-content-in-place"></a>Как параметры хранения применяются к имеющемуся контенту
 
-Если контенту назначены параметры хранения, он остается в исходном расположении. Пользователи могут, как и раньше, продолжать работать со своими документами и почтой. Но если они изменят или удалят содержимое, включенное в политику хранения, копия этого содержимого будет автоматически сохранена.
+Когда содержимому назначены параметры хранения, оно остается в своем исходном расположении. Пользователи могут продолжать работать со своими документами или почтой, как будто ничего не изменилось. Но если они изменят или удалят содержимое, включенное в политику хранения, произойдет автоматическое сохранение его копии.
   
 - Для сайтов SharePoint и OneDrive: копия хранится в **архивной** библиотеке.
 
@@ -394,11 +394,15 @@ ms.locfileid: "52245592"
 
 - [Get-ComplianceTagStorage](/powershell/module/exchange/get-compliancetagstorage)
 
+- [Get-RecordReviewNotificationTemplateConfig](/powershell/module/exchange/get-recordreviewnotificationtemplateconfig)
+
 - [Get-RetentionCompliancePolicy](/powershell/module/exchange/get-retentioncompliancepolicy)
 
 - [New-RetentionCompliancePolicy](/powershell/module/exchange/new-retentioncompliancepolicy)
 
 - [Remove-RetentionCompliancePolicy](/powershell/module/exchange/remove-retentioncompliancepolicy)
+
+- [Set-RecordReviewNotificationTemplateConfig](/powershell/module/exchange/set-recordreviewnotificationtemplateconfig )
 
 - [Set-RetentionCompliancePolicy](/powershell/module/exchange/set-retentioncompliancepolicy)
 
@@ -409,6 +413,7 @@ ms.locfileid: "52245592"
 - [Remove-RetentionComplianceRule](/powershell/module/exchange/remove-retentioncompliancerule)
 
 - [Set-RetentionComplianceRule](/powershell/module/exchange/set-retentioncompliancerule)
+
 
 ## <a name="when-to-use-retention-policies-and-retention-labels-or-ediscovery-holds"></a>В каких ситуациях использовать политики и метки хранения или удержание данных, созданных с помощью обращения обнаружения электронных данных
 
