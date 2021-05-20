@@ -12,7 +12,7 @@
           href: protection-stack-microsoft-defender-for-office365.md
         - name: Оценка Defender для Office 365
           href: office-365-evaluation.md
-        - name: "Новые возможности Defender для Office\_365"
+        - name: Новые возможности Defender для Office 365
           href: whats-new-in-defender-for-office-365.md
         - name: Microsoft Defender для Office 365 в Центре безопасности Microsoft 365
           href: ../defender/microsoft-365-security-center-mdo.md
@@ -36,16 +36,8 @@
               href: auditing-reports-in-eop.md
         - name: 'Безопасные вложения для SharePoint, OneDrive и Microsoft Teams'
           href: turn-on-mdo-for-spo-odb-and-teams.md
-        - name: "Обзор Центра безопасности Microsoft\_365"
+        - name: Обзор Центра безопасности Microsoft 365
           href: ../defender/overview-security-center.md
-        - name: Обозреватель угроз для Defender для Office 365
-          items:
-            - name: Охота на угрозы в обозревателе угроз
-              href: threat-hunting-in-threat-explorer.md
-            - name: Безопасность электронной почты с помощью обозревателя угроз
-              href: email-security-in-microsoft-defender.md
-            - name: Обозреватель угроз и основы обнаружения в режиме реального времени
-              href: real-time-detections.md
         - name: Страница сущности "Электронная почта"
           href: mdo-email-entity-page.md
         - name: Обзор автоматического исследования и реагирования
@@ -200,6 +192,14 @@
           href: zero-hour-auto-purge.md
     - name: Обнаружение
       items:
+        - name: Обозреватель угроз для Defender для Office 365
+          items:
+            - name: Охота на угрозы в обозревателе угроз
+              href: threat-hunting-in-threat-explorer.md
+            - name: Безопасность электронной почты с помощью обозревателя угроз
+              href: email-security-in-microsoft-defender.md
+            - name: Обозреватель угроз и основы обнаружения в режиме реального времени
+              href: real-time-detections.md
         - name: Использование журналов учета угроз
           href: threat-trackers.md
         - name: Просмотр оповещений
@@ -346,7 +346,7 @@
           href: safety-tips-in-office-365.md
         - name: Пример сценария для применения параметров EOP к нескольким клиентам
           href: sample-script-for-applying-eop-settings-to-multiple-tenants.md
-        - name: "Отправка почты в Office\_365"
+        - name: Отправка почты в Office 365
           href: sending-mail-to-office-365.md
         - name: 'Службы для лиц, не являющихся клиентами'
           href: services-for-non-customers.md
