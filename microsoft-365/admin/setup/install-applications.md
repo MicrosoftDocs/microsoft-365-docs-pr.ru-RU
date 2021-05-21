@@ -21,36 +21,36 @@ ms.custom:
 - seo-marvel-may2020
 - AdminSurgePortfolio
 - okr_smb
-description: Теперь, когда вы создали Microsoft 365, узнайте, как установить отдельные приложения Office на mac, PC или мобильных устройствах и настроить электронную почту в Outlook.
-ms.openlocfilehash: c1d88aa1e754424e7a4ef3e486efc8a9618d3e9b
-ms.sourcegitcommit: 89095172c9c4793d56645b4c885ac8e30936bd0a
+description: Теперь, когда вы настроили Microsoft 365, узнайте, как установить отдельные Office приложения на mac, PC или мобильных устройствах.
+ms.openlocfilehash: 47f6a04e8fe42f03de0cd2008f15fd1f6f5617f3
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2021
-ms.locfileid: "50766359"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52593821"
 ---
 # <a name="install-office-applications"></a>Установка приложений Office
 
-Теперь, когда вы создали Microsoft 365, вы можете установить отдельные приложения Office на mac, PC или мобильных устройствах.
+Теперь, когда вы настроили Microsoft 365, вы можете установить отдельные Office на mac, PC или мобильные устройства.
   
 Следуйте этим ссылкам для получения сведений о том, как:
   
-- Установка приложений Office:  [Установка Office на компьютере или Mac](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658)
+- Установка Office приложений: [установка Office на компьютере или Mac](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658)
 
 - Установка других приложений: [Project,](https://support.microsoft.com/office/install-project-7059249b-d9fe-4d61-ab96-5c5bf435f281) [Visio](https://support.microsoft.com/office/install-visio-f98f21e3-aa02-4827-9167-ddab5b025710)или [Skype для бизнеса](https://support.microsoft.com/office/install-skype-for-business-8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)
 
-- Настройка мобильных устройств: [настройка мобильных устройств Microsoft 365 — справка](https://support.microsoft.com/office/7dabb6cb-0046-40b6-81fe-767e0b1f014f)
+- Настройка мобильных устройств: [Microsoft 365 - справка](https://support.microsoft.com/office/7dabb6cb-0046-40b6-81fe-767e0b1f014f)
 
-- Настройка электронной почты в Outlook: [Windows](https://support.microsoft.com/office/6e27792a-9267-4aa4-8bb6-c84ef146101b) или [Mac](https://support.microsoft.com/office/6e27792a-9267-4aa4-8bb6-c84ef146101b#PickTab=Outlook_for_Mac)
+- Настройка электронной почты в Outlook: [Windows](https://support.microsoft.com/office/6e27792a-9267-4aa4-8bb6-c84ef146101b) [или Mac](https://support.microsoft.com/office/6e27792a-9267-4aa4-8bb6-c84ef146101b#PickTab=Outlook_for_Mac)
  
 - [Перевод пользователей на последние версии приложений](upgrade-users-to-latest-office-client.md) 
 
 ::: moniker range="o365-21vianet"
 
-Если вы приобрели Azure Active Directory Premium (AADP) Plan 1 или Plan 2, вы имеете право на участие в Microsoft Identity Manager (MIM). Чтобы скачать MIM, перейдите в [Центр загрузки](https://www.microsoft.com/zh-cn/download/details.aspx?id=58498).
+Если вы приобрели Azure Active Directory Premium (AADP) Plan 1 или Plan 2, вы имеете право на Microsoft Identity Manager (MIM). Чтобы скачать MIM, перейдите в [Центр загрузки](https://www.microsoft.com/zh-cn/download/details.aspx?id=58498).
 
 ::: moniker-end
 
-У вас проблема? Эти ресурсы по устранению неполадок могут помочь вам:
+## <a name="related-content"></a>См. также:
   
-- [Устранение неполадок при установке Office и Microsoft 365](https://support.microsoft.com/office/35ff2def-e0b2-4dac-9784-4cf212c1f6c2)
+[Устранение неполадок Office и Microsoft 365](https://support.microsoft.com/office/35ff2def-e0b2-4dac-9784-4cf212c1f6c2) (статья)

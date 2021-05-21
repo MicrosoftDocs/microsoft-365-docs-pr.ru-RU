@@ -19,14 +19,14 @@ ms.collection:
 - m365solution-migratetomdatp
 ms.custom: migrationguides
 ms.topic: article
-ms.date: 05/14/2021
+ms.date: 05/20/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: 0ba6f3da326223dcefb1c29f91c5a631ec8a866c
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 939fea5b815827f5afbe6cdf78fd9335da6337e8
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52539171"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52594065"
 ---
 # <a name="switch-to-microsoft-defender-for-endpoint---phase-3-onboard"></a>Переход на Microsoft Defender для конечной точки — этап 3. На борту
 
@@ -42,20 +42,15 @@ ms.locfileid: "52539171"
 **Добро пожаловать на этап 3 [перехода на Защитник для конечной точки](switch-to-microsoft-defender-migration.md#the-migration-process)**. Этот этап миграции включает следующие действия:
 
 1. [Onboard devices to Defender for Endpoint.](#onboard-devices-to-microsoft-defender-for-endpoint)
-
 2. [Запустите тест обнаружения](#run-a-detection-test).
-
 3. [Подтвердите, антивирусная программа в Microsoft Defender находится в пассивном режиме на конечных точках.](#confirm-that-microsoft-defender-antivirus-is-in-passive-mode-on-your-endpoints)
-
 4. [Получать обновления для антивирусная программа в Microsoft Defender](#get-updates-for-microsoft-defender-antivirus).
-
 5. [Удалить решение, не в microsoft.](#uninstall-your-non-microsoft-solution) 
-
 6. [Убедитесь, что Defender для конечной точки работает правильно.](#make-sure-defender-for-endpoint-is-working-correctly)
 
 ## <a name="onboard-devices-to-microsoft-defender-for-endpoint"></a>Подключение устройств к Microsoft Defender для конечной точки
 
-1. Перейдите в Центр безопасности в Microsoft Defender [https://aka.ms/MDATPportal](https://aka.ms/MDATPportal) () и войдите.
+1. Перейдите в Центр безопасности в Microsoft Defender [https://securitycenter.windows.com](https://securitycenter.windows.com) () и войдите.
 
 2. Выберите **Параметры**  >  **управления**  >  **устройствами.** 
 
@@ -73,9 +68,9 @@ ms.locfileid: "52539171"
 | Windows 8.1 Корпоративная <p>Windows 8.1 Профессиональная <p>Windows 7 sp1 Enterprise <p>Windows 7 sp1 Pro     | [Microsoft Monitoring Agent](onboard-downlevel.md)<p>**ПРИМЕЧАНИЕ.** Microsoft Monitoring Agent агент Azure Log Analytics. Дополнительные сведения см. в обзоре агента [log Analytics.](/azure/azure-monitor/platform/log-analytics-agent)        |
 | Windows Server 2019 и более поздний <p>Windows Основное издание Server 2019 <p>Windows Сервер версии 1803 и более поздней версии | [Локальный скрипт](configure-endpoints-script.md) <p>[Групповая политика](configure-endpoints-gp.md) <p>[Диспетчер конфигураций](configure-endpoints-sccm.md) <p>[System Center Configuration Manager](configure-endpoints-sccm.md) <p>[Скрипты на борту VDI для нестандартных устройств](configure-endpoints-vdi.md) <p>**ПРИМЕЧАНИЕ.** Локальный сценарий подходит для доказательства концепции, но не должен использоваться для развертывания производства. Для развертывания производства рекомендуется использовать групповую политику, Microsoft Endpoint Configuration Manager или Intune.    |
 | Windows Server 2016 <p>Windows Server 2012 R2 <p>Windows Server 2008 R2 с пакетом обновления 1 (SP1)  | [Центр безопасности в Microsoft Defender](configure-server-endpoints.md)<p>[Azure Defender](/azure/security-center/security-center-wdatp) |
-|macOS:<p>11.3.1 (Big Sur) <p>10.15 (Каталина)<p>10.14 (Mojave)|[Подключение устройствах, отличных от Windows](configure-endpoints-non-windows.md)  |
-|iOS |[Подключение устройствах, отличных от Windows](configure-endpoints-non-windows.md)  |
-|Linux:<p>RHEL 7.2+<p>CentOS Linux 7.2+<p>Ubuntu 16 LTS или более высокий LTS<p>SLES 12+<p>Debian 9+<p>Oracle Linux 7.2 |[Подключение устройствах, отличных от Windows](configure-endpoints-non-windows.md)  |
+| macOS:<p>11.3.1 (Big Sur) <p>10.15 (Каталина)<p>10.14 (Mojave) | [Подключение устройствах, отличных от Windows](configure-endpoints-non-windows.md)  |
+| iOS | [Подключение устройствах, отличных от Windows](configure-endpoints-non-windows.md)  |
+| Linux:<p>RHEL 7.2+<p>CentOS Linux 7.2+<p>Ubuntu 16 LTS или более высокий LTS<p>SLES 12+<p>Debian 9+<p>Oracle Linux 7.2 | [Подключение устройствах, отличных от Windows](configure-endpoints-non-windows.md)  |
 
 ## <a name="run-a-detection-test"></a>Выполнить тест обнаружения
 
@@ -83,18 +78,18 @@ ms.locfileid: "52539171"
 
 |Операционная система  |Рекомендации  |
 |---------|---------|
-| Windows 10 <p>Windows Server 2019 <p>Windows Сервер, версия 1803 <p>Windows Server 2016 <p>Windows Server 2012 R2     | См. [тест run a detection](run-detection-test.md). <p>Посетите сайт демонстрационных сценариев Defender для конечной точки () и [https://demo.wd.microsoft.com](https://demo.wd.microsoft.com) попробуйте один или несколько сценариев. Например, попробуйте демонстрационный сценарий **облачной** защиты.         |
-| macOS:<p>11.3.1 (Big Sur) <p>10.15 (Каталина)<p>10.14 (Mojave)    |Скачайте и используйте приложение DIY по [https://aka.ms/mdatpmacosdiy](https://aka.ms/mdatpmacosdiy) ссылке . <p>Дополнительные сведения см. в [сайте Defender for Endpoint на macOS.](microsoft-defender-endpoint-mac.md)        |
-| Linux:<p>RHEL 7.2+<p>CentOS Linux 7.2+<p>Ubuntu 16 LTS или более высокий LTS<p>SLES 12+<p>Debian 9+<p>Oracle Linux 7.2 |1. Выполнить следующую команду и искать результат **1**: <br/>`mdatp health --field real_time_protection_enabled`. <p>2. Откройте окно терминала и запустите следующую команду: <br/>`curl -o ~/Downloads/eicar.com.txt https://www.eicar.org/download/eicar.com.txt`. <p>3. Запустите следующую команду, чтобы перечислить все обнаруженные угрозы: <br/>`mdatp threat list`. <p>Дополнительные сведения см. в [выпуске Defender for Endpoint on Linux.](microsoft-defender-endpoint-linux.md) |
+| Windows 10 <p>Windows Server 2019 <p>Windows Сервер, версия 1803 <p>Windows Server 2016 <p>Windows Server 2012 R2     | См. [тест run a detection](run-detection-test.md). <p>Посетите сайт демонстрационных сценариев Defender для конечной точки () и [https://demo.wd.microsoft.com](https://demo.wd.microsoft.com) попробуйте один или несколько сценариев. Например, попробуйте демонстрационный сценарий **облачной** защиты.    |
+| macOS:<p>11.3.1 (Big Sur) <p>10.15 (Каталина)<p>10.14 (Mojave)    | Скачайте и используйте приложение DIY по [https://aka.ms/mdatpmacosdiy](https://aka.ms/mdatpmacosdiy) ссылке . <p>Дополнительные сведения см. в [сайте Defender for Endpoint на macOS.](microsoft-defender-endpoint-mac.md)        |
+| Linux:<p>RHEL 7.2+<p>CentOS Linux 7.2+<p>Ubuntu 16 LTS или более высокий LTS<p>SLES 12+<p>Debian 9+<p>Oracle Linux 7.2 | 1. Выполнить следующую команду и искать результат **1**: <br/>`mdatp health --field real_time_protection_enabled`. <p>2. Откройте окно терминала и запустите следующую команду: <br/>`curl -o ~/Downloads/eicar.com.txt https://www.eicar.org/download/eicar.com.txt`. <p>3. Запустите следующую команду, чтобы перечислить все обнаруженные угрозы: <br/>`mdatp threat list`. <p>Дополнительные сведения см. в [выпуске Defender for Endpoint on Linux.](microsoft-defender-endpoint-linux.md) |
 
 ## <a name="confirm-that-microsoft-defender-antivirus-is-in-passive-mode-on-your-endpoints"></a>Подтвердите, антивирусная программа в Microsoft Defender находится в пассивном режиме на конечных точках
 
 Теперь, когда конечные точки переназначили в Defender для конечной точки, следующим шагом будет убедиться, что антивирусная программа в Microsoft Defender работает в пассивном режиме. Для выполнения этой задачи можно использовать командную подсказку или PowerShell, как описано в следующей таблице:
 
-|Метод  |Действия  |
-|---------|---------|
+| Метод  | Действия  |
+|:-------|:-------|
 |Командная строка     | 1. На Windows откройте командную подсказку в качестве администратора.<p>2. Введите `sc query windefend` и нажмите кнопку Ввод.<p>3. Просмотрите результаты, чтобы подтвердить, что антивирусная программа в Microsoft Defender работает в пассивном режиме.         |
-|PowerShell     | 1. На Windows откройте Windows PowerShell в качестве администратора.<p>2. Запустите [комлет Get-MpComputerStatus.](/powershell/module/defender/Get-MpComputerStatus) <p>3. В списке результатов найди **amRunningMode: Пассивный режим** или **AMRunningMode: пассивный режим SxS.**          |
+| PowerShell     | 1. На Windows откройте Windows PowerShell в качестве администратора.<p>2. Запустите [комлет Get-MpComputerStatus.](/powershell/module/defender/Get-MpComputerStatus) <p>3. В списке результатов найди **amRunningMode: Пассивный режим** или **AMRunningMode: пассивный режим SxS.**    |
 
 > [!NOTE]
 > Вы можете *антивирусная программа* вместо *антивирусная программа в Microsoft Defender* в некоторых версиях Windows.
@@ -122,21 +117,30 @@ ms.locfileid: "52539171"
 
 ## <a name="get-updates-for-microsoft-defender-antivirus"></a>Получать обновления для антивирусная программа в Microsoft Defender
 
-Сохранение антивирусная программа в Microsoft Defender очень важно для обеспечения того, чтобы устройства были оснащены новейшими технологиями и функциями, необходимыми для защиты от новых вредоносных программ и методов атак, даже если антивирусная программа в Microsoft Defender работает в пассивном [режиме.](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)
+Сохранение антивирусная программа в Microsoft Defender данных имеет решающее значение для обеспечения того, чтобы устройства были оснащены новейшими технологиями и функциями, необходимыми для защиты от новых вредоносных программ и методов атак, даже если антивирусная программа в Microsoft Defender работает в пассивном режиме. [(См. антивирусная программа в Microsoft Defender совместимость.)](microsoft-defender-antivirus-compatibility.md)
 
 Существует два типа обновлений, связанных с антивирусная программа в Microsoft Defender обновлениями:
+
 - Обновления аналитики безопасности
 - Обновления продукта
 
-Чтобы получить обновления, следуйте указаниям [в антивирусная программа в Microsoft Defender и применяйте базовые показатели.](/windows/security/threat-protection/microsoft-defender-antivirus/manage-updates-baselines-microsoft-defender-antivirus)
+Чтобы получить обновления, следуйте указаниям [в антивирусная программа в Microsoft Defender и применяйте базовые показатели.](manage-updates-baselines-microsoft-defender-antivirus.md)
 
 ## <a name="uninstall-your-non-microsoft-solution"></a>Отостановка решения, не влияемого на Корпорацию Майкрософт
 
-Теперь, когда вы включили устройства вашей организации в Defender для конечной точки и антивирусная программа в Microsoft Defender установлено и включено, следующим шагом будет удалить решение по защите конечных точек, не в microsoft. Чтобы получить помощь в решении этой задачи, вы можете связаться с командой технической поддержки поставщика решений.
+Если на данный момент у вас есть:
+
+- На борту устройств организации в Defender для конечной точки и 
+- антивирусная программа в Microsoft Defender установлена и включена, 
+
+Далее необходимо удалить решение по защите конечных точек, не в microsoft. 
+
+Чтобы получить помощь в решении этой задачи, вы можете связаться с командой технической поддержки поставщика решений.
 
 ## <a name="make-sure-defender-for-endpoint-is-working-correctly"></a>Убедитесь, что Defender для конечной точки работает правильно
 
 Теперь, когда вы перенаправили в Defender для конечной точки и вы отостановили свое прежнее решение, не в составе Microsoft, следующим шагом будет убедиться, что Defender для конечной точки работает правильно. Один из хороших способов сделать это, посетив сайт демо-сценариев Defender for Endpoint ( [https://demo.wd.microsoft.com](https://demo.wd.microsoft.com) ). Попробуйте один или несколько демонстрационных сценариев на этой странице, включая по крайней мере следующие:
+
 - Облачная защита
 - Потенциально нежелательные приложения (PUA)
 - Защита сети (NP)
@@ -145,6 +149,5 @@ ms.locfileid: "52539171"
 
 **Поздравляем!** Вы завершили [миграцию в Defender для конечной точки!](switch-to-microsoft-defender-migration.md#the-migration-process) 
 
-- [Посетите панель мониторинга операций безопасности](security-operations-dashboard.md) в Центр безопасности в Microsoft Defender ( [https://aka.ms/MDATPportal](https://aka.ms/MDATPportal) ). 
-
+- [Посетите панель мониторинга операций безопасности](security-operations-dashboard.md) в Центр безопасности в Microsoft Defender ( [https://securitycenter.windows.com](https://securitycenter.windows.com) ). 
 - [Управление защитником для конечной точки, после миграции](manage-atp-post-migration.md).

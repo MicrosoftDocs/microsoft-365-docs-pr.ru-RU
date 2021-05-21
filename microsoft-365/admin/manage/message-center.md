@@ -21,13 +21,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 38fb3333-bfcc-4340-a37b-deda509c2093
-description: Получите обзор центра Microsoft 365 сообщений и его роли в управлении изменениями.
-ms.openlocfilehash: 01e43eb6fa9502c138bfc9ab3595c47ec33ad098
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+description: Получите обзор центра Microsoft 365 сообщений и его роли в отслеживании новых и измененных функций и других важных объявлений.
+ms.openlocfilehash: edef3bb5a9016cf6f65f307fcd7c706bf4424d2f
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537527"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52593961"
 ---
 # <a name="message-center"></a>Центр сообщений
 

@@ -19,14 +19,14 @@ ms.custom:
 - AdminSurgePortfolio
 - commerce_billing
 search.appverid: MET150
-description: Узнайте, как разобраться в расходах, выставлении счетов и данных об оплате по счету за Microsoft 365 для бизнеса и как изменить номер заказа на покупку.
+description: Интерпретирует сведения об оплате, выставлении счетов и платежей в Microsoft 365 счета или счета-фактуры, а также о том, как изменить номер заказа на покупку.
 ms.date: 05/04/2021
-ms.openlocfilehash: febcbdee563c18b3f17ee35b98f2d68b15f456d8
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: aa898f570fb17f2d9e2ebba769e285cb9d507c31
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52535690"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52593529"
 ---
 # <a name="understand-your-bill-or-invoice-for-microsoft-365-for-business"></a>Общие сведения о счетах за Microsoft 365 для бизнеса
 
@@ -134,6 +134,6 @@ ms.locfileid: "52535690"
 
 [Изменение адреса организации, электронной](../../admin/manage/change-address-contact-and-more.md) почты технического контакта и других сведений (статья)
 
-[Оплата Microsoft 365 подписки](pay-for-your-subscription.md) на бизнес (статья)\
+[Оплата подписки Microsoft 365 для бизнеса](pay-for-your-subscription.md) (статья)
 
 [Варианты оплаты Minecraft: Education Edition](/education/windows/school-get-minecraft) (статья)

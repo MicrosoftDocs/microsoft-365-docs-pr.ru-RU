@@ -19,17 +19,17 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: ba256583-03ca-429e-be4d-a92d9c221ad6
-description: Узнайте, как добавить пользователя Microsoft 365 или связаться с группой рассылки. Например, вы можете добавить сотрудника, партнера или поставщика в группу рассылки электронной почты.
-ms.openlocfilehash: f4ca52b02ce3b403fb318a9e092f883e8492d003
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+description: Узнайте, как добавить пользователя Microsoft 365 или контакт, например сотрудника, партнера или поставщика в группу рассылки электронной почты.
+ms.openlocfilehash: 69dea710554b344de4bc221b17d5d8f929b964a5
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52243964"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52593493"
 ---
 # <a name="add-a-user-or-contact-to-a-distribution-group"></a>Добавление пользователя или контакта в группу рассылки
 
-В качестве администратора организации может потребоваться добавить одного из пользователей или контактов в группу рассылки (см. статью [Создание групп рассылки в Microsoft 365.)](../setup/create-distribution-lists.md) Например, можно добавить сотрудников или внешних партнеров или поставщиков в группу рассылки электронной почты.
+В качестве администратора организации может потребоваться добавить одного из пользователей или контактов в группу рассылки (см. в [Microsoft 365).](../setup/create-distribution-lists.md) Например, можно добавить сотрудников или внешних партнеров или поставщиков в группу рассылки электронной почты.
   
 ## <a name="add-a-user-or-contact-to-a-distribution-group"></a>Добавление пользователя или контакта в группу рассылки
 
@@ -44,9 +44,18 @@ ms.locfileid: "52243964"
     ![Добавление участников в группу рассылки](../../media/f79f59f8-1606-43fe-bae6-df74f5b6259d.png)
   
 5. Выберите **Сохранить и** **закрыть**.
+
+## <a name="watch-add-a-user-to-a-distribution-list"></a>Watch: Добавление пользователя в список рассылки
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/ed4e6095-9a6a-4d3d-999d-698c39bb7ec8?autoplay=false]
   
-Узнайте, как [отправлять электронную почту в качестве](../manage/send-email-as-distribution-list.md)группы рассылки в Microsoft 365 .
-  
+## <a name="next-steps"></a>Дальнейшие действия
+
+Научитесь отправлять электронную почту в качестве группы [рассылки в Microsoft 365.](../manage/send-email-as-distribution-list.md)
+
+## <a name="related-content"></a>См. также:
+
+[Управление помехами для организации](configure-clutter.md) (статья)
+
+[Создание общего почтового ящика](create-a-shared-mailbox.md) (статья)
 

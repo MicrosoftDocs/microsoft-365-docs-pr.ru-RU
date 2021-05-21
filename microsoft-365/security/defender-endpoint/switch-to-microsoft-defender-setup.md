@@ -19,14 +19,14 @@ ms.collection:
 - m365solution-migratetomdatp
 ms.topic: article
 ms.custom: migrationguides
-ms.date: 05/14/2021
+ms.date: 05/20/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: e8abf10bd036b5e6e76d08e86ab4963629d2f994
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 2ea8cc323220024406a49eda8d6a7c0b42ca71a4
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537995"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52594053"
 ---
 # <a name="switch-to-microsoft-defender-for-endpoint---phase-2-setup"></a>Переключиться на Microsoft Defender для конечной точки — этап 2: настройка
 
@@ -41,35 +41,31 @@ ms.locfileid: "52537995"
 **Добро пожаловать на этап установки перехода [на Защитник для конечной точки](switch-to-microsoft-defender-migration.md#the-migration-process)**. Этот этап включает в себя следующие действия:
 
 1. [Переустановка/включить антивирусная программа в Microsoft Defender конечных точек](#reinstallenable-microsoft-defender-antivirus-on-your-endpoints).
-
 2. [Настройка Защитника для конечной точки](#configure-defender-for-endpoint).
-
 3. [Добавьте Defender для конечной точки в список исключений для существующего решения.](#add-microsoft-defender-for-endpoint-to-the-exclusion-list-for-your-existing-solution)
-
 4. [Добавьте существующее решение в список исключений для антивирусная программа в Microsoft Defender.](#add-your-existing-solution-to-the-exclusion-list-for-microsoft-defender-antivirus)
-
 5. [Настройка групп устройств, коллекций устройств и подразделений организации.](#set-up-your-device-groups-device-collections-and-organizational-units)
-
 6. [Настройка политик антивирусного обеспечения и защиты в режиме реального времени.](#configure-antimalware-policies-and-real-time-protection)
 
 
 ## <a name="reinstallenable-microsoft-defender-antivirus-on-your-endpoints"></a>Reinstall/enable антивирусная программа в Microsoft Defender конечных точках
 
-В некоторых версиях Windows, антивирусная программа в Microsoft Defender при установке антивирусного и антивирусного решения, не включаемого в Корпорацию Майкрософт, антивирусная программа в Microsoft Defender отключены или отключены. Дополнительные сведения см. [в антивирусная программа в Microsoft Defender совместимости.](microsoft-defender-antivirus-compatibility.md)
+В некоторых версиях Windows, антивирусная программа в Microsoft Defender при установке антивирусного и антивирусного решения антивирусная программа в Microsoft Defender отключены или отключены. До тех пор, пока устройства не будут перенагрузки в Defender for Endpoint, антивирусная программа в Microsoft Defender не будет работать в активном режиме наряду с антивирусным решением, не относяжимым к Майкрософт. Дополнительные возможности см. [в антивирусная программа в Microsoft Defender совместимости.](microsoft-defender-antivirus-compatibility.md)
 
-В Windows клиенты при установке антивирусного и антивирусного решения, не включаемого в Microsoft, антивирусная программа в Microsoft Defender автоматически отключается до тех пор, пока эти устройства не будут переназначатся в Defender для endpoint. Когда конечные точки клиента находятся на борту в Defender for Endpoint, антивирусная программа в Microsoft Defender переходит в пассивный режим до тех пор, пока не будет отсечено антивирусное решение, не в microsoft. антивирусная программа в Microsoft Defender по-прежнему следует установить, но, скорее всего, отключен на данном этапе процесса миграции. Если антивирусная программа в Microsoft Defender не был неустановлен, вам не нужно принимать никаких действий для Windows клиентов.
+Теперь, когда вы планируете перейти на Defender для конечной точки, может потребоваться предпринять определенные действия, чтобы переустановить или включить антивирусная программа в Microsoft Defender. 
 
-На Windows серверах при установке антивирусного и антивирусного программного обеспечения, не включаемого в Microsoft, антивирусная программа в Microsoft Defender отключает вручную (если не отключать). Следующие задачи помогают убедиться, что антивирусная программа в Microsoft Defender установлен и настроен в пассивный режим на Windows Server.
 
-- [Установите отключениеAntiSpyware](#set-disableantispyware-to-false-on-windows-server) на ложный Windows Server (только при необходимости)
+| Тип конечной точки  | Действия  |
+|---------|---------|
+| Windows (например, конечные точки, работающие Windows 10)     | Как правило, вам не нужно принимать какие-либо меры для Windows клиентов (если антивирусная программа в Microsoft Defender не было uninstalled). Вот почему: <p>антивирусная программа в Microsoft Defender по-прежнему следует установить, но, скорее всего, отключен на данном этапе процесса миграции.<p> При установке решения антивируса и антивирусного программного обеспечения, не включаемого в Защитник для конечной точки, антивирусная программа в Microsoft Defender автоматически отключается. <p>Позже, когда конечные точки клиента находятся на борту в Defender для конечной точки, если эти конечные точки работают с антивирусным решением, которое не относится к Майкрософт, антивирусная программа в Microsoft Defender переходит в пассивный режим. <p>Если антивирусное решение, не включаемого в Корпорацию Майкрософт, будет отключлено, антивирусная программа в Microsoft Defender автоматически переходит в активный режим.  |
+|Windows серверов     | На Windows Server необходимо переустановить антивирусная программа в Microsoft Defender и настроить его в пассивный режим вручную. Вот почему: <p>На Windows серверах при установке антивируса и антивируса, не в microsoft, антивирусная программа в Microsoft Defender не может работать вместе с антивирусным решением, не относяжимся к Майкрософт. В этих случаях антивирусная программа в Microsoft Defender отключена или неустановлена вручную. <p>Чтобы переустановить или включить антивирусная программа в Microsoft Defender на Windows Server, выполните следующие taks: <p>- [Установите отключениеAntiSpyware](#set-disableantispyware-to-false-on-windows-server) на ложный Windows Server (только при необходимости)<br/>- [Переустановка антивирусная программа в Microsoft Defender на Windows Server](#reinstall-microsoft-defender-antivirus-on-windows-server)<br/>- [Настройка антивирусная программа в Microsoft Defender пассивного режима на Windows Server](#set-microsoft-defender-antivirus-to-passive-mode-on-windows-server)       |
 
-- [Переустановка антивирусная программа в Microsoft Defender на Windows Server](#reinstall-microsoft-defender-antivirus-on-windows-server) 
 
-- [Настройка антивирусная программа в Microsoft Defender пассивного режима на Windows Server](#set-microsoft-defender-antivirus-to-passive-mode-on-windows-server)
+Дополнительные информацию о антивирусная программа в Microsoft Defender состояниях с антивирусной защитой, не в microsoft, см. в антивирусная программа в Microsoft Defender [совместимости.](microsoft-defender-antivirus-compatibility.md)
 
 ### <a name="set-disableantispyware-to-false-on-windows-server"></a>Установите отключениеAntiSpyware на ложный Windows Server
 
-Ключ [реестра DisableAntiSpyware](/windows-hardware/customize/desktop/unattend/security-malware-windows-defender-disableantispyware) использовался в прошлом для отключения антивирусная программа в Microsoft Defender и развертывания другого антивирусного продукта, например McAfee, Symantec или других. Как правило, этот ключ реестра не должен быть на Windows устройствах и конечных точках; Однако, если у вас есть настройка, вот как установить `DisableAntiSpyware` его значение false:
+Ключ [реестра DisableAntiSpyware](/windows-hardware/customize/desktop/unattend/security-malware-windows-defender-disableantispyware) использовался в прошлом для отключения антивирусная программа в Microsoft Defender и развертывания другого антивирусного продукта, например McAfee, Symantec или других. Как правило, этот ключ реестра не должен быть на Windows **устройствах и конечных точках;** Однако, если *у вас* есть настройка, вот как установить его значение `DisableAntiSpyware` false:
 
 1. На устройстве Windows Server откройте редактор реестра.
 
@@ -100,11 +96,11 @@ ms.locfileid: "52537995"
    `Dism /online /Get-FeatureInfo /FeatureName:Windows-Defender-Features` <p>
    `Dism /online /Get-FeatureInfo /FeatureName:Windows-Defender` <br/>
  
-    > [!NOTE]
-    > При использовании команды DISM в последовательности задач под управлением PS требуется следующий путь к cmd.exe.
-    > Пример:<br/>
-    > `c:\windows\sysnative\cmd.exe /c Dism /online /Get-FeatureInfo /FeatureName:Windows-Defender-Features`<p>
-    > `c:\windows\sysnative\cmd.exe /c Dism /online /Get-FeatureInfo /FeatureName:Windows-Defender`<br/>
+   > [!NOTE]
+   > При использовании команды DISM в последовательности задач под управлением PS требуется следующий путь к cmd.exe.
+   > Пример.<br/>
+   > `c:\windows\sysnative\cmd.exe /c Dism /online /Get-FeatureInfo /FeatureName:Windows-Defender-Features`<p>
+   > `c:\windows\sysnative\cmd.exe /c Dism /online /Get-FeatureInfo /FeatureName:Windows-Defender`<br/>
 
 3. Чтобы проверить антивирусная программа в Microsoft Defender запущен, используйте следующий комдлет PowerShell: <br/>
    `Get-Service -Name windefend`
@@ -127,11 +123,14 @@ ms.locfileid: "52537995"
 
 Если у вас есть конечные точки Windows Server 2016, вы не антивирусная программа в Microsoft Defender запустить антивирусная программа в Microsoft Defender наряду с антивирусным и антивирусным решением, не относя к Майкрософт. антивирусная программа в Microsoft Defender не может работать в пассивном режиме на Windows Server 2016. В этом случае необходимо удалить решение, не влияемого на антивирусы и антивирусные программы Майкрософт, и установить или включить антивирусная программа в Microsoft Defender. Дополнительные дополнительные возможности см. в этой ссылке в списке совместимость антивирусных [решений с Защитником для конечной точки.](microsoft-defender-antivirus-compatibility.md)
 
-Если вы используете Windows Server 2016 и у вас возникли проблемы с включением антивирусная программа в Microsoft Defender, используйте следующий cmdlet PowerShell:
+Если вы используете Windows Server 2016 и у вас возникли проблемы с включением антивирусная программа в Microsoft Defender, выполните следующие действия:
 
-`mpcmdrun -wdenable`
+1. На устройстве откройте PowerShell в качестве администратора.
 
-Дополнительные сведения см. [в антивирусная программа в Microsoft Defender на Windows Server.](microsoft-defender-antivirus-on-windows-server.md)
+2. Введите следующий cmdlet PowerShell: `mpcmdrun -wdenable`
+
+> [!TIP]
+> Дополнительные сведения см. [в антивирусная программа в Microsoft Defender на Windows Server.](microsoft-defender-antivirus-on-windows-server.md)
 
 ## <a name="configure-defender-for-endpoint"></a>Настройка Защитника для конечной точки
 
@@ -171,14 +170,13 @@ ms.locfileid: "52537995"
 
 ### <a name="keep-the-following-points-about-exclusions-in-mind"></a>Имейте в виду следующие пункты об исключениях
 
-При [добавлении исключений в антивирусная программа в Microsoft Defender проверки](/windows/security/threat-protection/microsoft-defender-antivirus/configure-exclusions-microsoft-defender-antivirus)следует добавить исключения пути и процесса. Имейте в виду следующие моменты:
+При [добавлении исключений в антивирусная программа в Microsoft Defender проверки](/windows/security/threat-protection/microsoft-defender-antivirus/configure-exclusions-microsoft-defender-antivirus)следует добавить исключения пути и процесса. 
+
+Имейте в виду следующие моменты:
 
 - *Исключения пути исключают* определенные файлы и все, к каким именно файлам можно получить доступ.
-
 - *Исключения процесса исключают* все, что касается процесса, но не исключают самого процесса.
-
 - Список исключений процесса с использованием полного пути, а не только их имени. (Метод только для имен менее безопасен.)
-
 - Если каждый исполняемый (.exe) как исключение пути, так и исключение процесса, процесс и все, к чем он прикасается, исключаются.
 
 
@@ -197,7 +195,6 @@ ms.locfileid: "52537995"
 С помощью диспетчера конфигурации и коллекции устройств настройте политики антивирусного обеспечения.
 
 - См. [в рублях Create and deploy antimalware policies for Endpoint Protection в Configuration Manager.](/mem/configmgr/protect/deploy-use/endpoint-antimalware-policies)
-
 - При создании и настройке политик антивирусного программного обеспечения [](/mem/configmgr/protect/deploy-use/endpoint-antimalware-policies#real-time-protection-settings) убедитесь, что необходимо просмотреть параметры защиты в режиме реального времени и включить блокировку [на первый взгляд.](configure-block-at-first-sight-microsoft-defender-antivirus.md)
 
 > [!TIP]

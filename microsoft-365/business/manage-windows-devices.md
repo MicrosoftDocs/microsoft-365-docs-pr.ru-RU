@@ -1,5 +1,5 @@
 ---
-title: Включить устройства Windows 10 с помощью домена, управляемые Microsoft 365 для бизнеса
+title: Включить доступ к Windows 10 с помощью Microsoft 365 для бизнеса
 f1.keywords:
 - CSH
 ms.author: efrene
@@ -23,17 +23,17 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-description: Узнайте, как включить Microsoft 365 для защиты локальных устройств с Windows 10 с помощью Active-Directory всего за несколько шагов.
-ms.openlocfilehash: c9f5a21d993200abcf9ecf1fa236879245e1c153
-ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
+description: Узнайте, как Microsoft 365 защитить локальные устройства с Windows 10 active-Directory.
+ms.openlocfilehash: f16962dd3c33c3c228da507bc5c4a902d76a8a08
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51939509"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52593900"
 ---
-# <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business-premium"></a>Включить устройства с windows 10 с помощью домена, управляемые Microsoft 365 Business Premium
+# <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business-premium"></a>Включить устройства с Windows 10 с помощью Microsoft 365 бизнес премиум
 
-Если в организации используется локальный Windows Server Active Directory, можно настроить Microsoft 365 Business Premium для защиты устройств Windows 10, сохраняя при этом доступ к локальным ресурсам, которые требуют локальной проверки подлинности.
+Если в организации используется Windows Server Active Directory, можно настроить Microsoft 365 бизнес премиум для защиты Windows 10 устройств, сохраняя при этом доступ к локальным ресурсам, которые требуют локальной проверки подлинности.
 Чтобы настроить эту защиту, можно реализовать устройства **hybrid Azure AD.** Эти устройства присоединяются как к локальному Active Directory, так и к Azure Active Directory.
 
 В этом видео описываются действия по настройкам этого сценария для наиболее распространенных сценариев, которые также описаны в последующих действиях.
@@ -42,23 +42,23 @@ ms.locfileid: "51939509"
   
 
 ## <a name="before-you-get-started-make-sure-you-complete-these-steps"></a>Перед началом работы убедитесь, что выполните следующие действия:
-- Синхронизация пользователей с Azure AD с Azure AD Connect.
-- Выполните синхронизацию организационного подразделения Azure AD Connect (OU).
-- Убедитесь, что все синхронизированные пользователи домена имеют лицензии на Microsoft 365 Бизнес Премиум.
+- Синхронизация пользователей с Azure AD с azure AD Подключение.
+- Выполните синхронизацию Подключение Azure AD.
+- Убедитесь, что все синхронизированные пользователи домена имеют лицензии на Microsoft 365 бизнес премиум.
 
 См. [в этой записи Синхронизация](manage-domain-users.md) действий пользователей домена с Microsoft.
 
 ## <a name="1-verify-mdm-authority-in-intune"></a>1. Проверка управления MDM в Intune
 
-Перейдите к [диспетчеру](https://endpoint.microsoft.com/#blade/Microsoft_Intune_Enrollment/EnrollmentMenu/overview) конечных точек и на странице Microsoft Intune выберите регистрацию **устройства,** а затем на странице **Обзор** убедитесь, что авторитет **MDM** — **это Intune.**
+Перейдите [Endpoint Manager](https://endpoint.microsoft.com/#blade/Microsoft_Intune_Enrollment/EnrollmentMenu/overview) и на странице Microsoft Intune, выберите регистрацию **устройства,** а затем на странице **Обзор** убедитесь, что **полномочия MDM** **intune**.
 
 - Если **полномочия MDM нет,** нажмите кнопку **MDM,** чтобы настроить его **на Intune**. 
-- Если авторитет **MDM** Microsoft Office **365,** перейдите на устройства Регистрации устройств и используйте диалоговое окно Add MDM authority справа для добавления авторитета  >   **Intune MDM** (диалоговое окно **Add MDM Authority** доступно только в том случае, если для управления  **MDM** установлено Microsoft Office 365).
+- Если полномочия **MDM** **Microsoft Office 365,** перейдите на устройства Для регистрации устройств и используйте диалоговое окно Add MDM authority справа для добавления полномочий  >   **Intune MDM** (диалоговое окно **Add MDM Authority** доступно только в том случае, если для управления **MDM** установлено Microsoft Office 365). 
 
 ## <a name="2-verify-azure-ad-is-enabled-for-joining-computers"></a>2. Проверка включения Azure AD для присоединения к компьютерам
 
-- Перейдите в центр администрирования и выберите <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> **Azure Active Directory** (выберите Показать все, если Azure Active Directory не отображается) в списке **центров администрирования.** 
-- В центре **администрирования Azure Active Directory** перейдите в Azure Active Directory ( **Azure Active Directory),** выберите **параметры Устройств** и затем **параметры устройств.**
+- Перейдите в центр администрирования и выберите Azure Active Directory (выберите Показать все, если Azure Active Directory не отображается) в <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> списке **центров администрирования.**  
+- В центре **Azure Active Directory администрирования** перейдите **в Azure Active Directory,** выберите **параметры Устройств** и **устройств.**
 - Проверка **того, что пользователи могут присоединяться к устройствам в Azure AD,** включена 
     1. Чтобы включить всех пользователей, установите **все**.
     2. Чтобы включить определенных пользователей, **установите выбранный,** чтобы включить определенную группу пользователей.
@@ -67,11 +67,11 @@ ms.locfileid: "51939509"
 
 ## <a name="3-verify-azure-ad-is-enabled-for-mdm"></a>3. Проверка включения Azure AD для MDM
 
-- Перейдите в центр администрирования и выберите <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>  выберите **endpoint Managemen** t (выберите **Показать** все, если **диспетчер** конечных точек не виден)
-- В центре **администрирования Microsoft Endpoint Manager** перейдите к **устройствам**  >  **Windows Windows**  >    >  **Автоматическая регистрация регистрации.**
+- Перейдите в центр администрирования и выберите <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> выберите **endpoint Managemen** t (выберите **Показать** все, **если** Endpoint Manager не отображается)
+- В центре **Microsoft Endpoint Manager администрирования** перейдите к **устройствам** Windows  >    >  **Windows**  >  **регистрации.**
 - Проверка включенной пользовательской области MDM.
 
-    1. Чтобы зарегистрироваться на всех  компьютерах, установите для всех автоматически зачислить все пользовательские компьютеры, которые присоединяются к Azure AD и новым компьютерам при добавлении учетной записи работы в Windows.
+    1. Чтобы зарегистрироваться на всех  компьютерах, установите для всех автоматически зачислить все пользовательские компьютеры, которые присоединяются к Azure AD и новым компьютерам, когда пользователи добавляют учетную запись в Windows.
     2. Установите для **некоторых** для регистрации компьютеров определенной группы пользователей.
         -  Добавьте нужных пользователей домена, синхронизированных в Azure AD, в [группу безопасности.](../admin/create-groups/create-groups.md)
         -  Выберите **выберите группы,** чтобы включить область пользовательского интерфейса MDM для этой группы безопасности.
@@ -87,16 +87,16 @@ Install-Module SecMgmt
 ```
 
 > [!IMPORTANT]
-> Рекомендуется установить этот модуль на Windows Server под управлением Azure AD Connect.
+> Рекомендуется установить этот модуль на сервере Windows Azure AD Подключение.
 
-Чтобы создать требуемую точку подключения к службе и групповую политику, необходимо вызвать групповую группу [Initialize-SecMgmtHybirdDeviceEnrollment.](https://github.com/microsoft/secmgmt-open-powershell/blob/master/docs/help/Initialize-SecMgmtHybirdDeviceEnrollment.md) При выполнении этой задачи вам потребуется глобальная учетная запись администратора Microsoft 365 Business Premium. Когда вы будете готовы создать ресурсы, привяйте следующие ссылки:
+Чтобы создать требуемую точку подключения к службе и групповую политику, необходимо вызвать групповую группу [Initialize-SecMgmtHybirdDeviceEnrollment.](https://github.com/microsoft/secmgmt-open-powershell/blob/master/docs/help/Initialize-SecMgmtHybirdDeviceEnrollment.md) При выполнении этой задачи Microsoft 365 бизнес премиум глобальные учетные данные администратора. Когда вы будете готовы создать ресурсы, привяйте следующие ссылки:
 
 ```powershell
 PS C:\> Connect-SecMgmtAccount
 PS C:\> Initialize-SecMgmtHybirdDeviceEnrollment -GroupPolicyDisplayName 'Device Management'
 ```
 
-Первая команда установит подключение к облаку Майкрософт, а при запросе укажите учетные данные глобального администратора Microsoft 365 Business Premium.
+Первая команда установит подключение к облаку Майкрософт, а когда вам будет предложено, укажите Microsoft 365 бизнес премиум учетные данные администратора.
 
 ## <a name="5-link-the-group-policy"></a>5. Ссылка групповой политики
 
@@ -105,18 +105,22 @@ PS C:\> Initialize-SecMgmtHybirdDeviceEnrollment -GroupPolicyDisplayName 'Device
 
 ## <a name="get-the-latest-administrative-templates"></a>Получить последние административные шаблоны
 
-Если вы не видите политики Включить автоматическую регистрацию **MDM** с помощью учетных данных Azure AD по умолчанию, это может быть потому, что у вас нет ADMX, установленного для Windows 10, версии 1803 или более поздней версии. Чтобы устранить проблему, выполните следующие действия (Примечание: последняя версия MDM.admx совместима с обратной совместимость):
+Если вы не видите политику Включить автоматическую регистрацию **MDM** с помощью учетных данных Azure AD по умолчанию, это может быть из-за того, что у вас нет установки ADMX для Windows 10 версии 1803 или более поздней версии. Чтобы устранить проблему, выполните следующие действия (Примечание: последняя версия MDM.admx совместима с обратной совместимость):
 
-1.  Скачать: [Административные шаблоны (.admx) для Windows 10 Октябрь 2020 Обновление (20H2)](https://www.microsoft.com/download/102157).
+1.  Загрузка: [Административные шаблоны (.admx) для Windows 10 2020 обновления (20H2).](https://www.microsoft.com/download/102157)
 2.  Установите пакет на контроллер домена.
-3.  Перейдите в зависимости от версии административных шаблонов в папку: **C:\Program Files (x86)\Microsoft Group Policy\Windows 10 October 2020 Update (20H2)**.
+3.  Перейдите в зависимости от версии административных шаблонов в папку: **C:\Program Files (x86)\Microsoft Group Policy\Windows 10 октябрь 2020 г. Обновление (20H2)**.
 4.  Переименовать **папку Определения политики** в вышеуказанном пути в **PolicyDefinitions**.
-5.  Скопируйте **папку PolicyDefinitions** в свою долю SYSVOL по умолчанию, расположенную в **C:\Windows\SYSVOL\domain\Policies.** 
+5.  Скопируйте **папку PolicyDefinitions** в свою долю SYSVOL по умолчанию, расположенную в **C:\Windows\SYSVOL\domain\Policies**. 
     -   Если вы планируете использовать центральный магазин политик для всего домена, добавьте туда содержимое PolicyDefinitions.
 6.  Если у вас есть несколько контроллеров домена, подождите, пока SYSVOL будет реплицировать доступные политики. Эта процедура будет работать и для любой будущей версии административных шаблонов.
 
 На этом этапе вы сможете увидеть политику Включить автоматическую регистрацию **MDM** с помощью доступных учетных данных Azure AD по умолчанию.
 
-## <a name="related-content"></a>Связанные материалы
+## <a name="related-content"></a>См. также:
 
-Синхронизация пользователей домена с [Microsoft 365](manage-domain-users.md) (статья) [](../admin/create-groups/create-groups.md) Создание группы в центре администрирования (статья) [Руководство: Настройка](/azure/active-directory/devices/hybrid-azuread-join-managed-domains.md) гибридного лазурного активного каталога для управляемых доменов (статья)
+[Синхронизация пользователей домена с Microsoft 365](manage-domain-users.md) (статья)
+
+[Создание группы в центре администрирования](../admin/create-groups/create-groups.md) (статья)
+
+[Руководство. Настройка гибридного Azure Active Directory для управляемых доменов](/azure/active-directory/devices/hybrid-azuread-join-managed-domains.md) (статья)

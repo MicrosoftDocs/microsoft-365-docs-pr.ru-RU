@@ -16,12 +16,12 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: da4b7fce66a6c51da61edd7c44216ee268c3156a
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 0852cc5af2de6767e202e3a839c498e7e008eef3
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538667"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52593857"
 ---
 # <a name="use-attack-surface-reduction-rules-to-prevent-malware-infection"></a>Используйте правила уменьшения поверхности атаки, чтобы предотвратить заражение вредоносными программами
 
@@ -49,7 +49,7 @@ ms.locfileid: "52538667"
 
 ## <a name="assess-rule-impact-before-deployment"></a>Оценка влияния правил перед развертыванием
 
-Вы можете оценить, как правило уменьшения поверхности атаки может повлиять на сеть, открыв рекомендации по безопасности для этого правила в [контроль угроз и уязвимостей](https://docs.microsoft.com/windows/security/threat-protection/#tvm).
+Вы можете оценить, как правило уменьшения поверхности атаки может повлиять на сеть, открыв рекомендации по безопасности для этого правила в [контроль угроз и уязвимостей](/windows/security/threat-protection/#tvm).
 
 :::image type="content" source="images/asrrecommendation.png" alt-text="Reco безопасности для правила уменьшения поверхности атаки":::
 
@@ -69,12 +69,12 @@ ms.locfileid: "52538667"
 
 Режим Warn поддерживается на устройствах, работающих в следующих версиях Windows:
 
-- [Windows 10 версии 1809](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1809) или более поздней версии
-- [Windows Server версии 1809](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809) или более поздней версии
+- [Windows 10 версии 1809](/windows/whats-new/whats-new-windows-10-version-1809) или более поздней версии
+- [Windows Server версии 1809](/windows-server/get-started/whats-new-in-windows-server-1809) или более поздней версии
 
-антивирусная программа в Microsoft Defender должна работать с защитой в режиме реального времени в [режиме Active.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility#functionality-and-features-available-in-each-state)
+антивирусная программа в Microsoft Defender должна работать с защитой в режиме реального времени в [режиме Active.](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility#functionality-and-features-available-in-each-state)
 
-Кроме того, убедитесь, [что антивирусная программа в Microsoft Defender и антивирусных обновлений](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/manage-updates-baselines-microsoft-defender-antivirus#monthly-platform-and-engine-versions) установлены.
+Кроме того, убедитесь, [что антивирусная программа в Microsoft Defender и антивирусных обновлений](/windows/security/threat-protection/microsoft-defender-antivirus/manage-updates-baselines-microsoft-defender-antivirus#monthly-platform-and-engine-versions) установлены.
 
 - Минимальное требование к выпуску платформы: `4.18.2008.9`
 - Минимальное требование к выпуску двигателя: `1.1.17400.5`
@@ -111,12 +111,12 @@ ms.locfileid: "52538667"
 
 Вы можете установить правила уменьшения поверхности атаки для устройств, которые работают с любыми из следующих выпусков и версий Windows:
 
-- Windows 10 Pro версии [1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) или более поздней версии
-- Windows 10 Корпоративная версии [1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) или более поздней версии
-- Windows Сервер, [версия 1803 (полугодовой канал)](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1803) или более поздний
-- [Windows Server 2019](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
+- Windows 10 Pro версии [1709](/windows/whats-new/whats-new-windows-10-version-1709) или более поздней версии
+- Windows 10 Корпоративная версии [1709](/windows/whats-new/whats-new-windows-10-version-1709) или более поздней версии
+- Windows Сервер, [версия 1803 (полугодовой канал)](/windows-server/get-started/whats-new-in-windows-server-1803) или более поздний
+- [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 
-Хотя правила уменьшения поверхности атаки не требуют лицензии Windows E5, если у вас есть Windows [E5,](https://docs.microsoft.com/windows/deployment/deploy-enterprise-licenses)вы получите расширенные возможности управления. Эти возможности, доступные только в Windows E5, включают мониторинг, аналитику и рабочий процесс, доступные в [Defender для](microsoft-defender-endpoint.md)конечной точки, а также возможности отчетности и [конфигурации](https://docs.microsoft.com/microsoft-365/security/defender/overview-security-center)в центре безопасности Microsoft 365 безопасности . Эти расширенные возможности недоступны с лицензией Windows Professional или Windows E3; Однако, если у вас есть эти лицензии, вы можете использовать журналы viewer и антивирусная программа в Microsoft Defender для просмотра событий правила уменьшения поверхности атаки.
+Хотя правила уменьшения поверхности атаки не требуют лицензии Windows E5, если у вас есть Windows [E5,](/windows/deployment/deploy-enterprise-licenses)вы получите расширенные возможности управления. Эти возможности, доступные только в Windows E5, включают мониторинг, аналитику и рабочий процесс, доступные в [Defender для](microsoft-defender-endpoint.md)конечной точки, а также возможности отчетности и [конфигурации](/microsoft-365/security/defender/overview-security-center)в центре безопасности Microsoft 365 безопасности . Эти расширенные возможности недоступны с лицензией Windows Professional или Windows E3; Однако, если у вас есть эти лицензии, вы можете использовать журналы viewer и антивирусная программа в Microsoft Defender для просмотра событий правила уменьшения поверхности атаки.
 
 ## <a name="review-attack-surface-reduction-events-in-the-microsoft-defender-security-center"></a>Просмотр событий уменьшения поверхности атаки в Центр безопасности в Microsoft Defender
 
@@ -148,7 +148,6 @@ DeviceEvents
 |5007|Событие при смене параметров|
 |1121|Событие при пожаре правила в block-mode|
 |1122|Событие при пожаре правила в режиме аудита|
-|
 
 "Версия двигателя", указанная для событий уменьшения поверхности атаки в журнале событий, создается защитником для конечной точки, а не операционной системой. Defender for Endpoint интегрирован с Windows 10, поэтому эта функция работает на всех устройствах с Windows 10 установленной.
 
@@ -160,22 +159,22 @@ DeviceEvents
 
 |Имя правила|GUID|Исключения & папки|Минимальная поддержка ОС|
 |---|:---:|---|---|
-|[Блокировка злоупотреблений с использованием уязвимых подписанных драйверов](#block-abuse-of-exploited-vulnerable-signed-drivers)|`56a863a9-875e-4185-98a7-b882c64b5ce5`|Поддерживается|[Windows 10 версии 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) (RS3, сборка 16299) или больше) |
+|[Блокировка злоупотреблений с использованием уязвимых подписанных драйверов](#block-abuse-of-exploited-vulnerable-signed-drivers)|`56a863a9-875e-4185-98a7-b882c64b5ce5`|Поддерживается|[Windows 10 версии 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, сборка 16299) или больше) |
 |[Блокировка Adobe Reader от создания детских процессов](#block-adobe-reader-from-creating-child-processes)|`7674ba52-37eb-4a4f-a9a1-f0f9a1619a2c`|Поддерживается|[Windows 10 версии 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) (RS3, сборка 16299) или более|
 |[Блокировка всех Office приложений от создания детских процессов](#block-all-office-applications-from-creating-child-processes)|`D4F940AB-401B-4EFC-AADC-AD5F3C50688A`|Поддерживается|[Windows 10 версии 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) (RS3, сборка 16299) или более|
-|[Блокировка кражи учетных данных из Windows локальной подсистемы органов безопасности (lsass.exe)](#block-credential-stealing-from-the-windows-local-security-authority-subsystem)|`9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2`|Поддерживается|[Windows 10 версии 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) (RS3, сборка 16299) или более|
-|[Блокировка исполняемого контента из клиента электронной почты и веб-почты](#block-executable-content-from-email-client-and-webmail)|`BE9BA2D9-53EA-4CDC-84E5-9B1EEEE46550`|Поддерживается|[Windows 10 версии 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) (RS3, сборка 16299) или более|
-|[Блокировать выполнение файлов, если они не соответствуют критерию распространенности, возраста или доверенного списка](#block-executable-files-from-running-unless-they-meet-a-prevalence-age-or-trusted-list-criterion)|`01443614-cd74-433a-b99e-2ecdc07bfc25`|Поддерживается|[Windows 10 версии 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) (RS3, сборка 16299) или более|
-|[Блокировка выполнения потенциально запутаных скриптов](#block-execution-of-potentially-obfuscated-scripts)|`5BEB7EFE-FD9A-4556-801D-275E5FFC04CC`|Поддерживается|[Windows 10 версии 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) (RS3, сборка 16299) или более|
-|[Блокировка JavaScript или VBScript от запуска загружаемого исполняемого контента](#block-javascript-or-vbscript-from-launching-downloaded-executable-content)|`D3E037E1-3EB8-44C8-A917-57927947596D`|Поддерживается|[Windows 10 версии 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) (RS3, сборка 16299) или более|
-|[Блокировка Office приложений от создания исполняемого контента](#block-office-applications-from-creating-executable-content)|`3B576869-A4EC-4529-8536-B80A7769E899`|Поддерживается|[Windows 10 версии 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) (RS3, сборка 16299) или более|
-|[Блокировка Office приложений от внесения кода в другие процессы](#block-office-applications-from-injecting-code-into-other-processes)|`75668C1F-73B5-4CF0-BB93-3ECF5CB7CC84`|Поддерживается|[Windows 10 версии 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) (RS3, сборка 16299) или более|
-|[Блокировка Office приложения связи от создания детских процессов](#block-office-communication-application-from-creating-child-processes)|`26190899-1602-49e8-8b27-eb1d0a1ce869`|Поддерживается|[Windows 10 версии 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) (RS3, сборка 16299) или более|
-|[Блокировка сохраняемости с помощью подписки на события WMI](#block-persistence-through-wmi-event-subscription)|`e6db77e5-3df2-4cf1-b95a-636979351e5b`|Не поддерживается|[Windows 10 версии 1903](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1903) (сборка 18362) или более|
-|[Блокировка создания процессов, происходящих из команд PSExec и WMI](#block-process-creations-originating-from-psexec-and-wmi-commands)|`d1e49aac-8f56-4280-b9ba-993a6d77406c`|Поддерживается|[Windows 10 версии 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) (RS3, сборка 16299) или более|
-|[Блокировка ненарушимых и неподписаных процессов, которые запускают из USB](#block-untrusted-and-unsigned-processes-that-run-from-usb)|`b2b3f03d-6a65-4f7b-a9c7-1c7ef74a9ba4`|Поддерживается|[Windows 10 версии 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) (RS3, сборка 16299) или более|
-|[Блоки вызовов API Win32 из Office макрос](#block-win32-api-calls-from-office-macros)|`92E97FA1-2EDF-4476-BDD6-9DD0B4DDDC7B`|Поддерживается|[Windows 10 версии 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) (RS3, сборка 16299) или более|
-|[Используйте расширенные средства защиты от программ-вымогателей](#use-advanced-protection-against-ransomware)|`c1db55ab-c21a-4637-bb3f-a12568109d35`|Поддерживается|[Windows 10 версии 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) (RS3, сборка 16299) или более|
+|[Блокировка кражи учетных данных из Windows локальной подсистемы органов безопасности (lsass.exe)](#block-credential-stealing-from-the-windows-local-security-authority-subsystem)|`9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2`|Поддерживается|[Windows 10 версии 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, сборка 16299) или более|
+|[Блокировка исполняемого контента из клиента электронной почты и веб-почты](#block-executable-content-from-email-client-and-webmail)|`BE9BA2D9-53EA-4CDC-84E5-9B1EEEE46550`|Поддерживается|[Windows 10 версии 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, сборка 16299) или более|
+|[Блокировать выполнение файлов, если они не соответствуют критерию распространенности, возраста или доверенного списка](#block-executable-files-from-running-unless-they-meet-a-prevalence-age-or-trusted-list-criterion)|`01443614-cd74-433a-b99e-2ecdc07bfc25`|Поддерживается|[Windows 10 версии 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, сборка 16299) или более|
+|[Блокировка выполнения потенциально запутаных скриптов](#block-execution-of-potentially-obfuscated-scripts)|`5BEB7EFE-FD9A-4556-801D-275E5FFC04CC`|Поддерживается|[Windows 10 версии 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, сборка 16299) или более|
+|[Блокировка JavaScript или VBScript от запуска загружаемого исполняемого контента](#block-javascript-or-vbscript-from-launching-downloaded-executable-content)|`D3E037E1-3EB8-44C8-A917-57927947596D`|Поддерживается|[Windows 10 версии 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, сборка 16299) или более|
+|[Блокировка Office приложений от создания исполняемого контента](#block-office-applications-from-creating-executable-content)|`3B576869-A4EC-4529-8536-B80A7769E899`|Поддерживается|[Windows 10 версии 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, сборка 16299) или более|
+|[Блокировка Office приложений от внесения кода в другие процессы](#block-office-applications-from-injecting-code-into-other-processes)|`75668C1F-73B5-4CF0-BB93-3ECF5CB7CC84`|Поддерживается|[Windows 10 версии 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, сборка 16299) или более|
+|[Блокировка Office приложения связи от создания детских процессов](#block-office-communication-application-from-creating-child-processes)|`26190899-1602-49e8-8b27-eb1d0a1ce869`|Поддерживается|[Windows 10 версии 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, сборка 16299) или более|
+|[Блокировка сохраняемости с помощью подписки на события WMI](#block-persistence-through-wmi-event-subscription)|`e6db77e5-3df2-4cf1-b95a-636979351e5b`|Не поддерживается|[Windows 10 версии 1903](/windows/whats-new/whats-new-windows-10-version-1903) (сборка 18362) или более|
+|[Блокировка создания процессов, происходящих из команд PSExec и WMI](#block-process-creations-originating-from-psexec-and-wmi-commands)|`d1e49aac-8f56-4280-b9ba-993a6d77406c`|Поддерживается|[Windows 10 версии 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, сборка 16299) или более|
+|[Блокировка ненарушимых и неподписаных процессов, которые запускают из USB](#block-untrusted-and-unsigned-processes-that-run-from-usb)|`b2b3f03d-6a65-4f7b-a9c7-1c7ef74a9ba4`|Поддерживается|[Windows 10 версии 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, сборка 16299) или более|
+|[Блоки вызовов API Win32 из Office макрос](#block-win32-api-calls-from-office-macros)|`92E97FA1-2EDF-4476-BDD6-9DD0B4DDDC7B`|Поддерживается|[Windows 10 версии 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, сборка 16299) или более|
+|[Используйте расширенные средства защиты от программ-вымогателей](#use-advanced-protection-against-ransomware)|`c1db55ab-c21a-4637-bb3f-a12568109d35`|Поддерживается|[Windows 10 версии 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, сборка 16299) или более|
 |
 
 ### <a name="block-abuse-of-exploited-vulnerable-signed-drivers"></a>Блокировка злоупотреблений с использованием уязвимых подписанных драйверов
@@ -194,10 +193,10 @@ DeviceEvents
 
 Это правило поддерживается во всех версиях, в которых поддерживается ASR; который:
 
-- [Windows 10 Pro версии 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) или более поздней версии
-- [Windows 10 Корпоративная версии 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) или более поздней версии
-- [Windows Server, версия 1803 (полугодовой канал)](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1803) или более поздней версии
-- [Windows Server 2019](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
+- [Windows 10 Pro версии 1709](/windows/whats-new/whats-new-windows-10-version-1709) или более поздней версии
+- [Windows 10 Корпоративная версии 1709](/windows/whats-new/whats-new-windows-10-version-1709) или более поздней версии
+- [Windows Server, версия 1803 (полугодовой канал)](/windows-server/get-started/whats-new-in-windows-server-1803) или более поздней версии
+- [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 
 Имя Intune: `Block abuse of exploited vulnerable signed drivers`
 
@@ -211,9 +210,9 @@ GUID:  `56a863a9-875e-4185-98a7-b882c64b5ce5`
 
 Это правило было введено в:
 
-- [Windows 10 версии 1809](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1809)
-- [Windows Сервер, версия 1809](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
-- [Windows Server 2019](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
+- [Windows 10 версии 1809](/windows/whats-new/whats-new-windows-10-version-1809)
+- [Windows Сервер, версия 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
+- [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 
 Имя Intune: `Process creation from Adobe Reader (beta)`
 
@@ -229,10 +228,10 @@ GUID: `7674ba52-37eb-4a4f-a9a1-f0f9a1619a2c`
 
 Это правило было введено в:
 
-- [Windows 10 версии 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709)
-- [Windows Сервер, версия 1809](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
-- [Windows Server 2019](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
-- [Диспетчер конфигурации CB 1710](https://docs.microsoft.com/configmgr/core/servers/manage/updates)
+- [Windows 10 версии 1709](/windows/whats-new/whats-new-windows-10-version-1709)
+- [Windows Сервер, версия 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
+- [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
+- [Диспетчер конфигурации CB 1710](/configmgr/core/servers/manage/updates)
 
 Имя Intune: `Office apps launching child processes`
 
@@ -251,10 +250,10 @@ LSASS позволяет проверить подлинность пользо�
 
 Это правило было введено в:
 
-- [Windows 10 версии 1803](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1803)
-- [Windows Сервер, версия 1809](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
-- [Windows Server 2019](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
-- [Диспетчер конфигурации CB 1802](https://docs.microsoft.com/configmgr/core/servers/manage/updates)
+- [Windows 10 версии 1803](/windows/whats-new/whats-new-windows-10-version-1803)
+- [Windows Сервер, версия 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
+- [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
+- [Диспетчер конфигурации CB 1802](/configmgr/core/servers/manage/updates)
 
 Имя Intune: `Flag credential stealing from the Windows local security authority subsystem`
 
@@ -271,10 +270,10 @@ GUID: `9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2`
 
 Это правило было введено в:
 
-- [Windows 10 версии 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709)
-- [Windows Сервер, версия 1809](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
-- [Windows Server 2019](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
-- [Microsoft Endpoint Manager CB 1710](https://docs.microsoft.com/configmgr/core/servers/manage/updates)
+- [Windows 10 версии 1709](/windows/whats-new/whats-new-windows-10-version-1709)
+- [Windows Сервер, версия 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
+- [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
+- [Microsoft Endpoint Manager CB 1710](/configmgr/core/servers/manage/updates)
 
 Имя Intune: `Execution of executable content (exe, dll, ps, js, vbs, etc.) dropped from email (webmail/mail client) (no exceptions)`
 
@@ -298,7 +297,7 @@ GUID: `BE9BA2D9-53EA-4CDC-84E5-9B1EEEE46550`
 Запуск неустановленных или неизвестных исполняемых файлов может быть рискованным, так как изначально может быть не ясно, являются ли файлы вредоносными.
 
 > [!IMPORTANT]
-> Вы должны [включить облачную защиту для](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/enable-cloud-protection-microsoft-defender-antivirus) использования этого правила.
+> Вы должны [включить облачную защиту для](/windows/security/threat-protection/microsoft-defender-antivirus/enable-cloud-protection-microsoft-defender-antivirus) использования этого правила.
 >
 > Правило Блокировать выполнение файлов, если они не отвечают критерию **распространенности,** возраста или доверенного списка с GUID, принадлежат Корпорации Майкрософт и не указаны `01443614-cd74-433a-b99e-2ecdc07bfc25` администраторами. Это правило использует облачную защиту для регулярного обновления доверенного списка.
 >
@@ -306,10 +305,10 @@ GUID: `BE9BA2D9-53EA-4CDC-84E5-9B1EEEE46550`
 
 Это правило было введено в:
 
-- [Windows 10 версии 1803](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1803)
-- [Windows Сервер, версия 1809](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
-- [Windows Server 2019](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
-- [Диспетчер конфигурации CB 1802](https://docs.microsoft.com/configmgr/core/servers/manage/updates)
+- [Windows 10 версии 1803](/windows/whats-new/whats-new-windows-10-version-1803)
+- [Windows Сервер, версия 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
+- [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
+- [Диспетчер конфигурации CB 1802](/configmgr/core/servers/manage/updates)
 
 Имя Intune: `Executables that don't meet a prevalence, age, or trusted list criteria`
 
@@ -325,10 +324,10 @@ GUID: `01443614-cd74-433a-b99e-2ecdc07bfc25`
 
 Это правило было введено в:
 
-- [Windows 10 версии 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709)
-- [Windows Сервер, версия 1809](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
-- [Windows Server 2019](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
-- [Диспетчер конфигурации CB 1710](https://docs.microsoft.com/configmgr/core/servers/manage/updates)
+- [Windows 10 версии 1709](/windows/whats-new/whats-new-windows-10-version-1709)
+- [Windows Сервер, версия 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
+- [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
+- [Диспетчер конфигурации CB 1710](/configmgr/core/servers/manage/updates)
 
 Имя Intune: `Obfuscated js/vbs/ps/macro code`
 
@@ -344,10 +343,10 @@ GUID: `5BEB7EFE-FD9A-4556-801D-275E5FFC04CC`
 
 Это правило было введено в:
 
-- [Windows 10 версии 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709)
-- [Windows Сервер, версия 1809](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
-- [Windows Server 2019](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
-- [Диспетчер конфигурации CB 1710](https://docs.microsoft.com/configmgr/core/servers/manage/updates)
+- [Windows 10 версии 1709](/windows/whats-new/whats-new-windows-10-version-1709)
+- [Windows Сервер, версия 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
+- [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
+- [Диспетчер конфигурации CB 1710](/configmgr/core/servers/manage/updates)
 
 Имя Intune: `js/vbs executing payload downloaded from Internet (no exceptions)`
 
@@ -363,10 +362,10 @@ GUID: `D3E037E1-3EB8-44C8-A917-57927947596D`
 
 Это правило было введено в:
 
-- [Windows 10 версии 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709)
-- [Windows Сервер, версия 1809](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
-- [Windows Server 2019](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
-- [System Center Configuration Manager](https://docs.microsoft.com/configmgr/core/servers/manage/updates) (SCCM) CB 1710 (SCCM теперь Microsoft Endpoint Configuration Manager)
+- [Windows 10 версии 1709](/windows/whats-new/whats-new-windows-10-version-1709)
+- [Windows Сервер, версия 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
+- [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
+- [System Center Configuration Manager](/configmgr/core/servers/manage/updates) (SCCM) CB 1710 (SCCM теперь Microsoft Endpoint Configuration Manager)
 
 Имя Intune: `Office apps/macros creating executable content`
 
@@ -386,10 +385,10 @@ GUID: `3B576869-A4EC-4529-8536-B80A7769E899`
 
 Это правило было введено в:
 
-- [Windows 10 версии 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709)
-- [Windows Сервер, версия 1809](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
-- [Windows Server 2019](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
-- [Диспетчер конфигурации CB 1710](https://docs.microsoft.com/configmgr/core/servers/manage/updates)
+- [Windows 10 версии 1709](/windows/whats-new/whats-new-windows-10-version-1709)
+- [Windows Сервер, версия 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
+- [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
+- [Диспетчер конфигурации CB 1710](/configmgr/core/servers/manage/updates)
 
 Имя Intune: `Office apps injecting code into other processes (no exceptions)`
 
@@ -404,13 +403,13 @@ GUID: `75668C1F-73B5-4CF0-BB93-3ECF5CB7CC84`
 Это правило защищает от атак социальной инженерии и предотвращает использование кода от использования уязвимостей в Outlook. Он также защищает Outlook [правил](https://blogs.technet.microsoft.com/office365security/defending-against-rules-and-forms-injection/) и форм эксплойтов, которые злоумышленники могут использовать при взломе учетных данных пользователя.
 
 > [!NOTE]
-> Это правило применяется только к Outlook и Outlook.com.
+> Это правило блокирует советы политики DLP и ToolTips в Outlook. Это правило применяется только к Outlook и Outlook.com. 
 
 Это правило было введено в:
 
-- [Windows 10 версии 1809](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1809)
-- [Windows Сервер, версия 1809](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
-- [Windows Server 2019](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
+- [Windows 10 версии 1809](/windows/whats-new/whats-new-windows-10-version-1809)
+- [Windows Сервер, версия 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
+- [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 
 Имя Intune: `Process creation from Office communication products (beta)`
 
@@ -429,8 +428,8 @@ GUID: `26190899-1602-49e8-8b27-eb1d0a1ce869`
 
 Это правило было введено в:
 
-- [Windows 10 версии 1903 г.](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1903)
-- [Windows Server 1903](https://docs.microsoft.com/windows-server/get-started-19/whats-new-in-windows-server-1903-1909)
+- [Windows 10 версии 1903 г.](/windows/whats-new/whats-new-windows-10-version-1903)
+- [Windows Server 1903](/windows-server/get-started-19/whats-new-in-windows-server-1903-1909)
 
 Имя Intune. Недоступный
 
@@ -440,16 +439,16 @@ GUID: `e6db77e5-3df2-4cf1-b95a-636979351e5b`
 
 ### <a name="block-process-creations-originating-from-psexec-and-wmi-commands"></a>Блокировка создания процессов, происходящих из команд PSExec и WMI
 
-Это правило блокирует запуск процессов, созданных [с помощью PsExec](https://docs.microsoft.com/sysinternals/downloads/psexec) [и WMI.](https://docs.microsoft.com/windows/win32/wmisdk/about-wmi) PsExec и WMI могут удаленно выполнять код, поэтому существует риск злоупотребления этой функцией вредоносными программами в командных и контрольных целях или распространения инфекции по всей сети организации.
+Это правило блокирует запуск процессов, созданных [с помощью PsExec](/sysinternals/downloads/psexec) [и WMI.](/windows/win32/wmisdk/about-wmi) PsExec и WMI могут удаленно выполнять код, поэтому существует риск злоупотребления этой функцией вредоносными программами в командных и контрольных целях или распространения инфекции по всей сети организации.
 
 > [!WARNING]
-> Используйте это правило только в том случае, если вы управляете устройствами с [помощью intune](https://docs.microsoft.com/intune) или другого решения MDM. Это правило несовместимо с управлением с помощью [Microsoft Endpoint Configuration Manager,](https://docs.microsoft.com/configmgr) так как это правило блокирует команду WMI, которая используется клиентом Configuration Manager для правильной работы.
+> Используйте это правило только в том случае, если вы управляете устройствами с [помощью intune](/intune) или другого решения MDM. Это правило несовместимо с управлением с помощью [Microsoft Endpoint Configuration Manager,](/configmgr) так как это правило блокирует команду WMI, которая используется клиентом Configuration Manager для правильной работы.
 
 Это правило было введено в:
 
-- [Windows 10 версии 1803](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1803)
-- [Windows Сервер, версия 1809](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
-- [Windows Server 2019](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
+- [Windows 10 версии 1803](/windows/whats-new/whats-new-windows-10-version-1803)
+- [Windows Сервер, версия 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
+- [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 
 Имя Intune: `Process creation from PSExec and WMI commands`
 
@@ -463,10 +462,10 @@ GUID: `d1e49aac-8f56-4280-b9ba-993a6d77406c`
 
 Это правило было введено в:
 
-- [Windows 10 версии 1803](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1803)
-- [Windows Сервер, версия 1809](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
-- [Windows Server 2019](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
-- [Диспетчер конфигурации CB 1802](https://docs.microsoft.com/configmgr/core/servers/manage/updates)
+- [Windows 10 версии 1803](/windows/whats-new/whats-new-windows-10-version-1803)
+- [Windows Сервер, версия 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
+- [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
+- [Диспетчер конфигурации CB 1802](/configmgr/core/servers/manage/updates)
 
 Имя Intune: `Untrusted and unsigned processes that run from USB`
 
@@ -482,10 +481,10 @@ Office VBA включает вызовы API Win32. Вредоносные пр�
 
 Это правило было введено в:
 
-- [Windows 10 версии 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709)
-- [Windows Сервер, версия 1809](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
-- [Windows Server 2019](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
-- [Диспетчер конфигурации CB 1710](https://docs.microsoft.com/configmgr/core/servers/manage/updates)
+- [Windows 10 версии 1709](/windows/whats-new/whats-new-windows-10-version-1709)
+- [Windows Сервер, версия 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
+- [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
+- [Диспетчер конфигурации CB 1710](/configmgr/core/servers/manage/updates)
 
 Имя Intune: `Win32 imports from Office macro code`
 
@@ -504,14 +503,14 @@ GUID: `92E97FA1-2EDF-4476-BDD6-9DD0B4DDDC7B`
 Правило, как правило, забвению на стороне осторожности, чтобы предотвратить вымогателей.
 
 > [!NOTE]
-> Вы должны [включить облачную защиту для](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/enable-cloud-protection-microsoft-defender-antivirus) использования этого правила.
+> Вы должны [включить облачную защиту для](/windows/security/threat-protection/microsoft-defender-antivirus/enable-cloud-protection-microsoft-defender-antivirus) использования этого правила.
 
 Это правило было введено в:
 
-- [Windows 10 версии 1803](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1803)
-- [Windows Сервер, версия 1809](https://docs.microsoft.com/windows-server/get-started/whats-new-in-windows-server-1809)
-- [Windows Server 2019](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19)
-- [Диспетчер конфигурации CB 1802](https://docs.microsoft.com/configmgr/core/servers/manage/updates)
+- [Windows 10 версии 1803](/windows/whats-new/whats-new-windows-10-version-1803)
+- [Windows Сервер, версия 1809](/windows-server/get-started/whats-new-in-windows-server-1809)
+- [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
+- [Диспетчер конфигурации CB 1802](/configmgr/core/servers/manage/updates)
 
 Имя Intune: `Advanced ransomware protection`
 
@@ -524,4 +523,4 @@ GUID: `c1db55ab-c21a-4637-bb3f-a12568109d35`
 - [Сокращение направлений атак: вопросы и ответы](attack-surface-reduction-faq.md)
 - [Включить правила сокращения направлений атак](enable-attack-surface-reduction.md)
 - [Оценка правил сокращения направлений атак](evaluate-attack-surface-reduction.md)
-- [Совместимость антивирусная программа в Microsoft Defender с другими решениями по антивирусной и антивирусной программам](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)
+- [Совместимость антивирусная программа в Microsoft Defender с другими решениями по антивирусной и антивирусной программам](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)

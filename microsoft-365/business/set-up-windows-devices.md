@@ -26,17 +26,17 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
-description: Узнайте, как настроить устройства Windows, работающие Windows 10 Pro для Microsoft 365 бизнес премиум пользователей, включив централизованные элементы управления и управления безопасностью.
-ms.openlocfilehash: 3e268d81ff6fb7113b7e0b0fe5d0545ff5c72b1e
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+description: Настройка устройств Windows, Windows 10 Pro для Microsoft 365 бизнес премиум пользователей, что позволяет централизованно контролировать управление и безопасность.
+ms.openlocfilehash: 3d32a033a1a1c89d7d4d557cea6a28e24543ab2c
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244783"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52594028"
 ---
 # <a name="set-up-windows-devices-for-microsoft-365-business-premium-users"></a>Настройка Windows устройств для Microsoft 365 бизнес премиум пользователей
 
-## <a name="prerequisites-for-setting-up-windows-devices-for-microsoft-365-business-premium-users"></a>Необходимые условия для настройки Windows устройств для Microsoft 365 бизнес премиум пользователей
+## <a name="before-you-begin"></a>Подготовка к работе
 
 Прежде чем настроить Windows для Microsoft 365 бизнес премиум пользователей, убедитесь, что все Windows работают Windows 10 Pro версии 1703 (Creators Update). Windows 10 Pro является обязательным условием для развертывания Windows 10 для бизнеса, который представляет собой набор облачных служб и возможностей управления устройствами, которые дополняют Windows 10 Pro и обеспечивают централизованное управление и управление безопасностью Microsoft 365 бизнес премиум.
   
@@ -128,6 +128,6 @@ ms.locfileid: "52244783"
 
 Чтобы настроить мобильные устройства, см. в Microsoft 365 бизнес премиум настройка мобильных устройств [для](set-up-mobile-devices.md)пользователей, чтобы установить политики защиты устройств или приложений, см. в Microsoft 365 [для бизнеса.](manage.md)
   
-## <a name="for-more-on-setting-up-and-using-microsoft-365-business-premium"></a>Дополнительные для настройки и использования Microsoft 365 бизнес премиум
+## <a name="related-content"></a>См. также:
 
-[Обучающие видеоролики по Microsoft 365 для бизнеса](../business-video/index.yml)
+[Microsoft 365 для видео обучения бизнесу](../business-video/index.yml) (страница ссылки)
