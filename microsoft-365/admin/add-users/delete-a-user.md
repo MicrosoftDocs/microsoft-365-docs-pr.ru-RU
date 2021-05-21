@@ -19,19 +19,19 @@ ms.custom:
 search.appverid:
 - MET150
 ms.assetid: d5155593-3bac-4d8d-9d8b-f4513a81479e
-description: Узнайте, как удалить учетную запись пользователя. Определите, что делать с электронной почтой и OneDrive контентом. И решите, сохранять ли лицензию на продукт или перестать платить за нее.
-ms.openlocfilehash: f4b1e0b1fb591d369cc09010db86dd995d7d4896
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+description: Узнайте, как удалить учетную запись пользователя и что делать с электронной почтой и OneDrive контентом, а также о том, следует ли сохранять лицензию на продукт.
+ms.openlocfilehash: c30edb598f659337778ec956737934da5fedad18
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52535978"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52593409"
 ---
 # <a name="delete-a-user-from-your-organization"></a>Удаление пользователя из организации
   
 **Ищете, как удалить собственную *учетную* запись Microsoft 365, которую вы используете на работе или в школе? Чтобы сделать эти действия, обратитесь в техническую службу в вашей работе или университете.**
 
-## <a name="what-you-need-to-know-about-deleting-users"></a>Что нужно знать об удалении пользователей?
+## <a name="before-you-begin"></a>Подготовка к работе
 
 - Удалить учетные [записи пользователей могут только Microsoft 365,](about-admin-roles.md) которые имеют разрешения глобального администратора или управления пользователями для бизнеса или школы.
 - Вы можете [восстановить](restore-user.md) ее в течение 30 дней, пока данные не удалены окончательно.
@@ -169,14 +169,14 @@ ms.locfileid: "52535978"
 
 **Хотите удалить Microsoft 365 с компьютера? Перейдите к [отмене подписки.](../../commerce/subscriptions/cancel-your-subscription.md)**
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-content"></a>См. также:
 
-[Восстановление пользователя](restore-user.md)
+[Восстановление пользователя](restore-user.md) (статья)
   
-[Безвозвратное удаление почтового ящика](/exchange/permanently-delete-a-mailbox-exchange-2013-help)
+[Постоянное удаление почтового ящика](/exchange/permanently-delete-a-mailbox-exchange-2013-help) (статья)
 
-[Удаление бывшего сотрудника из среды Office 365](remove-former-employee.md)
+[Удаление бывшего](remove-former-employee.md) сотрудника из Office 365 (статья)
 
-[Добавление нового сотрудника в Office 365](add-new-employee.md)
+[Добавление нового сотрудника в Office 365](add-new-employee.md) (статья)
 
-[Удаление учетной записи](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753730(v=ws.11))пользователя. Используйте эти инструкции, если в вашем бизнесе используется **Active Directory,** синхронизируются с Azure AD. В Office 365 сделать это нельзя.
+[Удаление учетной записи](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753730(v=ws.11))пользователя. Используйте эти инструкции, если в вашем бизнесе используется **Active Directory,** синхронизируются с Azure AD. В Office 365 сделать это нельзя. (статья)

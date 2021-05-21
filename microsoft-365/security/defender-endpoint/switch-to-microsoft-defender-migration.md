@@ -1,5 +1,5 @@
 ---
-title: Переключение из решения конечной точки, не в microsoft, в Microsoft Defender для конечной точки
+title: Переключение с защиты конечных точек, не в microsoft, на Microsoft Defender для конечной точки
 description: Переключение на Microsoft Defender для конечной точки. Ознакомьтесь с этой статьей для обзора.
 keywords: миграция, расширенные средства защиты конечной точки защитника Windows для Endpoint, edr
 search.product: eADQiWindows 10XVcnh
@@ -19,23 +19,23 @@ ms.collection:
 - m365solution-overview
 ms.topic: conceptual
 ms.custom: migrationguides
-ms.date: 05/14/2021
+ms.date: 05/20/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
 ms.technology: mde
-ms.openlocfilehash: 013205a1b5b9db204f626a6fe6ab76ad07378558
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 2a2b78089486b432ebf9492de26396b2bb96f94d
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538007"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52593505"
 ---
-# <a name="make-the-switch-from-a-non-microsoft-endpoint-solution-to-microsoft-defender-for-endpoint"></a>Переключение из решения конечной точки, не в microsoft, в Microsoft Defender для конечной точки
+# <a name="make-the-switch-from-non-microsoft-endpoint-protection-to-microsoft-defender-for-endpoint"></a>Переключение с защиты конечных точек, не в microsoft, на Microsoft Defender для конечной точки
 
-Если вы планируете перейти из решения защиты конечной точки, не от Microsoft, в Microsoft Defender для конечной точки (Defender for [Endpoint),](microsoft-defender-endpoint.md) вы находитесь в правильном месте. Используйте эту статью в качестве руководства.
+Если вы думаете о переходе из защиты конечной точки, не от Microsoft, в Microsoft Defender для конечной точки (Defender for [Endpoint),](microsoft-defender-endpoint.md) вы находитесь в правильном месте. Используйте эту статью в качестве руководства.
 
 :::image type="content" source="images/nonms-mde-migration.png" alt-text="Обзор миграции в Defender для конечной точки":::
 
-При переходе на Защитник для конечной точки вы начинаете с решения, не входить в Microsoft, в активном режиме, настраиваете Defender для конечной точки в пассивном режиме, на борту в Defender для конечной точки, а затем установите Defender for Endpoint в активный режим и удалите решение, не включаемое в Microsoft.
+При переходе на Defender для конечной точки вы начинаете с вашего решения, не включаемого в Microsoft, работая в активном режиме, настраиваете Defender для конечной точки в пассивном режиме, на борту в Defender для конечной точки, установите Defender for Endpoint в активный режим, а затем удалите решение, не включаемое в Microsoft.
 
 > [!TIP]
 > - Если вы в настоящее время используете безопасность конечных точек McAfee (McAfee), см. в этой ленте миграция из [McAfee в Defender для конечной точки.](mcafee-to-microsoft-defender-migration.md)
@@ -43,15 +43,15 @@ ms.locfileid: "52538007"
 
 ## <a name="the-migration-process"></a>Процесс миграции
 
-При переходе на Defender для конечной точки следует процесс, который можно разделить на три этапа, как описано в следующей таблице:
+Процесс миграции в Defender для конечной точки можно разделить на три этапа, как описано в следующей таблице:
 
 ![Этапы миграции — подготовка, настройка, бортовой](images/phase-diagrams/migration-phases.png)
 
 |Этап |Описание |
 |--|--|
-|[Подготовка к миграции](switch-to-microsoft-defender-prepare.md) |На [ **этапе Подготовки**](switch-to-microsoft-defender-prepare.md)вы обновляете устройства организации, получаете Defender для конечной точки, планируете роли и разрешения и предоставляете доступ к Центр безопасности в Microsoft Defender. Вы также настраивает прокси-сервер устройства и параметры Интернета, чтобы включить связь между устройствами организации и Защитником для конечной точки. |
-|[Настройка Защитника для конечной точки](switch-to-microsoft-defender-setup.md) |На [ **этапе установки**](switch-to-microsoft-defender-setup.md)вы включаете антивирусная программа в Microsoft Defender и установите его в пассивный режим. Также настраиваются параметры & исключений для антивирусная программа в Microsoft Defender и существующего решения по защите конечной точки. Затем создайте группы устройств, коллекции и организационные подразделения. Наконец, настраиваются политики защиты от антивирусных программ и параметры защиты в режиме реального времени.|
-|[Onboard to Defender for Endpoint](switch-to-microsoft-defender-onboard.md) |На этапе [ **onboard**](switch-to-microsoft-defender-onboard.md)вы на борту устройств в Defender for Endpoint убедитесь, что антивирусная программа в Microsoft Defender работает в пассивном режиме, и убедитесь, что конечные точки общаются с Защитником для конечной точки. Затем необходимо удалить существующее решение защиты конечной точки и убедиться, что Defender for Endpoint работает правильно. |
+|[Подготовка к миграции](switch-to-microsoft-defender-prepare.md) |На [ **этапе Подготовка:**](switch-to-microsoft-defender-prepare.md) <p>1. Обновление устройств организации. <p>2. Получить Defender для конечной точки. <p>3. Планирование ролей и разрешений и предоставление доступа к Центр безопасности в Microsoft Defender. <p>4. Настройте прокси-сервер устройства и параметры Интернета, чтобы включить связь между устройствами организации и Защитником для конечной точки. |
+|[Настройка Защитника для конечной точки](switch-to-microsoft-defender-setup.md) |На [ **этапе установки:**](switch-to-microsoft-defender-setup.md) <p>1. Включить/переустановить антивирусная программа в Microsoft Defender. <p>2. Настройка защитника для конечной точки. <p>3. Добавьте Защитник для конечной точки в список исключений для существующего решения. <p>4. Добавьте существующее решение в список исключений для антивирусная программа в Microsoft Defender. <p>5. Настройка групп устройств, коллекций и организационных подразделений. <p>6. Настройка политик антивирусного обеспечения и параметров защиты в режиме реального времени.|
+|[Onboard to Defender for Endpoint](switch-to-microsoft-defender-onboard.md) |На [ **этапе onboard:**](switch-to-microsoft-defender-onboard.md) <p>1. На борту устройств в Defender для конечной точки. <p>2. Выполнить тест обнаружения. <p>3. Подтверждение того, что антивирусная программа в Microsoft Defender работает в пассивном режиме. <p>4. Получить обновления для антивирусная программа в Microsoft Defender. <p>5. Удалить существующее решение защиты конечной точки. <p>6. Убедитесь, что Defender для конечной точки работает правильно. |
 
 ## <a name="whats-included-in-microsoft-defender-for-endpoint"></a>Что включено в Microsoft Defender для конечной точки?
 

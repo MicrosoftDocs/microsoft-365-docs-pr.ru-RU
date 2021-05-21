@@ -1,5 +1,5 @@
 ---
-title: Добавление или удаление участников из групп Microsoft 365
+title: Добавление или удаление участников из Microsoft 365 групп
 ms.reviewer: arvaradh
 f1.keywords: NOCSH
 ms.author: mikeplum
@@ -17,17 +17,17 @@ ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 ms.assetid: e186d224-a324-4afa-8300-0e4fc0c3000a
-description: Узнайте, как добавить участника в группу, удалить его из группы и управлять состоянием владельца группы в центре администрирования Microsoft 365.
-ms.openlocfilehash: 997145b85d2990d5bf7184f5e97a0a8d1c86dae9
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+description: Узнайте, как добавить участника в группу, удалить его из группы и управлять состоянием владельца группы в центре Microsoft 365 администратора.
+ms.openlocfilehash: 3ab3ebe21caa2d9d3dfa381dd3b68c9d2512cb79
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50907920"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52593385"
 ---
-# <a name="add-or-remove-members-from-microsoft-365-groups-using-the-admin-center"></a>Добавление или удаление участников из групп Microsoft 365 с помощью центра администрирования
+# <a name="add-or-remove-members-from-microsoft-365-groups-using-the-admin-center"></a>Добавление или удаление участников из Microsoft 365 групп с помощью центра администрирования
 
-В Microsoft 365 участники группы обычно создают собственные группы, добавляются в группы, в которые они хотят присоединиться, или приглашаются владельцами групп. При изменении владельца группы или при определении того, что член должен быть добавлен или удален, в качестве администратора вы также можете внести это изменение. Эти изменения могут вноситься только глобальным администратором, администратором Exchange, администратором групп или администратором пользователей. [Что такое группа Microsoft 365?](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2)
+В Microsoft 365 обычно участники группы создают собственные группы, добавляются в группы, в которые они хотят присоединиться, или приглашаются владельцами групп. При изменении владельца группы или при определении того, что член должен быть добавлен или удален, в качестве администратора вы также можете внести это изменение. Эти изменения могут вноситься только глобальным администратором, Exchange администратором, администратором групп или администратором пользователей. [Что такое Microsoft 365 группа?](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2)
 
 > [!TIP]
 > Если вы не администратор, вы можете добавить или удалить членов с [помощью Outlook.](https://support.microsoft.com/office/3b650f4a-5c9b-4f94-a1bb-0cca4b1091de)
@@ -109,14 +109,14 @@ ms.locfileid: "50907920"
 
 - [Назначение владельца для бесхозной группы](https://support.microsoft.com/office/86bb3db6-8857-45d1-95c8-f6d540e45732)
 
-## <a name="articles-about-managing-groups"></a>Статьи об управлении группами
+## <a name="related-content"></a>См. также:
 
-- [Обновление списков рассылки до групп Microsoft 365 в Outlook](../manage/upgrade-distribution-lists.md)
+[Обновление списков рассылки для Microsoft 365 групп в Outlook](../manage/upgrade-distribution-lists.md) (статья)
 
-- [Причины для перехода со списков рассылки на группы в Outlook](https://support.microsoft.com/office/7fb3d880-593b-4909-aafa-950dd50ce188)
+[Причины для перехода со списков рассылки на группы в Outlook](https://support.microsoft.com/office/7fb3d880-593b-4909-aafa-950dd50ce188) (статья)
 
-- [Управление гостевых доступом в группах Microsoft 365](manage-guest-access-in-groups.md)
+[Управление гостевых доступом в Microsoft 365 группах](manage-guest-access-in-groups.md) (статья)
 
-- [Управление группами Microsoft 365 с помощью PowerShell:](../../enterprise/manage-microsoft-365-groups-with-powershell.md)в этой статье вы познакомите вас с ключевыми группами и приводит примеры
+[Управление Microsoft 365 группами с Помощью PowerShell:](../../enterprise/manage-microsoft-365-groups-with-powershell.md)в этой статье вы познакомите вас с ключевыми группами и приводит примеры (статья)
 
-- [Политика именования групп Microsoft 365](../../solutions/groups-naming-policy.md)
+[Microsoft 365 групп политики именования](../../solutions/groups-naming-policy.md) (статья)

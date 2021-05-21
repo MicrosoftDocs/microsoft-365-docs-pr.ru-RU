@@ -1,5 +1,5 @@
 ---
-title: Введите ключ продукта для Microsoft 365 Business Standard
+title: Введите ключ продукта для Microsoft 365 бизнес стандарт
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -19,22 +19,22 @@ ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 - commerce_purchase
-description: Узнайте, как выкупить ключ продукта Microsoft 365 Business Standard, приобретенный в розничном магазине.
+description: Если вы приобрели Microsoft 365 бизнес стандарт магазине, узнайте, как выкупить ключ продукта и активировать подписку.
 ms.date: 11/13/2020
-ms.openlocfilehash: b313b38fbb4fff332bb13402dc5af5db4e0bf676
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: bc2b07b5a98c13a919596bdbf85a21bdc6c8d2bf
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52331731"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52593397"
 ---
-# <a name="enter-your-product-key-for-microsoft-365-business-standard"></a>Введите ключ продукта для Microsoft 365 Business Standard
+# <a name="enter-your-product-key-for-microsoft-365-business-standard"></a>Введите ключ продукта для Microsoft 365 бизнес стандарт
 
-Если вы приобрели бизнес-стандарт Microsoft 365 в розничном магазине, эта статья поможет вам активировать подписку.
+Если вы приобрели Microsoft 365 бизнес стандарт магазина, эта статья поможет вам активировать подписку.
   
  **Нужно выполнить другую задачу?**
- **Справки о Microsoft 365 Family или Microsoft 365 Personal** см. в справке Использование ключей [продукта с Office.](https://support.microsoft.com/office/12a5763a-d45c-4685-8c95-a44500213759.aspx)  
- **Участвуете в программе корпоративного лицензирования?** Если вы приобрели Microsoft 365 для бизнеса с помощью [Программы открытых](https://go.microsoft.com/fwlink/p/?LinkID=613298)лицензий Microsoft, см. статью Введите ключ продукта, приобретенный [в Microsoft Open.](purchases-from-microsoft-open.md)
+ **Справки по Microsoft 365 для семьи или Microsoft 365 персональный** см. в справке Об использовании ключей продукта с [Office.](https://support.microsoft.com/office/12a5763a-d45c-4685-8c95-a44500213759.aspx)  
+ **Участвуете в программе корпоративного лицензирования?** Если вы приобрели Microsoft 365 для бизнеса с помощью [программы открытой](https://go.microsoft.com/fwlink/p/?LinkID=613298)лицензии Microsoft, см. статью Введите ключ продукта, приобретенный [в Microsoft Open.](purchases-from-microsoft-open.md)
   
 ## <a name="activate-a-new-subscription"></a>Активация новой подписки
 
@@ -55,14 +55,22 @@ ms.locfileid: "52331731"
 
 ## <a name="extend-the-expiration-date-or-add-a-license-to-an-existing-subscription"></a>Продление срока действия или добавление лицензии в существующую подписку
 
-Чтобы продлить срок действия или добавить лицензию в существующую подписку microsoft 365 Business Standard, используйте новый и неиспользимый ключ для того же плана Microsoft 365. Ввод исходного ключа продукта Microsoft 365 не сработает, так как ключ, который уже был выкуплен, не может использоваться снова. См. в журнале [Add licenses to or extend a subscription paid for using a product key.](licenses/add-licenses-using-product-key.md)
+Чтобы продлить срок действия или добавить лицензию в существующую подписку Microsoft 365 бизнес стандарт, используйте новый и неиспользимый ключ для того же Microsoft 365 плана. Ввод исходного ключа Microsoft 365 продукта не сработает, так как ключ, который уже был выкуплен, не может использоваться снова. См. в журнале [Add licenses to or extend a subscription paid for using a product key.](licenses/add-licenses-using-product-key.md)
 
 ## <a name="whats-next"></a>Что дальше?
 
-Если вы впервые в Microsoft 365 для бизнеса, узнайте, как настроить [Microsoft 365](../admin/setup/setup.md).
+Если вы не Microsoft 365 для бизнеса, узнайте, как настроить [Microsoft 365.](../admin/setup/setup.md)
   
 ## <a name="still-having-trouble-with-product-keys"></a>Все еще возникли проблемы с ключами продукта?
 
-Ознакомьтесь с этим списком распространенных ошибок и решений: [проблемы с microsoft 365 для ключа бизнес-продукта?](product-key-errors-and-solutions.md)
+Ознакомьтесь с этим списком распространенных ошибок и решений: проблемы [с Microsoft 365 для ключа бизнес-продукта?](product-key-errors-and-solutions.md)
   
 Или [позвоните в службу поддержки Майкрософт.](../business-video/get-help-support.md)
+
+## <a name="related-content"></a>См. также:
+
+[Обновление до другого плана](./subscriptions/upgrade-to-different-plan.md) (статья)
+
+[Что происходит с данными и возможностями доступа при окончании срока действия подписки на Microsoft 365 для бизнеса?](./subscriptions/what-if-my-subscription-expires.md) (статья)
+
+[Понимание подписок и лицензий в Microsoft 365 для бизнеса](./licenses/subscriptions-and-licenses.md) (статья)

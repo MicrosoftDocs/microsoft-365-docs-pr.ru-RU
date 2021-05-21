@@ -20,12 +20,12 @@ ms.collection:
 - m365solution-identitydevice
 - m365solution-scenario
 ms.technology: mdo
-ms.openlocfilehash: 42ab124f3026cf0b7441edf44c0e6433be5f0ecd
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: e7148e666b7d96d6de328089fccc4bb444b9f502
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52583672"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52594009"
 ---
 # <a name="common-identity-and-device-access-policies"></a>Основные политики доступа для удостоверений и устройств
 
@@ -65,7 +65,7 @@ ms.locfileid: "52583672"
 ||[Определение политик соответствия требованиям устройств](#define-device-compliance-policies)|Одна политика для каждой платформы.|Microsoft 365 E3 или E5|
 ||[Требовать использования соответствующих политике компьютеров](#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Обеспечивает управление компьютерами Intune с помощью Windows macOS.|Microsoft 365 E3 или E5|
 |**Конфиденциально**|[Требовать MFA при низком, среднем или высоком риске *входов*](#require-mfa-based-on-sign-in-risk)||Microsoft 365 E5 или Microsoft 365 E3 с надстройки безопасности E5|
-||[Требуются совместимые компьютеры *и мобильные* устройства](#require-compliant-pcs-and-mobile-devices)|Обеспечивает управление intune как для компьютеров (Windows или MacOS), так и для телефонов или планшетов (iOS, iPadOS или Android).|Microsoft 365 E3 или E5|
+||[Требуются совместимые компьютеры *и мобильные* устройства](#require-compliant-pcs-and-mobile-devices)|Обеспечивает управление intune как для компьютеров (Windows или macOS), так и для телефонов или планшетов (iOS, iPadOS или Android).|Microsoft 365 E3 или E5|
 |**Строго контролируемый**|[*Всегда* требуется MFA](#assigning-policies-to-groups-and-users)||Microsoft 365 E3 или E5|
 |
 

@@ -27,12 +27,12 @@ ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: В этой статье администраторы могут узнать о защите Сейф ссылок в Defender для Office 365 для защиты своей организации от фишинга и других атак с использованием вредоносных URL-адресов.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 573fd5b92400996fa595b5953028e20fcecec976
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: 407f04685e41269c0e8436d3b68db7d755fce129
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52583584"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52593573"
 ---
 # <a name="safe-links-in-microsoft-defender-for-office-365"></a>Сейф Ссылки в Microsoft Defender для Office 365
 
@@ -54,7 +54,7 @@ ms.locfileid: "52583584"
   Дополнительные сведения о защите Сейф ссылок для сообщений электронной почты см. в разделе [Сейф Ссылки](#safe-links-settings-for-email-messages) для сообщений электронной почты в этой статье.
   
   > [!NOTE]
-  > Ссылки на продажу не работают в общедоступных папках с поддержкой почты.
+  > Сейф Ссылки не работают в общедоступных папках с поддержкой почты.
 
 - **Microsoft Teams** (в настоящее время в режиме предварительного просмотра TAP): защита Сейф ссылок для ссылок в Teams беседах, групповых чатах или каналах также контролируется политиками Сейф ссылки. Политика ссылок Сейф по умолчанию не существует, поэтому для защиты Сейф ссылок в Teams необходимо создать одну или несколько Сейф **ссылок.**
 
