@@ -164,6 +164,8 @@
           href: attack-simulation-training-insights.md
         - name: Рекомендации по развертыванию обучения имитации атаки и часто задаваемые вопросы
           href: attack-simulation-training-faq.md
+        - name: Настройка доставки для сторонних симуляций фишинга и почтовых ящиков SecOps
+          href: configure-advanced-delivery.md
         - name: Рекомендуемые параметры для настройки EOP и Безопасности Defender для Office 365
           href: recommended-settings-for-eop-and-office365.md
         - name: Рекомендации по настройке EOP

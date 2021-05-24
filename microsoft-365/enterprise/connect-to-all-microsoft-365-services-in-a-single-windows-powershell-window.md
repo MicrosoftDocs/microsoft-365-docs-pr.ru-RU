@@ -18,90 +18,90 @@ ms.custom:
 - httpsfix
 ms.assetid: 53d3eef6-4a16-4fb9-903c-816d5d98d7e8
 description: Сводка. Подключение ко всем службам Microsoft 365 с помощью единого окна PowerShell.
-ms.openlocfilehash: 18ff8e1789242b4dde3b4b31aaccf2462e4c5d74
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 923e4bc39ae4391d4deaa2c232e19b9479c2efbe
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50905132"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583128"
 ---
-# <a name="connect-to-all-microsoft-365-services-in-a-single-powershell-window"></a><span data-ttu-id="48394-103">Подключение ко всем службам Microsoft 365 с помощью единого окна PowerShell</span><span class="sxs-lookup"><span data-stu-id="48394-103">Connect to all Microsoft 365 services in a single PowerShell window</span></span>
+# <a name="connect-to-all-microsoft-365-services-in-a-single-powershell-window"></a><span data-ttu-id="0b208-103">Подключение ко всем службам Microsoft 365 с помощью единого окна PowerShell</span><span class="sxs-lookup"><span data-stu-id="0b208-103">Connect to all Microsoft 365 services in a single PowerShell window</span></span>
 
-<span data-ttu-id="48394-104">Если вы используете PowerShell для управления Microsoft 365, то можете одновременно открыть несколько сеансов PowerShell.</span><span class="sxs-lookup"><span data-stu-id="48394-104">When you use PowerShell to manage Microsoft 365, you can have multiple PowerShell sessions open at the same time.</span></span> <span data-ttu-id="48394-105">У вас могут быть разные окна PowerShell для управления учетными записями пользователей, SharePoint Online, Exchange Online, Skype для бизнеса Online, Microsoft Teams и Центром безопасности &amp; соответствия требованиям.</span><span class="sxs-lookup"><span data-stu-id="48394-105">You might have different PowerShell windows to manage user accounts, SharePoint Online, Exchange Online, Skype for Business Online, Microsoft Teams, and the Security &amp; Compliance center.</span></span>
+<span data-ttu-id="0b208-104">Если вы используете PowerShell для управления Microsoft 365, то можете одновременно открыть несколько сеансов PowerShell.</span><span class="sxs-lookup"><span data-stu-id="0b208-104">When you use PowerShell to manage Microsoft 365, you can have multiple PowerShell sessions open at the same time.</span></span> <span data-ttu-id="0b208-105">У вас могут быть разные окна PowerShell для управления учетными записями пользователей, SharePoint Online, Exchange Online, Skype для бизнеса Online, Microsoft Teams и Центром безопасности &amp; соответствия требованиям.</span><span class="sxs-lookup"><span data-stu-id="0b208-105">You might have different PowerShell windows to manage user accounts, SharePoint Online, Exchange Online, Skype for Business Online, Microsoft Teams, and the Security &amp; Compliance center.</span></span>
   
-<span data-ttu-id="48394-106">Этот сценарий управления Microsoft 365 не назовешь удобным, поскольку в таком случае отсутствует возможность обмениваться данными между этими окнами для управления разными службами.</span><span class="sxs-lookup"><span data-stu-id="48394-106">This scenario isn't optimal for managing Microsoft 365, because you can't exchange data among those windows for cross-service management.</span></span> <span data-ttu-id="48394-107">В этой статье описывается, как использовать один экземпляр PowerShell для управления учетными записями Microsoft 365, Skype для бизнеса Online, Exchange Online, SharePoint Online, Microsoft Teams и Центром безопасности &amp; соответствия требованиям.</span><span class="sxs-lookup"><span data-stu-id="48394-107">This article describes how to use a single instance of PowerShell to manage Microsoft 365 accounts, Skype for Business Online, Exchange Online, SharePoint Online, Microsoft Teams, and the Security &amp; Compliance Center.</span></span>
+<span data-ttu-id="0b208-106">Этот сценарий управления Microsoft 365 не назовешь удобным, поскольку в таком случае отсутствует возможность обмениваться данными между этими окнами для управления разными службами.</span><span class="sxs-lookup"><span data-stu-id="0b208-106">This scenario isn't optimal for managing Microsoft 365, because you can't exchange data among those windows for cross-service management.</span></span> <span data-ttu-id="0b208-107">В этой статье описывается, как использовать один экземпляр PowerShell для управления учетными записями Microsoft 365, Skype для бизнеса Online, Exchange Online, SharePoint Online, Microsoft Teams и Центром безопасности &amp; соответствия требованиям.</span><span class="sxs-lookup"><span data-stu-id="0b208-107">This article describes how to use a single instance of PowerShell to manage Microsoft 365 accounts, Skype for Business Online, Exchange Online, SharePoint Online, Microsoft Teams, and the Security &amp; Compliance Center.</span></span>
 
 >[!Note]
-><span data-ttu-id="48394-108">В этой статье приведены только команды для подключения к всемирному (+ GCC) облаку.</span><span class="sxs-lookup"><span data-stu-id="48394-108">This article currently only contains the commands to connect to the Worldwide (+GCC) cloud.</span></span> <span data-ttu-id="48394-109">Примечания содержат ссылки на статьи о подключении к другим облакам Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="48394-109">Notes provide links to articles about connecting to the other Microsoft 365 clouds.</span></span>
+><span data-ttu-id="0b208-108">В этой статье приведены только команды для подключения к всемирному (+ GCC) облаку.</span><span class="sxs-lookup"><span data-stu-id="0b208-108">This article currently only contains the commands to connect to the Worldwide (+GCC) cloud.</span></span> <span data-ttu-id="0b208-109">Примечания содержат ссылки на статьи о подключении к другим облакам Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="0b208-109">Notes provide links to articles about connecting to the other Microsoft 365 clouds.</span></span>
 
-## <a name="before-you-begin"></a><span data-ttu-id="48394-110">Прежде чем начать</span><span class="sxs-lookup"><span data-stu-id="48394-110">Before you begin</span></span>
+## <a name="before-you-begin"></a><span data-ttu-id="0b208-110">Прежде чем начать</span><span class="sxs-lookup"><span data-stu-id="0b208-110">Before you begin</span></span>
 
-<span data-ttu-id="48394-111">Существует ряд необходимых условий, которые нужно выполнить, прежде чем приступать к управлению всеми службами Microsoft 365 с помощью единого экземпляра PowerShell:</span><span class="sxs-lookup"><span data-stu-id="48394-111">Before you can manage all of Microsoft 365 from a single instance of PowerShell, consider the following prerequisites:</span></span>
+<span data-ttu-id="0b208-111">Существует ряд необходимых условий, которые нужно выполнить, прежде чем приступать к управлению всеми службами Microsoft 365 с помощью единого экземпляра PowerShell:</span><span class="sxs-lookup"><span data-stu-id="0b208-111">Before you can manage all of Microsoft 365 from a single instance of PowerShell, consider the following prerequisites:</span></span>
   
-- <span data-ttu-id="48394-112">Рабочая или учебная учетная запись Microsoft 365, которую вы используете, должна относится к роли администратора Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="48394-112">The Microsoft 365 work or school account that you use must be a member of a Microsoft 365 admin role.</span></span> <span data-ttu-id="48394-113">Дополнительные сведения см. в статье [О ролях администраторов](../admin/add-users/about-admin-roles.md).</span><span class="sxs-lookup"><span data-stu-id="48394-113">For more information, see [About admin roles](../admin/add-users/about-admin-roles.md).</span></span> <span data-ttu-id="48394-114">Это требуется для PowerShell для Microsoft 365, но не обязательно для других служб Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="48394-114">This is a requirement for PowerShell for Microsoft 365, but not necessarily for all other Microsoft 365 services.</span></span>
+- <span data-ttu-id="0b208-112">Рабочая или учебная учетная запись Microsoft 365, которую вы используете, должна относится к роли администратора Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="0b208-112">The Microsoft 365 work or school account that you use must be a member of a Microsoft 365 admin role.</span></span> <span data-ttu-id="0b208-113">Дополнительные сведения см. в статье [О ролях администраторов](../admin/add-users/about-admin-roles.md).</span><span class="sxs-lookup"><span data-stu-id="0b208-113">For more information, see [About admin roles](../admin/add-users/about-admin-roles.md).</span></span> <span data-ttu-id="0b208-114">Это требуется для PowerShell для Microsoft 365, но не обязательно для других служб Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="0b208-114">This is a requirement for PowerShell for Microsoft 365, but not necessarily for all other Microsoft 365 services.</span></span>
     
-- <span data-ttu-id="48394-115">Ниже приведены 64-разрядные версии Windows, которые можно использовать.</span><span class="sxs-lookup"><span data-stu-id="48394-115">You can use the following 64-bit versions of Windows:</span></span>
+- <span data-ttu-id="0b208-115">Ниже приведены 64-разрядные версии Windows, которые можно использовать.</span><span class="sxs-lookup"><span data-stu-id="0b208-115">You can use the following 64-bit versions of Windows:</span></span>
     
-  - <span data-ttu-id="48394-116">Windows 10;</span><span class="sxs-lookup"><span data-stu-id="48394-116">Windows 10</span></span>
+  - <span data-ttu-id="0b208-116">Windows 10;</span><span class="sxs-lookup"><span data-stu-id="0b208-116">Windows 10</span></span>
     
-  - <span data-ttu-id="48394-117">Windows 8.1 или Windows 8</span><span class="sxs-lookup"><span data-stu-id="48394-117">Windows 8.1 or Windows 8</span></span>
+  - <span data-ttu-id="0b208-117">Windows 8.1 или Windows 8</span><span class="sxs-lookup"><span data-stu-id="0b208-117">Windows 8.1 or Windows 8</span></span>
     
-  - <span data-ttu-id="48394-118">Windows Server 2019</span><span class="sxs-lookup"><span data-stu-id="48394-118">Windows Server 2019</span></span>
+  - <span data-ttu-id="0b208-118">Windows Server 2019</span><span class="sxs-lookup"><span data-stu-id="0b208-118">Windows Server 2019</span></span>
     
-  - <span data-ttu-id="48394-119">Windows Server 2016</span><span class="sxs-lookup"><span data-stu-id="48394-119">Windows Server 2016</span></span>
+  - <span data-ttu-id="0b208-119">Windows Server 2016</span><span class="sxs-lookup"><span data-stu-id="0b208-119">Windows Server 2016</span></span>
     
-  - <span data-ttu-id="48394-120">Windows Server 2012 R2 или Windows Server 2012</span><span class="sxs-lookup"><span data-stu-id="48394-120">Windows Server 2012 R2 or Windows Server 2012</span></span>
+  - <span data-ttu-id="0b208-120">Windows Server 2012 R2 или Windows Server 2012</span><span class="sxs-lookup"><span data-stu-id="0b208-120">Windows Server 2012 R2 or Windows Server 2012</span></span>
     
-  - <span data-ttu-id="48394-121">Windows 7 с пакетом обновления 1 (SP1)\*</span><span class="sxs-lookup"><span data-stu-id="48394-121">Windows 7 Service Pack 1 (SP1)\*</span></span>
+  - <span data-ttu-id="0b208-121">Windows 7 с пакетом обновления 1 (SP1)\*</span><span class="sxs-lookup"><span data-stu-id="0b208-121">Windows 7 Service Pack 1 (SP1)\*</span></span>
     
-  - <span data-ttu-id="48394-122">Windows Server 2008 R2 с пакетом обновления 1 (SP1)\*</span><span class="sxs-lookup"><span data-stu-id="48394-122">Windows Server 2008 R2 SP1\*</span></span>
+  - <span data-ttu-id="0b208-122">Windows Server 2008 R2 с пакетом обновления 1 (SP1)\*</span><span class="sxs-lookup"><span data-stu-id="0b208-122">Windows Server 2008 R2 SP1\*</span></span>
     
-    <span data-ttu-id="48394-123">\* Необходимо установить Microsoft .NET Framework 4.5.*x*, а затем — Windows Management Framework 3.0 или 4.0.</span><span class="sxs-lookup"><span data-stu-id="48394-123">\* You need to install Microsoft .NET Framework 4.5.*x* and then Windows Management Framework 3.0 or 4.0.</span></span> <span data-ttu-id="48394-124">Дополнительные сведения см. в статье [Windows Management Framework](/powershell/scripting/windows-powershell/wmf/overview).</span><span class="sxs-lookup"><span data-stu-id="48394-124">For more information, see [Windows Management Framework](/powershell/scripting/windows-powershell/wmf/overview).</span></span>
+    <span data-ttu-id="0b208-123">\* Необходимо установить Microsoft .NET Framework 4.5.*x*, а затем — Windows Management Framework 3.0 или 4.0.</span><span class="sxs-lookup"><span data-stu-id="0b208-123">\* You need to install Microsoft .NET Framework 4.5.*x* and then Windows Management Framework 3.0 or 4.0.</span></span> <span data-ttu-id="0b208-124">Дополнительные сведения см. в статье [Windows Management Framework](/powershell/scripting/windows-powershell/wmf/overview).</span><span class="sxs-lookup"><span data-stu-id="0b208-124">For more information, see [Windows Management Framework](/powershell/scripting/windows-powershell/wmf/overview).</span></span>
     
-    <span data-ttu-id="48394-125">Необходимо использовать именно 64-разрядную версию Windows, поскольку это обязательное требование для модуля Skype для бизнеса Online и одного из модулей Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="48394-125">You need to use a 64-bit version of Windows because of the requirements for the Skype for Business Online module and one of the Microsoft 365 modules.</span></span>
+    <span data-ttu-id="0b208-125">Необходимо использовать именно 64-разрядную версию Windows, поскольку это обязательное требование для модуля Skype для бизнеса Online и одного из модулей Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="0b208-125">You need to use a 64-bit version of Windows because of the requirements for the Skype for Business Online module and one of the Microsoft 365 modules.</span></span>
     
-- <span data-ttu-id="48394-126">Необходимо установить модули, необходимые для Azure Active Directory (Azure AD), Exchange Online, SharePoint Online, Skype для бизнеса Online и Teams:</span><span class="sxs-lookup"><span data-stu-id="48394-126">You need to install the modules that are required for Azure Active Directory (Azure AD), Exchange Online, SharePoint Online, Skype for Business Online and Teams:</span></span>
+- <span data-ttu-id="0b208-126">Необходимо установить модули, необходимые для Azure Active Directory (Azure AD), Exchange Online, SharePoint Online, Skype для бизнеса Online и Teams:</span><span class="sxs-lookup"><span data-stu-id="0b208-126">You need to install the modules that are required for Azure Active Directory (Azure AD), Exchange Online, SharePoint Online, Skype for Business Online and Teams:</span></span>
     
-  - [<span data-ttu-id="48394-127">Azure Active Directory V2</span><span class="sxs-lookup"><span data-stu-id="48394-127">Azure Active Directory V2</span></span>](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
-  - [<span data-ttu-id="48394-128">Командная консоль SharePoint Online</span><span class="sxs-lookup"><span data-stu-id="48394-128">SharePoint Online Management Shell</span></span>](https://go.microsoft.com/fwlink/p/?LinkId=255251)
-  - [<span data-ttu-id="48394-129">Skype для бизнеса Online, модуль PowerShell</span><span class="sxs-lookup"><span data-stu-id="48394-129">Skype for Business Online, PowerShell Module</span></span>](/microsoftteams/teams-powershell-overview)
-  - [<span data-ttu-id="48394-130">Exchange Online PowerShell V2</span><span class="sxs-lookup"><span data-stu-id="48394-130">Exchange Online PowerShell V2</span></span>](/powershell/exchange/exchange-online-powershell-v2#install-and-maintain-the-exchange-online-powershell-v2-module)
-  - [<span data-ttu-id="48394-131">Обзор PowerShell в Teams</span><span class="sxs-lookup"><span data-stu-id="48394-131">Teams PowerShell Overview</span></span>](/microsoftteams/teams-powershell-overview)
+  - [<span data-ttu-id="0b208-127">Azure Active Directory V2</span><span class="sxs-lookup"><span data-stu-id="0b208-127">Azure Active Directory V2</span></span>](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
+  - [<span data-ttu-id="0b208-128">Командная консоль SharePoint Online</span><span class="sxs-lookup"><span data-stu-id="0b208-128">SharePoint Online Management Shell</span></span>](https://go.microsoft.com/fwlink/p/?LinkId=255251)
+  - [<span data-ttu-id="0b208-129">Skype для бизнеса Online, модуль PowerShell</span><span class="sxs-lookup"><span data-stu-id="0b208-129">Skype for Business Online, PowerShell Module</span></span>](/microsoftteams/teams-powershell-overview)
+  - [<span data-ttu-id="0b208-130">Exchange Online PowerShell V2</span><span class="sxs-lookup"><span data-stu-id="0b208-130">Exchange Online PowerShell V2</span></span>](/powershell/exchange/exchange-online-powershell-v2#install-and-maintain-the-exchange-online-powershell-v2-module)
+  - [<span data-ttu-id="0b208-131">Обзор PowerShell в Teams</span><span class="sxs-lookup"><span data-stu-id="0b208-131">Teams PowerShell Overview</span></span>](/microsoftteams/teams-powershell-overview)
     
--  <span data-ttu-id="48394-132">Требуется настроить PowerShell для выполнения подписанных сценариев Skype для бизнеса Online и Центра безопасности &amp; соответствия требованиям.</span><span class="sxs-lookup"><span data-stu-id="48394-132">PowerShell must be configured to run signed scripts for Skype for Business Online and the Security &amp; Compliance Center.</span></span> <span data-ttu-id="48394-133">Выполните следующую команду в сеансе PowerShell с повышенными привилегиями (сеанс PowerShell, **запускаемый от имени администратора**).</span><span class="sxs-lookup"><span data-stu-id="48394-133">Run the following command in an elevated PowerShell session (a PowerShell session that you **Run as administrator**).</span></span>
+-  <span data-ttu-id="0b208-132">Требуется настроить PowerShell для выполнения подписанных сценариев Skype для бизнеса Online и Центра безопасности &amp; соответствия требованиям.</span><span class="sxs-lookup"><span data-stu-id="0b208-132">PowerShell must be configured to run signed scripts for Skype for Business Online and the Security &amp; Compliance Center.</span></span> <span data-ttu-id="0b208-133">Выполните следующую команду в сеансе PowerShell с повышенными привилегиями (сеанс PowerShell, **запускаемый от имени администратора**).</span><span class="sxs-lookup"><span data-stu-id="0b208-133">Run the following command in an elevated PowerShell session (a PowerShell session that you **Run as administrator**).</span></span>
     
    ```powershell
    Set-ExecutionPolicy RemoteSigned
    ```
 
-## <a name="connection-steps-when-using-just-a-password"></a><span data-ttu-id="48394-134">Этапы подключения с использованием только пароля</span><span class="sxs-lookup"><span data-stu-id="48394-134">Connection steps when using just a password</span></span>
+## <a name="connection-steps-when-using-just-a-password"></a><span data-ttu-id="0b208-134">Этапы подключения с использованием только пароля</span><span class="sxs-lookup"><span data-stu-id="0b208-134">Connection steps when using just a password</span></span>
 
-<span data-ttu-id="48394-135">Ниже описаны действия для подключения ко всем службам в одном окне PowerShell, если вы используете только пароль для входа в систему.</span><span class="sxs-lookup"><span data-stu-id="48394-135">Follow these steps to connect to all the services in a single PowerShell window when you're using just a password for sign-in.</span></span>
+<span data-ttu-id="0b208-135">Ниже описаны действия для подключения ко всем службам в одном окне PowerShell, если вы используете только пароль для входа в систему.</span><span class="sxs-lookup"><span data-stu-id="0b208-135">Follow these steps to connect to all the services in a single PowerShell window when you're using just a password for sign-in.</span></span>
   
-1. <span data-ttu-id="48394-136">Откройте Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="48394-136">Open Windows PowerShell.</span></span>
+1. <span data-ttu-id="0b208-136">Откройте Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="0b208-136">Open Windows PowerShell.</span></span>
     
-2. <span data-ttu-id="48394-137">Выполните эту команду и введите свои учетные данные Microsoft 365 для рабочей или учебной учетной записи.</span><span class="sxs-lookup"><span data-stu-id="48394-137">Run this command and enter your Microsoft 365 work or school account credentials.</span></span>
+2. <span data-ttu-id="0b208-137">Выполните эту команду и введите свои учетные данные Microsoft 365 для рабочей или учебной учетной записи.</span><span class="sxs-lookup"><span data-stu-id="0b208-137">Run this command and enter your Microsoft 365 work or school account credentials.</span></span>
     
    ```powershell
    $credential = Get-Credential
    ```
 
-3. <span data-ttu-id="48394-138">Выполните эту команду для подключения к Azure AD с помощью модуля Azure Active Directory PowerShell для Graph.</span><span class="sxs-lookup"><span data-stu-id="48394-138">Run this command to connect to Azure AD by using the Azure Active Directory PowerShell for Graph module.</span></span>
+3. <span data-ttu-id="0b208-138">Выполните эту команду для подключения к Azure AD с помощью модуля Azure Active Directory PowerShell для Graph.</span><span class="sxs-lookup"><span data-stu-id="0b208-138">Run this command to connect to Azure AD by using the Azure Active Directory PowerShell for Graph module.</span></span>
     
    ```powershell
    Connect-AzureAD -Credential $credential
    ```
   
-   <span data-ttu-id="48394-139">Или если вы используете модуль Microsoft Azure Active Directory для Windows PowerShell, выполните эту команду.</span><span class="sxs-lookup"><span data-stu-id="48394-139">Or if you're using the Microsoft Azure Active Directory Module for Windows PowerShell module, run this command.</span></span>
+   <span data-ttu-id="0b208-139">Или если вы используете модуль Microsoft Azure Active Directory для Windows PowerShell, выполните эту команду.</span><span class="sxs-lookup"><span data-stu-id="0b208-139">Or if you're using the Microsoft Azure Active Directory Module for Windows PowerShell module, run this command.</span></span>
       
    ```powershell
    Connect-MsolService -Credential $credential
    ```
 
    > [!Note]
-   > <span data-ttu-id="48394-140">В PowerShell Core не поддерживается модуль Microsoft Azure Active Directory для Windows PowerShell и командлеты с компонентом *Msol* в имени.</span><span class="sxs-lookup"><span data-stu-id="48394-140">PowerShell Core doesn't support the Microsoft Azure Active Directory Module for Windows PowerShell module and cmdlets with *Msol* in their name.</span></span> <span data-ttu-id="48394-141">Эти командлеты требуется запускать из PowerShell.</span><span class="sxs-lookup"><span data-stu-id="48394-141">You must run these cmdlets from PowerShell.</span></span>
+   > <span data-ttu-id="0b208-140">В PowerShell Core не поддерживается модуль Microsoft Azure Active Directory для Windows PowerShell и командлеты с компонентом *Msol* в имени.</span><span class="sxs-lookup"><span data-stu-id="0b208-140">PowerShell Core doesn't support the Microsoft Azure Active Directory Module for Windows PowerShell module and cmdlets with *Msol* in their name.</span></span> <span data-ttu-id="0b208-141">Эти командлеты требуется запускать из PowerShell.</span><span class="sxs-lookup"><span data-stu-id="0b208-141">You must run these cmdlets from PowerShell.</span></span>
 
-4. <span data-ttu-id="48394-142">Выполните приведенные ниже команды для подключения к SharePoint Online.</span><span class="sxs-lookup"><span data-stu-id="48394-142">Run these commands to connect to SharePoint Online.</span></span> <span data-ttu-id="48394-143">Введите название организации для вашего домена.</span><span class="sxs-lookup"><span data-stu-id="48394-143">Specify the organization name for your domain.</span></span> <span data-ttu-id="48394-144">Например, для "litwareinc\.onmicrosoft.com" значение названия организации — "litwareinc".</span><span class="sxs-lookup"><span data-stu-id="48394-144">For example, for "litwareinc\.onmicrosoft.com", the  organization name value is "litwareinc".</span></span>
+4. <span data-ttu-id="0b208-142">Выполните приведенные ниже команды для подключения к SharePoint Online.</span><span class="sxs-lookup"><span data-stu-id="0b208-142">Run these commands to connect to SharePoint Online.</span></span> <span data-ttu-id="0b208-143">Введите название организации для вашего домена.</span><span class="sxs-lookup"><span data-stu-id="0b208-143">Specify the organization name for your domain.</span></span> <span data-ttu-id="0b208-144">Например, для "litwareinc\.onmicrosoft.com" значение названия организации — "litwareinc".</span><span class="sxs-lookup"><span data-stu-id="0b208-144">For example, for "litwareinc\.onmicrosoft.com", the  organization name value is "litwareinc".</span></span>
     
    ```powershell
    $orgName="<for example, litwareinc for litwareinc.onmicrosoft.com>"
@@ -109,18 +109,7 @@ ms.locfileid: "50905132"
    Connect-SPOService -Url https://$orgName-admin.sharepoint.com -Credential $Credential
    ```
 
-5. <span data-ttu-id="48394-145">Выполните следующие команды для подключения к Skype для бизнеса Online.</span><span class="sxs-lookup"><span data-stu-id="48394-145">Run these commands to connect to Skype for Business Online.</span></span> <span data-ttu-id="48394-146">При первом подключении появится предупреждение об увеличении значения параметра `WSMan NetworkDelayms`.</span><span class="sxs-lookup"><span data-stu-id="48394-146">A warning about increasing the `WSMan NetworkDelayms` value will appear the first time that you connect.</span></span> <span data-ttu-id="48394-147">Игнорируйте его.</span><span class="sxs-lookup"><span data-stu-id="48394-147">Ignore it.</span></span>
-     
-   > [!Note]
-   > <span data-ttu-id="48394-148">Соединитель Skype для бизнеса Online в настоящее время является частью последнего модуля Teams PowerShell.</span><span class="sxs-lookup"><span data-stu-id="48394-148">Skype for Business Online Connector is currently part of the latest Teams PowerShell module.</span></span> <span data-ttu-id="48394-149">Если вы используете последний общедоступный выпуск Teams PowerShell, вам не нужно устанавливать соединитель Skype для бизнеса Online.</span><span class="sxs-lookup"><span data-stu-id="48394-149">If you're using the latest Teams PowerShell public release, you don't need to install the Skype for Business Online Connector.</span></span>
-   
-   ```powershell
-   Import-Module MicrosoftTeams
-   $credential = Get-Credential
-   Connect-MicrosoftTeams -Credential $credential
-   ```
-
-6. <span data-ttu-id="48394-150">Выполните следующие команды для подключения к Exchange Online.</span><span class="sxs-lookup"><span data-stu-id="48394-150">Run these commands to connect to Exchange Online.</span></span>
+5. <span data-ttu-id="0b208-145">Выполните следующие команды для подключения к Exchange Online.</span><span class="sxs-lookup"><span data-stu-id="0b208-145">Run these commands to connect to Exchange Online.</span></span>
     
    ```powershell
    Import-Module ExchangeOnlineManagement
@@ -128,9 +117,9 @@ ms.locfileid: "50905132"
    ```
 
    > [!Note]
-   > <span data-ttu-id="48394-151">Чтобы подключиться к Exchange Online для облаков Microsoft 365, отличных от всемирного облака, см. статью [Подключение к Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).</span><span class="sxs-lookup"><span data-stu-id="48394-151">To connect to Exchange Online for Microsoft 365 clouds other than Worldwide, see [Connect to Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).</span></span>
+   > <span data-ttu-id="0b208-146">Чтобы подключиться к Exchange Online для облаков Microsoft 365, отличных от всемирного облака, см. статью [Подключение к Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).</span><span class="sxs-lookup"><span data-stu-id="0b208-146">To connect to Exchange Online for Microsoft 365 clouds other than Worldwide, see [Connect to Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).</span></span>
 
-7. <span data-ttu-id="48394-152">Выполните следующие команды для подключения к Центру безопасности &amp; соответствия требованиям.</span><span class="sxs-lookup"><span data-stu-id="48394-152">Run these commands to connect to the Security &amp; Compliance Center.</span></span>
+6. <span data-ttu-id="0b208-147">Выполните следующие команды для подключения к Центру безопасности &amp; соответствия требованиям.</span><span class="sxs-lookup"><span data-stu-id="0b208-147">Run these commands to connect to the Security &amp; Compliance Center.</span></span>
     
    ```powershell
    $acctName="<UPN of the account, such as belindan@litwareinc.onmicrosoft.com>"
@@ -138,9 +127,9 @@ ms.locfileid: "50905132"
    ```
 
    > [!Note]
-   > <span data-ttu-id="48394-153">Чтобы подключиться к Центру безопасности&amp; соответствия требованиям для облаков Microsoft 365, отличных от всемирного облака, см. статью [Подключение к Центру безопасности и соответствия требованиям PowerShell](/powershell/exchange/connect-to-scc-powershell).</span><span class="sxs-lookup"><span data-stu-id="48394-153">To connect to the Security &amp; Compliance Center for Microsoft 365 clouds other than Worldwide, see [Connect to Security & Compliance Center PowerShell](/powershell/exchange/connect-to-scc-powershell).</span></span>
+   > <span data-ttu-id="0b208-148">Чтобы подключиться к Центру безопасности&amp; соответствия требованиям для облаков Microsoft 365, отличных от всемирного облака, см. статью [Подключение к Центру безопасности и соответствия требованиям PowerShell](/powershell/exchange/connect-to-scc-powershell).</span><span class="sxs-lookup"><span data-stu-id="0b208-148">To connect to the Security &amp; Compliance Center for Microsoft 365 clouds other than Worldwide, see [Connect to Security & Compliance Center PowerShell](/powershell/exchange/connect-to-scc-powershell).</span></span>
 
-8. <span data-ttu-id="48394-154">Выполните следующие команды для подключения к Teams PowerShell.</span><span class="sxs-lookup"><span data-stu-id="48394-154">Run these commands to connect to Teams PowerShell.</span></span>
+7. <span data-ttu-id="0b208-149">Выполните следующие команды для подключения к PowerShell для Teams (и Skype для бизнеса Online).</span><span class="sxs-lookup"><span data-stu-id="0b208-149">Run these commands to connect to Teams PowerShell (and Skype for Business Online).</span></span>
     
    ```powershell
    Import-Module MicrosoftTeams
@@ -149,14 +138,16 @@ ms.locfileid: "50905132"
    ```
   
    > [!Note]
-   > <span data-ttu-id="48394-155">Чтобы подключиться к облакам Microsoft Teams, отличным от *всемирного* облака, см. раздел [Connect-MicrosoftTeams](/powershell/module/teams/connect-microsoftteams).</span><span class="sxs-lookup"><span data-stu-id="48394-155">To connect to Microsoft Teams clouds other than *Worldwide*, see [Connect-MicrosoftTeams](/powershell/module/teams/connect-microsoftteams).</span></span>
+   > <span data-ttu-id="0b208-150">Соединитель Skype для бизнеса Online в настоящее время является частью последнего модуля Teams PowerShell.</span><span class="sxs-lookup"><span data-stu-id="0b208-150">Skype for Business Online Connector is currently part of the latest Teams PowerShell module.</span></span> <span data-ttu-id="0b208-151">Если вы используете последний общедоступный выпуск Teams PowerShell, вам не нужно устанавливать соединитель Skype для бизнеса Online.</span><span class="sxs-lookup"><span data-stu-id="0b208-151">If you're using the latest Teams PowerShell public release, you don't need to install the Skype for Business Online Connector.</span></span>
+  
+   > [!Note]
+   > <span data-ttu-id="0b208-152">Чтобы подключиться к облакам Microsoft Teams, отличным от *всемирного* облака, см. раздел [Connect-MicrosoftTeams](/powershell/module/teams/connect-microsoftteams).</span><span class="sxs-lookup"><span data-stu-id="0b208-152">To connect to Microsoft Teams clouds other than *Worldwide*, see [Connect-MicrosoftTeams](/powershell/module/teams/connect-microsoftteams).</span></span>
   
 
 
+### <a name="azure-active-directory-powershell-for-graph-module"></a><span data-ttu-id="0b208-153">Использование модуля Azure Active Directory PowerShell для Graph</span><span class="sxs-lookup"><span data-stu-id="0b208-153">Azure Active Directory PowerShell for Graph module</span></span>
 
-### <a name="azure-active-directory-powershell-for-graph-module"></a><span data-ttu-id="48394-156">Использование модуля Azure Active Directory PowerShell для Graph</span><span class="sxs-lookup"><span data-stu-id="48394-156">Azure Active Directory PowerShell for Graph module</span></span>
-
-<span data-ttu-id="48394-157">Ниже в едином блоке перечислены команды для всех служб при использовании модуля Azure Active Directory PowerShell для Graph.</span><span class="sxs-lookup"><span data-stu-id="48394-157">Here are the commands for all the services in a single block when you use the Azure Active Directory PowerShell for Graph module.</span></span> <span data-ttu-id="48394-158">Укажите доменное имя узла и UPN для входа, а затем запустите их одновременно.</span><span class="sxs-lookup"><span data-stu-id="48394-158">Specify the name of your domain host and the UPN for the sign-in and run them all at the same time.</span></span>
+<span data-ttu-id="0b208-154">Ниже в едином блоке перечислены команды для всех служб при использовании модуля Azure Active Directory PowerShell для Graph.</span><span class="sxs-lookup"><span data-stu-id="0b208-154">Here are the commands for all the services in a single block when you use the Azure Active Directory PowerShell for Graph module.</span></span> <span data-ttu-id="0b208-155">Укажите доменное имя узла и UPN для входа, а затем запустите их одновременно.</span><span class="sxs-lookup"><span data-stu-id="0b208-155">Specify the name of your domain host and the UPN for the sign-in and run them all at the same time.</span></span>
   
 ```powershell
 $orgName="<for example, litwareinc for litwareinc.onmicrosoft.com>"
@@ -167,22 +158,19 @@ Connect-AzureAD -Credential $credential
 #SharePoint Online
 Import-Module Microsoft.Online.SharePoint.PowerShell -DisableNameChecking
 Connect-SPOService -Url https://$orgName-admin.sharepoint.com -credential $credential
-#Skype for Business Online
-Import-Module MicrosoftTeams
-Connect-MicrosoftTeams -Credential $credential
 #Exchange Online
 Import-Module ExchangeOnlineManagement
 Connect-ExchangeOnline -ShowProgress $true
 #Security & Compliance Center
 Connect-IPPSSession -UserPrincipalName $acctName
-#Teams
+#Teams and Skype for Business Online
 Import-Module MicrosoftTeams
 Connect-MicrosoftTeams -Credential $credential
 ```
 
-### <a name="microsoft-azure-active-directory-module-for-windows-powershell-module"></a><span data-ttu-id="48394-159">Модуль Microsoft Azure Active Directory для Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="48394-159">Microsoft Azure Active Directory Module for Windows PowerShell module</span></span>
+### <a name="microsoft-azure-active-directory-module-for-windows-powershell-module"></a><span data-ttu-id="0b208-156">Модуль Microsoft Azure Active Directory для Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="0b208-156">Microsoft Azure Active Directory Module for Windows PowerShell module</span></span>
 
-<span data-ttu-id="48394-160">Ниже в едином блоке перечислены команды для всех служб при использовании модуля Microsoft Azure Active Directory для Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="48394-160">Here are the commands for all the services in a single block when you use the Microsoft Azure Active Directory Module for Windows PowerShell module.</span></span> <span data-ttu-id="48394-161">Укажите доменное имя узла и UPN для входа, а затем запустите их одновременно.</span><span class="sxs-lookup"><span data-stu-id="48394-161">Specify the name of your domain host and the UPN for the sign-in and run them all at one time.</span></span>
+<span data-ttu-id="0b208-157">Ниже в едином блоке перечислены команды для всех служб при использовании модуля Microsoft Azure Active Directory для Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="0b208-157">Here are the commands for all the services in a single block when you use the Microsoft Azure Active Directory Module for Windows PowerShell module.</span></span> <span data-ttu-id="0b208-158">Укажите доменное имя узла и UPN для входа, а затем запустите их одновременно.</span><span class="sxs-lookup"><span data-stu-id="0b208-158">Specify the name of your domain host and the UPN for the sign-in and run them all at one time.</span></span>
   
 ```powershell
 $orgName="<for example, litwareinc for litwareinc.onmicrosoft.com>"
@@ -193,24 +181,21 @@ Connect-MsolService -Credential $credential
 #SharePoint Online
 Import-Module Microsoft.Online.SharePoint.PowerShell -DisableNameChecking
 Connect-SPOService -Url https://$orgName-admin.sharepoint.com -credential $credential
-#Skype for Business Online
-Import-Module MicrosoftTeams
-Connect-MicrosoftTeams -Credential $credential
 #Exchange Online
 Import-Module ExchangeOnlineManagement
 Connect-ExchangeOnline -ShowProgress $true
 #Security & Compliance Center
 Connect-IPPSSession -UserPrincipalName $acctName
-#Teams
+#Teams and Skype for Business Online
 Import-Module MicrosoftTeams
 Connect-MicrosoftTeams -Credential $credential
 ```
 
-## <a name="connection-steps-when-using-multi-factor-authentication"></a><span data-ttu-id="48394-162">Этапы подключения при использовании многофакторной идентификации</span><span class="sxs-lookup"><span data-stu-id="48394-162">Connection steps when using multi-factor authentication</span></span>
+## <a name="connection-steps-when-using-multi-factor-authentication"></a><span data-ttu-id="0b208-159">Этапы подключения при использовании многофакторной идентификации</span><span class="sxs-lookup"><span data-stu-id="0b208-159">Connection steps when using multi-factor authentication</span></span>
 
-### <a name="azure-active-directory-powershell-for-graph-module"></a><span data-ttu-id="48394-163">Использование модуля Azure Active Directory PowerShell для Graph</span><span class="sxs-lookup"><span data-stu-id="48394-163">Azure Active Directory PowerShell for Graph module</span></span>
+### <a name="azure-active-directory-powershell-for-graph-module"></a><span data-ttu-id="0b208-160">Использование модуля Azure Active Directory PowerShell для Graph</span><span class="sxs-lookup"><span data-stu-id="0b208-160">Azure Active Directory PowerShell for Graph module</span></span>
 
-<span data-ttu-id="48394-164">Ниже в едином блоке перечислены все команды, которые можно использовать для подключения к нескольким службам Microsoft 365 при использовании многофакторной проверки подлинности с помощью модуля Azure Active Directory PowerShell для Graph.</span><span class="sxs-lookup"><span data-stu-id="48394-164">Here are all the commands in a single block to connect to multiple Microsoft 365 services when you use multi-factor authentication with the Azure Active Directory PowerShell for Graph module.</span></span>
+<span data-ttu-id="0b208-161">Ниже в едином блоке перечислены все команды, которые можно использовать для подключения к нескольким службам Microsoft 365 при использовании многофакторной проверки подлинности с помощью модуля Azure Active Directory PowerShell для Graph.</span><span class="sxs-lookup"><span data-stu-id="0b208-161">Here are all the commands in a single block to connect to multiple Microsoft 365 services when you use multi-factor authentication with the Azure Active Directory PowerShell for Graph module.</span></span>
 
 ```powershell
 $acctName="<UPN of the account, such as belindan@litwareinc.onmicrosoft.com>"
@@ -219,21 +204,18 @@ $orgName="<for example, litwareinc for litwareinc.onmicrosoft.com>"
 Connect-AzureAD
 #SharePoint Online
 Connect-SPOService -Url https://$orgName-admin.sharepoint.com
-#Skype for Business Online
-Import-Module MicrosoftTeams
-Connect-MicrosoftTeams
 #Exchange Online
 Import-Module ExchangeOnlineManagement
 Connect-ExchangeOnline -UserPrincipalName $acctName -ShowProgress $true
 #Security & Compliance Center
 Connect-IPPSSession -UserPrincipalName $acctName
-#Teams
+#Teams and Skype for Business Online
 Import-Module MicrosoftTeams
 Connect-MicrosoftTeams
 ```
-### <a name="microsoft-azure-active-directory-module-for-windows-powershell-module"></a><span data-ttu-id="48394-165">Модуль Microsoft Azure Active Directory для Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="48394-165">Microsoft Azure Active Directory Module for Windows PowerShell module</span></span>
+### <a name="microsoft-azure-active-directory-module-for-windows-powershell-module"></a><span data-ttu-id="0b208-162">Модуль Microsoft Azure Active Directory для Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="0b208-162">Microsoft Azure Active Directory Module for Windows PowerShell module</span></span>
 
-<span data-ttu-id="48394-166">Ниже в едином блоке перечислены все команды, которые можно использовать для подключения к нескольким службам Microsoft 365 при использовании многофакторной проверки подлинности с помощью модуля Microsoft Azure Active Directory для Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="48394-166">Here are all the commands in a single block to connect to multiple Microsoft 365 services when you use multi-factor authentication with the Microsoft Azure Active Directory Module for Windows PowerShell module.</span></span>
+<span data-ttu-id="0b208-163">Ниже в едином блоке перечислены все команды, которые можно использовать для подключения к нескольким службам Microsoft 365 при использовании многофакторной проверки подлинности с помощью модуля Microsoft Azure Active Directory для Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="0b208-163">Here are all the commands in a single block to connect to multiple Microsoft 365 services when you use multi-factor authentication with the Microsoft Azure Active Directory Module for Windows PowerShell module.</span></span>
 
 ```powershell
 $acctName="<UPN of the account, such as belindan@litwareinc.onmicrosoft.com>"
@@ -242,29 +224,26 @@ $orgName="<for example, litwareinc for litwareinc.onmicrosoft.com>"
 Connect-MsolService
 #SharePoint Online
 Connect-SPOService -Url https://$orgName-admin.sharepoint.com
-#Skype for Business Online
-Import-Module MicrosoftTeams
-Connect-MicrosoftTeams
 #Exchange Online
 Import-Module ExchangeOnlineManagement
 Connect-ExchangeOnline -UserPrincipalName $acctName -ShowProgress $true
 #Security & Compliance Center
 Connect-IPPSSession -UserPrincipalName $acctName
-#Teams
+#Teams and Skype for Business Online
 Import-Module MicrosoftTeams
 Connect-MicrosoftTeams
 ```
 
-## <a name="close-the-powershell-window"></a><span data-ttu-id="48394-167">Закрытие окна PowerShell</span><span class="sxs-lookup"><span data-stu-id="48394-167">Close the PowerShell window</span></span>
+## <a name="close-the-powershell-window"></a><span data-ttu-id="0b208-164">Закрытие окна PowerShell</span><span class="sxs-lookup"><span data-stu-id="0b208-164">Close the PowerShell window</span></span>
 
-<span data-ttu-id="48394-168">Чтобы закрыть окно PowerShell, выполните эту команду для завершения всех активных сеансов в Skype для бизнеса Online, SharePoint Online и Teams:</span><span class="sxs-lookup"><span data-stu-id="48394-168">To close down the PowerShell window, run this command to remove the active sessions to Skype for Business Online, SharePoint Online, and Teams:</span></span>
+<span data-ttu-id="0b208-165">Чтобы закрыть окно PowerShell, выполните эту команду для завершения всех активных сеансов в Skype для бизнеса Online, SharePoint Online и Teams:</span><span class="sxs-lookup"><span data-stu-id="0b208-165">To close down the PowerShell window, run this command to remove the active sessions to Skype for Business Online, SharePoint Online, and Teams:</span></span>
   
 ```powershell
 Remove-PSSession $sfboSession ; Disconnect-SPOService ; Disconnect-MicrosoftTeams 
 ```
 
-## <a name="see-also"></a><span data-ttu-id="48394-169">См. также</span><span class="sxs-lookup"><span data-stu-id="48394-169">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0b208-166">См. также</span><span class="sxs-lookup"><span data-stu-id="0b208-166">See also</span></span>
 
-- [<span data-ttu-id="48394-170">Подключение к Microsoft 365 с помощью PowerShell</span><span class="sxs-lookup"><span data-stu-id="48394-170">Connect to Microsoft 365 with PowerShell</span></span>](connect-to-microsoft-365-powershell.md)
-- [<span data-ttu-id="48394-171">Управление SharePoint Online с помощью PowerShell</span><span class="sxs-lookup"><span data-stu-id="48394-171">Manage SharePoint Online with PowerShell</span></span>](manage-sharepoint-online-with-microsoft-365-powershell.md)
-- [<span data-ttu-id="48394-172">Управление учетными записями пользователей Microsoft 365, лицензиями и группами с помощью PowerShell</span><span class="sxs-lookup"><span data-stu-id="48394-172">Manage Microsoft 365 user accounts, licenses, and groups with PowerShell</span></span>](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md)
+- [<span data-ttu-id="0b208-167">Подключение к Microsoft 365 с помощью PowerShell</span><span class="sxs-lookup"><span data-stu-id="0b208-167">Connect to Microsoft 365 with PowerShell</span></span>](connect-to-microsoft-365-powershell.md)
+- [<span data-ttu-id="0b208-168">Управление SharePoint Online с помощью PowerShell</span><span class="sxs-lookup"><span data-stu-id="0b208-168">Manage SharePoint Online with PowerShell</span></span>](manage-sharepoint-online-with-microsoft-365-powershell.md)
+- [<span data-ttu-id="0b208-169">Управление учетными записями пользователей Microsoft 365, лицензиями и группами с помощью PowerShell</span><span class="sxs-lookup"><span data-stu-id="0b208-169">Manage Microsoft 365 user accounts, licenses, and groups with PowerShell</span></span>](manage-user-accounts-and-licenses-with-microsoft-365-powershell.md)
