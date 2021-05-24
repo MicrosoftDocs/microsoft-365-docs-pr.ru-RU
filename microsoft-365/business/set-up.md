@@ -1,5 +1,5 @@
 ---
-title: Настройка Microsoft 365 бизнес премиум
+title: Настройка Microsoft 365 бизнес премиум
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -30,14 +30,16 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Откройте для себя шаги установки Microsoft 365 бизнес премиум, включая добавление домена и пользователей, настройку политик безопасности и другие.
-ms.openlocfilehash: 37607b483686fc12ac6253ae9f693ec86c073c4e
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 3e15f16db2a233d2e11d444600398102b075932d
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245051"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624396"
 ---
 # <a name="set-up-microsoft-365-business-premium-in-the-setup-wizard"></a>Настройка Microsoft 365 бизнес премиум в мастере установки
+
+## <a name="watch-overview-of-microsoft-365-setup"></a>Часы. Обзор Microsoft 365 настройки
 
 Просмотрите это видео, чтобы просмотреть Microsoft 365 бизнес премиум настройки.<br><br>
 
@@ -85,7 +87,7 @@ ms.locfileid: "52245051"
 
 1. Если в Microsoft 365 бизнес премиум подписки есть существующие пользователи (например, если вы использовали Azure AD Подключение), вы получите возможность назначить им лицензии сейчас. Добавьте лицензии и для них.
 
-2. После добавления пользователей у вас также будет возможность предоставить им учетные данные. Вы можете распечатать их, отправить по электронной почте или скачать.
+2. После добавления новых пользователей у вас также будет возможность предоставить им учетные данные. Вы можете распечатать их, отправить по электронной почте или скачать.
 
 ### <a name="connect-your-domain"></a>Подключение домена
 
@@ -131,6 +133,6 @@ ms.locfileid: "52245051"
 
 Вы также можете установить Office отдельно. Инструкции [по установке Office на компьютере или Mac.](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658)
 
-## <a name="see-also"></a>См. также
+## <a name="related-content"></a>См. также:
 
-[Обучающие видеоролики по Microsoft 365 для бизнеса](../business-video/index.yml)
+[Microsoft 365 для видео обучения бизнесу](../business-video/index.yml) (страница ссылки)

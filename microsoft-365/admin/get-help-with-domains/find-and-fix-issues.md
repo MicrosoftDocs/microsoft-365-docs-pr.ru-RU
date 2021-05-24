@@ -24,16 +24,16 @@ search.appverid:
 - GEA150
 ms.assetid: 40398b0b-bdd0-4afd-ab5e-b5ae6b7990bf
 description: Узнайте, как отслеживать любые проблемы, с которыми вы можете возникнуть при настройке настраиваемой области, убедившись, что записи DNS настроены правильно.
-ms.openlocfilehash: 5959cae02b87cf481fc06edd941a6da284b71736
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 70beb877251c333766a0963316287796eb81d595
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537551"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52623969"
 ---
 # <a name="find-and-fix-issues-after-adding-your-domain-or-dns-records"></a>Поиск и устранение неполадок после добавления домена и записей DNS
 
- Если вы не нашли то, что вы ищете, см. раздел **[Вопросы и ответы по доменам](../setup/domains-faq.yml)**. 
+ Если вы не нашли то, что вы ищете, обратитесь к разделу **[вопросы и ответы по доменам](../setup/domains-faq.yml)**. 
   
 Настройка домена для работы с Microsoft 365 может быть сложной задачей. Система DNS является придиркой к работе, и установка DNS для вашего домена влияет на важные бизнес-действия, такие как электронная почта!
 
@@ -103,5 +103,6 @@ ms.locfileid: "52537551"
 
 ## <a name="related-content"></a>См. также:
 
-[Устранение неполадок: аудит данных о проверенном изменении домена](/azure/active-directory/reports-monitoring/troubleshoot-audit-data-verified-domain)
+[Устранение неполадок: аудит данных о проверенном изменении домена](/azure/active-directory/reports-monitoring/troubleshoot-audit-data-verified-domain) (статья)\
+[Вопросы и ответы о доменах](../setup/domains-faq.yml) (статья)
 

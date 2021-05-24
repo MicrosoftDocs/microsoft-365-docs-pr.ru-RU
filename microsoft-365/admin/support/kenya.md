@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 58cd84899c2fcf0d16c54f939da40be0ac5703cb
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 7df4e9f2a9827289ab0bd85c9696e03aac9e3bb3
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52295991"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52623637"
 ---
 # <a name="contact-support-for-kenya"></a>Поддержка контактов для Кении
 
@@ -26,9 +26,9 @@ ms.locfileid: "52295991"
 ## <a name="phone-number"></a>Номер телефона
 020 286 8800
 
-Выбор варианта 9
+Нажмите 2 для бизнеса
 
-Ввод кода 7704
+Нажмите 1 для Microsoft 365
 
 ## <a name="hours"></a>Часы
 ### <a name="billing-support"></a>Поддержка по выставлению счетов:

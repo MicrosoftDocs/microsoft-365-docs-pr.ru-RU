@@ -18,14 +18,14 @@ ms.custom:
 - AdminSurgePortfolio
 - commerce_subscriptions
 search.appverid: MET150
-description: Узнайте, как перейти на другой план.
+description: Самый простой способ обновления планов — использовать вкладку Upgrade в центре администрирования. Однако вкладка Upgrade не всегда поддерживается.
 ms.date: 04/21/2021
-ms.openlocfilehash: 4882ad4296eb05faf0bb549ebf850562a7ebf780
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: da0b0a826087ea7e963dde85f9b4612acf0eaf99
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52344621"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624317"
 ---
 # <a name="upgrade-to-a-different-plan"></a>Переход на другой план
 
@@ -162,7 +162,7 @@ ms.locfileid: "52344621"
 
 [Вызов службы поддержки Майкрософт](../../business-video/get-help-support.md)
 
-## <a name="related-content"></a>Связанные материалы
+## <a name="related-content"></a>См. также:
 
 [Изменение планов вручную](change-plans-manually.md) (статья)\
 [Перед переключение Microsoft 365 для бизнес-планов](back-up-data-before-switching-plans.md) (статья)

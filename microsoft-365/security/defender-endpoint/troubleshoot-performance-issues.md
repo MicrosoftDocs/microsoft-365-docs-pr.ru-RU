@@ -16,12 +16,12 @@ ms.date: 04/14/2021
 audience: ITPro
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 71c2391361c645d26cdaddff0bff86796da50391
-ms.sourcegitcommit: f000358c01a8006e5749a86b256300ee3a73174c
+ms.openlocfilehash: 1a969b6430914eb2dd667a906dc071d3cd49be8b
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/24/2021
-ms.locfileid: "51995085"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52625333"
 ---
 # <a name="troubleshoot-performance-issues-related-to-real-time-protection"></a>Устранение неполадок, связанных с защитой в режиме реального времени
 
@@ -33,7 +33,7 @@ ms.locfileid: "51995085"
 
 - [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2146631)
  
-Если у вашей системы высокие показатели использования ЦП или производительности, связанные со службой защиты в режиме реального времени в Microsoft Defender для конечной точки, вы можете отправить билет в службу поддержки Майкрософт. Выполните действия по [сбору диагностических данных антивируса Microsoft Defender.](collect-diagnostic-data.md)
+Если у вашей системы высокие показатели использования ЦП или производительности, связанные со службой защиты в режиме реального времени в Microsoft Defender для конечной точки, вы можете отправить билет в службу поддержки Майкрософт. Следуйте шагам [в сборе антивирусная программа в Microsoft Defender диагностических данных.](collect-diagnostic-data.md)
 
 В качестве администратора вы также можете устранить эти проблемы самостоятельно. 
 
@@ -43,7 +43,7 @@ ms.locfileid: "51995085"
 
 Вы также можете предоставить дополнительные журналы для отправки в службу поддержки Майкрософт, следуя следующим шагам:
 - [Запись журналов процессов с помощью монитора процесса](#capture-process-logs-using-process-monitor)
-- [Запись журналов производительности с помощью регистратора производительности Windows](#capture-performance-logs-using-windows-performance-recorder) 
+- [Запись журналов производительности с Windows записи производительности](#capture-performance-logs-using-windows-performance-recorder) 
 
 ## <a name="check-with-vendor-for-antivirus-exclusions"></a>Узнайте у поставщика об исключениях антивирусов
 
@@ -67,9 +67,9 @@ ms.locfileid: "51995085"
 | MaxTimeFile | Путь файла, доступ к которому был зафиксирован в этом процессе, для которого было записано самое длительное `MaxTime` сканирование |
 | EstimatedImpact | Процент времени, затраченного на сканирование файлов, доступных в этом процессе, за период, в течение которого этот процесс испытывал активность сканирования. |
 
-Если производительность высока, попробуйте добавить процесс в исключения Path/Process, следуя шагам в Настройка и проверка исключений для антивирусных сканов [Microsoft Defender.](collect-diagnostic-data.md)
+Если производительность высока, попробуйте добавить процесс в исключения Path/Process, следуя шагам в Настройка и проверка исключений для антивирусная программа в Microsoft Defender [проверки.](collect-diagnostic-data.md)
 
-Если предыдущий шаг не решает проблему, можно собирать [](#capture-process-logs-using-process-monitor) дополнительные сведения через монитор процесса или [регистратор](#capture-performance-logs-using-windows-performance-recorder) производительности Windows в следующих разделах.
+Если предыдущий шаг не решает проблему, можно собирать [](#capture-process-logs-using-process-monitor) дополнительные сведения [](#capture-performance-logs-using-windows-performance-recorder) через монитор процесса или Windows записи производительности в следующих разделах.
      
 ## <a name="capture-process-logs-using-process-monitor"></a>Запись журналов процессов с помощью монитора процесса
 
@@ -87,7 +87,7 @@ Process Monitor (ProcMon) — это расширенный инструмент
 
 3. Разбей файл `C:\temp` так, чтобы путь папки был `C:\temp\ProcessMonitor` . 
 
-4. **СкопируйтеProcMon.exe** на клиент Windows или сервер Windows, который вы устраняете.  
+4. **СкопируйтеProcMon.exe** на Windows или Windows сервер, который вы устраняете.  
 
 5. Перед запуском ProcMon убедитесь, что все другие приложения, не связанные с высокой проблемой использования ЦП, закрыты. Это позволит свести к минимуму количество проверок.
 
@@ -150,11 +150,11 @@ Process Monitor (ProcMon) — это расширенный инструмент
 13. Zip файл .pml и отправить его в службу поддержки Майкрософт.
 
 
-## <a name="capture-performance-logs-using-windows-performance-recorder"></a>Запись журналов производительности с помощью регистратора производительности Windows
+## <a name="capture-performance-logs-using-windows-performance-recorder"></a>Запись журналов производительности с Windows записи производительности
 
-Вы можете использовать регистратор производительности Windows (WPR), чтобы включить дополнительные сведения в отправку в службу поддержки Майкрософт. WPR — это мощный инструмент записи, который создает отслеживание событий для записей Windows. 
+Вы можете использовать Windows (WPR), чтобы включить дополнительные сведения в отправку в службу поддержки Майкрософт. WPR — это мощный инструмент записи, который создает трассировку событий для Windows записей. 
 
-WPR является частью набора windows Assessment and Deployment Kit (Windows ADK) и может быть скачана из скачивания и установки [Windows ADK.](/windows-hardware/get-started/adk-install) Вы также можете скачать его в комплекте разработки программного обеспечения Для Windows 10 в [Windows 10 SDK.](https://developer.microsoft.com/windows/downloads/windows-10-sdk/)
+WPR является частью набора Windows и развертывания (Windows ADK) и может быть загружен из скачивания и установки Windows [ADK](/windows-hardware/get-started/adk-install). Вы также можете скачать его в Windows 10 комплекта разработки программного обеспечения [в Windows 10 SDK](https://developer.microsoft.com/windows/downloads/windows-10-sdk/).
 
 Пользовательский интерфейс WPR можно использовать, следуя шагам в журналах производительности [Capture с помощью пользовательского интерфейса WPR.](#capture-performance-logs-using-the-wpr-ui) 
 
@@ -168,7 +168,7 @@ WPR является частью набора windows Assessment and Deployment
 
 1. Скачайте и установите WPR.
 
-2. В *комплектах Windows* щелкните правой кнопкой **мыши запись производительности Windows.** 
+2. В *Windows наборов* щелкните правой кнопкой мыши **Windows записи производительности**. 
 
     ![Меню "Пуск"](images/wpr-01.png)
 
@@ -178,20 +178,20 @@ WPR является частью набора windows Assessment and Deployment
 
     ![UAC](images/wpt-yes.png)
 
-4. Далее скачайте профиль [анализа Microsoft Defender для конечных](https://github.com/YongRhee-MDE/Scripts/blob/master/MDAV.wprp) точек и сохраните `WD.wprp` папку типа `C:\temp` . 
+4. Далее скачайте профиль [анализа Microsoft Defender для конечных](https://github.com/YongRhee-MDE/Scripts/blob/master/MDAV.wprp) точек и сохраните `MDAV.wprp` папку типа `C:\temp` . 
      
 5. В диалоговом окне WPR выберите **дополнительные параметры.**
 
     ![Выберите дополнительные параметры](images/wpr-03.png)
 
-6. Выберите **Добавить профили...** и просмотреть путь `WD.wprp` файла.
+6. Выберите **Добавить профили...** и просмотреть путь `MDAV.wprp` файла.
 
 7. После этого следует увидеть новый набор  профилей под пользовательскими измерениями с именем Microsoft Defender для анализа *конечных точек* под ним.
 
     ![в файле](images/wpr-infile.png)
 
     >[!WARNING]
-    >Если windows Server имеет 64 ГБ оперативной памяти или более, используйте настраиваемые `Microsoft Defender for Endpoint analysis for large servers` измерения вместо `Microsoft Defender for Endpoint analysis` . В противном случае система может потреблять большое количество памяти пула без страниц или буферов, что может привести к нестабильности системы. Вы можете выбрать, какие профили добавить, расширяя **анализ ресурсов.** Этот настраиваемый профиль предоставляет необходимый контекст для углубленного анализа производительности.
+    >Если у Windows Server 64 ГБ оперативной памяти или более, используйте настраиваемые измерения вместо `Microsoft Defender for Endpoint analysis for large servers` `Microsoft Defender for Endpoint analysis` . В противном случае система может потреблять большое количество памяти пула без страниц или буферов, что может привести к нестабильности системы. Вы можете выбрать, какие профили добавить, расширяя **анализ ресурсов.** Этот настраиваемый профиль предоставляет необходимый контекст для углубленного анализа производительности.
  
 8. Чтобы использовать настраиваемый профиль анализа подробных анализов Microsoft Defender для конечных точек в пользовательском интерфейсе WPR:
 
@@ -245,9 +245,9 @@ WPR является частью набора windows Assessment and Deployment
 
 ### <a name="capture-performance-logs-using-the-wpr-cli"></a>Захват журналов производительности с помощью CLI WPR
 
-Средство командной *строкиwpr.exe* операционной системы, начиная с Windows 8. Для сбора трассировки WPR с помощью средства командной строки wpr.exe:
+Средство командной *строкиwpr.exe* является частью операционной системы, начиная с Windows 8. Для сбора трассировки WPR с помощью средства командной строки wpr.exe:
 
-1. Скачайте профиль анализа Microsoft Defender для **[конечной](https://github.com/YongRhee-MDE/Scripts/blob/master/MDAV.wprp)** точки для отслеживания производительности в файл с именем в локальном `WD.wprp` каталоге, например `C:\traces` .
+1. Скачайте профиль анализа Microsoft Defender для **[конечной](https://github.com/YongRhee-MDE/Scripts/blob/master/MDAV.wprp)** точки для отслеживания производительности в файл с именем в локальном `MDAV.wprp` каталоге, например `C:\traces` .
 
 3. Щелкните правой кнопкой кнопку **Пуск** меню и выберите Windows PowerShell **(Администратор)** или Командный запрос **(Администратор),** чтобы открыть окно командной команды администратора.
 
@@ -256,11 +256,11 @@ WPR является частью набора windows Assessment and Deployment
 5. В приподнятом запросе запустите следующую команду, чтобы запустить трассировку производительности Microsoft Defender для конечных точек:
 
     ```console
-    wpr.exe -start C:\traces\WD.wprp!WD.Verbose -filemode
+    wpr.exe -start C:\traces\MDAV.wprp!WD.Verbose -filemode
     ```
     
     >[!WARNING]
-    >Если у windows Server 64 ГБ или оперативной памяти или более, используйте профили, а не `WDForLargeServers.Light` `WDForLargeServers.Verbose` профили `WD.Light` `WD.Verbose` и, соответственно. В противном случае система может потреблять большое количество памяти пула без страниц или буферов, что может привести к нестабильности системы.
+    >Если у Windows Server 64 ГБ или оперативной памяти или более, используйте профили и вместо профилей `WDForLargeServers.Light` `WDForLargeServers.Verbose` и , `WD.Light` `WD.Verbose` соответственно. В противном случае система может потреблять большое количество памяти пула без страниц или буферов, что может привести к нестабильности системы.
 
 6. Воспроизвести проблему.
 
@@ -279,5 +279,5 @@ WPR является частью набора windows Assessment and Deployment
 
 ## <a name="see-also"></a>См. также
 
-- [Сбор диагностических данных антивируса Microsoft Defender](collect-diagnostic-data.md)
-- [Настройка и проверка исключений для проверки антивирусных программ Microsoft Defender](configure-exclusions-microsoft-defender-antivirus.md)
+- [Сбор антивирусная программа в Microsoft Defender диагностических данных](collect-diagnostic-data.md)
+- [Настройка и проверка исключений для антивирусная программа в Microsoft Defender сканирования](configure-exclusions-microsoft-defender-antivirus.md)

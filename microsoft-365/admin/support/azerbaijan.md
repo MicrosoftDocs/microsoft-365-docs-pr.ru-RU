@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 726af48f61a279ec29ce771b9be97f75cfa74f62
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 4762942ee7340eead0f1e025de7ace61aa00cfca
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52296591"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624305"
 ---
 # <a name="contact-support-for-azerbaijan"></a>Поддержка контактов для Азербайджана
 
@@ -26,9 +26,9 @@ ms.locfileid: "52296591"
 ## <a name="phone-number"></a>Номер телефона
 01 24 37 35 55
 
-Выбор варианта 9
+Нажмите 2 для бизнеса
 
-Ввод кода 7706
+Нажмите 1 для Microsoft 365
 
 ## <a name="hours"></a>Часы
 ### <a name="billing-support"></a>Поддержка по выставлению счетов:

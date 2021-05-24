@@ -20,12 +20,12 @@ metadata:
   description: Администраторы могут просматривать часто задамые вопросы и ответы о защите от нежелательной почты в Exchange Online Protection (EOP).
   ms.technology: mdo
   ms.prod: m365-security
-  ms.openlocfilehash: e632ab1183c43cd50da7c2cf7832a5a18fa64d50
-  ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+  ms.openlocfilehash: b15e7409c275810a9d5e70d1376a9c3accd07ab9
+  ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
   ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 05/20/2021
-  ms.locfileid: "52583620"
+  ms.lasthandoff: 05/24/2021
+  ms.locfileid: "52624919"
 title: Вопросы и ответы о защите от нежелательной почты
 summary: >
   [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
@@ -61,7 +61,7 @@ sections:
 
       > [!IMPORTANT]
 
-      > В гибридных развертываниях, где EOP защищает почтовые ящики на месте, необходимо настроить два правила потока почты Exchange (также известные как правила транспорта) в локальной Exchange организации, чтобы обнаружить загонщики фильтрации нежелательной почты EOP, добавленные в сообщения. Дополнительные сведения см. в статье [Настройка автономной службы EOP для доставки спама в папку нежелательной почты в гибридных средах](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md).
+      > В гибридных развертываниях, в которых EOP защищает Exchange почтовые ящики, необходимо настроить два правила потока почты Exchange (также известные как правила транспорта) в локальной Exchange организации, чтобы обнаружить загонщики фильтрации нежелательной почты EOP, добавленные в сообщения. Подробные сведения см. в [материале Configure EOP для доставки](/exchange/standalone-eop/configure-eop-spam-protection-hybrid)нежелательной почты в папку нежелательной почты в гибридных средах.
 
        **Для исходящие сообщения:** Сообщение либо направляется через [](high-risk-delivery-pool-for-outbound-messages.md) пул доставки с высоким уровнем риска, либо возвращается отправителю в отчете о невывозе (также известном как сообщение NDR или отказов). Дополнительные сведения о защите от исходящие нежелательной почты см. в дополнительных сведениях о средствах управления исходящие средства защиты от [нежелательной почты.](outbound-spam-controls.md)
   - question: >

@@ -19,14 +19,14 @@ ms.custom:
 - manage_licenses
 - commerce_licensing
 search.appverid: MET150
-description: Узнайте, как отогнать лицензии из учетных записей пользователей.
+description: Метод, который используется для ненамеряния лицензий на продукты, зависит от того, вы отозвале лицензии у определенных пользователей или от конкретного продукта.
 ms.date: 07/01/2020
-ms.openlocfilehash: 4ff6a0e5554117cd1fc2d818c04edabc9e33b2a1
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: f7624432590a5731b57c45c25e7e7dc458a5b8f5
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52582912"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52623593"
 ---
 # <a name="unassign-licenses-from-users"></a>Отмена назначения лицензий пользователям
 
@@ -35,7 +35,7 @@ ms.locfileid: "52582912"
 > [!NOTE]
 > В качестве администратора вы не можете назначить лицензии или отменить их назначение для подписок, самостоятельно приобретенных пользователем в организации. Вы можете [получить контроль над самостоятельно приобретенной подпиской](../../commerce/subscriptions/manage-self-service-purchases-admins.md#take-over-a-self-service-purchase-subscription), а затем назначить лицензии или отменить их назначение.
 
-## <a name="before-you-begin"></a>Подготовка к работе
+## <a name="before-you-begin"></a>Прежде чем начать
 
 - Чтобы отогнать лицензии, необходимо быть администратором глобальной лицензии, лицензии и пользователя. Дополнительные сведения см. в статье [Роли администраторов в Microsoft 365](../add-users/about-admin-roles.md).
 - Вы можете [удалить лицензии из учетных записей пользователей с помощью Office 365 PowerShell](../../enterprise/remove-licenses-from-user-accounts-with-microsoft-365-powershell.md).

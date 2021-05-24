@@ -22,13 +22,13 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: 1136115a-75af-4497-b693-640c4ce70bc6
-description: 'Создайте быстрые ссылки на электронную почту, документы, приложения, SharePoint сайты, внешние сайты и другие ресурсы, добавив настраиваемые плитки в пусковую площадку приложения. '
-ms.openlocfilehash: 598cfeb75fc811c87519c4479fa8fcab450466c3
-ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
+description: Создайте быстрые ссылки на электронную почту, документы, приложения, SharePoint сайты, внешние сайты и другие ресурсы, добавив настраиваемые плитки в пусковую площадку приложения.
+ms.openlocfilehash: 47f871d66f180225e877a521ef159fc745960507
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52327214"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52623777"
 ---
 # <a name="add-custom-tiles-to-the-app-launcher"></a>Добавление настраиваемых плиток в средство запуска приложений
 
@@ -79,6 +79,12 @@ ms.locfileid: "52327214"
     
 Чтобы удалить настраиваемую плитку из окна **Настраиваемые** плитки, выберите плитку, выберите **Удалить плитку**  >  **Удалить**. 
   
-## <a name="whats-next"></a>Что дальше?
+## <a name="next-steps"></a>Дальнейшие действия
 
 В дополнение к добавлению плитки в пусковую систему приложения можно добавить плитки для запуска приложений в панели навигации[(дополнительные).](https://support.microsoft.com/office/eb34a21b-52fa-4fbf-a8d5-146132242985) Чтобы настроить внешний вид Microsoft 365 в соответствие с брендом организации, см. в Microsoft 365 [темы](../setup/customize-your-organization-theme.md).
+
+## <a name="related-content"></a>См. также:
+
+[Pin apps to your users' app launcher](pin-apps-to-app-launcher.md) (article)\
+[Обновление Microsoft 365 для](../setup/upgrade-users-to-latest-office-client.md) бизнес-пользователей до Office клиента (статья)\
+[Управление надстройки в центре администрирования](../manage/manage-addins-in-the-admin-center.md) (статья)

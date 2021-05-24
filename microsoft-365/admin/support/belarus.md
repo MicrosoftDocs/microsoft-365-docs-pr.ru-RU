@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Узнайте, как связаться с службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: c536987035743f9a640d427375efaedfce21fbb8
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 455959c8b11a3cfaf293052d2c23251771ac7456
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52296555"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52623581"
 ---
 # <a name="contact-support-for-belarus"></a>Поддержка контактов для Беларуси
 
@@ -26,9 +26,9 @@ ms.locfileid: "52296555"
 ## <a name="phone-number"></a>Номер телефона
 8 820 0071 0003
 
-Выбор варианта 9
+Нажмите 2 для бизнеса
 
-Ввод кода 7707
+Нажмите 1 для Microsoft 365
 
 ## <a name="hours"></a>Часы
 ### <a name="billing-support"></a>Поддержка по выставлению счетов:

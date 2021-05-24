@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 55c96b32-e086-4c9e-948b-a018b44510cb
 description: Научитесь создавать, редактировать или удалять группу безопасности.
-ms.openlocfilehash: 8f76b5fa803ea43e53e89cf6479eb7572a2857c2
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 7887a6371287ebef3a91cc1a37f2ed696df1948d
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537599"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624005"
 ---
 # <a name="create-edit-or-delete-a-security-group-in-the-microsoft-365-admin-center"></a>Создание, редактирование или удаление группы безопасности в центре Microsoft 365 администрирования
 
@@ -99,3 +99,9 @@ ms.locfileid: "52537599"
 ## <a name="can-i-send-email-to-a-security-group"></a>Могу ли я отправить электронную почту группе безопасности?
 
 Да. Но если вы хотите использовать группы для электронной почты и совместной работы, рекомендуется создать Microsoft 365 [группу.](../create-groups/create-groups.md) 
+
+## <a name="related-content"></a>См. также:
+
+[Создание группы в центре администрирования Microsoft 365](../create-groups/create-groups.md) (статья)\
+[Объяснение групп Microsoft 365 пользователям](../create-groups/explain-groups-knowledge-worker.md) (статья)\
+[Управление группой в центре администрирования Microsoft 365 (статья)](../create-groups/manage-groups.md)

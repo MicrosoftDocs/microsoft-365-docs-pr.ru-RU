@@ -20,13 +20,13 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: f86e8177-936e-491e-9024-44dea2b296ff
-description: Узнайте, как добавить партнера-консультанта по подписке в качестве партнера записи во время Microsoft 365, изменить партнера или удалить партнера из подписки.
-ms.openlocfilehash: d45f9e3278b0a25cc5603d322c96f40eee45e6f8
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+description: Добавьте партнера записи во время Microsoft 365, измените партнера или удалите партнера из подписки.
+ms.openlocfilehash: e21c324bc84e360b80deae2abeec610e73834819
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537479"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624529"
 ---
 # <a name="add-change-or-delete-a-subscription-advisor-partner"></a>Добавление, смена и удаление партнера-консультанта по подпискам
 
@@ -42,6 +42,8 @@ ms.locfileid: "52537479"
 Авторизованный партнер корпорации Майкрософт, выступающий в роли консультанта по подпискам, предоставляет консультации по вопросам приобретения, поддержки и техническим вопросам, связанным с подпиской. Вы можете добавить партнера-консультанта по подписке в качестве партнера записи при покупке Microsoft 365 или в другое время. Если вы в настоящее время не работаете с партнером, вы также можете найти его на веб-сайте [Microsoft Pinpoint.](https://pinpoint.microsoft.com)
 
 ::: moniker-end
+
+## <a name="before-you-begin"></a>Прежде чем начать
 
 ::: moniker range="o365-worldwide"
 
@@ -218,6 +220,7 @@ ms.locfileid: "52537479"
   
 ::: moniker-end
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-content"></a>См. также:
 
-[Найдите Microsoft 365 партнера или посредника](../manage/find-your-partner-or-reseller.md)
+[Найдите Microsoft 365 партнера или посредника](../manage/find-your-partner-or-reseller.md) (статья)\
+[Планирование установки Microsoft 365 для бизнеса](../setup/plan-your-setup.md) (статья)

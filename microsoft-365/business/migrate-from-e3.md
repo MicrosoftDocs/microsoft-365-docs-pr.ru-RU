@@ -21,13 +21,13 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-description: Узнайте, как переместить бизнес в Microsoft 365 бизнес премиум из Office 365 E3.
-ms.openlocfilehash: 990ca8bdae979f1efb8a60a3460add2953a51892
-ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
+description: Если у вас Office 365 подписка на E3, но не более 300 сотрудников, переключение на Microsoft 365 бизнес премиум.
+ms.openlocfilehash: d139d07c946ff3efed3db3a73eb5e1a4ae66c190
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52327177"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52623612"
 ---
 # <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>Перенос из Office 365 E3 в Microsoft 365 бизнес премиум
 
@@ -39,14 +39,14 @@ Microsoft 365 бизнес премиум имеет все необходимо
 
 В этой таблице показаны различия между Microsoft 365 бизнес премиум и Office 365 E3.
 
-| Возможность    | Поддержка в Microsoft 365 бизнес премиум    | Поддержка Office 365 E3 |
+| Функция    | Поддержка в Microsoft 365 бизнес премиум    | Поддержка Office 365 E3 |
 |:-------|:-----|:-----|
 | **Локальная среда**        | | |
 | Office приложения<sup>1</sup>    | Приложения Microsoft 365 для бизнеса    | Приложения Microsoft 365 для предприятий |
 | **Приложения облачной производительности**        | | |
 | Exchange Online и Outlook    | Ограничение хранения 50 ГБ на почтовый ящик и неограниченное Exchange Online Archiving    | Ограничение хранения 100 ГБ на почтовый ящик и неограниченное Exchange Online Archiving |
 | Teams    | ![Включено в Microsoft 365 бизнес премиум](../media/check-mark.png)    | ![Включено в Office 365 E3](../media/check-mark.png) | 
-| OneDrive для бизнеса    | Ограничение хранения 1 ТБ на пользователя    | Без ограничений | 
+| OneDrive для бизнеса    | Ограничение хранения 1 ТБ на пользователя    | Неограниченное количество | 
 | Yammer, SharePoint Online, Planner, Stream    | ![Включено в Microsoft 365 бизнес премиум](../media/check-mark.png)    | ![Включено в Office 365 E3](../media/check-mark.png) | 
 | StaffHub    | ![Включено в Microsoft 365 бизнес премиум](../media/check-mark.png)    | ![Включено в Office 365 E3](../media/check-mark.png) |
 | **Защита от угроз**        | | |
@@ -79,7 +79,7 @@ Microsoft 365 бизнес премиум имеет все необходимо
 - Конфигурации служб производительности и их данные, такие как Teams, Exchange Online почтовые ящики, сайты SharePoint Online, OneDrive для бизнеса папок и OneNote блокноты.
 - Office приложения будут масштабироваться автоматически. Office 365 лицензирование проверяет назначение лицензии пользователя каждые 72 часа и преобразует Office приложения в версию, которая соответствует подписке пользователя.
 
-### <a name="windows-10"></a>Windows 10
+### <a name="windows-10"></a>Windows 10;
 
 Если ваши Windows еще не Windows Pro обновления Создателя, обновите их до [Windows Pro Creators Update](upgrade-to-windows-pro-creators-update.md).
 
@@ -125,3 +125,12 @@ Microsoft 365 бизнес премиум имеет ограничение хр
 ### <a name="sensitivity-labels"></a>Метки конфиденциальности
 
 Чтобы начать использовать метки чувствительности, [см.](../compliance/sensitivity-labels.md) обзор меток чувствительности и создание и управление видео [меток чувствительности.](../business-video/create-sensitivity-labels.md)
+
+## <a name="related-content"></a>См. также:
+
+[Изменение планов вручную](../commerce/subscriptions/change-plans-manually.md) (статья)\
+[Обновление Windows устройств до Windows 10 Pro](upgrade-to-windows-pro-creators-update.md) (видео)\
+[Установите параметры защиты приложений для устройств Android или iOS](app-protection-settings-for-android-and-ios.md) (статья)\
+[Установка или изменение параметров](protection-settings-for-windows-10-devices.md) защиты приложений для Windows 10 устройств (статья)\
+[]
+

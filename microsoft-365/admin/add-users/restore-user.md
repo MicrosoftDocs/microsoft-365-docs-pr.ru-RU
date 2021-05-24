@@ -22,13 +22,13 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: 2c261e42-5dd1-48b0-845f-2a016d29cfc1
-description: Узнайте, как восстановить удаленные учетные записи пользователей и все связанные данные.
-ms.openlocfilehash: b7d98c1f49f8252ea9fdda2d863b5b77ac5bea9d
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+description: В течение 30 дней после удаления учетной записи пользователя можно восстановить учетную запись и все данные, а пользователь может войти с одной учетной записью.
+ms.openlocfilehash: 83852136ee22ab3f63d8ada6a5a7290883c392e5
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52291071"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52623825"
 ---
 # <a name="restore-a-user"></a>Восстановление пользователя
    
@@ -91,6 +91,8 @@ ms.locfileid: "52291071"
     
 4. Просмотрите результаты и нажмите кнопку **Закрыть**.
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-content"></a>См. также:
 
-[Удаление пользователей](delete-a-user.md)
+[Удаление пользователя](delete-a-user.md) (статья)\
+[Назначение ролей администратора](assign-admin-roles.md) (видео)\
+[Назначение лицензий пользователям](../manage/assign-licenses-to-users.md) (статья)
