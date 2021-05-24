@@ -18,12 +18,12 @@ ms.custom:
 - httpsfix
 ms.assetid: 53d3eef6-4a16-4fb9-903c-816d5d98d7e8
 description: Сводка. Подключение ко всем службам Microsoft 365 с помощью единого окна PowerShell.
-ms.openlocfilehash: 18ff8e1789242b4dde3b4b31aaccf2462e4c5d74
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 923e4bc39ae4391d4deaa2c232e19b9479c2efbe
+ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50905132"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583128"
 ---
 # <a name="connect-to-all-microsoft-365-services-in-a-single-powershell-window"></a>Подключение ко всем службам Microsoft 365 с помощью единого окна PowerShell
 
@@ -46,9 +46,9 @@ ms.locfileid: "50905132"
     
   - Windows 8.1 или Windows 8
     
-  - Windows Server 2019
+  - Windows Server 2019
     
-  - Windows Server 2016
+  - Windows Server 2016
     
   - Windows Server 2012 R2 или Windows Server 2012
     
@@ -66,7 +66,7 @@ ms.locfileid: "50905132"
   - [Командная консоль SharePoint Online](https://go.microsoft.com/fwlink/p/?LinkId=255251)
   - [Skype для бизнеса Online, модуль PowerShell](/microsoftteams/teams-powershell-overview)
   - [Exchange Online PowerShell V2](/powershell/exchange/exchange-online-powershell-v2#install-and-maintain-the-exchange-online-powershell-v2-module)
-  - [Обзор PowerShell в Teams](/microsoftteams/teams-powershell-overview)
+  - [Обзор PowerShell в Teams](/microsoftteams/teams-powershell-overview)
     
 -  Требуется настроить PowerShell для выполнения подписанных сценариев Skype для бизнеса Online и Центра безопасности &amp; соответствия требованиям. Выполните следующую команду в сеансе PowerShell с повышенными привилегиями (сеанс PowerShell, **запускаемый от имени администратора**).
     
@@ -109,18 +109,7 @@ ms.locfileid: "50905132"
    Connect-SPOService -Url https://$orgName-admin.sharepoint.com -Credential $Credential
    ```
 
-5. Выполните следующие команды для подключения к Skype для бизнеса Online. При первом подключении появится предупреждение об увеличении значения параметра `WSMan NetworkDelayms`. Игнорируйте его.
-     
-   > [!Note]
-   > Соединитель Skype для бизнеса Online в настоящее время является частью последнего модуля Teams PowerShell. Если вы используете последний общедоступный выпуск Teams PowerShell, вам не нужно устанавливать соединитель Skype для бизнеса Online.
-   
-   ```powershell
-   Import-Module MicrosoftTeams
-   $credential = Get-Credential
-   Connect-MicrosoftTeams -Credential $credential
-   ```
-
-6. Выполните следующие команды для подключения к Exchange Online.
+5. Выполните следующие команды для подключения к Exchange Online.
     
    ```powershell
    Import-Module ExchangeOnlineManagement
@@ -130,7 +119,7 @@ ms.locfileid: "50905132"
    > [!Note]
    > Чтобы подключиться к Exchange Online для облаков Microsoft 365, отличных от всемирного облака, см. статью [Подключение к Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
 
-7. Выполните следующие команды для подключения к Центру безопасности &amp; соответствия требованиям.
+6. Выполните следующие команды для подключения к Центру безопасности &amp; соответствия требованиям.
     
    ```powershell
    $acctName="<UPN of the account, such as belindan@litwareinc.onmicrosoft.com>"
@@ -140,7 +129,7 @@ ms.locfileid: "50905132"
    > [!Note]
    > Чтобы подключиться к Центру безопасности&amp; соответствия требованиям для облаков Microsoft 365, отличных от всемирного облака, см. статью [Подключение к Центру безопасности и соответствия требованиям PowerShell](/powershell/exchange/connect-to-scc-powershell).
 
-8. Выполните следующие команды для подключения к Teams PowerShell.
+7. Выполните следующие команды для подключения к PowerShell для Teams (и Skype для бизнеса Online).
     
    ```powershell
    Import-Module MicrosoftTeams
@@ -149,9 +138,11 @@ ms.locfileid: "50905132"
    ```
   
    > [!Note]
+   > Соединитель Skype для бизнеса Online в настоящее время является частью последнего модуля Teams PowerShell. Если вы используете последний общедоступный выпуск Teams PowerShell, вам не нужно устанавливать соединитель Skype для бизнеса Online.
+  
+   > [!Note]
    > Чтобы подключиться к облакам Microsoft Teams, отличным от *всемирного* облака, см. раздел [Connect-MicrosoftTeams](/powershell/module/teams/connect-microsoftteams).
   
-
 
 
 ### <a name="azure-active-directory-powershell-for-graph-module"></a>Использование модуля Azure Active Directory PowerShell для Graph
@@ -167,15 +158,12 @@ Connect-AzureAD -Credential $credential
 #SharePoint Online
 Import-Module Microsoft.Online.SharePoint.PowerShell -DisableNameChecking
 Connect-SPOService -Url https://$orgName-admin.sharepoint.com -credential $credential
-#Skype for Business Online
-Import-Module MicrosoftTeams
-Connect-MicrosoftTeams -Credential $credential
 #Exchange Online
 Import-Module ExchangeOnlineManagement
 Connect-ExchangeOnline -ShowProgress $true
 #Security & Compliance Center
 Connect-IPPSSession -UserPrincipalName $acctName
-#Teams
+#Teams and Skype for Business Online
 Import-Module MicrosoftTeams
 Connect-MicrosoftTeams -Credential $credential
 ```
@@ -193,15 +181,12 @@ Connect-MsolService -Credential $credential
 #SharePoint Online
 Import-Module Microsoft.Online.SharePoint.PowerShell -DisableNameChecking
 Connect-SPOService -Url https://$orgName-admin.sharepoint.com -credential $credential
-#Skype for Business Online
-Import-Module MicrosoftTeams
-Connect-MicrosoftTeams -Credential $credential
 #Exchange Online
 Import-Module ExchangeOnlineManagement
 Connect-ExchangeOnline -ShowProgress $true
 #Security & Compliance Center
 Connect-IPPSSession -UserPrincipalName $acctName
-#Teams
+#Teams and Skype for Business Online
 Import-Module MicrosoftTeams
 Connect-MicrosoftTeams -Credential $credential
 ```
@@ -219,15 +204,12 @@ $orgName="<for example, litwareinc for litwareinc.onmicrosoft.com>"
 Connect-AzureAD
 #SharePoint Online
 Connect-SPOService -Url https://$orgName-admin.sharepoint.com
-#Skype for Business Online
-Import-Module MicrosoftTeams
-Connect-MicrosoftTeams
 #Exchange Online
 Import-Module ExchangeOnlineManagement
 Connect-ExchangeOnline -UserPrincipalName $acctName -ShowProgress $true
 #Security & Compliance Center
 Connect-IPPSSession -UserPrincipalName $acctName
-#Teams
+#Teams and Skype for Business Online
 Import-Module MicrosoftTeams
 Connect-MicrosoftTeams
 ```
@@ -242,15 +224,12 @@ $orgName="<for example, litwareinc for litwareinc.onmicrosoft.com>"
 Connect-MsolService
 #SharePoint Online
 Connect-SPOService -Url https://$orgName-admin.sharepoint.com
-#Skype for Business Online
-Import-Module MicrosoftTeams
-Connect-MicrosoftTeams
 #Exchange Online
 Import-Module ExchangeOnlineManagement
 Connect-ExchangeOnline -UserPrincipalName $acctName -ShowProgress $true
 #Security & Compliance Center
 Connect-IPPSSession -UserPrincipalName $acctName
-#Teams
+#Teams and Skype for Business Online
 Import-Module MicrosoftTeams
 Connect-MicrosoftTeams
 ```

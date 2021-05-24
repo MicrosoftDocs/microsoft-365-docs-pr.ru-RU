@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: chrfox
 author: chrfox
 manager: laurawi
-ms.date: 07/21/2020
+ms.date: ''
 audience: ITPro
 ms.topic: conceptual
 f1_keywords:
@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Настройка локального сканера для защиты от потери данных Microsoft 365
-ms.openlocfilehash: 7e190a1d6e902af3406f7e8f317efe80e825e7f2
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: deae5dfa803b002174583ae67412af9fc028fcb9
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50917835"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538103"
 ---
 # <a name="get-started-with-the-data-loss-prevention-on-premises-scanner-preview"></a>Начало работы с локальным сканером для защиты от потери данных (предварительная версия)
 
@@ -127,7 +127,7 @@ ms.locfileid: "50917835"
 
 - [Сведения о локальном сканере защиты от потери данных (предварительная версия)](dlp-on-premises-scanner-learn.md)
 - [Использование локального сканера защиты от потери данных (предварительная версия)](dlp-on-premises-scanner-use.md)
-- [Общие сведения о защите от потери данных](data-loss-prevention-policies.md)
+- [Сведения о защите от потери данных](dlp-learn-about-dlp.md)
 - [Создание, тестирование и настройка политики защиты от потери данных](create-test-tune-dlp-policy.md)
 - [Начало работы с обозревателем действий](data-classification-activity-explorer.md)
-- [Подписка на Microsoft 365](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1)
+- [Подписка на Microsoft 365](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1)

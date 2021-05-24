@@ -22,13 +22,13 @@ search.appverid:
 - MOE150
 ms.assetid: 043807b2-21db-4d5c-b430-c8a6dee0e6ba
 ROBOTS: NOINDEX, NOFOLLOW
-description: Сведения о многофакторной проверке подлинности в Microsoft 365
-ms.openlocfilehash: 080251efa7d7d3bda6ad89e95960e43dd38d076d
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+description: Многофакторная проверка подлинности (MFA) использует как пароль, который должен быть прочным, так и дополнительный метод проверки.
+ms.openlocfilehash: 84d26d0a9908e51ce734e71961d4643a2df3471b
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51050670"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52623693"
 ---
 # <a name="multi-factor-authentication-for-microsoft-365"></a>Многофакторная проверка подлинности в Microsoft 365
 
@@ -127,7 +127,7 @@ ms.locfileid: "51050670"
 
 ### <a name="azure-ad-identity-protection"></a>Защита идентификации Azure AD
 
-Защита идентификации Azure AD позволяет создать дополнительную политику условного доступа [Необходимость MFA в случае среднего или высокого риска при входе](../../security/defender-365-security/identity-access-policies.md#require-mfa-based-on-sign-in-risk)
+Защита идентификации Azure AD позволяет создать дополнительную политику условного доступа [Необходимость MFA в случае среднего или высокого риска при входе](../../security/office-365-security/identity-access-policies.md#require-mfa-based-on-sign-in-risk)
 
 Защиту идентификации Azure AD и политики условного доступа на основе риска можно использовать с:
 
@@ -174,8 +174,7 @@ MFA для отдельных учетных записей пользовате
 
 [Настройка MFA для Microsoft 365](set-up-multi-factor-authentication.md)
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-content"></a>См. также:
 
-[Видео: включение многофакторной проверки подлинности](../../business-video/turn-on-mfa.md)
-
+[Включаем многофакторную проверку подлинности](../../business-video/turn-on-mfa.md) (видео)\
 [Видео: включение многофакторной проверки подлинности для телефона](../../business-video/set-up-mfa.md)

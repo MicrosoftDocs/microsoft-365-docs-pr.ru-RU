@@ -1,9 +1,9 @@
 ### YamlMime:Hub
-title: "Ресурсы Microsoft\_365 бизнес премиум"
+title: Ресурсы Microsoft 365 бизнес премиум
 summary: 'Microsoft 365 бизнес премиум (прежнее название — Microsoft 365 бизнес) — это комплексная служба подписки для предприятий с числом сотрудников менее 300. Она объединяет ваши любимые приложения и службы для повышения производительности Office, а также инструменты для совместной работы, такие как Microsoft Teams, с расширенными возможностями обеспечения безопасности и управления устройствами.'
 brand: m365
 metadata:
-  title: "Ресурсы Microsoft\_365 бизнес премиум"
+  title: Ресурсы Microsoft 365 бизнес премиум
   description: (описание)
   ms.service: o365-administration
   ms.topic: hub-page
@@ -13,10 +13,10 @@ metadata:
   ms.author: samanro
   ms.date: 10/01/2019
 productDirectory:
-  title: "Безопасная удаленная работа с помощью Microsoft\_365 бизнес премиум"
+  title: Безопасная удаленная работа с помощью Microsoft 365 бизнес премиум
   items:
     - title: Просмотр
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/sign-up-blue.svg'
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/video-play.svg'
       summary: Пять основных преимуществ Microsoft 365 бизнес премиум.
       url: 'https://aka.ms/M365BPvideo'
     - title: Получение бесплатного партнерского комплекта
@@ -33,14 +33,14 @@ productDirectory:
       url: 'https://aka.ms/acceleratewithm365bp'
 conceptualContent:
   items:
-    - title: "Что такое Microsoft\_365 бизнес премиум?"
+    - title: Что такое Microsoft 365 бизнес премиум?
       links:
         - url: microsoft-365-business-overview.md
           itemType: overview
           text: Обзор
         - url: ../business-video/index.yml
           itemType: video
-          text: "Обучение по Microsoft\_365 бизнес премиум"
+          text: Обучение по Microsoft 365 бизнес премиум
         - url: /office365/servicedescriptions/microsoft-365-service-descriptions/licensing-microsoft-365-in-smb
           itemType: overview
           text: Сравнение планов
@@ -50,7 +50,7 @@ conceptualContent:
         - url: support/microsoft-365-business-faqs.yml
           itemType: reference
           text: Вопросы и ответы
-    - title: "Настройка Microsoft\_365 бизнес премиум"
+    - title: Настройка Microsoft 365 бизнес премиум
       links:
         - url: set-up.md
           itemType: how-to-guide
@@ -193,10 +193,10 @@ conceptualContent:
       links:
         - url: sign-up.md
           itemType: get-started
-          text: "Регистрация в Microsoft\_365 бизнес премиум"
+          text: Регистрация в Microsoft 365 бизнес премиум
         - url: migrate-to-microsoft-365-business.md
           itemType: how-to-guide
-          text: "Миграция с Microsoft\_365 бизнес стандарт"
+          text: Миграция с Microsoft 365 бизнес стандарт
         - url: migrate-from-e3.md
           itemType: how-to-guide
           text: Миграция с Office 365 E3
