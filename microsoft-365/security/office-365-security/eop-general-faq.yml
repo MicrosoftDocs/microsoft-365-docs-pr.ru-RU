@@ -16,12 +16,12 @@ metadata:
   description: Получите ответы на наиболее распространенные общие вопросы о службе фильтрации Exchange Online Protection (EOP) облачной системы фильтрации электронной почты.
   ms.technology: mdo
   ms.prod: m365-security
-  ms.openlocfilehash: 9929bd9d90f4e63e130fc478ce974fc373dea396
-  ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+  ms.openlocfilehash: e7ae5858841384c31acf9b785fc0071607ba5f1d
+  ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
   ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 05/12/2021
-  ms.locfileid: "52334027"
+  ms.lasthandoff: 05/24/2021
+  ms.locfileid: "52625369"
 title: Общие вопросы и ответы по EOP
 summary: >
   [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
@@ -68,7 +68,7 @@ sections:
   - question: >
       Сколько времени требуется на ввод EOP в рабочий режим?
     answer: >
-      Если поток вашей почты проходит через EOP, фильтрация начинается сразу после изменения записи MX (инструкции по изменению приводятся в разделе [Настройка службы EOP](set-up-your-eop-service.md)). На распространение записи MX через DNS может потребоваться от 24 до 48 часов. Вы можете настроить параметры защиты в любое время во время этого процесса.
+      Если поток вашей почты проходит через EOP, фильтрация начинается сразу после изменения записи MX (инструкции по изменению приводятся в разделе [Настройка службы EOP](/exchange/standalone-eop/set-up-your-eop-service)). На распространение записи MX через DNS может потребоваться от 24 до 48 часов. Вы можете настроить параметры защиты в любое время во время этого процесса.
   - question: >
       Нужно ли использовать все функции Microsoft 365 для использования EOP? Что делать, если я просто хочу защиту EOP, и это все?
     answer: >

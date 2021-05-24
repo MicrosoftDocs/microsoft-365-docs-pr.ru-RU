@@ -1,8 +1,8 @@
 ### YamlMime:Landing
-title: Документация Microsoft Defender для Office 365
+title: Microsoft Defender для Office 365 документации
 summary: Узнайте о надежных решениях безопасности в Defender для Office 365, чтобы лучше защитить средства электронной почты и совместной работы.
 metadata:
-  title: Документация по безопасности Microsoft Defender для Office 365
+  title: Microsoft Defender для Office 365 документации по безопасности
   description: Узнайте о надежных решениях безопасности в Defender для Office 365, чтобы лучше защитить средства электронной почты и совместной работы.
   services: office-365-security-compliance
   ms.service: O365-seccomp
@@ -13,12 +13,12 @@ metadata:
   ms.author: macapara
   ms.date: 04/13/2021
   localization_priority: Priority
-  ms.openlocfilehash: a646d52b903a1ab16d2f552b456793492462c44b
-  ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
+  ms.openlocfilehash: b379b42ae3c01c8359003407f3fb58834a8c074e
+  ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
   ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 04/14/2021
-  ms.locfileid: "51760264"
+  ms.lasthandoff: 05/24/2021
+  ms.locfileid: "52623569"
 landingContent:
 - title: Defender для Office 365 & Exchange Online Protection
   linkLists:
@@ -36,7 +36,7 @@ landingContent:
       url: protect-against-threats.md
     - text: Предустановленные политики безопасности в EOP и Microsoft Defender для Office 365
       url: preset-security-policies.md
-    - text: Новые возможности в Microsoft Defender для Office 365
+    - text: Что нового в Microsoft Defender для Office 365
       url: whats-new-in-defender-for-office-365.md
 - title: Оценка Defender для Office 365
   linkLists:
@@ -44,7 +44,7 @@ landingContent:
     links:
     - text: Оценка Defender для Office 365
       url: office-365-evaluation.md
-    - text: Переход на exchange Online Protection
+    - text: Переключиться на Exchange Online Protection
       url: switch-to-eop-from-google-postini-the-barracuda-spam-and-virus-firewall-or-cisco.md
 - title: Настройка защиты от проверки подлинности электронной почты
   linkLists:
@@ -62,13 +62,13 @@ landingContent:
     links:
     - text: Обзор Exchange Online Protection
       url: exchange-online-protection-overview.md
-    - text: Рекомендуемые параметры безопасности EOP и Microsoft Defender для Office 365 для настройки
+    - text: Рекомендуемые параметры для EOP и Microsoft Defender для Office 365 безопасности для настройки
       url: recommended-settings-for-eop-and-office365.md
 - title: Предотвращение
   linkLists:
   - linkListType: overview
     links:
-    - text: Настройка клиента Microsoft 365 для повышения безопасности
+    - text: 'Настройка клиента Microsoft 365 для улучшения безопасности '
       url: tenant-wide-setup-for-increased-security.md
     - text: Анализатор конфигурации в EOP и Defender для Office 365
       url: configuration-analyzer-for-security-policies.md
@@ -78,8 +78,8 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: Правила потока почты (правила транспорта) в автономной службе EOP
-      url: mail-flow-rules-transport-rules-0.md
+    - text: Правила потока обработки почты (правила транспорта) в Exchange Online
+      url: /exchange/security-and-compliance/mail-flow-rules/mail-flow-rules
     - text: Журналы учета угроз
       url: threat-trackers.md
     - text: Интеллектуальные отчеты и аналитика в Центре безопасности и соответствия требованиям
@@ -92,7 +92,7 @@ landingContent:
       url: threat-explorer-views.md
     - text: Представления кампании в Microsoft Defender для Office 365
       url: campaigns.md
-    - text: Расследование вредоносных сообщений электронной почты, доставленных в Office 365
+    - text: Исследование вредоносной электронной почты, доставленной в Office 365
       url: investigate-malicious-email-that-was-delivered.md
     - text: Просмотр отчетов Defender для Office 365
       url: view-reports-for-mdo.md
@@ -102,8 +102,8 @@ landingContent:
     links:
     - text: Отчеты и трассировка сообщений в EOP
       url: reporting-and-message-trace-in-exchange-online-protection.md
-    - text: Просмотр журнала аудита администратора в автономной службе EOP
-      url: view-the-admin-audit-log-eop.md
+    - text: Просмотр журнала аудита администратора
+      url: /exchange/security-and-compliance/exchange-auditing-reports/view-administrator-audit-log
 - title: Реагирование
   linkLists:
   - linkListType: overview
@@ -112,7 +112,7 @@ landingContent:
       url: remediate-malicious-email-delivered-office-365.md
     - text: Ответ на скомпрометированную учетную запись электронной почты
       url: responding-to-a-compromised-email-account.md
-    - text: Исправление правил Outlook и пользовательских вбросов форм
+    - text: Исправление Outlook правил и пользовательских впрысков форм
       url: detect-and-remediate-outlook-rules-forms-attack.md
     - text: Отправка ложных срабатыва-
       url: admin-submission.md
@@ -120,9 +120,9 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: Как автоматизированные исследования и ответы (AIR) работает в Defender для Office 365
+    - text: Как автоматизированное исследование и реагирование (AIR) работает в Defender для Office 365
       url: automated-investigation-response-office.md
-    - text: Начало работы с AIR в Defender для Office 365
+    - text: Начало работы air в Defender для Office 365
       url: office-365-air.md
     - text: Адрес учетных записей пользователей с помощью AIR
       url: address-compromised-users-quickly.md
