@@ -6,18 +6,18 @@ manager: pamgreen
 ms.reviewer: ssquires
 audience: admin
 ms.topic: article
-ms.date: 05/17/2021
+ms.date: ''
 ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: None
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: ''
 description: Узнайте, как использовать SharePoint Syntex для определения файлов контрактов и извлечения данных с помощью Microsoft 365 решения.
-ms.openlocfilehash: 67c0a072b070cd414f5079fe4fb61e7391839951
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: b4b11b1bdb980b0ee7629af0cbecbb126a5ae5e5
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52583572"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52636210"
 ---
 # <a name="step-1-use-sharepoint-syntex-to-identify-contract-files-and-extract-data"></a>Этап 1. Использование SharePoint Syntex для определения файлов контрактов и извлечения данных
 

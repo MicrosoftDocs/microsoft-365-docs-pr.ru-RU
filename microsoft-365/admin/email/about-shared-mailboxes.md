@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Общие почтовые ящики используются, когда нескольким людям необходим доступ к одному и том же почтовому ящику. Узнайте, что нужно знать перед созданием общего почтового ящика.
-ms.openlocfilehash: 156ba100cb2c51d1e54a2ee82c45db20845931f9
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 601636f03bee93224025d286b7a74fa0f24782fb
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52535858"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635538"
 ---
 # <a name="about-shared-mailboxes"></a>Сведения об общих почтовых ящиках
 
@@ -67,12 +67,8 @@ ms.locfileid: "52535858"
 
 ## <a name="related-content"></a>См. также:
 
-[Создание общего почтового ящика](create-a-shared-mailbox.md) (статья)
-
-[Настройка общего почтового ящика](configure-a-shared-mailbox.md) (статья)
-
-[Преобразование почтового ящика пользователя в общий почтовый ящик](convert-user-mailbox-to-shared-mailbox.md) (статья)
-
-[Удаление лицензии из общего почтового ящика](remove-license-from-shared-mailbox.md) (статья)
-
-[Устранение проблем с общими почтовыми ящиками](resolve-issues-with-shared-mailboxes.md) (статья)
+[Создание общего почтового ящика](create-a-shared-mailbox.md) (статья)\
+[Настройка общего почтового ящика](configure-a-shared-mailbox.md) (статья)\
+[Преобразование почтового ящика пользователя в общий почтовый ящик](convert-user-mailbox-to-shared-mailbox.md) (статья)\
+[Удаление лицензии из общего почтового ящика](remove-license-from-shared-mailbox.md) (статья)\
+[Решение проблем с общими почтовыми ящиками](resolve-issues-with-shared-mailboxes.md) (статья)

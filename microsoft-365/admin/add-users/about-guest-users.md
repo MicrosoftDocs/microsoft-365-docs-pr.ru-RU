@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Узнайте, как создать команду с гостями в центре администрирования Microsoft 365 и как присоединиться к команде в качестве гостя.
-ms.openlocfilehash: c05a8d7e10b40c22bb041ce88748eb3dd919d83d
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: b458aaba464121e2e408013d4c8f32cd8a6852c5
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593869"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52634188"
 ---
 # <a name="guest-users-in-microsoft-365-admin-center"></a>Гостевых пользователей Microsoft 365 центре администрирования
 
@@ -65,4 +65,4 @@ ms.locfileid: "52593869"
 ## <a name="related-content"></a>См. также:
 
 [Управление гостевых доступом в Microsoft 365 группах](../create-groups/manage-guest-access-in-groups.md) (статья)\
-[Запретить добавлять гостей в определенную группу Microsoft 365 или Microsoft Teams группу](../../solutions/per-group-guest-access.md)
+[Запретить добавлять гостей](../../solutions/per-group-guest-access.md) в определенную группу Microsoft 365 или Microsoft Teams (статья)

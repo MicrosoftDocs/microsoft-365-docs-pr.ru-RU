@@ -29,18 +29,18 @@ search.appverid:
 - ODB160
 ms.assetid: 7aa9cdc8-2245-4218-81ee-86fa7c35f1de
 description: Узнайте, как использовать OneDrive и сайт группы для Microsoft 365 и Microsoft 365 общего доступа к файлам.
-ms.openlocfilehash: 9e739b1f90296167fc47bdd5f19bacd73c43f9e2
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: f94ff8a60b1b4691b36ec2e1bd04088d96b1af8c
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572181"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635646"
 ---
 # <a name="set-up-file-storage-and-sharing-in-microsoft-365"></a>Настройка хранения и общего доступа к файлам в Microsoft 365
 
 Один из лучших способов настроить хранилище файлов и совместное использование для бизнеса — OneDrive совместное использование сайта группы. Этот вариант идеально подходит для небольших компаний с небольшим количеством сотрудников.
 
-Просмотрите короткое видео о хранении файлов в Microsoft 365 облаке.<br><br>
+## <a name="watch-where-to-store-files-in-office-365"></a>Часы. Где хранить файлы в Office 365
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FTHX] 
 
@@ -207,8 +207,6 @@ ms.locfileid: "52572181"
 
 ## <a name="related-content"></a>См. также:
 
-[Добавление пространства для хранения подписки](../../commerce/add-storage-space.md) (статья)
-
-[Делитесь файлами](https://support.microsoft.com/office/share-files-and-folders-with-microsoft-365-business-72f26d6c-bf9e-432c-8b96-e3c2437f5b65) и папками с Microsoft 365 бизнес (видео)
-
+[Добавление пространства для хранения подписки](../../commerce/add-storage-space.md) (статья)\
+[Делитесь файлами](https://support.microsoft.com/office/share-files-and-folders-with-microsoft-365-business-72f26d6c-bf9e-432c-8b96-e3c2437f5b65) и папками с Microsoft 365 бизнес (видео)\
 [Настройка сайта группы для хранения и обмена](customize-team-site.md) файлами (статья)

@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: fb00dd4e-2d5f-4e8d-8ff4-94b2cf002bdd
 description: Включить общий доступ к календарю в центре администрирования Microsoft 365, чтобы пользователи могли делиться своими календарями с любыми пользователями в организации или за ее пределами.
-ms.openlocfilehash: 6f4c215403e16ac6658619e50e6115606f106397
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: ee2b48182efec3e8bc22f47fd1657cd123ec65f8
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52582720"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635814"
 ---
 # <a name="share-calendars-with-external-users"></a>Совместное использование календарей с внешними пользователями
 
@@ -50,12 +50,10 @@ ms.locfileid: "52582720"
 
 ## <a name="invite-people-to-access-calendars"></a>Приглашение пользователей для доступа к календарям
 
-После включения общего доступа владельцы календарей могут распространять приглашения на определенных пользователей. См. [раздел Общий доступ к календарю Outlook Web App](https://support.microsoft.com/office/7ecef8ae-139c-40d9-bae2-a23977ee58d5) инструкций.
+После включения общего доступа владельцы календарей могут распространять приглашения на определенных пользователей. Инструкции см. [в разделе Общий доступ к календарю в Outlook Web App.](https://support.microsoft.com/office/7ecef8ae-139c-40d9-bae2-a23977ee58d5)
 
 ## <a name="related-content"></a>См. также:
 
-[Включить или отключить](/sharepoint/change-external-sharing-site) внешний общий доступ для сайта (статья)
-
-[Обзор Центра администрирования Microsoft 365](../../business-video/admin-center-overview.md) (видео)
-
+[Включите внешний общий доступ или отключите для сайта](/sharepoint/change-external-sharing-site) (статьи)\
+[Обзор центра администрирования Microsoft 365](../../business-video/admin-center-overview.md) (видео)\
 [Управление электронной почтой и календарями](../email/index.yml) (страница ссылки)

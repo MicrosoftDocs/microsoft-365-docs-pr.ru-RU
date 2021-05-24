@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Выполните действия в этом решении, чтобы удалить бывшего сотрудника из Microsoft 365 и защитить данные организации.
-ms.openlocfilehash: 44741382a84cca15277308a44b3fd20470aa3a08
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: a613d4931c730dffe195954da97af86c683041bf
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572049"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52634248"
 ---
 # <a name="overview-remove-a-former-employee-and-secure-data"></a>Обзор. Удаление бывших сотрудников и безопасные данные
 
@@ -37,7 +37,7 @@ ms.locfileid: "52572049"
 
 :::image type="content" source="../../media/delete-user-overview.png" alt-text="Снимок экрана. Общие действия для удаления бывшего сотрудника":::
 
-## <a name="before-you-begin"></a>Подготовка к работе
+## <a name="before-you-begin"></a>Прежде чем начать
 
 Чтобы выполнить действия в этом решении, необходимо быть глобальным администратором.
 
@@ -61,4 +61,7 @@ ms.locfileid: "52572049"
 
 ## <a name="related-content"></a>См. также:
 
-[Восстановление пользователя](restore-user.md) (статья)
+[Восстановление пользователя](restore-user.md) (статья)\
+[Добавление нового сотрудника в Microsoft 365](add-new-employee.md) (статья)\
+[Назначение лицензий пользователям](../manage/assign-licenses-to-users.md) (статья)\
+[Unassign licenses from users](../manage/remove-licenses-from-users.md) (article)

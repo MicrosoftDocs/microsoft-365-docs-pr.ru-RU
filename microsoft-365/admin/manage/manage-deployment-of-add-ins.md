@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: Научитесь развертывать надстройки для пользователей и групп в организации с помощью центраализованного развертывания в центре администрирования.
-ms.openlocfilehash: 2d3b90a75f38a2c1146c0b0e5470c80b0af2c63f
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 8cc4f29cd2593d9651edaf87791f46dabdcc30b2
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572277"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52636026"
 ---
 # <a name="deploy-add-ins-in-the-admin-center"></a>Развертывание надстроек в Центре администрирования
 
@@ -131,12 +131,7 @@ Office надстройки помогут вам персонализирова
   
 ## <a name="related-content"></a>См. также:
 
-[Управление надстройки в центре администрирования](manage-addins-in-the-admin-center.md) (статья)
-
-[Создайте первую надстройку](/office/dev/add-ins/quickstarts/word-quickstart?tabs=yeomangenerator) области задач Word (статья)
-
-[Несовершеннолетние и приобретение надстройок из магазина](minors-and-acquiring-addins-from-the-store.md) (статья)
-  
-Для управления надстройкими (статья) используйте централизованные комлеты [PowerShell](../../enterprise/use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins.md) развертывания
-  
+[Управление надстройкими в центре администрирования](manage-addins-in-the-admin-center.md) (статья)\
+[Создайте свою первую надстройку](/office/dev/add-ins/quickstarts/word-quickstart?tabs=yeomangenerator) области задач Word (статья\
+[Несовершеннолетние и приобретающие](minors-and-acquiring-addins-from-the-store.md) надстройки из магазина (статья)\ Используйте централизованные [cmdlets deployment PowerShell](../../enterprise/use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins.md) для управления надстройки (статья)\  
 [Устранение неполадок. Пользователь не видит надстройки](/office365/troubleshoot/access-management/user-not-seeing-add-ins) (статья)

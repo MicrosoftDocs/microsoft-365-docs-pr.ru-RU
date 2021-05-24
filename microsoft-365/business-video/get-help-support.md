@@ -19,14 +19,16 @@ search.appverid:
 - MET150
 - MOE150
 description: Вы должны быть администратором подписки для бизнеса, чтобы получить помощь администратора или поддержку в Интернете или телефоне в Microsoft 365 бизнес премиум.
-ms.openlocfilehash: e6308a9728731052d540cf3e872b6e153b64aae2
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: e1250d5c291832e5a337f34e49ce0b7cf68fb08d
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52535714"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635906"
 ---
 # <a name="get-support"></a>Получение поддержки
+
+## <a name="watch-get-help-or-support"></a>Watch: Get help or support 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOgo?autoplay=false]
 
@@ -256,8 +258,6 @@ ms.locfileid: "52535714"
 
 ## <a name="related-content"></a>См. также:
 
-[Поиск документы и обучение](find-help-answers.md) (статья)
-
-[Быстрая настройка сотрудника](employee-quick-setup.md) (статья)
-
+[Поиск документы и обучение](find-help-answers.md) (статья)\
+[Быстрая настройка](employee-quick-setup.md) сотрудника (статья)\
 [Обзор Microsoft 365 бизнес премиум (видео)](setup-overview.md)

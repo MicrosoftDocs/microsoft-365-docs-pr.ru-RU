@@ -25,16 +25,16 @@ search.appverid:
 - GEA150
 ms.assetid: a8b487a9-2a45-4581-9dc4-5d28a47010a2
 description: Узнайте, как добавить и настроить домен в Microsoft 365, чтобы ваши службы, такие как электронная почта и Skype для бизнеса Online, использовали собственное доменное имя.
-ms.openlocfilehash: 447cc69aa2c4c3edcf1c4c6a2435cdc27fc22cd2
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: c6394b505e025c565713aae753879601f5a6aecf
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52582996"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635442"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-365-with-any-domain-registrar"></a>Изменение именных имен для Microsoft 365 с любым регистратором домена
 
- Если вы не нашли то, что вы ищете, см. раздел **[Вопросы и ответы по доменам](../setup/domains-faq.yml)**. 
+ Если вы не нашли то, что вы ищете, обратитесь к разделу **[вопросы и ответы по доменам](../setup/domains-faq.yml)**. 
   
 Следуйте этим инструкциям, чтобы добавить и настроить домен в Microsoft 365, чтобы ваши службы, такие как электронная почта и Teams, использовали собственное доменное имя. Для этого необходимо проверить домен, а затем изменить имена домена на Microsoft 365, чтобы можно было настроить правильные записи DNS. Выполните следующие действия, если в следующих утверждениях описана ваша ситуация:
   
@@ -198,8 +198,6 @@ ms.locfileid: "52582996"
   
 ## <a name="related-content"></a>См. также:
 
-[Добавление записей DNS для подключения домена](create-dns-records-at-any-dns-hosting-provider.md) (статья)
-
-[Поиск и устранение неполадок после добавления домена и записей DNS](find-and-fix-issues.md) (статья)
-
+[Добавление записей DNS для подключения домена](create-dns-records-at-any-dns-hosting-provider.md) (статьи)\
+[Поиск и устранение проблем после добавления записей домена](find-and-fix-issues.md) или DNS (статья)\
 [Управление доменами](index.yml) (страница ссылки)

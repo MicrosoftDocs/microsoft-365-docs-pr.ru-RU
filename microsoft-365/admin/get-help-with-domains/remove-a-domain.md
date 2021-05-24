@@ -22,16 +22,16 @@ search.appverid:
 - GEA150
 ms.assetid: f09696b2-8c29-4588-a08b-b333da19810c
 description: Узнайте, как удалить старый домен из Microsoft 365 и переместить пользователей и группы в другой домен или отменить подписку.
-ms.openlocfilehash: 089f0378109dd2a5abdf922694390bfdc943693a
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: a8e636059a84a2086844a8ff139d240268ee5b19
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52582936"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635706"
 ---
 # <a name="remove-a-domain"></a>Удаление домена
   
- Если вы не нашли то, что вы ищете, см. раздел **[Вопросы и ответы по доменам](../setup/domains-faq.yml)**. 
+ Если вы не нашли то, что вы ищете, обратитесь к разделу **[вопросы и ответы по доменам](../setup/domains-faq.yml)**. 
   
 Вы удаляете домен, так как хотите добавить его в другой Microsoft 365 подписки? Или вам нужно просто отменить свою подписку? Вы можете [сменить план или подписку](../../commerce/subscriptions/switch-to-a-different-plan.md) либо [отменить подписку](../../commerce/subscriptions/cancel-your-subscription.md).
   
@@ -207,7 +207,7 @@ ms.locfileid: "52582936"
   
 Если у вас сотни или тысячи пользователей, используйте PowerShell, чтобы отправить им всем запрос, а затем перенести их в другой домен. В противном случае может оказаться, что нескольких пользователей нет в интерфейсе. В результате вы не сможете удалить домен и не сумеете определить причину. Дополнительные сведения см. в статье о командлете [Set-MsolUserPrincipalName](/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0). Чтобы задать домен по умолчанию, используйте командлет [Set-MsolDomain](/powershell/module/msonline/set-msoldomain?view=azureadps-1.0).
   
-## <a name="still-need-help"></a>Остались вопросы?
+## <a name="still-need-help"></a>Требуется дополнительная помощь?
 
 ::: moniker range="o365-worldwide"
 
@@ -220,8 +220,6 @@ ms.locfileid: "52582936"
 
 ## <a name="related-content"></a>См. также:
 
-[FaQ доменов](../setup/domains-faq.yml) (статья)
-
-[Переключиться на другой Microsoft 365 бизнес-плана](../../commerce/subscriptions/switch-to-a-different-plan.md) (статья)
-
+[FaQ доменов](../setup/domains-faq.yml) (статья)\
+[Переключиться на другой Microsoft 365 бизнес-плана](../../commerce/subscriptions/switch-to-a-different-plan.md) (статья)\
 [Отмена подписки](../../commerce/subscriptions/cancel-your-subscription.md) (статья)

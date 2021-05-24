@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: a1229cdb-ce19-4da5-90c7-2b9b146aef0a
 description: Настройка страницы Microsoft 365 регистрации с помощью Azure Active Directory. На страницу входного знака можно добавить иллюстрацию, логотип и текст.
-ms.openlocfilehash: dba75d5178f3c4a879ae2cdc9694697df45f6b8b
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 6c873409a06d824c7b63f5ea02e178e22337a345
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624445"
+ms.locfileid: "52635942"
 ---
 # <a name="add-your-company-branding-to-the-sign-in-page"></a>Добавление фирменого знака вашей компании на страницу Вход в
 
@@ -49,6 +49,8 @@ ms.locfileid: "52624445"
     
 Помимо страницы входа, в Azure также можно настроить страницу панели доступа.
   
+## <a name="next-steps"></a>Дальнейшие действия
+
 Если вы готовы добавить фирменную символику, ознакомьтесь с возможностями настройки с использованием содержимого Azure: [Добавление фирменной символики компании на страницы входа и панели доступа](/azure/active-directory/fundamentals/customize-branding).
 
 ## <a name="related-content"></a>См. также:

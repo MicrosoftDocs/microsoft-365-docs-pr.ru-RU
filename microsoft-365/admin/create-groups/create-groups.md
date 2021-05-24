@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 74a1ef8b-3844-4d08-9980-9f8f7a36000f
 description: Научитесь создавать и Microsoft 365 группы, добавлять и удалять их, а также настраивать работу группы.
-ms.openlocfilehash: b3fb637867229489a3e3abe93373cc46fbce365f
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: b8cbd194825ef114fa8e4ce999355248a61e7830
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52241728"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635586"
 ---
 # <a name="create-a-group-in-the-microsoft-365-admin-center"></a>Создание группы в центре Microsoft 365 администрирования
   
@@ -80,14 +80,12 @@ ms.locfileid: "52241728"
   
 При удалении электронной почты из почтового ящика группы оно не удаляется ни из личных почтовых ящиков членов группы.
 
-## <a name="next-step-manage-your-group"></a>Следующий шаг: управление группой
+## <a name="next-steps"></a>Дальнейшие действия
 
 После создания новой группы и добавления участников можно дополнительно настроить группу, например изменить имя или описание группы, изменить владельцев или членов, а также указать, могут ли внешние отправители отправлять по электронной почте группу и отправлять ли копии групповых бесед участникам. Сведения [см. в Microsoft 365 группы.](manage-groups.md)
 
 ## <a name="related-content"></a>См. также:
 
-[Управление гостевом доступом к Microsoft 365 группам](https://support.microsoft.com/office/bfc7a840-868f-4fd6-a390-f347bf51aff6) (статья)
-
-[Выберите домен, который можно](../../solutions/choose-domain-to-create-groups.md) использовать при создании Microsoft 365 групп (статья)
-
+[Управление гостевых доступом к Microsoft 365 группам](https://support.microsoft.com/office/bfc7a840-868f-4fd6-a390-f347bf51aff6) (статья)\
+[Выберите домен, который можно использовать](../../solutions/choose-domain-to-create-groups.md) при создании Microsoft 365 групп (статья)\
 [Обновление списков рассылки для Microsoft 365 групп](../manage/upgrade-distribution-lists.md) (статья)

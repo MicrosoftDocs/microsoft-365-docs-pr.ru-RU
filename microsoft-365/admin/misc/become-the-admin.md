@@ -20,16 +20,16 @@ search.appverid:
 - MOE150
 ms.assetid: b9707ec8-2247-4e25-9bad-f11ddbc686e4
 description: Узнайте, как проверить право собственности на электронную почту и домен, чтобы взять на себя неуправленный клиент, созданный пользователем самообслуживательной регистрации в Microsoft 365.
-ms.openlocfilehash: c37bf153edf39f53b5c10f020b0cbb8d630eb4a6
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: aa44023ffdc2b59e4db024706323c5b872566260
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593937"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635990"
 ---
 # <a name="perform-an-internal-admin-takeover"></a>Выполнение внутреннего поглощения администратора
 
- Если вы не нашли то, что вы ищете, см. раздел **[Вопросы и ответы по доменам](../setup/domains-faq.yml)**. 
+ Если вы не нашли то, что вы ищете, обратитесь к разделу **[вопросы и ответы по доменам](../setup/domains-faq.yml)**. 
 
 Если вы администратор и хотите взять на себя неуправленный клиент, созданный в результате регистрации пользователя самообслуживателя, вы можете сделать это с внутренним захватом администратора.
 
@@ -68,10 +68,7 @@ ms.locfileid: "52593937"
   
 ## <a name="related-content"></a>См. также:
 
-YouTube: [3 действия для](https://www.youtube.com/watch?v=xt5EsrQBZZk) преобразования ИТ-администратора для Power BI и Microsoft 365 (видео)
-
-[Администрирование в Azure AD](/azure/active-directory/users-groups-roles/domains-admin-takeover) (статья)
-
-[Использование самообслуживки для регистрации в организации](self-service-sign-up.md) (статья)
-  
+YouTube: [3 действия,](https://www.youtube.com/watch?v=xt5EsrQBZZk) чтобы сделать захват ИТ-администратора для Power BI и Microsoft 365 (видео)\
+[Администрирование в Azure AD](/azure/active-directory/users-groups-roles/domains-admin-takeover) (статья)\
+[Использование самообслуживной регистрации в организации](self-service-sign-up.md) (статья)\
 [Понимание роли администратора Power BI службы](/power-bi/service-admin-role) (статья)

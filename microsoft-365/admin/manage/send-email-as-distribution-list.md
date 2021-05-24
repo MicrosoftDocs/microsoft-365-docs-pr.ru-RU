@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: a7c98273-067e-4162-b3a1-4ba081796012
 description: Отправка электронной почты в качестве списка рассылки в Microsoft 365, чтобы при ответе участника на сообщение оно было из списка рассылки.
-ms.openlocfilehash: 01bff7e1d2515670c5a6faa199355e7de591f1fb
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: eb5ce4a08fae13ee0d2631499a8df1724ef3ef66
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624541"
+ms.locfileid: "52635718"
 ---
 # <a name="send-email-as-a-distribution-list"></a>Отправка электронной почты в качестве списка рассылки
 
@@ -66,4 +66,4 @@ ms.locfileid: "52624541"
 
 [Создание, редактирование](../email/create-edit-or-delete-a-security-group.md) или удаление группы безопасности в центре администрирования Microsoft 365 (статья)\
 [Совместная работа по](../email/email-collaboration.md) электронной почте (статья)\
-[Добавление пользователя или контакта в группу рассылки](../email/add-user-or-contact-to-distribution-list.md)
+[Добавление пользователя или контакта в группу рассылки](../email/add-user-or-contact-to-distribution-list.md) (статья)

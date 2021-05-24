@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: Узнайте об использовании централизованных надстройок для развертывания надстройок для пользователей и групп в организации.
-ms.openlocfilehash: c103cfc4e3e7b404ea4d31d81bc30d7990a922dc
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: d678755b28daea1578ce2a5d2e387492cf32d368
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593973"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52636062"
 ---
 # <a name="manage-add-ins-in-the-admin-center"></a>Управление надстройками в Центре администрирования
 
@@ -157,12 +157,8 @@ Office надстройки помогут вам персонализирова
 
 ## <a name="related-content"></a>См. также:
 
-[Развертывание надстройок в центре администрирования](./manage-deployment-of-add-ins.md) (статья)
-
-Дополнительные статьи о создании [и Office надстроек](/office/dev/add-ins/overview/office-add-ins) (статья)
-  
-Для управления надстройкими (статья) используйте централизованные комлеты [PowerShell](../../enterprise/use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins.md) развертывания
-  
-[Устранение неполадок. Пользователь не видит надстройки](/office365/troubleshoot/access-management/user-not-seeing-add-ins) (статья)
-
+[Развертывание надстройок в центре администрирования](./manage-deployment-of-add-ins.md) (статья)\
+Дополнительные данные о создании и [создании Office надстроек](/office/dev/add-ins/overview/office-add-ins) (статья)\
+Для управления надстройкими (статья)\ используйте централизованные [cmdlets Deployment PowerShell](../../enterprise/use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins.md)
+[Устранение неполадок. Пользователь не видит надстройки](/office365/troubleshoot/access-management/user-not-seeing-add-ins) (статья)\
 [Несовершеннолетние и приобретение надстройок из Microsoft Store](./minors-and-acquiring-addins-from-the-store.md) (статья)

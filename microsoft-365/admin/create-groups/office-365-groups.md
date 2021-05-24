@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: С Microsoft 365 группами можно управлять совместной Microsoft 365, предоставляя группе людей доступ к коллекции общих ресурсов.
-ms.openlocfilehash: bfcd2d27bc1d63fcc8b306267efe21c3f9564522
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: f940872a3e4ba2aeeb62247c2898d5a4c0dec85f
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52582744"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635754"
 ---
 # <a name="overview-of-microsoft-365-groups-for-administrators"></a>Обзор групп Microsoft 365 для администраторов
 
@@ -119,12 +119,8 @@ Microsoft 365 группы работают с Azure Active Directory. Полу�
 
 ## <a name="related-content"></a>См. также:
 
-[Узнайте о группах Microsoft 365](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2) (статья)
-
-[Обновление списков рассылки Microsoft 365 групп](../manage/upgrade-distribution-lists.md) (статья)
-
-[Управление Microsoft 365 группами с помощью PowerShell](../../enterprise/manage-microsoft-365-groups-with-powershell.md) (статья)
-
-[SharePoint ограничения (статья)](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)
-
+[Узнайте о группах Microsoft 365](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2) (статья)\
+[Обновление списков рассылки Microsoft 365 группы](../manage/upgrade-distribution-lists.md) (статья)\
+[Управление Microsoft 365 группами с помощью PowerShell](../../enterprise/manage-microsoft-365-groups-with-powershell.md) (статья)\
+[SharePoint Ограничения](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits) (статья)\
 [Организация групп и каналов в Microsoft Stream](/stream/groups-channels-organization) (статья)

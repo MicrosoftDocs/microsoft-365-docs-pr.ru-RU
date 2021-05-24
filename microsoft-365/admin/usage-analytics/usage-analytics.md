@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 77ff780d-ab19-4553-adea-09cb65ad0f1f
 description: Получите обзор того, как ваша организация принимает Microsoft 365 для взаимодействия и совместной работы.
-ms.openlocfilehash: f641e2b99e2d61881eb86506a1770f4401cb98bc
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: db61ed4d4c087b76895d08e43f6b1a2c00ed8172
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572337"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635394"
 ---
 # <a name="microsoft-365-usage-analytics"></a>Аналитика использования Microsoft 365
 
@@ -213,8 +213,6 @@ Microsoft 365 использования содержит ряд отчетов,
 
 ## <a name="related-content"></a>См. также:
 
-[Включение аналитики использования Microsoft 365](enable-usage-analytics.md) (статья)
-
-[Навигация и использование отчетов в Microsoft 365 использования](navigate-and-utilize-reports.md) (статья)
-
+[Включение аналитики использования Microsoft 365](enable-usage-analytics.md) (статья)
+[Навигация и использование отчетов в Microsoft 365 аналитике](navigate-and-utilize-reports.md) использования (статья)\
 [Просмотр отчетов об](../../business-video/act-on-report.md) использовании в Microsoft 365 (видео)

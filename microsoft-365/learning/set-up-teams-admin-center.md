@@ -4,7 +4,7 @@ ms.author: chucked
 author: chuckedmonson
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
-ms.date: 05/12/2021
+ms.date: 05/24/2021
 audience: admin
 ms.topic: article
 ms.service: ''
@@ -15,12 +15,12 @@ ms.collection:
 - m365initiative-viva-learning
 localization_priority: None
 description: Узнайте, как настроить Microsoft Viva Learning (Preview) в центре Teams администрирования.
-ms.openlocfilehash: e5af676752064738e26f9b934a60973cb9b0200d
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: a96a2f3ecf7d4e1ee0c136ae155868218f08aaf4
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/24/2021
-ms.locfileid: "52625313"
+ms.locfileid: "52636138"
 ---
 # <a name="set-up-microsoft-viva-learning-preview-in-the-teams-admin-center"></a>Настройка microsoft Viva Learning (Preview) в центре администрирования Teams
 
@@ -29,7 +29,7 @@ ms.locfileid: "52625313"
 
 Администратор Teams Viva Learning (Preview) и применяет политики разрешений Teams центра администрирования.
 
-1. Для просмотра общего просмотра сначала необходимо установить политику обновления. Дополнительные сведения см. в Teams [веб-Microsoft Teams Public Preview.](/MicrosoftTeams/public-preview-doc-updates)
+1. Для Viva Learning (Preview) сначала необходимо установить политику обновления в Teams. Дополнительные сведения см. [в Microsoft Teams Public Preview.](/MicrosoftTeams/public-preview-doc-updates)
 
     1. Во входе в Teams центр администрирования.
 
@@ -41,15 +41,15 @@ ms.locfileid: "52625313"
 
 2. Администратор должен уведомить пользователей об обновлении политики, чтобы они перемещали сборку в общедоступный предварительный просмотр для Teams. 
 
-    1. Пользователь должен выбрать свое изображение профиля > о --> просмотр.
+    1. Пользователи должны выбрать свое изображение профиля > **о просмотре**  >  **общего просмотра**.
    
         ![Верхняя навигация в приложении Teams с профилем пользователя](../media/learning/learning-app-select-profile-teams.png)
     
-    2. Пользователь должен принять условия общедоступных предварительных просмотров.
+    2. Пользователи должны принимать **общедоступные условия** предварительного просмотра.
 
         ![Переход на сборку общедоступных предварительных просмотров](../media/learning/learning-app-switch-to-public-preview.png)
  
-3. Организации, которые имеют ограничительные политики и должны включить Viva Learning, выполните этот процесс в следующем разделе.
+3. Для организаций, которые имеют ограничительные политики и должны включить Viva Learning (Preview), выполните этот процесс в следующем разделе.
 
 ## <a name="manage-settings-for-viva-learning-preview"></a>Управление настройками для обучения Viva (Предварительная версия)
 

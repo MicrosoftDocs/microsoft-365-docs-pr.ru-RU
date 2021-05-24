@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8275da91-7a48-4591-94ab-3123a3f79530
 description: Узнайте, как изменить тему по умолчанию в верхней части панели навигации в Microsoft 365 и настроить ее в соответствие с логотипом или цветом вашей компании.
-ms.openlocfilehash: b2177eebc31f34f7067c8464724623e4bf7d4870
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: 5f6536d575ef055cda7a97a0860315c491100a1d
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593833"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635930"
 ---
 # <a name="customize-the-microsoft-365-theme-for-your-organization"></a>Настройка темы Microsoft 365 для организации
 
@@ -152,10 +152,9 @@ ms.locfileid: "52593833"
 
 ### <a name="if-i-define-a-theme-which-places-in-microsoft-365-will-this-be-used"></a>Если я определяю тему, какие Microsoft 365 будут использоваться?
 
-Любая тема будет отображаться в верхней панели навигации для всех в организации в Microsoft 365 набора.  
+Любая тема отображается в верхней панели навигации для всех в организации в Microsoft 365 набора.  
   
 ## <a name="related-content"></a>См. также:
 
-[Добавление настраиваемой плитки на страницу Мои приложения и запуск приложения](../manage/customize-the-app-launcher.md) (статья)
-
+[Добавление настраиваемой плитки на страницу Мои приложения и запуск приложения](../manage/customize-the-app-launcher.md) (статья)\
 [Обзор групп Microsoft 365 для администраторов](../create-groups/office-365-groups.md) (статья)

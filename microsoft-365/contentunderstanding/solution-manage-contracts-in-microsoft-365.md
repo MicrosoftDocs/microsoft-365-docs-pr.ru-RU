@@ -6,19 +6,19 @@ manager: pamgreen
 ms.reviewer: ssquires
 audience: admin
 ms.topic: article
-ms.date: 05/10/2021
+ms.date: ''
 ms.prod: microsoft-365-enterprise
 ms.collection: m365solution-managecontracts
 search.appverid: ''
 localization_priority: None
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: ''
 description: Узнайте, как управлять контрактами с Microsoft 365 решения SharePoint, Microsoft Teams и Power Automate.
-ms.openlocfilehash: 057c581559aa2e5cfd6e98b379783a7d73e0bccc
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 18866425cb331b01525dd488a6688608a3d1e559
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538571"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52636222"
 ---
 # <a name="manage-contracts-using-a-microsoft-365-solution"></a>Управление контрактами с помощью Microsoft 365 решения
 

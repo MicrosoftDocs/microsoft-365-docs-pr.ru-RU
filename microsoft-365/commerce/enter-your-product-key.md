@@ -21,12 +21,12 @@ ms.custom:
 - commerce_purchase
 description: Если вы приобрели Microsoft 365 бизнес стандарт магазине, узнайте, как выкупить ключ продукта и активировать подписку.
 ms.date: 11/13/2020
-ms.openlocfilehash: bc2b07b5a98c13a919596bdbf85a21bdc6c8d2bf
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: e075a9d06b45f823540a3a99a1943caa9d116954
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593397"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52636126"
 ---
 # <a name="enter-your-product-key-for-microsoft-365-business-standard"></a>Введите ключ продукта для Microsoft 365 бизнес стандарт
 
@@ -57,11 +57,9 @@ ms.locfileid: "52593397"
 
 Чтобы продлить срок действия или добавить лицензию в существующую подписку Microsoft 365 бизнес стандарт, используйте новый и неиспользимый ключ для того же Microsoft 365 плана. Ввод исходного ключа Microsoft 365 продукта не сработает, так как ключ, который уже был выкуплен, не может использоваться снова. См. в журнале [Add licenses to or extend a subscription paid for using a product key.](licenses/add-licenses-using-product-key.md)
 
-## <a name="whats-next"></a>Что дальше?
+## <a name="next-steps"></a>Дальнейшие действия
 
 Если вы не Microsoft 365 для бизнеса, узнайте, как настроить [Microsoft 365.](../admin/setup/setup.md)
-  
-## <a name="still-having-trouble-with-product-keys"></a>Все еще возникли проблемы с ключами продукта?
 
 Ознакомьтесь с этим списком распространенных ошибок и решений: проблемы [с Microsoft 365 для ключа бизнес-продукта?](product-key-errors-and-solutions.md)
   
@@ -69,8 +67,6 @@ ms.locfileid: "52593397"
 
 ## <a name="related-content"></a>См. также:
 
-[Обновление до другого плана](./subscriptions/upgrade-to-different-plan.md) (статья)
-
-[Что происходит с данными и возможностями доступа при окончании срока действия подписки на Microsoft 365 для бизнеса?](./subscriptions/what-if-my-subscription-expires.md) (статья)
-
+[Обновление до другого плана](./subscriptions/upgrade-to-different-plan.md) (статья)\
+[Что происходит с данными и возможностями доступа при окончании срока действия подписки на Microsoft 365 для бизнеса?](./subscriptions/what-if-my-subscription-expires.md) (статья)\
 [Понимание подписок и лицензий в Microsoft 365 для бизнеса](./licenses/subscriptions-and-licenses.md) (статья)

@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9de497a9-2f5c-43d6-ae18-767f2e6fe6e0
 description: Узнайте, как добавлять гостей в группу Microsoft 365, просматривать гостевых пользователей и использовать PowerShell для управления гостевых доступом.
-ms.openlocfilehash: c52f0094e724040b71d5d72cded049fed57e3969
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 00a6353f02ae7f3675961c3ee2ee31e3715652f2
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52571941"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635766"
 ---
 # <a name="manage-guest-access-in-microsoft-365-groups"></a>Управление гостевом доступом в Microsoft 365 группах
 
@@ -69,10 +69,7 @@ ms.locfileid: "52571941"
 
 ## <a name="related-content"></a>См. также:
 
-[Блокировка гостевых пользователей из определенной группы](../../solutions/per-group-guest-access.md) (статья)
-
-[Управление членством в группе Microsoft 365 центра администрирования](add-or-remove-members-from-groups.md) (статья)
-  
-[Azure Active Directory доступа](/azure/active-directory/active-directory-azure-ad-controls-perform-access-review) (статья)
-
+[Блокировка гостевых пользователей из определенной группы](../../solutions/per-group-guest-access.md) (статья)\
+[Управление членством в группе Microsoft 365 центра администрирования](add-or-remove-members-from-groups.md) (статья)\
+[Azure Active Directory доступа](/azure/active-directory/active-directory-azure-ad-controls-perform-access-review) (статья)\
 [Set-AzureADUser](/powershell/module/azuread/set-azureaduser) (статья)

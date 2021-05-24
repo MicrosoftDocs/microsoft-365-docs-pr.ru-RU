@@ -27,12 +27,12 @@ search.appverid:
 - GEA150
 ms.assetid: eac4d046-1afd-4f1a-85fc-8219c79e1504
 description: Узнайте, как назначить роли администратора пользователю или нескольким пользователям в вашем бизнесе, чтобы они могли выполнять определенные задачи в центре администрирования.
-ms.openlocfilehash: f23a30cfd1be53982572d745d476558c3be615e6
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 8a9da12a8ebc01a02e4362f09ccaa9e92c21b7e9
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52571869"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52634176"
 ---
 # <a name="assign-admin-roles"></a>Назначение ролей администратора
 
@@ -42,7 +42,7 @@ ms.locfileid: "52571869"
 
 При добавлении новых пользователей, если вы не назначите  им роль администратора, они находятся в роли пользователя и не имеют прав администратора ни для одного из центров администрирования Майкрософт. Но если вам нужна помощь в обеспечении работы, можно назначить роль администратора пользователю. Например, если вам нужен кто-то, кто поможет сбросить пароли, не следует назначать им роль глобального администратора, вы должны назначить им роль администратора паролей. Чрезмерное количество глобальных администраторов с неограниченным доступом к вашим данным и деловым операциям в сети представляет угрозу безопасности.
 
-## <a name="watch-add-an-adminbrbr"></a>Часы. Добавьте администратора.<br><br>
+## <a name="watch-add-an-adminbrbr"></a>Watch: Add an admin<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOfO] 
 
@@ -121,10 +121,7 @@ ms.locfileid: "52571869"
 
 ## <a name="related-content"></a>См. также:
 
-[О Microsoft 365 роли администратора](about-admin-roles.md) (статья)
-
-[Разрешения на роль](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) администратора в Azure Active Directory (статья)
-
-[Назначение ролей учетным записям пользователей с помощью PowerShell](../../enterprise/assign-roles-to-user-accounts-with-microsoft-365-powershell.md) (статья)
-
+[О Microsoft 365 ролей администратора](about-admin-roles.md) (статья)\
+[Разрешения на роль](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) администратора в Azure Active Directory (статья)\
+[Назначение ролей учетным записям пользователей с помощью PowerShell](../../enterprise/assign-roles-to-user-accounts-with-microsoft-365-powershell.md) (статья)\
 [Авторизации или удаления партнерских отношений](../misc/add-partner.md) (статья)

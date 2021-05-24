@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: f493e3af-e1d8-4668-9211-230c245a0466
 description: Вопишите в свою учетную запись Microsoft 365 администратора, чтобы установить некоторые отдельные пароли пользователей, которые никогда не истекают с помощью Windows PowerShell.
-ms.openlocfilehash: 0747e0bfe8a7389db554d5d6a7f685605e013306
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 12c717d8d625b0135f185b1af131db00e9762c73
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52571929"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635562"
 ---
 # <a name="set-an-individual-users-password-to-never-expire"></a>Установка бессрочных пользовательских паролей
 
@@ -126,8 +126,8 @@ Run one of the following commands:
     Get-AzureADUser -All $true | Set-AzureADUser -PasswordPolicies None
     ```
 
-## <a name="related-content"></a>Связанные материалы
+## <a name="related-content"></a>См. также:
 
-[Предоставление пользователям прав на самостоятельный сброс пароля](../add-users/let-users-reset-passwords.md) (статья)
-
-[Сброс паролей](../add-users/reset-passwords.md) (статья)
+[Пусть пользователи сбрасывают собственные пароли](../add-users/let-users-reset-passwords.md) (статьи)\
+[Сброс паролей](../add-users/reset-passwords.md) (статья)\
+[Установите политику истечения пароля для организации](../manage/set-password-expiration-policy.md) (статья)

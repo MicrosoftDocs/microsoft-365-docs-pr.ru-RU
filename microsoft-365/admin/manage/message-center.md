@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 38fb3333-bfcc-4340-a37b-deda509c2093
 description: Получите обзор центра Microsoft 365 сообщений и его роли в отслеживании новых и измененных функций и других важных объявлений.
-ms.openlocfilehash: edef3bb5a9016cf6f65f307fcd7c706bf4424d2f
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: 51cdf1924b3aaa507a6b41f903a6aea5d81d68f1
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593961"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52636050"
 ---
 # <a name="message-center"></a>Центр сообщений
 
@@ -303,8 +303,6 @@ ms.locfileid: "52593961"
 
 ## <a name="related-content"></a>См. также:
 
-[Настройка стандартных или целевых параметров](../manage/release-options-in-office-365.md) выпуска (статья)
-
-[Управление Office функций в What's New](../manage/show-hide-new-features.md) (статья)
-
-[Бизнес-подписки и документация по выставлению счета](../../commerce/index.yml) (ссылки)
+[Настройка стандартных или целевых параметров](../manage/release-options-in-office-365.md) выпуска (статья)\
+[Управление Office функций в What's New](../manage/show-hide-new-features.md) (статья)\
+[Бизнес-подписки и документация по выставлению счета](../../commerce/index.yml) (страница ссылки)

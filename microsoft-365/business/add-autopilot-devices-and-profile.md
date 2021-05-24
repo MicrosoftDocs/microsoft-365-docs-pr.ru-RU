@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 ms.assetid: be5b6d90-3344-4c5e-bf40-5733eb845beb
 description: Узнайте, как использовать Windows AutoPilot для Windows 10 устройств для бизнеса, чтобы они были готовы к использованию.
-ms.openlocfilehash: cc5495f42214b222a70b281a713be782b1bf5c4f
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: e178e7df220e89605502d9ed400265bcd963e57e
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/24/2021
-ms.locfileid: "52623680"
+ms.locfileid: "52636113"
 ---
 # <a name="use-the-step-by-step-guide-to-add-autopilot-devices-and-profile"></a>Добавление устройств и профиля AutoPilot с помощью пошагового мастера
 
@@ -45,8 +45,6 @@ ms.locfileid: "52623680"
 - Новые устройства, которые не прошли Windows вне окна
     
 ## <a name="use-the-setup-guide-to-create-devices-and-profiles"></a>Создание устройств и профилей с помощью мастера настройки
-
-[![Надпись, оповещающая об изменении Центра администрирования. Дополнительные сведения см. на сайте aka.ms/aboutM365preview.](../media/m365admincenterchanging.png)](/office365/admin/microsoft-365-admin-center-preview)
 
 Если вы еще не создали группы устройств или профили, лучше всего приступить к работе с помощью пошагового руководства. Вы также можете [добавлять устройства и](create-and-edit-autopilot-devices.md) назначать им [профили](create-and-edit-autopilot-profiles.md) без использования руководства. 
   

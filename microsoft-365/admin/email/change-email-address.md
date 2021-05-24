@@ -25,16 +25,16 @@ search.appverid:
 - GEA150
 ms.assetid: f4d8cae9-6d06-4c4b-b4e5-6581fd05ea82
 description: Измените адрес электронной почты на дружественный адрес электронной почты tom@fourthcoffee.com, купив доменное имя и добавив его в Microsoft 365.
-ms.openlocfilehash: d5e70856c9200cd7e5df0eded25b6ff460e5d1fe
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 1a248cb67bab5d0467cad35dc5be8023b8013a12
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572097"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635526"
 ---
 # <a name="change-your-email-address-to-use-your-custom-domain"></a>Изменение адреса электронной почты с использованием пользовательского домена
 
- Если вы не нашли то, что вы ищете, см. раздел **[Вопросы и ответы по доменам](../setup/domains-faq.yml)**. 
+ Если вы не нашли то, что вы ищете, обратитесь к разделу **[вопросы и ответы по доменам](../setup/domains-faq.yml)**. 
   
 ::: moniker range="o365-worldwide"
 
@@ -91,4 +91,6 @@ ms.locfileid: "52572097"
   
 ## <a name="related-content"></a>См. также:
 
-[Купить настраиваемый домен с Microsoft 365](../get-help-with-domains/buy-a-domain-name.md) (статья)
+[Купить настраиваемый домен с Microsoft 365](../get-help-with-domains/buy-a-domain-name.md) (статья)\
+[Управление доменами](../get-help-with-domains/index.yml) (страница ссылки)\
+[Вопросы и ответы о доменах](../setup/domains-faq.yml) (статья)

@@ -23,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: 1561140a-16a9-4a02-822d-a989250e479d
 description: Узнайте, как купить доменное имя в Microsoft 365.
-ms.openlocfilehash: 53c71796c09f08d1f50c58704b8dd95c1a241518
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 3d5a5568a0e75a06f0880d82ea8e4a1a8d003689
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537575"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635466"
 ---
 # <a name="buy-a-domain-name"></a>Приобретение имени домена
 
@@ -37,7 +37,7 @@ ms.locfileid: "52537575"
 
  *Чтобы добавить, изменить или  удалить домены, необходимо быть **глобальным** администратором [бизнес-или корпоративного плана.](https://products.office.com/business/office) Эти изменения затрагивают весь клиент, *настраиваемые* администраторы или обычные пользователи не смогут вносить эти изменения.*  
 
- Если вы не нашли то, что вы ищете, см. раздел **[Вопросы и ответы по доменам](../setup/domains-faq.yml)**. 
+ Если вы не нашли то, что вы ищете, обратитесь к разделу **[вопросы и ответы по доменам](../setup/domains-faq.yml)**. 
   
 ## <a name="sign-in-and-go-to-settings--domains--buy-a-domain"></a>Войдите и перейдите в Параметры \> Домены \> Купить домен
 
@@ -119,8 +119,6 @@ ms.locfileid: "52537575"
 
 ## <a name="related-content"></a>См. также:
 
-[Добавление домена в Microsoft 365](../setup/add-domain.md) (статья)
-
-[FaQ доменов](../setup/domains-faq.yml) (статья)
-
+[Добавление домена в Microsoft 365](../setup/add-domain.md) (статья)\
+[FaQ доменов](../setup/domains-faq.yml) (статья)\
 [Обновление записей DNS, чтобы сохранить веб-сайт с текущим поставщиком хостинга](../dns/update-dns-records-to-retain-current-hosting-provider.md) (статья)

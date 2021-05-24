@@ -22,12 +22,12 @@ ms.custom:
 search.appverid: MET150
 description: Добавьте хранилище файлов в Microsoft 365 подписку. С помощью дополнительного хранилища файлов можно хранить больше контента в SharePoint и OneDrive.
 ms.date: 04/02/2021
-ms.openlocfilehash: b573205c7053aba0339d1f32deb2996ef80f8754
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 14b688e850f62a06c39e4a315d871202e57d70d6
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572325"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635862"
 ---
 # <a name="add-storage-space-for-your-subscription"></a>Добавление пространства для хранения для подписки
 
@@ -36,7 +36,7 @@ ms.locfileid: "52572325"
 > [!NOTE]
 > Если вы приобрели подписку через корпоративное лицензирование или  CSP, вы не можете купить Office 365 с дополнительным хранилищем вашей организации непосредственно у Корпорации Майкрософт. Обратитесь за помощью к представителю или партнеру.
 
-## <a name="before-you-begin"></a>Подготовка к работе
+## <a name="before-you-begin"></a>Прежде чем начать
 
 Вы должны быть глобальным или администратором SharePoint для выполнения задач в этой статье. Дополнительные сведения см. в статье [О ролях администраторов](../admin/add-users/about-admin-roles.md).
 
@@ -104,4 +104,4 @@ ms.locfileid: "52572325"
 ## <a name="related-content"></a>См. также:
 
 [Управление ограничениями хранения сайтов](/sharepoint/manage-site-collection-storage-limits) (статья)\
-[Установите пространство хранения по умолчанию для OneDrive пользователей](/onedrive/set-default-storage-space)(статья)
+[Установите пространство хранения по умолчанию для OneDrive пользователей](/onedrive/set-default-storage-space) (статья)

@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: b7c66b59-657a-4e1a-8aa0-8163b1f4eb54
 description: Удаленная группа сохраняется в течение 30 дней, и вы все еще можете восстановить группу. Через 30 дней группа и ее содержимое будут удалены навсегда.
-ms.openlocfilehash: 285796ec45b1e6d77d46d7a0c39706f566bb8cf6
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: 2c20c2bd3ce91331e7160132047dbf3ecd79c4b8
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52582684"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635742"
 ---
 # <a name="restore-a-deleted-microsoft-365-group"></a>Восстановление удаленной Microsoft 365 группы
 
@@ -83,10 +83,7 @@ ms.locfileid: "52582684"
   
 ## <a name="related-content"></a>См. также:
 
-[Управление Microsoft 365 группами с помощью PowerShell](../../enterprise/manage-microsoft-365-groups-with-powershell.md) (статья)
-  
-[Удаление групп с Remove-UnifiedGroup (статья)](/powershell/module/exchange/remove-unifiedgroup)
-  
-[Управление настройками веб-сайтов группы](https://support.microsoft.com/office/8376034d-d0c7-446e-9178-6ab51c58df42) с подключением к группе (статья)
-  
+[Управление Microsoft 365 группами с помощью PowerShell](../../enterprise/manage-microsoft-365-groups-with-powershell.md) (статья)\
+[Удаление групп с Remove-UnifiedGroup](/powershell/module/exchange/remove-unifiedgroup) (статья)\
+[Управление настройками веб-сайтов группы](https://support.microsoft.com/office/8376034d-d0c7-446e-9178-6ab51c58df42) с подключением к группе (статья)\
 [Удаление группы в Outlook](https://support.microsoft.com/office/ca7f5a9e-ae4f-4cbe-a4bc-89c469d1726f) (статья)

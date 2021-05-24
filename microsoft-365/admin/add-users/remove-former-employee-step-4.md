@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Следуйте шагам в этой статье, чтобы предоставить другому сотруднику доступ к данным OneDrive и Outlook сотрудников.
-ms.openlocfilehash: cb5c27cbc7f1c184af8f0d1ad32b822660e93791
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: 55bc2c3d8530e5cb7702f99a77b3918bfb7c0dee
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52582696"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52634260"
 ---
 # <a name="step-4---give-another-employee-access-to-onedrive-and-outlook-data"></a>Шаг 4 . Предоставить другому сотруднику доступ к OneDrive и Outlook данным
 
@@ -163,8 +163,6 @@ ms.locfileid: "52582696"
 
 ## <a name="related-content"></a>См. также:
 
-[Добавление и удаление администраторов в OneDrive учетной записи](/sharepoint/manage-user-profiles#add-and-remove-admins-for-a-users-onedrive) (статья)
-
-[Восстановление удаленных OneDrive](/onedrive/restore-deleted-onedrive) (статья)
-  
+[Добавление и удаление администраторов в OneDrive учетной записи](/sharepoint/manage-user-profiles#add-and-remove-admins-for-a-users-onedrive) (статья)\
+[Восстановление удаленных OneDrive](/onedrive/restore-deleted-onedrive) (статья)\
 [OneDrive хранения и удаления](/onedrive/retention-and-deletion) (статья)

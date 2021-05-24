@@ -1,5 +1,5 @@
 ---
-title: Устранение неполадок в Microsoft Defender для конечной точки на iOS
+title: Устранение неполадок и поиск ответов на вопросы, связанные с Microsoft Defender для конечной точки на iOS
 description: Устранение неполадок и задаваемая проблема — Microsoft Defender для конечной точки на iOS
 keywords: Microsoft, defender, Microsoft Defender for Endpoint, ios, troubleshoot, faq, how to
 search.product: eADQiWindows 10XVcnh
@@ -17,14 +17,14 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 82a3fcc58b97f53f584befae77c86e8a18952a23
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 13c0a575fd2614f58eb6a2163cda04118c2a391d
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52539327"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52636282"
 ---
-# <a name="troubleshoot-issues-on-microsoft-defender-for-endpoint-on-ios"></a>Устранение неполадок в Microsoft Defender для конечной точки на iOS
+# <a name="troubleshoot-issues-and-find-answers-to-faqs-on-microsoft-defender-for-endpoint-on-ios"></a>Устранение неполадок и поиск ответов на вопросы в Microsoft Defender для конечной точки на iOS
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 

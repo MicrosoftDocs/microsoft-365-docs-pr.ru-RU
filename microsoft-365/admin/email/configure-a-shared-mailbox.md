@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Создайте общий почтовый ящик и настройте некоторые параметры для своих пользователей, такие как пересылание электронной почты и автоматические ответы.
-ms.openlocfilehash: ab23353f07a24f06d43172e8087819dd915ab720
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: c1d8007a2fcc45fbdd1a6943ee464e5aae8917b9
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52582672"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635514"
 ---
 # <a name="configure-shared-mailbox-settings"></a>Настройка параметров общего почтового ящика
 
@@ -144,12 +144,8 @@ ms.locfileid: "52582672"
 
 ## <a name="related-content"></a>См. также:
 
-[Сведения об общих почтовых ящиках](about-shared-mailboxes.md) (статья)
-
-[Создание общего почтового ящика](create-a-shared-mailbox.md) (статья)
-
-[Преобразование почтового ящика пользователя в общий почтовый ящик](convert-user-mailbox-to-shared-mailbox.md) (статья)
-
-[Удаление лицензии из общего почтового ящика](remove-license-from-shared-mailbox.md) (статья)
-
+[Об общих почтовых ящиках](about-shared-mailboxes.md) (статья)\
+[Создание общего почтового ящика](create-a-shared-mailbox.md) (статья)\
+[Преобразование почтового ящика пользователя в общий почтовый ящик](convert-user-mailbox-to-shared-mailbox.md) (статья)\
+[Удаление лицензии из общего почтового ящика](remove-license-from-shared-mailbox.md) (статья)\
 [Решение проблем с общими почтовыми ящиками](resolve-issues-with-shared-mailboxes.md) (статья)

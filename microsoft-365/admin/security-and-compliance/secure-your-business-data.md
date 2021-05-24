@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: de2da300-dbb6-4725-bb12-b85a9d296e75
 description: Защитите свою бизнес-почту и данные от киберугроз, в том числе программ-вымогателей, фишинга и вредоносных вложений.
-ms.openlocfilehash: 12bdb9f12c1b0d3072a4c84c006787c26050cc8b
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: b274bb6bcdf71641ff8b196921a501bae9cbba28
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52582804"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635966"
 ---
 # <a name="top-10-ways-to-secure-microsoft-365-for-business-plans"></a>Топ-10 способов Microsoft 365 бизнес-планов
 
@@ -348,8 +348,6 @@ Office Шифрование сообщений предоставляет два
 
 ## <a name="related-content"></a>См. также:
 
-[Многофакторная](multi-factor-authentication-microsoft-365.md) проверка подлинности для Microsoft 365 (статья)
-
-[Управление и мониторинг учетных записей приоритетов](../setup/priority-accounts.md) (статья)
-
+[Многофакторная](multi-factor-authentication-microsoft-365.md) проверка подлинности для Microsoft 365 (статья)\
+[Управление и мониторинг учетных записей приоритетов](../setup/priority-accounts.md) (статья)\
 [Microsoft 365 отчеты в центре администрирования](../activity-reports/activity-reports.md) (видео)

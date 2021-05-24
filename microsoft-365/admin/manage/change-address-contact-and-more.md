@@ -19,12 +19,12 @@ ms.custom:
 search.appverid: MET150
 description: Внести изменения в профиль организации, такие как имя организации, адрес, телефон, технический контакт и электронная почта.
 ms.date: 03/30/2021
-ms.openlocfilehash: 9fc985f640f1544bf30ea1a6ccdd5c1ca19aa81f
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 2646d2d83c72caa8a56f6658f005812f087101cb
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572136"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635406"
 ---
 # <a name="change-your-organizations-address-technical-contact-and-more"></a>Изменение адреса организации и других данных профиля
   
@@ -81,8 +81,6 @@ ms.locfileid: "52572136"
 
 ## <a name="related-content"></a>См. также:
 
-[Отправка электронной почты с другого адреса](https://support.microsoft.com/office/ccba89cb-141c-4a36-8c56-6d16a8556d2e) (статья)
-
-[Изменение имени пользователя и адреса электронной почты](../add-users/change-a-user-name-and-email-address.md) (статья)
-
+[Отправка электронной почты с другого адреса](https://support.microsoft.com/office/ccba89cb-141c-4a36-8c56-6d16a8556d2e) (статья)\
+[Изменение имени пользователя и адреса электронной почты](../add-users/change-a-user-name-and-email-address.md) (статья)\
 [Настройка переадресации электронной почты в Microsoft 365](../email/configure-email-forwarding.md) (статья)

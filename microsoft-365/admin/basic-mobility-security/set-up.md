@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Настройка базовой мобильности и безопасности для защиты и управления мобильными устройствами пользователей путем выполнения действий, например удаленного вытирания устройства.
-ms.openlocfilehash: 830baa79838818501101c0c4f2d3163f57d47611
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: 02ba28deca6286456af5f87841a741262c1a135d
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593421"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52634296"
 ---
 # <a name="set-up-basic-mobility-and-security"></a>Настройка Basic Mobility + Security
 
@@ -129,6 +129,5 @@ MFA помогает обеспечить вход Microsoft 365 для реги
 
 ## <a name="related-content"></a>См. также:
 
-[Возможности базовой мобильности и безопасности](capabilities.md) (статья)
-
+[Возможности базовой мобильности и безопасности](capabilities.md) (статья)\
 [Создание политик безопасности устройств в Basic Mobility and Security](create-device-security-policies.md) (статья)

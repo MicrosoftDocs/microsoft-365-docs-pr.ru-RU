@@ -20,22 +20,22 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Дополнительные дополнительные Microsoft 365 центра администрирования.
-ms.openlocfilehash: 6d7fe36345ebd9234027e943d11266b7bcc2b30f
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+description: Используйте упрощенное представление в Microsoft 365 для управления общими задачами или представлением панели мониторинга для более сложных параметров и задач.
+ms.openlocfilehash: bca3aa7bb071d9334f7a5162a78db89690421f1a
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537395"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635894"
 ---
 # <a name="overview-of-the-microsoft-365-admin-center"></a>Обзор Центра администрирования Microsoft 365
 
-- [Центр администрирования в упрощенном представлении](#the-admin-center-in-simplified-view)
-- [Центр администрирования в представлении панели мониторинга](#the-admin-center-in-dashboard-view)
+- [Центр администрирования в упрощенном представлении](#watch-the-admin-center-in-simplified-view)
+- [Центр администрирования в представлении панели мониторинга](#watch-the-admin-center-in-dashboard-view)
 
 Центр Microsoft 365 администратора имеет два представления: упрощенное представление помогает небольшим организациям управлять своими наиболее распространенными задачами. Представление панели мониторинга включает более сложные параметры и задачи. Между ними можно переключаться с кнопки в верхней части центра администрирования.
 
-## <a name="the-admin-center-in-simplified-view"></a>Центр администрирования в упрощенном представлении
+## <a name="watch-the-admin-center-in-simplified-view"></a>Watch. Центр администрирования в упрощенном представлении
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWD3sq?autoplay=false]
 
@@ -57,7 +57,7 @@ ms.locfileid: "52537395"
 
 Если вам нужна помощь, выберите **справку & поддержку**. Поиск темы, с помощью и просмотр рекомендуемых решений или выбор гарнитуры для контакта с поддержкой, а затем введите ваши вопросы и контактные данные. 
 
-## <a name="the-admin-center-in-dashboard-view"></a>Центр администрирования в представлении панели мониторинга
+## <a name="watch-the-admin-center-in-dashboard-view"></a>Watch. Центр администрирования в представлении панели мониторинга
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWfvDL?autoplay=false]
 
@@ -188,4 +188,10 @@ Microsoft 365 это полное, интеллектуальное решени
 |Вьетнамский | vi |
 |Chinese Simplified | zh-hans |
 |Chinese Traditional | zh-hant |
+
+## <a name="related-content"></a>См. также:
+
+[Что такое администратор Microsoft 365?](what-is-admin.md) (видео)\
+[Добавление администратора](add-admin.md) (видео)\
+[Настройка темы Microsoft 365 для организации](../admin/setup/customize-your-organization-theme.md) (статья)
   

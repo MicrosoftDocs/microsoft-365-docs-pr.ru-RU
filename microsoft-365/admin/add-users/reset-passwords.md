@@ -27,12 +27,12 @@ search.appverid:
 - GEA150
 ms.assetid: 7a5d073b-7fae-4aa5-8f96-9ecd041aba9c
 description: Вопишитесь в Microsoft 365 учетной записи администратора для сброса паролей для пользователей в Microsoft 365 для бизнеса подписки.
-ms.openlocfilehash: 8d4666eb70b1d5349f71c906f05510a8a54ded74
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 0cec6c7874b51c76fca60c6c237395c940c47bbe
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52571977"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635574"
 ---
 # <a name="reset-passwords"></a>Сброс паролей
 
@@ -120,14 +120,10 @@ ms.locfileid: "52571977"
 
 Ознакомьтесь со статьей [Я не помню имя пользователя или пароль учетной записи для Office](https://support.microsoft.com/office/eba0b4a2-c0ae-472c-99f6-bc63ee2425a8?wt.mc_id=SCL_reset-passwords_AdmHlp).
   
-## <a name="related-content"></a>Связанные материалы
+## <a name="related-content"></a>См. также:
   
-[Предоставление пользователям прав на самостоятельный сброс пароля](../add-users/let-users-reset-passwords.md) (статья)
-
-[Сброс паролей](../add-users/reset-passwords.md)
-
-[Установка бессрочных пользовательских паролей](set-password-to-never-expire.md)
-
-[Установите политику истечения пароля для организации](../manage/set-password-expiration-policy.md) (статья)
-
+[Пусть пользователи сбрасывают собственные пароли](../add-users/let-users-reset-passwords.md) (статьи)\
+[Сброс паролей](../add-users/reset-passwords.md) (статья)\
+[Установите пароль отдельного пользователя, который никогда не истекает](set-password-to-never-expire.md) (статья)\
+[Установите политику истечения пароля для организации](../manage/set-password-expiration-policy.md) (статья)\
 [Microsoft 365 для видео обучения бизнесу](../../business-video/index.yml) (страница ссылки)

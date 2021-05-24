@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: e186d224-a324-4afa-8300-0e4fc0c3000a
 description: Узнайте, как добавить участника в группу, удалить его из группы и управлять состоянием владельца группы в центре Microsoft 365 администратора.
-ms.openlocfilehash: 3ab3ebe21caa2d9d3dfa381dd3b68c9d2512cb79
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: b5b0a398a5ebb47a5f27066f1daea1a822adbff2
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593385"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635610"
 ---
 # <a name="add-or-remove-members-from-microsoft-365-groups-using-the-admin-center"></a>Добавление или удаление участников из Microsoft 365 групп с помощью центра администрирования
 
@@ -101,7 +101,7 @@ ms.locfileid: "52593385"
 
 5. Нажмите **Сохранить**.
 
-## <a name="more-on-managing-membership"></a>Дополнительные сведения об управлении членством
+## <a name="next-steps"></a>Дальнейшие действия
 
 - [Управление группами в Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal): см. раздел "Как управлять членством в группе динамически"
 
@@ -111,12 +111,8 @@ ms.locfileid: "52593385"
 
 ## <a name="related-content"></a>См. также:
 
-[Обновление списков рассылки для Microsoft 365 групп в Outlook](../manage/upgrade-distribution-lists.md) (статья)
-
-[Причины для перехода со списков рассылки на группы в Outlook](https://support.microsoft.com/office/7fb3d880-593b-4909-aafa-950dd50ce188) (статья)
-
-[Управление гостевых доступом в Microsoft 365 группах](manage-guest-access-in-groups.md) (статья)
-
-[Управление Microsoft 365 группами с Помощью PowerShell:](../../enterprise/manage-microsoft-365-groups-with-powershell.md)в этой статье вы познакомите вас с ключевыми группами и приводит примеры (статья)
-
+[Обновление списков рассылки для Microsoft 365 групп в Outlook](../manage/upgrade-distribution-lists.md) (статья)\
+[Почему следует обновить списки рассылки до групп в Outlook](https://support.microsoft.com/office/7fb3d880-593b-4909-aafa-950dd50ce188) (статья)\
+[Управление гостевых доступом в Microsoft 365 группах](manage-guest-access-in-groups.md) (статья)\
+[Управление Microsoft 365 группами с помощью PowerShell:](../../enterprise/manage-microsoft-365-groups-with-powershell.md)в этой статье вы познакомите вас с ключевыми группами и приводит примеры (статья)\
 [Microsoft 365 групп политики именования](../../solutions/groups-naming-policy.md) (статья)

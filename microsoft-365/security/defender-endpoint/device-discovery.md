@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 2dee1193e9f852e66df324927bf38d37d736d251
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: ed4e0c477bd2a8840e920b337f05c8730965bcff
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245952"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52636246"
 ---
 # <a name="device-discovery-overview"></a>Обзор обнаружения устройств
 
@@ -62,7 +62,7 @@ Microsoft Defender для конечной точки предоставляет
 
 
 > [!IMPORTANT]
-> Обнаружение установлено в базовом режиме. Эту конфигурацию можно сохранить на странице параметры. Стандартным открытием будет режим по умолчанию для всех пользователей предварительного просмотра, начиная с 10 мая 2021 г., если они не будут изменены на странице параметров до этой даты.
+> Обнаружение установлено в базовом режиме. Эту конфигурацию можно сохранить на странице параметры. Стандартным открытием будет режим по умолчанию для всех клиентов, начиная с 19 июля 2021 г., если они не будут изменены на странице параметров до этой даты.
 
 ### <a name="basic-discovery"></a>Базовое открытие 
 

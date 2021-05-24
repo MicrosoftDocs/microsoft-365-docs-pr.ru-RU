@@ -27,16 +27,16 @@ search.appverid:
 - MET150
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
 description: Настройка устройств Windows, Windows 10 Pro для Microsoft 365 бизнес премиум пользователей, что позволяет централизованно контролировать управление и безопасность.
-ms.openlocfilehash: 3d32a033a1a1c89d7d4d557cea6a28e24543ab2c
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: 7a9c75f6ec14605225d40c103c18e62937e773bf
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52594028"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635881"
 ---
 # <a name="set-up-windows-devices-for-microsoft-365-business-premium-users"></a>Настройка Windows устройств для Microsoft 365 бизнес премиум пользователей
 
-## <a name="before-you-begin"></a>Подготовка к работе
+## <a name="before-you-begin"></a>Прежде чем начать
 
 Прежде чем настроить Windows для Microsoft 365 бизнес премиум пользователей, убедитесь, что все Windows работают Windows 10 Pro версии 1703 (Creators Update). Windows 10 Pro является обязательным условием для развертывания Windows 10 для бизнеса, который представляет собой набор облачных служб и возможностей управления устройствами, которые дополняют Windows 10 Pro и обеспечивают централизованное управление и управление безопасностью Microsoft 365 бизнес премиум.
   
@@ -46,7 +46,7 @@ ms.locfileid: "52594028"
   
 Проверьте, подключено ли устройство к [Azure AD,](#verify-the-device-is-connected-to-azure-ad) чтобы убедиться, что обновление обновлено, или убедиться, что обновление сработало.
 
-Просмотрите короткое видео о подключении Windows к Microsoft 365.<br><br>
+## <a name="watch-connect-your-pc-to-microsoft-365-business"></a>Часы: Подключение компьютер Microsoft 365 бизнес
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3yXh3] 
 

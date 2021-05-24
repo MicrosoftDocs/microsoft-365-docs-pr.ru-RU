@@ -24,24 +24,26 @@ search.appverid:
 - BCS160
 - MET150
 description: Узнайте, как Microsoft 365 защитить локальные устройства с Windows 10 active-Directory.
-ms.openlocfilehash: f16962dd3c33c3c228da507bc5c4a902d76a8a08
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: ec80159bdceffd8a13d09a297a2acc1b78c9b1b3
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593900"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52636093"
 ---
 # <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business-premium"></a>Включить устройства с Windows 10 с помощью Microsoft 365 бизнес премиум
 
 Если в организации используется Windows Server Active Directory, можно настроить Microsoft 365 бизнес премиум для защиты Windows 10 устройств, сохраняя при этом доступ к локальным ресурсам, которые требуют локальной проверки подлинности.
 Чтобы настроить эту защиту, можно реализовать устройства **hybrid Azure AD.** Эти устройства присоединяются как к локальному Active Directory, так и к Azure Active Directory.
 
+## <a name="watch-configure-hybrid-azure-active-directory-join"></a>Watch: Настройка гибридной Azure Active Directory присоединиться
+
 В этом видео описываются действия по настройкам этого сценария для наиболее распространенных сценариев, которые также описаны в последующих действиях.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3C9hO]
   
+## <a name="before-you-begin"></a>Прежде чем начать
 
-## <a name="before-you-get-started-make-sure-you-complete-these-steps"></a>Перед началом работы убедитесь, что выполните следующие действия:
 - Синхронизация пользователей с Azure AD с azure AD Подключение.
 - Выполните синхронизацию Подключение Azure AD.
 - Убедитесь, что все синхронизированные пользователи домена имеют лицензии на Microsoft 365 бизнес премиум.
@@ -119,8 +121,6 @@ PS C:\> Initialize-SecMgmtHybirdDeviceEnrollment -GroupPolicyDisplayName 'Device
 
 ## <a name="related-content"></a>См. также:
 
-[Синхронизация пользователей домена с Microsoft 365](manage-domain-users.md) (статья)
-
-[Создание группы в центре администрирования](../admin/create-groups/create-groups.md) (статья)
-
+[Синхронизация пользователей домена с Microsoft 365](manage-domain-users.md) (статья)\
+[Создание группы в центре администрирования](../admin/create-groups/create-groups.md) (статья)\
 [Руководство. Настройка гибридного Azure Active Directory для управляемых доменов](/azure/active-directory/devices/hybrid-azuread-join-managed-domains.md) (статья)

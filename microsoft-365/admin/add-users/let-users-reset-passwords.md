@@ -25,18 +25,18 @@ search.appverid:
 - MOE150
 ms.assetid: 5bc3f460-13cc-48c0-abd6-b80bae72d04a
 description: Узнайте, как настроить политику, позволяющую пользователям сбросить собственные пароли с помощью средства сброса паролей самообслуживки.
-ms.openlocfilehash: 2c79d5611ab2db00f4de5f227b0ec2f411955558
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 81fbe1949b8d5e4a601411703d86165f95cc7b7f
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52571857"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52634272"
 ---
 # <a name="let-users-reset-their-own-passwords"></a>Предоставление пользователям прав на самостоятельный сброс пароля
 
 Как администратор Microsoft 365, вы можете позволить людям [](https://go.microsoft.com/fwlink/p/?LinkId=522677) использовать средство сброса паролей самообслуживки, чтобы вам не нужно было сбрасывать пароли для них. Работы станет гораздо меньше!
   
-## <a name="before-you-begin"></a>Подготовка к работе
+## <a name="before-you-begin"></a>Прежде чем начать
   
 - Сброс пароля самообслуживаемых для пользователей облаков будет бесплатным с Microsoft 365 бизнеса, образования или некоммерческой платной программы.  Это не работает с Microsoft 365 пробной.
 
@@ -74,8 +74,6 @@ ms.locfileid: "52571857"
 
 ## <a name="related-content"></a>См. также:
 
-[Установите политику истечения пароля для организации](../manage/set-password-expiration-policy.md) (статья)
-
-[Установка бессрочных пользовательских паролей](set-password-to-never-expire.md)
-
+[Установите политику истечения пароля для организации](../manage/set-password-expiration-policy.md) (статья)\
+[Установите пароль отдельного пользователя, который никогда не истекает](set-password-to-never-expire.md) (статья)\
 [Microsoft 365 бизнес обучающие видео](../../business-video/index.yml) (страница ссылки)

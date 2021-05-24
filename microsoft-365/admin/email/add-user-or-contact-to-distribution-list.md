@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: ba256583-03ca-429e-be4d-a92d9c221ad6
 description: Узнайте, как добавить пользователя Microsoft 365 или контакт, например сотрудника, партнера или поставщика в группу рассылки электронной почты.
-ms.openlocfilehash: 69dea710554b344de4bc221b17d5d8f929b964a5
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: c512e1da805fca5e46d7978620f34b825d0289a0
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593493"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635550"
 ---
 # <a name="add-a-user-or-contact-to-a-distribution-group"></a>Добавление пользователя или контакта в группу рассылки
 
@@ -55,7 +55,6 @@ ms.locfileid: "52593493"
 
 ## <a name="related-content"></a>См. также:
 
-[Управление помехами для организации](configure-clutter.md) (статья)
-
+[Управление помехами для организации](configure-clutter.md) (статья)\
 [Создание общего почтового ящика](create-a-shared-mailbox.md) (статья)
 

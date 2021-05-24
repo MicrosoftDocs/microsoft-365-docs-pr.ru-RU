@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: 043807b2-21db-4d5c-b430-c8a6dee0e6ba
 ROBOTS: NOINDEX, NOFOLLOW
 description: Многофакторная проверка подлинности (MFA) использует как пароль, который должен быть прочным, так и дополнительный метод проверки.
-ms.openlocfilehash: 84d26d0a9908e51ce734e71961d4643a2df3471b
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 6e1c43bdd66849a0043c0a1a927f48d925e0806e
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/24/2021
-ms.locfileid: "52623693"
+ms.locfileid: "52635778"
 ---
 # <a name="multi-factor-authentication-for-microsoft-365"></a>Многофакторная проверка подлинности в Microsoft 365
 
@@ -170,7 +170,7 @@ MFA для отдельных учетных записей пользовате
 
 В центре администрирования Microsoft 365 можно настраивать параметры MFA для каждого пользователя и службы.
 
-## <a name="your-next-step"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие действия
 
 [Настройка MFA для Microsoft 365](set-up-multi-factor-authentication.md)
 
