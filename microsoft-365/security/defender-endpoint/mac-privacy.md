@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: b2897766570c6ef8979a7944a687ba024e55b3ce
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 2884ffc695abc1c6b4b5be9bbd7c9ad37ad05439
+ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934553"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52651300"
 ---
 # <a name="privacy-for-microsoft-defender-for-endpoint-on-macos"></a>Конфиденциальность для Защитника Майкрософт для конечной точки на macOS
 
@@ -133,7 +133,8 @@ ms.locfileid: "51934553"
 | cloud_service.service_uri                           | URI используется для связи с облаком. |
 | cloud_service.diagnostic_level                      | Диагностический уровень устройства (необходимый, необязательный). |
 | cloud_service.automatic_sample_submission           | Включена ли автоматическая отправка образца или нет. |
-| edr.early_preview                                   | Следует ли устройству запускать функции предварительного просмотра EDR. |
+| cloud_service.automatic_definition_update_enabled   | Включено ли автоматическое обновление определения. |
+| edr.early_preview                                   | Следует ли запускать устройство EDR ранних функций предварительного просмотра. |
 | edr.group_id                                        | Идентификатор группы, используемый компонентом обнаружения и ответа. |
 | edr.tags                                            | Теги, определенные пользователем. |
 | функции. \[ необязательное имя функции\]                  | Список функций предварительного просмотра, а также их включено или нет. |
@@ -165,7 +166,7 @@ ms.locfileid: "51934553"
 | ------------------------------ | ----------- |
 | v1_crash_count                 | Количество случаев сбоя процесса двигателя V1 каждый час на клиентской машине  |
 | v2_crash_count                 | Количество случаев сбоя процесса двигателя V2 каждый час на клиентской машине  |
-| EDR_crash_count                | Количество случаев сбоя процесса EDR каждый час на клиентской машине        |
+| EDR_crash_count                | Количество случаев сбоя EDR каждый час на клиентской машине        |
 
 **Статистика расширения ядра**
 
@@ -219,6 +220,7 @@ ms.locfileid: "51934553"
 | antivirus_engine.scan_cache_maximum                | Размер кэша продукта. |
 | antivirus_engine.maximum_scan_threads              | Максимальное количество потоков, используемых для сканирования. |
 | antivirus_engine.threat_restoration_exclusion_time | Время перед восстановлением файла из карантина. |
+| antivirus_engine.threat_type_settings              | Настройка обработки различных типов угроз продуктом. |
 | filesystem_scanner.full_scan_directory             | Полный каталог сканирования. |
 | filesystem_scanner.quick_scan_directories          | Список каталогов, используемых при быстром сканировании. |
 | edr.latency_mode                                   | Режим задержки, используемый компонентом обнаружения и ответа. |

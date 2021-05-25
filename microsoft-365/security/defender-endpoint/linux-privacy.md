@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: cbf68b6ce8397f0339b374a041ba2629b20db699
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 4be0960e8ba868df2acb313b171a08f667c287a7
+ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933341"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52651336"
 ---
 # <a name="privacy-for-microsoft-defender-for-endpoint-on-linux"></a>Конфиденциальность для Microsoft Defender для конечной точки на Linux
 
@@ -68,7 +68,7 @@ ms.locfileid: "51933341"
 Существует три уровня для управления отправкой примера:
 
 - **Нет:** никаких подозрительных образцов не передается в Корпорацию Майкрософт.
-- **Безопасные:** автоматически будут отправлены только подозрительные образцы, которые не содержат личных идентифицируемых сведений (PII). Это значение по умолчанию для этого параметра.
+- **Сейф:** автоматически будут отправлены только подозрительные образцы, не содержащие личных сведений (PII). Это значение по умолчанию для этого параметра.
 - **Все:** все подозрительные образцы отправлены в Корпорацию Майкрософт.
 
 ## <a name="manage-privacy-controls-with-policy-settings"></a>Управление инструментами для обеспечения конфиденциальности с помощью параметров политики
@@ -135,7 +135,8 @@ ms.locfileid: "51933341"
 | cloud_service.service_uri                           | URI используется для связи с облаком. |
 | cloud_service.diagnostic_level                      | Диагностический уровень устройства (необходимый, необязательный). |
 | cloud_service.automatic_sample_submission           | Автоматический пример уровня отправки устройства (нет, безопасный, все). |
-| edr.early_preview                                   | Следует ли устройству запускать функции предварительного просмотра EDR. |
+| cloud_service.automatic_definition_update_enabled   | Включено ли автоматическое обновление определения. |
+| edr.early_preview                                   | Следует ли запускать устройство EDR ранних функций предварительного просмотра. |
 | edr.group_id                                        | Идентификатор группы, используемый компонентом обнаружения и ответа. |
 | edr.tags                                            | Теги, определенные пользователем. |
 | функции. \[ необязательное имя функции\]                  | Список функций предварительного просмотра, а также их включено или нет. |
@@ -207,6 +208,7 @@ ms.locfileid: "51933341"
 | antivirus_engine.scan_cache_maximum                | Размер кэша продукта. |
 | antivirus_engine.maximum_scan_threads              | Максимальное количество потоков, используемых для сканирования. |
 | antivirus_engine.threat_restoration_exclusion_time | Время перед восстановлением файла из карантина. |
+| antivirus_engine.threat_type_settings              | Настройка обработки различных типов угроз продуктом. |
 | filesystem_scanner.full_scan_directory             | Полный каталог сканирования. |
 | filesystem_scanner.quick_scan_directories          | Список каталогов, используемых при быстром сканировании. |
 | edr.latency_mode                                   | Режим задержки, используемый компонентом обнаружения и ответа. |

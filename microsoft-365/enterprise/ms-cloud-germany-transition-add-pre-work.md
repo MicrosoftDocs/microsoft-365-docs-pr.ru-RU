@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: Сводка. Предварительная работа при переходе из Microsoft Cloud Germany (Microsoft Cloud Deutschland) в Office 365 службы в новом немецком регионе центра обработки данных.
-ms.openlocfilehash: f872a75ed11bfd53c2100f1370a4e22426437bff
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: 66f23d33e9e55c432c33e9d90549d33ea42536db
+ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52344702"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52651024"
 ---
 # <a name="pre-migration-activities-for-the-migration-from-microsoft-cloud-deutschland"></a>Действия по предварительной миграции для миграции из Microsoft Cloud Deutschland
 
@@ -182,7 +182,7 @@ Enterprise клиенты с гибридным развертыванием Exc
 | Определите, требуется ли перенастройка после миграции. | Сторонние службы и приложения, которые интегрируются с Office 365, могут быть закодироваться, чтобы ожидать IP-адреса и URL-адреса Microsoft Cloud Deutschland. | Обязательное действие. Бездействие может привести к сбоям службы или клиентского программного обеспечения. |
 ||||
 
-## <a name="dynamics-365"></a>Dynamics 365
+## <a name="dynamics-365"></a>Dynamics 365
 
 **Применяется к**: Клиенты, использующие Microsoft Dynamics 365
 
@@ -205,7 +205,7 @@ Enterprise клиенты с гибридным развертыванием Exc
 Если в экземпляре Microsoft Cloud Deutschland используется один и тот же раздел Azure Active Directory удостоверений для Office 365 и Microsoft Azure, убедитесь, что вы готовите к миграции служб Microsoft Azure клиентов.
 
 > [!NOTE]
-> Миграция служб Microsoft Azure не должна быть запущена до того, как Office 365 клиент достиг этапа миграции 3 и должен быть завершен до завершения этапа миграции 8.
+> Миграция служб Microsoft Azure не может начаться до того, как Office 365 клиент достиг этапа миграции 9 и должен быть завершен до завершения 10-го этапа миграции.
 
 Клиенты, Office 365 ресурсы Azure (например, сетевые, вычислительные и хранилища) будут выполнять перенос ресурсов в экземпляр Office 365 служб. Эта миграция является обязанностью клиента. Сообщения Центра сообщений будут сигнализировать о начале. Миграция должна быть завершена до завершения работы организации Azure AD в Office 365 служб. Для миграций Azure см. в книге "Руководство по миграции Azure", обзор руководства по миграции [для Azure Germany.](https://docs.microsoft.com/azure/germany/germany-migration-main)
 
