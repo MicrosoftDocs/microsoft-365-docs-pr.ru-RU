@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 758759ad-63ee-4ea9-90a3-39f941897b7d
 description: Участники группы Microsoft 365 получают электронную почту группы, общую рабочую область для бесед, файлов и событий календаря, а также Stream и Планировщик.
-ms.openlocfilehash: d8bf2e20b428063b99d540896bac3e6e1ae59481
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 3e4fa36520247179b653f799f7b2a061b9d9f4a9
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52535870"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635598"
 ---
 # <a name="compare-groups"></a>Сравнение групп
 
@@ -93,6 +93,5 @@ ms.locfileid: "52535870"
 
 ## <a name="related-content"></a>См. также:
 
-[Сведения о группах Microsoft 365](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2) (статья)
-
+[Сведения о группах Microsoft 365](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2) (статья)\
 [Причины для перехода со списков рассылки на группы в Outlook](https://support.microsoft.com/office/7fb3d880-593b-4909-aafa-950dd50ce188) (статья)

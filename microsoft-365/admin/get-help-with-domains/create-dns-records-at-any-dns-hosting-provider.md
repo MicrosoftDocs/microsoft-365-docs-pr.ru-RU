@@ -20,12 +20,12 @@ description: Подключите домен любого поставщика �
 ms.custom:
 - okr_smb
 - AdminSurgePortfolio
-ms.openlocfilehash: facdd460bd3197e39dd6d4d9f4a5450dc972bf03
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 62b6793dd97e146b703c82e0ba23f4d7414025b6
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537563"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52623981"
 ---
 # <a name="add-dns-records-to-connect-your-domain"></a>Добавление записей DNS для подключения своего домена
 
@@ -169,8 +169,6 @@ ms.locfileid: "52537563"
 
 ## <a name="related-content"></a>См. также:
 
-[Изменение серверов доменных имен для настройки Microsoft 365 с любым регистратором доменных имен](change-nameservers-at-any-domain-registrar.md) (статья)
-
-[Поиск и устранение неполадок после добавления домена и записей DNS](find-and-fix-issues.md) (статья)
-
+[Изменение серверов доменных имен для настройки Microsoft 365 с любым регистратором доменных имен](change-nameservers-at-any-domain-registrar.md) (статья)\
+[Поиск и устранение неполадок после добавления домена и записей DNS](find-and-fix-issues.md) (статья)\
 [Управление доменами](index.yml) (страница ссылки)

@@ -93,16 +93,14 @@
             - name: Управление
               href: manage-incidents.md
             - name: Исследование
-              items:
-                - name: Обзор
-                  href: investigate-incidents.md
-                - name: Оповещения
-                  href: investigate-alerts.md
-                - name: Пользователи
-                  href: investigate-users.md
+              href: investigate-incidents.md
+            - name: Оповещения об инцидентах
+              href: investigate-alerts.md
+            - name: Пользователи инцидентов
+              href: investigate-users.md
             - name: Ответ на первый инцидент
               items:
-                - name: Общие сведения
+                - name: Введение
                   href: first-incident-overview.md
                 - name: Подготовка
                   href: first-incident-prepare.md

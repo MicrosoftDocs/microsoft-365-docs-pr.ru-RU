@@ -23,19 +23,19 @@ search.appverid:
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
 description: Сведения о настройке многофакторной проверки подлинности для организации.
 monikerRange: o365-worldwide
-ms.openlocfilehash: de5f8ffbc5c26015f6ff0eb2863b622273f96ca1
-ms.sourcegitcommit: c75aac39ee8d93218a79585113ef6b36f47c9ddf
+ms.openlocfilehash: 480e09e42ea53cc78cd738a6e0650feae7a9f8c8
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/29/2021
-ms.locfileid: "51408517"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635954"
 ---
 # <a name="set-up-multi-factor-authentication"></a>Настройка многофакторной проверки подлинности
 
 С учетом знакомства с [многофакторной проверкой подлинности (MFA) и ее поддержкой в Microsoft 365](multi-factor-authentication-microsoft-365.md) пришло время развернуть и настроить ее для вашей организации.
 
 > [!IMPORTANT]
-> Если вы приобрели подписку или получили пробную версию после 21 октября 2019 г. и при выполнении входа вам предлагается пройти многофакторную проверку подлинности (MFA), это значит, что к вашей подписке были автоматически применены [параметры безопасности по умолчанию](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults).
+> Если вы приобрели подписку или получили пробную версию после 21 октября 2019 г. и при выполнении входа вам предлагается пройти многофакторную проверку подлинности (MFA), это значит, что к вашей подписке были автоматически применены [параметры безопасности по умолчанию](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults).
 
 ## <a name="before-you-begin"></a>Прежде чем начать
 
@@ -104,6 +104,5 @@ ms.locfileid: "51408517"
 
 ## <a name="related-content"></a>Родственные материалы
 
-[Видео: включение многофакторной проверки подлинности](../../business-video/turn-on-mfa.md)
-
+[Включение многофакторной проверки подлинности](../../business-video/turn-on-mfa.md) (видео)\
 [Видео: включение многофакторной проверки подлинности для телефона](../../business-video/set-up-mfa.md)

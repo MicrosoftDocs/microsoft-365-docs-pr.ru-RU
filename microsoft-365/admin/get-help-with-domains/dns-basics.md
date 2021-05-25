@@ -24,12 +24,12 @@ search.appverid:
 ms.assetid: 854b6b2b-0255-4089-8019-b765cff70377
 ROBOTS: NOINDEX
 description: Служба доменных имен сопоставляет имена узлов компьютера с IP-адресами, а знания об основных принципах DNS и регистратора доменных имен помогут вам управлять доменами.
-ms.openlocfilehash: f9982ad55652eac9faf33986bb1481e29897a48e
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: 19fc444c056bbf3e1ea1f601d20a9b9cbd75bec8
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52582948"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635430"
 ---
 # <a name="dns-basics"></a>Основы DNS
 
@@ -38,6 +38,8 @@ ms.locfileid: "52582948"
 ::: moniker range="o365-worldwide"
 
 Доменные имена, такие как contoso.com, управляются с помощью всемирной системы регистраторов доменов и баз данных. Система доменных имен (DNS) обеспечивает соответствие между понятными человеку именами компьютеров и IP-адресами, используемыми сетевым оборудованием. Понимание основ DNS и регистратора доменов может помочь вам управлять доменами.
+
+## <a name="watch-domains--dns-an-overview"></a>Просмотр: обзор доменов и DNS
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/c005f2a4-90ad-46fe-b1ab-90f41f2a9d53?autoplay=false]
   
@@ -46,6 +48,8 @@ ms.locfileid: "52582948"
 ::: moniker range="o365-germany"
 
 Доменные имена, такие как contoso.com, управляются с помощью всемирной системы регистраторов доменов и баз данных. Система доменных имен (DNS) обеспечивает соответствие между понятными человеку именами компьютеров и IP-адресами, используемыми сетевым оборудованием. Понимание основ DNS и регистратора доменов может помочь вам управлять доменами.
+
+## <a name="watch-domains--dns-an-overview"></a>Просмотр: обзор доменов и DNS
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/c005f2a4-90ad-46fe-b1ab-90f41f2a9d53?autoplay=false]
   
@@ -192,7 +196,7 @@ DNS-записи домена могут быть полезны и другим
   
 Или, если вы планируете развертывание, вы можете просмотреть список всех записей DNS, необходимых для Microsoft 365, их функции и примеры значений. Ознакомьтесь с [Внешними записями доменных имен для Microsoft 365](../../enterprise/external-domain-name-system-records.md).
   
-## <a name="how-can-i-learn-more"></a>Как получить более подробные сведения?
+## <a name="next-steps"></a>Дальнейшие действия
 
 Ознакомьтесь с приведенными ниже сведениями: 
   
@@ -201,8 +205,6 @@ DNS-записи домена могут быть полезны и другим
 
 ## <a name="related-content"></a>См. также:
 
-[Вопросы и ответы о доменах](../setup/domains-faq.yml) (статья)
-
-[Поиск и устранение неполадок после добавления домена и записей DNS](find-and-fix-issues.md) (статья)
-
+[Вопросы и ответы о доменах](../setup/domains-faq.yml) (статья)\
+[Поиск и устранение неполадок после добавления домена и записей DNS](find-and-fix-issues.md) (статья)\
 [Управление доменами](index.yml) (страница ссылки)

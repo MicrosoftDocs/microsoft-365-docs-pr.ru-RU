@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 7e453a40-66df-44ab-92a1-96786cb7fb34
 description: Ошибка **Не удалось найти почтовый ящик для** означает, что учетная запись, использованная для подключения к Outlook в Интернете, не имеет лицензии Exchange Online.
-ms.openlocfilehash: 5ae850da3b9a4022c01f8bf4469f5e86f44b10bd
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: cb82f917adca8f1fc183fd9516321a524c63eb69
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537443"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635790"
 ---
 # <a name="getting-a-mailbox-not-found-error-in-outlook-on-the-web"></a>Получаете ошибку "Почтовый ящик не найден" в Outlook в Интернете?
 
@@ -37,8 +37,6 @@ ms.locfileid: "52537443"
 
 ## <a name="related-content"></a>См. также:
 
-[Добавление дополнительных псевдонимов электронной почты для пользователя](../email/add-another-email-alias-for-a-user.md) (статья)
-
-[Настройка переадресации электронной почты в Microsoft 365](../email/configure-email-forwarding.md) (статья)
-
+[Добавление дополнительных псевдонимов электронной почты для пользователя](../email/add-another-email-alias-for-a-user.md) (статья)\
+[Настройка переадресации электронной почты в Microsoft 365](../email/configure-email-forwarding.md) (статья)\
 [Создание общего почтового ящика](../email/create-a-shared-mailbox.md) (статья)

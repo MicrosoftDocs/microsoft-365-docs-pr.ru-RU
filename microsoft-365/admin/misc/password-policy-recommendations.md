@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9fa2539a-2211-41fd-85a0-bc37b9619ca4
 description: Надежнее защищайте организацию от атак на пароли, а также запретите распространенные пароли и включите многофакторную проверку подлинности с учетом рисков.
-ms.openlocfilehash: f2b9b9188a6f05bbcdae45dcc22d401e1eb6f1a8
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: f42905c6bf7769e558581338fd122f26d530423e
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593913"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52635978"
 ---
 # <a name="password-policy-recommendations"></a>Рекомендации политики паролей
 
@@ -128,7 +128,9 @@ ms.locfileid: "52593913"
 
 Многофакторная проверка подлинности с учетом рисков гарантирует, что если наша система обнаружит подозрительную активность, она выведет запрос, позволяющий убедиться, что действия выполнены владельцем учетной записи. 
   
-## <a name="want-to-know-more-recommended-reading"></a>Хотите узнать больше? Рекомендуемое чтение:
+## <a name="next-steps"></a>Дальнейшие действия
+
+Хотите узнать больше об управлении паролями? Вот некоторые рекомендуемые статьи:
 
 - [К каким результатам приводят надежные пароли?](https://go.microsoft.com/fwlink/p/?linkid=861008) (на английском языке)
 
@@ -144,10 +146,7 @@ ms.locfileid: "52593913"
 
 ## <a name="related-content"></a>См. также:
 
-[Сброс паролей](../add-users/reset-passwords.md)
-
-[Установка бессрочных пользовательских паролей](../add-users/set-password-to-never-expire.md)
-
-[Предоставление пользователям прав на самостоятельный сброс пароля](../add-users/let-users-reset-passwords.md)
-
+[Сброс паролей](../add-users/reset-passwords.md) (статья)\
+[Установка бессрочных пользовательских паролей](../add-users/set-password-to-never-expire.md) (статья)\
+[Предоставление пользователям прав на самостоятельный сброс пароля](../add-users/let-users-reset-passwords.md) (статья)\
 [Повторная отправка пароля пользователя. Справка для администраторов](../add-users/resend-user-password.md)
