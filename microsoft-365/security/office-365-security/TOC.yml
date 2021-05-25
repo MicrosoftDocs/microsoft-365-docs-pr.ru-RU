@@ -22,18 +22,10 @@
               href: exchange-online-protection-overview.md
             - name: Функции EOP
               href: eop-features.md
-            - name: Разрешения в автономном EOP
-              href: feature-permissions-in-eop.md
-            - name: Центр администрирования Exchange в автономной службе EOP
-              href: exchange-admin-center-in-exchange-online-protection-eop.md
-            - name: Управление получателями в автономной службе EOP
-              href: manage-recipients-in-eop.md
             - name: Поток обработки почты в EOP
               href: mail-flow-in-eop.md
             - name: Карантин
               href: quarantine-email-messages.md
-            - name: Отчеты аудита в автономной службе EOP
-              href: auditing-reports-in-eop.md
         - name: 'Безопасные вложения для SharePoint, OneDrive и Microsoft Teams'
           href: turn-on-mdo-for-spo-odb-and-teams.md
         - name: Обзор Центра безопасности Microsoft 365
@@ -72,18 +64,6 @@
           href: microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md
     - name: Развертывание
       items:
-        - name: Exchange Online Protection
-          items:
-            - name: Настройка политик защиты от фишинга в EOP
-              href: configure-anti-phishing-policies-eop.md
-            - name: Настройка автономной службы EOP для доставки спама в папку нежелательной почты
-              href: ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md
-            - name: Управление группами в автономной службе EOP
-              href: manage-groups-in-eop.md
-            - name: Управление пользователями почты в автономной службе EOP
-              href: manage-mail-users-in-eop.md
-            - name: Настройка службы EOP
-              href: set-up-your-eop-service.md
         - name: Защита от угроз
           href: protect-against-threats.md
         - name: Интеграция Defender для Office 365 с Defender for Endpoint
@@ -98,16 +78,20 @@
           href: secure-by-default.md
         - name: Настройка политик защиты от фишинга в Microsoft Defender для Office 365
           href: configure-mdo-anti-phishing-policies.md
+        - name: Настройка политик защиты от фишинга в EOP
+          href: configure-anti-phishing-policies-eop.md
         - name: Настройка политик защиты от вредоносных программ
           href: configure-anti-malware-policies.md
         - name: Настройка политик защиты от нежелательной почты
           href: configure-your-spam-filter-policies.md
+        - name: Настройка службы EOP для доставки спама в папку нежелательной почты в гибридной среде
+          href: /exchange/standalone-eop/configure-eop-spam-protection-hybrid
+        - name: Настройка параметров нежелательной почты в почтовых ящиках Exchange Online
+          href: configure-junk-email-settings-on-exo-mailboxes.md
         - name: Настройка фильтрации подключений
           href: configure-the-connection-filter-policy.md
         - name: Настройка глобальных параметров для безопасных ссылок в Defender для Office 365
           href: configure-global-settings-for-safe-links.md
-        - name: Настройка параметров нежелательной почты в почтовых ящиках Exchange Online
-          href: configure-junk-email-settings-on-exo-mailboxes.md
         - name: Настройка фильтрации исходящего спама
           href: configure-the-outbound-spam-policy.md
         - name: Создать списки отправителей блоков
@@ -116,7 +100,7 @@
           href: Create-safe-sender-lists-in-office-365.md
         - name: Проверка подлинности электронной почты
           href: email-validation-and-authentication.md
-        - name: Предоставление пользователям доступа к Центру безопасности
+        - name: Предоставление пользователям доступа к Центру безопасности и соответствия требованиям
           href: grant-access-to-the-security-and-compliance-center.md
         - name: Безопасные документы в Defender для Office 365
           href: safe-docs.md
@@ -168,10 +152,6 @@
           href: configure-advanced-delivery.md
         - name: Рекомендуемые параметры для настройки EOP и Безопасности Defender для Office 365
           href: recommended-settings-for-eop-and-office365.md
-        - name: Рекомендации по настройке EOP
-          href: best-practices-for-configuring-eop.md
-        - name: Защита локальных почтовых ящиков в Китае с помощью автономной службы EOP
-          href: protect-on-premises-mailboxes-with-exchange-online-protection.md
         - name: Интегрирование автоматического исследования и реагирования с настраиваемым или сторонним решением
           href: air-custom-reporting.md
         - name: Параметры расширенного фильтра спама (ASF)
@@ -184,12 +164,12 @@
           href: report-junk-email-messages-to-microsoft.md
         - name: Включение надстроек "Пожаловаться на сообщение" и "Пожаловаться на фишинг"
           href: enable-the-report-message-add-in.md
-        - name: Использование правил потока почты для блокировки сообщений с исполняемыми вложениями в EOP
-          href: reducing-malware-threats-through-file-attachment-blocking-in-exchange-online-pro.md
-        - name: Использование правил потока почты для фильтрации массовой рассылки в EOP
-          href: use-transport-rules-to-configure-bulk-email-filtering.md
+        - name: Использование правил потока почты для блокировки сообщений с исполняемыми вложениями
+          href: /exchange/security-and-compliance/mail-flow-rules/use-rules-to-block-executable-attachments
+        - name: Использование правил потока почты для фильтрации массовой рассылки
+          href: /exchange/security-and-compliance/mail-flow-rules/use-rules-to-filter-bulk-mail
         - name: Использование правил потока почты для настройки SCL в сообщениях
-          href: use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md
+          href: /exchange/security-and-compliance/mail-flow-rules/use-rules-to-set-scl
         - name: Автоматическая очистка для защиты от спама и вредоносных программ
           href: zero-hour-auto-purge.md
     - name: Обнаружение
@@ -210,10 +190,10 @@
           href: reports-and-insights-in-security-and-compliance.md
         - name: Отчеты о ложных срабатываниях и ложных отрицаниях в Outlook
           href: report-false-positives-and-false-negatives.md
-        - name: Правила потока почты (правила транспорта) в автономной службе EOP
-          href: mail-flow-rules-transport-rules-0.md
-        - name: Запуск отчета группы ролей администратора в автономной службе EOP
-          href: run-an-administrator-role-group-report-in-eop-eop.md
+        - name: Правила потока обработки почты (правила транспорта)
+          href: /exchange/security-and-compliance/mail-flow-rules/mail-flow-rules
+        - name: Запуск отчета по группам ролей администраторов
+          href: /exchange/security-and-compliance/exchange-auditing-reports/search-role-group-changes
     - name: Исследование
       items:
         - name: Представления обозревателя угроз
@@ -230,8 +210,8 @@
           href: view-email-security-reports.md
         - name: Просмотр правил потока обработки почты
           href: view-mail-flow-reports.md
-        - name: Просмотр журнала аудита администратора в автономной службе EOP
-          href: view-the-admin-audit-log-eop.md
+        - name: Просмотр журнала аудита администратора
+          href: /exchange/security-and-compliance/exchange-auditing-reports/view-administrator-audit-log
         - name: Отчеты и трассировка сообщений в автономной службе EOP
           href: reporting-and-message-trace-in-exchange-online-protection.md
         - name: Анализ автоматически пересылаемых сообщений
@@ -262,8 +242,8 @@
           href: mfi-domain-mail-flow-status-insight.md
         - name: Использование отправки администратора
           href: admin-submission.md
-        - name: 'Просмотр отчетов, передаваемых пользователями в Майкрософт, с помощью правил для потока обработки почты'
-          href: use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft.md
+        - name: 'Использование правил потока почты для просмотра отчетов, передаваемых пользователями в Майкрософт'
+          href: /exchange/security-and-compliance/mail-flow-rules/use-rules-to-see-what-users-are-reporting-to-microsoft
         - name: Анализ очередей
           href: mfi-queue-alerts-and-queues.md
     - name: Реагирование
@@ -346,8 +326,6 @@
           href: reference-policies-practices-and-guidelines.md
         - name: Советы по безопасности в сообщениях электронной почты
           href: safety-tips-in-office-365.md
-        - name: Пример сценария для применения параметров EOP к нескольким клиентам
-          href: sample-script-for-applying-eop-settings-to-multiple-tenants.md
         - name: Отправка почты в Office 365
           href: sending-mail-to-office-365.md
         - name: 'Службы для лиц, не являющихся клиентами'
@@ -360,27 +338,10 @@
           href: virus-detection-in-spo.md
         - name: В чем разница между нежелательной почтой и массовой рассылкой электронной почты?
           href: what-s-the-difference-between-junk-email-and-bulk-email.md
-        - name: S/MIME;
-          href: s-mime-for-message-signing-and-encryption.md
-          items:
-            - name: S/MIME для подписи и шифрования сообщений
-              href: s-mime-for-message-signing-and-encryption.md
-            - name: Настройка параметров S/MIME для Outlook в Интернете
-              href: configure-s-mime-settings-for-outlook-web-app.md
-            - name: 'Отправка и получение электронной почты, подписанной и зашифрованной с помощью S/MIME'
-              href: send-and-receive-s-mime-signed-and-encrypted-email.md
-            - name: Синхронизация сертификатов пользователей с Microsoft 365 для S/MIME
-              href: sync-user-certificates-to-office-365-for-s-mime.md
-            - name: Настройка коллекции виртуальных сертификатов для проверки S/MIME
-              href: set-up-virtual-certificate-collection-to-validate-s-mime.md
-            - name: Настройка групп и пользователей в случае среды разработки и тестирования для политической кампании
-              href: configure-groups-and-users-for-a-political-campaign-dev-test-environment.md
-            - name: Создание сайтов групп в среде разработки и тестирования для политической кампании
-              href: create-team-sites-in-a-political-campaign-dev-test-environment.md
-            - name: Перемещение доменов и настроек из одной организации EOP в другую
-              href: move-domains-and-settings-from-one-eop-organization-to-another-eop-organization.md
-            - name: Управление ролевыми группами в автономной службе EOP
-              href: manage-admin-role-group-permissions-in-eop.md
+        - name: Настройка групп и пользователей в случае среды разработки и тестирования для политической кампании
+          href: configure-groups-and-users-for-a-political-campaign-dev-test-environment.md
+        - name: Создание сайтов групп в среде разработки и тестирования для политической кампании
+          href: create-team-sites-in-a-political-campaign-dev-test-environment.md
     - name: Microsoft 365 Defender
       href: ../defender/index.yml
     - name: Microsoft Defender для конечной точки
