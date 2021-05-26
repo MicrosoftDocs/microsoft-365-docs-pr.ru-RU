@@ -82,6 +82,10 @@
               href: microsoft-secure-score-whats-coming.md
             - name: Новые возможности
               href: microsoft-secure-score-whats-new.md
+        - name: Защита удостоверений
+          items:
+            - name: Управление оповещениями о безопасности
+              href: ../defender-identity/manage-security-alerts.md
     - name: Изучение оповещений и реагирование на них
       items:
         - name: Инциденты
@@ -120,6 +124,12 @@
               href: 'https://docs.microsoft.com/security/compass/incident-response-playbooks'
             - name: Уведомления по электронной почте
               href: get-incident-notifications.md
+        - name: Аналитика угроз
+          items:
+            - name: Отслеживание и реагирование на возникающие угрозы
+              href: threat-analytics.md
+            - name: Понимание отчета аналитика
+              href: threat-analytics-analyst-reports.md
         - name: Автоматическое исследование и реагирование
           items:
             - name: Обзор
