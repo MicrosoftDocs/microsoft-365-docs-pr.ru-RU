@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: 67cc7f42-a53d-4751-b929-6005c80798f7
 description: Узнайте, какие события регистрируются при выполнении пользователями разрешений на поиск контента, поиска основных электронных данных и Advanced eDiscovery задач в центре Microsoft 365 соответствия требованиям.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ce0dcc50c13ad705cb36f065639a4e971d032f22
-ms.sourcegitcommit: 727a75b604d5ff5946a0854662ad5a8b049f2874
+ms.openlocfilehash: 8b1f3f235f3411e2f637e4e32104c6179643757d
+ms.sourcegitcommit: 4f6ef4cd09c3ed36dc0be3702b0636bad6cff8a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52653503"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52657697"
 ---
 # <a name="search-for-ediscovery-activities-in-the-audit-log"></a>Поиск действий по обнаружению электронных данных в журнале аудита
 
@@ -112,7 +112,7 @@ ms.locfileid: "52653503"
 |Начало экспорта поиска контента  <br/> |SearchExported  <br/> |New-ComplianceSearchAction  <br/> |Пользователь экспортирует результаты поиска контента.  <br/> |
 |Отчет о начале экспорта  <br/> |SearchReport  <br/> |New-ComplianceSearchAction  <br/> |Пользователь экспортирует отчет о поиске контента.  <br/> |
 |Остановлен поиск контента  <br/> |SearchStopped  <br/> |Stop-ComplianceSearch  <br/> |Пользователь остановил поиск контента.  <br/> |
-|(нет)|CaseViewed|Get-ComplianceCase|Пользователь просмотрел список случаев на странице **Core eDiscovery** в центре соответствия требованиям или с помощью Get-ComplianceCase.|
+|(нет)|CaseViewed|Get-ComplianceCase|Пользователь просмотрел список случаев на странице **Core eDiscovery** **или** Advanced eDiscovery в центре соответствия требованиям или при запуске Get-ComplianceCase.|
 |(нет)|SearchViewed|Get-ComplianceSearch|Пользователь просматривал список при поиске контента (перечисленном на вкладке **Поиски)** в центре соответствия требованиям или с помощью cmdlet. Это действие также регистрируется при просмотре пользователем списка поиска контента, связанного с делом об обнаружении электронных данных (щелкнув вкладку **Поиск** в случае) или с помощью команды **Get-ComplianceSearch-Case.**|
 |(нет)|ViewedSearchExported|Get-ComplianceSearchAction -Export|Пользователь просмотрел список заданий экспорта поиска контента (перечисленных на вкладке **Экспорт)** в центре соответствия требованиям или с помощью cmdlet. Это действие также регистрируется, когда пользователь рассматривает список экспортных заданий в случае  с электронным открытием (перечисленный на вкладке Экспорт в случае) или с помощью команды **Get-ComplianceSearchAction -Case-Export.**|
 |(нет)|ViewedSearchPreviewed|Get-ComplianceSearchAction -Preview|Пользователь просматривает результаты поиска контента в центре соответствия требованиям или с помощью cmdlet.|
