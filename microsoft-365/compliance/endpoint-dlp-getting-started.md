@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Настройте Защиту от потери данных в конечной точке Microsoft 365 для отслеживания действий с файлами и применения в конечных точках защитных мер для этих файлов.
-ms.openlocfilehash: 8fc8bef62827a5e6125565f5d7227a88cd923dcf
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: a6c0ec6f1248fdeecd8616b7eda000b7608d452d
+ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332814"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52651012"
 ---
 # <a name="get-started-with-endpoint-data-loss-prevention"></a>Начало работы с функцией защиты от потери данных в конечной точке
 
@@ -102,7 +102,11 @@ ms.locfileid: "52332814"
     - Для Windows 10 версии 2004 — KB4568831, KB4577063
     - Для устройств с Office 2016 (но не других версий Office) — KB4577063 
 
-4. Все устройства должны быть либо подключены к [Azure Active Directory (Azure AD)](/azure/active-directory/devices/concept-azure-ad-join) или Active Directory, либо зарегистрированы в AAD, либо иметь гибридное присоединение к Azure AD.
+4. Все устройства должны соответствовать одному из таких требований:
+- [С присоединением к Azure Active Directory (Azure AD)](/azure/active-directory/devices/concept-azure-ad-join)
+- С присоединением к AD
+- [С гибридным присоединением к Azure AD](/azure/active-directory/devices/concept-azure-ad-join-hybrid)
+- [С регистрацией в AAD](/azure/active-directory/user-help/user-help-register-device-on-network)
 
 5. Установите браузер Microsoft Chromium Edge на устройство конечных точек для применения действия политики к отправке в облако. См. статью [Загрузка нового браузера Microsoft Edge на основе Chromium](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium).
 
@@ -214,6 +218,6 @@ ms.locfileid: "52332814"
 - [Начало работы с обозревателем действий](data-classification-activity-explorer.md)
 - [Microsoft Defender для конечной точки](/windows/security/threat-protection/)
 - [Средства и методы подключения для компьютеров с Windows 10](/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)
-- [Подписка на Microsoft 365](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1)
+- [Подписка на Microsoft 365](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1)
 - [Устройства, подключенные к Azure AD](/azure/active-directory/devices/concept-azure-ad-join)
 - [Загрузка нового браузера Microsoft Edge на основе Chromium](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium)

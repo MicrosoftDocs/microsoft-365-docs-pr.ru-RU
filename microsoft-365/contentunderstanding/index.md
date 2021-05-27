@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-syntex
 localization_priority: Priority
 description: Узнайте, как найти ресурсы по Microsoft SharePoint Syntex.
-ms.openlocfilehash: 350dd1a526b56525f0aca7a167841e3a77833533
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 0daad53e1f6a84f0399c3bfcfb48b92db547f64b
+ms.sourcegitcommit: 4f6ef4cd09c3ed36dc0be3702b0636bad6cff8a9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538079"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52657625"
 ---
 # <a name="introduction-to-microsoft-sharepoint-syntex"></a>Общие сведения о Microsoft SharePoint Syntex
 
@@ -55,7 +55,8 @@ Microsoft SharePoint Syntex — это служба Microsoft 365, котора�
 
 | Если вы хотите узнать больше: | Источник |
 |:-----|:-----|
-|Узнайте, как приступить к планированию использования SharePoint Syntex. |[Внедрение SharePoint Syntex: начало работы](./adoption-getstarted.md)<br><br>|  
+|Узнайте, как приступить к планированию использования SharePoint Syntex. |[Внедрение SharePoint Syntex: начало работы](./adoption-getstarted.md)| 
+|Узнайте, как автоматизировать документооборот с помощью SharePoint Syntex |[Управление контрактами с помощью решения Microsoft 365](./solution-manage-contracts-in-microsoft-365.md)| 
 
 ## <a name="set-up-sharepoint-syntex"></a>Настройка SharePoint Syntex
 
