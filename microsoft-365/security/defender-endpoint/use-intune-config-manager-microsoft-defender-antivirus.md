@@ -1,5 +1,5 @@
 ---
-title: Настройка антивирусная программа в Microsoft Defender с помощью Диспетчер конфигурации и Intune
+title: Настройка антивирусная программа в Microsoft Defender с помощью Microsoft Endpoint Manager
 description: Используйте Microsoft Endpoint Manager Microsoft Intune и Microsoft Intune Microsoft Defender AV и Endpoint Protection
 keywords: scep, intune, endpoint protection, configuration
 search.product: eADQiWindows 10XVcnh
@@ -11,20 +11,20 @@ localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.date: 10/26/2018
-ms.reviewer: ''
+ms.date: 05/24/2021
+ms.reviewer: phuijbr, oogunrinde
 manager: dansimp
 ms.technology: mde
 audience: ITPro
 ms.topic: how-to
-ms.openlocfilehash: b62344945efc0bdfc495a4fc4196cea6ddcb1874
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: ab77f3ab5ac9385d1ce049061730d2192e3bcb0c
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275328"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683755"
 ---
-# <a name="use-microsoft-endpoint-manager-and-microsoft-intune-to-configure-and-manage-microsoft-defender-antivirus"></a>Используйте Microsoft Endpoint Manager и Microsoft Intune для настройки и управления антивирусная программа в Microsoft Defender
+# <a name="use-microsoft-endpoint-manager-to-configure-and-manage-microsoft-defender-antivirus"></a>Используйте Microsoft Endpoint Manager для настройки и управления антивирусная программа в Microsoft Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -33,26 +33,32 @@ ms.locfileid: "52275328"
 
 - [Microsoft Defender для конечной точки](/microsoft-365/security/defender-endpoint/)
 
-Если вы использовали Microsoft Endpoint Manager или Microsoft Intune для управления конечными точками в сети, теперь вы можете использовать Microsoft Endpoint Manager для управления антивирусная программа в Microsoft Defender проверками.
+Вы можете использовать [Microsoft Endpoint Manager](/mem/endpoint-manager-overview) для настройки антивирусная программа в Microsoft Defender сканирования. [Microsoft Intune](/mem/intune/fundamentals/what-is-intune) и [Диспетчер конфигурации](/mem/configmgr/core/understand/introduction) теперь являются частью Endpoint Manager.  
 
-1. В центре администрирования Microsoft Endpoint Manager [https://endpoint.microsoft.com](https://endpoint.microsoft.com) (), перейдите в **конечную точку безопасности**.
+## <a name="configure-microsoft-defender-antivirus-scans-in-endpoint-manager"></a>Настройка антивирусная программа в Microsoft Defender в Endpoint Manager
 
-2. В **статье Управление** выберите **антивирус**.
+1. Перейдите в центр Microsoft Endpoint Manager администратора [https://endpoint.microsoft.com](https://endpoint.microsoft.com) () и войдите.
 
-3. Выберите антивирусная программа в Microsoft Defender политику. 
+2. Перейдите к **безопасности конечных точек**.
 
-4. В **статье Управление** выберите **свойства**.
+3. В **статье Управление** выберите **антивирус**.
 
-5. Рядом с **настройками конфигурации** выберите **Изменить**.
+4. Выберите антивирусная программа в Microsoft Defender политику. 
 
-6. **Расширите раздел Scan** и просмотрите или отредактируйте параметры сканирования.
+5. В разделе **Управление** выберите **Свойства**.
 
-7. Выберите **Обзор + сохранить**
+6. Рядом с **Параметры конфигурации** выберите **Изменить**.
 
-Нужна помощь? См. [в Microsoft Intune Управление безопасностью конечных точек.](/mem/intune/protect/endpoint-security)
+7. **Расширите раздел Scan** и просмотрите или отредактируйте параметры сканирования.
+
+8. Выберите **Обзор + сохранить**
 
 
-## <a name="related-articles"></a>Статьи по теме
+> [!TIP]
+> Нужна помощь? См. [в Microsoft Intune Управление безопасностью конечных точек.](/mem/intune/protect/endpoint-security)
 
-- [Справочные темы для средств управления и конфигурации](configuration-management-reference-microsoft-defender-antivirus.md)
-- [антивирусная программа в Microsoft Defender в Windows 10](microsoft-defender-antivirus-in-windows-10.md)
+
+## <a name="related-articles"></a>Связанные статьи
+
+- [Справочные статьи для средств управления и конфигурации](configuration-management-reference-microsoft-defender-antivirus.md)
+- [Антивирусная программа в Microsoft Defender (Windows 10)](microsoft-defender-antivirus-in-windows-10.md)

@@ -20,12 +20,12 @@ ms.custom:
 search.appverid: MET150
 description: Узнайте, как обновить адреса вы выставления счета или адрес электронной почты, используемый для получения уведомлений о выставлении Microsoft 365 для бизнеса.
 ms.date: 04/07/2021
-ms.openlocfilehash: 77ccb7b7ff9927736c1adaadfd2dea6b64a084f0
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: afc23134f85995a5e8d7db0fb956635ceb6ea629
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52594113"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683611"
 ---
 # <a name="change-your-billing-addresses"></a>Изменение адресов выставления счетов
 
@@ -45,7 +45,7 @@ ms.locfileid: "52594113"
 
 ::: moniker range="o365-worldwide"
 
-1. В центре администрирования перейдите на страницу **счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2084771" target="_blank">биллинга.</a>
+1. В центре администрирования перейдите на страницу **счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2084771" target="_blank">**биллинга.**</a>
 
 ::: moniker-end
 
@@ -159,7 +159,7 @@ ms.locfileid: "52594113"
 
 3. В области **Изменить роли пользователей** введите альтернативный адрес электронной почты, который необходимо использовать, а затем выберите **Сохранить**.
 
-## <a name="related-content"></a>См. также:
+## <a name="related-content"></a>Связанные материалы
 
 [Просмотр счета](view-your-bill-or-invoice.md) (статья)\
 [Понимание счета или](understand-your-invoice2.md) счета(статьи)\

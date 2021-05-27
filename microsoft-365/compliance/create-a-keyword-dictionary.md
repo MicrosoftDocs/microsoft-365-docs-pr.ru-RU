@@ -18,12 +18,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Ознакомьтесь с основными шагами по созданию словаря ключевых слов в Центре безопасности и соответствия требованиям Office 365.
-ms.openlocfilehash: 94bacc2a2fe91fdc35aad753cc2e7db80a374e29
-ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
+ms.openlocfilehash: 24f6bb636c702438be8ca9520c6523031f297410
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51876080"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683767"
 ---
 # <a name="create-a-keyword-dictionary"></a>Создание словаря ключевых слов
 
@@ -126,99 +126,6 @@ Remove-Item $rawFile
     ```powershell
     New-DlpKeywordDictionary -Name <name> -Description <description> -FileData $fileData
     ```
-
-## <a name="modifying-an-existing-keyword-dictionary"></a>Изменение имеющегося словаря ключевых слов
-
-Иногда требуется изменить ключевые слова в одном из встроенных или своих собственных словарей. Сейчас обновить пользовательский словарь ключевых слов можно только с помощью PowerShell. 
-
-Например, мы изменим некоторые термины в PowerShell, сохраним их локально там, где они будут доступны для изменения в редакторе, а затем на месте обновим предыдущие. 
-
-Прежде всего получаем объект словаря:
-  
-```powershell
-$dict = Get-DlpKeywordDictionary -Name "Diseases"
-```
-
-При вводе `$dict`t отображаются разные переменные. Сами ключевые слова хранятся в объекте на внутреннем сервере, но  `$dict.KeywordDictionary` содержит представляющую его строку, с помощью которой вы можете изменить словарь. 
-
-Перед изменением словаря необходимо вернуть строку терминов обратно в массив с помощью `.split(',')`метода. Затем вы удаляете ненужные пробелы между ключевыми словами с помощью  `.trim()` метода, оставляя только те слова, с которыми нужно работать. 
-  
-```powershell
-$terms = $dict.KeywordDictionary.split(',').trim()
-```
-
-Теперь мы удалим некоторые термины из словаря. Так как наш словарь содержит лишь несколько ключевых слов, можно просто перейти к экспорту словаря и его редактированию в Блокноте. Однако словари обычно содержат большое количество текста, поэтому сначала следует научиться редактировать их в PowerShell.
-  
-На предыдущем этапе мы сохранили ключевые слова в массив. Существует несколько способов [удаления элементов из массива](/previous-versions/windows/it-pro/windows-powershell-1.0/ee692802(v=technet.10)), но для простоты мы создадим массив терминов, которые требуется удалить из словаря, а затем скопируем из словаря только те термины, которых нет в этом списке.
-  
-Выполните команду `$terms`, чтобы вывести текущий список терминов. Выходные данные этой команды выглядят так: 
-  
-`aarskog's syndrome`
-`abandonment`
-`abasia`
-`abderhalden-kaufmann-lignac`
-`abdominalgia`
-`abduction contracture`
-`abetalipoproteinemia`
-`abiotrophy`
-`ablatio`
-`ablation`
-`ablepharia`
-`abocclusion`
-`abolition`
-`aborter`
-`abortion`
-`abortus`
-`aboulomania`
-`abrami's disease`
-
-Выполните следующую команду, чтобы указать удаляемые элементы:
-  
-```powershell
-$termsToRemove = @('abandonment', 'ablatio')
-```
-
-Выполните следующую команду, чтобы фактически удалить термины из списка:
-  
-```powershell
-$updatedTerms = $terms | Where-Object{ $_ -notin $termsToRemove }
-```
-
-Выполните команду `$updatedTerms`, чтобы вывести обновленный список элементов. Выходные данные команды выглядят так (указанные термины были удалены): 
-  
-`aarskog's syndrome`
-`abasia`
-`abderhalden-kaufmann-lignac`
-`abdominalgia`
-`abduction contracture`
-`abetalipo proteinemia`
-`abiotrophy`
-`ablation`
-`ablepharia`
-`abocclusion`
-`abolition`
-`aborter`
-`abortion`
-`abortus`
-`aboulomania`
-`abrami's disease`
-```
-
-Now save the dictionary locally and add a few more terms. You could add the terms right here in PowerShell, but you'll still need to export the file locally to ensure it's saved with Unicode encoding and contains the BOM.
-  
-Save the dictionary locally by running the following:
-  
-```powershell
-Set-Content $updatedTerms -Path "C:\myPath\terms.txt"
-```
-
-Теперь откройте файл, добавьте другие термины и сохраните его в кодировке Юникода (UTF-16). Затем мы отправим обновленные термины и обновим словарь на месте.
-  
-```powershell
-PS> Set-DlpKeywordDictionary -Identity "Diseases" -FileData (Get-Content -Path "C:myPath\terms.txt" -Encoding Byte -ReadCount 0)
-```
-
-Словарь обновлен. В поле `Identity` указывается имя словаря. Если вы также хотите изменить имя словаря с помощью командлета `set-`, вам достаточно будет добавить параметр `-Name` с новым именем. 
   
 ## <a name="using-keyword-dictionaries-in-custom-sensitive-information-types-and-dlp-policies"></a>Использование словарей ключевых слов в типах конфиденциальной информации и политиках защиты от потери данных
 

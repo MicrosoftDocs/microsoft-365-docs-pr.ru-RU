@@ -1,7 +1,7 @@
 ---
 title: Таблица DeviceInfo в продвинутой схеме охоты
 description: Сведения об ОС, имени компьютера и других сведениях о машине в таблице DeviceInfo в продвинутой схеме охоты
-keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, Microsoft 365, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, machineinfo, DeviceInfo, device, machine, machine, OS, platform, users
+keywords: передовая охота, охота на угрозы, охота на киберугрозы, Microsoft 365 Defender, Microsoft 365, m365, поиск, запрос, телеметрия, ссылка схемы, kusto, таблица, столбец, тип данных, описание, machineinfo, DeviceInfo, устройство, машина, ОС, платформа, пользователи
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: f97947c2c9f02720facae4f0c3c29ff702416261
-ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
+ms.openlocfilehash: 99a07b1517058b0e5ab241aaae9c6899e2994432
+ms.sourcegitcommit: 82a4d74020cd93ba444006317cfecc178c6d41dc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52023133"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52689113"
 ---
 # <a name="deviceinfo"></a>DeviceInfo
 
@@ -48,18 +48,28 @@ ms.locfileid: "52023133"
 | `DeviceId` | string | Уникальный идентификатор для обслуживаемого компьютера |
 | `DeviceName` | string | Полное доменное имя компьютера |
 | `ClientVersion` | string | Версия агента конечной точки или датчика, запущенного на компьютере |
-| `PublicIP` | String | Общедоступный IP-адрес, используемый бортовой машиной для подключения к службе Microsoft Defender для конечных точек. Это может быть IP-адрес самой машины, устройство NAT или прокси-сервер |
+| `PublicIP` | string | Общедоступный IP-адрес, используемый бортовой машиной для подключения к службе Microsoft Defender для конечных точек. Это может быть IP-адрес самой машины, устройство NAT или прокси-сервер |
 | `OSArchitecture` | string | Архитектура операционной системы, используемой на компьютере |
-| `OSPlatform` | string | Платформа операционной системы, используемой на компьютере. Это указывает на определенные операционные системы, в том числе варианты в одной семье, например Windows 10 и Windows 7. |
-| `OSBuild` | String | Сборка версии операционной системы, запущенной на компьютере |
+| `OSPlatform` | string | Платформа операционной системы, используемой на компьютере. Это указывает на конкретные операционные системы, в том числе варианты в одной семье, такие как Windows 10 и Windows 7 |
+| `OSBuild` | string | Сборка версии операционной системы, запущенной на компьютере |
 | `IsAzureADJoined` | boolean | Индикатор Boolean о том, присоединяется ли машина к Azure Active Directory |
-| `AadObjectId` | String | Уникальный идентификатор устройства в Azure AD |
-| `LoggedOnUsers` | String | Список всех пользователей, зарегистрированных на компьютере во время события в формате массива JSON |
-| `RegistryDeviceTag` | String | Тег машины, добавленный в реестр |
+| `AadObjectId` | string | Уникальный идентификатор устройства в Azure AD |
+| `LoggedOnUsers` | string | Список всех пользователей, зарегистрированных на компьютере во время события в формате массива JSON |
+| `RegistryDeviceTag` | string | Тег машины, добавленный в реестр |
 | `OSVersion` | string | Версия операционной системы, используемой на компьютере |
 | `MachineGroup` | string | Машинная группа машины. Эта группа используется управлением доступом на основе ролей для определения доступа к машине |
 | `ReportId` | long | Идентификатор события на основе повторяющегося счетчика. Для определения уникальных событий этот столбец должен использоваться в сочетании со столбцами DeviceName и Timestamp. |
-|`AdditionalFields` | String | Дополнительные сведения о событии в формате массива JSON |
+| `OnboardingStatus` | string | Указывает, является ли устройство в настоящее время на борту или нет в Microsoft Defender Для конечной точки или если устройство не поддерживается |
+|`AdditionalFields` | string | Дополнительные сведения о событии в формате массива JSON |
+|`DeviceCategory` | string | Более широкая классификация, которая группировать определенные типы устройств в следующих категориях: Endpoint, Network device, IoT, Unknown |
+|`DeviceType` | string | Тип устройства, основанного на целях и функциональных возможностях, таких как сетевое устройство, рабочие станции, сервер, мобильный телефон, игровая консоль или принтер |
+|`DeviceSubType` | string | Дополнительный модификатор для определенных типов устройств, например, мобильное устройство может быть планшетом или смартфоном |
+|`Model` | string | Имя модели или номер продукта от поставщика или производителя |
+|`Vendor` | string | Имя поставщика или производителя продукта |
+|`OSDistribution` | string | Распространение платформы ОС, таких как Ubuntu или RedHat для платформ Linux |
+|`OSVersionInfo` | string | Дополнительные сведения о версии ОС, таких как популярное имя, кодовое имя или номер версии |
+|`MergedDeviceIds` | string | Предыдущие ID устройства, которые были назначены одному устройству |
+|`MergedToDeviceId` | string | Самый последний ID устройства, присвоенный устройству |
 
 В таблице содержится информация об устройстве на основе пульса, которые являются периодическими отчетами или `DeviceInfo` сигналами с устройства. Каждые 15 минут устройство отправляет частичное сердцебиение, которое содержит часто меняющиеся атрибуты, такие как `LoggedOnUsers` . Один раз в день отправляется полное сердцебиение, содержащее атрибуты устройства.
 
@@ -72,7 +82,7 @@ DeviceInfo
 | summarize arg_max(Timestamp, *) by DeviceId 
 ```
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 - [Обзор расширенной охоты](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)

@@ -2,8 +2,8 @@
 title: Гостевых пользователей в Microsoft 365 центре администрирования
 f1.keywords:
 - NOCSH
-ms.author: cmcatee
-author: cmcatee-MSFT
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: overview
@@ -19,13 +19,13 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Узнайте, как создать команду с гостями в центре администрирования Microsoft 365 и как присоединиться к команде в качестве гостя.
-ms.openlocfilehash: b458aaba464121e2e408013d4c8f32cd8a6852c5
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+description: Узнайте, как в центре администрирования Microsoft 365 список гостевых пользователей.
+ms.openlocfilehash: 7c0fbfb57c9710103d1b670eb09024501071d602
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52634188"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683395"
 ---
 # <a name="guest-users-in-microsoft-365-admin-center"></a>Гостевых пользователей Microsoft 365 центре администрирования
 
@@ -34,35 +34,38 @@ ms.locfileid: "52634188"
 
 Чтобы просмотреть гостевых пользователей, в центре администрирования Microsoft 365, в левом nav, развяйте **пользователей,** а затем выберите **гостевых пользователей.**
 
-## <a name="watch-create-a-team-with-guests"></a>Watch: Create a team with guests
+## <a name="before-you-begin"></a>Прежде чем начать
 
-Чтобы узнать, как добавить гостя в Teams, см. следующее видео: <br><br>
+Для выполнения этой задачи необходимо быть глобальным администратором.
+
+## <a name="watch-add-guests-to-teams"></a>Часы: Добавление гостей в Teams
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FQMp]
 
 ## <a name="watch-join-a-team-as-a-guest"></a>Watch: Join a team as a guest
 
-Чтобы присоединиться к команде в качестве гостя, см. следующее видео:<br><br>
-
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4tyys]
 
-## <a name="add-guests-in-azure-active-directory"></a>Добавление гостей в Azure Active Directory
+## <a name="steps-add-guests-in-azure-active-directory"></a>Действия: Добавление гостей в Azure Active Directory
 
-Чтобы добавить гостей в Azure Active Directory, см. [в добавлении гостевых пользователей.](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal)
+Чтобы добавить гостей в Azure Active Directory, см. [в добавлении гостевых пользователей.](https://docs.microsoft.com/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal)
 
 После добавления пользователя вы также можете назначить его группе или предоставить ему доступ к приложению в организации. После добавления пользователя на портал Azure AD этот пользователь также  будет указан на странице Гостевых пользователей в центре администрирования Microsoft 365 администратора.
 После того, как  пользователь будет добавлен в список гостевых пользователей, он может быть добавлен в [Группы](../create-groups/manage-guest-access-in-groups.md#add-guests-to-a-microsoft-365-group-from-the-admin-center) в центре администрирования Microsoft 365 администратора.
 
-См. [в этой ссылке добавление](/azure/active-directory/b2b/tutorial-bulk-invite) гостей в основной объем, чтобы пригласить несколько гостей для совместной работы с организацией.
+См. [в этой ссылке добавление](https://docs.microsoft.com/azure/active-directory/b2b/tutorial-bulk-invite) гостей в основной объем, чтобы пригласить несколько гостей для совместной работы с организацией.
 
-## <a name="remove-a-guest"></a>Удаление гостя
+## <a name="next-steps-remove-a-guest"></a>Дальнейшие действия: удаление гостя
+
+После того как вы закончили совместную работу с гостевых пользователей, вы можете удалить их, и они больше не будут иметь доступ к вашей организации.
 
 1. В центре администрирования Microsoft 365 расширяйте **пользователей** и выберите **гостевых пользователей.**
-1. На странице **Гостевых пользователей** выберите пользователя, который необходимо удалить, а затем **выберите Удалить пользователя.** 
+1. На странице **Гостевых пользователей** выберите пользователя, который необходимо удалить, а затем **выберите Удалить пользователя.**
 
-Чтобы удалить пользователей на портале Azure AD, см. в этой ссылке [удаление гостевого пользователя и ресурсов.](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal#clean-up-resources)
+Чтобы удалить пользователей на портале Azure AD, см. в этой ссылке [удаление гостевого пользователя и ресурсов.](https://docs.microsoft.com/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal#clean-up-resources)
 
-## <a name="related-content"></a>См. также:
+## <a name="related-content"></a>Связанные материалы
 
-[Управление гостевых доступом в Microsoft 365 группах](../create-groups/manage-guest-access-in-groups.md) (статья)\
-[Запретить добавлять гостей](../../solutions/per-group-guest-access.md) в определенную группу Microsoft 365 или Microsoft Teams (статья)
+[гостевых пользователей в центре администрирования Microsoft 365](about-guest-users.md)
+
+[запретить добавлять гостей в определенную группу Microsoft 365 или групп Майкрософт](../../solutions/per-group-guest-access.md)

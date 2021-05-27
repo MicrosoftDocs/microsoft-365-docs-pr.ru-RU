@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Настройте Защиту от потери данных в конечной точке Microsoft 365 для отслеживания действий с файлами и применения в конечных точках защитных мер для этих файлов.
-ms.openlocfilehash: a6c0ec6f1248fdeecd8616b7eda000b7608d452d
-ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
+ms.openlocfilehash: 34355a25283207929a12a7bc504b929fbf3041a0
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52651012"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683659"
 ---
 # <a name="get-started-with-endpoint-data-loss-prevention"></a>Начало работы с функцией защиты от потери данных в конечной точке
 
@@ -104,7 +104,6 @@ ms.locfileid: "52651012"
 
 4. Все устройства должны соответствовать одному из таких требований:
 - [С присоединением к Azure Active Directory (Azure AD)](/azure/active-directory/devices/concept-azure-ad-join)
-- С присоединением к AD
 - [С гибридным присоединением к Azure AD](/azure/active-directory/devices/concept-azure-ad-join-hybrid)
 - [С регистрацией в AAD](/azure/active-directory/user-help/user-help-register-device-on-network)
 

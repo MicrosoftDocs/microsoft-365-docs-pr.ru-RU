@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Получите приложение администрирования Microsoft 365 и научитесь управлять организацией в Интернете с телефона или планшета.
-ms.openlocfilehash: 2f6b27b409dd456a88a17a9825fae3ec24d787a4
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: f8834aca0835a209a4df32a934eca736c5f7808f
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244024"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683239"
 ---
 # <a name="about-the-microsoft-365-admin-mobile-app"></a>О мобильном приложении Microsoft 365 администратора
 
@@ -50,6 +50,10 @@ ms.locfileid: "52244024"
   
 > [!IMPORTANT]
 > Если у вас возникли проблемы с использованием мобильного приложения Admin [](mailto:feedback365@microsoft.com) на iOS или Android, feedback365@microsoft.com пишите нам.
+
+## <a name="before-you-begin"></a>Прежде чем начать
+
+Вы должны быть администратором в Microsoft 365 организации, чтобы использовать мобильное приложение администратора.
   
 ## <a name="download-the-admin-mobile-app"></a>Скачайте мобильное приложение для администрирования
 
@@ -115,7 +119,11 @@ ms.locfileid: "52244024"
 ### <a name="what-do-i-do-if-my-question-isnt-answered"></a>Что делать, если ответ на мой вопрос отсутствует?
 
 Электронная [feedback365@microsoft.com](mailto:feedback365@microsoft.com) сообщить о проблеме с приложением. Или вы можете дать обратную связь в нижней части этой статьи.
-  
-## <a name="related-content"></a>См. также: 
 
-[Microsoft 365 для видео обучения бизнесу](../../business-video/index.yml) (страница ссылки)
+## <a name="next-steps"></a>Следующие шаги
+
+После загрузки мобильного администратора можно добавить пользователей для начала работы.
+  
+## <a name="related-content"></a>Связанные материалы
+
+[Обучающие видеоролики по Microsoft 365 для бизнеса](../../business-video/index.yml)

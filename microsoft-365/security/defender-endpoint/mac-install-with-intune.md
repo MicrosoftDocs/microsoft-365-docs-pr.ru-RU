@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: da82b24b8a6bb6aa22028615bb3dd0c9d45acfa1
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: 5aeffdaff39c2f10dfa5164764bff38e99c00010
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52346032"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684223"
 ---
 # <a name="intune-based-deployment-for-microsoft-defender-for-endpoint-on-macos"></a>Развертывание на основе intune для Microsoft Defender для конечной точки на macOS
 
@@ -52,10 +52,10 @@ ms.locfileid: "52346032"
 | Шаг | Примеры имен файлов | BundleIdentifier |
 |-|-|-|
 | [Скачайте пакет onboarding](#download-the-onboarding-package) | WindowsDefenderATPOnboarding__MDATP_wdav.atp.xml | com.microsoft.wdav.atp |
-| [Утверждение расширения системы для Защитника Майкрософт для конечной точки](#approve-system-extensions) | MDATP_SysExt.xml | Н/Д |
-| [Утверждение расширения ядра для Microsoft Defender для конечной точки](#download-the-onboarding-package) | MDATP_KExt.xml | Н/Д |
+| [Утверждение расширения системы для Защитника Майкрософт для конечной точки](#approve-system-extensions) | MDATP_SysExt.xml | Недоступно |
+| [Утверждение расширения ядра для Microsoft Defender для конечной точки](#download-the-onboarding-package) | MDATP_KExt.xml | Недоступно |
 | [Предоставление полного доступа к диску Microsoft Defender для конечной точки](#full-disk-access) | MDATP_tcc_Catalina_or_newer.xml | com.microsoft.wdav.tcc |
-| [Политика расширения сети](#network-filter) | MDATP_NetExt.xml | Н/Д |
+| [Политика расширения сети](#network-filter) | MDATP_NetExt.xml | Недоступно |
 | [Настройка Microsoft AutoUpdate (MAU)](mac-updates.md#intune) | MDATP_Microsoft_AutoUpdate.xml | com.microsoft.autoupdate2 |
 | [Microsoft Defender для параметров конфигурации конечной точки](mac-preferences.md#intune-profile-1)<br/><br/> **Примечание:** Если вы планируете запустить сторонний AV для macOS, задай `passiveMode` . `true` | MDATP_WDAV_and_exclusion_settings_Preferences.xml | com.microsoft.wdav |
 | [Настройка уведомлений Microsoft Defender для конечной точки и ms AutoUpdate (MAU)](mac-updates.md) | MDATP_MDAV_Tray_and_AutoUpdate2.mobileconfig | com.microsoft.autoupdate2 или com.microsoft.wdav.tray |
@@ -170,7 +170,7 @@ ms.locfileid: "52346032"
    >
    > Этот профиль конфигурации предоставляет полный дисковый доступ к Microsoft Defender для конечной точки. Если вы ранее настраивали Microsoft Defender для конечной точки через Intune, рекомендуем обновить развертывание с помощью этого профиля конфигурации.
 
-Скачайте [**fulldisk.mobileconfig**](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/kext.mobileconfig) из [нашего GitHub репозиторий](https://github.com/microsoft/mdatp-xplat/tree/master/macos/mobileconfig/profiles).
+Скачайте [**fulldisk.mobileconfig**](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/fulldisk.mobileconfig) из [нашего GitHub репозиторий](https://github.com/microsoft/mdatp-xplat/tree/master/macos/mobileconfig/profiles).
 
 Выполните инструкции по использованию [blob onboarding](#onboarding-blob) сверху, используя "MDATP полный доступ к диску" в качестве имени профиля и скачав **имя профиля конфигурации fulldisk.mobileconfig.**
 
@@ -178,7 +178,7 @@ ms.locfileid: "52346032"
 
 В рамках возможностей обнаружения конечных точек и ответов Microsoft Defender для конечной точки на macOS проверяет трафик розетки и передает эти сведения на Центр безопасности в Microsoft Defender портал. Следующая политика позволяет сетевому расширению выполнять эту функцию.
 
-Скачайте [**netfilter.mobileconfig**](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/kext.mobileconfig) из [нашего GitHub репозиторий](https://github.com/microsoft/mdatp-xplat/tree/master/macos/mobileconfig/profiles).
+Скачайте [**netfilter.mobileconfig**](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/netfilter.mobileconfig) из [нашего GitHub репозиторий](https://github.com/microsoft/mdatp-xplat/tree/master/macos/mobileconfig/profiles).
 
 Выполните инструкции по использованию [blob onboarding](#onboarding-blob) сверху, используя "фильтр сети MDATP" в качестве имени профиля и скачав **имя профиля конфигурации netfilter.mobileconfig.**
 
@@ -186,7 +186,7 @@ ms.locfileid: "52346032"
 
 Этот профиль используется для того, чтобы позволить Microsoft Defender для конечной точки на macOS и Microsoft Auto Update отображать уведомления в пользовательском интерфейсе на macOS 10.15 (Catalina) или более новых.
 
-Скачайте [**notif.mobileconfig**](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/kext.mobileconfig) из [нашего GitHub репозиторий](https://github.com/microsoft/mdatp-xplat/tree/master/macos/mobileconfig/profiles).
+Скачайте [**notif.mobileconfig**](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/notif.mobileconfig) из [нашего GitHub репозиторий](https://github.com/microsoft/mdatp-xplat/tree/master/macos/mobileconfig/profiles).
 
 Следуйте инструкциям по использованию [blob onboarding](#onboarding-blob) сверху, используя "фильтр сети MDATP" в качестве имени профиля, а также загрузите **notif.mobileconfig** в качестве имени профиля конфигурации.
 

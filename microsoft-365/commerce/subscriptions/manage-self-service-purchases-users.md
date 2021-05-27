@@ -18,21 +18,14 @@ search.appverid:
 - MET150
 description: Пользователи могут научиться управлять покупками с самообслуживаем.
 ms.date: 03/17/2021
-ms.openlocfilehash: ed6f2fc3b55756fb88dccd748fd4a4a9a34a5c81
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: fb8431bce82893d8ca2903caf96968dd3b0ef359
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52536086"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683671"
 ---
 # <a name="manage-self-service-purchases-users"></a>Управление самостоятельно приобретенными лицензиями (пользователи)
-
-::: moniker range="o365-21vianet"
-
-> [!NOTE]
-> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](../../admin/microsoft-365-admin-center-preview.md?preserve-view=true&view=o365-21vianet).
-
-::: moniker-end
 
 Как пользователь вы можете приобрести подписки на определенные продукты и назначить лицензии для этих подписок людям в вашей команде. Вы несете ответственность за оплату любых покупок самообслуживающих, которые вы делаете. Вы можете управлять подписками в центре администрирования Microsoft 365 в <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin.microsoft.com.</a>
 
@@ -42,12 +35,42 @@ ms.locfileid: "52536086"
 
 Вы можете просмотреть список всех приобретенных подписки на самообслуживку.
 
+::: moniker range="o365-worldwide"
+
 1. В Центре администрирования перейдите на страницу **Выставление счетов** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Ваши продукты</a>.
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Ваши продукты</a>.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Ваши продукты</a>.
+::: moniker-end
 2. На **вкладке Продукты** выберите значок фильтра, а затем выберите **самообслуживку.**
 
 ## <a name="how-to-buy-more-or-reduce-licenses"></a>Как купить больше лицензий или уменьшить их
 
+::: moniker range="o365-worldwide"
+
 1. В Центре администрирования перейдите на страницу **Выставление счетов** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Ваши продукты</a>.
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Ваши продукты</a>.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Ваши продукты</a>.
+::: moniker-end
 2. На **вкладке Продукты** выберите подписку, для которую необходимо приобрести больше или уменьшить лицензии.
 3. Выберите **купить лицензии или** удалить **лицензии.**
 4. В правой области в поле **Total licenses** введите общее количество лицензий, которые нужны для этой подписки, а затем выберите **Сохранить**. Например, если у вас есть 100 лицензий и вы хотите добавить еще 5, введите 105.
@@ -56,7 +79,23 @@ ms.locfileid: "52536086"
 
 ### <a name="to-assign-licenses"></a>Назначение лицензий
 
-1. В центре администрирования перейдите на страницу **Биллинг**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Лицензии.</a>
+:: moniker range="o365-worldwide"
+
+1. В Центре администрирования выберите **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Лицензии</a>.
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+ 1. В Центре администрирования выберите **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=848038" target="_blank">Лицензии</a>.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+ 1. В Центре администрирования выберите **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850625" target="_blank">Лицензии</a>.
+
+::: moniker-end
 2. Выберите подписку, для которую необходимо назначить лицензии.
 3. Выберите **Назначение лицензий.**
 4. В области **Назначение лицензий пользователям** начните вводить имя и выберите его в результатах, чтобы добавить в список. Вы можете добавить до 20 пользователей одновременно.
@@ -66,7 +105,23 @@ ms.locfileid: "52536086"
 
 ### <a name="to-unassign-licenses"></a>Чтобы отогнать лицензии
 
-1. В центре администрирования перейдите на страницу **Биллинг**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Лицензии.</a>
+:: moniker range="o365-worldwide"
+
+1. В Центре администрирования выберите **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Лицензии</a>.
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+ 1. В Центре администрирования выберите **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=848038" target="_blank">Лицензии</a>.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+ 1. В Центре администрирования выберите **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850625" target="_blank">Лицензии</a>.
+
+::: moniker-end
 2. Выберите продукт, для который необходимо отогнать лицензии.
 3. Выберите пользователей, от них необходимо отогнать лицензии.
 4. Выберите **лицензии unassign**.
@@ -74,8 +129,23 @@ ms.locfileid: "52536086"
 
 ## <a name="cancel-a-subscription"></a>Отмена подписки
 
+::: moniker range="o365-worldwide"
+
 1. В Центре администрирования перейдите на страницу **Выставление счетов** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Ваши продукты</a>.
-2. На вкладке **Продукты** найдите подписку, которую хотите отменить. Выберите три точки (больше действий), а затем выберите **отмену подписки.**
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Ваши продукты</a>.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Ваши продукты</a>.
+::: moniker-end
+2. На вкладке **Продукты** найдите подписку, которую хотите отменить. Щелкните три точки (другие действия) и выберите **Отменить подписку**.
 3. В области **Отмена подписки** выберите причину, по которой вы отменяете подписку. Необязательный, предоставить любые отзывы у вас есть.
 4. Нажмите **Сохранить**.
 

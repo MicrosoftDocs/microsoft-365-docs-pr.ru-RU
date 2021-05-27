@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: В этой статье описывается управление делами по обнаружению основных электронных обнаружений. Это включает закрытие дела, открытие закрытого дела и удаление дела.
-ms.openlocfilehash: 8a54d5c8f93d36351538bc235a6dbeaaa602c3e9
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: d729c91d4e81ad12d0b4b16574aa4edad8e239a3
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52532450"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684103"
 ---
 # <a name="close-reopen-and-delete-a-core-ediscovery-case"></a>Закрыть, открыть и удалить дело об обнаружении основных электронных данных
 
@@ -92,7 +92,7 @@ ms.locfileid: "52532450"
 
 Удаление удержания электронных данных:
 
-1. Перейдите **на вкладку Держит** в случае, если вы хотите удалить.
+1. Перейдите на **вкладку Держит** в случае, если вы хотите удалить.
 
 2. Выберите удержание, которое необходимо удалить.
 

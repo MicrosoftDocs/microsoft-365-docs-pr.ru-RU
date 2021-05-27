@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 2c746a74899a34827e089f4c9c2f6ecc396bb69c
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: ec8dd97a563edc487008d028a7cdc9f6ef3d17c1
+ms.sourcegitcommit: 82a4d74020cd93ba444006317cfecc178c6d41dc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538775"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52689089"
 ---
 # <a name="mitigate-zero-day-vulnerabilities---threat-and-vulnerability-management"></a>Уменьшение уязвимостей нулевого дня — контроль угроз и уязвимостей
 
@@ -46,7 +46,7 @@ ms.locfileid: "52538775"
 После того, как уязвимость нулевого дня будет найдена, сведения о ней будут переданы в следующих Центр безопасности в Microsoft Defender.
 
 >[!NOTE]
-> 0-дневная возможность в настоящее время недоступна для Windows продуктов (Mac, Linux); однако он будет добавлен в будущем.
+> 0-дневная возможность уязвимости в настоящее время доступна только для Windows продуктов.
 
 ### <a name="threat-and-vulnerability-management-dashboard"></a>Панель мониторинга угроз и управление уязвимостями
 

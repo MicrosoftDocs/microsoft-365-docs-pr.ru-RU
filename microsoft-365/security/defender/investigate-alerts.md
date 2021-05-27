@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 6a34269c414f59d40c9160d5728159ed9cddf976
-ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
+ms.openlocfilehash: 4957c92cb95464213cce4a81ded07de166468c73
+ms.sourcegitcommit: 82a4d74020cd93ba444006317cfecc178c6d41dc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52651357"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52689017"
 ---
 # <a name="investigate-alerts-in-microsoft-365-defender"></a>Исследование оповещений в Microsoft 365 Defender
 
@@ -78,6 +78,23 @@ ms.locfileid: "52651357"
 :::image type="content" source="../../media/investigate-alerts/alerts-ss-alerts-main.png" alt-text="Пример страницы сведений оповещений в центре Microsoft 365 безопасности":::
 
 На странице оповещений можно выбрать эллипсы **(... )** рядом с любым объектом, чтобы увидеть доступные действия, например открытие страницы оповещения или привязка оповещения к другому инциденту.
+
+### <a name="alert-sources"></a>Источники оповещений
+Microsoft 365 Оповещения defender могут приходить из таких решений, как Microsoft Defender для конечной точки, Microsoft Defender для Office 365 и Microsoft Cloud App Security. В оповещении можно заметить оповещений с предварительно заранее. В следующей таблице содержится руководство, помогая понять сопоставление источников оповещений на основе предоплащенного символа в оповещении.
+
+> [!NOTE]
+> - Предоплащенные GUID-интерфейсы являются специфическими только для унифицированных интерфейсов, таких как очередь единой очереди оповещений, страница унифицированных оповещений, единое расследование и единая проверка.<br>
+> - Предоплаченный символ не меняет GUID оповещений. Единственным изменением GUID является предоплаченный компонент.<br>
+
+
+Источник оповещений | Предопланенный символ 
+:---|:---
+Microsoft Defender для Office 365 | `fa{GUID}` <br> Пример: `fa123a456b-c789-1d2e-12f1g33h445h6i` 
+Microsoft Defender для конечной точки | `da` или `ed` для пользовательских оповещений об обнаружении <br> 
+Microsoft Defender для удостоверений | `aa{GUID}` <br> Пример: `aa123a456b-c789-1d2e-12f1g33h445h6i` 
+Microsoft Cloud App Security |`ca{GUID}` <br> Пример: `aa123a456b-c789-1d2e-12f1g33h445h6i` 
+
+
 
 ### <a name="analyze-affected-assets"></a>Анализ затронутых активов
 
@@ -136,7 +153,7 @@ ms.locfileid: "52651357"
 
 Классификация оповещений и указание их определения помогает настроить Microsoft 365 Defender, чтобы обеспечить больше истинных оповещений и меньше ложных оповещений.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 По мере необходимости для инцидентов в процессе продолжайте [расследование.](investigate-incidents.md)
 

@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: bb436cbd2d0fa453872760c1d2656585e02d1767
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 1800cfdabd402321c49b737eff7f9d67639eb300
+ms.sourcegitcommit: 82a4d74020cd93ba444006317cfecc178c6d41dc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538871"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52689005"
 ---
 # <a name="plan-for-end-of-support-software-and-software-versions-with-threat-and-vulnerability-management"></a>Планирование версий программного обеспечения и программного обеспечения с контроль угроз и уязвимостей
 
@@ -42,7 +42,7 @@ End-of-support (EOS), иначе известный как end-of-life (EOL), д
 Важно, чтобы администраторы безопасности и ИТ-администраторы работали вместе и обеспечивали настройку инвентаризации программного обеспечения организации для оптимальных результатов, соответствия требованиям и здоровой сетевой экосистемы. Они должны изучить варианты удаления или замены приложений, которые достигли конечной поддержки и обновления версий, которые больше не поддерживаются. Лучше всего создать и реализовать план **до** окончания сроков поддержки.
 
 >[!NOTE]
-> Возможности EOS в настоящее время недоступны для Windows (Mac, Linux); однако он будет добавлен в будущем.
+> В настоящее время возможности конечной поддержки доступны только для Windows продуктов.
 
 ## <a name="find-software-or-software-versions-that-are-no-longer-supported"></a>Поиск версий программного обеспечения или программного обеспечения, которые больше не поддерживаются
 
