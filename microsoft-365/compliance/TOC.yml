@@ -798,7 +798,7 @@
           href: detailed-properties-in-the-office-365-audit-log.md
         - name: 'Экспорт, настройка и просмотр записей журнала аудита'
           href: export-view-audit-log-records.md
-        - name: Включение и отключение поиска в журнале аудита
+        - name: Включение и отключение аудита
           href: turn-audit-log-search-on-or-off.md
         - name: Использование журнала аудита для изучения распространенных проблем
           href: auditing-troubleshooting-scenarios.md
