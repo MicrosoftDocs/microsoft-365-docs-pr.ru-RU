@@ -23,236 +23,161 @@ search.appverid:
 - MOE150
 ms.assetid: fb5ac074-e203-4e1f-9843-b9d1a3e03297
 description: 'Узнайте, как глобальный администратор Microsoft 365 может изменить адрес электронной почты при изменении имени пользователя. '
-ms.openlocfilehash: 1aa3fd3b67333937e64aab825e64533ccb09eea9
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 4f65bade32b2998f395c3b4eab7a1d2a2e5f3f33
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52634224"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683119"
 ---
-# <a name="change-a-user-name-and-email-address"></a><span data-ttu-id="fc1aa-103">Изменение имени пользователя и адреса электронной почты</span><span class="sxs-lookup"><span data-stu-id="fc1aa-103">Change a user name and email address</span></span>
+# <a name="change-a-user-name-and-email-address"></a><span data-ttu-id="2cc58-103">Изменение имени пользователя и адреса электронной почты</span><span class="sxs-lookup"><span data-stu-id="2cc58-103">Change a user name and email address</span></span>
 
-<span data-ttu-id="fc1aa-104">Изменение адреса электронной почты и отображаемого имени пользователя может потребоваться, например, если этот пользователь сменил фамилию при вступлении в брак.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-104">You may need to change someone's email address and display name if, for example, they get married and their last name changes.</span></span>
+<span data-ttu-id="2cc58-104">Изменение адреса электронной почты и отображаемого имени пользователя может потребоваться, например, если этот пользователь сменил фамилию при вступлении в брак.</span><span class="sxs-lookup"><span data-stu-id="2cc58-104">You may need to change someone's email address and display name if, for example, they get married and their last name changes.</span></span>
 
-## <a name="watch-change-a-users-name-or-email-address"></a><span data-ttu-id="fc1aa-105">Просмотр: изменение имени пользователя или адреса электронной почты</span><span class="sxs-lookup"><span data-stu-id="fc1aa-105">Watch: Change a user's name or email address</span></span>
+## <a name="watch-change-a-users-name-or-email-address"></a><span data-ttu-id="2cc58-105">Просмотр: изменение имени пользователя или адреса электронной почты</span><span class="sxs-lookup"><span data-stu-id="2cc58-105">Watch: Change a user's name or email address</span></span>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1SJuc] 
 
-<span data-ttu-id="fc1aa-106">Если это видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](../../business-video/index.yml).</span><span class="sxs-lookup"><span data-stu-id="fc1aa-106">If you found this video helpful, check out the [complete training series for small businesses and those new to Microsoft 365](../../business-video/index.yml).</span></span>
+<span data-ttu-id="2cc58-106">Если это видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](../../business-video/index.yml).</span><span class="sxs-lookup"><span data-stu-id="2cc58-106">If you found this video helpful, check out the [complete training series for small businesses and those new to Microsoft 365](../../business-video/index.yml).</span></span>
 
-<span data-ttu-id="fc1aa-107">Эти действия может выполнять только [глобальный администратор](about-admin-roles.md).</span><span class="sxs-lookup"><span data-stu-id="fc1aa-107">You must be a [global admin](about-admin-roles.md) to do these steps.</span></span> 
+<span data-ttu-id="2cc58-107">Эти действия может выполнять только [глобальный администратор](about-admin-roles.md).</span><span class="sxs-lookup"><span data-stu-id="2cc58-107">You must be a [global admin](about-admin-roles.md) to do these steps.</span></span> 
 
-## <a name="change-a-users-email-address"></a><span data-ttu-id="fc1aa-108">Изменение адреса электронной почты пользователя</span><span class="sxs-lookup"><span data-stu-id="fc1aa-108">Change a user's email address</span></span>
+## <a name="change-a-users-email-address"></a><span data-ttu-id="2cc58-108">Изменение адреса электронной почты пользователя</span><span class="sxs-lookup"><span data-stu-id="2cc58-108">Change a user's email address</span></span>
 
 ::: moniker range="o365-worldwide"
  
-1. <span data-ttu-id="fc1aa-109">В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Активные пользователи</a>.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-109">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Active users</a> page.</span></span>
-    
-2. <span data-ttu-id="fc1aa-110">Выберите имя пользователя, а затем на вкладке **Учетная запись** выберите **Управление именем пользователя**.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-110">Select the user's name, and then on the **Account** tab select **Manage username**.</span></span>
-    
-3. <span data-ttu-id="fc1aa-p101">В первом поле введите первую часть нового адреса электронной почты. Если вы добавили в Microsoft 365 собственный домен, выберите домен для нового псевдонима электронной почты в раскрывающемся списке.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-p101">In the first box, type the first part of the new email address. If you added your own domain to Microsoft 365, choose the domain for the new email alias by using the drop-down list.</span></span> 
+1. <span data-ttu-id="2cc58-109">В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Активные пользователи</a>.</span><span class="sxs-lookup"><span data-stu-id="2cc58-109">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Active users</a> page.</span></span>
 
-4. <span data-ttu-id="fc1aa-113">Нажмите кнопку **Сохранить изменения**.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-113">Select **Save changes**.</span></span>
-
-   
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. <span data-ttu-id="fc1aa-114">В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Активные пользователи</a>.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-114">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Active users</a> page.</span></span>  
-
-2. <span data-ttu-id="fc1aa-115">Выберите пользователя.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-115">Select the user.</span></span> <span data-ttu-id="fc1aa-116">Во всплывающей панели рядом с пунктом **Имя пользователя / электронная почта** выберите **Изменить**.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-116">In the flyout pane, next to **Username / Email**, select **Edit**.</span></span>
-
-3. <span data-ttu-id="fc1aa-p103">В первом поле введите первую часть нового адреса электронной почты. Если вы добавили в Microsoft 365 собственный домен, вы можете выбрать домен для нового псевдонима электронной почты в раскрывающемся списке.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-p103">In the first box, type the first part of the new email address. If you added your own domain to Microsoft 365, you can choose the domain for the new email alias by using the drop-down list.</span></span>
-
-4. <span data-ttu-id="fc1aa-119">Нажмите **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-119">Select **Save**.</span></span>
+1. <span data-ttu-id="2cc58-110">В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Активные пользователи</a>.</span><span class="sxs-lookup"><span data-stu-id="2cc58-110">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Active users</a> page.</span></span>  
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <span data-ttu-id="fc1aa-120">В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Активные пользователи</a>.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-120">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Active users</a> page.</span></span> 
-
-2. <span data-ttu-id="fc1aa-121">Выберите пользователя.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-121">Select the user.</span></span> <span data-ttu-id="fc1aa-122">Во всплывающей панели рядом с пунктом **Имя пользователя / электронная почта** выберите **Изменить**.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-122">In the flyout pane, next to **Username / Email**, select **Edit**.</span></span>
-
-3. <span data-ttu-id="fc1aa-p105">В первом поле введите первую часть нового адреса электронной почты. Если вы добавили в Microsoft 365 собственный домен, вы можете выбрать домен для нового псевдонима электронной почты в раскрывающемся списке.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-p105">In the first box, type the first part of the new email address. If you added your own domain to Microsoft 365, you can choose the domain for the new email alias by using the drop-down list.</span></span>
-
-4. <span data-ttu-id="fc1aa-125">Нажмите **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-125">Select **Save**.</span></span>
+1. <span data-ttu-id="2cc58-111">В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Активные пользователи</a>.</span><span class="sxs-lookup"><span data-stu-id="2cc58-111">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Active users</a> page.</span></span> 
 
 ::: moniker-end
+
+1. <span data-ttu-id="2cc58-112">Выберите имя пользователя, а затем на вкладке **Учетная запись** выберите **Управление именем пользователя**.</span><span class="sxs-lookup"><span data-stu-id="2cc58-112">Select the user's name, and then on the **Account** tab select **Manage username**.</span></span>
+    
+1. <span data-ttu-id="2cc58-p101">В первом поле введите первую часть нового адреса электронной почты. Если вы добавили в Microsoft 365 собственный домен, выберите домен для нового псевдонима электронной почты в раскрывающемся списке.</span><span class="sxs-lookup"><span data-stu-id="2cc58-p101">In the first box, type the first part of the new email address. If you added your own domain to Microsoft 365, choose the domain for the new email alias by using the drop-down list.</span></span> 
+
+1. <span data-ttu-id="2cc58-115">Нажмите кнопку **Сохранить изменения**.</span><span class="sxs-lookup"><span data-stu-id="2cc58-115">Select **Save changes**.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="fc1aa-126">Если появляется сообщение об ошибке, см. статью [Устранение сообщений об ошибках](#resolve-error-messages).</span><span class="sxs-lookup"><span data-stu-id="fc1aa-126">If you get an error message, see [Resolve error messages](#resolve-error-messages).</span></span>
+> <span data-ttu-id="2cc58-116">Если появляется сообщение об ошибке, см. статью [Устранение сообщений об ошибках](#resolve-error-messages).</span><span class="sxs-lookup"><span data-stu-id="2cc58-116">If you get an error message, see [Resolve error messages](#resolve-error-messages).</span></span>
 
-## <a name="set-the-primary-email-address"></a><span data-ttu-id="fc1aa-127">Настройка основного адреса электронной почты пользователя</span><span class="sxs-lookup"><span data-stu-id="fc1aa-127">Set the primary email address</span></span>
-
-::: moniker range="o365-worldwide"
-
-1. <span data-ttu-id="fc1aa-128">В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Активные пользователи</a>.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-128">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Active users</a> page.</span></span>
-    
-2. <span data-ttu-id="fc1aa-129">Выберите имя пользователя, а затем на вкладке **Учетная запись** выберите **Управление псевдонимами электронной почты**.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-129">Select the user's name, and then on the **Account** tab select **Manage email aliases**.</span></span>
-
-3. <span data-ttu-id="fc1aa-130">Выберите параметр **Сделать основным** для адреса электронной почты, который необходимо установить основным адресом электронной почты для этого пользователя.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-130">Select **Set as Primary** for the email address that you want to set as the primary email address for that person.</span></span> 
-    
-   > [!IMPORTANT]
-   > <span data-ttu-id="fc1aa-p106">Этот параметр не отображается, если вы приобрели Microsoft 365 у GoDaddy или другой партнерской службы, предоставляющей консоль управления. В этом случае войдите в консоль управления GoDaddy или другого партнера и задайте основной псевдоним там.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-p106">You won't see this option to Set as Primary if you purchased Microsoft 365 from GoDaddy or another Partner service that provides a management console. Instead, sign in to the GoDaddy / partner's management console to set the primary alias.</span></span> 
-   >  
-   > <span data-ttu-id="fc1aa-133">Кроме того, этот параметр отображается только для глобального администратора. Если вы не видите его, это означает, что у вас нет разрешения на изменение имени пользователя и его основного адреса электронной почты.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-133">Also, you'll only see this option if you're a global admin. If you don't see the option, you don't have permissions to change a user's name and primary email address.</span></span>
-  
-4. <span data-ttu-id="fc1aa-134">Вы увидите большое желтое предупреждение о том, что будут изменены данные для входа пользователя.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-134">You'll see a big yellow warning that you're about to change the person's sign-in information.</span></span> <span data-ttu-id="fc1aa-135">Нажмите кнопку **Сохранить**, а затем — **Закрыть**.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-135">Select **Save**, then **Close**.</span></span>
-    
-5. <span data-ttu-id="fc1aa-136">Сообщите пользователю следующие данные:</span><span class="sxs-lookup"><span data-stu-id="fc1aa-136">Give the person the following information:</span></span>
- 
-   - <span data-ttu-id="fc1aa-137">Это изменение может занять некоторое время.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-137">This change could take a while.</span></span>
-  
-   - <span data-ttu-id="fc1aa-p108">Новое имя пользователя: оно потребуется ему для входа в Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-p108">Their new username. They'll need it to sign in to Microsoft 365.</span></span>
-    
-   - <span data-ttu-id="fc1aa-140">Если он пользуется Skype для бизнеса online, ему потребуется перепланировать все свои организованные собрания в Skype для бизнеса online, а также попросить своих внешних контактов обновить его контактные данные.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-140">If they are using Skype for Business Online, they must reschedule any Skype for Business Online meetings that they organized, and tell their external contacts to update their contact information.</span></span>
-
-   - <span data-ttu-id="fc1aa-141">Если они используют OneDrive, URL-адрес этого расположения будет изменен.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-141">If they are using OneDrive, the URL to this location has changed.</span></span> <span data-ttu-id="fc1aa-142">Если у них есть записные книжки OneNote на OneDrive,то им может потребоваться закрыть и повторно открыть их в OneNote.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-142">If they have OneNote notebooks in their OneDrive, they might need to close and reopen them in OneNote.</span></span> <span data-ttu-id="fc1aa-143">Если они открыли общий доступ к файлам из своего OneDrive, то ссылки на файлы могут не работать и пользователь сможет повторно открыть к ним общий доступ.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-143">If they have shared files from their OneDrive, the links to the files might not work and the user can reshare.</span></span>    
-  
-   - <span data-ttu-id="fc1aa-144">Если пароль пользователя тоже изменился, ему потребуется ввести новый пароль на мобильном устройстве, иначе не будет выполнена синхронизация.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-144">If their password changed too, they are prompted to enter the new password on their mobile device, or it won't sync.</span></span>
-  
-::: moniker-end
-
-::: moniker range="o365-germany"
-
-1. <span data-ttu-id="fc1aa-145">В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Активные пользователи</a>.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-145">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Active users</a> page.</span></span>  
-
-2. <span data-ttu-id="fc1aa-146">Выберите пользователя.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-146">Select the user.</span></span> <span data-ttu-id="fc1aa-147">Во всплывающей панели рядом с пунктом **Имя пользователя / электронная почта** выберите **Изменить**.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-147">In the flyout pane, next to **Username / Email**, select **Edit**.</span></span>
-
-3. <span data-ttu-id="fc1aa-148">Выберите параметр **Сделать основным** для адреса электронной почты, который необходимо установить основным адресом электронной почты для этого пользователя.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-148">Select **Set as Primary** for the email address that you want to set as the primary email address for that person.</span></span> 
-    
-   > [!IMPORTANT]
-   > <span data-ttu-id="fc1aa-p111">Этот параметр не отображается, если вы приобрели Microsoft 365 у GoDaddy или другой партнерской службы, предоставляющей консоль управления. В этом случае войдите в консоль управления GoDaddy или другого партнера и задайте основной псевдоним там.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-p111">You won't see this option to Set as Primary if you purchased Microsoft 365 from GoDaddy or another Partner service that provides a management console. Instead, sign in to the GoDaddy / partner's management console to set the primary alias.</span></span> 
-   > 
-   > <span data-ttu-id="fc1aa-151">Кроме того, этот параметр отображается только для глобального администратора. Если вы не видите его, это означает, что у вас нет разрешения на изменение имени пользователя и его основного адреса электронной почты.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-151">Also, you'll only see this option if you're a global admin. If you don't see the option, you don't have permissions to change a user's name and primary email address.</span></span>
-  
-4. <span data-ttu-id="fc1aa-152">Вы увидите большое желтое предупреждение о том, что будут изменены данные для входа пользователя.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-152">You'll see a big yellow warning that you're about to change the person's sign-in information.</span></span> <span data-ttu-id="fc1aa-153">Нажмите кнопку **Сохранить**, а затем — **Закрыть**.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-153">Select **Save**, then **Close**.</span></span>
-    
-5. <span data-ttu-id="fc1aa-154">Сообщите пользователю следующие данные:</span><span class="sxs-lookup"><span data-stu-id="fc1aa-154">Tell the person the following information:</span></span>
- 
-   - <span data-ttu-id="fc1aa-155">Для вступления в силу этого изменения может потребоваться время.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-155">This change may take a while to take effect.</span></span>
-  
-   - <span data-ttu-id="fc1aa-p113">Новое имя пользователя: оно потребуется ему для входа в Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-p113">What their new username is. They'll need it to sign in to Microsoft 365.</span></span>
-    
-   - <span data-ttu-id="fc1aa-158">Если он пользуется Skype для бизнеса online, сообщите, что ему потребуется перепланировать все свои организованные собрания в Skype для бизнеса online, а также попросить своих внешних контактов обновить его контактные данные.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-158">If they are using Skype for Business Online, tell them they will need to reschedule any Skype for Business Online meetings that they organized, and that they will need to tell their external contacts to update the old contact information.</span></span>
-
-   - <span data-ttu-id="fc1aa-159">Если они используют OneDrive, сообщите им, что URL-адрес этого расположения изменен.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-159">If they are using OneDrive, tell them that the URL to this location has been changed.</span></span> <span data-ttu-id="fc1aa-160">Если у них есть записные книжки OneNote на OneDrive,то им может потребоваться закрыть и повторно открыть их в OneNote.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-160">If they have OneNote notebooks in their OneDrive, then they may need to close and reopen them in OneNote.</span></span> <span data-ttu-id="fc1aa-161">Если они открыли общий доступ к файлам из своего OneDrive, то ссылки на файлы могут не работать и пользователь сможет повторно открыть к ним общий доступ.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-161">If they have shared files from their OneDrive, then the links to the files may not work and the user can reshare.</span></span>    
-  
-   - <span data-ttu-id="fc1aa-162">Если пароль пользователя тоже изменился, сообщите, что ему потребуется ввести новый пароль на мобильном устройстве, иначе не будет выполнена синхронизация.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-162">If their password changed too, tell them that they will be prompted to enter the new password on their mobile device, or it won't sync.</span></span>
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. <span data-ttu-id="fc1aa-163">В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Активные пользователи</a>.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-163">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Active users</a> page.</span></span> 
-
-2. <span data-ttu-id="fc1aa-164">Выберите пользователя.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-164">Select the user.</span></span> <span data-ttu-id="fc1aa-165">Во всплывающей панели рядом с пунктом **Имя пользователя / электронная почта** выберите **Изменить**.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-165">In the flyout pane, next to **Username / Email**, select **Edit**.</span></span>
-
-3. <span data-ttu-id="fc1aa-166">Выберите параметр **Сделать основным** для адреса электронной почты, который необходимо установить основным адресом электронной почты для этого пользователя.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-166">Select **Set as Primary** for the email address that you want to set as the primary email address for that person.</span></span> 
-    
-   > [!IMPORTANT]
-   > <span data-ttu-id="fc1aa-p116">Этот параметр не отображается, если вы приобрели Microsoft 365 у GoDaddy или другой партнерской службы, предоставляющей консоль управления. В этом случае войдите в консоль управления GoDaddy или другого партнера и задайте основной псевдоним там.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-p116">You won't see this option to Set as Primary if you purchased Microsoft 365 from GoDaddy or another Partner service that provides a management console. Instead, sign in to the GoDaddy / partner's management console to set the primary alias.</span></span> 
-   >  
-   > <span data-ttu-id="fc1aa-169">Кроме того, этот параметр отображается только для глобального администратора. Если вы не видите его, это означает, что у вас нет разрешения на изменение имени пользователя и его основного адреса электронной почты.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-169">Also, you'll only see this option if you're a global admin. If you don't see the option, you don't have permissions to change a user's name and primary email address.</span></span>
-  
-4. <span data-ttu-id="fc1aa-170">Вы увидите большое желтое предупреждение о том, что будут изменены данные для входа пользователя.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-170">You'll see a big yellow warning that you're about to change the person's sign-in information.</span></span> <span data-ttu-id="fc1aa-171">Нажмите кнопку **Сохранить**, а затем — **Закрыть**.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-171">Select **Save**, then **Close**.</span></span>
-    
-5. <span data-ttu-id="fc1aa-172">Сообщите пользователю следующие данные:</span><span class="sxs-lookup"><span data-stu-id="fc1aa-172">Tell the person the following information:</span></span>
- 
-   - <span data-ttu-id="fc1aa-173">Для вступления в силу этого изменения может потребоваться время.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-173">This change may take a while to take effect.</span></span>
-  
-   - <span data-ttu-id="fc1aa-p118">Новое имя пользователя: оно потребуется ему для входа в Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-p118">What their new username is. They'll need it to sign in to Microsoft 365.</span></span>
-    
-   - <span data-ttu-id="fc1aa-176">Если он пользуется Skype для бизнеса online, сообщите, что ему потребуется перепланировать все свои организованные собрания в Skype для бизнеса online, а также попросить своих внешних контактов обновить его контактные данные.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-176">If they are using Skype for Business Online, tell them they will need to reschedule any Skype for Business Online meetings that they organized, and that they will need to tell their external contacts to update the old contact information.</span></span>
-
-   - <span data-ttu-id="fc1aa-177">Если они используют OneDrive, сообщите им, что URL-адрес этого расположения изменен.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-177">If they are using OneDrive, tell them that the URL to this location has been changed.</span></span> <span data-ttu-id="fc1aa-178">Если у них есть записные книжки OneNote на OneDrive,то им может потребоваться закрыть и повторно открыть их в OneNote.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-178">If they have OneNote notebooks in their OneDrive, then they may need to close and reopen them in OneNote.</span></span> <span data-ttu-id="fc1aa-179">Если они открыли общий доступ к файлам из своего OneDrive, то ссылки на файлы могут не работать и пользователь сможет повторно открыть к ним общий доступ.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-179">If they have shared files from their OneDrive, then the links to the files may not work and the user can reshare.</span></span>    
-  
-   - <span data-ttu-id="fc1aa-180">Если пароль пользователя тоже изменился, сообщите, что ему потребуется ввести новый пароль на мобильном устройстве, иначе не будет выполнена синхронизация.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-180">If their password changed too, tell them that they will be prompted to enter the new password on their mobile device, or it won't sync.</span></span>
-
-::: moniker-end
-  
-## <a name="change-a-users-display-name"></a><span data-ttu-id="fc1aa-181">Изменение отображаемого имени пользователя</span><span class="sxs-lookup"><span data-stu-id="fc1aa-181">Change a user's display name</span></span>
+## <a name="set-the-primary-email-address"></a><span data-ttu-id="2cc58-117">Настройка основного адреса электронной почты пользователя</span><span class="sxs-lookup"><span data-stu-id="2cc58-117">Set the primary email address</span></span>
 
 ::: moniker range="o365-worldwide"
 
-1. <span data-ttu-id="fc1aa-182">В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Активные пользователи</a>.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-182">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Active users</a> page.</span></span>
-
-2. <span data-ttu-id="fc1aa-183">Выберите имя пользователя, а затем на вкладке **Учетная запись** выберите **Управление контактными данными**.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-183">Select the user's name, and then on the **Account** tab select **Manage contact information**.</span></span>
-
-3. <span data-ttu-id="fc1aa-184">В поле **Отображаемое имя** введите новое имя и нажмите кнопку **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-184">In the **Display name** box, type a new name for the person, and then select **Save**.</span></span>
-
-   <span data-ttu-id="fc1aa-185">При отображении сообщения об ошибке "**Не удалось изменить пользователя. Проверьте сведения о пользователе и повторите попытку**" см. статью [Устранение сообщений об ошибке](#resolve-error-messages).</span><span class="sxs-lookup"><span data-stu-id="fc1aa-185">If you get the error message "**We're sorry, the user couldn't be edited. Review the user information and try again**, see [Resolve error messages](#resolve-error-messages).</span></span>
-
-<span data-ttu-id="fc1aa-p120">Для того чтобы это изменение вступило в силу во всех службах, может потребоваться до 24 часов. После этого пользователю будет предлагаться входить в Outlook, Skype для бизнеса и SharePoint с новым именем пользователя.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-p120">It might take up to 24 hours for this change to take effect across all services. After the change has taken effect, the person will have to sign in to Outlook, Skype for Business and SharePoint with their updated username.</span></span>
+1. <span data-ttu-id="2cc58-118">В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Активные пользователи</a>.</span><span class="sxs-lookup"><span data-stu-id="2cc58-118">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Active users</a> page.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. <span data-ttu-id="fc1aa-188">В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Активные пользователи</a>.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-188">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Active users</a> page.</span></span>  
-
-2. <span data-ttu-id="fc1aa-189">Выберите пользователя.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-189">Select the user.</span></span> <span data-ttu-id="fc1aa-190">Во всплывающей панели рядом с пунктом **Контактная информация** выберите **Изменить**.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-190">In the flyout pane, next to **Contact information**, select **Edit**.</span></span>
-
-3. <span data-ttu-id="fc1aa-191">В поле **Отображаемое имя** введите новое имя и нажмите кнопку **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-191">In the **Display name** box, type a new name for the person, and then select **Save**.</span></span>
-
-   <span data-ttu-id="fc1aa-192">При отображении сообщения об ошибке "**Не удалось изменить пользователя. Проверьте сведения о пользователе и повторите попытку**" см. статью [Устранение сообщений об ошибке](#resolve-error-messages).</span><span class="sxs-lookup"><span data-stu-id="fc1aa-192">If you get the error message "**We're sorry, the user couldn't be edited. Review the user information and try again**, see [Resolve error messages](#resolve-error-messages).</span></span>
-
-<span data-ttu-id="fc1aa-p122">Для того чтобы это изменение вступило в силу во всех службах, может потребоваться до 24 часов. После этого пользователю будет предлагаться входить в Outlook, Skype для бизнеса и SharePoint с новым именем пользователя, поэтому не забудьте сообщить ему об изменении.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-p122">It might take up to 24 hours for this change to take effect across all services. After the change has taken effect, the person will have to sign in to Outlook, Skype for Business and SharePoint with their updated username, so be sure to tell them about this change.</span></span>
+1. <span data-ttu-id="2cc58-119">В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Активные пользователи</a>.</span><span class="sxs-lookup"><span data-stu-id="2cc58-119">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Active users</a> page.</span></span> 
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <span data-ttu-id="fc1aa-195">В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Активные пользователи</a>.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-195">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Active users</a> page.</span></span> 
+1. <span data-ttu-id="2cc58-120">В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Активные пользователи</a>.</span><span class="sxs-lookup"><span data-stu-id="2cc58-120">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Active users</a> page.</span></span>  
 
-2. <span data-ttu-id="fc1aa-196">Выберите пользователя.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-196">Select the user.</span></span> <span data-ttu-id="fc1aa-197">Во всплывающей панели рядом с пунктом **Контактная информация** выберите **Изменить**.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-197">In the flyout pane, next to **Contact information**, select **Edit**.</span></span>
+::: moniker-end
+    
+2. <span data-ttu-id="2cc58-121">Выберите имя пользователя, а затем на вкладке **Учетная запись** выберите **Управление псевдонимами электронной почты**.</span><span class="sxs-lookup"><span data-stu-id="2cc58-121">Select the user's name, and then on the **Account** tab select **Manage email aliases**.</span></span>
 
-3. <span data-ttu-id="fc1aa-198">В поле **Отображаемое имя** введите новое имя и нажмите кнопку **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-198">In the **Display name** box, type a new name for the person, and then select **Save**.</span></span>
+3. <span data-ttu-id="2cc58-122">Выберите параметр **Сделать основным** для адреса электронной почты, который необходимо установить основным адресом электронной почты для этого пользователя.</span><span class="sxs-lookup"><span data-stu-id="2cc58-122">Select **Set as Primary** for the email address that you want to set as the primary email address for that person.</span></span> 
+    
+   > [!IMPORTANT]
+   > <span data-ttu-id="2cc58-p102">Этот параметр не отображается, если вы приобрели Microsoft 365 у GoDaddy или другой партнерской службы, предоставляющей консоль управления. В этом случае войдите в консоль управления GoDaddy или другого партнера и задайте основной псевдоним там.</span><span class="sxs-lookup"><span data-stu-id="2cc58-p102">You won't see this option to Set as Primary if you purchased Microsoft 365 from GoDaddy or another Partner service that provides a management console. Instead, sign in to the GoDaddy / partner's management console to set the primary alias.</span></span> 
+   >  
+   > <span data-ttu-id="2cc58-125">Кроме того, этот параметр отображается только для глобального администратора. Если вы не видите его, это означает, что у вас нет разрешения на изменение имени пользователя и его основного адреса электронной почты.</span><span class="sxs-lookup"><span data-stu-id="2cc58-125">Also, you'll only see this option if you're a global admin. If you don't see the option, you don't have permissions to change a user's name and primary email address.</span></span>
+  
+4. <span data-ttu-id="2cc58-126">Вы увидите большое желтое предупреждение о том, что будут изменены данные для входа пользователя.</span><span class="sxs-lookup"><span data-stu-id="2cc58-126">You'll see a big yellow warning that you're about to change the person's sign-in information.</span></span> <span data-ttu-id="2cc58-127">Нажмите кнопку **Сохранить**, а затем — **Закрыть**.</span><span class="sxs-lookup"><span data-stu-id="2cc58-127">Select **Save**, then **Close**.</span></span>
+    
+5. <span data-ttu-id="2cc58-128">Сообщите пользователю следующие данные:</span><span class="sxs-lookup"><span data-stu-id="2cc58-128">Give the person the following information:</span></span>
+ 
+   - <span data-ttu-id="2cc58-129">Это изменение может занять некоторое время.</span><span class="sxs-lookup"><span data-stu-id="2cc58-129">This change could take a while.</span></span>
+  
+   - <span data-ttu-id="2cc58-p104">Новое имя пользователя: оно потребуется ему для входа в Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="2cc58-p104">Their new username. They'll need it to sign in to Microsoft 365.</span></span>
+    
+   - <span data-ttu-id="2cc58-132">Если он пользуется Skype для бизнеса online, ему потребуется перепланировать все свои организованные собрания в Skype для бизнеса online, а также попросить своих внешних контактов обновить его контактные данные.</span><span class="sxs-lookup"><span data-stu-id="2cc58-132">If they are using Skype for Business Online, they must reschedule any Skype for Business Online meetings that they organized, and tell their external contacts to update their contact information.</span></span>
 
-   <span data-ttu-id="fc1aa-199">При отображении сообщения об ошибке "**Не удалось изменить пользователя. Проверьте сведения о пользователе и повторите попытку**" см. статью [Устранение сообщений об ошибке](#resolve-error-messages).</span><span class="sxs-lookup"><span data-stu-id="fc1aa-199">If you get the error message "**We're sorry, the user couldn't be edited. Review the user information and try again**, see [Resolve error messages](#resolve-error-messages).</span></span>
+   - <span data-ttu-id="2cc58-133">Если они используют OneDrive, URL-адрес этого расположения будет изменен.</span><span class="sxs-lookup"><span data-stu-id="2cc58-133">If they are using OneDrive, the URL to this location has changed.</span></span> <span data-ttu-id="2cc58-134">Если у них есть записные книжки OneNote на OneDrive,то им может потребоваться закрыть и повторно открыть их в OneNote.</span><span class="sxs-lookup"><span data-stu-id="2cc58-134">If they have OneNote notebooks in their OneDrive, they might need to close and reopen them in OneNote.</span></span> <span data-ttu-id="2cc58-135">Если они открыли общий доступ к файлам из своего OneDrive, то ссылки на файлы могут не работать и пользователь сможет повторно открыть к ним общий доступ.</span><span class="sxs-lookup"><span data-stu-id="2cc58-135">If they have shared files from their OneDrive, the links to the files might not work and the user can reshare.</span></span>    
+  
+   - <span data-ttu-id="2cc58-136">Если пароль пользователя тоже изменился, ему потребуется ввести новый пароль на мобильном устройстве, иначе не будет выполнена синхронизация.</span><span class="sxs-lookup"><span data-stu-id="2cc58-136">If their password changed too, they are prompted to enter the new password on their mobile device, or it won't sync.</span></span>
+  
+## <a name="change-a-users-display-name"></a><span data-ttu-id="2cc58-137">Изменение отображаемого имени пользователя</span><span class="sxs-lookup"><span data-stu-id="2cc58-137">Change a user's display name</span></span>
 
-<span data-ttu-id="fc1aa-p124">Для того чтобы это изменение вступило в силу во всех службах, может потребоваться до 24 часов. После этого пользователю будет предлагаться входить в Outlook, Skype для бизнеса и SharePoint с новым именем пользователя, поэтому не забудьте сообщить ему об изменении.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-p124">It might take up to 24 hours for this change to take effect across all services. After the change has taken effect, the person will have to sign in to Outlook, Skype for Business and SharePoint with their updated username, so be sure to tell them about this change.</span></span>
+::: moniker range="o365-worldwide"
+
+1. <span data-ttu-id="2cc58-138">В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Активные пользователи</a>.</span><span class="sxs-lookup"><span data-stu-id="2cc58-138">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Active users</a> page.</span></span>
 
 ::: moniker-end
 
-## <a name="resolve-error-messages"></a><span data-ttu-id="fc1aa-202">Устранение сообщений об ошибке</span><span class="sxs-lookup"><span data-stu-id="fc1aa-202">Resolve error messages</span></span>
+::: moniker range="o365-germany"
 
-### <a name="a-parameter-cannot-be-found-that-matches-parameter-name-emailaddresses"></a><span data-ttu-id="fc1aa-203">"Не удается найти параметр, соответствующий имени параметра EmailAddresses"</span><span class="sxs-lookup"><span data-stu-id="fc1aa-203">"A parameter cannot be found that matches parameter name 'EmailAddresses"</span></span>
+1. <span data-ttu-id="2cc58-139">В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Активные пользователи</a>.</span><span class="sxs-lookup"><span data-stu-id="2cc58-139">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Active users</a> page.</span></span> 
 
-<span data-ttu-id="fc1aa-p125">Если вы получили сообщение об ошибке "**Не удается найти параметр, соответствующий имени параметра EmailAddresses**", это означает, что настройка вашего клиента или личного домена, который вы недавно добавили, еще не завершена. Настройка может занять до 4 часов. Дождитесь ее окончания, а затем повторите попытку. Если проблема сохранится, обратитесь в [службу поддержки](../../business-video/get-help-support.md), и ее специалисты выполнят для вас полную синхронизацию.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-p125">If you get the error message " **A parameter cannot be found that matches parameter name 'EmailAddresses**" it means that it's taking a bit longer to finish setting up your tenant, or your custom domain if you recently added one. The setup process can take up to 4 hours to complete. Wait a while so the setup process has time to finish, and then try again. If the problem persists, call [support](../../business-video/get-help-support.md) and ask them to do a full sync for you.</span></span>
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. <span data-ttu-id="2cc58-140">В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Активные пользователи</a>.</span><span class="sxs-lookup"><span data-stu-id="2cc58-140">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Active users</a> page.</span></span> 
+
+::: moniker-end
+
+2. <span data-ttu-id="2cc58-141">Выберите имя пользователя, а затем на вкладке **Учетная запись** выберите **Управление контактными данными**.</span><span class="sxs-lookup"><span data-stu-id="2cc58-141">Select the user's name, and then on the **Account** tab select **Manage contact information**.</span></span>
+
+3. <span data-ttu-id="2cc58-142">В поле **Отображаемое имя** введите новое имя и нажмите кнопку **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="2cc58-142">In the **Display name** box, type a new name for the person, and then select **Save**.</span></span>
+
+   <span data-ttu-id="2cc58-143">При отображении сообщения об ошибке "**Не удалось изменить пользователя. Проверьте сведения о пользователе и повторите попытку**" см. статью [Устранение сообщений об ошибке](#resolve-error-messages).</span><span class="sxs-lookup"><span data-stu-id="2cc58-143">If you get the error message "**We're sorry, the user couldn't be edited. Review the user information and try again**, see [Resolve error messages](#resolve-error-messages).</span></span>
+
+<span data-ttu-id="2cc58-p106">Для того чтобы это изменение вступило в силу во всех службах, может потребоваться до 24 часов. После этого пользователю будет предлагаться входить в Outlook, Skype для бизнеса и SharePoint с новым именем пользователя.</span><span class="sxs-lookup"><span data-stu-id="2cc58-p106">It might take up to 24 hours for this change to take effect across all services. After the change has taken effect, the person will have to sign in to Outlook, Skype for Business and SharePoint with their updated username.</span></span>
+ 
+## <a name="resolve-error-messages"></a><span data-ttu-id="2cc58-146">Устранение сообщений об ошибке</span><span class="sxs-lookup"><span data-stu-id="2cc58-146">Resolve error messages</span></span>
+
+### <a name="a-parameter-cannot-be-found-that-matches-parameter-name-emailaddresses"></a><span data-ttu-id="2cc58-147">"Не удается найти параметр, соответствующий имени параметра EmailAddresses"</span><span class="sxs-lookup"><span data-stu-id="2cc58-147">"A parameter cannot be found that matches parameter name 'EmailAddresses"</span></span>
+
+<span data-ttu-id="2cc58-p107">Если вы получили сообщение об ошибке "**Не удается найти параметр, соответствующий имени параметра EmailAddresses**", это означает, что настройка вашего клиента или личного домена, который вы недавно добавили, еще не завершена. Настройка может занять до 4 часов. Дождитесь ее окончания, а затем повторите попытку. Если проблема сохранится, обратитесь в [службу поддержки](../../business-video/get-help-support.md), и ее специалисты выполнят для вас полную синхронизацию.</span><span class="sxs-lookup"><span data-stu-id="2cc58-p107">If you get the error message " **A parameter cannot be found that matches parameter name 'EmailAddresses**" it means that it's taking a bit longer to finish setting up your tenant, or your custom domain if you recently added one. The setup process can take up to 4 hours to complete. Wait a while so the setup process has time to finish, and then try again. If the problem persists, call [support](../../business-video/get-help-support.md) and ask them to do a full sync for you.</span></span>
   
-### <a name="were-sorry-the-user-couldnt-be-edited-review-the-user-information-and-try-again"></a><span data-ttu-id="fc1aa-p126">"Не удалось изменить пользователя. Проверьте сведения о пользователе и повторите попытку"</span><span class="sxs-lookup"><span data-stu-id="fc1aa-p126">"We're sorry, the user couldn't be edited. Review the user information and try again"</span></span>
+### <a name="were-sorry-the-user-couldnt-be-edited-review-the-user-information-and-try-again"></a><span data-ttu-id="2cc58-p108">"Не удалось изменить пользователя. Проверьте сведения о пользователе и повторите попытку"</span><span class="sxs-lookup"><span data-stu-id="2cc58-p108">"We're sorry, the user couldn't be edited. Review the user information and try again"</span></span>
 
-<span data-ttu-id="fc1aa-210">При отображении сообщения об ошибке "**Не удалось изменить пользователя. Проверьте сведения о пользователе и повторите попытку**."</span><span class="sxs-lookup"><span data-stu-id="fc1aa-210">If you get the error message " **We're sorry, the user couldn't be edited. Review the user information and try again**."</span></span> <span data-ttu-id="fc1aa-211">Это означает, что вы не являетесь глобальным администратором и у вас нет разрешений на изменение имени пользователя.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-211">it means you aren't a global admin and you don't have permissions to change the user name.</span></span> <span data-ttu-id="fc1aa-212">Найдите глобального администратора и попросите его внести это изменение.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-212">Find the global admin in your business and ask them to make the change.</span></span>
+<span data-ttu-id="2cc58-154">При отображении сообщения об ошибке "**Не удалось изменить пользователя. Проверьте сведения о пользователе и повторите попытку**."</span><span class="sxs-lookup"><span data-stu-id="2cc58-154">If you get the error message " **We're sorry, the user couldn't be edited. Review the user information and try again**."</span></span> <span data-ttu-id="2cc58-155">Это означает, что вы не являетесь глобальным администратором и у вас нет разрешений на изменение имени пользователя.</span><span class="sxs-lookup"><span data-stu-id="2cc58-155">it means you aren't a global admin and you don't have permissions to change the user name.</span></span> <span data-ttu-id="2cc58-156">Найдите глобального администратора и попросите его внести это изменение.</span><span class="sxs-lookup"><span data-stu-id="2cc58-156">Find the global admin in your business and ask them to make the change.</span></span>
 
 
-## <a name="what-to-do-with-old-email-addresses"></a><span data-ttu-id="fc1aa-213">Что делать с устаревшими адресами электронной почты</span><span class="sxs-lookup"><span data-stu-id="fc1aa-213">What to do with old email addresses</span></span>
+## <a name="what-to-do-with-old-email-addresses"></a><span data-ttu-id="2cc58-157">Что делать с устаревшими адресами электронной почты</span><span class="sxs-lookup"><span data-stu-id="2cc58-157">What to do with old email addresses</span></span>
 
-<span data-ttu-id="fc1aa-p128">Предыдущий основной адрес электронной почты пользователя сохраняется в качестве дополнительного. **Настоятельно рекомендуем не удалять старый адрес электронной почты.**</span><span class="sxs-lookup"><span data-stu-id="fc1aa-p128">A person's previous primary email address is retained as an additional email address. **We strongly recommend that you don't remove the old email address.**</span></span>
+<span data-ttu-id="2cc58-p110">Предыдущий основной адрес электронной почты пользователя сохраняется в качестве дополнительного. **Настоятельно рекомендуем не удалять старый адрес электронной почты.**</span><span class="sxs-lookup"><span data-stu-id="2cc58-p110">A person's previous primary email address is retained as an additional email address. **We strongly recommend that you don't remove the old email address.**</span></span>
   
-<span data-ttu-id="fc1aa-p129">Некоторые люди могут продолжать отправлять на него письма, поэтому его удаление может повлечь за собой проблемы с доставкой. Корпорация Майкрософт будет автоматически перенаправлять сообщения на новый адрес. Кроме того, не следует продолжать использовать старые SMTP-адреса и указывать их для новых учетных записей. Это тоже может стать причиной недоставки сообщений или их отправки не по адресу.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-p129">Some people might continue to send email to the person's old email address and deleting it may result in NDR failures. Microsoft automatically routes it to the new one. Also, do not reuse old SMTP email addresses and apply them to new accounts. This can also cause NDR failures or delivery to an unintended mailbox.</span></span>
+<span data-ttu-id="2cc58-p111">Некоторые люди могут продолжать отправлять на него письма, поэтому его удаление может повлечь за собой проблемы с доставкой. Корпорация Майкрософт будет автоматически перенаправлять сообщения на новый адрес. Кроме того, не следует продолжать использовать старые SMTP-адреса и указывать их для новых учетных записей. Это тоже может стать причиной недоставки сообщений или их отправки не по адресу.</span><span class="sxs-lookup"><span data-stu-id="2cc58-p111">Some people might continue to send email to the person's old email address and deleting it may result in NDR failures. Microsoft automatically routes it to the new one. Also, do not reuse old SMTP email addresses and apply them to new accounts. This can also cause NDR failures or delivery to an unintended mailbox.</span></span>
    
-## <a name="what-if-the-persons-offline-address-book-wont-sync-with-the-global-address-list"></a><span data-ttu-id="fc1aa-220">Что делать, если автономная адресная книга пользователя не синхронизируется с глобальным списком адресов?</span><span class="sxs-lookup"><span data-stu-id="fc1aa-220">What if the person's offline address book won't sync with the Global Address List?</span></span>
+## <a name="what-if-the-persons-offline-address-book-wont-sync-with-the-global-address-list"></a><span data-ttu-id="2cc58-164">Что делать, если автономная адресная книга пользователя не синхронизируется с глобальным списком адресов?</span><span class="sxs-lookup"><span data-stu-id="2cc58-164">What if the person's offline address book won't sync with the Global Address List?</span></span>
 
-<span data-ttu-id="fc1aa-p130">Если он пользуется Exchange Online или его учетная запись связана с локальной средой Exchange вашей организации, при попытке изменить имя и адрес электронной почты пользователя может отображаться ошибка: "Этот пользователь синхронизирован с локальной службой Active Directory. Некоторые сведения можно изменить только в локальной службе Active Directory".</span><span class="sxs-lookup"><span data-stu-id="fc1aa-p130">If they are using Exchange Online or if their account is linked with your organization's on-premises Exchange environment, you might see this error when you try to change a username and email address: "This user is synchronized with your local Active Directory. Some details can be edited only through your local Active Directory."</span></span>
+<span data-ttu-id="2cc58-p112">Если он пользуется Exchange Online или его учетная запись связана с локальной средой Exchange вашей организации, при попытке изменить имя и адрес электронной почты пользователя может отображаться ошибка: "Этот пользователь синхронизирован с локальной службой Active Directory. Некоторые сведения можно изменить только в локальной службе Active Directory".</span><span class="sxs-lookup"><span data-stu-id="2cc58-p112">If they are using Exchange Online or if their account is linked with your organization's on-premises Exchange environment, you might see this error when you try to change a username and email address: "This user is synchronized with your local Active Directory. Some details can be edited only through your local Active Directory."</span></span>
   
-<span data-ttu-id="fc1aa-p131">Эта ошибка возникает из-за адреса маршрутизации электронной почты Microsoft Online (MOERA). MOERA формируется на основе атрибута _userPrincipalName_ пользователя в Active Directory и автоматически назначается облачной учетной записи во время начальной синхронизации. После создания изменить или удалить MOERA в Microsoft 365 невозможно. Вы можете изменить имя пользователя в Active Directory, однако MOERA при этом не меняется, из-за чего могут возникать проблемы с отображением нового имени в глобальном списке адресов.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-p131">This is due to the Microsoft Online Email Routing Address (MOERA). The MOERA is constructed from the person's  _userPrincipalName_ attribute in Active Directory and is automatically assigned to the cloud account during the initial sync and once created, it cannot be modified or removed in Microsoft 365. You can subsequently change the username in the Active Directory, but it doesn't change the MOERA and you may run into issues displaying the newly changed name in the Global Address List.</span></span> 
+<span data-ttu-id="2cc58-p113">Эта ошибка возникает из-за адреса маршрутизации электронной почты Microsoft Online (MOERA). MOERA формируется на основе атрибута _userPrincipalName_ пользователя в Active Directory и автоматически назначается облачной учетной записи во время начальной синхронизации. После создания изменить или удалить MOERA в Microsoft 365 невозможно. Вы можете изменить имя пользователя в Active Directory, однако MOERA при этом не меняется, из-за чего могут возникать проблемы с отображением нового имени в глобальном списке адресов.</span><span class="sxs-lookup"><span data-stu-id="2cc58-p113">This is due to the Microsoft Online Email Routing Address (MOERA). The MOERA is constructed from the person's  _userPrincipalName_ attribute in Active Directory and is automatically assigned to the cloud account during the initial sync and once created, it cannot be modified or removed in Microsoft 365. You can subsequently change the username in the Active Directory, but it doesn't change the MOERA and you may run into issues displaying the newly changed name in the Global Address List.</span></span> 
   
-<span data-ttu-id="fc1aa-226">Чтобы это исправить, войдите в [Модуль Azure Active Directory для PowerShell]( https://go.microsoft.com/fwlink/?LinkId=823193) с учетными данными администратора Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="fc1aa-226">To fix this, log in to the [Azure Active Directory Module for PowerShell]( https://go.microsoft.com/fwlink/?LinkId=823193) with your Microsoft 365 administrator credentials.</span></span> <span data-ttu-id="fc1aa-227">и используйте следующий синтаксис:</span><span class="sxs-lookup"><span data-stu-id="fc1aa-227">and use the following syntax:</span></span> 
+<span data-ttu-id="2cc58-170">Чтобы это исправить, войдите в [Модуль Azure Active Directory для PowerShell]( https://go.microsoft.com/fwlink/?LinkId=823193) с учетными данными администратора Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="2cc58-170">To fix this, log in to the [Azure Active Directory Module for PowerShell]( https://go.microsoft.com/fwlink/?LinkId=823193) with your Microsoft 365 administrator credentials.</span></span> <span data-ttu-id="2cc58-171">и используйте следующий синтаксис:</span><span class="sxs-lookup"><span data-stu-id="2cc58-171">and use the following syntax:</span></span> 
   
 ```powershell
 Set-MsolUserPrincipalName -UserPrincipalName anne.wallace@contoso.onmicrosoft.com -NewUserPrincipalName anne.jones@contoso.com
 ```
 
 > [!TIP]
-> <span data-ttu-id="fc1aa-228">Это меняет атрибут **userPrincipalName** пользователя и никак не влияет на его адрес маршрутизации электронной почты Microsoft Online (MOERA).</span><span class="sxs-lookup"><span data-stu-id="fc1aa-228">This changes the person's **userPrincipalName** attribute and has no bearing on their Microsoft Online Email Routing Address (MOERA) email address.</span></span> <span data-ttu-id="fc1aa-229">Однако лучше всего, когда имя участника-пользователя для входа совпадает с его основным SMTP-адресом.</span><span class="sxs-lookup"><span data-stu-id="fc1aa-229">It is best practice, however, to have the person's logon UPN match their primary SMTP address.</span></span> 
+> <span data-ttu-id="2cc58-172">Это меняет атрибут **userPrincipalName** пользователя и никак не влияет на его адрес маршрутизации электронной почты Microsoft Online (MOERA).</span><span class="sxs-lookup"><span data-stu-id="2cc58-172">This changes the person's **userPrincipalName** attribute and has no bearing on their Microsoft Online Email Routing Address (MOERA) email address.</span></span> <span data-ttu-id="2cc58-173">Однако лучше всего, когда имя участника-пользователя для входа совпадает с его основным SMTP-адресом.</span><span class="sxs-lookup"><span data-stu-id="2cc58-173">It is best practice, however, to have the person's logon UPN match their primary SMTP address.</span></span> 
   
-<span data-ttu-id="fc1aa-230">О том, как изменить имя пользователя в Active Directory в Windows Server 2003 и более ранних версиях, можно узнать в статье [Переименование учетной записи пользователя](/previous-versions/windows/it-pro/windows-server-2003/cc772952(v=ws.10)).</span><span class="sxs-lookup"><span data-stu-id="fc1aa-230">To learn how to change someone's username in Active Directory, in Windows Server 2003 and earlier, see [Rename a user account](/previous-versions/windows/it-pro/windows-server-2003/cc772952(v=ws.10)).</span></span>
+<span data-ttu-id="2cc58-174">О том, как изменить имя пользователя в Active Directory в Windows Server 2003 и более ранних версиях, можно узнать в статье [Переименование учетной записи пользователя](/previous-versions/windows/it-pro/windows-server-2003/cc772952(v=ws.10)).</span><span class="sxs-lookup"><span data-stu-id="2cc58-174">To learn how to change someone's username in Active Directory, in Windows Server 2003 and earlier, see [Rename a user account](/previous-versions/windows/it-pro/windows-server-2003/cc772952(v=ws.10)).</span></span>
   
-## <a name="related-content"></a><span data-ttu-id="fc1aa-231">См. также:</span><span class="sxs-lookup"><span data-stu-id="fc1aa-231">Related content</span></span>
+## <a name="related-content"></a><span data-ttu-id="2cc58-175">См. также:</span><span class="sxs-lookup"><span data-stu-id="2cc58-175">Related content</span></span>
 
-<span data-ttu-id="fc1aa-232">[Для администраторов: сброс пароля для одного или нескольких пользователей](reset-passwords.md) (статья)</span><span class="sxs-lookup"><span data-stu-id="fc1aa-232">[Admins: Reset a password for one or more users](reset-passwords.md) (article)</span></span>\
-<span data-ttu-id="fc1aa-233">[Добавление еще одного адреса электронной почты для пользователя](../email/add-another-email-alias-for-a-user.md) (статья)</span><span class="sxs-lookup"><span data-stu-id="fc1aa-233">[Add another email address to a user](../email/add-another-email-alias-for-a-user.md) (article)</span></span>\
-<span data-ttu-id="fc1aa-234">[Создание общего почтового ящика](../email/create-a-shared-mailbox.md) (статья)</span><span class="sxs-lookup"><span data-stu-id="fc1aa-234">[Create a shared mailbox](../email/create-a-shared-mailbox.md) (article)</span></span>
+<span data-ttu-id="2cc58-176">[Для администраторов: сброс пароля для одного или нескольких пользователей](reset-passwords.md) (статья)</span><span class="sxs-lookup"><span data-stu-id="2cc58-176">[Admins: Reset a password for one or more users](reset-passwords.md) (article)</span></span>\
+<span data-ttu-id="2cc58-177">[Добавление еще одного адреса электронной почты для пользователя](../email/add-another-email-alias-for-a-user.md) (статья)</span><span class="sxs-lookup"><span data-stu-id="2cc58-177">[Add another email address to a user](../email/add-another-email-alias-for-a-user.md) (article)</span></span>\
+<span data-ttu-id="2cc58-178">[Создание общего почтового ящика](../email/create-a-shared-mailbox.md) (статья)</span><span class="sxs-lookup"><span data-stu-id="2cc58-178">[Create a shared mailbox](../email/create-a-shared-mailbox.md) (article)</span></span>
