@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Узнайте, как настроить локальное Exchange Server для использования гибридной современной проверки подлинности (HMA), предлагая более безопасную проверку подлинности и авторизацию пользователей.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2ae7a09387b62abc9e8c74f4a38c2fe8750bab19
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: f52b7c011b717c5dcb91270ab0a7dd2015131c0e
+ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244555"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52694453"
 ---
 # <a name="how-to-configure-exchange-server-on-premises-to-use-hybrid-modern-authentication"></a>Как настроить локальное развертывание Exchange Server для использования гибридной современной проверки подлинности
 
@@ -140,7 +140,7 @@ ExternalAuthenticationMethods : {Ntlm, OAuth, Negotiate}
 Возвращайся к локальной Exchange командной оболочке для этой последней команды. Теперь вы можете проверить, есть ли у локального поставщика проверки подлинности evoSTS запись:
 
 ```powershell
-Get-AuthServer | where {$_.Name -eq "EvoSts"}
+Get-AuthServer | where {$_.Name -like "EvoSts"}
 ```
 
 На выходе должен быть показываться AuthServer имени EvoSts, а состояние "Включено" должно быть True. Если этого не видно, следует скачать и запустить новейшую версию мастера гибридной конфигурации.
@@ -162,7 +162,7 @@ Set-OrganizationConfig -OAuth2ClientProfileEnabled $true
 Если версия EXCH Exchange 2016 (CU18 или выше) или Exchange 2019 (CU7 или выше) и гибридная была настроена с HCW, загруженным после сентября 2020 г., запустите следующую команду в локальной Exchange Management Shell:
 
 ```powershell
-Set-AuthServer -Identity "EvoSTS - {GUID}" -Domain "Tenant Domain" -IsDefaultAuthorizationEndpoint $true
+Set-AuthServer -Identity "EvoSTS - {GUID}" -DomainName "Tenant Domain" -IsDefaultAuthorizationEndpoint $true
 Set-OrganizationConfig -OAuth2ClientProfileEnabled $true
 ```
 
@@ -190,6 +190,6 @@ Set-OrganizationConfig -OAuth2ClientProfileEnabled $true
 
 Приложение Outlook для iOS и Android разработано как лучший способ испытать Microsoft 365 или Office 365 на вашем мобильном устройстве с помощью службы Майкрософт для поиска, планирования и приоритетов вашей повседневной жизни и работы. Дополнительные сведения можно получить в ссылке Использование гибридной современной проверки подлинности [Outlook для iOS и Android.](https://docs.microsoft.com/exchange/clients/outlook-for-ios-and-android/use-hybrid-modern-auth?view=exchserver-2019)
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 [Современные требования к конфигурации проверки подлинности для перехода Office 365/ITAR на vNext](/exchange/troubleshoot/modern-authentication/modern-authentication-configuration)

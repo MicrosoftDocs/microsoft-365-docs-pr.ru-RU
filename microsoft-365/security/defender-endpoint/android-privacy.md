@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 1aaae2970cfb2f6da82507eefa87c8d0e2227661
-ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
+ms.openlocfilehash: c72e9491303d3f14ddb184e6a302a518643f709d
+ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51939628"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52694345"
 ---
 #  <a name="microsoft-defender-for-endpoint-on-android---privacy-information"></a>Microsoft Defender для конечной точки на Android — сведения о конфиденциальности
 
@@ -38,6 +38,8 @@ ms.locfileid: "51939628"
 
 Сведения собираются, чтобы защитить Defender для конечной точки для Android в соответствии с ожидаемым сроком выполнения и поддерживать службу.
 
+Дополнительные сведения о наиболее распространенных вопросах конфиденциальности о Microsoft Defender для конечной точки на мобильных устройствах Android и iOS см. в [веб-сайте Microsoft Defender for Endpoint](https://support.microsoft.com/topic/microsoft-defender-for-endpoint-and-your-privacy-on-android-and-ios-mobile-devices-4109bc54-8ec5-4433-9c33-d359b75ac22a)и конфиденциальности на мобильных устройствах Android и iOS.
+
 ## <a name="required-data"></a>Необходимые данные 
 
 Необходимые данные состоят из данных, необходимых для обеспечения работы Defender для Конечной точки для Android, как и ожидалось. Эти данные необходимы для работы службы и могут включать данные, связанные с конечным пользователем, организацией, устройством и приложениями. Вот список типов собираемой информации:
@@ -47,7 +49,7 @@ ms.locfileid: "51939628"
 Сведения о **вредоносных** пакетах приложений для Android (APKs) на устройстве, включая
 
 -  Источник установки
--  Расположение хранилища (путь файла) apK
+-  служба хранилища (путь к файлу) apK
 -  Время установки, размер AK и разрешения
 
 ### <a name="web-page--network-information"></a>Веб-страница / Сведения о сети
@@ -66,7 +68,7 @@ ms.locfileid: "51939628"
     - Случайно созданный глобальный уникальный идентификатор (GUID)
 
 - Сведения о клиентах, устройствах и пользователях
-    -   Идентификатор устройства Azure Active Directory (AD) и идентификатор пользователя Azure: уникально идентифицирует устройство, пользователь соответственно в каталоге Azure Active.
+    -   Azure Active Directory (AD) идентификатор устройства и идентификатор пользователя Azure: уникально идентифицирует устройство, пользователь соответственно в каталоге Azure Active.
 
     -   Идентификатор клиента Azure — GUID, идентифицирует организацию в Azure Active Directory
 

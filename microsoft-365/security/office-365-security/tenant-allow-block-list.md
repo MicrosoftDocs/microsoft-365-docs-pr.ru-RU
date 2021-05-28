@@ -16,12 +16,12 @@ ms.collection:
 description: Администраторы могут научиться настраивать разрешит и блокирует в списке разрешить или заблокировать клиента на портале безопасности.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 270e38d65857de2f4d06460fb3bb77f72a165ecf
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 636114180a1814f5ef842b2a704f2df98488f46e
+ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538967"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52694489"
 ---
 # <a name="manage-the-tenant-allowblock-list"></a>Управление списком разрешенных и запрещенных клиентов
 
@@ -44,7 +44,6 @@ ms.locfileid: "52538967"
 
 - URL-адреса для блокировки.
 - Файлы для блокировки.
-- Массовые домены отправитель почты, чтобы разрешить. Дополнительные сведения о массовой почте, уровне массовой уверенности (BCL) и массовой фильтрации почты политиками защиты от нежелательной почты см. в сообщении [Bulk complaint level (BCL) в EOP.](bulk-complaint-level-values.md)
 - Spoofed senders to allow or block. Если переопределять решение разрешить [](learn-about-spoof-intelligence.md)или заблокировать в анализе подмены сведений, подмена отправитель становится ручным разрешением или блокировкой записи, которая отображается только на вкладке **Spoof** в списке разрешить или заблокировать клиента. Вы также можете вручную создавать записи для подмены отправителей, прежде чем они будут обнаружены с помощью подмены.
 
 В этой статье описывается настройка записей в Списке разрешения клиента или блока в Центре обеспечения безопасности & или в PowerShell (Exchange Online PowerShell для Microsoft 365 организаций с почтовыми ящиками в Exchange Online; автономный EOP PowerShell для организаций без Exchange Online почтовых ящиков).
@@ -76,7 +75,7 @@ ms.locfileid: "52538967"
 - Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell). Чтобы подключиться к автономному EOP PowerShell, см. раздел [Подключение к PowerShell Exchange Online Protection](/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
 - Для выполнения процедур, описанных в этой статье, вам должны быть назначены разрешения в Exchange Online:
-  - **URL-адреса, файлы и разрешить массовым отправителям:**
+  - **URL-адреса и файлы:**
     - Чтобы добавить и удалить значения из списка "Разрешить или заблокировать клиента", необходимо быть членом группы ролей администратора организации или **администратора** безопасности. 
     - Чтобы получить доступ только для чтения к списку разрешить или заблокировать клиента, необходимо быть членом групп ролей **Global Reader** или **Security Reader.**
   - **Spoofing**: Одна из следующих комбинаций:
@@ -135,26 +134,6 @@ ms.locfileid: "52538967"
 
 4. Когда вы закончите, нажмите **Добавить**.
 
-## <a name="use-the-security--compliance-center-to-create-allow-bulk-mail-sender-domain-entries-in-the-tenant-allowblock-list"></a>Используйте Центр & безопасности, чтобы создать возможность массовой записи домена отправителя почты в списке разрешить или заблокировать клиента
-
-1. В Центре обеспечения & безопасности перейдите в **список** "Разрешить и заблокировать" политики управления \>  \> **угрозами.**
-
-2. На странице **Разрешить или заблокировать** список клиента выберите домены Отправитель для вкладки **обхода BCL** и нажмите **кнопку Добавить**.
-
-3. В **домене Добавить отправитель для обхода BCL,** который отображается, настройте следующие параметры:
-
-   - **Добавление доменов отправитель для обхода BCL:** Введите один исходный домен хорошей массовой почты в строке, не более 20.
-
-   - **Никогда не истекает** срок действия: Сделайте один из следующих действий:
-
-     - Проверьте отключение параметра (Отключение) и используйте истекает в поле, чтобы указать дату истечения ![ ](../../media/scc-toggle-off.png) срока действия записей. 
-
-     или
-
-     - Переместите окантовку вправо, чтобы настроить записи, чтобы никогда не истекал срок действия: ![Включенный переключатель](../../media/scc-toggle-on.png).
-
-4. Когда вы закончите, нажмите **Добавить**.
-
 ## <a name="use-the-security--compliance-center-to-create-allow-or-block-spoofed-sender-entries-in-the-tenant-allowblock-list"></a>Используйте Центр & безопасности для создания записей подмены отправителя в списке разрешить или заблокировать подмену
 
 **Примечания**:
@@ -198,11 +177,6 @@ ms.locfileid: "52538967"
      - **Последняя обновленная дата**
      - **Срок действия**
      - **Примечание**
-
-   - **Домены отправитель для обхода BCL**
-     - **Значение.** Домен отправитель массовой почты.
-     - **Последняя обновленная дата**
-     - **Срок действия**
 
    - **Спуфинг**
      - **Подмена пользователя**
@@ -272,7 +246,7 @@ ms.locfileid: "52538967"
    - **Спуфинг**
      - **Действие.** Можно изменить значение **Разрешить или** **заблокировать**.
 
-4. По завершении нажмите **Сохранить**.
+4. Выполнив необходимые действия, нажмите кнопку **Сохранить**.
 
 ## <a name="use-the-security--compliance-center-to-remove-entries-from-the-tenant-allowblock-list"></a>Используйте Центр & безопасности для удаления записей из списка разрешить или заблокировать клиента
 
@@ -312,23 +286,6 @@ New-TenantAllowBlockListItems -ListType Url -Block -Entries ~contoso.com
 
 Подробные сведения о синтаксисе и параметрах см. в [обзоре New-TenantAllowBlockListItems.](/powershell/module/exchange/new-tenantallowblocklistitems)
 
-### <a name="use-powershell-to-add-allow-bulk-mail-sender-domain-entries-to-the-tenant-allowblock-list"></a>Использование PowerShell для добавления записей домена отправителя массовой почты в список разрешить или заблокировать клиента
-
-Чтобы добавить допустимые объемные записи домена отправителя почты в списке разрешить или заблокировать клиента, используйте следующий синтаксис:
-
-```powershell
-New-TenantAllowBlockListItems -ListType BulkSender -Block:$false -Entries "Value1","Value2",..."ValueN" <-ExpirationDate Date | -NoExpiration> [-Notes <String>]
-```
-
-В этом примере добавляется разрешенная запись отправитель массы для указанного домена, срок действия которого никогда не истекает.
-
-```powershell
-New-TenantAllowBlockListItem -ListType BulkSender -Block:$false -Entries contosodailydeals.com
-New-TenantAllowBlockListItems -ListType FileHash -Block -Entries "768a813668695ef2483b2bde7cf5d1b2db0423a0d3e63e498f3ab6f2eb13ea3","2c0a35409ff0873cfa28b70b8224e9aca2362241c1f0ed6f622fef8d4722fd9a" -NoExpiration
-```
-
-Подробные сведения о синтаксисе и параметрах см. в [обзоре New-TenantAllowBlockListItems.](/powershell/module/exchange/new-tenantallowblocklistitems)
-
 ### <a name="use-powershell-to-add-allow-or-block-spoofed-sender-entries-to-the-tenant-allowblock-list"></a>Используйте PowerShell, чтобы добавить в список разрешить или заблокировать поддельные записи отправителя в список разрешить или заблокировать клиента.
 
 Чтобы добавить подменные записи отправителя в список разрешить или заблокировать клиента, используйте следующий синтаксис:
@@ -357,28 +314,6 @@ Get-TenantAllowBlockListItems -ListType FileHash -Entry "9f86d081884c7d659a2feaa
 
 ```powershell
 Get-TenantAllowBlockListItems -ListType Url -Block
-```
-
-Подробные сведения о синтаксисе и параметрах см. в [обзоре Get-TenantAllowBlockListItems.](/powershell/module/exchange/get-tenantallowblocklistitems)
-
-### <a name="use-powershell-to-view-allow-bulk-mail-sender-domain-entries-in-the-tenant-allowblock-list"></a>Использование PowerShell для просмотра записей домена отправителя массовой почты в списке разрешить или заблокировать клиента
-
-Чтобы просмотреть допустимые записи домена отправителя массовой почты в списке разрешить или заблокировать клиента, используйте следующий синтаксис:
-
-```powershell
-Get-TenantAllowBlockListItems -ListType BulkSender [-Entry <BulkSenderDomainValue>] [<-ExpirationDate Date | -NoExpiration>]
-```
-
-В этом примере возвращаются все разрешенные домены отправитель массовой почты.
-
-```powershell
-Get-TenantAllowBlockListItems -ListType BulkSender
-```
-
-В этом примере возвращается информация для указанного домена отправитель массы.
-
-```powershell
-Get-TenantAllowBlockListItems -ListType FileHash -Entry "contosodailydeals.com"
 ```
 
 Подробные сведения о синтаксисе и параметрах см. в [обзоре Get-TenantAllowBlockListItems.](/powershell/module/exchange/get-tenantallowblocklistitems)
@@ -427,22 +362,6 @@ Set-TenantAllowBlockListItems -ListType Url -Ids "RgAAAAAI8gSyI_NmQqzeh-HXJBywBw
 
 Подробные сведения о синтаксисе и параметрах см. в [ссылке Set-TenantAllowBlockListItems.](/powershell/module/exchange/set-tenantallowblocklistitems)
 
-### <a name="use-powershell-to-modify-allow-bulk-mail-sender-domain-entries-in-the-tenant-allowblock-list"></a>Использование PowerShell для изменения допуска записей домена отправителя массовой почты в списке разрешить или заблокировать клиента
-
-Чтобы изменить допустимые объемные записи домена отправителя почты в списке разрешить или заблокировать клиента, используйте следующий синтаксис:
-
-```powershell
-Get-TenantAllowBlockListItems -ListType BulkSender -Ids <"Id1","Id2",..."IdN"> [<-ExpirationDate Date | -NoExpiration>] [-Notes <String>]
-```
-
-В этом примере изменяется срок действия указанной записи домена отправитель массовой почты, которая никогда не истекает.
-
-```powershell
-Set-TenantAllowBlockListItems -ListType BulkSender -Ids "RgAAAAAI8gSyI_NmQqzeh-HXJBywBwCqfQNJY8hBTbdlKFkv6BcUAAAl_QCZAACqfQNJY8hBTbdlKFkv6BcUAAAl_oSRAAAA" -NoExpiration
-```
-
-Подробные сведения о синтаксисе и параметрах см. в [обзоре Get-TenantAllowBlockListItems.](/powershell/module/exchange/get-tenantallowblocklistitems)
-
 ### <a name="use-powershell-to-modify-allow-or-block-spoofed-sender-entries-in-the-tenant-allowblock-list"></a>Использование PowerShell для изменения допуска или блокировки подмены записей отправителя в списке разрешить или заблокировать клиента
 
 Чтобы изменить допустимые или заблокированные записи отправителя в списке разрешить или заблокировать клиента, используйте следующий синтаксис:
@@ -459,12 +378,12 @@ Set-TenantAllowBlockListItems -Ids "RgAAAAAI8gSyI_NmQqzeh-HXJBywBwCqfQNJY8hBTbdl
 
 Подробные сведения о синтаксисе и параметрах см. в [инструкции Set-TenantAllowBlockListSpoofItems.](/powershell/module/exchange/set-tenantallowblocklistspoofitems)
 
-### <a name="use-powershell-to-remove-bulk-mail-sender-domain-file-and-domain-entries-from-the-tenant-allowblock-list"></a>Использование PowerShell для удаления домена, файла и домена для массовой отправки почты из списка разрешить или заблокировать клиента
+### <a name="use-powershell-to-remove-url-or-file-entries-from-the-tenant-allowblock-list"></a>Использование PowerShell для удаления URL-адресов или записей файлов из списка разрешить или заблокировать клиента
 
-Чтобы удалить допустимые объемные записи домена отправителя почты, блокировать записи файлов и блокировать записи URL-адресов из списка разрешить или заблокировать клиента, используйте следующий синтаксис:
+Чтобы удалить записи файлов и URL-адресов из списка разрешить или заблокировать клиента, используйте следующий синтаксис:
 
 ```powershell
-Remove-TenantAllowBlockListItems -ListType <BulkSender | FileHash | Url> -Ids <"Id1","Id2",..."IdN">
+Remove-TenantAllowBlockListItems -ListType <FileHash | Url> -Ids <"Id1","Id2",..."IdN">
 ```
 
 В этом примере удаляется указанная запись URL-адреса блокировки из списка разрешить или блокировать клиента.
@@ -693,7 +612,7 @@ Remove-TenantAllowBlockListSpoofItems -Ids <"Id1","Id2",..."IdN">
   - contoso
   - \*.contoso.\*
   - \*.com
-  - \*PDF
+  - \*.pdf
 
 - **Под диктовка текста или без интервалов символов:**
 

@@ -17,12 +17,12 @@ search.appverid:
 - SPO160
 - MET150
 description: В этой статье описывается, как можно запустить портал с помощью планера запуска Портала
-ms.openlocfilehash: d7ea64b3a9fef25ddfde43e61624e49d2b7d4352
-ms.sourcegitcommit: 8e4c107e4da3a00be0511b05bc655a98fe871a54
+ms.openlocfilehash: fdf92f2bbdfb673f1db446b562e941d61679fa9a
+ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52280974"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52694357"
 ---
 # <a name="launch-your-portal-using-the-sharepoint-portal-launch-scheduler"></a>Запуск портала с помощью SharePoint календаря запуска портала
 
@@ -95,7 +95,7 @@ ms.locfileid: "52280974"
     - Менее 10k пользователей: две волны
     - От 10k до 30k пользователей: три волны 
     - 30k+ до 100k пользователей: пять волн
-    - Более 100k пользователей: пять волн и свяжитесь с командой учетных записей Майкрософт
+    - Более 100k пользователей: пять волн и свяжитесь с Microsoft по шагам, перечисленным на портале Запуск с более чем 100k пользователей раздела. 
 
 5.  Затем определите **необходимый тип перенаправления:**
 
@@ -118,6 +118,26 @@ ms.locfileid: "52280974"
 
 8.  Подтверждение сведений о запуске портала и выберите **Расписание.** После запланированного запуска все изменения на домашней странице SharePoint портала должны получить здоровый диагностический результат до возобновления запуска портала.
 
+### <a name="launch-portal-with-over-100k-users"></a>Запуск портала с более чем 100k пользователей
+
+Если вы планируете выполнить миграцию данных с размером более 100 ТБ, отправьте запрос в службу поддержки, выполнив указанные ниже действия. Убедитесь в том, что вы включили всю необходимую информацию.
+
+Выполните приведенные ниже действия.
+1. Перейдите на сайт https://admin.microsoft.com
+2. Убедитесь, что вы используете предварительную версию нового Центра администрирования.
+3. В области навигации слева выберите пункт **Поддержка**, а затем — **Создать запрос на обслуживание**. 
+
+
+   Откроется область **Нужна помощь?** в правой части экрана.
+
+4.  В **кратком описании области** проблемы введите "Запуск SharePoint с 100k пользователями".</br>
+5. Выберите **Обратиться в службу поддержки**.
+6. В **статье Описание** введите "Запуск SharePoint с 100k пользователями". 
+7. Заполните остальные сведения и нажмите **Связаться со мной**.
+8. После создания запроса предоставьте агенту поддержки следующие сведения:
+- URL-адрес портала запуска 
+- Количество ожидаемых пользователей
+- Предполагаемое время запуска 
 
 ## <a name="make-changes-to-a-scheduled-portal-launch"></a>Внесение изменений в запланированный запуск портала
 
@@ -187,7 +207,7 @@ ms.locfileid: "52280974"
    New-SPOPortalLaunchWaves -LaunchSiteUrl <object> -RedirectionType Bidirectional -RedirectUrl <string> -ExpectedNumberOfUsers <object> -WaveOverrideUsers <object> -Waves <object>
    ```
 
-   Пример:
+   Пример.
 
    ```PowerShell
    New-SPOPortalLaunchWaves -LaunchSiteUrl "https://contoso.sharepoint.com/teams/newsite" -RedirectionType Bidirectional -RedirectUrl "https://contoso.sharepoint.com/teams/oldsite" -ExpectedNumberOfUsers 10kTo30kUsers -WaveOverrideUsers "admin@contoso.com" -Waves ' 
@@ -208,7 +228,7 @@ ms.locfileid: "52280974"
    New-SPOPortalLaunchWaves -LaunchSiteUrl <object> -RedirectionType ToTemporaryPage -RedirectUrl <string> -ExpectedNumberOfUsers <object> -WaveOverrideUsers <object> -Waves <object>
    ```
 
-   Пример:
+   Пример.
 
    ```PowerShell
    New-SPOPortalLaunchWaves -LaunchSiteUrl "https://contoso.sharepoint.com/teams/newsite" -RedirectionType ToTemporaryPage -RedirectUrl "https://portal.contoso.com/UnderConstruction.aspx" -ExpectedNumberOfUsers 10kTo30kUsers -WaveOverrideUsers "admin@contoso.com" -Waves ' 

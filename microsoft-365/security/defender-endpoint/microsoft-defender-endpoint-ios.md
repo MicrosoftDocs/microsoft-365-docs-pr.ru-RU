@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 3d9dd871edba29ec6119329f98ada990abad6e8d
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 4a051742775c3d4e8b36bf0ba7a4fd2502763014
+ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52246420"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52694465"
 ---
 # <a name="microsoft-defender-for-endpoint-on-ios"></a>Microsoft Defender для конечной точки в iOS
 
@@ -62,9 +62,6 @@ ms.locfileid: "52246420"
 
 - Доступ к [Microsoft Endpoint Manager центра администрирования,](https://go.microsoft.com/fwlink/?linkid=2109431)чтобы развернуть приложение для зарегистрированных групп пользователей в вашей организации.
 
-**Требования к сети**
-- Чтобы Microsoft Defender для конечной точки на iOS функционировала при подстройке к сети, необходимо настроить брандмауэр/прокси, чтобы включить доступ к URL-адресам [службы Microsoft Defender для конечных точек.](configure-proxy-internet.md#enable-access-to-microsoft-defender-for-endpoint-service-urls-in-the-proxy-server)
-
 **Требования к системе**
 
 - устройства iOS с iOS 11.0 и выше. iPad официально поддерживается с версии 1.1.15010101.
@@ -72,7 +69,7 @@ ms.locfileid: "52246420"
 - Устройство записуется с [приложением Корпоративный портал Intune.](https://apps.apple.com/us/app/intune-company-portal/id719171358)
 
 > [!NOTE]
-> **ATP в Защитнике Microsoft (Microsoft Defender для конечной точки) на iOS теперь доступна в [Apple App Store.](https://aka.ms/mdatpiosappstore)**
+> **Microsoft Defender для конечной точки на iOS доступен в [Apple App Store.](https://aka.ms/mdatpiosappstore)**
 
 ## <a name="installation-instructions"></a>Инструкции по установке
 
@@ -85,7 +82,7 @@ ms.locfileid: "52246420"
 
 - Предоставление обратной связи через систему обратной связи в приложении или через [портал SecOps](https://securitycenter.microsoft.com)
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 - [Развертывание Microsoft Defender для конечной точки на iOS](ios-install.md)
 - [Настройка Microsoft Defender для конечной точки для функций iOS](ios-configure-features.md)

@@ -11,13 +11,13 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 localization_priority: Normal
-description: Узнайте о возможностях с несколькими географическими возможностями в Exchange Online, например ограничениях функций и размещении почтовых ящиков.
-ms.openlocfilehash: bf1c3c8f510c57f47cbfc7b2609d97f5932e05d3
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+description: Узнайте о возможностях нескольких geo в Exchange Online, таких как ограничения функций и размещение почтовых ящиков.
+ms.openlocfilehash: 4c8f873039cd14251931125f5af2c04b7cbfe719
+ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50923736"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52694309"
 ---
 # <a name="multi-geo-capabilities-in-exchange-online"></a>Поддержка нескольких регионов в Exchange Online
 
@@ -43,7 +43,7 @@ Exchange Online синхронизирует свойство **PreferredDataLoc
 
 - Если свойство **PreferredDataLocation** не указано для пользователя, при подготовке почтового ящика он будет располагаться в центральном географическом расположении.
 
-- Если код **PreferredDataLocation** указан неправильно (например, указан тип NAN вместо NAM), почтовый ящик подготавливается в центральном географическом расположении.
+- Если код **PreferredDataLocation** неверен (например, опечатка NAN вместо NAM), почтовый ящик будет расположен в центральном географическом расположении.
 
 **Примечание.** Функция поддержки нескольких регионов и собрания Skype для бизнеса Online, проводящиеся с учетом региона, используют свойство **PreferredDataLocation** объектов user для расположения служб. Если вы настроите значения **PreferredDataLocation** объектов user для собраний, проводящихся с учетом региона, почтовый ящик для этих пользователей будет автоматически перемещен в указанное географическое расположение после включения поддержки нескольких регионов в клиенте Microsoft 365.
 

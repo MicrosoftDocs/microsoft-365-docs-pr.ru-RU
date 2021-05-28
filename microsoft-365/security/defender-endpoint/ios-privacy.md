@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 15c22a6f6b581ff68488db6628f7647d49487652
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: b1d64ceb7b0027546e84a9c42c8d2ffed188c03b
+ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934289"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52694477"
 ---
 # <a name="privacy-information---microsoft-defender-for-endpoint-on-ios"></a>Сведения о конфиденциальности — Microsoft Defender для конечной точки на iOS
 
@@ -39,6 +39,9 @@ ms.locfileid: "51934289"
 Defender for Endpoint на iOS собирает сведения с настроенных устройств iOS и хранит их в том же клиенте, где у вас есть Defender for Endpoint. Сведения собираются для обеспечения безопасности Defender for Endpoint на iOS в соответствии с ожидаемым сроком выполнения и поддержки службы.
 
 Дополнительные сведения о хранении данных см. в [веб-сайте Microsoft Defender для хранения и конфиденциальности данных конечной точки.](data-storage-privacy.md)
+
+
+Дополнительные сведения о наиболее распространенных вопросах конфиденциальности о Microsoft Defender для конечной точки на мобильных устройствах Android и iOS см. в [веб-сайте Microsoft Defender for Endpoint](https://support.microsoft.com/topic/microsoft-defender-for-endpoint-and-your-privacy-on-android-and-ios-mobile-devices-4109bc54-8ec5-4433-9c33-d359b75ac22a)и конфиденциальности на мобильных устройствах Android и iOS.
 
 ## <a name="required-data"></a>Необходимые данные 
 
@@ -60,7 +63,7 @@ Defender for Endpoint на iOS собирает сведения с настро
 
 - Сведения о клиентах, устройствах и пользователях 
 
-    - Идентификатор устройства Azure Active Directory (AD) и идентификатор пользователя Azure — уникально идентифицирует устройство, пользователь соответственно в каталоге Azure Active. 
+    - Azure Active Directory идентификатор устройства (AD) и идентификатор пользователя Azure — уникально идентифицирует устройство, пользователь соответственно в каталоге Azure Active. 
 
     - Идентификатор клиента Azure — GUID, идентифицирует организацию в Azure Active Directory. 
 
