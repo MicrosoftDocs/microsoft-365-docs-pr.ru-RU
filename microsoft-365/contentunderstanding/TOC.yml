@@ -42,19 +42,21 @@
   items:
     - name: Начало работы по принятию
       href: adoption-getstarted.md
-    - name: "Управление контрактами в Microsoft\_365"
+    - name: Сценарии и варианты использования
+      href: adoption-scenarios.md
+    - name: Управление контрактами в Microsoft 365
       items:
         - name: Обзор
           href: solution-manage-contracts-in-microsoft-365.md
         - name: Этап 1. Использование SharePoint Syntex
           href: solution-manage-contracts-step1.md
-        - name: "Этап\_2. Использование Microsoft Teams"
+        - name: Этап 2. Использование Microsoft Teams
           href: solution-manage-contracts-step2.md
-        - name: "Этап\_3. Power Automate"
+        - name: Этап 3. Power Automate
           href: solution-manage-contracts-step3.md
 - name: Настройка и администрирование
   items:
-    - name: Настройка осмысления контента
+    - name: Настройка SharePoint Syntex
       href: set-up-content-understanding.md
 - name: Службы контента
   items:

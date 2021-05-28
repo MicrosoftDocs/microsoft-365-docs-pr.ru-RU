@@ -110,12 +110,14 @@
           href: sit-modify-edm-schema-configurable-match.md
         - name: Создание уведомлений для действий точного соответствия данных (предварительная версия)
           href: sit-edm-notifications-activities.md
-        - name: Создание пользовательского типа конфиденциальной информации в Центре безопасности и соответствия требованиям
+        - name: Создание пользовательского типа конфиденциальной информации в Центре соответствия требованиям
           href: create-a-custom-sensitive-information-type.md
         - name: Создание пользовательского типа конфиденциальной информации — PowerShell
           href: create-a-custom-sensitive-information-type-in-scc-powershell.md
         - name: Создание словаря ключевых слов
           href: create-a-keyword-dictionary.md
+        - name: Изменение словаря ключевых слов
+          href: sit-modify-keyword-dictionary.md
         - name: Создание отпечатка документа
           href: document-fingerprinting.md
     - name: Обучаемые классификаторы
@@ -124,8 +126,6 @@
           href: classifier-learn-about.md
         - name: Начало работы с обучаемыми классификаторами
           href: classifier-get-started-with.md
-        - name: Повторное обучение классификаторов в соответствии с требованиями к обмену данными
-          href: classifier-how-to-retrain-comms-compliance.md
         - name: Повторное обучение классификаторов в обозревателе содержимого
           href: classifier-how-to-retrain-content-explorer.md
     - name: Классификация данных
