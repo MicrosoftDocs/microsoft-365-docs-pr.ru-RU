@@ -18,16 +18,16 @@ ms.collection:
 - m365initiative-compliance
 recommendations: false
 description: Внедрение Microsoft Information Protection (MIP) для защиты конфиденциальной информации в любом расположении, где она находится или куда перемещается.
-ms.openlocfilehash: a68f8dee00117af1fa4d7be5f459ed5c850a5100
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 2de9b1e4a3901477df883287a1ee350885de5513
+ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332754"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52683695"
 ---
 # <a name="microsoft-information-protection-in-microsoft-365"></a>Microsoft Information Protection в Microsoft 365
 
->*[Лицензирование для Центра безопасности и соответствия требованиям Microsoft 365](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)*
+>*[Лицензирование для Центра безопасности и соответствия требованиям Microsoft 365](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)*
 
 Внедрение Microsoft Information Protection (MIP) для поиска, классификации и защиты конфиденциальной информации в любом расположении, где она находится или куда перемещается.
 
@@ -41,9 +41,6 @@ ms.locfileid: "52332754"
 
 > [!NOTE]
 > Сведения о классификации данных и присвоении им меток в Azure Purview (в настоящее время доступно в предварительной версии) см. в статье [Автоматическое применение меток к содержимому в Azure Purview](/azure/purview/create-sensitivity-label).
-> 
-> Объявления о выпуске Azure Purview см. в следующих записях блога: [Microsoft Information Protection и Microsoft Azure Purview: вместе еще лучше](https://techcommunity.microsoft.com/t5/microsoft-security-and/microsoft-information-protection-and-microsoft-azure-purview/ba-p/1957481) и [Azure Purview на весенней конференции Ignite 2021](https://techcommunity.microsoft.com/t5/azure-purview/azure-purview-at-spring-ignite-2021/ba-p/2175919).
-
 
 Чтобы ознакомиться с ландшафтом данных и идентифицировать важные данные в гибридной среде, используйте следующие возможности:
  
@@ -83,3 +80,7 @@ ms.locfileid: "52332754"
 |[Расширение соответствия требованиям Майкрософт (предварительная версия)](dlp-chrome-learn-about.md) | Расширение возможностей защиты от потери данных в браузере Chrome | [Начало работы с расширением соответствия требованиям Майкрософт (предварительная версия)](dlp-chrome-get-started.md)|
 |[Локальный сканер для защиты от потери данных Microsoft 365 (предварительная версия)](dlp-on-premises-scanner-learn.md)|Расширяет возможности защиты от потери данных по отслеживанию действий и защитных мер для файлов в локальных общих папках, а также в папках и библиотеках документов SharePoint.|[Начало работы с локальным сканером для защиты от потери данных Microsoft 365 (предварительная версия)](dlp-on-premises-scanner-get-started.md)|
 |[Защита конфиденциальной информации в чатах и сообщениях каналов Microsoft Teams](dlp-microsoft-teams.md) | Расширяет некоторые функции защиты от потери данных для чатов и сообщений каналов Teams | [Сведения о политике защиты от потери данных по умолчанию в Microsoft Teams (предварительная версия)](dlp-teams-default-policy.md)|
+
+## <a name="licensing-requirements"></a>Требования к лицензированию
+
+Требования к лицензиям для MIP зависят от используемых сценариев и компонентов, а не от заданных требований к лицензированию каждой из функций, перечисленных на этой странице. Чтобы узнать о требованиях к лицензированию и доступных возможностях MIP, см. раздел [Information Protection](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection) в документации по лицензированию Microsoft 365. Скачайте соответствующий файл PDF или Excel.
