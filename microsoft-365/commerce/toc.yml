@@ -66,6 +66,8 @@
       href: billing-and-payments/change-your-billing-addresses.md
     - name: Сведения о "Директиве о платежных услугах 2" и строгой аутентификации клиентов
       href: billing-and-payments/psd2.md
+    - name: Запрос кредита на удержание налога с вашей учетной записи
+      href: billing-and-payments/withholding-tax-credit-global.md
 - name: Учетные записи выставления счетов
   items:
     - name: Общие сведения об учетных записях выставления счетов
