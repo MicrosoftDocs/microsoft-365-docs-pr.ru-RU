@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Будь то добавление новых решений в центр соответствия требованиям, обновление существующих функций на основе отзывов или развертывание свежей и обновленной документации, Microsoft 365 поможет вам оставаться на вершине постоянно меняющегося ландшафта соответствия требованиям. Узнайте, чем мы были в этом месяце.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 11055e6f27df08a1726fb3ba65a5accafbf93723
-ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
+ms.openlocfilehash: ae1df2ce6373e4a8f6b01c33e50bea5e6c16ca0a
+ms.sourcegitcommit: 4bcac4cb4f9399ebbd7c8cff0abb4d6ecedb731e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52029043"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52698956"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Новые возможности центра соответствия требованиям Microsoft 365
 
@@ -34,7 +34,39 @@ ms.locfileid: "52029043"
 
 > [!TIP]
 > Интересует, что происходит в других центрах администрирования? Ознакомьтесь с этими статьями:<br>[Новые возможности в центре администрирования Microsoft 365](/office365/admin/whats-new-in-preview)<br>[Новые возможности центра администрирования SharePoint](/sharepoint/what-s-new-in-admin-center)<br>[Новые возможности Microsoft 365 Defender](../security/defender/whats-new.md)<br><br>
-И посетите [Microsoft 365](https://www.microsoft.com/en-us/microsoft-365/roadmap) дорожную карту, чтобы узнать Microsoft 365, которые были запущены, запущены, находятся в разработке, отменены или ранее выпущены.
+И посетите [Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap) дорожную карту, чтобы узнать Microsoft 365, которые были запущены, запущены, находятся в разработке, отменены или ранее выпущены.
+
+## <a name="april-2021"></a>Апрель 2021 г.
+
+### <a name="advanced-ediscovery"></a>Advanced eDiscovery
+
+- [Ограничения в Advanced eDiscovery](/microsoft-365/compliance/limits-ediscovery20#export-limits---final-export-out-of-review-set). Теперь организации могут экспортировать до 5 миллионов элементов или 500 МБ, в зависимости от того, меньше, в одном экспорте элементов из набора обзоров.
+
+### <a name="data-classification"></a>Классификация данных
+
+- [Действия по маркировке, доступные в проводнике действий](/microsoft-365/compliance/data-classification-activity-explorer-available-events)
+
+### <a name="data-connectors"></a>Соединители данных
+
+- [Настройка соединителя для архива Cisco Jabber на данных Oracle]/microsoft-365/compliance/archive-ciscojabberonoracle-data)
+- [Настройка соединителя для архива Cisco Jabber на данных PostgreSQL](/microsoft-365/compliance/archive-ciscojabberonpostgresql-data)
+
+### <a name="data-loss-prevention"></a>Защита от потери данных
+
+- Новая тема для [рекомендаций по предотвращению потери](/microsoft-365/compliance/dlp-policy-tips-reference)данных.
+- Новая тема для [Сведения о предотвращении потери данных.](/microsoft-365/compliance/dlp-learn-about-dlp)
+- Новая тема для [Начала работы с информационной панелью](/microsoft-365/compliance/dlp-alerts-dashboard-get-started)оповещений о предотвращении потери данных.
+
+### <a name="retention-policies-and-retention-label-policies"></a>Политики хранения и политики меток хранения
+
+- Расположение Microsoft 365 Групп теперь поддерживает применение параметров хранения только для Microsoft 365 почтовых ящиков или только подключенных SharePoint сайтов с помощью [комлета Set-RetentionCompliancePolicy PowerShell](/powershell/module/exchange/set-retentioncompliancepolicy) с параметром Applications.
+
+### <a name="sensitivity-labels"></a>Метки конфиденциальности
+
+Outlook выпусков и обновлений:
+- Ранее поддерживаемая только клиентом единой маркировки AIP, встроенная маркировка теперь поддерживает различные параметры для метки по умолчанию и [обязательной маркировки.](sensitivity-labels-office-apps.md#outlook-specific-options-for-default-label-and-mandatory-labeling)
+- Encrypt-Only поддерживается macOS, iOS и Android
+- Управление метами конфиденциальности в [Office](/microsoft-365/compliance/sensitivity-labels-office-apps) приложениях, обновленных новыми записями в [](/microsoft-365/compliance/sensitivity-labels-office-apps#outlook-specific-options-for-default-label-and-mandatory-labeling) таблице [возможностей Outlook](/microsoft-365/compliance/sensitivity-labels-office-apps#sensitivity-label-capabilities-in-outlook) для различных параметров метки по умолчанию и обязательной маркировкой для нового выпуска функций Outlook для встроенной маркировки для поддержки другой метки по умолчанию и освобождения от обязательной маркировки. Кроме того, Encrypt-Only теперь поддерживается macOS/iOS/Android, и все динамические разметки с переменными теперь поддерживаются во всех Outlook клиентах. Обязательная маркировка теперь развертывается на оставшихся платформах.
 
 ## <a name="march-2021"></a>Март 2021 г.
 
@@ -42,27 +74,27 @@ ms.locfileid: "52029043"
 
 ### <a name="advanced-ediscovery"></a>Advanced eDiscovery
 
-- **Advanced eDiscovery коллекции** теперь поддерживают новый инструмент и рабочий [процесс коллекций.](https://docs.microsoft.com/microsoft-365/compliance/collections-overview) Другие новые темы [включают создание черновика коллекции,](https://docs.microsoft.com/microsoft-365/compliance/create-draft-collection)фиксацию [черновика](https://docs.microsoft.com/microsoft-365/compliance/commit-draft-collection)коллекции в набор обзоров, а также статистику коллекций [и отчеты](https://docs.microsoft.com/microsoft-365/compliance/collection-statistics-reports).
-- **Экспорт документов в** обзоре, за набором для [служба хранилища Azure учетной записи.](https://docs.microsoft.com/microsoft-365/compliance/download-export-jobs)
-- **Модуль прогностического кодирования для Advanced eDiscovery**. Сначала взгляните на [новую](https://docs.microsoft.com/microsoft-365/compliance/predictive-coding-overview) функциональность прогностического кодирования, которая заменяет ушедшего модуля релевантности.
+- **Advanced eDiscovery коллекции** теперь поддерживают новый инструмент и рабочий [процесс коллекций.](/microsoft-365/compliance/collections-overview) Другие новые темы [включают создание черновика коллекции,](https://docs.microsoft.com/microsoft-365/compliance/create-draft-collection)фиксацию [черновика](/microsoft-365/compliance/commit-draft-collection)коллекции в набор обзоров, а также статистику коллекций [и отчеты](/microsoft-365/compliance/collection-statistics-reports).
+- **Экспорт документов в** обзоре, за набором для [служба хранилища Azure учетной записи.](/microsoft-365/compliance/download-export-jobs)
+- **Модуль прогностического кодирования для Advanced eDiscovery**. Сначала взгляните на [новую](/microsoft-365/compliance/predictive-coding-overview) функциональность прогностического кодирования, которая заменяет ушедшего модуля релевантности.
 
 ### <a name="data-classification"></a>Классификация данных
 
-- **Проводник классификации данных**. [Начало работы с](https://docs.microsoft.com/microsoft-365/compliance/data-classification-activity-explorer) проводником классификации данных.
+- **Проводник классификации данных**. [Начало работы с](/microsoft-365/compliance/data-classification-activity-explorer) проводником классификации данных.
 
 ### <a name="data-connectors"></a>Соединители данных
 
-- **Частные ключи**. Поддержка закрытых ключей добавлена в [данные Bloomberg Message,](https://docs.microsoft.com/microsoft-365/compliance/archive-bloomberg-message-data#set-up-a-connector-using-public-keys) [данные ICE Chat](https://docs.microsoft.com/microsoft-365/compliance/archive-icechat-data#set-up-a-connector-using-public-keys) и мгновенные соединители данных [Bloomberg.](https://docs.microsoft.com/microsoft-365/compliance/archive-instant-bloomberg-data#set-up-a-connector-using-public-keys)
+- **Частные ключи**. Поддержка закрытых ключей добавлена в [данные Bloomberg Message,](/microsoft-365/compliance/archive-bloomberg-message-data#set-up-a-connector-using-public-keys) [данные ICE Chat](/microsoft-365/compliance/archive-icechat-data#set-up-a-connector-using-public-keys) и мгновенные соединители данных [Bloomberg.](/microsoft-365/compliance/archive-instant-bloomberg-data#set-up-a-connector-using-public-keys)
 
 ### <a name="data-loss-prevention"></a>Защита от потери данных
 
-- **Microsoft Teams поддержки**. Поддержка защиты от потери данных распространяется [на Microsoft Teams](https://docs.microsoft.com/microsoft-365/compliance/dlp-teams-default-policy).
-- **Расширение соответствия требованиям Майкрософт.** Начало работы с [расширением соответствия требованиям Майкрософт.](https://docs.microsoft.com/microsoft-365/compliance/dlp-chrome-get-started)
+- **Microsoft Teams поддержки**. Поддержка защиты от потери данных распространяется [на Microsoft Teams](/microsoft-365/compliance/dlp-teams-default-policy).
+- **Расширение соответствия требованиям Майкрософт.** Начало работы с [расширением соответствия требованиям Майкрософт.](/microsoft-365/compliance/dlp-chrome-get-started)
 
 ### <a name="encryption"></a>Шифрование
 
-- **Ключ клиента для Microsoft 365**. [Обзор ключа клиента](https://docs.microsoft.com/microsoft-365/compliance/customer-key-tenant-level) для Microsoft 365 на уровне клиента (общедоступный предварительный просмотр).
-- **Двойное шифрование ключей**. Дополнительные возможности [поддержки помеченных](https://docs.microsoft.com/microsoft-365/compliance/double-key-encryption) и защищенных документов можно узнать в SharePoint и OneDrive для бизнеса.
+- **Ключ клиента для Microsoft 365**. [Обзор ключа клиента](/microsoft-365/compliance/customer-key-tenant-level) для Microsoft 365 на уровне клиента (общедоступный предварительный просмотр).
+- **Двойное шифрование ключей**. Дополнительные возможности [поддержки помеченных](/microsoft-365/compliance/double-key-encryption) и защищенных документов можно узнать в SharePoint и OneDrive для бизнеса.
 
 ### <a name="insider-risk-management"></a>Управление внутренними рисками
 
@@ -82,16 +114,16 @@ ms.locfileid: "52029043"
 
 В поддержку этих новых функций были обновлены или добавлены следующие разделы:
 
-- [Сведения об управлении внутренними рисками](https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management)
-- [Планирование управления внутренними рисками](https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management-plan)
-- [Начало работы с настройками управления рисками изнутри](https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management-settings)
-- [Приступая к управлению рисками утечки внутренней информации](https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management-configure)
-- [Создание политик в отношении внутренних рисков и управление ими](https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management-policies)
-- [Расследование оповещений о внутренних рисках](https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management-alerts)
-- [Принятие мер в случае внутренних рисков](https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management-cases)
-- [Просмотр действий с помощью журнала аудита внутренних рисков](https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management-audit-log)
-- [Просмотр данных с помощью обозревателя содержимого внутреннего риска](https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management-content-explorer)
-- [Управление рабочий процесс с помощью панели мониторинга пользователей](https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management-users)
+- [Сведения об управлении внутренними рисками](/microsoft-365/compliance/insider-risk-management)
+- [Планирование управления внутренними рисками](/microsoft-365/compliance/insider-risk-management-plan)
+- [Начало работы с настройками управления рисками изнутри](/microsoft-365/compliance/insider-risk-management-settings)
+- [Приступая к управлению рисками утечки внутренней информации](/microsoft-365/compliance/insider-risk-management-configure)
+- [Создание политик в отношении внутренних рисков и управление ими](/microsoft-365/compliance/insider-risk-management-policies)
+- [Расследование оповещений о внутренних рисках](/microsoft-365/compliance/insider-risk-management-alerts)
+- [Принятие мер в случае внутренних рисков](/microsoft-365/compliance/insider-risk-management-cases)
+- [Просмотр действий с помощью журнала аудита внутренних рисков](/microsoft-365/compliance/insider-risk-management-audit-log)
+- [Просмотр данных с помощью обозревателя содержимого внутреннего риска](/microsoft-365/compliance/insider-risk-management-content-explorer)
+- [Управление рабочий процесс с помощью панели мониторинга пользователей](/microsoft-365/compliance/insider-risk-management-users)
 
 ### <a name="records-management"></a>Управление записями
 
@@ -102,13 +134,13 @@ ms.locfileid: "52029043"
 
 Содержимое было добавлено или обновлено в следующих темах:
 
-- [Начало работы с настраиваемой конфиденциальной информацией](https://docs.microsoft.com/microsoft-365/compliance/create-a-custom-sensitive-information-type)
-- [Сведения о типах конфиденциальной информации](https://docs.microsoft.com/microsoft-365/compliance/sensitive-information-type-learn-about)
-- [Создание пользовательских типов конфиденциальной информации с помощью классификации на основе точного совпадения данных](https://docs.microsoft.com/microsoft-365/compliance/create-custom-sensitive-information-types-with-exact-data-match-based-classification)
-- [Создание уведомлений для точных действий совпадения данных](https://docs.microsoft.com/microsoft-365/compliance/sit-edm-notifications-activities)
-- [Определения объекта типа конфиденциальной информации](https://docs.microsoft.com/microsoft-365/compliance/sensitive-information-type-entity-definitions)
-- [Создание настраиваемого типа конфиденциальной информации с помощью PowerShell](https://docs.microsoft.com/microsoft-365/compliance/create-a-custom-sensitive-information-type-in-scc-powershell)
-- [Создание словаря ключевых слов](https://docs.microsoft.com/microsoft-365/compliance/create-a-keyword-dictionary)
+- [Начало работы с настраиваемой конфиденциальной информацией](/microsoft-365/compliance/create-a-custom-sensitive-information-type)
+- [Сведения о типах конфиденциальной информации](/microsoft-365/compliance/sensitive-information-type-learn-about)
+- [Создание пользовательских типов конфиденциальной информации с помощью классификации на основе точного совпадения данных](/microsoft-365/compliance/create-custom-sensitive-information-types-with-exact-data-match-based-classification)
+- [Создание уведомлений для точных действий совпадения данных](/microsoft-365/compliance/sit-edm-notifications-activities)
+- [Определения объекта типа конфиденциальной информации](/microsoft-365/compliance/sensitive-information-type-entity-definitions)
+- [Создание настраиваемого типа конфиденциальной информации с помощью PowerShell](/microsoft-365/compliance/create-a-custom-sensitive-information-type-in-scc-powershell)
+- [Создание словаря ключевых слов](/microsoft-365/compliance/create-a-keyword-dictionary)
 
 ### <a name="sensitivity-labels"></a>Метки конфиденциальности
 
@@ -122,15 +154,15 @@ ms.locfileid: "52029043"
 
 ### <a name="auditing"></a>Аудит
 
-- **Управление политиками хранения журналов аудита.** Дополнительные данные о новой панели [мониторинга политик хранения аудита.](https://docs.microsoft.com/microsoft-365/compliance/audit-log-retention-policies#manage-audit-log-retention-policies-1)
-- **Поиск журнала аудита**. [Для поиска журнала аудита используйте скрипт PowerShell.](https://docs.microsoft.com/microsoft-365/compliance/audit-log-search-script)
+- **Управление политиками хранения журналов аудита.** Дополнительные данные о новой панели [мониторинга политик хранения аудита.](/microsoft-365/compliance/audit-log-retention-policies#manage-audit-log-retention-policies-1)
+- **Поиск журнала аудита**. [Для поиска журнала аудита используйте скрипт PowerShell.](/microsoft-365/compliance/audit-log-search-script)
 
 ### <a name="data-classification-content-explorer"></a>Обозреватель контента классификации данных
 
 Содержимое было добавлено или обновлено в следующих темах:
 
-- [Начало работы с обозревателем содержимого](https://docs.microsoft.com/microsoft-365/compliance/data-classification-content-explorer)
-- [Заметки о выпуске классификации данных](https://docs.microsoft.com/microsoft-365/compliance/data-classification-pub-preview-relnotes)
+- [Начало работы с обозревателем содержимого](/microsoft-365/compliance/data-classification-content-explorer)
+- [Заметки о выпуске классификации данных](/microsoft-365/compliance/data-classification-pub-preview-relnotes)
 
 ### <a name="data-loss-prevention"></a>Защита от потери данных
 
@@ -144,7 +176,7 @@ ms.locfileid: "52029043"
 - [Использование Защиты от потери данных в конечной точке](https://docs.microsoft.com/microsoft-365/compliance/endpoint-dlp-using)
 - [Начало работы с функцией защиты от потери данных в конечной точке](https://docs.microsoft.com/microsoft-365/compliance/endpoint-dlp-getting-started)
 
-### <a name="ediscovery"></a>Обнаружение электронных данных (eDiscovery)
+### <a name="ediscovery"></a>Обнаружение электронных данных
 
 Содержимое было добавлено или обновлено в следующих темах:
 
@@ -192,7 +224,7 @@ ms.locfileid: "52029043"
 - **SharePoint внешнего обмена**. Для [меток контейнера](sensitivity-labels-teams-groups-sites.md) опция внешнего SharePoint сайтов теперь выпущена в общем доступе. Кроме того, Microsoft 365 центр администрирования и планировщик теперь поддерживают применение этих меток конфиденциальности. 
 - **Совместное авторство и AutoSave**. Поддержка [совместной работы и AutoSave](sensitivity-labels-coauthoring.md) для зашифрованных файлов выпущена в качестве предварительного просмотра для тестирования в несерийных клиентах.
 
-## <a name="january-2021"></a>Январь 2021 г.
+## <a name="january-2021"></a>Январь 2021 г.
 
 ### <a name="support-for-card-content-in-teams"></a>Поддержка контента карт в Teams
 
@@ -256,46 +288,3 @@ ms.locfileid: "52029043"
 
 - [Автоматически маркировать данные в Azure Purview (предварительный просмотр).](/azure/purview/create-sensitivity-label) Теперь можно создавать и автоматически применять метки конфиденциальности к активам в Azure Purview, таким как файлы в хранилищах Azure Blob и столбцах баз данных в SQL Server.
 - [Требуется, чтобы пользователи применяли метку к элементу.](sensitivity-labels-office-apps.md#require-users-to-apply-a-label-to-their-email-and-documents) Этот новый параметр, также известный как "обязательная маркировка", требует от пользователей выбора и применения метки конфиденциальности в определенных сценариях.
-
-## <a name="november-2020"></a>Ноябрь 2020 г.
-Просто напоминание о том, что мы часто выпускаем новые и обновленные функции в состоянии предварительного просмотра, чтобы узнать, как они используются, чтобы мы могли оттачивать и улучшать их перед выпуском в общую доступность. Ваша обратная связь имеет решающее значение во время предварительного просмотра (и далее), поэтому не забудьте дать нам знать, что вы думаете, открыв карточку отзывов в правом нижнем справа от центра соответствия требованиям.
-
-![feedback](../media/Feedback_card_MCC.JPG)
-
-### <a name="spotlight-endpoint-data-loss-prevention-dlp-released"></a>Spotlight: endpoint data loss prevention (DLP) released
-
-[DLP конечной точки](endpoint-dlp-learn-about.md) расширяет возможности мониторинга активности и защиты DLP до конфиденциальной информации на Windows 10 устройствах. После того как устройства [будут](dlp-configure-endpoints.md) поставлены в центр Microsoft 365 соответствия требованиям, можно настроить политики DLP для защиты конфиденциальной информации на этих устройствах.
-
-### <a name="advanced-ediscovery"></a>Advanced eDiscovery
-
-Чтобы упростить управление зашифрованным контентом в рабочего процессах по обнаружению электронных данных, [](ediscovery-decryption.md) Microsoft 365 средства электронного разбора теперь включают расшифровку зашифрованных файлов, присоединенных к сообщениям электронной почты и отправленных в Exchange. Кроме того, зашифрованные документы, хранимые в SharePoint и OneDrive, расшифровываются в Advanced eDiscovery.
-
-### <a name="compliance-manager"></a>Диспетчер соответствия требованиям
-
-- [Поддержка государственных Microsoft 365 подписки](compliance-manager.md). Диспетчер соответствия требованиям теперь доступен для Community (GCC) умеренных и высоких клиентов.
-- [Анализатор конфигурации соответствия](compliance-manager-mcca.md)требованиям Майкрософт для диспетчера соответствия требованиям. Новый инструмент на основе PowerShell, который поможет вам начать работу с диспетчером соответствия требованиям путем сканирования текущих конфигураций организации и проверки их на соответствие Microsoft 365 рекомендуемым рекомендациям.
-- [Новые шаблоны](compliance-manager-templates-list.md). Добавлено 56 новых шаблонов, что приведет к более чем 230 шаблонам диспетчера соответствия требованиям.
-
-### <a name="data-connectors"></a>Соединители данных
-
-[Пять новых соединители Veritas в предварительном просмотре](archiving-third-party-data.md#third-party-data-connectors). Новые соединители: Reuters Dealing, Reuters FX, CellTrust, XIP, общие данные ms База данных SQL.
-
-### <a name="retention-labels-disposition-review"></a>Метки хранения (обзор диспозиции)
-
-Чтобы просмотреть элементы во время проверки диспозиции, пользователи должны теперь быть членами групп ролей просмотра контента обозревателя контента и списка просмотра списка [контента.](disposition.md#permissions-for-disposition) Хотя для просмотра элементов эти группы ролей не требуются для завершения проверки диспозиции.
-
-### <a name="sensitivity-labels"></a>Метки конфиденциальности
-
-- [(Предварительный просмотр) Внешние параметры общего доступа для SharePoint сайтов](sensitivity-labels-teams-groups-sites.md#how-to-configure-groups-and-site-settings). При создании метки, которая будет использоваться для групп и сайтов, вы увидите возможность управления внешним обменом для SharePoint сайтов с меткой. Можно указать, что общий доступ разрешен для всех, новых и существующих гостей, только для существующих гостей или только для пользователей в вашей организации. При применении метки параметры метки заменят все внешние параметры общего доступа, настроенные в центре администрирования [SharePoint.](/sharepoint/change-external-sharing-site)
-- [Удалите метку и шифрование из помеченного документа.](sensitivity-labels-sharepoint-onedrive-files.md#remove-encryption-for-a-labeled-document) Чтобы удалить метку и шифрование, применяемую в документе с меткой в SharePoint, глобальные администраторы и администраторы SharePoint могут запустить новый `Unlock-SPOSensitivityLabelEncryptedFile` cmdlet. Этот комдлет выполняется, даже если у администратора нет разрешений на доступ к сайту или файлу, или если служба управления правами Azure недоступна.
-
-## <a name="october-2020"></a>Октябрь 2020 г.
-
-### <a name="advanced-ediscovery"></a>Advanced eDiscovery
-
-[Поддержка языка CJK](ediscovery-cjk-support.md). Advanced eDiscovery теперь поддерживает языки набора символов с двойным байтом, в совокупности известные как языки CJK (включая упрощенный китайский, традиционный китайский, японский и корейский). Они могут использоваться в нескольких расширенных сценариях набора обзоров.
-
-### <a name="sensitivity-labels"></a>Метки конфиденциальности
-
-- [Область меток](sensitivity-labels.md#label-scopes). При создании метки чувствительности вы увидите новый вариант определения области для метки. Этот параметр позволяет настраивать метки только для файлов и электронных писем, контейнеров (например SharePoint сайтов и Teams) или обоих.
-- [Динамическая маркировка контента.](sensitivity-labels-office-apps.md#dynamic-markings-with-variables) При настройке маркировки контента для метки конфиденциальности теперь можно использовать динамические переменные, такие как строка текста и строка текста для загона, подножки или водяного `${Item.Label}` `${Item.Location}` знака.

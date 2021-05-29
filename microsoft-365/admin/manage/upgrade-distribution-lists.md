@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 787d7a75-e201-46f3-a242-f698162ff09f
 description: Узнайте, как обновить один или несколько списков рассылки до Microsoft 365 групп в Outlook и как использовать PowerShell для обновления нескольких списков рассылки одновременно.
-ms.openlocfilehash: 7e1fc4e971a22ec785662f684a4f9e08970c808a
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: d4686e7f2ec305194130b60fbacab24c9cf7f4e9
+ms.sourcegitcommit: 4bcac4cb4f9399ebbd7c8cff0abb4d6ecedb731e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52636014"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52698944"
 ---
 # <a name="upgrade-distribution-lists-to-microsoft-365-groups-in-outlook"></a>Обновление списков рассылки для Microsoft 365 групп в Outlook
 
@@ -86,10 +86,10 @@ ms.locfileid: "52636014"
 Чтобы обновить один DL, запустите следующую команду:
 
 ```PowerShell
-Upgrade-DistributionGroup -DlIdentities \<Dl SMTP address\>
+Upgrade-DistributionGroup -DlIdentities <Dl SMTP address>
 ```
 
-Например, если вы хотите обновить DLs с помощью smTP-dl1@contoso.com, запустите следующую команду:
+Например, если вы хотите обновить DL с помощью smTP-dl1@contoso.com, запустите следующую команду:
 
 ```PowerShell
 Upgrade-DistributionGroup -DlIdentities dl1@contoso.com
@@ -103,8 +103,8 @@ Upgrade-DistributionGroup -DlIdentities dl1@contoso.com
 Вы также можете передать несколько DLs в качестве пакета и обновить их вместе:
 
 ```PowerShell
-Upgrade-DistributionGroup -DlIdentities \<DL SMTP address1\>, \< DL SMTP address2\>,
-\< DL SMTP address3\>, \< DL SMTP address 4\>
+Upgrade-DistributionGroup -DlIdentities <DL SMTP address1>, <DL SMTP address2>,
+<DL SMTP address3>, <DL SMTP address4>
 ```
 
 Например, если вы хотите обновить пять DLs с smTP-адресом и `dl1@contoso.com` `dl2@contoso.com` , `dl3@contoso.com` `dl4@contoso.com` `dl5@contoso.com` и, запустите следующую команду:
@@ -159,7 +159,7 @@ Get-DistributionGroup| Foreach-Object{
 
 Если вы хотите проверить, имеет ли DL право или нет, вы можете выполнить приведенную ниже команду:
 
-`Get-DistributionGroup \<DL SMTP address\> | Get-EligibleDistributionGroupForMigration`
+`Get-DistributionGroup <DL SMTP address> | Get-EligibleDistributionGroupForMigration`
 
 Если вы хотите проверить, какие DLs имеют право на обновление, просто запустите следующую команду:
 
@@ -191,7 +191,7 @@ Get-DistributionGroup| Foreach-Object{
 
 Обновление происходит только после отправки вызова на сервер. Если обновление завершится сбоем, список рассылки не будет изменен. Он будет работать, как прежде.
 
-## <a name="related-content"></a>См. также:
+## <a name="related-content"></a>Связанные материалы
 
 [Сравнение групп](../create-groups/compare-groups.md) (статья)\
 [Объяснение групп Microsoft 365 пользователям](../create-groups/explain-groups-knowledge-worker.md) (статья)\
