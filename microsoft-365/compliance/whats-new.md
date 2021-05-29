@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Будь то добавление новых решений в центр соответствия требованиям, обновление существующих функций на основе отзывов или развертывание свежей и обновленной документации, Microsoft 365 поможет вам оставаться на вершине постоянно меняющегося ландшафта соответствия требованиям. Узнайте, чем мы были в этом месяце.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ae1df2ce6373e4a8f6b01c33e50bea5e6c16ca0a
-ms.sourcegitcommit: 4bcac4cb4f9399ebbd7c8cff0abb4d6ecedb731e
+ms.openlocfilehash: f249108dba279e255efd57ecd56159d3c71dcb4b
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "52698956"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706622"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Новые возможности центра соответствия требованиям Microsoft 365
 
@@ -48,7 +48,7 @@ ms.locfileid: "52698956"
 
 ### <a name="data-connectors"></a>Соединители данных
 
-- [Настройка соединителя для архива Cisco Jabber на данных Oracle]/microsoft-365/compliance/archive-ciscojabberonoracle-data)
+- [Настройка соединителя для архива Cisco Jabber в данных Oracle](/microsoft-365/compliance/archive-ciscojabberonoracle-data)
 - [Настройка соединителя для архива Cisco Jabber на данных PostgreSQL](/microsoft-365/compliance/archive-ciscojabberonpostgresql-data)
 
 ### <a name="data-loss-prevention"></a>Защита от потери данных
@@ -59,14 +59,15 @@ ms.locfileid: "52698956"
 
 ### <a name="retention-policies-and-retention-label-policies"></a>Политики хранения и политики меток хранения
 
-- Расположение Microsoft 365 Групп теперь поддерживает применение параметров хранения только для Microsoft 365 почтовых ящиков или только подключенных SharePoint сайтов с помощью [комлета Set-RetentionCompliancePolicy PowerShell](/powershell/module/exchange/set-retentioncompliancepolicy) с параметром Applications.
+- Расположение Microsoft 365 Groups теперь поддерживает применение параметров хранения только для Microsoft 365 почтовых ящиков или только подключенных сайтов SharePoint с помощью [комлета Set-RetentionCompliancePolicy PowerShell](/powershell/module/exchange/set-retentioncompliancepolicy) с параметром *Applications.*
 
 ### <a name="sensitivity-labels"></a>Метки конфиденциальности
 
 Outlook выпусков и обновлений:
-- Ранее поддерживаемая только клиентом единой маркировки AIP, встроенная маркировка теперь поддерживает различные параметры для метки по умолчанию и [обязательной маркировки.](sensitivity-labels-office-apps.md#outlook-specific-options-for-default-label-and-mandatory-labeling)
-- Encrypt-Only поддерживается macOS, iOS и Android
-- Управление метами конфиденциальности в [Office](/microsoft-365/compliance/sensitivity-labels-office-apps) приложениях, обновленных новыми записями в [](/microsoft-365/compliance/sensitivity-labels-office-apps#outlook-specific-options-for-default-label-and-mandatory-labeling) таблице [возможностей Outlook](/microsoft-365/compliance/sensitivity-labels-office-apps#sensitivity-label-capabilities-in-outlook) для различных параметров метки по умолчанию и обязательной маркировкой для нового выпуска функций Outlook для встроенной маркировки для поддержки другой метки по умолчанию и освобождения от обязательной маркировки. Кроме того, Encrypt-Only теперь поддерживается macOS/iOS/Android, и все динамические разметки с переменными теперь поддерживаются во всех Outlook клиентах. Обязательная маркировка теперь развертывается на оставшихся платформах.
+- [Различные параметры метки по](sensitivity-labels-office-apps.md#outlook-specific-options-for-default-label-and-mandatory-labeling) умолчанию и обязательной маркировки теперь поддерживаются для встроенной маркировки. Ранее эти параметры поддерживались только клиентом единой маркировки AIP.
+- [Шифрование теперь](encryption-sensitivity-labels.md#let-users-assign-permissions) поддерживается macOS, iOS и Android.
+- [Обязательная маркировка](sensitivity-labels-office-apps.md#require-users-to-apply-a-label-to-their-email-and-documents) развертывается на оставшихся платформах.
+- [Динамическая разметка со всеми переменными](sensitivity-labels-office-apps.md#dynamic-markings-with-variables) поддерживается во всех Outlook клиентах.
 
 ## <a name="march-2021"></a>Март 2021 г.
 

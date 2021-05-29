@@ -21,18 +21,20 @@ search.appverid:
 - MET150
 - MOE150
 description: Узнайте, как обновить метод оплаты для Microsoft 365 для бизнеса.
-ms.openlocfilehash: 3b659da6745c92d777629b2912114ee214582623
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: b0ed8541068fe02e0bd1f005a5a9c7ee8f50ae1b
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580358"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52705542"
 ---
-# <a name="update-yor-payment-method-for-your-subscription"></a>Обновление метода оплаты yor для подписки
+# <a name="update-the-payment-method-for-your-subscription"></a>Обновление метода оплаты для подписки
+
+## <a name="watch-update-your-payment-method"></a>Watch: Update your payment method
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3AVxy?autoplay=false]
 
-Вы можете легко обновить способ оплаты для подписки microsoft 365 Business. Можно изменить такие сведения, как используемая кредитная карта, имя или адрес.
+Вы можете легко обновить метод оплаты для Microsoft 365 бизнес подписки. Можно изменить такие сведения, как используемая кредитная карта, имя или адрес.
 
 ## <a name="try-it"></a>Проверьте, как это работает!
 
