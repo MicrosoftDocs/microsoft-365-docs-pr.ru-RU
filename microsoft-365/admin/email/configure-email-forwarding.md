@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: ab5eb117-0f22-4fa7-a662-3a6bdb0add74
 description: Пересылание электронной почты позволяет пересылать сообщения электронной почты, отправленные в почтовый ящик Microsoft 365 пользователя, в другой почтовый ящик внутри организации или за ее пределами.
-ms.openlocfilehash: eb72204211a8eff929c024fbcede66dfe1f4b879
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 1d16a44749b51b582b7198cb331edf7faf3cf1f8
+ms.sourcegitcommit: 4bcac4cb4f9399ebbd7c8cff0abb4d6ecedb731e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635490"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52698920"
 ---
 # <a name="configure-email-forwarding-in-microsoft-365"></a>Настройка переадэстройки электронной почты в Microsoft 365
 
@@ -40,6 +40,8 @@ ms.locfileid: "52635490"
 ## <a name="configure-email-forwarding"></a>Настройка переадресации электронной почты
 
 Прежде чем настроить отправку электронной почты, обратите внимание на следующее:
+
+- Разрешить автоматическое отправление сообщений пользователям удаленного домена. Сведения [см. в материале Управление удаленными](/exchange/mail-flow-best-practices/remote-domains/manage-remote-domains) доменами.
 
 - После того как вы настроили пересылание электронной почты, будут пересылаться только новые сообщения, отправленные в почтовый ящик.  
 
@@ -99,9 +101,8 @@ ms.locfileid: "52635490"
 
 ::: moniker-end
 
-## <a name="related-content"></a>См. также: 
+## <a name="related-content"></a>Связанные материалы 
 
 [Создание общего почтового ящика](../email/create-a-shared-mailbox.md) (статья)\
 [Отправка электронной почты с другого адреса](https://support.microsoft.com/office/ccba89cb-141c-4a36-8c56-6d16a8556d2e) (статья)\
 [Изменение имени пользователя и адреса электронной почты](../add-users/change-a-user-name-and-email-address.md) (статья)
-
