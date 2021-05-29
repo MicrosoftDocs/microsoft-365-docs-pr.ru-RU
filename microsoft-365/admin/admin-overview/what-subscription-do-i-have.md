@@ -21,12 +21,12 @@ ms.custom:
 search.appverid: MET150
 description: Узнайте, какие подписки есть у организации, переехав на страницу Ваши продукты.
 ms.date: 01/21/2021
-ms.openlocfilehash: c33ba799880e6c687a08c2d49b17cbae8e80552c
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: b0f5f11f34ec4cf84648709ae5557bc5f637a55f
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52535894"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706302"
 ---
 # <a name="what-subscription-do-i-have"></a>Какая у меня подписка?
 
@@ -39,12 +39,9 @@ ms.locfileid: "52535894"
 3. Если вы хотите изменить столбцы, которые отображаются в списке, выберите **Выберите столбцы**. Измените выбор столбцов, а затем выберите **Сохранить**.
 4. Чтобы узнать больше о одной подписке, выберите эту подписку.
 
-## <a name="related-content"></a>См. также:
+## <a name="related-content"></a>Связанные материалы
   
-[Подписки и выставление счета](../../commerce/index.yml) (ссылки)
-
-[Просмотр счета или](../../commerce/billing-and-payments/view-your-bill-or-invoice.md) счета(статьи)
-
-[Оплата подписки](../../commerce/billing-and-payments/pay-for-your-subscription.md) (статья)
-
+[Подписки и выставление счета](../../commerce/index.yml) (ссылки)\
+[Просмотр счета](../../commerce/billing-and-payments/view-your-bill-or-invoice.md) (статья)\
+[Оплата подписки](../../commerce/billing-and-payments/pay-for-your-subscription.md) (статья)\
 [Изменение адресов вы выставления счета](../../commerce/billing-and-payments/change-your-billing-addresses.md) (статья)

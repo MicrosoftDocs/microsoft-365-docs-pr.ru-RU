@@ -19,15 +19,17 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Узнайте, как легко обмениваться бизнес-файлами внешне.
-ms.openlocfilehash: 469e4b16277b048a539767f6fc9fd54d2ea2e6cf
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: Узнайте, как использовать ссылку Anyone в Microsoft 365, чтобы легко обмениваться бизнес-файлами внешне.
+ms.openlocfilehash: cbe6a12fd8d0c2b2ec16db32178f9c2559a08c22
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578631"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706502"
 ---
 # <a name="easily-share-files-externally"></a>Простой общий доступ к файлам для людей вне организации
+
+## <a name="watch-share-files-with-an-anyone-link"></a>Watch: Share files with an Anyone link
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2dCOV?autoplay=false]
 
@@ -35,8 +37,8 @@ ms.locfileid: "51578631"
 
 ## <a name="try-it"></a>Проверьте, как это работает!
 
-1. На своем сайте SharePoint выберите папку, которая вам нужно поделиться, выберите **Share** и нажмите кнопку параметры ссылки.
-1. В **окне Параметры ссылок** убедитесь, что **выбран любой.** Если этот параметр серый, его необходимо включить в центре администрирования SharePoint.
+1. На SharePoint выберите папку, которая вам нужно поделиться, выберите Share **и** нажмите кнопку параметры ссылки.
+1. В **окне Параметры** ссылка убедитесь, **что выбран любой.** Если этот параметр серый, его необходимо включить в центре администрирования SharePoint.
 1. Дополнительно выберите поле **Разрешить редактирование** и введите дату истечения срока действия для ссылки.
 1. Выберите **Применить**.
 1. В окне **Отправить ссылку** введите адрес электронной почты клиента, введите сообщение и выберите **Отправить**.

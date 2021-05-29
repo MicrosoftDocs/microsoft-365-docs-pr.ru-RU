@@ -20,13 +20,13 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: 'Удалите лицензию из общего почтового ящика, чтобы назначить ее другому пользователю. '
-ms.openlocfilehash: d552cfb77ff0ab2853939c6cb25fd4737f8c17d3
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+description: 'Удалите лицензию из общего почтового ящика, чтобы назначить ее другому пользователю или вернуть лицензию, чтобы вы не платили за нее. '
+ms.openlocfilehash: d33487879506402c5f0de2f7942c3299c5698b73
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537587"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706290"
 ---
 # <a name="remove-a-license-from-a-shared-mailbox"></a>Удаление лицензии из общего почтового ящика
 
@@ -74,14 +74,10 @@ ms.locfileid: "52537587"
 
 6. Вы по-прежнему платите за лицензию. Чтобы перестать платить за это, [снимите лицензию из подписки.](../../commerce/licenses/buy-licenses.md)
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-content"></a>См. также:
 
-[Сведения об общих почтовых ящиках](about-shared-mailboxes.md)
-
-[Создание общего почтового ящика](create-a-shared-mailbox.md)
-
-[Настройка общего почтового ящика](configure-a-shared-mailbox.md)
-
-[Преобразование почтового ящика пользователя в общий почтовый ящик](convert-user-mailbox-to-shared-mailbox.md)
-
-[Решение проблем с общими почтовыми ящиками](resolve-issues-with-shared-mailboxes.md)
+[Сведения об общих почтовых ящиках](about-shared-mailboxes.md) (статья)\
+[Создание общего почтового ящика](create-a-shared-mailbox.md) (статья)\
+[Настройка общего почтового ящика](configure-a-shared-mailbox.md) (статья)\
+[Преобразование почтового ящика пользователя в общий почтовый ящик](convert-user-mailbox-to-shared-mailbox.md) (статья)\
+[Решение проблем с общими почтовыми ящиками](resolve-issues-with-shared-mailboxes.md) (статья)

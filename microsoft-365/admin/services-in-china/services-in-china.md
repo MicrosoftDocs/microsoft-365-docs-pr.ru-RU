@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: a8ab5061-3346-4da0-bb7c-5260822b53ae
 description: Дополнительные данные о Office 365 21Vianet, который предназначен для удовлетворения потребностей в безопасных, надежных и масштабируемых облачных службах в Китае.
 monikerRange: o365-21vianet
-ms.openlocfilehash: 00710d53033648764ed0e55eeb51ee66518e36f7
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: bc416ca253d26cc5d391d226039223eac02720b0
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297060"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706374"
 ---
 # <a name="office-365-operated-by-21vianet"></a>Служба Office 365, предоставляемая 21Vianet
 
@@ -131,8 +131,8 @@ Office 365 21Vianet предназначен для удовлетворения
 | Смешанный 2013 SP1/2010 SP3  <br/> | 2013 SP1  <br/> | Да  <br/> | Только вручную настроенный бесплатный/занятый  <br/> |
 | 2010 SP3  <br/> | 2010 SP3  <br/> | Нет  <br/> | Нет  <br/> |
 | 2007  <br/> | 2013 CU5  <br/> | Да  <br/> | Только бесплатный/занятый  <br/> |
-| 2007  <br/> | 2013 SP1 или 2010 SP3No  <br/> | Н/Д  <br/> | Не поддерживается  <br/> |
-| 2003  <br/> | 2013 SP1/CU5  <br/> | Н/Д  <br/> | Не поддерживается  <br/> |
+| 2007  <br/> | 2013 SP1 или 2010 SP3No  <br/> | Недоступно  <br/> | Не поддерживается  <br/> |
+| 2003  <br/> | 2013 SP1/CU5  <br/> | Недоступно  <br/> | Не поддерживается  <br/> |
 | 2003  <br/> | 2010 SP3  <br/> | Нет  <br/> | Нет  <br/> |
 
    
@@ -145,7 +145,7 @@ Office 365 21Vianet предназначен для удовлетворения
 - [Обнаружение электронных данных на месте](/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery) 
 - [In-Place Hold](/exchange/security-and-compliance/in-place-and-litigation-holds) 
 - [Архивация на месте](/exchange/in-place-archiving-in-exchange-2013-exchange-2013-help)
-- [Аудит почтового ящика](/exchange/security-and-compliance/exchange-auditing-reports/exchange-auditing-reports)
+- [Аудит почтовых ящиков](/exchange/security-and-compliance/exchange-auditing-reports/exchange-auditing-reports)
 - Доступ к онлайн-архивам [с Outlook Web App (OWA)](/exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/outlook-on-the-web) 
 
 В следующей таблице вы узнаете больше о поддержке функций в различных Exchange сценариях развертывания: 
@@ -234,10 +234,8 @@ GDPR предоставляет отдельным лицам (или субъе
     
 Подробные сведения и инструкции см. в [материале Data Subject Requests (DSR) для GDPR.](https://www.trustcenter.cn/privacy/gdpr-office365.mdl)
 
-## <a name="related-content"></a>См. также:
+## <a name="related-content"></a>Связанные материалы
 
-[Попробуйте или Microsoft 365 подписку](../../commerce/try-or-buy-microsoft-365.md) на бизнес (статья)
-
-[Поддержка azure information Protection для Office 365 21Vianet](parity-between-azure-information-protection.md) (статья)
-
+[Попробуйте или Microsoft 365 подписку](../../commerce/try-or-buy-microsoft-365.md) на бизнес (статья)\
+[Поддержка azure information Protection для Office 365 21Vianet](parity-between-azure-information-protection.md) (статья)\
 [Просмотр счета или получить Fapiao](../../commerce/billing-and-payments/view-your-bill-or-invoice.md) (статья)

@@ -22,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: ae950c9e-e8d9-4108-b0cb-449156998580
 description: Узнайте, как управлять собственными записями DNS или позволить Корпорации Майкрософт управлять записями DNS для вас.
-ms.openlocfilehash: 475e2c13a1b73a58cfb9f72e9d335a2d1c8b4da5
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 454a3c95556d52e9ca2b45f82531839a557a0d8c
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332478"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706386"
 ---
 # <a name="set-up-your-domain"></a>Настройка домена
 
@@ -37,8 +37,8 @@ ms.locfileid: "52332478"
 
 ## <a name="let-microsoft-365-manage-your-dns-records"></a>Позвольте Microsoft 365 управлять записями DNS 
 
-Узнайте, как [изменить именоименов, чтобы настроить Microsoft 365 с любым регистратором домена.](change-nameservers-at-any-domain-registrar.md)
+Узнайте, [как изменить именоимены](change-nameservers-at-any-domain-registrar.md)для Microsoft 365 с любым регистратором домена.
 
 ## <a name="manage-your-own-dns-records"></a>Управление собственными записями DNS
 
-Инструкции см. в [инструкции Create DNS records at ny DNS hosting provider](create-dns-records-at-any-dns-hosting-provider.md)
+Инструкции см. в [инструкции Create DNS records at any DNS hosting provider](create-dns-records-at-any-dns-hosting-provider.md)

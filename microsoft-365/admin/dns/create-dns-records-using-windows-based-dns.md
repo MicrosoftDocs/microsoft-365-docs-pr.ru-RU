@@ -1,5 +1,5 @@
 ---
-title: Создание записей DNS для Microsoft с помощью DNS на основе Windows
+title: Создание записей DNS для Microsoft с Windows DNS на основе Windows.
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -20,34 +20,34 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 9eec911d-5773-422c-9593-40e1147ffbde
-description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб в DNS для Microsoft на основе Windows.
-ms.openlocfilehash: fd7c56b6db9fe5f5dbb0637ad5abcb40a64bef8f
-ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
+description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб в Windows DNS для Microsoft.
+ms.openlocfilehash: b9088fe3efd58700db0234a2839665a783731eb0
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51876353"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706120"
 ---
-# <a name="create-dns-records-for-microsoft-using-windows-based-dns"></a>Создание записей DNS для Microsoft с помощью DNS на основе Windows
+# <a name="create-dns-records-for-microsoft-using-windows-based-dns"></a>Создание записей DNS для Microsoft с Windows DNS на основе Windows.
 
- Если вы не нашли то, что вы ищете, см. раздел **[Вопросы и ответы по доменам](../setup/domains-faq.yml)**. 
+ Если вы не нашли то, что вы ищете, обратитесь к разделу **[вопросы и ответы по доменам](../setup/domains-faq.yml)**. 
    
 Если у вас есть записи DNS, созданные с помощью DNS на базе Windows, в этой статье приведены сведения о том, как настроить записи для электронной почты, Skype для бизнеса online и т. д.
   
-Чтобы начать работу, необходимо найти записи DNS в DNS на основе [Windows,](#find-your-dns-records-in-windows-based-dns) чтобы можно было их обновить. Кроме того, если вы планируете синхронизировать локальное active Directory с Корпорацией Майкрософт, см. в нем неавтируемый электронный адрес, используемый в качестве upN в локальном каталоге [Active Directory.](#non-routable-email-address-used-as-a-upn-in-your-on-prem-active-directory)
+Чтобы начать работу, необходимо найти записи DNS в Windows [DNS,](#find-your-dns-records-in-windows-based-dns) чтобы можно было их обновить. Кроме того, если вы планируете синхронизировать локальное active Directory с Корпорацией Майкрософт, см. в нем неавтируемый электронный адрес, используемый в качестве upN в локальном каталоге [Active Directory.](#non-routable-email-address-used-as-a-upn-in-your-on-prem-active-directory)
   
 Проблемы с потоком почты или другими неполадками после добавления записей DNS см. в выпуске Устранение неполадок после изменения имени домена или [записей DNS.](../get-help-with-domains/find-and-fix-issues.md) 
   
 ## <a name="find-your-dns-records-in-windows-based-dns"></a>Поиск DNS-записей в службе DNS на основе Windows
-<a name="BKMK_find_your_dns_1"></a> Перейдите на страницу с записями DNS для вашего домена. Если вы работаете в Windows Server 2008, перейдите к   >  **запуску** запуска . Если вы работаете в Windows Server 2012, нажмите клавишу Windows и **r**. Введите **dnsmgmnt.msc** и выберите **ОК.** В диспетчере DNS **\<DNS server name\> \> раздвигать зоны досмотра.** Выберите домен. You're now ready to create the DNS records.
+<a name="BKMK_find_your_dns_1"></a> Перейдите на страницу с записями DNS для вашего домена. Если вы работаете в Windows Server 2008, перейдите к  >  **запуску** запуска . Если вы работаете в Windows Server 2012, нажмите клавишу Windows и **r**. Введите **dnsmgmnt.msc** и выберите **ОК.** В диспетчере DNS **\<DNS server name\> \> раздвигать зоны досмотра.** Выберите домен. You're now ready to create the DNS records.
    
 ## <a name="add-mx-record"></a>Добавление MX-записи
 <a name="BKMK_add_MX"> </a>
 
 Добавьте запись MX, чтобы сообщение электронной почты для домена пришло в Корпорацию Майкрософт.
 - Запись MX, которую вы добавим, включает значение (значение Points **to address),** которое выглядит так: .mail.protection.outlook.com, где это значение, как \<MX token\> \<MX token\> MSxxxxxx. 
-- Из строки MX в разделе Exchange Online на странице Добавить записи DNS в Microsoft скопируйте значение, перечисленное в разделе Пункты для адреса. Это значение будет использоваться в записи, которую вы создаете в этой задаче. 
-- На странице Диспетчер DNS для домена перейдите к **exchanger** почты действий  >  **(MX).** Чтобы найти эту страницу для домена, см. в странице [Find your DNS records in Windows-based DNS.](#find-your-dns-records-in-windows-based-dns)  
+- Из строки MX в разделе Exchange Online страницы Записи добавить DNS в Microsoft скопируйте значение, перечисленное в разделе Пункты для адреса. Это значение будет использоваться в записи, которую вы создаете в этой задаче. 
+- На странице Диспетчер DNS для домена перейдите к **exchanger** почты действий  >  **(MX).** Чтобы найти эту страницу для домена, см. в этой странице Найти записи DNS в Windows [DNS.](#find-your-dns-records-in-windows-based-dns)  
 - В **диалоговом окне Запись** новых ресурсов убедитесь, что поля задают следующие значения: 
     - Host Name (Имя узла):  
     - @Address: вклеить пункты для адреса значения, которое вы только что скопировали из Microsoft здесь.  
@@ -76,14 +76,14 @@ ms.locfileid: "51876353"
     - Имя хозяина: sip
     - Тип: CNAME
     - Адрес: sipdir.online.lync.com
-- Нажмите **ОК**.
+- Нажмите **OK**.
 
 Добавьте запись автообнаружения CNAME для Skype для бизнеса online.  
 - На странице Диспетчер DNS для домена перейдите к **действию** \> **CNAME (CNAME).** В **диалоговом окне Запись** новых ресурсов убедитесь, что поля задают следующие значения:  
     - Имя хозяина: lyncdiscover
     - Тип: CNAME
     - Адрес: webdir.online.lync.com
-- Нажмите **ОК**.
+- Нажмите **OK**.
    
 ### <a name="add-two-cname-records-for-mobile-device-management-mdm-for-microsoft"></a>Добавление двух записей CNAME для управления мобильными устройствами (MDM) для Microsoft
 
@@ -97,7 +97,7 @@ ms.locfileid: "51876353"
 - Имя хозяина: корпоративная регистрация
 - Тип: CNAME
 - Адрес: enterpriseregistration.windows.net
-- Нажмите **ОК**. 
+- Нажмите **OK**. 
 
 Добавьте запись CNAME MDM Enterpriseenrollment. 
 -  На странице Диспетчер DNS для домена перейдите к **действию** \> **CNAME (CNAME).** 
@@ -105,7 +105,7 @@ ms.locfileid: "51876353"
     - Имя хозяина: enterpriseenrollment
     - Тип: CNAME
     - Адрес: enterpriseenrollment-s.manage.microsoft.com
-- Нажмите **ОК**.
+- Нажмите **OK**.
    
 ## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавление записи TXT для SPF, предотвращающей рассылку спама
 <a name="BKMK_add_TXT"> </a>
@@ -125,7 +125,7 @@ ms.locfileid: "51876353"
 -  Тип записи: TXT
 -  Адрес: v=spf1 include:spf.protection.outlook.com -all 
          
--  Нажмите **ОК**.
+-  Нажмите **OK**.
    
 ## <a name="add-srv-records"></a>Добавление SRV-записей
 <a name="BKMK_add_SRV"> </a>
@@ -142,7 +142,7 @@ ms.locfileid: "51876353"
     -  Вес: 1
     -  Порт: 443
     -  Target (Hostname): sipdir.online.lync.com
--  Нажмите **ОК**. 
+-  Нажмите **OK**. 
 
 
 Добавьте запись SRV SIP для федерации Skype для бизнеса online.  
@@ -155,12 +155,12 @@ ms.locfileid: "51876353"
     -  Вес: 1
     -  Порт: 5061
     -  Target (Hostname): sipfed.online.lync.com
--  Нажмите **ОК**. 
+-  Нажмите **OK**. 
    
 ## <a name="add-a-record-to-verify-that-you-own-the-domain-if-you-havent-already"></a>Добавление записи для подтверждения владения доменом, если это еще не сделано
 <a name="BKMK_verify"> </a>
 
-Перед добавлением записей DNS для настройка служб Майкрософт Корпорация Майкрософт должна подтвердить, что у вас есть домен, который вы добавляете. Для этого добавьте запись, выполнив приведенные ниже действия.
+Прежде чем добавить записи DNS для службы Майкрософт, Корпорация Майкрософт должна подтвердить, что у вас есть домен, который вы добавляете. Для этого добавьте запись, выполнив приведенные ниже действия.
   
 > [!NOTE]
 > Эта запись используется только для проверки принадлежности домена. Она не используется для других целей. 
@@ -206,10 +206,8 @@ ms.locfileid: "51876353"
 > [!NOTE]
 >  Обычно на вступление изменений DNS в силу требуется около 15 минут. Однако иногда распространение внесенного изменения в системе DNS по всему Интернету занимает больше времени. Если после добавления записей DNS возникла проблема с потоком обработки почты или другие неполадки, см. статью [Устранение неполадок после смены имени домена или записей DNS](../get-help-with-domains/find-and-fix-issues.md). 
 
-## <a name="related-content"></a>См. также:
+## <a name="related-content"></a>Связанные материалы
 
-[Передача домена из Micrsoft 365 другому хосту](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/transfer-a-domain-from-microsoft-to-another-host) (статья)
-
-[Пилот Microsoft 365 из моего настраиваемого домена](https://docs.microsoft.com/microsoft-365/admin/misc/pilot-microsoft-365-from-my-custom-domain) (статья)
-
-[FaQ доменов](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) (статья)
+[Передача домена из Micrsoft 365 другому хосту](../get-help-with-domains/transfer-a-domain-from-microsoft-to-another-host.md) (статья)\
+[Пилотные Microsoft 365 из настраиваемого домена](../misc/pilot-microsoft-365-from-my-custom-domain.md) (статья)\
+[Вопросы и ответы о доменах](../setup/domains-faq.yml) (статья)

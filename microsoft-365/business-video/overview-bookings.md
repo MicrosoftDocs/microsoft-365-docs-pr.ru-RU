@@ -19,15 +19,17 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Узнайте о резервированиях Майкрософт.
-ms.openlocfilehash: 826cb84acace03aaf18bcb9d3a58fa5a518d71ee
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: Узнайте о Microsoft Bookings, мобильном приложении для малого бизнеса, которое обеспечивает бронирование для ваших клиентов.
+ms.openlocfilehash: f797a18616f63aea873ea5c1060a54dffbe078ef
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578751"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706230"
 ---
 # <a name="overview-of-microsoft-bookings"></a>Обзор резервирования Майкрософт
+
+## <a name="watch-overview-of-microsoft-bookings"></a>Часы: Обзор резервирования Майкрософт
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE26B1q?autoplay=false]
 
@@ -35,7 +37,7 @@ Microsoft Резервирования  это веб- и мобильное �
 
 ## <a name="get-started-with-bookings"></a>Начало работы с bookings
 
-1. Чтобы начать вход в Microsoft 365, выберите **Bookings** из запуска приложения.
+1. Чтобы начать вход, Microsoft 365 и выберите **Bookings** из запуска приложения.
 1. Выберите **Get it now** на странице **Bookings.**
 1. Добавьте бизнес-данные, и вы готовы начать использовать Bookings.
 

@@ -20,15 +20,17 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Узнайте, как остановить автопродажа электронных писем.
-ms.openlocfilehash: f8bd599c7c8bca8d4789188acbcd3574b7473dcb
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+description: Узнайте, как остановить автонападение электронных писем, создав правило потока почты, чтобы избежать кражи несвободных данных.
+ms.openlocfilehash: 82e4c80b0edc501889e0fc4dc28f1ec1ad703568
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903686"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706478"
 ---
 # <a name="stop-email-auto-forward"></a>Остановка автопродажа электронной почты
+
+## <a name="watch-stop-auto-forwarding-emails"></a>Watch: Stop auto-forwarding emails
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2W6kS?autoplay=false]
 
@@ -36,7 +38,7 @@ ms.locfileid: "51903686"
 
 ## <a name="try-it"></a>Проверьте, как это работает!
 
-1. В центре администрирования Microsoft 365 выберите **Exchange,**  поток почты **и** на вкладке правила выберите знак плюс и создайте **новое правило.**
+1. В центре Microsoft 365 выберите **Exchange,** поток почты **и** на  вкладке правила выберите знак плюс и создайте **новое правило.**
 1. Выберите **дополнительные параметры**. Назови новое правило.
 1. Затем откройте выпадаю для **применения этого правила,** если , выберите **отправитель**, а затем **внешний внутренний**.
 1. Выберите **Внутри организации,** а затем **ОК**.
@@ -50,4 +52,6 @@ ms.locfileid: "51903686"
 
 ## <a name="related-content"></a>См. также:
 
-[Добавьте еще один](https://docs.microsoft.com/microsoft-365/admin/email/add-another-email-alias-for-a-user) псевдоним электронной почты для пользователя (статья) Настройка переададки электронной почты в [Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/email/configure-email-forwarding) (статья) Поиск и устранение проблем с доставкой электронной почты в [качестве Office 365](https://docs.microsoft.com/exchange/troubleshoot/email-delivery/email-delivery-issues) для администратора бизнеса (статья)
+[Добавление дополнительных псевдонимов электронной почты для пользователя](../admin/email/add-another-email-alias-for-a-user.md) (статья)\
+[Настройка переадресации электронной почты в Microsoft 365](../admin/email/configure-email-forwarding.md) (статья)\
+Поиск и устранение проблем с доставкой электронной [почты в качестве Office 365 для бизнес-администратора](/exchange/troubleshoot/email-delivery/email-delivery-issues) (статья)
