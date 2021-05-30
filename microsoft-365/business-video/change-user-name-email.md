@@ -28,43 +28,43 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2021
 ms.locfileid: "52706422"
 ---
-# <a name="change-a-users-name-or-email-address"></a><span data-ttu-id="67d9c-103">Изменение имени пользователя или адреса электронной почты</span><span class="sxs-lookup"><span data-stu-id="67d9c-103">Change a user's name or email address</span></span>
+# <a name="change-a-users-name-or-email-address"></a><span data-ttu-id="9555b-103">Изменение имени пользователя или адреса электронной почты</span><span class="sxs-lookup"><span data-stu-id="9555b-103">Change a user's name or email address</span></span>
 
-## <a name="watch-change-a-users-name-or-email-address"></a><span data-ttu-id="67d9c-104">Просмотр: изменение имени пользователя или адреса электронной почты</span><span class="sxs-lookup"><span data-stu-id="67d9c-104">Watch: Change a user's name or email address</span></span>
+## <a name="watch-change-a-users-name-or-email-address"></a><span data-ttu-id="9555b-104">Просмотр: изменение имени пользователя или адреса электронной почты</span><span class="sxs-lookup"><span data-stu-id="9555b-104">Watch: Change a user's name or email address</span></span>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1SJuc?autoplay=false]
 
-<span data-ttu-id="67d9c-105">Иногда может потребоваться изменить имя пользователя или адрес электронной почты.</span><span class="sxs-lookup"><span data-stu-id="67d9c-105">Occasionally, you may need to change a user's name or email address.</span></span> <span data-ttu-id="67d9c-106">Это можно сделать, изменив их имя отображения, псевдоним или адрес электронной почты.</span><span class="sxs-lookup"><span data-stu-id="67d9c-106">You can do this by changing their display name, their alias, or their email address.</span></span> 
+<span data-ttu-id="9555b-105">Иногда может потребоваться изменить имя пользователя или адрес электронной почты.</span><span class="sxs-lookup"><span data-stu-id="9555b-105">Occasionally, you may need to change a user's name or email address.</span></span> <span data-ttu-id="9555b-106">Это можно сделать, изменив их имя отображения, псевдоним или адрес электронной почты.</span><span class="sxs-lookup"><span data-stu-id="9555b-106">You can do this by changing their display name, their alias, or their email address.</span></span> 
 
-## <a name="try-it"></a><span data-ttu-id="67d9c-107">Проверьте, как это работает!</span><span class="sxs-lookup"><span data-stu-id="67d9c-107">Try it!</span></span>
+## <a name="try-it"></a><span data-ttu-id="9555b-107">Проверьте, как это работает!</span><span class="sxs-lookup"><span data-stu-id="9555b-107">Try it!</span></span>
 
-### <a name="change-a-users-display-name"></a><span data-ttu-id="67d9c-108">Изменение отображаемого имени пользователя</span><span class="sxs-lookup"><span data-stu-id="67d9c-108">Change a user's display name</span></span>
+### <a name="change-a-users-display-name"></a><span data-ttu-id="9555b-108">Изменение отображаемого имени пользователя</span><span class="sxs-lookup"><span data-stu-id="9555b-108">Change a user's display name</span></span>
 
-1. <span data-ttu-id="67d9c-109">В центре Microsoft 365 выберите **Пользователей,** а затем **активных пользователей.**</span><span class="sxs-lookup"><span data-stu-id="67d9c-109">In the Microsoft 365 admin center, select **Users**, and then **Active users**.</span></span>
-1. <span data-ttu-id="67d9c-110">Выберите пользователя из списка активных пользователей.</span><span class="sxs-lookup"><span data-stu-id="67d9c-110">Select the user from the list of active users.</span></span>
-1. <span data-ttu-id="67d9c-111">Выберите **Управление контактной информацией.**</span><span class="sxs-lookup"><span data-stu-id="67d9c-111">Select **Manage contact information**.</span></span>
-1. <span data-ttu-id="67d9c-112">Измените имя отображения и выберите **Сохранить изменения.**</span><span class="sxs-lookup"><span data-stu-id="67d9c-112">Change the display name, and select **Save changes**.</span></span>
+1. <span data-ttu-id="9555b-109">В центре Microsoft 365 выберите **Пользователей,** а затем **активных пользователей.**</span><span class="sxs-lookup"><span data-stu-id="9555b-109">In the Microsoft 365 admin center, select **Users**, and then **Active users**.</span></span>
+1. <span data-ttu-id="9555b-110">Выберите пользователя из списка активных пользователей.</span><span class="sxs-lookup"><span data-stu-id="9555b-110">Select the user from the list of active users.</span></span>
+1. <span data-ttu-id="9555b-111">Выберите **Управление контактной информацией.**</span><span class="sxs-lookup"><span data-stu-id="9555b-111">Select **Manage contact information**.</span></span>
+1. <span data-ttu-id="9555b-112">Измените имя отображения и выберите **Сохранить изменения.**</span><span class="sxs-lookup"><span data-stu-id="9555b-112">Change the display name, and select **Save changes**.</span></span>
 
-    <span data-ttu-id="67d9c-113">Новое имя теперь будет отображаться в Outlook и других Microsoft 365 приложениях.</span><span class="sxs-lookup"><span data-stu-id="67d9c-113">The new name will now be displayed in Outlook and other Microsoft 365 apps.</span></span>
+    <span data-ttu-id="9555b-113">Новое имя теперь будет отображаться в Outlook и других Microsoft 365 приложениях.</span><span class="sxs-lookup"><span data-stu-id="9555b-113">The new name will now be displayed in Outlook and other Microsoft 365 apps.</span></span>
 
-### <a name="add-an-email-alias"></a><span data-ttu-id="67d9c-114">Добавление псевдонима электронной почты</span><span class="sxs-lookup"><span data-stu-id="67d9c-114">Add an email alias</span></span>
+### <a name="add-an-email-alias"></a><span data-ttu-id="9555b-114">Добавление псевдонима электронной почты</span><span class="sxs-lookup"><span data-stu-id="9555b-114">Add an email alias</span></span>
 
-1. <span data-ttu-id="67d9c-115">В центре Microsoft 365 выберите **Пользователей,** а затем **активных пользователей.**</span><span class="sxs-lookup"><span data-stu-id="67d9c-115">In the Microsoft 365 admin center, select **Users**, and then **Active users**.</span></span>
-1. <span data-ttu-id="67d9c-116">Выберите пользователя из списка активных пользователей.</span><span class="sxs-lookup"><span data-stu-id="67d9c-116">Select the user from the list of active users.</span></span>
-1. <span data-ttu-id="67d9c-117">Выберите **Управление псевдонимами электронной почты.**</span><span class="sxs-lookup"><span data-stu-id="67d9c-117">Select **Manage email aliases**.</span></span>
-1. <span data-ttu-id="67d9c-118">Введите новый псевдоним, проверьте домен и выберите **сохранить изменения.**</span><span class="sxs-lookup"><span data-stu-id="67d9c-118">Enter the new alias, verify the domain, and select **Save changes**.</span></span>
+1. <span data-ttu-id="9555b-115">В центре Microsoft 365 выберите **Пользователей,** а затем **активных пользователей.**</span><span class="sxs-lookup"><span data-stu-id="9555b-115">In the Microsoft 365 admin center, select **Users**, and then **Active users**.</span></span>
+1. <span data-ttu-id="9555b-116">Выберите пользователя из списка активных пользователей.</span><span class="sxs-lookup"><span data-stu-id="9555b-116">Select the user from the list of active users.</span></span>
+1. <span data-ttu-id="9555b-117">Выберите **Управление псевдонимами электронной почты.**</span><span class="sxs-lookup"><span data-stu-id="9555b-117">Select **Manage email aliases**.</span></span>
+1. <span data-ttu-id="9555b-118">Введите новый псевдоним, проверьте домен и выберите **сохранить изменения.**</span><span class="sxs-lookup"><span data-stu-id="9555b-118">Enter the new alias, verify the domain, and select **Save changes**.</span></span>
 
-### <a name="change-a-username"></a><span data-ttu-id="67d9c-119">Изменение имени пользователя</span><span class="sxs-lookup"><span data-stu-id="67d9c-119">Change a username</span></span>
+### <a name="change-a-username"></a><span data-ttu-id="9555b-119">Изменение имени пользователя</span><span class="sxs-lookup"><span data-stu-id="9555b-119">Change a username</span></span>
 
-1. <span data-ttu-id="67d9c-120">В центре Microsoft 365 выберите **Пользователей,** а затем **активных пользователей.**</span><span class="sxs-lookup"><span data-stu-id="67d9c-120">In the Microsoft 365 admin center, select **Users**, and then **Active users**.</span></span>
-1. <span data-ttu-id="67d9c-121">Выберите пользователя из списка активных пользователей.</span><span class="sxs-lookup"><span data-stu-id="67d9c-121">Select the user from the list of active users.</span></span>
-1. <span data-ttu-id="67d9c-122">Выберите **Управление иным иным пользователем.**</span><span class="sxs-lookup"><span data-stu-id="67d9c-122">Select **Manage username**.</span></span>
-1. <span data-ttu-id="67d9c-123">Введите новое имя пользователя, проверьте домен и выберите **сохранить изменения.**</span><span class="sxs-lookup"><span data-stu-id="67d9c-123">Enter the new username, verify the domain, and select **Save changes**.</span></span>
+1. <span data-ttu-id="9555b-120">В центре Microsoft 365 выберите **Пользователей,** а затем **активных пользователей.**</span><span class="sxs-lookup"><span data-stu-id="9555b-120">In the Microsoft 365 admin center, select **Users**, and then **Active users**.</span></span>
+1. <span data-ttu-id="9555b-121">Выберите пользователя из списка активных пользователей.</span><span class="sxs-lookup"><span data-stu-id="9555b-121">Select the user from the list of active users.</span></span>
+1. <span data-ttu-id="9555b-122">Выберите **Управление иным иным пользователем.**</span><span class="sxs-lookup"><span data-stu-id="9555b-122">Select **Manage username**.</span></span>
+1. <span data-ttu-id="9555b-123">Введите новое имя пользователя, проверьте домен и выберите **сохранить изменения.**</span><span class="sxs-lookup"><span data-stu-id="9555b-123">Enter the new username, verify the domain, and select **Save changes**.</span></span>
 
-    <span data-ttu-id="67d9c-124">В результате этого изменения пользователю потребуется войти в Microsoft 365 имя пользователя и добавить новую учетную запись электронной почты в Outlook.</span><span class="sxs-lookup"><span data-stu-id="67d9c-124">As a result of this change, the user will need to sign in to Microsoft 365 with this new username and add the new email account to Outlook.</span></span>
+    <span data-ttu-id="9555b-124">В результате этого изменения пользователю потребуется войти в Microsoft 365 имя пользователя и добавить новую учетную запись электронной почты в Outlook.</span><span class="sxs-lookup"><span data-stu-id="9555b-124">As a result of this change, the user will need to sign in to Microsoft 365 with this new username and add the new email account to Outlook.</span></span>
 
-## <a name="related-content"></a><span data-ttu-id="67d9c-125">Связанные материалы</span><span class="sxs-lookup"><span data-stu-id="67d9c-125">Related content</span></span>
+## <a name="related-content"></a><span data-ttu-id="9555b-125">Связанные материалы</span><span class="sxs-lookup"><span data-stu-id="9555b-125">Related content</span></span>
 
-<span data-ttu-id="67d9c-126">[Дайте разрешения почтового ящика другому пользователю](../admin/add-users/give-mailbox-permissions-to-another-user.md) (статья)</span><span class="sxs-lookup"><span data-stu-id="67d9c-126">[Give mailbox permissions to another user](../admin/add-users/give-mailbox-permissions-to-another-user.md) (article)</span></span>\
-<span data-ttu-id="67d9c-127">[Преобразование почтового ящика пользователя в общий почтовый ящик](../admin/email/convert-user-mailbox-to-shared-mailbox.md) (статья)</span><span class="sxs-lookup"><span data-stu-id="67d9c-127">[Convert a user mailbox to a shared mailbox](../admin/email/convert-user-mailbox-to-shared-mailbox.md) (article)</span></span>\
-<span data-ttu-id="67d9c-128">[Параметры электронной почты пользователя](../admin/email/office-365-user-email-settings.md) (статья)</span><span class="sxs-lookup"><span data-stu-id="67d9c-128">[User email settings](../admin/email/office-365-user-email-settings.md) (article)</span></span>
+<span data-ttu-id="9555b-126">[Дайте разрешения почтового ящика другому пользователю](../admin/add-users/give-mailbox-permissions-to-another-user.md) (статья)</span><span class="sxs-lookup"><span data-stu-id="9555b-126">[Give mailbox permissions to another user](../admin/add-users/give-mailbox-permissions-to-another-user.md) (article)</span></span>\
+<span data-ttu-id="9555b-127">[Преобразование почтового ящика пользователя в общий почтовый ящик](../admin/email/convert-user-mailbox-to-shared-mailbox.md) (статья)</span><span class="sxs-lookup"><span data-stu-id="9555b-127">[Convert a user mailbox to a shared mailbox](../admin/email/convert-user-mailbox-to-shared-mailbox.md) (article)</span></span>\
+<span data-ttu-id="9555b-128">[Параметры электронной почты пользователя](../admin/email/office-365-user-email-settings.md) (статья)</span><span class="sxs-lookup"><span data-stu-id="9555b-128">[User email settings](../admin/email/office-365-user-email-settings.md) (article)</span></span>
