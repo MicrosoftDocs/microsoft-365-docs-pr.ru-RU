@@ -22,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: b5b633ba-1e56-4a98-8ff5-2acaac63a5c8
 description: Узнайте, как найти регистратора доменных имен и поставщика услуг размещения DNS с помощью поиска InterNIC.
-ms.openlocfilehash: 434e30709b112cf591159a1692540b8ef2b6bb65
-ms.sourcegitcommit: 0a8b0186cc041db7341e57f375d0d010b7682b7d
+ms.openlocfilehash: af883f53c8c45aee2594b0f5b8b9da57e5717f9e
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "49655546"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52706398"
 ---
 # <a name="find-your-domain-registrar"></a>Поиск регистратора доменных имен
 
@@ -40,11 +40,11 @@ ms.locfileid: "49655546"
 >[!NOTE]
 > С этим средством работают только домены, заканчивающиеся на *.COM*, *.NET* и *.EDU*.
   
-1. На [странице поиска InterNIC](https://go.microsoft.com/fwlink/p/?LinkId=402770) в поле **Whois Search** (Поиск в Whois) введите имя своего домена, например, *contoso.com*. 
+1. На [странице поиска InterNIC](https://go.microsoft.com/fwlink/p/?LinkId=402770) в поле **Whois Search** (Поиск в Whois) введите имя своего домена, например *contoso.com.* 
     
-2. Установите переключатель в положение **Domain** (Домен) и нажмите кнопку **Submit** (Отправить).
+2. Выберите **Domain** (Домен) и нажмите кнопку **Submit** (Отправить).
     
-3. На странице **Whois Search Results** (Результаты поиска Whois) найдите запись **Registrar** (Регистратор). Эта запись соответствует организации, предоставляющей услуги регистрации для вашего домена. 
+3. На странице **Whois Search Results** (Результаты поиска Whois) найдите запись **Registrar** (Регистратор). Эта запись относится к организации, предоставляющей услуги регистрации для вашего домена. 
     
 ## <a name="dns-hosting-provider"></a>Поставщик услуг размещения DNS
   
@@ -53,7 +53,7 @@ ms.locfileid: "49655546"
 >[!NOTE]
 > С этим средством работают только домены, заканчивающиеся на *.COM*, *.NET* и *.EDU*.
   
-1. На [странице поиска InterNIC]( https://go.microsoft.com/fwlink/p/?LinkId=402770) в поле **Whois Search** (Поиск в Whois) введите имя своего домена, например, contoso.com. 
+1. На странице поиска [InterNIC]( https://go.microsoft.com/fwlink/p/?LinkId=402770) в поле **Whois Search** (Поиск в Whois) введите имя своего домена, например contoso.com. 
     
 2. Установите переключатель в положение **Domain** (Домен) и нажмите кнопку **Submit** (Отправить).
     

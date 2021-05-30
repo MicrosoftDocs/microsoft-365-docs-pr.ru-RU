@@ -18,6 +18,8 @@
           href: microsoft-365-security-mde-redirection.md
         - name: Перенаправление Defender для Office 365 в Центр безопасности Microsoft 365
           href: microsoft-365-security-mdo-redirection.md
+        - name: Microsoft 365 Интеграция защитника с Azure Sentinel
+          href: microsoft-365-defender-integration-with-azure-sentinel.md
         - name: Предварительные функции
           href: preview.md
         - name: Устранение неполадок
@@ -110,15 +112,15 @@
                   href: first-incident-prepare.md
                 - name: Этап 1. Анализ и анализ
                   href: first-incident-analyze.md
-                - name: "Этап\_2. Исправление"
+                - name: Этап 2. Исправление
                   href: first-incident-remediate.md
-                - name: "Этап\_3. Проверка"
+                - name: Этап 3. Проверка
                   href: first-incident-post.md
                 - name: Дополнительные примеры инцидентов
                   items:
                     - name: Фишинговое письмо
                       href: first-incident-path-phishing.md
-                    - name: Удостоверение
+                    - name: Identity
                       href: first-incident-path-identity.md
             - name: Книги ответов на инциденты
               href: 'https://docs.microsoft.com/security/compass/incident-response-playbooks'
