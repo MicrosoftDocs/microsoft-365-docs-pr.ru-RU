@@ -20,8 +20,6 @@
           items:
             - name: Обзор Exchange Online Protection
               href: exchange-online-protection-overview.md
-            - name: Функции EOP
-              href: eop-features.md
             - name: Поток обработки почты в EOP
               href: mail-flow-in-eop.md
             - name: Карантин
