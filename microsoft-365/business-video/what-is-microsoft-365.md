@@ -17,20 +17,21 @@ ms.custom:
 - adminvideo
 search.appverid:
 - MET150
-description: Обзор функций Microsoft 365 бизнес премиум.
+description: Узнайте о Microsoft 365 бизнес премиум — подписка, которая открывает дверь в мир информационных технологий.
 feedback_system: None
 ms.date: 7/28/2020
-ms.openlocfilehash: 336d206b3853baa2bdde5d925113dc0887919da7
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 3f0c184cd0e0e6392f66d049b46930031e054bbe
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245184"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52705670"
 ---
-# <a name="microsoft-365-business-premium"></a>Microsoft 365 бизнес премиум
+# <a name="microsoft-365-business-premium"></a>Подписка на Microsoft 365 бизнес премиум
+
+## <a name="watch-what-is-microsoft-365-business-premium"></a>Видео: "Что такое Microsoft 365 бизнес премиум"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA?autoplay=false]
-
 
 Microsoft 365 бизнес премиум — это доступная по подписке служба, дающая возможность вашей организации работать в облачной среде. При этом корпорация Майкрософт поддерживает работу вашей ИТ-среды, обеспечивает управление устройствами и защиту от угроз, а также предоставляет вашей организации последние версии программного обеспечения для бизнеса.
 
