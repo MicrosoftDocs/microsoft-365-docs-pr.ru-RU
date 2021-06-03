@@ -1,5 +1,5 @@
 ---
-title: Начало работы с расширением соответствия требованиям Майкрософт (предварительная версия)
+title: Начало работы с расширением соответствия требованиям Майкрософт
 f1.keywords:
 - CSH
 ms.author: chrfox
@@ -19,14 +19,14 @@ ms.collection:
 search.appverid:
 - MET150
 description: Подготовьтесь к использованию расширения соответствия требованиям Майкрософт и разверните его.
-ms.openlocfilehash: 6ae44a86d415161cd3d7adf40671f02d93fb83c6
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: 084d8fea1bffb012b4a4685dd28ec93df8e29b19
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52113867"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730514"
 ---
-# <a name="get-started-with-microsoft-compliance-extension-preview"></a>Начало работы с расширением соответствия требованиям Майкрософт (предварительная версия)
+# <a name="get-started-with-microsoft-compliance-extension"></a>Начало работы с расширением соответствия требованиям Майкрософт
 
 Используйте эти процедуры для развертывания расширения соответствия требованиям Майкрософт.
 
@@ -261,9 +261,8 @@ ms.locfileid: "52113867"
 
 ### <a name="known-issues-and-limitations"></a>Известные проблемы и ограничения
 
-1. Не поддерживается перетаскивание для отправки папок.
-2. Не поддерживается блокировка переопределения для выхода в облако.
-3. Режим инкогнито не поддерживается и должен быть отключен.
+1. Не поддерживается блокировка переопределения для выхода в облако.
+2. Режим инкогнито не поддерживается и должен быть отключен.
 
 ## <a name="next-steps"></a>Следующие шаги
 После того, как вы подключили устройства, вы можете просмотреть данные об активности в обозревателе действий и перейти к этапу создания политик защиты от потери данных для конфиденциальных элементов.
@@ -279,6 +278,6 @@ ms.locfileid: "52113867"
 - [Начало работы с обозревателем действий](data-classification-activity-explorer.md)
 - [Microsoft Defender для конечной точки](https://docs.microsoft.com/windows/security/threat-protection/)
 - [Средства и методы подключения для компьютеров с Windows 10](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)
-- [Подписка на Microsoft 365](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1)
+- [Подписка на Microsoft 365](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1)
 - [Устройства, подключенные к Azure AD](https://docs.microsoft.com/azure/active-directory/devices/concept-azure-ad-join)
 - [Загрузка нового браузера Microsoft Edge на основе Chromium](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium)

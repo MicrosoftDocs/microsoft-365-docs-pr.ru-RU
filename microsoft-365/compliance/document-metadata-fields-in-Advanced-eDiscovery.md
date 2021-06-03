@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: В этой статье определяются поля метаданных для документов в наборе обзоров в случае, Advanced eDiscovery в Microsoft 365.
-ms.openlocfilehash: 77df40f4922718a7ed30431b0c1bd91f5c075425
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 7b8628973a8b07a3cd31e2b42df28c181e77e288
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244604"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730502"
 ---
 # <a name="document-metadata-fields-in-advanced-ediscovery"></a>Поля метаданных документов в Advanced eDiscovery
 
@@ -47,10 +47,10 @@ ms.locfileid: "52244604"
 |CC|Копия|Email_cc|Поле Cc для типов сообщений. Формат **DisplayName \<SMTPAddress>**.|
 |Метки соответствия требованиям|ComplianceLabels|Compliance_labels|[Метки хранения,](retention.md) применяемые к содержимому в Office 365.|
 |Сложный путь|CompoundPath|Compound_path|Понятный для человека путь, описываемый источником элемента.|
-|Содержимое*|Статья||Извлеченный текст элемента.|
+|Содержимое*|Содержимое||Извлеченный текст элемента.|
 |Тело беседы|Тело беседы||Тело беседы элемента.|
 |Тема беседы|Тема беседы||Тема беседы элемента.|
-|ID беседы|ConversationId|Email_conversation_ID|Id беседы из сообщения.|
+|ID беседы|ConversationId|Conversation_ID|Id беседы из сообщения.|
 |Индекс разговоров||Conversation_index|Индекс беседы из сообщения.|
 |Время беседы pdf|ConversationPdfTime||Дата создания PDF-версии беседы.|
 |Время ожога redaction беседы|ConversationRedactionBurnTime||Дата создания PDF-версии беседы для Чата.|
@@ -73,12 +73,12 @@ ms.locfileid: "52244604"
 |Доминирующая тема|DominantTheme|Dominant_theme|Доминирующая тема, рассчитанная для аналитики.|
 |Дубликат подмножество||Duplicate_subset|Групповой ID для точных дубликатов.|
 |EmailAction*||Email_action|Значения : **Нет,** **Ответ** или **Вперед;** на основе строки темы сообщения.|
-|Запрашиваемая квитанция доставки электронной почты||Email_delivery_receipt_requested|Адрес электронной почты, предоставленный в internet Headers для получения доставки.|
+|Запрашиваемая квитанция доставки электронной почты||Email_delivery_receipt|Адрес электронной почты, предоставленный в internet Headers для получения доставки.|
 |Importance|EmailImportance|Email_importance|Значение сообщения: **0** — низкий; **1** — нормальный; **2** . Высокая|
 |EmailInternetHeaders|EmailInternetHeaders|Email_internet_headers|Полный набор заглавных записей электронной почты из сообщения электронной почты|
 |EmailLevel*||Email_level|Указывает уровень сообщения в потоке электронной почты, к которой оно принадлежит; Вложения наследуют значение родительского сообщения.|
 |Id сообщения электронной почты||Email_message_ID|Id сообщения в Интернете из сообщения.|
-|EmailReadReceiptRequested||Email_read_receipt_requested|Адрес электронной почты, предоставленный в internet Headers для получения чтения.|
+|EmailReadReceiptRequested||Email_read_receipt|Адрес электронной почты, предоставленный в internet Headers для получения чтения.|
 |Безопасность электронной почты|EmailSecurity|Email_security|Параметр безопасности сообщения: **0** - Нет; **1** — подписанный; **2** — зашифровано; **3** . Зашифровано и подписано.|
 |Чувствительность электронной почты|EmailSensitivity|email_sensitivity|Параметр чувствительности сообщения: **0** — Нет; **1** Личное; **2** — частный; **3** . CompanyConfidential.|
 |Набор электронной почты|EmailSet|Email_set|Групповой ID для всех сообщений в одном наборе электронной почты.|
@@ -112,14 +112,14 @@ ms.locfileid: "52244604"
 |Класс элемента|ItemClass|Item_class|Класс item, поставляемого сервером exchange; например, **IPM. Примечание**|
 |Дата последнего изменения|LastModifiedDate|Doc_date_modified|Последняя измененная дата из метаданных документов.|
 |Load ID|LoadId|Load_ID|Id набора нагрузки, в котором элемент был добавлен в набор отзывов.|
-|Расположение|Расположение|Расположение|Строка, которая указывает тип расположения, из который были из него были задюс-ные документы.<br /><br />**Импортируемые** данные — не Office 365 данных<br />**Teams** - Microsoft Teams<br />**Exchange** — Exchange почтовых ящиков<br />**SharePoint** - SharePoint сайтов<br />**OneDrive** - OneDrive учетные записи|
+|Location|Location|Location|Строка, которая указывает тип расположения, из который были из него были задюс-ные документы.<br /><br />**Импортируемые** данные — не Office 365 данных<br />**Teams** - Microsoft Teams<br />**Exchange** — Exchange почтовых ящиков<br />**SharePoint** - SharePoint сайтов<br />**OneDrive** - OneDrive учетные записи|
 |Имя расположения|LocationName|Location_name|Строка, определяемая источником элемента. Для exchange это будет SMTP-адрес почтового ящика; для SharePoint OneDrive и OneDrive URL-адрес для коллекции сайтов.|
 |||Marked_as_pivot|Этот файл является поворотным в ближайшем дублирующем наборе.|
 |Помечено как представительное|MarkAsRepresentative||Один документ из каждого набора точных дубликатов помечен как представители.|
 |Дата окончания собрания|MeetingEndDate|Meeting_end_date|Дата окончания собрания для собраний.|
 |Дата начала собрания|MeetingStartDate|Meeting_start_date|Дата начала собрания для собраний.|
 |Тип сообщения|MessageKind|Message_kind|Тип сообщения для поиска. Возможные значения: контакты документы электронной почты externaldata факсы im журналы собраний **<br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> microsoftteams** (возвращает элементы из чатов, собраний и вызовов в Microsoft Teams) отмечает сообщения **<br /> <br /> <br /> rssfeeds <br /> <br />** задач голосовой почты| 
-|ModernAttachment_ParentId||ModernAttachment_ParentId||
+|Современный родительский id вложения||ModernAttachment_ParentId|Неоменяемый id родительского документа.|
 |Расширение native|NativeExtension|Native_extension|Родной расширение элемента.|
 |Имя файла native|NativeFileName|Native_file_name|Имя родного файла элемента.|
 |NativeMD5||Native_MD5|AD5 hash (128-bit hash value) of the file stream.|
@@ -131,7 +131,7 @@ ms.locfileid: "52244604"
 |Дата создания O365||O365_date_created|Дата создания из SharePoint.|
 |Изменение даты O365||O365_date_modified|Последняя измененная дата SharePoint.|
 |O365, измененная||O365_modified_by|Изменено с SharePoint.|
-|Родительский ID|ParentId|Container_ID|Id родительского элемента.|
+|Родительский ID|ParentId|Parent_ID|Id родительского элемента.|
 |ParentNode||Parent_node|Ближайшее предыдущее сообщение электронной почты в потоке электронной почты.|
 |Домены участников|ParticipantDomains|Email_participant_domains|Список всех доменов участников сообщения.|
 |Участники|Участники|Email_participants|Список всех участников сообщения; например, Sender, To, Cc, Bcc.|
@@ -164,6 +164,7 @@ ms.locfileid: "52244604"
 |Title|Title|Doc_title|Название из метаданных документа.|
 |To|To|Email_to|Поле для типов сообщений. Формат **displayName \<SmtpAddress>**|
 |Уникальный в наборе электронной почты|UniqueInEmailSet||**False,** если в наборе электронной почты есть дубликат вложения.|
+|ID группы версии||Version_Group_Id|Группировать различные версии одного и того же документа.|
 |Исправлено|WasRemediated|Was_Remediated|**True,** если элемент был исправлен, в противном случае **False**.|
 |Word count|WordCount|Word_count|Количество слов в элементе.|
 |||||

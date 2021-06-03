@@ -593,11 +593,6 @@
 ###### [Расширенная охота с помощью PowerShell](run-advanced-query-sample-powershell.md)
 ###### [Использование запросов OData](exposed-apis-odata-samples.md)
 
-#### [API потоковой передачи необработанных данных]()
-##### [Потоковая передача необработанных данных](raw-data-export.md)
-##### [Потоковая трансляция событий расширенной охоты в Центре событий Azure](raw-data-export-event-hub.md)
-##### [Потоковая передача событий расширенной охоты в учетную запись хранения](raw-data-export-storage.md)
-
 #### [Интеграция SIEM]()
 ##### [Сведения о концепциях Threat Intelligence](threat-indicator-concepts.md)
 ##### [Дополнительные сведения о различных способах обнаружения](configure-siem.md)

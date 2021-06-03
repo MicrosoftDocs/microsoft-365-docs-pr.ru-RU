@@ -1,6 +1,6 @@
 ---
 title: Журнал изменений документации по компьютерам, управляемым Майкрософт
-description: В этой статье перечислены новые и обновленные статьи для Microsoft Managed Desktop.
+description: В этой статье перечислены новые и обновленные статьи для компьютеры, управляемые Майкрософт.
 keywords: журнал изменений
 ms.service: m365-md
 ms.sitesec: library
@@ -13,16 +13,16 @@ f1.keywords:
 ms.author: jaimeo
 ms.article: article
 ms.localizationpriority: normal
-ms.openlocfilehash: 5e57f21690372b16c86a65fcfe4d00cb5c907391
-ms.sourcegitcommit: 987f70e44e406ab6b1dd35f336a9d0c228032794
+ms.openlocfilehash: bc04059d3ec63dd9395ed8f7a0e02b948e5cead1
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51587531"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730742"
 ---
 # <a name="change-history-for-microsoft-managed-desktop-documentation"></a>Журнал изменений документации по компьютерам, управляемым Майкрософт
 
-В этой статье перечислены новые и обновленные статьи в [документации Microsoft Managed Desktop.](index.yml) В "Обновленных" статьях имеются материальные дополнения или исправления , такие незначительные исправления, как исправление опечаток, стилей или проблем форматирования, не перечислены. Вы всегда можете просмотреть историю определенных коммитов (включая сведения о любых изменениях), посетив репо [на GitHub](https://github.com/MicrosoftDocs/microsoft-365-docs/tree/public/microsoft-365/managed-desktop).
+В этой статье перечислены новые и обновленные статьи в компьютеры, управляемые Майкрософт [документации.](index.yml) В "Обновленных" статьях имеются материальные дополнения или исправления , такие незначительные исправления, как исправление опечаток, стилей или проблем форматирования, не перечислены. Вы всегда можете просмотреть историю определенных коммитов (включая сведения о любых изменениях), посетив репо [на GitHub](https://github.com/MicrosoftDocs/microsoft-365-docs/tree/public/microsoft-365/managed-desktop).
 
 ## <a name="march-2021"></a>Март 2021 г.
 Новая или измененная статья | Описание
@@ -31,7 +31,7 @@ ms.locfileid: "51587531"
 [Первый запуск с помощью Autopilot и страницы состояния регистрации](get-started/esp-first-run.md) | Обновленная статья
 [Служба определения местоположения в Windows 10](get-started/device-location.md) | Новая статья
 [Изображения устройства](service-description/device-images.md) | Новая статья
-[Регионы, поддерживаемые Microsoft Managed Desktop](service-description/regions-languages.md) | Обновленная статья
+[компьютеры, управляемые Майкрософт поддерживаемые регионы](service-description/regions-languages.md) | Обновленная статья
 [Локализация пользовательского интерфейса](get-started/localization.md) | Новая статья
 
 ## <a name="february-2021"></a>Февраль 2021 г.
@@ -46,16 +46,16 @@ ms.locfileid: "51587531"
 [Приложения Microsoft 365 для предприятий](get-started/m365-apps.md) | Обновленная статья
 [Средства оценки готовности](get-ready/readiness-assessment-tool.md) | Обновленная статья
 
-## <a name="january-2021"></a>Январь 2021 г.
+## <a name="january-2021"></a>Январь 2021 г.
 Новая или измененная статья | Описание
 --- | ---
 [Исправление проблем, обнаруженных средством проверки готовности](get-ready/readiness-assessment-fix.md) | Обновленная статья
 [Настройка параметров после регистрации](get-started/conditional-access.md) | Обновленная статья
 [Работа с отчетами](working-with-managed-desktop/reports.md) | Обновленная статья
-[Установка портала компании Intune на устройствах](get-started/company-portal.md) | Обновленная статья
+[Установка Корпоративный портал Intune на устройствах](get-started/company-portal.md) | Обновленная статья
 [Требования к устройству](service-description/device-requirements.md) | Новая статья
 [Соответствие требованиям](intro/compliance.md) | Обновленная статья
-[Обработка обновлений в Microsoft Managed Desktop](service-description/updates.md) | Обновленная статья
+[Обработка обновлений в компьютеры, управляемые Майкрософт](service-description/updates.md) | Обновленная статья
 [Доступ к порталу администрирования](get-started/access-admin-portal.md) | Обновленная статья
 
 
@@ -66,7 +66,7 @@ ms.locfileid: "51587531"
 [Работа с отчетами](working-with-managed-desktop/reports.md) | Обновленная статья
 [Конфиденциальность и личные данные](service-description/privacy-personal-data.md) | Обновленная статья
 [Соответствие требованиям](intro/compliance.md) | Обновленная статья
-[Предварительные требования](get-ready/prerequisites.md) | Обновленная статья
+[Необходимые условия](get-ready/prerequisites.md) | Обновленная статья
 [Конфигурация сети](get-ready/network.md) | Обновленная статья
 
 
@@ -85,8 +85,8 @@ ms.locfileid: "51587531"
 ## <a name="october-2020"></a>Октябрь 2020 г.
 Новая или измененная статья | Описание
 --- | ---
-[Предварительные требования](get-ready/prerequisites.md) | Обновленная статья
-[Работа с аналитикой](working-with-managed-desktop/insights.md) | Обновленная статья
+[Необходимые условия](get-ready/prerequisites.md) | Обновленная статья
+Работа с аналитикой | Обновленная статья
 [Этапы регистрации устройств для партнеров](get-started/register-devices-partner.md) | Обновленная статья
 [Доступ к порталу администрирования](get-started/access-admin-portal.md) | Обновленная статья
 [Развертывание приложений на устройствах](get-started/deploy-apps.md) | Обновленная статья
@@ -99,8 +99,8 @@ ms.locfileid: "51587531"
 [Конфиденциальность и личные данные](service-description/privacy-personal-data.md) | Новая статья
 [Подготовка подключенных дисков для компьютеров, управляемых Майкрософт](get-ready/mapped-drives.md) | Обновленная статья
 [Получение справки для пользователей](working-with-managed-desktop/end-user-support.md) | Обновленная статья
-[Ссылка на настраиваемые параметры — управляемый рабочий стол Майкрософт](working-with-managed-desktop/config-setting-ref.md) | Обновленная статья
-[Развертывание и отслеживание настраиваемых параметров — Microsoft Managed Desktop](working-with-managed-desktop/config-setting-deploy.md) | Обновленная статья
+[Ссылка на настраиваемые параметры — компьютеры, управляемые Майкрософт](working-with-managed-desktop/config-setting-ref.md) | Обновленная статья
+[Развертывание и отслеживание настраиваемых параметров — компьютеры, управляемые Майкрософт](working-with-managed-desktop/config-setting-deploy.md) | Обновленная статья
 [Поддержка администраторов в отношении компьютеров, управляемых Майкрософт](working-with-managed-desktop/admin-support.md) | Обновленная статья
 [Microsoft Teams](get-started/teams.md) | Новая статья
 [Доступ к порталу администрирования](get-started/access-admin-portal.md) | Новая статья
@@ -109,17 +109,17 @@ ms.locfileid: "51587531"
 [Самостоятельная регистрация новых устройств](get-started/register-devices-self.md) | Обновленная статья
 [Подготовка сертификатов и сетевых профилей для компьютеров, управляемых Майкрософт](get-ready/certs-wifi-lan.md) | Обновленная статья
 [Предварительные условия для компьютеров, управляемых Майкрософт](get-ready/prerequisites.md) | Обновленная статья
-[Работа с аналитикой](working-with-managed-desktop/insights.md) | Обновленная статья
+Работа с аналитикой| Обновленная статья
 
 ## <a name="august-2020"></a>Август 2020 г.
 Новая или измененная статья | Описание
 --- | ---
 [Отчет об инвентаризации устройств](working-with-managed-desktop/device-inventory-report.md) | Новая статья
-[Новое приложение Microsoft Edge](get-started/edge-browser-app.md) | Обновленная статья
+[Новое Microsoft Edge приложение](get-started/edge-browser-app.md) | Обновленная статья
 [Самостоятельная регистрация новых устройств](get-started/register-devices-self.md) | Обновленная статья
 [Самостоятельная регистрация существующих устройств](get-started/register-reused-devices-self.md) | Обновленная статья
 [Предварительные условия для компьютеров, управляемых Майкрософт](get-ready/prerequisites.md) | Обновленная статья
-[Операции безопасности в microsoft Managed Desktop](service-description/security-operations.md) | Новая статья
+[Операции безопасности в компьютеры, управляемые Майкрософт](service-description/security-operations.md) | Новая статья
 [Доступ к порталу администрирования](get-started/access-admin-portal.md) | Обновленная статья
 [Приложения Microsoft 365 для предприятий](get-started/m365-apps.md) | Новая статья
 [Конфиденциальность и личные данные](service-description/privacy-personal-data.md) | Новая статья
@@ -127,32 +127,32 @@ ms.locfileid: "51587531"
 ## <a name="july-2020"></a>Июль 2020 г.
 Новая или измененная статья | Описание
 --- | ---
-[Требования к управляемым настольным приложениям Майкрософт](service-description/mmd-app-requirements.md) | Обновленная статья
+[компьютеры, управляемые Майкрософт приложения](service-description/mmd-app-requirements.md) | Обновленная статья
 [Соответствие требованиям](intro/compliance.md) | Обновленная статья
 [Начало работы с элементом управления приложениями](get-started/get-started-app-control.md) | Обновленная статья
 [Работа с элементом управления приложениями](working-with-managed-desktop/work-with-app-control.md) | Обновленная статья
 [Предварительные условия для компьютеров, управляемых Майкрософт](get-ready/prerequisites.md) | Обновленная статья
 [Управление приложениями](service-description/app-control.md) | Обновленная статья
 [Конфигурация сети для компьютеров, управляемых Майкрософт](get-ready/network.md) | Обновленная статья
-[Новое приложение Microsoft Edge](get-started/edge-browser-app.md) | Обновленная статья
+[Новое Microsoft Edge приложение](get-started/edge-browser-app.md) | Обновленная статья
 [Доступ к порталу администрирования](get-started/access-admin-portal.md) | Новая статья
 [Управление приложениями](service-description/app-control.md) | Новая статья
-[Установка Microsoft Project или Microsoft Visio на управляемых настольных устройствах Майкрософт](get-started/project-visio.md) | Обновленная статья
+[Установка Microsoft Project или microsoft Visio на компьютеры, управляемые Майкрософт устройствах](get-started/project-visio.md) | Обновленная статья
 
-## <a name="june-2020"></a>Июнь 2020 г.
+## <a name="june-2020"></a>Июнь 2020 г.
 Новая или измененная статья | Описание
 --- | ---
-[Новое приложение Microsoft Edge](get-started/edge-browser-app.md) | Новая статья
+[Новое Microsoft Edge приложение](get-started/edge-browser-app.md) | Новая статья
 [Конфигурация устройств](service-description/device-policies.md) | Обновленная статья
 
 
 
-## <a name="may-2020"></a>Май 2020 г.
+## <a name="may-2020"></a>Май 2020 г.
 Новая или измененная статья | Описание
 --- | ---
 [Получение справки для пользователей](working-with-managed-desktop/end-user-support.md) | Обновленная статья
 [Этапы регистрации устройств для партнеров](get-started/register-devices-partner.md) | Обновленная статья
-[Устройства Microsoft Managed Desktop](service-description/device-list.md) | Обновленная статья
+[компьютеры, управляемые Майкрософт устройства](service-description/device-list.md) | Обновленная статья
 [Самостоятельная регистрация новых устройств](get-started/register-devices-self.md) | Обновленная статья
 
 
@@ -163,7 +163,7 @@ ms.locfileid: "51587531"
 Новая или измененная статья | Описание
 --- | ---
 [Соответствие требованиям](intro/compliance.md) | Новая статья
-[Поддерживаемые Microsoft Managed Desktop регионы и языки](service-description/regions-languages.md) | Обновленная статья
+[компьютеры, управляемые Майкрософт поддерживаемые регионы и языки](service-description/regions-languages.md) | Обновленная статья
 
 
 
@@ -175,14 +175,14 @@ ms.locfileid: "51587531"
 [Подготовка ресурсов печати для компьютеров, управляемых Майкрософт](get-ready/printing.md) | Новая статья
 
 
-## <a name="february-2020"></a>Февраль 2020 г.
+## <a name="february-2020"></a>Февраль 2020 г.
 Новая или измененная статья | Описание
 --- | ---
-[Безопасность в microsoft Managed Desktop](service-description/security.md)| Обновленная статья
-[Работа с аналитикой](working-with-managed-desktop/insights.md) | Обновленная статья
-[Аналитика центра безопасности Windows](working-with-managed-desktop/security-update-insights.md) | Новая статья
-[Обработка обновлений в Microsoft Managed Desktop](service-description/updates.md) | Обновленная статья
-[Службы устройств microsoft Managed Desktop](service-description/device-services.md) | Обновленная статья
+[Безопасность в компьютеры, управляемые Майкрософт](service-description/security.md)| Обновленная статья
+Работа с аналитикой | Обновленная статья
+Аналитика центра безопасности Windows| Новая статья
+[Обработка обновлений в компьютеры, управляемые Майкрософт](service-description/updates.md) | Обновленная статья
+[компьютеры, управляемые Майкрософт устройств](service-description/device-services.md) | Обновленная статья
 
 
 
@@ -198,19 +198,19 @@ ms.locfileid: "51587531"
 Новая или измененная статья | Описание
 --- | ---
 [Поддержка администраторов в отношении компьютеров, управляемых Майкрософт](working-with-managed-desktop/admin-support.md) | Обновленная статья
-[Устройства Microsoft Managed Desktop](service-description/device-list.md) | Обновленная статья
-[Архивные устройства Microsoft Managed Desktop](service-description/archived-device-list.md) | Обновленная статья
+[компьютеры, управляемые Майкрософт устройства](service-description/device-list.md) | Обновленная статья
+[компьютеры, управляемые Майкрософт архивные устройства](service-description/archived-device-list.md) | Обновленная статья
 
 
 
-## <a name="november-2019"></a>Ноябрь 2019 г.
+## <a name="november-2019"></a>Ноябрь 2019 г.
 Новая или измененная статья | Описание
 --- | ---
-[Работа с аналитикой](working-with-managed-desktop/insights.md) | Новая статья
-[Аналитика использования](working-with-managed-desktop/usage-insights.md) | Новая статья
-[Аналитика надежности](working-with-managed-desktop/reliability-insights.md) | Новая статья
-[Устройства Microsoft Managed Desktop](service-description/device-list.md) | Обновленная статья
-[Главная страница Microsoft Managed Desktop](./index.yml) | Обновленная статья
+Работа с аналитикой | Новая статья
+Аналитика использования | Новая статья
+Аналитика надежности | Новая статья
+[компьютеры, управляемые Майкрософт устройства](service-description/device-list.md) | Обновленная статья
+[компьютеры, управляемые Майкрософт главной странице](./index.yml) | Обновленная статья
 [Что собой представляют компьютеры, управляемые Майкрософт?](./intro/index.md) | Обновленная статья
 [Подготовка пользователей к работе с устройствами](get-started/get-started-devices.md) | Обновленная статья
 [Исключения в плане обслуживания](service-description/customizing.md) | Обновленная статья
@@ -225,24 +225,24 @@ ms.locfileid: "51587531"
 [Изменения служб и обмен информацией](service-description/servicechanges.md) | Новая статья
 [Самостоятельная регистрация новых устройств](get-started/register-devices-self.md) | Обновленная статья
 [Самостоятельная регистрация существующих устройств](get-started/register-reused-devices-self.md) | Обновленная статья
-[Поддерживаемые Microsoft Managed Desktop регионы и языки](service-description/regions-languages.md) | Обновленная статья
+[компьютеры, управляемые Майкрософт поддерживаемые регионы и языки](service-description/regions-languages.md) | Обновленная статья
 
 
 
 
-## <a name="september-2019"></a>Сентябрь 2019 г.
+## <a name="september-2019"></a>Сентябрь 2019 г.
 Новая или измененная статья | Описание
 --- | ---
 [Технологии компьютеров, управляемых Майкрософт](intro/technologies.md) | Обновленная статья
 [Получение справки для пользователей](working-with-managed-desktop/end-user-support.md) | Обновленная статья
-[Устройства Microsoft Managed Desktop](service-description/device-list.md) | Обновленная статья
-[Развертывание и отслеживание настраиваемых параметров — Microsoft Managed Desktop](working-with-managed-desktop/config-setting-deploy.md) | Обновленная статья
+[компьютеры, управляемые Майкрософт устройства](service-description/device-list.md) | Обновленная статья
+[Развертывание и отслеживание настраиваемых параметров — компьютеры, управляемые Майкрософт](working-with-managed-desktop/config-setting-deploy.md) | Обновленная статья
 [Поддержка администраторов в отношении компьютеров, управляемых Майкрософт](working-with-managed-desktop/admin-support.md) | Обновленная статья
 [Предварительные условия для компьютеров, управляемых Майкрософт](get-ready/prerequisites.md) | Обновленная статья
 [Настройка компьютеров, управляемых Майкрософт](get-started/set-up-devices.md) | Новая статья
 [Самостоятельная регистрация новых устройств](get-started/register-devices-self.md) | Обновленная статья
 [Самостоятельная регистрация существующих устройств](get-started/register-reused-devices-self.md) | Новая статья
-[Обработка обновлений в Microsoft Managed Desktop](service-description/updates.md) | Обновленная статья
+[Обработка обновлений в компьютеры, управляемые Майкрософт](service-description/updates.md) | Обновленная статья
 
 ## <a name="august-2019"></a>Август 2019 г.
 Новая или измененная статья | Описание
@@ -255,7 +255,7 @@ ms.locfileid: "51587531"
 
 
 
-## <a name="july-2019"></a>Июль 2019 г.
+## <a name="july-2019"></a>Июль 2019 г.
 Новая или измененная статья | Описание
 --- | ---
 [Работа с консультационными службами Майкрософт](get-ready/apps-mcs.md) | Обновленная статья
@@ -263,44 +263,44 @@ ms.locfileid: "51587531"
 [Конфигурация устройств](service-description/device-policies.md) | Обновленная статья
 
 
-## <a name="june-2019"></a>Июнь 2019 г.
+## <a name="june-2019"></a>Июнь 2019 г.
 Новая или измененная статья | Описание
 --- | ---
 [Приложения на компьютерах, управляемых Майкрософт](get-ready/apps.md) | Обновленная статья
 [Работа с консультационными службами Майкрософт](get-ready/apps-mcs.md) | Новая статья
 [Роли и обязанности компьютеров, управляемых Майкрософт](intro/roles-and-responsibilities.md) | Обновленная статья
-[Жизненный цикл продукта Microsoft Managed Desktop](service-description/device-lifecycle.md) | Новая статья
+[компьютеры, управляемые Майкрософт жизненного цикла продукта](service-description/device-lifecycle.md) | Новая статья
 
 
 
-## <a name="may-2019"></a>Май 2019 г.
+## <a name="may-2019"></a>Май 2019 г.
 Новая или измененная статья | Описание
 --- | ---
-[Поддерживаемые Microsoft Managed Desktop регионы и языки](service-description/regions-languages.md) | Обновленная статья
-[Устройства Microsoft Managed Desktop](service-description/device-list.md) | Обновленная статья
-[Архивные устройства Microsoft Managed Desktop](service-description/archived-device-list.md) | Новая статья
+[компьютеры, управляемые Майкрософт поддерживаемые регионы и языки](service-description/regions-languages.md) | Обновленная статья
+[компьютеры, управляемые Майкрософт устройства](service-description/device-list.md) | Обновленная статья
+[компьютеры, управляемые Майкрософт архивные устройства](service-description/archived-device-list.md) | Новая статья
 [Подготовка подключенных дисков для компьютеров, управляемых Майкрософт](get-ready/mapped-drives.md) | Новая статья
 [Подготовка сертификатов и сетевых профилей для компьютеров, управляемых Майкрософт](get-ready/certs-wifi-lan.md) | Новая статья
-[Заказ устройств Microsoft Managed Desktop](get-started/devices.md) | Обновленная статья
+[Заказ компьютеры, управляемые Майкрософт устройств](get-started/devices.md) | Обновленная статья
 [Получение справки для пользователей](working-with-managed-desktop/end-user-support.md) | Новая статья
 
-## <a name="april-2019"></a>Апрель 2019 г.
+## <a name="april-2019"></a>Апрель 2019 г.
 Новая или измененная статья | Описание
 --- | ---
-[Установка портала компании Intune на управляемых настольных устройствах Майкрософт](get-started/company-portal.md) | Новая статья
-[Установка Microsoft Project и Microsoft Visio на устройствах Microsoft Managed Desktop](get-started/project-visio.md) | Новая статья 
+[Установка Корпоративный портал Intune на компьютеры, управляемые Майкрософт устройствах](get-started/company-portal.md) | Новая статья
+[Установка Microsoft Project и microsoft Visio на компьютеры, управляемые Майкрософт устройствах](get-started/project-visio.md) | Новая статья 
 [Подготовка доступа к локальным ресурсам для компьютеров, управляемых Майкрософт](get-ready/authentication.md) | Новая статья
-[Регистрация устройств в Microsoft Managed Desktop](get-started/register-devices-self.md) | Новая статья
-[Регистрация устройств в Microsoft Managed Desktop для партнеров](get-started/register-devices-partner.md) | Новая статья
-[Развертывание приложений на устройствах Microsoft Managed Desktop](get-started/deploy-apps.md) | Обновленная статья
+[Регистрация устройств в компьютеры, управляемые Майкрософт](get-started/register-devices-self.md) | Новая статья
+[Регистрация устройств в компьютеры, управляемые Майкрософт для партнеров](get-started/register-devices-partner.md) | Новая статья
+[Развертывание приложений на компьютеры, управляемые Майкрософт устройствах](get-started/deploy-apps.md) | Обновленная статья
 
-## <a name="march-2019"></a>Март 2019 г.
+## <a name="march-2019"></a>Март 2019 г.
 Новая или измененная статья | Описание
 --- | ---
-[Установка портала компании Intune на управляемых настольных устройствах Майкрософт](get-started/company-portal.md) | Новая статья
-[Установка Microsoft Project и Microsoft Visio на устройствах Microsoft Managed Desktop](get-started/project-visio.md) | Новая статья
+[Установка Корпоративный портал Intune на компьютеры, управляемые Майкрософт устройствах](get-started/company-portal.md) | Новая статья
+[Установка Microsoft Project и microsoft Visio на компьютеры, управляемые Майкрософт устройствах](get-started/project-visio.md) | Новая статья
 
-## <a name="february-2019"></a>Февраль 2019 г.
+## <a name="february-2019"></a>Февраль 2019 г.
 Новая или измененная статья | Описание
 --- | ---
 [Программные устройства](service-description/device-list.md) | Обновлено с поддержкой некоторых устройств Dell и HP.
@@ -309,23 +309,23 @@ ms.locfileid: "51587531"
 [Отслеживание и развертывание настраиваемых параметров](working-with-managed-desktop/config-setting-deploy.md) | Новая статья
 [Начало работы с устройствами](get-started/get-started-devices.md) | Новая статья
 
-## <a name="january-2019"></a>Январь 2019 г.
+## <a name="january-2019"></a>Январь 2019 г.
 Новая или измененная статья | Описание
 --- | ---
-[Развертывание приложений для устройств microsoft Managed Desktop](get-started/deploy-apps.md) | Новая статья.
-[Управление приложениями для управляемого рабочего стола Майкрософт](working-with-managed-desktop/manage-apps.md) | Обновлено сведения о том, как обновить или откатиться к предыдущей версии бизнес-приложений. 
+[Развертывание приложений для компьютеры, управляемые Майкрософт устройств](get-started/deploy-apps.md) | Новая статья.
+[Управление приложениями для компьютеры, управляемые Майкрософт](working-with-managed-desktop/manage-apps.md) | Обновлено сведения о том, как обновить или откатиться к предыдущей версии бизнес-приложений. 
 
-## <a name="december-2018"></a>Декабрь 2018 г.
+## <a name="december-2018"></a>Декабрь 2018 г.
 Новая или измененная статья | Описание
 --- | ---
-[Операции и мониторинг для управляемого рабочего стола Майкрософт](service-description/operations-and-monitoring.md) | Добавлен баланс таблицы ответственности и обновлены другие таблицы.
+[Операции и мониторинг для компьютеры, управляемые Майкрософт](service-description/operations-and-monitoring.md) | Добавлен баланс таблицы ответственности и обновлены другие таблицы.
 [Поддержка администраторов в отношении компьютеров, управляемых Майкрософт](working-with-managed-desktop/admin-support.md) | Обновленные типы поддержки, объяснения серьезности и дополнительные сведения.
 
-## <a name="november-2018"></a>Ноябрь 2018 г.
+## <a name="november-2018"></a>Ноябрь 2018 г.
 
 Новая или измененная статья | Описание
 --- | ---
-[Поддержка управляемого рабочего стола Майкрософт](service-description/support.md)<br />и [поддержка пользователей для microsoft Managed Desktop](working-with-managed-desktop/end-user-support.md) | Обновлено, чтобы включить Австралию.
+[Поддержка компьютеры, управляемые Майкрософт](service-description/support.md)<br />и [поддержка пользователей для компьютеры, управляемые Майкрософт](working-with-managed-desktop/end-user-support.md) | Обновлено, чтобы включить Австралию.
 
 ## <a name="october-30-2018"></a>30 октября 2018 г.
-Реорганизованный контент: добавлен раздел для [описания службы microsoft Managed Desktop.](service-description/index.md)
+Реорганизованный контент: [добавлен раздел для компьютеры, управляемые Майкрософт службы.](service-description/index.md)

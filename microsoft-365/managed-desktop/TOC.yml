@@ -147,14 +147,6 @@
           items:
             - name: Отчет об инвентаризации устройств
               href: working-with-managed-desktop/device-inventory-report.md
-            - name: Аналитика использования
-              href: working-with-managed-desktop/usage-insights.md
-            - name: Аналитика надежности
-              href: working-with-managed-desktop/reliability-insights.md
-            - name: Аналитика аккумулятора
-              href: working-with-managed-desktop/battery-insights.md
-            - name: Аналитика центра безопасности Windows
-              href: working-with-managed-desktop/security-update-insights.md
         - name: Поддержка администраторов
           href: working-with-managed-desktop/admin-support.md
         - name: Поддержка пользователей

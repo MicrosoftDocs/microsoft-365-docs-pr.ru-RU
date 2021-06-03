@@ -1,6 +1,6 @@
 ---
-title: Stream Microsoft Defender for Endpoint event
-description: Узнайте, как настроить Microsoft Defender для конечной точки для потоковой передачи событий advanced Hunting в концентраторы событий или учетную запись хранилища Azure
+title: События Microsoft 365 Defender
+description: Узнайте, как настроить Microsoft 365 Defender для потоковой передачи событий advanced Hunting в центры событий или учетную запись хранения Azure
 keywords: экспорт необработанных данных, потоковый API, API, концентраторы событий, хранилище Azure, учетная запись хранилища, расширенный доступ к данным, обмен необработанные данные
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,38 +16,37 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: f6a45629d610ea3cc3ca7d517021a215b72b1439
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 0c25ec8bc88a2714fb2f02ef8641c3eae700efe0
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688757"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730694"
 ---
-# <a name="raw-data-streaming-api"></a>Необработанные API потоковой передачи данных
+# <a name="streaming-api"></a>Потоковый API
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Область применения:**
-- [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Хотите испытать Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configuresiem-abovefoldlink) 
+[!include[Prerelease information](../../includes/prerelease.md)]
 
 ## <a name="stream-advanced-hunting-events-to-event-hubs-andor-azure-storage-account"></a>Поток событий advanced Hunting в концентраторы событий и/или учетную запись хранилища Azure.
 
-Defender for Endpoint поддерживает потоковую трансляцию всех [](https://docs.microsoft.com/azure/event-hubs/) событий, доступных с помощью [advanced Hunting,](advanced-hunting-overview.md) в концентраторы событий и/или учетную запись [хранилища Azure.](https://docs.microsoft.com/azure/event-hubs/)
+Microsoft 365 Defender поддерживает потоковую передачу всех событий, доступных с помощью [Advanced Hunting,](../defender/advanced-hunting-overview.md) в учетную запись хранилища [Event Hubs](/azure/event-hubs/) и/или [Azure.](/azure/event-hubs/)
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4r4ga]
 
 
 ## <a name="in-this-section"></a>В этом разделе
 
 Статья | Описание
 :---|:---
-[Поток событий Microsoft Defender для конечных точек в концентраторы событий Azure](raw-data-export-event-hub.md)| Узнайте о том, как включите потоковый API в клиенте и настройте Defender для конечной точки для потоковой передачи [advanced Hunting](advanced-hunting-overview.md) в концентраторы событий.
-[Stream Defender для событий конечной точки в учетной записи хранения Azure](raw-data-export-storage.md)| Узнайте о включите потоковый API в клиенте и настройте Defender для конечной точки для потоковой передачи [advanced Hunting](advanced-hunting-overview.md) в учетную запись хранилища Azure.
+[Поток событий в концентраторы событий Azure](raw-data-export-event-hub.md)| Узнайте о том, как включите потоковый API в клиенте и настройте Microsoft 365 Defender для потоковой передачи [advanced Hunting](../defender/advanced-hunting-overview.md) to Event Hubs.
+[Поток событий в учетную запись хранилища Azure](raw-data-export-storage.md)| Узнайте о включите потоковый API в клиенте и настройте Microsoft 365 Defender для потоковой передачи [advanced Hunting](../defender/advanced-hunting-overview.md) в учетную запись хранилища Azure.
 
 
-## <a name="related-topics"></a>Статьи по теме
-- [Обзор расширенных охоты](advanced-hunting-overview.md)
-- [Документация по центрам событий Azure](https://docs.microsoft.com/azure/event-hubs/)
-- [Документация по учетной записи Хранилища Azure](https://docs.microsoft.com/azure/storage/common/storage-account-overview)
+## <a name="related-topics"></a>Связанные статьи
+- [Обзор расширенных охоты](../defender/advanced-hunting-overview.md)
+- [Документация по центрам событий Azure](/azure/event-hubs/)
+- [служба хранилища Azure Документация по учетной записи](/azure/storage/common/storage-account-overview)

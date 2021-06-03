@@ -1,6 +1,6 @@
 ---
-title: Microsoft 365 API-API и тип ресурса инцидентов defender
-description: Узнайте о методах и свойствах типа ресурса Incident в Microsoft 365 Defender
+title: Microsoft 365 Defender incidents API and the incidents resource type
+description: Узнайте о методах и свойствах типа ресурсов Incidents в Microsoft 365 Defender
 keywords: инциденты, инциденты, api
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -20,20 +20,20 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 5cc149668e49e21b38b5fb95ae3f40db6c296e1d
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 587d6107b0c09b2178311d8da6606968e7fda083
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572589"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730934"
 ---
-# <a name="microsoft-365-defender-incidents-api-and-the-incident-resource-type"></a>Microsoft 365 API инцидентов Defender и тип ресурса инцидента
+# <a name="microsoft-365-defender-incidents-api-and-the-incidents-resource-type"></a>Microsoft 365 API инцидентов Defender и тип ресурса инцидентов
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 **Область применения:**
 
-- Microsoft 365 Defender
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > [!IMPORTANT]
 > Некоторые сведения относятся к предварительным выпускам продуктов, которые могут быть существенно изменены до коммерческого выпуска. Корпорация Майкрософт не дает никаких гарантий, явных или подразумеваемых, относительно предоставленных здесь сведений.
@@ -67,10 +67,10 @@ API инцидентов требует различных разрешений 
 -|-|-
 incidentId | long | Уникальный ID инцидента.
 redirectIncidentId | nullable long | ID инцидента, в который был объединено текущее происшествие.
-incidentName | строка | Имя инцидента.
+incidentName | Строка | Имя инцидента.
 createdTime | DateTimeOffset | Дата и время (в UTC) был создан инцидент.
 lastUpdateTime | DateTimeOffset | Дата и время (в UTC) инцидент был последним обновлением.
-assignedTo | строка | Владелец инцидента.
+assignedTo | Строка | Владелец инцидента.
 severity | Перечисление | Серьезность инцидента. Возможные значения: ```UnSpecified``` ```Informational``` , , , , ```Low``` и ```Medium``` ```High``` .
 status | Перечисление | Указывает текущее состояние инцидента. Возможные значения: ```Active``` , ```Resolved``` и ```Redirected``` .
 classification | Перечисление | Спецификация инцидента. Возможные значения: ```Unknown```, ```FalsePositive```, ```TruePositive```.

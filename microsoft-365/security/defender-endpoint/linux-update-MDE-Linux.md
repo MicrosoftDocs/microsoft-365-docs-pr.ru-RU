@@ -16,16 +16,16 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 22ff42cb399b3d07c0ebd8ec4f947352eb6f44aa
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 9b7699b1a24e7e1d74a48389d02518e814911ecc
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934769"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730874"
 ---
 # <a name="schedule-an-update-of-the-microsoft-defender-for-endpoint-linux"></a>Планирование обновления Microsoft Defender для конечной точки для Linux
 
-Чтобы запустить обновление в Microsoft Defender для конечной точки в Linux, см. в статью Развертывание обновлений для [Microsoft Defender для конечной](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/linux-updates)точки в Linux.
+Чтобы запустить обновление в Microsoft Defender для конечной точки в Linux, см. в статью Развертывание обновлений для [Microsoft Defender для конечной](/microsoft-365/security/defender-endpoint/linux-updates)точки в Linux.
 
 Linux (и Unix) имеют средство **crontab** (аналогично планиру задач) для выполнения запланированных задач.
 
@@ -84,7 +84,7 @@ CRON_TZ=Америка/Los_Angeles
 
 > #<a name="ubuntu-and-debian-systems"></a>! Системы Ubuntu и Debian
 
-`06**sun [$(date +\%d) -le 15] sudo apt-get install --only-upgrade mdatp>>~/mdatp_cron_job.log`
+`0 6 * * sun [$(date +\%d) -le 15] sudo apt-get install --only-upgrade mdatp>>~/mdatp_cron_job.log`
 
 > [!NOTE]
 > В вышеперечисленных примерах мы устанавливаем его до 00 минут 6 утра (час в 24-часовом формате), в любой день месяца, в любой месяц, по воскресеньям. [$(date + d) -le 15] == Не будет работать, если он не равен или меньше \% 15-го дня (3-я неделя). Это означает, что он будет работать каждые 3 воскресенья (7) месяца в 6:00. Pacific (UTC -8).

@@ -1,6 +1,6 @@
 ---
-title: Поток событий Microsoft Defender для событий конечной точки в учетную запись хранилища
-description: Узнайте, как настроить Microsoft Defender для конечной точки для потоковой передачи событий advanced Hunting в учетную запись хранилища.
+title: Поток Microsoft 365 событий Defender на свою служба хранилища учетную запись
+description: Узнайте, как настроить Microsoft 365 Defender для потоковой передачи событий advanced Hunting в свою служба хранилища учетную запись.
 keywords: экспорт необработанных данных, потоковый API, API, концентраторы событий, хранилище Azure, учетная запись хранилища, расширенный доступ к данным, обмен необработанные данные
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,48 +16,49 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 19fe0c9c3dc6f2e4226a4aa9a6cd983bc95bae3a
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 1a1d6b63bcdf21535f36b23d4a30e5ea01833c36
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688793"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52729996"
 ---
-# <a name="configure-microsoft-defender-for-endpoint-to-stream-advanced-hunting-events-to-your-storage-account"></a>Настройка Microsoft Defender для конечной точки для потоковой передачи событий предварительной охоты на учетную запись хранилища
+# <a name="configure--microsoft-365-defender-to-stream-advanced-hunting-events-to-your-storage-account"></a>Настройка Microsoft 365 Defender для потоковой передачи событий advanced Hunting в служба хранилища учетную запись
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
 **Область применения:**
-- [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/?linkid=2154037)
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> Хотите испытать Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configuresiem-abovefoldlink) 
+[!include[Prerelease information](../../includes/prerelease.md)]
+
 
 ## <a name="before-you-begin"></a>Подготовка:
 
-1. Создайте [учетную запись хранилища](https://docs.microsoft.com/azure/storage/common/storage-account-overview) в клиенте.
+1. Создайте [служба хранилища учетную запись](/azure/storage/common/storage-account-overview) в клиенте.
 
-2. Войдите в клиент [Azure,](https://ms.portal.azure.com/)перейдите на подписки > подписки > поставщиков ресурсов **> в Microsoft.insights**.
+2. Войдите в клиент [Azure,](https://ms.portal.azure.com/)перейдите к подпискам > подписки > поставщиков ресурсов **> в Microsoft.Insights**.
 
 ## <a name="enable-raw-data-streaming"></a>Включить потоковую передачу необработанных данных:
 
-1. Войдите на [портал Microsoft Defender для конечных точек](https://securitycenter.windows.com) в качестве ***Глобального** администратора _ или _*_Администратора_ безопасности **.
+1. Войдите [в Microsoft 365 центр безопасности Defender](https://security.microsoft.com) в качестве ***Глобального** администратора _ или _*_Администратора_ безопасности **.
 
-2. Перейдите [на страницу Параметры экспорта данных](https://securitycenter.windows.com/interoperability/dataexport) в Центре безопасности Защитника Майкрософт.
+2. Перейдите [на страницу Параметры экспорта](https://security.microsoft.com/settings/mtp_settings/raw_data_export) данных в Центр безопасности в Microsoft Defender.
 
 3. Нажмите **кнопку Добавить параметры экспорта данных.**
 
 4. Выберите имя для новых параметров.
 
-5. Выберите **перенадвигать события в Azure Storage.**
+5. Выберите **события Forward для служба хранилища Azure**.
 
-6. Введите свой **ID ресурса учетной записи хранилища.** Чтобы получить **ID** ресурса учетной записи хранилища, перейдите на страницу учетной записи хранилища на портале [Azure](https://ms.portal.azure.com/) > вкладке свойств > скопируйте текст под ИД ресурса учетной записи хранилища:
+6. Введите **служба хранилища ИД ресурса учетной записи.** Чтобы получить служба хранилища ресурса учетной записи, перейдите на страницу служба хранилища учетной записи на вкладке > свойств [Azure](https://ms.portal.azure.com/) > скопируйте текст под **служба хранилища ID** ресурса учетной записи: 
 
    ![Изображение ID1 ресурса центра событий](images/storage-account-resource-id.png)
 
 7. Выберите события, которые необходимо транслировать, и нажмите кнопку **Сохранить**.
 
-## <a name="the-schema-of-the-events-in-the-storage-account"></a>Схема событий в учетной записи Хранилища:
+## <a name="the-schema-of-the-events-in-the-storage-account"></a>Схема событий в учетной записи служба хранилища:
 
 - Для каждого типа событий будет создан контейнер blob: 
 
@@ -67,10 +68,10 @@ ms.locfileid: "51688793"
 
   ```
   {
-          "time": "<The time WDATP received the event>"
+          "time": "<The time Microsoft 365 Defender received the event>"
           "tenantId": "<Your tenant ID>"
           "category": "<The Advanced Hunting table name with 'AdvancedHunting-' prefix>"
-          "properties": { <WDATP Advanced Hunting event as Json> }
+          "properties": { <Microsoft 365 Defender Advanced Hunting event as Json> }
   }               
   ```
 
@@ -78,15 +79,14 @@ ms.locfileid: "51688793"
 
 - Каждая строка содержит имя события, время получения события Defender для Конечной точки, его место для клиента (вы получите события только от клиента) и событие в формате JSON в свойстве под названием "свойства".
 
-- Дополнительные сведения о схеме событий Microsoft Defender для конечных точек см. в [обзоре Advanced Hunting.](advanced-hunting-overview.md)
+- Дополнительные сведения о схеме событий Microsoft 365 Defender см. в [обзоре Advanced Hunting.](../defender/advanced-hunting-overview.md)
 
-- В таблице Advanced Hunting **в таблице DeviceInfo** имеется столбец **MachineGroup,** содержащий группу устройства. Здесь каждое событие также будет украшено этим столбцом. Дополнительные [сведения см.](machine-groups.md) в группе устройств.
 
 ## <a name="data-types-mapping"></a>Сопоставление типов данных:
 
 Чтобы получить типы данных для свойств событий, сделайте следующее:
 
-1. Войдите в [Центр безопасности Защитника Майкрософт](https://securitycenter.windows.com) и перейдите на [страницу Расширенный поиск](https://securitycenter.windows.com/hunting-package).
+1. Войдите в [Microsoft 365 центр безопасности](https://security.microsoft.com) и перейдите на [страницу Расширенный поиск](https://security.microsoft.com/hunting-package).
 
 2. Запустите следующий запрос, чтобы получить сопоставление типов данных для каждого события: 
 
@@ -100,8 +100,8 @@ ms.locfileid: "51688793"
 
   ![Изображение ID3 ресурса центра событий](images/machine-info-datatype-example.png)
 
-## <a name="related-topics"></a>Статьи по теме
-- [Обзор расширенных охоты](advanced-hunting-overview.md)
-- [Microsoft Defender для API потоковой передачи конечных точек](raw-data-export.md)
-- [Поток событий Microsoft Defender для событий конечной точки в учетную запись хранилища Azure](raw-data-export-storage.md)
-- [Документация по учетной записи Хранилища Azure](https://docs.microsoft.com/azure/storage/common/storage-account-overview)
+## <a name="related-topics"></a>Связанные статьи
+- [Обзор расширенных охоты](../defender/advanced-hunting-overview.md)
+- [Microsoft 365 API потоковой передачи Defender](raw-data-export.md)
+- [Поток событий Microsoft 365 Defender в учетную запись хранилища Azure](raw-data-export-storage.md)
+- [служба хранилища Azure Документация по учетной записи](/azure/storage/common/storage-account-overview)

@@ -1,5 +1,5 @@
 ---
-title: Обзор API Защитника Microsoft 365
+title: Обзор API Microsoft 365 Defender
 description: Узнайте о доступных API в Microsoft 365 Defender
 keywords: api, apis, обзор, инциденты, инциденты, охота на угрозы, защитник Microsoft 365
 search.product: eADQiWindows 10XVcnh
@@ -20,14 +20,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 496ad5695d9cd491817bad5daf3c76a02addefd1
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: b19a6072be5f97b90c117f053ccae4593587c43d
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51904192"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730901"
 ---
-# <a name="overview-of--microsoft-365-defender-apis"></a>Обзор API Защитника Microsoft 365
+# <a name="overview-of--microsoft-365-defender-apis"></a>Обзор API Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -40,13 +40,16 @@ ms.locfileid: "51904192"
 
 Microsoft 365 Defender построен на платформе, готовой к интеграции.
 
-Используйте API Защитника Microsoft 365 для автоматизации рабочего процесса на основе общих таблиц инцидента и расширенных таблиц охоты.
+Используйте API Microsoft 365 Defender для автоматизации рабочего процесса на основе общих таблиц инцидента и расширенных таблиц охоты.
 
 - **[Совмещенная очередь](api-incident.md)** инцидентов . Фокус на том, что имеет решающее значение, сгруппив всю область атаки и все влияющие активы вместе в API инцидента.
 
 - **[Межпродукционная](api-advanced-hunting.md)** охота на угрозы — использование организационных знаний группы безопасности для охоты за признаками компромисса, создав собственные пользовательские запросы для просеки необработанных данных, собранных в нескольких продуктах защиты.
 
-Наряду с этими API, определенными для Microsoft 365 Defender, каждый из наших других продуктов безопасности предоставляет дополнительные [API,](api-articles.md) которые помогут вам воспользоваться их уникальными возможностями.
+Используйте [API потоковой](../defender-endpoint/raw-data-export.md) передачи для отгрузки событий и оповещений в режиме реального времени из экземпляров по мере их возникновения в одном потоке данных.
+
+
+Наряду с Microsoft 365 API, определенными для Defender, каждый из наших других продуктов безопасности предоставляет дополнительные [API,](api-articles.md) которые помогут вам воспользоваться их уникальными возможностями.
 
 
 > [!NOTE]
@@ -58,12 +61,12 @@ Microsoft 365 Defender построен на платформе, готовой 
 | **Понимание доступа к API** |
 |-|
 | [Узнайте о квотах API и лицензировании](api-terms.md) |
-| [Доступ к API защитника Microsoft 365](api-access.md) |
+| [Доступ к API Microsoft 365 Defender](api-access.md) |
 | **Создание приложений** |
 | [Создание приложения "Hello world"](api-hello-world.md) |
-| [Создание приложения для доступа к API Защитника Microsoft 365 от имени пользователя](api-create-app-user-context.md) |
-| [Создание приложения для доступа к Microsoft 365 Defender без пользователя](api-create-app-web.md) |
-| [Создание приложения с несколькими партнерами-партнерами для API Защитника Microsoft 365](api-partner-access.md) |
+| [Создание приложения для доступа Microsoft 365 API Defender от имени пользователя](api-create-app-user-context.md) |
+| [Создание приложения для доступа Microsoft 365 Defender без пользователя](api-create-app-web.md) |
+| [Создание приложения с несколькими партнерами-партнерами для доступа Microsoft 365 API Defender](api-partner-access.md) |
 | **Устранение неполадок и обслуживание приложений** |
 | [Понимание кодов ошибок API](api-error-codes.md) |
 | [Управление секретами в приложениях с помощью хранилища ключей Azure](/learn/modules/manage-secrets-with-azure-key-vault/) |

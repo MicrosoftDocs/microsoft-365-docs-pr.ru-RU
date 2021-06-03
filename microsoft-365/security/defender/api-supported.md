@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: f2c66dca326589807f5712c5548c177a0d08ade0
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: c10b2863503a5bda829cbf67379a606b687ac2e3
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935729"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730946"
 ---
 # <a name="supported-microsoft-365-defender-apis"></a>Поддерживаемые API Microsoft 365 Defender 
 
@@ -43,6 +43,7 @@ ms.locfileid: "51935729"
 -|-
 [Программный интерфейс расширенной охоты](api-advanced-hunting.md) | Запустите расширенные запросы на охоту.
 [Программные интерфейсы, относящиеся к инцидентам](api-incident.md) | Список и обновление инцидентов, а также другие практические задачи.
+[Потоковый API](../defender-endpoint/raw-data-export.md) (Предварительный просмотр) | Отгрузка событий и оповещений в режиме реального времени в едином потоке данных.
 
 ### <a name="endpoint-uris"></a>URL-адреса конечной точки
 
@@ -56,9 +57,10 @@ ms.locfileid: "51935729"
 
 Все API на `/api` пути используют [протокол OData;](/odata/overview) https://api.security.microsoft.com/api/incidents например.
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
-- [Обзор API защитника Microsoft 365](api-overview.md)
-- [Доступ к API защитника Microsoft 365](api-access.md)
+- [Microsoft 365 Обзор API defender](api-overview.md)
+- [Доступ к API Microsoft 365 Defender](api-access.md)
+- [Потоковый API](../defender-endpoint/raw-data-export.md)
 - [Узнайте о ограничениях API и лицензировании](api-terms.md)
 - [Понимание кодов ошибок](api-error-codes.md)

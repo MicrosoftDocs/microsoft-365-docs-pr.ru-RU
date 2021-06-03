@@ -1,5 +1,5 @@
 ---
-title: Обновление API инцидента
+title: Обновление API инцидентов
 description: Узнайте, как обновлять инциденты с Microsoft 365 API Defender
 keywords: обновление, API, инцидент
 search.product: eADQiWindows 10XVcnh
@@ -20,20 +20,20 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: e3f3919d067078ef1fd1e116dc52e8a73c0726d9
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: e3b445b2f9612f0113f353450ca7bf0b8a1a2bb2
+ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52571785"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52730862"
 ---
-# <a name="update-incident-api"></a>Обновление API инцидента
+# <a name="update-incidents-api"></a>Обновление API инцидентов
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 **Область применения:**
 
-- Microsoft 365 Defender
+- [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > [!IMPORTANT]
 > Некоторые сведения относятся к предварительным выпускам продуктов, которые могут быть существенно изменены до коммерческого выпуска. Корпорация Майкрософт не дает никаких гарантий, явных или подразумеваемых, относительно предоставленных здесь сведений.
@@ -55,7 +55,7 @@ ms.locfileid: "52571785"
 
 Тип разрешения | Разрешение | Имя отображения разрешений
 -|-|-
-Приложение | Incident.ReadWrite.All | Чтение и написание всех инцидентов
+Для приложений | Incident.ReadWrite.All | Чтение и написание всех инцидентов
 Делегированные (рабочая или учебная учетная запись) | Incident.ReadWrite | Чтение и написание инцидентов
 
 > [!NOTE]
@@ -71,7 +71,7 @@ PATCH /api/incidents/{id}
 
 Имя | Тип | Описание
 -|-|-
-Authorization | Строка | Bearer {token}. **Обязательное поле**.
+Авторизация | String | Bearer {token}. **Обязательное поле**.
 Content-Type | String | application/json. **Обязательное поле**.
 
 ## <a name="request-body"></a>Текст запроса
@@ -81,7 +81,7 @@ Content-Type | String | application/json. **Обязательное поле**.
 Свойство | Тип | Описание
 -|-|-
 status | Перечисление | Указывает текущее состояние инцидента. Возможные значения: ```Active``` , ```Resolved``` и ```Redirected``` .
-assignedTo | строка | Владелец инцидента.
+assignedTo | Строка | Владелец инцидента.
 classification | Перечисление | Спецификация инцидента. Возможные значения: ```Unknown```, ```FalsePositive```, ```TruePositive```.
 определение | Перечисление | Указывает определение инцидента. Возможные значения: ```NotAvailable```, ```Apt```, ```Malware```, ```SecurityPersonnel```, ```SecurityTesting```, ```UnwantedSoftware```, ```Other```.
 tags | строка Список | Список тегов Инцидент.
