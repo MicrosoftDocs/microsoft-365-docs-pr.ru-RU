@@ -296,6 +296,8 @@
           items:
             - name: Обзор API Microsoft 365 Defender (предварительная версия)
               href: api-overview.md
+            - name: Поддерживаемые API Microsoft 365 Defender
+              href: api-supported.md
             - name: Начало работы с API Microsoft 365 Defender (предварительная версия)
               items:
                 - name: Лицензия и условия использования API Microsoft 365 Defender
@@ -314,19 +316,25 @@
                   href: api-articles.md
             - name: Схема и API Microsoft 365 Defender (предварительная версия)
               items:
-                - name: Поддерживаемые API Microsoft 365 Defender
-                  href: api-supported.md
                 - name: Коды распространенных ошибок REST API
                   href: api-error-codes.md
+                - name: Потоковый API
+                  items:
+                    - name: Microsoft 365 Потоковый API
+                      href: ../defender-endpoint/raw-data-export.md
+                    - name: Потоковая трансляция событий расширенной охоты в Центре событий Azure
+                      href: ../defender-endpoint/raw-data-export-event-hub.md
+                    - name: Потоковая передача событий расширенной охоты в учетную запись хранения
+                      href: ../defender-endpoint/raw-data-export-storage.md
                 - name: Программный интерфейс расширенной охоты
                   href: api-advanced-hunting.md
-                - name: 'Программные интерфейсы, относящиеся к инцидентам'
+                - name: API инцидентов
                   items:
-                    - name: 'Методы и свойства, относящиеся к инцидентам'
+                    - name: Методы и свойства инцидентов
                       href: api-incident.md
                     - name: Получение списка инцидентов
                       href: api-list-incidents.md
-                    - name: Обновление данных об инциденте
+                    - name: Обновление инцидентов
                       href: api-update-incidents.md
     - name: Microsoft Defender для Office 365
       href: ../office-365-security/index.yml
