@@ -1,7 +1,7 @@
 ---
-title: Microsoft 365 Defender расширенный API охоты
-description: Узнайте, как запускать расширенные запросы на охоту с помощью API microsoft 365 Defender для охоты
-keywords: Advanced Hunting, APIs, api, M365 Defender, Microsoft 365 Defender
+title: Microsoft 365 Защитник расширенный API охоты
+description: Узнайте, как запускать расширенные запросы на охоту с Microsoft 365 API для Microsoft 365 Defender.
+keywords: Advanced Hunting, API, api, M365 Defender, Microsoft 365 Defender
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: c988a609a329c8f7f8988314e56aae942beebac5
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 3ff62265783be846a95964164e372100fe1ef662
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932897"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769590"
 ---
 # <a name="microsoft-365-defender-advanced-hunting-api"></a>Microsoft 365 Defender Advanced hunting API
 
@@ -47,17 +47,16 @@ ms.locfileid: "51932897"
 1. Запросы исследуют и возвращают данные за последние 30 дней.
 2. Результаты могут возвращать до 100 000 строк.
 3. Вы можете сделать до 15 вызовов в минуту на каждого клиента.
-4. У вас есть 10 минут времени работы в час на каждого клиента.
-5. Общее время работы в день на каждого клиента составляет четыре часа.
-6. Если один запрос выполняется более 10 минут, он будет время и возвращает ошибку.
-7. Код ответа HTTP указывает, что вы достигли квоты либо по количеству отправленных запросов, либо по `429` выделенной продолжительной работе. Ознакомьтесь с текстом ответа, чтобы понять достигнутое ограничение. 
+4. Запросы блокируют, если клиент достиг 100% до следующего 15-минутного цикла.
+5. Если один запрос выполняется более 10 минут, он будет время и возвращает ошибку.
+6. Код ответа HTTP указывает, что вы достигли квоты либо по количеству отправленных запросов, либо по `429` выделенной продолжительной работе. Ознакомьтесь с текстом ответа, чтобы понять достигнутое ограничение. 
 
 > [!NOTE]
 > Все квоты, перечисленные выше (например, 15 вызовов за мин), являются для каждого клиента размером. Эти квоты минимальны.
 
-## <a name="permissions"></a>Разрешения
+## <a name="permissions"></a>Permissions
 
-Одно из следующих разрешений необходимо для вызова продвинутого API охоты. Дополнительные возможности, в том числе выбор разрешений, см. в aPI [Access the Microsoft 365 Defender Protection](api-access.md)
+Одно из следующих разрешений необходимо для вызова продвинутого API охоты. Дополнительные возможности, в том числе выбор разрешений, см. в Microsoft 365 [API защиты защитника](api-access.md)
 
 Тип разрешения | Разрешение | Имя отображения разрешений
 -|-|-
@@ -178,9 +177,9 @@ Content-Type | application/json
 }
 ```
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
-- [Доступ к API защитника Microsoft 365](api-access.md)
+- [Доступ к API Microsoft 365 Defender](api-access.md)
 - [Узнайте о ограничениях API и лицензировании](api-terms.md)
 - [Понимание кодов ошибок](api-error-codes.md)
 - [Обзор расширенной охоты](advanced-hunting-overview.md)

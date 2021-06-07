@@ -19,12 +19,12 @@ ms.custom:
 - Ent_Solutions
 recommendations: false
 description: Узнайте, как развернуть группы с защитой для конфиденциальных данных.
-ms.openlocfilehash: 0590e63aa0feb5b699eca98c0056604fe09b77f5
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: a3f715cb05ad1d5acf3c93c58959f12ebec46978
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52583656"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52788346"
 ---
 # <a name="configure-teams-with-protection-for-sensitive-data"></a>Настройте группы с защитой для конфиденциальных данных
 
@@ -33,6 +33,13 @@ ms.locfileid: "52583656"
 - Метка конфиденциальности для команды, позволяющая включать или отключать гостевой общий доступ и ограничивающая доступ к контенту SharePoint только веб-содержимым для неуправляемых устройств. Эта метка также может быть использована для классификации файлов.
 - Более ограниченный тип ссылки для обмена по умолчанию
 - Только владельцы команд могут создавать частные каналы.
+
+## <a name="video-demonstration"></a>Видеодемонстрация
+
+Посмотрите это видео с обзором процедур, описанных в этой статье.
+<br>
+<br>
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4NMS6]
 
 ## <a name="guest-sharing"></a>Предоставление общего доступа гостям
 

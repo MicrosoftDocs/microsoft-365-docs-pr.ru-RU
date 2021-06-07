@@ -17,11 +17,11 @@ ms.topic: article
 ms.technology: mde
 ms.custom: api
 ms.openlocfilehash: 951f78ba361a12e404a5cce2071f931eab30c43f
-ms.sourcegitcommit: 82a4d74020cd93ba444006317cfecc178c6d41dc
+ms.sourcegitcommit: 83df0be7144c9c5d606f70b4efa65369e86693d2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52689217"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52778358"
 ---
 # <a name="export-software-vulnerabilities-assessment-per-device"></a>Экспорт оценки уязвимостей программного обеспечения на устройство
 
@@ -100,25 +100,25 @@ GET /api/machines/SoftwareVulnerabilitiesByMachine
 
 Свойство (ID) | Тип данных | Описание | Пример возвращенного значения
 :---|:---|:---|:---
-CveId | string | Уникальный идентификатор, присвоенный уязвимости безопасности в системе Common Vulnerabilities and Exposures (CVE). | CVE-2020-15992
-CvssScore | string | Оценка CVSS CVE. | 6.2
-DeviceId | string | Уникальный идентификатор устройства в службе. | 9eaf3a8b5962e0e6b1af9ec756664a9b823df2d1
-DeviceName | string | Полное доменное имя (FQDN) устройства. | johnlaptop.europe.contoso.com
+CveId | Строка | Уникальный идентификатор, присвоенный уязвимости безопасности в системе Common Vulnerabilities and Exposures (CVE). | CVE-2020-15992
+CvssScore | Строка | Оценка CVSS CVE. | 6.2
+DeviceId | Строка | Уникальный идентификатор устройства в службе. | 9eaf3a8b5962e0e6b1af9ec756664a9b823df2d1
+DeviceName | Строка | Полное доменное имя (FQDN) устройства. | johnlaptop.europe.contoso.com
 DiskPaths  | Строка \[ Array\] | Дисковые данные о том, что продукт установлен на устройстве. | [ "C:\Program Files (x86)\Microsoft\Silverlight\Application\silverlight.exe" ]
-ExploitabilityLevel | string | Уровень эксплуатации этой уязвимости (NoExploit, ExploitIsPublic, ExploitIsVerified, ExploitIsInKit) | ExploitIsInKit
-FirstSeenTimestamp | string | Впервые CVE этого продукта был замечен на устройстве. | 2020-11-03 10:13:34.8476880
+ExploitabilityLevel | Строка | Уровень эксплуатации этой уязвимости (NoExploit, ExploitIsPublic, ExploitIsVerified, ExploitIsInKit) | ExploitIsInKit
+FirstSeenTimestamp | Строка | Впервые CVE этого продукта был замечен на устройстве. | 2020-11-03 10:13:34.8476880
 Id | string | Уникальный идентификатор для записи. | 123ABG55_573AG&mnp!
-LastSeenTimestamp | string | Последний раз CVE был замечен на устройстве. | 2020-11-03 10:13:34.8476880
-OSPlatform | string | Платформа операционной системы, запущенной на устройстве. Здесь указываются конкретные операционные системы, включая варианты одного семейства, например Windows 10 и Windows 7. Подробные сведения см. в материале tvm supported operating systems and platforms. | Windows10
-RbacGroupName  | string | Группа управления доступом на основе ролей (RBAC). Если это устройство не назначено какой-либо группе RBAC, значение будет "Unassigned". Если организация не содержит групп RBAC, значение будет "Нет". | Servers
-RecommendationReference | string | Ссылка на номер рекомендации, связанный с этим программным обеспечением. | va-_-microsoft-silverlight_
-RecommendedSecurityUpdate (необязательный) | string | Имя или описание обновления безопасности, предоставляемого поставщиком программного обеспечения для устранения уязвимости. | Обновления безопасности за апрель 2020 г.
-RecommendedSecurityUpdateId (необязательный) | string | Идентификатор применимых обновлений или идентификаторов безопасности для соответствующих статей руководства или базы знаний (KB). | 4550961
+LastSeenTimestamp | Строка | Последний раз CVE был замечен на устройстве. | 2020-11-03 10:13:34.8476880
+OSPlatform | Строка | Платформа операционной системы, запущенной на устройстве. Здесь указываются конкретные операционные системы, включая варианты одного семейства, например Windows 10 и Windows 7. Подробные сведения см. в материале tvm supported operating systems and platforms. | Windows10
+RbacGroupName  | Строка | Группа управления доступом на основе ролей (RBAC). Если это устройство не назначено какой-либо группе RBAC, значение будет "Unassigned". Если организация не содержит групп RBAC, значение будет "Нет". | Servers
+RecommendationReference | Строка | Ссылка на номер рекомендации, связанный с этим программным обеспечением. | va-_-microsoft-silverlight_
+RecommendedSecurityUpdate (необязательный) | Строка | Имя или описание обновления безопасности, предоставляемого поставщиком программного обеспечения для устранения уязвимости. | Обновления безопасности за апрель 2020 г.
+RecommendedSecurityUpdateId (необязательный) | Строка | Идентификатор применимых обновлений или идентификаторов безопасности для соответствующих статей руководства или базы знаний (KB). | 4550961
 RegistryPaths  | Строка \[ Array\] | Свидетельство реестра о том, что продукт установлен на устройстве. | [ "HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\MicrosoftSilverlight" ]
-SoftwareName | string | Имя программного продукта. | chrome
-SoftwareVendor | string | Имя поставщика программного обеспечения. | Google
-SoftwareVersion | string | Номер версии программного продукта. | 81.0.4044.138
-VulnerabilitySeverityLevel  | string | Уровень серьезности, присвоенный уязвимости безопасности на основе показателей CVSS и динамических факторов, влияющих на ландшафт угроз. | Средний
+SoftwareName | Строка | Имя программного продукта. | chrome
+SoftwareVendor | Строка | Имя поставщика программного обеспечения. | Google
+SoftwareVersion | Строка | Номер версии программного продукта. | 81.0.4044.138
+VulnerabilitySeverityLevel  | Строка | Уровень серьезности, присвоенный уязвимости безопасности на основе показателей CVSS и динамических факторов, влияющих на ландшафт угроз. | Средний
 
 ### <a name="16-examples"></a>1.6 Примеры
 
@@ -310,7 +310,7 @@ GET /api/machines/SoftwareVulnerabilitiesExport
 Свойство (ID) | Тип данных | Описание | Пример возвращенного значения
 :---|:---|:---|:---
 Экспорт файлов | строка \[ массива\]  | Список загрузок URL-адресов для файлов с текущим снимком организации. | [  “https://tvmexportstrstgeus.blob.core.windows.net/tvm-export...1”, “https://tvmexportstrstgeus.blob.core.windows.net/tvm-export...2”  ]
-GeneratedTime | string | Время, за которое был создан экспорт. | 2021-05-20T08:00:00Z
+GeneratedTime | Строка | Время, за которое был создан экспорт. | 2021-05-20T08:00:00Z
 
 ### <a name="26-examples"></a>2.6 Примеры
 

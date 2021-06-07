@@ -6,10 +6,14 @@
       href: compliance-quick-tasks.md
     - name: Новые возможности центра соответствия требованиям Microsoft 365
       href: whats-new.md
-    - name: Центр соответствия требованиям Microsoft 365
-      href: microsoft-365-compliance-center.md
     - name: Каталог решений Microsoft 365
       href: microsoft-365-solution-catalog.md
+    - name: Центр соответствия требованиям Microsoft 365
+      href: microsoft-365-compliance-center.md
+    - name: Разрешения в Центре соответствия требованиям Microsoft 365
+      href: microsoft-365-compliance-center-permissions.md
+    - name: Перенаправление пользователей в Центр соответствия требованиям Microsoft 365
+      href: microsoft-365-compliance-center-redirection.md
     - name: Использование бесплатной подписки на Azure Active Directory
       href: use-your-free-azure-ad-subscription-in-office-365.md
     - name: Планирование безопасности и соответствия требованиям в Office 365

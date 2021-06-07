@@ -23,21 +23,21 @@ search.appverid:
 - GEA150
 ms.assetid: 1561140a-16a9-4a02-822d-a989250e479d
 description: Узнайте, как купить доменное имя в Microsoft 365.
-ms.openlocfilehash: 3d5a5568a0e75a06f0880d82ea8e4a1a8d003689
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: c4b3b0ac88671e72ed567998ad9d97486dfb6342
+ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635466"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52779690"
 ---
 # <a name="buy-a-domain-name"></a>Приобретение имени домена
 
 > [!NOTE]
-> Если ваша организация использует Office 365 21Vianet в Китае, см. в рубке Как купить домен для Office 365 [21Vianet в Китае.](/buy-a-domain-name?view=o365-21vianet#how-to-buy-a-domain-for-office-365-operated-by-21vianet.md)
+> Если ваша организация использует Office 365 21Vianet в Китае, см. в рубке Как купить домен для Office 365 [21Vianet в Китае.](#how-to-buy-a-domain-for-office-365-operated-by-21vianet)
 
  *Чтобы добавить, изменить или  удалить домены, необходимо быть **глобальным** администратором [бизнес-или корпоративного плана.](https://products.office.com/business/office) Эти изменения затрагивают весь клиент, *настраиваемые* администраторы или обычные пользователи не смогут вносить эти изменения.*  
 
- Если вы не нашли то, что вы ищете, обратитесь к разделу **[вопросы и ответы по доменам](../setup/domains-faq.yml)**. 
+ Если вы не нашли то, что вы ищете, см. раздел **[Вопросы и ответы по доменам](../setup/domains-faq.yml)**. 
   
 ## <a name="sign-in-and-go-to-settings--domains--buy-a-domain"></a>Войдите и перейдите в Параметры \> Домены \> Купить домен
 
@@ -89,9 +89,8 @@ ms.locfileid: "52635466"
 
 
 ::: moniker range="o365-21vianet"
+
 ## <a name="how-to-buy-a-domain-for-office-365-operated-by-21vianet"></a>Приобретение домена для службы Office 365, предоставляемой 21Vianet
-
-
 
 Если у вас еще нет домена, его легко можно приобрести в Интернете у регистратора доменных имен, посредника или даже у вашего поставщика услуг Интернета. При регистрации в службе Office 365, предоставляемой 21Vianet, вы получаете доменное имя, например contoso.partner.onmschina.cn. Однако при желании можно использовать собственное доменное имя, например fourthcoffee.com.
   
@@ -117,8 +116,8 @@ ms.locfileid: "52635466"
     
 ::: moniker-end
 
-## <a name="related-content"></a>См. также:
+## <a name="related-content"></a>Связанные материалы
 
 [Добавление домена в Microsoft 365](../setup/add-domain.md) (статья)\
-[FaQ доменов](../setup/domains-faq.yml) (статья)\
+[Вопросы и ответы о доменах](../setup/domains-faq.yml) (статья)\
 [Обновление записей DNS, чтобы сохранить веб-сайт с текущим поставщиком хостинга](../dns/update-dns-records-to-retain-current-hosting-provider.md) (статья)

@@ -23,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: 2c261e42-5dd1-48b0-845f-2a016d29cfc1
 description: В течение 30 дней после удаления учетной записи пользователя можно восстановить учетную запись и все данные, а пользователь может войти с одной учетной записью.
-ms.openlocfilehash: 83852136ee22ab3f63d8ada6a5a7290883c392e5
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: f849fe8e403aa9a72eccb4dd65665ec9f33618d1
+ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52623825"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52779654"
 ---
 # <a name="restore-a-user"></a>Восстановление пользователя
    
@@ -38,7 +38,7 @@ ms.locfileid: "52623825"
   
 - Убедитесь, что лицензии доступны для назначения учетной записи.
     
-- Если в вашей организации используется служба Active Directory, см. инструкции по восстановлению учетной записи пользователя в статье [Устранение неполадок с удаленными учетными записями пользователей в Office 365](/office365/troubleshoot/active-directory/restore-deleted-user-accounts.md). 
+- Если ваш бизнес использует Active Directory, для неуставок при восстановлении учетной записи пользователя см. в рублях Как устранить проблемы удаленных [учетных](/office365/troubleshoot/active-directory/restore-deleted-user-accounts)записей пользователей в Office 365 . 
     
 ## <a name="restore-one-or-more-user-accounts"></a>Восстановление одной или нескольких учетных записей пользователей
 
@@ -91,7 +91,7 @@ ms.locfileid: "52623825"
     
 4. Просмотрите результаты и нажмите кнопку **Закрыть**.
 
-## <a name="related-content"></a>См. также:
+## <a name="related-content"></a>Связанные материалы
 
 [Удаление пользователя](delete-a-user.md) (статья)\
 [Назначение ролей администратора](assign-admin-roles.md) (видео)\

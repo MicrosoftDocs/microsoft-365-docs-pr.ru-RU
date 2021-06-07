@@ -15,13 +15,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 8f480a148d72428c6346930a91358d1e8b674ee7
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 4742a32fd899f41d4e7772c52415891cdd8895bf
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51200009"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769525"
 ---
 # <a name="create-an-app-to-access-microsoft-defender-for-endpoint-without-a-user"></a>Создание приложения для доступа к Microsoft Defender для конечной точки без пользователя
 
@@ -38,10 +39,10 @@ ms.locfileid: "51200009"
 
 На этой странице описывается создание приложения для получения программного доступа к Защитнику для конечной точки без пользователя. Если вам необходим программный доступ к Защитнику для конечной точки от имени пользователя, см. раздел Получить доступ [с пользовательским контекстом.](exposed-apis-create-app-nativeapp.md) Если вы не уверены, какой доступ вам нужен, см. [в этой ленте Начало](apis-intro.md)работы.
 
-Microsoft Defender для конечной точки предоставляет большую часть своих данных и действий с помощью набора программных API. Эти API помогут автоматизировать потоки работы и вносимые новации на основе возможностей Defender для конечных точек. Доступ к API требует проверки подлинности OAuth2.0. Дополнительные сведения см. в [тексте OAuth 2.0 Authorization Code Flow.](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)
+Microsoft Defender для конечной точки предоставляет большую часть своих данных и действий с помощью набора программных API. Эти API помогут автоматизировать потоки работы и вносимые новации на основе возможностей Defender для конечных точек. Доступ к API требует проверки подлинности OAuth2.0. Дополнительные сведения см. [в тексте OAuth 2.0 Authorization Code Flow.](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)
 
 В общем, для использования API необходимо предпринять следующие действия:
-- Создание приложения Azure Active Directory (Azure AD).
+- Создание приложения Azure Active Directory Azure AD.
 - Получение маркера доступа с помощью этого приложения.
 - Используйте маркер для доступа к API Defender для endpoint.
 
@@ -51,9 +52,9 @@ Microsoft Defender для конечной точки предоставляет
 
 1. Войдите в [Azure](https://portal.azure.com) с пользователем, который имеет роль **глобального администратора.**
 
-2. Перейдите к **регистрации приложений Azure Active**  >  **Directory**  >  **.** 
+2. Перейдите **к Azure Active Directory**  >  **регистрации Приложений** Новая  >  **регистрация**. 
 
-   ![Изображение Microsoft Azure и навигация для регистрации приложений](images/atp-azure-new-app2.png)
+   ![Изображение Microsoft Azure и навигации для регистрации приложений](images/atp-azure-new-app2.png)
 
 3. В форме регистрации выберите имя приложения, а затем выберите **Register**.
 
@@ -175,7 +176,7 @@ $token = $authResponse.access_token
 ### <a name="use-curl"></a>Использование Curl
 
 > [!NOTE]
-> Следующая процедура предполагает, что curl для Windows уже установлен на вашем компьютере.
+> Следующая процедура предполагает, что Windows уже установлен на вашем компьютере.
 
 1. Откройте командную подсказку и установите CLIENT_ID к вашему ID приложения Azure.
 1. Установите CLIENT_SECRET для секрета приложения Azure.
@@ -222,5 +223,5 @@ curl -i -X POST -H "Content-Type:application/x-www-form-urlencoded" -d "grant_ty
 ```
 
 ## <a name="see-also"></a>См. также
-- [Поддерживаемые API-API Microsoft Defender для конечных точек](exposed-apis-list.md)
+- [Поддерживаемые API Microsoft Defender для конечной точки](exposed-apis-list.md)
 - [Доступ к Microsoft Defender для конечной точки от имени пользователя](exposed-apis-create-app-nativeapp.md)

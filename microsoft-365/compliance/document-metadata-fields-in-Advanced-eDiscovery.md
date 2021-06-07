@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: В этой статье определяются поля метаданных для документов в наборе обзоров в случае, Advanced eDiscovery в Microsoft 365.
-ms.openlocfilehash: 7b8628973a8b07a3cd31e2b42df28c181e77e288
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: 42f349bf01d5a777535dd04096b860a0165f1edf
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730502"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769573"
 ---
 # <a name="document-metadata-fields-in-advanced-ediscovery"></a>Поля метаданных документов в Advanced eDiscovery
 
@@ -75,6 +75,7 @@ ms.locfileid: "52730502"
 |EmailAction*||Email_action|Значения : **Нет,** **Ответ** или **Вперед;** на основе строки темы сообщения.|
 |Запрашиваемая квитанция доставки электронной почты||Email_delivery_receipt|Адрес электронной почты, предоставленный в internet Headers для получения доставки.|
 |Importance|EmailImportance|Email_importance|Значение сообщения: **0** — низкий; **1** — нормальный; **2** . Высокая|
+|Пропущенные ошибки обработки|ErrorIgnored|Error_Ignored|Ошибка была проигнорирована и не исправлена.|
 |EmailInternetHeaders|EmailInternetHeaders|Email_internet_headers|Полный набор заглавных записей электронной почты из сообщения электронной почты|
 |EmailLevel*||Email_level|Указывает уровень сообщения в потоке электронной почты, к которой оно принадлежит; Вложения наследуют значение родительского сообщения.|
 |Id сообщения электронной почты||Email_message_ID|Id сообщения в Интернете из сообщения.|
@@ -88,14 +89,14 @@ ms.locfileid: "52730502"
 |||Extracted_text_path|Путь к извлеченным текстовым файлом в экспорте.|
 |ExtractedTextLength*||Extracted_text_length|Количество символов в извлеченных текстах.|
 |FamilyDuplicateSet*||Family_duplicate_set|Числимый идентификатор для семейств, которые являются точными дубликатами друг друга (одно и то же содержимое и все те же вложения).|
-|Семейный ID|FamilyId|Family_ID|Семейная группа ИД объединяет все элементы; для электронной почты это включает сообщение и все вложения; для документов это включает документ и все встроенные элементы.|
+|Семейный ID|FamilyId|Family_ID|Группы всех элементов для электронной почты. Это включает сообщение, все вложения и извлеченные элементы.|
 |Размер семьи||Family_size|Количество документов в семье.|
 |Класс File|FileClass|File_class|Для контента из SharePoint и OneDrive: **Document;** для контента из Exchange: **электронная почта** или **вложение**.|
 |Файл ID|FileId|File_ID|Идентификатор документа, уникальный в данном случае.|
 |Дата создания файловой системы||File_system_date_created|Дата создания из файловой системы (применяется только к Office 365 данным).|
 |Изменена дата файловой системы||File_system_date_modified|Измененная дата из файловой системы (применяется только к Office 365 данным).|
 |Тип файла|FileType||Тип файла элемента на основе расширения файла.|
-|Group Id|GroupID||Групповой ID для сгруппивного контента.|
+|Group Id|Group Id|Group_ID|Группировать все элементы для электронной почты и документов. Для электронной почты это включает сообщение, а также все вложения и извлеченные элементы. Для документов это включает документ и все встроенные элементы.|
 |Имеет вложение|HasAttachment|Email_has_attachment|Указывает, есть ли у сообщения вложения.|
 |Имеет адвоката|HasAttorney||**True,** если хотя бы один из участников находится в списке адвокатов; в противном случае значение **false**.|
 |HasText*||Has_text|Указывает, имеет ли элемент текст; возможные значения **True** и **False**.|
@@ -126,6 +127,7 @@ ms.locfileid: "52730502"
 |NativeSHA256||Native_SHA_256|Sha256 hash (256-bit hash value) of the file stream.|
 |ND/ET Sort: Исключение вложений|NdEtSortExclAttach|ND_ET_sort_excl_attach|Concatenation of the email thread (ET) set and Near-duplicate (ND) set. Это поле используется для эффективной сортировки во время проверки. D  префиксуется к наборам ND, **а E** — к наборам ET.|
 |Сортировка ND/ET: включая вложения|NdEtSortInclAttach|ND_ET_sort_incl_attach|Concatenation набора потока электронной почты (ET) и почти дубликата (ND). Это поле используется для эффективной сортировки во время проверки. D  префиксуется к наборам ND, **а E** — к наборам ET. За каждым элементом электронной почты в наборе ET следуют соответствующие вложения.|
+|Рядом с набором дубликатов||ND_set|Элементы, похожие на документ поворота, имеют одинаковые ND_set.|
 |Авторы O365||O365_authors|Автор из SharePoint.|
 |O365, созданный||O365_created_by|Создан из SharePoint.|
 |Дата создания O365||O365_date_created|Дата создания из SharePoint.|
@@ -155,6 +157,7 @@ ms.locfileid: "52730502"
 |домен отправителя;|SenderDomain|Email_sender_domain|Домен отправитель.|
 |Sent|Sent|Email_date_sent|Дата отправленного сообщения.|
 |Set Order: Inclusive First|SetOrderInclusivesFirst|Set_order_inclusives_first|Поле сортировки — электронная почта и вложения: контрхронологические; документы: сначала развягите, а затем убывая оценка сходства.|
+|Set ID||Set_ID|Документы аналогичного контента (ND_set) или электронной почты в одном потоке электронной почты (Email_set) имеют один Set_ID.|
 |SimilarityPercent||Similarity_percent|Указывает, как похож документ на поворот ближайшего дубликата набора.|
 |Размер файла native|Size|Native_size|Количество bytes из родного элемента.|
 |Subject|Subject|Email_subject|Тема сообщения.|

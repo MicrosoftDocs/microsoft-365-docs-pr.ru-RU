@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: cff4530cfa4ecd6b0d918a9112e7be3c0f30209c
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: ab0d0e97365b5ce38b29f2b0d65e3aea48d6c28c
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166797"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769933"
 ---
 # <a name="get-user-related-alerts-api"></a>Получить API оповещений, связанных с пользователем
 
@@ -52,8 +53,8 @@ ms.locfileid: "51166797"
 :---|:---|:---
 Приложение |   Alert.Read.All |    'Read all alerts'
 Приложение |   Alert.ReadWrite.All |   'Read and write all alerts'
-Делегированное (рабочая или учебная учетная запись) | Alert.Read | 'Read alerts'
-Делегированное (рабочая или учебная учетная запись) | Alert.ReadWrite | 'Read and write alerts'
+Делегированные (рабочая или учебная учетная запись) | Alert.Read | 'Read alerts'
+Делегированные (рабочая или учебная учетная запись) | Alert.ReadWrite | 'Read and write alerts'
 
 >[!Note]
 > При получении маркера с помощью учетных данных пользователей:
@@ -71,7 +72,7 @@ GET /api/users/{id}/alerts
 
 Имя | Тип | Описание
 :---|:---|:---
-Authorization | Строка | Bearer {token}. **Обязательное поле**.
+Authorization | String | Bearer {token}. **Обязательное поле**.
 
 
 ## <a name="request-body"></a>Текст запроса

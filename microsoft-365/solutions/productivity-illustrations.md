@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: df2c01bd0cc935ae8a541b40a96f3e067926674a
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 0123fc5cb22e249475f7e95426ee74f6e0939aaa
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52625021"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52788440"
 ---
 # <a name="microsoft-365-productivity-illustrations"></a>Иллюстрации повышения производительности в Microsoft 365
 
@@ -105,15 +105,15 @@ Advanced eDiscovery рабочий процесс и поток данных, в
 |[![Плакат Microsoft Telephony Solutions](../media/solutions-architecture-center/microsoft-telephony-solutions-thumb.png)](https://download.microsoft.com/download/4/3/5/435cd4e9-ca56-4fd1-acb6-d1fda7952320/microsoft-voice-solutions.pdf) <br/> [PDF](https://download.microsoft.com/download/4/3/5/435cd4e9-ca56-4fd1-acb6-d1fda7952320/microsoft-voice-solutions.pdf) \| [Visio](https://download.microsoft.com/download/7/5/c/75c13012-e20c-48bd-a6dd-ea49d1a3420d/microsoft-voice-solutions.vsdx) <br/>Обновлено в марте 2021 г. | Дополнительные сведения см. в [Teams голосового решения.](/microsoftteams/cloud-voice-landing-page)|
 
 
-## <a name="empower-remote-workers"></a>Возможности для удаленных работников
+## <a name="set-up-your-infrastructure-for-hybrid-work"></a>Настройка инфраструктуры для гибридной работы
 
 С Microsoft 365 и другими облачными технологиями Майкрософт вы можете предоставить своим сотрудникам безопасный доступ к локальной и облачной информации, средствам и ресурсам организации из своих домов. 
 
-[![Плакат "Возможности для удаленных сотрудников"](../media/empower-people-to-work-remotely/empower-remote-workers-poster.png)](../downloads/empower-remote-workers.pdf) <br/>
-[PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/empower-remote-workers.pdf)  |  [PowerPoint](https://download.microsoft.com/download/5/1/1/511b77a9-a34c-4ea7-af2a-32b07f20b780/empower-remote-workers.pptx) <br>
-Обновленный июль 2020 г.
+[![Настройка инфраструктуры для гибридного плаката работы](../media/empower-people-to-work-remotely/empower-remote-workers-poster.png)](https://download.microsoft.com/download/9/b/b/9bb5fa79-74e9-497b-87c5-4021e53d9fc2/hybrid-worker-infrastructure.pdf) <br/>
+[PDF](https://download.microsoft.com/download/9/b/b/9bb5fa79-74e9-497b-87c5-4021e53d9fc2/hybrid-worker-infrastructure.pdf)  |  [PowerPoint](https://download.microsoft.com/download/9/b/b/9bb5fa79-74e9-497b-87c5-4021e53d9fc2/hybrid-worker-infrastructure.pptx) <br>
+Обновлено июнь 2021 г.
 
-Дополнительные сведения см. в статье для этого плаката: Расширение возможностей удаленных сотрудников [с помощью Microsoft 365](empower-people-to-work-remotely.md).
+Дополнительные сведения см. в статье для этого плаката: Настройка инфраструктуры для гибридной работы с [Microsoft 365](empower-people-to-work-remotely.md).
 
 ## <a name="microsoft-teams-with-security-isolation"></a>Microsoft Teams с изоляцией безопасности
 

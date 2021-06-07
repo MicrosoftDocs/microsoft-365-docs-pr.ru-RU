@@ -13,16 +13,44 @@ f1.keywords:
 ms.author: jaimeo
 ms.article: article
 ms.localizationpriority: normal
-ms.openlocfilehash: bc04059d3ec63dd9395ed8f7a0e02b948e5cead1
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: 6b18de29b339c3367bfacb8bdc8ec9725481e3e4
+ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730742"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52779859"
 ---
 # <a name="change-history-for-microsoft-managed-desktop-documentation"></a>Журнал изменений документации по компьютерам, управляемым Майкрософт
 
 В этой статье перечислены новые и обновленные статьи в компьютеры, управляемые Майкрософт [документации.](index.yml) В "Обновленных" статьях имеются материальные дополнения или исправления , такие незначительные исправления, как исправление опечаток, стилей или проблем форматирования, не перечислены. Вы всегда можете просмотреть историю определенных коммитов (включая сведения о любых изменениях), посетив репо [на GitHub](https://github.com/MicrosoftDocs/microsoft-365-docs/tree/public/microsoft-365/managed-desktop).
+
+## <a name="may-2021"></a>Май 2021 г.
+Новая или измененная статья | Описание
+--- | ---
+[Настройка компьютеров, управляемых Майкрософт](get-started/set-up-devices.md) | Обновленная статья
+[Отчет об инвентаризации устройств](working-with-managed-desktop/device-inventory-report.md) | Обновленная статья
+[Конфигурация сети для компьютеров, управляемых Майкрософт](get-ready/network.md) | Обновленная статья
+[Журналы диагностики](service-description/diagnostic-logs.md) | Новая статья
+[Технологии компьютеров, управляемых Майкрософт](intro/technologies.md) | Обновленная статья
+[Предварительные требования для гостевых учетных записей](get-ready/guest-accounts.md) | Обновленная статья
+[Работа с отчетами](working-with-managed-desktop/reports.md) | Обновленная статья
+
+## <a name="april-2021"></a>Апрель 2021 г.
+Новая или измененная статья | Описание
+--- | ---
+[Профили устройств](service-description/profiles.md) | Новая статья
+[Этапы регистрации устройств для партнеров](get-started/register-devices-partner.md) | Обновленная статья
+[Самостоятельная регистрация новых устройств](get-started/register-devices-self.md) | Обновленная статья
+[Самостоятельная регистрация существующих устройств](get-started/register-reused-devices-self.md) | Обновленная статья
+[Зависимость от имени адресов устройств](get-ready/address-device-names.md) | Новая статья
+[Имена устройств](service-description/device-names.md) | Новая статья
+[Удаление устройств](working-with-managed-desktop/remove-devices.md) | Новая статья
+[Предварительные условия для компьютеров, управляемых Майкрософт](get-ready/prerequisites.md) | Обновленная статья
+[Приложения на компьютерах, управляемых Майкрософт](get-ready/apps.md) | Обновленная статья
+[Утвердить новые устройства](get-started/validate-device.md) | Новая статья
+[Настройка компьютеров, управляемых Майкрософт](get-started/set-up-devices.md) | Обновленная статья
+[компьютеры, управляемые Майкрософт жизненного цикла продукта](service-description/device-lifecycle.md) | Обновленная статья
+[компьютеры, управляемые Майкрософт устройства](service-description/device-list.md) |Обновленная статья
 
 ## <a name="march-2021"></a>Март 2021 г.
 Новая или измененная статья | Описание

@@ -1,5 +1,5 @@
 ---
-title: Microsoft Defender для подключения API конечных точек к Power BI
+title: Подключение Microsoft Defender для API конечных точек Power BI
 ms.reviewer: ''
 description: Создайте отчет Power Business Intelligence (BI) поверх API Microsoft Defender для конечных точек.
 keywords: apis, поддерживаемые apis, Power BI, отчеты
@@ -15,15 +15,16 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 7c99267d75c89b3484d207cd763131e4bcc91527
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 5c76784d78837c324922ffc25539746a4921e426
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935045"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769717"
 ---
-# <a name="create-custom-reports-using-power-bi"></a>Создание настраиваемой отчетности с помощью Power BI
+# <a name="create-custom-reports-using-power-bi"></a>Создание настраиваемой отчетности с Power BI
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -38,13 +39,13 @@ ms.locfileid: "51935045"
 
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
-В этом разделе вы узнаете, как создать отчет Power BI поверх API Defender для конечных точек.
+В этом разделе вы узнаете, как создать отчет Power BI в верхней части API Defender для конечных точек.
 
 В первом примере показано, как подключить Power BI к API advanced Hunting, а во втором примере — подключение к API OData, таким как действия машины или оповещения.
 
-## <a name="connect-power-bi-to-advanced-hunting-api"></a>Подключение Power BI к API расширенных охот
+## <a name="connect-power-bi-to-advanced-hunting-api"></a>Подключение Power BI расширенный API охоты
 
-- Open Microsoft Power BI
+- Откройте microsoft Power BI
 
 - Нажмите **кнопку Получить пустой** запрос  >  **данных**
 
@@ -107,7 +108,7 @@ ms.locfileid: "51935045"
 
 - Ввод учетных данных и ожидание входа в
 
-- Нажмите **кнопку Подключение**
+- Щелкните **Подключение**
 
     ![Изображение набора учетных данных2](images/power-bi-set-credentials-organizational-cont.png)
 
@@ -115,7 +116,7 @@ ms.locfileid: "51935045"
 
 - Вы можете повторить эту таблицу, переименовать ее и изменить запрос Advanced Hunting внутри, чтобы получить любые данные, которые вы хотите.
 
-## <a name="connect-power-bi-to-odata-apis"></a>Подключение Power BI к API OData
+## <a name="connect-power-bi-to-odata-apis"></a>Подключение Power BI API OData
 
 - Единственное отличие от вышеуказанного примера — запрос внутри редактора. 
 
@@ -137,11 +138,11 @@ ms.locfileid: "51935045"
 - Запросы OData также можно использовать для фильтрации запросов, см. в [рублях Using OData Queries](exposed-apis-odata-samples.md)
 
 
-## <a name="power-bi-dashboard-samples-in-github"></a>Примеры панели мониторинга Power BI в GitHub
-Дополнительные сведения см. в шаблонах [отчетов Power BI.](https://github.com/microsoft/MicrosoftDefenderATP-PowerBI)
+## <a name="power-bi-dashboard-samples-in-github"></a>Power BI панели мониторинга в GitHub
+Дополнительные сведения см. [в Power BI отчетов.](https://github.com/microsoft/MicrosoftDefenderATP-PowerBI)
 
 ## <a name="sample-reports"></a>Примеры отчетов
-Просмотр примеров отчетов Microsoft Defender для конечной точки power BI. Дополнительные сведения см. в [обзоре примеров кода.](https://docs.microsoft.com/samples/browse/?products=mdatp)
+Просмотр примеров отчетов microsoft Defender для Power BI конечных точек. Дополнительные сведения см. в [обзоре примеров кода.](https://docs.microsoft.com/samples/browse/?products=mdatp)
 
 
 ## <a name="related-topic"></a>Связанная тема

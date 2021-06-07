@@ -244,17 +244,14 @@
 
 ### [Сокращение направлений атак]()
 #### [Обзор сокращения направлений атак](overview-attack-surface-reduction.md)
+#### [Настройка возможностей сокращения направлений атак](configure-attack-surface-reduction.md)
+#### [Сведения о правилах сокращения направлений атак](attack-surface-reduction.md)
 #### [Оценка правил сокращения направлений атак](evaluate-attack-surface-reduction.md)
-#### [Параметры конфигурации сокращения направлений атак](configure-attack-surface-reduction.md)
+#### [Включить правила сокращения направлений атак](enable-attack-surface-reduction.md)
+#### [Настройка правил сокращения направлений атак](customize-attack-surface-reduction.md)
 #### [Сокращение направлений атак: вопросы и ответы](attack-surface-reduction-faq.md)
-
-#### [Элементы управления сокращением направлений атак]()
-##### [Правила сокращения направлений атак](attack-surface-reduction.md)
-##### [Включить правила сокращения направлений атак](enable-attack-surface-reduction.md)
-##### [Настройка правил сокращения направлений атак](customize-attack-surface-reduction.md)
-##### [Просмотр событий сокращения направлений атак](event-views.md)
-
-#### [Использовать режим аудита](audit-windows-defender.md)
+#### [Просмотр событий сокращения направлений атак](event-views.md)
+#### [Использование режима аудита для сокращения направлений атак](audit-windows-defender.md)
 
 ### Защита нового поколения
 #### [Обзор антивирусной программы в Microsoft Defender](microsoft-defender-antivirus-in-windows-10.md)
@@ -592,6 +589,13 @@
 ###### [Расширенная охота с помощью Python](run-advanced-query-sample-python.md)
 ###### [Расширенная охота с помощью PowerShell](run-advanced-query-sample-powershell.md)
 ###### [Использование запросов OData](exposed-apis-odata-samples.md)
+
+
+#### [API потоковой передачи необработанных данных]()
+##### [Потоковая передача необработанных данных](raw-data-export.md)
+##### [Потоковая трансляция событий расширенной охоты в Центре событий Azure](raw-data-export-event-hub.md)
+##### [Потоковая передача событий расширенной охоты в учетную запись хранения](raw-data-export-storage.md)
+
 
 #### [Интеграция SIEM]()
 ##### [Сведения о концепциях Threat Intelligence](threat-indicator-concepts.md)

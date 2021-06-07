@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 4997d7118b139d993ed94ed917137ca107940e46
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: c935df1abddc3d0ebee74e09280d6e3ec961ca97
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51199625"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769813"
 ---
 # <a name="alert-resource-type"></a>Тип ресурса оповещений
 
@@ -41,10 +42,10 @@ ms.locfileid: "51199625"
 Метод |Возвращаемый тип |Описание
 :---|:---|:---
 [Получение оповещения](get-alert-info-by-id.md) | [Оповещение](alerts.md) | Получите один объект [оповещения.](alerts.md)
-[перечисление оповещений](get-alerts.md); | [Коллекция оповещений](alerts.md) | Список [оповещений.](alerts.md)
+[Список оповещений](get-alerts.md) | [Коллекция оповещений](alerts.md) | Список [оповещений.](alerts.md)
 [обновление оповещения](update-alert.md). | [Оповещение](alerts.md) | Обновление определенного [оповещения](alerts.md).
 [Пакетные оповещения об обновлении](batch-update-alerts.md) | | Обновление пакета [оповещений.](alerts.md)
-[Создание оповещений](create-alert-by-reference.md)|[Оповещение](alerts.md)|Создание оповещений на основе данных событий, полученных из [Advanced Hunting.](run-advanced-query-api.md)
+[Создание оповещения](create-alert-by-reference.md)|[Оповещение](alerts.md)|Создание оповещений на основе данных событий, полученных из [Advanced Hunting.](run-advanced-query-api.md)
 [Списки связанных доменов](get-alert-related-domain-info.md)|Коллекция доменов| Список URL-адресов, связанных с оповещением.
 [Файлы, связанные со списком](get-alert-related-files-info.md) | [Коллекция](files.md) файлов |  Список [сущностями](files.md) файлов, связанных с [оповещением.](alerts.md)
 [IPs, связанные со списком](get-alert-related-ip-info.md) | Коллекция IP | Список IPs, связанных с оповещением.
@@ -56,7 +57,7 @@ ms.locfileid: "51199625"
 
 Свойство |    Тип    |    Описание
 :---|:---|:---
-id | Строка | ИД оповещения.
+id | String | ИД оповещения.
 title | String | Заголовок оповещения.
 description | String | Описание оповещения.
 alertCreationTime | Nullable DateTimeOffset | Дата и время (в UTC) было создано оповещение.
@@ -73,13 +74,13 @@ status | Перечисление | Указывает текущее состо
 classification | Nullable Enum | Спецификация оповещений. Возможные значения: "Неизвестный", "FalsePositive", "TruePositive".
 определение | Nullable Enum | Указывает определение оповещений. Возможные значения: "NotAvailable", "Apt", "Malware", "SecurityPersonnel", "SecurityTesting", "UnwantedSoftware", "Other".
 category| String | Категория оповещения.
-detectionSource | Строка | Источник обнаружения.
-threatFamilyName | Строка | Семейство угроз.
-threatName | Строка | Имя угрозы.
-machineId | Строка | ID объекта [машины,](machine.md) связанного с оповещением.
-computerDnsName | Строка | [полное](machine.md) имя машины.
-aadTenantId | Строка | ID Azure Active Directory.
-detectorId | Строка | ID детектора, который вызвал оповещение.
+detectionSource | String | Источник обнаружения.
+threatFamilyName | String | Семейство угроз.
+threatName | String | Имя угрозы.
+machineId | String | ID объекта [машины,](machine.md) связанного с оповещением.
+computerDnsName | String | [полное](machine.md) имя машины.
+aadTenantId | String | ID Azure Active Directory.
+detectorId | String | ID детектора, который вызвал оповещение.
 comments | Список замечаний оповещений | Объект Alert Comment содержит строку комментариев, createdBy string и createTime date time.
 Свидетельство | Список доказательств оповещений | Доказательства, относящиеся к оповещению. См. приведенный ниже пример.
 

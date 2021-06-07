@@ -14,12 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 54b3e0cd63189e67de0aa101634508ff8833dc6a
-ms.sourcegitcommit: 582555d2b4ef5f2e2494ffdeab2c1d49e5d6b724
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 71daccdbcb223ac48d80721bf0a296d9c1a7c98c
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51500246"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770101"
 ---
 # <a name="list-exposure-score-by-device-group"></a>Оценка экспозиции списка по группе устройств
 
@@ -102,7 +104,7 @@ GET https://api.securitycenter.microsoft.com/api/exposureScore/ByMachineGroups
 }
 ```
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 - [Управление рисками & уязвимостей](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
 - [Оценка & уязвимости](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/tvm-exposure-score)

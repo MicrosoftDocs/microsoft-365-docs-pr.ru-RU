@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ROBOTS: NOINDEX, NOFOLLOW
 description: Пользователи, у которых есть личные учетные записи Майкрософт, могут получать очки Microsoft Rewards в связи с их поиском в работе, если включена функция Link AAD с функцией Rewards.
-ms.openlocfilehash: 8cbd88de530ec4aa566962bb74715dc9c417f296
-ms.sourcegitcommit: aff2331f9a3f22591f8ace1a646809969d28c120
+ms.openlocfilehash: 581a7a044ef1b3508591778c9da416ffc3afac2e
+ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52464352"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52779666"
 ---
 # <a name="manage-microsoft-rewards"></a>Управление Microsoft Rewards
 
@@ -36,10 +36,10 @@ ms.locfileid: "52464352"
 
 ## <a name="related-content"></a>Связанные материалы
 
-[Настройка поиска Майкрософт](/microsoftsearch/setup-microsoft-search.md) (статья)
+[Настройка поиска Майкрософт](/microsoftsearch/setup-microsoft-search) (статья)
 
 [Топ-12 задач для групп безопасности для поддержки работы из дома](../../security/top-security-tasks-for-remote-work.md) (статья)
 
-[Новые возможности в Microsoft 365](https://support.microsoft.com/en-us/office/what-s-new-in-microsoft-365-95c8d81d-08ba-42c1-914f-bca4603e1426) (статья)
+[Новые возможности в Microsoft 365](https://support.microsoft.com/office/what-s-new-in-microsoft-365-95c8d81d-08ba-42c1-914f-bca4603e1426) (статья)
 
 

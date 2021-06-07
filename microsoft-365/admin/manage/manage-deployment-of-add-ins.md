@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: Научитесь развертывать надстройки для пользователей и групп в организации с помощью центраализованного развертывания в центре администрирования.
-ms.openlocfilehash: 8cc4f29cd2593d9651edaf87791f46dabdcc30b2
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 796517ba13a4718c38d5200fcf9cbe38b5dc62d0
+ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52636026"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52779642"
 ---
 # <a name="deploy-add-ins-in-the-admin-center"></a>Развертывание надстроек в Центре администрирования
 
@@ -38,7 +38,7 @@ Office надстройки помогут вам персонализирова
 Дополнительные информацию об управлении надстройкими после развертывания см. в рублях Управление надстройкими [в центре администрирования](manage-addins-in-the-admin-center.md)
   
 > [!NOTE]
->  Для Word Excel и PowerPoint каталог приложений [](https://dev.office.com/docs/add-ins/publish/publish-task-pane-and-content-add-ins-to-an-add-in-catalog) SharePoint для развертывания надстройок для пользователей в локальной среде без подключения к Microsoft 365 и/или поддержке SharePoint надстройок. Для Outlook Exchange панель управления для развертывания в локальной среде без подключения к Microsoft 365.
+>  Для Word Excel и PowerPoint каталог приложений [](/office/dev/add-ins/publish/publish-task-pane-and-content-add-ins-to-an-add-in-catalog) SharePoint для развертывания надстройок для пользователей в локальной среде без подключения к Microsoft 365 и/или поддержке SharePoint надстройок. Для Outlook Exchange панель управления для развертывания в локальной среде без подключения к Microsoft 365.
   
 ## <a name="recommended-approach-for-deploying-office-add-ins"></a>Рекомендуемый подход к развертыванию надстроек Office
 
@@ -129,7 +129,7 @@ Office надстройки помогут вам персонализирова
 
 - **Надстройка из Магазина Office**: если надстройка, которую администратор выбрал из Магазина Office, изменилась, она будет обновлена с помощью функции централизованного развертывания при следующем запуске соответствующего приложения Office. Веб-приложение может изменяться в любое время.
   
-## <a name="related-content"></a>См. также:
+## <a name="related-content"></a>Связанные материалы
 
 [Управление надстройкими в центре администрирования](manage-addins-in-the-admin-center.md) (статья)\
 [Создайте свою первую надстройку](/office/dev/add-ins/quickstarts/word-quickstart?tabs=yeomangenerator) области задач Word (статья\

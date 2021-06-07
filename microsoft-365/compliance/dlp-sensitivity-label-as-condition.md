@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: сведения о службах и типах элементов, которые можно использовать метки конфиденциальности в качестве условий для политик защиты от потери данных
-ms.openlocfilehash: b33e6704a3311740c1e386f77f1c751382ee6958
-ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
+ms.openlocfilehash: 94d5e9f53471f6113dcc755995a3f94e95a58e53
+ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52651096"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52779847"
 ---
 # <a name="use-sensitivity-labels-as-conditions-in-dlp-policies"></a>Использование меток конфиденциальности в качестве условия в политиках защиты от потери данных
 
@@ -65,6 +65,9 @@ ms.locfileid: "52651096"
 \* DLP-обнаружение вложений с метками конфиденциальности поддерживается только для файлов Office.
 
 \** Вложения, отправленные в Teams через личный чат или каналы, автоматически добавляются в OneDrive для бизнеса и SharePoint. Таким образом, если SharePoint Online или OneDrive для бизнеса включены в качестве расположений в политику защиты от потери данных, вложения с метками, отправленные в Teams, автоматически включаются в область действия этого условия. В политике защиты от потери данных Teams не обязательно выбирать в качестве расположения.
+
+> [!NOTE]
+> В DLP ограничена возможность обнаруживать метки конфиденциальности в SharePoint и OneDrive для бизнеса. Дополнительные сведения см. в статье [Включение меток конфиденциальности для файлов Office в SharePoint и OneDrive](sensitivity-labels-sharepoint-onedrive-files.md#limitations).
 
 ### <a name="supported-scenarios"></a>Поддерживаемые сценарии
 

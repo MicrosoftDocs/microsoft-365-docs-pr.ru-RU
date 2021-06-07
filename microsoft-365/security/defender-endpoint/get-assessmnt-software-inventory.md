@@ -17,11 +17,11 @@ ms.topic: article
 ms.technology: mde
 ms.custom: api
 ms.openlocfilehash: 5663a17de2e601c506b4d1b9ac44eaab6ae6245f
-ms.sourcegitcommit: 82a4d74020cd93ba444006317cfecc178c6d41dc
+ms.sourcegitcommit: 83df0be7144c9c5d606f70b4efa65369e86693d2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52689193"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52778363"
 ---
 # <a name="export-software-inventory-assessment-per-device"></a>Экспорт оценки инвентаризации программного обеспечения на устройство
 
@@ -98,20 +98,20 @@ GET /api/machines/SoftwareInventoryByMachine
 
 Свойство (ID) | Тип данных | Описание | Пример возвращенного значения
 :---|:---|:---|:---
-DeviceId | string | Уникальный идентификатор устройства в службе. | 9eaf3a8b5962e0e6b1af9ec756664a9b823df2d1
-DeviceName | string | Полное доменное имя (FQDN) устройства. | johnlaptop.europe.contoso.com
+DeviceId | Строка | Уникальный идентификатор устройства в службе. | 9eaf3a8b5962e0e6b1af9ec756664a9b823df2d1
+DeviceName | Строка | Полное доменное имя (FQDN) устройства. | johnlaptop.europe.contoso.com
 DiskPaths | Array[string]  | Дисковые данные о том, что продукт установлен на устройстве. | [C: \\ Файлы программы (x86) \\ Microsoft \\ Silverlight \\ Application \\silverlight.exe" ]
-EndOfSupportDate | string | Дата, в которой поддержка этого программного обеспечения имеет или закончится. | 2020-12-30
-EndOfSupportStatus | string | Конец состояния поддержки. Может содержать эти возможные значения: None, EOS Version, Upcoming EOS Version, EOS Software, Upcoming EOS Software. | Предстоящий EOS
+EndOfSupportDate | Строка | Дата, в которой поддержка этого программного обеспечения имеет или закончится. | 2020-12-30
+EndOfSupportStatus | Строка | Конец состояния поддержки. Может содержать эти возможные значения: None, EOS Version, Upcoming EOS Version, EOS Software, Upcoming EOS Software. | Предстоящий EOS
 Id | string | Уникальный идентификатор для записи. | 123ABG55_573AG&mnp!
 NumberOfWeaknesses | int | Количество недостатков этого программного обеспечения на этом устройстве | 3
-OSPlatform | string | Платформа операционной системы, запущенной на устройстве. Здесь указываются конкретные операционные системы, включая варианты одного семейства, например Windows 10 и Windows 7. Подробные сведения см. в материале tvm supported operating systems and platforms. | Windows10
-RbacGroupName | string | Группа управления доступом на основе ролей (RBAC). Если это устройство не назначено какой-либо группе RBAC, значение будет "Unassigned". Если организация не содержит групп RBAC, значение будет "Нет". | Servers
+OSPlatform | Строка | Платформа операционной системы, запущенной на устройстве. Здесь указываются конкретные операционные системы, включая варианты одного семейства, например Windows 10 и Windows 7. Подробные сведения см. в материале tvm supported operating systems and platforms. | Windows10
+RbacGroupName | Строка | Группа управления доступом на основе ролей (RBAC). Если это устройство не назначено какой-либо группе RBAC, значение будет "Unassigned". Если организация не содержит групп RBAC, значение будет "Нет". | Servers
 RegistryPaths | Array[string] | Свидетельство реестра о том, что продукт установлен на устройстве. | [HKEY_LOCAL_MACHINE \\ ПРОГРАММНОЕ \\ ОБЕСПЕЧЕНИЕ WOW6432Node \\ Microsoft Windows \\ \\ CurrentVersion удалить Microsoft \\ \\ Silverlight" ]
-SoftwareFirstSeenTimestamp | string | Впервые это программное обеспечение было замечено на устройстве. | 2019-04-07 02:06:47
-SoftwareName | string | Имя программного продукта. | Silverlight
-SoftwareVendor | string | Имя поставщика программного обеспечения. | Microsoft
-SoftwareVersion | string | Номер версии программного продукта. | 81.0.4044.138
+SoftwareFirstSeenTimestamp | Строка | Впервые это программное обеспечение было замечено на устройстве. | 2019-04-07 02:06:47
+SoftwareName | Строка | Имя программного продукта. | Silverlight
+SoftwareVendor | Строка | Имя поставщика программного обеспечения. | Microsoft
+SoftwareVersion | Строка | Номер версии программного продукта. | 81.0.4044.138
 
 ### <a name="16-examples"></a>1.6 Примеры
 
@@ -257,7 +257,7 @@ GET /api/machines/SoftwareInventoryExport
 Свойство (ID) | Тип данных | Описание | Пример возвращенного значения
 :---|:---|:---|:---
 Экспорт файлов | строка \[ массива\] | Список загрузок URL-адресов для файлов с текущим снимком организации | [  Https://tvmexportstrstgeus.blob.core.windows.net/tvm-export...1”, “https://tvmexportstrstgeus.blob.core.windows.net/tvm-export...2” ]
-GeneratedTime | string | Время, за которое был создан экспорт. | 2021-05-20T08:00:00Z ]
+GeneratedTime | Строка | Время, за которое был создан экспорт. | 2021-05-20T08:00:00Z ]
 
 ### <a name="26-examples"></a>2.6 Примеры
 
