@@ -17,12 +17,12 @@ ms.custom: nextgen
 ms.technology: mde
 ms.topic: article
 ms.date: 05/17/2021
-ms.openlocfilehash: ed9eb425d718a2dbdaa2cdb3ab1e6899c9870124
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 2d212bedf9033b0824d32e7f42afea3944d9ca67
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538895"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782817"
 ---
 # <a name="protect-security-settings-with-tamper-protection"></a>Защита параметров безопасности с помощью защиты от подделки
 
@@ -32,10 +32,10 @@ ms.locfileid: "52538895"
 
 Защита от взлома доступна для устройств, которые запускают одну из следующих версий Windows:
 
-- Windows 10
-- Windows Server 2019
+- Windows 10
+- Windows Server 2019
 - Windows Сервер, версия 1803 или более поздней версии
-- Windows Server 2016
+- Windows Server 2016
 
 ## <a name="overview"></a>Обзор
 
@@ -100,7 +100,7 @@ ms.locfileid: "52538895"
 - Вы должны иметь соответствующие [разрешения,](/microsoft-365/security/defender-endpoint/assign-portal-access)такие как глобальный администратор, администратор безопасности или операции безопасности.
 
 - На Windows устройствах должна быть запущена одна из следующих версий Windows:
-   - Windows 10
+   - Windows 10
    - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
    - Windows Сервер, версия [1803 или](/windows/release-health/status-windows-10-1803) более поздней версии
    - [Windows Server 2016](/windows-server/get-started/whats-new-in-windows-server-2016)
@@ -257,7 +257,7 @@ Windows 10 OS [1709](/windows/release-health/status-windows-10-1709), [1803](/wi
 
 - [Управление защитой от взлома с помощью Intune](#manage-tamper-protection-for-your-organization-using-intune)
 - [Управление защитой от взлома с помощью Configuration Manager, версия 2006](#manage-tamper-protection-for-your-organization-with-configuration-manager-version-2006)
-- [Управление защитой от взлома](#manage-tamper-protection-for-your-organization-using-the-microsoft-defender-security-center) с помощью Центр безопасности в Microsoft Defender (в настоящее время в предварительном просмотре)
+- [Управление защитой от взлома с помощью Центр безопасности в Microsoft Defender](#manage-tamper-protection-for-your-organization-using-the-microsoft-defender-security-center) 
 
 ### <a name="how-does-configuring-tamper-protection-in-intune-affect-how-i-manage-microsoft-defender-antivirus-through-my-group-policy"></a>Как настройка защиты от взлома в Intune влияет на управление антивирусная программа в Microsoft Defender с помощью групповой политики?
 

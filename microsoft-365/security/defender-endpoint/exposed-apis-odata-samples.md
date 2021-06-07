@@ -15,13 +15,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 37319e5af6121a38965e5d2d350a7697bb78c0b1
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: a2570aba26d65a573c19777bc70db77f4118e336
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51198297"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771049"
 ---
 # <a name="odata-queries-with-microsoft-defender-for-endpoint"></a>Запросы OData в Microsoft Defender для конечной точки
 
@@ -192,7 +193,7 @@ HTTP GET  https://api.securitycenter.microsoft.com/api/alerts?$top=10&$expand=ev
 }
 ```
 
-### <a name="example-2"></a>Пример 2
+### <a name="example-2"></a>Пример 2
 
 Получите все оповещений последнего обновления после 2019-11-22 00:00:00:
 
@@ -254,7 +255,7 @@ HTTP GET  https://api.securitycenter.microsoft.com/api/alerts?$filter=lastUpdate
 }
 ```
 
-### <a name="example-3"></a>Пример 3
+### <a name="example-3"></a>Пример 3
 
 Получите все устройства с 'High' 'RiskScore':
 

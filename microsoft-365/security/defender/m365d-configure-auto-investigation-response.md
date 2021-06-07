@@ -16,12 +16,12 @@ ms.custom: autoir
 ms.reviewer: evaldm, isco
 f1.keywords: CSH
 ms.technology: m365d
-ms.openlocfilehash: 685c23f4e8daac4f00e0bbd90dcaca9a80703559
-ms.sourcegitcommit: a3359982fea01339c7377e3ee89f223788cee0bf
+ms.openlocfilehash: 48d299f2318b0a1be251132a4b50a333a1a0c7a8
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "52696518"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782961"
 ---
 # <a name="configure-automated-investigation-and-response-capabilities-in-microsoft-365-defender"></a>Настройка возможностей автоматического расследования и ответа в Microsoft 365 Defender
 
@@ -73,8 +73,8 @@ Microsoft 365 Defender включает в себя [мощные возможн
 
 1. В центре Microsoft 365 безопасности () перейдите к [https://security.microsoft.com](https://security.microsoft.com) **политикам &** \> **правил.**
 2. Убедитесь, что все следующие политики настроены. Чтобы получить помощь и рекомендации, см. в [справке "Защита от угроз".](/microsoft-365/security/office-365-security/protect-against-threats)
-   - [Anti-malware)](../office-365-security/protect-against-threats.md#part-1---anti-malware-protection-in-eop)
-   - [Anti-phishing)](../office-365-security/protect-against-threats.md#part-2---anti-phishing-protection)
+   - [Anti-malware](../office-365-security/protect-against-threats.md#part-1---anti-malware-protection-in-eop)
+   - [Anti-phishing](../office-365-security/protect-against-threats.md#part-2---anti-phishing-protection)
    - [Безопасные вложения](../office-365-security/protect-against-threats.md#safe-attachments-policies-in-microsoft-defender-for-office-365)
    - [Безопасные ссылки](../office-365-security/protect-against-threats.md#safe-links-policies-in-microsoft-defender-for-office-365)
    - [Противодействие нежелательной почте](../office-365-security/protect-against-threats.md#part-3---anti-spam-protection-in-eop)
@@ -95,7 +95,7 @@ Microsoft 365 Defender включает в себя [мощные возможн
 > [!TIP]
 > Нужна помощь? См. [в Microsoft 365 Defender](m365d-enable.md).
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 - [Действия по исправлению в Microsoft 365 Defender](m365d-remediation-actions.md)
 - [Посещение Центра уведомлений](m365d-action-center.md)

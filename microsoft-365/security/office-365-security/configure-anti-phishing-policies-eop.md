@@ -15,12 +15,12 @@ ms.collection:
 description: Администраторы могут научиться создавать, изменять и удалять политики защиты от фишинга, доступные в Exchange Online Protection организациях с Exchange Online почтовыми ящиками.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f074596f0391e98735b07d17390cd058fd6fcafe
-ms.sourcegitcommit: f3d1009840513703c38bab99a6e13a3656eae5ee
+ms.openlocfilehash: c329edc517476cfb184bfa4b70c2f2c9542b6e33
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52793020"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52789067"
 ---
 # <a name="configure-anti-phishing-policies-in-eop"></a>Настройка политик защиты от фишинга в EOP
 
@@ -77,7 +77,7 @@ ms.locfileid: "52793020"
   - Добавление пользователей в соответствующую роль Azure Active Directory в Центре безопасности Microsoft 365 предоставляет пользователям необходимые разрешения _и_ разрешения для других функций в Microsoft 365. Дополнительные сведения см. в статье [О ролях администраторов](../../admin/add-users/about-admin-roles.md).
   - Группа **ролей только** для организации просмотра в [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups) также предоставляет доступ только для чтения к этой <sup>\*</sup> функции.
 
-- Рекомендуемые параметры для политик защиты от фишинга см. в рекомендациях EOP по борьбе [с фишингом.](recommended-settings-for-eop-and-office365.md#eop-anti-phishing-policy-settings)
+- Рекомендуемые параметры для политик защиты от фишинга см. в нашем сайте [параметры](recommended-settings-for-eop-and-office365.md#eop-default-anti-phishing-policy-settings)политики защиты от фишинга по умолчанию.
 
 - Разрешить до 30 минут для обновленной политики, которая будет применяться.
 
@@ -137,7 +137,7 @@ ms.locfileid: "52793020"
 
    По завершении нажмите кнопку **Далее**.
 
-7. На странице **Просмотр** просмотрите параметры. Вы можете выбрать **Изменить** в любом разделе, чтобы изменить параметры в этом разделе. Или вы можете щелкнуть **кнопку Назад** или выбрать определенную страницу в мастере.
+7. На странице **Просмотр** просмотрите параметры. Вы можете выбрать **Изменить** в любом разделе, чтобы изменить параметры в этом разделе.
 
    По завершению нажмите кнопку **Отправить**.
 

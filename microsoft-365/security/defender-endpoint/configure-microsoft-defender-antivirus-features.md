@@ -11,17 +11,17 @@ localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.date: 11/18/2020
+ms.date: 06/04/2021
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 4408d5e788449c0d094008261f5e7db9bfe38758
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 6ef9a2c34a88d7c9f5506c681088db9dc84cb0cc
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275112"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52789031"
 ---
 # <a name="configure-microsoft-defender-antivirus-features"></a>Настройка функций антивирусной программы в Microsoft Defender
 
@@ -32,27 +32,24 @@ ms.locfileid: "52275112"
 
 - [Microsoft Defender для конечной точки](/microsoft-365/security/defender-endpoint/)
 
-Вы можете настроить антивирусная программа в Microsoft Defender с помощью нескольких инструментов, в том числе:
+Вы можете настроить антивирусная программа в Microsoft Defender с помощью нескольких инструментов, таких как:
 
-- Microsoft Intune
-- Microsoft Endpoint Configuration Manager
+- Microsoft Endpoint Manager (которая включает Microsoft Intune и Microsoft Endpoint Configuration Manager)
 - Групповая политика
 - Командлеты PowerShell
 - Инструментарий управления Windows (WMI)
 
 Можно настроить следующие широкие категории функций:
 
-- Облачная защита
-- Защита в режиме реального времени, включая защиту на основе поведенческих, увристических и машинных знаний
-- Взаимодействие конечных пользователей с клиентом на отдельных конечных точках
+- Защита с облачной доставкой. См. [облачные средства защиты и антивирусная программа в Microsoft Defender](cloud-protection-microsoft-defender-antivirus.md)
+ 
+- Защита в режиме реального времени в режиме реального времени, включая защиту на основе поведенческих, увристических и машинных учебных ок. См. [в перенастройке поведенческой, севристической и защиты в режиме реального времени.](configure-protection-features-microsoft-defender-antivirus.md)
 
-В следующих статьях описывается выполнение ключевых задач при настройке антивирусная программа в Microsoft Defender. Каждая статья содержит инструкции для применимого средства конфигурации (или инструментов).
+- Взаимодействие конечных пользователей с клиентом на отдельных конечных точках. См. следующие ресурсы:
+   
+   - [Запретить пользователям видеть или взаимодействовать с антивирусная программа в Microsoft Defender пользовательским интерфейсом](prevent-end-user-interaction-microsoft-defender-antivirus.md)
 
-|Статья  |Описание  |
-|---------|---------|
-|[Использование облачной антивирусная программа в Microsoft Defender Майкрософт](cloud-protection-microsoft-defender-antivirus.md)     | Использование облачной защиты для быстрого и надежного обнаружения антивирусов.        |
-|[Настройка поведенческой, эвристической защиты и защиты в режиме реального времени](configure-protection-features-microsoft-defender-antivirus.md)     |Включить антивирусную защиту на основе поведения, а также защиту от вирусов в режиме реального времени.         |
-|[Настройка взаимодействия конечных пользователей с антивирусная программа в Microsoft Defender](configure-end-user-interaction-microsoft-defender-antivirus.md) | Настройте, как конечные пользователи в организации взаимодействуют с антивирусная программа в Microsoft Defender, какие уведомления они видят и могут ли они переопределять параметры. |
+   - [Предотвращение или разрешение пользователям локального антивирусная программа в Microsoft Defender параметров политики](configure-local-policy-overrides-microsoft-defender-antivirus.md) 
 
 > [!TIP]
-> Вы также можете просмотреть раздел [Справочные темы](configuration-management-reference-microsoft-defender-antivirus.md) для управления и инструментов конфигурации для обзора каждого средства и ссылок на дополнительную помощь.
+> Просмотрите [справочные темы для средств управления и конфигурации.](configuration-management-reference-microsoft-defender-antivirus.md)

@@ -14,12 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 180179d5b1362ad4952618148b11007aa9efe91c
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: dcb00d0d2afc7f873ea9c4afa3174ac46babf879
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51200069"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770785"
 ---
 # <a name="get-machineaction-api"></a>Получите API machineAction
 
@@ -47,10 +49,10 @@ ms.locfileid: "51200069"
 
 Тип разрешения |   Разрешение  |   Имя отображения разрешений
 :---|:---|:---
-Application |   Machine.Read.All |  'Read all machine profiles'
-Application |   Machine.ReadWrite.All | 'Read and write all machine information'
-Делегированное (рабочая или учебная учетная запись) | Machine.Read | 'Read machine information'
-Делегированное (рабочая или учебная учетная запись) | Machine.ReadWrite | 'Read and write machine information'
+Приложение |   Machine.Read.All |  'Read all machine profiles'
+Приложение |   Machine.ReadWrite.All | 'Read and write all machine information'
+Делегированные (рабочая или учебная учетная запись) | Machine.Read | 'Read machine information'
+Делегированные (рабочая или учебная учетная запись) | Machine.ReadWrite | 'Read and write machine information'
 
 >[!Note]
 > При получении маркера с помощью учетных данных пользователей:
@@ -65,7 +67,7 @@ GET https://api.securitycenter.microsoft.com/api/machineactions/{id}
 
 Имя | Тип | Описание
 :---|:---|:---
-Авторизация | Строка | Bearer {token}. **Обязательное поле**.
+Authorization | String | Bearer {token}. **Обязательное поле**.
 
 
 ## <a name="request-body"></a>Текст запроса

@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 1305be897dff6932713cf294eb4e5cd53692681c
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: eaef6b25e2db72149a1a1128899d8a79a38a4c60
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51167107"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771025"
 ---
 # <a name="delete-indicator-api"></a>Удаление API индикатора
 
@@ -65,7 +66,7 @@ Delete https://api.securitycenter.microsoft.com/api/indicators/{id}
 
 Имя | Тип | Описание
 :---|:---|:---
-Authorization | Строка | Bearer {token}. **Обязательное поле**.
+Authorization | String | Bearer {token}. **Обязательное поле**.
 
 
 ## <a name="request-body"></a>Текст запроса

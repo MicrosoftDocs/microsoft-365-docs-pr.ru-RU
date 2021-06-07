@@ -12,15 +12,15 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Администраторы Microsoft 365 могут узнать, как восстановиться после атаки вымогателей.
+description: Microsoft 365 администраторы могут узнать, как восстановиться после атаки вымогателей.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 242a4a2f43bd91d75caeaeaa0488f23a5ba4319d
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 473591a02b78043153d505dda6dd7ef5ac6e3961
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205765"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52789055"
 ---
 # <a name="recover-from-a-ransomware-attack-in-microsoft-365"></a>Восстановление после атаки вымогателей в Microsoft 365
 
@@ -49,13 +49,13 @@ ms.locfileid: "51205765"
 
 Если у вас нет резервных копий или резервные копии также пострадали от программ-вымогателей, вы можете пропустить этот шаг.
 
-## <a name="step-2-disable-exchange-activesync-and-onedrive-sync"></a>Шаг 2. Отключение синхронизации Exchange ActiveSync и OneDrive
+## <a name="step-2-disable-exchange-activesync-and-onedrive-sync"></a>Шаг 2. Отключение Exchange ActiveSync и OneDrive синхронизации
 
 Ключевой момент здесь — остановить распространение шифрования данных программ-вымогателей.
 
-Если вы подозреваете, что электронная почта является объектом шифрования программ-вымогателей, временно отключайте доступ пользователей к почтовым ящикам. Exchange ActiveSync синхронизирует данные между устройствами и почтовыми ящиками Exchange Online.
+Если вы подозреваете, что электронная почта является объектом шифрования программ-вымогателей, временно отключайте доступ пользователей к почтовым ящикам. Exchange ActiveSync синхронизирует данные между устройствами и Exchange Online почтовыми ящиками.
 
-Чтобы отключить Exchange ActiveSync для почтового ящика, см. в Exchange ActiveSync для пользователей [в Exchange Online.](https://support.microsoft.com/help/2795303)
+Чтобы отключить Exchange ActiveSync для почтового ящика, см. в Exchange ActiveSync для пользователей в [Exchange Online.](https://support.microsoft.com/help/2795303)
 
 Чтобы отключить другие типы доступа к почтовому ящику, см.:
 
@@ -63,7 +63,7 @@ ms.locfileid: "51205765"
 
 - [Включить или отключить доступ к POP3 или IMAP4 для пользователя](/Exchange/clients-and-mobile-in-exchange-online/pop3-and-imap4/enable-or-disable-pop3-or-imap4-access)
 
-Приочная синхронизация OneDrive поможет защитить облачные данные от обновления потенциально зараженными устройствами. Дополнительные сведения см. в [сайте How to Pause and Resume sync in OneDrive.](https://support.microsoft.com/office/2152bfa4-a2a5-4d3a-ace8-92912fb4421e)
+Синхронизация OneDrive поможет защитить облачные данные от обновления потенциально зараженными устройствами. Дополнительные сведения см. в дополнительных сведениях о том, как приостановить синхронизацию и [возобновить синхронизацию в OneDrive.](https://support.microsoft.com/office/2152bfa4-a2a5-4d3a-ace8-92912fb4421e)
 
 ## <a name="step-3-remove-the-malware-from-the-affected-devices"></a>Шаг 3. Удаление вредоносных программ с затронутых устройств
 
@@ -71,25 +71,25 @@ ms.locfileid: "51205765"
 
 Не забывайте проверять устройства, которые синхронизируют данные, или целевые объекты сетевых дисков.
 
-Вы можете использовать [Защитник Windows](https://www.microsoft.com/windows/comprehensive-security) или (для более старых клиентов) [Microsoft Security Essentials.](https://www.microsoft.com/download/details.aspx?id=5201)
+Вы можете использовать [Защитник Windows](https://www.microsoft.com/windows/comprehensive-security) или (для более старых клиентов) [Microsoft Security Essentials](https://www.microsoft.com/download/details.aspx?id=5201).
 
 Альтернативой, которая также поможет удалить программы-вымогателей или вредоносные программы, является средство удаления вредоносного программного обеспечения [(MSRT).](https://www.microsoft.com/download/details.aspx?id=9905)
 
-Если эти параметры не работают, [](https://support.microsoft.com/help/17466) вы можете попробовать Защитник Windows в автономном режиме или устранение неполадок с обнаружением и [удалением вредоносных программ.](https://support.microsoft.com/help/4466982)
+Если эти параметры не работают, [](https://support.microsoft.com/help/17466) вы можете попробовать Защитник Windows в автономном режиме или устранение неполадок при обнаружении и [удалении вредоносных программ.](https://support.microsoft.com/help/4466982)
 
 ## <a name="step-4-recover-files-on-a-cleaned-computer-or-device"></a>Шаг 4. Восстановление файлов на очищенных компьютерах или устройстве
 
-После завершения предыдущего шага по удалению полезной нагрузки вымогателей из среды (что не позволит вымогателям шифровать или удалить файлы), вы можете использовать историю файлов в Windows 10 и Windows 8.1 или System Protection в Windows 7, чтобы попытаться восстановить локальные файлы и папки. [](https://support.microsoft.com/help/17128)
+После завершения предыдущего шага по удалению полезной нагрузки вымогателей из среды (что не позволит вымогателям шифровать или удалять файлы), вы можете использовать историю файлов в Windows 10 и Windows 8.1 или system Protection в Windows 7, чтобы попытаться восстановить локальные файлы и папки. [](https://support.microsoft.com/help/17128)
 
 **Примечания**:
 
-- Некоторые программы-вымогательы также шифруют или удаляют резервные версии, поэтому для восстановления файлов нельзя использовать историю файлов или систему защиты. В этом случае необходимо использовать резервные копии на внешних дисках или устройствах, не затронутых программой-вымогателями или OneDrive, как описано в следующем разделе.
+- Некоторые программы-вымогательы также шифруют или удаляют резервные версии, поэтому для восстановления файлов нельзя использовать историю файлов или систему защиты. Если это произойдет, необходимо использовать резервные копии на внешних дисках или устройствах, не затронутых программой-вымогателями или OneDrive, как описано в следующем разделе.
 
-- Если папка синхронизирована с OneDrive и вы не используете последнюю версию Windows, могут возникнуть некоторые ограничения с помощью истории файлов.
+- Если папка синхронизирована с OneDrive и вы не используете последнюю версию Windows, может возникнуть ряд ограничений с помощью истории файлов.
 
 ## <a name="step-5-recover-your-files-in-your-onedrive-for-business"></a>Шаг 5. Восстановление файлов в OneDrive для бизнеса
 
-Восстановление файлов в OneDrive для бизнеса позволяет восстановить весь OneDrive до предыдущей точки времени в течение последних 30 дней. Дополнительные сведения см. в [сайте Восстановление OneDrive.](https://support.microsoft.com/office/fa231298-759d-41cf-bcd0-25ac53eb8a15)
+Восстановление файлов OneDrive для бизнеса позволяет восстановить всю OneDrive до предыдущей точки времени в течение последних 30 дней. Подробную информацию см. в разделе [Восстановление OneDrive](https://support.microsoft.com/office/fa231298-759d-41cf-bcd0-25ac53eb8a15).
 
 ## <a name="step-6-recover-deleted-email"></a>Шаг 6. Восстановление удаленной электронной почты
 
@@ -99,13 +99,13 @@ ms.locfileid: "51205765"
 
 - [Восстановление удаленных элементов в Outlook для Windows](https://support.microsoft.com/office/49e81f3c-c8f4-4426-a0b9-c0fd751d48ce)
 
-## <a name="step-7-re-enable-exchange-activesync-and-onedrive-sync"></a>Шаг 7. Повторное Exchange ActiveSync и синхронизация OneDrive
+## <a name="step-7-re-enable-exchange-activesync-and-onedrive-sync"></a>Шаг 7. Повторное Exchange ActiveSync и OneDrive синхронизации
 
-После очистки компьютеров и устройств и восстановления данных можно повторно включить синхронизацию Exchange ActiveSync OneDrive, отключенную ранее в шаге [2.](#step-2-disable-exchange-activesync-and-onedrive-sync)
+После очистки компьютеров и устройств и восстановления данных можно повторно включить синхронизацию Exchange ActiveSync и OneDrive, отключаемую ранее в шаге [2.](#step-2-disable-exchange-activesync-and-onedrive-sync)
 
-## <a name="step-8-optional-block-onedrive-sync-for-specific-file-extensions"></a>Шаг 8 (необязательный): блокировка синхронизации OneDrive для определенных расширений файлов
+## <a name="step-8-optional-block-onedrive-sync-for-specific-file-extensions"></a>Шаг 8 (необязательный): OneDrive синхронизации для определенных расширений файлов
 
-После восстановления можно запретить клиентам OneDrive для бизнеса синхронизировать типы файлов, затронутые этим программой-вымогателем. Дополнительные сведения см. [в рубрезе Set-SPOTenantSyncClientRestriction.](/powershell/module/sharepoint-online/set-spotenantsyncclientrestriction)
+После восстановления вы можете запретить OneDrive для бизнеса синхронизировать типы файлов, затронутые этим программой-вымогателями. Дополнительные сведения см. [в рубрезе Set-SPOTenantSyncClientRestriction.](/powershell/module/sharepoint-online/set-spotenantsyncclientrestriction)
 
 ## <a name="report-the-attack"></a>Сообщение об атаке
 
@@ -129,6 +129,8 @@ ms.locfileid: "51205765"
 
 - Новая Зеландия: [мошенничество с потребительскими делами](http://www.consumeraffairs.govt.nz/scams)
 
+- Switzerland [Nationales Zentrum für Cybersicherheit NCSC](https://www.ncsc.admin.ch/ncsc/de/home.html)
+
 - Великобритания: [мошенничество с действиями](http://www.actionfraud.police.uk/)
 
 - СОЕДИНЕННЫЕ Штаты: [On Guard Online](http://www.onguardonline.gov/)
@@ -139,7 +141,7 @@ ms.locfileid: "51205765"
 
 Вы можете сообщать о фишинговых сообщениях, содержащих вымогателей, с помощью одного из нескольких методов. Для получения дополнительной информации см. [Отчет о сообщениях и файлах в Microsoft](report-junk-email-messages-to-microsoft.md).
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>Дополнительные материалы
 
 - [Вымогателей](/windows/security/threat-protection/intelligence/ransomware-malware)
 
@@ -149,13 +151,13 @@ ms.locfileid: "51205765"
 
 - [Обнаружение и восстановление файлов в OneDrive](https://support.microsoft.com/office/0d90ec50-6bfd-40f4-acc7-b8c12c73637f)
 
-- [Отчет об аналитике безопасности Майкрософт](https://www.microsoft.com/securityinsights/)
+- [портал для обнаружения угроз (Microsoft) Отчет](https://www.microsoft.com/securityinsights/)
 
-- [Включить или отключить макрос в файлах Office](https://support.microsoft.com/office/12b036fd-d140-4e74-b45e-16fed1a7e5c6)
+- [Включить или отключить макрос в Office файлах](https://support.microsoft.com/office/12b036fd-d140-4e74-b45e-16fed1a7e5c6)
 
-- [Рекомендуемые параметры безопасности EOP и Microsoft Defender для Office 365](recommended-settings-for-eop-and-office365.md)
+- [Рекомендуемые параметры для EOP и Microsoft Defender для Office 365 безопасности](recommended-settings-for-eop-and-office365.md)
 
-- [Достойное обновление: безопасность следующего поколения в Windows 10 доказала устойчивость к вспышкам вымогателей в 2017 г.](https://www.microsoft.com/security/blog/2018/01/10/a-worthy-upgrade-next-gen-security-on-windows-10-proves-resilient-against-ransomware-outbreaks-in-2017/)
+- [Достойное обновление: безопасность следующего поколения на Windows 10 в 2017 г.](https://www.microsoft.com/security/blog/2018/01/10/a-worthy-upgrade-next-gen-security-on-windows-10-proves-resilient-against-ransomware-outbreaks-in-2017/)
 
 - [Нет мас, Samas: Что в modus operandi этого вымогателя?](https://www.microsoft.com/security/blog/2016/03/17/no-mas-samas-whats-in-this-ransomwares-modus-operandi/)
 

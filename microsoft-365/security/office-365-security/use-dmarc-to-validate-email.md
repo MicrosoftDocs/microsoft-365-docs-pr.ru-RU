@@ -18,12 +18,12 @@ ms.collection:
 description: Узнайте, как настроить протокол DMARC (Domain-based Message Authentication, Reporting, and Conformance), чтобы проверять сообщения, отправленные из вашей организации.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9beada6e0fb61e503392b0bd379f02bd1c025464
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: a92c6ec50fb60d15e027a11163aad6b2186e5304
+ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538679"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52779907"
 ---
 # <a name="use-dmarc-to-validate-email"></a>Использование протокола DMARC для проверки электронной почты
 
@@ -178,7 +178,7 @@ _dmarc.domain  TTL  IN  TXT  "v=DMARC1; p=policy; pct=100"
     _dmarc.contoso.com  3600 IN  TXT  "v=DMARC1; p=reject"
     ```
 
-Создав запись, необходимо обновить ее у регистратора доменных имен. Инструкции по добавлению записи DMARC TXT в свои записи DNS для Microsoft 365 см. в статье [Создание записей DNS для Microsoft 365 при самостоятельном управлении записями DNS](../../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md).
+Создав запись, необходимо обновить ее у регистратора доменных имен.
 
 ## <a name="dmarc-mail-public-preview-feature"></a>Почта DMARC (общедоступная предварительная версия)
 > [!CAUTION]
@@ -256,7 +256,7 @@ contoso.com     3600   IN  MX  10 contoso-com.mail.protection.outlook.com
 
 Вся или почти вся электронная почта сначала будет перенаправляться в домен mail.contoso.com, поскольку это основная система обмена электронной почтой, а затем в домен EOP. В некоторых случаях вы можете даже не указать EOP в записи MX и просто воспользоваться соединителями для перенаправления почты. Домен EOP не обязательно должен быть первым элементом, для которого требуется выполнить проверку DMARC. Просто это обеспечивает проверку, так как мы не можем быть уверены, что все локальные серверы и серверы, не связанные с Office 365, выполняют проверки DMARC.  DMARC может быть принудительно применен для домена клиента (не сервера) при настройке записи TXT DMARC, но такое применение осуществляется сервером-получателем.  Если настроить EOP как сервер-получатель, EOP принудительно применит DMARC.
 
-![Изображение устранения неполадок DMARC, предоставленное Дэниелом Манде](../../media/Tp_DMARCTroublehoot.png)
+:::image type="content" source="../../media/Tp_DMARCTroublehoot.png" alt-text="Изображение устранения неполадок DMARC, предоставленное Дэниелом Манде" lightbox="../../media/Tp_DMARCTroublehoot.png":::
 
 ## <a name="for-more-information"></a>Дополнительные сведения
 

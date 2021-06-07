@@ -15,12 +15,12 @@ ms.collection:
 description: Администраторы могут узнать, как применять стандартные и строгие параметры политики для Exchange Online Protection (EOP) и Microsoft Defender для Office 365
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ca65f003b0c206b0f7e23f3498a4ef0d0bc03fa6
-ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+ms.openlocfilehash: ca0b8b8dd879f3f662c96f1527bca13efbe5ef6c
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52788983"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771229"
 ---
 # <a name="preset-security-policies-in-eop-and-microsoft-defender-for-office-365"></a>Предустановленные политики безопасности в EOP и Microsoft Defender для Office 365
 
@@ -119,7 +119,7 @@ ms.locfileid: "52788983"
 
 ### <a name="use-the-security-center-to-assign-preset-security-policies-to-users"></a>Используйте центр безопасности, чтобы назначить пользователям заранее задатки политики безопасности.
 
-1. В центре безопасности перейдите к разделу Политики **совместной &** электронной почты & политики шаблонных политик правил предустановленной \>  \>  \>  \> **политики безопасности**.
+1. В центре безопасности перейдите на электронную **почту & политики** совместной & правила политики безопасности \>  \>  \> **предустановлены.**
 
 2. В **соответствии со стандартной защитой** или **строгой защитой** нажмите **кнопку Изменить**.
 

@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 4957c92cb95464213cce4a81ded07de166468c73
-ms.sourcegitcommit: 82a4d74020cd93ba444006317cfecc178c6d41dc
+ms.openlocfilehash: a6e11aea14a7b8d99c0098b68951790328ec593e
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52689017"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782913"
 ---
 # <a name="investigate-alerts-in-microsoft-365-defender"></a>Исследование оповещений в Microsoft 365 Defender
 
@@ -56,7 +56,7 @@ ms.locfileid: "52689017"
 
 - Серьезность
 - Состояние
-- Категория
+- Category
 - Источник обнаружения
 - Теги
 - Политика
@@ -92,7 +92,7 @@ Microsoft 365 Оповещения defender могут приходить из �
 Microsoft Defender для Office 365 | `fa{GUID}` <br> Пример: `fa123a456b-c789-1d2e-12f1g33h445h6i` 
 Microsoft Defender для конечной точки | `da` или `ed` для пользовательских оповещений об обнаружении <br> 
 Microsoft Defender для удостоверений | `aa{GUID}` <br> Пример: `aa123a456b-c789-1d2e-12f1g33h445h6i` 
-Microsoft Cloud App Security |`ca{GUID}` <br> Пример: `aa123a456b-c789-1d2e-12f1g33h445h6i` 
+Microsoft Cloud App Security |`ca{GUID}` <br> Пример: `ca123a456b-c789-1d2e-12f1g33h445h6i` 
 
 
 
@@ -153,7 +153,7 @@ Microsoft Cloud App Security |`ca{GUID}` <br> Пример: `aa123a456b-c789-1d2
 
 Классификация оповещений и указание их определения помогает настроить Microsoft 365 Defender, чтобы обеспечить больше истинных оповещений и меньше ложных оповещений.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 По мере необходимости для инцидентов в процессе продолжайте [расследование.](investigate-incidents.md)
 

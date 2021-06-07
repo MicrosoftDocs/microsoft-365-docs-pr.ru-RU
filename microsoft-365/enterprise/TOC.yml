@@ -1,4 +1,4 @@
-- name: "Документация и ресурсы по Microsoft\_365 для предприятий"
+- name: Документация и ресурсы по Microsoft 365 для предприятий
   href: index.yml
 - name: Обзор Microsoft 365 для предприятий
   href: microsoft-365-overview.md
@@ -10,11 +10,11 @@
       items:
         - name: Обзор возможности сетевого подключения к Microsoft 365
           href: microsoft-365-networking-overview.md
-        - name: "Принципы сетевого подключения к Microsoft\_365"
+        - name: Принципы сетевого подключения к Microsoft 365
           href: microsoft-365-network-connectivity-principles.md
         - name: Оценка сетевого подключения к Microsoft 365
           href: assessing-network-connectivity.md
-        - name: "Планирование сети при использовании ExpressRoute для Office\_365"
+        - name: Планирование сети при использовании ExpressRoute для Office 365
           href: network-planning-with-expressroute.md
         - name: 'Планирование сетевых устройств, подключающихся к службам Microsoft 365'
           href: plan-for-network-devices.md
@@ -50,12 +50,12 @@
               href: microsoft-365-networking-china.md
             - name: Оптимизация трафика Microsoft 365 для удаленных сотрудников с помощью собственного VPN-клиента Windows 10
               href: /windows/security/identity-protection/vpn/vpn-office-365-optimization
-        - name: "ExpressRoute для Office\_365"
+        - name: ExpressRoute для Office 365
           href: azure-expressroute.md
           items:
             - name: Реализация ExpressRoute
               href: implementing-expressroute.md
-            - name: "Маршрутизация с использованием ExpressRoute для Office\_365"
+            - name: Маршрутизация с использованием ExpressRoute для Office 365
               href: routing-with-expressroute.md
     - name: Управление
       items:
@@ -63,7 +63,7 @@
           items:
             - name: Конечные точки Microsoft 365
               href: microsoft-365-endpoints.md
-            - name: "Управление конечными точками Office\_365"
+            - name: Управление конечными точками Office 365
               href: managing-office-365-endpoints.md
             - name: Глобальные конечные точки
               href: urls-and-ip-address-ranges.md
@@ -71,15 +71,15 @@
               href: microsoft-365-u-s-government-dod-endpoints.md
             - name: Конечные точки GCC High для государственных организаций США
               href: microsoft-365-u-s-government-gcc-high-endpoints.md
-            - name: "Конечные точки Office\_365 под управлением 21Vianet"
+            - name: Конечные точки Office 365 под управлением 21Vianet
               href: urls-and-ip-address-ranges-21vianet.md
-            - name: "Конечные точки Office\_365\_Germany"
+            - name: Конечные точки Office 365 Germany
               href: microsoft-365-germany-endpoints.md
         - name: Сети доставки содержимого
           href: content-delivery-networks.md
-        - name: "Поддержка протокола IPv6 в службах Office\_365"
+        - name: Поддержка протокола IPv6 в службах Office 365
           href: ipv6-support.md
-        - name: "Поддержка NAT в Office\_365"
+        - name: Поддержка NAT в Office 365
           href: nat-support-with-microsoft-365.md
         - name: Сетевые запросы в Office для Mac
           href: network-requests-in-office-2016-for-mac.md
@@ -142,33 +142,33 @@
         - name: Планирование обновления
           href: plan-upgrade-previous-versions-office.md
           items:
-            - name: "Office\_2007"
+            - name: Office 2007
               items:
-                - name: "Обновление серверов и клиентов Office\_2007"
+                - name: Обновление серверов и клиентов Office 2007
                   href: upgrade-from-office-2007-servers-and-products.md
-                - name: "Office\_2007 для настольных ПК"
+                - name: Office 2007 для настольных ПК
                   href: /DeployOffice/endofsupport/office-2007-end-support-roadmap
-                - name: "Exchange\_2007"
+                - name: Exchange 2007
                   href: exchange-2007-end-of-support.md
-                - name: "SharePoint\_2007"
+                - name: SharePoint 2007
                   href: sharepoint-2007-end-of-support.md
                 - name: Office Communications Server
                   href: /skypeforbusiness/plan-your-deployment/upgrade
-                - name: "PerformancePoint Server\_2007"
+                - name: PerformancePoint Server 2007
                   href: pps-2007-end-of-support.md
                 - name: Project Server 2007
                   href: project-server-2007-end-of-support.md
-            - name: "Office\_2010"
+            - name: Office 2010
               items:
-                - name: "Обновление серверов и клиентов Office\_2010"
+                - name: Обновление серверов и клиентов Office 2010
                   href: upgrade-from-office-2010-servers-and-products.md
-                - name: "Office\_2010 для настольных ПК"
+                - name: Office 2010 для настольных ПК
                   href: /DeployOffice/endofsupport/office-2010-end-support-roadmap
-                - name: "Exchange\_2010"
+                - name: Exchange 2010
                   href: exchange-2010-end-of-support.md
-                - name: "SharePoint\_2010"
+                - name: SharePoint 2010
                   href: upgrade-from-sharepoint-2010.md
-                - name: "Lync Server\_2010"
+                - name: Lync Server 2010
                   href: /skypeforbusiness/plan-your-deployment/upgrade
                 - name: Project Server 2010
                   href: project-server-2010-end-of-support.md
@@ -247,7 +247,7 @@
               href: add-a-sharepoint-geo-admin.md
             - name: Ограничение содержимого по геообъекту
               href: restrict-content-to-geo-location.md
-            - name: "Настройка обнаружения электронных данных в Microsoft\_365 Multi-Geo"
+            - name: Настройка обнаружения электронных данных в Microsoft 365 Multi-Geo
               href: multi-geo-ediscovery-configuration.md
             - name: Создание группы с определенным PDL
               href: multi-geo-add-group-with-pdl.md
@@ -322,7 +322,7 @@
               items:
                 - name: Обзор
                   href: hybrid-solutions.md
-                - name: "Использование Azure Active Directory для проверки подлинности в SharePoint Server\_2016"
+                - name: Использование Azure Active Directory для проверки подлинности в SharePoint Server 2016
                   href: /azure/active-directory/saas-apps/sharepoint-on-premises-tutorial
                 - name: Подключение локальной сети к виртуальной сети Azure
                   href: connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md
@@ -383,33 +383,33 @@
           href: plan-upgrade-previous-versions-office.md
     - name: Развертывание
       items:
-        - name: "Office\_2007"
+        - name: Office 2007
           items:
-            - name: "Обновление серверов и клиентов Office\_2007"
+            - name: Обновление серверов и клиентов Office 2007
               href: upgrade-from-office-2007-servers-and-products.md
-            - name: "Office\_2007 для настольных ПК"
+            - name: Office 2007 для настольных ПК
               href: /DeployOffice/office-2007-end-support-roadmap
-            - name: "Exchange\_2007"
+            - name: Exchange 2007
               href: exchange-2007-end-of-support.md
-            - name: "SharePoint\_2007"
+            - name: SharePoint 2007
               href: sharepoint-2007-end-of-support.md
             - name: Office Communications Server
               href: /skypeforbusiness/plan-your-deployment/upgrade
-            - name: "PerformancePoint Server\_2007"
+            - name: PerformancePoint Server 2007
               href: pps-2007-end-of-support.md
             - name: Project Server 2007
               href: project-server-2007-end-of-support.md
-        - name: "Office\_2010"
+        - name: Office 2010
           items:
-            - name: "Обновление серверов и клиентов Office\_2010"
+            - name: Обновление серверов и клиентов Office 2010
               href: upgrade-from-office-2010-servers-and-products.md
-            - name: "Office\_2010 для настольных ПК"
+            - name: Office 2010 для настольных ПК
               href: /DeployOffice/office-2010-end-support-roadmap
-            - name: "Exchange\_2010"
+            - name: Exchange 2010
               href: exchange-2010-end-of-support.md
-            - name: "SharePoint\_2010"
+            - name: SharePoint 2010
               href: upgrade-from-sharepoint-2010.md
-            - name: "Lync Server\_2010"
+            - name: Lync Server 2010
               href: /skypeforbusiness/plan-your-deployment/upgrade
             - name: Project Server 2010
               href: project-server-2010-end-of-support.md
@@ -575,12 +575,12 @@
           href: manage-sharepoint-site-groups-with-powershell.md
     - name: Управление Exchange Online
       href: /powershell/exchange/connect-to-exchange-online-powershell
-    - name: "Миграция электронной почты в Microsoft\_365 с помощью PowerShell"
+    - name: Миграция электронной почты в Microsoft 365 с помощью PowerShell
       href: use-powershell-for-email-migration-to-microsoft-365.md
       items:
         - name: Прямая миграция в Microsoft 365 с помощью PowerShell
           href: use-powershell-to-perform-a-cutover-migration-to-microsoft-365.md
-        - name: "Миграция IMAP в Microsoft\_365 с помощью PowerShell"
+        - name: Миграция IMAP в Microsoft 365 с помощью PowerShell
           href: use-powershell-to-perform-an-imap-migration-to-microsoft-365.md
         - name: Поэтапная миграция в Microsoft 365 с помощью PowerShell
           href: use-powershell-to-perform-a-staged-migration-to-microsoft-365.md
@@ -606,6 +606,8 @@
           href: assign-per-user-skype-for-business-online-policies-with-microsoft-365-powershell.md
     - name: Управление надстройками с использованием централизованного развертывания PowerShell
       href: use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins.md
+- name: Комплект лабораторий развертывания для Windows 10 и Office 365
+  href: modern-desktop-deployment-and-management-lab.md
 - name: Руководства по лаборатории тестирования
   href: m365-enterprise-test-lab-guides.md
   items:
@@ -671,7 +673,7 @@
       href: contoso-networking.md
     - name: Удостоверение
       href: contoso-identity.md
-    - name: "Windows\_10 Корпоративная"
+    - name: Windows 10 Корпоративная
       href: contoso-win10.md
     - name: Приложения Microsoft 365 для предприятий
       href: contoso-o365pp.md
@@ -681,7 +683,7 @@
       href: contoso-info-protect.md
     - name: Сводка по безопасности
       href: contoso-security-summary.md
-- name: "Архитектура и решения Microsoft\_365"
+- name: Архитектура и решения Microsoft 365
   href: ../solutions/index.yml
 - name: Управление непрерывностью бизнес-процессов в компании (УНБК) с помощью облачных служб
   href: /compliance/assurance/assurance-understanding-ebcm-with-cloud-services

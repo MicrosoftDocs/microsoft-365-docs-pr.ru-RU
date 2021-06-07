@@ -1,7 +1,7 @@
 ---
 title: Список программного обеспечения
 description: Извлечение списка инвентаризации программного обеспечения
-keywords: apis, api graph, supported apis, get, list, file, information, software inventory, threat & vulnerability management api, Microsoft Defender for Endpoint tvm api
+keywords: apis, graph api, supported apis, get, list, file, information, software inventory, threat & управление уязвимостями api, Microsoft Defender for Endpoint tvm api
 search.product: eADQiWindows 10XVcnh
 ms.prod: w10
 ms.mktglfcycl: deploy
@@ -14,12 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 6522b546dfde7447a03b3c417be93d288e261908
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: f7e71c58396fd4b3ed40ba88aab5c2757ae41a41
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934013"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771085"
 ---
 # <a name="list-software-inventory-api"></a>Список API инвентаризации программного обеспечения
 
@@ -96,6 +98,6 @@ GET https://api.securitycenter.microsoft.com/api/Software
 }
 ```
 
-## <a name="related-topics"></a>Похожие темы
+## <a name="related-topics"></a>Связанные статьи
 - [Управление рисками & уязвимостей](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
 - [Инвентаризация программного обеспечения & уязвимости](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/tvm-software-inventory)

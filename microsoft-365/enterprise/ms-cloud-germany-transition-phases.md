@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: Сводка. Сведения о действиях и последствиях этапов миграции при переходе из Microsoft Cloud Germany (Microsoft Cloud Deutschland) в Office 365 службы в новом немецком регионе центра обработки данных.
-ms.openlocfilehash: df2407deeaa3cd6e0b0925b48f888a25c0435042
-ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
+ms.openlocfilehash: 6778248b127894102d15d4d94e3d2f099e3bfa37
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52651118"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771205"
 ---
 # <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland"></a>Миграция фазы действий и последствий для миграции из Microsoft Cloud Deutschland
 
@@ -80,7 +80,7 @@ ms.locfileid: "52651118"
 
 **При применении**: До начала этапа 2
 
-Если вы используете службы федерации Active Directory (AD FS), убедитесь, что перед и после добавления доверяющих сторон  для глобальной службы Office 365 перед началом этапа 2 необходимо сделать ставку на конфигурацию [ADFS.](ms-cloud-germany-transition-azure-ad.md)
+Если вы используете службы федерации Active Directory (AD FS), убедитесь, что перед и после добавления доверяющих сторон  для глобальной службы Office 365 перед началом этапа 2 необходимо сделать ставку на конфигурацию [ADFS.](ms-cloud-germany-transition-add-adfs.md)
 
 ## <a name="phase-2-azure-ad-migration"></a>Этап 2. Миграция Azure AD
 На этом этапе Azure Active Directory будут перенесены в новый регион центра обработки данных и станут активными. Старые конечные точки Azure AD будут по-прежнему доступны.
@@ -169,7 +169,7 @@ New-AuthServer GlobalMicrosoftSts -AuthMetadataUrl https://accounts.accesscontro
 ### <a name="exchange-online-powershell"></a>Exchange Online PowerShell
 **Применяется к: Exchange Online** администраторам с Exchange Online PowerShell
 
-На этапе миграции с помощью cmdlets PowerShell **New-MigrationEndpoint,** **Set-MigrationEndpoint** и **Test-MigrationsServerAvailability** могут привести к ошибкам (ошибка в прокси-сервере). Это происходит, когда почтовый ящик арбитража мигрирует во всем мире, но почтовый ящик администратора не имеет или наоборот. Чтобы устранить это, создав сеанс PowerShell клиента, используйте почтовый ящик арбитража в качестве подсказки маршрутивки **в ConnectionUri**. Например:
+На этапе миграции с помощью cmdlets PowerShell **New-MigrationEndpoint,** **Set-MigrationEndpoint** и **Test-MigrationsServerAvailability** могут привести к ошибкам (ошибка в прокси-сервере). Это происходит, когда почтовый ящик арбитража мигрирует во всем мире, но почтовый ящик администратора не имеет или наоборот. Чтобы устранить это, создав сеанс PowerShell клиента, используйте почтовый ящик арбитража в качестве подсказки маршрутивки **в ConnectionUri**. Например,
 
 ```powershell
 New-PSSession 

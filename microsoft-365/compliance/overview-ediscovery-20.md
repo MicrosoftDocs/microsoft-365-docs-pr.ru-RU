@@ -20,16 +20,16 @@ search.appverid:
 - MET150
 description: Узнайте о решении Advanced eDiscovery в Microsoft 365. В этой статье представлен обзор Advanced eDiscovery в Microsoft 365, инструмент, который поможет вам управлять внутренними и внешними расследованиями. Он также обрамил бизнес-причины использования Advanced eDiscovery для управления юридическими расследованиями.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 16d18d04c0bb45f0a9328dcebae866c16a575812
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: ec5ea7b32abb03edd31ab69abc7b8d3044b1d353
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51860968"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782793"
 ---
 # <a name="overview-of-microsoft-365-advanced-ediscovery"></a>Обзор Microsoft 365 Advanced eDiscovery
 
-Решение Advanced eDiscovery в Microsoft 365 построено на существующих возможностях microsoft eDiscovery и аналитики. Advanced eDiscovery обеспечивает конечный рабочий процесс для сохранения, сбора, анализа, анализа, анализа и экспорта контента, отвечающей внутренним и внешним расследованиям организации. Он также позволяет группе юристов управлять всем рабочим процессом уведомления об удержании по юридическим причинам, чтобы общаться с хранителями, участвующими в деле.
+Решение Advanced eDiscovery в Microsoft 365 построено на существующих возможностях microsoft eDiscovery и аналитики. Advanced eDiscovery обеспечивает конечный рабочий процесс для сохранения, сбора, анализа, анализа и экспорта контента, отвечающей внутренним и внешним расследованиям организации. Он также позволяет группе юристов управлять всем рабочим процессом уведомления об удержании по юридическим причинам, чтобы общаться с хранителями, участвующими в деле.
 
 ## <a name="advanced-ediscovery-capabilities"></a>Advanced eDiscovery возможностей
 

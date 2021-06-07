@@ -14,12 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 6460860828acd5ea0c3509e9eb06061d2a9a0cc2
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 88ad63d8b7cc71f7d3f809c7cb0371fc41bb9f5d
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51200153"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771169"
 ---
 # <a name="find-devices-by-tag-api"></a>Поиск устройств по тегу API
 
@@ -48,10 +50,10 @@ ms.locfileid: "51200153"
 
 Тип разрешения |   Разрешение  |   Имя отображения разрешений
 :---|:---|:---
-Application |   Machine.Read.All |  'Read all machine profiles'
-Application |   Machine.ReadWrite.All | 'Read and write all machine information'
-Делегированное (рабочая или учебная учетная запись) | Machine.Read | 'Read machine information'
-Делегированное (рабочая или учебная учетная запись) | Machine.ReadWrite | 'Read and write machine information'
+Приложение |   Machine.Read.All |  'Read all machine profiles'
+Приложение |   Machine.ReadWrite.All | 'Read and write all machine information'
+Делегированные (рабочая или учебная учетная запись) | Machine.Read | 'Read machine information'
+Делегированные (рабочая или учебная учетная запись) | Machine.ReadWrite | 'Read and write machine information'
 
 >[!Note]
 > При получении маркера с помощью учетных данных пользователей:
@@ -68,14 +70,14 @@ GET /api/machines/findbytag?tag={tag}&useStartsWithFilter={true/false}
 
 Имя | Тип | Описание
 :---|:---|:---
-Авторизация | Строка | Bearer {token}. **Обязательное поле**.
+Authorization | String | Bearer {token}. **Обязательное поле**.
 
 ## <a name="request-uri-parameters"></a>Запрос параметров URI
 
 Имя | Тип | Описание
 :---|:---|:---
-tag | Строка | Имя тега. **Обязательное поле**.
-useStartsWithFilter | Boolean | При наборе true поиск будет находить все устройства с именем тега, которое начинается с данного тега в запросе. Значение по умолчанию: false. **Необязательное поле**.
+tag | String | Имя тега. **Обязательное поле**.
+useStartsWithFilter | Логический | При наборе true поиск будет находить все устройства с именем тега, которое начинается с данного тега в запросе. Значение по умолчанию: false. **Необязательное поле**.
 
 ## <a name="request-body"></a>Текст запроса
 переменная Empty

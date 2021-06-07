@@ -1,5 +1,5 @@
 ---
-title: Управление контрактами с помощью Microsoft 365 решения
+title: Управление контрактами с помощью решения Microsoft 365
 ms.author: chucked
 author: chuckedmonson
 manager: pamgreen
@@ -13,14 +13,14 @@ search.appverid: ''
 localization_priority: None
 ROBOTS: ''
 description: Узнайте, как управлять контрактами с Microsoft 365 решения SharePoint Syntex, SharePoint списков, Microsoft Teams и Power Automate.
-ms.openlocfilehash: 219ab13eb5787bef566ede0c5dc856da29d96837
-ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
+ms.openlocfilehash: d12ccd2d4bc777b05489556f0d96ce9de80954a8
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52651288"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770821"
 ---
-# <a name="manage-contracts-using-a-microsoft-365-solution"></a>Управление контрактами с помощью Microsoft 365 решения
+# <a name="manage-contracts-using-a-microsoft-365-solution"></a>Управление контрактами с помощью решения Microsoft 365
 
 В этой статье описывается создание решения по управлению контрактами для организации с помощью SharePoint Syntex и компонентов Microsoft 365. Она предоставляет вам рамки, которые помогут вам спланировать и создать решение, которое соответствует вашим уникальным бизнес-потребностям. Даже если это решение не подходит для бизнеса в целом, его части можно использовать при планировании создания настраиваемого решения по управлению контрактами.
 
@@ -73,6 +73,14 @@ ms.locfileid: "52651288"
 6. Конечным результатом этого решения является автоматизированный бизнес-процесс для вашей организации. Сотрудники могут легко использовать настраиваемый вид плитки в Teams, чтобы инициировать и отслеживать рабочий процесс утверждения документов. 
 
      ![Вкладка Контракты.](../media/content-understanding/tile-view.png)
+
+### <a name="licensing-requirements"></a>Требования к лицензированию
+
+Это решение зависит от следующих функций, доступных в рамках лицензии Microsoft 365 корпоративный (E1, E3, E5, F3) или Business (Basic, Standard или Premium).
+
+-   Microsoft SharePoint Syntex
+-   Microsoft Teams
+-   Power Automate
 
 ## <a name="create-the-solution"></a>Создание решения
 

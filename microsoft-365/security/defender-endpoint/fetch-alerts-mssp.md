@@ -16,12 +16,13 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: ee2a5e1815dd552753ac7f3dee30df11ac4332e2
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.custom: api
+ms.openlocfilehash: 456507533265bc085adc1008f3264e123569a6ca
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51076606"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770773"
 ---
 # <a name="fetch-alerts-from-mssp-customer-tenant"></a>Извлечение оповещений клиента MSSP
 
@@ -48,7 +49,7 @@ ms.locfileid: "51076606"
 
 Шаг 2. Получить доступ и обновить маркеры от клиента клиента
  
-Шаг 3: разрешить приложение в Центре безопасности Защитника Майкрософт
+Шаг 3: разрешить приложение на Центр безопасности в Microsoft Defender
  
 ### <a name="step-1-create-an-application-in-azure-active-directory-azure-ad"></a>Шаг 1. Создание приложения в Azure Active Directory (Azure AD)
  
@@ -56,7 +57,7 @@ ms.locfileid: "51076606"
 
 1. Во входе на [портал Azure AD](https://aad.portal.azure.com/).
 
-2. Выберите **регистрации приложений Azure Active**  >  **Directory.**
+2. Выберите **Azure Active Directory**  >  **регистрации приложений.**
  
 3. Нажмите **кнопку Новая регистрация**.
 
@@ -85,7 +86,7 @@ ms.locfileid: "51076606"
  
 
 ### <a name="step-2-get-access-and-refresh-tokens-from-your-customers-tenant"></a>Шаг 2. Получить доступ и обновить маркеры от клиента клиента
-В этом разделе вы можете узнать, как использовать сценарий PowerShell для получения маркеров от клиента. Этот скрипт использует приложение на предыдущем этапе для получения доступа и обновления маркеров с помощью потока кода авторизации OAuth.
+В этом разделе вы можете узнать, как использовать сценарий PowerShell для получения маркеров от клиента. Этот скрипт использует приложение на предыдущем этапе для получения доступа и обновления маркеров с помощью кода авторизации OAuth Flow.
 
 После предоставления учетных данных необходимо предоставить согласие на приложение, чтобы приложение было задано в клиенте клиента.
 
@@ -159,8 +160,8 @@ ms.locfileid: "51076606"
 
 8. В окне PowerShell вы получите маркер доступа и маркер обновления. Сохраните маркер обновления, чтобы настроить соединитель SIEM. 
  
-### <a name="step-3-allow-your-application-on-microsoft-defender-security-center"></a>Шаг 3. Разрешить применение в Центре безопасности Защитника Майкрософт
-Необходимо разрешить приложение, созданное в Центре безопасности Защитника Майкрософт.
+### <a name="step-3-allow-your-application-on-microsoft-defender-security-center"></a>Шаг 3. Разрешить применение в Центр безопасности в Microsoft Defender
+Необходимо разрешить приложение, созданное в Центр безопасности в Microsoft Defender.
  
 Чтобы разрешить приложение, необходимо иметь разрешение **на** управление настройками системы портала. В противном случае необходимо попросить клиента разрешить приложение для вас.
 
@@ -187,6 +188,6 @@ ms.locfileid: "51076606"
 
 
 ## <a name="see-also"></a>См. также
-- [Предоставление доступа MSSP к порталу](grant-mssp-access.md)
-- [Доступ к порталу клиентов MSSP](access-mssp-portal.md)
+- [Предоставление MSSP доступа к порталу](grant-mssp-access.md)
+- [Получение доступа к порталу клиентов MSSP](access-mssp-portal.md)
 - [Настройка уведомлений оповещений](configure-mssp-notifications.md)

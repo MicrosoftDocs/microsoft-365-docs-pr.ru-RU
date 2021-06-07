@@ -1,7 +1,7 @@
 ---
 title: Переход в центр уведомлений для просмотра и утверждения автоматического исследования и задач по исправлению
-description: Используйте центр уведомлений для просмотра сведений об автоматическом исследовании и утверждения ожидающих действий
-keywords: Центр уведомлений, защита от угроз, исследование, оповещение, ожидание, автоматически, обнаружение
+description: Используйте Центр действий для просмотра сведений об автоматическом расследовании и утверждения ожидающих действий
+keywords: Центр действий, защита от угроз, расследование, оповещение, ожидание, автоматизация, обнаружение
 search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -20,12 +20,12 @@ ms.collection:
 ms.topic: how-to
 ms.custom: autoir
 ms.reviewer: evaldm, isco
-ms.openlocfilehash: 7bea9a1632e7a9ed9d394c2c411123d0601a9397
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: df3ea2d4df0b7a5bedbbabf19e97d4fddc4c2646
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274584"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782985"
 ---
 # <a name="the-action-center"></a>Центр уведомлений
 
@@ -41,21 +41,21 @@ ms.locfileid: "52274584"
 - Просмотр журнала аудита уже утвержденных действий по исправлению.
 - проверка выполненных действий по исправлению.
 
-Так как Центр действий предоставляет полное представление о microsoft 365 Defender на работе, ваша группа операций безопасности может работать более эффективно и эффективно.
+Так как Центр действий предоставляет полное представление Microsoft 365 Defender на работе, ваша группа операций безопасности может работать более эффективно и эффективно.
 
 ## <a name="the-unified-action-center"></a>Единый центр действий
 
 Единый центр действий () перечисляет ожидающих и завершенных действий по исправлению для ваших устройств, & совместной работы и удостоверений в [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) одном расположении.
 
-:::image type="content" source="../../media/m3d-action-center-unified.png" alt-text="Центр единого действия в Microsoft 365 Defender":::
+:::image type="content" source="../../media/m3d-action-center-unified.png" alt-text="Единый центр действий в Microsoft 365 Defender":::
 
-Например: 
+Пример. 
 
-- Если вы ранее использовали Центр обеспечения безопасности Office 365 & (), попробуйте унифицированный центр действий в центре безопасности [https://protection.office.com](https://protection.office.com) Microsoft 365 ( [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) ).
-- Если вы использовали Центр действий в Центре безопасности Защитника Майкрософт (), попробуйте единый центр действий в центре безопасности [https://securitycenter.windows.com/action-center](https://securitycenter.windows.com/action-center) Microsoft 365 ( [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) ).
-- Если вы уже использовали центр безопасности Microsoft 365 (), вы увидите несколько улучшений в [https://security.microsoft.com](https://security.microsoft.com) центре действий ( [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) ).
+- Если вы ранее использовали центр Office 365 безопасности & (), попробуйте единый центр действий в центре Microsoft 365 [https://protection.office.com](https://protection.office.com) безопасности ( [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) ).
+- Если вы использовали центр действий в центре Центр безопасности в Microsoft Defender (), попробуйте единый центр действий в центре Microsoft 365 [https://securitycenter.windows.com/action-center](https://securitycenter.windows.com/action-center) безопасности ( [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) ).
+- Если вы уже использовали центр Microsoft 365 безопасности ( ), вы увидите несколько улучшений в [https://security.microsoft.com](https://security.microsoft.com) центре действий ( [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) ).
 
-Единый центр действий объединяет действия по исправлению в Defender для конечной точки и Defender для Office 365. Он определяет общий язык для всех действий по исправлению и предоставляет унифицированный опыт исследования. Ваша группа операций безопасности имеет "единую стеклянную области" для просмотра и управления действиями по исправлению.  
+Единый центр действий объединяет действия по исправлению в Defender for Endpoint и Defender для Office 365. Он определяет общий язык для всех действий по исправлению и предоставляет унифицированный опыт исследования. Ваша группа операций безопасности имеет "единую стеклянную области" для просмотра и управления действиями по исправлению.  
 
 Вы можете использовать единый центр действий, если у вас есть соответствующие разрешения и одна или несколько следующих подписок:
 
@@ -114,7 +114,7 @@ ms.locfileid: "52274584"
 | **Действие ручного устройства** | Ручное действие, принятое на устройстве. Примеры включают [изоляцию устройства](../defender-endpoint/respond-machine-alerts.md#isolate-devices-from-the-network) [или карантин файлов.](../defender-endpoint/respond-file-alerts.md#stop-and-quarantine-files) |
 | **Действие электронной почты вручную** | Ручное действие, принятое по электронной почте. Пример включает в себя мягкое удаление сообщений электронной почты или [исправление сообщения электронной почты.](../office-365-security/remediate-malicious-email-delivered-office-365.md) |
 | **Автоматическое действие устройства** | Автоматические действия, принятые в отношении объекта, например файла или процесса. Примеры автоматизированных действий включают отправку файла на карантин, остановку процесса и удаление ключа реестра. (См. [действия по исправлению в Microsoft Defender для конечной точки.)](../defender-endpoint/manage-auto-investigation.md#remediation-actions) |
-| **Автоматическое действие электронной почты** | Автоматические действия, принятые в отношении контента электронной почты, например сообщения электронной почты, вложения или URL-адреса. Примеры автоматизированных действий включают мягкое удаление сообщений электронной почты, блокировку URL-адресов и отключение внешней пересылаемой почты. (См. [действия по исправлению в Microsoft Defender для Office 365.)](../office-365-security/air-remediation-actions.md) |
+| **Автоматическое действие электронной почты** | Автоматические действия, принятые в отношении контента электронной почты, например сообщения электронной почты, вложения или URL-адреса. Примеры автоматизированных действий включают мягкое удаление сообщений электронной почты, блокировку URL-адресов и отключение внешней пересылаемой почты. (См. [действия по исправлению](../office-365-security/air-remediation-actions.md)в Microsoft Defender для Office 365.) |
 | **Расширенные действия охоты** | Действия, принятые на устройствах или электронной почте с [расширенным поиском](./advanced-hunting-overview.md). |
 | **Действие Explorer** | Действия, принятые в отношении контента электронной почты с [помощью Explorer.](../office-365-security/threat-explorer.md) |
 | **Ручное действие живого ответа** | Действия, принятые на устройстве с [живой реакцией.](../defender-endpoint/live-response.md) Примеры включают удаление файла, остановку процесса и удаление запланированной задачи. |
@@ -126,8 +126,8 @@ ms.locfileid: "52274584"
 
 |Действие по исправлению |Обязательные роли и разрешения |
 |--|----|
-|Microsoft Defender для устранения конечных точек (устройства) |**Роль администратора** безопасности, назначенная в Azure Active Directory (Azure AD) или центре администрирования [https://portal.azure.com](https://portal.azure.com) Microsoft 365 [https://admin.microsoft.com](https://admin.microsoft.com) ()<br/>--- или ---<br/>**Роль активных действий по исправлению,** назначенная в Microsoft Defender для конечной точки <br/> <br/> Для получения дополнительных сведений ознакомьтесь с приведенными ниже ресурсами. <br/>- [Разрешения на роль администратора в Azure AD](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [Создание ролей для управления доступом на основе ролей (Microsoft Defender для конечной точки)](../defender-endpoint/user-roles.md)  |
-|Microsoft Defender для восстановления Office 365 (содержимое Office и электронная почта)  |**Роль администратора** безопасности, назначенная в Azure AD () или центре администрирования [https://portal.azure.com](https://portal.azure.com) Microsoft 365 [https://admin.microsoft.com](https://admin.microsoft.com) ()<br/>--- и --- <br/>**Роль поиска и очистки,** назначенная в Центре & безопасности ( [https://protection.office.com](https://protection.office.com) ) <br/><br/>**ВАЖНО:** Если роль  администратора безопасности назначена только в Центре обеспечения безопасности Office 365 & (), вы не сможете получить доступ к возможностям Центра действий или [https://protection.office.com](https://protection.office.com) Microsoft 365 Defender. Роль администратора **безопасности** должна быть назначена в Azure AD или центре администрирования Microsoft 365. <br/><br/>Для получения дополнительных сведений ознакомьтесь с приведенными ниже ресурсами. <br/>- [Разрешения на роль администратора в Azure AD](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [Разрешения в Центре & безопасности](/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center) |
+|Microsoft Defender для устранения конечных точек (устройства) |**Роль администратора** безопасности, назначенная в Azure Active Directory (Azure AD) () или Microsoft 365 центре [https://portal.azure.com](https://portal.azure.com) администрирования ( [https://admin.microsoft.com](https://admin.microsoft.com) )<br/>--- или ---<br/>**Роль активных действий по исправлению,** назначенная в Microsoft Defender для конечной точки <br/> <br/> Для получения дополнительных сведений ознакомьтесь с приведенными ниже ресурсами. <br/>- [Разрешения на роль администратора в Azure AD](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [Создание ролей для управления доступом на основе ролей (Microsoft Defender для конечной точки)](../defender-endpoint/user-roles.md)  |
+|Microsoft Defender для Office 365 исправлений (Office контента и электронной почты)  |**Роль администратора** безопасности, назначенная в Azure AD () или Microsoft 365 центре [https://portal.azure.com](https://portal.azure.com) администрирования ( [https://admin.microsoft.com](https://admin.microsoft.com) )<br/>--- и --- <br/>**Роль поиска и очистки,** назначенная в Центре & безопасности ( [https://protection.office.com](https://protection.office.com) ) <br/><br/>**ВАЖНО:** Если роль  администратора безопасности назначена только в центре Office 365 безопасности & ( ), вы не сможете получить доступ к центру действий или [https://protection.office.com](https://protection.office.com) возможностям Microsoft 365 Defender. Роль администратора **безопасности** должна быть назначена в Azure AD или Microsoft 365 центре администрирования. <br/><br/>Для получения дополнительных сведений ознакомьтесь с приведенными ниже ресурсами. <br/>- [Разрешения на роль администратора в Azure AD](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [Разрешения в Центре & безопасности](/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center) |
 
 > [!TIP]
 > Пользователи, которым назначена роль **глобального** администратора в Azure AD, могут одобрить или отклонить любое ожидающих действий в центре действий. Однако в качестве наилучшей практики организация должна ограничить число людей, которым назначена роль **глобального** администратора. Рекомендуется использовать роли **администратора** **безопасности,** активные  действия по исправлению и роли поиска и очистки, перечисленные в предыдущей таблице разрешений центра действий.

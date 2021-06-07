@@ -1,7 +1,7 @@
 ---
 title: Получить рекомендации по безопасности
 description: Извлекает коллекцию рекомендаций по безопасности, связанных с данным ID устройства.
-keywords: apis, graph api, supported apis, get, list, file, information, security recommendation per device, threat & vulnerability management api, Microsoft Defender for Endpoint tvm api
+keywords: apis, graph api, supported apis, get, list, file, information, security recommendation per device, threat & управление уязвимостями api, Microsoft Defender for Endpoint tvm api
 search.product: eADQiWindows 10XVcnh
 ms.prod: w10
 ms.mktglfcycl: deploy
@@ -14,12 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: bc209687d51b3e05bfcfd6028042ba5912b877f6
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 44f64334d08d8d0d6a5ed1e8e06baa2880859ad2
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935309"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771133"
 ---
 # <a name="get-security-recommendations"></a>Получить рекомендации по безопасности
 
@@ -109,6 +111,6 @@ GET https://api.securitycenter.microsoft.com/api/machines/ac233fa6208e1579620bf4
 }
 ```
 
-## <a name="related-topics"></a>Похожие темы
+## <a name="related-topics"></a>Связанные статьи
 - [Управление рисками & уязвимостей](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
 - [Рекомендация по & уязвимости](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/tvm-security-recommendation)

@@ -13,13 +13,14 @@ localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
-ms.topic: article
-ms.openlocfilehash: 01e36427116ad7bd845901e7da7f5aa152bd44f9
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: f06973bc45ecac05c15d48afe5f0e2e9e7788f78
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893357"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770754"
 ---
 # <a name="list-machines-api"></a>API машин списка
 
@@ -50,8 +51,8 @@ ms.locfileid: "51893357"
 
 Тип разрешения |   Разрешение  |   Имя отображения разрешений
 :---|:---|:---
-Для приложений |   Machine.Read.All |  'Read all machine profiles'
-Для приложений |   Machine.ReadWrite.All | 'Read and write all machine information'
+Приложение |   Machine.Read.All |  'Read all machine profiles'
+Приложение |   Machine.ReadWrite.All | 'Read and write all machine information'
 Делегированные (рабочая или учебная учетная запись) | Machine.Read | 'Read machine information'
 Делегированные (рабочая или учебная учетная запись) | Machine.ReadWrite | 'Read and write machine information'
 
@@ -70,7 +71,7 @@ GET https://api.securitycenter.microsoft.com/api/machines
 
 Имя | Тип | Описание
 :---|:---|:---
-Authorization | Строка | Bearer {token}. **Обязательное поле**.
+Authorization | String | Bearer {token}. **Обязательное поле**.
 
 
 ## <a name="request-body"></a>Текст запроса
@@ -125,5 +126,5 @@ Content-type: application/json
 }
 ```
 
-## <a name="related-topics"></a>Похожие темы
+## <a name="related-topics"></a>Связанные статьи
 - [Запросы OData в Microsoft Defender для конечной точки](exposed-apis-odata-samples.md)

@@ -27,12 +27,12 @@ ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: В этой статье администраторы могут узнать о защите Сейф ссылок в Defender для Office 365 для защиты своей организации от фишинга и других атак с использованием вредоносных URL-адресов.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 675de13410ac98e18a8b72125c2226d2c9c62821
-ms.sourcegitcommit: 4bcac4cb4f9399ebbd7c8cff0abb4d6ecedb731e
+ms.openlocfilehash: d42d7563b5267f805756125d1764d506f1700e13
+ms.sourcegitcommit: f3d1009840513703c38bab99a6e13a3656eae5ee
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "52698992"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52793032"
 ---
 # <a name="safe-links-in-microsoft-defender-for-office-365"></a>Сейф Ссылки в Microsoft Defender для Office 365
 
@@ -68,13 +68,13 @@ ms.locfileid: "52698992"
 
 В этой статье подробно описаны следующие типы параметров Сейф ссылки:
 
-- **Параметры** политик Сейф ссылки. Эти параметры применяются только к пользователям, включенным в определенные политики, и параметры могут быть разными между политиками. К этим параметрам относятся:
+- **Параметры** политик Сейф ссылки. Эти параметры применяются только к пользователям, включенным в определенные политики, и параметры могут быть разными между политиками. В эти параметры входят:
 
   - [Сейф Ссылки параметров для сообщений электронной почты](#safe-links-settings-for-email-messages)
   - [Сейф Ссылки параметров для Microsoft Teams](#safe-links-settings-for-microsoft-teams)
   - ["Не переписывай списки следующих URL-адресов" в Сейф ссылки](#do-not-rewrite-the-following-urls-lists-in-safe-links-policies)
 
-- **Параметры глобальных Сейф** ссылок. Эти параметры настроены глобально, а не в Сейф ссылки. К этим параметрам относятся:
+- **Параметры глобальных Сейф** ссылок. Эти параметры настроены глобально, а не в Сейф ссылки. В эти параметры входят:
 
   - [Сейф Ссылки параметров для Office 365 приложений](#safe-links-settings-for-office-365-apps)
   - ["Блокировка следующих URL-адресов" для Сейф ссылки](#block-the-following-urls-list-for-safe-links)
@@ -220,7 +220,7 @@ ms.locfileid: "52698992"
 
 - **Не позволяйте** пользователям щелкнуть безопасные ссылки на исходный [](#warning-pages-from-safe-links) URL-адрес: позволяет пользователям щелкнуть страницу предупреждения на исходный URL-адрес в настольных версиях Word, Excel, PowerPoint и Visio. По умолчанию и рекомендуемое значение **on**.
 
-Чтобы настроить параметры Сейф ссылок для Office 365 приложений, см. в Сейф Ссылки для [Office 365 приложений.](configure-global-settings-for-safe-links.md#configure-safe-links-protection-for-office-365-apps-in-the-security--compliance-center)
+Чтобы настроить параметры Сейф ссылок для Office 365 приложений, см. в Сейф Ссылки для [Office 365 приложений.](configure-global-settings-for-safe-links.md#configure-safe-links-protection-for-office-365-apps-in-the-security-center)
 
 Дополнительные сведения о рекомендуемых значениях для параметров стандартных и строгих политик см. в глобальной Сейф [Ссылки.](recommended-settings-for-eop-and-office365.md#global-settings-for-safe-links)
 
@@ -257,7 +257,7 @@ ms.locfileid: "52698992"
 
 Когда пользователь в активной политике Сейф ссылок щелкает заблокированную ссылку в [](#blocked-url-warning) поддерживаемом приложении, он передается на страницу предупреждения о блокировке URL-адресов.
 
-Настраивается список URL-адресов в глобальных настройках для Сейф ссылки. Инструкции см. [в списке "Заблокировать следующие URL-адреса".](configure-global-settings-for-safe-links.md#configure-the-block-the-following-urls-list-in-the-security--compliance-center)
+Настраивается список URL-адресов в глобальных настройках для Сейф ссылки. Инструкции см. [в списке "Заблокировать следующие URL-адреса".](configure-global-settings-for-safe-links.md#configure-the-block-the-following-urls-list-in-the-security-center)
 
 **Примечания**:
 

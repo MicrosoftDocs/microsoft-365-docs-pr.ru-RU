@@ -17,12 +17,12 @@ ms.custom:
 - Ent_Office_Other
 ms.assetid: 5ebc0e21-b72d-46d8-96fa-00643b18eaec
 description: Подключитесь к клиенту Microsoft 365, используя PowerShell для Microsoft 365, чтобы выполнять задачи администрирования из командной строки.
-ms.openlocfilehash: 08005ba1cbdcbfec14585d22614129a9b33352b9
-ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
+ms.openlocfilehash: 70d6aa1373daf2322319d21e385fc1498af3351e
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51445760"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782805"
 ---
 # <a name="connect-to-microsoft-365-with-powershell"></a>Подключение к Microsoft 365 с помощью PowerShell
 
@@ -42,7 +42,7 @@ ms.locfileid: "51445760"
 
 **Операционная система**
 
-Требуется 64-разрядная версия Windows. Поддержка 32-разрядной версии модуля Microsoft Azure Active Directory Module для Windows PowerShell прекращена с 2014 года.
+Необходимо использовать 64-разрядную версию Windows. Поддержка 32-разрядной версии модуля Microsoft Azure Active Directory для Windows PowerShell прекращена с 2014 г.
 
 Ниже приведены версии Windows, которые можно использовать.
     
@@ -72,7 +72,7 @@ ms.locfileid: "51445760"
 > [!Note]
 > Сведения о поддержке различных версий Windows см. в статье [модуль Azure Active Directory PowerShell для Graph](/powershell/azure/active-directory/install-adv2) .
 
-### <a name="step-1-install-the-required-software"></a>Шаг 1. Установите необходимое программное обеспечение.
+### <a name="step-1-install-the-required-software"></a>Шаг 1. Установите необходимое программное обеспечение.
 
 Перечисленные действия необходимо выполнить на компьютере только один раз. При этом, вероятно, потребуется регулярно обновлять программное обеспечение.
   
@@ -101,12 +101,12 @@ Are you sure you want to install the modules from 'PSGallery'?
 
 ### <a name="step-2-connect-to-azure-ad-for-your-microsoft-365-subscription"></a>Шаг 2. Установите подключение к Azure AD для вашей подписки Microsoft 365.
 
-Чтобы установить подключение к Azure Active Directory (Azure AD) для вашей подписки Microsoft 365 с учетной записью и паролем или с многофакторной проверкой подлинности, выполните одну из следующих команд в командной строке Windows PowerShell. (повышенные права не требуются).
+Чтобы установить подключение к Azure AD для вашей подписки Microsoft 365 с учетной записью и паролем или с многофакторной проверкой подлинности, выполните одну из следующих команд в командной строке Windows PowerShell (повышенные права не требуются).
 
-| Облачная служба Office 365 | Команда |
+| Облачная служба Office 365 | Команда |
 |:-------|:-----|
 | Office 365 Worldwide (+GCC) | `Connect-AzureAD` |
-| Office 365, предоставляемый 21 Vianet | `Connect-AzureAD -AzureEnvironmentName AzureChinaCloud` |
+| Office 365, предоставляемый 21 Vianet | `Connect-AzureAD -AzureEnvironmentName AzureChinaCloud` |
 | Office 365 Germany | `Connect-AzureAD -AzureEnvironmentName AzureGermanyCloud` |
 | Office 365 для DoD государственных организаций США и Office 365 для GCC High государственных организаций США | `Connect-AzureAD -AzureEnvironmentName AzureUSGovernment` |
 |||
@@ -126,11 +126,11 @@ Are you sure you want to install the modules from 'PSGallery'?
 
 В PowerShell Core не поддерживается модуль Microsoft Azure Active Directory для Windows PowerShell и командлеты, имена которых содержат *Msol*. Эти командлеты требуется запускать из Windows PowerShell.
     
-### <a name="step-1-install-the-required-software"></a>Шаг 1. Установите необходимое программное обеспечение.
+### <a name="step-1-install-the-required-software"></a>Шаг 1. Установите необходимое программное обеспечение.
 
 Перечисленные действия необходимо выполнить на компьютере только один раз. При этом, вероятно, потребуется регулярно обновлять программное обеспечение.
   
-1.  Если вы не используете операционную систему Windows 10, установите 64-разрядную версию помощника по входу в Microsoft Online Services. См. статью [Помощник по входу в Microsoft Online Services для ИТ-специалистов, RTW](https://www.microsoft.com/Download/details.aspx?id=28177).
+1.  Если вы не используете операционную систему Windows 10, установите 64-разрядную версию помощника по входу в Microsoft Online Services. См. статью [Помощник по входу в Microsoft Online Services для ИТ-специалистов, RTW](https://download.microsoft.com/download/7/1/E/71EF1D05-A42C-4A1F-8162-96494B5E615C/msoidcli_32bit.msi).
     
 2. Чтобы установить модуль Microsoft Azure Active Directory для Windows PowerShell, выполните следующие действия:
     
@@ -141,12 +141,12 @@ Are you sure you want to install the modules from 'PSGallery'?
     
 ### <a name="step-2-connect-to-azure-ad-for-your-microsoft-365-subscription"></a>Шаг 2. Установите подключение к Azure AD для вашей подписки Microsoft 365.
 
-Чтобы установить подключение к Azure AD для вашей подписки Microsoft 365 с учетной записью и паролем или с многофакторной проверкой подлинности, выполните одну из следующих команд в командной строке Windows PowerShell. (повышенные права не требуются).
+Чтобы установить подключение к Azure AD для вашей подписки Microsoft 365 с учетной записью и паролем или с многофакторной проверкой подлинности, выполните одну из следующих команд в командной строке Windows PowerShell (повышенные права не требуются).
 
-| Облачная служба Office 365 | Команда |
+| Облачная служба Office 365 | Команда |
 |:-------|:-----|
 | Office 365 Worldwide (+GCC) | `Connect-MsolService` |
-| Office 365, предоставляемый 21 Vianet | `Connect-MsolService -AzureEnvironment AzureChinaCloud` |
+| Office 365, предоставляемый 21 Vianet | `Connect-MsolService -AzureEnvironment AzureChinaCloud` |
 | Office 365 Germany | `Connect-MsolService -AzureEnvironment AzureGermanyCloud` |
 | Office 365 для DoD государственных организаций США и Office 365 для GCC High государственных организаций США | `Connect-MsolService -AzureEnvironment USGovernment` |
 |||

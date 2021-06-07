@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 9079a47dcc078b582586370b322502b74ce3838c
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: c4d392c9c7777a5ab5435d70e36822e11aa39dae
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51199985"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771193"
 ---
 # <a name="file-resource-type"></a>Тип ресурса file
 
@@ -50,22 +51,22 @@ ms.locfileid: "51199985"
 ## <a name="properties"></a>Свойства
 |Свойство | Тип    |   Описание |
 |:---|:---|:---|
-|sha1 | Строка | Sha1 hash of the file content |
-|sha256 | Строка | Sha256 hash of the file content |
+|sha1 | String | Sha1 hash of the file content |
+|sha256 | String | Sha256 hash of the file content |
 |globalPrevalence | Nullable long | Распространенность файлов в организации |
 |globalFirstObserved | DateTimeOffset | При первом наблюдении файла |
 |globalLastObserved | DateTimeOffset | Последний раз, когда файл был замечен |
 |size | Nullable long | Размер файла |
-|fileType | Строка | Тип файла |
-|isPeFile | Boolean | верно, если файл является переносным для выполнения (например, "DLL", "EXE" и т.д.) |
-|filePublisher | Строка | Издатель файлов |
-|fileProductName | Строка | Название продукта |
-|подписывка | Строка | Подписатель файлов |
-|эмитент | Строка | Эмитент файлов |
-|signerHash | Строка | Hash of the signing certificate |
-|isValidCertificate | Boolean | Был успешно проверен сертификат подписи агентом Microsoft Defender для конечных точек. |
-|determinationType | Строка | Тип определения файла |
-|determinationValue | Строка | Значение определения |
+|fileType | String | Тип файла |
+|isPeFile | Логический | верно, если файл является переносным для выполнения (например, "DLL", "EXE" и т.д.) |
+|filePublisher | String | Издатель файлов |
+|fileProductName | String | Название продукта |
+|подписывка | String | Подписатель файлов |
+|эмитент | String | Эмитент файлов |
+|signerHash | String | Hash of the signing certificate |
+|isValidCertificate | Логический | Был успешно проверен сертификат подписи агентом Microsoft Defender для конечных точек. |
+|determinationType | String | Тип определения файла |
+|determinationValue | String | Значение определения |
 
 
 ## <a name="json-representation"></a>Представление Json

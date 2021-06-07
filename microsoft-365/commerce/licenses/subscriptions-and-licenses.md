@@ -21,12 +21,12 @@ ms.custom:
 search.appverid: MET150
 description: Получаемые приложения и службы зависят от Microsoft 365 приобретенного продукта, например Приложения Microsoft 365 для бизнеса.
 ms.date: 07/01/2020
-ms.openlocfilehash: 4e93a84df106475417289da168ca472ed5a07475
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+ms.openlocfilehash: 817ea454bf471fdc2f175658af9030925d29189a
+ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52582732"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52779883"
 ---
 # <a name="understand-subscriptions-and-licenses-in-microsoft-365-for-business"></a>Понимание подписок и лицензий в Microsoft 365 для бизнеса
 
@@ -67,8 +67,6 @@ ms.locfileid: "52582732"
 - [Создание общего почтового ящика](../../admin/email/create-a-shared-mailbox.md)
 - [Удаление лицензии из общего почтового ящика](../../admin/email/remove-license-from-shared-mailbox.md)
 - [Общие почтовые ящики в Exchange Online](/exchange/collaboration-exo/shared-mailboxes) для всех других Microsoft 365 планов.
-- [Создание почтовых ящиков помещения и управление ими](/exchange/recipients-in-exchange-online/manage-room-mailboxes)
-- [Управление почтовыми ящиками оборудования](/exchange/recipients-in-exchange-online/manage-equipment-mailboxes)
 
 ## <a name="who-can-assign-licenses"></a>Кто можно назначить лицензии?
 
@@ -82,7 +80,7 @@ ms.locfileid: "52582732"
 |Администратор поддержки служб  <br/> |Нет  <br/> |Нет  <br/> |Нет  <br/> |Нет  <br/> |
 |Администратор пользователей  <br/> |Да  <br/> |Да  <br/> |Нет  <br/> |Да  <br/> |
 
-## <a name="related-content"></a>См. также:
+## <a name="related-content"></a>Связанные материалы
 
 [Покупка или удаление лицензий для подписки](buy-licenses.md) на бизнес (статья)\
 [Назначение лицензий пользователям](../../admin/manage/assign-licenses-to-users.md) (статья)\

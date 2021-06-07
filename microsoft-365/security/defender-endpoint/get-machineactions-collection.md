@@ -14,12 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: d86303d115912d1c89b5b782bae03db4ccbba6ec
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 2ee9a4e29dded3e299ffbb2c2997fd02f32d1abf
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51200405"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771121"
 ---
 # <a name="list-machineactions-api"></a>API списка machineActions
 
@@ -51,10 +53,10 @@ ms.locfileid: "51200405"
 
 Тип разрешения |   Разрешение  |   Имя отображения разрешений
 :---|:---|:---
-Application |   Machine.Read.All |  'Read all machine profiles'
-Application |   Machine.ReadWrite.All | 'Read and write all machine information'
-Делегированное (рабочая или учебная учетная запись) | Machine.Read | 'Read machine information'
-Делегированное (рабочая или учебная учетная запись) | Machine.ReadWrite | 'Read and write machine information'
+Приложение |   Machine.Read.All |  'Read all machine profiles'
+Приложение |   Machine.ReadWrite.All | 'Read and write all machine information'
+Делегированные (рабочая или учебная учетная запись) | Machine.Read | 'Read machine information'
+Делегированные (рабочая или учебная учетная запись) | Machine.ReadWrite | 'Read and write machine information'
 
 >[!Note]
 > При получении маркера с помощью учетных данных пользователей:
@@ -69,7 +71,7 @@ GET https://api.securitycenter.microsoft.com/api/machineactions
 
 Имя | Тип | Описание
 :---|:---|:---
-Авторизация | Строка | Bearer {token}. **Обязательное поле**.
+Authorization | String | Bearer {token}. **Обязательное поле**.
 
 
 ## <a name="request-body"></a>Текст запроса
@@ -146,7 +148,7 @@ Content-type: application/json
 }
 ```
 
-## <a name="example-2"></a>Пример 2
+## <a name="example-2"></a>Пример 2
 
 **Запрос**
 
@@ -196,5 +198,5 @@ Content-type: application/json
 }
 ```
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 - [Запросы OData в Microsoft Defender для конечной точки](exposed-apis-odata-samples.md)

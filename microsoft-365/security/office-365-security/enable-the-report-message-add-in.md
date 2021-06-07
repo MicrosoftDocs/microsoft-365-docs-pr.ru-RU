@@ -17,12 +17,12 @@ ms.collection:
 description: Узнайте, как включить надстройки Report Message или Report Phishing для Outlook и Outlook в Интернете, для отдельных пользователей или для всей организации.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: dc54c5b74697ac41a1d4ff0818467dba662b31f5
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 25c4f7d67fd4fa876544a17df0f4bc1abfd7b3e7
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52295823"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782937"
 ---
 # <a name="enable-the-report-message-or-the-report-phishing-add-ins"></a>Включить сообщение отчета или надстройки для фишинга отчетов
 
@@ -48,7 +48,7 @@ ms.locfileid: "52295823"
 
 Если вы индивидуальный пользователь, вы можете включить оба надстройки для себя.
 
-f Вы — глобальный администратор или администратор Exchange Online, а Exchange настроен на использование проверки подлинности OAuth, вы можете включить надстройку Report Message и надстройку Report Phishing для вашей организации. Обе надстройки теперь доступны через [централизованное развертывание.](../../admin/manage/centralized-deployment-of-add-ins.md)
+Если вы глобальный администратор или администратор Exchange Online и Exchange настроены на использование проверки подлинности OAuth, вы можете включить надстройку Report Message и надстройку Report Phishing для вашей организации. Обе надстройки теперь доступны через [централизованное развертывание.](../../admin/manage/centralized-deployment-of-add-ins.md)
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
@@ -153,7 +153,7 @@ f Вы — глобальный администратор или админис
 
 2. Найдите и выберите **надстройка "Сообщение** отчетов".
 
-3. В **вылете Сообщение** об редактировании отчетов, которое отображается, просмотрите и отредактируете параметры, соответствующие вашей организации. Когда закончите, нажмите **Сохранить**.
+3. В **вылете Сообщение** об редактировании отчетов, которое отображается, просмотрите и отредактируете параметры, соответствующие вашей организации. По завершении нажмите **Сохранить**.
 
    ![Параметры надстройки "Сообщение отчетов"](../../media/EditReportMessageAddIn.png)
 

@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-mar2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 7632efb2014af9f55e9cad700bceeeabe555fb8b
-ms.sourcegitcommit: a3359982fea01339c7377e3ee89f223788cee0bf
+ms.openlocfilehash: c3a86436706b350557e9a39f81c1ef6430ac88ff
+ms.sourcegitcommit: f3d1009840513703c38bab99a6e13a3656eae5ee
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "52696578"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52793164"
 ---
 # <a name="automated-investigation-and-response-air-in-microsoft-defender-for-office-365"></a>Автоматическое исследование и ответ (AIR) в Microsoft Defender для Office 365
 
@@ -78,8 +78,8 @@ AIR позволяет вашей группе операций безопасн
 Возможности AIR включены в [Microsoft Defender для Office 365](defender-for-office-365.md#microsoft-defender-for-office-365-plan-1-and-plan-2)при условии настройки политик и оповещений. Нужна помощь? Следуйте указаниям [в "Защита от угроз",](protect-against-threats.md) чтобы настроить или настроить следующие параметры защиты:
 
 - [Ведение журнала аудита](../../compliance/turn-audit-log-search-on-or-off.md) (необходимо включить)
-- [Политики по борьбе с вредоносными программами](protect-against-threats.md#part-1---anti-malware-protection-in-eop)
-- [Защита от фишинга](protect-against-threats.md#part-2---anti-phishing-protection)
+- [Защита от вредоносных программ](protect-against-threats.md#part-1---anti-malware-protection-in-eop)
+- [Защита от фишинга](../office-365-security/protect-against-threats.md#part-2---anti-phishing-protection-in-eop-and-defender-for-office-365)
 - [Защита от нежелательной почты](protect-against-threats.md#part-3---anti-spam-protection-in-eop)
 - [Сейф Ссылки и Сейф вложения](protect-against-threats.md#part-4---protection-from-malicious-urls-and-files-safe-links-and-safe-attachments-in-defender-for-office-365)
 - [Безопасные вложения для SharePoint, OneDrive и Microsoft Teams](protect-against-threats.md#part-5---verify-safe-attachments-for-sharepoint-onedrive-and-microsoft-teams-is-turned-on)
@@ -153,7 +153,7 @@ Microsoft 365 содержит множество встроенных поли�
 |**Страница Инциденты**|Теперь **страница Incidents** сопоставляет несколько расследований, чтобы обеспечить более консолидированное представление о расследованиях. ([Дополнительные новости об инцидентах.)](../defender/incidents-overview.md)|
 |
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 - [Сведения и результаты автоматического расследования](air-view-investigation-results.md#view-details-of-an-investigation)
 - [Просмотр и утверждение ожидающих действий](air-remediation-actions.md)

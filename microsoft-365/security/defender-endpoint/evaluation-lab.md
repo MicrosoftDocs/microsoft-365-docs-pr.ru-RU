@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: f6ef1d3dbc111e5d10bf4d3c42dfd08e5e9d63e3
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: c785dbb759afe77b14f41985b9f451a4ec52e29f
+ms.sourcegitcommit: 83df0be7144c9c5d606f70b4efa65369e86693d2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730629"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52778237"
 ---
 # <a name="microsoft-defender-for-endpoint-evaluation-lab"></a>Лаборатория оценки Microsoft Defender для конечной точки
 
@@ -52,7 +52,7 @@ ms.locfileid: "52730629"
  Установите предпочтительный симулятор, запустите сценарии в лаборатории оценки и сразу же посмотрите, как выполняется платформа — все удобно доступно без дополнительных затрат для вас. Вы также будете иметь удобный доступ к широкому спектру имитаций, к которым можно получить доступ и запустить из каталога моделирования.
     
 
-## <a name="before-you-begin"></a>Прежде чем начать
+## <a name="before-you-begin"></a>Подготовка
 Чтобы получить доступ к [](minimum-requirements.md#licensing-requirements) лаборатории оценки, необходимо выполнить требования лицензирования или получить пробный доступ к Microsoft Defender для конечной точки.
 
 Необходимо иметь разрешения на управление **настройками** безопасности, чтобы:
@@ -118,17 +118,17 @@ ms.locfileid: "52730629"
 
 На тестовых устройствах предварительно настроены следующие компоненты безопасности:
 
-- [Сокращение направлений атак](attack-surface-reduction.md)
-- [Блок с первого взгляда](configure-block-at-first-sight-microsoft-defender-antivirus.md)
-- [Контролируемый доступ к папкам](controlled-folders.md)
-- [Защита от эксплойтов](enable-exploit-protection.md)
-- [Защита сети](network-protection.md)
-- [Обнаружение потенциально нежелательных приложений](detect-block-potentially-unwanted-apps-microsoft-defender-antivirus.md)
-- [Защита с облачным доставкой](cloud-protection-microsoft-defender-antivirus.md)
-- [фильтр SmartScreen в Microsoft Defender](/windows/security/threat-protection/microsoft-defender-smartscreen/microsoft-defender-smartscreen-overview)
+- [Сокращение направлений атак](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/attack-surface-reduction-exploit-guard)
+- [Блок с первого взгляда](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-block-at-first-sight-microsoft-defender-antivirus)
+- [Контролируемый доступ к папкам](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/controlled-folders-exploit-guard)
+- [Защита от эксплойтов](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/enable-exploit-protection)
+- [Защита сети](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/network-protection-exploit-guard)
+- [Обнаружение потенциально нежелательных приложений](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/detect-block-potentially-unwanted-apps-microsoft-defender-antivirus)
+- [Защита с облачным доставкой](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/utilize-microsoft-cloud-protection-microsoft-defender-antivirus)
+- [фильтр SmartScreen в Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-smartscreen/windows-defender-smartscreen-overview)
 
 >[!NOTE]
-> антивирусная программа в Microsoft Defender будет (не в режиме аудита). Если антивирусная программа в Microsoft Defender не позволяет запускать моделирование, вы можете отключить защиту в режиме реального времени на устройстве Безопасность Windows. Дополнительные сведения см. [в перенастройке всегда на защиту.](configure-real-time-protection-microsoft-defender-antivirus.md)
+> антивирусная программа в Microsoft Defender будет (не в режиме аудита). Если антивирусная программа в Microsoft Defender не позволяет запускать моделирование, вы можете отключить защиту в режиме реального времени на устройстве Безопасность Windows. Дополнительные сведения см. [в перенастройке всегда на защиту.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-real-time-protection-microsoft-defender-antivirus)
 
 Параметры автоматического расследования будут зависеть от параметров клиента. Он будет настроен на полуавтоматизированный по умолчанию. Дополнительные сведения см. [в обзоре автоматизированных расследований.](automated-investigations.md)
 
@@ -190,7 +190,7 @@ ms.locfileid: "52730629"
 - Сценарии [атаки "Do It Yourself"](https://securitycenter.windows.com/tutorials)
 - Симуляторы угроз
 
-Вы также можете использовать [расширенный](advanced-hunting-overview.md) [](threat-analytics.md) поиск для запроса данных и аналитики угроз для просмотра отчетов о возникающих угрозах.
+Вы также можете использовать [расширенный](advanced-hunting-query-language.md) [](threat-analytics.md) поиск для запроса данных и аналитики угроз для просмотра отчетов о возникающих угрозах.
 
 ### <a name="do-it-yourself-attack-scenarios"></a>Сценарии атак do-it-yourself
 Если вы ищете предварительное моделирование, вы можете использовать сценарии атак ["Do It Yourself".](https://securitycenter.windows.com/tutorials) Эти скрипты безопасны, документированы и просты в использовании. Эти сценарии будут отражать возможности Defender для конечных точек и ходить по опыту исследования.

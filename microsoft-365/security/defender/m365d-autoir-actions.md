@@ -1,6 +1,6 @@
 ---
 title: Просмотр и управление действиями в центре действий
-description: Используйте Центр действий для просмотра и управления действиями по исправлению
+description: Использование центра действий для просмотра и управления действиями по исправлению
 keywords: действие, центр, автоматизированный анализ угроз и реакция на угрозы, автоматизированный, анализ угроз, реакция на угрозы, исправление
 search.appverid: met150
 ms.prod: m365-security
@@ -21,12 +21,12 @@ ms.topic: how-to
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.technology: m365d
-ms.openlocfilehash: 9e82f1c5de9fe1f4a03385458338edf18c4f35bd
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 95c82f815c794662f7eb0ffaabcfb5f81df3e828
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538847"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782997"
 ---
 # <a name="view-and-manage-actions-in-the-action-center"></a>Просмотр и управление действиями в центре действий
 
@@ -53,7 +53,7 @@ ms.locfileid: "52538847"
 
 2. В панели навигации щелкните **Центр уведомлений**. 
 
-3. В центре уведомлений на вкладке **Ожидание** выберите элемент в списке. Откроется его поле для вылетов. Ниже приведен пример.
+3. В центре действий на вкладке **"Ожидание"** выберите элемент в списке. Откроется его поле для вылетов. Ниже приведен пример.
 
    ![Утверждение или отклонение действия](../../media/air-actioncenter-itemselected.png)
 

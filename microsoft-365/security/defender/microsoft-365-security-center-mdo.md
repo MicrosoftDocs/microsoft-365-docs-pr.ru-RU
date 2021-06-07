@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.prod: m365-security
 ms.technology: m365d
-ms.openlocfilehash: 62a917b36355335c8eb52d83caecdbba691f8175
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 2322dbab657d6dd73ce79b3a8e52a3d968c45809
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52242136"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770982"
 ---
 # <a name="microsoft-defender-for-office-365-in-the-microsoft-365-security-center"></a>Microsoft Defender для Office 365 в Центре безопасности Microsoft 365
 
@@ -33,7 +33,33 @@ ms.locfileid: "52242136"
 - [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft Defender для Office 365](/microsoft-365/security/office-365-security/defender-for-office-365)
 
-Усовершенствованный[Центр безопасности Microsoft 365](./overview-security-center.md) на сайте [https://security.microsoft.com](https://security.microsoft.com) объединяет возможности обеспечения безопасности из существующих порталов безопасности Майкрософт, включая Центр безопасности Microsoft Defender и Центр безопасности и соответствия требованиям Office 365. Усовершенствованный центр помогает группам безопасности более эффективно защитить организацию от угроз.
+## <a name="quick-reference"></a>Быстрая ссылка
+
+На изображении и в таблице ниже перечислены изменения в навигации между центром Office 365 безопасности & и центром Microsoft 365 безопасности.
+
+> [!div class="mx-imgBorder"]
+> ![Изображение того, что переместилось туда, где](../../media/mdo-m3d-security-center.png)
+
+<br>
+
+****
+
+|Безопасность и соответствие требованиям Office 365|Центр безопасности Microsoft 365|Центр соответствия требованиям Microsoft 365|Центр администрирования Exchange|
+|---|---|---|---|
+|Оповещения|Совместная работа в электронной почте|||
+|Классификация||См. [Microsoft 365 центр соответствия требованиям](https://compliance.microsoft.com/homepage)||
+|Защита от потери данных||См. [Microsoft 365 центр соответствия требованиям](https://compliance.microsoft.com/homepage)||
+|Управление записями||См. [Microsoft 365 центр соответствия требованиям](https://compliance.microsoft.com/homepage) ||
+|Управление информацией||См. [Microsoft 365 центр соответствия требованиям](https://compliance.microsoft.com/homepage)||
+|Управление угрозами|Совместная работа в электронной почте|||
+|Поток обработки почты|||См. [Exchange центр администрирования](https://admin.exchange.microsoft.com/#/)|
+|Конфиденциальность данных||См. [Microsoft 365 центр соответствия требованиям](https://compliance.microsoft.com/homepage)||
+|Поиск|Поиск|||
+|Отчеты|Отчет|||
+|Контроль качества обслуживания|Settings|||
+|
+
+Усовершенствованный[Центр безопасности Microsoft 365](./overview-security-center.md) на сайте <https://security.microsoft.com> объединяет возможности обеспечения безопасности из существующих порталов безопасности Майкрософт, включая Центр безопасности Microsoft Defender и Центр безопасности и соответствия требованиям Office 365. Усовершенствованный центр помогает группам безопасности более эффективно защитить организацию от угроз.
 
 Если вы знакомы с порталом безопасности и соответствия требованиям Office 365 (protection.office.com), в этой статье вы узнаете некоторые изменения и улучшения в Центре безопасности Microsoft 365.
 
@@ -69,7 +95,7 @@ ms.locfileid: "52242136"
 Кроме того, ознакомьтесь с разделом **Дополнительные сведения** в нижней части этой статьи.
 
 > [!IMPORTANT]
-> Портал безопасности Microsoft 365 (https://security.microsoft.com) объединяет функции безопасности в https://securitycenter.windows.comи https://protection.office.com. Однако то, что вы увидите, зависит от вашей подписки. Если у вас есть только Microsoft Defender для Office 365 (план 1 или 2), например в качестве автономных подписок, вы не увидите функций безопасности для конечных точек, а клиенты Defender для Office (план 1) не увидят такие элементы, как Threat Analytics.
+> Портал Microsoft 365 безопасности () объединяет <https://security.microsoft.com> функции безопасности в <https://securitycenter.windows.com> и <https://protection.office.com> . Однако то, что вы увидите, зависит от вашей подписки. Если у вас есть только Microsoft Defender для Office 365 (план 1 или 2), например в качестве автономных подписок, вы не увидите функций безопасности для конечных точек, а клиенты Defender для Office (план 1) не увидят такие элементы, как Threat Analytics.
 
 > [!TIP]
 > Все Exchange Online Protection (EOP) будут включены в центр безопасности Microsoft 365, так как EOP является основным элементом Defender для Office 365.
@@ -147,15 +173,15 @@ ms.locfileid: "52242136"
 
 В разделе [Начало работы](/microsoft-365/security/office-365-security/defender-for-office-365.md#getting-started) статьи [Microsoft Defender для Office 365](/microsoft-365/security/office-365-security/defender-for-office-365) предварительно логические блоки конфигурации выглядят следующим образом:
 
-1. Настраивайте все элементы с добавлением слова "защита от" к имени.
-   - защита от вредоносных программ
-   - защита от фишинга
-   - защита от нежелательной почты
-2. Настраивайте все элементы с добавлением слова "безопасный" к имени.
-   - безопасные ссылки
-   - безопасные вложения
-3. Защищайте рабочие нагрузки (например, SharePoint Online, OneDrive и Teams)
-4. Защищайте с использованием автоматической очистки
+1. Настройте все с помощью "Anti" в имени.
+   - Функции защиты от вредоносных программ
+   - Anti-phishing
+   - Защита от нежелательной почты
+2. Настройка всего с помощью Сейф в имени.
+   - Безопасные ссылки
+   - Безопасные вложения
+3. Защищайте рабочие нагрузки (например, SharePoint Online, OneDrive и Teams).
+4. Защита с помощью автоматической очистки нулевого часа.
 
 Вместе со [ссылкой](../office-365-security/protect-against-threats.md), по которой можно сразу приняться за дело и перейти к настройке в день 1.
 
@@ -181,7 +207,7 @@ EmailPostDeliveryEvents
 LogonTime = Timestamp, AccountDisplayName, Application, Protocol, DeviceName, LogonType
 ```
 
-:::image type="content" source="../../media/converge-13-advanced-hunt-an-email-zap-new.png" alt-text="Страница &quot;Расширенный поиск&quot; (под &quot;Advanced Hunting&quot;) с выбранным запросом в верхней части панели запроса и запуском запроса Kusto для захвата действий автоматической очистки за последние 7 дней.":::
+:::image type="content" source="../../media/converge-13-advanced-hunt-an-email-zap-new.png" alt-text="Страница Advanced hunting (в статье Hunting) с запросом, выбранным в верхней части панели запросов, и запуск запроса Kusto для захвата действий ZAP в течение последних 7 дней.":::
 
 Данные по этому запросу будут отображаться на панели результатов под самим запросом. Результаты включают такие сведения, как "DeviceName", "AccountDisplayName" и "ZapTime". Это набор результатов, который можно настраивать.  Результаты также можно экспортировать для хранения. Если запрос вам может снова понадобиться, выберите **Сохранить** > **Сохранить как** и добавьте запрос в свой список запросов, общий список или список запросов сообщества.
 
