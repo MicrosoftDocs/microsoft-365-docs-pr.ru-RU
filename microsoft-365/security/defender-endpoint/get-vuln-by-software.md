@@ -14,23 +14,24 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: c28417d9782d14d890e771ed401f8ee5d3c26bc0
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 18a2cf87cd0e6b898a9f2aa4d6ecd47a86a8c7f6
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932767"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769921"
 ---
-# <a name="list-vulnerabilities-by-software"></a><span data-ttu-id="b5a60-104">Список уязвимостей по программному обеспечению</span><span class="sxs-lookup"><span data-stu-id="b5a60-104">List vulnerabilities by software</span></span>
+# <a name="list-vulnerabilities-by-software"></a><span data-ttu-id="a8305-104">Список уязвимостей по программному обеспечению</span><span class="sxs-lookup"><span data-stu-id="a8305-104">List vulnerabilities by software</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
-<span data-ttu-id="b5a60-105">**Область применения:**</span><span class="sxs-lookup"><span data-stu-id="b5a60-105">**Applies to:**</span></span>
-- [<span data-ttu-id="b5a60-106">Microsoft Defender для конечной точки</span><span class="sxs-lookup"><span data-stu-id="b5a60-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
-- [<span data-ttu-id="b5a60-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="b5a60-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
+<span data-ttu-id="a8305-105">**Область применения:**</span><span class="sxs-lookup"><span data-stu-id="a8305-105">**Applies to:**</span></span>
+- [<span data-ttu-id="a8305-106">Microsoft Defender для конечной точки</span><span class="sxs-lookup"><span data-stu-id="a8305-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [<span data-ttu-id="a8305-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="a8305-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> <span data-ttu-id="b5a60-108">Хотите испытать Defender для конечной точки?</span><span class="sxs-lookup"><span data-stu-id="b5a60-108">Want to experience Defender for Endpoint?</span></span> [<span data-ttu-id="b5a60-109">Зарегистрився для бесплатной пробной.</span><span class="sxs-lookup"><span data-stu-id="b5a60-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+> <span data-ttu-id="a8305-108">Хотите испытать Defender для конечной точки?</span><span class="sxs-lookup"><span data-stu-id="a8305-108">Want to experience Defender for Endpoint?</span></span> [<span data-ttu-id="a8305-109">Зарегистрився для бесплатной пробной.</span><span class="sxs-lookup"><span data-stu-id="a8305-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
@@ -39,47 +40,47 @@ ms.locfileid: "51932767"
 
 [!include[Prerelease information](../../includes/prerelease.md)]
 
-<span data-ttu-id="b5a60-110">Извлечение списка уязвимостей в установленном программном обеспечении.</span><span class="sxs-lookup"><span data-stu-id="b5a60-110">Retrieve a list of vulnerabilities in the installed software.</span></span> 
+<span data-ttu-id="a8305-110">Извлечение списка уязвимостей в установленном программном обеспечении.</span><span class="sxs-lookup"><span data-stu-id="a8305-110">Retrieve a list of vulnerabilities in the installed software.</span></span> 
 
-## <a name="permissions"></a><span data-ttu-id="b5a60-111">Разрешения</span><span class="sxs-lookup"><span data-stu-id="b5a60-111">Permissions</span></span>
-<span data-ttu-id="b5a60-112">Для вызова этого API требуется одно из следующих разрешений.</span><span class="sxs-lookup"><span data-stu-id="b5a60-112">One of the following permissions is required to call this API.</span></span> <span data-ttu-id="b5a60-113">Дополнительные сведения, в том числе о выборе разрешений, см. в материале [Use Microsoft Defender for Endpoint API.](apis-intro.md)</span><span class="sxs-lookup"><span data-stu-id="b5a60-113">To learn more, including how to choose permissions, see [Use Microsoft Defender for Endpoint APIs](apis-intro.md) for details.</span></span>
+## <a name="permissions"></a><span data-ttu-id="a8305-111">Разрешения</span><span class="sxs-lookup"><span data-stu-id="a8305-111">Permissions</span></span>
+<span data-ttu-id="a8305-112">Для вызова этого API требуется одно из следующих разрешений.</span><span class="sxs-lookup"><span data-stu-id="a8305-112">One of the following permissions is required to call this API.</span></span> <span data-ttu-id="a8305-113">Дополнительные сведения, в том числе о выборе разрешений, см. в материале [Use Microsoft Defender for Endpoint API.](apis-intro.md)</span><span class="sxs-lookup"><span data-stu-id="a8305-113">To learn more, including how to choose permissions, see [Use Microsoft Defender for Endpoint APIs](apis-intro.md) for details.</span></span>
 
-<span data-ttu-id="b5a60-114">Тип разрешения</span><span class="sxs-lookup"><span data-stu-id="b5a60-114">Permission type</span></span> |   <span data-ttu-id="b5a60-115">Разрешение</span><span class="sxs-lookup"><span data-stu-id="b5a60-115">Permission</span></span>  |   <span data-ttu-id="b5a60-116">Имя отображения разрешений</span><span class="sxs-lookup"><span data-stu-id="b5a60-116">Permission display name</span></span>
+<span data-ttu-id="a8305-114">Тип разрешения</span><span class="sxs-lookup"><span data-stu-id="a8305-114">Permission type</span></span> |   <span data-ttu-id="a8305-115">Разрешение</span><span class="sxs-lookup"><span data-stu-id="a8305-115">Permission</span></span>  |   <span data-ttu-id="a8305-116">Имя отображения разрешений</span><span class="sxs-lookup"><span data-stu-id="a8305-116">Permission display name</span></span>
 :---|:---|:---
-<span data-ttu-id="b5a60-117">Приложение</span><span class="sxs-lookup"><span data-stu-id="b5a60-117">Application</span></span> | <span data-ttu-id="b5a60-118">Software.Read.All</span><span class="sxs-lookup"><span data-stu-id="b5a60-118">Software.Read.All</span></span> | <span data-ttu-id="b5a60-119">'Read Threat and Vulnerability Management Software information'</span><span class="sxs-lookup"><span data-stu-id="b5a60-119">'Read Threat and Vulnerability Management Software information'</span></span>
-<span data-ttu-id="b5a60-120">Делегированные (рабочая или учебная учетная запись)</span><span class="sxs-lookup"><span data-stu-id="b5a60-120">Delegated (work or school account)</span></span> | <span data-ttu-id="b5a60-121">Software.Read</span><span class="sxs-lookup"><span data-stu-id="b5a60-121">Software.Read</span></span> | <span data-ttu-id="b5a60-122">'Read Threat and Vulnerability Management Software information'</span><span class="sxs-lookup"><span data-stu-id="b5a60-122">'Read Threat and Vulnerability Management Software information'</span></span>
+<span data-ttu-id="a8305-117">Приложение</span><span class="sxs-lookup"><span data-stu-id="a8305-117">Application</span></span> | <span data-ttu-id="a8305-118">Software.Read.All</span><span class="sxs-lookup"><span data-stu-id="a8305-118">Software.Read.All</span></span> | <span data-ttu-id="a8305-119">'Read Threat and Vulnerability Management Software information'</span><span class="sxs-lookup"><span data-stu-id="a8305-119">'Read Threat and Vulnerability Management Software information'</span></span>
+<span data-ttu-id="a8305-120">Делегированные (рабочая или учебная учетная запись)</span><span class="sxs-lookup"><span data-stu-id="a8305-120">Delegated (work or school account)</span></span> | <span data-ttu-id="a8305-121">Software.Read</span><span class="sxs-lookup"><span data-stu-id="a8305-121">Software.Read</span></span> | <span data-ttu-id="a8305-122">'Read Threat and Vulnerability Management Software information'</span><span class="sxs-lookup"><span data-stu-id="a8305-122">'Read Threat and Vulnerability Management Software information'</span></span>
 
-## <a name="http-request"></a><span data-ttu-id="b5a60-123">HTTP-запрос</span><span class="sxs-lookup"><span data-stu-id="b5a60-123">HTTP request</span></span>
+## <a name="http-request"></a><span data-ttu-id="a8305-123">HTTP-запрос</span><span class="sxs-lookup"><span data-stu-id="a8305-123">HTTP request</span></span>
 ```
 GET /api/Software/{Id}/vulnerabilities
 ```
 
-## <a name="request-headers"></a><span data-ttu-id="b5a60-124">Заголовки запросов</span><span class="sxs-lookup"><span data-stu-id="b5a60-124">Request headers</span></span>
+## <a name="request-headers"></a><span data-ttu-id="a8305-124">Заголовки запросов</span><span class="sxs-lookup"><span data-stu-id="a8305-124">Request headers</span></span>
 
-| <span data-ttu-id="b5a60-125">Имя</span><span class="sxs-lookup"><span data-stu-id="b5a60-125">Name</span></span>        | <span data-ttu-id="b5a60-126">Тип</span><span class="sxs-lookup"><span data-stu-id="b5a60-126">Type</span></span> | <span data-ttu-id="b5a60-127">Описание</span><span class="sxs-lookup"><span data-stu-id="b5a60-127">Description</span></span>
+| <span data-ttu-id="a8305-125">Имя</span><span class="sxs-lookup"><span data-stu-id="a8305-125">Name</span></span>        | <span data-ttu-id="a8305-126">Тип</span><span class="sxs-lookup"><span data-stu-id="a8305-126">Type</span></span> | <span data-ttu-id="a8305-127">Описание</span><span class="sxs-lookup"><span data-stu-id="a8305-127">Description</span></span>
 |:--------------|:-------|:--------------|
-| <span data-ttu-id="b5a60-128">Authorization</span><span class="sxs-lookup"><span data-stu-id="b5a60-128">Authorization</span></span> | <span data-ttu-id="b5a60-129">String</span><span class="sxs-lookup"><span data-stu-id="b5a60-129">String</span></span> | <span data-ttu-id="b5a60-130">Bearer {token}. **Обязательно**.</span><span class="sxs-lookup"><span data-stu-id="b5a60-130">Bearer {token}.**Required**.</span></span>
+| <span data-ttu-id="a8305-128">Authorization</span><span class="sxs-lookup"><span data-stu-id="a8305-128">Authorization</span></span> | <span data-ttu-id="a8305-129">String</span><span class="sxs-lookup"><span data-stu-id="a8305-129">String</span></span> | <span data-ttu-id="a8305-130">Bearer {token}. **Обязательно**.</span><span class="sxs-lookup"><span data-stu-id="a8305-130">Bearer {token}.**Required**.</span></span>
 
-## <a name="request-body"></a><span data-ttu-id="b5a60-131">Текст запроса</span><span class="sxs-lookup"><span data-stu-id="b5a60-131">Request body</span></span>
-<span data-ttu-id="b5a60-132">переменная Empty</span><span class="sxs-lookup"><span data-stu-id="b5a60-132">Empty</span></span>
+## <a name="request-body"></a><span data-ttu-id="a8305-131">Текст запроса</span><span class="sxs-lookup"><span data-stu-id="a8305-131">Request body</span></span>
+<span data-ttu-id="a8305-132">переменная Empty</span><span class="sxs-lookup"><span data-stu-id="a8305-132">Empty</span></span>
 
-## <a name="response"></a><span data-ttu-id="b5a60-133">Отклик</span><span class="sxs-lookup"><span data-stu-id="b5a60-133">Response</span></span>
-<span data-ttu-id="b5a60-134">В случае успеха этот метод возвращает 200 ОК со списком уязвимостей, открытых указанным программным обеспечением.</span><span class="sxs-lookup"><span data-stu-id="b5a60-134">If successful, this method returns 200 OK with a list of vulnerabilities exposed by the specified software.</span></span> 
+## <a name="response"></a><span data-ttu-id="a8305-133">Отклик</span><span class="sxs-lookup"><span data-stu-id="a8305-133">Response</span></span>
+<span data-ttu-id="a8305-134">В случае успеха этот метод возвращает 200 ОК со списком уязвимостей, открытых указанным программным обеспечением.</span><span class="sxs-lookup"><span data-stu-id="a8305-134">If successful, this method returns 200 OK with a list of vulnerabilities exposed by the specified software.</span></span> 
 
 
-## <a name="example"></a><span data-ttu-id="b5a60-135">Пример</span><span class="sxs-lookup"><span data-stu-id="b5a60-135">Example</span></span>
+## <a name="example"></a><span data-ttu-id="a8305-135">Пример</span><span class="sxs-lookup"><span data-stu-id="a8305-135">Example</span></span>
 
-<span data-ttu-id="b5a60-136">**Запрос**</span><span class="sxs-lookup"><span data-stu-id="b5a60-136">**Request**</span></span>
+<span data-ttu-id="a8305-136">**Запрос**</span><span class="sxs-lookup"><span data-stu-id="a8305-136">**Request**</span></span>
 
-<span data-ttu-id="b5a60-137">Ниже приведен пример запроса.</span><span class="sxs-lookup"><span data-stu-id="b5a60-137">Here is an example of the request.</span></span>
+<span data-ttu-id="a8305-137">Ниже приведен пример запроса.</span><span class="sxs-lookup"><span data-stu-id="a8305-137">Here is an example of the request.</span></span>
 
 ```http
 GET https://api.securitycenter.microsoft.com/api/Software/microsoft-_-edge/vulnerabilities 
 ```
 
-<span data-ttu-id="b5a60-138">**Отклик**</span><span class="sxs-lookup"><span data-stu-id="b5a60-138">**Response**</span></span>
+<span data-ttu-id="a8305-138">**Отклик**</span><span class="sxs-lookup"><span data-stu-id="a8305-138">**Response**</span></span>
 
-<span data-ttu-id="b5a60-139">Ниже приведен пример отклика.</span><span class="sxs-lookup"><span data-stu-id="b5a60-139">Here is an example of the response.</span></span>
+<span data-ttu-id="a8305-139">Ниже приведен пример отклика.</span><span class="sxs-lookup"><span data-stu-id="a8305-139">Here is an example of the response.</span></span>
 
 ```json
 {
