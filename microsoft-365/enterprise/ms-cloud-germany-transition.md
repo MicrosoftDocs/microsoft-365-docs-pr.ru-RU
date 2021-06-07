@@ -19,19 +19,19 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: 'Сводка: понимание миграции с Microsoft Cloud для Германии (Microsoft Cloud Deutschland) в службы Office 365 в новых регионах центров обработки данных в Германии'
-ms.openlocfilehash: ad6c81f04b9e8551ad6eeb6521f7562243df53e9
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: 4162e51164120cecaa431ad6883d3ee112ad4880
+ms.sourcegitcommit: bce733c1152dfbca782e716579074261e3c2ef65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52346308"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796010"
 ---
 # <a name="migration-from-microsoft-cloud-deutschland-to-office-365-services-in-the-new-german-datacenter-regions"></a>Миграция из Microsoft Cloud Deutschland в Office 365 службы в новых немецких регионах центра обработки данных
 
 > [!NOTE]
 > Эта статья применяется только к подходящим клиентам Microsoft Cloud Deutschland.
 
-В августе 2018 г. Корпорация Майкрософт объявила о намерении предоставить полное облако Microsoft Azure, Office 365, Dynamics 365 и Power Platform из новых облачных регионов Германии, чтобы лучше включить цифровую трансформацию наших клиентов. В августе 2019 г. мы объявили о том, что находимся в процессе открытия новых облачных регионов в Германии. С тех пор мы объявили о доступности Платформы Azure, Office 365, Dynamics 365 и Power Platform.
+В августе 2018 г. корпорация Майкрософт объявила о намерении предоставить полное облако Microsoft Azure, Office 365, Dynamics 365 и Power Platform из новых облачных регионов в Германии, чтобы лучше включить цифровую трансформацию наших клиентов. В августе 2019 г. мы объявили о том, что находимся в процессе открытия новых облачных регионов в Германии. С тех пор мы объявили о доступности Платформы Azure, Office 365, Dynamics 365 и Power Platform.
 
 Новые регионы предназначены для более гибкого решения меняющихся потребностей немецких клиентов, новейших интеллектуальных облачных служб и полного подключения к облачной сети Microsoft 365 служб, а также проживания данных клиентов в Германии.
 
@@ -64,7 +64,7 @@ ms.locfileid: "52346308"
 
 На этом рисунке показаны десять этапов миграции в новые немецкие центра обработки данных.
 
-![Десять этапов миграции в новые центр обработки данных в Германии](../media/ms-cloud-germany-migration-opt-in/migration-organization.png)
+:::image type="content" alt-text="Десять этапов миграции в новые центр обработки данных в Германии" source="../media/ms-cloud-germany-migration-opt-in/migration-organization.png" lightbox="../media/ms-cloud-germany-migration-opt-in/migration-organization.png":::
 
 Эти этапы начинаются при [отказе от переноса.](./ms-cloud-germany-migration-opt-in.md) Большинство этапов миграции выполняются в качестве операций back-end service с минимальным взаимодействием с клиентами и выполняются один этап за другим. Начало выполнения дополнительных задач под руководством клиента и общего состояния миграции будет сообщено через центр сообщений центра администрирования Microsoft 365 во время процесса миграции. Пример задач может включать обновления DNS, управляемые клиентом, перенастройку гибридной установки для гибридных клиентов Exchange или миграцию Azure.
 
@@ -201,7 +201,7 @@ Office 365 службы в новых немецких регионах цент
 
 Если вы только клиент Azure, [](/azure/germany/germany-migration-main) вы можете приступить к переносу ресурсов Azure в другой регион уже сегодня. 
 
-Если у вас есть Azure с Office 365, Dynamics 365 или Power BI, необходимо следовать процессу миграции, чтобы обеспечить успешную миграцию AzureAD, прежде чем приступить к самостоятельной миграции Azure. Перед закрытием службы необходимо выполнить миграцию Azure, чтобы сохранить рабочие нагрузки Azure с помощью AzureAD и Office 365 организации.
+Если у вас есть Azure с Office 365, Dynamics 365 или Power BI, сначала необходимо следовать процессу миграции для Office 365 служб, чтобы обеспечить успешную миграцию Azure AD, прежде чем начать самонаправленную миграцию Azure. Необходимо завершить миграцию Azure перед завершением миграции клиента для поддержания рабочих нагрузок Azure с помощью Azure AD и Office 365 организации. Дополнительные сведения можно найти в отношении действий и последствий этапов миграции из [Microsoft Cloud Deutschland.](ms-cloud-germany-transition-phases.md)
 
 **Office 365**
 
@@ -303,7 +303,7 @@ Office 365 службы в новых немецких регионах цент
 
 ### <a name="which-customers-are-affected-by-the-azure-active-directory-migration"></a>Какие клиенты подвержены Azure Active Directory миграции? 
 
-Все клиенты Office365 зависят от Azure Active Directory проверки подлинности и хранения критически важных компонентов служб, необходимых для работы служб, в которых хранятся службы Майкрософт. 
+Все клиенты Office 365 зависят от Azure Active Directory проверки подлинности и хранения критически важных компонентов служб, необходимых для работы служб, в которых хранятся службы Майкрософт. 
 
 
 ### <a name="what-are-the-impacts-of-the-azure-active-directory-migration"></a>Каковы последствия переноса Azure Active Directory?
@@ -334,7 +334,7 @@ Office 365 службы в новых немецких регионах цент
 
 
 
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Следующий этап
 
 [Согласие на миграцию](ms-cloud-germany-migration-opt-in.md)
 
@@ -356,4 +356,4 @@ Office 365 службы в новых немецких регионах цент
 
 - [Сведения о программе миграции Dynamics 365](/dynamics365/get-started/migrate-data-german-region)
 - [Сведения о программе миграции Power BI](/power-bi/admin/service-admin-migrate-data-germany)
-- [Начало перехода на Microsoft Teams](/microsoftteams/upgrade-start-here)
+- [Начало перехода на Microsoft Teams](/microsoftteams/upgrade-start-here)

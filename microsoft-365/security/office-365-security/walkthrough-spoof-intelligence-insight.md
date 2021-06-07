@@ -19,12 +19,12 @@ description: Администраторы могут узнать, как исп
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 821488f79186e1b5c306b587764377989346eea5
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: f0e5c83bc50197e30c12f8f7aeedc83930d7ff5e
+ms.sourcegitcommit: f3d1009840513703c38bab99a6e13a3656eae5ee
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52530890"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52793212"
 ---
 # <a name="manage-spoofed-senders-using-the-spoof-intelligence-policy-and-spoof-intelligence-insight-in-eop"></a>Управление поддельными отправителями с помощью политики подмены сведений и анализа подмены сведений в EOP
 
@@ -59,7 +59,7 @@ ms.locfileid: "52530890"
 
   **Примечания**.
 
-  - Добавление пользователей в соответствующую роль Azure Active Directory в Центре безопасности Microsoft 365 предоставляет пользователям необходимые разрешения _и_ разрешения для других функций в Microsoft 365. Дополнительные сведения см. в статье [О ролях администраторов](../../admin/add-users/about-admin-roles.md).
+  - Добавление пользователей в соответствующую роль Azure Active Directory в Центре безопасности Microsoft 365 предоставляет пользователям необходимые разрешения _и_ разрешения для других функций в Microsoft 365. Дополнительные сведения см. в статье [О ролях администраторов](../../admin/add-users/about-admin-roles.md).
   - Группа ролей **Управление организацией с правами только на просмотр** в [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups) также предоставляет доступ только для чтения к этой функции.
 
 - Параметры spoof intelligence описаны в [параметрах Spoof в политиках защиты от фишинга.](set-up-anti-phishing-policies.md#spoof-settings)
@@ -69,7 +69,7 @@ ms.locfileid: "52530890"
   - [Настройка политик защиты от фишинга в EOP](configure-anti-phishing-policies-eop.md).
   - [Настройка политик защиты от фишинга в Microsoft Defender для](configure-atp-anti-phishing-policies.md)Office 365.
 
-- Рекомендуемые параметры для подмены сведений см. в параметрах политики защиты от фишинга по умолчанию [EOP.](recommended-settings-for-eop-and-office365.md#eop-default-anti-phishing-policy-settings)
+- Рекомендуемые параметры для подмены сведений см. в рекомендациях EOP по борьбе [с фишинговыми политиками.](recommended-settings-for-eop-and-office365.md#eop-anti-phishing-policy-settings)
 
 ## <a name="manage-spoofed-senders"></a>Управление поддельными отправителями
 
@@ -96,7 +96,7 @@ ms.locfileid: "52530890"
    - **Домены.** Отправители, которые подменяют пользователей во внутренних доменах.
    - **Внешние домены.** Отправители спуфинг пользователей во внешних доменах.
 
-5. Щелкните ![ значок Расширение ](../../media/scc-expand-icon.png) в **столбце Разрешено подмены?** Выберите **Да,** чтобы разрешить подмену отправитель, или выберите **Нет,** чтобы пометить сообщение как поддельный. Действие контролируется политикой защиты от фишинга по умолчанию или настраиваемой политикой защиты от фишинга (по умолчанию значение **Move message to Junk Email folder).** Дополнительные сведения см. в [параметрах Spoof в политиках защиты от фишинга.](set-up-anti-phishing-policies.md#spoof-settings)
+5. Щелкните ![ значок Расширение ](../../media/scc-expand-icon.png) в **столбце Разрешено подмены?** Выберите **Да,** чтобы разрешить подмену отправитель, или выберите **Нет,** чтобы пометить сообщение как поддельный. Действие контролируется политикой защиты от фишинга по умолчанию или настраиваемой политикой защиты от фишинга (по умолчанию значение **Move message to Junk Email folder).** Дополнительные сведения см. в статье [Параметры фишинга в политиках защиты от фишинга](set-up-anti-phishing-policies.md#spoof-settings).
 
    ![Снимок экрана, показывающий вылет поддельных отправителей и разрешено ли подмене отправителям](../../media/c0c062fd-f4a4-4d78-96f7-2c22009052bb.jpg)
 

@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: Сводка. Предварительная работа при переходе из Microsoft Cloud Germany (Microsoft Cloud Deutschland) в Office 365 службы в новом немецком регионе центра обработки данных.
-ms.openlocfilehash: 244a784b0e28f9d5629f5af242a6cf8227abdb01
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 5eefa56b96eb616c694b26c374b235ccd95c3ee9
+ms.sourcegitcommit: bce733c1152dfbca782e716579074261e3c2ef65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52770385"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796022"
 ---
 # <a name="pre-migration-activities-for-the-migration-from-microsoft-cloud-deutschland"></a>Действия по предварительной миграции для миграции из Microsoft Cloud Deutschland
 
@@ -201,7 +201,7 @@ Enterprise клиенты с гибридным развертыванием Exc
 Если в экземпляре Microsoft Cloud Deutschland используется один и тот же раздел Azure Active Directory удостоверений для Office 365 и Microsoft Azure, убедитесь, что вы готовите к миграции служб Microsoft Azure клиентов.
 
 > [!NOTE]
-> Миграция служб Microsoft Azure не может начаться до того, как Office 365 клиент достиг этапа миграции 9 и должен быть завершен до завершения 10-го этапа миграции.
+> Миграция служб Microsoft Azure не может начаться до того, как Office 365 клиент достиг этапа миграции 9 и должен быть завершен до начала 10-го этапа миграции.
 
 Клиенты, Office 365 ресурсы Azure (например, сетевые, вычислительные и хранилища) будут выполнять перенос ресурсов в экземпляр Office 365 служб. Эта миграция является обязанностью клиента. Сообщения Центра сообщений будут сигнализировать о начале. Миграция должна быть завершена до завершения работы организации Azure AD в Office 365 служб. Для миграций Azure см. в книге "Руководство по миграции Azure", обзор руководства по миграции [для Azure Germany.](https://docs.microsoft.com/azure/germany/germany-migration-main)
 
@@ -230,7 +230,7 @@ Office 365 Germany customers who have Azure subscriptions under the same identit
 - A Message center notification will signal the point at which customer-led migration can begin.
 -->
 
-## <a name="more-information"></a>Дополнительная информация
+## <a name="more-information"></a>Дополнительные сведения
 
 Начало работы:
 
@@ -249,4 +249,4 @@ Office 365 Germany customers who have Azure subscriptions under the same identit
 
 - [Сведения о программе миграции Dynamics 365](/dynamics365/get-started/migrate-data-german-region)
 - [Сведения о программе миграции Power BI](/power-bi/admin/service-admin-migrate-data-germany)
-- [Начало перехода на Microsoft Teams](/microsoftteams/upgrade-start-here)
+- [Начало перехода на Microsoft Teams](/microsoftteams/upgrade-start-here)
