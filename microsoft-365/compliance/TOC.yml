@@ -694,7 +694,7 @@
               href: advanced-ediscovery-dashboard.md
             - name: Просмотр документов в наборе для проверки
               href: view-documents-in-review-set.md
-            - name: Запрос данных в наборе для проверки
+            - name: Запрос и фильтрация содержимого в наборе для проверки
               href: review-set-search.md
             - name: Добавление тегов к документам в наборе для проверки
               href: tagging-documents.md
