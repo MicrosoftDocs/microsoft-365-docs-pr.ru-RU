@@ -16,12 +16,13 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 27d1b36f3e49112a2da95f9268c0e05fcaa72c89
-ms.sourcegitcommit: f0118e61e490496cb23189cc5c73b23e2ba939be
+ms.custom: api
+ms.openlocfilehash: c8403dee11070dcf0825fad2502d8d21d54933fd
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 06/05/2021
-ms.locfileid: "52780145"
+ms.locfileid: "52782757"
 ---
 # <a name="raw-data-streaming-api"></a>Необработанные API потоковой передачи данных
 
@@ -34,7 +35,8 @@ ms.locfileid: "52780145"
 
 ## <a name="stream-advanced-hunting-events-to-event-hubs-andor-azure-storage-account"></a>Поток событий advanced Hunting в концентраторы событий и/или учетную запись хранилища Azure.
 
-Defender for Endpoint поддерживает потоковую трансляцию всех [](/azure/event-hubs/) событий, доступных с помощью [advanced Hunting,](advanced-hunting-overview.md) в концентраторы событий и/или учетную запись [хранилища Azure.](/azure/event-hubs/)
+
+Microsoft Defender для конечной точки поддерживает потоковые [](/azure/event-hubs/) события, доступные с помощью [advanced Hunting](../defender/advanced-hunting-overview.md) для учетных записей хранения событий и/или [Azure.](/azure/storage/common/storage-account-overview)
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4r4ga]
 
@@ -47,7 +49,7 @@ Defender for Endpoint поддерживает потоковую трансля
 [Stream Defender для событий конечной точки в учетной записи хранения Azure](raw-data-export-storage.md)| Узнайте о включите потоковый API в клиенте и настройте Defender для конечной точки для потоковой передачи [advanced Hunting](advanced-hunting-overview.md) в учетную запись хранилища Azure.
 
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 - [Обзор расширенных охоты](advanced-hunting-overview.md)
 - [Документация по центрам событий Azure](/azure/event-hubs/)
 - [служба хранилища Azure Документация по учетной записи](/azure/storage/common/storage-account-overview)
