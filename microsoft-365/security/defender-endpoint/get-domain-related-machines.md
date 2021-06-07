@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 3fffb87c486e8b6b89b5e868b96d02dfae496e0b
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 362e3db0ed89924c58fa9662f7acbbe0c16c37c6
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166879"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52772225"
 ---
 # <a name="get-domain-related-machines-api"></a>Получить API связанных с доменом машин
 
@@ -53,8 +54,8 @@ ms.locfileid: "51166879"
 :---|:---|:---
 Приложение |   Machine.Read.All |  'Read all machine profiles'
 Приложение |   Machine.ReadWrite.All | 'Read and write all machine information'
-Делегированное (рабочая или учебная учетная запись) | Machine.Read | 'Read machine information'
-Делегированное (рабочая или учебная учетная запись) | Machine.ReadWrite | 'Read and write machine information'
+Делегированные (рабочая или учебная учетная запись) | Machine.Read | 'Read machine information'
+Делегированные (рабочая или учебная учетная запись) | Machine.ReadWrite | 'Read and write machine information'
 
 >[!Note]
 > При получении маркера с помощью учетных данных пользователей:
@@ -70,7 +71,7 @@ GET /api/domains/{domain}/machines
 
 Имя | Тип | Описание
 :---|:---|:---
-Authorization | Строка | Bearer {token}. **Обязательное поле**.
+Authorization | String | Bearer {token}. **Обязательное поле**.
 
 
 ## <a name="request-body"></a>Текст запроса

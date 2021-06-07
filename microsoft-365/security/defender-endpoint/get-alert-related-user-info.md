@@ -1,5 +1,5 @@
 ---
-title: Получить сведения о пользователях, связанных с оповещением
+title: Получить сведения о пользователе, связанном с оповещением
 description: Узнайте, как использовать API сведений о пользователях, связанных с оповещением, для получения пользователя, связанного с определенным оповещением в Microsoft Defender для конечной точки.
 keywords: apis, graph api, supported apis, get, alert, information, related, user
 search.product: eADQiWindows 10XVcnh
@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: aee3c6fb381341c6823fbcb6766c0b761cb3413d
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: e895885a638c60a845ed4857c682cd472e42615c
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166980"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52772321"
 ---
 # <a name="get-alert-related-user-information-api"></a>Получить API сведений о пользователях, связанных с оповещением
 
@@ -53,7 +54,7 @@ ms.locfileid: "51166980"
 Тип разрешения |   Разрешение  |   Имя отображения разрешений
 :---|:---|:---
 Для приложений |   User.Read.All | 'Read user profiles'
-Делегированное (рабочая или учебная учетная запись) | User.Read.All | 'Read user profiles'
+Делегированные (рабочая или учебная учетная запись) | User.Read.All | 'Read user profiles'
 
 >[!Note]
 > При получении маркера с помощью учетных данных пользователей:
@@ -69,7 +70,7 @@ GET /api/alerts/{id}/user
 
 Имя | Тип | Описание
 :---|:---|:---
-Authorization | Строка | Bearer {token}. **Обязательное поле**.
+Authorization | String | Bearer {token}. **Обязательное поле**.
 
 
 ## <a name="request-body"></a>Текст запроса

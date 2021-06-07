@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 019fadd672f1d00042c3247520afcfb062cee3ab
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: ec7adcc153d4c6bedfb1984951acad7a401cbd55
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52769681"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52788815"
 ---
 # <a name="microsoft-defender-for-endpoint-api-release-notes"></a>Заметки о выпуске API для Защитника Майкрософт для конечной точки
 
@@ -42,7 +42,7 @@ ms.locfileid: "52769681"
 
 ### <a name="05252021"></a>05.25.2021
 
-- Добавлены новые методы и свойства оценки экспорта API [на устройство.](get-assessmnt-1methods-properties.md)
+- Добавлены новые методы и свойства оценки экспорта API [на устройство.](get-assessment-methods-properties.md)
 
 ### <a name="03052021"></a>03.05.2021
 

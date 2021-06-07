@@ -6,19 +6,19 @@ ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 localization_priority: normal
-ms.author: dansimp
-author: dansimp
+ms.author: deniseb
+author: denisebmsft
 ms.reviewer: dansimp
 ms.topic: article
 manager: dansimp
 audience: ITPro
 ms.technology: mde
-ms.openlocfilehash: ee8e7be20076bde41867981008e53a70c134e47e
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: 47eb80af58c948db5997dc9f5edfa5737a796837
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893918"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52772369"
 ---
 # <a name="protect-your-organizations-data-with-device-control"></a>Защита данных организации с помощью управления устройствами
 
@@ -43,7 +43,7 @@ ms.locfileid: "51893918"
 
 ## <a name="monitor-device-control-security"></a>Мониторинг безопасности управления устройствами
 
-Управление устройствами в Microsoft Defender для конечной точки предоставляет администраторам безопасности средства, позволяющие отслеживать безопасность управления устройствами своей организации с помощью отчетов. Отчет об устройстве можно найти в центре безопасности Microsoft 365, перейдите к защите **> устройств.**
+Управление устройствами в Microsoft Defender для конечной точки предоставляет администраторам безопасности средства, позволяющие отслеживать безопасность управления устройствами своей организации с помощью отчетов. Отчет об устройстве можно найти в центре безопасности Microsoft 365, перейдите к отчету > **устройств.**
 
 Карта защиты устройств на панели **мониторинга Отчеты** показывает количество событий аудита, созданных типом мультимедиа, за последние 180 дней.
 
@@ -61,7 +61,7 @@ ms.locfileid: "51893918"
 
 - **Общие сведения:** Дата, режим действия и политика этого события.
 - **Сведения о средствах массовой информации:** Сведения о средствах массовой информации включают имя мультимедиа, имя класса, GUID класса, ID устройства, ID поставщика, том, серийный номер и тип автобуса.
-- **Сведения о расположении:** Имя устройства и ID устройства MDATP.
+- **Сведения о расположении:** Имя устройства и MDATP устройства.
 
 > [!div class="mx-imgBorder"]
 > ![FilterOnDeviceControlReport](images/devicecontrolreportfilter.png)

@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: b9c8d4da528ba065dc1b4a68ddaa816a1ad78c4a
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 9f3313a08b072f4fb2f699148ab801207e56fc09
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187840"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52772120"
 ---
 # <a name="isolate-machine-api"></a>API изолированной машины
 
@@ -55,7 +56,7 @@ ms.locfileid: "51187840"
 Тип разрешения |   Разрешение  |   Имя отображения разрешений
 :---|:---|:---
 Приложение |   Machine.Isolate |   'Isolate machine'
-Делегированное (рабочая или учебная учетная запись) | Machine.Isolate |  'Isolate machine'
+Делегированные (рабочая или учебная учетная запись) | Machine.Isolate |  'Isolate machine'
 
 >[!Note]
 > При получении маркера с помощью учетных данных пользователей:
@@ -72,7 +73,7 @@ POST https://api.securitycenter.microsoft.com/api/machines/{id}/isolate
 
 Имя | Тип | Описание
 :---|:---|:---
-Авторизация | Строка | Bearer {token}. **Обязательное поле**.
+Authorization | String | Bearer {token}. **Обязательное поле**.
 Content-Type | string | application/json. **Обязательное поле**.
 
 ## <a name="request-body"></a>Текст запроса
@@ -81,7 +82,7 @@ Content-Type | string | application/json. **Обязательное поле**.
 Параметр | Тип    | Описание
 :---|:---|:---
 Comment |   String |    Комментарий для связи с действием. **Обязательное поле**.
-IsolationType   | Строка |  Тип изоляции. Допустимые значения: "Полный" или "Селективный".
+IsolationType   | String |  Тип изоляции. Допустимые значения: "Полный" или "Селективный".
 
 **IsolationType** управляет типом изоляции для выполнения и может быть одним из следующих:
 - Полный — полная изоляция

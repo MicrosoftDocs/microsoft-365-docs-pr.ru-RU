@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 9066bcdae549f7a6b1372714d567674eb03c1e51
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 8b05dde015bc96e1ccd3f80e25c416a371e03199
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51167071"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52772393"
 ---
 # <a name="create-alert-api"></a>Создание API оповещений
 
@@ -57,7 +58,7 @@ ms.locfileid: "51167071"
 Тип разрешения |   Разрешение  |   Имя отображения разрешений
 :---|:---|:---
 Приложение |   Alerts.ReadWrite.All |  'Read and write all alerts'
-Делегированное (рабочая или учебная учетная запись) | Alert.ReadWrite | 'Read and write alerts'
+Делегированные (рабочая или учебная учетная запись) | Alert.ReadWrite | 'Read and write alerts'
 
 >[!Note]
 > При получении маркера с помощью учетных данных пользователей:
@@ -74,7 +75,7 @@ POST https://api.securitycenter.microsoft.com/api/alerts/CreateAlertByReference
 
 Имя | Тип | Описание
 :---|:---|:---
-Authorization | Строка | Bearer {token}. **Обязательное поле**.
+Authorization | String | Bearer {token}. **Обязательное поле**.
 Content-Type | String | application/json. **Обязательное поле**.
 
 ## <a name="request-body"></a>Текст запроса
@@ -84,12 +85,12 @@ Content-Type | String | application/json. **Обязательное поле**.
 Свойство | Тип | Описание
 :---|:---|:---
 eventTime | DateTime (UTC) | Точное время события в качестве строки, полученной из продвинутой охоты. например. ```2018-08-03T16:45:21.7115183Z``` **Обязательно**.
-reportId | Строка | ReportId события, полученный из продвинутой охоты. **Обязательное поле**.
-machineId | Строка | Id устройства, на котором было идентифицировано событие. **Обязательное поле**.
-severity | Строка | Степень серьезности оповещения. Значения свойств: "Low", "Medium" и "High". **Обязательное поле**.
-title | Строка | Название для оповещений. **Обязательное поле**.
-description | Строка | Описание оповещений. **Обязательное поле**.
-recommendedAction| Строка | Действия, которые рекомендуется принимать сотрудником службы безопасности при анализе оповещения. **Обязательное поле**.
+reportId | String | ReportId события, полученный из продвинутой охоты. **Обязательное поле**.
+machineId | String | Id устройства, на котором было идентифицировано событие. **Обязательное поле**.
+severity | String | Степень серьезности оповещения. Значения свойств: "Low", "Medium" и "High". **Обязательное поле**.
+title | String | Название для оповещений. **Обязательное поле**.
+description | String | Описание оповещений. **Обязательное поле**.
+recommendedAction| String | Действия, которые рекомендуется принимать сотрудником службы безопасности при анализе оповещения. **Обязательное поле**.
 category| String | Категория оповещения. Значения свойств: "General", "CommandAndControl", "Collection", "CredentialAccess", "DefenseEvasion", "Discovery", "Exfiltration", "Exploit", "Execution", "InitialAccess", "LateralMovement", "Malware", "Persistence", "PrivilegeEscalation", "Ransomware", "SuspiciousActivity" **required**.
 
 ## <a name="response"></a>Отклик

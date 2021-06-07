@@ -14,12 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: e47a97477500491f634e3f5134a32241bd68985b
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 7ac7fdf4c38846e2e8be614567ddb87a98e3a96c
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935297"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52772129"
 ---
 # <a name="list-software-version-distribution"></a>Список распространения версий программного обеспечения 
 
@@ -97,6 +99,6 @@ GET https://api.securitycenter.microsoft.com/api/Software/microsoft-_-edge/distr
 }
 ```
 
-## <a name="related-topics"></a>Похожие темы
+## <a name="related-topics"></a>Связанные статьи
 - [Управление рисками & уязвимостей](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
 - [Инвентаризация программного обеспечения & уязвимости](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/tvm-software-inventory)

@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 70ce6adce3e14be7ee440b96587b8f9402c0b99f
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: ef10d2bd7193fc7b4a1604658f496ef38ef33555
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166987"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52772351"
 ---
 # <a name="get-alert-related-machine-information-api"></a>Получить API сведений о машинах, связанных с оповещением
 
@@ -55,8 +56,8 @@ ms.locfileid: "51166987"
 :---|:---|:---
 Приложение |   Machine.Read.All |  'Read all machine information'
 Приложение |   Machine.ReadWrite.All | 'Read and write all machine information'
-Делегированное (рабочая или учебная учетная запись) | Machine.Read | 'Read machine information'
-Делегированное (рабочая или учебная учетная запись) | Machine.ReadWrite | 'Read and write machine information'
+Делегированные (рабочая или учебная учетная запись) | Machine.Read | 'Read machine information'
+Делегированные (рабочая или учебная учетная запись) | Machine.ReadWrite | 'Read and write machine information'
 
 >[!Note]
 > При получении маркера с помощью учетных данных пользователей:
@@ -73,7 +74,7 @@ GET /api/alerts/{id}/machine
 
 Имя | Тип | Описание
 :---|:---|:---
-Authorization | Строка | Bearer {token}. **Обязательное поле**.
+Authorization | String | Bearer {token}. **Обязательное поле**.
 
 
 ## <a name="request-body"></a>Текст запроса

@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: db4682d0d2fccd7504eb46d9099a9783408cfb73
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: dd9def688619b6079d947cb76069aa0f77d768de
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51570940"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52772309"
 ---
 # <a name="get-device-secure-score"></a>Получить оценку безопасности устройства
 
@@ -47,7 +48,7 @@ ms.locfileid: "51570940"
 
 Тип разрешения |   Разрешение  |   Имя отображения разрешений
 :---|:---|:---
-Для приложений |   Score.Read.Alll |   'Read Threat and Vulnerability Management score'
+Приложение |   Score.Read.Alll |   'Read Threat and Vulnerability Management score'
 Делегированные (рабочая или учебная учетная запись) | Score.Read | 'Read Threat and Vulnerability Management score'
 
 ## <a name="http-request"></a>HTTP-запрос
@@ -60,7 +61,7 @@ GET /api/configurationScore
 
 Имя | Тип | Описание
 :---|:---|:---
-Авторизация | String | Bearer {token}. **Обязательное поле**.
+Authorization | String | Bearer {token}. **Обязательное поле**.
 
 ## <a name="request-body"></a>Текст запроса
 

@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: f8de54072c0b0ebef69b8e5586fee058b971c51f
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: c5de779566f1aa8e53da10b9aa5bceb92f5a0a3c
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166867"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52772261"
 ---
 # <a name="get-domain-related-alerts-api"></a>Получить API оповещений, связанных с доменом
 
@@ -53,8 +54,8 @@ ms.locfileid: "51166867"
 :---|:---|:---
 Приложение |   Alert.Read.All |    'Read all alerts'
 Приложение |   Alert.ReadWrite.All |   'Read and write all alerts'
-Делегированное (рабочая или учебная учетная запись) | Alert.Read | 'Read alerts'
-Делегированное (рабочая или учебная учетная запись) | Alert.ReadWrite | 'Read and write alerts'
+Делегированные (рабочая или учебная учетная запись) | Alert.Read | 'Read alerts'
+Делегированные (рабочая или учебная учетная запись) | Alert.ReadWrite | 'Read and write alerts'
 
 >[!Note]
 > При получении маркера с помощью учетных данных пользователей:
@@ -70,7 +71,7 @@ GET /api/domains/{domain}/alerts
 
 | Заголовок        | Значение  |
 |:--------------|:-------|
-| Authorization | Строка |
+| Authorization | String |
 
 ## <a name="request-body"></a>Текст запроса
 переменная Empty

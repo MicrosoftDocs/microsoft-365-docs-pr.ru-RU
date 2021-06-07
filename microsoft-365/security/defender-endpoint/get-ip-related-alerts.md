@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: dbcde70b32f9a10280dd43e98c5a237a0027a33c
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: a12ae502702b7fc9f69b01cd67857003258c20f2
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51167191"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770129"
 ---
 # <a name="get-ip-related-alerts-api"></a>Получить API оповещений, связанных с IP
 
@@ -51,8 +52,8 @@ ms.locfileid: "51167191"
 :---|:---|:---
 Приложение |   Alert.Read.All |    'Read all alerts'
 Приложение |   Alert.ReadWrite.All |   'Read and write all alerts'
-Делегированное (рабочая или учебная учетная запись) | Alert.Read | 'Read alerts'
-Делегированное (рабочая или учебная учетная запись) | Alert.ReadWrite | 'Read and write alerts'
+Делегированные (рабочая или учебная учетная запись) | Alert.Read | 'Read alerts'
+Делегированные (рабочая или учебная учетная запись) | Alert.ReadWrite | 'Read and write alerts'
 
 >[!Note]
 > При получении маркера с помощью учетных данных пользователей:
@@ -68,7 +69,7 @@ GET /api/ips/{ip}/alerts
 
 Имя | Тип | Описание
 :---|:---|:---
-Authorization | Строка | Bearer {token}. **Обязательное поле**.
+Authorization | String | Bearer {token}. **Обязательное поле**.
 
 
 ## <a name="request-body"></a>Текст запроса

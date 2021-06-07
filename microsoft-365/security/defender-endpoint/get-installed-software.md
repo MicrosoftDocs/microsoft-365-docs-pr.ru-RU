@@ -1,7 +1,7 @@
 ---
 title: Получить установленное программное обеспечение
 description: Извлекает коллекцию установленного программного обеспечения, связанного с данным ID устройства.
-keywords: apis, api графика, поддерживаемые apis, get, list, file, information, software inventory, installed software per device, threat & vulnerability management api, Microsoft Defender for Endpoint tvm api
+keywords: apis, graph api, supported apis, get, list, file, information, software inventory, installed software per device, threat & управление уязвимостями api, Microsoft Defender for Endpoint tvm api
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: ebd689fd53dd804f857c6bec7a412c27988835d0
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 35cbeedc5d13f5eeb99718b4f98e2d8aabe1e965
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935117"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770161"
 ---
 # <a name="get-installed-software"></a>Получить установленное программное обеспечение
 

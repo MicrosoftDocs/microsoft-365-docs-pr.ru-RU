@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Сведения о комплекте Deployment Lab Kit для Windows и Office и способе его получения
-ms.openlocfilehash: da51e0e3509ac2be60b9961dc2a0532d29f4f137
-ms.sourcegitcommit: cc9e3cac6af23f20d7cc5ac6fc6f6e01bc3cc5c5
+ms.openlocfilehash: bb73c303e1266a7d19b3578fb01b849b5e96990f
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52736352"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770677"
 ---
 # <a name="windows-10-and-office-365-deployment-lab-kit"></a>Windows 10 и Office 365 набор лаборатории развертывания
 
@@ -28,7 +28,7 @@ ms.locfileid: "52736352"
 
 Этот набор настоятельно рекомендуется для организаций, готовимых к обновлению Windows 8.1 до Windows 10. Он также применяется, если вы используете Windows 10, Приложения Microsoft 365 для предприятий (ранее Office 365 профессиональный плюс) или Office 2019 г. В изолированной среде в результате лаборатория идеально подходит для изучения обновлений средств развертывания и тестирования автоматизации, связанной с развертыванием.
 
-[Скачать комплект Deployment Lab Kit для Windows и Office](https://www.microsoft.com/evalcenter/evaluate-lab-kit)
+[Скачайте набор Windows 10 и Office 365 развертывания.](https://www.microsoft.com/evalcenter/evaluate-lab-kit)
 
 ## <a name="a-complete-lab-environment"></a>Полноценная лабораторная среда
 
@@ -36,7 +36,7 @@ ms.locfileid: "52736352"
 
   - НОВИНКА! Windows 10 Корпоративная версии 21H1
   - Windows 7 Корпоративная
-  - НОВИНКА! Microsoft Endpoint Configuration Manager версии 2103*
+  - НОВИНКА! Microsoft Endpoint Configuration Manager версии 2103
   - Комплект средств для развертывания и оценки Windows для Windows 10
   - Microsoft Deployment Toolkit
   - Microsoft Application Virtualization (App-V)

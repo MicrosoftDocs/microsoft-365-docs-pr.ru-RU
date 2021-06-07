@@ -1,7 +1,7 @@
 ---
-title: Список уязвимостей по рекомендации
+title: Список уязвимостей по рекомендациям
 description: Извлекает список уязвимостей, связанных с рекомендацией по безопасности.
-keywords: apis, graph api, supported apis, get, list of vulnerabilities, security recommendation, security recommendation for vulnerabilities, threat and vulnerability management, threat and vulnerability management api
+keywords: apis, graph api, supported apis, get, list of vulnerabilities, security recommendation, security recommendation for vulnerabilities, контроль угроз и уязвимостей, контроль угроз и уязвимостей api
 search.product: eADQiWindows 10XVcnh
 ms.prod: w10
 ms.mktglfcycl: deploy
@@ -14,14 +14,16 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: b41ee2886d758ab0ab70b78ee6d6d863d0d482a7
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 8fc9bb53fd2cfe768710129704c13ee751a695a2
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51198605"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770449"
 ---
-# <a name="list-vulnerabilities-by-recommendation"></a>Список уязвимостей по рекомендации
+# <a name="list-vulnerabilities-by-recommendation"></a>Список уязвимостей по рекомендациям
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -42,8 +44,8 @@ ms.locfileid: "51198605"
 
 Тип разрешения |   Разрешение  |   Имя отображения разрешений
 :---|:---|:---
-Application |   SecurityRecommendation.Read.All |   'Read Threat and Vulnerability Management security recommendation information'
-Делегированное (рабочая или учебная учетная запись) | SecurityRecommendation.Read |  'Read Threat and Vulnerability Management security recommendation information'
+Приложение |   SecurityRecommendation.Read.All |   'Read Threat and Vulnerability Management security recommendation information'
+Делегированные (рабочая или учебная учетная запись) | SecurityRecommendation.Read |  'Read Threat and Vulnerability Management security recommendation information'
 
 ## <a name="http-request"></a>HTTP-запрос
 ```
@@ -54,7 +56,7 @@ GET /api/recommendations/{id}/vulnerabilities
 
 Имя | Тип | Описание
 :---|:---|:---
-Авторизация | Строка | Bearer {token}. **Обязательное поле**.
+Authorization | String | Bearer {token}. **Обязательное поле**.
 
 
 ## <a name="request-body"></a>Текст запроса
@@ -102,6 +104,6 @@ GET https://api.securitycenter.microsoft.com/api/recommendations/va-_-google-_-c
 }
 ```
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 - [Управление рисками & уязвимостей](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
 - [Рекомендация по & уязвимости](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/tvm-security-recommendation)

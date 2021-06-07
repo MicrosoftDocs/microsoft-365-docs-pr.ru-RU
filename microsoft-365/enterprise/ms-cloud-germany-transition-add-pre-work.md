@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: Сводка. Предварительная работа при переходе из Microsoft Cloud Germany (Microsoft Cloud Deutschland) в Office 365 службы в новом немецком регионе центра обработки данных.
-ms.openlocfilehash: 66f23d33e9e55c432c33e9d90549d33ea42536db
-ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
+ms.openlocfilehash: 244a784b0e28f9d5629f5af242a6cf8227abdb01
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52651024"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770385"
 ---
 # <a name="pre-migration-activities-for-the-migration-from-microsoft-cloud-deutschland"></a>Действия по предварительной миграции для миграции из Microsoft Cloud Deutschland
 
@@ -98,16 +98,12 @@ OCCT можно развернуть на Windows клиентах в любое
 
 ## <a name="active-directory-federation-services-ad-fs"></a>Службы федерации Active Directory (AD FS)
 
-<!-- before phase 4 -->
-
 **Применяется к**: Клиенты, использующие AD FS в помещениях для проверки подлинности пользователей, подключающихся к Microsoft Office 365<br>
-**При применении**: в любое время до начала этапа 4
+**При применении:** в любое время до начала фазы 2
 
 Чтение и применение [этапов миграции ADFS](ms-cloud-germany-transition-add-adfs.md)
 
 ## <a name="sharepoint-online"></a>SharePoint Online
-
-<!-- before phase 4 -->
 
 **Применяется к**: Клиенты, использующие SharePoint 2013 на локальной основе<br>
 **При применении**: в любое время до начала этапа 4
@@ -234,7 +230,7 @@ Office 365 Germany customers who have Azure subscriptions under the same identit
 - A Message center notification will signal the point at which customer-led migration can begin.
 -->
 
-## <a name="more-information"></a>Дополнительные сведения
+## <a name="more-information"></a>Дополнительная информация
 
 Начало работы:
 

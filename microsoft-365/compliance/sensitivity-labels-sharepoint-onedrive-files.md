@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Администраторы могут включить поддержку меток конфиденциальности для файлов Word, Excel и PowerPoint в SharePoint и OneDrive.
-ms.openlocfilehash: 16186bd1e5c4cd2ca5b1ccd81c24ec81bfd33597
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: 8007f085e7bcba7f055f616954e2f0549f6f125a
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684031"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770401"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive"></a>Включение меток конфиденциальности для файлов Office в SharePoint и OneDrive
 
@@ -64,7 +64,7 @@ ms.locfileid: "52684031"
 
 Если в настоящее время вы защищаете документы в SharePoint с помощью SharePoint управления правами на информацию (IRM), обязательно ознакомьтесь с разделом управления правами на SharePoint информации [(IRM)](#sharepoint-information-rights-management-irm-and-sensitivity-labels) и меток конфиденциальности на этой странице. 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements
 
 Эти новые возможности работают только с [метами конфиденциальности.](sensitivity-labels.md) Если в настоящее время у вас есть метки Azure Information Protection, сначала перенаселите их на метки конфиденциальности, чтобы включить эти функции для новых файлов, которые вы загружаете. Дополнительные сведения об этом процессе см. в статье [Перенос меток Azure Information Protection на платформу унифицированных меток конфиденциальности](/azure/information-protection/configure-policy-migrate-labels).
 
@@ -87,6 +87,8 @@ ms.locfileid: "52684031"
     - Выбрано: **Шифрование с двойным ключом**.
     
     Для меток с любой из этих конфигураций шифрования метки не отображаются пользователям в Office веб-сайта. Кроме того, новые возможности нельзя использовать с помеченными документами, которые уже имеют эти параметры шифрования. Например, эти документы не будут возвращены в результатах поиска, даже если они обновлены.
+
+- По причинам производительности при загрузке или сохранения документа для SharePoint и метка файла не применяется шифрование, столбец **Sensitivity** в библиотеке документов может отобразить имя метки. Фактор в этой задержке, если вы используете сценарии или автоматизации, которые зависят от имени метки в этом столбце.
 
 - Пользователи могут испытывать задержки с открытием зашифрованных документов в следующем сценарии Save As: Using a desktop version of Office, пользователь выбирает save As для документа с меткой конфиденциальности, применяемой шифрованием. Пользователь выбирает SharePoint или OneDrive для расположения, а затем немедленно пытается открыть этот документ Office веб-страницы. Если служба по-прежнему обрабатывает шифрование, пользователь видит сообщение о том, что документ должен быть открыт в своем настольном приложении. Если они попытаются повторить попытку через пару минут, документ успешно откроется Office веб-страницы. 
 
@@ -169,7 +171,8 @@ ms.locfileid: "52684031"
 
 1. С помощью учетной записи работы или учебного заведения с глобальными привилегиями администратора SharePoint администратора в Microsoft 365 подключите SharePoint. Сведения о том, как это сделать, см. в статье [Начало работы с командной консолью SharePoint Online](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
     
-    Примечание. Если у вас Microsoft 365 Multi-Geo, используйте параметр -URL с [Подключение-SPOService](/powershell/module/sharepoint-online/connect-sposervice)и укажите URL-адрес SharePoint Центра администрирования для одного из ваших геолокационных местоположений.
+    > [!NOTE]
+    > Если у вас Microsoft 365 multi-Geo, используйте параметр -URL с [Подключение-SPOService](/powershell/module/sharepoint-online/connect-sposervice)и укажите URL-адрес SharePoint Центра администрирования в Интернете для одного из ваших геолокационных местоположений.
 
 2. Запустите следующую команду и нажмите **кнопку Y,** чтобы подтвердить:
 
@@ -239,7 +242,7 @@ SharePoint управления правами на информацию [(IRM)]
 
 В качестве альтернативы глобальный администратор или администратор SharePoint может запустить команды [Unlock-SPOSensitivityLabelEncryptedFile,](/powershell/module/sharepoint-online/unlock-sposensitivitylabelencryptedFile) которые удаляют метку конфиденциальности и шифрование. [](/sharepoint/sharepoint-admin-role) Этот комдлет выполняется, даже если у администратора нет разрешений на доступ к сайту или файлу, или если служба управления правами Azure недоступна. 
 
-Например:
+Например,
 
 ```powershell
 Unlock-SPOSensitivityLabelEncryptedFile -FileUrl "https://contoso.com/sites/Marketing/Shared Documents/Doc1.docx" -JustificationText "Need to decrypt this file"
@@ -265,7 +268,7 @@ Set-SPOTenant -EnableAIPIntegration $false
 
 Если у вас Microsoft 365 multi-Geo, необходимо выполнить эту команду для каждого из ваших геолокационных местоположений.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 После включения меток конфиденциальности для Office файлов в SharePoint и OneDrive, рассмотрите возможность автоматической маркировки этих файлов с помощью политик автоматической маркировки. Дополнительные сведения см. в [материалах Apply a sensitivity label to content automatically.](apply-sensitivity-label-automatically.md)
 

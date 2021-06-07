@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 92b5a93e86a20f36469d2b5cb606a8ddc2e97077
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 9b10659f76e5b05bea11f5c6c55ca7c2a34a2db5
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52241716"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52772165"
 ---
 # <a name="list-exposed-devices-of-one-remediation-activity"></a>Перечисление устройств, затрагиваемых одним действием по исправлению
 
@@ -55,17 +56,17 @@ ms.locfileid: "52241716"
 
 Тип разрешения | Разрешение | Имя отображения разрешений
 :---|:---|:---
-Для приложений | RemediationTask.Read.All | \'Чтение сведений об уязвимостях управления угрозами и уязвимостью\'
+Приложение | RemediationTask.Read.All | \'Чтение сведений об уязвимостях управления угрозами и уязвимостью\'
 Делегированные (рабочая или учебная учетная запись) | RemediationTask.Read.Read | \'Чтение сведений об уязвимостях управления угрозами и уязвимостью\'
 
 ## <a name="properties-details"></a>Сведения о свойствах
 
 Свойство (id) | Тип данных | Описание | Пример
 :---|:---|:---|:---
-id | Строка | ID устройства | w2957837fwda8w9ae7f023dba081059dw8d94503
-computerDnsName | Строка | Имя устройства | PC-SRV2012R2Foo.UserNameVldNet.local
-osPlatform | Строка | Операционная система устройства | WindowsServer2012R2
-rbacGroupName | Строка | Имя группы устройств, с помощью которого связано это устройство | Servers
+id | String | ID устройства | w2957837fwda8w9ae7f023dba081059dw8d94503
+computerDnsName | String | Имя устройства | PC-SRV2012R2Foo.UserNameVldNet.local
+osPlatform | String | Операционная система устройства | WindowsServer2012R2
+rbacGroupName | String | Имя группы устройств, с помощью которого связано это устройство | Servers
 
 ## <a name="example"></a>Пример
 

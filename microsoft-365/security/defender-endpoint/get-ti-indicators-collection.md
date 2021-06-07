@@ -14,12 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 868fd141cda3b3d92464a2d9247780e0e74d6de8
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: d9ec8610957af0bc7741848e7c7bd4fe850f5e32
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51198557"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770431"
 ---
 # <a name="list-indicators-api"></a>API индикаторов списка
 
@@ -50,9 +52,9 @@ ms.locfileid: "51198557"
 
 Тип разрешения |   Разрешение  |   Имя отображения разрешений
 :---|:---|:---
-Application |   Ti.ReadWrite |  'Read and write Indicators'
-Application |   Ti.ReadWrite.All |  'Read and write All Indicators'
-Делегированное (рабочая или учебная учетная запись) |    Ti.ReadWrite |  'Read and write Indicators'
+Приложение |   Ti.ReadWrite |  'Read and write Indicators'
+Приложение |   Ti.ReadWrite.All |  'Read and write All Indicators'
+Делегированные (рабочая или учебная учетная запись) |    Ti.ReadWrite |  'Read and write Indicators'
 
 ## <a name="http-request"></a>HTTP-запрос
 ```
@@ -63,7 +65,7 @@ GET https://api.securitycenter.microsoft.com/api/indicators
 
 Имя | Тип | Описание
 :---|:---|:---
-Авторизация | Строка | Bearer {token}. **Обязательное поле**.
+Authorization | String | Bearer {token}. **Обязательное поле**.
 
 
 ## <a name="request-body"></a>Текст запроса

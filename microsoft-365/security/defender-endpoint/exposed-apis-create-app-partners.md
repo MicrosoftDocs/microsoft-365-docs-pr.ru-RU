@@ -15,13 +15,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: bc58241be69a1d8e1a78abc583b2c87dbef9cfa7
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 6182b4cb0d1f648f33c3a7fc4da4c648d8996bcd
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51199418"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770617"
 ---
 # <a name="partner-access-through-microsoft-defender-for-endpoint-apis"></a>Доступ партнера через API Endpoint Defender для Microsoft Defender
 
@@ -36,10 +37,10 @@ ms.locfileid: "51199418"
 
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
-На этой странице описывается, как создать приложение Azure Active Directory (Azure AD), чтобы получить программный доступ к Microsoft Defender для конечной точки от имени клиентов.
+На этой странице описывается создание приложения Azure Active Directory Azure AD для получения программного доступа к Microsoft Defender для конечной точки от имени клиентов.
 
 
-Microsoft Defender для конечной точки предоставляет большую часть своих данных и действий с помощью набора программных API. Эти API помогут автоматизировать потоки работы и вносимые новые решения на основе возможностей Microsoft Defender для конечных точек. Доступ к API требует проверки подлинности OAuth2.0. Дополнительные сведения см. в [тексте OAuth 2.0 Authorization Code Flow.](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)
+Microsoft Defender для конечной точки предоставляет большую часть своих данных и действий с помощью набора программных API. Эти API помогут автоматизировать потоки работы и вносимые новые решения на основе возможностей Microsoft Defender для конечных точек. Доступ к API требует проверки подлинности OAuth2.0. Дополнительные сведения см. [в тексте OAuth 2.0 Authorization Code Flow.](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)
 
 В общем, для использования API необходимо предпринять следующие действия:
 - Создание приложения Azure AD с **несколькими** клиентами.
@@ -53,9 +54,9 @@ Microsoft Defender для конечной точки предоставляет
 
 1. Во входе в [клиент Azure с](https://portal.azure.com) пользователем, который имеет роль **глобального администратора.**
 
-2. Перейдите к **регистрации приложений Azure Active**  >  **Directory**  >  **.** 
+2. Перейдите **к Azure Active Directory**  >  **регистрации Приложений** Новая  >  **регистрация**. 
 
-   ![Изображение Microsoft Azure и навигация для регистрации приложений](images/atp-azure-new-app2.png)
+   ![Изображение Microsoft Azure и навигации для регистрации приложений](images/atp-azure-new-app2.png)
 
 3. В форме регистрации:
 
@@ -65,7 +66,7 @@ Microsoft Defender для конечной точки предоставляет
 
     - Перенаправление URI — тип: Web, URI: https://portal.azure.com
 
-    ![Изображение регистрации партнерского приложения Microsoft Azure](images/atp-api-new-app-partner.png)
+    ![Изображение регистрации Microsoft Azure партнеров](images/atp-api-new-app-partner.png)
 
 
 4. Разрешить приложению доступ к Microsoft Defender для конечной точки и назначить его с минимальным набором разрешений, необходимых для завершения интеграции.
@@ -140,7 +141,7 @@ Microsoft Defender для конечной точки предоставляет
 
 <br>Дополнительные сведения о маркере AAD см. в [учебнике AAD](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-client-creds)
 
-### <a name="using-powershell"></a>Использование PowerShell
+### <a name="using-powershell"></a>С помощью PowerShell
 
 ```
 # That code gets the App Context Token and save it to a file named "Latest-token.txt" under the current directory
@@ -200,7 +201,7 @@ return $token
 ### <a name="using-curl"></a>Использование curl
 
 > [!NOTE]
-> Ниже процедура, предполагаемая Curl для Windows, уже установлена на вашем компьютере
+> Приведенная ниже процедура, предполагаемая для Windows, уже установлена на компьютере
 
 - Откройте окно команды
 - Настройка CLIENT_ID для вашего ID приложения Azure
@@ -248,5 +249,5 @@ curl -i -X POST -H "Content-Type:application/x-www-form-urlencoded" -d "grant_ty
     ```
 
 ## <a name="see-also"></a>См. также
-- [Поддерживаемые API-API Microsoft Defender для конечных точек](exposed-apis-list.md)
+- [Поддерживаемые API Microsoft Defender для конечной точки](exposed-apis-list.md)
 - [Доступ к Microsoft Defender для конечной точки от имени пользователя](exposed-apis-create-app-nativeapp.md)

@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 181d808b465bfbf26eeff48a564e231b00a9a77f
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: b7877fb2d9b616b487d23befd0f0af35ce2c0753
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51166855"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52770299"
 ---
 # <a name="get-file-information-api"></a>Получить API сведений о файлах
 
@@ -51,7 +52,7 @@ ms.locfileid: "51166855"
 Тип разрешения |   Разрешение  |   Имя отображения разрешений
 :---|:---|:---
 Приложение |   File.Read.All | 'Read all file profiles'
-Делегированное (рабочая или учебная учетная запись) | File.Read.All |    'Read all file profiles'
+Делегированные (рабочая или учебная учетная запись) | File.Read.All |    'Read all file profiles'
 
 >[!Note]
 > При получении маркера с помощью учетных данных пользователей:
@@ -66,7 +67,7 @@ GET /api/files/{id}
 
 Имя | Тип | Описание
 :---|:---|:---
-Authorization | Строка | Bearer {token}. **Обязательное поле**.
+Authorization | String | Bearer {token}. **Обязательное поле**.
 
 
 ## <a name="request-body"></a>Текст запроса
