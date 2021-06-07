@@ -1,5 +1,5 @@
 ---
-title: Проверка администратора для сообщений, о которых сообщалось
+title: Административная проверка сообщений, на которые получены жалобы
 f1.keywords:
 - NOCSH
 ms.author: dansimp
@@ -13,14 +13,14 @@ ms.collection:
 description: Узнайте, как просмотреть сообщения, которые сообщаются, и дать отзывы пользователям.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 619cd35b6a60f0d50aa6c13e4cad2b8d7ae947a8
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: 7386f5b283e2bfabb76eee91d33dfda0e42ec7b1
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730980"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769129"
 ---
-# <a name="admin-review-for-reported-messages"></a>Проверка администратора для сообщений, о которых сообщалось
+# <a name="admin-review-for-reported-messages"></a>Административная проверка сообщений, на которые получены жалобы
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -40,12 +40,12 @@ ms.locfileid: "52730980"
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
 - Чтобы изменить конфигурацию для пользовательских представлений, необходимо быть членом одной из следующих групп ролей:
-    - Управление организацией или администратор безопасности в [центре безопасности.](permissions-microsoft-365-compliance-security.md)
-    - Управление организацией [в Exchange Online](/Exchange/permissions-exo/permissions-exo).
+  - Управление организацией или администратор безопасности [в центре Microsoft 365 безопасности.](permissions-microsoft-365-security-center.md)
+  - Управление организацией [в Exchange Online](/Exchange/permissions-exo/permissions-exo).
 
 - Вам также потребуется доступ к Exchange Online PowerShell. Если учетная запись, которую вы пытаетесь использовать, не имеет доступа к Exchange Online PowerShell, вы получите ошибку с указанием адреса электронной почты в *домене.* Дополнительные сведения о включив или отключив доступ к Exchange Online PowerShell, см. в следующих темах:
-    - [Включить или отключить доступ к Exchange Online PowerShell](/powershell/exchange/disable-access-to-exchange-online-powershell)
-    - [Правила клиентского доступа в Exchange Online](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules)
+  - [Включить или отключить доступ к Exchange Online PowerShell](/powershell/exchange/disable-access-to-exchange-online-powershell)
+  - [Правила клиентского доступа в Exchange Online](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules)
 
 ## <a name="configure-the-messages-used-to-notify-users"></a>Настройка сообщений, используемых для уведомления пользователей
 

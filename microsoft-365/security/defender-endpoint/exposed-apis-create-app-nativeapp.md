@@ -1,7 +1,7 @@
 ---
 title: Использование Microsoft Defender для API конечных точек
 ms.reviewer: ''
-description: Узнайте, как создать родной windows-приложение, чтобы получить программный доступ к Microsoft Defender для конечной точки без пользователя.
+description: Узнайте, как создать родной Windows, чтобы получить программный доступ к Microsoft Defender для конечной точки без пользователя.
 keywords: apis, api graph, supported apis, actor, alerts, device, user, domain, ip, file, advanced hunting, query
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -15,13 +15,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 5e59ff75a7933cf52af857f1a41b0925aa7bb47a
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 8f23a0b269986f4caa199ad3744c563fcc6ff6b2
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51198935"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769105"
 ---
 # <a name="use-microsoft-defender-for-endpoint-apis"></a>Использование Microsoft Defender для API конечных точек
 
@@ -43,7 +44,7 @@ ms.locfileid: "51198935"
 
 Если вы не уверены, какой доступ вам нужен, прочитайте страницу [Введение](apis-intro.md).
 
-Microsoft Defender для конечной точки предоставляет большую часть своих данных и действий с помощью набора программных API. Эти API позволят автоматизировать потоки работы и вносимые новации на основе возможностей Microsoft Defender для конечных точек. Доступ к API требует проверки подлинности OAuth2.0. Дополнительные сведения см. в [тексте OAuth 2.0 Authorization Code Flow.](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)
+Microsoft Defender для конечной точки предоставляет большую часть своих данных и действий с помощью набора программных API. Эти API позволят автоматизировать потоки работы и вносимые новации на основе возможностей Microsoft Defender для конечных точек. Доступ к API требует проверки подлинности OAuth2.0. Дополнительные сведения см. [в тексте OAuth 2.0 Authorization Code Flow.](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)
 
 В общем, для использования API необходимо предпринять следующие действия:
 - Создание приложения AAD
@@ -63,9 +64,9 @@ Microsoft Defender для конечной точки предоставляет
 
 1. Войдите в [Azure](https://portal.azure.com) с учетной записью пользователя, которая имеет роль **глобального администратора.**
 
-2. Перейдите к **регистрации приложений Azure Active**  >  **Directory**  >  **.** 
+2. Перейдите **к Azure Active Directory**  >  **регистрации Приложений** Новая  >  **регистрация**. 
 
-   ![Изображение Microsoft Azure и навигация для регистрации приложений](images/atp-azure-new-app2.png)
+   ![Изображение Microsoft Azure и навигации для регистрации приложений](images/atp-azure-new-app2.png)
 
 3. После появления страницы **Регистрация приложения** введите сведения о регистрации приложения:
 

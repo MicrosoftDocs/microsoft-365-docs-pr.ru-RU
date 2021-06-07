@@ -17,17 +17,17 @@ ms.custom:
 - AdminSurgePortfolio
 search.appverid:
 - MET150
-description: Используйте Windows PowerShell, чтобы получить сведения о устройствах Basic Mobility и Security в организации.
-ms.openlocfilehash: 92fcd6f39ffff97d7a4ecd2a69626ece54b481b2
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+description: Используйте Windows PowerShell, чтобы получить сведения о устройствах basic Mobility и Security в организации.
+ms.openlocfilehash: 7cb2369c9a31210f26db12b0453e7a4228e1cccc
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50904256"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782445"
 ---
 # <a name="get-details-about-basic-mobility-and-security-managed-devices"></a>Сведения об управляемых устройствах Basic Mobility и Security
 
-В этой статье показано, как использовать Windows PowerShell для получения сведений о устройствах в организации, которые вы создали для Basic Mobility and Security.
+В этой статье показано, как использовать Windows PowerShell для получения сведений о устройствах в организации, которые настроены для базовой мобильности и безопасности.
 
 Вот разбивка сведений о устройстве, доступных для вас.
 
@@ -39,7 +39,7 @@ ms.locfileid: "50904256"
 :::image type="content" source="../../media/basic-mobility-security/bms-7-powershell-parameters.png" alt-text="Параметры Basic Mobility и Security PowerShell":::
 
 >[!NOTE]
->Команды и скрипты в этой статье также возвращают сведения о любых устройствах, управляемых [Microsoft Intune.](https://www.microsoft.com/cloud-platform/microsoft-intune)
+>Команды и скрипты в этой статье также возвращают сведения о любых устройствах, управляемых [Microsoft Intune](https://www.microsoft.com/cloud-platform/microsoft-intune).
 
 ## <a name="before-you-begin"></a>Подготовка
 
@@ -47,9 +47,9 @@ ms.locfileid: "50904256"
 
 ### <a name="step-1-download-and-install-the-azure-active-directory-module-for-windows-powershell"></a>Шаг 1. Скачайте и установите модуль Azure Active Directory для Windows PowerShell
 
-Дополнительные сведения об этих действиях см. в ссылке [Подключение к Microsoft 365 с помощью PowerShell.](/office365/enterprise/powershell/connect-to-office-365-powershell)
+Дополнительные сведения об этих действиях см. в [Подключение Microsoft 365 PowerShell.](/office365/enterprise/powershell/connect-to-office-365-powershell)
 
-1. Перейдите Microsoft Online Services Sign-In помощника для [ИТ-специалистов RTWl](https://www.microsoft.com/download/details.aspx?id=41950)и выберите Скачать для Microsoft Online Services помощника по    **входу**.
+1. Перейдите Microsoft Online Services Sign-In помощника для [ИТ-специалистов RTWl](https://download.microsoft.com/download/7/1/E/71EF1D05-A42C-4A1F-8162-96494B5E615C/msoidcli_32bit.msi)и выберите Скачать для Microsoft Online Services помощника по    **входу**.
 
 2. Чтобы установить модуль Microsoft Azure Active Directory для Windows PowerShell, сделайте следующее:
 
@@ -63,13 +63,13 @@ ms.locfileid: "50904256"
 
     5. После установки закройте командное окно PowerShell.
 
-### <a name="step-2-connect-to-your-microsoft-365-subscription"></a>Шаг 2. Подключение к подписке Microsoft 365
+### <a name="step-2-connect-to-your-microsoft-365-subscription"></a>Шаг 2. Подключение подписку на Microsoft 365
 
 1. В модуле Windows Azure Active Directory для Windows PowerShell запустите следующую команду.  
 
     $UserCredential = Get-Credential
 
-2. В диалоговом окне Windows PowerShell запроса учетных данных введите имя пользователя и пароль для глобальной учетной записи администратора Microsoft 365, а затем выберите **ОК.**
+2. В диалоговом окне Windows PowerShell запроса учетных данных введите имя пользователя и пароль для глобальной Microsoft 365 учетной записи администратора, а затем выберите **ОК**.
 
 3. Выполните следующую команду.
 
@@ -82,7 +82,7 @@ ms.locfileid: "50904256"
 
 Чтобы запустить Get-MsolUserDeviceComplianceStatus.ps1, необходимо включить запуск скриптов PowerShell.
 
-1. На рабочем столе Windows выберите **Начните** и введите Windows PowerShell. Щелкните правой кнопкой мыши Windows PowerShell, а затем выберите **Выполнить в качестве администратора**.
+1. Из рабочего Windows выберите **Начните,** а затем введите Windows PowerShell. Щелкните правой кнопкой мыши Windows PowerShell, а затем выберите **Выполнить в качестве администратора.**
 
 2. Выполните следующую команду.
 
@@ -104,7 +104,7 @@ ms.locfileid: "50904256"
 
 Сначала сохраните скрипт на компьютере.
 
-1. Скопируйте и вклейте следующий текст в блокнот.  
+1. Скопируйте и вклеите следующий текст в Блокнот.  
 
 2.  param (
 
@@ -263,7 +263,7 @@ ms.locfileid: "50904256"
 70.  }
     
 
-71.  Сохраните его как Windows PowerShell скрипта с помощью расширения файла .ps1; например, Get-MsolUserDeviceComplianceStatus.ps1.   
+71.  Сохраните его как файл Windows PowerShell с помощью расширения файла .ps1; например, Get-MsolUserDeviceComplianceStatus.ps1.   
 
 ## <a name="run-the-script-to-get-device-information-for-a-single-user-account"></a>Запустите скрипт, чтобы получить сведения об устройстве для одной учетной записи пользователя
 
@@ -281,7 +281,7 @@ ms.locfileid: "50904256"
 
     .\Get-MsolUserDeviceComplianceStatus.ps1 -User $u -Export
 
-Эти сведения экспортируются в windows Desktop в качестве CSV-файла. Для указания имени файла и пути CSV можно использовать дополнительные параметры.
+Эти сведения экспортируются на Windows desktop в качестве CSV-файла. Для указания имени файла и пути CSV можно использовать дополнительные параметры.
 
 ## <a name="run-the-script-to-get-device-information-for-a-group-of-users"></a>Запустите скрипт, чтобы получить сведения об устройстве для группы пользователей
 
@@ -299,11 +299,11 @@ ms.locfileid: "50904256"
 
     .\Get-MsolUserDeviceComplianceStatus.ps1 -User $u -Export
 
-Эти сведения экспортируются в windows Desktop в качестве CSV-файла. Для указания имени файла и пути CSV можно использовать дополнительные параметры.
+Эти сведения экспортируются на Windows desktop в качестве CSV-файла. Для указания имени файла и пути CSV можно использовать дополнительные параметры.
 
-## <a name="related-topics"></a>Родственные темы
+## <a name="related-topics"></a>Статьи по теме
 
-[Microsoft Connect была снята с службы](/collaborate/connect-redirect)
+[Microsoft Подключение была снята с службы](/collaborate/connect-redirect)
 
 [Обзор Basic Mobility + Security](overview.md)
 

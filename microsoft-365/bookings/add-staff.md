@@ -8,22 +8,22 @@ ms.topic: article
 ms.service: bookings
 localization_priority: Normal
 description: Используйте эту страницу для создания списка сотрудников и управления сведениями о сотрудниках, такими как имя, номер телефона и адрес электронной почты.
-ms.openlocfilehash: 7fd19e3281b3dc075b5f72ca0471f5c66f93752d
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: 23757c492986936125eff1203e6a99231164da22
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52683323"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52768949"
 ---
 # <a name="add-staff-to-bookings"></a>Добавление сотрудников в Bookings
 
 На странице Staff in Bookings вы создаете список сотрудников и управляете сведениями о сотрудниках, такими как имя, номер телефона и адрес электронной почты. Вы также можете установить рабочие часы для каждого сотрудника отсюда.
 
-## <a name="before-you-begin"></a>Прежде чем начать
+## <a name="before-you-begin"></a>Подготовка
 
 Хотя Bookings — это функция Microsoft 365, не все ваши сотрудники должны иметь Microsoft 365 учетную запись. У всех сотрудников должен быть допустимый адрес электронной почты, чтобы они могли получать заказы и изменения расписания.
 
-## <a name="watch-add-your-staff-in-microsoft-bookings"></a>Watch: Добавление сотрудников в Microsoft Bookings
+## <a name="watch-add-your-staff-to-bookings"></a>Watch: Add your staff to Bookings
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWuVka]
 
@@ -67,14 +67,39 @@ ms.locfileid: "52683323"
     > [!NOTE]
     > Только первые 31 сотрудник, добавленный на страницу сотрудников, будут отображаться при назначении сотрудников службе.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="make-a-bookings-user-a-super-user-without-adding-them-as-staff-in-bookings"></a>Сделайте пользователя Bookings супер-пользователем, не добавляя его в качестве персонала в Bookings
 
-После добавления сотрудников можно [](schedule-closures-time-off-vacation.md) запланировать закрытие бизнеса и отключать время и запланировать [политику планирования.](set-scheduling-policies.md)
+Вы можете добавить человека в список сотрудников в Bookings, не делая его доступным для клиентов или клиентов. После того как вы сделаете их супер-пользователем, они станут администратором почтового ящика бронирования. Администратор почтового ящика бронирования определяется как имеющий полный доступ и разрешения на отправку в почтовый ящик.
 
-## <a name="related-content"></a>Связанные материалы
+> [!NOTE]
+> Эти действия работают только в том случае, если добавленный пользователь еще не назначен роли **зрителя** в Bookings.
 
-[Microsoft Bookings](bookings-overview.md)
+1. [Подключение Microsoft 365 PowerShell](/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell).
 
-[Планирование нерабочих дней и отпусков](schedule-closures-time-off-vacation.md)
+2. Используя PowerShell, назначьте полный доступ следующими командами:
 
-[Определение политик планирования](set-scheduling-policies.md)
+    ```powershell
+    Add-MailboxPermission -Identity <bookingmailbox@emailaddress> -User <adminusers@emailaddress> -AccessRights FullAccess -Deny:$false
+    ```
+
+3. Затем запустите эту команду, чтобы назначить разрешения отправки в качестве.
+
+    ```powershell
+    Add-RecipientPermission -Identity <bookingmailbox@emailaddress> -Trustee <adminusers@emailaddress> -AccessRights SendAs -Confirm:$false
+    ```
+
+Вот пример команды PowerShell, которая добавляет Allie Bellew в почтовый ящик резервирования в дневном саду Contoso.
+
+1. Сначала запустите эту команду:
+
+    ```powershell
+    Add-MailboxPermission -Identity "daycare@contoso.com" -User "Allie Bellew" -AccessRights FullAccess -InheritanceType All
+    ```
+
+2. Затем запустите эту команду:
+
+    ```powershell
+    Add-RecipientPermission -Identity <bookingmailbox@emailaddress> -Trustee <adminusers@emailaddress> -AccessRights SendAs -Confirm:$false
+    ```
+
+**Теперь у Allie Bellew** есть доступ к администратору, но в Bookings он не появляется в качестве забронируемых сотрудников.

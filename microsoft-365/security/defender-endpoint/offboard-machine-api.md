@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 03a1ef11224021703a6f33f82fa2c4f135a317a7
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: e2b1114cd091c9cd42aa8e4525416f9d73358a65
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934181"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771997"
 ---
 # <a name="offboard-machine-api"></a>Offboard machine API
 
@@ -50,7 +51,7 @@ Offboard device from Defender for Endpoint.
 [!include[Machine actions note](../../includes/machineactionsnote.md)]
 
 >[!Note]
-> Этот API поддерживается в Windows 10, версии 1703 и более поздней версии или Windows Server 2019 и более поздней версии. Этот API не поддерживается на устройствах MacOS или Linux.
+> Этот API поддерживается в Windows 10 версии 1703 и более поздней версии или Windows Server 2019 и более поздней версии. Этот API не поддерживается на устройствах MacOS или Linux.
 
 ## <a name="permissions"></a>Разрешения
 Для вызова этого API требуется одно из следующих разрешений. Дополнительные новости, в том числе выбор разрешений, см. в этой [ссылке: Use Defender for Endpoint API](apis-intro.md)

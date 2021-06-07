@@ -15,15 +15,16 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 78b6097ea9c3a83f35585f3b13fec4d9056ac25a
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 17ad28121935adfc958629f7999311c11a8d784e
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51199721"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771454"
 ---
-# <a name="advanced-hunting-using-python"></a>Расширенный метод охоты с помощью Python
+# <a name="advanced-hunting-using-python"></a>Расширенная охота с помощью Python
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -158,4 +159,4 @@ outputFile.close()
 ## <a name="related-topic"></a>Связанная тема
 - [Microsoft Defender для API конечных точек](apis-intro.md)
 - [Программный интерфейс расширенной охоты](run-advanced-query-api.md)
-- [Расширенный метод охоты с помощью PowerShell](run-advanced-query-sample-powershell.md)
+- [Расширенная охота с помощью PowerShell](run-advanced-query-sample-powershell.md)

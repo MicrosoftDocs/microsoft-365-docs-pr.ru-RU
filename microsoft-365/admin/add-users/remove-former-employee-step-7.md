@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Выполните следующие действия, чтобы удалить учетную запись пользователя бывшего сотрудника.
-ms.openlocfilehash: 5ca428079091c4af44ef1efa9be3d7340e254995
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 735821c9c4d6edf3d23fa3535ed9fa6b3d294b8c
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52535942"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782385"
 ---
 # <a name="step-7---delete-a-former-employees-user-account"></a>Шаг 7 . Удаление учетной записи пользователя бывшего сотрудника
 
@@ -56,7 +56,7 @@ ms.locfileid: "52535942"
 
 Подробнее об удалении и восстановлении учетной записи пользователя в Active Directory см. в публикации [Delete a User Account.](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753730(v=ws.11))
   
-Если вы используете Azure Active Directory, см. в рубке [Remove-MsolUser](https://go.microsoft.com/fwlink/?linkid=842230) PowerShell.
+Если вы используете Azure Active Directory, см. в рубке [Remove-MsolUser](/powershell/module/msonline/remove-msoluser) PowerShell.
   
 ## <a name="what-you-need-to-know-about-terminating-an-employees-email-session"></a>Что нужно знать о завершении почтового сеанса сотрудника
 
@@ -84,8 +84,6 @@ ms.locfileid: "52535942"
   
  **Самый быстрый способ для пользователя, присутствующего в локальной среде и в центре обработки данных Exchange.** Завершите сеанс с помощью Центра администрирования Azure Active Directory или Центра администрирования Exchange И внесите это изменение в локальной среде. В противном случае изменение, внесенное в Центре администрирования Azure Active Directory или Центре администрирования Exchange, будет перезаписано средством DirSync.
   
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-content"></a>Связанные материалы
 
-[Восстановление пользователя](restore-user.md)
-
-[Сброс паролей](reset-passwords.md)
+[Восстановление паролей](restore-user.md) пользователя (статья)/ [Сброс паролей](reset-passwords.md) (статья)

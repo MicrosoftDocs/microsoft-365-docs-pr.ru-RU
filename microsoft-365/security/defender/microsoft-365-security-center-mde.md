@@ -19,12 +19,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
-ms.openlocfilehash: e7cecd645d857a5c2d5e7a98c78bd3f39b68449d
-ms.sourcegitcommit: ddf6c25d1ed6387d07614f7042e033bad7f406f9
+ms.openlocfilehash: 487fc87c613d7321e3ae608097d98d2c90f8874e
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52639411"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771913"
 ---
 # <a name="microsoft-defender-for-endpoint-in-the-microsoft-365-security-center"></a>Microsoft Defender для конечной точки в центре Microsoft 365 безопасности
 
@@ -56,7 +56,7 @@ ms.locfileid: "52639411"
 | Управление & уязвимостей | Управление уязвимостями |
 | Оценка и учебные пособия | Учебные & по оценке |
 | среда управления конфигурацией; | среда управления конфигурацией; |
-| Параметры | Параметры | 
+| Settings | Settings | 
 
 Центр безопасности Microsoft 365 объединяет [возможности](overview-security-center.md) безопасности, которые защищают, обнаруживают, исследуют и реагируют на угрозы электронной почты, совместной работы, удостоверений и [https://security.microsoft.com](https://security.microsoft.com) устройств. Этот центр безопасности объединяет функциональные возможности существующих порталов безопасности Майкрософт, в том числе Центр безопасности в Microsoft Defender и центра Office 365 безопасности & соответствия требованиям.
 
@@ -118,7 +118,7 @@ Microsoft Defender для конечной точки в центре Microsoft 
 |---------|---------|
 | Отчеты  | См. отчеты о конечных точках и &, включая защиту от угроз, здоровье и соответствие требованиям устройств, а также уязвимые устройства. |
 | Здравоохранение  |  В настоящее время ссылки на страницу "Здоровье службы" в центре администрирования Microsoft 365 [службы.](https://admin.microsoft.com/) |
-| Параметры |  Управление настройками центра Microsoft 365, центра Microsoft 365, конечных точек, электронной почты &, удостоверений и обнаружения устройств.   |
+| Settings |  Управление настройками центра Microsoft 365, центра Microsoft 365, конечных точек, электронной почты &, удостоверений и обнаружения устройств.   |
 
 ## <a name="microsoft-365-security-navigation-and-capabilities"></a>Microsoft 365 безопасности навигации и возможностей
 
@@ -177,6 +177,10 @@ Microsoft Defender для конечной точки в центре Microsoft 
 ### <a name="email-alerts"></a>Оповещения электронной почты
 
 Вы можете продолжить использование оповещений электронной почты для Defender для конечной точки. Мы добавили новые ссылки в сообщениях электронной почты, которые указывают на страницу оповещения или страницу инцидента в центре Microsoft 365 безопасности. Дополнительные сведения см. в перенаправлении учетных записей [из Microsoft Defender для конечной](./microsoft-365-security-mde-redirection.md)точки в центр Microsoft 365 безопасности.
+
+### <a name="managed-security-service-providers-mssp"></a>Поставщики управляемых служб безопасности (MSSP)
+
+Вход для нескольких клиентов одновременно в одном сеансе просмотра в настоящее время не поддерживается на едином портале. Вы можете отказаться от автоматического перенаправления, возвращаясь к бывшему порталу [Microsoft Defender для конечных](microsoft-365-security-mde-redirection.md#can-i-go-back-to-using-the-former-portal)точек, чтобы сохранить эту функцию до решения проблемы.
 
 ## <a name="related-information"></a>Статьи по теме
 

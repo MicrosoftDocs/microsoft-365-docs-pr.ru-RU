@@ -1,7 +1,7 @@
 ---
 title: Получить рекомендации по ID
 description: Извлекает рекомендации по безопасности по его ID.
-keywords: apis, graph api, supported apis, get, security recommendation, security recommendation by ID, threat and vulnerability management, threat and vulnerability management api
+keywords: apis, graph api, supported apis, get, security recommendation, security recommendation by ID, контроль угроз и уязвимостей, контроль угроз и уязвимостей api
 search.product: eADQiWindows 10XVcnh
 ms.prod: w10
 ms.mktglfcycl: deploy
@@ -14,14 +14,16 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 45a151fc5855a4a2b1ba63a50b54737c90e6bdd1
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 4ec4758453f43cb211143918ed5fe8fe83e91c3f
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51199517"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771805"
 ---
-# <a name="get-recommendation-by-id"></a>Получить рекомендации по ID
+# <a name="get-recommendation-by-id"></a>Получить рекомендацию по ИД
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -43,8 +45,8 @@ ms.locfileid: "51199517"
 
 Тип разрешения |   Разрешение  |   Имя отображения разрешений
 :---|:---|:---
-Application |   SecurityRecommendation.Read.All |   'Read Threat and Vulnerability Management security recommendation information'
-Делегированное (рабочая или учебная учетная запись) | SecurityRecommendation.Read |  'Read Threat and Vulnerability Management security recommendation information'
+Приложение |   SecurityRecommendation.Read.All |   'Read Threat and Vulnerability Management security recommendation information'
+Делегированные (рабочая или учебная учетная запись) | SecurityRecommendation.Read |  'Read Threat and Vulnerability Management security recommendation information'
 
 ## <a name="http-request"></a>HTTP-запрос
 ```
@@ -55,7 +57,7 @@ GET /api/recommendations/{id}
 
 Имя | Тип | Описание
 :---|:---|:---
-Авторизация | Строка | Bearer {token}. **Обязательное поле**.
+Authorization | String | Bearer {token}. **Обязательное поле**.
 
 
 ## <a name="request-body"></a>Текст запроса
@@ -105,6 +107,6 @@ GET https://api.securitycenter.microsoft.com/api/recommendations/va-_-google-_-c
 }
 ```
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 - [Управление рисками & уязвимостей](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
 - [Рекомендация по & уязвимости](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/tvm-security-recommendation)

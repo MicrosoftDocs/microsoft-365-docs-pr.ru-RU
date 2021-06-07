@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 42bab0a9d20d5e1ef78b98b3538cef209240d890
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: ce0dc0ce255e9717082687bd1f8bf5941739261d
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187360"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771709"
 ---
 # <a name="submit-or-update-indicator-api"></a>Отправка или обновление API индикатора
 
@@ -53,7 +54,7 @@ ms.locfileid: "51187360"
 :---|:---|:---
 Приложение |   Ti.ReadWrite |  'Read and write Indicators'
 Приложение |   Ti.ReadWrite.All |  'Read and write All Indicators'
-Делегированное (рабочая или учебная учетная запись) |    Ti.ReadWrite |  'Read and write Indicators'
+Делегированные (рабочая или учебная учетная запись) |    Ti.ReadWrite |  'Read and write Indicators'
 
 
 ## <a name="http-request"></a>HTTP-запрос
@@ -65,7 +66,7 @@ POST https://api.securitycenter.microsoft.com/api/indicators
 
 Имя | Тип | Описание
 :---|:---|:---
-Авторизация | Строка | Bearer {token}. **Обязательное поле**.
+Authorization | String | Bearer {token}. **Обязательное поле**.
 Content-Type | string | application/json. **Обязательное поле**.
 
 ## <a name="request-body"></a>Текст запроса
@@ -73,16 +74,16 @@ Content-Type | string | application/json. **Обязательное поле**.
 
 Параметр | Тип    | Описание
 :---|:---|:---
-indicatorValue | Строка | Удостоверение сущности [индикатора.](ti-indicator.md) **Required**
+indicatorValue | String | Удостоверение сущности [индикатора.](ti-indicator.md) **Required**
 indicatorType | Перечисление | Тип индикатора. Возможные значения: "FileSha1", "FileSha256", "IpAddress", "DomainName" и "URL". **Required**
 action | Перечисление | Действие, которое будет принято, если индикатор будет обнаружен в организации. Возможные значения: "Alert", "AlertAndBlock" и "Allowed". **Required**
-приложение | Строка | Приложение, связанное с индикатором. **Необязательное**
-title | Строка | Название оповещений индикатора. **Required**
-description | Строка | Описание индикатора. **Required**
+приложение | String | Приложение, связанное с индикатором. **Необязательное**
+title | String | Название оповещений индикатора. **Required**
+description | String | Описание индикатора. **Required**
 expirationTime | DateTimeOffset | Срок действия индикатора. **Необязательное**
 severity | Перечисление | Серьезность индикатора. Возможные значения: "Информационная", "Низкая", "Средняя" и "Высокая". **Необязательное**
-recommendedActions | Строка | Предупреждение индикатора TI рекомендуемые действия. **Необязательное**
-rbacGroupNames | Строка | Разделенный запятой список имен групп RBAC, к который будет применен индикатор. **Необязательное**
+recommendedActions | String | Предупреждение индикатора TI рекомендуемые действия. **Необязательное**
+rbacGroupNames | String | Разделенный запятой список имен групп RBAC, к который будет применен индикатор. **Необязательное**
 
 
 ## <a name="response"></a>Отклик

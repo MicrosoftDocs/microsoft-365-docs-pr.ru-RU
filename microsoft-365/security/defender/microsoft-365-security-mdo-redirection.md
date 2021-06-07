@@ -1,5 +1,5 @@
 ---
-title: Перенаправление учетных записей из Microsoft Defender для Office 365 в новый центр Microsoft 365 безопасности
+title: Перенаправление учетных записей из центра Office 365 безопасности и соответствия требованиям в новый центр Microsoft 365 безопасности
 description: Перенаправление с центра Office 365 defender для Microsoft 365 безопасности.
 keywords: Microsoft 365 центра безопасности, начало работы с центром Microsoft 365, перенаправление центра безопасности
 search.product: eADQiWindows 10XVcnh
@@ -20,14 +20,14 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 2a4b122b3ef3a1ddaf61d8f9373bec3e721db177
-ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
+ms.openlocfilehash: 703d3c3c9086aa2bdfada560c009e8738dffbb18
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52651384"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52768973"
 ---
-# <a name="redirecting-accounts-from-microsoft-defender-for-office-365-to-the-microsoft-365-security-center"></a>Перенаправление учетных записей из Microsoft Defender для Office 365 в центр Microsoft 365 безопасности
+# <a name="redirecting-accounts-from-office-365-security-and-compliance-center-to-microsoft-365-security-center"></a>Перенаправление учетных записей из центра Office 365 безопасности и соответствия требованиям в центр Microsoft 365 безопасности
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -36,7 +36,7 @@ ms.locfileid: "52651384"
 - Microsoft 365 Defender
 - Defender для Office 365
 
-В этой статье рассказывается о маршруте учетных записей в центр безопасности Microsoft 365, включив автоматическое перенаправление из бывшего Центра безопасности и соответствия требованиям Майкрософт (protection.office.com или securitycenter.microsoft.com) в центр безопасности Microsoft 365 (security.microsoft.com).
+В этой статье рассказывается о маршруте учетных записей в центр безопасности Microsoft 365, включив автоматическое перенаправление из бывшего центра Office 365 безопасности и соответствия требованиям (protection.office.com) в центр безопасности Microsoft 365 (security.microsoft.com).
 
 ## <a name="what-to-expect"></a>Чего ожидать
 После включения и активного автоматического перенаправления пользователи, которые получают доступ к возможностям, связанным с безопасностью в Office 365 безопасности и соответствия требованиям (protection.office.com), будут автоматически перенаправляться в центр безопасности Microsoft 365 ( https://security.microsoft.com) . .  
@@ -78,7 +78,7 @@ ms.locfileid: "52651384"
 
 Этот параметр можно включить снова в любое время.
 
-После отключения учетные записи больше не будут security.microsoft.com, и вы снова будете иметь доступ к бывшему порталу — securitycenter.windows.com или securitycenter.microsoft.com.
+После отключения учетные записи больше не будут security.microsoft.com, и вы снова будете иметь доступ к бывшему порталу securitycenter.windows.com или securitycenter.microsoft.com.
 
 ## <a name="related-information"></a>Статьи по теме
 - [Обзор Центра безопасности Microsoft 365](overview-security-center.md)

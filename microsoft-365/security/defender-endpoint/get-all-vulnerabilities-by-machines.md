@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 229c1f9e77a0cb85744155e82934b48dd63052b2
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 3aa58f3df4a4c3562cbd4dfbf6113c30816e2a0f
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933413"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52769225"
 ---
 # <a name="list-vulnerabilities-by-machine-and-software"></a>Список уязвимостей по компьютерам и программному обеспечению
 
@@ -43,7 +44,7 @@ ms.locfileid: "51933413"
 - OData ```$filter``` поддерживается во всех свойствах.
 
 >[!Tip]
->Это отличный API для [интеграции Power BI](api-power-bi.md).
+>Это отличный API для [Power BI интеграции.](api-power-bi.md)
 
 ## <a name="permissions"></a>Разрешения
 Для вызова этого API требуется одно из следующих разрешений. Дополнительные сведения, в том числе о выборе разрешений, см. в материале [Use Microsoft Defender for Endpoint API.](apis-intro.md)
@@ -119,5 +120,5 @@ GET https://api.securitycenter.microsoft.com/api/vulnerabilities/machinesVulnera
 
 ## <a name="see-also"></a>См. также
 
-- [Управление угрозами и уязвимостью на основе рисков](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
+- [Риск на основе контроль угроз и уязвимостей](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
 - [Уязвимости в организации](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/tvm-weaknesses)

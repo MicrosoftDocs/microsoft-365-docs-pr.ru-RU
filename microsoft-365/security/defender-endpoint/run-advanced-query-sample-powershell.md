@@ -15,15 +15,16 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 20c63daaf61b85f35aaceccb540b6d50824c801d
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 9192662b8d4ed23a5903dddb555f07bf182ab17f
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51198675"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771505"
 ---
-# <a name="advanced-hunting-using-powershell"></a>Расширенный метод охоты с помощью PowerShell
+# <a name="advanced-hunting-using-powershell"></a>Расширенная охота с помощью PowerShell
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -39,7 +40,7 @@ ms.locfileid: "51198675"
 
 В этом разделе мы делимся примерами PowerShell для получения маркера и использования его для выполнения запроса.
 
-## <a name="before-you-begin"></a>Прежде чем начать
+## <a name="before-you-begin"></a>Подготовка
 Сначала необходимо [создать приложение.](apis-intro.md)
 
 ## <a name="preparation-instructions"></a>Инструкции по подготовке
@@ -129,4 +130,4 @@ $results | ConvertTo-Json | Set-Content file1.json
 ## <a name="related-topic"></a>Связанная тема
 - [Microsoft Defender для API конечных точек](apis-intro.md)
 - [Программный интерфейс расширенной охоты](run-advanced-query-api.md)
-- [Расширенный метод охоты с помощью Python](run-advanced-query-sample-python.md)
+- [Расширенная охота с помощью Python](run-advanced-query-sample-python.md)

@@ -1,5 +1,5 @@
 ---
-title: Рекомендации методов и свойств
+title: Методы и свойства рекомендаций
 description: Извлекает последние последние оповещений.
 keywords: apis, graph api, supported apis, get, alerts, recent
 search.product: eADQiWindows 10XVcnh
@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 6ab4d4e1acab0e4b837195f64c369057d7ceb417
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: bd7aa2af2c7500bbe02108bb8aa5dee452ff2998
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51198237"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771601"
 ---
 # <a name="recommendation-resource-type"></a>Тип ресурса рекомендации
 
@@ -42,7 +43,7 @@ ms.locfileid: "51198237"
 Метод |Возвращаемый тип |Описание
 :---|:---|:---
 [Список всех рекомендаций](get-all-recommendations.md) | Коллекция рекомендаций | Извлекает список всех рекомендаций по безопасности, влияющих на организацию
-[Получить рекомендации по ID](get-recommendation-by-id.md) | Рекомендация | Извлечение рекомендации по безопасности по его ID
+[Получить рекомендацию по ИД](get-recommendation-by-id.md) | Рекомендация | Извлечение рекомендации по безопасности по его ID
 [Получить программное обеспечение рекомендации](get-recommendation-software.md)| [Программное обеспечение](software.md) | Извлечение рекомендации по безопасности, связанной с определенным программным обеспечением
 [Получить устройства рекомендации](get-recommendation-machines.md)|Коллекция MachineRef | Извлекает список устройств, связанных с рекомендацией по безопасности
 [Получить уязвимости рекомендации](get-recommendation-vulnerabilities.md) | [Коллекция уязвимостей](vulnerability.md) | Извлекает список уязвимостей, связанных с рекомендацией по безопасности
@@ -51,23 +52,23 @@ ms.locfileid: "51198237"
 ## <a name="properties"></a>Свойства
 Свойство |   Тип   |   Описание
 :---|:---|:---
-id | Строка | ID рекомендации
+id | String | ID рекомендации
 productName | String | Связанное имя программного обеспечения  
-recommendationName | Строка | Имя рекомендации
+recommendationName | String | Имя рекомендации
 Недостатки | Длинное целое | Количество обнаруженных уязвимостей
-Поставщик | Строка | Имя связанного поставщика
-recommendedVersion | Строка | Рекомендуемая версия
-recommendationCategory | Строка | Категория рекомендации. Возможные значения: "Учетные записи", "Приложение", "Сеть", "ОС", "SecurityStack"
-subCategory | Строка | Под-категория Рекомендации
+Поставщик | String | Имя связанного поставщика
+recommendedVersion | String | Рекомендуемая версия
+recommendationCategory | String | Категория рекомендации. Возможные значения: "Учетные записи", "Приложение", "Сеть", "ОС", "SecurityStack"
+subCategory | String | Под-категория Рекомендации
 severityScore | Двойное с плавающей точкой | Потенциальное влияние конфигурации на оценку microsoft Secure Для устройств организации (1-10)
-publicExploit | Boolean | Общедоступный эксплойт доступен 
-activeAlert | Boolean | С этой рекомендацией связано активное оповещение
-associatedThreats | Коллекция String | Отчет аналитики угроз связан с этой рекомендацией
-remediationType | Строка | Тип исправлений. Возможные значения: "ConfigurationChange", "Update", "Upgrade", "Uninstall"
+publicExploit | Логический | Общедоступный эксплойт доступен 
+activeAlert | Логический | С этой рекомендацией связано активное оповещение
+associatedThreats | Коллекция строк | Отчет аналитики угроз связан с этой рекомендацией
+remediationType | String | Тип исправлений. Возможные значения: "ConfigurationChange", "Update", "Upgrade", "Uninstall"
 Состояние | Перечисление | Состояние исключения рекомендации. Возможные значения: "Active" и "Exception"
 configScoreImpact | Двойное с плавающей точкой | Влияние Microsoft Secure Score для устройств
 exposureImpacte | Двойное с плавающей точкой | Влияние оценки экспозиции
 totalMachineCount | Длинное целое | Количество установленных устройств
 exposedMachinesCount | Длинное целое | Количество установленных устройств, подверженных уязвимостям
 nonProductivityImpactedAssets | Длинное целое | Количество устройств, не затронутых  
-relatedComponent | Строка |  Связанный компонент программного обеспечения
+relatedComponent | String |  Связанный компонент программного обеспечения

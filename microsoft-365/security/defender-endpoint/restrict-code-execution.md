@@ -14,13 +14,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.technology: mde
-ms.openlocfilehash: 149f3aefd963f15eafa15030a322ec588c0615ed
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+MS.technology: mde
+ms.custom: api
+ms.openlocfilehash: 7195e91a3a9b7aef6977c925f2c8689d3e461815
+ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186787"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "52771577"
 ---
 # <a name="restrict-app-execution-api"></a>Ограничение API выполнения приложений
 
@@ -55,7 +56,7 @@ ms.locfileid: "51186787"
 Тип разрешения |   Разрешение  |   Имя отображения разрешений
 :---|:---|:---
 Приложение |   Machine.RestrictExecution | "Ограничение выполнения кода"
-Делегированное (рабочая или учебная учетная запись) | Machine.RestrictExecution | "Ограничение выполнения кода"
+Делегированные (рабочая или учебная учетная запись) | Machine.RestrictExecution | "Ограничение выполнения кода"
 
 >[!Note]
 > При получении маркера с помощью учетных данных пользователей:
@@ -71,7 +72,7 @@ POST https://api.securitycenter.microsoft.com/api/machines/{id}/restrictCodeExec
 
 Имя | Тип | Описание
 :---|:---|:---
-Авторизация | Строка | Bearer {token}. **Обязательное поле**.
+Authorization | String | Bearer {token}. **Обязательное поле**.
 Content-Type | string | application/json. **Обязательное поле**.
 
 ## <a name="request-body"></a>Текст запроса
