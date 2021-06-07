@@ -16,38 +16,40 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 27d1b36f3e49112a2da95f9268c0e05fcaa72c89
-ms.sourcegitcommit: f0118e61e490496cb23189cc5c73b23e2ba939be
+ms.custom: api
+ms.openlocfilehash: c8403dee11070dcf0825fad2502d8d21d54933fd
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 06/05/2021
-ms.locfileid: "52780145"
+ms.locfileid: "52782757"
 ---
-# <a name="raw-data-streaming-api"></a><span data-ttu-id="26992-104">Необработанные API потоковой передачи данных</span><span class="sxs-lookup"><span data-stu-id="26992-104">Raw Data Streaming API</span></span>
+# <a name="raw-data-streaming-api"></a><span data-ttu-id="805e8-104">Необработанные API потоковой передачи данных</span><span class="sxs-lookup"><span data-stu-id="805e8-104">Raw Data Streaming API</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
-<span data-ttu-id="26992-105">**Область применения:**</span><span class="sxs-lookup"><span data-stu-id="26992-105">**Applies to:**</span></span>
-- [<span data-ttu-id="26992-106">Microsoft Defender для конечной точки</span><span class="sxs-lookup"><span data-stu-id="26992-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/?linkid=2154037)
+<span data-ttu-id="805e8-105">**Область применения:**</span><span class="sxs-lookup"><span data-stu-id="805e8-105">**Applies to:**</span></span>
+- [<span data-ttu-id="805e8-106">Microsoft Defender для конечной точки</span><span class="sxs-lookup"><span data-stu-id="805e8-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/?linkid=2154037)
 
-> <span data-ttu-id="26992-107">Хотите испытать Defender для конечной точки?</span><span class="sxs-lookup"><span data-stu-id="26992-107">Want to experience Defender for Endpoint?</span></span> [<span data-ttu-id="26992-108">Зарегистрився для бесплатной пробной.</span><span class="sxs-lookup"><span data-stu-id="26992-108">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configuresiem-abovefoldlink) 
+> <span data-ttu-id="805e8-107">Хотите испытать Defender для конечной точки?</span><span class="sxs-lookup"><span data-stu-id="805e8-107">Want to experience Defender for Endpoint?</span></span> [<span data-ttu-id="805e8-108">Зарегистрився для бесплатной пробной.</span><span class="sxs-lookup"><span data-stu-id="805e8-108">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configuresiem-abovefoldlink) 
 
-## <a name="stream-advanced-hunting-events-to-event-hubs-andor-azure-storage-account"></a><span data-ttu-id="26992-109">Поток событий advanced Hunting в концентраторы событий и/или учетную запись хранилища Azure.</span><span class="sxs-lookup"><span data-stu-id="26992-109">Stream Advanced Hunting events to Event Hubs and/or Azure storage account.</span></span>
+## <a name="stream-advanced-hunting-events-to-event-hubs-andor-azure-storage-account"></a><span data-ttu-id="805e8-109">Поток событий advanced Hunting в концентраторы событий и/или учетную запись хранилища Azure.</span><span class="sxs-lookup"><span data-stu-id="805e8-109">Stream Advanced Hunting events to Event Hubs and/or Azure storage account.</span></span>
 
-<span data-ttu-id="26992-110">Defender for Endpoint поддерживает потоковую трансляцию всех [](/azure/event-hubs/) событий, доступных с помощью [advanced Hunting,](advanced-hunting-overview.md) в концентраторы событий и/или учетную запись [хранилища Azure.](/azure/event-hubs/)</span><span class="sxs-lookup"><span data-stu-id="26992-110">Defender for Endpoint supports streaming all the events available through [Advanced Hunting](advanced-hunting-overview.md) to an [Event Hubs](/azure/event-hubs/) and/or [Azure storage account](/azure/event-hubs/).</span></span>
+
+<span data-ttu-id="805e8-110">Microsoft Defender для конечной точки поддерживает потоковые [](/azure/event-hubs/) события, доступные с помощью [advanced Hunting](../defender/advanced-hunting-overview.md) для учетных записей хранения событий и/или [Azure.](/azure/storage/common/storage-account-overview)</span><span class="sxs-lookup"><span data-stu-id="805e8-110">Microsoft Defender for Endpoint supports streaming events available through [Advanced Hunting](../defender/advanced-hunting-overview.md) to an [Event Hubs](/azure/event-hubs/) and/or [Azure storage account](/azure/storage/common/storage-account-overview).</span></span>
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4r4ga]
 
 
-## <a name="in-this-section"></a><span data-ttu-id="26992-111">В этом разделе</span><span class="sxs-lookup"><span data-stu-id="26992-111">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="805e8-111">В этом разделе</span><span class="sxs-lookup"><span data-stu-id="805e8-111">In this section</span></span>
 
-<span data-ttu-id="26992-112">Статья</span><span class="sxs-lookup"><span data-stu-id="26992-112">Topic</span></span> | <span data-ttu-id="26992-113">Описание</span><span class="sxs-lookup"><span data-stu-id="26992-113">Description</span></span>
+<span data-ttu-id="805e8-112">Статья</span><span class="sxs-lookup"><span data-stu-id="805e8-112">Topic</span></span> | <span data-ttu-id="805e8-113">Описание</span><span class="sxs-lookup"><span data-stu-id="805e8-113">Description</span></span>
 :---|:---
-[<span data-ttu-id="26992-114">Поток событий Microsoft Defender для конечных точек в концентраторы событий Azure</span><span class="sxs-lookup"><span data-stu-id="26992-114">Stream Microsoft Defender for Endpoint events to Azure Event Hubs</span></span>](raw-data-export-event-hub.md)| <span data-ttu-id="26992-115">Узнайте о том, как включите потоковый API в клиенте и настройте Defender для конечной точки для потоковой передачи [advanced Hunting](advanced-hunting-overview.md) в концентраторы событий.</span><span class="sxs-lookup"><span data-stu-id="26992-115">Learn about enabling the streaming API in your tenant and configure Defender for Endpoint to stream [Advanced Hunting](advanced-hunting-overview.md) to Event Hubs.</span></span>
-[<span data-ttu-id="26992-116">Stream Defender для событий конечной точки в учетной записи хранения Azure</span><span class="sxs-lookup"><span data-stu-id="26992-116">Stream Defender for Endpoint events to your Azure storage account</span></span>](raw-data-export-storage.md)| <span data-ttu-id="26992-117">Узнайте о включите потоковый API в клиенте и настройте Defender для конечной точки для потоковой передачи [advanced Hunting](advanced-hunting-overview.md) в учетную запись хранилища Azure.</span><span class="sxs-lookup"><span data-stu-id="26992-117">Learn about enabling the streaming API in your tenant and configure Defender for Endpoint to stream [Advanced Hunting](advanced-hunting-overview.md) to your Azure storage account.</span></span>
+[<span data-ttu-id="805e8-114">Поток событий Microsoft Defender для конечных точек в концентраторы событий Azure</span><span class="sxs-lookup"><span data-stu-id="805e8-114">Stream Microsoft Defender for Endpoint events to Azure Event Hubs</span></span>](raw-data-export-event-hub.md)| <span data-ttu-id="805e8-115">Узнайте о том, как включите потоковый API в клиенте и настройте Defender для конечной точки для потоковой передачи [advanced Hunting](advanced-hunting-overview.md) в концентраторы событий.</span><span class="sxs-lookup"><span data-stu-id="805e8-115">Learn about enabling the streaming API in your tenant and configure Defender for Endpoint to stream [Advanced Hunting](advanced-hunting-overview.md) to Event Hubs.</span></span>
+[<span data-ttu-id="805e8-116">Stream Defender для событий конечной точки в учетной записи хранения Azure</span><span class="sxs-lookup"><span data-stu-id="805e8-116">Stream Defender for Endpoint events to your Azure storage account</span></span>](raw-data-export-storage.md)| <span data-ttu-id="805e8-117">Узнайте о включите потоковый API в клиенте и настройте Defender для конечной точки для потоковой передачи [advanced Hunting](advanced-hunting-overview.md) в учетную запись хранилища Azure.</span><span class="sxs-lookup"><span data-stu-id="805e8-117">Learn about enabling the streaming API in your tenant and configure Defender for Endpoint to stream [Advanced Hunting](advanced-hunting-overview.md) to your Azure storage account.</span></span>
 
 
-## <a name="related-topics"></a><span data-ttu-id="26992-118">Связанные статьи</span><span class="sxs-lookup"><span data-stu-id="26992-118">Related topics</span></span>
-- [<span data-ttu-id="26992-119">Обзор расширенных охоты</span><span class="sxs-lookup"><span data-stu-id="26992-119">Overview of Advanced Hunting</span></span>](advanced-hunting-overview.md)
-- [<span data-ttu-id="26992-120">Документация по центрам событий Azure</span><span class="sxs-lookup"><span data-stu-id="26992-120">Azure Event Hubs documentation</span></span>](/azure/event-hubs/)
-- [<span data-ttu-id="26992-121">служба хранилища Azure Документация по учетной записи</span><span class="sxs-lookup"><span data-stu-id="26992-121">Azure Storage Account documentation</span></span>](/azure/storage/common/storage-account-overview)
+## <a name="related-topics"></a><span data-ttu-id="805e8-118">Статьи по теме</span><span class="sxs-lookup"><span data-stu-id="805e8-118">Related topics</span></span>
+- [<span data-ttu-id="805e8-119">Обзор расширенных охоты</span><span class="sxs-lookup"><span data-stu-id="805e8-119">Overview of Advanced Hunting</span></span>](advanced-hunting-overview.md)
+- [<span data-ttu-id="805e8-120">Документация по центрам событий Azure</span><span class="sxs-lookup"><span data-stu-id="805e8-120">Azure Event Hubs documentation</span></span>](/azure/event-hubs/)
+- [<span data-ttu-id="805e8-121">служба хранилища Azure Документация по учетной записи</span><span class="sxs-lookup"><span data-stu-id="805e8-121">Azure Storage Account documentation</span></span>](/azure/storage/common/storage-account-overview)
