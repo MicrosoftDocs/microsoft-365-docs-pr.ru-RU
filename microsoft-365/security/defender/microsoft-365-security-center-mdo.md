@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.prod: m365-security
 ms.technology: m365d
-ms.openlocfilehash: 2322dbab657d6dd73ce79b3a8e52a3d968c45809
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: ec5d22caa52ffaa061637cb8c510a0efaf566b6a
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52770982"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782901"
 ---
 # <a name="microsoft-defender-for-office-365-in-the-microsoft-365-security-center"></a>Microsoft Defender для Office 365 в Центре безопасности Microsoft 365
 
@@ -56,7 +56,7 @@ ms.locfileid: "52770982"
 |Конфиденциальность данных||См. [Microsoft 365 центр соответствия требованиям](https://compliance.microsoft.com/homepage)||
 |Поиск|Поиск|||
 |Отчеты|Отчет|||
-|Контроль качества обслуживания|Settings|||
+|Контроль качества обслуживания|Параметры|||
 |
 
 Усовершенствованный[Центр безопасности Microsoft 365](./overview-security-center.md) на сайте <https://security.microsoft.com> объединяет возможности обеспечения безопасности из существующих порталов безопасности Майкрософт, включая Центр безопасности Microsoft Defender и Центр безопасности и соответствия требованиям Office 365. Усовершенствованный центр помогает группам безопасности более эффективно защитить организацию от угроз.
@@ -139,7 +139,7 @@ ms.locfileid: "52770982"
 
 В центре уведомлений отображаются исследования, созданные средствами автоматического исследования и реагирования. Это автоматическое самовосстановление в Microsoft 365 Defender может помочь группам по обеспечению безопасности благодаря автоматическому реагированию на определенные события.
 
-[Дополнительные сведения о центре уведомлений](m365d-action-center.md)
+[Дополнительные информацию о центре действий](m365d-action-center.md)
 
 #### <a name="threat-analytics"></a>Аналитика угроз
 

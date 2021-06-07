@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 46ea74d11f9c54cd1d967058433a74ef4c1ead19
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 018bc3549cd7a25df5bdd86d98d351e19027c31f
+ms.sourcegitcommit: bce733c1152dfbca782e716579074261e3c2ef65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52300240"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796034"
 ---
 # <a name="microsoft-defender-for-endpoint-device-control-removable-storage-access-control"></a>Microsoft Defender для управления конечными точками управления устройствами, служба хранилища управления доступом
 
@@ -32,7 +32,7 @@ Microsoft Defender для управления конечными устройс
 
 |Привилегии |Разрешение  |
 |---------|---------|
-|Access    |  Чтение, Запись, Выполнение       |
+|Доступ    |  Чтение, Запись, Выполнение       |
 |Режим действия    |    Аудит, разрешить, предотвратить     |
 |Поддержка CSP   |   Да      |
 |Поддержка GPO    |   Да      |
@@ -68,7 +68,7 @@ Microsoft Defender для управления конечными устройс
         - CdRomDevices
     - DeviceId
     - HardwareId
-    - InstancePathId
+    - InstancePathId: InstancePathId — это строка, которая однозначно идентифицирует устройство в системе, например USBSTOR\DISK&VEN_GENERIC&PROD_FLASH_DISK&REV_8.07\8735B611&0. Номер в конце **(например,&0)** представляет avaliable слот и может изменяться с устройства на устройство. Для наилучших результатов используйте под диктовую карточку в конце. Например, USBSTOR\DISK&VEN_GENERIC&PROD_FLASH_DISK&REV_8.07\8735B611*
     - FriendlyNameId
     - SerialNumberId
     - VID
@@ -196,7 +196,7 @@ Microsoft Defender для управления конечными устройс
 
 ### <a name="licensing"></a>Лицензирование
 
-Перед началом работы со съемными служба хранилища управления доступом необходимо подтвердить Microsoft 365 [подписку.](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=2) Для доступа и использования съемных служба хранилища управления доступом необходимо иметь Microsoft 365 E5.
+Перед началом работы со съемными служба хранилища управления доступом необходимо подтвердить Microsoft 365 [подписку.](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=2) Для доступа и использования съемных служба хранилища управления доступом необходимо иметь Microsoft 365 E3.
 
 ### <a name="deploying-policy-via-group-policy"></a>Развертывание политики с помощью групповой политики
 
@@ -243,7 +243,7 @@ Microsoft Defender для управления конечными устройс
 1. Для каждой группы создайте правило OMA-URI:
     - OMA-URI: 
 
-      /Vendor/MSFT/Defender/Configuration/DeviceControl/PolicyGroups/%7b **GroupGUID**%7d/GroupData
+      ./Vendor/MSFT/Defender/Configuration/DeviceControl/PolicyGroups/%7b **GroupGUID**%7d/GroupData
 
       Например, для любой съемной группы хранения и **CD/DVD** в примере ссылка должна быть:
 
@@ -257,7 +257,7 @@ Microsoft Defender для управления конечными устройс
 
     - OMA-URI: 
 
-      /Vendor/MSFT/Defender/Configuration/DeviceControl/PolicyRules/%7bFA6BE102-0784-4A2A-B010-A0BEBF68E1%7d/RuleData
+      ./Vendor/MSFT/Defender/Configuration/DeviceControl/PolicyRules/%7bFA6BE102-0784-4A2A-B010-A0BEBF68E1%7d/RuleData
 
       Например, для блокировки записи и выполнения доступа, но разрешить утвержденное правило **USBs** в примере, ссылка должна быть: 
 

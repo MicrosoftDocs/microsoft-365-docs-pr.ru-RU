@@ -20,12 +20,12 @@ ms.custom:
 - commerce_purchase
 description: Узнайте о регистрационных номерах и уведомлениях о недосмотре при покупке продуктов или служб Майкрософт.
 ms.date: 03/17/2021
-ms.openlocfilehash: 8ec97356f9859e928a8ee435f406c15f4f17a4c4
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 93cba6c1eebf0b41a94d6a6e3aac83693218f407
+ms.sourcegitcommit: bce733c1152dfbca782e716579074261e3c2ef65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332226"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52795974"
 ---
 # <a name="about-registration-numbers-and-under-review-notifications"></a>О регистрационных номерах и уведомлениях о просмотре
 
@@ -86,7 +86,7 @@ ms.locfileid: "52332226"
 | **Польша**  | [TIN](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Poland-TIN.pdf) — номер налоговой идентификации<br>[PESEL](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Poland-TIN.pdf) — национальный идентификационный номер, используемый в Польше (польская система Powszechny Elektroniczny Ewidencji Ludności, Универсальная электронная система регистрации населения) |  |  |  |  |
 | **Россия**  | [INN](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Russia-TIN.pdf) — налоговый идентификационный номер (русский "Individualiy Nomer Nalogoplatelshika") |  |  |  |  |
 | **Саудовская Аравия** | [TIN](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Saudi-Arabia-TIN.pdf) — номер налоговой идентификации |  |  |  |  |
-| **ЮАР** | TRN — номер регистрации трафика |  |  |  |  |
+| **ЮАР** | TRN — номер ссылки на налог |  |  |  |  |
 | **Южный Судан** | [TIN](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/) — номер налоговой идентификации |  |  |  |  |
 | **Таджикистан**  | INN — номер налоговой идентификации<br>EIN — идентификационный номер работодателя<br>KPP — это код, который отражает причину регистрации организации. |  |  |  |  |
 | **Таиланд** | [TIN](http://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/) — номер налоговой идентификации |  |  |  |  |

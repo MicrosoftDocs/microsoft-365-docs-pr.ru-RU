@@ -17,12 +17,12 @@ ms.collection:
 description: Узнайте, как включить надстройки Report Message или Report Phishing для Outlook и Outlook в Интернете, для отдельных пользователей или для всей организации.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 25c4f7d67fd4fa876544a17df0f4bc1abfd7b3e7
-ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
+ms.openlocfilehash: ff91cf4c99c9552ab5f5fecd7c6d2efee8d2d9a8
+ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52782937"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52789260"
 ---
 # <a name="enable-the-report-message-or-the-report-phishing-add-ins"></a>Включить сообщение отчета или надстройки для фишинга отчетов
 
@@ -53,7 +53,6 @@ ms.locfileid: "52782937"
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
 - Надстройка Сообщения отчетов и надстройка Report Phishing работают с большинством Microsoft 365 и следующими продуктами:
-
   - Outlook в Интернете
   - Outlook 2013 sp1 или более поздней
   - Outlook 2016 для Mac;
@@ -69,6 +68,9 @@ ms.locfileid: "52782937"
 - Администраторы должны быть членами группы ролей глобальных администраторов. Дополнительные сведения см. в статье [Разрешения в Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
 
 - Дополнительные сведения о том, как сообщить о сообщении с помощью функции Сообщение отчетов, см. в сообщении [Report false positives and false negatives in Outlook.](report-false-positives-and-false-negatives.md)
+
+> [!IMPORTANT]
+> Мы не рекомендуем встроенный опыт отчетов в Outlook, так как он не может использовать политику отправки [пользователей.](./user-submission.md) Рекомендуется использовать надстройку "Сообщение отчетов" или надстройку Report Phishing.
 
 ## <a name="get-the-report-message-add-in"></a>Получить надстройки сообщения отчета
 

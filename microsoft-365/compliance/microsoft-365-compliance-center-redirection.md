@@ -11,12 +11,12 @@ ms.topic: article
 localization_priority: Normal
 description: Узнайте об автоматической перенаправлении Office 365 пользователей центра безопасности и соответствия требованиям в центр Microsoft 365 соответствия требованиям..
 ms.collection: M365-security-compliance
-ms.openlocfilehash: fb667e8f19b26cbe229b3aceffe194a86133c261
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: b51b2e225c833ac499379bbee119f8cb6f4216e9
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52772540"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52782841"
 ---
 # <a name="redirect-users-from-the-office-365-security-and-compliance-center-to-the-microsoft-365-compliance-center"></a>Перенаправление пользователей из центра Office 365 безопасности и соответствия требованиям в центр Microsoft 365 соответствия требованиям
 

@@ -288,6 +288,9 @@
 ##### [Использование командлетов PowerShell для управления антивирусной программой в Microsoft Defender](use-powershell-cmdlets-microsoft-defender-antivirus.md)
 ##### [Использование инструментария управления Windows (WMI) для управления антивирусной программой в Microsoft Defender](use-wmi-microsoft-defender-antivirus.md)
 ##### [Использование средства mpcmdrun.exe для управления антивирусной программой в Microsoft Defender](command-line-arguments-microsoft-defender-antivirus.md)
+##### [Настройка уведомлений, отображающихся в конечных точках](configure-notifications-microsoft-defender-antivirus.md)
+##### [Укажите, могут ли пользователи локально изменять параметры политики антивирусной программы в Microsoft Defender](configure-local-policy-overrides-microsoft-defender-antivirus.md)
+##### [Укажите, могут ли пользователи видеть пользовательский интерфейс антивирусной программы в Microsoft Defender или взаимодействовать с ним](prevent-end-user-interaction-microsoft-defender-antivirus.md)
 
 #### [Развертывание антивирусной программы в Microsoft Defender и создание отчетов](deploy-manage-report-microsoft-defender-antivirus.md)
 ##### [Развертывание и включение антивирусной программы в Microsoft Defender](deploy-microsoft-defender-antivirus.md)
@@ -480,10 +483,10 @@
 ####### [Получить сведения о пользователе, связанном с оповещением](get-alert-related-user-info.md)
 
 ###### [Оценки уязвимостей и безопасных конфигураций]()
-####### [Экспорт методов и свойств оценки](get-assessmnt-1methods-properties.md)
-####### [Экспорт оценки безопасности конфигурации](get-assessmnt-secure-cfg.md)
-####### [Экспорт оценки инвентаризации программного обеспечения](get-assessmnt-software-inventory.md)
-####### [Экспорт оценки уязвимостей программного обеспечения](get-assessmnt-software-vulnerabilities.md)
+####### [Экспорт методов и свойств оценки](get-assessment-methods-properties.md)
+####### [Экспорт оценки безопасности конфигурации](get-assessment-secure-config.md)
+####### [Экспорт оценки инвентаризации программного обеспечения](get-assessment-software-inventory.md)
+####### [Экспорт оценки уязвимостей программного обеспечения](get-assessment-software-vulnerabilities.md)
 
 ###### [Автоматическое исследование]()
 ####### [Методы и свойства исследования](investigation.md)

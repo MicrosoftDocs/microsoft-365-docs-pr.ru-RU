@@ -17,12 +17,12 @@ ms.reviewer: pahuijbr
 manager: dansimp
 ms.technology: mde
 ms.date: 06/04/2021
-ms.openlocfilehash: 264a3b7a4a24c446048d6cfc6863f1ae9765566f
-ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+ms.openlocfilehash: a1b7891e9e397e7345eb73a94d6298a9da781d98
+ms.sourcegitcommit: bce733c1152dfbca782e716579074261e3c2ef65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52789187"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52795986"
 ---
 # <a name="manage-microsoft-defender-antivirus-updates-and-apply-baselines"></a>Управление антивирусная программа в Microsoft Defender обновлениями и применение базовых показателей
 
@@ -80,7 +80,7 @@ ms.locfileid: "52789187"
 Все обновления содержат 
 - улучшения производительности;
 - улучшения в обслуживании; и 
-- улучшения интеграции (Cloud, Microsoft 365 Defender).
+- улучшения интеграции (Cloud, [Microsoft 365 Defender).](/microsoft-365/security/defender/microsoft-365-defender)
 <br/>
 <details>
 <summary> Май-2021 (платформа: 4.18.2105.4 | Двигатель: 1.1.18200.4)</summary>
@@ -92,7 +92,8 @@ ms.locfileid: "52789187"
 &ensp;Этап поддержки: **безопасность и критически важные обновления**
     
 ### <a name="whats-new"></a>Новые возможности
-- Улучшения мониторинга поведения 
+- Улучшения мониторинга [поведения](client-behavioral-blocking.md) 
+- Функция [фильтрации уведомлений о](network-protection.md) фиксированной защите сети
 
 ### <a name="known-issues"></a>Известные проблемы
 Отсутствие известных проблем  
