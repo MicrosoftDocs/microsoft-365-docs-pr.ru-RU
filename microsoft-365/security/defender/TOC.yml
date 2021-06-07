@@ -322,7 +322,7 @@
                   items:
                     - name: Microsoft 365 Потоковый API
                       href: ../defender-endpoint/raw-data-export.md
-                    - name: Потоковая трансляция событий расширенной охоты в Центре событий Azure
+                    - name: Поток расширенных 100 000 охоты в центр событий Azure
                       href: ../defender-endpoint/raw-data-export-event-hub.md
                     - name: Потоковая передача событий расширенной охоты в учетную запись хранения
                       href: ../defender-endpoint/raw-data-export-storage.md

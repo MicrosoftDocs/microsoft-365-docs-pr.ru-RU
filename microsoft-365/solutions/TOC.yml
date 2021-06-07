@@ -13,7 +13,7 @@
       href: architecture-icons-templates.md
 - name: Основные решения Microsoft 365
   items:
-    - name: Настройка инфраструктуры для удаленной работы
+    - name: Настройка инфраструктуры для гибридной работы
       items:
         - name: Обзор
           href: empower-people-to-work-remotely.md
@@ -23,11 +23,11 @@
           href: empower-people-to-work-remotely-remote-access.md
         - name: Этап 3. Развертывание служб безопасности и соответствия требованиям
           href: empower-people-to-work-remotely-security-compliance.md
-        - name: "Этап\_4. Развертывание управления конечными точками"
+        - name: Шаг 4. Развертывание управления конечными точками
           href: empower-people-to-work-remotely-manage-endpoints.md
-        - name: "Этап\_5. Развертывание служб и приложений для повышения производительности"
+        - name: Этап 5. Развертывание служб и приложений для повышения производительности
           href: empower-people-to-work-remotely-teams-productivity-apps.md
-        - name: Этап 6. Обучение удаленных сотрудников
+        - name: Этап 6. Обучение сотрудников
           href: empower-people-to-work-remotely-train-monitor-usage.md
     - name: Настройка безопасной совместной работы с помощью Microsoft 365
       items:
@@ -45,7 +45,7 @@
               href: configure-teams-highly-sensitive-protection.md
             - name: Настройка команды с изоляцией для обеспечения безопасности
               href: secure-teams-security-isolation.md
-        - name: "Этап\_2. Настройка внешнего общего доступа"
+        - name: Этап 2. Настройка внешнего общего доступа
           items:
             - name: Обзор внешнего общего доступа
               href: collaborate-with-people-outside-your-organization.md
@@ -103,13 +103,13 @@
           href: tenant-management-overview.md
         - name: Этап 1. Ваши клиенты
           href: tenant-management-tenants.md
-        - name: "Этап\_2. Оптимальная сеть"
+        - name: Этап 2. Оптимальная сеть
           href: tenant-management-networking.md
-        - name: "Этап\_3. Удостоверение"
+        - name: Этап 3. Удостоверение
           href: tenant-management-identity.md
         - name: Этап 4. Миграция
           href: tenant-management-migration.md
-        - name: "Этап\_5. Управление устройствами и приложениями"
+        - name: Этап 5. Управление устройствами и приложениями
           href: tenant-management-device-management.md
     - name: Командная и совместная работа
       items:
@@ -121,7 +121,7 @@
               href: deploy-voice.md
             - name: Этап 1. Выбор голосового решения
               href: /MicrosoftTeams/cloud-voice-landing-page?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
-            - name: "Шаг\_2. Настройка телефонной системы"
+            - name: Шаг 2. Настройка телефонной системы
               href: /microsoftteams/setting-up-your-phone-system?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
             - name: Шаг 3. Настройка связи с ТСОП
               items:
@@ -225,7 +225,7 @@
       items:
         - name: Решения Microsoft 365 для корпорации Contoso
           href: contoso-case-study-solutions.md
-        - name: Отклик на COVID-19 и поддержка удаленной работы и работы в офисе
+        - name: Отклик на COVID-19 и поддержка гибридной работы
           href: contoso-remote-onsite-work.md
         - name: Изолированная команда для сверхсекретного проекта
           href: contoso-team-for-top-secret-project.md
