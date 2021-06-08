@@ -380,7 +380,7 @@ ms.locfileid: "51445689"
 7. <span data-ttu-id="384b0-599">Чтобы импортировать список пользователей для добавления в политики, выберите **Импортировать** для импорта CSV-файла (разделенных запятой значений).</span><span class="sxs-lookup"><span data-stu-id="384b0-599">To import a list of users to add to the policies, select **Import** to import a .csv (comma-separated values) file.</span></span> <span data-ttu-id="384b0-600">Файл должен иметь следующий формат. Также необходимо указать основные имена пользователей в файле:</span><span class="sxs-lookup"><span data-stu-id="384b0-600">The file must be in the following format and you must list the user principal names in the file:</span></span>
 
     ```csv
-    user principal name
+    имя субъекта-пользователя
     user1@domain.com
     user2@domain.com
     ```
