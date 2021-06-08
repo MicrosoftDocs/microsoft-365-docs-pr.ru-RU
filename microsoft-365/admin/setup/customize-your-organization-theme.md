@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8275da91-7a48-4591-94ab-3123a3f79530
 description: Узнайте, как изменить тему по умолчанию в верхней части панели навигации в Microsoft 365 и настроить ее в соответствие с логотипом или цветом вашей компании.
-ms.openlocfilehash: 5f6536d575ef055cda7a97a0860315c491100a1d
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: e609cbbc116f932d9c41f7ec797bf04a2a9c8ef8
+ms.sourcegitcommit: e1e275eb88153bafddf93327adf8f82318913a8d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635930"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52809051"
 ---
 # <a name="customize-the-microsoft-365-theme-for-your-organization"></a>Настройка темы Microsoft 365 для организации
 
@@ -39,7 +39,7 @@ ms.locfileid: "52635930"
 
 1. В центре администрирования перейдите на страницу **Параметры** org Параметры, а затем выберите вкладку \>  **профилей** Организации.
 
-2. На **вкладке профилей Организации** выберите тему **Организации**.
+2. На **вкладке профилей Организации** выберите **настраиваемые темы.**
 
 Все темы можно настроить с помощью следующих вкладок.
 

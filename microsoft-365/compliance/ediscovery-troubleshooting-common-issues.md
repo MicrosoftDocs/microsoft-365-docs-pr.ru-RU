@@ -19,12 +19,12 @@ ms.assetid: ''
 description: Узнайте об основных действиях по устранению неполадок, которые можно предпринять для решения распространенных проблем в Office 365 eDiscovery.
 siblings_only: true
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3d3d0830ac677ea812a0d09793de8214245d6b2a
-ms.sourcegitcommit: e5b1a900043e2e41650ea1cbf4227043729c6053
+ms.openlocfilehash: 26ca41774e1e09619fdf5e518258f8acf3a9d938
+ms.sourcegitcommit: e1e275eb88153bafddf93327adf8f82318913a8d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52060994"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52809123"
 ---
 # <a name="investigate-troubleshoot-and-resolve-common-ediscovery-issues"></a>Изучение, устранение неполадок и устранение распространенных проблем с электронным открытием
 
@@ -52,7 +52,7 @@ ms.locfileid: "52060994"
    > |Имя|RecipientType|
    > |---|---|
    > |Псевдоним, пользователь|MailUser|
-   > |Псевдоним, пользователь|User|
+   > |Псевдоним, пользователь|Пользователь.|
 
 3. Если возвращается несколько пользователей, найдите и исправьте конфликтующий объект.
 
@@ -90,6 +90,20 @@ ms.locfileid: "52060994"
 
 2. Используйте процедуры при ручном запросе обхода и повторной индексации [сайта,](/sharepoint/crawl-site-content) библиотеки или списка для повторного использования сайта.
 
+## <a name="errorissue-this-file-wasnt-exported-because-it-doesnt-exist-anymore-the-file-was-included-in-the-count-of-estimated-search-results-because-its-still-listed-in-the-index-the-file-will-eventually-be-removed-from-the-index-and-wont-cause-an-error-in-the-future"></a>Ошибка/проблема. Этот файл не экспортируется, так как он больше не существует. Файл был включен в число предполагаемых результатов поиска, так как он по-прежнему указан в индексе. Файл в конечном итоге будет удален из индекса и не вызовет ошибку в будущем.
+
+Вы можете увидеть эту ошибку при запуске поиска по обнаружению электронных данных, который включает SharePoint Online и One Drive For Business. eDiscovery использует индекс SPO для определения расположения файлов. Если файл был удален, но индекс SPO еще не обновлен, эта ошибка может возникнуть.
+
+### <a name="resolution"></a>Решение 
+Откройте расположение SPO и убедитесь, что этот файл действительно не существует.
+Рекомендуемое решение состоит в том, чтобы вручную реиндексовать сайт или подождать, пока сайт переустановит автоматический фоновый процесс.
+
+
+## <a name="errorissue-this-search-result-was-not-downloaded-as-it-is-a-folder-or-other-artefact-that-cant-be-downloaded-by-itself-any-items-inside-the-folder-or-library-will-be-downloaded"></a>Ошибка/проблема. Этот результат поиска не был скачен, так как это папка или другой артефакт, которые не могут быть загружены самостоятельно, все элементы в папке или библиотеке будут загружены.
+
+Вы можете увидеть эту ошибку при запуске поиска по обнаружению электронных данных, который включает SharePoint Online и One Drive For Business. Это означает, что мы собирались попытаться экспортировать элемент, который был включен в индекс, но он оказался папкой, поэтому мы не экспортируем его. Как упоминалось в ошибке, мы не экспортируем элементы папок, но экспортируем их содержимое.
+
+
 ## <a name="errorissue-search-fails-because-recipient-is-not-found"></a>Ошибка/проблема. Поиск не удается, так как получатель не найден
 
 Поиск по обнаружению электронных данных не удается с ошибкой `recipient not found` . Эта ошибка может возникнуть, если объект пользователя не может быть найден в Exchange Online Protection (EOP), так как объект не синхронизирован.
@@ -120,7 +134,7 @@ ms.locfileid: "52060994"
 
 2. Найдите количество данных, которые будут загружены в параметрах SearchResults и SearchStatistics.
 
-3. Запустите следующую команду:
+3. Выполните следующую команду:
 
    ```powershell
    Get-ComplianceSearchAction | FL
