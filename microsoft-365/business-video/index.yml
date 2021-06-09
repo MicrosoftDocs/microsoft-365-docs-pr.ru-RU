@@ -65,7 +65,7 @@ productDirectory:
       url: get-help-support.md
 additionalContent:
   sections:
-    - title: Дополнительные сведения
+    - title: Подробнее
       items:
         - title: Узнайте о Office
           summary: 'Узнайте, как использовать Word, Excel, PowerPoint и другие Office приложения.'

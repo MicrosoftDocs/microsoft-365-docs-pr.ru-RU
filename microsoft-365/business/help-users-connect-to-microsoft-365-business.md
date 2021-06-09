@@ -1,5 +1,5 @@
 ---
-title: Помогите пользователям подключиться к Microsoft 365 Бизнес Премиум
+title: Помогите пользователям подключиться к Microsoft 365 бизнес премиум
 f1.keywords:
 - NOCSH
 ms.author: efrene
@@ -35,14 +35,14 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/02/2021
 ms.locfileid: "51578454"
 ---
-# <a name="help-users-connect-to-microsoft-365-business-premium"></a><span data-ttu-id="747d8-103">Помогите пользователям подключиться к Microsoft 365 Бизнес Премиум</span><span class="sxs-lookup"><span data-stu-id="747d8-103">Help users connect to Microsoft 365 Business Premium</span></span>
+# <a name="help-users-connect-to-microsoft-365-business-premium"></a><span data-ttu-id="6761b-103">Помогите пользователям подключиться к Microsoft 365 бизнес премиум</span><span class="sxs-lookup"><span data-stu-id="6761b-103">Help users connect to Microsoft 365 Business Premium</span></span>
 
-<span data-ttu-id="747d8-104">После завершения настройки политики устройств по умолчанию будут на месте и готовы к применении.</span><span class="sxs-lookup"><span data-stu-id="747d8-104">After you complete setup, your default device policies are in place and ready to apply.</span></span> <span data-ttu-id="747d8-105">На мобильных устройствах пользователи загружают приложения Office.</span><span class="sxs-lookup"><span data-stu-id="747d8-105">On mobile devices, users download Office apps.</span></span> <span data-ttu-id="747d8-106">Политики применяются, когда пользователь вошел в свою работу или учетную запись школы.</span><span class="sxs-lookup"><span data-stu-id="747d8-106">Policies are then applied when the user signs in with their work or school account.</span></span> <span data-ttu-id="747d8-107">Перед тем, как политики применяются к ПК с Windows, например обновление на месте, необходимо еще немного поработать.</span><span class="sxs-lookup"><span data-stu-id="747d8-107">There's a bit more work to do before policies apply to Windows PCs, such as an in-place upgrade.</span></span> <span data-ttu-id="747d8-108">См. и поделитесь следующими разделами, которые помогут пользователям настроиться и подключаться к сети:</span><span class="sxs-lookup"><span data-stu-id="747d8-108">See and share the following topics to help users get set up and connected:</span></span>
+<span data-ttu-id="6761b-104">После завершения настройки политики устройств по умолчанию будут на месте и готовы к применении.</span><span class="sxs-lookup"><span data-stu-id="6761b-104">After you complete setup, your default device policies are in place and ready to apply.</span></span> <span data-ttu-id="6761b-105">На мобильных устройствах пользователи загружают Office приложения.</span><span class="sxs-lookup"><span data-stu-id="6761b-105">On mobile devices, users download Office apps.</span></span> <span data-ttu-id="6761b-106">Политики применяются, когда пользователь вошел в свою работу или учетную запись школы.</span><span class="sxs-lookup"><span data-stu-id="6761b-106">Policies are then applied when the user signs in with their work or school account.</span></span> <span data-ttu-id="6761b-107">Существует немного больше работы, прежде чем политики применяются к Windows компьютеров, таких как обновление на месте.</span><span class="sxs-lookup"><span data-stu-id="6761b-107">There's a bit more work to do before policies apply to Windows PCs, such as an in-place upgrade.</span></span> <span data-ttu-id="6761b-108">См. и поделитесь следующими разделами, которые помогут пользователям настроиться и подключаться к сети:</span><span class="sxs-lookup"><span data-stu-id="6761b-108">See and share the following topics to help users get set up and connected:</span></span>
   
-[<span data-ttu-id="747d8-109">Настройка устройств Windows для пользователей Microsoft 365 Бизнес Премиум</span><span class="sxs-lookup"><span data-stu-id="747d8-109">Set up Windows devices for Microsoft 365 Business Premium users</span></span>](set-up-windows-devices.md)
+[<span data-ttu-id="6761b-109">Настройка Windows устройств для Microsoft 365 бизнес премиум пользователей</span><span class="sxs-lookup"><span data-stu-id="6761b-109">Set up Windows devices for Microsoft 365 Business Premium users</span></span>](set-up-windows-devices.md)
   
-[<span data-ttu-id="747d8-110">Добавление устройств и профиля AutoPilot с помощью пошагового мастера</span><span class="sxs-lookup"><span data-stu-id="747d8-110">Use the step-by-step guide to add Autopilot devices and profile</span></span>](add-autopilot-devices-and-profile.md)
+[<span data-ttu-id="6761b-110">Добавление устройств и профиля AutoPilot с помощью пошагового мастера</span><span class="sxs-lookup"><span data-stu-id="6761b-110">Use the step-by-step guide to add Autopilot devices and profile</span></span>](add-autopilot-devices-and-profile.md)
   
-[<span data-ttu-id="747d8-111">Настройка мобильных устройств для пользователей Microsoft 365 Бизнес Премиум</span><span class="sxs-lookup"><span data-stu-id="747d8-111">Set up mobile devices for Microsoft 365 Business Premium users</span></span>](set-up-mobile-devices.md)
+[<span data-ttu-id="6761b-111">Настройка мобильных устройств для Microsoft 365 бизнес премиум пользователей</span><span class="sxs-lookup"><span data-stu-id="6761b-111">Set up mobile devices for Microsoft 365 Business Premium users</span></span>](set-up-mobile-devices.md)
   
 
