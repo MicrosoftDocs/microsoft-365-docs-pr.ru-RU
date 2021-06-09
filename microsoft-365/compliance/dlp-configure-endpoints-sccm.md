@@ -1,5 +1,5 @@
 ---
-title: Подключение устройств Windows 10 с помощью Configuration Manager
+title: Подключение устройств Windows 10 с помощью Configuration Manager
 f1.keywords: NOCSH
 ms.author: chrfox
 author: chrfox
@@ -21,7 +21,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/20/2021
 ms.locfileid: "51893300"
 ---
-# <a name="onboard-windows-10-devices-using-configuration-manager"></a>Подключение устройств Windows 10 с помощью Configuration Manager
+# <a name="onboard-windows-10-devices-using-configuration-manager"></a>Подключение устройств Windows 10 с помощью Configuration Manager
 
 **Область применения:**
 

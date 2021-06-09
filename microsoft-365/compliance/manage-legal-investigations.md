@@ -1,5 +1,5 @@
 ---
-title: Управление юридическими расследованиями в Microsoft 365
+title: Управление расследованиями в Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -16,7 +16,7 @@ search.appverid:
 ms.assetid: 2e5fbe9f-ee4d-4178-8ff8-4356bc1b168e
 ms.custom:
 - seo-marvel-apr2020
-description: Для управления юридическим расследованием вашей организации используйте случаи, & проверки соответствия требованиям безопасности в Office 365.
+description: Используйте случаи проверки электронных данных в Центре & безопасности в Office 365 для управления юридическим расследованием организации.
 ms.openlocfilehash: c052daab8de33e21cccc3c638ab4995a007f60fb
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -24,7 +24,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50903463"
 ---
-# <a name="manage-legal-investigations-in-microsoft-365"></a>Управление юридическими расследованиями в Microsoft 365
+# <a name="manage-legal-investigations-in-microsoft-365"></a>Управление расследованиями в Microsoft 365
 
 У организаций есть много причин для реагирования на судебное дело с участием определенных руководителей или других сотрудников в вашей организации. Это может потребовать быстрого поиска и сохранения дополнительных сведений, определенных для исследования, в электронной почте, документах, беседах с мгновенными сообщениями и других расположениях контента, используемых людьми в их ежедневной работе. Эти и многие другие аналогичные действия можно выполнить с помощью средств защиты от электронных данных в центре безопасности и соответствия требованиям.
   
@@ -48,19 +48,19 @@ ms.locfileid: "50903463"
   
 - [Создайте отчет о удержании электронных](create-a-report-on-holds-in-ediscovery-cases.md) данных, содержащий сведения обо всех удержаниях, связанных с делами об обнаружении электронных данных в организации.
 
-- [Добавьте почтовые ящики и расположения OneDrive](use-a-script-to-add-users-to-a-hold-in-ediscovery.md) для списка пользователей в хранилище электронных данных.
+- [Добавление почтовых](use-a-script-to-add-users-to-a-hold-in-ediscovery.md) ящиков и OneDrive расположения для списка пользователей в удержание электронных данных.
   
-## <a name="manage-legal-investigations-with-the-advanced-ediscovery-solution-in-microsoft-365"></a>Управление юридическими расследованиями с помощью решения advanced eDiscovery в Microsoft 365
+## <a name="manage-legal-investigations-with-the-advanced-ediscovery-solution-in-microsoft-365"></a>Управление юридическими расследованиями с помощью Advanced eDiscovery решения в Microsoft 365
 
-Решение advanced eDiscovery в Microsoft 365 построено на существующих возможностях электронного открытия и аналитики в Office 365. Это новое решение под названием *Advanced eDiscovery* предоставляет конечный рабочий процесс для сохранения, сбора, анализа, анализа и экспорта контента, отвечающей внутренним и внешним расследованиям организации. Он также позволяет юридическим группам управлять всем процессом уведомления о удержании для связи с хранителями, участвующими в деле.
+Решение Advanced eDiscovery в Microsoft 365 построено на существующих возможностях электронного открытия и аналитики в Office 365. Это новое решение, *называемое Advanced eDiscovery,* предоставляет конечный рабочий процесс для сохранения, сбора, анализа, анализа и экспорта контента, отвечающей внутренним и внешним расследованиям организации. Он также позволяет группе юристов управлять всем рабочим процессом уведомления об удержании по юридическим причинам, чтобы общаться с хранителями, участвующими в деле.
 
-Для расширенных электронных открытий требуется подписка на E5 для вашей организации Microsoft 365 или Office 365. Дополнительные сведения о лицензировании см. в дополнительных сведениях [о настройках расширенных электронных данных.](get-started-with-advanced-ediscovery.md#step-1-verify-and-assign-appropriate-licenses)
+Advanced eDiscovery требуется подписка на E5 для Microsoft 365 или Office 365 организации. Дополнительные сведения о лицензировании см. в [Advanced eDiscovery.](get-started-with-advanced-ediscovery.md#step-1-verify-and-assign-appropriate-licenses)
 
-Вот краткий обзор встроенного рабочего процесса в advanced eDiscovery. Дополнительные сведения см. в дополнительных сведениях Об управлении [процессом advanced eDiscovery.](create-and-manage-advanced-ediscoveryv2-case.md#manage-the-workflow)
+Ниже представлен краткий обзор встроенного рабочего процесса в Advanced eDiscovery. Дополнительные сведения см. [в Advanced eDiscovery рабочего процесса.](create-and-manage-advanced-ediscoveryv2-case.md#manage-the-workflow)
 
 - [Создайте дело,](create-and-manage-advanced-ediscoveryv2-case.md#create-a-case) чтобы начать работу.
 
-- [Управление хранителями,](managing-custodians.md) добавляя их в дело и размещая юридическое удержание контента в своем почтовом ящике, учетной записи OneDrive и Microsoft Teams, в которых они являются членами.
+- [Управление хранителями,](managing-custodians.md) добавляя их в дело и размещая юридическое удержание контента в своем почтовом ящике, OneDrive учетной записи и Microsoft Teams они являются членами.
 
 - [Управление связью с](managing-custodian-communications.md) хранителями путем автоматизации процесса уведомления о юридическом удержании.
 
@@ -74,4 +74,4 @@ ms.locfileid: "50903463"
 
 - [Экспорт данных дела для](exporting-data-ediscover20.md) рассмотрения внешним адвокатом.
 
-- [Управление длительными заданиями](managing-jobs-ediscovery20.md) в advanced eDiscovery.
+- [Управление длительными заданиями](managing-jobs-ediscovery20.md) в Advanced eDiscovery.

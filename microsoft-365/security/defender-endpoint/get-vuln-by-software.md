@@ -59,9 +59,9 @@ GET /api/Software/{Id}/vulnerabilities
 
 | Имя        | Тип | Описание
 |:--------------|:-------|:--------------|
-| Authorization | String | Bearer {token}. **Обязательно**.
+| Авторизация | String | Bearer {token}. **Обязательно**.
 
-## <a name="request-body"></a>Текст запроса
+## <a name="request-body"></a>Тело запроса
 переменная Empty
 
 ## <a name="response"></a>Отклик

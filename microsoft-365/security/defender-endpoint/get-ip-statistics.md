@@ -65,7 +65,7 @@ GET /api/ips/{ip}/stats
 
 Имя | Тип | Описание
 :---|:---|:---
-Authorization | String | Bearer {token}. **Обязательное поле**.
+Авторизация | String | Bearer {token}. **Обязательное поле**.
 
 ## <a name="request-uri-parameters"></a>Запрос параметров URI
 
@@ -73,7 +73,7 @@ Authorization | String | Bearer {token}. **Обязательное поле**.
 :---|:---|:---
 lookBackHours | Int32 | Определяет часы поиска, чтобы получить статистику. По умолчанию до 30 дней. **Необязательное поле**.
 
-## <a name="request-body"></a>Текст запроса
+## <a name="request-body"></a>Тело запроса
 переменная Empty
 
 ## <a name="response"></a>Отклик

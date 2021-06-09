@@ -64,7 +64,7 @@ ms.locfileid: "52770401"
 
 Если в настоящее время вы защищаете документы в SharePoint с помощью SharePoint управления правами на информацию (IRM), обязательно ознакомьтесь с разделом управления правами на SharePoint информации [(IRM)](#sharepoint-information-rights-management-irm-and-sensitivity-labels) и меток конфиденциальности на этой странице. 
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Требования
 
 Эти новые возможности работают только с [метами конфиденциальности.](sensitivity-labels.md) Если в настоящее время у вас есть метки Azure Information Protection, сначала перенаселите их на метки конфиденциальности, чтобы включить эти функции для новых файлов, которые вы загружаете. Дополнительные сведения об этом процессе см. в статье [Перенос меток Azure Information Protection на платформу унифицированных меток конфиденциальности](/azure/information-protection/configure-policy-migrate-labels).
 
@@ -242,7 +242,7 @@ SharePoint управления правами на информацию [(IRM)]
 
 В качестве альтернативы глобальный администратор или администратор SharePoint может запустить команды [Unlock-SPOSensitivityLabelEncryptedFile,](/powershell/module/sharepoint-online/unlock-sposensitivitylabelencryptedFile) которые удаляют метку конфиденциальности и шифрование. [](/sharepoint/sharepoint-admin-role) Этот комдлет выполняется, даже если у администратора нет разрешений на доступ к сайту или файлу, или если служба управления правами Azure недоступна. 
 
-Например,
+Пример.
 
 ```powershell
 Unlock-SPOSensitivityLabelEncryptedFile -FileUrl "https://contoso.com/sites/Marketing/Shared Documents/Doc1.docx" -JustificationText "Need to decrypt this file"

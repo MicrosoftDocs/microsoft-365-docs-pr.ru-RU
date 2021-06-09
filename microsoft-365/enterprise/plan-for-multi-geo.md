@@ -81,6 +81,6 @@ ms.locfileid: "50927536"
 
 После настройки не забудьте [перенести библиотеки OneDrive пользователей](move-onedrive-between-geo-locations.md), если это необходимо для работы пользователей в предпочтительных расположениях данных.
 
-## <a name="related-topics"></a>Родственные темы
+## <a name="related-topics"></a>Статьи по теме
 
 [Настройка обнаружения электронных данных в Microsoft 365 Multi-Geo](./multi-geo-ediscovery-configuration.md)
