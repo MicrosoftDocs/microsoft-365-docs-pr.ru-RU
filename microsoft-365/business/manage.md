@@ -21,7 +21,7 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 27ff1678-865a-4707-8145-e1155aa815d6
-description: Узнайте, как управлять Microsoft 365 для бизнес-задач администрирования, мобильных устройств, компьютеров Windows 10 и многих таких задач.
+description: Научитесь управлять Microsoft 365 для бизнес-задач администрирования, мобильных устройств, Windows 10 компьютеров и многих таких задач.
 ms.openlocfilehash: 0ad2326bdcc785c0d8d1a52dee74187cdc1668e7
 ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
@@ -31,7 +31,7 @@ ms.locfileid: "51578374"
 ---
 # <a name="manage-microsoft-365-for-business"></a>Управление Microsoft 365 для бизнеса
 
-## <a name="general-microsoft-365-for-business-admin-tasks"></a>General Microsoft 365 для задач администрирования бизнеса
+## <a name="general-microsoft-365-for-business-admin-tasks"></a>Общие Microsoft 365 для задач администрирования бизнеса
 
 Большая часть [контента администратора](/office365/admin/admin-home) для Office 365 также применяется к Microsoft 365 для бизнеса.
 
@@ -41,9 +41,9 @@ ms.locfileid: "51578374"
     
 - [Microsoft 365 для функций безопасности бизнеса](security-features.md)
     
-- [Как функции защиты в Microsoft 365 для бизнес-карты до параметров Intune](map-protection-features-to-intune-settings.md)
+- [Как функции защиты в Microsoft 365 для бизнес-карты к настройкам Intune](map-protection-features-to-intune-settings.md)
     
-В следующих разделах по использованию Microsoft 365 для бизнеса для защиты данных организации на ПК и мобильных устройствах.
+В следующих разделах по использованию Microsoft 365 для защиты данных организации на ПК и мобильных устройствах.
   
 ## <a name="manage-mobile-devices"></a>Управление мобильными устройствами
 
@@ -57,17 +57,17 @@ ms.locfileid: "51578374"
     
 ## <a name="manage-windows-10-pcs"></a>Управление компьютерами с Windows 10
 
-- [Настройка устройств Windows для Microsoft 365 для бизнес-пользователей](set-up-windows-devices.md)
+- [Настройка Windows устройств для Microsoft 365 для бизнес-пользователей](set-up-windows-devices.md)
 
-    Ознакомьтесь с подготовкой к развертыванию клиента [Office в Microsoft 365 для](prepare-for-office-client-deployment.md) бизнеса перед автоматической установкой Office. 
+    Чтение [Подготовка к развертыванию Office с](prepare-for-office-client-deployment.md) помощью Microsoft 365 для бизнеса перед автоматической установкой Office. 
     
 - [Настройка параметров защиты устройств для устройств с Windows 10](protection-settings-for-windows-10-pcs.md)
     
-    Чтобы убедиться, что это сработало, см. в руб. Проверка параметров защиты устройств [на устройствах Windows 10.](validate-settings-on-windows-10-pcs.md) 
+    Чтобы убедиться, что это сработало, см. [в руб. Проверка параметров](validate-settings-on-windows-10-pcs.md)защиты устройств на Windows 10 устройствах. 
     
 - [Настройка параметров защиты приложений для устройств с Windows 10](protection-settings-for-windows-10-devices.md)
     
-    Чтобы убедиться, что это сработало, см. в приложении [Validate settings protection settings on Windows 10 PCs.](validate-protection-settings-on-windows-10-pcs.md) 
+    Чтобы убедиться, что это сработало, см. в приложении [Validate settings protection settings on Windows 10 ПК.](validate-protection-settings-on-windows-10-pcs.md) 
     
 - [Удаление данных организации с устройств](remove-company-data.md)
     
@@ -75,7 +75,7 @@ ms.locfileid: "51578374"
     
 ### <a name="use-autopilot-to-deploy-windows-10-devices"></a>Развертывание устройств с Windows 10 с помощью AutoPilot
 
-В следующих темах описано, как можно использовать Windows AutoPilot в Microsoft 365 для бизнеса для предварительной настройки устройств Windows 10.
+Ниже описано, как можно использовать Windows AutoPilot в Microsoft 365 для бизнеса для предварительной настройки Windows 10 устройств.
   
 - [Добавление устройств и профиля AutoPilot с помощью пошагового мастера](add-autopilot-devices-and-profile.md)
     
@@ -97,6 +97,6 @@ ms.locfileid: "51578374"
     
 - [Миграция в Microsoft 365 для бизнеса](migrate-to-microsoft-365-business.md)
     
-- [Включить устройства Windows 10 с помощью домена, управляемые Microsoft 365 для бизнеса](manage-windows-devices.md)
+- [Включить доступ к Windows 10 с помощью Microsoft 365 для бизнеса](manage-windows-devices.md)
     
 - [Дополнительные функции безопасности](security-features.md#additional-security-features)

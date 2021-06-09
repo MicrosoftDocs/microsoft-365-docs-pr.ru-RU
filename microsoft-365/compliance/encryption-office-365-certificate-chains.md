@@ -1,5 +1,5 @@
 ---
-title: Цепочки шифрования Microsoft 365
+title: Microsoft 365 шифрования
 f1.keywords:
 - NOCSH
 ms.author: kvice
@@ -24,23 +24,23 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50907723"
 ---
-# <a name="microsoft-365-encryption-chains"></a>Цепочки шифрования Microsoft 365
+# <a name="microsoft-365-encryption-chains"></a>Microsoft 365 шифрования
 
-Microsoft 365 использует несколько различных поставщиков сертификатов. Ниже описан полный список известных корневых сертификатов Microsoft 365, с которыми клиенты могут столкнуться при доступе к Microsoft 365. Сведения о сертификатах, которые необходимо установить в собственной инфраструктуре, см. в справке [Plan for third-party SSL certificates for Microsoft 365.](../enterprise/plan-for-third-party-ssl-certificates.md) Следующие сведения сертификата применимы ко всем мировым и национальным облачным экземплярам Microsoft 365.
+Microsoft 365 использует несколько различных поставщиков сертификатов. Ниже описан полный список известных корневых сертификатов Microsoft 365, с которыми клиенты могут столкнуться при доступе к Microsoft 365. Сведения о сертификатах, которые может потребоваться установить в собственной инфраструктуре, см. в справке [Plan for third-party SSL certificates for Microsoft 365.](../enterprise/plan-for-third-party-ssl-certificates.md) Следующие сведения сертификата применимы ко всем мировым и национальным облачным экземплярам Microsoft 365.
 
 Последнее обновление: **10/16/2020**
 
 >[!NOTE]
->Сведения о сертификатах, применимые к клиентам DoD и **GCC High,** см. в справке о цепочках шифрования [Microsoft 365 - DOD и GCC High.](encryption-office-365-certificate-chains-itar.md)
+>Сведения о сертификатах, применимые к клиентам dod и **GCC High,** см. в Microsoft 365 цепочках шифрования [- DOD и GCC High.](encryption-office-365-certificate-chains-itar.md)
 
 | **Тип сертификата** | **Загрузка P7b** | **Конечные точки CRL** | **Конечные точки OCSP** | **Конечные точки AIA** |
 | --- | --- | --- | --- | --- |
-| Общедоступные корневые сертификаты | [Пакет корневого сертификата Microsoft 365 (P7B)](https://download.microsoft.com/download/4/a/b/4ab1c940-826b-444b-b287-b7a902e68da0/m365_root_certs_20201012.p7b) | crl.globalsign.net<br>www.d-trust.net | Н/Д | Н/Д |
-| Общедоступные промежуточные сертификаты | [Пакет промежуточных сертификатов Microsoft 365 (P7B)](https://download.microsoft.com/download/1/4/7/14777f28-3fde-4958-aebf-bd192a4a7fac/m365_intermediate_certs_20201013.p7b) | cdp1.public-trust.com<br>crl.cnnic.cn<br>crl.entrust.net<br>crl.globalsign.com<br>crl.globalsign.net<br>crl.identrust.com<br>crl.thawte.com<br>crl3.digicert.com<br>crl4.digicert.com<br>s1.symcb.com<br>www.d-trust.net | isrg.trustid.ocsp.identrust.com<br>ocsp.digicert.com<br>ocsp.entrust.net<br>ocsp.globalsign.com<br>ocsp.omniroot.com<br>ocsp.startssl.com<br>ocsp.thawte.com<br>ocsp2.globalsign.com<br>ocspcnnicroot.cnnic.cn<br>root-c3-ca2-2009.ocsp.d-trust.net<br>root-c3-ca2-ev-2009.ocsp.d-trust.net<br>s2.symcb.com | aia.startssl.com<br>apps.identrust.com<br>cacert.omniroot.com<br>www.cnnic.cn |
+| Общедоступные корневые сертификаты | [Microsoft 365 Корневой пакет сертификатов (P7B)](https://download.microsoft.com/download/4/a/b/4ab1c940-826b-444b-b287-b7a902e68da0/m365_root_certs_20201012.p7b) | crl.globalsign.net<br>www.d-trust.net | Н/Д | Н/Д |
+| Общедоступные промежуточные сертификаты | [Microsoft 365 Промежуточный пакет сертификатов (P7B)](https://download.microsoft.com/download/1/4/7/14777f28-3fde-4958-aebf-bd192a4a7fac/m365_intermediate_certs_20201013.p7b) | cdp1.public-trust.com<br>crl.cnnic.cn<br>crl.entrust.net<br>crl.globalsign.com<br>crl.globalsign.net<br>crl.identrust.com<br>crl.thawte.com<br>crl3.digicert.com<br>crl4.digicert.com<br>s1.symcb.com<br>www.d-trust.net | isrg.trustid.ocsp.identrust.com<br>ocsp.digicert.com<br>ocsp.entrust.net<br>ocsp.globalsign.com<br>ocsp.omniroot.com<br>ocsp.startssl.com<br>ocsp.thawte.com<br>ocsp2.globalsign.com<br>ocspcnnicroot.cnnic.cn<br>root-c3-ca2-2009.ocsp.d-trust.net<br>root-c3-ca2-ev-2009.ocsp.d-trust.net<br>s2.symcb.com | aia.startssl.com<br>apps.identrust.com<br>cacert.omniroot.com<br>www.cnnic.cn |
 
 Расширь корневые и промежуточные разделы ниже, чтобы узнать дополнительные сведения о поставщиках сертификатов.
 
-## <a name="microsoft-365-root-certificate-details"></a>**Сведения о корневом сертификате Microsoft 365**
+## <a name="microsoft-365-root-certificate-details"></a>**Microsoft 365 Сведения о корневом сертификате**
 
 ### <a name="baltimore-cybertrust-root"></a>**Baltimore CyberTrust Root**
 
@@ -245,7 +245,7 @@ Microsoft 365 использует несколько различных пос�
 | **Thumbprint (SHA-256)** | 9ACFAB7E43C8D880D06B262A94DEEEE4B4659989C3D0CAF19BAF6405E41AB7DF |
 | **Пин-код (SHA-256)** | JbQBUG5JMJUoI6brnx0x3vZF6jilxsapbXGVfjhN8Fg= |
 
-## <a name="microsoft-365-intermediate-certificate-details"></a>**Сведения о промежуточном сертификате Microsoft 365**
+## <a name="microsoft-365-intermediate-certificate-details"></a>**Microsoft 365 Промежуточные сведения сертификата**
 
 ### <a name="cnnic-sha256-ssl"></a>**CNNIC SHA256 SSL**
 
@@ -838,7 +838,7 @@ Microsoft 365 использует несколько различных пос�
 
 ### <a name="verizon-akamai-sureserver-ca-g14-sha2"></a>**Verizon Akamai SureServer CA G14-SHA2**
 
-| **Тема** | CN=Verizon Akamai SureServer CA G14-SHA2<br>OU=Cybertrust<br>Корпоративные решения O=Verizon<br>L=Amsterdam<br>C=NL |
+| **Тема** | CN=Verizon Akamai SureServer CA G14-SHA2<br>OU=Cybertrust<br>Решения O=Verizon Enterprise<br>L=Amsterdam<br>C=NL |
 | --- | --- |
 | **Издатель** | Корень кибертруста CN=Baltimore<br>OU=CyberTrust<br>O=Baltimore<br>C=IE |
 | **Серийный номер** | 07:27:A4:6B |

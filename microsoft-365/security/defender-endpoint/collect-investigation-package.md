@@ -69,10 +69,10 @@ POST https://api.securitycenter.microsoft.com/api/machines/{id}/collectInvestiga
 
 Имя | Тип | Описание
 :---|:---|:---
-Authorization | String | Bearer {token}. **Обязательное поле**.
+Авторизация | String | Bearer {token}. **Обязательное поле**.
 Content-Type | string | application/json. **Обязательное поле**.
 
-## <a name="request-body"></a>Текст запроса
+## <a name="request-body"></a>Тело запроса
 В теле запроса поставляем объект JSON со следующими параметрами:
 
 Параметр | Тип    | Описание

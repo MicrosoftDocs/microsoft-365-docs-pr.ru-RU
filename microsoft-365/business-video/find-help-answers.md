@@ -1,5 +1,5 @@
 ---
-title: Поиск документы и обучение
+title: Поиск документов и обучение
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -28,7 +28,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/06/2021
 ms.locfileid: "52245232"
 ---
-# <a name="find-docs-and-training"></a>Поиск документы и обучение
+# <a name="find-docs-and-training"></a>Поиск документов и обучение
 
 Если у вас есть вопрос или вам нужна помощь Microsoft 365 бизнес премиум, у вас есть несколько вариантов получения помощи.
 

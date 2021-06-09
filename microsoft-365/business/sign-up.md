@@ -1,5 +1,5 @@
 ---
-title: Регистрация в Microsoft 365 бизнес премиум
+title: Регистрация в Microsoft 365 бизнес премиум
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -33,7 +33,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/06/2021
 ms.locfileid: "52244763"
 ---
-# <a name="sign-up-for-microsoft-365-business-premium"></a>Регистрация в Microsoft 365 бизнес премиум
+# <a name="sign-up-for-microsoft-365-business-premium"></a>Регистрация в Microsoft 365 бизнес премиум
 
 Чтобы узнать, что Microsoft 365 бизнес премиум, просмотрите [короткое](../business-video/what-is-microsoft-365.md) видео и просмотрите [обзор.](microsoft-365-business-overview.md)
 

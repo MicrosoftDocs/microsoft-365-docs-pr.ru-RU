@@ -1,5 +1,5 @@
 ---
-title: Управление паролями учетных записей пользователей Microsoft 365
+title: Управление Microsoft 365 паролями учетных записей пользователей
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -21,7 +21,7 @@ search.appverid:
 - MED150
 - BCS160
 ms.assetid: 98ca5b3f-f720-4d8e-91be-fe656548a25a
-description: Узнайте, как управлять паролями учетных записей пользователей Microsoft 365.
+description: Узнайте, как управлять паролями Microsoft 365 учетных записей пользователей.
 ms.openlocfilehash: 2062da49310121ec18f7ce21f523531f10d6df9b
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -29,11 +29,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50905096"
 ---
-# <a name="manage-microsoft-365-user-account-passwords"></a>Управление паролями учетных записей пользователей Microsoft 365
+# <a name="manage-microsoft-365-user-account-passwords"></a>Управление Microsoft 365 паролями учетных записей пользователей
 
-*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
+*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
 
-Пароли учетных записей пользователей Microsoft 365 можно управлять несколькими способами в зависимости от конфигурации удостоверения. Вы можете управлять учетными записями пользователей в центре администрирования [Microsoft 365,](../admin/add-users/index.yml)в службах домена Active Directory (AD DS) или в центре администрирования Azure Active Directory (Azure AD).
+Вы можете управлять Microsoft 365 паролями учетных записей пользователей несколькими способами, в зависимости от конфигурации удостоверения. Вы можете управлять учетными записями пользователей в центре [администрирования Microsoft 365,](../admin/add-users/index.yml)в службе домена Active Directory (AD DS) или в центре администрирования Azure Active Directory Azure AD.
 
 ## <a name="plan-for-where-and-how-you-will-manage-your-user-account-passwords"></a>Планирование, где и как вы будете управлять паролями учетных записей пользователей
 

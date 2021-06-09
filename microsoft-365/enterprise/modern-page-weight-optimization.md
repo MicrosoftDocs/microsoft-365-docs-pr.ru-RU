@@ -20,7 +20,7 @@ ms.custom:
 ms.reviewer: sstewart
 search.appverid:
 - MET150
-description: Узнайте, как использовать средство диагностики страниц для оптимизации веса страниц на современных веб-страницах SharePoint Online.
+description: Узнайте, как использовать средство диагностики страниц для оптимизации веса страниц SharePoint веб-страниц Online.
 ms.openlocfilehash: 780d8ca0debbc5efb834f8f3543b9a5a8d168108
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT

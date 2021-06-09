@@ -118,7 +118,7 @@ Teams файлы хранятся в SharePoint Online, а Teams файлы ча
 
 Skype для бизнеса больше не доступны.  [Skype для бизнеса Online будет отправлен в отставку](/lifecycle/announcements/skype-for-business-online-retirement) 31 июля 2021 г. После этого служба перестает быть доступной. 
   
-## <a name="related-topics"></a>Связанные статьи 
+## <a name="related-topics"></a>Статьи по теме 
  
 [Как запросить перемещение данных](request-your-data-move.md)
     

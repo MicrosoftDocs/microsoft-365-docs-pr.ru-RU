@@ -1,5 +1,5 @@
 ---
-title: Цепочки шифрования Microsoft 365 — DoD и GCC High
+title: Microsoft 365 шифрования — dod и GCC High
 f1.keywords:
 - NOCSH
 ms.author: kvice
@@ -16,7 +16,7 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - Strat_O365_IP
-description: Полный список корневых сертификатов и органов сертификации (CAS) в Microsoft 365.
+description: Полный список сертификатов dod и GCC с высокими корневыми сертификатами и органами сертификации (CAs) в Microsoft 365.
 ms.openlocfilehash: 016c7d6b4c5557b7930763c2628525cc3c2c409f
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -24,24 +24,24 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50927809"
 ---
-# <a name="microsoft-365-encryption-chains---dod-and-gcc-high"></a>Цепочки шифрования Microsoft 365 — DoD и GCC High
+# <a name="microsoft-365-encryption-chains---dod-and-gcc-high"></a>Microsoft 365 шифрования — dod и GCC High
 
-Microsoft 365 использует несколько различных поставщиков сертификатов. Ниже описан полный список известных корневых сертификатов Microsoft 365, с которыми могут столкнуться клиенты DoD и **GCC High** при доступе к Microsoft 365. Сведения о сертификатах, которые необходимо установить в собственной инфраструктуре, см. в справке [Plan for third-party SSL certificates for Microsoft 365.](../enterprise/plan-for-third-party-ssl-certificates.md)
+Microsoft 365 использует несколько различных поставщиков сертификатов. Ниже описан полный список известных корневых сертификатов Microsoft 365, с которыми могут столкнуться клиенты **dod** и GCC High при доступе к Microsoft 365. Сведения о сертификатах, которые может потребоваться установить в собственной инфраструктуре, см. в справке [Plan for third-party SSL certificates for Microsoft 365.](../enterprise/plan-for-third-party-ssl-certificates.md)
 
 Следующие сведения сертификата применимы ко всем клиентам **DoD и GCC High.**
 
 Последнее обновление: **10/16/2020**
 
 >[!NOTE]
->Сведения о сертификатах, применимые к клиентам по всему миру, см. в справке о цепочках шифрования [Microsoft 365.](encryption-office-365-certificate-chains.md)
+>Сведения о сертификатах, применимые к клиентам по всему миру, см. в Microsoft 365 [цепочках шифрования.](encryption-office-365-certificate-chains.md)
 
 | **Тип сертификата** | **Загрузка P7b** | **Конечные точки CRL** | **Конечные точки OCSP** |
 | --- | --- | --- | --- | --- |
-| Общедоступные надежные корневые и промежуточные сертификаты | [Пакет сертификатов ИТАР Microsoft 365 (P7B)](https://download.microsoft.com/download/b/3/a/b3ae08a2-516c-46a9-8723-6256e4fd6383/m365_chain_certs_itar20201012.p7b) | crl.entrust.net<br>crl3.digicert.com<br>crl4.digicert.com | ocsp.digicert.com<br>ocsp.entrust.net |
+| Общедоступные надежные корневые и промежуточные сертификаты | [Microsoft 365 Пакет сертификатов ИТАР (P7B)](https://download.microsoft.com/download/b/3/a/b3ae08a2-516c-46a9-8723-6256e4fd6383/m365_chain_certs_itar20201012.p7b) | crl.entrust.net<br>crl3.digicert.com<br>crl4.digicert.com | ocsp.digicert.com<br>ocsp.entrust.net |
 
 Расширь корневые и промежуточные разделы ниже, чтобы узнать дополнительные сведения о поставщиках сертификатов.
 
-## <a name="microsoft-365-certificate-details"></a>**Сведения о сертификате Microsoft 365**
+## <a name="microsoft-365-certificate-details"></a>**Microsoft 365 Сведения о сертификате**
 
 ### <a name="baltimore-cybertrust-root"></a>**Baltimore CyberTrust Root**
 

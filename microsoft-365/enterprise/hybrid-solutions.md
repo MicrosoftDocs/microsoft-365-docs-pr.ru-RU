@@ -17,7 +17,7 @@ ms.custom:
 - Ent_Solutions
 - seo-marvel-apr2020
 ms.assetid: e9b8e065-2750-4534-9d39-aafd51a2a4e2
-description: Предоставляет список ссылок на полезную информацию для развертывания рабочих нагрузок Office Server в Microsoft Azure.
+description: Предоставляет список ссылок на полезную информацию для развертывания Office серверов в Microsoft Azure.
 ms.openlocfilehash: 47e885d3db7d9211b917414d03efdc5b716dcd1e
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -27,13 +27,13 @@ ms.locfileid: "50907496"
 ---
 # <a name="hybrid-solutions"></a>Гибридные решения
 
-В Microsoft Azure можно развернуть некоторые рабочие нагрузки Office Server, которые обычно развертывались локально в службах инфраструктуры Azure.
+С Microsoft Azure можно развернуть Office серверов, которые обычно развертывались локально в службах инфраструктуры Azure.
   
-Для инфраструктуры удостоверений Microsoft 365 в Azure:
+Для Microsoft 365 инфраструктуры удостоверений в Azure:
 
 - [Использование Azure AD для проверки подлинности на сервере SharePoint Server](/azure/active-directory/saas-apps/sharepoint-on-premises-tutorial)
 
-- [Развертывание синхронизации каталогов Microsoft 365 в Microsoft Azure](deploy-microsoft-365-directory-synchronization-dirsync-in-microsoft-azure.md)
+- [Развертывание Microsoft 365 синхронизации каталогов в Microsoft Azure](deploy-microsoft-365-directory-synchronization-dirsync-in-microsoft-azure.md)
   
 - [Подключение локальной сети к виртуальной сети Microsoft Azure](connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md)
     
@@ -48,7 +48,7 @@ ms.locfileid: "50907496"
 - [Веб-сайты в Microsoft Azure с использованием SharePoint Server 2013](internet-sites-in-microsoft-azure-using-sharepoint-server-2013.md)
   
   
-## <a name="related-topics"></a>Родственные темы
+## <a name="related-topics"></a>Статьи по теме
 
 [Центр архитектуры и решений Microsoft 365](../solutions/index.yml)
   

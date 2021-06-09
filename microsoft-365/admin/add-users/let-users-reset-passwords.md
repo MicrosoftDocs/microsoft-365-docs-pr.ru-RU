@@ -75,5 +75,5 @@ ms.locfileid: "52634272"
 ## <a name="related-content"></a>См. также:
 
 [Установите политику истечения пароля для организации](../manage/set-password-expiration-policy.md) (статья)\
-[Установите пароль отдельного пользователя, который никогда не истекает](set-password-to-never-expire.md) (статья)\
+[Установка бессрочных пользовательских паролей](set-password-to-never-expire.md) (статья)\
 [Microsoft 365 бизнес обучающие видео](../../business-video/index.yml) (страница ссылки)

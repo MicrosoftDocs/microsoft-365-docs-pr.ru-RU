@@ -96,7 +96,7 @@ ms.locfileid: "52706206"
 
 ![Рисунок, на который показано сравнение ролей администратора](../../media/compare-roles-list.png)
 
-## <a name="related-content"></a>Связанные материалы
+## <a name="related-content"></a>См. также:
 
 [О Microsoft 365 ролей администратора](about-admin-roles.md) (статья)\
 [Назначение ролей администратора](assign-admin-roles.md) (статья)

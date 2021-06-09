@@ -22,7 +22,7 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 6b70fa27-d171-4593-8ecf-f78bb4ed2e99
-description: Просмотр политик и действий устройств, во время входа в Microsoft 365 для бизнеса с глобальными учетными данными администратора.
+description: Просмотр политик и действий устройств путем входа в Microsoft 365 для бизнеса с глобальными учетными данными администратора.
 ms.openlocfilehash: 39d88e8fa84055e4bac62899a1b84bdf42f366a2
 ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
@@ -32,7 +32,7 @@ ms.locfileid: "51578034"
 ---
 # <a name="view-and-manage-policies-and-devices"></a>Просмотр и управление политиками и устройствами
 
-Эта статья применима к Microsoft 365 Бизнес Премиум.
+Эта статья применима к Microsoft 365 бизнес премиум.
 
 ## <a name="view-and-edit-device-policies"></a>Просмотр и изменение политик устройств
 

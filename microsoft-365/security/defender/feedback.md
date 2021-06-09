@@ -1,6 +1,6 @@
 ---
-title: Предоставление отзывов о Microsoft 365 Defender
-description: Предоставление отзывов о продуктах в Microsoft 365 Defender
+title: Предоставление обратной связи Microsoft 365 Defender
+description: Предоставление обратной связи с Microsoft 365 Defender
 keywords: обратная связь, m365 безопасность, безопасность, 365, возможности
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -27,7 +27,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/20/2021
 ms.locfileid: "51899344"
 ---
-# <a name="provide-feedback-on-microsoft-365-defender"></a>Предоставление отзывов о Microsoft 365 Defender
+# <a name="provide-feedback-on-microsoft-365-defender"></a>Предоставление обратной связи Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 

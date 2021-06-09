@@ -76,14 +76,14 @@ ms.locfileid: "52706120"
     - Имя хозяина: sip
     - Тип: CNAME
     - Адрес: sipdir.online.lync.com
-- Нажмите **OK**.
+- Нажмите кнопку **ОК**.
 
 Добавьте запись автообнаружения CNAME для Skype для бизнеса online.  
 - На странице Диспетчер DNS для домена перейдите к **действию** \> **CNAME (CNAME).** В **диалоговом окне Запись** новых ресурсов убедитесь, что поля задают следующие значения:  
     - Имя хозяина: lyncdiscover
     - Тип: CNAME
     - Адрес: webdir.online.lync.com
-- Нажмите **OK**.
+- Нажмите кнопку **ОК**.
    
 ### <a name="add-two-cname-records-for-mobile-device-management-mdm-for-microsoft"></a>Добавление двух записей CNAME для управления мобильными устройствами (MDM) для Microsoft
 
@@ -97,7 +97,7 @@ ms.locfileid: "52706120"
 - Имя хозяина: корпоративная регистрация
 - Тип: CNAME
 - Адрес: enterpriseregistration.windows.net
-- Нажмите **OK**. 
+- Нажмите кнопку **ОК**. 
 
 Добавьте запись CNAME MDM Enterpriseenrollment. 
 -  На странице Диспетчер DNS для домена перейдите к **действию** \> **CNAME (CNAME).** 
@@ -105,7 +105,7 @@ ms.locfileid: "52706120"
     - Имя хозяина: enterpriseenrollment
     - Тип: CNAME
     - Адрес: enterpriseenrollment-s.manage.microsoft.com
-- Нажмите **OK**.
+- Нажмите кнопку **ОК**.
    
 ## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавление записи TXT для SPF, предотвращающей рассылку спама
 <a name="BKMK_add_TXT"> </a>
@@ -125,7 +125,7 @@ ms.locfileid: "52706120"
 -  Тип записи: TXT
 -  Адрес: v=spf1 include:spf.protection.outlook.com -all 
          
--  Нажмите **OK**.
+-  Нажмите кнопку **ОК**.
    
 ## <a name="add-srv-records"></a>Добавление SRV-записей
 <a name="BKMK_add_SRV"> </a>
@@ -142,7 +142,7 @@ ms.locfileid: "52706120"
     -  Вес: 1
     -  Порт: 443
     -  Target (Hostname): sipdir.online.lync.com
--  Нажмите **OK**. 
+-  Нажмите кнопку **ОК**. 
 
 
 Добавьте запись SRV SIP для федерации Skype для бизнеса online.  
@@ -155,7 +155,7 @@ ms.locfileid: "52706120"
     -  Вес: 1
     -  Порт: 5061
     -  Target (Hostname): sipfed.online.lync.com
--  Нажмите **OK**. 
+-  Нажмите кнопку **ОК**. 
    
 ## <a name="add-a-record-to-verify-that-you-own-the-domain-if-you-havent-already"></a>Добавление записи для подтверждения владения доменом, если это еще не сделано
 <a name="BKMK_verify"> </a>
@@ -206,7 +206,7 @@ ms.locfileid: "52706120"
 > [!NOTE]
 >  Обычно на вступление изменений DNS в силу требуется около 15 минут. Однако иногда распространение внесенного изменения в системе DNS по всему Интернету занимает больше времени. Если после добавления записей DNS возникла проблема с потоком обработки почты или другие неполадки, см. статью [Устранение неполадок после смены имени домена или записей DNS](../get-help-with-domains/find-and-fix-issues.md). 
 
-## <a name="related-content"></a>Связанные материалы
+## <a name="related-content"></a>См. также:
 
 [Передача домена из Micrsoft 365 другому хосту](../get-help-with-domains/transfer-a-domain-from-microsoft-to-another-host.md) (статья)\
 [Пилотные Microsoft 365 из настраиваемого домена](../misc/pilot-microsoft-365-from-my-custom-domain.md) (статья)\

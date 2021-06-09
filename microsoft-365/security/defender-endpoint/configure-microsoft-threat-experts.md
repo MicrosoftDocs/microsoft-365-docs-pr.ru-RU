@@ -36,7 +36,7 @@ ms.locfileid: "52770665"
 
 >Хотите испытать Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
-## <a name="before-you-begin"></a>Подготовка 
+## <a name="before-you-begin"></a>Прежде чем начать 
 > [!NOTE]
 > Обсудите требования к требованиям с поставщиком технической службы Майкрософт и командой учетных записей, прежде чем применить к эксперты Майкрософт по угрозам - служба управляемой охоты на угрозы targeted Attack Notification.
 

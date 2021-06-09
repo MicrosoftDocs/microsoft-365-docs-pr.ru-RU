@@ -71,10 +71,10 @@ GET https://api.securitycenter.microsoft.com/api/machines
 
 Имя | Тип | Описание
 :---|:---|:---
-Authorization | String | Bearer {token}. **Обязательное поле**.
+Авторизация | String | Bearer {token}. **Обязательное поле**.
 
 
-## <a name="request-body"></a>Текст запроса
+## <a name="request-body"></a>Тело запроса
 переменная Empty
 
 ## <a name="response"></a>Отклик
@@ -126,5 +126,5 @@ Content-type: application/json
 }
 ```
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 - [Запросы OData в Microsoft Defender для конечной точки](exposed-apis-odata-samples.md)

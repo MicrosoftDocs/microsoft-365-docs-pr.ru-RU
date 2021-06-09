@@ -1,5 +1,5 @@
 ---
-title: Windows 10 и Office 365 набор лаборатории развертывания
+title: Комплект лабораторий развертывания для Windows 10 и Office 365
 f1.keywords:
 - NOCSH
 ms.author: greglin
@@ -22,7 +22,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/04/2021
 ms.locfileid: "52770677"
 ---
-# <a name="windows-10-and-office-365-deployment-lab-kit"></a>Windows 10 и Office 365 набор лаборатории развертывания
+# <a name="windows-10-and-office-365-deployment-lab-kit"></a>Комплект лабораторий развертывания для Windows 10 и Office 365
 
 Набор Windows 10 и Office 365 развертывания предназначен для планирования, тестирования и проверки развертывания и управления настольными компьютерами, работающими Windows 10 Корпоративная и Приложения Microsoft 365 для предприятий. Лаборатории в комплекте охватывают с помощью Microsoft Endpoint Configuration Manager, desktop Analytics, средства настройки Office, OneDrive, Windows автопилота и других.
 

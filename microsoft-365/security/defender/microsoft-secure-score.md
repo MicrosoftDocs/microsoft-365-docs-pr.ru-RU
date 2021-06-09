@@ -46,7 +46,7 @@ ms.locfileid: "52245381"
 
 ![Домашняя страницы Secure Score](../../media/secure-score/secure-score-home-page.png)
 
-## <a name="how-it-works"></a>Как это работает
+## <a name="how-it-works"></a>Принципы работы
 
 Вам даются очки для следующих действий:
 

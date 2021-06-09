@@ -238,7 +238,7 @@ Basic Mobility and Security может помочь вам обеспечить 
 
 Дополнительные сведения см. в [приложении Wipe a mobile device in Basic Mobility and Security.](wipe-mobile-device.md)
 
-## <a name="related-content"></a>Связанные материалы
+## <a name="related-content"></a>См. также:
 
 [Обзор базовой мобильности и безопасности для Microsoft 365](overview.md) (статья)\
 [Создание политик безопасности устройств в Basic Mobility and Security](create-device-security-policies.md) (статья)

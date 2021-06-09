@@ -73,9 +73,9 @@ ms.locfileid: "52244900"
 
 Нужна небольшая помощь? Начните [вызов из чата в Teams.](https://support.microsoft.com/office/f5138c9d-df4c-43d8-9cf6-53400c1a7798)
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
-[Собрания в Microsoft Teams](/microsoftteams/tutorial-meetings-in-teams)
+[Собрания в Microsoft Teams](/microsoftteams/tutorial-meetings-in-teams)
 
 [6 способов сделать виртуальные собрания более эффективными](https://products.office.com/en-us/business/articles/6-ways-to-make-virtual-meetings-more-efficient)
 
