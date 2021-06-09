@@ -23,6 +23,6 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 09/26/2020
 ms.locfileid: "48285605"
 ---
-# <a name="manage-load-sets-in-advanced-ediscovery"></a><span data-ttu-id="8b9c1-103">Управление наборами нагрузки в Advanced eDiscovery</span><span class="sxs-lookup"><span data-stu-id="8b9c1-103">Manage load sets in Advanced eDiscovery</span></span>
+# <a name="manage-load-sets-in-advanced-ediscovery"></a><span data-ttu-id="0b0a1-103">Управление наборами нагрузки в Advanced eDiscovery</span><span class="sxs-lookup"><span data-stu-id="0b0a1-103">Manage load sets in Advanced eDiscovery</span></span>
 
-<span data-ttu-id="8b9c1-104">Содержимое появится в ближайшее время.</span><span class="sxs-lookup"><span data-stu-id="8b9c1-104">Content coming soon.</span></span>
+<span data-ttu-id="0b0a1-104">Содержимое появится в ближайшее время.</span><span class="sxs-lookup"><span data-stu-id="0b0a1-104">Content coming soon.</span></span>
