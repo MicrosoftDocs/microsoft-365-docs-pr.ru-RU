@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 29e9eefdf85c80b6d3c44eba01d0df57be0193a4
-ms.sourcegitcommit: 94e64afaf12f3d8813099d8ffa46baba65772763
+ms.openlocfilehash: fa5d5b4470644e1ff50af46a8dd3f035cd9b3184
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52346394"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842870"
 ---
 # <a name="resources-for-microsoft-defender-for-endpoint-on-macos"></a>Ресурсы для Microsoft Defender для конечной точки на macOS
 
@@ -97,7 +97,7 @@ ms.locfileid: "52346394"
 
 Из командной строки можно выполнять важные задачи, такие как управление настройками продуктов и сканы по запросу.
 
-|Group        |Сценарий                                   |Command                                                                           |
+|Group        |Сценарий                                   |Команда                                                                           |
 |-------------|-------------------------------------------|----------------------------------------------------------------------------------|
 |Конфигурация|Включите/отключите защиту в режиме реального времени           |`mdatp config real-time-protection --value [enabled/disabled]`                    |
 |Конфигурация|Включите/отключите облачную защиту               |`mdatp config cloud --value [enabled/disabled]`                                   |
@@ -119,7 +119,7 @@ ms.locfileid: "52346394"
 |Защита   |Полное сканирование                             |`mdatp scan full`                                                                 |
 |Защита   |Отмена текущего сканирования по запросу           |`mdatp scan cancel`                                                               |
 |Защита   |Запрос обновления сведений о безопасности     |`mdatp definitions update`                                                        |
-|EDR          |Добавление тега группы на устройство. EDR теги используются для управления группами устройств. Дополнительные сведения можно получить на сайте https://docs.microsoft.com/microsoft-365/security/defender-endpoint/machine-groups |`mdatp edr tag set --name GROUP --value [name]` |
+|EDR          |Добавление тега группы на устройство. EDR теги используются для управления группами устройств. Дополнительные сведения можно получить на сайте /microsoft-365/security/defender-endpoint/machine-groups |`mdatp edr tag set --name GROUP --value [name]` |
 |EDR          |Удаление тега группы с устройства               |`mdatp edr tag remove --tag-name [name]`                                          |
 |EDR          |Добавление группового ID                               |`mdatp edr group-ids --group-id [group]`                                          |
 

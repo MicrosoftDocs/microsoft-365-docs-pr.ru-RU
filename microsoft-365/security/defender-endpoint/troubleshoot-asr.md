@@ -17,12 +17,12 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: 9ff00c706b0fb336c178e227b1cb33eff9e9ebbc
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: c5c76553ff3f0b32def5fbafbf2c8f010e49eeb2
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935225"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52845427"
 ---
 # <a name="troubleshoot-attack-surface-reduction-rules"></a>Правила устранения неполадок в области уменьшения поверхности атаки
 
@@ -56,11 +56,11 @@ ms.locfileid: "51935225"
 
 Правила уменьшения поверхности атаки будут работать только на устройствах со следующими условиями:
 
-- Конечные точки работают в Windows 10 Enterprise версии 1709 (также известной как Fall Creators Update).
+- Конечные точки запускаются Windows 10 Корпоративная версии 1709 (также известной как Fall Creators Update).
 
-- Конечные точки используют антивирус Microsoft Defender в качестве единственного приложения для защиты от антивирусов. [Использование любого другого антивирусного приложения приведет к](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)отключению microsoft Defender AV.
+- Конечные точки используют антивирусная программа в Microsoft Defender в качестве единственного приложения для защиты от антивирусов. [Использование любого другого антивирусного приложения приведет к](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)отключению microsoft Defender AV.
 
-- [Включена защита в](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-real-time-protection-microsoft-defender-antivirus) режиме реального времени.
+- [Включена защита в](/windows/security/threat-protection/microsoft-defender-antivirus/configure-real-time-protection-microsoft-defender-antivirus) режиме реального времени.
 
 - Режим аудита не включен. Используйте групповую политику, чтобы установить правило **Отключено** (значение: **0),** как описано в правилах уменьшения поверхности [атаки.](enable-attack-surface-reduction.md)
 
@@ -100,7 +100,7 @@ ms.locfileid: "51935225"
 
 ## <a name="report-a-false-positive-or-false-negative"></a>Сообщение о ложном срабатыве или ложном отрицательном
 
-Чтобы [сообщить о ложном отрицательном](https://www.microsoft.com/wdsi/filesubmission) или ложном срабатывии для защиты сети, используйте веб-форму отправки Защитник Windows Security Intelligence. С подпиской на Windows E5 вы также можете предоставить ссылку на любое [связанное оповещение.](alerts-queue.md)
+Используйте форму [Защитник Windows security Intelligence](https://www.microsoft.com/wdsi/filesubmission) для сообщения о ложном отрицательном или ложном срабатывательствох для защиты сети. С подпиской Windows E5 вы также можете предоставить ссылку на любое [связанное оповещение.](alerts-queue.md)
 
 ## <a name="collect-diagnostic-data-for-file-submissions"></a>Сбор диагностических данных для отправки файлов
 
@@ -120,7 +120,7 @@ ms.locfileid: "51935225"
 
 3. По умолчанию они сохраняются до `C:\ProgramData\Microsoft\Windows Defender\Support\MpSupportFiles.cab` . Прикрепить файл к форме отправки.
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
 - [Правила сокращения направлений атак](attack-surface-reduction.md)
 

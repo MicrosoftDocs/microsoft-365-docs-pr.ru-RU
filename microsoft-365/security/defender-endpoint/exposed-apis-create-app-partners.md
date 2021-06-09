@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 6182b4cb0d1f648f33c3a7fc4da4c648d8996bcd
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 5546b69fa924025491e1762d199678fa549a9c7c
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52770617"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842150"
 ---
 # <a name="partner-access-through-microsoft-defender-for-endpoint-apis"></a>Доступ партнера через API Endpoint Defender для Microsoft Defender
 
@@ -40,7 +40,7 @@ ms.locfileid: "52770617"
 На этой странице описывается создание приложения Azure Active Directory Azure AD для получения программного доступа к Microsoft Defender для конечной точки от имени клиентов.
 
 
-Microsoft Defender для конечной точки предоставляет большую часть своих данных и действий с помощью набора программных API. Эти API помогут автоматизировать потоки работы и вносимые новые решения на основе возможностей Microsoft Defender для конечных точек. Доступ к API требует проверки подлинности OAuth2.0. Дополнительные сведения см. [в тексте OAuth 2.0 Authorization Code Flow.](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)
+Microsoft Defender для конечной точки предоставляет большую часть своих данных и действий с помощью набора программных API. Эти API помогут автоматизировать потоки работы и вносимые новые решения на основе возможностей Microsoft Defender для конечных точек. Доступ к API требует проверки подлинности OAuth2.0. Дополнительные сведения см. [в тексте OAuth 2.0 Authorization Code Flow.](/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)
 
 В общем, для использования API необходимо предпринять следующие действия:
 - Создание приложения Azure AD с **несколькими** клиентами.
@@ -139,9 +139,9 @@ Microsoft Defender для конечной точки предоставляет
 
 **Примечание:** Чтобы получить маркер доступа от имени клиента, используйте ID клиента в следующих приобретениях маркеров.
 
-<br>Дополнительные сведения о маркере AAD см. в [учебнике AAD](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-client-creds)
+<br>Дополнительные сведения о маркере AAD см. в [учебнике AAD](/azure/active-directory/develop/active-directory-v2-protocols-oauth-client-creds)
 
-### <a name="using-powershell"></a>С помощью PowerShell
+### <a name="using-powershell"></a>Использование PowerShell
 
 ```
 # That code gets the App Context Token and save it to a file named "Latest-token.txt" under the current directory

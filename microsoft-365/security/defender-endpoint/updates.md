@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: f5db08e4eb98dd3fe6f7e8a84fb0c49e889fb73f
-ms.sourcegitcommit: e1e275eb88153bafddf93327adf8f82318913a8d
+ms.openlocfilehash: 435a77432caa9d7335a22993f85cae69eff6cd38
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 06/08/2021
-ms.locfileid: "52809304"
+ms.locfileid: "52841766"
 ---
 #  <a name="manage-the-gradual-rollout-process-for-microsoft-defender-updates"></a>Управление постепенным процессом выкатки обновлений Microsoft Defender
 
@@ -56,7 +56,7 @@ ms.locfileid: "52809304"
 
 1. Первый выпуск выходит для абонентов бета-канала.
 2. После проверки, отзывов и исправлений мы запускаем процесс постепенного свертывания в режиме регулирования и сначала перенаправляем абонентов канала предварительного просмотра.
-3. Затем мы приступим к выпуску обновления для остальной части глобального населения, масштабирование от 10 до 100%.
+3. Затем мы приступим к выпуску обновления для остального населения мира, масштабирование от 10 до 100%.
 
 Наши инженеры непрерывно отслеживают влияние и обостряют любые проблемы, чтобы при необходимости создать исправление.
 

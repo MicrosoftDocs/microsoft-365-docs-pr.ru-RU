@@ -13,12 +13,12 @@ ms.author: dansimp
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: f996a8fdaf630c8ea389ac9648369cc955a6e95d
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+ms.openlocfilehash: 15ea4696052a6c987314e3c7b0dd282a49ed4df8
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51569909"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842918"
 ---
 # <a name="evaluate-controlled-folder-access"></a>Оценка контролируемого доступа к папкам
 
@@ -31,7 +31,7 @@ ms.locfileid: "51569909"
 >Хотите испытать Microsoft Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-enablesiem-abovefoldlink)
 
 
-[Управляемый доступ к папкам](controlled-folders.md) — это функция, которая помогает защитить документы и файлы от изменений подозрительными или вредоносными приложениями. Управляемый доступ к папкам поддерживается в клиентах Windows Server 2019 и Windows 10.
+[Управляемый доступ к папкам](controlled-folders.md) — это функция, которая помогает защитить документы и файлы от изменений подозрительными или вредоносными приложениями. Управляемый доступ к папкам поддерживается на Windows Server 2019 и Windows 10 клиентах.
 
 Это особенно полезно для защиты от [программ-вымогателей,](https://www.microsoft.com/wdsi/threats/ransomware) которые пытаются шифровать файлы и удерживать их в заложниках.
 
@@ -52,11 +52,11 @@ Set-MpPreference -EnableControlledFolderAccess AuditMode
 
 > [!TIP]
 > Если вы хотите полностью проверять, как будет работать управляемый доступ к папкам в организации, вам потребуется использовать средство управления для развертывания этого параметра на устройствах в сети (s).
-Вы также можете использовать групповую политику, intune, управление мобильными устройствами (MDM) или Microsoft [](controlled-folders.md)Endpoint Manager для настройки и развертывания параметра, как описано в основной теме доступа к управляемым папкам.
+Вы также можете использовать групповую политику, intune, управление мобильными устройствами (MDM) или Microsoft Endpoint Manager для настройки и развертывания параметра, как описано в основной теме доступа к управляемым [папкам](controlled-folders.md).
 
-## <a name="review-controlled-folder-access-events-in-windows-event-viewer"></a>Просмотр событий управляемого доступа к папкам в Windows Event Viewer
+## <a name="review-controlled-folder-access-events-in-windows-event-viewer"></a>Просмотр событий управляемого доступа к папкам в Windows просмотра событий
 
-В windows Event Viewer в папке Microsoft/Windows/Защитник Windows/Operational отображаются следующие события управляемого доступа к папке.
+Следующие события управляемого доступа к папке отображаются в Windows в папке Microsoft/Windows/Защитник Windows/Operational.
 
 Идентификатор события | Описание
 -|-
@@ -65,7 +65,7 @@ Set-MpPreference -EnableControlledFolderAccess AuditMode
  1123 | Событие доступа к заблокированной управляемой папке
 
 > [!TIP]
-> Для централизованного сбора журналов можно настроить подписку [на](https://docs.microsoft.com/windows/win32/wec/setting-up-a-source-initiated-subscription) перенастройку событий Windows. 
+> Вы можете настроить подписку [Windows для](/windows/win32/wec/setting-up-a-source-initiated-subscription) централизованного сбора журналов. 
 
 ## <a name="customize-protected-folders-and-apps"></a>Настройка защищенных папок и приложений
 

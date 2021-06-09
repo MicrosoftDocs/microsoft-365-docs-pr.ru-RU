@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 5ea847e822e094049dd8f0b941f22f3bb4f7eff4
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 6e65a12f42b9f5f75c1a19cb9c4a261c94feaf31
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297180"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841718"
 ---
 # <a name="introduction-to-responding-to-your-first-incident"></a>Введение в ответ на первый инцидент
 
@@ -50,7 +50,7 @@ ms.locfileid: "52297180"
 
 Инциденты в Microsoft 365 Defender являются логическими отправной точкой для анализа и реагирования на инциденты. Анализ и исправление инцидентов обычно составляет большинство задач группы операций безопасности.
 
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Следующий этап
 
 [![Подготовка организации и Microsoft 365 клиента](../../media/first-incident-overview/first-incident-path.png)](first-incident-prepare.md)
 
@@ -69,6 +69,6 @@ ms.locfileid: "52297180"
 - [Фишинговое письмо](first-incident-path-phishing.md)
 - [Атака на базу удостоверений](first-incident-path-identity.md)
 
-[Подробные книги ответов на инциденты](https://docs.microsoft.com/security/compass/incident-response-playbooks)
+[Подробные книги ответов на инциденты](/security/compass/incident-response-playbooks)
 
 

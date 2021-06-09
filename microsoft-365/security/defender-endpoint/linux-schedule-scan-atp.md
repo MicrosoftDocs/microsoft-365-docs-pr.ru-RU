@@ -16,16 +16,16 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: f868570fccf9b30cde5f16aa8e71292fb8b09497
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 5a4beaefb2fcc12d46cf61c22644217dce1807a6
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933137"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52845370"
 ---
 # <a name="schedule-scans-with-microsoft-defender-for-endpoint-linux"></a>Расписание сканирования с помощью Microsoft Defender для конечной точки (Linux)
 
-Чтобы выполнить сканирование для Linux, см. [в руб. Поддерживаемые команды.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/linux-resources#supported-commands)
+Чтобы выполнить сканирование для Linux, см. [в руб. Поддерживаемые команды.](/microsoft-365/security/defender-endpoint/linux-resources#supported-commands)
 
 Linux (и Unix) имеют средство **crontab** (аналогично планиру задач) для выполнения запланированных задач.
 

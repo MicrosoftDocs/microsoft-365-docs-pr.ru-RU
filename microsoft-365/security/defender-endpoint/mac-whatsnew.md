@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: d01e1d847a8932d95e645a89eff15cf0793491e5
-ms.sourcegitcommit: 07e536f1a6e335f114da55048844e4a866fe731b
+ms.openlocfilehash: 6348d688103c51176fbed36c923a660c77a2258d
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52651276"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842786"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint-on-mac"></a>Новые возможности в Microsoft Defender для конечной точки на Mac
 
@@ -163,7 +163,7 @@ ms.locfileid: "52651276"
 
 ## <a name="1010031"></a>101.00.31
 
-- Улучшенный опыт работы [с onboarding продуктов для пользователей Intune](https://docs.microsoft.com/mem/intune/apps/apps-advanced-threat-protection-macos)
+- Улучшенный опыт работы [с onboarding продуктов для пользователей Intune](/mem/intune/apps/apps-advanced-threat-protection-macos)
 - Исключения [антивирусов теперь поддерживают подкарды](mac-exclusions.md#supported-exclusion-types)
 - Добавлена возможность запуска антивирусных сканов из контекстного меню macOS. Теперь вы можете щелкнуть правой кнопкой мыши файл или папку в Finder и выбрать сканирование с **помощью Microsoft Defender для конечной точки**
 - В настоящее время установщик явно запрещает понижение продуктов на месте. Если требуется понизить рейтинг, сначала отсоедините существующую версию и перенастройте устройство

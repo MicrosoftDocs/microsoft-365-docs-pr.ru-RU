@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 056268ed093d371d39a6136dd0b272c12ab6f9d7
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 2510fb1a187bbe136669e11bc73103438b51d811
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933917"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842174"
 ---
 # <a name="onboard-windows-10-devices-using-a-local-script"></a>Подключение устройств Windows 10 с помощью локального сценария
 
@@ -37,28 +37,28 @@ ms.locfileid: "51933917"
 > [!IMPORTANT]
 > Этот скрипт оптимизирован для использования на 10 устройствах.
 >
-> Для развертывания в масштабе используйте [другие параметры развертывания.](configure-endpoints.md) Например, можно развернуть сценарий бортовой связи на более чем 10 устройствах в производстве, а сценарий доступен на устройствах с Windows 10 на борту с [помощью групповой политики.](configure-endpoints-gp.md)
+> Для развертывания в масштабе используйте [другие параметры развертывания.](configure-endpoints.md) Например, можно развернуть сценарий onboarding на более чем 10 устройствах в производстве со сценарием, доступным на Windows 10 устройствах с помощью [групповой политики.](configure-endpoints-gp.md)
 
-## <a name="onboard-devices"></a>Бортовых устройств 
+## <a name="onboard-devices"></a>Подключение устройств 
 
 [![Изображение PDF, показывающая различные пути развертывания](images/onboard-script.png)](images/onboard-script.png#lightbox)
 
 
-Ознакомьтесь с [PDF или](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf)  [Visio,](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.vsdx) чтобы увидеть различные пути развертывания Defender для конечной точки. 
+Ознакомьтесь с [PDF или Visio,](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf) чтобы увидеть различные пути развертывания Defender для конечной точки. [](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.vsdx) 
 
 
-1.  Откройте пакет конфигурации GP .zip file *(WindowsDefenderATPOnboardingPackage.zip), загруженный* из мастера бортового обслуживания. Вы также можете получить пакет из [Центра безопасности Защитника Майкрософт:](https://securitycenter.windows.com/)
+1.  Откройте пакет конфигурации GP .zip *(WindowsDefenderATPOnboardingPackage.zip),* который вы скачали из мастера бортового обслуживания. Вы также можете получить пакет из [Центр безопасности в Microsoft Defender:](https://securitycenter.windows.com/)
 
-    1. В области навигации выберите **параметры**  >  **onboarding**.
+    1. В области навигации выберите **Параметры**  >  **onboarding**.
 
     1. Выберите Windows 10 в качестве операционной системы.
 
     1. В поле **Метод развертывания** выберите **локальный скрипт**.
 
-    1. Нажмите **кнопку Скачать пакет** и сохранить файл .zip.
+    1. Нажмите **кнопку Загрузка** пакета и сохраните .zip файл.
 
   
-2.  Извлечение содержимого пакета конфигурации в расположение на устройстве, которое необходимо на борту (например, на рабочем столе). У вас должен быть файл с именем *WindowsDefenderATPOnboardingScript.cmd.*
+2.  Извлечение содержимого пакета конфигурации в расположение на устройстве, которое необходимо на борту (например, на рабочем столе). У вас должен быть файл с именем *WindowsDefenderATPLocalOnboardingScript.cmd.*
 
 3.  Откройте повышенную командную строку на устройстве и запустите сценарий:
 
@@ -68,7 +68,7 @@ ms.locfileid: "51933917"
 
         ![Меню Пуск окна, указывав на запуск в качестве администратора](images/run-as-admin.png)
 
-4.  Введите расположение файла скрипта. Если вы скопировали файл на рабочий стол, введите: *%userprofile%\Desktop\WindowsDefenderATPOnboardingScript.cmd*
+4.  Введите расположение файла скрипта. Если вы скопировали файл на рабочий стол, введите: *%userprofile%\Desktop\WindowsDefenderATPLocalOnboardingScript.cmd*
 
 5.  Нажмите **клавишу Ввод** или нажмите **кнопку ОК**.
 
@@ -79,7 +79,7 @@ ms.locfileid: "51933917"
 > После работы на устройстве можно выполнить тест обнаружения, чтобы убедиться, что устройство правильно вошел в службу. Дополнительные сведения см. в сайте [Run a detection test on a newly onboarded Microsoft Defender for Endpoint endpoint.](run-detection-test.md)
 
 ## <a name="configure-sample-collection-settings"></a>Настройка параметров коллекции образцов
-Для каждого устройства можно установить значение конфигурации, чтобы определить, можно ли собирать образцы с устройства при запросе через Центр безопасности Защитника Майкрософт для отправки файла для глубокого анализа.
+Для каждого устройства можно установить значение конфигурации, чтобы определить, можно ли собирать образцы с устройства при Центр безопасности в Microsoft Defender отправки файла для глубокого анализа.
 
 Вы можете вручную настроить параметр обмена примерами на устройстве с помощью *regedit* или создания и запуска *файла .reg.*  
 
@@ -105,7 +105,7 @@ Value: 0 or 1
 > [!NOTE]
 > На одном устройстве одновременно не следует развертывать политики бортового и оффбординга, в противном случае это приведет к непредсказуемым столкновениям.
 
-1. Получите пакет offboarding из [Центра безопасности Защитника Майкрософт:](https://securitycenter.windows.com/)
+1. Получите пакет offboarding из [Центр безопасности в Microsoft Defender:](https://securitycenter.windows.com/)
 
     1. В области навигации выберите **Параметры**  >  **Offboarding**.
 
@@ -113,9 +113,9 @@ Value: 0 or 1
 
     1. В поле **Метод развертывания** выберите **локальный скрипт**.
 
-    1. Нажмите **кнопку Скачать пакет** и сохранить файл .zip.
+    1. Нажмите **кнопку Загрузка** пакета и сохраните .zip файл.
 
-2. Извлеките содержимое файла .zip в общее расположение только для чтения, к нему можно получить доступ на устройствах. У вас должен быть *файл с именем WindowsDefenderATPOffboardingScript_valid_until_YYYY-MM-DD.cmd*.
+2. Извлечение содержимого файла .zip в общее расположение только для чтения, к нему можно получить доступ на устройствах. У вас должен быть *файл с именем WindowsDefenderATPOffboardingScript_valid_until_YYYY-MM-DD.cmd*.
 
 3.  Откройте повышенную командную строку на устройстве и запустите сценарий:
 
@@ -139,16 +139,16 @@ Value: 0 or 1
 Мониторинг также можно сделать непосредственно на портале или с помощью различных средств развертывания.
 
 ### <a name="monitor-devices-using-the-portal"></a>Мониторинг устройств с помощью портала
-1. Перейдите в Центр безопасности Защитника Майкрософт.
+1. Перейдите в Центр безопасности в Microsoft Defender.
 
 2. Щелкните **список Устройств**.
 
 3. Убедитесь, что устройства отображаются.
 
 
-## <a name="related-topics"></a>Похожие темы
-- [На борту устройств Windows 10 с использованием групповой политики](configure-endpoints-gp.md)
-- [На борту устройств Windows 10 с помощью Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md)
+## <a name="related-topics"></a>Статьи по теме
+- [Onboard Windows 10 с помощью групповой политики](configure-endpoints-gp.md)
+- [На борту Windows 10 устройства с Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md)
 - [Подключение устройств Windows 10 с помощью средств управления мобильными устройствами](configure-endpoints-mdm.md)
 - [Подключение временных устройств инфраструктуры виртуальных рабочих столов (VDI)](configure-endpoints-vdi.md)
 - [Запустите тест обнаружения на недавно созданном устройстве Microsoft Defender для конечных точек](run-detection-test.md)

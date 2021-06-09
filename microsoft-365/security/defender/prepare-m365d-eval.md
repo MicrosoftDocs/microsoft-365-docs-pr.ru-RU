@@ -1,7 +1,7 @@
 ---
 title: Подготовка среды пробной лаборатории Microsoft 365 Defender
-description: Подготовка регистрации заинтересованных сторон, сроков, соображений среды и порядка принятия при настройке пробной лаборатории Или пилотной среды Microsoft 365 Defender
-keywords: Предварительная версия Microsoft 365 Defender, пилотная подготовка к Microsoft 365 Defender, подготовка к запуску пилотного проекта Microsoft 365 Defender, запуск пилотного проекта Microsoft 365 Defender, развертывание, подготовка, подготовка, заинтересованные стороны, сроки, среда, конечная точка, сервер, управление, принятие
+description: Подготовка регистрации заинтересованных сторон, сроков, соображений среды и порядка принятия при настройке пробной лаборатории Microsoft 365 Defender или пилотной среды
+keywords: Microsoft 365 Подготовка к пробной Microsoft 365 Defender, подготовка к запуску пилотного проекта Microsoft 365 Defender, запуск пилотного проекта Microsoft 365 Defender, развертывание, подготовка, заинтересованные стороны, сроки, среда, конечная точка, сервер, управление, принятие
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -19,14 +19,14 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: d5e98cead84c0be76ca252b23f3c2d062b22dd73
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 7ebb7074b0e06eda96d21142044bd8b9997e094b
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935621"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841658"
 ---
-# <a name="prepare-your-microsoft-365-defender-trial-lab-or-pilot-environment"></a>Подготовка пробной лаборатории или пилотной среды Microsoft 365 Defender
+# <a name="prepare-your-microsoft-365-defender-trial-lab-or-pilot-environment"></a>Подготовка пробной лаборатории Microsoft 365 Defender или пилотной среды
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -34,9 +34,9 @@ ms.locfileid: "51935621"
 **Область применения:**
 - Microsoft 365 Defender
 
-Создание пробной лаборатории или пилотной среды Microsoft 365 Defender и ее развертывание — это трех этапный процесс:
+Создание пробной Microsoft 365 Defender или пилотной среды и ее развертывание — это трех этапный процесс:
 
-|![Этап 1. Подготовка](../../media/phase-diagrams/prepare.png)<br/>Этап 1. Подготовка |[![Этап 2. Настройка](../../media/phase-diagrams/setup.png)](setup-m365deval.md)<br/>[Этап 2. Настройка](setup-m365deval.md) |[![Этап 3. Подключение](../../media/phase-diagrams/onboard.png)](config-m365d-eval.md)<br/>[Этап 3. Подключение](config-m365d-eval.md) | [![Назад к пилоту](../../media/phase-diagrams/backtopilot.png)](m365d-pilot.md)<br/>[Вернуться к экспериментальной книге воспроизведения](m365d-pilot.md) |
+|![Этап 1. Подготовка](../../media/phase-diagrams/prepare.png)<br/>Этап 1. Подготовка |[![Этап 2. Настройка](../../media/phase-diagrams/setup.png)](setup-m365deval.md)<br/>[Этап 2. Настройка](setup-m365deval.md) |[![Этап 3. Подключение](../../media/phase-diagrams/onboard.png)](config-m365d-eval.md)<br/>[Этап 3. Подключение](config-m365d-eval.md) | [![Назад к пилоту](../../media/phase-diagrams/backtopilot.png)](m365d-pilot.md)<br/>[Вернуться к экспериментальной книге воспроизведения](m365d-pilot.md) |
 |--|--|--|--|
 |*Вы здесь!* | || |
 
@@ -46,7 +46,7 @@ ms.locfileid: "51935621"
 Подготовка является ключом к успешному развертыванию. В этом разделе вы сможете найти то, что необходимо учитывать при подготовке к созданию пробной лаборатории или пилотной среды для развертывания Microsoft 365 Defender.
 
 ## <a name="prerequisites"></a>Предварительные условия
-Узнайте о требованиях к лицензированию, оборудованию и программному обеспечению и других параметрах конфигурации для обеспечения и использования Microsoft 365 Defender. См. минимальные требования к [Microsoft 365 Defender,](https://docs.microsoft.com/microsoft-365/security/defender/prerequisites) [Microsoft Defender для](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/minimum-requirements)конечной точки, Microsoft Defender для Office [365,](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description) [Microsoft Defender for Identity,](https://docs.microsoft.com/azure-advanced-threat-protection/atp-prerequisites) [Microsoft Cloud App Security](https://docs.microsoft.com/azure-advanced-threat-protection/atp-prerequisites).
+Узнайте о требованиях к лицензированию, оборудованию и программному обеспечению и других параметрах конфигурации для Microsoft 365 Defender. См. минимальные требования [к Microsoft 365 Defender,](/microsoft-365/security/defender/prerequisites) [Microsoft Defender для](/windows/security/threat-protection/microsoft-defender-atp/minimum-requirements)конечной точки, Microsoft Defender [для](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)Office 365, Microsoft [Defender для](/azure-advanced-threat-protection/atp-prerequisites)удостоверений , [Microsoft Cloud App Security](/azure-advanced-threat-protection/atp-prerequisites).
 
 ## <a name="stakeholders-and-sign-off"></a>Заинтересованные стороны и вход
 Определите всех заинтересованных лиц, которые участвуют в проекте и которым может потребоваться подписать, просмотреть или остаться в курсе, будь то для оценки или запуска пилотного проекта.
@@ -70,32 +70,32 @@ ms.locfileid: "51935621"
 | Ввод имени и электронной почты | **Workplace Architect** *A representative from the IT team in charge of defining how this change is aligned with the core workplace architecture in the organisation.*                             | R      |
 | Ввод имени и электронной почты | **Аналитик безопасности** Представитель из *группы CDOC,* который может предоставлять отзывы о возможностях обнаружения, пользовательском опыте и общей полезности этого изменения с точки зрения операций безопасности. | I      |
 
-## <a name="prepare-your-azure-active-directory"></a>Подготовка azure Active Directory
-Пропустить этот шаг, если вы уже включили синхронизацию между Active Directory и Azure Active Directory на локальной основе. Просмотрите документацию о существующих практиках из Azure Active Directory. Следующие действия оптимизированы для оценки или запуска пилотного проекта Microsoft 365 Defender.
+## <a name="prepare-your-azure-active-directory"></a>Подготовка Azure Active Directory
+Пропустить этот шаг, если вы уже включили синхронизацию между Active Directory и Azure Active Directory на месте. Просмотрите документацию о существующих практиках из Azure Active Directory. Следующие действия оптимизированы для оценки или запуска пилотного проекта Microsoft 365 Defender.
 
-1. Перейдите на [портал Azure Active Directory](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade) > **Azure AD Connect.** 
-![Изображение страницы портала Azure Active Directory](../../media/mtp-eval-1.png) <br> 
+1. Перейдите на [Azure Active Directory](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade) > **Azure AD Подключение**. 
+![Изображение страницы Azure Active Directory портала](../../media/mtp-eval-1.png) <br> 
 
-2. Нажмите **кнопку Скачать** **из Microsoft Azure Active Directory Connect** и передать ее контроллеру домена.
-![Изображение страницы загрузки Azure Active Directoru Connect](../../media/mtp-eval-2.png) <br>
+2. Нажмите **кнопку Скачать** **Microsoft Azure Active Directory Подключение** и передать его контроллеру домена.
+![Изображение страницы загрузки Azure Active Directoru Подключение](../../media/mtp-eval-2.png) <br>
 
-3. На контроллере домена следуйте мастеру Azure Active Directory Connect. Ознакомьтесь с условиями лицензии и уведомлением о конфиденциальности и выберите почтовый ящик, если вы согласны. Нажмите кнопку **Продолжить**.
-![Изображение приветствуемой страницы Azure AD Connect](../../media/mtp-eval-3.png) <br>
+3. На контроллере домена выполните Azure Active Directory Подключение мастера. Ознакомьтесь с условиями лицензии и уведомлением о конфиденциальности и выберите почтовый ящик, если вы согласны. Нажмите кнопку **Продолжить**.
+![Изображение страницы Подключение Azure AD](../../media/mtp-eval-3.png) <br>
 
-4. Перейдите **к экспресс-настройкам**.
-![Изображение страницы Express Settings](../../media/mtp-eval-4.png) <br>
+4. Перейдите к **экспресс-Параметры**.
+![Изображение страницы Express Параметры](../../media/mtp-eval-4.png) <br>
 
-5. Введите учетные данные глобального администратора. Нажмите кнопку **Далее**.
-![Изображение страницы Подключение к Azure AD, на которой необходимо ввести глобальные учетные данные администратора](../../media/mtp-eval-5.png) <br>
+5. Введите учетные данные глобального администратора. Нажмите **Далее**.
+![Изображение Подключение на страницу Azure AD, на которой необходимо ввести учетные данные глобального администратора](../../media/mtp-eval-5.png) <br>
 
-6. Введите учетные данные корпоративного администратора active Directory Domain Services. Нажмите кнопку **Далее**.
-![Изображение страницы Подключение к AD DS, на которой необходимо ввести учетные данные](../../media/mtp-eval-6.png) <br>
+6. Введите учетные данные корпоративного администратора active Directory Domain Services. Нажмите **Далее**.
+![Изображение Подключение на страницу AD DS, на которой необходимо ввести учетные данные](../../media/mtp-eval-6.png) <br>
 
 7. Щелкните **Установите,** чтобы подтвердить конфигурацию.
 ![Изображение страницы подтверждения конфигурации](../../media/mtp-eval-7.png) <br>
 
-8. Поздравляем, вы успешно настроены Azure Active Directory Connect.
-![Изображение успешно настроенной страницы Azure Active Directory Connect](../../media/mtp-eval-8.png) <br>
+8. Поздравляем, вы успешно настроили Azure Active Directory Подключение.
+![Изображение успешно настроенной Azure Active Directory Подключение страницы](../../media/mtp-eval-8.png) <br>
 
 Теперь можно [добавить пользователей и группы в Active Directory](/azure-advanced-threat-protection/atp-playbook-setup-lab#bkmk_hydrate) и настроить политику [SAM-R.](/azure-advanced-threat-protection/atp-playbook-setup-lab#configure-sam-r-capabilities-from-contosodc)  
 
@@ -110,6 +110,6 @@ ms.locfileid: "51935621"
 |Microsoft Cloud App Security| Microsoft Cloud App Security — это брокер безопасного доступа в облако (CASB), который работает в нескольких облачных службах. Эта служба дает возможность следить за состоянием данных и контролировать их перемещение, а подробная аналитика помогает обезвреживать киберугрозы во всех облачных службах. <br> [Подробнее](/cloud-app-security/).                                                                                                                                                                                                                                                                                                                                                                       |3                   |
 |Microsoft Defender для конечной точки | Функции обнаружения угроз и реагирования на них для конечных точек в Microsoft Defender для конечной точки обеспечивают обнаружение расширенных атак, работают в режиме практически реального времени, а результаты, предоставляемые такими функциями, можно использовать в качестве основания для выполнения тех или иных действий. Аналитики систем безопасности могут эффективно определять приоритеты предупреждений, получать полную картину всех возможных брешей в системе безопасности, а также предпринимать действия по реагированию для устранения угроз. <br> [Подробнее.](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)                                     |4                    |                                                                                                                                                                                                                                    
 
-## <a name="next-step"></a>Следующий шаг
-|![Этап 2. Настройка](../../media/setup.png) <br>[Этап 2. Настройка](setup-m365deval.md) | Настройка пробной лаборатории или пилотной среды Microsoft 365 Defender
+## <a name="next-step"></a>Следующий этап
+|![Этап 2. Настройка](../../media/setup.png) <br>[Этап 2. Настройка](setup-m365deval.md) | Настройка пробной лаборатории Microsoft 365 Defender или пилотной среды
 |:-------|:-----|

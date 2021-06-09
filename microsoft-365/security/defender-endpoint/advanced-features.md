@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 87305f28975b8997afce211ffa4de3711d26be6b
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 7fd9ec25c21b2d70238bd5b0d6b58b60731088ea
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52246372"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52845478"
 ---
 # <a name="configure-advanced-features-in-defender-for-endpoint"></a>Настройка расширенных функций в Defender для конечной точки
 
@@ -167,7 +167,7 @@ ms.locfileid: "52246372"
 > [!NOTE]
 > Чтобы включить эту функцию, вам потребуется соответствующая лицензия.
 
-Чтобы получить контекстную интеграцию устройств в Office 365 Threat Intelligence, необходимо включить параметры Defender для конечных точек в панели мониторинга & соответствия требованиям. Дополнительные сведения см. в [дополнительных сведениях о расследовании угрозы и ответах.](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-ti)
+Чтобы получить контекстную интеграцию устройств в Office 365 Threat Intelligence, необходимо включить параметры Defender для конечных точек в панели мониторинга & соответствия требованиям. Дополнительные сведения см. в [дополнительных сведениях о расследовании угрозы и ответах.](/microsoft-365/security/office-365-security/office-365-ti)
 
 ## <a name="microsoft-threat-experts---targeted-attack-notifications"></a>эксперты Майкрософт по угрозам — целевые уведомления об атаках
 
@@ -212,7 +212,7 @@ ms.locfileid: "52246372"
 
 ## <a name="microsoft-intune-connection"></a>Microsoft Intune подключения
 
-Defender for Endpoint можно интегрировать с [Microsoft Intune,](https://docs.microsoft.com/intune/what-is-intune) чтобы включить условный доступ к устройству на основе [риска.](https://docs.microsoft.com/intune/advanced-threat-protection#enable-windows-defender-atp-in-intune) [Включив эту](configure-conditional-access.md)функцию, вы сможете обмениваться сведениями о устройствах Defender для конечных точек с Помощью Intune, что повышает правоприменение политики.
+Defender for Endpoint можно интегрировать с [Microsoft Intune,](/intune/what-is-intune) чтобы включить условный доступ к устройству на основе [риска.](/intune/advanced-threat-protection#enable-windows-defender-atp-in-intune) [Включив эту](configure-conditional-access.md)функцию, вы сможете обмениваться сведениями о устройствах Defender для конечных точек с Помощью Intune, что повышает правоприменение политики.
 
 > [!IMPORTANT]
 > Вам потребуется включить интеграцию в Intune и Defender для конечной точки, чтобы использовать эту функцию. Дополнительные сведения о конкретных действиях см. в дополнительных сведениях [о настройке условного доступа в Defender для конечной точки.](configure-conditional-access.md)
@@ -220,7 +220,7 @@ Defender for Endpoint можно интегрировать с [Microsoft Intune
 Эта функция доступна только в том случае, если у вас есть следующие функции:
 
 - Лицензированный клиент для Enterprise Mobility + Security E3 и Windows E5 (или Microsoft 365 корпоративный E5)
-- Активная Microsoft Intune, с управляемыми intune Windows 10 [устройствами Azure AD-joined.](https://docs.microsoft.com/azure/active-directory/devices/concept-azure-ad-join/)
+- Активная Microsoft Intune, с управляемыми intune Windows 10 [устройствами Azure AD-joined.](/azure/active-directory/devices/concept-azure-ad-join/)
 
 
 ### <a name="conditional-access-policy"></a>Политика условного доступа
@@ -228,7 +228,7 @@ Defender for Endpoint можно интегрировать с [Microsoft Intune
 Если включить интеграцию Intune, Intune автоматически создаст классическую политику условного доступа (CA). Эта классическая политика ЦС является обязательным условием для настройки отчетов о состоянии в Intune. Его не следует удалять.
 
 > [!NOTE]
-> Классическая политика ЦС, созданная Intune, отличается от современных политик условного [доступа,](https://docs.microsoft.com/azure/active-directory/conditional-access/overview/)которые используются для настройки конечных точек.
+> Классическая политика ЦС, созданная Intune, отличается от современных политик условного [доступа,](/azure/active-directory/conditional-access/overview/)которые используются для настройки конечных точек.
 
 
 ## <a name="device-discovery"></a>Обнаружение устройств

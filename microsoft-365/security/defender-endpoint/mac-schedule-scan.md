@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 2c1dc16dc3fbb61a77e1d7348d47fdfd778c56e2
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: a93ea3427c72eb5529715b92cb18d01462493cc6
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934517"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842858"
 ---
 # <a name="schedule-scans-with-microsoft-defender-for-endpoint-on-macos"></a>Расписание сканирования с помощью Microsoft Defender для конечной точки на macOS
 
@@ -104,4 +104,4 @@ ms.locfileid: "51934517"
 
 Вы также можете запланировать сканирование с помощью Microsoft Intune. Сценарий [runMDATPQuickScan.sh,](https://github.com/microsoft/shell-intune-samples/tree/master/Misc/MDATP#runmdatpquickscansh) доступный в [скриптах для Microsoft Defender для конечной](https://github.com/microsoft/shell-intune-samples/tree/master/Misc/MDATP) точки, сохранится при возобновлении работы устройства из режима сна. 
 
-Дополнительные инструкции по использованию этого скрипта на устройствах macOS см. в [intune.](https://docs.microsoft.com/mem/intune/apps/macos-shell-scripts)
+Дополнительные инструкции по использованию этого скрипта на устройствах macOS см. в [intune.](/mem/intune/apps/macos-shell-scripts)

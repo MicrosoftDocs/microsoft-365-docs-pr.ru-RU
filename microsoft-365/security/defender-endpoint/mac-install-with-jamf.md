@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: d102635a284ec5c802e352f097d1632e2f20e166
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: b41c5ec827e110e0101c50ce7babeb6442096edb
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51929065"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842894"
 ---
 # <a name="deploying-microsoft-defender-for-endpoint-on-macos-with-jamf-pro"></a>Развертывание Microsoft Defender для конечной точки на macOS с помощью Jamf Pro
 
@@ -39,7 +39,7 @@ ms.locfileid: "51929065"
 Узнайте, как развернуть Microsoft Defender для конечной точки на macOS с помощью Jamf Pro.
 
 > [!NOTE]
-> Если вы используете macOS Catalina (10.15.4) или более новые версии macOS, см. новые профили конфигурации для [macOS Catalina](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/mac-sysext-policies)и более новые версии macOS .
+> Если вы используете macOS Catalina (10.15.4) или более новые версии macOS, см. новые профили конфигурации для [macOS Catalina](/microsoft-365/security/defender-endpoint/mac-sysext-policies)и более новые версии macOS .
 
 Это многоступенчатый процесс. Необходимо выполнить все следующие действия:
 

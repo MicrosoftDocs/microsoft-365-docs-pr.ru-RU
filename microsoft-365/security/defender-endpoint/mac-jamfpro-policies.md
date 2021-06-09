@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 84d0b37632dc23615a37bbbd73c17fe509dedae5
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: e26bb85fc74b6be49a9f8116792a7f28e8fa7e05
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934685"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842270"
 ---
 # <a name="set-up-the-microsoft-defender-for-endpoint-on-macos-policies-in-jamf-pro"></a>Настройка конечной точки Microsoft Defender для политик macOS в Jamf Pro
 
@@ -40,7 +40,7 @@ ms.locfileid: "51934685"
 
 1. [Получите пакет onboarding Microsoft Defender для конечной точки](#step-1-get-the-microsoft-defender-for-endpoint-onboarding-package)
 
-2. [Создание профиля конфигурации в Jamf Pro с помощью бортового пакета](#step-2-create-a-configuration-profile-in-jamf-pro-using-the-onboarding-package)
+2. [Создание профиля конфигурации в Jamf Pro с помощью пакета onboarding](#step-2-create-a-configuration-profile-in-jamf-pro-using-the-onboarding-package)
 
 3. [Настройка параметров конечных точек Microsoft Defender](#step-3-configure-microsoft-defender-for-endpoint-settings)
 
@@ -56,18 +56,18 @@ ms.locfileid: "51934685"
 
 9. [Настройка расширения сети](#step-9-configure-network-extension)
 
-10. [Расписание сканирования с помощью Microsoft Defender для конечной точки на macOS](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/mac-schedule-scan-atp)
+10. [Расписание сканирования с помощью Microsoft Defender для конечной точки на macOS](/windows/security/threat-protection/microsoft-defender-atp/mac-schedule-scan-atp)
 
 11. [Развертывание Microsoft Defender для конечной точки на macOS](#step-11-deploy-microsoft-defender-for-endpoint-on-macos)
 
 
 ## <a name="step-1-get-the-microsoft-defender-for-endpoint-onboarding-package"></a>Шаг 1. Получить пакет onboarding Microsoft Defender для конечной точки
 
-1. В [Центре безопасности Защитника Майкрософт](https://securitycenter.microsoft.com )перейдите к **параметрам > onboarding**. 
+1. В [Центр безопасности в Microsoft Defender](https://securitycenter.microsoft.com )перейдите **к Параметры > onboarding**. 
 
-2. Выберите macOS в качестве операционной системы, а метод развертывания — управление мобильными устройствами и Microsoft Intune.
+2. Выберите macOS в качестве операционной системы и метод управления мобильными устройствами Microsoft Intune в качестве метода развертывания.
 
-    ![Изображение Центра безопасности Защитника Майкрософт](images/onboarding-macos.png)
+    ![Изображение Центр безопасности в Microsoft Defender](images/onboarding-macos.png)
 
 3. Выберите **пакет загрузки** (WindowsDefenderATPOnboardingPackage.zip).
 
@@ -76,7 +76,7 @@ ms.locfileid: "51934685"
 5. Скопируйте файл в предпочтительное расположение. Пример: `C:\Users\JaneDoe_or_JohnDoe.contoso\Downloads\WindowsDefenderATPOnboardingPackage_macOS_MDM_contoso\jamf\WindowsDefenderATPOnboarding.plist`.
 
 
-## <a name="step-2-create-a-configuration-profile-in-jamf-pro-using-the-onboarding-package"></a>Шаг 2. Создание профиля конфигурации в Jamf Pro с помощью пакета onboarding
+## <a name="step-2-create-a-configuration-profile-in-jamf-pro-using-the-onboarding-package"></a>Шаг 2. Создание профиля конфигурации в Jamf Pro с помощью бортового пакета
 
 1. Найдите файл `WindowsDefenderATPOnboarding.plist` из предыдущего раздела.
 
@@ -85,22 +85,22 @@ ms.locfileid: "51934685"
  
 2. В панели мониторинга Jamf Pro выберите **New**.
 
-    ![Изображение создания новой панели мониторинга Jamf Pro](images/jamf-pro-configure-profile.png)
+    ![Изображение создания новой панели мониторинга Pro Jamf](images/jamf-pro-configure-profile.png)
 
 3. Введите следующие сведения:
 
    **Общие**
-   - Имя: бортовая система MDATP для macOS
-   - Описание. Бортовая система MDATP EDR для macOS
+   - Имя: MDATP для macOS
+   - Описание: MDATP EDR для macOS
    - Категории: None (нет)
    - Метод рассылки: установка автоматически
    - Уровень: уровень компьютера
 
-4. В **приложении & настраиваемые параметры** выберите **Настройка**.
+4. В **приложении & настраиваемые Параметры** выберите **Configure**.
 
     ![Изображение настройки приложения и настраиваемых параметров](images/jamfpro-mac-profile.png)
 
-5. Выберите **Файл загрузки (PLIST-файл),** а затем **введите домен preference:** `com.microsoft.wdav.atp` . 
+5. Выберите **Upload файл (PLIST-файл),** а затем **введите параметр Preference Domain:** `com.microsoft.wdav.atp` . 
 
     ![Изображение файла загрузки списка jamfpro](images/jamfpro-plist-upload.png)
 
@@ -273,29 +273,29 @@ ms.locfileid: "51934685"
 
 3.  В панели мониторинга Jamf Pro выберите **General**.
 
-    ![Изображение новой панели мониторинга Jamf Pro](images/644e0f3af40c29e80ca1443535b2fe32.png)
+    ![Изображение панели мониторинга Pro Jamf](images/644e0f3af40c29e80ca1443535b2fe32.png)
 
 4. Введите следующие сведения:
 
     **Общие**
     
-    - Имя: параметры конфигурации MDATP MDAV
+    - Имя: MDATP параметры конфигурации MDAV
     - Описание:\<blank\>
     - Категория: Нет (по умолчанию)
     - Метод рассылки: установка автоматически (по умолчанию)
     - Уровень: уровень компьютера (по умолчанию)
 
-    ![Изображение параметров конфигурации MDATP MDAV](images/3160906404bc5a2edf84d1d015894e3b.png)
+    ![Изображение параметров MDATP MDAV](images/3160906404bc5a2edf84d1d015894e3b.png)
 
-5. В **приложении & настраиваемые параметры** выберите **Настройка**.
+5. В **приложении & настраиваемые Параметры** выберите **Configure**.
 
     ![Изображение параметров приложения и настраиваемого](images/e1cc1e48ec9d5d688087b4d771e668d2.png)
 
-6. Выберите **файл загрузки (PLIST-файл).**
+6. Выберите **Upload файл (PLIST-файл).**
 
     ![Изображение файла plist параметров конфигурации](images/6f85269276b2278eca4bce84f935f87b.png)
 
-7. В **домене Preferences введите,** `com.microsoft.wdav` а затем выберите Файл  **загрузки PLIST**.
+7. В **домене Preferences** введите, а затем `com.microsoft.wdav` выберите Upload **PLIST File**.
 
     ![Изображение домена настроек конфигурации](images/db15f147dd959e872a044184711d7d46.png)
 
@@ -354,7 +354,7 @@ ms.locfileid: "51934685"
 2. Нажмите **кнопку New** и введите следующие сведения для **Параметры**:
     
     - Tab **General:** 
-        - **Имя:** параметры MDATP MDAV Notification
+        - **Имя:** MDATP MDAV Notification
         - **Описание:** macOS 10.15 (Catalina) или более новый
         - **Категория:** Нет *(по умолчанию)*
         - **Метод рассылки:** Установка автоматически *(по умолчанию)*
@@ -373,7 +373,7 @@ ms.locfileid: "51934685"
 
         ![Изображение лотка уведомлений mdatpmdav параметров конфигурации](images/7f9138053dbcbf928e5182ee7b295ebe.png)
 
-    - Tab **Notifications**, **щелкните Добавить** еще раз, прокрутите вниз **к новым настройкам уведомлений**
+    - Tab **Notifications**, **щелкните Добавить** еще раз, прокрутите вниз, чтобы **новые уведомления Параметры**
         - **Bundle ID:**`com.microsoft.autoupdate2`
         - Настройка остальных параметров на те же значения, что и выше
 
@@ -429,21 +429,21 @@ ms.locfileid: "51934685"
 
     **Общие** 
     
-    - Имя: параметры MDATP MDAV MAU
-    - Описание. Параметры Microsoft AutoUpdate для MDATP для macOS
+    - Имя: MDATP MDAV MAU
+    - Описание. Параметры Microsoft AutoUpdate для MDATP macOS
     - Категория: Нет (по умолчанию)
     - Метод рассылки: установка автоматически (по умолчанию)
     - Уровень: уровень компьютера (по умолчанию)
 
-5. В **приложении & настраиваемые параметры** выберите **Настройка**.
+5. В **приложении & настраиваемые Параметры** выберите **Configure**.
 
     ![Изображение приложения настройки конфигурации и настраиваемые параметры](images/1f72e9c15eaafcabf1504397e99be311.png)
 
-6. Выберите **файл загрузки (PLIST-файл).**
+6. Выберите **Upload файл (PLIST-файл).**
 
     ![Изображение plist настройки конфигурации](images/1213872db5833aa8be535da57653219f.png)  
 
-7. В **домене Preference** введите: `com.microsoft.autoupdate2` затем выберите Файл **загрузки PLIST.**
+7. В **домене Preference** введите: `com.microsoft.autoupdate2` затем выберите Upload **PLIST File**.
 
     ![Изображение предварительного домена настройки настройки](images/1213872db5833aa8be535da57653219f.png)
 
@@ -468,7 +468,7 @@ ms.locfileid: "51934685"
    
      ![Изображение scopetab настройки конфигурации](images/10ab98358b2d602f3f67618735fa82fb.png)
 
-13. Нажмите кнопку **Добавить**.
+13. Нажмите **Добавить**.
     
     ![Изображение параметра конфигурации addimg1](images/56e6f6259b9ce3c1706ed8d666ae4947.png)
 
@@ -491,7 +491,7 @@ ms.locfileid: "51934685"
 3. Введите следующие сведения:
 
     **Общие** 
-    - Имя: MDATP MDAV — предоставление полного доступа к диску EDR и AV
+    - Имя: MDATP MDAV — предоставление полного доступа к EDR и AV
     - Описание. Для macOS Catalina или более нового управления политикой конфиденциальности
     - Категории: None (нет)
     - Метод рассылки: установка автоматически
@@ -559,7 +559,7 @@ ms.locfileid: "51934685"
 
     ![Изображение параметра конфигурации contoso machinegrp](images/368d35b3d6179af92ffdbfd93b226b69.png)
 
-15. Нажмите кнопку **Добавить**. 
+15. Нажмите **Добавить**. 
 
 16. Нажмите **Сохранить**. 
     
@@ -569,7 +569,7 @@ ms.locfileid: "51934685"
     
     ![Изображение параметра конфигурации donimg2](images/6c8b406ee224335a8c65d06953dc756e.png)
 
-Кроме того, вы можете скачать [fulldisk.mobileconfig](https://github.com/microsoft/mdatp-xplat/blob/master/macos/mobileconfig/profiles/fulldisk.mobileconfig) и загрузить его в профили конфигурации JAMF, как описано в развертывании пользовательских профилей конфигурации с помощью [Jamf Pro| Метод 2. Загрузите профиль конфигурации в Jamf Pro](https://www.jamf.com/jamf-nation/articles/648/deploying-custom-configuration-profiles-using-jamf-pro).
+Кроме того, вы можете скачать [fulldisk.mobileconfig](https://github.com/microsoft/mdatp-xplat/blob/master/macos/mobileconfig/profiles/fulldisk.mobileconfig) и загрузить его в профили конфигурации JAMF, как описано в развертывании пользовательских профилей конфигурации с помощью [Jamf Pro| Метод 2. Upload профиль конфигурации в Jamf Pro](https://www.jamf.com/jamf-nation/articles/648/deploying-custom-configuration-profiles-using-jamf-pro).
 
 ## <a name="step-7-approve-kernel-extension-for-microsoft-defender-for-endpoint"></a>Шаг 7. Утверждение расширения ядра для Microsoft Defender для конечной точки
 
@@ -584,8 +584,8 @@ ms.locfileid: "51934685"
 
     **Общие** 
     
-    - Имя. Расширение Ядра MDAV MDAV
-    - Описание: расширение ядра MDATP (kext)
+    - Имя: MDATP расширение ядра MDAV
+    - Описание: MDATP расширения ядра (kext)
     - Категории: None (нет)
     - Метод рассылки: установка автоматически
     - Уровень: уровень компьютера
@@ -624,7 +624,7 @@ ms.locfileid: "51934685"
 
     ![Изображение параметров конфигурации doneimag](images/1c9bd3f68db20b80193dac18f33c22d0.png)
 
-Кроме того, вы можете скачать [kext.mobileconfig](https://github.com/microsoft/mdatp-xplat/blob/master/macos/mobileconfig/profiles/kext.mobileconfig) и загрузить его в профили конфигурации JAMF, как описано в развертывании пользовательских профилей конфигурации с помощью [Jamf Pro| Метод 2. Загрузите профиль конфигурации в Jamf Pro](https://www.jamf.com/jamf-nation/articles/648/deploying-custom-configuration-profiles-using-jamf-pro).
+Кроме того, вы можете скачать [kext.mobileconfig](https://github.com/microsoft/mdatp-xplat/blob/master/macos/mobileconfig/profiles/kext.mobileconfig) и загрузить его в профили конфигурации JAMF, как описано в развертывании пользовательских профилей конфигурации с помощью [Jamf Pro| Метод 2. Upload профиль конфигурации в Jamf Pro](https://www.jamf.com/jamf-nation/articles/648/deploying-custom-configuration-profiles-using-jamf-pro).
 
 ## <a name="step-8-approve-system-extensions-for-microsoft-defender-for-endpoint"></a>Шаг 8. Утверждение расширений системы для Microsoft Defender для конечной точки
 
@@ -637,7 +637,7 @@ ms.locfileid: "51934685"
     **Общие**
     
     - Имя: MDATP MDAV System Extensions
-    - Описание: расширения системы MDATP
+    - Описание: MDATP расширения системы
     - Категории: None (нет)
     - Метод рассылки: установка автоматически
     - Уровень: уровень компьютера
@@ -681,7 +681,7 @@ ms.locfileid: "51934685"
 
 ## <a name="step-9-configure-network-extension"></a>Шаг 9. Настройка расширения сети
 
-В рамках возможностей обнаружения конечных точек и ответов Microsoft Defender for Endpoint на macOS проверяет трафик розетки и передает эти сведения на портал Центра безопасности Microsoft Defender. Следующая политика позволяет сетевому расширению выполнять эту функцию.
+В рамках возможностей обнаружения конечных точек и ответов Microsoft Defender для конечной точки на macOS проверяет трафик розетки и передает эти сведения на Центр безопасности в Microsoft Defender портал. Следующая политика позволяет сетевому расширению выполнять эту функцию.
 
 Эти действия применимы к macOS 10.15 (Catalina) или более новым.
 
@@ -690,14 +690,14 @@ ms.locfileid: "51934685"
 2. Нажмите **кнопку New** и введите следующие сведения для **Параметры**:
 
     - Tab **General:** 
-        - **Имя:** Расширение сети ATP Защитника Майкрософт
+        - **Имя:** ATP в Защитнике Microsoft расширение сети
         - **Описание:** macOS 10.15 (Catalina) или более новый
         - **Категория:** Нет *(по умолчанию)*
         - **Метод рассылки:** Установка автоматически *(по умолчанию)*
         - **Уровень**: Уровень компьютера *(по умолчанию)*
 
     - Фильтр **контента вкладок:**
-        - **Имя фильтра:** фильтр контента ATP Защитника Майкрософт
+        - **Имя фильтра:** ATP в Защитнике Microsoft фильтр контента
         - **Идентификатор:**`com.microsoft.wdav`
         - Оставьте **адрес службы**, **организация**, **имя пользователя**, **пароль**, **сертификат** пустой (**Включить** *не* выбран)
         - **Порядок фильтрации:** Инспектор
@@ -729,11 +729,11 @@ ms.locfileid: "51934685"
 
     ![Изображение параметров конфигурации netextfinal](images/netext-final.png)
 
-Кроме того, вы можете скачать [netfilter.mobileconfig](https://github.com/microsoft/mdatp-xplat/blob/master/macos/mobileconfig/profiles/netfilter.mobileconfig) и загрузить его в профили конфигурации JAMF, как описано в развертывании пользовательских профилей конфигурации с помощью [Jamf Pro| Метод 2. Загрузите профиль конфигурации в Jamf Pro](https://www.jamf.com/jamf-nation/articles/648/deploying-custom-configuration-profiles-using-jamf-pro).
+Кроме того, вы можете скачать [netfilter.mobileconfig](https://github.com/microsoft/mdatp-xplat/blob/master/macos/mobileconfig/profiles/netfilter.mobileconfig) и загрузить его в профили конфигурации JAMF, как описано в развертывании пользовательских профилей конфигурации с помощью [Jamf Pro| Метод 2. Upload профиль конфигурации в Jamf Pro](https://www.jamf.com/jamf-nation/articles/648/deploying-custom-configuration-profiles-using-jamf-pro).
 
 
 ## <a name="step-10-schedule-scans-with-microsoft-defender-for-endpoint-on-macos"></a>Шаг 10. Расписание сканирования с помощью Microsoft Defender для конечной точки на macOS
-Следуйте инструкциям по [проверке расписания с помощью Microsoft Defender для конечной точки на macOS.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/mac-schedule-scan-atp)
+Следуйте инструкциям по [проверке расписания с помощью Microsoft Defender для конечной точки на macOS.](/windows/security/threat-protection/microsoft-defender-atp/mac-schedule-scan-atp)
 
 
 ## <a name="step-11-deploy-microsoft-defender-for-endpoint-on-macos"></a>Шаг 11. Развертывание Microsoft Defender для конечной точки на macOS
@@ -746,7 +746,7 @@ ms.locfileid: "51934685"
 
     ![Изображение проводника файлов1 wdavmdmpkg](images/fb2220fed3a530f4b3ef36f600da0c27.png)
 
-3. Откройте панель мониторинга Jamf Pro.
+3. Откройте панель мониторинга Pro Jamf.
 
     ![Изображение параметров конфигурации jamfpro](images/990742cd9a15ca9fdd37c9f695d1b9f4.png)
 
@@ -770,7 +770,7 @@ ms.locfileid: "51934685"
     
     ![Снимок экрана компьютера Описание, автоматически сгенерированное](images/1aa5aaa0a387f4e16ce55b66facc77d1.png)
 
-7. Выберите **Открыть**. Установите имя **отображения в** Microsoft **Defender Advanced Threat Protection и антивирус Microsoft Defender.**
+7. Выберите **Открыть**. Установите **имя отображения Расширенная защита от угроз в Microsoft Defender** **и антивирусная программа в Microsoft Defender**.
 
     **Файл Manifest не** требуется. Microsoft Defender для конечной точки работает без Файла Манифеста.
     
@@ -799,7 +799,7 @@ ms.locfileid: "51934685"
 
 11. В **общем введите** следующие сведения:
 
-    - Имя отображения: MDATP onboarding Contoso 200329 v100.86.92 или более поздней
+    - Имя отображения: MDATP Contoso 200329 v100.86.92 или более поздней
 
     ![Изображение параметров конфигурацииmdatponboard ](images/625ba6d19e8597f05e4907298a454d28.png)
 
@@ -814,9 +814,9 @@ ms.locfileid: "51934685"
  
     ![Образ настройки пакета параметров конфигурации](images/8fb4cc03721e1efb4a15867d5241ebfb.png)
 
-15. Выберите **кнопку Добавить** рядом с **расширенным антивирусом Microsoft Defender Advanced Threat Protection и Microsoft Defender.**
+15. Выберите **кнопку Добавить** рядом **с Расширенная защита от угроз в Microsoft Defender и антивирусная программа в Microsoft Defender**.
 
-    ![Добавление изображений параметров конфигурации MDATP и MDA](images/526b83fbdbb31265b3d0c1e5fbbdc33a.png)
+    ![Добавлено изображение параметров MDATP и MDA](images/526b83fbdbb31265b3d0c1e5fbbdc33a.png)
 
 16. Нажмите **Сохранить**.
 
@@ -832,7 +832,7 @@ ms.locfileid: "51934685"
 
     **Scope**
     
-    Нажмите кнопку **Добавить**.
+    Нажмите **Добавить**.
     
     ![Изображение параметров конфигурации ad1img](images/1c08d097829863778d562c10c5f92b67.png)
 

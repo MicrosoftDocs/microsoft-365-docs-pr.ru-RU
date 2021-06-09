@@ -6,17 +6,17 @@
       items:
         - name: Что такое Microsoft 365 Defender?
           href: microsoft-365-defender.md
-        - name: "Центр безопасности Microsoft\_365"
+        - name: Microsoft 365 Обзор защитника
           href: overview-security-center.md
         - name: Новые возможности Microsoft 365 Defender
           href: whats-new.md
-        - name: Microsoft Defender для конечной точки в Центре безопасности Microsoft 365
+        - name: Защитник для конечной точки в Microsoft 365 Defender
           href: microsoft-365-security-center-mde.md
-        - name: Microsoft Defender для Office 365 в Центре безопасности Microsoft 365
+        - name: Defender для Office 365 в Microsoft 365 Defender
           href: microsoft-365-security-center-mdo.md
-        - name: Перенаправление Microsoft Defender для конечной точки в Центр безопасности Microsoft 365
+        - name: Перенаправление защитника для конечной точки на Microsoft 365 Defender
           href: microsoft-365-security-mde-redirection.md
-        - name: Перенаправление Defender для Office 365 в Центр безопасности Microsoft 365
+        - name: Перенаправление центра Office 365 безопасности и соответствия требованиям на Microsoft 365 Defender
           href: microsoft-365-security-mdo-redirection.md
         - name: Microsoft 365 Интеграция защитника с Azure Sentinel
           href: microsoft-365-defender-integration-with-azure-sentinel.md
@@ -112,7 +112,7 @@
                   href: first-incident-prepare.md
                 - name: Этап 1. Анализ и анализ
                   href: first-incident-analyze.md
-                - name: Этап 2. Исправление
+                - name: Шаг 2. Исправление
                   href: first-incident-remediate.md
                 - name: Этап 3. Проверка
                   href: first-incident-post.md
@@ -120,10 +120,10 @@
                   items:
                     - name: Фишинговое письмо
                       href: first-incident-path-phishing.md
-                    - name: Identity
+                    - name: Удостоверение
                       href: first-incident-path-identity.md
             - name: Книги ответов на инциденты
-              href: 'https://docs.microsoft.com/security/compass/incident-response-playbooks'
+              href: /security/compass/incident-response-playbooks
             - name: Уведомления по электронной почте
               href: get-incident-notifications.md
         - name: Аналитика угроз
@@ -321,11 +321,11 @@
                 - name: Потоковый API
                   items:
                     - name: Microsoft 365 Потоковый API
-                      href: ../defender-endpoint/raw-data-export.md
-                    - name: Поток расширенных 100 000 охоты в центр событий Azure
-                      href: ../defender-endpoint/raw-data-export-event-hub.md
+                      href: streaming-api.md
+                    - name: Потоковая трансляция событий расширенной охоты в Центре событий Azure
+                      href: streaming-api-event-hub.md
                     - name: Потоковая передача событий расширенной охоты в учетную запись хранения
-                      href: ../defender-endpoint/raw-data-export-storage.md
+                      href: streaming-api-storage.md
                 - name: Программный интерфейс расширенной охоты
                   href: api-advanced-hunting.md
                 - name: API инцидентов

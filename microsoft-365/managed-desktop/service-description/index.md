@@ -12,12 +12,12 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: a107c6364e6766094724972e931606003e0c87f7
-ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
+ms.openlocfilehash: 3346f6b4d05eb514bf680f87eb8452d9fd4bab38
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51445200"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841994"
 ---
 # <a name="microsoft-managed-desktop-service-description"></a>Описание службы "Компьютеры, управляемые Майкрософт"
 
@@ -27,7 +27,7 @@ ms.locfileid: "51445200"
 - Настройка устройств
 - Функции, обеспечивающие безопасность пользователей и устройств в соответствии с рекомендациями Майкрософт, в том числе Windows Hello, BitLocker, SecureBoot и функция безопасности на основе виртуализации.
 - Мониторинг безопасности устройств и службы устранения последствий инцидентов
-- Обеспечение совместимости приложений с помощью [App Assure](https://docs.microsoft.com/fasttrack/products-and-capabilities#app-assure)
+- Обеспечение совместимости приложений с помощью [App Assure](/fasttrack/products-and-capabilities#app-assure)
 - Управление обновлениями Windows 10 и приложений Microsoft 365 для предприятий
 - Аналитические данные об использовании устройств и приложений
 - ИТ-поддержка пользователей

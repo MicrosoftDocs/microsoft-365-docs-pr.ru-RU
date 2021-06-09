@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: d9218ad447f926f0086801036277323e7c1efb4c
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: bbb3e5dfe94d5efb026e21a4cbd94fac45f36594
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52770566"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52845226"
 ---
 # <a name="get-missing-kbs-by-software-id"></a>Отсутствие KBs по программному ИД
 
@@ -43,7 +43,7 @@ ms.locfileid: "52770566"
 
 Тип разрешения |   Разрешение   |   Имя отображения разрешений
 :---|:---|:---
-Приложение |Software.Read.All |   'Read Threat and Vulnerability Management Software information'
+Для приложений |Software.Read.All |   'Read Threat and Vulnerability Management Software information'
 Делегированные (рабочая или учебная учетная запись) | Software.Read |   'Read Threat and Vulnerability Management Software information'
 
 ## <a name="http-request"></a>HTTP-запрос
@@ -58,7 +58,7 @@ GET /api/Software/{Id}/getmissingkbs
 :---|:---|:---
 Authorization | String | Bearer {token}. **Обязательное поле**.
 
-## <a name="request-body"></a>Текст запроса
+## <a name="request-body"></a>Тело запроса
 
 переменная Empty
 
@@ -100,7 +100,7 @@ GET https://api.securitycenter.microsoft.com/api/Software/microsoft-_-edge/getmi
 }
 ```
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
-- [Управление рисками & уязвимостей](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
-- [Инвентаризация программного обеспечения & уязвимости](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/tvm-software-inventory)
+- [Управление рисками & уязвимостей](/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
+- [Инвентаризация программного обеспечения & уязвимости](/microsoft-365/security/defender-endpoint/tvm-software-inventory)

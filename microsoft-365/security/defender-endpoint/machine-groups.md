@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 4fc2768392e818f74600e3c2d749b6e95bf957e4
-ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
+ms.openlocfilehash: d4f62acde4e7d790c7a7c8635f51c99f0823687d
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52259431"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842774"
 ---
 # <a name="create-and-manage-device-groups"></a>Создание групп устройств и управление ими
 
@@ -75,7 +75,7 @@ ms.locfileid: "52259431"
     >[!NOTE]
     >Вы можете предоставить доступ только к группам пользователей Azure AD, которые были назначены ролям RBAC.
 
-6. Щелкните **Закрыть**. Применяются изменения конфигурации.
+6. Нажмите кнопку **Закрыть**. Применяются изменения конфигурации.
 
 ## <a name="manage-device-groups"></a>Управление группами устройств
 
@@ -111,4 +111,4 @@ ms.locfileid: "52259431"
 
 - [Управление доступом к порталу с помощью управления доступом на основе ролей](rbac.md)
 - [Создание тегов устройств и управление ими](machine-tags.md)
-- [Получите список групп устройств клиента с Graph API](https://docs.microsoft.com/graph/api/device-list-memberof)
+- [Получите список групп устройств клиента с Graph API](/graph/api/device-list-memberof)

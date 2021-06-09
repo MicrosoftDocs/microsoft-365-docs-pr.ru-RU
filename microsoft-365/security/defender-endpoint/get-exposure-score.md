@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 9da87dcb64f8c62966382e3a2888f03c49149a09
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 071b0e7597d334fe06d5045e06a5c4d82dd65609
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52770438"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52845394"
 ---
 # <a name="get-exposure-score"></a>Получить показатель уязвимости
 
@@ -48,7 +48,7 @@ ms.locfileid: "52770438"
 
 Тип разрешения | Разрешение | Имя отображения разрешений
 :---|:---|:---
-Приложение | Score.Read.All | 'Read Threat and Vulnerability Management score'
+Для приложений | Score.Read.All | 'Read Threat and Vulnerability Management score'
 Делегированные (рабочая или учебная учетная запись) | Score.Read | 'Read Threat and Vulnerability Management score'
 
 ## <a name="http-request"></a>HTTP-запрос
@@ -63,7 +63,7 @@ GET /api/exposureScore
 :---|:---|:---
 Authorization | String | Bearer {token}. **Обязательное поле**.
 
-## <a name="request-body"></a>Текст запроса
+## <a name="request-body"></a>Тело запроса
 
 переменная Empty
 
@@ -99,5 +99,5 @@ GET https://api.securitycenter.microsoft.com/api/exposureScore
 
 ## <a name="see-also"></a>См. также
 
-- [Управление рисками & уязвимостей](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
-- [Оценка & уязвимости](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/tvm-exposure-score)
+- [Управление рисками & уязвимостей](/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
+- [Оценка & уязвимости](/microsoft-365/security/defender-endpoint/tvm-exposure-score)

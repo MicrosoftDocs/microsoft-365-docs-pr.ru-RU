@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 906ae4bdebcc46e210fa9c5dcb5387c880fdbb38
-ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
+ms.openlocfilehash: 9f1934de8f710a21bc362e735bb6f1eab7a2d287
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51939664"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52845430"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting"></a>Активная охота на угрозы с расширенным поиском
 
@@ -43,7 +43,7 @@ ms.locfileid: "51939664"
 Вы можете использовать одни и те же запросы на поиск угроз для создания пользовательских правил обнаружения. Эти правила запускаются автоматически для проверки и реагирования на предполагаемые нарушения, неправильного устройства и других выводов.
 
 >[!TIP]
->Используйте расширенный метод охоты в [Microsoft 365 Defender](/microsoft-365/security/defender/advanced-hunting-overview) для охоты на угрозы с помощью данных defender for Endpoint, Microsoft Defender for Office 365, Microsoft Cloud App Security и Microsoft Defender for Identity. [Включи Microsoft 365 Defender.](/microsoft-365/security/defender/m365d-enable)<br><br>
+>Используйте [расширенный](/microsoft-365/security/defender/advanced-hunting-overview) поиск в Microsoft 365 Defender для охоты на угрозы с помощью данных defender for Endpoint, Microsoft Defender для Office 365, Microsoft Cloud App Security и Microsoft Defender for Identity. [Включи Microsoft 365 Defender](/microsoft-365/security/defender/m365d-enable).<br><br>
 Узнайте больше о том, как переместить расширенные процессы охоты из Microsoft Defender для конечной точки в Microsoft 365 Defender в миграции расширенных запросов охоты из [Microsoft Defender для конечной точки](/microsoft-365/security/defender/advanced-hunting-migrate-from-mde).
 
 ## <a name="get-started-with-advanced-hunting"></a>Начало работы с расширенным выслеживанием
@@ -54,7 +54,7 @@ ms.locfileid: "51939664"
 
 | Цель обучения | Описание | Ресурс |
 |--|--|--|
-| **Выучат язык** | Advanced hunting is based on [Kusto query language,](https://docs.microsoft.com/azure/kusto/query/)supporting the same syntax and operators. Начать изучение языка запросов можно, выполнив свой первый запрос. | [Сведения о языке запросов](advanced-hunting-query-language.md) |
+| **Выучат язык** | Advanced hunting is based on [Kusto query language,](/azure/kusto/query/)supporting the same syntax and operators. Начать изучение языка запросов можно, выполнив свой первый запрос. | [Сведения о языке запросов](advanced-hunting-query-language.md) |
 | **Узнайте, как использовать результаты запроса** | Узнайте о диаграммах и различных способах просмотра или экспорта результатов. Узнайте, как быстро настроить запросы и сверлить, чтобы получить более подробную информацию. | [Работа с результатами запросов](advanced-hunting-query-results.md) |
 | **Сведения о схеме** | Формирование четкого и глубокого представления о таблицах схемы и входящих в них столбцах. Узнайте, где искать данные при построении запросов. | [Справочник по схеме](advanced-hunting-schema-reference.md) |
 | **Использование предварительно настроенных запросов** | Возможен поиск в коллекции предварительно настроенных запросов для использования при разных сценариев выслеживания угроз. | [Общие запросы](advanced-hunting-shared-queries.md) |

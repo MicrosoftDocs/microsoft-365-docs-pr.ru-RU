@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Узнайте, как настроить локальное Exchange Server для использования гибридной современной проверки подлинности (HMA), предлагая более безопасную проверку подлинности и авторизацию пользователей.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f52b7c011b717c5dcb91270ab0a7dd2015131c0e
-ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
+ms.openlocfilehash: d30d1b2b14efd66d973e9bf6d45b970d7af681bc
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52694453"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841634"
 ---
 # <a name="how-to-configure-exchange-server-on-premises-to-use-hybrid-modern-authentication"></a>Как настроить локальное развертывание Exchange Server для использования гибридной современной проверки подлинности
 
@@ -183,13 +183,13 @@ Set-OrganizationConfig -OAuth2ClientProfileEnabled $true
 
 Если вы — локальное клиент, использующее сервер Exchange TCP 443, обходить обработку трафика для следующих диапазонов IP-адресов:
 
-```
+```text
 52.125.128.0/20
 52.127.96.0/23
 ```
 
-Приложение Outlook для iOS и Android разработано как лучший способ испытать Microsoft 365 или Office 365 на вашем мобильном устройстве с помощью службы Майкрософт для поиска, планирования и приоритетов вашей повседневной жизни и работы. Дополнительные сведения можно получить в ссылке Использование гибридной современной проверки подлинности [Outlook для iOS и Android.](https://docs.microsoft.com/exchange/clients/outlook-for-ios-and-android/use-hybrid-modern-auth?view=exchserver-2019)
+Приложение Outlook для iOS и Android разработано как лучший способ испытать Microsoft 365 или Office 365 на вашем мобильном устройстве с помощью службы Майкрософт для поиска, планирования и приоритетов вашей повседневной жизни и работы. Дополнительные сведения можно получить в ссылке Использование гибридной современной проверки подлинности [Outlook для iOS и Android.](/exchange/clients/outlook-for-ios-and-android/use-hybrid-modern-auth)
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 [Современные требования к конфигурации проверки подлинности для перехода Office 365/ITAR на vNext](/exchange/troubleshoot/modern-authentication/modern-authentication-configuration)

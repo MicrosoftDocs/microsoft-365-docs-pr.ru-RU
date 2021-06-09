@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 8cf611e38bc781c2302f70f6491bb827410235b0
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: b75a8cf1d2681281555a3b7bb80deadfc11ee44c
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51164685"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52845457"
 ---
 # <a name="create-indicators-based-on-certificates"></a>Создание индикаторов на основе сертификатов
 
@@ -42,13 +42,13 @@ ms.locfileid: "51164685"
 - Блокировка использования определенного подписанного приложения в организации. Создав индикатор для блокировки сертификата приложения, Защитник Windows av предотвратит выполнение файлов (блок и исправление), а автоматическое расследование и исправление ведут себя так же.
 
 
-### <a name="before-you-begin"></a>Перед началом работы
+### <a name="before-you-begin"></a>Прежде чем начать
 
 Важно понимать следующие требования перед созданием индикаторов для сертификатов:
 
-- Эта функция доступна, если в организации Защитник Windows включена антивирусная и облачная защита. Дополнительные сведения см. в [сведениях Управление облачной защитой.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/deploy-manage-report-microsoft-defender-antivirus)
+- Эта функция доступна, если в организации используется антивирусная программа и включена облачная защита. Дополнительные сведения см. в [сведениях Управление облачной защитой.](/windows/security/threat-protection/microsoft-defender-antivirus/deploy-manage-report-microsoft-defender-antivirus)
 - Клиентская версия antimalware должна быть 4.18.1901.x или более поздней версии.
-- Поддерживается на компьютерах в Windows 10, версии 1703 или более поздней версии, Windows server 2016 и 2019.
+- Поддерживается на компьютерах Windows 10 версии 1703 или более поздней версии Windows 2016 и 2019 годов.
 - Определения защиты от вирусов и угроз должны быть в курсе.
 - Эта функция в настоящее время поддерживает ввод . CER или . Расширения файлов PEM.
 
@@ -78,5 +78,5 @@ ms.locfileid: "51164685"
 ## <a name="related-topics"></a>Статьи по теме
 - [Создание индикаторов](manage-indicators.md)
 - [Создание индикаторов для файлов](indicator-file.md)
-- [Создание индикаторов для IPs и URL-адресов/доменов](indicator-ip-domain.md)
+- [Создание индикаторов для протоколов IP и URL-адресов или доменов](indicator-ip-domain.md)
 - [Управление индикаторами](indicator-manage.md)

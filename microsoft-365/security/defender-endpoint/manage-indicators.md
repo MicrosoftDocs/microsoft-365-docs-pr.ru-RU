@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 481051b74c1be88ba78bbd44e4fc0c174ed0bdad
-ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
+ms.openlocfilehash: fb87f36c5289d622df2615046c5bb2fd8fad9543
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51470897"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842246"
 ---
 # <a name="create-indicators"></a>Создание индикаторов
 
@@ -40,7 +40,7 @@ ms.locfileid: "51470897"
 
 Создание индикаторов, определяющих обнаружение, предотвращение и исключение сущностями. Можно определить действие, которое необходимо принять, а также продолжительность применения действия, а также область действия группы устройств для его применения.
 
-В настоящее время поддерживаемые источники — это двигатель обнаружения облаков Defender для конечной точки, автоматизированный механизм исследования и устранения последствий, а также двигатель предотвращения конечных точек (антивирус Microsoft Defender).
+В настоящее время поддерживаемые источники — это двигатель обнаружения облаков Defender для конечной точки, автоматизированный механизм исследования и восстановления, а также двигатель предотвращения конечных точек (антивирусная программа в Microsoft Defender).
 
 **Движок обнаружения облаков**<br>
 Механизм обнаружения облаков Defender для конечной точки регулярно сканирует собранные данные и пытается соответствовать установленным индикаторам. При совпадении действие будет приниматься в соответствии с настройками, указанными для IoC.
@@ -68,7 +68,7 @@ ms.locfileid: "51470897"
 
 
 > [!NOTE]
-> Существует ограничение в 15 000 показателей на одного клиента. Индикаторы файлов и сертификатов не блокируют [исключения, определенные для антивируса Microsoft Defender.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-exclusions-microsoft-defender-antivirus) Индикаторы не поддерживаются в антивирусе Microsoft Defender, когда он находится в пассивном режиме. 
+> Существует ограничение в 15 000 показателей на одного клиента. Индикаторы файлов и сертификатов не блокируют [исключения, определенные для антивирусная программа в Microsoft Defender.](/windows/security/threat-protection/microsoft-defender-antivirus/configure-exclusions-microsoft-defender-antivirus) Индикаторы не поддерживаются в антивирусная программа в Microsoft Defender, когда они находятся в пассивном режиме. 
 
 
 ## <a name="related-topics"></a>Статьи по теме

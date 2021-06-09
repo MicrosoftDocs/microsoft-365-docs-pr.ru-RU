@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 26c531c0544f92d664bfa0f1a21e4f33a0765d24
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: 06ef716e9deee7b20e8615bd22c93130ee18b77f
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893501"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52845586"
 ---
 # <a name="connected-applications-in-microsoft-defender-for-endpoint"></a>Подключенные приложения в Microsoft Defender для конечной точки
 
@@ -37,9 +37,9 @@ ms.locfileid: "51893501"
 
 Подключенные приложения интегрируются с платформой Defender для конечных точек с помощью API. 
 
-Приложения используют стандартный протокол OAuth 2.0 для проверки подлинности и предоставления маркеров для использования в API конечных токенов Microsoft Defender.  Кроме того, приложения Azure Active Directory (Azure AD) позволяют администраторам клиентов устанавливать явный контроль над доступом к API с помощью соответствующего приложения.
+Приложения используют стандартный протокол OAuth 2.0 для проверки подлинности и предоставления маркеров для использования в API конечных токенов Microsoft Defender.  Кроме того, Azure Active Directory (Azure AD) позволяют администраторам клиентов устанавливать явный контроль над доступом к API с помощью соответствующего приложения.
  
-Чтобы использовать API [](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/apis-intro) с подключенным приложением, необходимо следовать этим шагам.
+Чтобы использовать API [](/microsoft-365/security/defender-endpoint/apis-intro) с подключенным приложением, необходимо следовать этим шагам.
  
 ## <a name="access-the-connected-application-page"></a>Доступ к подключенной странице приложения
 Из левого меню навигации выберите **приложения &**  >  **AAD.**

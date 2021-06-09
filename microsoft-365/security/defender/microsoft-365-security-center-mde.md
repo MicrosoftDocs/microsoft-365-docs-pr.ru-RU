@@ -1,7 +1,7 @@
 ---
-title: Microsoft Defender для конечной точки в центре Microsoft 365 безопасности
-description: Узнайте об изменениях Центр безопасности в Microsoft Defender центра Microsoft 365 безопасности
-keywords: Начало работы с центром безопасности Microsoft 365, Microsoft Defender для Office 365, Microsoft Defender для endpoint, MDO, MDE, единой области стекла, конвергентного портала, портала безопасности, портала безопасности защитника
+title: Microsoft Defender для конечной точки в Microsoft 365 Defender
+description: Узнайте об изменениях из Центр безопасности в Microsoft Defender в Microsoft 365 Defender
+keywords: Начало работы с Microsoft 365 Defender, Microsoft Defender для Office 365, Microsoft Defender для конечной точки, MDO, MDE, портала безопасности, портала безопасности защитника
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 localization_priority: Normal
@@ -19,14 +19,14 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 - m365initiative-m365-defender
-ms.openlocfilehash: 487fc87c613d7321e3ae608097d98d2c90f8874e
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: b43b7c99c6585e8610d34f3c4e5b372fb1c829a2
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52771913"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842630"
 ---
-# <a name="microsoft-defender-for-endpoint-in-the-microsoft-365-security-center"></a>Microsoft Defender для конечной точки в центре Microsoft 365 безопасности
+# <a name="microsoft-defender-for-endpoint-in-microsoft-365-defender"></a>Microsoft Defender для конечной точки в Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -34,16 +34,15 @@ ms.locfileid: "52771913"
 
 - [Microsoft 365 Defender](microsoft-365-defender.md)
 - [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2154037)
-- [Microsoft Defender для Office 365](/microsoft-365/security/office-365-security/defender-for-office-365)
 
 ## <a name="quick-reference"></a>Быстрая ссылка
 
-На изображении и в таблице ниже перечислены изменения в навигации между Центр безопасности в Microsoft Defender и центром Microsoft 365 безопасности.
+На изображении и в таблице ниже перечислены изменения в навигации между Центр безопасности в Microsoft Defender и Microsoft 365 Defender.
 
 > [!div class="mx-imgBorder"]
 > ![Изображение того, что переместилось туда, где](../../media/mde-m3d-security-center.png)
 
-| Центр безопасности в Microsoft Defender | Центр безопасности Microsoft 365 |
+| Центр безопасности в Microsoft Defender | Microsoft 365 Defender |
 |---------|---------|
 | Панели мониторинга <ul><li>Операции, связанные с обеспечением безопасности</li><li>Аналитика угроз</li></ul>  |Главная <ul><li>Аналитика угроз</li></ul>   |
 | Инциденты | Оповещений & инцидентов |
@@ -56,42 +55,41 @@ ms.locfileid: "52771913"
 | Управление & уязвимостей | Управление уязвимостями |
 | Оценка и учебные пособия | Учебные & по оценке |
 | среда управления конфигурацией; | среда управления конфигурацией; |
-| Settings | Settings | 
+| Параметры | Параметры | 
 
-Центр безопасности Microsoft 365 объединяет [возможности](overview-security-center.md) безопасности, которые защищают, обнаруживают, исследуют и реагируют на угрозы электронной почты, совместной работы, удостоверений и [https://security.microsoft.com](https://security.microsoft.com) устройств. Этот центр безопасности объединяет функциональные возможности существующих порталов безопасности Майкрософт, в том числе Центр безопасности в Microsoft Defender и центра Office 365 безопасности & соответствия требованиям.
+Улучшенный Microsoft 365 [Defender объединяет возможности безопасности,](overview-security-center.md) которые защищают, обнаруживают, исследуют и реагируют на угрозы электронной почты, совместной работы, удостоверений и [https://security.microsoft.com](https://security.microsoft.com) устройств. Это объединяет функциональные возможности существующих порталов безопасности Майкрософт, в том числе Центр безопасности в Microsoft Defender и центра Office 365 безопасности & соответствия требованиям.
 
-Если вы знакомы с Центр безопасности в Microsoft Defender, в этой статье описаны некоторые изменения и улучшения в центре Microsoft 365 безопасности. Однако необходимо помнить о некоторых новых и обновленных элементах.
+Если вы знакомы с Центр безопасности в Microsoft Defender, в этой статье описаны некоторые изменения и улучшения в Microsoft 365 Defender. Однако необходимо помнить о некоторых новых и обновленных элементах.
 
-Исторически сложилось, [что Центр безопасности в Microsoft Defender](/windows/security/threat-protection/microsoft-defender-atp/portal-overview) является домом для Microsoft Defender для конечной точки. Enterprise группы безопасности использовали его для мониторинга и реагирования на оповещения о потенциальной постоянной активности угроз или нарушениях данных. Чтобы уменьшить число порталов, центр Microsoft 365 безопасности будет домом для мониторинга и управления безопасностью в вашей microsoft identities, data, devices, apps и infrastructure.
+Исторически сложилось, [что Центр безопасности в Microsoft Defender](/windows/security/threat-protection/microsoft-defender-atp/portal-overview) является домом для Microsoft Defender для конечной точки. Enterprise группы безопасности использовали его для мониторинга и реагирования на оповещения о потенциальной постоянной активности угроз или нарушениях данных. Чтобы уменьшить число порталов, Microsoft 365 Defender будет домом для мониторинга и управления безопасностью в ваших удостоверениях, данных, устройствах, приложениях и инфраструктуре Майкрософт.
 
-Microsoft Defender для конечной точки в центре Microsoft 365 безопасности поддерживает предоставление доступа к управляемым поставщикам служб безопасности [(MSSPs)](/windows/security/threat-protection/microsoft-defender-atp/grant-mssp-access) таким же образом, как и доступ к центру безопасности [Microsoft Defender.](mssp-access.md)
-
+Microsoft Defender для конечной точки в Microsoft 365 Defender поддерживает предоставление доступа к управляемым поставщикам служб безопасности [(MSSPs)](/windows/security/threat-protection/microsoft-defender-atp/grant-mssp-access) таким же образом, как и доступ к центру безопасности [Microsoft Defender.](mssp-access.md)
 
 > [!IMPORTANT]
-> То, что вы видите в центре Microsoft 365 безопасности, зависит от текущих подписок. Например, если у вас нет лицензии для Microsoft Defender для Office 365, то раздел & совместной работы не будет показан.
+> То, что вы видите в Microsoft 365 Defender, зависит от текущих подписок. Например, если у вас нет лицензии для Microsoft Defender для Office 365, то раздел & совместной работы не будет показан.
 
->[!Note]
->Новый единый портал не доступен для:
+> [!Note]
+> Microsoft 365 Defender не доступен для:
 >- Сша облако сообщества для государственных организаций (GCC)
 >- Высокая облако сообщества для государственных организаций (GCC high)
 >- Министерство обороны США
 >- Все государственные учреждения США с коммерческими лицензиями
 
-Взгляните на улучшенный центр Microsoft 365 безопасности: [https://security.microsoft.com](https://security.microsoft.com) .
+Взгляните на Microsoft 365 Defender: [https://security.microsoft.com](https://security.microsoft.com) .
 
-Дополнительные сведения о преимуществах: [Обзор центра безопасности Microsoft 365](overview-security-center.md)
+Дополнительные сведения о преимуществах: [Обзор Microsoft 365 Defender](overview-security-center.md)
 
 ## <a name="whats-changed"></a>Что изменилось
 
-В этой таблице можно быстро со ссылкой на изменения между Центр безопасности в Microsoft Defender и центром Microsoft 365 безопасности.
+Эта таблица является краткой ссылкой на изменения между Центр безопасности в Microsoft Defender и Microsoft 365 Defender.
 
 ### <a name="alerts-and-actions"></a>Оповещений и действий
 
 | Область | Описание изменения |
 |---------|---------|
-| [Оповещений & инцидентов](incidents-overview.md)  | В центре Microsoft 365 вы можете управлять инцидентами и оповещениями во всех конечных точках, электронной почте и удостоверениях. Мы сближались с опытом, чтобы легче находить связанные события. Дополнительные сведения см. в [обзоре инцидентов.](incidents-overview.md)   |
+| [Оповещений & инцидентов](incidents-overview.md)  | В Microsoft 365 Defender вы можете управлять инцидентами и оповещениями во всех конечных точках, электронной почте и удостоверениях. Мы сближались с опытом, чтобы легче находить связанные события. Дополнительные сведения см. в [обзоре инцидентов.](incidents-overview.md)   |
 | [Охота](advanced-hunting-overview.md)  |  Изменение пользовательских правил обнаружения, созданных в Microsoft Defender для конечной точки, чтобы включить таблицы удостоверений и электронной почты, автоматически перемещает их в Microsoft 365 Defender. Соответствующие оповещения также будут отображаться в Microsoft 365 Defender. Дополнительные сведения об этих изменениях читайте в публикации ["Миграция пользовательских правил обнаружения".](advanced-hunting-migrate-from-mde.md#migrate-custom-detection-rules) <br><br>Таблица `DeviceAlertEvents` для продвинутой охоты недоступна в Microsoft 365 Defender. Чтобы запрашивать сведения об оповещении в Microsoft 365 Defender, можно использовать таблицы и таблицы для размещения дополнительных сведений из различных `AlertInfo` `AlertEvidence` источников. Создайте следующий запрос, связанный с устройством, [следуя запросам Write без DeviceAlertEvents.](advanced-hunting-migrate-from-mde.md#write-queries-without-devicealertevents)|
-|[Центр уведомлений](m365d-action-center.md)    | Списки ожидающих и завершенных действий, принятых после автоматических расследований и действий по исправлению. Ранее центр действий в центре Центр безопасности в Microsoft Defender в списке ожидающих и завершенных действий по исправлению действий, принятых только на устройствах, в то время как автоматические расследования перечисляли оповещения и состояние. В центре безопасности Microsoft 365 центр действий объединяет действия по исправлению и расследования по электронной почте, устройствам и пользователям — все в одном расположении.  |
+|[Центр уведомлений](m365d-action-center.md)    | Списки ожидающих и завершенных действий, принятых после автоматических расследований и действий по исправлению. Ранее центр действий в центре Центр безопасности в Microsoft Defender в списке ожидающих и завершенных действий по исправлению действий, принятых только на устройствах, в то время как автоматические расследования перечисляли оповещения и состояние. В улучшенной Microsoft 365 Defender центр действий объединяет действия по исправлению и расследования по электронной почте, устройствам и пользователям — все в одном расположении.  |
 | [Аналитика угроз](threat-analytics.md) |  Перемещается в верхнюю часть панели навигации для упростить обнаружение и использование. Теперь включает сведения об угрозах как для конечных точек, так и для электронной почты и совместной работы.    |
 
 ### <a name="endpoints"></a>Конечные точки
@@ -118,7 +116,7 @@ Microsoft Defender для конечной точки в центре Microsoft 
 |---------|---------|
 | Отчеты  | См. отчеты о конечных точках и &, включая защиту от угроз, здоровье и соответствие требованиям устройств, а также уязвимые устройства. |
 | Здравоохранение  |  В настоящее время ссылки на страницу "Здоровье службы" в центре администрирования Microsoft 365 [службы.](https://admin.microsoft.com/) |
-| Settings |  Управление настройками центра Microsoft 365, центра Microsoft 365, конечных точек, электронной почты &, удостоверений и обнаружения устройств.   |
+| Параметры |  Управление настройками для Microsoft 365, конечных точек, электронной почты & совместной работы, удостоверений и обнаружения устройств.   |
 
 ## <a name="microsoft-365-security-navigation-and-capabilities"></a>Microsoft 365 безопасности навигации и возможностей
 
@@ -154,7 +152,7 @@ Microsoft Defender для конечной точки в центре Microsoft 
 - Просмотр инцидентов, связанных с угрозами.
 - Улучшенные возможности для оперативного определения и использования информации о том, как действовать, в отчетах.
 
-Вы можете получить доступ к аналитике угроз либо из верхней левой панели навигации в центре безопасности Microsoft 365, либо из выделенной карты мониторинга, которая отображает главные угрозы для организации.
+Вы можете получить доступ к аналитике угроз либо из верхней левой панели навигации в Microsoft 365 Defender, либо из выделенной карты мониторинга, которая отображает главные угрозы для организации.
 
 Дополнительные данные о [отслеживании и реагировании](./threat-analytics.md)на возникающие угрозы с помощью аналитики угроз.
 
@@ -172,11 +170,11 @@ Microsoft Defender для конечной точки в центре Microsoft 
 
 ### <a name="siem-api-connections"></a>Подключения API SIEM
 
-Если вы используете [API SIEM Defender для конечной](../defender-endpoint/enable-siem-integration.md)точки, вы можете продолжать это делать. В полезной нагрузке API добавлены новые ссылки, которые указывают на страницу оповещения или страницу инцидента на Microsoft 365 безопасности. Новые поля API включают LinkToMTP и IncidentLinkToMTP. Дополнительные сведения см. в перенаправлении учетных записей [из Microsoft Defender для конечной](./microsoft-365-security-mde-redirection.md)точки в центр Microsoft 365 безопасности.
+Если вы используете [API SIEM Defender для конечной](../defender-endpoint/enable-siem-integration.md)точки, вы можете продолжать это делать. В полезной нагрузке API добавлены новые ссылки, которые указывают на страницу оповещения или страницу инцидента на Microsoft 365 безопасности. Новые поля API включают LinkToMTP и IncidentLinkToMTP. Дополнительные сведения см. в [перенаправлении учетных записей из Microsoft Defender для конечной точки в Microsoft 365 Defender.](./microsoft-365-security-mde-redirection.md)
 
 ### <a name="email-alerts"></a>Оповещения электронной почты
 
-Вы можете продолжить использование оповещений электронной почты для Defender для конечной точки. Мы добавили новые ссылки в сообщениях электронной почты, которые указывают на страницу оповещения или страницу инцидента в центре Microsoft 365 безопасности. Дополнительные сведения см. в перенаправлении учетных записей [из Microsoft Defender для конечной](./microsoft-365-security-mde-redirection.md)точки в центр Microsoft 365 безопасности.
+Вы можете продолжить использование оповещений электронной почты для Defender для конечной точки. Мы добавили новые ссылки в сообщениях электронной почты, которые указывают на страницу оповещений или на страницу инцидента в Microsoft 365 Defender. Дополнительные сведения см. в [перенаправлении учетных записей из Microsoft Defender для конечной точки в Microsoft 365 Defender.](./microsoft-365-security-mde-redirection.md)
 
 ### <a name="managed-security-service-providers-mssp"></a>Поставщики управляемых служб безопасности (MSSP)
 
@@ -184,6 +182,6 @@ Microsoft Defender для конечной точки в центре Microsoft 
 
 ## <a name="related-information"></a>Статьи по теме
 
-- [Центр безопасности Microsoft 365](overview-security-center.md)
-- [Microsoft Defender для конечной точки в центре Microsoft 365 безопасности](microsoft-365-security-center-mde.md)
-- [Перенаправление учетных записей из Microsoft Defender для конечной точки в центр Microsoft 365 безопасности](microsoft-365-security-mde-redirection.md)
+- [Microsoft 365 Defender](overview-security-center.md)
+- [Microsoft Defender для конечной точки в Microsoft 365 Defender](microsoft-365-security-center-mde.md)
+- [Перенаправление учетных записей из Microsoft Defender для конечной точки в Microsoft 365 Defender](microsoft-365-security-mde-redirection.md)

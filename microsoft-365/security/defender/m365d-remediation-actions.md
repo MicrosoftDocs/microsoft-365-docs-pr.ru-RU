@@ -21,12 +21,12 @@ ms.topic: conceptual
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.technology: m365d
-ms.openlocfilehash: f025f23242c28f698e6f67755cc59d21c4463914
-ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
+ms.openlocfilehash: c8d3838194c25ba49b2611dc355b21e228291b01
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52782949"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842534"
 ---
 # <a name="remediation-actions-in-microsoft-365-defender"></a>Действия по исправлению в Microsoft 365 Defender
 
@@ -74,7 +74,7 @@ ms.locfileid: "52782949"
 - Ручное действие электронной почты, например мягкие удаления сообщений электронной почты 
 - [Расширенные действия по охоте](../defender-endpoint/advanced-hunting-overview.md) на устройствах или электронной почте
 - [Действия проводника](../office-365-security/threat-explorer.md) по контенту электронной почты, такие как перенос электронной почты на нежелательное, электронное сообщение с мягким удалением или жесткое удаление электронной почты.
-- Действие [живого ответа](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/live-response) вручную, например удаление файла, остановка процесса и удаление запланированной задачи
+- Действие [живого ответа](/windows/security/threat-protection/microsoft-defender-atp/live-response) вручную, например удаление файла, остановка процесса и удаление запланированной задачи
 - Live response action with [Microsoft Defender for Endpoint API](../defender-endpoint/management-apis.md#microsoft-defender-for-endpoint-apis), such as isolating a device, running an antivirus scan, and getting information about a file
 
 ## <a name="next-steps"></a>Дальнейшие действия
