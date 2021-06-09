@@ -185,7 +185,7 @@ ms.locfileid: "52730202"
 > [!TIP]
 > Если вы хотите импортировать или восстанавливать только несколько элементов из Outlook data File (.pst), вы можете открыть файл Outlook данных. Затем в области навигации перетащите элементы из Outlook файлов данных в существующие Outlook папки. 
 
-## <a name="related-content"></a>Связанные материалы
+## <a name="related-content"></a>См. также:
 
 [Добавление и удаление администраторов в OneDrive учетной записи](/sharepoint/manage-user-profiles#add-and-remove-admins-for-a-users-onedrive) (статья)\
 [Восстановление удаленных OneDrive](/onedrive/restore-deleted-onedrive) (статья)\

@@ -28,17 +28,17 @@ ms.locfileid: "49073216"
 
 *Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
 
-Вы можете использовать PowerShell для Microsoft 365 в качестве альтернативы Центру администрирования Microsoft 365 для управления паролями в Microsoft 365. 
+Вы можете использовать PowerShell для Microsoft 365 в качестве альтернативы центру администрирования Microsoft 365 для управления паролями в Microsoft 365. 
 
-Если блоку команд в этой статье требуется указать значения переменных, используйте следующие действия.
+Если для командного блока в этой статье требуется указать переменные значения, используйте эти действия.
 
-1. Скопируйте блок команд в буфер обмена и в paste его в Блокнот или интегрированную среду сценариев PowerShell (ISE).
-2. Заполните значения переменных и удалите символы "<" и ">".
-3. Запустите команды в окне PowerShell или ВМЕ PowerShell.
+1. Скопируйте командный блок в буфер обмена данными и вклеите его в Блокнот или в среду интегрированного скрипта PowerShell (ISE).
+2. Заполните переменные значения и удалите символы "<" и ">".
+3. Запустите команды в окне PowerShell или ISE PowerShell.
 
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Использование модуля PowerShell Azure Active Directory для Graph
 
-Сначала [подключите клиент Microsoft 365.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
+[Во-первых, подключите Microsoft 365 клиента.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
 
 ### <a name="set-a-password"></a>Настройка пароля
 
@@ -50,7 +50,7 @@ $newPassword="<new password>"
 $secPassword = ConvertTo-SecureString $newPassword -AsPlainText -Force
 Set-AzureADUserPassword -ObjectId  $userUPN -Password $secPassword
 ```
-### <a name="force-a-user-to-change-their-password"></a>Принудительное изменение пароля пользователем
+### <a name="force-a-user-to-change-their-password"></a>Принудить пользователя изменить пароль
 
 Используйте эти команды, чтобы установить пароль и заставить пользователя изменить новый пароль.
 
@@ -72,7 +72,7 @@ Set-AzureADUserPassword -ObjectId  $userUPN -Password $secPassword -ForceChangeP
 
 ## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a>Использование модуля Microsoft Azure Active Directory для Windows PowerShell
 
-Сначала [подключите клиент Microsoft 365.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
+[Во-первых, подключите Microsoft 365 клиента.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
 
 ### <a name="set-a-password"></a>Настройка пароля
 
@@ -84,7 +84,7 @@ $newPassword="<new password>"
 Set-MsolUserPassword -UserPrincipalName $userUPN -NewPassword $newPassword
 ```
 
-### <a name="force-a-user-to-change-their-password"></a>Принудительное изменение пароля пользователем
+### <a name="force-a-user-to-change-their-password"></a>Принудить пользователя изменить пароль
 
 Используйте эти команды, чтобы заставить пользователя изменить пароль.
 

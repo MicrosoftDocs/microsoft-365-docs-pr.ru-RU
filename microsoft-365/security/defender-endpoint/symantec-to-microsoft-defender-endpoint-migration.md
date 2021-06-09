@@ -69,6 +69,6 @@ ms.locfileid: "52530902"
 
 **Хотите узнать больше? См. [в веб-сайте Microsoft Defender для конечной точки](microsoft-defender-endpoint.md).**
 
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Следующий этап
 
 - Приступить к [подготовке к миграции](symantec-to-microsoft-defender-atp-prepare.md).

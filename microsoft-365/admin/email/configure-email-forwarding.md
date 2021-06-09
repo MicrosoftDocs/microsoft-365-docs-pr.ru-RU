@@ -110,7 +110,7 @@ ms.locfileid: "52730142"
 
 ::: moniker-end
 
-## <a name="related-content"></a>Связанные материалы 
+## <a name="related-content"></a>См. также: 
 
 [Создание общего почтового ящика](../email/create-a-shared-mailbox.md) (статья)\
 [Отправка электронной почты с другого адреса](https://support.microsoft.com/office/ccba89cb-141c-4a36-8c56-6d16a8556d2e) (статья)\

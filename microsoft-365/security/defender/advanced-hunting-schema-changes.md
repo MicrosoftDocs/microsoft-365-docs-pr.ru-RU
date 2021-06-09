@@ -51,7 +51,7 @@ ms.locfileid: "52470500"
 | [EmailEvents](advanced-hunting-emailevents-table.md) | `FinalEmailActionPolicy` | `EmailActionPolicy` | Отзывы пользователей |
 | [EmailEvents](advanced-hunting-emailevents-table.md) | `FinalEmailActionPolicyGuid` | `EmailActionPolicyGuid` | Отзывы пользователей |
 
-## <a name="january-2021"></a>Январь 2021 г.
+## <a name="january-2021"></a>Январь 2021 г.
 
 | Имя столбца | Имя исходного значения | Новое имя значения | Причина изменений
 |--|--|--|--|
@@ -103,7 +103,7 @@ ms.locfileid: "52470500"
 
 Таблица `DeviceTvmSoftwareInventoryVulnerabilities` обесценилась. Его заменяют `DeviceTvmSoftwareInventory` таблицы `DeviceTvmSoftwareVulnerabilities` и таблицы.
 
-## <a name="may-2021"></a>Май 2021 г.
+## <a name="may-2021"></a>Май 2021 г.
 
 Таблица `AppFileEvents` обесценилась. В таблице содержатся сведения, которые раньше были в таблице, а также другие действия `CloudAppEvents` `AppFileEvents` в облачных службах.
 

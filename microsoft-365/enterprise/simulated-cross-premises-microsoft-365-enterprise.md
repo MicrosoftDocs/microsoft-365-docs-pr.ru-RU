@@ -26,7 +26,7 @@ ms.locfileid: "50926036"
 ---
 # <a name="simulated-cross-premises-virtual-network-in-a-microsoft-365-test-environment"></a>Имитация распределенной виртуальной сети в тестовой среде Microsoft 365
 
-*Это руководство по тестовой лаборатории можно использовать для microsoft 365 для корпоративных и корпоративных тестовых сред Office 365.*
+*Это руководство по тестовой лаборатории можно использовать как для Microsoft 365, так и для Office 365 корпоративный среды тестирования.*
 
 В этой статье описаны действия по созданию имитации гибридной облачной среды в Microsoft Azure с помощью двух виртуальных сетей Azure. Ниже показана итоговая конфигурация. 
   
@@ -59,12 +59,12 @@ ms.locfileid: "50926036"
 > [!NOTE]
 > Эта конфигурация требует платной подписки на Azure. 
 
-Вы можете использовать среду для тестирования функций и функций [Microsoft 365](https://www.microsoft.com/microsoft-365/enterprise) для предприятия с помощью дополнительных руководств по тестовой лаборатории или самостоятельно. [](m365-enterprise-test-lab-guides.md)
+Вы можете использовать среду для тестирования функций [](https://www.microsoft.com/microsoft-365/enterprise) и функциональных возможностей [](m365-enterprise-test-lab-guides.md) Microsoft 365 для предприятия с помощью дополнительных руководств по лаборатории тестирования или самостоятельно.
 
 ![Руководства по лаборатории тестирования для облака Майкрософт](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
 > [!TIP]
-> Перейдите в [Microsoft 365](../downloads/Microsoft365EnterpriseTLGStack.pdf) для корпоративного руководства по тестовой лаборатории, чтобы получить визуальную карту для всех статей в стеке Руководство по корпоративной тестовой лаборатории Microsoft 365.
+> Перейдите [Microsoft 365](../downloads/Microsoft365EnterpriseTLGStack.pdf) руководство по корпоративной лаборатории тестирования для визуальной карты для всех статей в Microsoft 365 для корпоративного руководства лаборатории тестирования.
 
 ## <a name="phase-1-configure-the-testlab-virtual-network"></a>Этап 1. Настройка виртуальной сети TestLab
 
@@ -205,7 +205,7 @@ New-ADReplicationSubnet -Name "192.168.0.0/16" -Site "XPrem"
   
 Ваша имитированная гибридная облачная среда Azure готова к тестированию.
   
-Теперь вы готовы поэкспериментировать с дополнительными [функциями Microsoft 365 для предприятия.](https://www.microsoft.com/microsoft-365/enterprise)
+Теперь вы готовы экспериментировать с дополнительными функциями Microsoft 365 [для предприятия.](https://www.microsoft.com/microsoft-365/enterprise)
   
 ## <a name="next-steps"></a>Дальнейшие действия
 
@@ -221,4 +221,4 @@ New-ADReplicationSubnet -Name "192.168.0.0/16" -Site "XPrem"
 
 [Обзор Microsoft 365 для предприятий](microsoft-365-overview.md)
 
-[Документация по Microsoft 365 для предприятий](/microsoft-365-enterprise/)
+[Документация по Microsoft 365 для предприятий](/microsoft-365-enterprise/)

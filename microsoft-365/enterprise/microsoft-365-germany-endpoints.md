@@ -1,5 +1,5 @@
 ---
-title: Конечные точки Office 365 для Германии
+title: Office 365 для Германии
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -18,7 +18,7 @@ ms.custom:
 - seo-marvel-apr2020
 search.appverid: MOE150
 ms.assetid: 8a113a50-0071-4155-bb8e-eba5a8dbd4c8
-description: В этой статье вы найдете конечные точки, которые являются понятными для клиентов, использующих Office 365 в Германии.
+description: В этой статье вы найдете конечные точки, которые являются досяжимыми для клиентов, использующих Office 365 в Германии.
 hideEdit: true
 ms.openlocfilehash: 0d96300e77c67ac05ea18ab23d63c01d4f840dfb
 ms.sourcegitcommit: 223a36a86753fe9cebee96f05ab4c9a144133677
@@ -27,15 +27,15 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/14/2021
 ms.locfileid: "51759898"
 ---
-# <a name="office-365-germany-endpoints"></a>Конечные точки Office 365 Germany
+# <a name="office-365-germany-endpoints"></a>Конечные точки Office 365 Germany
 
  *Применяется к: Администратор Office 365*
 
-Office 365 требует подключения к Интернету. Конечные точки ниже должны быть недоступны только для клиентов, использующих планы **Office 365 в** Германии.
+Office 365 подключение к Интернету. Конечные точки ниже должны быть досяжимы для клиентов, **использующих только Office 365 планы** Германии.
 
 > [!NOTE]
-> Для клиентов, которые переходят в новый центр обработки данных Microsoft 365 в Германии, конечные точки изменятся.
-> Дополнительные сведения можно получить в службе Миграция из [Microsoft Cloud Deutschland в службы Office 365](ms-cloud-germany-transition.md)в новых регионах центра обработки данных в Германии.
+> Для клиентов, которые переходят в новый регион Microsoft 365 центра обработки данных в Германии, конечные точки изменятся.
+> Дополнительные сведения можно получить в службе миграции из [Microsoft Cloud Deutschland](ms-cloud-germany-transition.md)в Office 365 в новых немецких регионах центра обработки данных.
   
  **Конечные точки Office 365:**[ по всему миру (включая GCC)](urls-and-ip-address-ranges.md)  | [Office 365, предоставляемый 21 Vianet](urls-and-ip-address-ranges-21vianet.md)  | *Office 365 Germany* | [Office 365 для DoD государственных организаций США](microsoft-365-u-s-government-dod-endpoints.md) | [Office 365 для GCC High государственных организаций США](microsoft-365-u-s-government-gcc-high-endpoints.md)  |
   

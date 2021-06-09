@@ -200,7 +200,7 @@ ms.locfileid: "52683347"
   
 ::: moniker-end
 
-## <a name="related-content"></a>Связанные материалы
+## <a name="related-content"></a>См. также:
 
 [Найдите Microsoft 365 партнера или посредника](../manage/find-your-partner-or-reseller.md) (статья)\
 [Планирование установки Microsoft 365 для бизнеса](../setup/plan-your-setup.md) (статья)

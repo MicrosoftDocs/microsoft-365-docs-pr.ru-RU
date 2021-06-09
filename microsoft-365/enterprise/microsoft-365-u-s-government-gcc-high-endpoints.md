@@ -1,5 +1,5 @@
 ---
-title: Office 365 Высокие конечные точки GCC правительства США
+title: Конечные точки Office 365 U.S. Government GCC High
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -27,7 +27,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/03/2021
 ms.locfileid: "52730166"
 ---
-# <a name="office-365-us-government-gcc-high-endpoints"></a>Office 365 Высокие конечные точки GCC правительства США
+# <a name="office-365-us-government-gcc-high-endpoints"></a>Конечные точки Office 365 U.S. Government GCC High
 
  *Применяется к: Администратор Office 365*
 
@@ -37,7 +37,7 @@ Office 365 подключение к Интернету. Конечные точ
   
 |||
 |:-----|:-----|
-|**Последнее обновление:** 05/28/2021 - ![ Подписка на журнал изменений RSS ](../media/5dc6bb29-25db-4f44-9580-77c735492c4b.png) [](https://endpoints.office.com/version/USGOVGCCHigh?allversions=true&format=rss&clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7) <br/> |**Загрузка:** полный список в [формате JSON](https://endpoints.office.com/endpoints/USGOVGCCHigh?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7) <br/> |
+|**Последнее обновление:** 28.05.2021, ![RSS](../media/5dc6bb29-25db-4f44-9580-77c735492c4b.png) [подписка на журнал изменений](https://endpoints.office.com/version/USGOVGCCHigh?allversions=true&format=rss&clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7) <br/> |**Загрузка:** полный список в [формате JSON](https://endpoints.office.com/endpoints/USGOVGCCHigh?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7) <br/> |
 
  Начните применять [управление конечными точками Office 365](managing-office-365-endpoints.md), чтобы освоить наши рекомендации по управлению сетевым соединением с использованием этих данных. По мере необходимости в начале каждого месяца данные конечной точки обновляются новыми IP- и URL-адресами, публикуемыми за 30 дней до активации. Это позволяет клиентам, у которых еще нет автоматизированных обновлений, завершить процессы перед новым подключением. Кроме того, конечные точки могут обновляться и в течение месяца, если это требуется для повышения уровня обращений в службу поддержки, устранения инцидентов в области безопасности или немедленного выполнения других действий. Данные, представленные ниже на этой странице, сгенерированы с помощью веб-служб на основе REST. Если для доступа к этим данным вы используете скрипт или сетевое устройство, вам нужно перейти непосредственно в раздел [Веб-служба](microsoft-365-ip-web-service.md).
 
