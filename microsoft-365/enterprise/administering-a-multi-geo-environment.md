@@ -14,7 +14,7 @@ ms.collection:
 - Strat_SP_gtc
 - SPO_Content
 localization_priority: Normal
-description: Администраторы могут узнать о администрировании служб SharePoint и OneDrive в многоэтапной среде.
+description: Администраторы могут узнать о администрировании SharePoint и OneDrive служб в многоэтабной среде.
 ms.openlocfilehash: 213070f2f7a04e15a1e2ac3cd9a3ae697b66a718
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -107,4 +107,4 @@ ms.locfileid: "50905604"
 
 ## <a name="yammer"></a>Yammer
 
-Yammer не является рабочей нагрузкой multi-Geo. Потоки Yammer, хранимые в Yammer, будут размещены в центральном расположении клиента. Yammer развертывает изменение хранилища файлов, которое будет хранить файлы Yammer в SharePoint. Файлы Yammer, хранимые в SharePoint, будут размещены на сайте SharePoint, связанном с группой Yammer. Сайты групп SharePoint основаны на логике PDL, описанной в [sharePoint Sites and Groups.](multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365.md#sharepoint-sites-and-groups)
+Yammer не является рабочей нагрузкой multi-Geo. Yammer, хранимые в Yammer, будут размещены в центре расположения клиента. Yammer развертывает изменение хранилища файлов, которое будет хранить Yammer в SharePoint. Yammer, хранимые в SharePoint, будут размещены SharePoint, связанные с Yammer группой. SharePoint групп основаны на логике PDL, как описано [в SharePoint сайтах и группах.](multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365.md#sharepoint-sites-and-groups)

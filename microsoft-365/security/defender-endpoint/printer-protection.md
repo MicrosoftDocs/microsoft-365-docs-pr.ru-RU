@@ -19,7 +19,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/08/2021
 ms.locfileid: "52809264"
 ---
-# <a name="device-control-printer-protection"></a>Защита принтера управления устройствами 
+# <a name="device-control-printer-protection"></a>Защита принтера для управления устройством 
 
 Защита принтера управления устройствами Microsoft Defender для конечных устройств блокирует печать с помощью не корпоративных принтеров или не утвержденного USB-принтера.
 

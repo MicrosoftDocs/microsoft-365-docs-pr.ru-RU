@@ -114,7 +114,7 @@ landingContent:
       url: m365d-autoir.md
     - text: Охота на угрозы
       url: advanced-hunting-overview.md
-- title: Справка
+- title: Справочные материалы
   linkLists:
   - linkListType: reference
     links:

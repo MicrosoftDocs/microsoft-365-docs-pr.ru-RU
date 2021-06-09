@@ -51,10 +51,10 @@ ms.locfileid: "52530854"
 
 ## <a name="who-can-configure-and-use-the-microsoft-365-groups-expiration-policy"></a>Кто можно настроить и использовать политику истечения срока действия Microsoft 365 групп?
 
-|Роль|Что они могут сделать|
+|Role|Что они могут сделать|
 |---------|---------|
 |Office 365 глобального администратора (в Azure, администратор компании), администратор пользователя|Создание, чтение, обновление или удаление параметров политики истечения Microsoft 365 групп.|
-|Пользователь|Обновление или [восстановление](/azure/active-directory/users-groups-roles/groups-restore-deleted) Microsoft 365 группы, которая им принадлежит|
+|Пользователь.|Обновление или [восстановление](/azure/active-directory/users-groups-roles/groups-restore-deleted) Microsoft 365 группы, которая им принадлежит|
 
 ## <a name="how-to-set-the-expiration-policy"></a>Настройка политики истечения срока действия
 
@@ -84,7 +84,7 @@ ms.locfileid: "52530854"
 
 Если у вас есть группа, которую вы больше не планируете использовать, но хотите сохранить ее содержимое, см. в Yammer архивных групп и Yammer сведения об экспорте информации из различных служб групп. [](end-life-cycle-groups-teams-sites-yammer.md)
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 [Пошаговая пошаговая работа по планированию управления совместной работой](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
 

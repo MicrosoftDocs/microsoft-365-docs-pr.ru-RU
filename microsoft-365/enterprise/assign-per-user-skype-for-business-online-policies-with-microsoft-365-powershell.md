@@ -1,5 +1,5 @@
 ---
-title: Назначение политик Skype для бизнеса в Интернете с помощью PowerShell для Microsoft 365
+title: Назначение политик Skype для бизнеса Для каждого пользователя в PowerShell для Microsoft 365
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,7 +13,7 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 ms.assetid: 36743c86-46c2-46be-b9ed-ad9d4e85d186
-description: Сводка. Используйте PowerShell для Microsoft 365 для назначения параметров связи для каждого пользователя с помощью политик Skype для бизнеса Online.
+description: Сводка. Используйте PowerShell для Microsoft 365 для назначения параметров связи для каждого пользователя с помощью Skype для бизнеса online политик.
 ms.openlocfilehash: 2d3d953fe0beb74cc63f914137942f068ce90be7
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -21,11 +21,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50905408"
 ---
-# <a name="assign-per-user-skype-for-business-online-policies-with-powershell-for-microsoft-365"></a>Назначение политик Skype для бизнеса в Интернете с помощью PowerShell для Microsoft 365
+# <a name="assign-per-user-skype-for-business-online-policies-with-powershell-for-microsoft-365"></a>Назначение политик Skype для бизнеса Для каждого пользователя в PowerShell для Microsoft 365
 
-*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
+*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
 
-Использование PowerShell для Microsoft 365 — это эффективный способ назначения параметров связи для каждого пользователя с помощью политик Skype для бизнеса Online.
+Использование PowerShell для Microsoft 365 является эффективным способом назначения параметров связи для каждого пользователя с помощью Skype для бизнеса online.
   
 ## <a name="prepare-to-run-the-powershell-commands"></a>Подготовка к запуску команд PowerShell
 
@@ -59,7 +59,7 @@ ms.locfileid: "50905408"
 Get-CsExternalAccessPolicy -Include All| Where-Object {$_.EnableFederationAccess -eq $True -and $_.EnablePublicCloudAccess -eq $False}
 ```
 
-Если вы не создали настраиваемые экземпляры ExternalAccessPolicy, эта команда возвращает одну политику, которая соответствует нашим критериям (FederationOnly). Вот пример:
+Если вы не создали настраиваемые экземпляры ExternalAccessPolicy, эта команда возвращает одну политику, которая соответствует нашим критериям (FederationOnly). Пример:
   
 ```powershell
 Identity                          : Tag:FederationOnly

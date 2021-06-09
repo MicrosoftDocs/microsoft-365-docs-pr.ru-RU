@@ -13,7 +13,7 @@ search.appverid:
 ms.assetid: ''
 ms.collection:
 - M365-security-compliance
-description: Узнайте о безопасных документах в Microsoft 365 E5 или Microsoft 365 E5 Security.
+description: Узнайте о Сейф документах в Microsoft 365 E5 или Безопасность Microsoft 365 E5.
 ms.technology: mdo
 ms.prod: m365-security
 ms.openlocfilehash: 1186c7856d0b979c483cf6dd1c0a010ab582e2ce
@@ -30,21 +30,21 @@ ms.locfileid: "51644756"
 **Область применения**
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-Безопасные документы — это функция в Microsoft 365 E5 или Microsoft 365 E5 Security, которая использует [](https://support.microsoft.com/office/d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653) [Microsoft Defender для](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) конечной точки для сканирования документов и файлов, открытых в защищенном представлении или в Службе безопасности приложений [для Office.](https://support.microsoft.com/topic/9e0fb9c2-ffad-43bf-8ba3-78f785fdba46)
+Сейф Документы — это функция в Microsoft 365 E5 или Безопасность Microsoft 365 E5, которая использует [Microsoft Defender](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) для конечной точки [](https://support.microsoft.com/office/d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653) для сканирования документов и файлов, открытых в защищенных представлениях или в службе безопасности приложений [для Office](https://support.microsoft.com/topic/9e0fb9c2-ffad-43bf-8ba3-78f785fdba46).
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
-- Безопасные документы доступны только пользователям с лицензиями *microsoft 365 E5* или *Microsoft 365 E5 Security.* Эти лицензии не включены в планы Microsoft Defender для Office 365.
+- Сейф Документы доступны только пользователям  с Microsoft 365 E5 *или Безопасность Microsoft 365 E5* лицензиями. Эти лицензии не включены в Microsoft Defender для Office 365 планов.
 
-- Безопасные документы поддерживаются в Microsoft 365 Apps для предприятия (ранее известная как Office 365 ProPlus) версии 2004 или более поздней версии.
+- Сейф Документы поддерживаются в Приложения Microsoft 365 для предприятий версии 2004 Office 365 профессиональный плюс версии 2004 или более поздней версии.
 
-- Откройте Центр безопасности и соответствия требованиям на сайте <https://protection.office.com>. Чтобы перейти непосредственно на страницу БЕЗОПАСНЫЕ вложения **ATP,** откройте <https://protection.office.com/safeattachmentv2> .
+- Откройте Центр безопасности и соответствия требованиям на сайте <https://protection.office.com>. Чтобы перейти непосредственно на **страницу ATP Сейф вложения,** откройте <https://protection.office.com/safeattachmentv2> .
 
 - Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
 
 - Для выполнения процедур, описанных в этой статье, вам должны быть назначены разрешения в **Exchange Online**:
-  - Чтобы настроить параметры "Безопасные документы", необходимо быть членом группы ролей **"Управление** организацией" или **"Администратор** безопасности".
-  - Для доступа только для чтения к настройкам безопасных документов необходимо быть членом групп ролей **Global Reader** или **Security Reader.**
+  - Чтобы настроить Сейф документов, необходимо быть членом групп ролей **администратора** организации или **администратора** безопасности.
+  - Для доступа только для чтения Сейф параметров документов необходимо быть членом групп ролей **Global Reader** или **Security Reader.**
 
   Дополнительные сведения см. в статье [Разрешения в Exchange Online](/exchange/permissions-exo/permissions-exo).
 
@@ -56,25 +56,25 @@ ms.locfileid: "51644756"
 
 ### <a name="how-does-microsoft-handle-your-data"></a>Как Корпорация Майкрософт обрабатывает ваши данные?
 
-Чтобы защититься, safe Documents отправляет файлы в [облако Microsoft Defender для конечной](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) точки для анализа. Сведения о том, как Microsoft Defender для конечной точки обрабатывает данные, можно найти здесь: Microsoft Defender для хранения и конфиденциальности данных [конечных точек.](/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)
+Чтобы защититься, Сейф документы отправляют файлы в [облако Microsoft Defender для конечных](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) точек для анализа. Сведения о том, как Microsoft Defender для конечной точки обрабатывает данные, можно найти здесь: Microsoft Defender для хранения и конфиденциальности данных [конечных точек.](/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)
 
-Файлы, отправленные безопасными документами, не сохраняются в Defender после времени, необходимого для анализа (как правило, менее 24 часов).
+Файлы, отправленные Сейф документов, не сохраняются в Defender после времени, необходимого для анализа (как правило, менее 24 часов).
 
-## <a name="use-the-security--compliance-center-to-configure-safe-documents"></a>Используйте Центр & безопасности для настройки безопасных документов
+## <a name="use-the-security--compliance-center-to-configure-safe-documents"></a>Используйте Центр & безопасности для настройки Сейф документов
 
-1. В Центре обеспечения & безопасности перейдите к политике управления угрозами  \>  \> **ATP Safe Attachments,** а затем щелкните **глобальные параметры.**
+1. В Центре & безопасности перейдите в  центр политики управления угрозами \>  \> **ATP Сейф** вложения, а затем нажмите **параметры Global**.
 
 2. В **глобальных параметрах** вылет, который появляется, настройте следующие параметры:
 
-   - **Включим безопасные** документы для клиентов Office: переместите переключеть вправо, чтобы включить функцию: ![ ](../../media/scc-toggle-on.png) Включить.
+   - **Включаем Сейф** документы для Office клиентов: переместите очки вправо, чтобы включить функцию: включить . ![ ](../../media/scc-toggle-on.png)
 
-   - **Разрешить** пользователям щелкнуть защищенный просмотр, даже если "Безопасные документы" идентифицируют файл как вредоносный. Рекомендуется оставить этот параметр отключенным (оставьте переключенку слева: отключите). ![ ](../../media/scc-toggle-off.png)
+   - Разрешить пользователям щелкнуть защищенный просмотр, даже **если Сейф documents** идентифицирует файл как вредоносный. Рекомендуется оставить этот параметр отключенным (оставьте левое окантовку: отключите). ![ ](../../media/scc-toggle-off.png)
 
-   По завершении нажмите кнопку **Сохранить**.
+   Выполнив необходимые действия, нажмите кнопку **Сохранить**.
 
-   ![Параметры Безопасные документы после выбора глобальных параметров на странице Безопасные вложения.](../../media/safe-docs.png)
+   ![Сейф Параметры документов после выбора глобальных параметров на странице Сейф вложения.](../../media/safe-docs.png)
 
-### <a name="use-exchange-online-powershell-to-configure-safe-documents"></a>Использование Exchange Online PowerShell для настройки безопасных документов
+### <a name="use-exchange-online-powershell-to-configure-safe-documents"></a>Используйте Exchange Online PowerShell для настройки Сейф документов
 
 Используйте следующий синтаксис:
 
@@ -82,10 +82,10 @@ ms.locfileid: "51644756"
 Set-AtpPolicyForO365 -EnableSafeDocs <$true | $false> -AllowSafeDocsOpen <$true | $false>
 ```
 
-- Параметр _EnableSafeDocs_ включает или отключает безопасные документы для всей организации.
+- Параметр _EnableSafeDocs_ включает или отключает Сейф документов для всей организации.
 - Параметр _AllowSafeDocsOpen_ позволяет пользователям покидать защищенный вид (т. е. открывать документ), если документ был идентифицирован как вредоносный.
 
-В этом примере можно включить безопасные документы для всей организации и запретить пользователям открывать документы, которые были идентифицированы как вредоносные из защищенного представления.
+В этом примере Сейф документов для всей организации и не позволяет пользователям открывать документы, которые были идентифицированы как вредоносные из защищенного представления.
 
 ```powershell
 Set-AtpPolicyForO365 -EnableSafeDocs $true -AllowSafeDocsOpen $false
@@ -101,9 +101,9 @@ Set-AtpPolicyForO365 -EnableSafeDocs $true -AllowSafeDocsOpen $false
 
 ### <a name="how-do-i-know-this-worked"></a>Как проверить, что это работает?
 
-Чтобы убедиться, что вы включили и настроили безопасные документы, сделайте все следующие действия:
+Чтобы убедиться, что вы включили Сейф документы, сделайте все следующие действия:
 
-- В Центре обеспечения & безопасности перейдите к политике управления угрозами ATP Safe  \>  \> **Attachments,**   щелкните Глобальные параметры и убедитесь, что включите безопасные документы для клиентов **Office** и разрешите пользователям щелкнуть защищенный просмотр, даже если "Безопасные документы" идентифицируют файл как вредоносные параметры.
+- В Центре обеспечения & безопасности перейдите  в центр политики управления угрозами \>  \> **ATP Сейф Вложения,**   щелкните параметры Global и убедитесь, что включите документы Сейф для Office клиентов и разрешите пользователям щелкнуть защищенный просмотр, даже если **Сейф Documents** идентифицирует файл как вредоносные параметры.
 
 - Запустите следующую команду в Exchange Online PowerShell и проверьте значения свойств:
 
@@ -111,7 +111,7 @@ Set-AtpPolicyForO365 -EnableSafeDocs $true -AllowSafeDocsOpen $false
   Get-AtpPolicyForO365 | Format-List *SafeDocs*
   ```
 
-- Следующие файлы доступны для тестирования защиты безопасных документов. Эти документы похожи на файл EICAR.TXT для тестирования решений по борьбе с вредоносными программами и антивирусами. Файлы не являются вредными, но они будут запускать защиту безопасных документов.
+- Следующие файлы доступны для проверки Сейф документов. Эти документы похожи на файл EICAR.TXT для тестирования решений по борьбе с вредоносными программами и антивирусами. Файлы не являются вредными, но они запускают защиту Сейф документов.
 
   - [SafeDocsDemo.docx](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/SafeDocsDemo.docx)
   - [SafeDocsDemo.pptx](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/SafeDocsDemo.pptx)

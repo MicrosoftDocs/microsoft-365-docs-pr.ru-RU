@@ -70,7 +70,7 @@ ms.locfileid: "52344630"
 
 ## <a name="upgrade-your-plan-by-using-the-upgrade-tab"></a>Обновление плана с помощью вкладки Upgrade
 
-### <a name="before-you-begin"></a>Подготовка
+### <a name="before-you-begin"></a>Прежде чем начать
 
 Прежде чем начинать, обратите внимание на перечисленные ниже моменты.
 
@@ -136,7 +136,7 @@ ms.locfileid: "52344630"
 
 После того как все пользователи были назначены на новую подписку, отмените подписку [Office 365 E4.](cancel-your-subscription.md)
 
-## <a name="related-content"></a>Связанные материалы
+## <a name="related-content"></a>См. также:
 
 [Обновление до другого плана](upgrade-to-different-plan.md) (статья)\
 [Покупка или удаление лицензий на подписку](../licenses/buy-licenses.md) (статья)\

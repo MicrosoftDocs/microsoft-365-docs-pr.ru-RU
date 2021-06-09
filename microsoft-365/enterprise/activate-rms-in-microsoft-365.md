@@ -26,7 +26,7 @@ ms.locfileid: "50905648"
 ---
 # <a name="activate-rights-management-in-the-admin-center"></a>Активация управления правами в центре администрирования
 
-Необходимо активировать службу управления правами (RMS), прежде чем использовать функции управления правами на информацию (IRM) приложений и служб Microsoft 365. После активации RMS ваша организация может начать защищать важные документы и электронные письма с помощью Azure RMS. Это решение защиты информации может защитить все типы файлов и интегрироваться с клиентских приложений, таких как Excel, Microsoft Word и другие, Exchange Online и SharePoint Online, а также серверы, такие как Microsoft Exchange и Microsoft SharePoint.
+Необходимо активировать службу управления правами (RMS), прежде чем использовать функции управления правами на информацию (IRM) Microsoft 365 приложений и служб. После активации RMS ваша организация может начать защищать важные документы и электронные письма с помощью Azure RMS. Это решение защиты информации может защитить все типы файлов и интегрироваться с клиентские приложения, такие как Excel, Microsoft Word и другие, Exchange Online и SharePoint Online, а также серверы, такие как Microsoft Exchange и Microsoft SharePoint.
   
 > [!TIP]
 > Если вы не уверены в необходимости управления правами, проверьте, есть ли у организации одна или несколько из этих проблем или требований к [бизнесу.](/azure/information-protection/what-is-azure-rms#business-problems-solved-by-azure-rights-management) 
@@ -39,4 +39,4 @@ ms.locfileid: "50905648"
 
 - Обзор этапов развертывания см. в дорожной карте [развертывания Azure Rights Management.](/rights-management/plan-design/deployment-roadmap)
 
-- Инструкции по активации RMS для Microsoft 365 см. в инструкции по активации службы защиты [от Azure Information Protection.](/azure/information-protection/activate-service)
+- Инструкции по активации RMS для Microsoft 365 см. в инструкции Активация службы защиты [от Azure Information Protection.](/azure/information-protection/activate-service)

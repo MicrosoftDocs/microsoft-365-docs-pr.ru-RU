@@ -1,5 +1,5 @@
 ---
-title: Учет брандмауэра в Microsoft Defender для конечной точки
+title: Отчеты брандмауэра узла в Microsoft Defender для конечной точки
 description: Хост и просмотр отчетов брандмауэра в Microsoft 365 центре безопасности.
 keywords: защитник windows, брандмауэр
 search.product: eADQiWindows 10XVcnh
@@ -21,7 +21,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/08/2021
 ms.locfileid: "52809344"
 ---
-# <a name="host-firewall-reporting-in-microsoft-defender-for-endpoint"></a>Учет брандмауэра в Microsoft Defender для конечной точки
+# <a name="host-firewall-reporting-in-microsoft-defender-for-endpoint"></a>Отчеты брандмауэра узла в Microsoft Defender для конечной точки
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 

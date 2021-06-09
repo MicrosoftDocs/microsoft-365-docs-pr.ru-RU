@@ -39,14 +39,14 @@ Microsoft 365 бизнес премиум имеет все необходимо
 
 В этой таблице показаны различия между Microsoft 365 бизнес премиум и Office 365 E3.
 
-| Функция    | Поддержка в Microsoft 365 бизнес премиум    | Поддержка Office 365 E3 |
+| Возможность    | Поддержка в Microsoft 365 бизнес премиум    | Поддержка Office 365 E3 |
 |:-------|:-----|:-----|
 | **Локальная среда**        | | |
 | Office приложения<sup>1</sup>    | Приложения Microsoft 365 для бизнеса    | Приложения Microsoft 365 для предприятий |
 | **Приложения облачной производительности**        | | |
 | Exchange Online и Outlook    | Ограничение хранения 50 ГБ на почтовый ящик и неограниченное Exchange Online Archiving    | Ограничение хранения 100 ГБ на почтовый ящик и неограниченное Exchange Online Archiving |
 | Teams    | ![Включено в Microsoft 365 бизнес премиум](../media/check-mark.png)    | ![Включено в Office 365 E3](../media/check-mark.png) | 
-| OneDrive для бизнеса    | Ограничение хранения 1 ТБ на пользователя    | Неограниченное количество | 
+| OneDrive для бизнеса    | Ограничение хранения 1 ТБ на пользователя    | Без ограничений | 
 | Yammer, SharePoint Online, Planner, Stream    | ![Включено в Microsoft 365 бизнес премиум](../media/check-mark.png)    | ![Включено в Office 365 E3](../media/check-mark.png) | 
 | StaffHub    | ![Включено в Microsoft 365 бизнес премиум](../media/check-mark.png)    | ![Включено в Office 365 E3](../media/check-mark.png) |
 | **Защита от угроз**        | | |
@@ -79,7 +79,7 @@ Microsoft 365 бизнес премиум имеет все необходимо
 - Конфигурации служб производительности и их данные, такие как Teams, Exchange Online почтовые ящики, сайты SharePoint Online, OneDrive для бизнеса папок и OneNote блокноты.
 - Office приложения будут масштабироваться автоматически. Office 365 лицензирование проверяет назначение лицензии пользователя каждые 72 часа и преобразует Office приложения в версию, которая соответствует подписке пользователя.
 
-### <a name="windows-10"></a>Windows 10;
+### <a name="windows-10"></a>Windows 10
 
 Если ваши Windows еще не Windows Pro обновления Создателя, обновите их до [Windows Pro Creators Update](upgrade-to-windows-pro-creators-update.md).
 

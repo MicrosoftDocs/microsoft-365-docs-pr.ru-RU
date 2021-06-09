@@ -1,5 +1,5 @@
 ---
-title: Назначение ролей учетным записям пользователей Microsoft 365 с помощью PowerShell
+title: Назначение ролей для Microsoft 365 учетных записей пользователей с помощью PowerShell
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -27,28 +27,28 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50905384"
 ---
-# <a name="assign-admin-roles-to-microsoft-365-user-accounts-with-powershell"></a>Назначение ролей администратора учетным записям пользователей Microsoft 365 с помощью PowerShell
+# <a name="assign-admin-roles-to-microsoft-365-user-accounts-with-powershell"></a>Назначение ролей администратора для Microsoft 365 учетных записей пользователей с Помощью PowerShell
 
-*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
+*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
 
 Вы можете легко назначить роли учетным записям пользователей с помощью PowerShell для Microsoft 365.
 
 >[!Note]
->Узнайте, как  [назначить роли администратора](../admin/add-users/assign-admin-roles.md) учетным записям пользователей в центре администрирования Microsoft 365.
+>Узнайте, как [назначать роли](../admin/add-users/assign-admin-roles.md) администратора учетным записям пользователей в центре Microsoft 365 администратора.
 >
 >Список дополнительных ресурсов см. в списке [Управление пользователями и группами.](../admin/add-users/index.yml)
 >
 
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Использование модуля PowerShell Azure Active Directory для Graph
 
-Во-первых, используйте глобальную учетную запись администратора для подключения [к клиенту Microsoft 365.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
+Во-первых, используйте глобальную учетную запись администратора для подключения к [Microsoft 365 клиента.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
   
 Далее определите имя учетной записи пользователя, которую необходимо добавить в роль (пример: fredsm \@ contoso.com). Это также называется главным именем пользователя (UPN).
 
-После этого определите имя роли. См. [разрешения на роль администратора в Azure Active Directory.](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)
+После этого определите имя роли. Разрешения [на роль администратора](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)см. в Azure Active Directory.
 
 >[!Note]
->Обратите внимание на примечания в этой статье. Некоторые имена ролей отличаются для Azure Active Directory (Azure AD) PowerShell. Например, роль *администратора SharePoint* в центре администрирования Microsoft 365 — администратор *службы SharePoint* в Azure AD PowerShell.
+>Обратите внимание на примечания в этой статье. Некоторые имена ролей отличаются для Azure Active Directory (Azure AD) PowerShell. Например, роль *SharePoint* администратора в центре администрирования Microsoft 365  администратора службы SharePoint Azure AD PowerShell.
 >
 
 Далее заполните имена входных и ролей и запустите следующие команды:
@@ -65,7 +65,7 @@ $role = Get-AzureADDirectoryRole | Where {$_.displayName -eq $roleName}
 Add-AzureADDirectoryRoleMember -ObjectId $role.ObjectId -RefObjectId (Get-AzureADUser | Where {$_.UserPrincipalName -eq $userName}).ObjectID
 ```
 
-Вот пример завершенного набора команд, который назначает роль администратора службы SharePoint в учетной записи *\@ belindan contoso.com:*
+Вот пример завершенного набора команд, который назначает роль администратора SharePoint службы учетной записи contoso.com *службы: \@*
   
 ```powershell
 $userName="belindan@contoso.com"
@@ -88,7 +88,7 @@ Get-AzureADDirectoryRole | Where { $_.DisplayName -eq $roleName } | Get-AzureADD
 
 ## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a>Использование модуля Microsoft Azure Active Directory для Windows PowerShell
 
-Во-первых, используйте глобальную учетную запись администратора для подключения [к клиенту Microsoft 365.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
+Во-первых, используйте глобальную учетную запись администратора для подключения к [Microsoft 365 клиента.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
   
 ### <a name="for-a-single-role-change"></a>Изменение одной роли
 
@@ -134,7 +134,7 @@ $roleName="<The admin role name you want to assign to the account>"
 Add-MsolRoleMember -RoleMemberEmailAddress (Get-MsolUser -All | Where DisplayName -eq $dispName).UserPrincipalName -RoleName $roleName
 ```
 
-Вклеить команды в блокнот. Для *переменных $dispName* *и $roleName* замените текст описания их значениями. Удалите \< and > символы, но храните кавычка. Вклейте измененные строки в модуль Microsoft Azure Active Directory для Windows PowerShell для их запуска. Кроме того, можно использовать интегрированную среду сценариев Windows PowerShell.
+Вклеить команды в Блокнот. Для *переменных $dispName* *и $roleName* замените текст описания их значениями. Удалите \< and > символы, но храните кавычка. Вклейте измененные строки в Microsoft Azure Active Directory модуль для Windows PowerShell для их запуска. Кроме того, можно использовать интегрированную среду сценариев Windows PowerShell.
   
 Вот пример завершенного набора команд:
   
@@ -180,7 +180,7 @@ $roleName="<The role name you want to assign to the account>"
 Add-MsolRoleMember -RoleMemberEmailAddress $upnName -RoleName $roleName
 ```
 
-Скопируйте команды в Блокнот. Для **$upnName** и **$roleName** переменных. Замените текст описания их значениями. Удалите \< and > символы, но храните кавычка. Вклейте измененные строки в модуль Microsoft Azure Active Directory для Windows PowerShell для их запуска. Поочередно можно использовать Windows PowerShell ISE.
+Скопируйте команды в Блокнот. Для **$upnName** и **$roleName** переменных. Замените текст описания их значениями. Удалите \< and > символы, но храните кавычка. Вклейте измененные строки в Microsoft Azure Active Directory модуль для Windows PowerShell для их запуска. Поочередно можно использовать Windows PowerShell ISE.
   
 Вот пример завершенного набора команд:
   
@@ -202,7 +202,7 @@ Add-MsolRoleMember -RoleMemberEmailAddress $upnName -RoleName $roleName
   Get-MsolRole | Sort Name | Select Name,Description
   ```
 
-Далее создайте текстовый файл с разделенным запятой значением (CSV), который имеет имя отображения или поля UPN и полей имен ролей. Это можно легко сделать в Microsoft Excel.
+Далее создайте текстовый файл с разделенным запятой значением (CSV), который имеет имя отображения или поля UPN и полей имен ролей. Вы можете сделать это легко в Microsoft Excel.
 
 Вот пример отображения имен:
   

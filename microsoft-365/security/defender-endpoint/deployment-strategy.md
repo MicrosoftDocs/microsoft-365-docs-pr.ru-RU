@@ -62,11 +62,11 @@ Defender for Endpoint поддерживает различные конечны
 
 | Endpoint     | Средство развертывания                       |
 |--------------|------------------------------------------|
-| **Windows**  |  [Локальный скрипт (до 10 устройств)](configure-endpoints-script.md) <br>  [Групповая политика](configure-endpoints-gp.md) <br>  [Microsoft Endpoint Manager/ Mobile Device Manager](configure-endpoints-mdm.md) <br>   [Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md) <br> [Скрипты VDI](configure-endpoints-vdi.md)   |
-| **macOS**    | [Локальный скрипт](mac-install-manually.md) <br> [Менеджер конечных точек Майкрософт](mac-install-with-intune.md) <br> [JAMF Pro](mac-install-with-jamf.md) <br> [Управление мобильными устройствами](mac-install-with-other-mdm.md) |
+| **Windows**  |  [Локальный скрипт (до 10 устройств)](configure-endpoints-script.md) <br>  [Групповая политика](configure-endpoints-gp.md) <br>  [Microsoft Endpoint Manager/ Диспетчер мобильных устройств](configure-endpoints-mdm.md) <br>   [Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md) <br> [Скрипты VDI](configure-endpoints-vdi.md)   |
+| **macOS**    | [Локальный скрипт](mac-install-manually.md) <br> [Microsoft Endpoint Manager](mac-install-with-intune.md) <br> [JAMF Pro](mac-install-with-jamf.md) <br> [Управление мобильными устройствами](mac-install-with-other-mdm.md) |
 | **Linux Server** | [Локальный скрипт](linux-install-manually.md) <br> [Puppet](linux-install-with-puppet.md) <br> [Ansible](linux-install-with-ansible.md)|
 | **iOS**      | [На основе приложения](ios-install.md)                                |
-| **Android**  | [Менеджер конечных точек Майкрософт](android-intune.md)               | 
+| **Android**  | [Microsoft Endpoint Manager](android-intune.md)               | 
 
 
 
@@ -74,7 +74,7 @@ Defender for Endpoint поддерживает различные конечны
 После использования конечных точек настройте возможности безопасности в Defender для конечной точки, чтобы можно было максимально повысить надежность защиты, доступную в наборе. Возможности включают в себя:
 
 - Обнаружение и устранение угроз на конечных точках
-- Защита следующего поколения
+- Защита нового поколения
 - Сокращение направлений атак
 
 

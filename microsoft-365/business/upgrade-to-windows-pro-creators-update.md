@@ -62,6 +62,6 @@ ms.locfileid: "52705561"
   
 Чтобы завершить настройку устройств Android и iOS, см. в приложении Настройка мобильных устройств для Microsoft 365 [для бизнес-пользователей.](set-up-mobile-devices.md) 
   
-## <a name="related-content"></a>Связанные материалы
+## <a name="related-content"></a>См. также:
 
 [Microsoft 365 для видео обучения бизнесу](../business-video/index.yml) (страница ссылки)

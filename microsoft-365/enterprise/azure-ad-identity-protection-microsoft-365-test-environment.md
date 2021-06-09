@@ -1,5 +1,5 @@
 ---
-title: Azure AD Identity Protection для Microsoft 365 для корпоративной тестовой среды
+title: Защита удостоверений Azure AD для Microsoft 365 для тестовой среды предприятия
 f1.keywords:
 - NOCSH
 ms.author: josephd
@@ -22,23 +22,23 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50905348"
 ---
-# <a name="azure-ad-identity-protection-for-your-microsoft-365-for-enterprise-test-environment"></a>Azure AD Identity Protection для Microsoft 365 для корпоративной тестовой среды
+# <a name="azure-ad-identity-protection-for-your-microsoft-365-for-enterprise-test-environment"></a>Защита удостоверений Azure AD для Microsoft 365 для тестовой среды предприятия
 
 *Это руководство по тестовой лаборатории можно использовать только для Microsoft 365 для корпоративных тестовых сред.*
 
-Вы можете использовать Azure Active Directory (Azure AD) Identity Protection для обнаружения потенциальных уязвимостей, влияющих на удостоверения организации, настройки автоматизированных ответов и расследования инцидентов. В этой статье описывается использование Azure AD Identity Protection для просмотра анализа учетных записей тестовой среды.
+Вы можете использовать Azure Active Directory (Azure AD) для обнаружения потенциальных уязвимостей, влияющих на удостоверения организации, настройки автоматизированных ответов и расследования инцидентов. В этой статье описывается использование Azure AD Identity Protection для просмотра анализа учетных записей тестовой среды.
 
-Настройка azure AD Identity Protection в Microsoft 365 для корпоративной тестовой среды включает два этапа:
+Настройка azure AD Identity Protection в Microsoft 365 для корпоративной тестовой среды включает в себя два этапа:
 
-- [Этап 1. Создание microsoft 365 для корпоративной тестовой среды](#phase-1-build-out-your-microsoft-365-for-enterprise-test-environment)
+- [Этап 1. Создание Microsoft 365 для корпоративной тестовой среды](#phase-1-build-out-your-microsoft-365-for-enterprise-test-environment)
 - [Этап 2. Использование защиты удостоверений Azure AD](#phase-2-use-azure-ad-identity-protection)
 
 ![Руководства по лаборатории тестирования для облака Майкрософт](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
-> Чтобы получить визуальную карту для всех статей в стеке Руководство по корпоративной тестовой лаборатории Microsoft 365, перейдите в [Microsoft 365 для](../downloads/Microsoft365EnterpriseTLGStack.pdf)корпоративного руководства по тестовой лаборатории.
+> Чтобы получить визуальную карту для всех статей в стеке руководства по Microsoft 365 для корпоративной лаборатории тестирования, перейдите Microsoft 365 для корпоративного руководства по [лаборатории тестирования.](../downloads/Microsoft365EnterpriseTLGStack.pdf)
   
-## <a name="phase-1-build-out-your-microsoft-365-for-enterprise-test-environment"></a>Этап 1. Создание microsoft 365 для корпоративной тестовой среды
+## <a name="phase-1-build-out-your-microsoft-365-for-enterprise-test-environment"></a>Этап 1. Создание Microsoft 365 для корпоративной тестовой среды
 
 Если вы хотите протестировать Azure AD Identity Protection в легком режиме с минимальными требованиями, следуйте инструкциям в [базовой конфигурации Lightweight.](lightweight-base-configuration-microsoft-365-enterprise.md)
   
@@ -49,7 +49,7 @@ ms.locfileid: "50905348"
   
 ## <a name="phase-2-use-azure-ad-identity-protection"></a>Этап 2. Использование защиты удостоверений Azure AD
 
-1. Откройте частный экземпляр браузера и вопишитесь на портал Azure с учетной записью глобального администратора [https://portal.azure.com](https://portal.azure.com) microsoft 365 для корпоративной тестовой среды.
+1. Откройте частный экземпляр браузера и вопишитесь на портал Azure с учетной записью глобального администратора [https://portal.azure.com](https://portal.azure.com) Microsoft 365 для корпоративной тестовой среды.
 2. На портале Azure введите защиту **удостоверений** в поле поиска и выберите **Azure AD Identity Protection**.
 3. В **лезвии Защита удостоверений — обзор** выберите каждый отчет, чтобы узнать, какие отчеты он представляет.
 4. В **статье Notify** выберите **оповещений пользователей,** которые находятся в опасности.
@@ -61,7 +61,7 @@ ms.locfileid: "50905348"
 
 Дополнительные проверки и эксперименты см. в этой ленте [Simulating risk events.](/azure/active-directory/active-directory-identityprotection-playbook)
 
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Следующий этап
 
 Ознакомьтесь с дополнительными функциями и возможностями [идентификации](m365-enterprise-test-lab-guides.md#identity) в тестовой среде.
 
@@ -73,4 +73,4 @@ ms.locfileid: "50905348"
 
 [Обзор Microsoft 365 для предприятий](microsoft-365-overview.md)
 
-[Документация по Microsoft 365 для предприятий](/microsoft-365-enterprise/)
+[Документация по Microsoft 365 для предприятий](/microsoft-365-enterprise/)
