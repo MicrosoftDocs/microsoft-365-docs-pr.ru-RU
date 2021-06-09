@@ -1,5 +1,5 @@
 ---
-title: Тесты производительности и сравнения показателей сети Office 365
+title: Office 365 сетевых показателей и сопоставлений
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -13,7 +13,7 @@ search.appverid:
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
-description: Тесты производительности и сравнения показателей сети Office 365
+description: Office 365 сетевых показателей и сопоставлений
 ms.openlocfilehash: e84a6dd63376c55c7da0abd4c414577c94f760d4
 ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
@@ -21,4 +21,4 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 08/14/2020
 ms.locfileid: "46693046"
 ---
-# <a name="office-365-network-score-benchmarks-and-comparisons"></a><span data-ttu-id="ecbdc-103">Тесты производительности и сравнения показателей сети Office 365</span><span class="sxs-lookup"><span data-stu-id="ecbdc-103">Office 365 network score benchmarks and comparisons</span></span>
+# <a name="office-365-network-score-benchmarks-and-comparisons"></a><span data-ttu-id="9464e-103">Office 365 сетевых показателей и сопоставлений</span><span class="sxs-lookup"><span data-stu-id="9464e-103">Office 365 network score benchmarks and comparisons</span></span>

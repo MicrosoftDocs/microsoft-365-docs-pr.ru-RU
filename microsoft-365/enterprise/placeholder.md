@@ -1,5 +1,5 @@
 ---
-title: Статья-заметель
+title: Статья placeholder
 f1.keywords:
 - NOCSH
 ms.author: josephd
@@ -20,6 +20,6 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 08/14/2020
 ms.locfileid: "46693212"
 ---
-# <a name="placeholder-article"></a><span data-ttu-id="5e8f5-103">Статья-заметель</span><span class="sxs-lookup"><span data-stu-id="5e8f5-103">Placeholder article</span></span>
+# <a name="placeholder-article"></a><span data-ttu-id="cdb7d-103">Статья placeholder</span><span class="sxs-lookup"><span data-stu-id="cdb7d-103">Placeholder article</span></span>
 
-<span data-ttu-id="5e8f5-104">На данный момент эта статья является заме желтой.</span><span class="sxs-lookup"><span data-stu-id="5e8f5-104">This article is a placeholder for now.</span></span>
+<span data-ttu-id="cdb7d-104">Эта статья является местообладателями на данный момент.</span><span class="sxs-lookup"><span data-stu-id="cdb7d-104">This article is a placeholder for now.</span></span>

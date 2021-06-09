@@ -23,78 +23,78 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/04/2021
 ms.locfileid: "52769477"
 ---
-# <a name="get-machine-by-id-api"></a><span data-ttu-id="aee6c-104">Get machine by ID API</span><span class="sxs-lookup"><span data-stu-id="aee6c-104">Get machine by ID API</span></span>
+# <a name="get-machine-by-id-api"></a><span data-ttu-id="212e0-104">Get machine by ID API</span><span class="sxs-lookup"><span data-stu-id="212e0-104">Get machine by ID API</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
-<span data-ttu-id="aee6c-105">**Применяется к:** [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/?linkid=2154037)</span><span class="sxs-lookup"><span data-stu-id="aee6c-105">**Applies to:** [Microsoft Defender for Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)</span></span>
+<span data-ttu-id="212e0-105">**Применяется к:** [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/?linkid=2154037)</span><span class="sxs-lookup"><span data-stu-id="212e0-105">**Applies to:** [Microsoft Defender for Endpoint](https://go.microsoft.com/fwlink/?linkid=2154037)</span></span>
 
 
-> <span data-ttu-id="aee6c-106">Хотите испытать Defender для конечной точки?</span><span class="sxs-lookup"><span data-stu-id="aee6c-106">Want to experience Defender for Endpoint?</span></span> [<span data-ttu-id="aee6c-107">Зарегистрився для бесплатной пробной.</span><span class="sxs-lookup"><span data-stu-id="aee6c-107">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+> <span data-ttu-id="212e0-106">Хотите испытать Defender для конечной точки?</span><span class="sxs-lookup"><span data-stu-id="212e0-106">Want to experience Defender for Endpoint?</span></span> [<span data-ttu-id="212e0-107">Зарегистрився для бесплатной пробной.</span><span class="sxs-lookup"><span data-stu-id="212e0-107">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
 
-## <a name="api-description"></a><span data-ttu-id="aee6c-108">Описание API</span><span class="sxs-lookup"><span data-stu-id="aee6c-108">API description</span></span>
-<span data-ttu-id="aee6c-109">Извлекает определенную [машину](machine.md) по ее ID устройства или имени компьютера.</span><span class="sxs-lookup"><span data-stu-id="aee6c-109">Retrieves specific [Machine](machine.md) by its device ID or computer name.</span></span>
+## <a name="api-description"></a><span data-ttu-id="212e0-108">Описание API</span><span class="sxs-lookup"><span data-stu-id="212e0-108">API description</span></span>
+<span data-ttu-id="212e0-109">Извлекает определенную [машину](machine.md) по ее ID устройства или имени компьютера.</span><span class="sxs-lookup"><span data-stu-id="212e0-109">Retrieves specific [Machine](machine.md) by its device ID or computer name.</span></span>
 
 
-## <a name="limitations"></a><span data-ttu-id="aee6c-110">Ограничения</span><span class="sxs-lookup"><span data-stu-id="aee6c-110">Limitations</span></span>
-1. <span data-ttu-id="aee6c-111">Устройства можно получить в последний раз в соответствии с настроенной политикой хранения.</span><span class="sxs-lookup"><span data-stu-id="aee6c-111">You can get devices last seen according to your configured retention policy.</span></span>
-2. <span data-ttu-id="aee6c-112">Ограничения скорости для этого API : 100 вызовов в минуту и 1500 вызовов в час.</span><span class="sxs-lookup"><span data-stu-id="aee6c-112">Rate limitations for this API are 100 calls per minute and 1500 calls per hour.</span></span>
+## <a name="limitations"></a><span data-ttu-id="212e0-110">Ограничения</span><span class="sxs-lookup"><span data-stu-id="212e0-110">Limitations</span></span>
+1. <span data-ttu-id="212e0-111">Устройства можно получить в последний раз в соответствии с настроенной политикой хранения.</span><span class="sxs-lookup"><span data-stu-id="212e0-111">You can get devices last seen according to your configured retention policy.</span></span>
+2. <span data-ttu-id="212e0-112">Ограничения скорости для этого API : 100 вызовов в минуту и 1500 вызовов в час.</span><span class="sxs-lookup"><span data-stu-id="212e0-112">Rate limitations for this API are 100 calls per minute and 1500 calls per hour.</span></span>
 
 
-## <a name="permissions"></a><span data-ttu-id="aee6c-113">Разрешения</span><span class="sxs-lookup"><span data-stu-id="aee6c-113">Permissions</span></span>
-<span data-ttu-id="aee6c-114">Для вызова этого API требуется одно из следующих разрешений.</span><span class="sxs-lookup"><span data-stu-id="aee6c-114">One of the following permissions is required to call this API.</span></span> <span data-ttu-id="aee6c-115">Дополнительные дополнительные информации, в том числе о выборе разрешений, см. в этой [ссылке: Использование API endpoint Defender для Microsoft Defender](apis-intro.md)</span><span class="sxs-lookup"><span data-stu-id="aee6c-115">To learn more, including how to choose permissions, see [Use Microsoft Defender for Endpoint APIs](apis-intro.md)</span></span>
+## <a name="permissions"></a><span data-ttu-id="212e0-113">Разрешения</span><span class="sxs-lookup"><span data-stu-id="212e0-113">Permissions</span></span>
+<span data-ttu-id="212e0-114">Для вызова этого API требуется одно из следующих разрешений.</span><span class="sxs-lookup"><span data-stu-id="212e0-114">One of the following permissions is required to call this API.</span></span> <span data-ttu-id="212e0-115">Дополнительные дополнительные информации, в том числе о выборе разрешений, см. в этой [ссылке: Использование API endpoint Defender для Microsoft Defender](apis-intro.md)</span><span class="sxs-lookup"><span data-stu-id="212e0-115">To learn more, including how to choose permissions, see [Use Microsoft Defender for Endpoint APIs](apis-intro.md)</span></span>
 
-<span data-ttu-id="aee6c-116">Тип разрешения</span><span class="sxs-lookup"><span data-stu-id="aee6c-116">Permission type</span></span> |   <span data-ttu-id="aee6c-117">Разрешение</span><span class="sxs-lookup"><span data-stu-id="aee6c-117">Permission</span></span>  |   <span data-ttu-id="aee6c-118">Имя отображения разрешений</span><span class="sxs-lookup"><span data-stu-id="aee6c-118">Permission display name</span></span>
+<span data-ttu-id="212e0-116">Тип разрешения</span><span class="sxs-lookup"><span data-stu-id="212e0-116">Permission type</span></span> |   <span data-ttu-id="212e0-117">Разрешение</span><span class="sxs-lookup"><span data-stu-id="212e0-117">Permission</span></span>  |   <span data-ttu-id="212e0-118">Имя отображения разрешений</span><span class="sxs-lookup"><span data-stu-id="212e0-118">Permission display name</span></span>
 :---|:---|:---
-<span data-ttu-id="aee6c-119">Приложение</span><span class="sxs-lookup"><span data-stu-id="aee6c-119">Application</span></span> |   <span data-ttu-id="aee6c-120">Machine.Read.All</span><span class="sxs-lookup"><span data-stu-id="aee6c-120">Machine.Read.All</span></span> |  <span data-ttu-id="aee6c-121">'Read all machine profiles'</span><span class="sxs-lookup"><span data-stu-id="aee6c-121">'Read all machine profiles'</span></span>
-<span data-ttu-id="aee6c-122">Приложение</span><span class="sxs-lookup"><span data-stu-id="aee6c-122">Application</span></span> |   <span data-ttu-id="aee6c-123">Machine.ReadWrite.All</span><span class="sxs-lookup"><span data-stu-id="aee6c-123">Machine.ReadWrite.All</span></span> | <span data-ttu-id="aee6c-124">'Read and write all machine information'</span><span class="sxs-lookup"><span data-stu-id="aee6c-124">'Read and write all machine information'</span></span>
-<span data-ttu-id="aee6c-125">Делегированные (рабочая или учебная учетная запись)</span><span class="sxs-lookup"><span data-stu-id="aee6c-125">Delegated (work or school account)</span></span> | <span data-ttu-id="aee6c-126">Machine.Read</span><span class="sxs-lookup"><span data-stu-id="aee6c-126">Machine.Read</span></span> | <span data-ttu-id="aee6c-127">'Read machine information'</span><span class="sxs-lookup"><span data-stu-id="aee6c-127">'Read machine information'</span></span>
-<span data-ttu-id="aee6c-128">Делегированные (рабочая или учебная учетная запись)</span><span class="sxs-lookup"><span data-stu-id="aee6c-128">Delegated (work or school account)</span></span> | <span data-ttu-id="aee6c-129">Machine.ReadWrite</span><span class="sxs-lookup"><span data-stu-id="aee6c-129">Machine.ReadWrite</span></span> | <span data-ttu-id="aee6c-130">'Read and write machine information'</span><span class="sxs-lookup"><span data-stu-id="aee6c-130">'Read and write machine information'</span></span>
+<span data-ttu-id="212e0-119">Приложение</span><span class="sxs-lookup"><span data-stu-id="212e0-119">Application</span></span> |   <span data-ttu-id="212e0-120">Machine.Read.All</span><span class="sxs-lookup"><span data-stu-id="212e0-120">Machine.Read.All</span></span> |  <span data-ttu-id="212e0-121">'Read all machine profiles'</span><span class="sxs-lookup"><span data-stu-id="212e0-121">'Read all machine profiles'</span></span>
+<span data-ttu-id="212e0-122">Приложение</span><span class="sxs-lookup"><span data-stu-id="212e0-122">Application</span></span> |   <span data-ttu-id="212e0-123">Machine.ReadWrite.All</span><span class="sxs-lookup"><span data-stu-id="212e0-123">Machine.ReadWrite.All</span></span> | <span data-ttu-id="212e0-124">'Read and write all machine information'</span><span class="sxs-lookup"><span data-stu-id="212e0-124">'Read and write all machine information'</span></span>
+<span data-ttu-id="212e0-125">Делегированные (рабочая или учебная учетная запись)</span><span class="sxs-lookup"><span data-stu-id="212e0-125">Delegated (work or school account)</span></span> | <span data-ttu-id="212e0-126">Machine.Read</span><span class="sxs-lookup"><span data-stu-id="212e0-126">Machine.Read</span></span> | <span data-ttu-id="212e0-127">'Read machine information'</span><span class="sxs-lookup"><span data-stu-id="212e0-127">'Read machine information'</span></span>
+<span data-ttu-id="212e0-128">Делегированные (рабочая или учебная учетная запись)</span><span class="sxs-lookup"><span data-stu-id="212e0-128">Delegated (work or school account)</span></span> | <span data-ttu-id="212e0-129">Machine.ReadWrite</span><span class="sxs-lookup"><span data-stu-id="212e0-129">Machine.ReadWrite</span></span> | <span data-ttu-id="212e0-130">'Read and write machine information'</span><span class="sxs-lookup"><span data-stu-id="212e0-130">'Read and write machine information'</span></span>
 
 >[!Note]
-> <span data-ttu-id="aee6c-131">При получении маркера с помощью учетных данных пользователей:</span><span class="sxs-lookup"><span data-stu-id="aee6c-131">When obtaining a token using user credentials:</span></span>
->- <span data-ttu-id="aee6c-132">Пользователю необходимо иметь по крайней мере следующее разрешение на роль: "Просмотр данных" (см. [создание](user-roles.md) и управление ролями для получения дополнительных сведений)</span><span class="sxs-lookup"><span data-stu-id="aee6c-132">The user needs to have at least the following role permission: 'View Data' (See [Create and manage roles](user-roles.md) for more information)</span></span>
->- <span data-ttu-id="aee6c-133">Пользователь должен иметь доступ к устройству на основе параметров группы устройств (см. дополнительные сведения о создании и управлении [группами](machine-groups.md) устройств).</span><span class="sxs-lookup"><span data-stu-id="aee6c-133">User needs to have access to the device, based on device group settings (See [Create and manage device groups](machine-groups.md) for more information)</span></span>
+> <span data-ttu-id="212e0-131">При получении маркера с помощью учетных данных пользователей:</span><span class="sxs-lookup"><span data-stu-id="212e0-131">When obtaining a token using user credentials:</span></span>
+>- <span data-ttu-id="212e0-132">Пользователю необходимо иметь по крайней мере следующее разрешение на роль: "Просмотр данных" (см. [создание](user-roles.md) и управление ролями для получения дополнительных сведений)</span><span class="sxs-lookup"><span data-stu-id="212e0-132">The user needs to have at least the following role permission: 'View Data' (See [Create and manage roles](user-roles.md) for more information)</span></span>
+>- <span data-ttu-id="212e0-133">Пользователь должен иметь доступ к устройству на основе параметров группы устройств (см. дополнительные сведения о создании и управлении [группами](machine-groups.md) устройств).</span><span class="sxs-lookup"><span data-stu-id="212e0-133">User needs to have access to the device, based on device group settings (See [Create and manage device groups](machine-groups.md) for more information)</span></span>
 
 
-## <a name="http-request"></a><span data-ttu-id="aee6c-134">HTTP-запрос</span><span class="sxs-lookup"><span data-stu-id="aee6c-134">HTTP request</span></span>
+## <a name="http-request"></a><span data-ttu-id="212e0-134">HTTP-запрос</span><span class="sxs-lookup"><span data-stu-id="212e0-134">HTTP request</span></span>
 ```http
 GET /api/machines/{id}
 ```
 
-## <a name="request-headers"></a><span data-ttu-id="aee6c-135">Заголовки запросов</span><span class="sxs-lookup"><span data-stu-id="aee6c-135">Request headers</span></span>
+## <a name="request-headers"></a><span data-ttu-id="212e0-135">Заголовки запросов</span><span class="sxs-lookup"><span data-stu-id="212e0-135">Request headers</span></span>
 
-<span data-ttu-id="aee6c-136">Имя</span><span class="sxs-lookup"><span data-stu-id="aee6c-136">Name</span></span> | <span data-ttu-id="aee6c-137">Тип</span><span class="sxs-lookup"><span data-stu-id="aee6c-137">Type</span></span> | <span data-ttu-id="aee6c-138">Описание</span><span class="sxs-lookup"><span data-stu-id="aee6c-138">Description</span></span>
+<span data-ttu-id="212e0-136">Имя</span><span class="sxs-lookup"><span data-stu-id="212e0-136">Name</span></span> | <span data-ttu-id="212e0-137">Тип</span><span class="sxs-lookup"><span data-stu-id="212e0-137">Type</span></span> | <span data-ttu-id="212e0-138">Описание</span><span class="sxs-lookup"><span data-stu-id="212e0-138">Description</span></span>
 :---|:---|:---
-<span data-ttu-id="aee6c-139">Authorization</span><span class="sxs-lookup"><span data-stu-id="aee6c-139">Authorization</span></span> | <span data-ttu-id="aee6c-140">String</span><span class="sxs-lookup"><span data-stu-id="aee6c-140">String</span></span> | <span data-ttu-id="aee6c-141">Bearer {token}.</span><span class="sxs-lookup"><span data-stu-id="aee6c-141">Bearer {token}.</span></span> <span data-ttu-id="aee6c-142">**Обязательное поле**.</span><span class="sxs-lookup"><span data-stu-id="aee6c-142">**Required**.</span></span>
+<span data-ttu-id="212e0-139">Авторизация</span><span class="sxs-lookup"><span data-stu-id="212e0-139">Authorization</span></span> | <span data-ttu-id="212e0-140">String</span><span class="sxs-lookup"><span data-stu-id="212e0-140">String</span></span> | <span data-ttu-id="212e0-141">Bearer {token}.</span><span class="sxs-lookup"><span data-stu-id="212e0-141">Bearer {token}.</span></span> <span data-ttu-id="212e0-142">**Обязательное поле**.</span><span class="sxs-lookup"><span data-stu-id="212e0-142">**Required**.</span></span>
 
 
-## <a name="request-body"></a><span data-ttu-id="aee6c-143">Текст запроса</span><span class="sxs-lookup"><span data-stu-id="aee6c-143">Request body</span></span>
-<span data-ttu-id="aee6c-144">переменная Empty</span><span class="sxs-lookup"><span data-stu-id="aee6c-144">Empty</span></span>
+## <a name="request-body"></a><span data-ttu-id="212e0-143">Тело запроса</span><span class="sxs-lookup"><span data-stu-id="212e0-143">Request body</span></span>
+<span data-ttu-id="212e0-144">переменная Empty</span><span class="sxs-lookup"><span data-stu-id="212e0-144">Empty</span></span>
 
-## <a name="response"></a><span data-ttu-id="aee6c-145">Отклик</span><span class="sxs-lookup"><span data-stu-id="aee6c-145">Response</span></span>
-<span data-ttu-id="aee6c-146">При успешном и устройстве существует — 200 ОК с [машинным](machine.md) объектом в теле.</span><span class="sxs-lookup"><span data-stu-id="aee6c-146">If successful and device exists - 200 OK with the [machine](machine.md) entity in the body.</span></span>
-<span data-ttu-id="aee6c-147">Если машина с указанным ИД не найдена - 404 Не найдено.</span><span class="sxs-lookup"><span data-stu-id="aee6c-147">If machine with the specified ID was not found - 404 Not Found.</span></span>
+## <a name="response"></a><span data-ttu-id="212e0-145">Отклик</span><span class="sxs-lookup"><span data-stu-id="212e0-145">Response</span></span>
+<span data-ttu-id="212e0-146">При успешном и устройстве существует — 200 ОК с [машинным](machine.md) объектом в теле.</span><span class="sxs-lookup"><span data-stu-id="212e0-146">If successful and device exists - 200 OK with the [machine](machine.md) entity in the body.</span></span>
+<span data-ttu-id="212e0-147">Если машина с указанным ИД не найдена - 404 Не найдено.</span><span class="sxs-lookup"><span data-stu-id="212e0-147">If machine with the specified ID was not found - 404 Not Found.</span></span>
 
 
-## <a name="example"></a><span data-ttu-id="aee6c-148">Пример</span><span class="sxs-lookup"><span data-stu-id="aee6c-148">Example</span></span>
+## <a name="example"></a><span data-ttu-id="212e0-148">Пример</span><span class="sxs-lookup"><span data-stu-id="212e0-148">Example</span></span>
 
-<span data-ttu-id="aee6c-149">**Запрос**</span><span class="sxs-lookup"><span data-stu-id="aee6c-149">**Request**</span></span>
+<span data-ttu-id="212e0-149">**Запрос**</span><span class="sxs-lookup"><span data-stu-id="212e0-149">**Request**</span></span>
 
-<span data-ttu-id="aee6c-150">Ниже приведен пример запроса.</span><span class="sxs-lookup"><span data-stu-id="aee6c-150">Here is an example of the request.</span></span>
+<span data-ttu-id="212e0-150">Ниже приведен пример запроса.</span><span class="sxs-lookup"><span data-stu-id="212e0-150">Here is an example of the request.</span></span>
 
 ```http
 GET https://api.securitycenter.microsoft.com/api/machines/1e5bc9d7e413ddd7902c2932e418702b84d0cc07
 ```
 
-<span data-ttu-id="aee6c-151">**Отклик**</span><span class="sxs-lookup"><span data-stu-id="aee6c-151">**Response**</span></span>
+<span data-ttu-id="212e0-151">**Отклик**</span><span class="sxs-lookup"><span data-stu-id="212e0-151">**Response**</span></span>
 
-<span data-ttu-id="aee6c-152">Ниже приведен пример отклика.</span><span class="sxs-lookup"><span data-stu-id="aee6c-152">Here is an example of the response.</span></span>
+<span data-ttu-id="212e0-152">Ниже приведен пример отклика.</span><span class="sxs-lookup"><span data-stu-id="212e0-152">Here is an example of the response.</span></span>
 
 
 ```http
