@@ -16,76 +16,76 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 3aa58f3df4a4c3562cbd4dfbf6113c30816e2a0f
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 01e14be20cee2b8644ebe5d1d1212f921a2fb9b5
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52769225"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841526"
 ---
-# <a name="list-vulnerabilities-by-machine-and-software"></a><span data-ttu-id="16bf9-104">Список уязвимостей по компьютерам и программному обеспечению</span><span class="sxs-lookup"><span data-stu-id="16bf9-104">List vulnerabilities by machine and software</span></span>
+# <a name="list-vulnerabilities-by-machine-and-software"></a><span data-ttu-id="3a721-104">Список уязвимостей по компьютерам и программному обеспечению</span><span class="sxs-lookup"><span data-stu-id="3a721-104">List vulnerabilities by machine and software</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
-<span data-ttu-id="16bf9-105">**Область применения:**</span><span class="sxs-lookup"><span data-stu-id="16bf9-105">**Applies to:**</span></span>
-- [<span data-ttu-id="16bf9-106">Microsoft Defender для конечной точки</span><span class="sxs-lookup"><span data-stu-id="16bf9-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
-- [<span data-ttu-id="16bf9-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="16bf9-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
+<span data-ttu-id="3a721-105">**Область применения:**</span><span class="sxs-lookup"><span data-stu-id="3a721-105">**Applies to:**</span></span>
+- [<span data-ttu-id="3a721-106">Microsoft Defender для конечной точки</span><span class="sxs-lookup"><span data-stu-id="3a721-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [<span data-ttu-id="3a721-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="3a721-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> <span data-ttu-id="16bf9-108">Хотите испытать Microsoft Defender для конечной точки?</span><span class="sxs-lookup"><span data-stu-id="16bf9-108">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="16bf9-109">Зарегистрився для бесплатной пробной.</span><span class="sxs-lookup"><span data-stu-id="16bf9-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+> <span data-ttu-id="3a721-108">Хотите испытать Microsoft Defender для конечной точки?</span><span class="sxs-lookup"><span data-stu-id="3a721-108">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="3a721-109">Зарегистрився для бесплатной пробной.</span><span class="sxs-lookup"><span data-stu-id="3a721-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
 
-<span data-ttu-id="16bf9-110">Извлекает список всех уязвимостей, влияющих на организацию каждого компьютера [и](machine.md) [программного обеспечения.](software.md)</span><span class="sxs-lookup"><span data-stu-id="16bf9-110">Retrieves a list of all the vulnerabilities affecting the organization per [machine](machine.md) and [software](software.md).</span></span>
-- <span data-ttu-id="16bf9-111">Если уязвимость имеет исправление КБ, она появится в ответе.</span><span class="sxs-lookup"><span data-stu-id="16bf9-111">If the vulnerability has a fixing KB, it will appear in the response.</span></span>
-- <span data-ttu-id="16bf9-112">Поддерживает [запросы OData V4.](https://www.odata.org/documentation/)</span><span class="sxs-lookup"><span data-stu-id="16bf9-112">Supports [OData V4 queries](https://www.odata.org/documentation/).</span></span>
-- <span data-ttu-id="16bf9-113">OData ```$filter``` поддерживается во всех свойствах.</span><span class="sxs-lookup"><span data-stu-id="16bf9-113">The OData ```$filter``` is supported on all properties.</span></span>
+<span data-ttu-id="3a721-110">Извлекает список всех уязвимостей, влияющих на организацию каждого компьютера [и](machine.md) [программного обеспечения.](software.md)</span><span class="sxs-lookup"><span data-stu-id="3a721-110">Retrieves a list of all the vulnerabilities affecting the organization per [machine](machine.md) and [software](software.md).</span></span>
+- <span data-ttu-id="3a721-111">Если уязвимость имеет исправление КБ, она появится в ответе.</span><span class="sxs-lookup"><span data-stu-id="3a721-111">If the vulnerability has a fixing KB, it will appear in the response.</span></span>
+- <span data-ttu-id="3a721-112">Поддерживает [запросы OData V4.](https://www.odata.org/documentation/)</span><span class="sxs-lookup"><span data-stu-id="3a721-112">Supports [OData V4 queries](https://www.odata.org/documentation/).</span></span>
+- <span data-ttu-id="3a721-113">OData ```$filter``` поддерживается во всех свойствах.</span><span class="sxs-lookup"><span data-stu-id="3a721-113">The OData ```$filter``` is supported on all properties.</span></span>
 
 >[!Tip]
-><span data-ttu-id="16bf9-114">Это отличный API для [Power BI интеграции.](api-power-bi.md)</span><span class="sxs-lookup"><span data-stu-id="16bf9-114">This is great API for [Power BI integration](api-power-bi.md).</span></span>
+><span data-ttu-id="3a721-114">Это отличный API для [Power BI интеграции.](api-power-bi.md)</span><span class="sxs-lookup"><span data-stu-id="3a721-114">This is great API for [Power BI integration](api-power-bi.md).</span></span>
 
-## <a name="permissions"></a><span data-ttu-id="16bf9-115">Разрешения</span><span class="sxs-lookup"><span data-stu-id="16bf9-115">Permissions</span></span>
-<span data-ttu-id="16bf9-116">Для вызова этого API требуется одно из следующих разрешений.</span><span class="sxs-lookup"><span data-stu-id="16bf9-116">One of the following permissions is required to call this API.</span></span> <span data-ttu-id="16bf9-117">Дополнительные сведения, в том числе о выборе разрешений, см. в материале [Use Microsoft Defender for Endpoint API.](apis-intro.md)</span><span class="sxs-lookup"><span data-stu-id="16bf9-117">To learn more, including how to choose permissions, see [Use Microsoft Defender for Endpoint APIs](apis-intro.md) for details.</span></span>
+## <a name="permissions"></a><span data-ttu-id="3a721-115">Разрешения</span><span class="sxs-lookup"><span data-stu-id="3a721-115">Permissions</span></span>
+<span data-ttu-id="3a721-116">Для вызова этого API требуется одно из следующих разрешений.</span><span class="sxs-lookup"><span data-stu-id="3a721-116">One of the following permissions is required to call this API.</span></span> <span data-ttu-id="3a721-117">Дополнительные сведения, в том числе о выборе разрешений, см. в материале [Use Microsoft Defender for Endpoint API.](apis-intro.md)</span><span class="sxs-lookup"><span data-stu-id="3a721-117">To learn more, including how to choose permissions, see [Use Microsoft Defender for Endpoint APIs](apis-intro.md) for details.</span></span>
 
-<span data-ttu-id="16bf9-118">Тип разрешения</span><span class="sxs-lookup"><span data-stu-id="16bf9-118">Permission type</span></span> |   <span data-ttu-id="16bf9-119">Разрешение</span><span class="sxs-lookup"><span data-stu-id="16bf9-119">Permission</span></span>  |   <span data-ttu-id="16bf9-120">Имя отображения разрешений</span><span class="sxs-lookup"><span data-stu-id="16bf9-120">Permission display name</span></span>
+<span data-ttu-id="3a721-118">Тип разрешения</span><span class="sxs-lookup"><span data-stu-id="3a721-118">Permission type</span></span> |   <span data-ttu-id="3a721-119">Разрешение</span><span class="sxs-lookup"><span data-stu-id="3a721-119">Permission</span></span>  |   <span data-ttu-id="3a721-120">Имя отображения разрешений</span><span class="sxs-lookup"><span data-stu-id="3a721-120">Permission display name</span></span>
 :---|:---|:---
-<span data-ttu-id="16bf9-121">Приложение</span><span class="sxs-lookup"><span data-stu-id="16bf9-121">Application</span></span> |   <span data-ttu-id="16bf9-122">Vulnerability.Read.All</span><span class="sxs-lookup"><span data-stu-id="16bf9-122">Vulnerability.Read.All</span></span> |    <span data-ttu-id="16bf9-123">'Read Threat and Vulnerability Management vulnerability information'</span><span class="sxs-lookup"><span data-stu-id="16bf9-123">'Read Threat and Vulnerability Management vulnerability information'</span></span>
-<span data-ttu-id="16bf9-124">Делегированные (рабочая или учебная учетная запись)</span><span class="sxs-lookup"><span data-stu-id="16bf9-124">Delegated (work or school account)</span></span> | <span data-ttu-id="16bf9-125">Vulnerability.Read</span><span class="sxs-lookup"><span data-stu-id="16bf9-125">Vulnerability.Read</span></span> |   <span data-ttu-id="16bf9-126">'Read Threat and Vulnerability Management vulnerability information'</span><span class="sxs-lookup"><span data-stu-id="16bf9-126">'Read Threat and Vulnerability Management vulnerability information'</span></span>
+<span data-ttu-id="3a721-121">Для приложений</span><span class="sxs-lookup"><span data-stu-id="3a721-121">Application</span></span> |   <span data-ttu-id="3a721-122">Vulnerability.Read.All</span><span class="sxs-lookup"><span data-stu-id="3a721-122">Vulnerability.Read.All</span></span> |    <span data-ttu-id="3a721-123">'Read Threat and Vulnerability Management vulnerability information'</span><span class="sxs-lookup"><span data-stu-id="3a721-123">'Read Threat and Vulnerability Management vulnerability information'</span></span>
+<span data-ttu-id="3a721-124">Делегированные (рабочая или учебная учетная запись)</span><span class="sxs-lookup"><span data-stu-id="3a721-124">Delegated (work or school account)</span></span> | <span data-ttu-id="3a721-125">Vulnerability.Read</span><span class="sxs-lookup"><span data-stu-id="3a721-125">Vulnerability.Read</span></span> |   <span data-ttu-id="3a721-126">'Read Threat and Vulnerability Management vulnerability information'</span><span class="sxs-lookup"><span data-stu-id="3a721-126">'Read Threat and Vulnerability Management vulnerability information'</span></span>
 
-## <a name="http-request"></a><span data-ttu-id="16bf9-127">HTTP-запрос</span><span class="sxs-lookup"><span data-stu-id="16bf9-127">HTTP request</span></span>
+## <a name="http-request"></a><span data-ttu-id="3a721-127">HTTP-запрос</span><span class="sxs-lookup"><span data-stu-id="3a721-127">HTTP request</span></span>
 ```
 GET /api/vulnerabilities/machinesVulnerabilities
 ```
 
-## <a name="request-headers"></a><span data-ttu-id="16bf9-128">Заголовки запросов</span><span class="sxs-lookup"><span data-stu-id="16bf9-128">Request headers</span></span>
+## <a name="request-headers"></a><span data-ttu-id="3a721-128">Заголовки запросов</span><span class="sxs-lookup"><span data-stu-id="3a721-128">Request headers</span></span>
 
-<span data-ttu-id="16bf9-129">Имя</span><span class="sxs-lookup"><span data-stu-id="16bf9-129">Name</span></span> | <span data-ttu-id="16bf9-130">Тип</span><span class="sxs-lookup"><span data-stu-id="16bf9-130">Type</span></span> | <span data-ttu-id="16bf9-131">Описание</span><span class="sxs-lookup"><span data-stu-id="16bf9-131">Description</span></span>
+<span data-ttu-id="3a721-129">Имя</span><span class="sxs-lookup"><span data-stu-id="3a721-129">Name</span></span> | <span data-ttu-id="3a721-130">Тип</span><span class="sxs-lookup"><span data-stu-id="3a721-130">Type</span></span> | <span data-ttu-id="3a721-131">Описание</span><span class="sxs-lookup"><span data-stu-id="3a721-131">Description</span></span>
 :---|:---|:---
-<span data-ttu-id="16bf9-132">Authorization</span><span class="sxs-lookup"><span data-stu-id="16bf9-132">Authorization</span></span> | <span data-ttu-id="16bf9-133">String</span><span class="sxs-lookup"><span data-stu-id="16bf9-133">String</span></span> | <span data-ttu-id="16bf9-134">Bearer {token}.</span><span class="sxs-lookup"><span data-stu-id="16bf9-134">Bearer {token}.</span></span> <span data-ttu-id="16bf9-135">**Обязательное поле**.</span><span class="sxs-lookup"><span data-stu-id="16bf9-135">**Required**.</span></span>
+<span data-ttu-id="3a721-132">Authorization</span><span class="sxs-lookup"><span data-stu-id="3a721-132">Authorization</span></span> | <span data-ttu-id="3a721-133">String</span><span class="sxs-lookup"><span data-stu-id="3a721-133">String</span></span> | <span data-ttu-id="3a721-134">Bearer {token}.</span><span class="sxs-lookup"><span data-stu-id="3a721-134">Bearer {token}.</span></span> <span data-ttu-id="3a721-135">**Обязательное поле**.</span><span class="sxs-lookup"><span data-stu-id="3a721-135">**Required**.</span></span>
 
 
-## <a name="request-body"></a><span data-ttu-id="16bf9-136">Текст запроса</span><span class="sxs-lookup"><span data-stu-id="16bf9-136">Request body</span></span>
-<span data-ttu-id="16bf9-137">переменная Empty</span><span class="sxs-lookup"><span data-stu-id="16bf9-137">Empty</span></span>
+## <a name="request-body"></a><span data-ttu-id="3a721-136">Тело запроса</span><span class="sxs-lookup"><span data-stu-id="3a721-136">Request body</span></span>
+<span data-ttu-id="3a721-137">переменная Empty</span><span class="sxs-lookup"><span data-stu-id="3a721-137">Empty</span></span>
 
-## <a name="response"></a><span data-ttu-id="16bf9-138">Отклик</span><span class="sxs-lookup"><span data-stu-id="16bf9-138">Response</span></span>
-<span data-ttu-id="16bf9-139">В случае успеха этот метод возвращает 200 ОК со списком уязвимостей в теле.</span><span class="sxs-lookup"><span data-stu-id="16bf9-139">If successful, this method returns 200 OK with the list of vulnerabilities in the body.</span></span>
+## <a name="response"></a><span data-ttu-id="3a721-138">Отклик</span><span class="sxs-lookup"><span data-stu-id="3a721-138">Response</span></span>
+<span data-ttu-id="3a721-139">В случае успеха этот метод возвращает 200 ОК со списком уязвимостей в теле.</span><span class="sxs-lookup"><span data-stu-id="3a721-139">If successful, this method returns 200 OK with the list of vulnerabilities in the body.</span></span>
 
 
-## <a name="example"></a><span data-ttu-id="16bf9-140">Пример</span><span class="sxs-lookup"><span data-stu-id="16bf9-140">Example</span></span>
+## <a name="example"></a><span data-ttu-id="3a721-140">Пример</span><span class="sxs-lookup"><span data-stu-id="3a721-140">Example</span></span>
 
-<span data-ttu-id="16bf9-141">**Запрос**</span><span class="sxs-lookup"><span data-stu-id="16bf9-141">**Request**</span></span>
+<span data-ttu-id="3a721-141">**Запрос**</span><span class="sxs-lookup"><span data-stu-id="3a721-141">**Request**</span></span>
 
-<span data-ttu-id="16bf9-142">Ниже приведен пример запроса.</span><span class="sxs-lookup"><span data-stu-id="16bf9-142">Here is an example of the request.</span></span>
+<span data-ttu-id="3a721-142">Ниже приведен пример запроса.</span><span class="sxs-lookup"><span data-stu-id="3a721-142">Here is an example of the request.</span></span>
 
 ```http
 GET https://api.securitycenter.microsoft.com/api/vulnerabilities/machinesVulnerabilities
 ```
 
-<span data-ttu-id="16bf9-143">**Отклик**</span><span class="sxs-lookup"><span data-stu-id="16bf9-143">**Response**</span></span>
+<span data-ttu-id="3a721-143">**Отклик**</span><span class="sxs-lookup"><span data-stu-id="3a721-143">**Response**</span></span>
 
-<span data-ttu-id="16bf9-144">Ниже приведен пример отклика.</span><span class="sxs-lookup"><span data-stu-id="16bf9-144">Here is an example of the response.</span></span>
+<span data-ttu-id="3a721-144">Ниже приведен пример отклика.</span><span class="sxs-lookup"><span data-stu-id="3a721-144">Here is an example of the response.</span></span>
 
 
 ```json
@@ -118,7 +118,7 @@ GET https://api.securitycenter.microsoft.com/api/vulnerabilities/machinesVulnera
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="16bf9-145">См. также</span><span class="sxs-lookup"><span data-stu-id="16bf9-145">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3a721-145">См. также</span><span class="sxs-lookup"><span data-stu-id="3a721-145">See also</span></span>
 
-- [<span data-ttu-id="16bf9-146">Риск на основе контроль угроз и уязвимостей</span><span class="sxs-lookup"><span data-stu-id="16bf9-146">Risk-based threat and vulnerability management</span></span>](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
-- [<span data-ttu-id="16bf9-147">Уязвимости в организации</span><span class="sxs-lookup"><span data-stu-id="16bf9-147">Vulnerabilities in your organization</span></span>](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/tvm-weaknesses)
+- [<span data-ttu-id="3a721-146">Риск на основе контроль угроз и уязвимостей</span><span class="sxs-lookup"><span data-stu-id="3a721-146">Risk-based threat and vulnerability management</span></span>](/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
+- [<span data-ttu-id="3a721-147">Уязвимости в организации</span><span class="sxs-lookup"><span data-stu-id="3a721-147">Vulnerabilities in your organization</span></span>](/microsoft-365/security/defender-endpoint/tvm-weaknesses)
