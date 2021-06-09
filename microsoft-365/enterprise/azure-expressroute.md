@@ -123,7 +123,7 @@ ms.locfileid: "52464421"
 
 [План устранения проблем с производительностью Office 365](performance-troubleshooting-plan.md)
 
-[URL-адреса и диапазоны IP-адресов для Office 365](urls-and-ip-address-ranges.md)
+[URL-адреса и диапазоны IP-адресов для Office 365](urls-and-ip-address-ranges.md)
 
 [Сеть Office 365 и настройка производительности](network-planning-and-performance.md)
 

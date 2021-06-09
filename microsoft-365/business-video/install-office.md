@@ -43,7 +43,7 @@ Microsoft Office приложения можно найти в меню **Пус
 
 Установленные Office теперь отображаются в меню **Пуск.**
 
-## <a name="related-content"></a>Связанные материалы
+## <a name="related-content"></a>См. также:
 
 [Перенос контента в Microsoft 365](/sharepointmigration/migrate-to-sharepoint-online.md) (статья)
 

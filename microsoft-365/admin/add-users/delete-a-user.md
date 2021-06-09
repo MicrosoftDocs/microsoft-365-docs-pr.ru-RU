@@ -151,7 +151,7 @@ ms.locfileid: "52683143"
 
 **Хотите удалить Microsoft 365 с компьютера? Перейдите к [отмене подписки.](../../commerce/subscriptions/cancel-your-subscription.md)**
 
-## <a name="related-content"></a>Связанные материалы
+## <a name="related-content"></a>См. также:
 
 [Восстановление пользователя](restore-user.md) (статья)\
 [Постоянное удаление почтового ящика](/exchange/permanently-delete-a-mailbox-exchange-2013-help) (статьи)\

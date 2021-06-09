@@ -51,7 +51,7 @@ ms.locfileid: "52311577"
 
   - Microsoft Edge <sup>2</sup>
 
-    OR
+    ИЛИ
 
   - Microsoft Internet Explorer 10 и более поздних версиях
 

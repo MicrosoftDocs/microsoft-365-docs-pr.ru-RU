@@ -1,5 +1,5 @@
 ---
-title: Создание, закрытия, повторного открытия и удаления дел в основных eDiscovery
+title: Создание, закрыть, открыть и удалить случаи в основной электронной разыскной деятельности
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -16,7 +16,7 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: В этой статье описано, как создавать, закрывать, повторно открывать и удалять дела в основных службах eDiscovery в Microsoft 365.
+description: В этой статье описывается, как создавать, закрывать, открывать и удалять случаи в основной электронной Microsoft 365.
 ms.openlocfilehash: 517819ce542d5f53587d21c2ee08c9d5d96cd27d
 ms.sourcegitcommit: bd51f626f0c7788c2a3cf89deee25264659aebd5
 ms.translationtype: MT
@@ -24,13 +24,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/17/2020
 ms.locfileid: "43551490"
 ---
-# <a name="manage-cases-in-core-ediscovery"></a>Управление делами в основных eDiscovery
+# <a name="manage-cases-in-core-ediscovery"></a>Управление случаями в основной электронной разыскной деятельности
 
-## <a name="create-a-case"></a>Создание дела
+## <a name="create-a-case"></a>Создать обращение
 
 ## <a name="close-a-case"></a>Закрыть дело
 
 ## <a name="reopen-a-case"></a>Повторное открытие дела
 
-## <a name="delete-a-case"></a>Удаление дела
+## <a name="delete-a-case"></a>Удаление случая
 

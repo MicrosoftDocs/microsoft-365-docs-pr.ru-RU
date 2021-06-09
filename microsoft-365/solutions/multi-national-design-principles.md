@@ -1,5 +1,5 @@
 ---
-title: Принципы многоязычного проектирования для Microsoft 365
+title: Принципы многогосударственного проектирования для Microsoft 365
 description: Описание.
 ms.author: samanro
 author: samanro
@@ -19,6 +19,6 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 07/29/2020
 ms.locfileid: "46521103"
 ---
-# <a name="multi-national-design-principles-for-microsoft-365"></a>Принципы многоязычного проектирования для Microsoft 365
+# <a name="multi-national-design-principles-for-microsoft-365"></a>Принципы многогосударственного проектирования для Microsoft 365
 
 Текст

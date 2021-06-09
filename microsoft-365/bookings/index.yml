@@ -1,10 +1,10 @@
 ### YamlMime:Hub
 title: Microsoft Bookings
-summary: Узнайте, как настроить Microsoft Bookings для предоставления услуг клиентам на основе встреч.
+summary: 'Узнайте, как настроить microsoft Bookings для предоставления услуг клиентам на основе записи на прием.'
 brand: m365
 metadata:
   title: Microsoft Bookings
-  description: Узнайте, как настроить Microsoft Bookings для предоставления услуг клиентам на основе встреч.
+  description: 'Узнайте, как настроить microsoft Bookings для предоставления услуг клиентам на основе записи на прием.'
   ms.service: bookings
   ms.topic: hub-page
   author: dmaguire
@@ -12,30 +12,24 @@ metadata:
   manager: serdars
   audience: Admin
   ms.date: 09/04/2020
-  ms.openlocfilehash: 8c7158c72700a7db866051a4de10bbc890ad4478
-  ms.sourcegitcommit: 41fd71ec7175ea3b94f5d3ea1ae2c8fb8dc84227
-  ms.translationtype: MT
-  ms.contentlocale: ru-RU
-  ms.lasthandoff: 09/09/2020
-  ms.locfileid: "47420035"
 additionalContent:
   sections:
-  - items:
-    - title: Что такое Microsoft Bookings?
-      summary: Запланировать встречи и управлять ими с помощью веб-календаря резервирования и приложения, включая интеграцию Outlook для сотрудников и автоматические уведомления по электронной почте.
-      url: bookings-overview.md
-    - title: Ввод сведений о компании
-      summary: Введите свою страницу "О нас", включая название организации, адрес, номер телефона, URL-адрес веб-сайта, логотип и рабочие часы в Microsoft Bookings.
-      url: enter-business-information.md
-    - title: Получение приложения Bookings
-      summary: Измените цветовую тему и указать, как будет выглядеть страница резервирования внешнего клиента.
-      url: customize-booking-page.md
-    - title: Добавление сотрудников в Bookings
-      summary: Создайте список сотрудников и управляйте такими сведениями о сотрудниках, как имя, номер телефона и адрес электронной почты.
-      url: add-staff.md
-    - title: Планирование нерабочих дней и отпусков
-      summary: Запланировать закрытие офиса и отключать сотрудников из календаря Bookings, чтобы сотрудники помечались как недоступные для резервирования в указанное время.
-      url: schedule-closures-time-off-vacation.md
-    - title: Рабочие часы сотрудников в Microsoft Bookings
-      summary: Настройка рабочих часов и доступности сотрудников в Microsoft Bookings.
-      url: employee-hours.md
+    - items:
+        - title: Что такое Microsoft Bookings?
+          summary: 'Расписание и управление встречами с веб-календарем резервирования и приложением, включая интеграцию Outlook сотрудников и автоматические сообщения уведомлений.'
+          url: bookings-overview.md
+        - title: Ввод сведений о компании
+          summary: 'Введите страницу "О нас", в том числе имя, адрес, номер телефона, URL-адрес веб-сайта, логотип и рабочие часы в Microsoft Bookings.'
+          url: enter-business-information.md
+        - title: Получение приложения Bookings
+          summary: 'Изменение цветовой темы и настройка внешнего клиента, на которой будет выглядеть страница бронирования.'
+          url: customize-booking-page.md
+        - title: Добавление сотрудников в Bookings
+          summary: 'Создайте список сотрудников и управляйте такими сведениями о сотрудниках, как имя, номер телефона и адрес электронной почты.'
+          url: add-staff.md
+        - title: Планирование нерабочих дней и отпусков
+          summary: 'Запланировать закрытие офисов и отключать сотрудников из календаря Bookings, чтобы сотрудники были отмечены как недоступные для бронирования в указанное время.'
+          url: schedule-closures-time-off-vacation.md
+        - title: Рабочие часы сотрудников в Microsoft Bookings
+          summary: Настройка рабочих часов и доступности сотрудников в Microsoft Bookings.
+          url: employee-hours.md

@@ -1,5 +1,5 @@
 ---
-title: Отмена Google Workspace (и сохранение домена)
+title: Отмена рабочего пространства Google (и сохранение домена)
 f1.keywords:
 - NOCSH
 ms.author: twerner
@@ -21,7 +21,7 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Узнайте, как отменить подписку Google Workspace, но сохранить свой домен.
+description: Узнайте, как отменить подписку на Google Workspace, но сохранить домен.
 ms.openlocfilehash: 1ad7e4ae3583063281ac5b5e9510be539b1378dd
 ms.sourcegitcommit: 855719ee21017cf87dfa98cbe62806763bcb78ac
 ms.translationtype: MT
@@ -29,14 +29,14 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/22/2021
 ms.locfileid: "49928262"
 ---
-# <a name="cancel-google-workspace-subscription"></a>Отмена подписки Google Workspace
+# <a name="cancel-google-workspace-subscription"></a>Отмена подписки на Рабочее пространство Google
 
-1. Войдите в [учетную службу администратора Google и](https://admin.google.com/) перейдите в **службу вывески.**
-1. В **списке подписок** выберите свою подписку G Suite, **отмените** подписку и выберите **"Продолжить".**
+1. Войдите в [Службу администрирования Google и](https://admin.google.com/) перейдите к **биллингу.**
+1. В **списке Подписки** выберите подписку на G Suite, **отмените** подписку и выберите **Продолжить**.
 
     > [!IMPORTANT]
-    > подписка будет немедленно отменена, и вы не сможете отменить это действие.
+    > ваша подписка будет немедленно отменена, и вы не можете отменить это действие.
 
-    :::image type="content" source="../../media/cancelgoogleworspace.png" alt-text="Снимок экрана со страницей вы выставления счета администратора Google.":::
+    :::image type="content" source="../../media/cancelgoogleworspace.png" alt-text="Снимок экрана страницы биллинга администратора Google.":::
 
-Обратите внимание, что в списке подписок может не быть регистрации доменов, если ваш поставщик услуг хоста DNS не является доменами Google.
+Обратите внимание, что регистрация домена может не быть в списке подписки, если ваш поставщик DNS не является доменами Google.

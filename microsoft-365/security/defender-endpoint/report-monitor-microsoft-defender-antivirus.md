@@ -1,5 +1,5 @@
 ---
-title: Мониторинг и отчет об антивирусной защите Защитника Майкрософт
+title: Мониторинг и отчет о защите антивирусная программа в Microsoft Defender безопасности
 description: Используйте средства Configuration Manager или security information and event management (SIEM) для использования отчетов и мониторинга microsoft Defender AV с помощью PowerShell и WMI.
 keywords: siem, monitor, report, Microsoft Defender AV
 search.product: eADQiWindows 10XVcnh
@@ -32,24 +32,24 @@ ms.locfileid: "52269592"
 
 - [Microsoft Defender для конечной точки](/microsoft-365/security/defender-endpoint/)
 
-Антивирус Microsoft Defender встроен в Windows 10, Windows Server 2019 и Windows Server 2016. Антивирус Microsoft Defender — это защита следующего поколения в Microsoft Defender для конечной точки. Защита следующего поколения помогает защитить устройства от угроз программного обеспечения, таких как вирусы, вредоносные программы и программы-шпионы в электронной почте, приложениях, облаке и Интернете.
+антивирусная программа в Microsoft Defender встроена в Windows 10, Windows Server 2019 и Windows Server 2016. антивирусная программа в Microsoft Defender защиты нового поколения в Microsoft Defender для конечной точки. Защита следующего поколения помогает защитить устройства от угроз программного обеспечения, таких как вирусы, вредоносные программы и программы-шпионы в электронной почте, приложениях, облаке и Интернете.
 
-С помощью антивируса Microsoft Defender у вас есть несколько вариантов проверки состояния защиты и оповещений. Вы можете использовать Microsoft Endpoint Manager для мониторинга [антивируса Microsoft Defender](/configmgr/protect/deploy-use/monitor-endpoint-protection) или [создания оповещений электронной почты.](/configmgr/protect/deploy-use/endpoint-configure-alerts) Или можно отслеживать защиту с помощью [Microsoft Intune.](/intune/introduction-intune)  
+С антивирусная программа в Microsoft Defender у вас есть несколько вариантов проверки состояния защиты и оповещений. Вы можете использовать Microsoft Endpoint Manager [для мониторинга антивирусная программа в Microsoft Defender](/configmgr/protect/deploy-use/monitor-endpoint-protection) [или создания оповещений электронной почты.](/configmgr/protect/deploy-use/endpoint-configure-alerts) Или можно отслеживать защиту с [помощью Microsoft Intune.](/intune/introduction-intune)  
 
-Пакет microsoft Operations Management Suite имеет надстройка [для](/windows/deployment/update/update-compliance-get-started) обновления соответствия требованиям, которая сообщает о ключевых проблемах антивируса Microsoft Defender, включая обновления защиты и параметры защиты в режиме реального времени.
+Пакет microsoft Operations Management Suite имеет надстройка [для](/windows/deployment/update/update-compliance-get-started) обновления соответствия требованиям, которая сообщает о ключевых антивирусная программа в Microsoft Defender, включая обновления защиты и параметры защиты в режиме реального времени.
 
-Если у вас есть сервер сторонних сведений о безопасности и управлении событиями (SIEM), вы также можете потреблять Защитник Windows [событий клиента.](/windows/win32/events/windows-events) 
+Если у вас есть сторонний сервер управления данными о безопасности и событиями (SIEM), вы также можете использовать события Защитник Windows [клиента.](/windows/win32/events/windows-events) 
 
-События Windows включают несколько источников событий безопасности, в том числе события Диспетчер учетной записи безопасности (sam) (расширенные для[Windows 10](/windows/whats-new/whats-new-windows-10-version-1507-and-1511), также см. тему аудита безопасности) и события [](/windows/device-security/auditing/security-auditing-overview) [Защитник Windows.](troubleshoot-microsoft-defender-antivirus.md) 
+Windows событий включают несколько источников событий безопасности, в том числе события Диспетчер учетной записи [](/windows/device-security/auditing/security-auditing-overview) безопасности (SAM) (расширенные для[Windows 10](/windows/whats-new/whats-new-windows-10-version-1507-and-1511), также см. тему аудита [безопасности) и события Защитник Windows](troubleshoot-microsoft-defender-antivirus.md). 
 
-Эти события можно централизованно агрегировать с помощью [сборщика событий Windows.](/windows/win32/wec/windows-event-collector) Часто серверы SIEM имеют соединители для событий Windows, что позволяет соотнести все события безопасности на сервере SIEM. 
+Эти события можно централизованно агрегировать с помощью [Windows событий.](/windows/win32/wec/windows-event-collector) Часто серверы SIEM имеют соединители для Windows событий, что позволяет соотносить все события безопасности на сервере SIEM. 
 
 Вы также можете отслеживать события вредоносных программ с помощью решения по оценке вредоносных [программ в журнале Analytics](/azure/log-analytics/log-analytics-malware).
 
-Для мониторинга или определения состояния в PowerShell, WMI или Microsoft Azure см. в таблице [(Развертывание, управление и отчеты).](deploy-manage-report-microsoft-defender-antivirus.md#ref2)
+Для мониторинга или определения состояния в PowerShell, WMI или Microsoft Azure см. в таблице [(Развертывание,](deploy-manage-report-microsoft-defender-antivirus.md#ref2)управление и отчеты).
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
-- [Антивирус Microsoft Defender в Windows 10](microsoft-defender-antivirus-in-windows-10.md)
+- [Антивирусная программа в Microsoft Defender (Windows 10)](microsoft-defender-antivirus-in-windows-10.md)
 - [Антивирусная программа в Microsoft Defender в Windows Server 2016 и 2019](microsoft-defender-antivirus-on-windows-server.md)
-- [Развертывание антивируса Microsoft Defender](deploy-manage-report-microsoft-defender-antivirus.md)
+- [Развертывание антивирусная программа в Microsoft Defender](deploy-manage-report-microsoft-defender-antivirus.md)

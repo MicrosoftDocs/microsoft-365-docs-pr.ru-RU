@@ -1,5 +1,5 @@
 ---
-title: Защита системы безопасности для вашей кампании или бизнеса
+title: Защита безопасности для вашей кампании или бизнеса
 f1.keywords:
 - NOCSH
 ms.author: samanro
@@ -31,20 +31,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/29/2021
 ms.locfileid: "50044376"
 ---
-# <a name="bump-up-security-protection-for-your-campaign-or-business"></a>Обеспечение безопасности для вашей кампании или бизнеса
+# <a name="bump-up-security-protection-for-your-campaign-or-business"></a>Защита безопасности для вашей кампании или бизнеса
 
 
 ## <a name="overview"></a>Обзор 
-Посмотрите это видео, чтобы узнать, как защитить свою кампанию или бизнес:
+Просмотрите это видео, чтобы узнать, как защитить свою кампанию или бизнес:
 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3cfV1]  
 
 
-Затем выполните следующие действия:
+Затем выполните следующие действия, чтобы:
 
 - [Защита от вредоносных программ и других угроз](m365-campaigns-increase-protection.md)
-- [Защита доступа к данным кампании](m365-campaigns-conditional-access.md) путем защиты учетных записей и приложений
+- [Защита доступа к данным кампании,](m365-campaigns-conditional-access.md) защищая учетные записи и приложения
 - [Защита учетных записей администраторов](m365-campaigns-protect-admin-accounts.md)
 - [Настройка мобильных устройств](../business/set-up-mobile-devices.md?toc=/microsoft-365/campaigns/toc.json)
 - [Обучение пользователей](m365-campaigns-users.md)

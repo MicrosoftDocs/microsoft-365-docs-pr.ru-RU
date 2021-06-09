@@ -21,7 +21,7 @@ search.appverid:
 - MSO150
 - BCS160
 ms.assetid: 4307bdbf-6097-458d-9a6a-048112695c59
-description: Как администратор, вы можете найти помощь по настройкам частей Skype для бизнеса Online, включая сеть, собрания и мгновенные вызовы, а также внешний доступ для пользователей.
+description: В качестве администратора найдите помощь в настройках частей Skype для бизнеса Online, в том числе сети, собраний и чатов, а также внешнего доступа для пользователей.
 ms.openlocfilehash: 1e3807199fc83d642399b29870f2cac477d2ec75
 ms.sourcegitcommit: 74ef7179887eedc696c975a82c865b2d4b3808fd
 ms.translationtype: MT
@@ -33,7 +33,7 @@ ms.locfileid: "47415710"
 
 ## <a name="were-here-to-help"></a>Мы с радостью ответим на ваши вопросы
 
-Как администратор Office 365 для бизнеса вы можете бесплатно получить консультацию у наших агентов службы поддержки. Если вы не нашли нужные сведения на этом веб-сайте, обратитесь в службу поддержки по продуктам для бизнеса **[: справка для администраторов](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)**
+Как администратор Office 365 для бизнеса вы можете бесплатно получить консультацию у наших агентов службы поддержки. Если вы не найдете необходимые сведения на этом веб-сайте, обратитесь в службу поддержки бизнес-продуктов **[- Справка администратора](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)**
   
 ## <a name="let-your-users-contact-external-skype-or-skype-for-business-users"></a>Разрешите своим пользователям общаться с внешними пользователями Skype или Skype для бизнеса
 
@@ -69,9 +69,9 @@ ms.locfileid: "47415710"
     
 - [Нужна помощь при входе в Skype для бизнеса?](https://support.office.com/article/448b8ea7-5b33-444a-afd4-175fc9930d05)
     
-- [Видео: вход в Skype для бизнеса и выход из нее](https://support.office.com/article/8abed4b3-ac48-493e-9d76-0e10140e9451)
+- [Видео: вход и выход из Skype для бизнеса](https://support.office.com/article/8abed4b3-ac48-493e-9d76-0e10140e9451)
     
-- [Настройка параметров звукового устройства в Skype для бизнеса](https://support.office.com/article/2533d929-9814-4349-8ae4-fca29246e2ff)
+- [Установите параметры звукового устройства в Skype для бизнеса](https://support.office.com/article/2533d929-9814-4349-8ae4-fca29246e2ff)
     
 - [Присоединение к собранию Skype для бизнеса](https://support.office.com/article/3862be6d-758a-4064-a016-67c0febf3cd5)
     
@@ -89,6 +89,6 @@ ms.locfileid: "47415710"
     
 - [Начало конференции в Skype для бизнеса](https://support.office.com/article/8dc8ac52-91ac-4db9-8672-11551fdaf997)
     
- **Дополнительные статьи для пользователей см. в [справке по Skype для бизнеса.](https://support.office.com/article/4fbe07ce-6b15-4a06-bcf0-baea57890410)**
+ **Дополнительные статьи для пользователей см. в Skype для бизнеса [справке](https://support.office.com/article/4fbe07ce-6b15-4a06-bcf0-baea57890410).**
   
 

@@ -1,5 +1,5 @@
 ---
-title: Отключение синхронизации каталогов для Microsoft 365
+title: Отключите синхронизацию каталогов для Microsoft 365
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -28,15 +28,15 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 03/30/2021
 ms.locfileid: "51445712"
 ---
-# <a name="turn-off-directory-synchronization-for-microsoft-365"></a>Отключение синхронизации каталогов для Microsoft 365
-С помощью PowerShell можно отключить синхронизацию каталогов и преобразовать синхронизированных пользователей в облачные. Однако не рекомендуется отключить синхронизацию каталогов в качестве шага по устранению неполадок. Если вам нужна помощь в устранении неполадок в синхронизации каталогов, см. в статье Исправление проблем с синхронизацией каталогов для [статьи Microsoft 365.](fix-problems-with-directory-synchronization.md) 
+# <a name="turn-off-directory-synchronization-for-microsoft-365"></a>Отключите синхронизацию каталогов для Microsoft 365
+С помощью PowerShell можно отключить синхронизацию каталогов и преобразовать синхронизированных пользователей в облачные. Однако не рекомендуется отключить синхронизацию каталогов в качестве шага по устранению неполадок. Если вам нужна помощь в устранении неполадок в синхронизации каталогов, см. в статье Исправление проблем с [синхронизацией](fix-problems-with-directory-synchronization.md) каталогов для Microsoft 365 статьи. 
   
 [При необходимости обратитесь](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) в службу поддержки бизнес-продуктов.
   
 ## <a name="turn-off-directory-synchronization"></a>Отключение синхронизации службы каталогов  
 Чтобы отключить синхронизацию каталогов:
   
-1. Сначала установите необходимое программное обеспечение и подключите его к подписке Microsoft 365. Инструкции см. в [ссылке Connect с модулем Microsoft Azure Active Directory для](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)Windows PowerShell.
+1. Сначала установите необходимое программное обеспечение и подключите его к Microsoft 365 подписке. Инструкции см. [в Подключение с модулем Microsoft Azure Active Directory для Windows PowerShell.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
     
 2. Чтобы отключить синхронизацию каталогов, используйте [Set-MsolDirSyncEnabled:](/previous-versions/azure/dn194097(v=azure.100)) 
     

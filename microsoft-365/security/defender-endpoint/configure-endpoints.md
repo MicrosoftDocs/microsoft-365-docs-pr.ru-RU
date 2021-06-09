@@ -1,7 +1,7 @@
 ---
 title: Средства и методы подключения для устройств с Windows 10
-description: Onboard Windows 10 devices so that they can send sensor data to the Microsoft Defender for Endpoint sensor
-keywords: Onboard Windows 10 devices, group policy, endpoint configuration manager, mobile device management, local script, GP, sccm, mdm, intune
+description: На Windows 10 устройствах, чтобы они могли отправлять данные датчика в датчик Microsoft Defender для конечной точки
+keywords: Onboard Windows 10, групповой политики, диспетчер конфигурации конечной точки, управление мобильными устройствами, локальный скрипт, GP, sccm, mdm, intune
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -30,8 +30,8 @@ ms.locfileid: "51892833"
 **Область применения:**
 - [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
-- [Предотвращение потери данных конечной точки Microsoft 365 (DLP)](/microsoft-365/compliance/endpoint-dlp-learn-about)
-- [Управление рисками для инсайдеров Microsoft 365](/microsoft-365/compliance/insider-risk-management)
+- [Microsoft 365 Предотвращение потери конечных данных (DLP)](/microsoft-365/compliance/endpoint-dlp-learn-about)
+- [Microsoft 365 Управление рисками изнутри](/microsoft-365/compliance/insider-risk-management)
 
 >Хотите испытать Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
@@ -47,8 +47,8 @@ ms.locfileid: "51892833"
 ## <a name="in-this-section"></a>В этом разделе
 Статья | Описание
 :---|:---
-[На борту устройств Windows 10 с использованием групповой политики](configure-endpoints-gp.md) | Используйте групповую политику для развертывания пакета конфигурации на устройствах.
-[На борту устройств Windows с помощью Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md) | Для развертывания пакета конфигурации на устройствах можно использовать версию 1606 Microsoft Endpoint Manager (текущая ветвь) или Microsoft Endpoint Manager (текущая ветвь).
+[Onboard Windows 10 с помощью групповой политики](configure-endpoints-gp.md) | Используйте групповую политику для развертывания пакета конфигурации на устройствах.
+[На борту Windows устройства с Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md) | Для развертывания пакета конфигурации на устройствах можно использовать версию Microsoft Endpoint Manager версии 1606 или Microsoft Endpoint Manager версии 1602 (текущая ветвь).
 [Подключение устройств Windows 10 с помощью средств управления мобильными устройствами](configure-endpoints-mdm.md) | Используйте средства управления мобильными устройствами или Microsoft Intune для развертывания пакета конфигурации на устройстве.
 [Подключение устройств Windows 10 с помощью локального сценария](configure-endpoints-script.md) | Узнайте, как использовать локальный скрипт для развертывания пакета конфигурации на конечных точках.
 [Подключение временных устройств инфраструктуры виртуальных рабочих столов (VDI)](configure-endpoints-vdi.md) | Узнайте, как использовать пакет конфигурации для настройки устройств VDI.
