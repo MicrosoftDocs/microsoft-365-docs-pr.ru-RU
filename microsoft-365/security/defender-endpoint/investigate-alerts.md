@@ -19,12 +19,12 @@ ms.collection:
 ms.topic: article
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: 8b3b864e716957c24893d2097249440b0a90f10a
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 626be9e949170fcda1f0bcf2a88e1b9780bbe764
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186105"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841094"
 ---
 # <a name="investigate-alerts-in-microsoft-defender-for-endpoint"></a>Исследование оповещений в Microsoft Defender для конечной точки
 
@@ -40,7 +40,7 @@ ms.locfileid: "51186105"
 
 Выберите оповещение из очереди оповещений, чтобы перейти на страницу оповещения. В этом представлении содержится название оповещения, затронутые активы, боковые области сведений и история оповещений.
 
-На странице оповещение начните расследование с выбора затронутых активов или любых сущностями в представлении дерева истории оповещения. Области данных автоматически заполняются дополнительными сведениями о выбранном. Чтобы узнать, какие сведения можно просмотреть здесь, ознакомьтесь с оповещениями [Review в Microsoft Defender для конечной точки.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/review-alerts)
+На странице оповещение начните расследование с выбора затронутых активов или любых сущностями в представлении дерева истории оповещения. Области данных автоматически заполняются дополнительными сведениями о выбранном. Чтобы узнать, какие сведения можно просмотреть здесь, ознакомьтесь с оповещениями [Review в Microsoft Defender для конечной точки.](/microsoft-365/security/defender-endpoint/review-alerts)
 
 ## <a name="investigate-using-the-alert-story"></a>Исследование с помощью истории оповещений
 

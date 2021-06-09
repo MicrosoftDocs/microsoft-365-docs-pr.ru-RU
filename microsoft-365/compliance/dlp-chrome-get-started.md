@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Подготовьтесь к использованию расширения соответствия требованиям Майкрософт и разверните его.
-ms.openlocfilehash: 084d8fea1bffb012b4a4685dd28ec93df8e29b19
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: 5a2fa5958117d14715292245924dce2ff63b09a0
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730514"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843834"
 ---
 # <a name="get-started-with-microsoft-compliance-extension"></a>Начало работы с расширением соответствия требованиям Майкрософт
 
@@ -55,7 +55,7 @@ ms.locfileid: "52730514"
 - Защита информации и управление данными в Microsoft 365 E5
 - Защита информации и управление данными в Microsoft 365 A5
 
-Подробные инструкции по лицензированию см. в статье [Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection).
+Подробные инструкции по лицензированию см. в статье [Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection).
 
 - У вашей организации должна быть лицензия на защиту от потери данных в конечной точке.
 - Ваши устройства должны работать под управлением 64-разрядной версии Windows 10 сборки 1809 или более поздней.
@@ -169,7 +169,7 @@ ms.locfileid: "52730514"
 
 Если вы не хотите использовать Microsoft Endpoint Manager, можно применить групповые политики для развертывания расширения соответствия требованиям Майкрософт в организации
 
-1. Ваши устройства должны быть управляемыми с помощью групповой политики, и необходимо импортировать все ADMX Chrome в центральное хранилище групповой политики. Дополнительные сведения см. в статье [Как создать центральное хранилище для административных шаблонов групповой политики в Windows и управлять им](https://docs.microsoft.com/troubleshoot/windows-client/group-policy/create-and-manage-central-store).
+1. Ваши устройства должны быть управляемыми с помощью групповой политики, и необходимо импортировать все ADMX Chrome в центральное хранилище групповой политики. Дополнительные сведения см. в статье [Как создать центральное хранилище для административных шаблонов групповой политики в Windows и управлять им](/troubleshoot/windows-client/group-policy/create-and-manage-central-store).
 
 2.  Создайте сценарий PowerShell с помощью команды PowerShell:
 
@@ -276,8 +276,8 @@ ms.locfileid: "52730514"
 - [Сведения о защите от потери данных](dlp-learn-about-dlp.md)
 - [Создание, тестирование и настройка политики защиты от потери данных](create-test-tune-dlp-policy.md)
 - [Начало работы с обозревателем действий](data-classification-activity-explorer.md)
-- [Microsoft Defender для конечной точки](https://docs.microsoft.com/windows/security/threat-protection/)
-- [Средства и методы подключения для компьютеров с Windows 10](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)
+- [Microsoft Defender для конечной точки](/windows/security/threat-protection/)
+- [Средства и методы подключения для компьютеров с Windows 10](/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)
 - [Подписка на Microsoft 365](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1)
-- [Устройства, подключенные к Azure AD](https://docs.microsoft.com/azure/active-directory/devices/concept-azure-ad-join)
+- [Устройства, подключенные к Azure AD](/azure/active-directory/devices/concept-azure-ad-join)
 - [Загрузка нового браузера Microsoft Edge на основе Chromium](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium)

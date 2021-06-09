@@ -23,12 +23,13 @@ search.appverid:
 - MET150
 - MOE150
 description: Узнайте, как купить новые Microsoft 365 для бизнес-лицензий.
-ms.openlocfilehash: c9077dbb4c653d162df97e7f7bda47d929eb67ce
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.date: 05/11/2021
+ms.openlocfilehash: 239d650bdb765875b60669a4d556f47bcd06dc92
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332214"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52821419"
 ---
 # <a name="buy-microsoft-365-licenses"></a>Покупка Microsoft 365 лицензий
 

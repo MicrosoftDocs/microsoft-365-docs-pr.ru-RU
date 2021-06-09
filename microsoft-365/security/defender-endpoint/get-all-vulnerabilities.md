@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: e9dd7e7d87e9343b0aae93e7ba47d89f9ed4bf41
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 4be87e296739020c80babb864c57bc803f10d3e0
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52769009"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843690"
 ---
 # <a name="list-vulnerabilities"></a>Список уязвимостей
 
@@ -46,7 +46,7 @@ ms.locfileid: "52769009"
 
 Тип разрешения |   Разрешение  |   Имя отображения разрешений
 :---|:---|:---
-Приложение |   Vulnerability.Read.All |    'Read Threat and Vulnerability Management vulnerability information'
+Для приложений |   Vulnerability.Read.All |    'Read Threat and Vulnerability Management vulnerability information'
 Делегированные (рабочая или учебная учетная запись) | Vulnerability.Read |   'Read Threat and Vulnerability Management vulnerability information'
 
 ## <a name="http-request"></a>HTTP-запрос
@@ -61,7 +61,7 @@ GET /api/vulnerabilities
 Authorization | String | Bearer {token}. **Обязательное поле**.
 
 
-## <a name="request-body"></a>Текст запроса
+## <a name="request-body"></a>Тело запроса
 переменная Empty
 
 ## <a name="response"></a>Отклик
@@ -109,5 +109,5 @@ GET https://api.securitycenter.microsoft.com/api/Vulnerabilities
 ```
 
 ## <a name="see-also"></a>См. также
-- [Управление рисками & уязвимостей](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
-- [Уязвимости в организации](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/tvm-weaknesses)
+- [Управление рисками & уязвимостей](/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
+- [Уязвимости в организации](/microsoft-365/security/defender-endpoint/tvm-weaknesses)

@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 71daccdbcb223ac48d80721bf0a296d9c1a7c98c
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: a7f343db64174fe3c48eaf8b584b03b53921edcb
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52770101"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843618"
 ---
 # <a name="list-exposure-score-by-device-group"></a>Оценка экспозиции списка по группе устройств
 
@@ -47,7 +47,7 @@ ms.locfileid: "52770101"
 
 Тип разрешения |   Разрешение  |   Имя отображения разрешений
 :---|:---|:---
-Приложение | Score.Read.All | 'Read Threat and Vulnerability Management score'
+Для приложений | Score.Read.All | 'Read Threat and Vulnerability Management score'
 Делегированные (рабочая или учебная учетная запись) | Score.Read | 'Read Threat and Vulnerability Management score'
 
 ## <a name="http-request"></a>HTTP-запрос
@@ -62,7 +62,7 @@ GET /api/exposureScore/ByMachineGroups
 |:--------------|:-------|:--------------|
 | Authorization | String | Bearer {token}. **Обязательно**.
 
-## <a name="request-body"></a>Текст запроса
+## <a name="request-body"></a>Тело запроса
 
 переменная Empty
 
@@ -104,7 +104,7 @@ GET https://api.securitycenter.microsoft.com/api/exposureScore/ByMachineGroups
 }
 ```
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
-- [Управление рисками & уязвимостей](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
-- [Оценка & уязвимости](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/tvm-exposure-score)
+- [Управление рисками & уязвимостей](/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
+- [Оценка & уязвимости](/microsoft-365/security/defender-endpoint/tvm-exposure-score)

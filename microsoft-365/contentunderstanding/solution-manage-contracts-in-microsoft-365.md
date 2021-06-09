@@ -8,17 +8,17 @@ audience: admin
 ms.topic: article
 ms.date: ''
 ms.prod: microsoft-365-enterprise
-ms.collection: m365solution-managecontracts
+ms.collection: m365solution-managecontracts m365solution-overview
 search.appverid: ''
 localization_priority: None
 ROBOTS: ''
 description: Узнайте, как управлять контрактами с Microsoft 365 решения SharePoint Syntex, SharePoint списков, Microsoft Teams и Power Automate.
-ms.openlocfilehash: d12ccd2d4bc777b05489556f0d96ce9de80954a8
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 352ebd1b9170aaf7829c414e87f7a79c4f17a1df
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52770821"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843774"
 ---
 # <a name="manage-contracts-using-a-microsoft-365-solution"></a>Управление контрактами с помощью решения Microsoft 365
 

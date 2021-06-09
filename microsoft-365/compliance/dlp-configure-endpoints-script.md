@@ -14,12 +14,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Чтобы развернуть пакет конфигурации на устройствах, чтобы они были на борту службы, используйте локальный скрипт.
-ms.openlocfilehash: e9efa76af72f9169bdec1acf35d72066ac0a776e
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: 55109d8fda52db6651d4398cd84ffd6668b4d871
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893310"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843450"
 ---
 # <a name="onboard-windows-10-devices-using-a-local-script"></a>Подключение устройств Windows 10 с помощью локального сценария
 
@@ -93,7 +93,7 @@ ms.locfileid: "51893310"
 
 
 ## <a name="monitor-device-configuration"></a>Мониторинг конфигурации устройства
-Вы можете следовать различным шагам проверки в [Устранение неполадок в бортовых проблемах](( для проверки успешного завершения скрипта и запуска https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding) агента.
+Вы можете следовать различным шагам проверки в [Устранение неполадок в бортовых проблемах]((/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding), чтобы убедиться, что сценарий выполнен успешно и агент запущен.
 
 Мониторинг также можно сделать непосредственно на портале или с помощью различных средств развертывания.
 

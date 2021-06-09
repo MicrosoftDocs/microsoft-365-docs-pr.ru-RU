@@ -1,5 +1,5 @@
 ---
-title: Создание индикаторов для IPs и URL-адресов/доменов
+title: Создание индикаторов для протоколов IP и URL-адресов или доменов
 ms.reviewer: ''
 description: Создание индикаторов для IPs и URL-адресов/доменов, определяющих обнаружение, предотвращение и исключение сущностями.
 keywords: IP, URL-адрес, домен, управление, разрешено, заблокировано, блокируется, блокируется, очищается, вредоносный, файл, IP-адрес, URL-адреса, домен
@@ -17,14 +17,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: d468a77d2c1ab4f1b363e2e91b6e8507a5390d93
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: e7dc11fe709a6d04b6309706df90f0ebbc177e25
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51198487"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841070"
 ---
-# <a name="create-indicators-for-ips-and-urlsdomains"></a>Создание индикаторов для IPs и URL-адресов/доменов 
+# <a name="create-indicators-for-ips-and-urlsdomains"></a>Создание индикаторов для протоколов IP и URL-адресов или доменов 
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -38,7 +38,7 @@ ms.locfileid: "51198487"
 > Хотите испытать Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/en-us/WindowsForBusiness/windows-atp?ocid=docs-wdatp-automationexclusionlist-abovefoldlink)
 
 
-Защитник для конечной точки может блокировать то, что Корпорация Майкрософт считает вредоносными IPs/URL-адресами, с помощью Защитник Windows SmartScreen для браузеров Майкрософт и с помощью сетевой защиты для браузеров или вызовов, не влиянных на microsoft.
+Защитник для конечной точки может блокировать вредоносные IPs/URL-адреса Майкрософт с помощью Защитник Windows SmartScreen для браузеров Майкрософт, а также с помощью сетевой защиты для браузеров или вызовов, не влиянных на microsoft.
 
 Набор данных разведки угроз для этого управляется корпорацией Майкрософт.
 
@@ -51,14 +51,14 @@ ms.locfileid: "51198487"
 Важно понимать следующие предпосылки перед созданием показателей для IPS, URL-адресов или доменов:
 - URL-адрес и IP-адрес позволяют и блокируют защиту сетевого компонента Defender для конечной точки, которая будет включена в режиме блокировки. Дополнительные сведения о инструкциях по защите сети и конфигурации см. в инструкции [enable network protection.](enable-network-protection.md)
 - Клиентская версия antimalware должна быть 4.18.1906.x или более поздней версии. 
-- Поддерживается на машинах в Windows 10 версии 1709 или более поздней версии. 
-- **Убедитесь, что настраиваемые** сетевые индикаторы включены в центре безопасности **Microsoft Defender > параметры > расширенных функций.** Дополнительные сведения см. в [дополнительных сведениях.](advanced-features.md)
-- Для поддержки индикаторов на iOS см. в [руб. Настройка настраиваемых индикаторов.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/ios-configure-features#configure-custom-indicators)
+- Поддерживается на машинах Windows 10 версии 1709 или более поздней версии. 
+- **Убедитесь, что настраиваемые** сетевые индикаторы включены **в Центр безопасности в Microsoft Defender > Параметры > расширенных функций.** Дополнительные сведения см. в [дополнительных сведениях.](advanced-features.md)
+- Для поддержки индикаторов на iOS см. в [руб. Настройка настраиваемых индикаторов.](/microsoft-365/security/defender-endpoint/ios-configure-features#configure-custom-indicators)
 
 
 > [!IMPORTANT]
 > В список индикаторов могут быть добавлены только внешние ИП. Индикаторы не могут быть созданы для внутренних ИП.
-> Для сценариев веб-защиты рекомендуется использовать встроенные возможности в Microsoft Edge. Microsoft Edge использует [network Protection](network-protection.md) для проверки сетевого трафика и позволяет блоки для TCP, HTTP и HTTPS (TLS). Если существуют противоречивые политики индикатора URL-адресов, применяется более длительный путь. Например, политика индикатора URL-адресов имеет приоритет над `https:\\support.microsoft.com/en-us/office` политикой индикатора `https:\\support.microsoft.com` URL.
+> Для сценариев веб-защиты рекомендуется использовать встроенные возможности в Microsoft Edge. Microsoft Edge network [Protection](network-protection.md) для проверки сетевого трафика и позволяет блоки для TCP, HTTP и HTTPS (TLS). Если существуют противоречивые политики индикатора URL-адресов, применяется более длительный путь. Например, политика индикатора URL-адресов имеет приоритет над `https:\\support.microsoft.com/en-us/office` политикой индикатора `https:\\support.microsoft.com` URL.
 
 > [!NOTE]
 > Для всех остальных процессов сценарии веб-защиты используют network Protection для проверки и обеспечения соблюдения: 

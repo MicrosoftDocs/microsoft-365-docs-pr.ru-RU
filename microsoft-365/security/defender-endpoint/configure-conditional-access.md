@@ -1,6 +1,6 @@
 ---
 title: Настройка условного доступа в Microsoft Defender для конечной точки
-description: Узнайте о действиях, которые необходимо выполнить в Intune, Microsoft Defender Security Center и Azure для реализации условного доступа
+description: Узнайте о действиях, которые необходимо выполнить в Intune, Центр безопасности в Microsoft Defender и Azure для реализации условного доступа
 keywords: условный доступ, условный, доступ, риск устройства, уровень риска, интеграция, интеграция intune
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: e68a8c35fb1028fa8e60cf52a8e8bb411a534b19
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: ceb69d59dc5208c0908e33d0880d9352562ec140
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903782"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843978"
 ---
 # <a name="configure-conditional-access-in-microsoft-defender-for-endpoint"></a>Настройка условного доступа в Microsoft Defender для конечной точки
 
@@ -35,7 +35,7 @@ ms.locfileid: "51903782"
 
 В этом разделе вы сможете выполнить все необходимые действия для правильной реализации условного доступа.
 
-### <a name="before-you-begin"></a>Подготовка к работе
+### <a name="before-you-begin"></a>Прежде чем начать
 >[!WARNING]
 >Важно отметить, что зарегистрированные устройства Azure AD не поддерживаются в этом сценарии.</br>
 >Поддерживаются только зарегистрированные устройства Intune.
@@ -44,49 +44,49 @@ ms.locfileid: "51903782"
 Необходимо убедиться, что все устройства зарегистрированы в Intune. Для регистрации устройств в Intune можно использовать любой из следующих вариантов:
 
 
-- ИТ-администратор. Дополнительные сведения о том, как включить автоматическую регистрацию, см. в [записи Windows](https://docs.microsoft.com/intune/windows-enroll#enable-windows-10-automatic-enrollment)
-- Конечный пользователь. Дополнительные сведения о регистрации устройства Windows 10 в Intune см. в записи устройства [Windows 10 в Intune.](https://docs.microsoft.com/intune/quickstart-enroll-windows-device)
-- Альтернатива для конечных пользователей. Дополнительные сведения о присоединении к домену Azure AD см. в примере [How to: Plan your Azure AD join implementation.](https://docs.microsoft.com/azure/active-directory/devices/azureadjoin-plan)
+- Дополнительные сведения о том, как включить автоматическую регистрацию, см. в Windows [Регистрации](/intune/windows-enroll#enable-windows-10-automatic-enrollment)
+- Конечный пользователь. Дополнительные сведения о регистрации Windows 10 устройства в Intune см. в Windows 10 [устройстве Intune.](/intune/quickstart-enroll-windows-device)
+- Альтернатива для конечных пользователей. Дополнительные сведения о присоединении к домену Azure AD см. в примере [How to: Plan your Azure AD join implementation.](/azure/active-directory/devices/azureadjoin-plan)
 
 
 
-Необходимо предпринять действия в Центре безопасности Защитника Майкрософт, портале Intune и портале Azure AD.
+Необходимо предпринять действия в Центр безопасности в Microsoft Defender, портале Intune и портале Azure AD.
 
 Важно отметить необходимые роли для доступа к этим порталам и реализации условного доступа:
-- **Центр безопасности Защитника** Майкрософт . Для включаемой интеграции необходимо войти на портал с ролью глобального администратора.
+- **Центр безопасности в Microsoft Defender** — чтобы включить интеграцию, необходимо войти на портал с ролью глобального администратора.
 - **Intune** . Необходимо войти на портал с правами администратора безопасности с разрешениями управления. 
 - **Портал Azure AD** . Вам потребуется войти в качестве глобального администратора, администратора безопасности или администратора условного доступа.
 
 
 > [!NOTE]
-> Вам понадобится среда Microsoft Intune с управляемым управлением Intune и устройствами Azure AD с Windows 10.
+> Вам понадобится среда Microsoft Intune с управляемым управлением Intune и к устройствам Azure AD Windows 10.
 
 Чтобы включить условный доступ, необходимо предпринять следующие действия:
-- Шаг 1. Включи подключение Microsoft Intune из Центра безопасности Защитника Майкрософт
+- Шаг 1. Включим подключение Microsoft Intune из Центр безопасности в Microsoft Defender
 - Шаг 2. Включение интеграции Defender для конечных точек в Intune
 - Шаг 3. Создание политики соответствия требованиям в Intune
 - Шаг 4. Назначение политики 
 - Шаг 5. Создание политики условного доступа Azure AD
 
 
-### <a name="step-1-turn-on-the-microsoft-intune-connection"></a>Шаг 1. Включив подключение Microsoft Intune
-1. В области навигации выберите **параметры**  >  **Расширенные возможности**  >  **подключения Microsoft Intune.**
-2. Перенастройка параметра Microsoft Intune **для On**.
+### <a name="step-1-turn-on-the-microsoft-intune-connection"></a>Шаг 1. Включим подключение Microsoft Intune
+1. В области навигации выберите **Параметры**  >  **расширенные** функции Microsoft Intune  >  **подключения.**
+2. Настройка Microsoft Intune **параметра On**.
 3. Нажмите **кнопку Сохранить предпочтения**.
 
 
 ### <a name="step-2-turn-on-the-defender-for-endpoint-integration-in-intune"></a>Шаг 2. Включение интеграции Defender для конечных точек в Intune
 1. Войдите на [портал Azure](https://portal.azure.com).
-2. Выберите **соответствие требованиям** устройства Microsoft Defender  >  **ATP**.
-3. Установите **подключение устройств Windows 10.0.15063+** к расширенным средствам защиты от угроз Microsoft Defender. 
-4. Нажмите кнопку **Сохранить**.
+2. Выберите **соответствие требованиям**  >  **ATP в Защитнике Microsoft.**
+3. Установите **Подключение Windows 10.0.15063+** для Расширенная защита от угроз в Microsoft Defender **on**.
+4. Щелкните **Сохранить**.
 
 
 ### <a name="step-3-create-the-compliance-policy-in-intune"></a>Шаг 3. Создание политики соответствия требованиям в Intune
-1. На [портале Azure](https://portal.azure.com)выберите **все службы,** фильтруем **на Intune** и выберите **Microsoft Intune.**
+1. На [портале Azure](https://portal.azure.com)выберите **все службы,** фильтруем **intune** и выберите **Microsoft Intune**.
 2. Выбор **политик соответствия требованиям** к  >    >  **устройству Создание политики**.
 3. Введите **имя** и **описание**.
-4. В **Платформе** выберите **Windows 10 и более поздние версии.**
+4. В **Платформе** выберите **Windows 10 и более поздний .**
 5. В **параметрах "Здоровье** устройства" установите **параметр Require the device to be at or under the Device Threat Level** to your preferred level:
 
    - **Обеспечено.** Этот уровень является наиболее безопасным. Устройство не может иметь существующих угроз и по-прежнему получать доступ к ресурсам компании. Если найдены какие-либо угрозы, устройство оценивается как некомплиентное.
@@ -97,16 +97,16 @@ ms.locfileid: "51903782"
 6. Выберите **ОК** и **создайте** для сохранения изменений (и создания политики).
 
 ### <a name="step-4-assign-the-policy"></a>Шаг 4. Назначение политики
-1. На [портале Azure](https://portal.azure.com)выберите **все службы,** фильтруем **на Intune** и выберите **Microsoft Intune.**
+1. На [портале Azure](https://portal.azure.com)выберите **все службы,** фильтруем **intune** и выберите **Microsoft Intune**.
 2. Выберите **политики соответствия** требованиям> microsoft Defender для политики соответствия требованиям  >   конечных точек.
 3. Выберите **Назначения**.
 4. Включите или исключите группы Azure AD, чтобы назначить им политику.
 5. Чтобы развернуть политику в группы, выберите **Сохранить**. Пользовательские устройства, на которые ориентирована политика, оцениваются на соответствие требованиям.
 
 ### <a name="step-5-create-an-azure-ad-conditional-access-policy"></a>Шаг 5. Создание политики условного доступа Azure AD
-1. На [портале Azure](https://portal.azure.com)откройте политику условного доступа **Azure Active Directory**  >    >  **.**
+1. На [портале Azure](https://portal.azure.com)откройте **Azure Active Directory**  >  **условного**  >  **доступа.**
 2. Введите имя **политики** и выберите **пользователей и группы.** Используйте параметры Включить или Исключить, чтобы добавить группы для политики и выбрать **Готово.**
-3. Выберите **облачные приложения** и выберите, какие приложения защищать. Например, выберите **Выберите приложения** и выберите Office **365 SharePoint Online** и Office **365 Exchange Online.** Нажмите **Готово**, чтобы сохранить изменения.
+3. Выберите **облачные приложения** и выберите, какие приложения защищать. Например, выберите **Выберите приложения** и выберите Office 365 SharePoint **Online** **и Office 365 Exchange Online.** Нажмите **Готово**, чтобы сохранить изменения.
 
 4. Выберите **приложения Conditions** Client  >  **для** применения политики к приложениям и браузерам. Например, выберите **Да,** а затем включить **браузер и** **мобильные приложения и настольные клиенты.** Нажмите **Готово**, чтобы сохранить изменения.
 
@@ -114,6 +114,6 @@ ms.locfileid: "51903782"
 
 6. Выберите **политику Включить,** а **затем создайте для** сохранения изменений.
 
-Дополнительные сведения см. в [сайте Enforce compliance for Microsoft Defender for Endpoint with Conditional Access intune.](https://docs.microsoft.com/intune/advanced-threat-protection)
+Дополнительные сведения см. в [сайте Enforce compliance for Microsoft Defender for Endpoint with Conditional Access intune.](/intune/advanced-threat-protection)
 
 >Хотите испытать Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-conditionalaccess-belowfoldlink)

@@ -24,20 +24,19 @@ search.appverid:
 - MET150
 - MOE150
 description: Блокирование входа в систему бывшего сотрудника и блокировка доступа к Microsoft 365 службам.
-ms.openlocfilehash: 84852e9bccb1d4370db07492baf7ccaed7f6db3d
-ms.sourcegitcommit: 4bcac4cb4f9399ebbd7c8cff0abb4d6ecedb731e
+ms.openlocfilehash: cdba6dcaf239e94cf33f3bf88e7f217b4793bfd6
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "52698908"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52840854"
 ---
 # <a name="step-1---prevent-a-former-employee-from-logging-in-and-block-access-to-microsoft-365-services"></a>Шаг 1 — запретить бывшему сотруднику войти в систему и заблокировать доступ к Microsoft 365 службам
 
 Если необходимо немедленно предотвратить вход пользователя, необходимо сбросить пароль. На этом шаге вынудить пользователя выйти из него Microsoft 365.
 
 > [!NOTE]
-> Чтобы инициировать регистрацию для других администраторов, необходимо быть глобальным администратором. Для выполнения этого действия можно использовать администратора пользователя или пользователя-администратора helpdesk.
-> Дополнительные информацию о ролях администратора <a href="https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles">о ролях администратора</a>
+> Чтобы инициировать регистрацию для других администраторов, необходимо быть глобальным администратором. Для выполнения этого действия можно использовать администратора пользователя или пользователя-администратора helpdesk. [Дополнительные информацию о ролях администратора](about-admin-roles.md)
 
 1. В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Активные пользователи</a>.
 2. Выберите поле рядом с именем пользователя, а затем выберите **пароль Reset**.

@@ -1,7 +1,7 @@
 ---
 title: Убедитесь, что ваши устройства настроены правильно
 description: Правильно настраивайте устройства, чтобы повысить общую устойчивость к угрозам и повысить возможности обнаружения и реагирования на атаки.
-keywords: onboard, Управление Intune, Microsoft Defender для endpoint, Microsoft Defender, Защитник Windows, уменьшение поверхности атаки, ASR, базовый уровень безопасности
+keywords: на борту, управление Intune, Microsoft Defender для конечной точки, Microsoft Defender, Защитник Windows, уменьшение поверхности атаки, ASR, базовый уровень безопасности
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 3fd58ee17b2cb86c0bcc858b9b0fd57c12ac501e
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: dccc623bfa6c3f5e8fe4d88ccfafd66d3e53482a
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932815"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52840902"
 ---
 # <a name="ensure-your-devices-are-configured-properly"></a>Убедитесь, что ваши устройства настроены правильно
 
@@ -54,15 +54,15 @@ ms.locfileid: "51932815"
 
 ## <a name="enroll-devices-to-intune-management"></a>Регистрация устройств в управление Intune
 
-Управление конфигурацией устройств тесно сотрудничает с управлением устройствами Intune для создания инвентаризации устройств в организации и базовой конфигурации безопасности. Вы сможете отслеживать и управлять вопросами конфигурации на устройствах Windows 10 с управлением Intune.
+Управление конфигурацией устройств тесно сотрудничает с управлением устройствами Intune для создания инвентаризации устройств в организации и базовой конфигурации безопасности. Вы сможете отслеживать и управлять вопросами конфигурации на устройствах с управлением intune Windows 10.
 
-Прежде чем обеспечить правильную настройку устройств, зарегистрировать их в управление Intune. Регистрация intune является надежной и имеет несколько параметров регистрации для устройств с Windows 10. Дополнительные сведения о параметрах регистрации Intune см. в материале о настройке [регистрации для устройств Windows.](https://docs.microsoft.com/intune/windows-enroll)
+Прежде чем обеспечить правильную настройку устройств, зарегистрировать их в управление Intune. Регистрация intune является надежной и имеет несколько параметров регистрации для Windows 10 устройств. Дополнительные сведения о параметрах регистрации Intune см. в материале о настройке регистрации для [Windows устройств.](/intune/windows-enroll)
 
 >[!NOTE]
->Для регистрации устройств Windows в Intune администраторам должны быть назначены лицензии. [Узнайте о назначении лицензий для регистрации устройств.](https://docs.microsoft.com/intune/licenses-assign)
+>Для регистрации Windows устройств в Intune администраторам должны быть назначены лицензии. [Узнайте о назначении лицензий для регистрации устройств.](/intune/licenses-assign)
 
 >[!TIP] 
->Чтобы оптимизировать управление устройствами через Intune, [подключите Intune к Защитнику для конечной точки.](https://docs.microsoft.com/intune/advanced-threat-protection#enable-windows-defender-atp-in-intune)
+>Чтобы оптимизировать управление устройствами через Intune, [подключите Intune к Защитнику для конечной точки.](/intune/advanced-threat-protection#enable-windows-defender-atp-in-intune)
 
 ## <a name="obtain-required-permissions"></a>Получение необходимых разрешений
 По умолчанию управлять профилями конфигурации устройств, необходимыми для бортовых устройств и развертывания базовой базы безопасности, могут только пользователи, которым назначена роль глобального администратора или администратора службы Intune в Azure AD.
@@ -78,13 +78,13 @@ ms.locfileid: "51932815"
 *Разрешения конфигурации устройств в Intune*
 
 >[!TIP] 
->Дополнительные новости о назначении разрешений в Intune см. в материале [о создании настраиваемой роли.](https://docs.microsoft.com/intune/create-custom-role#to-create-a-custom-role)
+>Дополнительные новости о назначении разрешений в Intune см. в материале [о создании настраиваемой роли.](/intune/create-custom-role#to-create-a-custom-role)
 
 ## <a name="in-this-section"></a>В этом разделе
 Статья | Описание
 :---|:---
 [Получить устройства на борту в Defender для конечной точки](configure-machines-onboarding.md)| Отслеживание состояния onboarding устройств, управляемых intune, и дополнительных устройств на борту через Intune. 
 [Повышение соответствия базовому стандарту безопасности Defender для конечной точки](configure-machines-security-baseline.md) | Отслеживание базового соответствия и несоответствия. Развертывание базовой базы безопасности на более управляемых intune устройствах.
-[Оптимизация развертывания и обнаружений правил сокращения направлений атак](configure-machines-asr.md) | Просмотрите развертывание правил и настройка обнаружения с помощью средств анализа воздействия в центре безопасности Microsoft 365.
+[Оптимизация развертывания и обнаружений правил сокращения направлений атак](configure-machines-asr.md) | Просмотрите развертывание правил и настройка обнаружения с помощью средств анализа воздействия в Microsoft 365 центре безопасности.
 
 >Хотите испытать Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-onboardconfigure-belowfoldlink)

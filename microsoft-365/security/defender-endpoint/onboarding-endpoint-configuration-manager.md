@@ -1,6 +1,6 @@
 ---
 title: Подключение с помощью Microsoft Endpoint Configuration Manager
-description: Узнайте, как учиться в Microsoft Defender для конечной точки с помощью Microsoft Endpoint Configuration Manager
+description: Узнайте, как в Microsoft Defender для конечной точки использовать Microsoft Endpoint Configuration Manager
 keywords: onboarding, configuration, deploy, deployment, endpoint configuration manager, Microsoft Defender for Endpoint, collection creation, endpoint detection response, next generation protection, attack surface reduction, Microsoft endpoint configuration manager
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -18,12 +18,12 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 84273ce3e060eb86ee246a5cc6a8cae3cba743b5
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: eab23ddeb9011e80cf2835b8d38b2d3fad4b7089
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934493"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843510"
 ---
 # <a name="onboarding-using-microsoft-endpoint-configuration-manager"></a>Подключение с помощью Microsoft Endpoint Configuration Manager
 
@@ -49,73 +49,73 @@ ms.locfileid: "51934493"
 
 
 В этом разделе данная тема направляет пользователей в:
-- Шаг 1. Привнося устройства Windows в службу 
+- Шаг 1: Windows устройств в службу 
 - Шаг 2. Настройка функций Defender для конечных точек
 
-В этом руководстве по бортовой настройке вы сможете пройти следующие основные действия, которые необходимо предпринять при использовании Microsoft Endpoint Configuration Manager:
+Это руководство по введению поможет вам пройти следующие основные действия, которые необходимо предпринять при использовании Microsoft Endpoint Configuration Manager:
 - **Создание коллекции в Microsoft Endpoint Configuration Manager**
 - **Настройка возможностей Microsoft Defender для конечных точек с помощью Microsoft Endpoint Configuration Manager**
 
 >[!NOTE]
->В этом примере развертывание охватывается только устройствами Windows. 
+>В этом примере Windows только устройства. 
 
 
 
-## <a name="step-1-onboard-windows-devices-using-microsoft-endpoint-configuration-manager"></a>Шаг 1. На борту устройств Windows с помощью Microsoft Endpoint Configuration Manager
+## <a name="step-1-onboard-windows-devices-using-microsoft-endpoint-configuration-manager"></a>Шаг 1. Бортовые Windows устройства с Microsoft Endpoint Configuration Manager
 
 ### <a name="collection-creation"></a>Создание коллекции
-На бортовых устройствах Windows 10 с помощью Microsoft Endpoint Configuration Manager развертывание может быть ориентировано на существующую коллекцию, а для тестирования может быть создана новая коллекция. 
+Для Windows 10 устройств с Microsoft Endpoint Configuration Manager развертывание может быть ориентировано на существующую коллекцию или может быть создана новая коллекция для тестирования. 
 
 При использовании таких средств, как групповой политики или ручного метода, в системе не устанавливается агент. 
 
-В консоли Microsoft Endpoint Configuration Manager процесс вставки будет настроен как часть параметров соответствия требованиям в консоли.
+В консоли Microsoft Endpoint Configuration Manager процесс вставки будет настраиваться как часть параметров соответствия требованиям в консоли.
 
 Любая система, которая получает эту необходимую конфигурацию, будет поддерживать эту конфигурацию до тех пор, пока клиент Configuration Manager продолжает получать эту политику из точки управления. 
 
-Следуйте ниже шагам к конечным точкам на борту с помощью Microsoft Endpoint Configuration Manager.
+Следуйте ниже шагам к конечным точкам на борту с Microsoft Endpoint Configuration Manager.
 
-1. В консоли Microsoft Endpoint Configuration Manager перейдите к **коллекциям устройств Assets и \> Compliance Overview Device \> Collections.**            
+1. В Microsoft Endpoint Configuration Manager консоли перейдите к **коллекциям устройств Assets и \> Compliance Overview Device \> Collections.**            
 
-    ![Изображение мастера конфигурации конечных точек Майкрософт1](images/configmgr-device-collections.png)
+    ![Изображение мастера Microsoft Endpoint Configuration Manager 1](images/configmgr-device-collections.png)
 
 2. Щелкните **правой кнопкой мыши коллекцию устройств** и выберите Создать **коллекцию устройств.**
 
-    ![Изображение мастера конфигурации конечных точек Майкрософт2](images/configmgr-create-device-collection.png)
+    ![Изображение мастера Microsoft Endpoint Configuration Manager 2](images/configmgr-create-device-collection.png)
 
 3. Предоставление имени **и** **ограничение коллекции**, а затем выберите **Далее**.
 
-    ![Изображение мастера конфигурации конечных точек Майкрософт3](images/configmgr-limiting-collection.png)
+    ![Изображение Microsoft Endpoint Configuration Manager wizard3](images/configmgr-limiting-collection.png)
 
 4. Выберите **правило Добавить** и выберите правило **запроса**.
 
-    ![Изображение мастера конфигурации конечных точек Майкрософт4](images/configmgr-query-rule.png)
+    ![Изображение мастера Microsoft Endpoint Configuration Manager 4](images/configmgr-query-rule.png)
 
 5.  Нажмите **кнопку Далее** по **мастеру прямого членства** и нажмите кнопку **Изменить заявление запроса**.
 
-     ![Изображение мастера конфигурации конечных точек Майкрософт5](images/configmgr-direct-membership.png)
+     ![Изображение Microsoft Endpoint Configuration Manager wizard5](images/configmgr-direct-membership.png)
 
 6. Выберите **Критерии** и выберите значок звезды.
 
-     ![Изображение мастера конфигурации конечных точек Майкрософт6](images/configmgr-criteria.png)
+     ![Изображение Microsoft Endpoint Configuration Manager wizard6](images/configmgr-criteria.png)
 
 7. Сохраняйте тип критерия как простое **значение,**  выберите, где в качестве операционной системы **—** номер сборки, оператор больше или равен и значение **14393** и нажмите кнопку **ОК**.
 
-    ![Изображение мастера конфигурации конечных точек Майкрософт7](images/configmgr-simple-value.png)
+    ![Изображение Microsoft Endpoint Configuration Manager wizard7](images/configmgr-simple-value.png)
 
 8. Выберите **Далее** и **закрой**.
 
-    ![Изображение мастера конфигурации конечных точек Майкрософт8](images/configmgr-membership-rules.png)
+    ![Изображение Microsoft Endpoint Configuration Manager wizard8](images/configmgr-membership-rules.png)
 
 9. Нажмите кнопку **Далее**.
 
-    ![Изображение мастера конфигурации конечных точек Майкрософт9](images/configmgr-confirm.png)
+    ![Изображение мастера Microsoft Endpoint Configuration Manager 9](images/configmgr-confirm.png)
 
 
 После выполнения этой задачи у вас теперь есть коллекция устройств со всеми конечными точками Windows 10 в среде. 
 
 
 ## <a name="step-2-configure-microsoft-defender-for-endpoint-capabilities"></a>Шаг 2. Настройка microsoft Defender для возможностей конечных точек 
-В этом разделе приводится руководство по настройке следующих возможностей с помощью Microsoft Endpoint Configuration Manager на устройствах Windows:
+В этом разделе приводится руководство по настройке следующих возможностей с помощью Microsoft Endpoint Configuration Manager на Windows устройствах:
 
 - [**Обнаружение и устранение угроз на конечных точках**](#endpoint-detection-and-response)
 - [**Защита нового поколения**](#next-generation-protection)
@@ -123,10 +123,10 @@ ms.locfileid: "51934493"
 
 
 ### <a name="endpoint-detection-and-response"></a>Обнаружение и устранение угроз на конечных точках
-#### <a name="windows-10"></a>Windows 10
-В центре безопасности Microsoft Defender можно скачать политику ".onboarding", которая может быть использована для создания политики в system Center Configuration Manager и развертывания этой политики на устройствах Windows 10.
+#### <a name="windows-10"></a>Windows 10
+Из Центр безопасности в Microsoft Defender можно скачать политику ".onboarding", которую можно использовать для создания политики в System Center Configuration Manager и развернуть эту политику для Windows 10 устройств.
 
-1. На портале Центра безопасности Защитника Майкрософт выберите [параметры и затем входящего](https://securitycenter.windows.com/preferences2/onboarding)в него.
+1. На портале Центр безопасности в Microsoft Defender выберите [Параметры, а затем на борту.](https://securitycenter.windows.com/preferences2/onboarding)
 
 
 
@@ -139,22 +139,22 @@ ms.locfileid: "51934493"
     ![Изображение мастера бортовой точки Microsoft Defender для конечной точки11](images/mdatp-download-package.png)
 
 4. Сохраните пакет в доступном расположении.
-5. В Microsoft Endpoint Configuration Manager перейдите к: Assets and Compliance > Обзор > защиты конечных точек > **политики ATP защитника Майкрософт**.
+5. В Microsoft Endpoint Configuration Manager перейдите к: **Assets and Compliance > Обзор > Endpoint Protection > ATP в Защитнике Microsoft политики**.
 
-6. Щелкните правой **кнопкой мыши политики ATP Защитника Майкрософт** и выберите **Создать политику ATP защитника Майкрософт**.
+6. Щелкните **правой кнопкой мыши ATP в Защитнике Microsoft политики** и выберите **Create ATP в Защитнике Microsoft Policy**.
 
-    ![Изображение мастера конфигурации конечной точки Майкрософт12](images/configmgr-create-policy.png)
+    ![Изображение мастера Microsoft Endpoint Configuration Manager 12](images/configmgr-create-policy.png)
 
 7. Введите имя и описание, убедитесь, что выбрана **onboarding,** а затем выберите **Далее**.
 
-    ![Изображение мастера конфигурации конечных точек Майкрософт13](images/configmgr-policy-name.png)
+    ![Изображение Microsoft Endpoint Configuration Manager wizard13](images/configmgr-policy-name.png)
 
 
 8. Нажмите кнопку **Обзор**.
 
 9. Перейдите к расположению скачаного файла на шаге 4 выше.
 
-10. Нажмите кнопку **Далее**.
+10. Нажмите **Далее**.
 11. Настройка агента с соответствующими примерами **(None** or **All file types).**
 
     ![Изображение параметров конфигурации1](images/configmgr-config-settings.png)
@@ -169,7 +169,7 @@ ms.locfileid: "51934493"
 
 15. Нажмите **кнопку Закрыть,** когда мастер завершится.
 
-16.  В консоли Microsoft Endpoint Configuration Manager щелкните правой кнопкой мыши политику Defender для конечных точек, созданную только что, и выберите **Развертывание.**
+16.  В консоли Microsoft Endpoint Configuration Manager нажмите правой кнопкой мыши политику Defender для конечных точек, созданную только что, и выберите **Развертывание.**
 
      ![Изображение параметров конфигурации4](images/configmgr-deploy.png)
 
@@ -178,25 +178,25 @@ ms.locfileid: "51934493"
     ![Изображение параметров конфигурации5](images/configmgr-select-collection.png)
 
 
-#### <a name="previous-versions-of-windows-client-windows-7-and-windows-81"></a>Предыдущие версии Windows Client (Windows 7 и Windows 8.1)
-Следуйте ниже шагам, чтобы определить ИД защитника для конечного рабочего пространства и ключ рабочего пространства, которые потребуются для вовсю предыдущих версий Windows.
+#### <a name="previous-versions-of-windows-client-windows-7-and-windows-81"></a>Предыдущие версии Windows (Windows 7 и Windows 8.1)
+Следуйте ниже шагам, чтобы определить ID и ключ рабочего пространства Defender для конечного пространства, которые потребуются для вовсю предыдущих версий Windows.
 
-1. На портале Центра безопасности Защитника Майкрософт выберите параметры > **onboarding.**
+1. На портале Центр безопасности в Microsoft Defender выберите Параметры > **onboarding**.
 
-2. В операционной системе выберите **Windows 7 SP1 и 8.1**.
+2. В операционной системе **выберите Windows 7 SP1 и 8.1**.
 
 3. **Скопируйте ID рабочего пространства и** **клавишу Рабочей области и** сохраните их. Они будут использоваться позже в процессе.
 
     ![Изображение бортового](images/91b738e4b97c4272fd6d438d8c2d5269.png)
 
-4. Установка агента мониторинга Майкрософт (MMA). <br>
-    MMA в настоящее время (по данным на январь 2019 г.) поддерживается в следующих операционных системах Windows:
+4. Установка Microsoft Monitoring Agent (MMA). <br>
+    MMA в настоящее время (по данным на январь 2019 г.) поддерживается в следующих Windows операционных системах:
 
-    -   Сервер skUs: Windows Server 2008 SP1 или Newer
+    -   Сервер SKUs: Windows Server 2008 SP1 или Newer
 
-    -   Клиентские skUs: Windows 7 SP1 и более поздние версии
+    -   Клиентские СКУ: Windows 7 SP1 и более поздний
 
-    Агент MMA должен быть установлен на устройствах Windows. Чтобы установить агента, некоторым системам [](https://support.microsoft.com/help/3080149/update-for-customer-experience-and-diagnostic-telemetry) необходимо скачать обновление для работы с клиентами и диагностическую телеметрию для сбора данных с помощью MMA. Эти системные версии включают, но не могут ограничиваться:
+    Агент MMA должен быть установлен на Windows устройствах. Чтобы установить агента, некоторым системам [](https://support.microsoft.com/help/3080149/update-for-customer-experience-and-diagnostic-telemetry) необходимо скачать обновление для работы с клиентами и диагностическую телеметрию для сбора данных с помощью MMA. Эти системные версии включают, но не могут ограничиваться:
 
     -   Windows 8.1
 
@@ -212,7 +212,7 @@ ms.locfileid: "51934493"
 
     -   Установка [KB4074598](https://support.microsoft.com/help/4074598/windows-7-update-kb4074598)
 
-    -   Установка платформа .NET Framework [4.5](https://www.microsoft.com/download/details.aspx?id=30653) (или более **поздней)** или 
+    -   Установите платформа .NET Framework [4.5](https://www.microsoft.com/download/details.aspx?id=30653) (или более **поздней)** или 
          [KB3154518](https://support.microsoft.com/help/3154518/support-for-tls-system-default-versions-included-in-the-net-framework).
         Не устанавливайте обе системы в одной и той же системе.
 
@@ -223,7 +223,7 @@ ms.locfileid: "51934493"
 ### <a name="next-generation-protection"></a>Защита нового поколения 
 Антивирусная программа в Microsoft Defender — это встроенное антивредоносное решение, которое предоставляет защиту нового поколения для настольных компьютеров, портативных компьютеров и серверов.
 
-1. В консоли Microsoft Endpoint Configuration Manager перейдите к службам защиты от конечной точки и обзору соответствия требованиям, а также выберите **Политику создания антимарактерной политики.** **\> \> \>**
+1. В консоли Microsoft Endpoint Configuration Manager перейдите к обзору активов и соответствия требованиям Endpoint Protection **\> \> \> антивирусных** политик и выберите Создать политику по борьбе с **антивирусами.**
 
     ![Изображение политики противомалярийных программ](images/9736e0358e86bc778ce1bd4c516adb8b.png)
 
@@ -234,9 +234,9 @@ ms.locfileid: "51934493"
     В определенных отраслях или некоторых отдельных корпоративных клиентах могут возникнуть определенные потребности в настройке антивируса.
 
   
-    [Быстрое сканирование по сравнению с полным сканированием и пользовательским сканированием](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/scheduled-catch-up-scans-microsoft-defender-antivirus#quick-scan-versus-full-scan-and-custom-scan)
+    [Быстрое сканирование по сравнению с полным сканированием и пользовательским сканированием](/windows/security/threat-protection/microsoft-defender-antivirus/scheduled-catch-up-scans-microsoft-defender-antivirus#quick-scan-versus-full-scan-and-custom-scan)
 
-    Дополнительные сведения см. в [материале Windows Security configuration framework](https://docs.microsoft.com/windows/security/threat-protection/windows-security-configuration-framework/windows-security-configuration-framework)
+    Дополнительные сведения см. [в Безопасность Windows конфигурации](/windows/security/threat-protection/windows-security-configuration-framework/windows-security-configuration-framework)
   
     ![Изображение области защиты следующего поколения2](images/cd7daeb392ad5a36f2d3a15d650f1e96.png)
 
@@ -258,22 +258,22 @@ ms.locfileid: "51934493"
 
     ![Изображение области защиты следующего поколения10](images/f5508317cd8c7870627cb4726acd5f3d.png)
 
-4. Найдите новую политику противомалярийных программ в вашей коллекции Windows 10 и нажмите **кнопку ОК.**
+4. Найдите новую политику противомалярийных программ для Windows 10 и нажмите **кнопку ОК.**
 
      ![Изображение области защиты следующего поколения11](images/configmgr-select-collection.png)
 
-После выполнения этой задачи вы успешно настроили Защитник Windows антивируса.
+После выполнения этой задачи вы успешно настроили антивирусная программа .
 
 ### <a name="attack-surface-reduction"></a>Сокращение направлений атак
 Столб сокращения поверхности атаки Defender для конечной точки включает набор функций, доступный в статье Exploit Guard. Правила уменьшения поверхности атаки, управляемый доступ к папкам, защита сети и защита от эксплойтов. 
 
-Все эти функции обеспечивают режим аудита и режим блокировки. В режиме аудита не влияет на конечных пользователей. Все, что он делает, это собирает дополнительную телеметрию и делает ее доступной в Центре безопасности Защитника Майкрософт. Цель развертывания — пошаговые перемещения элементов управления безопасностью в режим блокировки.
+Все эти функции обеспечивают режим аудита и режим блокировки. В режиме аудита не влияет на конечных пользователей. Все, что он делает, это собирает дополнительную телеметрию и делает ее доступной в Центр безопасности в Microsoft Defender. Цель развертывания — пошаговые перемещения элементов управления безопасностью в режим блокировки.
 
 Чтобы установить правила ASR в режиме аудита:
 
-1. В консоли Microsoft Endpoint Configuration Manager перейдите в службу защиты конечных точек и обзор соответствия требованиям Защитник Windows **\> Exploit Guard \> \> и** выберите Политику защиты от **эксплуатации.**
+1. В консоли Microsoft Endpoint Configuration Manager перейдите к обзору активов и соответствия требованиям Endpoint Protection **\> Защитник Windows Exploit \> \> Guard** и выберите Политику защиты от **эксплойтов**.
 
-   ![Изображение консоли Microsoft Endpoint Configuration Manager0](images/728c10ef26042bbdbcd270b6343f1a8a.png)
+   ![Изображение Microsoft Endpoint Configuration Manager console0](images/728c10ef26042bbdbcd270b6343f1a8a.png)
 
 2.  Выберите **уменьшение поверхности атаки.**
    
@@ -281,27 +281,27 @@ ms.locfileid: "51934493"
 3. Установите правила **аудита и** нажмите **кнопку Далее**.
 
 
-    ![Изображение консоли Microsoft Endpoint Configuration Manager1](images/d18e40c9e60aecf1f9a93065cb7567bd.png)
+    ![Изображение консоли Microsoft Endpoint Configuration Manager 1](images/d18e40c9e60aecf1f9a93065cb7567bd.png)
 
 4. Подтвердит новую политику Exploit Guard, нажав кнопку **Далее**.
 
-    ![Изображение консоли Microsoft Endpoint Configuration Manager2](images/0a6536f2c4024c08709cac8fcf800060.png)
+    ![Изображение консоли Microsoft Endpoint Configuration Manager 2](images/0a6536f2c4024c08709cac8fcf800060.png)
 
     
 5. После создания политики нажмите кнопку **Закрыть**.
 
-    ![Изображение консоли Microsoft Endpoint Configuration Manager3](images/95d23a07c2c8bc79176788f28cef7557.png)
+    ![Изображение консоли Microsoft Endpoint Configuration Manager 3](images/95d23a07c2c8bc79176788f28cef7557.png)
 
-    ![Изображение консоли Microsoft Endpoint Manager1](images/95d23a07c2c8bc79176788f28cef7557.png)
+    ![Изображение консоли Microsoft Endpoint Manager 1](images/95d23a07c2c8bc79176788f28cef7557.png)
    
 
 6.  Щелкните правой кнопкой мыши по вновь созданной политике и выберите **Развертывание.**
     
-    ![Изображение консоли Microsoft Endpoint Configuration Manager4](images/8999dd697e3b495c04eb911f8b68a1ef.png)
+    ![Изображение Microsoft Endpoint Configuration Manager console4](images/8999dd697e3b495c04eb911f8b68a1ef.png)
 
-7. Нацелить политику на недавно созданную коллекцию Windows 10 и нажмите **кнопку ОК.**
+7. Нацелить политику на недавно созданную коллекцию Windows 10 и нажмите **кнопку ОК**.
 
-    ![Изображение консоли Microsoft Endpoint Configuration Manager5](images/0ccfe3e803be4b56c668b220b51da7f7.png)
+    ![Изображение консоли Microsoft Endpoint Configuration Manager 5](images/0ccfe3e803be4b56c668b220b51da7f7.png)
 
 После выполнения этой задачи вы успешно настроили правила ASR в режиме аудита.  
   
@@ -324,19 +324,19 @@ ms.locfileid: "51934493"
 
     ![Снимок экрана отчетов о снижении поверхности атаки2](images/24bfb16ed561cbb468bd8ce51130ca9d.png)
 
-Дополнительные сведения см. в материале Оптимизируйте развертывание и обнаружение правил [ASR.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-machines-asr)  
+Дополнительные сведения см. в материале Оптимизируйте развертывание и обнаружение правил [ASR.](/microsoft-365/security/defender-endpoint/configure-machines-asr)  
 
 
 #### <a name="set-network-protection-rules-in-audit-mode"></a>Установите правила защиты сети в режиме аудита:
-1. В консоли Microsoft Endpoint Configuration Manager перейдите в службу защиты конечных точек и обзор соответствия требованиям Защитник Windows **\> Exploit Guard \> \> и** выберите Политику защиты от **эксплуатации.**
+1. В консоли Microsoft Endpoint Configuration Manager перейдите к обзору активов и соответствия требованиям Endpoint Protection **\> Защитник Windows Exploit \> \> Guard** и выберите Политику защиты от **эксплойтов**.
 
-    ![A screenshot System Center Configuration Manager1](images/728c10ef26042bbdbcd270b6343f1a8a.png)
+    ![Снимок экрана System Center Configuration Manager1](images/728c10ef26042bbdbcd270b6343f1a8a.png)
 
 2. Выберите **защиту сети.**
 
 3. Установите параметр Аудит **и нажмите** кнопку **Далее**. 
 
-    ![Скриншот System Center Confirugatiom Manager2](images/c039b2e05dba1ade6fb4512456380c9f.png)
+    ![Снимок экрана System Center Confirugatiom Manager2](images/c039b2e05dba1ade6fb4512456380c9f.png)
 
 4. Подтвердит новую политику защиты эксплойтов, нажав **кнопку Далее**.
     
@@ -350,7 +350,7 @@ ms.locfileid: "51934493"
 
     ![Снимок экрана Microsoft Endpoint Configuration Manager1](images/8999dd697e3b495c04eb911f8b68a1ef.png)
 
-7. Выберите политику в недавно созданной коллекции Windows 10 и выберите **ОК.**
+7. Выберите политику в недавно созданной Windows 10 и выберите **ОК.**
 
     ![Снимок экрана Microsoft Endpoint Configuration Manager2](images/0ccfe3e803be4b56c668b220b51da7f7.png)
 
@@ -360,7 +360,7 @@ ms.locfileid: "51934493"
 
 #### <a name="to-set-controlled-folder-access-rules-in-audit-mode"></a>Настройка правил доступа к управляемым папкам в режиме аудита:
 
-1. В консоли Microsoft Endpoint Configuration Manager перейдите в службу защиты конечных точек и обзор соответствия требованиям Защитник Windows **\> Exploit Guard \> \> и** выберите Политику защиты от **эксплуатации.**
+1. В консоли Microsoft Endpoint Configuration Manager перейдите к обзору активов и соответствия требованиям Endpoint Protection **\> Защитник Windows Exploit \> \> Guard** и выберите Политику защиты от **эксплойтов**.
 
     ![Снимок экрана Microsoft Endpoint Configuration Manager3](images/728c10ef26042bbdbcd270b6343f1a8a.png)
 
@@ -382,7 +382,7 @@ ms.locfileid: "51934493"
 
     ![Снимок экрана Microsoft Endpoint Configuration Manager7](images/8999dd697e3b495c04eb911f8b68a1ef.png)
 
-7.  Нацелить политику на недавно созданную коллекцию Windows 10 и нажмите **кнопку ОК.**
+7.  Нацелить политику на недавно созданную коллекцию Windows 10 и нажмите **кнопку ОК**.
 
     ![Снимок экрана Microsoft Endpoint Configuration Manager8](images/0ccfe3e803be4b56c668b220b51da7f7.png)
 

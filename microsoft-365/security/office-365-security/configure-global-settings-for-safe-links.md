@@ -18,12 +18,12 @@ ms.collection:
 description: Администраторы могут узнать, как просматривать и настраивать глобальные параметры (список "Блокировка следующих URL-адресов" и защита для Office 365 приложений) для Сейф ссылок в Microsoft Defender для Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 623b1bcd670f42c7c6b49c06cacfa31cb8adfd49
-ms.sourcegitcommit: f3d1009840513703c38bab99a6e13a3656eae5ee
+ms.openlocfilehash: 4e77373657d3167ca8f5bafa544923ab3a2320ce
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52792996"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52821989"
 ---
 # <a name="configure-global-settings-for-safe-links-in-microsoft-defender-for-office-365"></a>Настройка глобальных параметров для Сейф ссылок в Microsoft Defender для Office 365
 
@@ -47,11 +47,11 @@ ms.locfileid: "52792996"
 
 Можно настроить параметры глобальных Сейф ссылок в центре безопасности Microsoft 365 или в PowerShell (Exchange Online PowerShell для подходящих Microsoft 365 организаций с почтовыми ящиками в Exchange Online; автономные EOP PowerShell для организаций без Exchange Online почтовых ящиков, но с Microsoft Defender для Office 365 надстройки).
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
 - Политика встроенных или Сейф ссылок по умолчанию не существует, поэтому для активной блокировки следующего  списка URL-адресов необходимо создать по крайней мере одну политику Сейф links. Инструкции см. в Сейф ссылки в [Microsoft Defender для Office 365.](set-up-safe-links-policies.md)
 
-- Открытие Центра безопасности производится в <https://security.microsoft.com/>. Чтобы перейти непосредственно **на страницу Сейф ссылки,** используйте <https://security.microsoft.com/safelinksv2> .
+- Открытие Центра безопасности производится в <https://security.microsoft.com>. Чтобы перейти непосредственно **на страницу Сейф ссылки,** используйте <https://security.microsoft.com/safelinksv2> .
 
 - Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell). Чтобы подключиться к автономному EOP PowerShell, см. раздел [Подключение к PowerShell Exchange Online Protection](/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
@@ -82,7 +82,7 @@ ms.locfileid: "52792996"
 
 3. Настройте одну или несколько записей, как описано в синтаксис Записи, для списка "Блокировать следующие [URL-адреса".](safe-links.md#entry-syntax-for-the-block-the-following-urls-list)
 
-   По завершении нажмите **Сохранить**.
+   Выполнив необходимые действия, нажмите кнопку **Сохранить**.
 
 ### <a name="configure-the-block-the-following-urls-list-in-powershell"></a>Настройка списка "Блокировка следующих URL-адресов" в PowerShell
 
@@ -131,7 +131,7 @@ ms.locfileid: "52792996"
 
    - Не позволяйте пользователям щелкнуть исходный **URL-адрес** в Office 365 приложениях: убедитесь, что перегной является правой кнопкой, чтобы пользователи не щелкнули исходный заблокированный URL-адрес в поддерживаемых Office 365 приложениях: ![ Toggle on ](../../media/scc-toggle-on.png) .
 
-   По завершении нажмите **Сохранить**.
+   Выполнив необходимые действия, нажмите кнопку **Сохранить**.
 
 ### <a name="configure-safe-links-protection-for-office-365-apps-in-powershell"></a>Настройка Сейф ссылок для Office 365 приложений в PowerShell
 

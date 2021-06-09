@@ -1,7 +1,7 @@
 ---
 title: Обзор Information Protection в Windows
 ms.reviewer: ''
-description: Сведения о том, как защита информации работает в Windows для идентификации и защиты конфиденциальной информации
+description: Сведения о том, как работает защита информации в Windows для идентификации и защиты конфиденциальной информации
 keywords: сведения, защита, dlp, данные, потери, предотвращение, защита
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 65c5161f110e95008f2dc56aa3a2d17266ac1cb1
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 9d68f879fe8fd9379b286c106ed9229895f91b9a
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933353"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841113"
 ---
 # <a name="information-protection-in-windows-overview"></a>Обзор Information Protection в Windows
 
@@ -37,16 +37,16 @@ ms.locfileid: "51933353"
 
 [!include[Prerelease information](../../includes/prerelease.md)]
 
-Защита информации является неотъемлемой частью пакета Microsoft 365 Enterprise, обеспечивая интеллектуальную защиту для обеспечения безопасности конфиденциальных данных, обеспечивая при этом производительность на рабочем месте.
+Защита информации является неотъемлемой частью Microsoft 365 корпоративный, обеспечивая интеллектуальную защиту для обеспечения безопасности конфиденциальных данных, обеспечивая при этом производительность на рабочем месте.
 
 
 >[!TIP]
-> Ознакомьтесь с нашим сообщением в блоге о том, как Microsoft Defender для конечной точки интегрируется с Microsoft Information Protection для обнаружения, защиты и мониторинга конфиденциальных данных [на устройствах Windows.](https://cloudblogs.microsoft.com/microsoftsecure/2019/01/17/windows-defender-atp-integrates-with-microsoft-information-protection-to-discover-protect-and-monitor-sensitive-data-on-windows-devices/)
+> Ознакомьтесь с нашим сообщением в блоге о том, как Microsoft Defender для конечной точки интегрируется с Microsoft Information Protection для обнаружения, защиты и мониторинга конфиденциальных данных на Windows [устройствах.](https://cloudblogs.microsoft.com/microsoftsecure/2019/01/17/windows-defender-atp-integrates-with-microsoft-information-protection-to-discover-protect-and-monitor-sensitive-data-on-windows-devices/)
 
 Defender for Endpoint применяет следующие методы обнаружения, классификации и защиты данных:
 
-- **Обнаружение данных** . Определение конфиденциальных данных на устройствах с Windows в опасности
-- **Классификация** данных — автоматически классифицировать данные на основе общих политик microsoft Information Protection (MIP), управляемых в Центре безопасности Office 365 & соответствия требованиям. Автоматическая классификация позволяет защищать конфиденциальные данные, даже если конечный пользователь не классифицировал их вручную.
+- **Обнаружение данных** . Определение конфиденциальных данных на Windows устройствах с риском
+- **Классификация** данных — автоматически классифицировать данные на основе общих политик microsoft Information Protection (MIP), управляемых в центре Office 365 безопасности & соответствия требованиям. Автоматическая классификация позволяет защищать конфиденциальные данные, даже если конечный пользователь не классифицировал их вручную.
 
 
 ## <a name="data-discovery-and-data-classification"></a>Обнаружение данных и классификация данных
@@ -55,14 +55,14 @@ Defender for Endpoint автоматически обнаруживает фай
 
 Метки конфиденциальности классифицируют и помогают защитить конфиденциальный контент.
 
-Типы конфиденциальной информации в реализации office 365 по предотвращению потери данных (DLP) подпадают под две категории:
+Типы конфиденциальной информации в реализации Office 365 защиты от потери данных (DLP) подпадают под две категории:
 
-- По умолчанию
+- Значение, используемое по умолчанию
 - Пользовательские
 
-Типы конфиденциальной информации по умолчанию включают такие сведения, как номера банковских счетов, номера социального страхования или национальные ID. Дополнительные сведения см. [в дополнительных сведениях о том, как выглядит тип конфиденциальной информации.](https://docs.microsoft.com/office365/securitycompliance/what-the-sensitive-information-types-look-for)
+Типы конфиденциальной информации по умолчанию включают такие сведения, как номера банковских счетов, номера социального страхования или национальные ID. Дополнительные сведения см. [в дополнительных сведениях о том, как выглядит тип конфиденциальной информации.](/office365/securitycompliance/what-the-sensitive-information-types-look-for)
 
-Настраиваемые типы — это те типы, которые вы определяете и предназначено для защиты конфиденциальной информации другого типа (например, номеров сотрудников или номеров проектов). Дополнительные сведения см. [введите настраиваемый тип конфиденциальной информации.](https://docs.microsoft.com/office365/securitycompliance/create-a-custom-sensitive-information-type)
+Настраиваемые типы — это те типы, которые вы определяете и предназначено для защиты конфиденциальной информации другого типа (например, номеров сотрудников или номеров проектов). Дополнительные сведения см. [введите настраиваемый тип конфиденциальной информации.](/office365/securitycompliance/create-a-custom-sensitive-information-type)
 
 Когда файл создается или редактируется на устройстве Windows, Defender for Endpoint сканирует содержимое, чтобы оценить, содержится ли в нем конфиденциальную информацию.
 
@@ -87,9 +87,9 @@ Defender for Endpoint автоматически обнаруживает фай
 
 ## <a name="log-analytics"></a>Аналитика журналов
 
-Обнаружение данных на основе Defender для конечной точки также доступно в [Azure Log Analytics,](https://docs.microsoft.com/azure/log-analytics/log-analytics-overview)где можно выполнять сложные запросы по необработанных данных.
+Обнаружение данных на основе Defender для конечной точки также доступно в [Azure Log Analytics,](/azure/log-analytics/log-analytics-overview)где можно выполнять сложные запросы по необработанных данных.
 
-Дополнительные сведения об аналитике azure Information Protection см. в центре [отчетов для Azure Information Protection.](https://docs.microsoft.com/azure/information-protection/reports-aip)
+Дополнительные сведения об аналитике azure Information Protection см. в центре [отчетов для Azure Information Protection.](/azure/information-protection/reports-aip)
 
 Откройте Azure Log Analytics на портале Azure и откройте строитель запросов (стандартный или классический).
 
@@ -103,8 +103,8 @@ InformationProtectionLogs_CL
 **Необходимые условия:**
 
 - Клиенты должны иметь подписку на Azure Information Protection.
-- Включение интеграции Azure information Protection в Центре безопасности Microsoft Defender:
-    - Перейдите **к параметрам** в Центре безопасности защитника Майкрософт, щелкните **расширенные параметры** под **общим .**
+- Включение интеграции Azure information Protection в Центр безопасности в Microsoft Defender:
+    - Перейдите **Параметры** в Центр безопасности в Microsoft Defender, нажмите кнопку **Расширенный** Параметры под **общим .**
 
 
 

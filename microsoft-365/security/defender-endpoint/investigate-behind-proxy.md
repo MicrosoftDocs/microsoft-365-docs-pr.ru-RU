@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 47be07759a72a080a3687ed3bb50cef9d0a959b7
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: 55c001781ff016d7a23dc5db286d454b39fac5de
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51904050"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841058"
 ---
 # <a name="investigate-connection-events-that-occur-behind-forward-proxies"></a>Исследование событий подключения, происходящих за прокси-серверами переадресации.
 
@@ -45,11 +45,11 @@ Defender for Endpoint поддерживает расширенный монит
 
 Защита сети можно контролировать с помощью следующих режимов:
 
-- **Блокировка** <br> Пользователям или приложениям будет заблокировано подключение к опасным доменам. Вы сможете увидеть это действие в Центре безопасности Защитника Майкрософт.
-- **Audit** <br> Пользователям или приложениям не будет заблокировано подключение к опасным доменам. Однако вы все равно увидите это действие в Центре безопасности Защитника Майкрософт.
+- **Блокировка** <br> Пользователям или приложениям будет заблокировано подключение к опасным доменам. Вы сможете увидеть это действие в Центр безопасности в Microsoft Defender.
+- **Audit** <br> Пользователям или приложениям не будет заблокировано подключение к опасным доменам. Однако вы все равно увидите это действие в Центр безопасности в Microsoft Defender.
 
 
-Если отключить защиту сети, пользователям или приложениям не будет заблокировано подключение к опасным доменам. Вы не увидите сетевой активности в Центре безопасности Microsoft Defender.
+Если отключить защиту сети, пользователям или приложениям не будет заблокировано подключение к опасным доменам. Вы не увидите никакой сетевой активности в Центр безопасности в Microsoft Defender.
 
 Если его не настроить, блокировка сети будет отключена по умолчанию.
 
@@ -93,5 +93,5 @@ DeviceNetworkEvents
 
 
 
-## <a name="related-topics"></a>Похожие темы
-- [Применение защиты сети с помощью GP - CSP политики](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-defender#defender-enablenetworkprotection)
+## <a name="related-topics"></a>Статьи по теме
+- [Применение защиты сети с помощью GP - CSP политики](/windows/client-management/mdm/policy-csp-defender#defender-enablenetworkprotection)

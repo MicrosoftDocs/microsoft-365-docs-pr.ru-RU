@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: c1e572910ad311daba18a8b0f5eeb546ffe36956
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: e64f17f2bedea89db1190e6c758c514f14fc3a68
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51929113"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843582"
 ---
 # <a name="investigate-devices-in-the-microsoft-defender-for-endpoint-devices-list"></a>Исследование устройств в списке Устройств конечных точек Microsoft Defender для конечных точек
 
@@ -39,7 +39,7 @@ ms.locfileid: "51929113"
 Изучите сведения о предупреждении, поднятом на определенном устройстве, чтобы определить другие действия или события, которые могут быть связаны с предупреждением или потенциальной областью нарушения.
 
 > [!NOTE]
-> В рамках процесса расследования или ответа можно собрать пакет исследований с устройства. Вот как: [сбор пакета исследований с устройств.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/respond-machine-alerts#collect-investigation-package-from-devices)
+> В рамках процесса расследования или ответа можно собрать пакет исследований с устройства. Вот как: [сбор пакета исследований с устройств.](/microsoft-365/security/defender-endpoint/respond-machine-alerts#collect-investigation-package-from-devices)
 
 Вы можете щелкнуть по затронутым устройствам всякий раз, когда увидите их на портале, чтобы открыть подробный отчет об этом устройстве. Затронутые устройства определены в следующих областях:
 
@@ -109,12 +109,12 @@ ms.locfileid: "51929113"
 Временная шкала также позволяет выборочно сверлить события, которые произошли в течение определенного периода времени. Можно просмотреть временную последовательность событий, произошедших на устройстве за выбранный период времени. Для дальнейшего управления представлением можно фильтровать группы событий или настраивать столбцы.
 
 >[!NOTE]
-> Чтобы отобразить события брандмауэра, необходимо включить политику аудита, см. в статью [Подключение платформы фильтрации аудита.](https://docs.microsoft.com/windows/security/threat-protection/auditing/audit-filtering-platform-connection)
+> Чтобы отобразить события брандмауэра, необходимо включить политику аудита, см. в статью [Подключение платформы фильтрации аудита.](/windows/security/threat-protection/auditing/audit-filtering-platform-connection)
 >Брандмауэр охватывает следующие события
 >
->- [5025](https://docs.microsoft.com/windows/security/threat-protection/auditing/event-5025) — остановлена служба брандмауэра
->- [5031](https://docs.microsoft.com/windows/security/threat-protection/auditing/event-5031) — приложение, заблокированное при приеме входящих подключений в сети
->- [5157](https://docs.microsoft.com/windows/security/threat-protection/auditing/event-5157) — заблокированное подключение
+>- [5025](/windows/security/threat-protection/auditing/event-5025) — остановлена служба брандмауэра
+>- [5031](/windows/security/threat-protection/auditing/event-5031) — приложение, заблокированное при приеме входящих подключений в сети
+>- [5157](/windows/security/threat-protection/auditing/event-5157) — заблокированное подключение
 
 ![Изображение временной шкалы устройства с событиями](images/timeline-device.png)
 
@@ -191,7 +191,7 @@ ms.locfileid: "51929113"
 
 ![Изображение карты оценки безопасности](images/security-assessments.png)
 
-## <a name="related-topics"></a>Похожие темы
+## <a name="related-topics"></a>Статьи по теме
 
 - [Просмотр и организация очереди оповещений Microsoft Defender для конечных точек](alerts-queue.md)
 - [Управление оповещениями Защитника Майкрософт для конечных точек](manage-alerts.md)

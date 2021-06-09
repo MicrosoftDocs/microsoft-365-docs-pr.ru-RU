@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Узнайте, как в центре администрирования Microsoft 365 список гостевых пользователей.
-ms.openlocfilehash: 7c0fbfb57c9710103d1b670eb09024501071d602
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: f7a337b3ce4eb659cb4269f516345d7a24168ecc
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52683395"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841046"
 ---
 # <a name="guest-users-in-microsoft-365-admin-center"></a>Гостевых пользователей Microsoft 365 центре администрирования
 
@@ -48,12 +48,12 @@ ms.locfileid: "52683395"
 
 ## <a name="steps-add-guests-in-azure-active-directory"></a>Действия: Добавление гостей в Azure Active Directory
 
-Чтобы добавить гостей в Azure Active Directory, см. [в добавлении гостевых пользователей.](https://docs.microsoft.com/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal)
+Чтобы добавить гостей в Azure Active Directory, см. [в добавлении гостевых пользователей.](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal)
 
 После добавления пользователя вы также можете назначить его группе или предоставить ему доступ к приложению в организации. После добавления пользователя на портал Azure AD этот пользователь также  будет указан на странице Гостевых пользователей в центре администрирования Microsoft 365 администратора.
 После того, как  пользователь будет добавлен в список гостевых пользователей, он может быть добавлен в [Группы](../create-groups/manage-guest-access-in-groups.md#add-guests-to-a-microsoft-365-group-from-the-admin-center) в центре администрирования Microsoft 365 администратора.
 
-См. [в этой ссылке добавление](https://docs.microsoft.com/azure/active-directory/b2b/tutorial-bulk-invite) гостей в основной объем, чтобы пригласить несколько гостей для совместной работы с организацией.
+См. [в этой ссылке добавление](/azure/active-directory/b2b/tutorial-bulk-invite) гостей в основной объем, чтобы пригласить несколько гостей для совместной работы с организацией.
 
 ## <a name="next-steps-remove-a-guest"></a>Дальнейшие действия: удаление гостя
 
@@ -62,9 +62,9 @@ ms.locfileid: "52683395"
 1. В центре администрирования Microsoft 365 расширяйте **пользователей** и выберите **гостевых пользователей.**
 1. На странице **Гостевых пользователей** выберите пользователя, который необходимо удалить, а затем **выберите Удалить пользователя.**
 
-Чтобы удалить пользователей на портале Azure AD, см. в этой ссылке [удаление гостевого пользователя и ресурсов.](https://docs.microsoft.com/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal#clean-up-resources)
+Чтобы удалить пользователей на портале Azure AD, см. в этой ссылке [удаление гостевого пользователя и ресурсов.](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal#clean-up-resources)
 
-## <a name="related-content"></a>Связанные материалы
+## <a name="related-content"></a>См. также:
 
 [гостевых пользователей в центре администрирования Microsoft 365](about-guest-users.md)
 

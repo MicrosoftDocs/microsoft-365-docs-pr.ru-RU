@@ -15,12 +15,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Microsoft Teams чатов и каналов поддерживает политики предотвращения потери данных (DLP).
-ms.openlocfilehash: 6467ae7fdfc9c8636bd306efde5cb89c100e5e6c
-ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
+ms.openlocfilehash: fa7e0967e24d8fa5e64b84fbccf54ff8cf45d1d6
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52782565"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843546"
 ---
 # <a name="data-loss-prevention-and-microsoft-teams"></a>Защита от потери данных и Microsoft Teams
 
@@ -46,7 +46,7 @@ Office 365 и Microsoft 365 E3 включают защиту DLP для SharePoi
 
 Поддержка защиты DLP в Teams чате требует E5.
 
-Дополнительные сведения о требованиях к лицензированию см. в статье [Рекомендации по лицензированию служб на уровне клиента Microsoft 365](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).
+Дополнительные сведения о требованиях к лицензированию см. в статье [Рекомендации по лицензированию служб на уровне клиента Microsoft 365](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).
 
 > [!IMPORTANT]
 > DLP применяется только к фактическим сообщениям в потоке чата или канала. Уведомления об активности, которые включают краткий предварительный просмотр сообщений и  отображаются на основе параметров уведомлений пользователя, не включаются в Teams DLP. Все конфиденциальные сведения, представленные в части сообщения, которое отображается в предварительном просмотре, будут видны в уведомлении даже после того, как политика DLP была применена и удалена конфиденциальную информацию самого сообщения.
@@ -138,7 +138,7 @@ Office 365 и Microsoft 365 E3 включают защиту DLP для SharePoi
     
 6. Затем нажмите кнопку **Далее**.
 
-7. Нажмите кнопку **Сохранить**.
+7. Щелкните **Сохранить**.
 
 Разрешить примерно один час, чтобы изменения работали через центр обработки данных и синхронизируются с учетной записью пользователя.
 <!-- again, why user accounts? -->
@@ -228,5 +228,5 @@ Office 365 и Microsoft 365 E3 включают защиту DLP для SharePoi
 
 ## <a name="related-articles"></a>Связанные статьи
 
-- [Создание, тестирование и настройка политики защиты от потери данных](create-test-tune-dlp-policy.md)
+- [Создание, тестирование и настройка политик защиты от потери данных](create-test-tune-dlp-policy.md)
 - [Отправка почтовых уведомлений и отображение подсказок для политик защиты от потери данных](use-notifications-and-policy-tips.md)

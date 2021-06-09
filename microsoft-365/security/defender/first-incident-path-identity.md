@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: c028289a58247075c33e85d6d6f3797b3ddad7b4
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 204530b8b4a87215053ddcb0434e40e45271da3d
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52297192"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841010"
 ---
 # <a name="example-of-an-identity-based-attack"></a>Пример атаки на основе удостоверений
 
@@ -44,7 +44,7 @@ Microsoft 365 Defender позволяет аналитикам фильтров�
 
 :::image type="content" source="../../media/first-incident-path-identity/first-incident-identity-mdi-filter.png" alt-text="Пример фильтрации источника обнаружения для Defender для identity":::
 
-Выбор оповещений о предполагаемой атаке **overpass-the-hash** отправляется на страницу в Microsoft Cloud App Security, которая отображает более подробные сведения. Вы всегда можете узнать больше об оповещении или атаке, выбрав дополнительные инструкции по этому типу оповещения, чтобы прочитать описание атаки, а также рекомендации по исправлению.  [](https://docs.microsoft.com/defender-for-identity/lateral-movement-alerts#suspected-overpass-the-hash-attack-kerberos-external-id-2002)
+Выбор оповещений о предполагаемой атаке **overpass-the-hash** отправляется на страницу в Microsoft Cloud App Security, которая отображает более подробные сведения. Вы всегда можете узнать больше об оповещении или атаке, выбрав дополнительные инструкции по этому типу оповещения, чтобы прочитать описание атаки, а также рекомендации по исправлению.  [](/defender-for-identity/lateral-movement-alerts#suspected-overpass-the-hash-attack-kerberos-external-id-2002)
  
 :::image type="content" source="../../media/first-incident-path-identity/first-incident-identity-alert-example.png" alt-text="Пример оповещений о предполагаемой атаке overpass-the-hash"::: 
 
@@ -87,7 +87,7 @@ IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com
 ```
 Аналитик может быстро искать ключевые слова, введя ключевое слово в панели поиска, чтобы отображать только события, созданные с помощью PowerShell. 
 
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Следующий этап
 
 См. [путь к расследованию фишинга.](first-incident-path-phishing.md)
 

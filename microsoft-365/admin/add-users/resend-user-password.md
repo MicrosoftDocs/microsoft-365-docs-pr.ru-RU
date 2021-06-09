@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9b838071-94aa-4b8e-8d84-d17ece1ee951
 description: Узнайте, как сбросить пароль и отправить сообщение электронной почты новому Microsoft 365 пользователю.
-ms.openlocfilehash: 17db9a61dc12c349f0aea032655b56c2a448653f
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 916ac2f92f8cd6a7236525c733d4b5061368b0ef
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244048"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52840866"
 ---
 # <a name="resend-a-users-password---admin-help"></a>Повторная отправка пароля пользователя. Справка для администраторов
 
@@ -33,7 +33,7 @@ ms.locfileid: "52244048"
 
 ## <a name="before-you-begin"></a>Прежде чем начать
 
-Эта статья адресована тем, кто устанавливает политику срока действия паролей в компании, учебном заведении или некоммерческой организации. Чтобы выполнить эти действия, вам нужно войти с помощью своей учетной записи администратора Microsoft 365. [Что такое учетная запись администратора?](https://docs.microsoft.com/microsoft-365/business-video/admin-center-overview)
+Эта статья адресована тем, кто устанавливает политику срока действия паролей в компании, учебном заведении или некоммерческой организации. Чтобы выполнить эти действия, вам нужно войти с помощью своей учетной записи администратора Microsoft 365. [Что такое учетная запись администратора?](/microsoft-365/business-video/admin-center-overview)
 
 Для выполнения этих [действий](about-admin-roles.md) необходимо быть глобальным администратором или администратором паролей.
 

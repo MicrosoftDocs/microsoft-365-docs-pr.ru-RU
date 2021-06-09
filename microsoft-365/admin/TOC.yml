@@ -1,4 +1,4 @@
-- name: "Справка по Центру администрирования Microsoft\_365"
+- name: Справка по Центру администрирования Microsoft 365
   href: index.yml
   items:
     - name: Начало работы
@@ -54,7 +54,7 @@
               href: ../business/manage-windows-devices.md
             - name: 'Доступ к ресурсам с устройства, присоединенного к Azure AD'
               href: ../business/access-resources.md
-    - name: "Обзор Центра администрирования Microsoft\_365"
+    - name: Обзор Центра администрирования Microsoft 365
       items:
         - name: Обзор Центра администрирования
           href: ../business-video/admin-center-overview.md
@@ -211,7 +211,7 @@
           href: get-help-with-domains/remove-a-domain.md
         - name: Перенос домена из Microsoft 365 на другой узел
           href: get-help-with-domains/transfer-a-domain-from-microsoft-to-another-host.md
-        - name: "Тестирование Microsoft\_365 с личного домена"
+        - name: Тестирование Microsoft 365 с личного домена
           href: misc/pilot-microsoft-365-from-my-custom-domain.md
         - name: Вопросы и ответы о доменах
           href: setup/domains-faq.yml
@@ -309,9 +309,9 @@
           href: security-and-compliance/set-up-multi-factor-authentication.md
         - name: Управление приоритетными учетными записями и их отслеживание
           href: setup/priority-accounts.md
-        - name: "Включение современной проверки подлинности для Office\_2013"
+        - name: Включение современной проверки подлинности для Office 2013
           href: security-and-compliance/enable-modern-authentication.md
-        - name: "Безопасность Microsoft\_365 бизнес премиум"
+        - name: Безопасность Microsoft 365 бизнес премиум
           items:
             - name: Предварительные требования для защиты данных
               href: ../business/pre-requisites-for-data-protection.md
@@ -326,7 +326,7 @@
             - name: Настройка функций обеспечения соответствия требованиям
               href: ../business/set-up-compliance.md
         - name: Оценка безопасности
-          href: 'https://docs.microsoft.com/microsoft-365/security/defender/microsoft-secure-score'
+          href: /microsoft-365/security/defender/microsoft-secure-score
         - name: Руководство по соответствию требованиям GDPR
           href: security-and-compliance/gdpr-compliance.md
     - name: Управление данными устройств и приложений
@@ -355,7 +355,7 @@
               items:
                 - name: Проверка параметров на устройствах с Android или iOS
                   href: ../business/validate-settings-on-android-or-ios.md
-            - name: "Правка или создание параметров защиты устройств для компьютеров с Windows\_10"
+            - name: Правка или создание параметров защиты устройств для компьютеров с Windows 10
               href: ../business/protection-settings-for-windows-10-pcs.md
               items:
                 - name: Проверка параметров на компьютерах с Windows 10
@@ -370,7 +370,7 @@
                   href: ../business/create-and-edit-autopilot-devices.md
                 - name: Параметры профилей AutoPilot
                   href: ../business/autopilot-profile-settings.md
-        - name: "Документация по Microsoft\_365 для предприятий"
+        - name: Документация по Microsoft 365 для предприятий
           href: ../enterprise/index.yml
         - name: Basic Mobility + Security
           items:

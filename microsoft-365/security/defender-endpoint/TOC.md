@@ -242,6 +242,8 @@
 
 ### [Сетевые устройства](network-devices.md)
 
+### [Отчеты брандмауэра узла в Microsoft Defender для конечной точки](host-firewall-reporting.md)
+
 ### [Сокращение направлений атак]()
 #### [Обзор сокращения направлений атак](overview-attack-surface-reduction.md)
 #### [Настройка возможностей сокращения направлений атак](configure-attack-surface-reduction.md)
@@ -278,6 +280,8 @@
 #### [Получите обновления антивирусной и антивредоносной программ](manage-updates-baselines-microsoft-defender-antivirus.md)
 ##### [Управление источниками обновлений антивирусной программы в Microsoft Defender](manage-protection-updates-microsoft-defender-antivirus.md)
 ##### [Управление расписанием загрузки и применения обновлений защиты](manage-protection-update-schedule-microsoft-defender-antivirus.md)
+#####  [Управление процессом постепенного выпуска обновлений Microsoft Defender](updates.md)
+#####  [Настройка процесса постепенного выпуска обновлений Microsoft Defender](configure-updates.md)
 ##### [Управление обновлениями и проверками устаревших конечных точек антивирусной программы в Microsoft Defender](manage-outdated-endpoints-microsoft-defender-antivirus.md)
 ##### [Управление принудительными обновлениями на основе событий](manage-event-based-updates-microsoft-defender-antivirus.md)
 ##### [Управление обновлениями для мобильных устройств и виртуальных машин (ВМ)](manage-updates-mobile-devices-vms-microsoft-defender-antivirus.md)
@@ -351,6 +355,7 @@
 ##### [Управление USB-устройствами](control-usb-devices-using-intune.md)
 ##### [Защита съемных носителей](device-control-removable-storage-protection.md)
 ##### [Управление доступом к съемным носителям](device-control-removable-storage-access-control.md)
+##### [Защита принтера для управления устройством](printer-protection.md)
 
 #### [Блокировка с учетом поведения и автономность]()
 ##### [Блокировка с учетом поведения и автономность](behavioral-blocking-containment.md)

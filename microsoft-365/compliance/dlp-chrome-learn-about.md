@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Расширение соответствия требованиям Майкрософт дополняет мониторинг и контроль операций с файлами и защитных действий в браузере Google Chrome
-ms.openlocfilehash: b8d9be88f42cce736cdbf66a97f4363106fa5820
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: cf7a3cd2e26f2e7d7a116e4a609f98aeea78be19
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730490"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843810"
 ---
 # <a name="learn-about-the-microsoft-compliance-extension"></a>Сведения о расширении соответствия требованиям Майкрософт
 
@@ -63,5 +63,5 @@ ms.locfileid: "52730490"
 - [Сведения о защите от потери данных](dlp-learn-about-dlp.md)
 - [Создание, тестирование и настройка политики защиты от потери данных](create-test-tune-dlp-policy.md)
 - [Начало работы с обозревателем действий](data-classification-activity-explorer.md)
-- [Microsoft Defender для конечной точки](https://docs.microsoft.com/windows/security/threat-protection/)
+- [Microsoft Defender для конечной точки](/windows/security/threat-protection/)
 - [Управление рисками в рамках программы предварительной оценки](insider-risk-management.md)

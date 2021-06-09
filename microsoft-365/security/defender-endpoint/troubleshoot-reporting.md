@@ -15,12 +15,12 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: ca62db922a13ab2cb3226eaf0efb92bfaf8c572b
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: ab987089c20d0a1d0baed152e7ddcfdd2878cc65
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274896"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843462"
 ---
 # <a name="troubleshoot-microsoft-defender-antivirus-reporting-in-update-compliance"></a>Устранение неполадок с отчетами антивирусной программы в Microsoft Defender в соответствии с требованиями обновлений
 
@@ -66,7 +66,7 @@ ms.locfileid: "52274896"
 > - Если конечная точка запущена Windows 10 версии 1607 или более ранней версии, Windows 10 диагностические данные должны быть задарены на [расширенном уровне.](/windows/configuration/configure-windows-diagnostic-data-in-your-organization#enhanced-level)
 > - Прошло 3 дня с тех пор, как все требования были выполнены
 
-"Вы можете использовать антивирусная программа в Microsoft Defender с обновлением соответствия требованиям. Вы увидите состояние лицензий E3, B, F1, VL и Pro. Однако для лицензий E5 необходимо использовать портал Microsoft Defender для конечных точек https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints) (. Дополнительные возможности лицензирования см. в Windows 10 параметры лицензирования продуктов"
+"Вы можете использовать антивирусная программа в Microsoft Defender с обновлением соответствия требованиям. Вы увидите состояние лицензий E3, B, F1, VL и Pro. Однако для лицензий E5 необходимо использовать портал Microsoft Defender для конечных точек (/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints). Дополнительные возможности лицензирования см. в Windows 10 параметры лицензирования продуктов"
 
 Если все вышеперечисленные условия выполнены, может потребоваться перейти к следующему шагу для сбора диагностических сведений и отправки их нам.
 
@@ -75,5 +75,5 @@ ms.locfileid: "52274896"
 
 ## <a name="related-topics"></a>Статьи по теме
 
-- [антивирусная программа в Microsoft Defender в Windows 10](microsoft-defender-antivirus-in-windows-10.md)
+- [Антивирусная программа в Microsoft Defender (Windows 10)](microsoft-defender-antivirus-in-windows-10.md)
 - [Развертывание антивирусная программа в Microsoft Defender](deploy-manage-report-microsoft-defender-antivirus.md)
