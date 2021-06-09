@@ -349,4 +349,4 @@
     - name: Microsoft Defender для конечной точки
       href: ../defender-endpoint/index.yml
     - name: Microsoft Defender для удостоверений
-      href: 'https://docs.microsoft.com/defender-for-identity/'
+      href: /defender-for-identity/
