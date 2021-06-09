@@ -43,7 +43,7 @@ ms.locfileid: "52705646"
 1. Теперь вы можете просмотреть календарь и календари для добавленных вами людей.
 1. Чтобы проверить доступность группы, выберите представление **Day.**
 
-## <a name="related-content"></a>Связанные материалы
+## <a name="related-content"></a>См. также:
 
 [Управление календарем и контактами в Outlook](https://support.microsoft.com/office/manage-your-calendar-and-contacts-in-outlook-631a182a-21e0-4e41-8fa2-0d83e55da02d) (статья)\
 [Совместная работа по](../admin/email/email-collaboration.md) электронной почте (статья)\

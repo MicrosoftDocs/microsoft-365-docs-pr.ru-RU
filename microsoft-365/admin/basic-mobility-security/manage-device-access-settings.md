@@ -17,7 +17,7 @@ ms.custom:
 - AdminSurgePortfolio
 search.appverid:
 - MET150
-description: Базовые функции мобильности и безопасности помогают защитить мобильные устройства и управлять ими.
+description: Базовая мобильность и безопасность могут помочь вам обеспечить безопасность и управление мобильными устройствами.
 ms.openlocfilehash: dd9d777798c2c96776a8f9b40a3c4dfe0b95702a
 ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
 ms.translationtype: MT
@@ -27,23 +27,23 @@ ms.locfileid: "49876952"
 ---
 # <a name="manage-device-access-settings-in-basic-mobility-and-security"></a>Управление настройками доступа к устройствам в Basic Mobility and Security
 
-Если вы используете Basic Mobility and Security, возможно, вы не сможете управлять устройствами с помощью Basic Mobility and Security. В этом случае следует заблокировать доступ Exchange ActiveSync к электронной почте Microsoft 365 для мобильных устройств, которые не поддерживаются basic Mobility and Security. Это помогает защитить информацию организации на других устройствах.
+Если вы используете basic Mobility и Security, могут быть устройства, с помощью которые вы не можете управлять с помощью Basic Mobility and Security. В этом случае необходимо Exchange ActiveSync доступ Microsoft 365 электронной почты для мобильных устройств, которые не поддерживаются базовой мобильностью и безопасностью. Это помогает обезопасить сведения организации на других устройствах.
 
 Используйте следующие действия:
 
-1. Во sign in to Microsoft 365 with your global admin account.
+1. Во входе Microsoft 365 с глобальной учетной записью администратора.
 
 2. В браузере введите:  [https://protection.office.com](https://protection.office.com/) .    
 
     >[!IMPORTANT]
-    >Если вы впервые используете Basic Mobility and Security для Microsoft 365 business Standard, активируйте его здесь: [Активация базовой безопасности и мобильности.](https://admin.microsoft.com/EAdmin/Device/IntuneInventory.aspx) После активации системы управляйте устройствами с помощью [office 365 Security & Compliance.](https://protection.office.com/)
+    >Если вы впервые используете базовую мобильность и безопасность для Microsoft 365 бизнес стандарт, активируйте его здесь: Активируйте базовую [безопасность и мобильность.](https://admin.microsoft.com/EAdmin/Device/IntuneInventory.aspx) После активации управления устройствами с помощью Office 365 [безопасности & соответствия](https://protection.office.com/)требованиям.
 
-3. Перейдите в >политики  **** устройств управления устройствами и выберите параметры управления доступом к устройствам для всей   >  **** **организации.**
+3. Перейдите к политике > **** устройств управления данными и выберите параметры доступа к устройствам для всей   >  **** **организации.**
 
 4. Выберите **блок**.
 
-    :::image type="content" source="../../media/basic-mobility-security/bms-5-block-access.png" alt-text="Контрольный элемент блокировки доступа Basic Mobility and Security":::
+    :::image type="content" source="../../media/basic-mobility-security/bms-5-block-access.png" alt-text="Блок-ящик доступа Basic Mobility и Security":::
 
-5. Выберите **"Сохранить"**
+5. Выберите **Сохранить**.
 
-Чтобы узнать, какие устройства поддерживаются в Basic Mobility and Security, см. ["Возможности базовой мобильности и безопасности".](capabilities.md)
+Чтобы узнать, какие устройства поддерживают базовую мобильность и безопасность, см. в руб. [Возможности базовой мобильности и безопасности.](capabilities.md)

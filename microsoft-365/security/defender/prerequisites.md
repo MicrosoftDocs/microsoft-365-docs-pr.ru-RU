@@ -86,7 +86,7 @@ ms.locfileid: "52689161"
 - ОАЭ 
 
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 - [Microsoft 365 Обзор defender](microsoft-365-defender.md)
 - [Включение Microsoft 365 Defender](m365d-enable.md)
 - [Управление доступом и разрешениями](m365d-permissions.md)

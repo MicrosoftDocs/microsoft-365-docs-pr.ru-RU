@@ -191,7 +191,7 @@ Get-DistributionGroup| Foreach-Object{
 
 Обновление происходит только после отправки вызова на сервер. Если обновление завершится сбоем, список рассылки не будет изменен. Он будет работать, как прежде.
 
-## <a name="related-content"></a>Связанные материалы
+## <a name="related-content"></a>См. также:
 
 [Сравнение групп](../create-groups/compare-groups.md) (статья)\
 [Объяснение групп Microsoft 365 пользователям](../create-groups/explain-groups-knowledge-worker.md) (статья)\
