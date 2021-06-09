@@ -20,12 +20,12 @@ ms.custom:
 description: Администраторы могут научиться использовать обучение имитации атаки для имитации фишинга и атак паролей в Microsoft 365 E5 или Microsoft Defender для Office 365 plan 2.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a5986bbeebd49223ebfd74773346f27fc5297243
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: c5d4b77204f207c31f2014df797f6209b92c9ccb
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730922"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52822338"
 ---
 # <a name="get-started-using-attack-simulation-training"></a>Начало использования обучения имитации атаки
 
@@ -38,7 +38,7 @@ ms.locfileid: "52730922"
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
-- Чтобы открыть Центр безопасности Майкрософт, перейдите к <https://security.microsoft.com/> . Обучение моделированию атак доступно на тренинге **по** моделированию атак по электронной почте и \> **совместной работе.** Чтобы перейти непосредственно к обучению имитации атаки, откройте <https://security.microsoft.com/attacksimulator> .
+- Чтобы открыть Центр безопасности Майкрософт, перейдите к <https://security.microsoft.com> . Обучение моделированию атак доступно на тренинге **по** моделированию атак по электронной почте и \> **совместной работе.** Чтобы перейти непосредственно к обучению имитации атаки, откройте <https://security.microsoft.com/attacksimulator> .
 
 - Дополнительные сведения о доступности учебных занятий по имитации атаки в различных Microsoft 365 подписках см. в описании службы [Microsoft Defender для Office 365.](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)
 

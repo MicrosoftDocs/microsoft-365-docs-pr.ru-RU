@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: d8f589da32ae72383bbe2da7624c9bb846265679
-ms.sourcegitcommit: e1e275eb88153bafddf93327adf8f82318913a8d
+ms.openlocfilehash: 26695df0e34c0e06adc4f58acf3fea83122c1982
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 06/08/2021
-ms.locfileid: "52809295"
+ms.locfileid: "52844482"
 ---
 # <a name="create-a-custom-gradual-rollout-process-for-microsoft-defender-updates"></a>Создание настраиваемой процедуры постепенного выкатыва для обновлений Microsoft Defender
 
@@ -54,7 +54,7 @@ ms.locfileid: "52809295"
 > [!NOTE]
 > Обновленный шаблон Defender ADMX будет опубликован вместе с выпуском 21H2 Windows 10.
 
-Групповые [политики можно](https://docs.microsoft.com/windows/win32/srvnodes/group-policy?redirectedfrom=MSDN)использовать для настройки и   управления антивирусная программа в Microsoft Defender конечных точек.
+Групповые [политики можно](/windows/win32/srvnodes/group-policy?redirectedfrom=MSDN)использовать для настройки и   управления антивирусная программа в Microsoft Defender конечных точек.
 
 В общем, вы можете использовать следующую процедуру для настройки или изменения параметров антивирусная программа в Microsoft Defender групповой политики:
 
@@ -74,7 +74,7 @@ ms.locfileid: "52809295"
 
 Следуйте инструкциям, приведенным ниже по ссылке, чтобы создать настраиваемую политику в Intune:
 
-[Добавление настраиваемой настройки для Windows 10 устройств в Microsoft Intune - Microsoft \| Docs Azure](https://docs.microsoft.com/mem/intune/configuration/custom-settings-windows-10)
+[Добавление настраиваемой настройки для Windows 10 устройств в Microsoft Intune - Microsoft \| Docs Azure](/mem/intune/configuration/custom-settings-windows-10)
 
 ## <a name="powershell"></a>PowerShell
 
@@ -94,4 +94,4 @@ Set-MpPreference
 
 Используйте `Set-MpPreference -PlatformUpdatesChannel Beta` для настройки обновлений платформы для поступления из бета-канала.
 
-Дополнительные сведения о параметрах и их настройке см. в | [ Microsoft Docs](https://docs.microsoft.com/powershell/module/defender/set-mppreference?view=windowsserver2019-ps).
+Дополнительные сведения о параметрах и их настройке см. в | [ Microsoft Docs](/powershell/module/defender/set-mppreference?view=windowsserver2019-ps).

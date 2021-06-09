@@ -12,12 +12,12 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 00943eb85abbfd2d237ae5544eb69d3ec4d9f875
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: c8c83724d17acff52d588331b3b854e180d5466c
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245508"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841286"
 ---
 # <a name="device-images"></a>Изображения устройства
 
@@ -79,13 +79,13 @@ ms.locfileid: "52245508"
 
 Эти действия удаляют все данные на устройстве, поэтому перед запуском необходимо сохранить все данные, которые необходимо сохранить.
 
-1. [Создайте usb-накопитель с возможностью загрузки](https://docs.microsoft.com/windows-hardware/manufacture/desktop/winpe-create-usb-bootable-drive) с помощью WinPE.
+1. [Создайте usb-накопитель с возможностью загрузки](/windows-hardware/manufacture/desktop/winpe-create-usb-bootable-drive) с помощью WinPE.
 2. Скопируйте эти файлы из C: \\ SOURCES на USB-накопитель:
     - Файл WIM восстановления фабрики (например, HP \_ EliteBook \_ 840 \_ G7 \_ Notebook PC CR \_ \_ \_ 2004.wim)
     - РАЗВЕРТЫВАНИЕ. CMD
     - ReCreatePartitions.txt
 3. [Загрузка устройства в WinPE](https://store.hp.com/us/en/tech-takes/how-to-boot-from-usb-drive-on-windows-10-pcs) USB-накопитель.
-4. В командной подсказке запустите [Diskpart.exe](https://docs.microsoft.com/windows-server/administration/windows-commands/diskpart#additional-references).
+4. В командной подсказке запустите [Diskpart.exe](/windows-server/administration/windows-commands/diskpart#additional-references).
 5. В Diskpart запустите, а затем обратите внимание на основной номер диска хранилища `list disk` (как правило, диск 0).
 6. Exit Diskpart путем ввода `exit` .
 7. В командной подсказке `deploy.cmd <sys_disk> <recovery_wim>` *запустите , sys_disk* это номер диска основного  диска хранения, который вы только что определили, и recovery_wim имя файла . Файл WIM, который вы скопировали ранее.

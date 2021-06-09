@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: a985719663ec23d41ce4da57aea9aa5e0cf7674c
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: eed208da92f7e196cc71dab4e9d32e5666f3f6a4
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688973"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844206"
 ---
 # <a name="web-protection"></a>Веб-защита
 
@@ -34,7 +34,7 @@ ms.locfileid: "51688973"
 
 >Хотите испытать Microsoft Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-main-abovefoldlink&rtc=1)
 
-Веб-защита в Microsoft Defender для конечной [](web-threat-protection.md) точки — это возможность, которая состоит из защиты от веб-угроз и фильтрации [веб-контента.](web-content-filtering.md) Веб-защита позволяет обезопасить устройства от веб-угроз и регулировать нежелательный контент. Отчеты о веб-защите можно найти в Центре безопасности Защитника Майкрософт, перейдите к отчетам **> веб-защиты.**
+Веб-защита в Microsoft Defender для конечной [](web-threat-protection.md) точки — это возможность, которая состоит из защиты от веб-угроз и фильтрации [веб-контента.](web-content-filtering.md) Веб-защита позволяет обезопасить устройства от веб-угроз и регулировать нежелательный контент. Отчеты о веб-защите можно найти в Центр безопасности в Microsoft Defender, > **отчеты.**
 
 ![Изображение всех веб-карт защиты](images/web-protection.png)
 
@@ -53,7 +53,7 @@ ms.locfileid: "51688973"
 
 Фильтрация веб-контента включает в себя:
 - Пользователям не позволяется получать доступ к веб-сайтам в заблокированных категориях, независимо от того, просматривают ли они веб-сайты на локальном сайте или в
-- Вы можете удобно развернуть разнообразные политики для различных групп пользователей с помощью групп устройств, определенных в настройках управления доступом на основе ролей [Microsoft Defender для конечных точек.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/rbac)
+- Вы можете удобно развернуть разнообразные политики для различных групп пользователей с помощью групп устройств, определенных в настройках управления доступом на основе ролей [Microsoft Defender для конечных точек.](/microsoft-365/security/defender-endpoint/rbac)
 - Вы можете получить доступ к веб-отчетам в том же центральном расположении, с видимостью над фактическими блоками и веб-использованием
 
 ## <a name="in-this-section"></a>В этом разделе

@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 2601001687fc22da98ca3cd81010237d12705ea4
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 99a52188dd5f6eca2f8368aa3c114d0bfb950b10
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51687415"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844158"
 ---
 # <a name="troubleshoot-microsoft-defender-for-endpoint-live-response-issues"></a>Устранение неполадок в Microsoft Defender для проблем с ответом в прямом эфире endpoint
 
@@ -62,12 +62,12 @@ ms.locfileid: "51687415"
 5. Запустите действие, необходимое для скопированного файла.
 
 ## <a name="slow-live-response-sessions-or-delays-during-initial-connections"></a>Медленные сеансы живого ответа или задержки во время начальных подключений
-Live response использует регистрацию датчиков Defender для конечной точки с помощью службы WNS в Windows. Если у вас возникли проблемы с подключением с живой реакцией, подтвердите следующие сведения:
+Live response использует функцию регистрации датчиков Endpoint Defender для конечной точки с помощью службы WNS в Windows. Если у вас возникли проблемы с подключением с живой реакцией, подтвердите следующие сведения:
 1. `notify.windows.com` не блокируется в среде. Дополнительные сведения см. в [перенастройке](configure-proxy-internet.md#enable-access-to-microsoft-defender-for-endpoint-service-urls-in-the-proxy-server)параметров прокси-сервера устройства и подключения к Интернету.
-2. Служба WpnService (Система push-уведомлений Windows) не отключена.
+2. Система WpnService (Windows Push Notifications System Service) не отключена.
 
 Обратитесь к статьям ниже, чтобы полностью понять поведение и требования службы WpnService:
-- [Обзор windows Push службы Notification Services (WNS)](https://docs.microsoft.com/windows/uwp/design/shell/tiles-and-notifications/windows-push-notification-services--wns--overview)
-- [Корпоративный брандмауэр и конфигурации прокси для поддержки трафика WNS](https://docs.microsoft.com/windows/uwp/design/shell/tiles-and-notifications/firewall-allowlist-config)
+- [Windows Обзор службы Notification Services (WNS)](/windows/uwp/design/shell/tiles-and-notifications/windows-push-notification-services--wns--overview)
+- [Enterprise Конфигурации брандмауэра и прокси для поддержки трафика WNS](/windows/uwp/design/shell/tiles-and-notifications/firewall-allowlist-config)
 - [Microsoft Push Notifications Service (MPNS) Public IP ranges](https://www.microsoft.com/en-us/download/details.aspx?id=44535)
 

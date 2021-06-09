@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 8f23a0b269986f4caa199ad3744c563fcc6ff6b2
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 876dddf7a68b9844dea6a30ff4ebbbe3c2b75b69
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52769105"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844554"
 ---
 # <a name="use-microsoft-defender-for-endpoint-apis"></a>Использование Microsoft Defender для API конечных точек
 
@@ -44,7 +44,7 @@ ms.locfileid: "52769105"
 
 Если вы не уверены, какой доступ вам нужен, прочитайте страницу [Введение](apis-intro.md).
 
-Microsoft Defender для конечной точки предоставляет большую часть своих данных и действий с помощью набора программных API. Эти API позволят автоматизировать потоки работы и вносимые новации на основе возможностей Microsoft Defender для конечных точек. Доступ к API требует проверки подлинности OAuth2.0. Дополнительные сведения см. [в тексте OAuth 2.0 Authorization Code Flow.](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)
+Microsoft Defender для конечной точки предоставляет большую часть своих данных и действий с помощью набора программных API. Эти API позволят автоматизировать потоки работы и вносимые новации на основе возможностей Microsoft Defender для конечных точек. Доступ к API требует проверки подлинности OAuth2.0. Дополнительные сведения см. [в тексте OAuth 2.0 Authorization Code Flow.](/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)
 
 В общем, для использования API необходимо предпринять следующие действия:
 - Создание приложения AAD
@@ -122,7 +122,7 @@ Microsoft Defender для конечной точки предоставляет
 
 ## <a name="get-an-access-token"></a>Получение токена доступа
 
-Дополнительные сведения о маркерах AAD см. в [учебнике Azure AD](https://docs.microsoft.com/azure/active-directory/develop/active-directory-v2-protocols-oauth-client-creds)
+Дополнительные сведения о маркерах AAD см. в [учебнике Azure AD](/azure/active-directory/develop/active-directory-v2-protocols-oauth-client-creds)
 
 ### <a name="using-c"></a>Использование C #
 

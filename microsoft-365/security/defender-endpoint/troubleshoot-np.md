@@ -15,12 +15,12 @@ ms.reviewer: oogunrinde
 manager: dansimp
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: f77ce94fda63a9e7e8a9484a67a22eeec136d619
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 481a8f15d6a41bda8dc866ce40d98c4f3717223d
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935885"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844062"
 ---
 # <a name="troubleshoot-network-protection"></a>Защита сети от неполадок
 
@@ -51,10 +51,10 @@ ms.locfileid: "51935885"
 Защита сети будет работать только на устройствах со следующими условиями:
 
 >[!div class="checklist"]
-> - Конечные точки работают в выпуске Windows 10 Pro или Enterprise версии 1709 или выше.
-> - Конечные точки используют антивирус Microsoft Defender в качестве единственного приложения для защиты от антивирусов. [Узнайте, что происходит при использовании антивирусного решения, не используемого Корпорацией Майкрософт.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)
-> - [Включена защита в](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-real-time-protection-microsoft-defender-antivirus) режиме реального времени.
-> - [Включена облачная](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/enable-cloud-protection-microsoft-defender-antivirus) защита.
+> - Конечные точки запускаются Windows 10 Pro или Enterprise версии 1709 или выше.
+> - Конечные точки используют антивирусная программа в Microsoft Defender в качестве единственного приложения для защиты от антивирусов. [Узнайте, что происходит при использовании антивирусного решения, не используемого Корпорацией Майкрософт.](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)
+> - [Включена защита в](/windows/security/threat-protection/microsoft-defender-antivirus/configure-real-time-protection-microsoft-defender-antivirus) режиме реального времени.
+> - [Включена облачная](/windows/security/threat-protection/microsoft-defender-antivirus/enable-cloud-protection-microsoft-defender-antivirus) защита.
 > - Режим аудита не включен. Используйте [групповую](enable-network-protection.md#group-policy) политику, чтобы установить правило **отключено** (значение: **0).**
 
 ## <a name="use-audit-mode"></a>Использовать режим аудита
@@ -79,7 +79,7 @@ ms.locfileid: "51935885"
 
 ## <a name="report-a-false-positive-or-false-negative"></a>Сообщение о ложном срабатыве или ложном отрицательном
 
-Если вы протестировали эту функцию на демо-сайте и в режиме аудита, а защита сети работает в предварительно настроенных сценариях, но работает не так, как ожидалось для определенного подключения, используйте [веб-форму](https://www.microsoft.com/wdsi/filesubmission) отправки Защитник Windows Security Intelligence, чтобы сообщить о ложном отрицательном или ложном срабатывке для защиты сети. С подпиской на E5 вы также можете предоставить ссылку на любое [связанное оповещение.](alerts-queue.md)
+Если вы протестировали эту функцию на демо-сайте и в режиме аудита, а защита сети работает в предварительно настроенных сценариях, но работает не так, как ожидалось, для определенного подключения используйте [веб-форму](https://www.microsoft.com/wdsi/filesubmission) отправки Защитник Windows Security Intelligence, чтобы сообщить о ложном отрицательном или ложном срабатывке для защиты сети. С подпиской на E5 вы также можете предоставить ссылку на любое [связанное оповещение.](alerts-queue.md)
 
 См. [адрес ложных срабатыва-срабатыва-минусов в Microsoft Defender для конечной точки.](defender-endpoint-false-positives-negatives.md)
 
@@ -122,8 +122,8 @@ reg add "HKLM\Software\Microsoft\Windows Defender" /v ProxyPacUrl /d "<Proxy PAC
 
 Ключ реестра можно настроить с помощью PowerShell, Microsoft Endpoint Manager или групповой политики. Вот некоторые ресурсы, которые помогут:
 - [Работа с ключами реестра](/powershell/scripting/samples/working-with-registry-keys)
-- [Настройка настраиваемых параметров клиента для защиты конечных точек](/mem/configmgr/protect/deploy-use/endpoint-protection-configure-client)
-- [Использование параметров групповой политики для управления защитой конечных точек](/mem/configmgr/protect/deploy-use/endpoint-protection-group-policies)
+- [Настройка настраиваемых параметров клиента для Endpoint Protection](/mem/configmgr/protect/deploy-use/endpoint-protection-configure-client)
+- [Используйте параметры групповой политики для управления Endpoint Protection](/mem/configmgr/protect/deploy-use/endpoint-protection-group-policies)
 
 ## <a name="see-also"></a>См. также
 

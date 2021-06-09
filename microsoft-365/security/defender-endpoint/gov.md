@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 0276f0464f898d3675e4cc1d6b69185e7e390a87
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 7956c1454cd7bd962eda984cc9d93be9824d7458
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572673"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52822109"
 ---
 # <a name="microsoft-defender-for-endpoint-for-us-government-customers"></a>Microsoft Defender для конечной точки для государственных служб США
 
@@ -81,7 +81,7 @@ Windows 10 версии 1803 (с [KB4598245)](https://support.microsoft.com/help
 Windows 10 версии 1709 | ![Нет](images/svg/check-no.svg)<br />Примечание. Не будет поддерживаться | ![Да ](images/svg/check-yes.svg) с [KB4499147](https://support.microsoft.com/help/4499147)<br />Примечание: [Deprecated](/lifecycle/announcements/revised-end-of-service-windows-10-1709), пожалуйста, обновление | ![Нет](images/svg/check-no.svg)<br />Примечание. Не будет поддерживаться
 Windows 10 версии 1703 и более ранней версии | ![Нет](images/svg/check-no.svg)<br />Примечание. Не будет поддерживаться | ![Нет](images/svg/check-no.svg)<br />Примечание. Не будет поддерживаться | ![Нет](images/svg/check-no.svg)<br />Примечание. Не будет поддерживаться
 Windows Server 2019 (с [KB4586839)](https://support.microsoft.com/help/4586839) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
-Windows Server 2016 | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
+Windows Server 2016 | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
 Windows Server 2012 R2 | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
 Windows Server 2008 R2 с пакетом обновления 1 (SP1) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
 Windows 8.1 Корпоративная | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
@@ -104,8 +104,8 @@ iOS | ![Нет](images/svg/check-no.svg) На неополненном техн�
 
 Версия ОС | GCC | GCC High | DoD
 :---|:---|:---|:---
-Windows Server 2019 | ![Нет](images/svg/check-no.svg) В разработке | ![Нет](images/svg/check-no.svg) В разработке | ![Нет](images/svg/check-no.svg) В разработке
-Windows Server 2016 | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
+Windows Server 2019 | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
+Windows Server 2016 | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
 Windows Server 2012 R2 | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
 Windows Server 2008 R2 с пакетом обновления 1 (SP1) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
 
@@ -164,7 +164,7 @@ Defender for Endpoint для государственных клиентов С�
 Управление и API: потоковый API | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg)
 Фильтрация веб-содержимого | ![Нет](images/svg/check-no.svg) В разработке | ![Нет](images/svg/check-no.svg) В разработке | ![Нет](images/svg/check-no.svg) В разработке
 Интеграция: Azure Sentinel | ![Да](images/svg/check-yes.svg) | ![Да](images/svg/check-yes.svg) Оповещения <br /> ![Нет](images/svg/check-no.svg) Инциденты & необработанные данные: в разработке | ![Да](images/svg/check-yes.svg) Оповещения <br /> ![Нет](images/svg/check-no.svg) Инциденты & необработанные данные: в разработке
-Интеграция: Microsoft Cloud App Security | ![Нет](images/svg/check-no.svg) В разработке | ![Нет](images/svg/check-no.svg) В разработке | ![Нет](images/svg/check-no.svg) В разработке
+Интеграция: Microsoft Cloud App Security | ![Да](images/svg/check-yes.svg) | ![Нет](images/svg/check-no.svg) В разработке | ![Нет](images/svg/check-no.svg) В разработке
 Интеграция: Microsoft Compliance Manager | ![Нет](images/svg/check-no.svg) В разработке | ![Нет](images/svg/check-no.svg) В разработке | ![Нет](images/svg/check-no.svg) В разработке
 Интеграция: Защитник Microsoft для удостоверений | ![Нет](images/svg/check-no.svg) В разработке | ![Нет](images/svg/check-no.svg) В разработке | ![Нет](images/svg/check-no.svg) В разработке
 Интеграция: DLP конечной точки Майкрософт | ![Нет](images/svg/check-no.svg) В разработке | ![Нет](images/svg/check-no.svg) В разработке | ![Нет](images/svg/check-no.svg) В разработке

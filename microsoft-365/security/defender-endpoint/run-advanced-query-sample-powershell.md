@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 9192662b8d4ed23a5903dddb555f07bf182ab17f
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 0d44f59f69c590ecd8d61207de8784af3e32197d
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52771505"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844890"
 ---
 # <a name="advanced-hunting-using-powershell"></a>Расширенная охота с помощью PowerShell
 
@@ -40,7 +40,7 @@ ms.locfileid: "52771505"
 
 В этом разделе мы делимся примерами PowerShell для получения маркера и использования его для выполнения запроса.
 
-## <a name="before-you-begin"></a>Подготовка
+## <a name="before-you-begin"></a>Прежде чем начать
 Сначала необходимо [создать приложение.](apis-intro.md)
 
 ## <a name="preparation-instructions"></a>Инструкции по подготовке
@@ -51,7 +51,7 @@ ms.locfileid: "52771505"
   Set-ExecutionPolicy -ExecutionPolicy Bypass
   ```
 
->Дополнительные сведения см. в [документации PowerShell](https://docs.microsoft.com/powershell/module/microsoft.powershell.security/set-executionpolicy)
+>Дополнительные сведения см. в [документации PowerShell](/powershell/module/microsoft.powershell.security/set-executionpolicy)
 
 ## <a name="get-token"></a>Get token
 

@@ -16,12 +16,12 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: a22cab9185b2ece2e8e30c00ea747cca823f4920
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: b6b664d471e238e2feb1e1aedd100c1299fc5bbe
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51861159"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844266"
 ---
 # <a name="protect-your-network"></a>Защита сети
 
@@ -33,9 +33,9 @@ ms.locfileid: "51861159"
 
 > Хотите испытать Microsoft Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-Защита сети помогает уменьшить поверхность атаки устройств от событий, происходящих в Интернете. Это не позволяет сотрудникам использовать любое приложение для доступа к опасным доменам, в которые могут быть организованы фишинговые атаки, эксплойты и другой вредоносный контент в Интернете. Защита от сети расширяет область [SmartScreen Microsoft Defender,](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-smartscreen/microsoft-defender-smartscreen-overview) чтобы заблокировать весь исходящий трафик HTTP(s), который пытается подключиться к источникам с низкой репутацией (на основе домена или имени хост-сайта).
+Защита сети помогает уменьшить поверхность атаки устройств от событий, происходящих в Интернете. Это не позволяет сотрудникам использовать любое приложение для доступа к опасным доменам, в которые могут быть организованы фишинговые атаки, эксплойты и другой вредоносный контент в Интернете. Защита сети расширяет область фильтр SmartScreen в Microsoft Defender для блокировки всего исходящего трафика [HTTP(ы),](/windows/security/threat-protection/microsoft-defender-smartscreen/microsoft-defender-smartscreen-overview) который пытается подключиться к источникам с низкой репутацией (на основе домена или имени хост-сайта).
 
-Защита сети поддерживается в Windows, начиная с Windows 10 версии 1709. Защита сети еще не поддерживается в других операционных системах, но веб-защита поддерживается с помощью нового Microsoft Edge на основе Chromium. Дополнительные информации см. в [веб-защите.](web-protection-overview.md)
+Защита сети поддерживается на Windows, начиная с Windows 10 версии 1709. Защита сети еще не поддерживается в других операционных системах, но веб-защита поддерживается с помощью нового Microsoft Edge на основе Chromium. Дополнительные информации см. в [веб-защите.](web-protection-overview.md)
 
 Защита сети расширяет защиту в [веб-защите](web-protection-overview.md) до уровня операционной системы. Он предоставляет функции веб-защиты в Edge для других поддерживаемых браузеров и не браузерных приложений. Кроме того, защита сети обеспечивает видимость и блокировку индикаторов компрометации (IOCs) при их обнаружении и реагировании на [конечные точки.](overview-endpoint-detection-response.md) Например, защита сети работает с [настраиваемой индикаторами.](manage-indicators.md)
 
@@ -52,11 +52,11 @@ ms.locfileid: "51861159"
 
 ## <a name="requirements"></a>Требования
 
-Защита сети требует защиты Windows 10 Pro или Enterprise и антивируса Microsoft Defender в режиме реального времени.
+Защита сети требует Windows 10 Pro или Enterprise и антивирусная программа в Microsoft Defender защиты в режиме реального времени.
 
 | Версия Windows | Антивирусная программа в Microsoft Defender |
 |:---|:---|
-| Windows 10 версии 1709 или более поздней версии <p>Windows Server 1803 или более поздней версии | [Антивирус Microsoft Defender в режиме реального времени и](configure-real-time-protection-microsoft-defender-antivirus.md) [облачная](enable-cloud-protection-microsoft-defender-antivirus.md) защита должны быть включены |
+| Windows 10 версии 1709 или более поздней версии <p>Windows Сервер 1803 или более поздний | [антивирусная программа в Microsoft Defender должна](configure-real-time-protection-microsoft-defender-antivirus.md) быть включена защита в режиме реального времени и [облачная](enable-cloud-protection-microsoft-defender-antivirus.md) защита |
 
 После включения служб может потребоваться настроить сеть или брандмауэр, чтобы разрешить подключения между службами и устройствами (также именуемые конечными точками).  
 
@@ -76,13 +76,13 @@ DeviceEvents
 | where ActionType in ('ExploitGuardNetworkProtectionAudited','ExploitGuardNetworkProtectionBlocked')
 ```
 
-## <a name="review-network-protection-events-in-windows-event-viewer"></a>Просмотр событий защиты сети в Windows Event Viewer
+## <a name="review-network-protection-events-in-windows-event-viewer"></a>Просмотр событий защиты сети в Windows просмотра событий
 
-Вы можете просмотреть журнал событий Windows, чтобы просмотреть события, созданные при блоке сетевой защиты (или аудите) доступа к вредоносному IP или домену:
+Вы можете просмотреть журнал Windows событий, чтобы просмотреть события, созданные при блоке сетевой защиты (или аудите) доступа к вредоносному IP или домену:
 
 1. [Скопируйте XML напрямую.](event-views.md)
 
-2. Нажмите **ОК**.
+2. Нажмите кнопку **ОК**.
 
 Эта процедура создает настраиваемую точку зрения, которая фильтрует только следующие события, связанные с защитой сети:
 
@@ -92,15 +92,15 @@ DeviceEvents
 | 1125 | Событие, когда защита сети загорелась в режиме аудита |
 | 1126 | Событие, когда защита сети загорелась в режиме блокировки |
 
-## <a name="considerations-for-windows-virtual-desktop-running-windows-10-enterprise-multi-session"></a>Соображения для виртуального рабочего стола Windows под управлением Windows 10 Корпоративная мульти-сессия
+## <a name="considerations-for-windows-virtual-desktop-running-windows-10-enterprise-multi-session"></a>Соображения для Windows рабочего стола с Windows 10 Корпоративная multi-Session
 
-Учитывая многоцелевую природу Windows 10 Enterprise, следует помнить о следующих моментах:
+Учитывая многоцелевую природу Windows 10 Корпоративная, следует помнить о следующих моментах:
 
 1. Защита от сети — это функция для всего устройства и не может быть ориентирована на определенные сеансы пользователей.
 
 2. Политики фильтрации веб-контента также являются широкими устройствами.
 
-3. Если необходимо различать группы пользователей, рассмотрите возможность создания отдельных пулов и назначений для виртуальных настольных компьютеров Windows.
+3. Если необходимо различать группы пользователей, рассмотрите возможность создания отдельных пулов Windows виртуальных настольных компьютеров и назначений.
 
 4. Проверьте защиту сети в режиме аудита, чтобы оценить ее поведение перед развертыванием. 
 
@@ -108,7 +108,7 @@ DeviceEvents
 
 ### <a name="alternative-option-for-network-protection"></a>Альтернативный вариант защиты сети
 
-Для Windows 10 Enterprise Multi-Session 1909 и up, используемой в Windows Virtual Desktop в Azure, можно включить защиту сети для Microsoft Edge с помощью следующего метода:
+Для Windows 10 Корпоративная 1909 и более, используемых в Windows Virtual Desktop в Azure, защита сети для Microsoft Edge может быть включена с помощью следующего метода:
 
 1. [Включите защиту сети](enable-network-protection.md) и следуйте инструкциям, чтобы применить политику.
 
@@ -124,7 +124,7 @@ reg add "HKLM\Software\Microsoft\Windows Defender" /v ProxyPacUrl /d "<Proxy PAC
 
 ```
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
 - [Оценка защиты](evaluate-network-protection.md) сети | Создай быстрый сценарий, в который показано, как работает функция и какие события обычно создаются.
 

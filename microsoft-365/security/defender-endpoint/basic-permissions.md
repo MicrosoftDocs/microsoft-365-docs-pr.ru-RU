@@ -1,5 +1,5 @@
 ---
-title: Использование базовых разрешений для доступа к Центру безопасности Защитника Майкрософт
+title: Используйте базовые разрешения для доступа к Центр безопасности в Microsoft Defender
 description: Узнайте, как использовать основные разрешения для доступа к порталу Microsoft Defender для конечных точек.
 keywords: назначение ролей пользователей, назначение доступа к чтением и записи, назначение доступа только для чтения, пользователя, ролей пользователей, ролей
 search.product: eADQiWindows 10XVcnh
@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: cb5762d2a9e4b62432aba6dacd1033ddc3c7daf2
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 2d022e903111c498d6f3b7411857748fcb637b64
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51163675"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844662"
 ---
-# <a name="use-basic-permissions-to-access-the-portal"></a>Использование базовых разрешений для доступа к порталу
+# <a name="use-basic-permissions-to-access-the-portal"></a>Использование основных разрешений для доступа к порталу
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -42,19 +42,19 @@ ms.locfileid: "51163675"
 
 Для детального контроля над разрешениями [переключение на](rbac.md)управление доступом на основе ролей.
 
-## <a name="assign-user-access-using-azure-powershell"></a>Назначение доступа пользователей с помощью Azure PowerShell
+## <a name="assign-user-access-using-azure-powershell"></a>Назначение доступа пользователя с помощью Azure PowerShell
 Вы можете назначить пользователям один из следующих уровней разрешений:
 - Полный доступ (чтение и записи)
 - Доступ только для чтения
 
-### <a name="before-you-begin"></a>Перед началом работы
+### <a name="before-you-begin"></a>Прежде чем начать
 
-- Установка Azure PowerShell. Дополнительные сведения см. в [рублях "Установка и настройка Azure PowerShell".](https://azure.microsoft.com/documentation/articles/powershell-install-configure/)<br>
+- Установка Azure PowerShell. Дополнительные сведения см. в [том, как установить](https://azure.microsoft.com/documentation/articles/powershell-install-configure/)и настроить Azure PowerShell.<br>
 
     > [!NOTE]
     > Необходимо выполнить командлеты PowerShell в повышенной командной строке.
 
-- Подключение к вашему Azure Active Directory. Дополнительные сведения см. в [дополнительных сведениях в connect-MsolService.](https://docs.microsoft.com/powershell/module/msonline/connect-msolservice?view=azureadps-1.0&preserve-view=true)
+- Подключение к Azure Active Directory. Дополнительные сведения см. [в Подключение-MsolService](/powershell/module/msonline/connect-msolservice?view=azureadps-1.0&preserve-view=true).
 
 **Полный доступ** <br>
 Пользователи с полным доступом могут войти в систему, просмотреть всю системную информацию и разрешить оповещения, отправить файлы для глубокого анализа и скачать бортовой пакет.
@@ -79,11 +79,11 @@ ms.locfileid: "51163675"
   Add-MsolRoleMember -RoleName "Security Reader" -RoleMemberEmailAddress "reader@Contoso.onmicrosoft.com"
   ```
 
-Дополнительные сведения см. в [добавлении или удалите членов группы с помощью Azure Active Directory.](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-members-azure-portal)
+Дополнительные сведения см. в [добавлении или удалите](/azure/active-directory/fundamentals/active-directory-groups-members-azure-portal)членов группы с помощью Azure Active Directory.
 
 ## <a name="assign-user-access-using-the-azure-portal"></a>Назначение доступа пользователей с помощью портала Azure
 
-Дополнительные сведения см. в ссылке Назначение ролей администратора и не администратора [пользователям с Помощью Azure Active Directory.](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)
+Дополнительные сведения см. в [ссылке Назначение ролей](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)администратора и не администратора пользователям с Azure Active Directory .
 
 ## <a name="related-topic"></a>Связанная тема
 

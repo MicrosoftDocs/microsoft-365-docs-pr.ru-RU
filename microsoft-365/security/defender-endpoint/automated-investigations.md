@@ -21,12 +21,12 @@ ms.collection:
 ms.topic: how-to
 ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs
 ms.custom: AIR
-ms.openlocfilehash: d4b0751938b66cc22dd59e2e7035077c5ef59ff9
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: e52471e1b3e9ee3a410de493b536f9d360d60624
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274824"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844446"
 ---
 # <a name="overview-of-automated-investigations"></a>Обзор автоматизированных расследований
 
@@ -72,9 +72,9 @@ ms.locfileid: "52274824"
 
 По мере вынесения вердиктов автоматические расследования могут привести к одному или более действиям по исправлению. Примеры действий по исправлению включают отправку файла на карантин, остановку службы, удаление запланированной задачи и другие. Дополнительные дополнительные ссылки см. [в дополнительных действиях по исправлению.](manage-auto-investigation.md#remediation-actions)  
 
-В зависимости [](automation-levels.md) от уровня автоматизации, установленного для вашей организации, а также других параметров безопасности, действия по исправлению могут происходить автоматически или только после утверждения вашей командой операций безопасности. Дополнительные параметры безопасности, которые могут повлиять на автоматическое исправление, включают защиту от потенциально [нежелательных](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/detect-block-potentially-unwanted-apps-microsoft-defender-antivirus) приложений (PUA). 
+В зависимости [](automation-levels.md) от уровня автоматизации, установленного для вашей организации, а также других параметров безопасности, действия по исправлению могут происходить автоматически или только после утверждения вашей командой операций безопасности. Дополнительные параметры безопасности, которые могут повлиять на автоматическое исправление, включают защиту от потенциально [нежелательных](/windows/security/threat-protection/microsoft-defender-antivirus/detect-block-potentially-unwanted-apps-microsoft-defender-antivirus) приложений (PUA). 
 
-Все действия по исправлению, отложенные или завершенные, отслеживаются в [центре действий.](auto-investigation-action-center.md) При необходимости группа операций безопасности может отменить действие по исправлению. Дополнительные дополнительные ссылки см. в [обзоре и утверждении](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/manage-auto-investigation)действий по исправлению после автоматического расследования.
+Все действия по исправлению, отложенные или завершенные, отслеживаются в [центре действий.](auto-investigation-action-center.md) При необходимости группа операций безопасности может отменить действие по исправлению. Дополнительные дополнительные ссылки см. в [обзоре и утверждении](/microsoft-365/security/defender-endpoint/manage-auto-investigation)действий по исправлению после автоматического расследования.
 
 > [!TIP]
 > Ознакомьтесь с новой единой страницей расследования в центре Microsoft 365 безопасности. Дополнительные дополнительные возможности см. [в (NEW!) Страница Единое исследование](/microsoft-365/security/defender/m365d-autoir-results#new-unified-investigation-page).
@@ -85,10 +85,10 @@ ms.locfileid: "52274824"
 В организации должен быть защитник для конечной точки (см. минимальные требования [к Microsoft Defender для конечной точки).](minimum-requirements.md)
 
 В настоящее время AIR поддерживает только следующие версии ОС:
-- Windows Server 2019
+- Windows Server 2019
 - Windows 10 версии 1709 (сборка ОС 16299.1085 с [KB4493441)](https://support.microsoft.com/help/4493441/windows-10-update-kb4493441)или более поздней версии
 - Windows 10 версии 1803 (сборка ОС 17134.704 с [KB4493464)](https://support.microsoft.com/help/4493464/windows-10-update-kb4493464)или более поздней версии
-- Windows 10 версии [1803](https://docs.microsoft.com/windows/release-information/status-windows-10-1809-and-windows-server-2019) или более поздней версии
+- Windows 10 версии [1803](/windows/release-information/status-windows-10-1809-and-windows-server-2019) или более поздней версии
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
@@ -98,6 +98,6 @@ ms.locfileid: "52274824"
 
 ## <a name="see-also"></a>См. также
 
-- [Защита PUA](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/detect-block-potentially-unwanted-apps-microsoft-defender-antivirus)
-- [Автоматическое исследование и ответ в Microsoft Defender для Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)
-- [Автоматическое расследование и ответ в Microsoft 365 Defender](https://docs.microsoft.com/microsoft-365/security/defender/mtp-autoir)
+- [Защита PUA](/windows/security/threat-protection/microsoft-defender-antivirus/detect-block-potentially-unwanted-apps-microsoft-defender-antivirus)
+- [Автоматическое исследование и ответ в Microsoft Defender для Office 365](/microsoft-365/security/office-365-security/office-365-air)
+- [Автоматическое расследование и ответ в Microsoft 365 Defender](/microsoft-365/security/defender/mtp-autoir)

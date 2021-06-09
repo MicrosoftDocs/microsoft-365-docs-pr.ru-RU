@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 4a051742775c3d4e8b36bf0ba7a4fd2502763014
-ms.sourcegitcommit: 5377b00703b6f559092afe44fb61462e97968a60
+ms.openlocfilehash: b4c2d586cd23a346db1bcebf891689ff648b639b
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52694465"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844710"
 ---
 # <a name="microsoft-defender-for-endpoint-on-ios"></a>Microsoft Defender для конечной точки в iOS
 
@@ -45,20 +45,20 @@ ms.locfileid: "52694465"
 
 **Для конечных пользователей**
 
-- Лицензия Microsoft Defender для конечной точки, назначенная конечному пользователю приложения. См. требования к microsoft Defender для лицензирования [конечных точек.](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/minimum-requirements#licensing-requirements)
+- Лицензия Microsoft Defender для конечной точки, назначенная конечному пользователю приложения. См. требования к microsoft Defender для лицензирования [конечных точек.](/microsoft-365/security/defender-endpoint/minimum-requirements#licensing-requirements)
 
-- Device(s) [регистрироваться](https://docs.microsoft.com/mem/intune/user-help/enroll-your-device-in-intune-ios) через приложение Корпоративный портал Intune для применения политик соответствия требованиям устройств Intune. Это требует, чтобы конечному пользователю была назначена Microsoft Intune лицензия.
+- Device(s) [регистрироваться](/mem/intune/user-help/enroll-your-device-in-intune-ios) через приложение Корпоративный портал Intune для применения политик соответствия требованиям устройств Intune. Это требует, чтобы конечному пользователю была назначена Microsoft Intune лицензия.
     - Корпоративный портал Intune приложение можно скачать из [Магазина приложений Apple.](https://apps.apple.com/us/app/intune-company-portal/id719171358)
     - Обратите внимание, что Apple не позволяет перенаправлять пользователей для скачивания других приложений из магазина приложений, и поэтому этот шаг должен быть сделан пользователем перед его загрузкой в приложение Microsoft Defender для конечной точки.
 
-- Дополнительные сведения о назначении лицензий см. в дополнительных сведениях о назначении [лицензий пользователям.](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign)
+- Дополнительные сведения о назначении лицензий см. в дополнительных сведениях о назначении [лицензий пользователям.](/azure/active-directory/users-groups-roles/licensing-groups-assign)
 
 **Для администраторов**
 
 - Доступ к порталу Центр безопасности в Microsoft Defender.
 
     > [!NOTE]
-    > Microsoft Intune это единственное поддерживаемое решение управления мобильными устройствами (MDM) для развертывания Microsoft Defender для конечной точки на iOS. В настоящее время поддерживаются только зарегистрированные устройства для принудительного выполнения Defender для конечной точки в политиках соответствия требованиям к устройствам iOS в Intune.
+    > Microsoft Intune является единственным поддерживаемым решением единой конечной точки управления (UEM) для развертывания Microsoft Defender для конечной точки и принудительного обеспечения политики соответствия требованиям к устройствам, связанным с Endpoint, в Intune.
 
 - Доступ к [Microsoft Endpoint Manager центра администрирования,](https://go.microsoft.com/fwlink/?linkid=2109431)чтобы развернуть приложение для зарегистрированных групп пользователей в вашей организации.
 
@@ -68,12 +68,9 @@ ms.locfileid: "52694465"
 
 - Устройство записуется с [приложением Корпоративный портал Intune.](https://apps.apple.com/us/app/intune-company-portal/id719171358)
 
-> [!NOTE]
-> **Microsoft Defender для конечной точки на iOS доступен в [Apple App Store.](https://aka.ms/mdatpiosappstore)**
-
 ## <a name="installation-instructions"></a>Инструкции по установке
 
-Развертывание Microsoft Defender для конечной точки на iOS осуществляется с Microsoft Intune (MDM), и поддерживаются как контролируемые, так и неконтролные устройства.
+Развертывание Microsoft Defender для конечной точки на iOS осуществляется с Microsoft Intune (MDM), и поддерживаются как контролируемые, так и неконтролные устройства. Конечные пользователи также могут напрямую установить приложение из [магазина приложений Apple.](https://aka.ms/mdatpiosappstore)
 Дополнительные сведения см. в [сайте Deploy Microsoft Defender for Endpoint on iOS.](ios-install.md)
 
 ## <a name="resources"></a>Ресурсы
@@ -82,7 +79,7 @@ ms.locfileid: "52694465"
 
 - Предоставление обратной связи через систему обратной связи в приложении или через [портал SecOps](https://securitycenter.microsoft.com)
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 - [Развертывание Microsoft Defender для конечной точки на iOS](ios-install.md)
 - [Настройка Microsoft Defender для конечной точки для функций iOS](ios-configure-features.md)

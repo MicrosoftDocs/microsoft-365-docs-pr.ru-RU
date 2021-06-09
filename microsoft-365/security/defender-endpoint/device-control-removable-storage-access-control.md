@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 018bc3549cd7a25df5bdd86d98d351e19027c31f
-ms.sourcegitcommit: bce733c1152dfbca782e716579074261e3c2ef65
+ms.openlocfilehash: fba74990d8e4465f957acda83e66e1dc43a317e8
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796034"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841190"
 ---
 # <a name="microsoft-defender-for-endpoint-device-control-removable-storage-access-control"></a>Microsoft Defender для управления конечными точками управления устройствами, служба хранилища управления доступом
 
@@ -68,7 +68,7 @@ Microsoft Defender для управления конечными устройс
         - CdRomDevices
     - DeviceId
     - HardwareId
-    - InstancePathId: InstancePathId — это строка, которая однозначно идентифицирует устройство в системе, например USBSTOR\DISK&VEN_GENERIC&PROD_FLASH_DISK&REV_8.07\8735B611&0. Номер в конце **(например,&0)** представляет avaliable слот и может изменяться с устройства на устройство. Для наилучших результатов используйте под диктовую карточку в конце. Например, USBSTOR\DISK&VEN_GENERIC&PROD_FLASH_DISK&REV_8.07\8735B611*
+    - InstancePathId: InstancePathId — это строка, которая однозначно идентифицирует устройство в системе, например USBSTOR\DISK&VEN_GENERIC&PROD_FLASH_DISK&REV_8.07\8735B611&0. Номер в конце **(например,&0)** представляет доступный слот и может изменяться с устройства на устройство. Для наилучших результатов используйте под диктовую карточку в конце. Например, USBSTOR\DISK&VEN_GENERIC&PROD_FLASH_DISK&REV_8.07\8735B611*
     - FriendlyNameId
     - SerialNumberId
     - VID
@@ -196,7 +196,7 @@ Microsoft Defender для управления конечными устройс
 
 ### <a name="licensing"></a>Лицензирование
 
-Перед началом работы со съемными служба хранилища управления доступом необходимо подтвердить Microsoft 365 [подписку.](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=2) Для доступа и использования съемных служба хранилища управления доступом необходимо иметь Microsoft 365 E3.
+Перед началом работы со съемными служба хранилища управления доступом необходимо подтвердить Microsoft 365 [подписку.](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=2) Для доступа и использования служба хранилища управления доступом необходимо иметь Microsoft 365 E3 или Microsoft 365 E5.
 
 ### <a name="deploying-policy-via-group-policy"></a>Развертывание политики с помощью групповой политики
 
@@ -226,7 +226,7 @@ Microsoft Defender для управления конечными устройс
 
 ### <a name="licensing"></a>Лицензирование
 
-Перед началом работы со съемными служба хранилища управления доступом необходимо подтвердить Microsoft 365 [подписку.](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=2) Для доступа и использования съемных служба хранилища управления доступом необходимо иметь Microsoft 365 E3.
+Перед началом работы со съемными служба хранилища управления доступом необходимо подтвердить Microsoft 365 [подписку.](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=2) Для доступа и использования служба хранилища управления доступом необходимо иметь Microsoft 365 E3 или Microsoft 365 E5.
 
 ### <a name="permission"></a>Разрешение
 
@@ -265,11 +265,11 @@ Microsoft Defender для управления конечными устройс
 
     - Тип данных: String (XML-файл)
 
-      :::image type="content" source="images/xml-data-type-string-2.png" alt-text="Отображение XML-файла для типа данных STRING":::
+      :::image type="content" source="images/xml-data-type-string-2.png" lightbox="images/xml-data-type-string-2.png" alt-text="Отображение XML-файла для типа данных STRING":::
 
 ## <a name="deploying-and-managing-policy-by-using-intune-user-interface"></a>Развертывание и управление политикой с помощью пользовательского интерфейса Intune
 
-Эта возможность еще недоступна. 
+Эта возможность (в центре администрирования Microsoft Endpoint Manager (> Устройства > Профили конфигурации > Создание профиля > Платформа: Windows 10 и более поздние https://endpoint.microsoft.com/) & Profile: Device Control) еще недоступна. 
 
 ## <a name="view-device-control-removable-storage-access-control-data-in-microsoft-defender-for-endpoint"></a>Просмотр съемных данных управления устройствами служба хранилища управления доступом в Microsoft Defender для конечной точки
 
@@ -277,7 +277,7 @@ Microsoft Defender для управления конечными устройс
 
 - Microsoft 365 отчетов по E5
 
-```
+```kusto
 //events triggered by RemovableStoragePolicyTriggered
 DeviceEvents
 | where ActionType == &quot;RemovableStoragePolicyTriggered&quot; 

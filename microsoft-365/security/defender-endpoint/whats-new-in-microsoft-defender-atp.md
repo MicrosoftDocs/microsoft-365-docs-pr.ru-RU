@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 28d956e11b4ea26cbc816c4c3c0d915ec18c5810
-ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
+ms.openlocfilehash: e87a7423d6d69968bdf4224938e10799dcb89d1b
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52782973"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844194"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint"></a>Новые возможности Microsoft Defender для конечной точки
 
@@ -43,7 +43,7 @@ ms.locfileid: "52782973"
 > RSS-канал. Получите уведомление об обновлении этой страницы путем копирования и вклейки следующего URL-адреса в читателя каналов: 
 > 
 > ```https
-> https://docs.microsoft.com/api/search/rss?search=%22features+are+generally+available+%28GA%29+in+the+latest+release+of+Microsoft+Defender+for+Endpoint%22&locale=en-us&facet=
+> /api/search/rss?search=%22features+are+generally+available+%28GA%29+in+the+latest+release+of+Microsoft+Defender+for+Endpoint%22&locale=en-us&facet=
 > ```
 
 ## <a name="march-2021"></a>Март 2021 г.

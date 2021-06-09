@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 1b769c1b3e4201802ea6150358568bf57894d305
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: b8e15f27ffe4babe730870fb576980c62cb0fd59
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185815"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844041"
 ---
-# <a name="troubleshoot-subscription-and-portal-access-issues"></a>Устранение неполадок с подпиской и доступом на портал
+# <a name="troubleshoot-subscription-and-portal-access-issues"></a>Устранение неполадок доступа к подписке и порталу.
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -35,17 +35,17 @@ ms.locfileid: "51185815"
 
 На этой странице подробно описаны действия по устранению неполадок, которые могут возникнуть при настройке службы Microsoft Defender для конечных точек.
 
-Если вы получите сообщение об ошибке, Центр безопасности Защитника Майкрософт предоставит подробные пояснения о том, что такое проблема, и будут предоставлены соответствующие ссылки.
+Если вы получите сообщение об ошибке, Центр безопасности в Microsoft Defender подробно разъяснение о том, что такое проблема и будут предоставлены соответствующие ссылки.
 
 ## <a name="no-subscriptions-found"></a>Подписки не найдены
 
-Если при доступе к Центру  безопасности Microsoft Defender вы получаете сообщение Без подписок, это означает, что Azure Active Directory (Azure AD), используемый для входа пользователя на портал, не имеет лицензии Microsoft Defender для конечных точек.
+Если при доступе к Центр безопасности в Microsoft Defender  вы получаете найденное сообщение без подписок, это означает, что Azure Active Directory (Azure AD), используемая для входа пользователя на портал, не имеет лицензии Microsoft Defender для конечной точки.
 
 Возможные причины:
-- Лицензии Windows E5 и Office E5 - это две разные лицензии.
+- Лицензии Windows E5 и Office E5 — это две отдельные лицензии.
 - Лицензия была приобретена, но не была предусмотрена для этого экземпляра Azure AD.
     - Это может быть проблема с подготовкаю лицензии.
-    - Это может быть случайное предоставление лицензии другому Microsoft Azure AD, чем лицензия, используемая для проверки подлинности в службе.
+    - Это может быть случайное предоставление лицензии другому Microsoft Azure AD, чем лицензия, используемая для проверки подлинности в службу.
 
 В обоих случаях следует обратиться в службу поддержки Майкрософт в [Службу](https://support.microsoft.com/getsupport?wf=0&tenant=ClassicCommercial&oaspworkflow=start_1.0.0.0&locale=en-us&supportregion=en-us&pesid=16055&ccsid=636419533611396913) поддержки конечных точек или поддержку [лицензий на объем.](https://www.microsoft.com/licensing/servicecenter/Help/Contact.aspx)
 
@@ -53,7 +53,7 @@ ms.locfileid: "51185815"
 
 ## <a name="your-subscription-has-expired"></a>Срок действия подписки истек
 
-Если при доступе к Центру  безопасности Microsoft Defender вы получаете сообщение с истекшим сроком действия подписки, срок действия подписки на службу в Интернете истек. Подписка Microsoft Defender для конечной точки, как и любая другая подписка на онлайн-службу, имеет срок действия. 
+Если при доступе к Центр безопасности в Microsoft Defender  вы получаете сообщение с истекшим сроком действия подписки, срок действия подписки на онлайн-службу истек. Подписка Microsoft Defender для конечной точки, как и любая другая подписка на онлайн-службу, имеет срок действия. 
 
 Вы можете продлить или продлить лицензию в любой момент времени. При доступе к порталу  по истечении срока действия подписки будет представлено сообщение с возможностью скачивания пакета offboarding устройства, если вы решите не продлевать лицензию.
 
@@ -65,7 +65,7 @@ ms.locfileid: "51185815"
 ## <a name="you-are-not-authorized-to-access-the-portal"></a>Доступ к порталу не разрешен
 
 Если вы получаете средство, не уполномоченное получать доступ к порталу, следует помнить, что Microsoft Defender for Endpoint — это продукт мониторинга безопасности, расследования инцидентов и реагирования, поэтому доступ к нему ограничен и контролируется пользователем.
-Дополнительные сведения см. в [**ссылке Назначение доступа пользователей к порталу.**](https://docs.microsoft.com/windows/threat-protection/windows-defender-atp/assign-portal-access-windows-defender-advanced-threat-protection)
+Дополнительные сведения см. в [**ссылке Назначение доступа пользователей к порталу.**](/windows/threat-protection/windows-defender-atp/assign-portal-access-windows-defender-advanced-threat-protection)
 
 ![Изображение не авторизованного портала доступа](images/atp-not-authorized-to-access-portal.png)
 

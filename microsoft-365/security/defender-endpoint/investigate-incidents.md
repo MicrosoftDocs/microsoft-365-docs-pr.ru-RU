@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 1d8f4452273047684a30db3b18d1281f40f46378
-ms.sourcegitcommit: 13ce4b31303a1a21ca53700a54bcf8d91ad2f8c1
+ms.openlocfilehash: 0b52b6f9b457dbe1a5984c3d68c7077f7037d498
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51903302"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52845082"
 ---
 # <a name="investigate-incidents-in-microsoft-defender-for-endpoint"></a>Расследование инцидентов в Microsoft Defender для конечной точки
 
@@ -83,7 +83,7 @@ Microsoft Defender для конечной точки автоматически
 Microsoft Defender для конечной точки агрегируется сведения об угрозах в инцидент, чтобы вы могли видеть шаблоны и корреляции, исходящую из различных точек данных. Такую корреляцию можно просмотреть с помощью диаграммы инцидентов.
 
 ### <a name="incident-graph"></a>График инцидентов
-В **графе** рассказывается история атаки на кибербезопасность. Например, он показывает, что было точкой входа, какой индикатор компромисса или активности был замечен на каком устройстве. и т.д.
+В **Graph** рассказывается история атаки на кибербезопасность. Например, он показывает, что было точкой входа, какой индикатор компромисса или активности был замечен на каком устройстве. и т.д.
 
 ![Изображение диаграммы инцидентов](images/atp-incident-graph-tab.png)
 
@@ -91,7 +91,7 @@ Microsoft Defender для конечной точки агрегируется �
 
 ![Изображение сведений об инцидентах](images/atp-incident-graph-details.png)
 
-## <a name="related-topics"></a>Похожие темы
-- [Очередь инцидентов](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/view-incidents-queue)
-- [Расследование инцидентов в Microsoft Defender для конечной точки](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/investigate-incidents)
-- [Управление microsoft Defender для инцидентов конечной точки](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/manage-incidents)
+## <a name="related-topics"></a>Статьи по теме
+- [Очередь инцидентов](/microsoft-365/security/defender-endpoint/view-incidents-queue)
+- [Расследование инцидентов в Microsoft Defender для конечной точки](/microsoft-365/security/defender-endpoint/investigate-incidents)
+- [Управление microsoft Defender для инцидентов конечной точки](/microsoft-365/security/defender-endpoint/manage-incidents)

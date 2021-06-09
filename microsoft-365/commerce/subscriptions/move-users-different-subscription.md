@@ -20,12 +20,12 @@ ms.custom:
 search.appverid: MET150
 description: Узнайте, как перемещать пользователей между подписками.
 ms.date: 07/01/2020
-ms.openlocfilehash: 0261ee15d16e895cb2552320097d8e6b396d5220
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 96ae6a589469004f2479edb2a4f8ed384b25f841
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52333210"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52822085"
 ---
 # <a name="move-users-to-a-different-subscription"></a>Перевод пользователей на другую подписку
 
@@ -67,7 +67,7 @@ ms.locfileid: "52333210"
 
 Если вы не собираетесь перенаходить неиспользование лицензий другим [](../../commerce/licenses/buy-licenses.md) [пользователям,](../../managed-desktop/get-started/assign-licenses.md)рассмотрите возможность удаления лицензий из подписки, чтобы не платить за больше лицензий, чем нужно.
 
-## <a name="related-content"></a>Связанные материалы
+## <a name="related-content"></a>См. также:
 
 [Назначение лицензий пользователям](../../admin/manage/assign-licenses-to-users.md) (статья)\
 [Удаление лицензий из подписки](../licenses/buy-licenses.md) (статья)\

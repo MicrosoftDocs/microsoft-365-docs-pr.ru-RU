@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 7ed7390f67747d176145bb051d8b1633a7146a23
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: d0cb4a3d01c1380f4fd06999c8f81a4054e2fd00
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730814"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844434"
 ---
 # <a name="onboard-previous-versions-of-windows"></a>Подключение предыдущих версий Windows
 
@@ -59,7 +59,7 @@ Defender for Endpoint интегрируется с System Center Endpoint Prote
 Чтобы включить эту интеграцию, необходимы следующие действия: 
 - Установка обновления платформы от вредоносных программ в январе [2017 г. для](https://support.microsoft.com/help/3209361/january-2017-anti-malware-platform-update-for-endpoint-protection-clie) Endpoint Protection клиентов 
 - Настройка членства клиентской службы облачной защиты SCEP в **расширенный** параметр
-- Настройте сеть, чтобы разрешить подключение к облачному антивирусная программа в Microsoft Defender. Дополнительные сведения см. [в дополнительных сведениях о](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/configure-network-connections-microsoft-defender-antivirus#allow-connections-to-the-microsoft-defender-antivirus-cloud) том, как разрешить подключение к антивирусная программа в Microsoft Defender облаку
+- Настройте сеть, чтобы разрешить подключение к облачному антивирусная программа в Microsoft Defender. Дополнительные сведения см. [в дополнительных сведениях о](/windows/security/threat-protection/microsoft-defender-antivirus/configure-network-connections-microsoft-defender-antivirus#allow-connections-to-the-microsoft-defender-antivirus-cloud) том, как разрешить подключение к антивирусная программа в Microsoft Defender облаку
 
 ## <a name="install-and-configure-microsoft-monitoring-agent-mma-to-report-sensor-data-to-microsoft-defender-for-endpoint"></a>Установка и настройка Microsoft Monitoring Agent (MMA) для передачи данных датчиков в Microsoft Defender для конечной точки
 
@@ -90,10 +90,10 @@ Defender for Endpoint интегрируется с System Center Endpoint Prote
    - Копирование ID рабочего пространства и ключа рабочего пространства
 
 3. С помощью ID рабочего пространства и клавиши Workspace выберите любой из следующих методов установки для установки агента:
-    - [Установка агента вручную с помощью установки.](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#install-agent-using-setup-wizard) <br>
+    - [Установка агента вручную с помощью установки.](/azure/log-analytics/log-analytics-windows-agents#install-agent-using-setup-wizard) <br>
       На странице **Параметры настройки** агентов выберите Подключение **агента в Azure Log Analytics (OMS)**
-    - [Установите агента с помощью командной строки.](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#install-agent-using-command-line)
-    - [Настройка агента с помощью скрипта](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#install-agent-using-dsc-in-azure-automation).
+    - [Установите агента с помощью командной строки.](/azure/log-analytics/log-analytics-windows-agents#install-agent-using-command-line)
+    - [Настройка агента с помощью скрипта](/azure/log-analytics/log-analytics-windows-agents#install-agent-using-dsc-in-azure-automation).
 
    > [!NOTE]
    > Если вы клиент правительства [США,](gov.md)в статье "Azure Cloud" необходимо выбрать параметр "Azure US Government", если используется мастер установки, или если используется командная строка или сценарий, задан параметр "OPINSIGHTS_WORKSPACE_AZURE_CLOUD_TYPE" до 1.
@@ -104,8 +104,8 @@ Defender for Endpoint интегрируется с System Center Endpoint Prote
 
 ### <a name="configure-proxy-and-internet-connectivity-settings"></a>Настройка параметров прокси-сервера и соединения с Интернетом
  
-- Каждая Windows конечная точка должна иметь возможность подключения к Интернету с помощью HTTPS. Это подключение может быть прямым, с помощью прокси или через [шлюз OMS.](https://docs.microsoft.com/azure/log-analytics/log-analytics-oms-gateway)
-- Если прокси-сервер или брандмауэр блокируют весь трафик по умолчанию и позволяют просматривать только определенные домены или проверку HTTPS (проверка SSL), убедитесь, что вы включаете доступ к URL-адресам службы [Defender для](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/configure-proxy-internet#enable-access-to-microsoft-defender-atp-service-urls-in-the-proxy-server)конечных точек.
+- Каждая Windows конечная точка должна иметь возможность подключения к Интернету с помощью HTTPS. Это подключение может быть прямым, с помощью прокси или через [шлюз OMS.](/azure/log-analytics/log-analytics-oms-gateway)
+- Если прокси-сервер или брандмауэр блокируют весь трафик по умолчанию и позволяют просматривать только определенные домены или проверку HTTPS (проверка SSL), убедитесь, что вы включаете доступ к URL-адресам службы [Defender для](/microsoft-365/security/defender-endpoint/configure-proxy-internet#enable-access-to-microsoft-defender-atp-service-urls-in-the-proxy-server)конечных точек.
 
 ## <a name="offboard-client-endpoints"></a>Конечные точки клиента offboard
 Для отключения можно удалить агента ММА из конечной точки или отсоединить его от отчетности в рабочее пространство Defender для конечной точки. После отключения агента конечная точка больше не будет отправлять данные датчика в Defender для конечной точки. 

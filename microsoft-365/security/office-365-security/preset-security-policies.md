@@ -15,12 +15,12 @@ ms.collection:
 description: Администраторы могут узнать, как применять стандартные и строгие параметры политики для Exchange Online Protection (EOP) и Microsoft Defender для Office 365
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ca0b8b8dd879f3f662c96f1527bca13efbe5ef6c
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 244364b423ee633a9131aabf93b5fc1e7cf756c0
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52771229"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52822290"
 ---
 # <a name="preset-security-policies-in-eop-and-microsoft-defender-for-office-365"></a>Предустановленные политики безопасности в EOP и Microsoft Defender для Office 365
 
@@ -105,7 +105,7 @@ ms.locfileid: "52771229"
 
 ### <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
-- Вы открываете центр Microsoft 365 безопасности по <https://security.microsoft.com/> . Чтобы перейти непосредственно на страницу политики безопасности **preset,** используйте <https://security.microsoft.com/presetSecurityPolicies> .
+- Вы открываете центр Microsoft 365 безопасности по <https://security.microsoft.com> . Чтобы перейти непосредственно на страницу политики безопасности **preset,** используйте <https://security.microsoft.com/presetSecurityPolicies> .
 
 - Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
 
@@ -119,7 +119,7 @@ ms.locfileid: "52771229"
 
 ### <a name="use-the-security-center-to-assign-preset-security-policies-to-users"></a>Используйте центр безопасности, чтобы назначить пользователям заранее задатки политики безопасности.
 
-1. В центре безопасности перейдите на электронную **почту & политики** совместной & правила политики безопасности \>  \>  \> **предустановлены.**
+1. В центре безопасности перейдите к разделу Политики **совместной &** электронной почты & политики шаблонных политик правил предустановленной \>  \>  \>  \> **политики безопасности**.
 
 2. В **соответствии со стандартной защитой** или **строгой защитой** нажмите **кнопку Изменить**.
 

@@ -19,12 +19,12 @@ ms.assetid: ''
 description: Узнайте об основных действиях по устранению неполадок, которые можно предпринять для решения распространенных проблем в Office 365 eDiscovery.
 siblings_only: true
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 26ca41774e1e09619fdf5e518258f8acf3a9d938
-ms.sourcegitcommit: e1e275eb88153bafddf93327adf8f82318913a8d
+ms.openlocfilehash: 28c092cefbdd8add46d3f36aa118e230d16a918a
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 06/08/2021
-ms.locfileid: "52809123"
+ms.locfileid: "52822242"
 ---
 # <a name="investigate-troubleshoot-and-resolve-common-ediscovery-issues"></a>Изучение, устранение неполадок и устранение распространенных проблем с электронным открытием
 
@@ -226,7 +226,7 @@ ms.locfileid: "52809123"
 
 1. Попробуйте скачать с помощью другого клиента или компьютера.
 
-2. Удалите старые поиски, которые больше не нужны с помощью командлета [Remove-ComplianceSearch][/powershell/module/exchange/remove-compliancesearch].
+2. Удалите старые поиски, которые больше не нужны с помощью [cmdlet Remove-ComplianceSearch.](/powershell/module/exchange/remove-compliancesearch)
 
 3. Не забудьте скачать на локальный диск.
 

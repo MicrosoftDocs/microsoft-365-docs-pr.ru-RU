@@ -1,6 +1,6 @@
 ---
-title: Onboard Windows servers to the Microsoft Defender for Endpoint service
-description: На борту серверов Windows, чтобы они могли отправлять данные датчиков в датчик Microsoft Defender для конечной точки.
+title: На Windows серверов службы Microsoft Defender для конечных точек
+description: На Windows серверов, чтобы они могли отправлять данные датчиков в датчик Microsoft Defender для конечной точки.
 keywords: бортовой сервер, сервер, 2012r2, 2016, 2019, бортовой сервер, управление устройствами, настройка Microsoft Defender для серверов конечных точек, на борту серверов Microsoft Defender для конечных точек, на борту серверов Microsoft Defender для серверов endpoint
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 17aca5fb388aef26504902ee63b22410420c8827
-ms.sourcegitcommit: 7cc2be0244fcc30049351e35c25369cacaaf4ca9
+ms.openlocfilehash: 47d57e51eca4950f7a8f4284fbc916e9d030b2c7
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51952492"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844338"
 ---
-# <a name="onboard-windows-servers-to-the-microsoft-defender-for-endpoint-service"></a>Onboard Windows servers to the Microsoft Defender for Endpoint service
+# <a name="onboard-windows-servers-to-the-microsoft-defender-for-endpoint-service"></a>На Windows серверов службы Microsoft Defender для конечных точек
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -32,43 +32,43 @@ ms.locfileid: "51952492"
 - Windows Server 2008 R2 с пакетом обновления 1 (SP1)
 - Windows Server 2012 R2
 - Windows Server 2016
-- Windows Server (SAC) версии 1803 и более поздней версии
+- Windows Версия 1803 Server (SAC) и более поздней версии
 - Windows Server 2019 и более поздний
-- Основной выпуск Windows Server 2019
+- Windows Основное издание Server 2019
 
 > Хотите испытать Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configserver-abovefoldlink)
 
-Defender for Endpoint расширяет поддержку и включает операционную систему Windows Server. Эта поддержка обеспечивает расширенные возможности обнаружения и расследования атак с помощью консоли Центра безопасности Защитника Майкрософт.
+Defender for Endpoint расширяет поддержку и включает операционную Windows Server. Эта поддержка обеспечивает расширенные возможности обнаружения и расследования атак с помощью консоли Центр безопасности в Microsoft Defender.
 
-Практические рекомендации по вопросам лицензирования и инфраструктуры см. в статью Защита [Windows Servers с защитником для конечной точки.](https://techcommunity.microsoft.com/t5/What-s-New/Protecting-Windows-Server-with-Windows-Defender-ATP/m-p/267114#M128)
+Практические рекомендации по вопросам лицензирования и инфраструктуры см. в Windows [Servers with Defender for Endpoint.](https://techcommunity.microsoft.com/t5/What-s-New/Protecting-Windows-Server-with-Windows-Defender-ATP/m-p/267114#M128)
 
-Инструкции по загрузке и использованию базовых показателей безопасности Windows для серверов Windows см. в этой [ссылке.](https://docs.microsoft.com/windows/device-security/windows-security-baselines)
+Руководство по загрузке и использованию Безопасность Windows базовых данных для Windows серверов см. в Безопасность Windows [Baselines.](/windows/device-security/windows-security-baselines)
 
-## <a name="windows-server-2008-r2-sp1-windows-server-2012-r2-and-windows-server-2016"></a>Windows Server 2008 R2 SP1, Windows Server 2012 R2 и Windows Server 2016
+## <a name="windows-server-2008-r2-sp1-windows-server-2012-r2-and-windows-server-2016"></a>Windows Сервер 2008 R2 SP1, Windows Server 2012 R2 и Windows Server 2016
 
-Вы можете использовать Windows Server 2008 R2 SP1, Windows Server 2012 R2 и Windows Server 2016 в Defender для конечной точки с помощью любого из следующих вариантов:
+Вы можете использовать Windows 2008 R2 SP1, Windows Server 2012 R2 и Windows Server 2016 Defender для конечной точки с помощью любого из следующих вариантов:
 
-- **Вариант 1.** Установка и настройка [агента мониторинга Майкрософт (MMA)](#option-1-onboard-by-installing-and-configuring-microsoft-monitoring-agent-mma) на борту
+- **Вариант 1.** На борту путем установки и настройки Microsoft Monitoring Agent [(MMA)](#option-1-onboard-by-installing-and-configuring-microsoft-monitoring-agent-mma)
 - **Вариант 2.** [На борту через Центр безопасности Azure](#option-2-onboard-windows-servers-through-azure-security-center)
-- **Вариант 3.** [На борту через Microsoft Endpoint Manager версии 2002 и более поздней версии](#option-3-onboard-windows-servers-through-microsoft-endpoint-manager-version-2002-and-later)
+- **Вариант 3.** [На борту Microsoft Endpoint Manager версии 2002 и более поздней версии](#option-3-onboard-windows-servers-through-microsoft-endpoint-manager-version-2002-and-later)
 
-После выполнения действий по настройке и обновлению клиенты [System Center Endpoint Protection](#configure-and-update-system-center-endpoint-protection-clients)необходимо настроить и обновить.
+После выполнения действий по вмеяниям с помощью любого из предоставленных параметров необходимо настроить и обновить System Center Endpoint Protection [клиентов.](#configure-and-update-system-center-endpoint-protection-clients)
 
 > [!NOTE]
-> Защитник для автономных серверов Конечной точки требуется для каждого узла для того, чтобы на борту сервера Windows через агента мониторинга Майкрософт (вариант 1) или через Microsoft Endpoint Manager (вариант 3). Кроме того, требуется лицензия Azure Defender for Servers для каждого узла для того, чтобы на борту сервера Windows через Центр безопасности Azure (вариант 2) см. поддерживаемые функции, доступные в [Azure Defender.](https://docs.microsoft.com/azure/security-center/security-center-services)
+> Для каждого узла требуется лицензия defender для автономных серверов endpoint для Windows сервера через Microsoft Monitoring Agent (вариант 1) или Microsoft Endpoint Manager (вариант 3). Кроме того, требуется лицензия Azure Defender for Servers для каждого узла для того, чтобы на борту сервера Windows через Центр безопасности Azure (вариант 2), см. поддерживаемые функции, доступные в [Azure Defender.](/azure/security-center/security-center-services)
 
-### <a name="option-1-onboard-by-installing-and-configuring-microsoft-monitoring-agent-mma"></a>Вариант 1. На борту путем установки и настройки агента мониторинга Майкрософт (MMA)
+### <a name="option-1-onboard-by-installing-and-configuring-microsoft-monitoring-agent-mma"></a>Вариант 1. На борту путем установки и настройки Microsoft Monitoring Agent (MMA)
 
-Для передачи данных датчиков в Defender для конечной точки необходимо установить и настроить MMA для серверов Windows. Дополнительные сведения см. в [журнале Collect data with Azure Log Analytics agent.](https://docs.microsoft.com/azure/azure-monitor/platform/log-analytics-agent)
+Вам потребуется установить и настроить MMA для Windows серверов для передачи данных датчиков в Defender для конечной точки. Дополнительные сведения см. в [журнале Collect data with Azure Log Analytics agent.](/azure/azure-monitor/platform/log-analytics-agent)
 
-Если вы уже используете system Center Operations Manager (SCOM) или Azure Monitor (ранее известный как Пакет управления операциями (OMS)), прикрепите агент мониторинга Майкрософт (MMA) для отчета в рабочее пространство Defender для конечной точки с помощью поддержки multihoming.
+Если вы уже используете System Center диспетчера операций (SCOM) или Azure Monitor (ранее известный как Пакет управления операциями (OMS)), прикрепите Microsoft Monitoring Agent (MMA) для отчета в рабочее пространство Defender for Endpoint с помощью поддержки multihoming.
 
 В общем, необходимо предпринять следующие действия:
 
 1. Выполните требования к вмеяниям, описанным в **разделе Перед началом** работы.
 2. Включим мониторинг сервера в центре безопасности Microsoft Defender.
 3. Установка и настройка ммА для сервера для передачи данных датчиков в Defender для конечной точки.
-4. Настройка и обновление клиентов system Center Endpoint Protection.
+4. Настройка и обновление System Center Endpoint Protection клиентов.
 
 > [!TIP]
 > После работы с устройством можно выполнить тест обнаружения, чтобы убедиться, что оно правильно вложено в службу. Дополнительные сведения см. в сайте [Run a detection test on a newly onboarded Defender for Endpoint endpoint.](run-detection-test.md)
@@ -87,65 +87,65 @@ Defender for Endpoint расширяет поддержку и включает 
 - Установка [либо .NET framework 4.5 (или](https://www.microsoft.com/download/details.aspx?id=30653) более поздней) или [KB3154518](https://support.microsoft.com/help/3154518/support-for-tls-system-default-versions-included-in-the-net-framework)
 
     > [!NOTE]
-    > Если вы управляете Windows Server 2008 R2 sp1 с SCCM, клиентский агент SCCM устанавливает .Net Framework 4.5.2. Поэтому вам не нужно устанавливать фреймворк .NET 4.5 (или более поздний).
+    > Если вы управляете сервером Windows 2008 R2 SP1 с SCCM, клиентский агент SCCM устанавливает .Net Framework 4.5.2. Поэтому вам не нужно устанавливать фреймворк .NET 4.5 (или более поздний).
 
-Для Windows Server 2008 R2 SP1 и Windows Server 2012 R2: Настройка и обновление клиентов system [Center Endpoint Protection.](#configure-and-update-system-center-endpoint-protection-clients)
+Для Windows 2008 R2 SP1 и Windows Server 2012 R2: Настройка и обновление System Center Endpoint Protection [клиентов](#configure-and-update-system-center-endpoint-protection-clients).
 
 > [!NOTE]
-> Этот шаг необходим только в том случае, если ваша организация использует защиту конечных точек System Center (SCEP) и вы Windows Server 2008 R2 SP1 и Windows Server 2012 R2.
+> Этот шаг необходим только в том случае, если ваша организация использует System Center Endpoint Protection (SCEP) и вы Windows Сервер 2008 R2 SP1 и Windows Server 2012 R2.
 
-### <a name="install-and-configure-microsoft-monitoring-agent-mma-to-report-sensor-data-to-microsoft-defender-for-endpoint"></a>Установка и настройка агента мониторинга Microsoft (MMA) для передачи данных датчиков в Microsoft Defender для конечной точки
+### <a name="install-and-configure-microsoft-monitoring-agent-mma-to-report-sensor-data-to-microsoft-defender-for-endpoint"></a>Установка и настройка Microsoft Monitoring Agent (MMA) для передачи данных датчиков в Microsoft Defender для конечной точки
 
-1. Скачайте файл установки агента: [агент Windows 64-bit](https://go.microsoft.com/fwlink/?LinkId=828603).
+1. Скачайте файл установки агента: [Windows 64-битного агента](https://go.microsoft.com/fwlink/?LinkId=828603).
 
-2. Используя ID рабочего пространства и ключ Workspace, полученный в предыдущей процедуре, выберите любой из следующих методов установки для установки агента на сервере Windows:
-    - [Установка агента вручную с помощью установки.](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#install-agent-using-setup-wizard) 
-    На странице **Параметры настройки агента** выберите Подключение агента **к Azure Log Analytics (OMS).**
-    - [Установите агента с помощью командной строки.](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#install-agent-using-command-line)
-    - [Настройка агента с помощью скрипта](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#install-agent-using-dsc-in-azure-automation).
+2. Используя ключ Workspace ID и workspace, полученный в предыдущей процедуре, выберите любой из следующих методов установки для установки агента на Windows сервере:
+    - [Установка агента вручную с помощью установки.](/azure/log-analytics/log-analytics-windows-agents#install-agent-using-setup-wizard) 
+    На странице **Параметры настройки** агентов **выберите Подключение агента в Azure Log Analytics (OMS).**
+    - [Установите агента с помощью командной строки.](/azure/log-analytics/log-analytics-windows-agents#install-agent-using-command-line)
+    - [Настройка агента с помощью скрипта](/azure/log-analytics/log-analytics-windows-agents#install-agent-using-dsc-in-azure-automation).
 
 > [!NOTE]
 > Если вы клиент правительства [США,](gov.md)в статье "Azure Cloud" необходимо выбрать параметр "Azure US Government", если используется мастер установки, или если используется командная строка или сценарий, задан параметр "OPINSIGHTS_WORKSPACE_AZURE_CLOUD_TYPE" до 1.
 
-### <a name="configure-windows-server-proxy-and-internet-connectivity-settings-if-needed"></a>Настройка параметров прокси-сервера Windows и подключения к Интернету при необходимости
+### <a name="configure-windows-server-proxy-and-internet-connectivity-settings-if-needed"></a>Настройка параметров прокси Windows сервера и подключения к Интернету при необходимости
 
 Если серверы должны использовать прокси-сервер для связи с Defender для конечной точки, используйте один из следующих методов, чтобы настроить ммА для использования прокси-сервера:
 
-- [Настройка ммА для использования прокси-сервера](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows#install-agent-using-setup-wizard)
+- [Настройка ммА для использования прокси-сервера](/azure/azure-monitor/platform/agent-windows#install-agent-using-setup-wizard)
 
 - [Настройка Windows для использования прокси-сервера для всех подключений](configure-proxy-internet.md)
 
 Если используется прокси-сервер или брандмауэр, убедитесь, что серверы могут получать доступ ко всем URL-адресам службы Microsoft Defender для конечных точек напрямую и без перехвата SSL. Дополнительные сведения см. в том, как включить доступ к URL-адресам [службы Defender для конечных точек.](configure-proxy-internet.md#enable-access-to-microsoft-defender-for-endpoint-service-urls-in-the-proxy-server) Использование перехвата SSL не позволит системе общаться со службой Защитник для конечных точек.
 
-После завершения работы в течение часа на портале должны быть открыты серверы Windows.
+После завершения работы в течение часа Windows серверы на портале.
 
-### <a name="option-2-onboard-windows-servers-through-azure-security-center"></a>Вариант 2. На борту серверов Windows через Центр безопасности Azure
+### <a name="option-2-onboard-windows-servers-through-azure-security-center"></a>Вариант 2. Серверы Windows через Центр безопасности Azure
 
-1. В области навигации Центра безопасности Microsoft Defender выберите **параметры** управления  >    >  **устройствами.**
+1. В области Центр безопасности в Microsoft Defender навигации выберите **Параметры**  >  **управления**  >  **устройствами.**
 
-2. Выберите **Windows Server 2008 R2 2012 R2 и 2016** в качестве операционной системы.
+2. Выберите **Windows 2008 R2 SP1, 2012 R2 и 2016** в качестве операционной системы.
 
 3. Нажмите **кнопку Onboard Servers в Центре безопасности Azure.**
 
-4. Следуйте инструкциям по интеграции в [Microsoft Defender для](https://docs.microsoft.com/azure/security-center/security-center-wdatp) конечной точки с помощью Azure Defender и Если вы используете Azure ARC, выполните инструкции по включению интеграции Microsoft Defender для конечной [точки.](https://docs.microsoft.com/azure/security-center/security-center-wdatp#enabling-the-microsoft-defender-for-endpoint-integration)
+4. Следуйте инструкциям по интеграции в [Microsoft Defender для](/azure/security-center/security-center-wdatp) конечной точки с помощью Azure Defender и Если вы используете Azure ARC, выполните инструкции по включению интеграции Microsoft Defender для конечной [точки.](/azure/security-center/security-center-wdatp#enabling-the-microsoft-defender-for-endpoint-integration)
 
-После выполнения действий по настройке и обновлению клиенты [System Center Endpoint Protection](#configure-and-update-system-center-endpoint-protection-clients)необходимо настроить и обновить.
+После выполнения действий по вмеяниям необходимо настроить и обновить System Center Endpoint Protection [клиентов.](#configure-and-update-system-center-endpoint-protection-clients)
 
 > [!NOTE]
 >
-> - Для работы с помощью Azure Defender для серверов серверы должны иметь соответствующее рабочее пространство и ключ, настроенный в параметрах Агент мониторинга Майкрософт (MMA).
+> - Чтобы работать с помощью Azure Defender для серверов, сервер должен иметь соответствующее рабочее пространство и ключ, настроенный в Microsoft Monitoring Agent (MMA).
 > - После настройки на компьютере развертывается соответствующий пакет управления облаками, а процесс сенсора (MsSenseS.exe) будет развернут и запущен.
 > - Это также необходимо, если сервер настроен на использование сервера шлюза OMS в качестве прокси-сервера.
 
-### <a name="option-3-onboard-windows-servers-through-microsoft-endpoint-manager-version-2002-and-later"></a>Вариант 3. На борту серверов Windows с помощью Microsoft Endpoint Manager версии 2002 и более поздней версии
+### <a name="option-3-onboard-windows-servers-through-microsoft-endpoint-manager-version-2002-and-later"></a>Вариант 3. Windows серверы через Microsoft Endpoint Manager версии 2002 и более поздней версии
 
-Вы можете использовать Windows Server 2012 R2 и Windows Server 2016 с помощью microsoft Endpoint Manager версии 2002 и более поздней версии. Дополнительные сведения см. в [веб-сайте Microsoft Defender for Endpoint в текущем](https://docs.microsoft.com/mem/configmgr/protect/deploy-use/defender-advanced-threat-protection)филиале Microsoft Endpoint Manager.
+Вы можете использовать Windows Server 2012 R2 и Windows Server 2016 с помощью Microsoft Endpoint Manager версии 2002 и более поздней версии. Дополнительные сведения см. [в веб-сайте Microsoft Defender for Endpoint в Microsoft Endpoint Manager текущей ветви.](/mem/configmgr/protect/deploy-use/defender-advanced-threat-protection)
 
-После выполнения действий по настройке и обновлению клиенты [System Center Endpoint Protection](#configure-and-update-system-center-endpoint-protection-clients)необходимо настроить и обновить.
+После выполнения действий по вмеяниям необходимо настроить и обновить System Center Endpoint Protection [клиентов.](#configure-and-update-system-center-endpoint-protection-clients)
 
-## <a name="windows-server-sac-version-1803-windows-server-2019-and-windows-server-2019-core-edition"></a>Windows Server (SAC) версии 1803, Windows Server 2019 и Windows Server 2019 Core edition
+## <a name="windows-server-sac-version-1803-windows-server-2019-and-windows-server-2019-core-edition"></a>Windows Версия 1803 server (SAC), Windows Server 2019 и Windows Server 2019 Core
 
-На борту Windows Server (SAC) версии 1803, Windows Server 2019 или Windows Server 2019 Core можно использовать следующие методы развертывания:
+Вы можете использовать Windows Server (SAC) версии 1803, Windows Server 2019 или Windows Server 2019 Core с помощью следующих методов развертывания:
 
 - [Локальный скрипт](configure-endpoints-script.md)
 - [Групповая политика](configure-endpoints-gp.md)
@@ -155,12 +155,12 @@ Defender for Endpoint расширяет поддержку и включает 
 
 > [!NOTE]
 >
-> - Пакет onboarding для Windows Server 2019 через Microsoft Endpoint Manager в настоящее время разнонаправленный скрипт. Дополнительные сведения о развертывании скриптов в Диспетчер конфигурации см. в тексте Пакеты и [программы в Configuration Manager.](https://docs.microsoft.com/configmgr/apps/deploy-use/packages-and-programs)
+> - Пакет onboarding для Windows Server 2019 через Microsoft Endpoint Manager в настоящее время отсыт скрипт. Дополнительные сведения о развертывании скриптов в Диспетчер конфигурации см. в тексте Пакеты и [программы в Configuration Manager.](/configmgr/apps/deploy-use/packages-and-programs)
 > - Локальный сценарий подходит для доказательства концепции, но не должен использоваться для развертывания производства. Для развертывания производства рекомендуется использовать групповую политику или Microsoft Endpoint Configuration Manager.
 
-Поддержка Windows Server обеспечивает более глубокое представление о действиях сервера, охвате обнаружения атак ядра и памяти, а также позволяет реагировать на действия.
+Поддержка Windows Server обеспечивает более глубокое представление о действиях сервера, освещении обнаружения атак ядра и памяти, а также позволяет реагировать на действия.
 
-1. Настройте параметры onboarding Defender для конечной точки на сервере Windows с помощью тех же инструментов и методов для устройств Windows 10. Дополнительные сведения см. [в таблице Onboard Windows 10 devices.](configure-endpoints.md)
+1. Настройте параметры onboarding Defender для конечной точки на Windows с помощью тех же средств и методов для Windows 10 устройств. Дополнительные сведения см. в [Windows 10 устройствах.](configure-endpoints.md)
 
 2. Если вы работаете с сторонним решением по борьбе с вредоносными программами, вам потребуется применить следующие параметры пассивного режима AV Microsoft Defender. Убедитесь, что она была настроена правильно:
 
@@ -184,57 +184,57 @@ Defender for Endpoint расширяет поддержку и включает 
 
    ```sc.exe query Windefend```
 
-    Если в результате "указанная служба не существует в качестве установленной службы", вам потребуется установить av Microsoft Defender. Дополнительные сведения см. в [антивирусе Microsoft Defender в Windows 10.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10)
+    Если в результате "указанная служба не существует в качестве установленной службы", вам потребуется установить av Microsoft Defender. Дополнительные сведения см. [в антивирусная программа в Microsoft Defender в Windows 10.](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10)
 
-    Сведения о том, как использовать групповую политику для настройки и управления антивирусом Microsoft Defender на серверах Windows, см. в см. в руб. Параметры групповой политики для настройки и управления антивирусом [Microsoft Defender.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/use-group-policy-microsoft-defender-antivirus)
+    Сведения об использовании групповой политики для настройки и управления антивирусная программа в Microsoft Defender на Windows серверах см. в этой Windows параметры [групповой политики](/windows/security/threat-protection/microsoft-defender-antivirus/use-group-policy-microsoft-defender-antivirus)для настройки и управления антивирусная программа в Microsoft Defender .
 
 ## <a name="integration-with-azure-defender"></a>Интеграция с Защитником Azure
 
-Defender for Endpoint может интегрироваться с Azure Defender, чтобы предоставить комплексное решение по защите серверов Windows. С помощью этой интеграции Azure Defender может использовать силу Defender для конечной точки, чтобы обеспечить улучшенное обнаружение угроз для Windows Servers.
+Защитник для конечной точки может интегрироваться с Azure Defender, чтобы предоставить комплексное решение Windows защиты сервера. С помощью этой интеграции Azure Defender может использовать силу Defender для конечной точки, чтобы обеспечить улучшенное обнаружение угрозы для Windows серверов.
 
 В эту интеграцию включены следующие возможности:
 
-- Автоматическая бортовая запись — датчик Defender для конечной точки автоматически включен на Серверах Windows, которые включены в Azure Defender. Дополнительные сведения о встроенной платформе Azure Defender см. в таблице Использование интегрированной лицензии [Microsoft Defender для конечных точек.](https://docs.microsoft.com/azure/security-center/security-center-wdatp)
+- Автоматическая бортовая система — датчик Defender для конечной точки автоматически включен на Windows серверах, которые находятся на борту в Azure Defender. Дополнительные сведения о встроенной платформе Azure Defender см. в таблице Использование интегрированной лицензии [Microsoft Defender для конечных точек.](/azure/security-center/security-center-wdatp)
 
     > [!NOTE]
-    > Интеграция Между Azure Defender для серверов и Microsoft Defender для конечной точки была расширена для поддержки [Windows Server 2019 и Windows Virtual Desktop (WVD).](https://docs.microsoft.com/azure/security-center/release-notes#microsoft-defender-for-endpoint-integration-with-azure-defender-now-supports-windows-server-2019-and-windows-10-virtual-desktop-wvd-in-preview)
+    > Интеграция между Azure Defender для серверов и Microsoft Defender для конечной точки была расширена для поддержки [Windows Server 2019](/azure/security-center/release-notes#microsoft-defender-for-endpoint-integration-with-azure-defender-now-supports-windows-server-2019-and-windows-10-virtual-desktop-wvd-in-preview)и Windows Виртуальный рабочий стол (WVD).
 
-- Серверы Windows, под наблюдением Azure Defender, также будут доступны в Защитнике для конечной точки . Azure Defender без проблем подключается к клиенту Defender для конечных точек, обеспечивая единое представление между клиентами и серверами.  Кроме того, оповещения Defender для конечной точки будут доступны в консоли Azure Defender.
-- Исследование сервера . Клиенты Azure Defender могут получить доступ к Центру безопасности Защитника Майкрософт, чтобы выполнить подробное исследование, чтобы выявить область потенциального нарушения.
+- Windows серверы, отслеживаемые Защитником Azure, также будут доступны в Defender for Endpoint — Azure Defender легко подключается к клиенту Defender для конечной точки, обеспечивая единое представление между клиентами и серверами.  Кроме того, оповещения Defender для конечной точки будут доступны в консоли Azure Defender.
+- Исследование сервера . Клиенты Azure Defender могут Центр безопасности в Microsoft Defender для выполнения подробного расследования, чтобы выявить область потенциального нарушения.
 
 > [!IMPORTANT]
 > - При использовании Azure Defender для мониторинга серверов автоматически создается клиент Defender для конечных точек (в США для пользователей США, в ЕС для европейских и британских пользователей).<br>
 Данные, собранные Defender для конечной точки, хранятся в географическом расположении клиента, как определено во время предварительной обработки.
 > - Если вы используете Defender для конечной точки перед использованием Azure Defender, ваши данные будут храниться в указанном вами расположении при создания клиента, даже если вы интегрируете с Azure Defender позднее.
 > - После настройки невозможно изменить расположение, в котором хранятся данные. Если необходимо переместить данные в другое расположение, необходимо обратиться в службу поддержки Майкрософт для сброса клиента. <br>
-Мониторинг конечной точки сервера с использованием этой интеграции отключен для клиентов GCC Office 365.
+Мониторинг конечной точки сервера с использованием этой интеграции отключен для Office 365 GCC клиентов.
 
-## <a name="configure-and-update-system-center-endpoint-protection-clients"></a>Настройка и обновление клиентов system Center Endpoint Protection
+## <a name="configure-and-update-system-center-endpoint-protection-clients"></a>Настройка и обновление System Center Endpoint Protection клиентов
 
-Защитник для конечной точки интегрируется с системой Center Endpoint Protection. Интеграция обеспечивает видимость обнаружения вредоносных программ и остановку распространения атаки в организации, запрещая потенциально вредоносные файлы или подозрительные вредоносные программы.
+Defender for Endpoint интегрируется с System Center Endpoint Protection. Интеграция обеспечивает видимость обнаружения вредоносных программ и остановку распространения атаки в организации, запрещая потенциально вредоносные файлы или подозрительные вредоносные программы.
 
 Чтобы включить эту интеграцию, необходимы следующие действия:
 
-- Установите обновление платформы защиты от вредоносных программ за январь [2017 г. для клиентов Endpoint Protection.](https://support.microsoft.com/help/3209361/january-2017-anti-malware-platform-update-for-endpoint-protection-clie)
+- Установите обновление платформы для антивирусных программ за январь [2017 г. для](https://support.microsoft.com/help/3209361/january-2017-anti-malware-platform-update-for-endpoint-protection-clie)Endpoint Protection клиентов.
 
-- [Настройка членства службы облачной защиты клиента SCEP в](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/enable-cloud-protection-microsoft-defender-antivirus) **параметре Advanced.**
+- [Настройка членства службы облачной защиты клиента SCEP в](/windows/security/threat-protection/microsoft-defender-antivirus/enable-cloud-protection-microsoft-defender-antivirus) **параметре Advanced.**
 
-## <a name="offboard-windows-servers"></a>Offboard Windows servers
+## <a name="offboard-windows-servers"></a>Offboard Windows серверов
 
-Вы можете отключить Windows Server (SAC), Windows Server 2019 и Windows Server 2019 Core в том же методе, который доступен для клиентских устройств Windows 10.
+Вы можете использовать Windows Server (SAC), Windows Server 2019 и Windows Server 2019 Core в том же методе, что и для Windows 10 клиентских устройств.
 
-Для других версий windows server у вас есть два варианта отключения серверов Windows от службы:
+Для других Windows серверных версий у вас есть два варианта отключения Windows серверов из службы:
 
 - Удалить агент MMA
 - Удаление конфигурации рабочего пространства Defender для конечной точки
 
 > [!NOTE]
-> Отключение приводит к тому, что сервер Windows перестает отправлять данные датчиков на портал, но данные с сервера Windows, включая ссылки на все оповещения, которые у него были, будут храниться до 6 месяцев.
+> Offboarding заставляет сервер Windows перестать отправлять данные датчиков на портал, но данные с Windows сервера, включая ссылки на все оповещения, которые у него были, будут храниться до 6 месяцев.
 
-### <a name="uninstall-windows-servers-by-uninstalling-the-mma-agent"></a>Удалить серверы Windows, отстранив агента MMA
+### <a name="uninstall-windows-servers-by-uninstalling-the-mma-agent"></a>Удалить Windows серверов, отстранив агента MMA
 
-Чтобы отключить сервер Windows, можно удалить агента ММА с сервера Windows или отсоедидить его от отчетности в рабочее пространство Defender для конечной точки. После отключения агента сервер Windows больше не будет отправлять данные датчиков в Defender для конечной точки.
-Дополнительные сведения см. в [статью Отключение агента.](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents#to-disable-an-agent)
+Чтобы отключить сервер Windows, вы можете удалить агента ММА с сервера Windows или отсоединить его от отчетности в рабочее пространство Defender для конечной точки. После отключения агента сервер Windows больше не будет отправлять данные датчиков в Defender для конечной точки.
+Дополнительные сведения см. в [статью Отключение агента.](/azure/log-analytics/log-analytics-windows-agents#to-disable-an-agent)
 
 ### <a name="remove-the-defender-for-endpoint-workspace-configuration"></a>Удаление конфигурации рабочего пространства Defender для конечной точки
 
@@ -245,21 +245,21 @@ Defender for Endpoint может интегрироваться с Azure Defende
 
 #### <a name="remove-the-defender-for-endpoint-workspace-configuration-from-the-mma-agent"></a>Удаление конфигурации рабочего пространства Defender для конечной точки из агента MMA
 
-1. В поле **Свойства агента мониторинга Майкрософт** выберите **вкладку Azure Log Analytics (OMS).**
+1. В Microsoft Monitoring Agent **свойства** выберите вкладку **Azure Log Analytics (OMS).**
 
 2. Выберите рабочее пространство Defender для конечной точки и нажмите кнопку **Удалить**.
 
-    ![Изображение свойств агентов мониторинга Майкрософт](images/atp-mma.png)
+    ![Изображение Microsoft Monitoring Agent свойств](images/atp-mma.png)
 
 #### <a name="run-a-powershell-command-to-remove-the-configuration"></a>Запустите команду PowerShell, чтобы удалить конфигурацию
 
 1. Получите свой ID рабочего пространства:
 
-   1. В области навигации выберите **параметры**  >  **onboarding**.
+   1. В области навигации выберите **Параметры**  >  **onboarding**.
 
    1. Выберите **Windows Server 2008 R2 SP1, 2012 R2 и 2016** в качестве операционной системы и получите свой ID рабочего пространства:
 
-      ![Изображение бортового сервера Windows](images/atp-server-offboarding-workspaceid.png)
+      ![Изображение Windows сервера](images/atp-server-offboarding-workspaceid.png)
 
 2. Откройте повышенную powerShell и запустите следующую команду. Используйте полученный ИД рабочей области и `WorkspaceID` замените:
 
@@ -284,7 +284,7 @@ Defender for Endpoint может интегрироваться с Azure Defende
 1. Создайте папку с именем MMA.
 1. Скачайте следующее и поместите в папку ММА:
 
-    **Обновление для работы с клиентами и диагностической телеметрии (Windows Server 2008 R2 и Windows Server 2012 R2)**
+    **Обновление для работы с клиентами и диагностической телеметрии (Windows 2008 R2 и Windows Server 2012 R2)**
 
     [Для Windows 2008 R2 x64](https://www.microsoft.com/download/details.aspx?familyid=1bd1d18d-4631-4d8e-a897-327925765f71)
 
@@ -327,12 +327,12 @@ OPINSIGHTS_WORKSPACE_KEY=<your workspace key>== AcceptEndUserLicenseAgreement=1"
 
 :::image type="content" source="images/deploymma.png" alt-text="развертывание мма cmd":::
 
-Для двух ЦБ (один для Windows Server 2008R2/Windows 7 и другой для Windows Server 2012 R2) повторите процесс, но создайте таргетинг уровня элементов на вкладке COMMON, поэтому файл будет скопирован только в соответствующую версию платформы и операционной системы в области:
+Для двух ЦБ (один для Windows Server 2008R2/Windows 7 и другой для Windows Server 2012 R2) повторите процесс, но создайте таргетинг уровня элементов на вкладке COMMON, поэтому файл копируется только в соответствующую версию платформы и операционной системы в области:
 
 :::image type="content" source="images/targeteditor.png" alt-text="целевой редактор":::
 
-- Для Windows Server 2008 R2 необходимо (и он будет только скопировать вниз) Windows6.1-BJ3080149-x64.msu
-- Для Windows Server 2012 R2 требуется (и он будет только скопировать) Windows8.1-BJ3080149-x64.msu
+- Для Windows Server 2008 R2 вам понадобится (и он будет только копировать) Windows6.1-BJ3080149-x64.msu
+- Для Windows Server 2012 R2 вам потребуется (и он будет только копировать вниз) Windows8.1-BJ3080149-x64.msu
 
 После этого необходимо создать политику скриптов для запуска:
 
@@ -362,9 +362,9 @@ OPINSIGHTS_WORKSPACE_KEY=<your workspace key>== AcceptEndUserLicenseAgreement=1"
   
 - Установка [либо .NET framework 4.5 (или](https://www.microsoft.com/download/details.aspx?id=30653) более поздней) или [KB3154518](https://support.microsoft.com/help/3154518/support-for-tls-system-default-versions-included-in-the-net-framework)
 
-Проверьте, присутствуют ли ЦБ перед Windows Server 2008 R2 этот процесс позволяет использовать все серверы, если у вас нет диспетчера конфигурации, управляющего серверами.
+Убедитесь, что KBs присутствуют перед Windows Server 2008 R2 Этот процесс позволяет использовать все серверы, если у вас нет диспетчера конфигурации, управляющих серверами.
 
-## <a name="related-topics"></a>Похожие темы
+## <a name="related-topics"></a>Статьи по теме
 
 - [Подключение устройств Windows 10](configure-endpoints.md)
 - [Подключение устройствах, отличных от Windows](configure-endpoints-non-windows.md)

@@ -1,7 +1,7 @@
 ---
-title: Настройка интеграции microsoft Cloud App Security
+title: Настройка интеграции Microsoft Cloud App Security
 ms.reviewer: ''
-description: Узнайте, как включить параметры, чтобы включить интеграцию Microsoft Defender для конечных точек с безопасностью облачных приложений Microsoft.
+description: Узнайте, как включить параметры, чтобы включить интеграцию Microsoft Defender для конечных точек с Microsoft Cloud App Security.
 keywords: облако, приложение, безопасность, параметры, интеграция, обнаружение, отчет
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -17,14 +17,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: f5e2919ae3fcbbb443f6d160c68633ee3427ae5a
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 4f7aca5cb532510d55042c70d04d65f2aa08baa3
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187533"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844758"
 ---
-# <a name="configure-microsoft-cloud-app-security-in-microsoft-defender-for-endpoint"></a>Настройка безопасности облачных приложений Майкрософт в Microsoft Defender для конечной точки
+# <a name="configure-microsoft-cloud-app-security-in-microsoft-defender-for-endpoint"></a>Настройка Microsoft Cloud App Security в Microsoft Defender для конечной точки
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -35,29 +35,29 @@ ms.locfileid: "51187533"
 > Хотите испытать Microsoft Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 
-Чтобы воспользоваться сигналами обнаружения облачных приложений Microsoft Defender для конечных точек, включим интеграцию microsoft Cloud App Security.
+Чтобы воспользоваться сигналами обнаружения облачных приложений Microsoft Defender для конечных точек, включим Microsoft Cloud App Security интеграцию.
 
 >[!NOTE]
->Эта функция будет доступна с лицензией E5 для корпоративной мобильности [и](https://www.microsoft.com/cloud-platform/enterprise-mobility-security) безопасности на устройствах под управлением Windows 10, версии 1709 (СБОРКА ОС 16299.1085 с [KB4493441),](https://support.microsoft.com/help/4493441)Windows 10, версия 1803 (сборка ОС 17134.704 с [KB4493464),](https://support.microsoft.com/help/4493464)Windows 10, версия 1809 (СБОРКА ОС 17763.379 с [KB4489899)](https://support.microsoft.com/help/4489899)или более поздние версии Windows 10.
+>Эта функция будет доступна с лицензией E5 для [Enterprise Mobility + Security](https://www.microsoft.com/cloud-platform/enterprise-mobility-security) на устройствах под управлением Windows 10 версии 1709 (СБОРКА ОС 16299.1085 с [KB4493441](https://support.microsoft.com/help/4493441)), Windows 10, версия 1803 (сборка ОС 17134.704 с [KB4493464),](https://support.microsoft.com/help/4493464)Windows 10, версия 1809 (СБОРКА ОС 17763.379 с [KB4489899)](https://support.microsoft.com/help/4489899)или более поздние Windows 10 версии.
 
-> Подробные сведения о интеграции Microsoft Defender для конечной точки с [безопасностью облачных](https://docs.microsoft.com/cloud-app-security/mde-integration) приложений Microsoft Для подробной интеграции Microsoft Defender для конечной точки с безопасностью облачных приложений Microsoft. 
+> Подробные сведения об интеграции [Microsoft Defender для конечной](/cloud-app-security/mde-integration) точки с Microsoft Cloud App Security для подробной интеграции Microsoft Defender для конечной точки с Microsoft Cloud App Security. 
 
-## <a name="enable-microsoft-cloud-app-security-in-microsoft-defender-for-endpoint"></a>Включить безопасность облачных приложений Майкрософт в Microsoft Defender для конечной точки
+## <a name="enable-microsoft-cloud-app-security-in-microsoft-defender-for-endpoint"></a>Включить Microsoft Cloud App Security в Microsoft Defender для конечной точки
 
 1. В области навигации выберите **Параметры настройки**  >  **Расширенные функции**.
-2. Выберите **microsoft Cloud App Security** и переключить переключатель на **On**.
+2. Выберите **Microsoft Cloud App Security** и переключить переключатель **на On**.
 3. Нажмите **кнопку Сохранить предпочтения**.
 
-После активации Microsoft Defender для конечной точки немедленно начнет переададировать сигналы обнаружения в cloud App Security.
+После активации Microsoft Defender для конечной точки немедленно начнет переададировать сигналы обнаружения в Cloud App Security.
 
 ## <a name="view-the-data-collected"></a>Просмотр собранных данных
 
-Сведения о просмотре и доступе к данным Microsoft Defender для конечных точек в microsoft Cloud Apps Security см. в обзоре устройств [в области безопасности облачных приложений.](https://docs.microsoft.com/cloud-app-security/mde-integration#investigate-devices-in-cloud-app-security)
+Сведения о просмотре и доступе к данным Microsoft Defender для конечных точек в microsoft Cloud Apps Security см. в [Cloud App Security.](/cloud-app-security/mde-integration#investigate-devices-in-cloud-app-security)
 
 
-Дополнительные сведения об обнаружении облачных данных см. в [ссылке Работа с обнаруженными приложениями.](https://docs.microsoft.com/cloud-app-security/discovered-apps)
+Дополнительные сведения об обнаружении облачных данных см. в [ссылке Работа с обнаруженными приложениями.](/cloud-app-security/discovered-apps)
 
-Если вы хотите попробовать microsoft Cloud App Security, см. в [приложении Microsoft Cloud Security Trial.](https://signup.microsoft.com/Signup?OfferId=757c4c34-d589-46e4-9579-120bba5c92ed&ali=1)
+Если вы хотите попробовать Microsoft Cloud App Security, см. [Microsoft Cloud App Security пробной.](https://signup.microsoft.com/Signup?OfferId=757c4c34-d589-46e4-9579-120bba5c92ed&ali=1)
 
 ## <a name="related-topic"></a>Связанная тема
-- [Интеграция microsoft Cloud App Security](microsoft-cloud-app-security-integration.md)
+- [Microsoft Cloud App Security интеграции](microsoft-cloud-app-security-integration.md)

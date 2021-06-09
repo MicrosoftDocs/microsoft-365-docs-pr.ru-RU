@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: f7e71c58396fd4b3ed40ba88aab5c2757ae41a41
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 2b7375f04094cdb56b0801adf2c1c0b7a8ab3098
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52771085"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844278"
 ---
 # <a name="list-software-inventory-api"></a>Список API инвентаризации программного обеспечения
 
@@ -42,7 +42,7 @@ ms.locfileid: "52771085"
 
 Тип разрешения |   Разрешение  |   Имя отображения разрешений
 :---|:---|:---
-Приложение |Software.Read.All |    'Read Threat and Vulnerability Management Software information'
+Для приложений |Software.Read.All |    'Read Threat and Vulnerability Management Software information'
 Делегированные (рабочая или учебная учетная запись) | Software.Read |    'Read Threat and Vulnerability Management Software information'
 
 ## <a name="http-request"></a>HTTP-запрос
@@ -57,7 +57,7 @@ GET /api/Software
 Authorization | String | Bearer {token}. **Обязательное поле**.
 
 
-## <a name="request-body"></a>Текст запроса
+## <a name="request-body"></a>Тело запроса
 переменная Empty
 
 ## <a name="response"></a>Отклик
@@ -98,6 +98,6 @@ GET https://api.securitycenter.microsoft.com/api/Software
 }
 ```
 
-## <a name="related-topics"></a>Связанные статьи
-- [Управление рисками & уязвимостей](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
-- [Инвентаризация программного обеспечения & уязвимости](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/tvm-software-inventory)
+## <a name="related-topics"></a>Статьи по теме
+- [Управление рисками & уязвимостей](/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt)
+- [Инвентаризация программного обеспечения & уязвимости](/microsoft-365/security/defender-endpoint/tvm-software-inventory)

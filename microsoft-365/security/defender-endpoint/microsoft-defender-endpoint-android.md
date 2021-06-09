@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 3f8a8c04f608096e5c226d6899fbbd983bd8d8c1
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 499ac9a6ee81bacb79cd83993d510f87e11c62c6
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52246432"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844722"
 ---
 # <a name="microsoft-defender-for-endpoint-on-android"></a>Microsoft Defender для конечной точки на Android
 
@@ -44,17 +44,17 @@ ms.locfileid: "52246432"
 
 ## <a name="how-to-install-microsoft-defender-for-endpoint-on-android"></a>Установка Microsoft Defender для конечной точки на Android
 
-### <a name="prerequisites"></a>Предварительные требования
+### <a name="prerequisites"></a>Предварительные условия
 
 -   **Для конечных пользователей**
 
-    -   Лицензия Microsoft Defender для конечной точки, назначенная конечному пользователю приложения. См. [требования к microsoft Defender для лицензирования конечных точек](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/minimum-requirements#licensing-requirements)
+    -   Лицензия Microsoft Defender для конечной точки, назначенная конечному пользователю приложения. См. [требования к microsoft Defender для лицензирования конечных точек](/microsoft-365/security/defender-endpoint/minimum-requirements#licensing-requirements)
 
     -   Корпоративный портал Intune приложение можно загрузить из [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.windowsintune.companyportal) и доступно на устройстве Android.
 
-        -   Кроме того, устройство (s) можно записать через приложение Корпоративный портал Intune для применения политик соответствия требованиям устройств Intune. [](https://docs.microsoft.com/mem/intune/user-help/enroll-device-android-company-portal) Это требует, чтобы конечному пользователю была назначена Microsoft Intune лицензия.
+        -   Кроме того, устройство (s) можно записать через приложение Корпоративный портал Intune для применения политик соответствия требованиям устройств Intune. [](/mem/intune/user-help/enroll-device-android-company-portal) Это требует, чтобы конечному пользователю была назначена Microsoft Intune лицензия.
 
-    -   Дополнительные сведения о назначении лицензий см. в дополнительных сведениях о назначении [лицензий пользователям.](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign)
+    -   Дополнительные сведения о назначении лицензий см. в дополнительных сведениях о назначении [лицензий пользователям.](/azure/active-directory/users-groups-roles/licensing-groups-assign)
         
 
 -   **Для администраторов**

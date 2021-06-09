@@ -1,7 +1,7 @@
 ---
 title: Поиск в Microsoft Search используется для поиска тем в темах Microsoft Viva
-ms.author: efrene
-author: efrene
+ms.author: chuckedmonson
+author: chucked
 manager: pamgreen
 ms.reviewer: cjtan
 audience: admin
@@ -10,12 +10,12 @@ ms.service: o365-administration
 search.appverid: ''
 localization_priority: None
 description: Узнайте, как можно искать темы в Microsoft Viva.
-ms.openlocfilehash: 36901cf32a0633aaa5fc08e45021d13c7b06dd0b
-ms.sourcegitcommit: bce733c1152dfbca782e716579074261e3c2ef65
+ms.openlocfilehash: bce9309d27b76854b927922f39389c18e1c09449
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52795998"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844735"
 ---
 # <a name="use-microsoft-search-to-find-topics-in-microsoft-viva-topics"></a>Поиск в Microsoft Search используется для поиска тем в темах Microsoft Viva
 
@@ -23,7 +23,7 @@ ms.locfileid: "52795998"
 
 ## <a name="topic-answer"></a>Ответ на тему
 
-При поиске определенной темы в Microsoft Search (например, "Сатурн"), если тема существует и найдена, она будет отображать результат в формате предложения Answers.
+При поиске определенной темы в Microsoft Search (например, "Сатурн"), если тема существует и найдена, она будет отображать результат в формате предложения ответа на тему.
 
 В ответе на тему будет отображаться:
 - Название темы
@@ -56,4 +56,4 @@ ms.locfileid: "52795998"
  
 ### <a name="search-results-priority"></a>Приоритет результатов поиска 
 
-В случае поиска пользователя при поиске термина "путешествие", если закладки доступны, закладки будут отображаться перед темой.
+В случае поиска пользователя при поиске термина "путешествие", если закладки доступны, на месте темы появится закладки.

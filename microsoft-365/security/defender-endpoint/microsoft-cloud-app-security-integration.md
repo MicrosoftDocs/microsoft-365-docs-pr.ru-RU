@@ -1,7 +1,7 @@
 ---
-title: Обзор интеграции microsoft Cloud App Security
+title: Обзор интеграции Microsoft Cloud App Security
 ms.reviewer: ''
-description: Microsoft Defender для конечной точки интегрируется с безопасностью облачных приложений путем переададки всех действий в сети облачных приложений.
+description: Microsoft Defender для конечной точки интегрируется с Cloud App Security путем переададки всех действий в сети облачных приложений.
 keywords: облако, приложение, сеть, видимость, использование
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -18,14 +18,14 @@ ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.date: 10/18/2018
 ms.technology: mde
-ms.openlocfilehash: d756c738f9f61638a9e7424aa3fdf639f8f02f2a
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 5a5a81bde283a9eba4d5db77ed7e4c0b7567abc9
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185603"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844746"
 ---
-# <a name="microsoft-cloud-app-security-in-defender-for-endpoint-overview"></a>Обзор безопасности облачных приложений Microsoft в защитнике для конечных точек
+# <a name="microsoft-cloud-app-security-in-defender-for-endpoint-overview"></a>Microsoft Cloud App Security в обзоре Defender for Endpoint
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -38,28 +38,28 @@ ms.locfileid: "51185603"
 
 > Хотите испытать Microsoft Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-Microsoft Cloud App Security (Cloud App Security) — это комплексное решение, которое обеспечивает видимость облачных приложений и служб, позволяя контролировать и ограничивать доступ к облачным приложениям, при этом соблюдая требования соответствия требованиям к данным, хранимым в облаке. Дополнительные сведения см. в [приложении Cloud Security.](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)
+Microsoft Cloud App Security (Cloud App Security) — это комплексное решение, которое обеспечивает видимость облачных приложений и служб, позволяя контролировать и ограничивать доступ к облачным приложениям, при этом соблюдая требования соответствия требованиям к данным, хранимым в облаке. Дополнительные сведения см. [в Cloud App Security.](/cloud-app-security/what-is-cloud-app-security)
 
 >[!NOTE]
->Эта функция доступна с лицензией E5 для [корпоративной](https://www.microsoft.com/cloud-platform/enterprise-mobility-security) мобильности и безопасности на устройствах под управлением Windows 10 версии 1809 или более поздней версии.
+>Эта функция доступна с лицензией E5 для Enterprise Mobility + Security [устройств,](https://www.microsoft.com/cloud-platform/enterprise-mobility-security) работающих Windows 10 версии 1809 или более поздней версии.
 
-## <a name="microsoft-defender-for-endpoint-and-cloud-app-security-integration"></a>Microsoft Defender для интеграции с конечной точкой и облачной безопасностью приложений 
+## <a name="microsoft-defender-for-endpoint-and-cloud-app-security-integration"></a>Microsoft Defender для конечной точки и Cloud App Security интеграции 
 
-Обнаружение cloud App Security зависит от журналов облачного трафика, которые перенаправлются в него с корпоративных брандмауэров и прокси-серверов. Microsoft Defender для конечной точки интегрируется с безопасностью облачных приложений, собирая и переадребуя все действия сети облачных приложений, обеспечивая беспрецедентную видимость использования облачных приложений. Функция мониторинга встроена в устройство, обеспечивая полное освещение сетевой активности.
+Cloud App Security зависит от журналов облачного трафика, которые перенаправлются в него с корпоративных брандмауэров и прокси-серверов. Microsoft Defender для конечной точки интегрируется с Cloud App Security, собирая и переадребуя все действия сети облачных приложений, обеспечивая беспрецедентную видимость для использования облачных приложений. Функция мониторинга встроена в устройство, обеспечивая полное освещение сетевой активности.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4r4yQ]
 
 
-Интеграция обеспечивает следующие основные улучшения существующего обнаружения безопасности облачных приложений: 
+Интеграция обеспечивает следующие основные улучшения существующего Cloud App Security обнаружения: 
 
 - Доступно везде . Так как сетевое действие собирается непосредственно из конечной точки, оно доступно везде, где устройство находится, в корпоративной сети или отключено, так как это больше не зависит от трафика, переназначенного через корпоративный брандмауэр или прокси-серверы. 
 
-- Работает вне коробки, конфигурация не требуется - перенакладка журналов облачного трафика в cloud App Security требует брандмауэра и конфигурации прокси-сервера. С интеграцией защитника для конечной точки и облачной безопасности приложений конфигурация не требуется. Просто включай его в настройках Центра безопасности Защитника Майкрософт, и вы можете перейти. 
+- Работает вне коробки, конфигурация не требуется - перенакладка журналов облачного трафика в Cloud App Security требует конфигурации брандмауэра и прокси-сервера. При интеграции Defender для Cloud App Security и конечной точки конфигурация не требуется. Просто включи его в Центр безопасности в Microsoft Defender параметры, и вы хорошо идти. 
 
 - Контекст устройства — в журналах облачного трафика отсутствует контекст устройства. Защитник для сетевой активности Endpoint сообщается в контексте устройства (какое устройство было доступно облачному приложению), поэтому вы можете точно понять, где (устройство) проходило сетевое действие, помимо того, кто (пользователь) выполнял его. 
 
-Дополнительные сведения об обнаружении облачных данных см. в [ссылке Работа с обнаруженными приложениями.](https://docs.microsoft.com/cloud-app-security/discovered-apps)
+Дополнительные сведения об обнаружении облачных данных см. в [ссылке Работа с обнаруженными приложениями.](/cloud-app-security/discovered-apps)
 
 ## <a name="related-topic"></a>Связанная тема
 
-- [Настройка интеграции microsoft Cloud App Security](microsoft-cloud-app-security-config.md)
+- [Настройка интеграции Microsoft Cloud App Security](microsoft-cloud-app-security-config.md)

@@ -15,12 +15,12 @@ ms.custom:
 description: В этой статье вы узнаете о отчетах и средствах устранения неполадок, доступных администраторам Microsoft Exchange Online защиты (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ae55ded9d907754161813c9f7bfa7eeb14c558a8
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 079e2b359f28b0b6bc3d7eac86e69060c65ea250
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52625033"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841442"
 ---
 # <a name="reporting-and-message-trace-in-eop"></a>Отчеты и трассировка сообщений в EOP
 
@@ -46,11 +46,8 @@ ms.locfileid: "52625033"
 Дополнительные сведения можно найти в следующих материалах:
 
 - [Microsoft 365 Отчеты в центре администрирования — Microsoft 365 группы](../../admin/activity-reports/office-365-groups.md)
-
 - [Microsoft 365 Отчеты в центре администрирования — действия электронной почты](../../admin/activity-reports/email-activity.md)
-
 - [Microsoft 365 Отчеты в центре администрирования — использование приложений электронной почты](../../admin/activity-reports/email-apps-usage.md)
-
 - [Microsoft 365 Отчеты в центре администрирования — использование почтовых ящиков](../../admin/activity-reports/mailbox-usage.md)
 
 ## <a name="security--compliance-reports-in-the-microsoft-365-admin-center"></a>Отчеты & безопасности в центре администрирования Microsoft 365 безопасности

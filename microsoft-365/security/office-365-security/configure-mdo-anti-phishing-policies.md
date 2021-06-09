@@ -15,12 +15,12 @@ ms.collection:
 description: Администраторы могут научиться создавать, изменять и удалять расширенные политики защиты от фишинга, доступные в организациях с Microsoft Defender для Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9af3824b245cd976d1e859d6ebc4efcda47325e0
-ms.sourcegitcommit: f3d1009840513703c38bab99a6e13a3656eae5ee
+ms.openlocfilehash: bc7575b87b8c5e512116f60ae98b700071e2bbd0
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52793092"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52822386"
 ---
 # <a name="configure-anti-phishing-policies-in-microsoft-defender-for-office-365"></a>Настройка политик защиты от фишинга в Microsoft Defender для Office 365
 
@@ -61,7 +61,7 @@ ms.locfileid: "52793092"
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
-- Открытие Центра безопасности производится в <https://security.microsoft.com/>. Чтобы перейти непосредственно на страницу **anti-phishing,** используйте <https://security.microsoft.com/antiphishing> .
+- Открытие Центра безопасности производится в <https://security.microsoft.com>. Чтобы перейти непосредственно на страницу **anti-phishing,** используйте <https://security.microsoft.com/antiphishing> .
 
 - Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
 
@@ -243,7 +243,7 @@ ms.locfileid: "52793092"
 
    По завершении нажмите кнопку **Далее**.
 
-7. На странице **Просмотр** просмотрите параметры. Вы можете выбрать **Изменить** в любом разделе, чтобы изменить параметры в этом разделе. Или вы можете щелкнуть **кнопку Назад** или выбрать определенную страницу в мастере.
+7. На странице **Просмотр** просмотрите параметры. Вы можете выбрать **Изменить** в любом разделе, чтобы изменить параметры в этом разделе. Вы также можете щелкнуть **Назад** или выбрать определенную страницу в мастере.
 
    По завершению нажмите кнопку **Отправить**.
 

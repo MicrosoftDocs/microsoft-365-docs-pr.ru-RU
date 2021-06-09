@@ -16,12 +16,12 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 0852cc5af2de6767e202e3a839c498e7e008eef3
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: 55b06ca25047fe615bd0011528fbdbe5112a4533
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593857"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52844986"
 ---
 # <a name="use-attack-surface-reduction-rules-to-prevent-malware-infection"></a>Используйте правила уменьшения поверхности атаки, чтобы предотвратить заражение вредоносными программами
 
@@ -139,7 +139,7 @@ DeviceEvents
 2. Введите слова *"Просмотр событий"* в меню "Пуск", чтобы открыть Windows просмотра событий.
 3. В **статье Действия** выберите импорт **настраиваемого представления...**.
 4. Выберите файл *cfa-events.xml,* откуда он был извлечен. Кроме того, [скопируйте XML напрямую.](event-views.md)
-5. Нажмите **ОК**.
+5. Нажмите кнопку **ОК**.
 
 Можно создать настраиваемую точку зрения, которая фильтрует события, чтобы показывать только следующие события, все из которых связаны с управляемым доступом к папкам:
 
@@ -160,8 +160,8 @@ DeviceEvents
 |Имя правила|GUID|Исключения & папки|Минимальная поддержка ОС|
 |---|:---:|---|---|
 |[Блокировка злоупотреблений с использованием уязвимых подписанных драйверов](#block-abuse-of-exploited-vulnerable-signed-drivers)|`56a863a9-875e-4185-98a7-b882c64b5ce5`|Поддерживается|[Windows 10 версии 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, сборка 16299) или больше) |
-|[Блокировка Adobe Reader от создания детских процессов](#block-adobe-reader-from-creating-child-processes)|`7674ba52-37eb-4a4f-a9a1-f0f9a1619a2c`|Поддерживается|[Windows 10 версии 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) (RS3, сборка 16299) или более|
-|[Блокировка всех Office приложений от создания детских процессов](#block-all-office-applications-from-creating-child-processes)|`D4F940AB-401B-4EFC-AADC-AD5F3C50688A`|Поддерживается|[Windows 10 версии 1709](https://docs.microsoft.com/windows/whats-new/whats-new-windows-10-version-1709) (RS3, сборка 16299) или более|
+|[Блокировка Adobe Reader от создания детских процессов](#block-adobe-reader-from-creating-child-processes)|`7674ba52-37eb-4a4f-a9a1-f0f9a1619a2c`|Поддерживается|[Windows 10 версии 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, сборка 16299) или более|
+|[Блокировка всех Office приложений от создания детских процессов](#block-all-office-applications-from-creating-child-processes)|`D4F940AB-401B-4EFC-AADC-AD5F3C50688A`|Поддерживается|[Windows 10 версии 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, сборка 16299) или более|
 |[Блокировка кражи учетных данных из Windows локальной подсистемы органов безопасности (lsass.exe)](#block-credential-stealing-from-the-windows-local-security-authority-subsystem)|`9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2`|Поддерживается|[Windows 10 версии 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, сборка 16299) или более|
 |[Блокировка исполняемого контента из клиента электронной почты и веб-почты](#block-executable-content-from-email-client-and-webmail)|`BE9BA2D9-53EA-4CDC-84E5-9B1EEEE46550`|Поддерживается|[Windows 10 версии 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, сборка 16299) или более|
 |[Блокировать выполнение файлов, если они не соответствуют критерию распространенности, возраста или доверенного списка](#block-executable-files-from-running-unless-they-meet-a-prevalence-age-or-trusted-list-criterion)|`01443614-cd74-433a-b99e-2ecdc07bfc25`|Поддерживается|[Windows 10 версии 1709](/windows/whats-new/whats-new-windows-10-version-1709) (RS3, сборка 16299) или более|

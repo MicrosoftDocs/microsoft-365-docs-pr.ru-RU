@@ -18,12 +18,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Ознакомьтесь с основными шагами по созданию словаря ключевых слов в Центре безопасности и соответствия требованиям Office 365.
-ms.openlocfilehash: 24f6bb636c702438be8ca9520c6523031f297410
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: 1e1aa45c3bf4d31e4c969b0bc0949109fa716467
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52683767"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52841166"
 ---
 # <a name="create-a-keyword-dictionary"></a>Создание словаря ключевых слов
 
@@ -31,7 +31,7 @@ ms.locfileid: "52683767"
 
 ## <a name="keyword-dictionary-limits"></a>Ограничения словаря ключевых слов
 
-Существует ограничение в 50 слов для словаря ключевых слов на основе типов конфиденциальной информации, которые можно создать для каждого клиента. Чтобы узнать, сколько словарей ключевых слов находится в клиенте, подключите его с помощью процедур, указанных в статье[Подключение к Центру безопасности и соответствия требованиям PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell) для подключения к вашему клиенту и запуску этого сценария PowerShell.
+Существует ограничение в 50 слов для словаря ключевых слов на основе типов конфиденциальной информации, которые можно создать для каждого клиента. Чтобы узнать, сколько словарей ключевых слов находится в клиенте, подключите его с помощью процедур, указанных в статье[Подключение к Центру безопасности и соответствия требованиям PowerShell](/powershell/exchange/connect-to-scc-powershell) для подключения к вашему клиенту и запуску этого сценария PowerShell.
 
 ```powershell
 $rawFile = $env:TEMP + "\rule.xml"
