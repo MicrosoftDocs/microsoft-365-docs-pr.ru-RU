@@ -190,7 +190,7 @@ Microsoft 365 Группы в Outlook создаются как частные �
 |[Set-UserPhoto](/powershell/module/exchange/set-userphoto) <br/> |Используется для связывать фотографию пользователя с учетной записью. Фотографии пользователей хранятся в Active Directory  <br/> |
 |[Remove-UserPhoto](/powershell/module/exchange/remove-userphoto) <br/> |Удаление фотографии для группы Microsoft 365  <br/> |
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 [Обновление списков рассылки для Microsoft 365 групп](/office365/admin/manage/upgrade-distribution-lists)
 

@@ -14,7 +14,7 @@ ms.collection:
 - Strat_SP_gtc
 - SPO_Content
 localization_priority: Normal
-description: Узнайте о квотах хранилища SharePoint в средах с несколькими географическими средами и о том, как администратор SharePoint Online может управлять квотами.
+description: Узнайте о SharePoint квотах хранения в многоэтабных средах и о том, как управлять квотами может администратор SharePoint Online.
 ms.openlocfilehash: ec736a6bd6061f8b028fca7a1c34d5278a84db89
 ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT

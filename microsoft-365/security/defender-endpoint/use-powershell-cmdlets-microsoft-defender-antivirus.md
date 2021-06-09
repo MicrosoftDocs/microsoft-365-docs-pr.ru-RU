@@ -1,6 +1,6 @@
 ---
 title: Используйте cmdlets PowerShell для настройки и запуска microsoft Defender AV
-description: В Windows 10 можно использовать комлеты PowerShell для сканирования, обновления сведений о безопасности и изменения параметров антивируса Microsoft Defender.
+description: В Windows 10 вы можете использовать cmdlets PowerShell для запуска сканирования, обновления сведений о безопасности и изменения параметров в антивирусная программа в Microsoft Defender.
 keywords: сканирование, командная строка, mpcmdrun, защитник
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -24,7 +24,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/14/2021
 ms.locfileid: "51765303"
 ---
-# <a name="use-powershell-cmdlets-to-configure-and-manage-microsoft-defender-antivirus"></a>Используйте cmdlets PowerShell для настройки и управления антивирусом Microsoft Defender
+# <a name="use-powershell-cmdlets-to-configure-and-manage-microsoft-defender-antivirus"></a>Для настройки и управления антивирусная программа в Microsoft Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -37,10 +37,10 @@ ms.locfileid: "51765303"
 
 Список cmdlets, их функций и доступных параметров см. в разделе [Defender.](/powershell/module/defender)
 
-Cmdlets PowerShell наиболее полезны в средах Windows Server, которые не полагаются на графический пользовательский интерфейс (GUI) для настройки программного обеспечения.
+Cmdlets PowerShell наиболее полезны в среде Windows Server, которая не полагается на графический пользовательский интерфейс (GUI) для настройки программного обеспечения.
 
 > [!NOTE]
-> Команды PowerShell не следует использовать в качестве замены для полной инфраструктуры управления сетевой политикой, например Microsoft [Endpoint Configuration Manager,](/configmgr) [консоли](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc731212(v=ws.11))управления групповой политикой или шаблонов [ADMX](https://www.microsoft.com/download/101445)антивирусной политики Microsoft Defender.
+> Команды PowerShell не следует использовать в качестве замены для полной инфраструктуры управления сетевой политикой, например [Microsoft Endpoint Configuration Manager,](/configmgr)консоли управления групповой политикой или [шаблонов групповой политики антивирусная программа в Microsoft Defender ADMX.](https://www.microsoft.com/download/101445) [](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc731212(v=ws.11))
 
 Изменения, внесенные в PowerShell, будут влиять на локальные параметры конечной точки, где эти изменения развернуты или внесены. Это означает, что развертывание политики с помощью групповой политики, Microsoft Endpoint Configuration Manager или Microsoft Intune может переписать изменения, внесенные в PowerShell.
 
@@ -48,9 +48,9 @@ Cmdlets PowerShell наиболее полезны в средах Windows Serve
 
 PowerShell обычно устанавливается в `%SystemRoot%\system32\WindowsPowerShell` папке.
 
-## <a name="use-microsoft-defender-antivirus-powershell-cmdlets"></a>Использование комлетов Microsoft Defender Antivirus PowerShell
+## <a name="use-microsoft-defender-antivirus-powershell-cmdlets"></a>Использование антивирусная программа в Microsoft Defender PowerShell
 
-1. В панели поиска Windows введите **powershell**.
+1. В панели Windows поиска введите **powershell**.
 2. Выберите **Windows PowerShell** из результатов, чтобы открыть интерфейс.
 3. Введите команду PowerShell и любые параметры.
 
@@ -65,8 +65,8 @@ Get-Help <cmdlet> -Online
 
 Ограничь `-online` параметр, чтобы получить локализованную кэшную помощь.
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 - [Справочные темы для средств управления и конфигурации](configuration-management-reference-microsoft-defender-antivirus.md)
-- [Антивирус Microsoft Defender в Windows 10](microsoft-defender-antivirus-in-windows-10.md)
-- [Антивирусные кодлеты Microsoft Defender](/powershell/module/defender)
+- [Антивирусная программа в Microsoft Defender (Windows 10)](microsoft-defender-antivirus-in-windows-10.md)
+- [антивирусная программа в Microsoft Defender Cmdlets](/powershell/module/defender)

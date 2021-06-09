@@ -29,47 +29,47 @@ ms.locfileid: "46693171"
 ---
 # <a name="dns-records-for-office-365-dod"></a>Записи DNS для Office 365 DoD
 
-*Эта статья относится к Office 365 DoD и Microsoft 365 DoD*
+*Эта статья применяется к Office 365 и Microsoft 365 DoD*
 
-При подстройке к Office 365 DoD вам потребуется добавить домены SMTP и SIP в клиент Online Services.  Это можно сделать с помощью New-MsolDomain в Azure AD PowerShell или с помощью портала [Azure для](https://portal.azure.us) государственных служб, чтобы начать процесс добавления домена и доказательства его владения.
+В рамках onboarding Office 365 DoD необходимо добавить свои домены SMTP и SIP в клиента Online Services.  Это можно сделать с помощью New-MsolDomain в Azure AD PowerShell или с помощью портала правительственных служб [Azure](https://portal.azure.us) для запуска процесса добавления домена и доказывания права собственности.
 
-После добавления доменов в клиент и проверки воспользуйтесь следующими рекомендациями, чтобы добавить соответствующие записи DNS для служб ниже.  Возможно, потребуется изменить приведенную ниже таблицу в учете потребностей организации в отношении входящие записи MX и существующих записей автообнаружия Exchange.  Мы настоятельно рекомендуем координировать эти записи DNS с вашей командой обмена сообщениями, чтобы избежать сставок или неправильной доставки электронной почты.
+После добавления доменов в клиента и проверки используйте следующие рекомендации, чтобы добавить соответствующие записи DNS для служб ниже.  Возможно, вам потребуется изменить приведенную ниже таблицу, чтобы соответствовать потребностям вашей организации в отношении входящие записи MX (s) и любой существующей записи автооткрытия Exchange(ы) у вас есть.  Мы настоятельно рекомендуем координировать эти записи DNS с вашей командой обмена сообщениями, чтобы избежать каких-либо отключений или неправильной доставки электронной почты.
 
 ## <a name="exchange-online"></a>Exchange Online
 
-| Type (Тип) | Priority (Приоритет) | Имя узла | Указывает на адрес или значение | TTL |
+| Type (Тип) | Priority (Приоритет) | Имя узла | Адрес или значение назначения | TTL |
 | --- | --- | --- | --- | --- |
-| MX | 0 | @ | *tenant*.mail.protection.office365.us (дополнительные сведения см. ниже) | 1 Hour |
+| MX | 0 | @ | *tenant*.mail.protection.office365.us (см. ниже дополнительные сведения) | 1 Hour |
 | TXT | - | @ | v=spf1 include:spf.protection.office365.us -all | 1 час |
 | CNAME | - | autodiscover | autodiscover-dod.office365.us | 1 Hour |
 
-### <a name="exchange-autodiscover-record"></a>Запись автообнаружия Exchange
+### <a name="exchange-autodiscover-record"></a>Exchange Запись автооткрытия
 
-Если вы Exchange Server локально, рекомендуем оставить существующую запись на месте во время миграции в Exchange Online и обновить ее после завершения миграции.
+Если вы Exchange Server, рекомендуем оставить существующую запись на месте во время миграции в Exchange Online и обновить эту запись после завершения миграции.
 
-### <a name="exchange-online-mx-record"></a>Запись MX в Exchange Online
+### <a name="exchange-online-mx-record"></a>Exchange Online Запись MX
 
-Значение записи MX для ваших принятых доменов следует стандартному формату, как  было отмечено выше: *tenant*.mail.protection.office365.us, заменяя клиент первой частью имени клиента по умолчанию.
+Значение записи MX для принятых доменов следует стандартному формату, как отмечалось  выше: tenant .mail.protection.office365.us, заменив клиента первой частью имени клиента по умолчанию. 
 
-Например, если имя клиента contoso.onmicrosoft.us, необходимо использовать contoso.mail.protection.office365.us  в качестве значения для записи MX.
+Например, если имя клиента contoso.onmicrosoft.us, вы contoso.mail.protection.office365.us значение  для записи MX.
 
 ## <a name="skype-for-business-online"></a>Skype для бизнеса Online
 
 ### <a name="cname-records"></a>Записи CNAME
 
-| Type | Имя узла | Указывает на адрес или значение | TTL |
+| Тип | Имя узла | Адрес или значение назначения | TTL |
 | --- | --- | --- | --- |
 | CNAME | sip | sipdir.online.dod.skypeforbusiness.us | 1 час |
 | CNAME | lyncdiscover | webdir.online.dod.skypeforbusiness.us | 1 Hour | 
 
 ### <a name="srv-records"></a>Записи SRV
 
-| Type | Служба | Протокол | Порт | Насыщенность | Priority | Имя | Target | TTL |
+| Тип | Служба | Протокол | Порт | Насыщенность | Priority | Имя | Target | TTL |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| SRV | \_sip | \_tls | 443 | 1  | 100 | @ | sipdir.online.dod.skypeforbusiness.us | 1 час |
-| SRV | \_sipfederationtls | \_tcp | 5061 | 1  | 100 | @ | sipfed.online.dod.skypeforbusiness.us | 1 Hour |
+| SRV | \_sip | \_tls | 443 | 1 | 100 | @ | sipdir.online.dod.skypeforbusiness.us | 1 час |
+| SRV | \_sipfederationtls | \_tcp | 5061 | 1 | 100 | @ | sipfed.online.dod.skypeforbusiness.us | 1 Hour |
 
 ## <a name="additional-dns-records"></a>Дополнительные записи DNS
 
 > [!IMPORTANT]
-> Если в зоне DNS есть существующая запись *MSOID* CNAME, ее необходимо удалить из DNS.   Запись msoid несовместима с Microsoft 365 корпоративные приложения *(ранее Office 365 профессиональныйplus)* и предотвратит успешное активацию.
+> Если у вас есть существующая запись CNAME *msoid* в зоне DNS, необходимо удалить запись из DNS в это время.   Запись msoid несовместима с приложениями Microsoft 365 корпоративный *(ранее Office 365 профессиональный плюс)* и предотвратит успешное активацию.

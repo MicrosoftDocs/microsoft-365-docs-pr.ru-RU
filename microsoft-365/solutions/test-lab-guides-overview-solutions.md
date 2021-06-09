@@ -16,7 +16,7 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - Ent_Architecture
-description: Используйте руководства по лаборатории тестирования для создания решений и сценариев Microsoft 365 в среде тестирования и разработке.
+description: Используйте руководство по тестовой лаборатории для создания Microsoft 365 решений и сценариев в среде разработчиков и тестовых тестов.
 ms.openlocfilehash: 10ddfc9cb9f9135b352be50c555811342ae0bd2b
 ms.sourcegitcommit: a1846b1ee2e4fa397e39c1271c997fc4cf6d5619
 ms.translationtype: MT
@@ -34,6 +34,6 @@ ms.locfileid: "50166187"
   
 ![Руководства по лаборатории тестирования для облака Майкрософт](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
-Попробуйте [это руководство по лаборатории тестирования,](team-security-isolation-dev-test.md) чтобы настроить команду с изоляцией системы безопасности.
+Попробуйте [это руководство по тестовой лаборатории,](team-security-isolation-dev-test.md) чтобы настроить команду с изолированностью безопасности.
 
-Дополнительные руководства по функциям и настройке Microsoft 365 см. в руководстве по лаборатории тестирования [Microsoft 365 для предприятий.](../enterprise/m365-enterprise-test-lab-guides.md)
+Дополнительные руководства по Microsoft 365 и конфигурации см. в Microsoft 365 руководства по корпоративной лаборатории [тестирования.](../enterprise/m365-enterprise-test-lab-guides.md)

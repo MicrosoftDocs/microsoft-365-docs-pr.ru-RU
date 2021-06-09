@@ -1,5 +1,5 @@
 ---
-title: Статья-заметель
+title: Статья placeholder
 f1.keywords:
 - NOCSH
 ms.author: josephd
@@ -20,6 +20,6 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 08/14/2020
 ms.locfileid: "46693212"
 ---
-# <a name="placeholder-article"></a>Статья-заметель
+# <a name="placeholder-article"></a>Статья placeholder
 
-На данный момент эта статья является заме желтой.
+Эта статья является местообладателями на данный момент.

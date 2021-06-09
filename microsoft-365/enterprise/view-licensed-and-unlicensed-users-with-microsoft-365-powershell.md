@@ -1,5 +1,5 @@
 ---
-title: Просмотр лицензированных и нелицензовых пользователей Microsoft 365 с помощью PowerShell
+title: Просмотр лицензированных и нелицензионных Microsoft 365 с Помощью PowerShell
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -19,7 +19,7 @@ ms.custom:
 - PowerShell
 - seo-marvel-apr2020
 ms.assetid: e4ee53ed-ed36-4993-89f4-5bec11031435
-description: В этой статье объясняется, как использовать PowerShell для просмотра лицензированных и нелицензовых учетных записей пользователей Microsoft 365.
+description: В этой статье рассказывается, как использовать PowerShell для просмотра лицензированных и нелицензионных учетных записей Microsoft 365 пользователей.
 ms.openlocfilehash: b38ee7674abaea6b63d0661ba79a9814f8c54229
 ms.sourcegitcommit: cdf2b8dad7db9e16afd339abaaa5397faf11807c
 ms.translationtype: MT
@@ -27,37 +27,37 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 10/21/2020
 ms.locfileid: "48651388"
 ---
-# <a name="view-licensed-and-unlicensed-microsoft-365-users-with-powershell"></a>Просмотр лицензированных и нелицензовых пользователей Microsoft 365 с помощью PowerShell
+# <a name="view-licensed-and-unlicensed-microsoft-365-users-with-powershell"></a>Просмотр лицензированных и нелицензионных Microsoft 365 с Помощью PowerShell
 
 *Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
 
-Учетные записи пользователей в вашей организации Microsoft 365 могут иметь некоторые, все или ни одной доступной лицензии, назначенной им из планов лицензирования, доступных в вашей организации. С помощью PowerShell для Microsoft 365 вы можете быстро найти лицензированных и нелицензовых пользователей в организации.
+Учетные записи пользователей в Microsoft 365 организации могут иметь некоторые, все или ни одной из доступных лицензий, присвоенных им из планов лицензирования, доступных в вашей организации. Вы можете использовать PowerShell для Microsoft 365, чтобы быстро найти лицензированных и нелицензионных пользователей в вашей организации.
 
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Использование модуля PowerShell Azure Active Directory для Graph
 
-Сначала [подключите клиент Microsoft 365.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
+[Во-первых, подключите Microsoft 365 клиента.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
  
-Чтобы просмотреть список всех учетных записей пользователей в организации, которые НЕ были назначены ни одним из планов лицензирования (пользователям без лицензий), запустите следующую команду:
+Чтобы просмотреть список всех учетных записей пользователей в организации, которые не были назначены ни одной из ваших планов лицензирования (нелицензионных пользователей), запустите следующую команду:
   
 ```powershell
 Get-AzureAdUser | ForEach{ $licensed=$False ; For ($i=0; $i -le ($_.AssignedLicenses | Measure).Count ; $i++) { If( [string]::IsNullOrEmpty(  $_.AssignedLicenses[$i].SkuId ) -ne $True) { $licensed=$true } } ; If( $licensed -eq $false) { Write-Host $_.UserPrincipalName} }
 ```
 
-Чтобы просмотреть список всех учетных записей пользователей в организации, которые были назначены любому из планов лицензирования (лицензированным пользователям), запустите следующую команду:
+Чтобы просмотреть список всех учетных записей пользователей в организации, которые были назначены любым из ваших планов лицензирования (лицензированных пользователей), запустите следующую команду:
   
 ```powershell
 Get-AzureAdUser | ForEach { $licensed=$True ; For ($i=0; $i -le ($_.AssignedLicenses | Measure).Count ; $i++) { If( [string]::IsNullOrEmpty(  $_.AssignedLicenses[$i].SkuId ) -ne $True) { $licensed=$true } } ; If( $licensed -eq $true) { Write-Host $_.UserPrincipalName} }
 ```
 
 >[!Note]
->Чтобы получить список всех пользователей в подписке, используйте `Get-AzureAdUser -All $true` команду.
+>Чтобы перечислить всех пользователей подписки, используйте `Get-AzureAdUser -All $true` команду.
 >
 
 ## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a>Использование модуля Microsoft Azure Active Directory для Windows PowerShell
 
-Сначала [подключите клиент Microsoft 365.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
+[Во-первых, подключите Microsoft 365 клиента.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
 
-Чтобы просмотреть список всех учетных записей пользователей и состояние их лицензирования в организации, в PowerShell запустите следующую команду:
+Чтобы просмотреть список всех учетных записей пользователей и их состояние лицензирования в организации, запустите следующую команду в PowerShell:
   
 ```powershell
 Get-MsolUser -All

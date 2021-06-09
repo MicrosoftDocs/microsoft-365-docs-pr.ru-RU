@@ -52,10 +52,10 @@ ms.locfileid: "52684223"
 | Шаг | Примеры имен файлов | BundleIdentifier |
 |-|-|-|
 | [Скачайте пакет onboarding](#download-the-onboarding-package) | WindowsDefenderATPOnboarding__MDATP_wdav.atp.xml | com.microsoft.wdav.atp |
-| [Утверждение расширения системы для Защитника Майкрософт для конечной точки](#approve-system-extensions) | MDATP_SysExt.xml | Недоступно |
-| [Утверждение расширения ядра для Microsoft Defender для конечной точки](#download-the-onboarding-package) | MDATP_KExt.xml | Недоступно |
+| [Утверждение расширения системы для Защитника Майкрософт для конечной точки](#approve-system-extensions) | MDATP_SysExt.xml | Н/Д |
+| [Утверждение расширения ядра для Microsoft Defender для конечной точки](#download-the-onboarding-package) | MDATP_KExt.xml | Н/Д |
 | [Предоставление полного доступа к диску Microsoft Defender для конечной точки](#full-disk-access) | MDATP_tcc_Catalina_or_newer.xml | com.microsoft.wdav.tcc |
-| [Политика расширения сети](#network-filter) | MDATP_NetExt.xml | Недоступно |
+| [Политика расширения сети](#network-filter) | MDATP_NetExt.xml | Н/Д |
 | [Настройка Microsoft AutoUpdate (MAU)](mac-updates.md#intune) | MDATP_Microsoft_AutoUpdate.xml | com.microsoft.autoupdate2 |
 | [Microsoft Defender для параметров конфигурации конечной точки](mac-preferences.md#intune-profile-1)<br/><br/> **Примечание:** Если вы планируете запустить сторонний AV для macOS, задай `passiveMode` . `true` | MDATP_WDAV_and_exclusion_settings_Preferences.xml | com.microsoft.wdav |
 | [Настройка уведомлений Microsoft Defender для конечной точки и ms AutoUpdate (MAU)](mac-updates.md) | MDATP_MDAV_Tray_and_AutoUpdate2.mobileconfig | com.microsoft.autoupdate2 или com.microsoft.wdav.tray |

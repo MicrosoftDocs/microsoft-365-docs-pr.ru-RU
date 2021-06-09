@@ -54,7 +54,7 @@ ms.locfileid: "52769590"
 > [!NOTE]
 > Все квоты, перечисленные выше (например, 15 вызовов за мин), являются для каждого клиента размером. Эти квоты минимальны.
 
-## <a name="permissions"></a>Permissions
+## <a name="permissions"></a>Разрешения
 
 Одно из следующих разрешений необходимо для вызова продвинутого API охоты. Дополнительные возможности, в том числе выбор разрешений, см. в Microsoft 365 [API защиты защитника](api-access.md)
 
@@ -79,10 +79,10 @@ POST https://api.security.microsoft.com/api/advancedhunting/run
 
 Заголовок | Значение
 -|-
-Authorization | Bearer {token} **Примечание: требуется**
+Авторизация | Bearer {token} **Примечание: требуется**
 Content-Type | application/json
 
-## <a name="request-body"></a>Текст запроса
+## <a name="request-body"></a>Тело запроса
 
 В теле запроса поставляем объект JSON со следующими параметрами:
 

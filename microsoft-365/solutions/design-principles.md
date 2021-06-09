@@ -1,6 +1,6 @@
 ---
-title: Принципы проектирования архитектуры Microsoft 365 корпоративный
-description: Узнайте об архитектуре Microsoft Enterprise от экспертов по удостоверениям, кибербезопасности и сети.
+title: Microsoft 365 корпоративный архитектуры
+description: Узнайте об архитектуре microsoft Enterprise от экспертов в области удостоверений, кибербезопасности и сетевых сетей.
 ms.author: samanro
 author: samanro
 manager: bcarter
@@ -20,13 +20,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 11/04/2020
 ms.locfileid: "48906957"
 ---
-# <a name="microsoft-365-enterprise-architecture-design-principles"></a>Принципы проектирования архитектуры Microsoft 365 корпоративный
+# <a name="microsoft-365-enterprise-architecture-design-principles"></a>Microsoft 365 корпоративный архитектуры
 
 Ознакомьтесь с основными принципами, необходимыми для понимания архитектуры сетей, удостоверений, защиты и транснациональных систем.
 
-| Эксперт | Subject | О эксперте |
+| Эксперт | Тема | О эксперте |
 |---------|---------|---------|
-|![Алекс Стинбер (Alex Shteynberg) в области архитектуры корпоративных удостоверений](../media/solutions-architecture-center/identity-and-beyond-alex-shteynberg.jpg)   |    [Идентификация](identity-design-principles.md)     | Алекс Стинбер (Alex Shteynberg), главный технический архитектор Технического центра Майкрософт в Нью-Йорке, возвращается к описанию руководящих принципов и базовых разделов об удостоверениях для корпоративных организаций, которые принимают Microsoft 365 и Azure в области удостоверений To и не [только.](identity-design-principles.md) |
-| ![Koz koz korett on security design principles](../media/solutions-architecture-center/kozeta-garrett-security.jpg)   |     [Безопасность](security-design-principles.md)    |  Kozeta Garrett, cybersecurity Architect at Microsoft, describes the top security challenges she encounters at enterprise organizations and recommends approaches you can take in [Securitysecuritys you can over](security-design-principles.md).  |
-| ![Ed Fisher о принципах сетевого проектирования](../media/solutions-architecture-center/ed-fisher-networking.jpg)    |       [Сеть](networking-design-principles.md)  |   Ed Fisher, security & Compliance Architect at Microsoft, describes how to optimize your network for cloud connectivity by avoiding the most common pitfalls in [Networking up (to the cloud)](networking-design-principles.md).       |
+|![Alex Shteynberg on enterprise identity architecture](../media/solutions-architecture-center/identity-and-beyond-alex-shteynberg.jpg)   |    [Identity](identity-design-principles.md)     | Алекс Штайнберг( Alex Shteynberg), главный технический архитектор Центра microsoft Microsoft в Нью-Йорке Microsoft Technology Center, делает шаг назад, чтобы описать руководящие принципы и базовые темы, связанные с удостоверением для корпоративных организаций, приняв Microsoft 365 и Azure в to [identity и за](identity-design-principles.md)ее пределами . |
+| ![Kozetta Garrett on security design principles](../media/solutions-architecture-center/kozeta-garrett-security.jpg)   |     [Безопасность](security-design-principles.md)    |  Kozeta Garrett, архитектор кибербезопасности в Корпорации Майкрософт, описывает главные проблемы безопасности, с [](security-design-principles.md)которыми она сталкивается в корпоративных организациях, и рекомендует подходы, которые можно использовать для решения проблем безопасности, которые можно преодолеть.  |
+| ![Ed Fisher on networking design principles](../media/solutions-architecture-center/ed-fisher-networking.jpg)    |       [Сеть](networking-design-principles.md)  |   Ed Fisher, security & Compliance Architect at Microsoft, describes how to optimize your network for cloud connectivity by avoiding the most common pitfalls in [Networking up (to the cloud)](networking-design-principles.md).       |
 |    |         |         |

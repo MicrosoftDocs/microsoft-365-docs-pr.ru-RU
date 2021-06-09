@@ -32,7 +32,7 @@ ms.locfileid: "51571036"
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-[Microsoft Secure Score](microsoft-secure-score.md) — это измерение позы безопасности организации, при этом большее число указывает на дополнительные действия по улучшению. Его можно найти в https://security.microsoft.com/securescore центре [безопасности Microsoft 365.](overview-security-center.md)
+[Microsoft Secure Score](microsoft-secure-score.md) — это измерение позы безопасности организации, при этом большее число указывает на дополнительные действия по улучшению. Его можно найти в https://security.microsoft.com/securescore центре [Microsoft 365 безопасности.](overview-security-center.md)
 
 ## <a name="gain-insights-into-activity-that-has-affected-your-score"></a>Получение информации о действиях, которые повлияли на ваш счет
 

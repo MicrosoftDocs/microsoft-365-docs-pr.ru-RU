@@ -15,7 +15,7 @@ ms.custom:
 - Ent_Office_Other
 - seo-marvel-apr2020
 ms.assetid: ebe0f5ff-fd17-487f-bbb6-271b5ea270bb
-description: В этой статье данная статья содержит ресурсы сообщества для подключения к коллегам и получения справки по PowerShell для Microsoft 365.
+description: Эта статья предоставляет ресурсы сообщества для подключения к коллегам и получения помощи для PowerShell для Microsoft 365.
 ms.openlocfilehash: 36130d3e0f32f73836698cfb276e2aca5d20de83
 ms.sourcegitcommit: 66b8fc1d8ba4f17487cd2004ac19cf2fff472f3d
 ms.translationtype: MT
@@ -25,11 +25,11 @@ ms.locfileid: "48754696"
 ---
 # <a name="microsoft-365-community-resources-for-powershell"></a>Ресурсы сообщества Microsoft 365 для PowerShell
 
-Подключись к этим сообществам, чтобы связаться со своими коллегами и получить ответы на вопросы о PowerShell для Microsoft 365. 
+Подключение этим сообществам, чтобы связаться с коллегами и получить ответы на вопросы PowerShell для Microsoft 365. 
   
-- [Техническое сообщество Microsoft 365](https://techcommunity.microsoft.com/t5/microsoft-365/ct-p/microsoft365)
+- [Microsoft 365 Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-365/ct-p/microsoft365)
     
-- [Exchange Server сообщества TechNet](https://social.technet.microsoft.com/Forums/exchange/home?forum=exchangesvrgeneral)
+- [Exchange Server Форум сообщества TechNet](https://social.technet.microsoft.com/Forums/exchange/home?forum=exchangesvrgeneral)
     
 ## <a name="see-also"></a>См. также
 

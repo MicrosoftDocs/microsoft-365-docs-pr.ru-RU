@@ -1,5 +1,5 @@
 ---
-title: Использование Microsoft Teams классов в системе управления обучением
+title: Использование Microsoft Teams классов с blackboard
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -13,14 +13,14 @@ ms.collection: M365-modern-desktop
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 description: Интеграция Microsoft Teams классов в систему управления обучением
-ms.openlocfilehash: 18d33225dd57932af20421c6b3b5dc4fe3b397b8
-ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
+ms.openlocfilehash: 287b9f1cadfdcf3adafdca91f4a351865bbcf3bc
+ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52327823"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52821275"
 ---
-# <a name="use-microsoft-teams-classes-in-your-learning-management-system"></a>Использование Microsoft Teams классов в системе управления обучением
+# <a name="use-microsoft-teams-classes-with-blackboard"></a>Использование Microsoft Teams классов с blackboard
 
 > [!IMPORTANT]
 > Некоторые сведения относятся к предварительным выпускам продуктов, которые могут быть существенно изменены до коммерческого выпуска. Корпорация Майкрософт не дает никаких гарантий, явных или подразумеваемых, относительно предоставленных здесь сведений.
