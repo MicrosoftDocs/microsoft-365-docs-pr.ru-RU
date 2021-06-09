@@ -15,7 +15,7 @@ ms.custom:
 - PowerShell
 - Ent_Office_Other
 - seo-marvel-apr2020
-description: Сводка. Расчет адресного пространства подсети шлюза Azure с помощью C3, Python или PowerShell.
+description: Сводка. Вычислять адресное пространство подсети шлюза Azure с помощью C3, Python или PowerShell.
 ms.openlocfilehash: d92bea5c36fde6277154d19365ed0bdaa5df4254
 ms.sourcegitcommit: ec293978e951b09903b79e6642aa587824935e0c
 ms.translationtype: MT
@@ -23,20 +23,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 01/07/2021
 ms.locfileid: "49780572"
 ---
-# <a name="address-space-calculator-for-azure-gateway-subnets"></a><span data-ttu-id="b7f45-103">Калькулятор адресного пространства для подсетей шлюза Azure</span><span class="sxs-lookup"><span data-stu-id="b7f45-103">Address space calculator for Azure gateway subnets</span></span>
+# <a name="address-space-calculator-for-azure-gateway-subnets"></a><span data-ttu-id="9103d-103">Калькулятор адресного пространства для подсетей шлюза Azure</span><span class="sxs-lookup"><span data-stu-id="9103d-103">Address space calculator for Azure gateway subnets</span></span>
 
-<span data-ttu-id="b7f45-104">Виртуальная сеть в службах инфраструктуры Azure, подключенная к другим сетям, должна иметь подсеть шлюза.</span><span class="sxs-lookup"><span data-stu-id="b7f45-104">A virtual network (VNet) in Azure infrastructure services that is connected to other networks must have a gateway subnet.</span></span> <span data-ttu-id="b7f45-105">Для определения подсети шлюза лучше всего:</span><span class="sxs-lookup"><span data-stu-id="b7f45-105">The best practices for defining the gateway subnet are:</span></span>
+<span data-ttu-id="9103d-104">Виртуальная сеть (VNet) в службах инфраструктуры Azure, подключенных к другим сетям, должна иметь подсеть шлюза.</span><span class="sxs-lookup"><span data-stu-id="9103d-104">A virtual network (VNet) in Azure infrastructure services that is connected to other networks must have a gateway subnet.</span></span> <span data-ttu-id="9103d-105">Наиболее оптимальные методы определения подсети шлюза:</span><span class="sxs-lookup"><span data-stu-id="9103d-105">The best practices for defining the gateway subnet are:</span></span>
 
-- <span data-ttu-id="b7f45-106">Длина префикса подсети шлюза может иметь максимальную длину префикса 29 (например, 10.119.255.248/29), но по текущей рекомендации используется длина префикса 27 (например, 10.119.255.224/27).</span><span class="sxs-lookup"><span data-stu-id="b7f45-106">The prefix length of the gateway subnet can have a maximum prefix length of 29 (for example, 10.119.255.248/29), but the current recommendation is that you use a prefix length of 27 (for example, 10.119.255.224/27).</span></span>
-- <span data-ttu-id="b7f45-107">При определении адресного пространства подсети шлюза используйте последнюю часть адресного пространства VNet.</span><span class="sxs-lookup"><span data-stu-id="b7f45-107">When defining the address space of the gateway subnet, use the last part of the VNet address space.</span></span>
+- <span data-ttu-id="9103d-106">Длина префикса подсети шлюза может иметь максимальную длину префикса 29 (например, 10.119.255.248/29), но текущая рекомендация в том, что используется длина префикса 27 (например, 10.119.255.224/27).</span><span class="sxs-lookup"><span data-stu-id="9103d-106">The prefix length of the gateway subnet can have a maximum prefix length of 29 (for example, 10.119.255.248/29), but the current recommendation is that you use a prefix length of 27 (for example, 10.119.255.224/27).</span></span>
+- <span data-ttu-id="9103d-107">При определении адресного пространства подсети шлюза используйте последнюю часть адресного пространства VNet.</span><span class="sxs-lookup"><span data-stu-id="9103d-107">When defining the address space of the gateway subnet, use the last part of the VNet address space.</span></span>
 
-<span data-ttu-id="b7f45-108">Во второй рекомендации можно определить адресное пространство подсети шлюза, установив для битов, используемых для подсети шлюза, 0, а для остальных битов в адресной области VNet - 1.</span><span class="sxs-lookup"><span data-stu-id="b7f45-108">For the second recommendation, you can determine the address space of the gateway subnet by setting the bits used for the gateway subnet to 0 and the remaining bits in the VNet address space to 1.</span></span> <span data-ttu-id="b7f45-109">Чтобы быстро рассчитать адресное пространство подсети шлюза без преобразования в двоичное и обратное в десятичное, можно использовать консольное приложение, написанное на C# или Python, или с блоком команд PowerShell.</span><span class="sxs-lookup"><span data-stu-id="b7f45-109">To quickly calculate the gateway subnet address space without having to convert to binary and back to decimal, you can use a console application written in C# or Python or with a PowerShell command block.</span></span>
+<span data-ttu-id="9103d-108">Во второй рекомендации можно определить адресное пространство подсети шлюза, установив биты, используемые для подсети шлюза, до 0, а оставшиеся биты в адресной области VNet - до 1.</span><span class="sxs-lookup"><span data-stu-id="9103d-108">For the second recommendation, you can determine the address space of the gateway subnet by setting the bits used for the gateway subnet to 0 and the remaining bits in the VNet address space to 1.</span></span> <span data-ttu-id="9103d-109">Чтобы быстро рассчитать адресное пространство подсети шлюза без преобразования в двоичное и обратно в десятичное, можно использовать консольное приложение, записанное в C# или Python или с командным блоком PowerShell.</span><span class="sxs-lookup"><span data-stu-id="9103d-109">To quickly calculate the gateway subnet address space without having to convert to binary and back to decimal, you can use a console application written in C# or Python or with a PowerShell command block.</span></span>
 
-<span data-ttu-id="b7f45-110">В этой статье содержатся блоки кода C#, Python и PowerShell, которые вычисляют адресное пространство подсети шлюза на основе значений w.x.y.z/n для префикса адреса VNet и длины префикса подсети шлюза.</span><span class="sxs-lookup"><span data-stu-id="b7f45-110">This article contains C#, Python, and PowerShell code blocks that calculate the gateway subnet address space based on the values of w.x.y.z/n for the VNet address prefix and the gateway subnet prefix length.</span></span>
+<span data-ttu-id="9103d-110">В этой статье C# кодовые блоки Python и PowerShell, которые вычисляют адресное пространство подсети шлюза на основе значений w.x.y.z/n для префикса адресов VNet и длины префикса подсети шлюза.</span><span class="sxs-lookup"><span data-stu-id="9103d-110">This article contains C#, Python, and PowerShell code blocks that calculate the gateway subnet address space based on the values of w.x.y.z/n for the VNet address prefix and the gateway subnet prefix length.</span></span>
 
-## <a name="c-code-block"></a><span data-ttu-id="b7f45-111">Блок кода C#</span><span class="sxs-lookup"><span data-stu-id="b7f45-111">C# code block</span></span>
+## <a name="c-code-block"></a><span data-ttu-id="9103d-111">C# блок кода</span><span class="sxs-lookup"><span data-stu-id="9103d-111">C# code block</span></span>
 
-<span data-ttu-id="b7f45-112">Используйте этот блок кода для создания консольного приложения на C#.</span><span class="sxs-lookup"><span data-stu-id="b7f45-112">Use this code block to create a console app in C#.</span></span>
+<span data-ttu-id="9103d-112">Используйте этот блок кода для создания приложения консоли в C#.</span><span class="sxs-lookup"><span data-stu-id="9103d-112">Use this code block to create a console app in C#.</span></span>
 
 ```c#
 using System; 
@@ -108,9 +108,9 @@ namespace ConsoleApplication1
 } 
 ```
 
-## <a name="python-code-block"></a><span data-ttu-id="b7f45-113">Блок кода Python</span><span class="sxs-lookup"><span data-stu-id="b7f45-113">Python code block</span></span>
+## <a name="python-code-block"></a><span data-ttu-id="9103d-113">Блок кода Python</span><span class="sxs-lookup"><span data-stu-id="9103d-113">Python code block</span></span>
 
-<span data-ttu-id="b7f45-114">Используйте этот блок кода для создания консольного приложения на Python.</span><span class="sxs-lookup"><span data-stu-id="b7f45-114">Use this code block to create a console app in Python.</span></span>
+<span data-ttu-id="9103d-114">Этот блок кода используется для создания консоли приложения в Python.</span><span class="sxs-lookup"><span data-stu-id="9103d-114">Use this code block to create a console app in Python.</span></span>
 
 ```python
 import math 
@@ -147,9 +147,9 @@ print(gwAddrPref)
 ```
 
 
-## <a name="powershell-command-block"></a><span data-ttu-id="b7f45-115">Блок команд PowerShell</span><span class="sxs-lookup"><span data-stu-id="b7f45-115">PowerShell command block</span></span>
+## <a name="powershell-command-block"></a><span data-ttu-id="9103d-115">Командный блок PowerShell</span><span class="sxs-lookup"><span data-stu-id="9103d-115">PowerShell command block</span></span>
 
-<span data-ttu-id="b7f45-116">Заполните значения и запустите итоговый блок команд в окне PowerShell или интегрированной среде сценариев (ISE) PowerShell.</span><span class="sxs-lookup"><span data-stu-id="b7f45-116">Fill in the values and run the resulting command block in a PowerShell window or in the PowerShell Integrated Script Environment (ISE).</span></span>
+<span data-ttu-id="9103d-116">Заполните значения и запустите командный блок в окне PowerShell или в среде интегрированных скриптов PowerShell (ISE).</span><span class="sxs-lookup"><span data-stu-id="9103d-116">Fill in the values and run the resulting command block in a PowerShell window or in the PowerShell Integrated Script Environment (ISE).</span></span>
 
 ```powershell
 # Specify the values of w.x.y.z/n for your VNet address space and g, the prefix length of your gateway subnet: 
@@ -177,6 +177,6 @@ $dx= [string]$w2 + "." + [string]$x2 + "." + [string]$y2 + "." + [string]$z2 + "
 Write-Host "Your gateway address prefix is: " $dx
 ```
     
-## <a name="related-topics"></a><span data-ttu-id="b7f45-117">Связанные статьи</span><span class="sxs-lookup"><span data-stu-id="b7f45-117">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="9103d-117">Статьи по теме</span><span class="sxs-lookup"><span data-stu-id="9103d-117">Related topics</span></span>
 
-[<span data-ttu-id="b7f45-118">Управление Microsoft 365 с помощью PowerShell</span><span class="sxs-lookup"><span data-stu-id="b7f45-118">Manage Microsoft 365 with PowerShell</span></span>](manage-microsoft-365-with-microsoft-365-powershell.md)
+[<span data-ttu-id="9103d-118">Управление Microsoft 365 с помощью PowerShell</span><span class="sxs-lookup"><span data-stu-id="9103d-118">Manage Microsoft 365 with PowerShell</span></span>](manage-microsoft-365-with-microsoft-365-powershell.md)

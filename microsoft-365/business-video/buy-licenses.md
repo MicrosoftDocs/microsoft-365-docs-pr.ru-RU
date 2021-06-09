@@ -31,22 +31,22 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/08/2021
 ms.locfileid: "52821419"
 ---
-# <a name="buy-microsoft-365-licenses"></a><span data-ttu-id="40be0-103">Покупка Microsoft 365 лицензий</span><span class="sxs-lookup"><span data-stu-id="40be0-103">Buy Microsoft 365 licenses</span></span>
+# <a name="buy-microsoft-365-licenses"></a><span data-ttu-id="498a2-103">Покупка Microsoft 365 лицензий</span><span class="sxs-lookup"><span data-stu-id="498a2-103">Buy Microsoft 365 licenses</span></span>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4KWvE?autoplay=false]
 
-<span data-ttu-id="40be0-104">При добавлении новых пользователей необходимо приобрести больше Microsoft 365 лицензий для этих пользователей.</span><span class="sxs-lookup"><span data-stu-id="40be0-104">As you add new users, you will need to purchase more Microsoft 365 licenses for those users.</span></span>
+<span data-ttu-id="498a2-104">При добавлении новых пользователей необходимо приобрести больше Microsoft 365 лицензий для этих пользователей.</span><span class="sxs-lookup"><span data-stu-id="498a2-104">As you add new users, you will need to purchase more Microsoft 365 licenses for those users.</span></span>
 
-## <a name="try-it"></a><span data-ttu-id="40be0-105">Проверьте, как это работает!</span><span class="sxs-lookup"><span data-stu-id="40be0-105">Try it!</span></span>
+## <a name="try-it"></a><span data-ttu-id="498a2-105">Проверьте, как это работает!</span><span class="sxs-lookup"><span data-stu-id="498a2-105">Try it!</span></span>
 
-1. <span data-ttu-id="40be0-106">В центре Microsoft 365 выберите **Billing**, **Your Products**, а затем выберите подписку.</span><span class="sxs-lookup"><span data-stu-id="40be0-106">In the Microsoft 365 admin center, choose **Billing**, **Your Products**, then select your subscription.</span></span>
-1. <span data-ttu-id="40be0-107">Выберите **купить лицензии**.</span><span class="sxs-lookup"><span data-stu-id="40be0-107">Choose **Buy licenses**.</span></span>
-1. <span data-ttu-id="40be0-108">Введите количество лицензий, которые вы хотите купить.</span><span class="sxs-lookup"><span data-stu-id="40be0-108">Enter the number of licenses you want to buy.</span></span>
-1. <span data-ttu-id="40be0-109">Нажмите **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="40be0-109">Select **Save**.</span></span>
-1. <span data-ttu-id="40be0-110">Затем закрой окно.</span><span class="sxs-lookup"><span data-stu-id="40be0-110">Then close the window.</span></span>
-1. <span data-ttu-id="40be0-111">Новые лицензии добавляются в подписку.</span><span class="sxs-lookup"><span data-stu-id="40be0-111">The new licenses are added to your subscription.</span></span>
-1. <span data-ttu-id="40be0-112">Чтобы назначить новые лицензии, выберите **Назначение лицензий.**</span><span class="sxs-lookup"><span data-stu-id="40be0-112">To assign the new licenses, select **Assign licenses**.</span></span>
-1. <span data-ttu-id="40be0-113">Затем снова **назначьте лицензии.**</span><span class="sxs-lookup"><span data-stu-id="40be0-113">Then, **Assign licenses** again.</span></span>
-1. <span data-ttu-id="40be0-114">Введите имя пользователя, для которого нужно назначить лицензию, а затем выберите имя.</span><span class="sxs-lookup"><span data-stu-id="40be0-114">Type the name of the user you want to assign the license to, then select the name.</span></span>
-1. <span data-ttu-id="40be0-115">Определите, какие приложения или службы нужны пользователю, а затем выберите **Назначение**.</span><span class="sxs-lookup"><span data-stu-id="40be0-115">Decide which apps or services you want the user to have, then select **Assign**.</span></span>
-1. <span data-ttu-id="40be0-116">Теперь лицензия назначена пользователю.</span><span class="sxs-lookup"><span data-stu-id="40be0-116">The license is now assigned to the user.</span></span>
+1. <span data-ttu-id="498a2-106">В центре Microsoft 365 выберите **Billing**, **Your Products**, а затем выберите подписку.</span><span class="sxs-lookup"><span data-stu-id="498a2-106">In the Microsoft 365 admin center, choose **Billing**, **Your Products**, then select your subscription.</span></span>
+1. <span data-ttu-id="498a2-107">Выберите **купить лицензии**.</span><span class="sxs-lookup"><span data-stu-id="498a2-107">Choose **Buy licenses**.</span></span>
+1. <span data-ttu-id="498a2-108">Введите количество лицензий, которые вы хотите купить.</span><span class="sxs-lookup"><span data-stu-id="498a2-108">Enter the number of licenses you want to buy.</span></span>
+1. <span data-ttu-id="498a2-109">Нажмите **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="498a2-109">Select **Save**.</span></span>
+1. <span data-ttu-id="498a2-110">Затем закрой окно.</span><span class="sxs-lookup"><span data-stu-id="498a2-110">Then close the window.</span></span>
+1. <span data-ttu-id="498a2-111">Новые лицензии добавляются в подписку.</span><span class="sxs-lookup"><span data-stu-id="498a2-111">The new licenses are added to your subscription.</span></span>
+1. <span data-ttu-id="498a2-112">Чтобы назначить новые лицензии, выберите **Назначение лицензий.**</span><span class="sxs-lookup"><span data-stu-id="498a2-112">To assign the new licenses, select **Assign licenses**.</span></span>
+1. <span data-ttu-id="498a2-113">Затем снова **назначьте лицензии.**</span><span class="sxs-lookup"><span data-stu-id="498a2-113">Then, **Assign licenses** again.</span></span>
+1. <span data-ttu-id="498a2-114">Введите имя пользователя, для которого нужно назначить лицензию, а затем выберите имя.</span><span class="sxs-lookup"><span data-stu-id="498a2-114">Type the name of the user you want to assign the license to, then select the name.</span></span>
+1. <span data-ttu-id="498a2-115">Определите, какие приложения или службы нужны пользователю, а затем выберите **Назначение**.</span><span class="sxs-lookup"><span data-stu-id="498a2-115">Decide which apps or services you want the user to have, then select **Assign**.</span></span>
+1. <span data-ttu-id="498a2-116">Теперь лицензия назначена пользователю.</span><span class="sxs-lookup"><span data-stu-id="498a2-116">The license is now assigned to the user.</span></span>
