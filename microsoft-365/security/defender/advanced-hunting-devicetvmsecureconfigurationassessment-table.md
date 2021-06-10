@@ -1,7 +1,7 @@
 ---
 title: Таблица DeviceTvmSecureConfigurationAssessment в схеме расширенной охоты
-description: Узнайте о событиях оценки безопасности в таблице DeviceTvmSecureConfigurationAssessment продвинутой схемы охоты. Эти события & управления уязвимостями предоставляют сведения об устройстве, а также сведения о конфигурации безопасности, последствиях и соответствия требованиям.
-keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, Microsoft 365, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, threat & vulnerability management, TVM, device management, security configuration, DeviceTvmSecureConfigurationAssessment
+description: Узнайте о событиях оценки безопасности в таблице DeviceTvmSecureConfigurationAssessment продвинутой схемы охоты. Эти события & управление уязвимостями предоставляют сведения об устройстве, а также сведения о конфигурации безопасности, влияние и сведения о соответствии требованиям.
+keywords: передовая охота, охота на угрозы, охота на киберугрозы, Microsoft 365 Defender, Microsoft 365, m365, поиск, запрос, телеметрия, ссылка схемы, кусто, таблица, столбец, тип данных, описание, описание, угроза & управление уязвимостями, TVM, управление устройствами, конфигурация безопасности, DeviceTvmSecureConfigurationAssessment
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -45,8 +45,8 @@ ms.locfileid: "52024221"
 | Имя столбца | Тип данных | Описание |
 |-------------|-----------|-------------|
 | `DeviceId` | string | Уникальный идентификатор устройства в службе |
-| `DeviceName` | String | Полное доменное имя (FQDN) устройства |
-| `OSPlatform` | String | Платформа операционной системы, запущенной на устройстве. Здесь указываются конкретные операционные системы, включая варианты одного семейства, например Windows 10 и Windows 7.|
+| `DeviceName` | Строка | Полное доменное имя (FQDN) устройства |
+| `OSPlatform` | Строка | Платформа операционной системы, запущенной на устройстве. Здесь указываются конкретные операционные системы, включая варианты одного семейства, например Windows 10 и Windows 7.|
 | `Timestamp` | datetime | Дата и время создания записи |
 | `ConfigurationId` | string | Уникальный идентификатор определенной настройки |
 | `ConfigurationCategory` | string | Категория или группа, к которой относится настройка: приложение, ОС, сеть, учетные записи, элементы безопасности |
@@ -54,7 +54,7 @@ ms.locfileid: "52024221"
 | `ConfigurationImpact` | string | Оценка влияния настройки на общую оценку конфигурации (1–10) |
 | `IsCompliant` | boolean | Указывает, правильно ли настроена конфигурация или политика |
 | `IsApplicable` | boolean | Указывает, применима ли конфигурация или политика к устройству |
-| `Context` | String | Дополнительные контекстные сведения о конфигурации или политике |
+| `Context` | Строка | Дополнительные контекстные сведения о конфигурации или политике |
 | `IsExpectedUserImpact` | boolean | Указывает, будет ли влияние пользователя, если применяется конфигурация или политика |
 
 ## <a name="related-topics"></a>Статьи по теме

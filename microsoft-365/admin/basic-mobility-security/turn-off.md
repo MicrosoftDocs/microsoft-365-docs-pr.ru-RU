@@ -55,4 +55,4 @@ ms.locfileid: "52023873"
 3.  В диалоговом окне Предупреждение выберите **Да**.
 
 >[!NOTE]
->Дополнительные действия по разблокировать устройства, если устройства организации по-прежнему находятся в заблокированном состоянии, см. в блоге"Удаление управления доступом из управления мобильными устройствами для [Office 365.](https://techcommunity.microsoft.com/t5/Intune-Customer-Success/Removing-Access-Control-from-Mobile-Device-Management-for-Office/ba-p/279934)
+>Дополнительные действия по разблокировать устройства, если устройства организации по-прежнему находятся в заблокированном состоянии, см. в записи блога Удаление управления [доступом из Управление мобильными устройствами для Office 365.](https://techcommunity.microsoft.com/t5/Intune-Customer-Success/Removing-Access-Control-from-Mobile-Device-Management-for-Office/ba-p/279934)

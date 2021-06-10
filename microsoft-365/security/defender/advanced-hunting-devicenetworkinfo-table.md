@@ -48,16 +48,16 @@ ms.locfileid: "52023195"
 | `DeviceId` | string | Уникальный идентификатор для обслуживаемого компьютера |
 | `DeviceName` | string | Полное доменное имя компьютера |
 | `NetworkAdapterName` | string | Имя сетевого адаптер |
-| `MacAddress` | String | MAC-адрес сетевого адаптер |
-| `NetworkAdapterType` | String | Тип сетевого адаптер. Для возможных значений обратитесь к [этому переуме-](/dotnet/api/system.net.networkinformation.networkinterfacetype) |
-| `NetworkAdapterStatus` | String | Состояние сетевого адаптер. Для возможных значений обратитесь к [этому переуме-](/dotnet/api/system.net.networkinformation.operationalstatus) |
-| `TunnelType` | String | Протокол туннеля, если интерфейс используется для этой цели, например 6to4, Teredo, ISATAP, PPTP, SSTP и SSH. |
-| `ConnectedNetworks` | String | Сети, к которые подключен адаптер. Каждый массив JSON содержит имя сети, категорию (общедоступный, частный или домен), описание и флаг, указывающий, подключен ли он публично к Интернету |
-| `DnsAddresses` | String | Адреса DNS-серверов в формате массива JSON |
-| `IPv4Dhcp` | String | IPv4 адрес сервера DHCP |
-| `IPv6Dhcp` | String | IPv6 адрес сервера DHCP |
-| `DefaultGateways` | String | Адреса шлюзов по умолчанию в формате массива JSON |
-| `IPAddresses` | String | Массив JSON, содержащий все IP-адреса, присвоенные адаптеру, а также соответствующий префикс подсети и пространство IP-адресов, таких как общедоступный, частный или ссылка-локальный. |
+| `MacAddress` | Строка | MAC-адрес сетевого адаптер |
+| `NetworkAdapterType` | Строка | Тип сетевого адаптер. Для возможных значений обратитесь к [этому переуме-](/dotnet/api/system.net.networkinformation.networkinterfacetype) |
+| `NetworkAdapterStatus` | Строка | Состояние сетевого адаптер. Для возможных значений обратитесь к [этому переуме-](/dotnet/api/system.net.networkinformation.operationalstatus) |
+| `TunnelType` | Строка | Протокол туннеля, если интерфейс используется для этой цели, например 6to4, Teredo, ISATAP, PPTP, SSTP и SSH. |
+| `ConnectedNetworks` | Строка | Сети, к которые подключен адаптер. Каждый массив JSON содержит имя сети, категорию (общедоступный, частный или домен), описание и флаг, указывающий, подключен ли он публично к Интернету |
+| `DnsAddresses` | Строка | Адреса DNS-серверов в формате массива JSON |
+| `IPv4Dhcp` | Строка | IPv4 адрес сервера DHCP |
+| `IPv6Dhcp` | Строка | IPv6 адрес сервера DHCP |
+| `DefaultGateways` | Строка | Адреса шлюзов по умолчанию в формате массива JSON |
+| `IPAddresses` | Строка | Массив JSON, содержащий все IP-адреса, присвоенные адаптеру, а также соответствующий префикс подсети и пространство IP-адресов, таких как общедоступный, частный или ссылка-локальный. |
 | `ReportId` | long | Идентификатор события на основе повторяющегося счетчика. Для определения уникальных событий этот столбец должен использоваться в сочетании со столбцами DeviceName и Timestamp. |
 
 ## <a name="related-topics"></a>Статьи по теме

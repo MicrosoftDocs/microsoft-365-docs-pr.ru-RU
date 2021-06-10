@@ -1,7 +1,7 @@
 ---
 title: Таблица DeviceRegistryEvents в продвинутой схеме охоты
 description: Узнайте о событиях реестра, которые можно запросить из таблицы DeviceRegistryEvents в продвинутой схеме охоты
-keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, Microsoft 365, m365, search, query, telemetry, schema reference, kusto, table, column, data type, registryevents, registry, DeviceRegistryEvents, key, subkey, value
+keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, microsoft 365, m365, search, query, telemetry, schema reference, kusto, table, column, data type, registryevents, registry, DeviceRegistryEvents, key, subkey, value
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -49,40 +49,40 @@ ms.locfileid: "52024266"
 | `DeviceId` | string | Уникальный идентификатор для обслуживаемого компьютера |
 | `DeviceName` | string | Полное доменное имя компьютера |
 | `ActionType` | string | Тип действий, которые вызвали событие. Подробные [сведения см. в](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) справке по схеме на портале |
-| `RegistryKey` | String | Ключ реестра, к который было применено записано действие |
-| `RegistryValueType` | String | Тип данных, например двоичный или строковой, значения реестра, к которое было применено записанное действие |
-| `RegistryValueName` | String | Имя значения реестра, к которое было применено записанное действие |
-| `RegistryValueData` | String | Данные о значении реестра, которое было применено к зарегистрированным действиям |
-| `PreviousRegistryKey` | String | Исходный ключ реестра значения реестра перед его изменением |
-| `PreviousRegistryValueName` | String | Исходное имя значения реестра перед его изменением |
-| `PreviousRegistryValueData` | String | Исходные данные значения реестра перед его изменением |
-| `InitiatingProcessAccountDomain` | String | Домен учетной записи, которая управляла процессом, ответственным за событие |
-| `InitiatingProcessAccountName` | String | Имя пользователя учетной записи, которая запустила процесс, ответственный за событие |
-| `InitiatingProcessAccountSid` | String | Идентификатор безопасности (SID) учетной записи, которая управляла процессом, ответственным за событие |
-| `InitiatingProcessAccountUpn` | String | Основное имя пользователя (UPN) учетной записи, которая управляла процессом, ответственным за событие |
-| `InitiatingProcessAccountObjectId` | String | ID объекта Azure AD учетной записи пользователя, которая запустила процесс, ответственный за событие |
-| `InitiatingProcessSHA1` | String | SHA-1 процесса (файла изображений), который инициировал событие |
-| `InitiatingProcessSHA256` | String | SHA-256 процесса (файла изображений), который инициировал событие. Это поле обычно не заполняется. Используйте столбец SHA1, если он доступен. |
+| `RegistryKey` | Строка | Ключ реестра, к который было применено записано действие |
+| `RegistryValueType` | Строка | Тип данных, например двоичный или строковой, значения реестра, к которое было применено записанное действие |
+| `RegistryValueName` | Строка | Имя значения реестра, к которое было применено записанное действие |
+| `RegistryValueData` | Строка | Данные о значении реестра, которое было применено к зарегистрированным действиям |
+| `PreviousRegistryKey` | Строка | Исходный ключ реестра значения реестра перед его изменением |
+| `PreviousRegistryValueName` | Строка | Исходное имя значения реестра перед его изменением |
+| `PreviousRegistryValueData` | Строка | Исходные данные значения реестра перед его изменением |
+| `InitiatingProcessAccountDomain` | Строка | Домен учетной записи, которая управляла процессом, ответственным за событие |
+| `InitiatingProcessAccountName` | Строка | Имя пользователя учетной записи, которая запустила процесс, ответственный за событие |
+| `InitiatingProcessAccountSid` | Строка | Идентификатор безопасности (SID) учетной записи, которая управляла процессом, ответственным за событие |
+| `InitiatingProcessAccountUpn` | Строка | Основное имя пользователя (UPN) учетной записи, которая управляла процессом, ответственным за событие |
+| `InitiatingProcessAccountObjectId` | Строка | ID объекта Azure AD учетной записи пользователя, которая запустила процесс, ответственный за событие |
+| `InitiatingProcessSHA1` | Строка | SHA-1 процесса (файла изображений), который инициировал событие |
+| `InitiatingProcessSHA256` | Строка | SHA-256 процесса (файла изображений), который инициировал событие. Это поле обычно не заполняется. Используйте столбец SHA1, если он доступен. |
 | `InitiatingProcessMD5` | string | AD5 hash of the process (image file), that initiated the event |
-| `InitiatingProcessFileName` | String | Имя процесса, который инициировал событие |
+| `InitiatingProcessFileName` | Строка | Имя процесса, который инициировал событие |
 | `InitiatingProcessFileSize` | long | Размер файла, который запустил процесс, ответственный за событие |
-| `InitiatingProcessVersionInfoCompanyName` | String | Название компании из сведений о версии процесса (файла изображений), ответственного за событие |
-| `InitiatingProcessVersionInfoProductName` | String | Имя продукта из сведений о версии процесса (файл изображений), ответственных за событие |
-|` InitiatingProcessVersionInfoProductVersion` | String | Версия продукта из сведений о версии процесса (файла изображений), ответственного за событие |
-|` InitiatingProcessVersionInfoInternalFileName` | String | Имя внутреннего файла из сведений о версии процесса (файла изображений), ответственного за событие |
-| `InitiatingProcessVersionInfoOriginalFileName` | String | Исходное имя файла из версии данных процесса (файла изображений), ответственного за событие |
-| `InitiatingProcessVersionInfoFileDescription` | String | Описание из сведений о версии процесса (файла изображений), ответственного за событие |
+| `InitiatingProcessVersionInfoCompanyName` | Строка | Название компании из сведений о версии процесса (файла изображений), ответственного за событие |
+| `InitiatingProcessVersionInfoProductName` | Строка | Имя продукта из сведений о версии процесса (файл изображений), ответственных за событие |
+|` InitiatingProcessVersionInfoProductVersion` | Строка | Версия продукта из сведений о версии процесса (файла изображений), ответственного за событие |
+|` InitiatingProcessVersionInfoInternalFileName` | Строка | Имя внутреннего файла из сведений о версии процесса (файла изображений), ответственного за событие |
+| `InitiatingProcessVersionInfoOriginalFileName` | Строка | Исходное имя файла из версии данных процесса (файла изображений), ответственного за событие |
+| `InitiatingProcessVersionInfoFileDescription` | Строка | Описание из сведений о версии процесса (файла изображений), ответственного за событие |
 | `InitiatingProcessId` | int | Процесс ID (PID) процесса, который инициировал событие |
-| `InitiatingProcessCommandLine` | String | Командная строка, используемая для запуска процесса, инициированного событием |
+| `InitiatingProcessCommandLine` | Строка | Командная строка, используемая для запуска процесса, инициированного событием |
 | `InitiatingProcessCreationTime` | datetime | Дата и время начала процесса запуска события |
-| `InitiatingProcessFolderPath` | String | Папка, содержащая процесс (файл изображений), который инициировал событие |
+| `InitiatingProcessFolderPath` | Строка | Папка, содержащая процесс (файл изображений), который инициировал событие |
 | `InitiatingProcessParentId` | int | Process ID (PID) родительского процесса, который породил процесс, ответственный за событие |
-| `InitiatingProcessParentFileName` | String | Имя родительского процесса, который породил процесс, ответственный за событие |
+| `InitiatingProcessParentFileName` | Строка | Имя родительского процесса, который породил процесс, ответственный за событие |
 | `InitiatingProcessParentCreationTime` | datetime | Дата и время запуска родительского процесса, ответственного за событие |
-| `InitiatingProcessIntegrityLevel` | String | Уровень целостности процесса, который инициировал событие. Windows назначает уровни целостности процессам, основанным на определенных характеристиках, например, если они были запущены из скачивания в Интернете. Эти уровни целостности влияют на разрешения на ресурсы |
-| `InitiatingProcessTokenElevation` | String | Тип маркера, указывающий на наличие или отсутствие высоты привилегий управления пользовательским доступом (UAC), применяемой к процессу, инициировал событие. |
+| `InitiatingProcessIntegrityLevel` | Строка | Уровень целостности процесса, который инициировал событие. Windows назначает уровни целостности процессам на основе определенных характеристик, например, если они были запущены из скачивания в Интернете. Эти уровни целостности влияют на разрешения на ресурсы |
+| `InitiatingProcessTokenElevation` | Строка | Тип маркера, указывающий на наличие или отсутствие высоты привилегий управления пользовательским доступом (UAC), применяемой к процессу, инициировал событие. |
 | `ReportId` | long | Идентификатор события на основе повторяющегося счетчика. Для определения уникальных событий этот столбец должен использоваться в сочетании со столбцами DeviceName и Timestamp. |
-| `AppGuardContainerId` | String | Идентификатор виртуализированного контейнера, используемого службой Application Guard для изоляции активности браузера |
+| `AppGuardContainerId` | Строка | Идентификатор виртуализированного контейнера, используемого службой Application Guard для изоляции активности браузера |
 
 ## <a name="related-topics"></a>Статьи по теме
 - [Обзор расширенной охоты](advanced-hunting-overview.md)

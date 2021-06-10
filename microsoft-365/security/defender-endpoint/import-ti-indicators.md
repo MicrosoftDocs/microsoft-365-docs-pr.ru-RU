@@ -49,9 +49,9 @@ ms.locfileid: "51198249"
 
 Тип разрешения |   Разрешение  |   Имя отображения разрешений
 :---|:---|:---
-Application |   Ti.ReadWrite |  'Read and write Indicators'
-Application |   Ti.ReadWrite.All |  'Read and write All Indicators'
-Делегированное (рабочая или учебная учетная запись) |    Ti.ReadWrite |  'Read and write Indicators'
+Приложение |   Ti.ReadWrite |  'Read and write Indicators'
+Приложение |   Ti.ReadWrite.All |  'Read and write All Indicators'
+Делегированные (рабочая или учебная учетная запись) |    Ti.ReadWrite |  'Read and write Indicators'
 
 
 ## <a name="http-request"></a>HTTP-запрос
@@ -63,10 +63,10 @@ POST https://api.securitycenter.microsoft.com/api/indicators/import
 
 Имя | Тип | Описание
 :---|:---|:---
-Авторизация | Строка | Bearer {token}. **Обязательное поле**.
+Авторизация | String | Bearer {token}. **Обязательное поле**.
 Content-Type | string | application/json. **Обязательное поле**.
 
-## <a name="request-body"></a>Текст запроса
+## <a name="request-body"></a>Тело запроса
 В теле запроса поставляем объект JSON со следующими параметрами:
 
 Параметр | Тип    | Описание

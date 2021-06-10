@@ -25,7 +25,7 @@ ms.locfileid: "51199853"
 
 *Это руководство по тестовой лаборатории можно использовать только для Microsoft 365 для корпоративных тестовых сред.*
 
-[Конфигурации](../security/office-365-security/microsoft-365-policies-configurations.md) удостоверений и доступа к устройствам — это набор конфигураций и политик условного доступа для защиты доступа ко всем службам Microsoft 365 для предприятий, интегрированных с Azure Active Directory (Azure AD).
+[Конфигурации](../security/office-365-security/microsoft-365-policies-configurations.md) удостоверений и доступа к устройствам — это набор конфигураций и политики условного доступа для защиты доступа ко всем службам в Microsoft 365 для предприятий, интегрированных с Azure Active Directory (Azure AD).
 
 В этой статье описано, как можно настроить тестовую среду Microsoft 365, соответствующую требованиям [предварительной настройки сквозной проверки подлинности](../security/office-365-security/identity-access-prerequisites.md#prerequisites) для удостоверений и доступа к устройствам.
 
@@ -37,7 +37,7 @@ ms.locfileid: "51199853"
 4. Настройка компонента обратной записи паролей
 5. Настройка самостоятельного сброса пароля
 6. Настройка многофакторной проверки подлинности
-7. Включить автоматическую регистрацию устройств на компьютерах Windows, присоединив к домену
+7. Включить автоматическую регистрацию устройств на компьютерах с Windows домена
 8. Настройка защиты паролей Azure AD 
 9. Включение защиты идентификации Azure AD
 10. Включение современной проверки подлинности для Exchange Online и Skype для бизнеса Online
@@ -88,9 +88,9 @@ ms.locfileid: "51199853"
 
 Протестируйте многофакторную проверку подлинности только для учетной записи "Пользователь 2".
 
-## <a name="phase-7-enable-automatic-device-registration-of-domain-joined-windows-computers"></a>Этап 7. Включить автоматическую регистрацию устройств на компьютерах Windows, присоединив к домену 
+## <a name="phase-7-enable-automatic-device-registration-of-domain-joined-windows-computers"></a>Этап 7. Включить автоматическую регистрацию устройств на компьютерах с Windows доменами 
 
-Следуйте [этим инструкциям,](/azure/active-directory/devices/hybrid-azuread-join-plan) чтобы включить автоматическую регистрацию устройств на компьютерах Windows, присоединив к домену.
+Следуйте [этим инструкциям,](/azure/active-directory/devices/hybrid-azuread-join-plan) чтобы включить автоматическую регистрацию устройств на Windows компьютерах.
 
 ## <a name="phase-8-configure-azure-ad-password-protection"></a>Этап 8. Настройка защиты паролей Azure AD 
 
@@ -136,4 +136,4 @@ ms.locfileid: "51199853"
 
 [Обзор Microsoft 365 для предприятий](microsoft-365-overview.md)
 
-[Документация по Microsoft 365 для предприятий](/microsoft-365-enterprise/)
+[Документация по Microsoft 365 для предприятий](/microsoft-365-enterprise/)

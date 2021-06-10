@@ -1,7 +1,7 @@
 ---
 title: DeviceFileCertificateInfo table in the advanced hunting schema
 description: Сведения о подписании файлов в таблице DeviceFileCertificateInfo в продвинутой схеме охоты
-keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, Microsoft 365, m365, search, query, telemetry, schema reference, kusto, table, column, data type, digital signature, certificate, file signing, DeviceFileCertificateInfo
+keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, microsoft 365, m365, search, query, telemetry, schema reference, kusto, table, column, data type, digital signature, certificate, file signing, DeviceFileCertificateInfo
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -47,13 +47,13 @@ ms.locfileid: "52023217"
 | `DeviceName` | string | Полное доменное имя компьютера |
 | `SHA1` | string | SHA-1 файла, к которому было применено записанное действие |
 | `IsSigned` | boolean | Указывает, подписан ли файл |
-| `SignatureType` | String | Указывает, была ли информация подписи прочитана как встроенное содержимое в самом файле или считывается из внешнего файла каталога. |
-| `Signer` | String | Сведения о подписывщике файла |
-| `SignerHash` | String | Уникальное значение hash, определяющие подписавщика |
-| `Issuer` | String | Сведения о полномочиях по выдаче сертификатов (CA) |
-| `IssuerHash` | String | Уникальное значение hash identifying issuing certificate authority (CA) |
-| `CertificateSerialNumber` | String | Идентификатор сертификата, который является уникальным для органа по выдаче сертификатов (CA) |
-| `CrlDistributionPointUrls` | String |  Массив JSON с перечислением URL-адресов сетевых акций, содержащих сертификаты и списки отзывов сертификатов (CRLs) |
+| `SignatureType` | Строка | Указывает, была ли информация подписи прочитана как встроенное содержимое в самом файле или считывается из внешнего файла каталога. |
+| `Signer` | Строка | Сведения о подписывщике файла |
+| `SignerHash` | Строка | Уникальное значение hash, определяющие подписавщика |
+| `Issuer` | Строка | Сведения о полномочиях по выдаче сертификатов (CA) |
+| `IssuerHash` | Строка | Уникальное значение hash identifying issuing certificate authority (CA) |
+| `CertificateSerialNumber` | Строка | Идентификатор сертификата, который является уникальным для органа по выдаче сертификатов (CA) |
+| `CrlDistributionPointUrls` | Строка |  Массив JSON с перечислением URL-адресов сетевых акций, содержащих сертификаты и списки отзывов сертификатов (CRLs) |
 | `CertificateCreationTime` | datetime | Дата и время создания сертификата |
 | `CertificateExpirationTime` | datetime | Дата и время истечения срока действия сертификата |
 | `CertificateCountersignatureTime` | datetime | Дата и время, когда сертификат был подписан |

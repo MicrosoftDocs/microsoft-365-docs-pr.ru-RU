@@ -1,7 +1,7 @@
 ---
 title: DeviceTvmSoftwareInventory table in the advanced hunting schema
 description: Узнайте о инвентаризации программного обеспечения на устройствах в таблице DeviceTvmSoftwareInventory продвинутой схемы охоты.
-keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, Microsoft 365, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, threat & vulnerability management, TVM, device management, software, inventory, vulnerabilities, CVE ID, OS DeviceTvmSoftwareInventoryVulnerabilities
+keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, microsoft 365, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, threat & управление уязвимостями, TVM, device management, software, inventory, vulnerabilities, CVE ID, OS DeviceTvmSoftwareInventoryVulnerabilities
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -58,7 +58,7 @@ ms.locfileid: "52024233"
 | `SoftwareName` | string | Название программного продукта |
 | `SoftwareVersion` | string | Номер версии программного продукта |
 | `EndOfSupportStatus` | string | Указывает этап жизненного цикла программного продукта относительно указанной даты окончания поддержки (EOS) или даты окончания срока службы (EOL). |
-| `EndOfSupportDate` | String | Дата окончания службы поддержки (EOS) или даты окончания срока службы программного продукта |
+| `EndOfSupportDate` | Строка | Дата окончания службы поддержки (EOS) или даты окончания срока службы программного продукта |
 
 
 

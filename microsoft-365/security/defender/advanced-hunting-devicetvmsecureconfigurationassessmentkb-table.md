@@ -1,7 +1,7 @@
 ---
 title: Таблица DeviceTvmSecureConfigurationAssessmentKB в схеме расширенного поиска угроз
 description: Узнайте о различных настройках безопасности, оцененных в Контроле угроз и уязвимостей, в таблице DeviceTvmSecureConfigurationAssessmentKB схемы расширенного поиска угроз.
-keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, Microsoft 365, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, threat & vulnerability management, TVM, device management, security configuration, MITRE ATT&CK framework, knowledge base, KB, DeviceTvSecureConfigurationAssessmentKB
+keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, microsoft 365, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, threat & управление уязвимостями, TVM, device management, security configuration, MITRE ATT&CK framework, knowledge base, KB, DeviceTvsecureConfigurationAssessmentKB
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -53,7 +53,7 @@ ms.locfileid: "52024245"
 | `ConfigurationSubcategory` | string |Подкатегория или подгруппа, к которой относится настройка. Во многих случаях здесь описываются конкретные возможности или функции. |
 | `ConfigurationBenchmarks` | string | Список отраслевых контрольных показателей с рекомендациями по аналогичной или схожей настройке |
 | `Tags` | string | Метки, представляющие различные атрибуты, используемые для определения или классификации конфигурации безопасности |
-| `RemediationOptions` | String | Рекомендуемые действия по снижению или устранению связанных рисков |
+| `RemediationOptions` | Строка | Рекомендуемые действия по снижению или устранению связанных рисков |
 
 ## <a name="related-topics"></a>Статьи по теме
 
