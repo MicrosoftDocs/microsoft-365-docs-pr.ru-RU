@@ -28,11 +28,11 @@ ms.locfileid: "50909338"
 ---
 # <a name="tune-sharepoint-online-performance"></a>Настройка производительности SharePoint Online
 
-В этой статье содержатся ссылки на другие статьи, которые рассказывают о том, как повысить производительность времени загрузки страниц для SharePoint Online. Эта статья является частью [сетевого планирования и настройки производительности для проекта Office 365.](./network-planning-and-performance.md)
+В этой статье содержатся ссылки на другие статьи, которые рассказывают о том, как повысить производительность времени загрузки страниц для SharePoint Online. Эта статья является частью [сетевого планирования и](./network-planning-and-performance.md) настройки производительности для Office 365 проекта.
 
-## <a name="articles-about-fine-tuning-sharepoint-online-performance"></a>Статьи о тонкой настройке производительности SharePoint Online
+## <a name="articles-about-fine-tuning-sharepoint-online-performance"></a>Статьи о тонкой настройке SharePoint Производительность Online
 
-Используйте эти статьи для настройки производительности SharePoint Online.
+Используйте эти статьи для точной настройки SharePoint производительности в Интернете.
   
 - [Общие сведения о настройке производительности для SharePoint Online](introduction-to-performance-tuning-for-sharepoint-online.md)
 
@@ -50,7 +50,7 @@ ms.locfileid: "50909338"
 
 - [Использование сети доставки содержимого Office 365 с SharePoint Online](use-microsoft-365-cdn-with-spo.md)
 
-- [Использование веб-части поиска контента вместо веб-части запроса контента для повышения производительности в SharePoint Online](using-content-search-web-part-instead-of-content-query-web-part-to-improve-perfo.md)
+- [Использование веб-части поиска контента вместо веб-части запроса контента для повышения производительности SharePoint Online](using-content-search-web-part-instead-of-content-query-web-part-to-improve-perfo.md)
 
 - [Планирование и тестирование загрузки SharePoint Online](capacity-planning-and-load-testing-sharepoint-online.md)
 
@@ -60,12 +60,12 @@ ms.locfileid: "50909338"
 
 - [Как избежать регулирования количества запросов или блокировки в SharePoint Online](/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online)
 
-- [Оптимизация iFrames на современных страницах портала SharePoint Online](modern-iframe-optimization.md)
+- [Оптимизация iFrames на SharePoint веб-страниц современных порталов](modern-iframe-optimization.md)
 
-- [Оптимизация производительности веб-части на современных страницах портала SharePoint Online](modern-web-part-optimization.md)
+- [Оптимизация производительности веб SharePoint веб-части на современных страницах портала Online](modern-web-part-optimization.md)
 
-- [Оптимизация вызовов страниц на современных порталах SharePoint Online](modern-page-call-optimization.md)
+- [Оптимизация вызовов страниц на SharePoint веб-страниц современных порталов](modern-page-call-optimization.md)
 
-- [Оптимизация веса страниц на современных порталах SharePoint Online](modern-page-weight-optimization.md)
+- [Оптимизация веса страницы на SharePoint веб-страниц современных порталов](modern-page-weight-optimization.md)
 
-- [Оптимизация изображений на современных страницах портала SharePoint Online](modern-image-optimization.md)
+- [Оптимизация изображений на SharePoint веб-страниц современных порталов](modern-image-optimization.md)

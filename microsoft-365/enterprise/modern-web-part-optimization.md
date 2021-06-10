@@ -20,7 +20,7 @@ ms.custom:
 ms.reviewer: sstewart
 search.appverid:
 - MET150
-description: Узнайте, как использовать диагностику страниц для оптимизации производительности веб-частей на современных страницах веб-сайтов SharePoint Online.
+description: Узнайте, как использовать page Diagnostics для оптимизации производительности веб-частей на SharePoint веб-страниц.
 ms.openlocfilehash: 2a72ecd8bc1f6dee4166809f72ce5f9bce422dc9
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT

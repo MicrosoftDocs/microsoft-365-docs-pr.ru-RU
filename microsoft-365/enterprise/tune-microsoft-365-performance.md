@@ -26,12 +26,12 @@ ms.locfileid: "50909350"
 ---
 # <a name="tune-microsoft-365-performance"></a>Настройка производительности Microsoft 365
 
-В этой статье ссылки на учебные курсы, блоги, статьи и другие ресурсы, которые расскажут о том, как повысить производительность Microsoft 365.
+В этой статье ссылки на учебные курсы, блоги, статьи и другие ресурсы, которые расскажут вам, как повысить производительность Microsoft 365.
   
-Эта статья является частью планирования сети и настройки [производительности для проекта Microsoft 365.](./network-planning-and-performance.md)
+Эта статья является частью [сетевого планирования](./network-planning-and-performance.md) и настройки производительности для Microsoft 365 проекта.
    
-## <a name="articles-about-fine-tuning-microsoft-365-and-office-365-performance"></a>Статьи о тонкой настройке производительности Microsoft 365 и Office 365
+## <a name="articles-about-fine-tuning-microsoft-365-and-office-365-performance"></a>Статьи о тонкой настройке Microsoft 365 и Office 365 производительности
 
-Взгляните на 10 советов по оптимизации и устранению неполадок подключения к сети [Office 365](/archive/blogs/onthewire/top-10-tips-for-optimising-troubleshooting-your-office-365-network-connectivity) От Пола Коллинге. 
+Взгляните на [10](/archive/blogs/onthewire/top-10-tips-for-optimising-troubleshooting-your-office-365-network-connectivity) советов по оптимизации и устранению неполадок Office 365 подключения к сети Павла Коллинге. 
   
-Сведения об использовании сетевого перевода адресов с Помощью Microsoft 365 см. в службе [поддержки NAT в Microsoft 365.](nat-support-with-microsoft-365.md)
+Сведения об использовании сетевого перевода адресов с Microsoft 365 см. в [Microsoft 365.](nat-support-with-microsoft-365.md)

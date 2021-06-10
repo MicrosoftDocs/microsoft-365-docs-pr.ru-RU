@@ -22,7 +22,7 @@ search.appverid:
 - MOE150
 ms.assetid: 932e3676-2491-49f0-9177-d893d2f5276e
 ROBOTS: NOINDEX
-description: Узнайте, как сделать CSV-файл для autoPilot в Microsoft 365 для бизнеса.
+description: Узнайте, как сделать CSV-файл для AutoPilot в Microsoft 365 для бизнеса.
 ms.openlocfilehash: 13d7fbffd8d6fbe1af0dde55a4e98688060d9da8
 ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
@@ -48,7 +48,7 @@ ms.locfileid: "51579222"
 
 Когда вы добавляете устройства, их также необходимо добавить в профиль. Профиль используется для применения профилей развертывания AutoPilot к устройству или группе устройств.
   
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
 [Microsoft 365 для бизнес-документации и ресурсов](../../business/index.yml)
   

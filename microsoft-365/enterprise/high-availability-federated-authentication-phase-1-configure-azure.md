@@ -23,7 +23,7 @@ ms.locfileid: "50929112"
 ---
 # <a name="high-availability-federated-authentication-phase-1-configure-azure"></a>Этап 1. Федеративная проверка подлинности для обеспечения высокой доступности: настройка Azure
 
-На этом этапе в Azure создаются группы ресурсов, виртуальная сеть (VNet) и наборы доступности, которые будут принимать виртуальные машины на этапах 2, 3 и 4. Прежде чем переходить к разделу [Phase 2: Configure domain controllers](high-availability-federated-authentication-phase-2-configure-domain-controllers.md), необходимо завершить этот этап. Развертывание [федерарной](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md) проверки подлинности с высокой доступностью для Microsoft 365 в Azure для всех этапов.
+На этом этапе в Azure создаются группы ресурсов, виртуальная сеть (VNet) и наборы доступности, которые будут принимать виртуальные машины на этапах 2, 3 и 4. Прежде чем переходить к разделу [Phase 2: Configure domain controllers](high-availability-federated-authentication-phase-2-configure-domain-controllers.md), необходимо завершить этот этап. См. в рублях Развертывание [федерарной](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md) проверки подлинности с высокой доступностью для Microsoft 365 в Azure для всех этапов.
   
 Azure должна быть предусмотрена с помощью этих базовых компонентов:
   
@@ -109,7 +109,7 @@ Azure должна быть предусмотрена с помощью эти�
 Теперь давайте начнем создание инфраструктуры Azure для проведения федерарной проверки подлинности для Microsoft 365.
   
 > [!NOTE]
-> Для указанных ниже последовательностей команд используется последняя версия Azure PowerShell. См. [начало работы с Azure PowerShell.](/powershell/azure/get-started-azureps) 
+> Для указанных ниже последовательностей команд используется последняя версия Azure PowerShell. См. [начало работы с Azure PowerShell](/powershell/azure/get-started-azureps). 
   
 Запустите командную строку Azure PowerShell и войдите в свою учетную запись.
   
@@ -118,7 +118,7 @@ Connect-AzAccount
 ```
 
 > [!TIP]
-> Для создания готовых к запуску командных блоков PowerShell на основе настраиваемой настройки используйте эту книгу конфигурации [Microsoft Excel.](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/O365FedAuthInAzure_Config.xlsx) 
+> Для создания готовых к запуску командных блоков PowerShell на основе настраиваемой настройки используйте Microsoft Excel [конфигурации.](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/O365FedAuthInAzure_Config.xlsx) 
 
 Получите имя подписки с помощью следующей команды.
   
@@ -132,7 +132,7 @@ Get-AzSubscription | Sort Name | Select Name
 Get-AzSubscription | Sort Name | Select SubscriptionName
 ```
 
-Укажите свою подписку Azure. Замените все в кавычках, включая \< and > символы, правильным именем.
+Настройте свою подписку Azure. Замените текст в кавычках, в том числе символы "\< and >" на правильное имя.
   
 ```powershell
 $subscrName="<subscription name>"
@@ -159,25 +159,25 @@ Get-AzResourceGroup | Sort ResourceGroupName | Select ResourceGroupName
 Создайте новые группы ресурсов с помощью этих команд.
   
 ```powershell
-$locName="<an Azure location, such as West US>"
-$rgName="<Table R - Item 1 - Name column>"
+$locName="<an Azure location, such as West US>&quot;
+$rgName=&quot;<Table R - Item 1 - Name column>&quot;
 New-AzResourceGroup -Name $rgName -Location $locName
-$rgName="<Table R - Item 2 - Name column>"
+$rgName=&quot;<Table R - Item 2 - Name column>&quot;
 New-AzResourceGroup -Name $rgName -Location $locName
-$rgName="<Table R - Item 3 - Name column>"
+$rgName=&quot;<Table R - Item 3 - Name column>&quot;
 New-AzResourceGroup -Name $rgName -Location $locName
-$rgName="<Table R - Item 4 - Name column>"
+$rgName=&quot;<Table R - Item 4 - Name column>&quot;
 New-AzResourceGroup -Name $rgName -Location $locName
 ```
 
 Затем создайте виртуальную сеть Azure и подсети.
   
 ```powershell
-$rgName="<Table R - Item 4 - Resource group name column>"
-$locName="<your Azure location>"
-$vnetName="<Table V - Item 1 - Value column>"
-$vnetAddrPrefix="<Table V - Item 4 - Value column>"
-$dnsServers=@( "<Table D - Item 1 - DNS server IP address column>", "<Table D - Item 2 - DNS server IP address column>" )
+$rgName=&quot;<Table R - Item 4 - Resource group name column>&quot;
+$locName=&quot;<your Azure location>&quot;
+$vnetName=&quot;<Table V - Item 1 - Value column>&quot;
+$vnetAddrPrefix=&quot;<Table V - Item 4 - Value column>&quot;
+$dnsServers=@( &quot;<Table D - Item 1 - DNS server IP address column>&quot;, &quot;<Table D - Item 2 - DNS server IP address column>" )
 # Get the shortened version of the location
 $locShortName=(Get-AzResourceGroup -Name $rgName).Location
 
@@ -302,9 +302,9 @@ New-AzAvailabilitySet -ResourceGroupName $rgName -Name $avName -Location $locNam
   
 **Этап 1. Инфраструктура Azure для федерарной проверки подлинности высокой доступности для Microsoft 365**
 
-![Этап 1 федерарной проверки подлинности Microsoft 365 в Azure с инфраструктурой Azure](../media/4e7ba678-07df-40ce-b372-021bf7fc91fa.png)
+![Этап 1 высокой доступности Microsoft 365 федерарная проверка подлинности в Azure с инфраструктурой Azure](../media/4e7ba678-07df-40ce-b372-021bf7fc91fa.png)
   
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Следующий этап
 
 Используйте [этап 2. Настройте контроллеры домена,](high-availability-federated-authentication-phase-2-configure-domain-controllers.md) чтобы продолжить настройку этой рабочей нагрузки.
   
@@ -316,4 +316,4 @@ New-AzAvailabilitySet -ResourceGroupName $rgName -Name $avName -Location $locNam
   
 [Центр архитектуры и решений Microsoft 365](../solutions/index.yml)
 
-[Понимание удостоверений Microsoft 365 и Azure Active Directory](about-microsoft-365-identity.md)
+[Понимание Microsoft 365 и Azure Active Directory](about-microsoft-365-identity.md)

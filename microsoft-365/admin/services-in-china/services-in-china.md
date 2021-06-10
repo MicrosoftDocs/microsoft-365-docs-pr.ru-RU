@@ -234,7 +234,7 @@ GDPR предоставляет отдельным лицам (или субъе
     
 Подробные сведения и инструкции см. в [материале Data Subject Requests (DSR) для GDPR.](https://www.trustcenter.cn/privacy/gdpr-office365.mdl)
 
-## <a name="related-content"></a>Связанные материалы
+## <a name="related-content"></a>См. также:
 
 [Попробуйте или Microsoft 365 подписку](../../commerce/try-or-buy-microsoft-365.md) на бизнес (статья)\
 [Поддержка azure information Protection для Office 365 21Vianet](parity-between-azure-information-protection.md) (статья)\

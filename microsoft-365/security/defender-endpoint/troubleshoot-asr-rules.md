@@ -78,7 +78,7 @@ Advanced hunting is a query-based (Kusto Query Language) threat-hunting tool tha
 
 Чтобы расширить вышеуказанные сведения о правилах ASR, можно использовать свойства AttackSurfaceReductionRules_Ids  **и/или AttackSurfaceReductionRules_Actions.**
 
-Пример:
+Пример.
 
 *Get-MPPreference | Select-Object-ExpandProperty**AttackSurfaceReductionRules_Ids*
 

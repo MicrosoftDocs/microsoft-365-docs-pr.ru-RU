@@ -13,7 +13,7 @@ f1.keywords:
 - CSH
 ms.custom: Ent_Solutions
 ms.assetid: 1c903173-67cd-47da-86d9-d333972dda80
-description: Сводка. Настройка прокси-серверов веб-приложения для федерарной проверки подлинности высокой доступности для Microsoft 365 в Microsoft Azure.
+description: Сводка. Настройте прокси-серверы веб-приложения для федерарной проверки подлинности высокой доступности для Microsoft 365 в Microsoft Azure.
 ms.openlocfilehash: 95d73d05f2eef087e606df14db180b24c69d5932
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -23,21 +23,21 @@ ms.locfileid: "50929076"
 ---
 # <a name="high-availability-federated-authentication-phase-4-configure-web-application-proxies"></a>Этап 4. Федеративная проверка подлинности для обеспечения высокой доступности: настройка прокси веб-приложений
 
-На этом этапе развертывания высокой доступности для федерарной проверки подлинности Microsoft 365 в службах инфраструктуры Azure создается внутренний балансировщик нагрузки и два сервера AD FS.
+На этом этапе развертывания высокой доступности для Microsoft 365 федерарной проверки подлинности в службах инфраструктуры Azure создается внутренний балансировщик нагрузки и два сервера AD FS.
   
-Перед переходом на этап [5: Настройка федерационной](high-availability-federated-authentication-phase-5-configure-federated-authentic.md)проверки подлинности для Microsoft 365 необходимо завершить этот этап. Развертывание [федерарной](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md) проверки подлинности с высокой доступностью для Microsoft 365 в Azure для всех этапов.
+Перед переходом на этап [5: Настройка федерационной](high-availability-federated-authentication-phase-5-configure-federated-authentic.md)проверки подлинности для Microsoft 365. См. в рублях Развертывание [федерарной](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md) проверки подлинности с высокой доступностью для Microsoft 365 в Azure для всех этапов.
   
 ## <a name="create-the-internet-facing-load-balancer-in-azure"></a>Создание балансировки нагрузки, относящаяся к Интернету, в Azure
 
 Необходимо создать балансировку нагрузки с подключением к Интернету, чтобы Azure равномерно распределяла входящий трафик проверки подлинности клиентов из Интернета между двумя прокси-серверами веб-приложений.
   
 > [!NOTE]
-> Для указанных ниже последовательностей команд используется последняя версия Azure PowerShell. См. [начало работы с Azure PowerShell.](/powershell/azure/get-started-azureps) 
+> Для указанных ниже последовательностей команд используется последняя версия Azure PowerShell. См. [начало работы с Azure PowerShell](/powershell/azure/get-started-azureps). 
   
-Если вы предоставили значения расположения и группы ресурсов, запустите блок в командной подсказке Azure PowerShell или в ISE PowerShell.
+Если вы предоставили значения расположения и группы ресурсов, запустите в результате блок в командной Azure PowerShell или в ISE PowerShell.
   
 > [!TIP]
-> Для создания готовых к запуску командных блоков PowerShell на основе настраиваемой настройки используйте эту книгу конфигурации [Microsoft Excel.](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/O365FedAuthInAzure_Config.xlsx) 
+> Для создания готовых к запуску командных блоков PowerShell на основе настраиваемой настройки используйте Microsoft Excel [конфигурации.](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/O365FedAuthInAzure_Config.xlsx) 
 
 ```powershell
 # Set up key variables
@@ -52,7 +52,7 @@ $lbrule=New-AzLoadBalancerRuleConfig -Name "WebTraffic" -FrontendIpConfiguration
 New-AzLoadBalancer -ResourceGroupName $rgName -Name "WebAppProxyServers" -Location $locName -LoadBalancingRule $lbrule -BackendAddressPool $beAddressPool -Probe $healthProbe -FrontendIpConfiguration $frontendIP
 ```
 
-Чтобы отобразить общедоступный IP-адрес, назначенный вашему балансированию нагрузки с подключением к Интернету, запустите эти команды в командной подсказке Azure PowerShell на локальном компьютере:
+Чтобы отобразить общедоступный IP-адрес, присвоенный вашему балансированию нагрузки с подключением к Интернету, запустите эти команды в командной Azure PowerShell на локальном компьютере:
   
 ```powershell
 Write-Host (Get-AzPublicIpaddress -Name "WebProxyPublicIP" -ResourceGroup $rgName).IPAddress
@@ -60,7 +60,7 @@ Write-Host (Get-AzPublicIpaddress -Name "WebProxyPublicIP" -ResourceGroup $rgNam
 
 ## <a name="determine-your-federation-service-fqdn-and-create-dns-records"></a>Определение FQDN службы федерации и создание записей DNS
 
-Чтобы определить имя службы федерации в Интернете, необходимо определить имя службы федерации. Azure AD Connect настроит Microsoft 365 с этим именем в фазе 5, который станет частью URL-адреса, который Microsoft 365 отправляет для подключения клиентов для получения маркера безопасности. Пример : fs.contoso.com (fs означает службу федерации).
+Чтобы определить имя службы федерации в Интернете, необходимо определить имя службы федерации. Azure AD Подключение настраивает Microsoft 365 с этим именем в фазе 5, который станет частью URL-адреса, который Microsoft 365 для подключения клиентов для получения маркера безопасности. Пример : fs.contoso.com (fs означает службу федерации).
   
 После создания службы федерации FDQN создайте общедоступный домен DNS Запись для службы федерации FDQN, которая решается на общедоступный IP-адрес балансировки нагрузки в Интернете.
   
@@ -68,7 +68,7 @@ Write-Host (Get-AzPublicIpaddress -Name "WebProxyPublicIP" -ResourceGroup $rgNam
 |:-----|:-----|:-----|:-----|
 |FDQN службы федерации  <br/> |A  <br/> |3600  <br/> |общедоступный IP-адрес балансира нагрузки, отображаемого командой **Write-Host** в предыдущем разделе. <br/> |
    
-Вот пример:
+Пример:
   
 |**Имя**|**Type** (Тип)|**TTL** (Срок жизни)|**Значение**|
 |:-----|:-----|:-----|:-----|
@@ -78,9 +78,9 @@ Write-Host (Get-AzPublicIpaddress -Name "WebProxyPublicIP" -ResourceGroup $rgNam
   
 ## <a name="create-the-web-application-proxy-server-virtual-machines-in-azure"></a>Создание виртуальных машин прокси-сервера веб-приложения в Azure
 
-Чтобы создать виртуальные машины для двух прокси-серверов веб-приложения, используйте следующий блок команд Azure PowerShell. 
+Используйте следующий блок Azure PowerShell для создания виртуальных машин для двух прокси-серверов веб-приложения. 
   
-Обратите внимание, что в следующих наборах команд Azure PowerShell используются значения из следующих таблиц:
+Обратите внимание, что Azure PowerShell командные наборы используют значения из следующих таблиц:
   
 - таблица M (для виртуальных машин);
     
@@ -156,11 +156,11 @@ New-AzVM -ResourceGroupName $rgName -Location $locName -VM $vm
   
 **Этап 4. Балансировщик нагрузки с подключением к Интернету и прокси-серверы веб-приложений для инфраструктуры федерарной проверки подлинности высокой доступности в Azure**
 
-![Этап 4 высокой доступности инфраструктуры федерарной проверки подлинности Microsoft 365 в Azure с прокси-серверами веб-приложений](../media/7e03183f-3b3b-4cbe-9028-89cc3f195a63.png)
+![Этап 4 высокой доступности Microsoft 365 федерарной инфраструктуры проверки подлинности в Azure с прокси-серверами веб-приложений](../media/7e03183f-3b3b-4cbe-9028-89cc3f195a63.png)
   
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Следующий этап
 
-Используйте [этап 5. Настройка федераированной](high-availability-federated-authentication-phase-5-configure-federated-authentic.md) проверки подлинности для Microsoft 365, чтобы продолжить настройку этой рабочей нагрузки.
+Используйте [этап 5. Настройка федерационной](high-availability-federated-authentication-phase-5-configure-federated-authentic.md) проверки подлинности для Microsoft 365 для продолжения настройки этой рабочей нагрузки.
   
 ## <a name="see-also"></a>См. также
 

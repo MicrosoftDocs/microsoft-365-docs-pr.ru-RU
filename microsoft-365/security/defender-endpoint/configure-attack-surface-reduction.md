@@ -1,5 +1,5 @@
 ---
-title: Настройка возможностей уменьшения поверхности атаки
+title: Настройка возможностей сокращения направлений атак
 description: Для настройки уменьшения поверхности атаки используйте Microsoft Intune, Microsoft Endpoint Configuration Manager, powerShell и групповой политики.
 keywords: asr, уменьшение поверхности атаки, защитник Windows, защитник Microsoft, антивирус, av
 search.product: eADQiWindows 10XVcnh
@@ -24,7 +24,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/04/2021
 ms.locfileid: "52770965"
 ---
-# <a name="configure-attack-surface-reduction-capabilities"></a>Настройка возможностей уменьшения поверхности атаки
+# <a name="configure-attack-surface-reduction-capabilities"></a>Настройка возможностей сокращения направлений атак
 
 **Область применения:**
 - [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2154037)

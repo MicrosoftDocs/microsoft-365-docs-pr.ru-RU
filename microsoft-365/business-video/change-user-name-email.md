@@ -63,7 +63,7 @@ ms.locfileid: "52706422"
 
     В результате этого изменения пользователю потребуется войти в Microsoft 365 имя пользователя и добавить новую учетную запись электронной почты в Outlook.
 
-## <a name="related-content"></a>Связанные материалы
+## <a name="related-content"></a>См. также:
 
 [Дайте разрешения почтового ящика другому пользователю](../admin/add-users/give-mailbox-permissions-to-another-user.md) (статья)\
 [Преобразование почтового ящика пользователя в общий почтовый ящик](../admin/email/convert-user-mailbox-to-shared-mailbox.md) (статья)\

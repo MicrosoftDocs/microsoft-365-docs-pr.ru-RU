@@ -32,19 +32,19 @@ ms.locfileid: "50909326"
 
 В этой статье предусмотрены ссылки для системных администраторов, которые хотят планировать требования к пропускной способности сети или которым необходимо повысить производительность Skype для бизнеса Online. 
   
-## <a name="fine-tuning-skype-for-business-online-performance"></a>Тонкая настройка производительности Skype для бизнеса в Интернете
+## <a name="fine-tuning-skype-for-business-online-performance"></a>Тонкая настройка Skype для бизнеса Производительность Online
 
-- **Чтобы узнать о** параметрах и метриках для поддержания качества вызовов для организации, важно прочитать качество мультимедиа и производительность подключения к сети в [Skype для](/skypeforbusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)бизнеса Online . В этой статье вы можете получить сведения о типах развертывания и других необходимых вам сведениях, если вы хотите использовать ExpressRoute.
+- **Чтобы узнать о** параметрах и метриках для поддержания качества вызовов для организации, важно прочитать качество мультимедиа и производительность подключения к сети в [Skype для бизнеса Online](/skypeforbusiness/optimizing-your-network/media-quality-and-network-connectivity-performance). В этой статье вы можете получить сведения о типах развертывания и других необходимых вам сведениях, если вы хотите использовать ExpressRoute.
     
-- **Требования** к пропускной способности для телефонных разговоров Skype для бизнес-сервера см. в статью Plan [for dial-in conferencing in Skype for Business Server 2015.](/skypeforbusiness/plan-your-deployment/conferencing/dial-in-conferencing)
+- **Для локального** и гибридного развертывания вы можете увидеть требования к пропускной способности для Skype для бизнеса Server телефонных конференций, см. в статью Plan [for dial-in conferencing in Skype для бизнеса Server 2015](/skypeforbusiness/plan-your-deployment/conferencing/dial-in-conferencing)г. .
     
-## <a name="more-ways-to-improve-skype-for-business-online-performance"></a>Дополнительные способы повышения производительности Skype для бизнеса в Интернете
+## <a name="more-ways-to-improve-skype-for-business-online-performance"></a>Дополнительные способы повышения Skype для бизнеса производительности в Интернете
 
-- [ExpressRoute и QoS](/skypeforbusiness/optimizing-your-network/expressroute-and-qos-in-skype-for-business-online)в Skype для бизнеса Online: подключение к Office 365 через выделенное сетевое подключение с помощью Azure ExpressRoute для Office 365 и Skype для бизнеса Online. 
+- [ExpressRoute и QoS](/skypeforbusiness/optimizing-your-network/expressroute-and-qos-in-skype-for-business-online)в Skype для бизнеса Online : Подключение Office 365 через выделенное сетевое подключение с помощью Azure ExpressRoute для Office 365 и Skype для бизнеса Online. 
     
-- Включение и использование панели мониторинга качества вызовов в Skype для бизнеса [Online:](/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard)Панель мониторинга качества вызовов (CQD) позволяет отслеживать и получать сведения о качестве вызовов, сделанных с помощью служб Skype для бизнеса. 
+- Включение и использование панели мониторинга качества вызовов в [Skype для бизнеса Online:](/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard)панель мониторинга качества вызовов (CQD) позволяет отслеживать и получать сведения о качестве вызовов, сделанных с помощью Skype для бизнеса служб. 
     
-## <a name="articles-on-setting-up-skype-for-business-online"></a>Статьи о настройке Skype для бизнеса Online
+## <a name="articles-on-setting-up-skype-for-business-online"></a>Статьи по настройке Skype для бизнеса Online
 
 - [Настройка Skype для бизнеса Online](/skypeforbusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
@@ -52,7 +52,7 @@ ms.locfileid: "50909326"
     
 - [Настройка планов звонков (Skype для бизнеса)](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
     
-- [Вот что вы получаете с телефонной системой в Office 365](/skypeforbusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system)
+- [Вот что вы получаете с телефонная система в Office 365](/skypeforbusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system)
     
 ## <a name="see-also"></a>См. также
 

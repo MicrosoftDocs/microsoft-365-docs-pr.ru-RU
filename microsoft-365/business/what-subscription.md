@@ -18,7 +18,7 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-description: Определите, является ли Office 365 E3, Microsoft 365 бизнес-стандартом или Microsoft 365 Business Premium правильным для вашего бизнеса.
+description: Определите, Office 365 E3, Microsoft 365 бизнес стандарт или Microsoft 365 бизнес премиум для вашего бизнеса.
 ms.openlocfilehash: 2f8c59e0af619730060862fc8ee24a702ca00343
 ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
@@ -28,4 +28,4 @@ ms.locfileid: "51579829"
 ---
 # <a name="what-subscription-is-right-for-your-small-business"></a>Какая подписка является правильной для вашего малого бизнеса?
 
-Корпорация Майкрософт предлагает несколько планов для малого бизнеса. Рекомендуемые подписки — это Microsoft 365 Business Standard или Microsoft 365 Business Premium с до 300 пользователями. Microsoft 365 Business Premium предлагает больше функций безопасности, чем Microsoft 365 Business Standard за дополнительные расходы.
+Корпорация Майкрософт предлагает несколько планов для малого бизнеса. Рекомендуемые подписки являются Microsoft 365 бизнес стандарт или Microsoft 365 бизнес премиум с до 300 пользователями. Microsoft 365 бизнес премиум предоставляет больше функций безопасности, чем Microsoft 365 бизнес стандарт дополнительных затрат.

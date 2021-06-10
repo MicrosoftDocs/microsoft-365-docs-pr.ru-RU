@@ -34,7 +34,7 @@ ms.locfileid: "52706362"
 
 [Подробнее!](https://go.microsoft.com/fwlink/?linkid=2120533)
 
-## <a name="related-content"></a>Связанные материалы
+## <a name="related-content"></a>См. также:
 
 [Подписки и выставление счета](../commerce/index.yml) (ссылки)\
 [Просмотр счета](../commerce/billing-and-payments/view-your-bill-or-invoice.md) (статья)\

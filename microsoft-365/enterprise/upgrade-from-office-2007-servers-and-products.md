@@ -1,5 +1,5 @@
 ---
-title: Ресурсы, которые помогут обновить серверы и клиенты Office 2007
+title: Ресурсы, которые помогут вам обновиться с Office серверов и клиентов 2007 г.
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -22,7 +22,7 @@ search.appverid:
 ms.assetid: b2acaeca-4986-40f4-92b7-a1bdd06e549d
 f1.keywords:
 - NOCSH
-description: В этой статье данная статья предоставляет ресурсы для обновления серверов и клиентов Office 2007, так как поддержка Office 2007 завершена.
+description: В этой статье данная статья предоставляет ресурсы для обновления Office серверов и клиентов 2007 г., так как поддержка Office 2007 г. завершена.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 36ae7ab70b8a95a7762f426f5a0d463083e7bc71
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
@@ -31,23 +31,23 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50909290"
 ---
-# <a name="resources-to-help-you-upgrade-from-office-2007-servers-and-clients"></a>Ресурсы, которые помогут обновить серверы и клиенты Office 2007
+# <a name="resources-to-help-you-upgrade-from-office-2007-servers-and-clients"></a>Ресурсы, которые помогут вам обновиться с Office серверов и клиентов 2007 г.
 
-*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
+*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
 
-Если вы используете продукты и службы Office 2007, знайте, что поддержка этих приложений завершена. Рассмотрите возможность перехода в облако Майкрософт, начиная с Microsoft 365. Используйте эту статью в качестве отправной точки для просмотра параметров и планирования обновления.
+Если вы используете продукты Office 2007 г., знайте, что поддержка этих приложений завершена. Рассмотрите возможность перехода в облако Майкрософт, начиная с Microsoft 365. Используйте эту статью в качестве отправной точки для просмотра параметров и планирования обновления.
       
-## <a name="office-2007-planning-roadmaps"></a>Планы планирования Office 2007
+## <a name="office-2007-planning-roadmaps"></a>Office планирования 2007 г.
   
-Завершилась поддержка продуктов и служб Office 2007. Следующие дорожные карты помогут вам спланировать обновление.
+Завершилась поддержка Office 2007 года. Следующие дорожные карты помогут вам спланировать обновление.
 
 |**Планирование контента**|**Поддержка дат завершена**|
 |:-----|:-----|
-|[Завершение плана поддержки Office 2007](/DeployOffice/office-2007-end-support-roadmap) <br/> |10 октября 2017 г.  <br/> |
+|[Office 2007 г. дорожная карта поддержки](/DeployOffice/office-2007-end-support-roadmap) <br/> |10 октября 2017 г.  <br/> |
 |[План действий после прекращения поддержки Exchange 2007](exchange-2007-end-of-support.md); <br/> |11 апреля 2017 г.  <br/> |
 |[План действий после прекращения поддержки SharePoint Server 2007](sharepoint-2007-end-of-support.md); <br/> |10 октября 2017 г.  <br/> |
 |[План действий после прекращения поддержки Project Server 2007](project-server-2007-end-of-support.md); <br/> |10 октября 2017 г.  <br/> |
-|[Обновление с сервера office Communications Server](/SkypeForBusiness/plan-your-deployment/upgrade) <br/> |8 января 2018 г.  <br/> |
+|[Обновление с Office communications Server](/SkypeForBusiness/plan-your-deployment/upgrade) <br/> |8 января 2018 г.  <br/> |
 |[План действий после прекращения поддержки PerformancePoint Server 2007](pps-2007-end-of-support.md). <br/> |9 января 2018 г.  <br/> |
    
 После окончания поддержки продукта Майкрософт больше не будет:
@@ -60,7 +60,7 @@ ms.locfileid: "50909290"
 
 ## <a name="im-a-home-user-what-do-i-do"></a>Я использую версию для дома. Что мне делать?
 
-Если вы используете дома продукты и приложения Office 2007, см. [эту информацию.](plan-upgrade-previous-versions-office.md#im-a-home-user-what-do-i-do)
+Если вы используете продукты и приложения 2007 Office 2007 года в домашних условиях, см. [эту информацию.](plan-upgrade-previous-versions-office.md#im-a-home-user-what-do-i-do)
      
 ## <a name="related-topics"></a>Статьи по теме
 

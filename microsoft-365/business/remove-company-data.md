@@ -23,7 +23,7 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 80bdae57-f8bc-4e40-a58c-956007117ecb
-description: Узнайте, как использовать Microsoft 365 для бизнеса для удаления данных компании, которые имеют пользователи на своих устройствах или ПК с Windows.
+description: Узнайте, как использовать Microsoft 365 для бизнеса для удаления данных компании, которые пользователи имеют на своих устройствах или Windows ПК.
 ms.openlocfilehash: 2e1af384d83937d65fd5c8ae655d228df48422cd
 ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
@@ -33,11 +33,11 @@ ms.locfileid: "51580001"
 ---
 # <a name="remove-company-data-from-devices"></a>Удаление данных организации с устройств
 
-Эта статья применима к Microsoft 365 Бизнес Премиум.
+Эта статья применима к Microsoft 365 бизнес премиум.
 
 ## <a name="remove-company-data"></a>Удаление данных компании
 
-Вы можете использовать Microsoft 365 для бизнеса, чтобы [](app-protection-settings-for-android-and-ios.md) удалить данные компании, которые имеют пользователи на своих устройствах или [пк с Windows,](protection-settings-for-windows-10-devices.md) защищенные Microsoft 365. **После удаления данных компании с устройства их нельзя будет восстановить**. 
+Вы можете использовать Microsoft 365 для бизнеса для удаления данных компании, [](protection-settings-for-windows-10-devices.md) которые пользователи имеют на своих устройствах или Windows пк, защищенных Microsoft 365. [](app-protection-settings-for-android-and-ios.md) **После удаления данных компании с устройства их нельзя будет восстановить**. 
   
 1. Перейдите в Центр администрирования <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.
     

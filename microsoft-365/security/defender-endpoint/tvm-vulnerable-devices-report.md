@@ -32,7 +32,7 @@ ms.locfileid: "52245484"
 **Область применения:**
 
 - [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/?linkid=2154037)
-- [Управление угрозами и уязвимостями](next-gen-threat-and-vuln-mgt.md)
+- [Угроза и управление уязвимостями](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Хотите испытать Microsoft Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)

@@ -38,7 +38,7 @@ ms.locfileid: "52245652"
 - [Политики предотвращения потери данных](dlp-learn-about-dlp.md) 
 - [Метки конфиденциальности](sensitivity-labels.md)
 - [Метки хранения](retention.md)
-- [Управление рисками изнутри](insider-risk-management.md)
+- [Управление внутренними рисками](insider-risk-management.md)
 - [Соответствие требованиям к обмену данными](communication-compliance.md)
 - [Политики автоматической маркировки](apply-sensitivity-label-automatically.md#how-to-configure-auto-labeling-for-office-apps)
 
@@ -66,7 +66,7 @@ ms.locfileid: "52245652"
 
 ## <a name="argentina-national-identity-dni-number"></a>Номер национального удостоверения (DNI) Аргентины
 
-### <a name="format"></a>Format
+### <a name="format"></a>Формат
 
 Восемь цифр, разделенных точками.
 
@@ -104,7 +104,7 @@ ms.locfileid: "52245652"
 #### <a name="keyword_argentina_national_id"></a>Keyword_argentina_national_id
 
 - Argentina National Identity number 
-- Identity 
+- Удостоверение 
 - Удостоверение национальной идентификации 
 - DNI 
 - Национальный реестр лиц NIC 

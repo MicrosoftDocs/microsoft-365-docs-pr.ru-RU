@@ -32,13 +32,13 @@ landingContent:
       url: /mem/intune/enrollment/device-enrollment
   - linkListType: how-to-guide
     links:
-    - text: Настройка автоматической регистрации для устройств с Windows 10
+    - text: Настройка автоматической регистрации для Windows 10 устройств
       url: /mem/intune/enrollment/quickstart-setup-auto-enrollment
     - text: Настройка регистрации на Android
       url: /mem/intune/enrollment/android-enroll
     - text: Настройка регистрации iOS/iPadOS
       url: /mem/intune/enrollment/ios-enroll
-- title: Управление данными о устройствах и приложениях с помощью Microsoft 365 Business Premium
+- title: Управление данными устройств и приложений с помощью Microsoft 365 бизнес премиум
   linkLists:
   - linkListType: how-to-guide
     links:
@@ -46,9 +46,9 @@ landingContent:
       url: ../../business/view-policies-and-devices.md
     - text: Удаление данных организации с устройств
       url: ../../business/remove-company-data.md
-    - text: Сброс устройств Windows в заводские параметры
+    - text: Сброс Windows устройств в заводские параметры
       url: ../../business/reset-devices-to-factory-settings.md
-- title: Управление устройствами и данными приложений с помощью Microsoft 365 для предприятия
+- title: Управление данными устройств и приложений с помощью Microsoft 365 для предприятия
   linkLists:
   - linkListType: overview
     links:

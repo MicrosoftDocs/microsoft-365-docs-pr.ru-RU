@@ -54,7 +54,7 @@ ms.locfileid: "52706434"
 1. Выберите **Сохранить изменения,** а затем закрыть окно.
 1. Повторите эти действия для каждого пользователя, который должен получать электронную почту в новом домене.
 
-## <a name="related-content"></a>Связанные материалы
+## <a name="related-content"></a>См. также:
 
 [Добавление домена в Microsoft 365](../admin/setup/add-domain.md) (статья)\
 [Добавление записей DNS для подключения домена](../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md) (статьи)\
