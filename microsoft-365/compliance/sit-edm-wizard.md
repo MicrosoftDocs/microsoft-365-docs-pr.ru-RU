@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Узнайте, как использовать мастер для схемы точного соответствия данных и типа конфиденциальной информации.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d9d6f870239b963ee7483b9f08e93e40b10f4f0b
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 5fdf289c403d8c09342a1eac1434c4219bb7b13c
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878008"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861663"
 ---
 # <a name="use-the-exact-data-match-schema-and-sensitive-information-type-wizard"></a>Использование мастера для схемы точного соответствия данных и типа конфиденциальной информации
 
@@ -42,7 +42,7 @@ ms.locfileid: "52878008"
 
 1. Ознакомьтесь с пошаговыми инструкциями по созданию настраиваемого типа конфиденциальной информации с помощью [быстрого обзора рабочего процесса](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md#the-work-flow-at-a-glance) EDM.
 
-2. Выполните действия в сохранить конфиденциальные данные [в .csv или в формате TSV](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md#save-sensitive-data-in-csv-or-tsv-format).
+2. Выполните шаги, описанные в разделе [Сохранение конфиденциальных данных в формате .csv](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md#save-sensitive-data-in-csv-format).
 
 ## <a name="use-the-exact-data-match-schema-and-sensitive-information-type-pattern-wizard"></a>Использование мастера схемы точного соответствия данных и шаблона типа конфиденциальной информации
 

@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: a16e3eb8f6f7eae9fbaa82c9fd978f4fef429818
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.openlocfilehash: c7b39b600af2fed130a0b78a590740a8bc063f50
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52822326"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861699"
 ---
 # <a name="web-content-filtering"></a>Фильтрация веб-содержимого
 
@@ -61,7 +61,9 @@ ms.locfileid: "52822326"
 
 - Windows 10 Корпоративная E5, Microsoft 365 E5, Безопасность Microsoft 365 E5, Microsoft 365 E3 + Безопасность Microsoft 365 E5 надстройки или автономные лицензии Microsoft Defender для конечных точек. 
 - Доступ к Центр безопасности в Microsoft Defender порталу ( https://securitycenter.windows.com) . .
-- Устройства, Windows 10 юбилейные обновления (версия 1607) или более поздние версии с последним обновлением антивирусного программного обеспечения Microsoft Defender.
+- Устройства, Windows 10 юбилейные обновления (версия 1607) или более поздние версии с последним обновлением MoCAMP.
+- Защитник Windows Включена защита SmartScreen и Network.
+
 
 ## <a name="data-handling"></a>Обработка данных
 
@@ -162,4 +164,11 @@ ms.locfileid: "52822326"
 
 - Отчеты по фильтрации веб-контента в настоящее время ограничены отображением 5000 записей. Например, в отчете Домены будет показываться максимум 5000 доменов для данного запроса фильтра, если это применимо. 
 
+
+
+- [Обзор веб-защиты](web-protection-overview.md)
+- [Защита от веб-угроз](web-threat-protection.md)
+- [Мониторинг безопасности в Интернете](web-protection-monitoring.md)
+- [Реагирование на веб-угрозы](web-protection-response.md)
+- [Требования к сетевой защите](web-content-filtering.md)
 

@@ -280,8 +280,6 @@
 #### [Получите обновления антивирусной и антивредоносной программ](manage-updates-baselines-microsoft-defender-antivirus.md)
 ##### [Управление источниками обновлений антивирусной программы в Microsoft Defender](manage-protection-updates-microsoft-defender-antivirus.md)
 ##### [Управление расписанием загрузки и применения обновлений защиты](manage-protection-update-schedule-microsoft-defender-antivirus.md)
-#####  [Управление процессом постепенного выпуска обновлений Microsoft Defender](updates.md)
-#####  [Настройка процесса постепенного выпуска обновлений Microsoft Defender](configure-updates.md)
 ##### [Управление обновлениями и проверками устаревших конечных точек антивирусной программы в Microsoft Defender](manage-outdated-endpoints-microsoft-defender-antivirus.md)
 ##### [Управление принудительными обновлениями на основе событий](manage-event-based-updates-microsoft-defender-antivirus.md)
 ##### [Управление обновлениями для мобильных устройств и виртуальных машин (ВМ)](manage-updates-mobile-devices-vms-microsoft-defender-antivirus.md)
@@ -513,8 +511,9 @@
 
 ###### [Индикаторы]()
 ####### [Методы и свойства индикаторов](ti-indicator.md)
-####### [Индикатор отправки](post-ti-indicator.md)
 ####### [Список индикаторов](get-ti-indicators-collection.md)
+####### [Отправка индикатора](post-ti-indicator.md)
+####### [Импорт индикатора](import-ti-indicators.md)
 ####### [Удалить индикатор](delete-ti-indicator-by-id.md)
 
 ###### [Протокол IP]()
