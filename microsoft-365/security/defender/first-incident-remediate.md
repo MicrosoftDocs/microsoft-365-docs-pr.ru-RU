@@ -29,7 +29,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52297348"
 ---
-# <a name="step-2-remediate-your-first-incident"></a>Этап 2. Исправление первого инцидента
+# <a name="step-2-remediate-your-first-incident"></a>Шаг 2. Исправление первого инцидента
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -89,7 +89,7 @@ Microsoft 365 Defender предлагает несколько действий 
  
 Во время проверки после [](first-incident-post.md) инцидента также можно создавать книги для создания действий по исправлению последствий инцидентов для более быстрых действий по исправлению. 
 
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Следующий этап
 
 [![Шаг 3. Узнайте, как выполнить проверку инцидента после инцидента](../../media/first-incident-overview/first-incident-path-step3.png)](first-incident-post.md)
 

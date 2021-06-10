@@ -46,7 +46,7 @@ ms.locfileid: "52114395"
 - [Заголовки сообщений](#message-headers)
 - [Свойства сообщения](#message-properties)
 
-### <a name="senders"></a>Senders
+### <a name="senders"></a>Отправители
 
 
 |**условие или исключение в DLP**  |**параметры condition/exception в Microsoft 365 PowerShell** |**тип свойства**  |**description**|
@@ -103,7 +103,7 @@ ms.locfileid: "52114395"
 |Заготвка содержит слова или фразы|условие: *HeaderContainsWords* <br/> исключение: *ExceptIfHeaderContainsWords*|  Таблица hash  |Сообщения, которые содержат указанное поле заголовка. Значение этого поля содержит указанные слова.|
 |Заготвка соответствует шаблонам|   условие: *HeaderMatchesPatterns* <br/> исключение: *ExceptIfHeaderMatchesPatterns*|    Таблица hash  |Сообщения, которые содержат указанное поле заголовка. Значение этого поля содержит указанные регулярные выражения.|
 
-### <a name="message-properties"></a>Свойства сообщения
+### <a name="message-properties"></a>Свойства сообщений
 
 |**условие или исключение в DLP**| **параметры condition/exception в Microsoft 365 PowerShell**| **тип свойства**   |**description**|
 |---------|---------|---------|---------|

@@ -16,12 +16,12 @@ manager: dansimp
 ms.technology: mde
 ms.date: 06/02/2021
 ms.topic: article
-ms.openlocfilehash: 10351d97ba72945f929e042dc72a37724a1df291
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: e78b21b751aa398ed4449fb398f12b60f1929873
+ms.sourcegitcommit: 2cf7293d610a676726ac891b89366e23810d9142
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52769609"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52866683"
 ---
 # <a name="test-attack-surface-reduction-in-microsoft-defender-for-endpoint"></a>Тестирование уменьшения поверхности атаки в Microsoft Defender для конечной точки
 
@@ -46,7 +46,7 @@ ms.locfileid: "52769609"
 > [!TIP]
 > Вы также можете посетить веб-Защитник Windows [](https://demo.wd.microsoft.com?ocid=cx-wddocs-testground) тестового поля в demo.wd.microsoft.com, чтобы подтвердить, что функции работают, и посмотреть, как они работают.
 
- **Параметры аудита** | **Как включить режим аудита** | **Просмотр событий**
+| Параметры аудита | Как включить режим аудита | Просмотр событий |
 |---------|---------|---------|
 | Аудит применяется ко всем событиям | [Включить контролируемый доступ к папкам](enable-controlled-folders.md) | [События доступа к управляемым папкам](evaluate-controlled-folder-access.md#review-controlled-folder-access-events-in-windows-event-viewer)
 | Аудит применяется к отдельным правилам | [Включить правила сокращения направлений атак](enable-attack-surface-reduction.md) | [События правила уменьшения поверхности атаки](evaluate-attack-surface-reduction.md#review-attack-surface-reduction-events-in-windows-event-viewer)

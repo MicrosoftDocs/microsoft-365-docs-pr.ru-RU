@@ -1,5 +1,5 @@
 ---
-title: Каталог решений Microsoft 365
+title: Каталог решений Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: robmazz
@@ -18,7 +18,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/30/2021
 ms.locfileid: "52114427"
 ---
-# <a name="microsoft-365-solution-catalog"></a>Каталог решений Microsoft 365
+# <a name="microsoft-365-solution-catalog"></a>Каталог решений Microsoft 365
 
 Вы ищете способ быстрого начала работы с задачами соответствия требованиям в Microsoft 365? Ознакомьтесь с [каталогом Microsoft 365](https://compliance.microsoft.com/solutioncatalog) решений для обнаружения, получения и быстрого начала работы с решениями по обеспечению соответствия требованиям и управлению рисками.
 

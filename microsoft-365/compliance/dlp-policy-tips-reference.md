@@ -392,7 +392,7 @@ ms.locfileid: "52086763"
 
 ## <a name="support-matrix-for-dlp-policy-tips-across-microsoft-apps"></a>Советы по поддержке матрицы политики DLP в приложениях Майкрософт
 
-|**Приложение и платформа**|**Поддержка отзывов политики DLP**|**Поддерживаемые типы конфиденциальной информации**|**Предикаты и поддерживаемые действия**|**Комментарии**|
+|**Приложение и платформа**|**Поддержка отзывов политики DLP**|**Поддерживаемые типы конфиденциальной информации**|**Предикаты и поддерживаемые действия**|**Comments**|
 |:--|:--|:--|:--|:--|
 |**Outlook Web Access**.|:::image type="icon" source="../media/rightmrk.png" border="false":::|Все|Subset|См. ссылку на рекомендации по [предотвращению потери данных](#data-loss-prevention-policy-tips-reference)|
 |**Outlook Win32 (Outlook 2013 и более)**|:::image type="icon" source="../media/rightmrk.png" border="false":::|Subset|Subset|См. [Outlook 2013](#outlook-2013-and-later-supports-showing-policy-tips-for-only-some-conditions-and-exceptions) г. и более поздние версии рекомендаций по политике только для некоторых условий и исключений, а также [Outlook 2013](#outlook-2013-and-later-and-office-apps-on-desktop-support-showing-policy-tips-for-only-some-sensitive-information-types) г., а также более поздних и Office приложений в поддержку настольных компьютеров, демонстрируя советы по политике только для некоторых типов конфиденциальной информации для получения сведений о поддержке типов конфиденциальной информации и условий DLP и действий, поддерживаемых для демонстрации советов по политике DLP на Outlook Win32.|

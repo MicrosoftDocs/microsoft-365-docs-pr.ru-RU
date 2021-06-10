@@ -245,7 +245,7 @@
               href: dlp-teams-default-policy.md
             - name: Сведения о локальном сканере для защиты от потери данных Microsoft 365 (предварительная версия)
               href: dlp-on-premises-scanner-learn.md
-            - name: Сведения о расширении соответствия требованиям Майкрософт (предварительная версия)
+            - name: Сведения о расширении соответствия требованиям Майкрософт
               href: dlp-chrome-learn-about.md
             - name: Сведения о панели мониторинга оповещений для защиты от потери данных
               href: dlp-alerts-dashboard-learn.md
@@ -267,7 +267,7 @@
               href: endpoint-dlp-getting-started.md
             - name: Настройка параметров прокси-сервера и подключения к Интернету для конечной точки защиты от потери данных
               href: endpoint-dlp-configure-proxy.md
-            - name: Начало работы с расширением соответствия требованиям Майкрософт (предварительная версия)
+            - name: Начало работы с расширением соответствия требованиям Майкрософт
               href: dlp-chrome-get-started.md
             - name: Начало работы с панелью мониторинга оповещений для защиты от потери данных
               href: dlp-alerts-dashboard-get-started.md
@@ -431,6 +431,8 @@
               href: archive-webexteams-data.md
             - name: Веб-страницы
               href: archive-webpagecapture-data.md
+            - name: Веб-страницы
+              href: archive-webpagecapture-data.md
             - name: Workplace from Facebook
               href: archive-workplacefromfacebook-data.md
             - name: XIP
@@ -457,6 +459,8 @@
               href: archive-telus-network-data.md
             - name: Verizon Network
               href: archive-verizon-network-data.md
+            - name: WeChat (предварительная версия)
+              href: archive-wechat-data.md
             - name: WhatsApp
               href: archive-whatsapp-data.md
         - name: Архивация сторонних данных при помощи партнера
@@ -694,14 +698,14 @@
               href: add-data-to-review-set-from-another-review-set.md
         - name: Просмотр контента дела
           items:
-            - name: Использование панели мониторинга набора для проверки
-              href: advanced-ediscovery-dashboard.md
-            - name: Просмотр документов в наборе для проверки
-              href: view-documents-in-review-set.md
             - name: Запрос и фильтрация содержимого в наборе для проверки
               href: review-set-search.md
             - name: Добавление тегов к документам в наборе для проверки
               href: tagging-documents.md
+            - name: Просмотр документов в наборе для проверки
+              href: view-documents-in-review-set.md
+            - name: Использование панели мониторинга набора для проверки
+              href: advanced-ediscovery-dashboard.md
         - name: Анализ контента дела
           href: analyzing-data-in-review-set.md
           items:
@@ -711,12 +715,20 @@
               href: email-threading-in-advanced-ediscovery.md
             - name: Темы
               href: themes-in-advanced-ediscovery.md
-            - name: Модуль прогнозирующего кодирования (предварительная версия)
+        - name: Использование прогнозирующего кодирования (предварительная версия)
+          items:
+            - name: Краткая инструкция — прогнозирующее кодирование
+              href: predictive-coding-quick-start.md
+            - name: Сведения о прогнозирующем кодировании
               href: predictive-coding-overview.md
-            - name: Использование модуля релевантности для анализа контента
-              href: using-relevance.md
-            - name: Вывод из эксплуатации модуля релевантности
-              href: relevance-module-retirement.md
+            - name: Создание модели прогнозирующего кодирования
+              href: predictive-coding-create-model.md
+            - name: Обучение модели прогнозирующего кодирования
+              href: predictive-coding-train-model.md
+            - name: Применение фильтра оценки прогнозирования
+              href: predictive-coding-apply-prediction-filter.md
+            - name: Справочные материалы по прогнозирующему кодированию
+              href: predictive-coding-reference.md
         - name: Экспорт содержимого досье
           href: exporting-data-ediscover20.md
           items:

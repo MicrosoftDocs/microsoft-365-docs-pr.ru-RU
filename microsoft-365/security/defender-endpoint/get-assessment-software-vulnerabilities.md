@@ -334,7 +334,7 @@ GET https://api-us.securitycenter.contoso.com/api/machines/SoftwareVulnerabiliti
 }
 ```
 
-## <a name="see-also"></a>Дополнительные материалы
+## <a name="see-also"></a>См. также
 
 - [Методы и свойства экспортной оценки на устройство](get-assessment-methods-properties.md)
 

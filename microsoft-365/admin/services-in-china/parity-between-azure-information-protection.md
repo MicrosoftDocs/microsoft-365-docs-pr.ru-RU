@@ -137,7 +137,7 @@ ms.locfileid: "52535846"
 
 Скачайте и установите клиент единой метки AIP из [Центра загрузки Майкрософт.](https://www.microsoft.com/download/details.aspx?id=53018)
 
-Дополнительные сведения см. в статьях:
+Дополнительные сведения см. в указанных ниже статьях.
 
 - [Документация по AIP](/azure/information-protection/)
 - [История и политика поддержки версий AIP](/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history)
@@ -281,7 +281,7 @@ ms.locfileid: "52535846"
 | [Set-AIPScannerRepository](/powershell/module/azureinformationprotection/set-aipscannerrepository) | Определяет параметры существующего репозитория в заданиях проверки контента. |
 | | |
 
-Дополнительные сведения см. в статьях:
+Дополнительные сведения см. в указанных ниже статьях.
 
 - [Что такое сканер единой маркировки Azure Information Protection?](/azure/information-protection/deploy-aip-scanner)
 - [Настройка и установка единого сканера маркировки Azure Information Protection (AIP)](/azure/information-protection/deploy-aip-scanner-configure-install?tabs=powershell-only)

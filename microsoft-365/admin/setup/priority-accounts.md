@@ -91,6 +91,6 @@ ms.locfileid: "52535810"
 
 4. На странице **Учетные записи приоритета** выберите пользователя или пользователей, которые необходимо удалить из списка, и выберите Удалить **учетные записи.**
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 [Использование учетных записей приоритета в Microsoft 365](https://techcommunity.microsoft.com/t5/microsoft-365-blog/using-priority-accounts-in-microsoft-365/ba-p/1873314)
