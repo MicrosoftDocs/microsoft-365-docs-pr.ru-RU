@@ -70,16 +70,16 @@ GET /api/machines/findbytag?tag={tag}&useStartsWithFilter={true/false}
 
 Имя | Тип | Описание
 :---|:---|:---
-Authorization | String | Bearer {token}. **Обязательное поле**.
+Авторизация | String | Bearer {token}. **Обязательное поле**.
 
 ## <a name="request-uri-parameters"></a>Запрос параметров URI
 
 Имя | Тип | Описание
 :---|:---|:---
 tag | String | Имя тега. **Обязательное поле**.
-useStartsWithFilter | Логический | При наборе true поиск будет находить все устройства с именем тега, которое начинается с данного тега в запросе. Значение по умолчанию: false. **Необязательное поле**.
+useStartsWithFilter | Boolean | При наборе true поиск будет находить все устройства с именем тега, которое начинается с данного тега в запросе. Значение по умолчанию: false. **Необязательное поле**.
 
-## <a name="request-body"></a>Текст запроса
+## <a name="request-body"></a>Тело запроса
 переменная Empty
 
 ## <a name="response"></a>Отклик

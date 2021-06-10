@@ -92,7 +92,7 @@ Exchange Online Protection (EOP) — это облачная служба фил
 <br>
 
 ****
-|Функция|Комментарии|
+|Возможность|Комментарии|
 |---|---|
 |**Protection**||
 |Функции защиты от вредоносных программ|[Защита от вредоносных программ в EOP](anti-malware-protection.md) <p> [Вопросы и ответы по защите от вредоносных программ](anti-malware-protection-faq-eop.yml) <p> [Настройка политик по борьбе с вредоносными программами в EOP](configure-anti-malware-policies.md)|

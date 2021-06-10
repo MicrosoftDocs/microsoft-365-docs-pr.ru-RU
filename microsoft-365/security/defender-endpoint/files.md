@@ -58,13 +58,13 @@ ms.locfileid: "52771193"
 |globalLastObserved | DateTimeOffset | Последний раз, когда файл был замечен |
 |size | Nullable long | Размер файла |
 |fileType | String | Тип файла |
-|isPeFile | Логический | верно, если файл является переносным для выполнения (например, "DLL", "EXE" и т.д.) |
+|isPeFile | Boolean | верно, если файл является переносным для выполнения (например, "DLL", "EXE" и т.д.) |
 |filePublisher | String | Издатель файлов |
 |fileProductName | String | Название продукта |
 |подписывка | String | Подписатель файлов |
 |эмитент | String | Эмитент файлов |
 |signerHash | String | Hash of the signing certificate |
-|isValidCertificate | Логический | Был успешно проверен сертификат подписи агентом Microsoft Defender для конечных точек. |
+|isValidCertificate | Boolean | Был успешно проверен сертификат подписи агентом Microsoft Defender для конечных точек. |
 |determinationType | String | Тип определения файла |
 |determinationValue | String | Значение определения |
 

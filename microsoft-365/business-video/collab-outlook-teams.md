@@ -1,5 +1,5 @@
 ---
-title: Сотрудничество с помощью Outlook и Teams
+title: Совместное использование Outlook и Teams
 f1.keywords:
 - NOCSH
 ms.author: efrene
@@ -45,13 +45,13 @@ ms.locfileid: "51580670"
 - Беседы в режиме реального времени с командой и приглашение клиентов или гостей на беседу.
 - Личные чаты или вызовы и совместное общение с экраном.
 - Расписание и участие в собраниях с сотрудниками и гостями.
-- Добавление или совместное добавление файлов с связанного сайта SharePoint или OneDrive для бизнеса.
-- Добавьте в Teams дополнительные приложения, такие как Planner, Power BI или GitHub.
+- Добавление или совместное добавление файлов с SharePoint сайта или OneDrive для бизнеса.
+- Добавьте больше приложений, таких как Planner, Power BI или GitHub в Teams.
 
-:::image type="content" source="../media/teams-model.png" alt-text="Стилизованный образ домашней страницы Microsoft Teams."::: 
+:::image type="content" source="../media/teams-model.png" alt-text="Стилизованный образ Microsoft Teams домашней страницы."::: 
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
 [Что такое Outlook?](https://support.microsoft.com/office10f1fa35-f33a-4cb7-838c-a7f3e6228b20)
 
-[Обзор команд](/MicrosoftTeams/Teams-overview)
+[Teams обзор](/MicrosoftTeams/Teams-overview)

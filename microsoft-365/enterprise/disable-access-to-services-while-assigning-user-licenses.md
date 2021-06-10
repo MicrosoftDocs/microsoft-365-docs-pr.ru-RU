@@ -1,5 +1,5 @@
 ---
-title: Отключение доступа к службам Microsoft 365 при назначении лицензий пользователей
+title: Отключение доступа к Microsoft 365 при назначении лицензий пользователей
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -17,7 +17,7 @@ ms.custom:
 - PowerShell
 - Ent_Office_Other
 ms.assetid: bb003bdb-3c22-4141-ae3b-f0656fc23b9c
-description: Узнайте, как назначать лицензии учетным записям пользователей и одновременно отключать конкретные планы служб с помощью PowerShell для Microsoft 365.
+description: Узнайте, как назначать лицензии учетным записям пользователей и одновременно отключать определенные планы служб с помощью PowerShell для Microsoft 365.
 ms.openlocfilehash: 7486968f6f4822047a1697ee1e05129277fd11a8
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -25,15 +25,15 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50929436"
 ---
-# <a name="disable-access-to-microsoft-365-services-while-assigning-user-licenses"></a>Отключение доступа к службам Microsoft 365 при назначении лицензий пользователей
+# <a name="disable-access-to-microsoft-365-services-while-assigning-user-licenses"></a>Отключение доступа к Microsoft 365 при назначении лицензий пользователей
 
-*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
+*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
 
-Подписки Microsoft 365 приходят с планами служб для отдельных служб. Администраторам Microsoft 365 часто требуется отключить некоторые планы при назначении лицензий пользователям. С инструкциями в этой статье можно назначить лицензию Microsoft 365, отключив определенные планы службы с помощью PowerShell для отдельной учетной записи пользователя или нескольких учетных записей пользователей.
+Microsoft 365 подписки приходят с планами служб для отдельных служб. Microsoft 365 администраторам часто требуется отключить некоторые планы при назначении лицензий пользователям. С инструкциями в этой статье можно назначить лицензию Microsoft 365 при отключке определенных планов служб с помощью PowerShell для отдельной учетной записи пользователя или нескольких учетных записей пользователей.
 
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Использование модуля PowerShell Azure Active Directory для Graph
 
-[Во-первых, подключите клиента Microsoft 365.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
+[Во-первых, подключите Microsoft 365 клиента.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
   
 
 Далее перечислите планы лицензий для клиента с помощью этой команды.
@@ -67,7 +67,7 @@ Set-AzureADUserLicense -ObjectId $user.ObjectId -AssignedLicenses $LicensesToAss
 
 ## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a>Использование модуля Microsoft Azure Active Directory для Windows PowerShell
 
-[Во-первых, подключите клиента Microsoft 365.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
+[Во-первых, подключите Microsoft 365 клиента.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
 
 Затем запустите эту команду, чтобы увидеть текущие подписки:
   
@@ -81,7 +81,7 @@ Get-MsolAccountSku
 
 Значение составляющих команды  `Get-MsolAccountSku`:
   
-- **AccountSkuId** is a subscription for your organization in \<OrganizationName>:\<Subscription> format. Это значение, которое вы предоставили при регистрации в \<OrganizationName> Microsoft 365, и является уникальным для вашей организации. The \<Subscription> value is for a specific subscription. For example, for litwareinc:ENTERPRISEPACK, the organization name is litwareinc, and the subscription name is ENTERPRISEPACK (Office 365 Enterprise E3).
+- **AccountSkuId** is a subscription for your organization in \<OrganizationName>:\<Subscription> format. Это значение, которое вы предоставили при регистрации в Microsoft 365, и \<OrganizationName> является уникальным для вашей организации. The \<Subscription> value is for a specific subscription. For example, for litwareinc:ENTERPRISEPACK, the organization name is litwareinc, and the subscription name is ENTERPRISEPACK (Office 365 Enterprise E3).
     
 - **ActiveUnits** — количество лицензий, которые вы приобрели для подписки.
     
@@ -89,9 +89,9 @@ Get-MsolAccountSku
     
 - **ConsumedUnits** — количество лицензий, которые вы назначили пользователям для подписки.
     
-Обратите внимание на учетную запись AccountSkuId для подписки Microsoft 365, которая содержит пользователей, которые необходимо лицензировать. Убедитесь, что лицензий для назначения достаточно (отнимите **ConsumedUnits** от **ActiveUnits** ).
+Обратите внимание на accountSkuId для Microsoft 365 подписки, которая содержит пользователей, которые необходимо лицензировать. Убедитесь, что лицензий для назначения достаточно (отнимите **ConsumedUnits** от **ActiveUnits** ).
   
-Затем запустите эту команду, чтобы ознакомиться с подробными сведениями о планах служб Microsoft 365, доступных во всех подписках.
+Затем запустите эту команду, чтобы узнать Microsoft 365 планах служб, доступных во всех подписках.
   
 ```powershell
 Get-MsolAccountSku | Select -ExpandProperty ServiceStatus
@@ -99,9 +99,9 @@ Get-MsolAccountSku | Select -ExpandProperty ServiceStatus
 
 Просмотрите результаты команды и определите, какие планы обслуживания нужно отключить при назначении лицензий пользователям.
   
-Вот неполный список планов служб и соответствующих служб Microsoft 365.
+Вот неполный список планов служб и соответствующих Microsoft 365 служб.
 
-В следующей таблице показаны планы служб Microsoft 365 и их дружественные имена для наиболее распространенных служб. Ваш список планов обслуживания может отличаться. 
+В следующей таблице показаны Microsoft 365 и их дружественные имена для наиболее распространенных служб. Ваш список планов обслуживания может отличаться. 
   
 |**План обслуживания**|**Описание**|
 |:-----|:-----|
@@ -109,7 +109,7 @@ Get-MsolAccountSku | Select -ExpandProperty ServiceStatus
 | `TEAMS1` <br/> |Microsoft Teams  <br/> |
 | `YAMMER_ENTERPRISE` <br/> |Yammer  <br/> |
 | `RMS_S_ENTERPRISE` <br/> |Azure Rights Management (RMS)  <br/> |
-| `OFFICESUBSCRIPTION` <br/> |Приложения Microsoft 365 для предприятия *(ранее названные Office 365 ProPlus)*  <br/> |
+| `OFFICESUBSCRIPTION` <br/> |Приложения Microsoft 365 для предприятий *(ранее назывался Office 365 профессиональный плюс)*  <br/> |
 | `MCOSTANDARD` <br/> |Skype для бизнеса Online  <br/> |
 | `SHAREPOINTWAC` <br/> |Office   <br/> |
 | `SHAREPOINTENTERPRISE` <br/> |SharePoint Online  <br/> |
@@ -186,7 +186,7 @@ $users | Get-MsolUser | Select UserPrincipalName, Islicensed,Usagelocation | Exp
     
 ## <a name="see-also"></a>См. также
 
-[Отключение доступа к службам Microsoft 365 с помощью PowerShell](disable-access-to-services-with-microsoft-365-powershell.md)
+[Отключение доступа к Microsoft 365 с помощью PowerShell](disable-access-to-services-with-microsoft-365-powershell.md)
   
 [Отключение доступа к Sway с помощью PowerShell](disable-access-to-sway-with-microsoft-365-powershell.md)
   

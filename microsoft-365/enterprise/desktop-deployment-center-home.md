@@ -26,7 +26,7 @@ ms.locfileid: "51051476"
 
 Используйте эти ресурсы для развертывания современных настольных компьютеров:
 
-- [Развертывание Windows 10](/windows/deployment/)
+- [Windows 10 развертывания](/windows/deployment/)
 - [Развертывание Приложений Microsoft 365](/deployoffice/deployment-guide-microsoft-365-apps)
 - [Microsoft Intune](/mem/intune/fundamentals/planning-guide)
 - [Политики доступа для удостоверений и устройств](../security/defender-365-security/microsoft-365-policies-configurations.md)
@@ -37,6 +37,6 @@ ms.locfileid: "51051476"
 
 ## <a name="windows-and-office-deployment-lab-kit"></a>Комплект Deployment Lab Kit для Windows и Office
 
-Этот набор помогает планировать, тестировать и проверять развертывание и управление рабочими столами под управлением Windows 10 Enterprise и Microsoft 365 Apps для предприятия. В лабораториях используется Microsoft Endpoint Configuration Manager, Desktop Analytics, Office Customization Tool, OneDrive, Windows Autopilot и другие.
+Этот набор помогает планировать, тестировать и проверять развертывание и управление настольными компьютерами, работающими Windows 10 Корпоративная и Приложения Microsoft 365 для предприятий. Лаборатории охватывают использование Microsoft Endpoint Configuration Manager, desktop Analytics, Office средства настройки, OneDrive, Windows автопилота и других.
 
-Подробные сведения см. в [комплекте Лаборатории](modern-desktop-deployment-and-management-lab.md) развертывания Windows и Office.
+Подробные [Windows и Office набор лаборатории](modern-desktop-deployment-and-management-lab.md) развертывания.

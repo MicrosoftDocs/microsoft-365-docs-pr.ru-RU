@@ -1,5 +1,5 @@
 ---
-title: Миграция электронной почты в Microsoft 365 с помощью PowerShell
+title: Миграция электронной почты в Microsoft 365 с помощью PowerShell
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -27,7 +27,7 @@ ms.locfileid: "51581122"
 
 *Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
 
-Администраторы часто переносят электронную почту из существующих систем при первом наборе Microsoft 365. В следующих статьях описывается миграция электронной почты с помощью Windows PowerShell:
+Администраторы часто переносят электронную почту из существующих систем при первом Microsoft 365. В следующих статьях описывается миграция электронной почты с помощью Windows PowerShell:
   
 - [Прямая миграция в Microsoft 365 с помощью PowerShell](use-powershell-to-perform-a-cutover-migration-to-microsoft-365.md)
     
@@ -41,7 +41,7 @@ ms.locfileid: "51581122"
   
 [Начало работы с PowerShell для Microsoft 365](getting-started-with-microsoft-365-powershell.md)
   
-[Управление SharePoint с помощью PowerShell](manage-sharepoint-online-with-microsoft-365-powershell.md)
+[Управление SharePoint с PowerShell](manage-sharepoint-online-with-microsoft-365-powershell.md)
   
 [Использование Windows PowerShell для создания отчетов в Microsoft 365](use-windows-powershell-to-create-reports-in-microsoft-365.md)
 

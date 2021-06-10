@@ -25,7 +25,7 @@ ms.locfileid: "50909766"
 ---
 # <a name="internet-sites-in-microsoft-azure-using-sharepoint-server-2013"></a>Веб-сайты в Microsoft Azure, использующие SharePoint Server 2013
 
- Веб-сайты, на которые используется SharePoint Server 2013, получают преимущество, находясь в службах инфраструктуры Azure. В этой статье приводятся ресурсы, посвященные разработке и реализации этого решения.
+ Веб-сайты, SharePoint Server 2013, получают преимущество, находясь в службах инфраструктуры Azure. В этой статье приводятся ресурсы, посвященные разработке и реализации этого решения.
 
 ## <a name="using-azure-infrastructure-services-for-internet-sites"></a>Использование служб инфраструктуры Azure для веб-сайтов
 
@@ -45,10 +45,10 @@ Microsoft Azure предусматривает возможность разме
 
 В приведенных ниже технических иллюстрациях и статьях представлены сведения о разработке и реализации веб-сайтов на платформе Azure с помощью SharePoint Server 2013.
 
-|Resource|Дополнительные сведения|
+|Ресурс|Дополнительные сведения|
 |---|---|
 |Веб-сайты **SharePoint Server 2013 в Azure** <br/> [![Изображение веб-сайтов в Azure, использующих SharePoint](../media/MS-AZ-SPInternetSites.jpg)](https://go.microsoft.com/fwlink/p/?LinkId=392552) <br/> [PDF](https://go.microsoft.com/fwlink/p/?LinkId=392552) \| [Visio](https://go.microsoft.com/fwlink/p/?LinkId=392551)|В этой модели показаны основные задачи проектирования и рекомендуемые варианты архитектуры для веб-сайтов в Azure.|
-|**Пример проектирования: веб-сайты в Azure для SharePoint Server 2013** <br/> [ ![ Изображение образца design: сайты Интернета в Microsoft Azure для SharePoint 2013 ](../media/MS-AZ-InternetSitesDesignSample.jpg) ] <br/> [PDF](https://go.microsoft.com/fwlink/p/?LinkId=392549)  \| [Visio](https://go.microsoft.com/fwlink/p/?LinkId=392548)|Используйте этот пример в качестве отправной точки для создания своей архитектуры.|
+|**Пример проектирования: веб-сайты в Azure для SharePoint Server 2013** <br/> [ ![ Изображение образца design: веб-сайты в Microsoft Azure для SharePoint 2013 ](../media/MS-AZ-InternetSitesDesignSample.jpg) ] <br/> [PDF](https://go.microsoft.com/fwlink/p/?LinkId=392549)  \| [Visio](https://go.microsoft.com/fwlink/p/?LinkId=392548)|Используйте этот пример в качестве отправной точки для создания своей архитектуры.|
 |**[Архитектуры Microsoft Azure для SharePoint 2013](microsoft-azure-architectures-for-sharepoint-2013.md)** <br/> |В этой статье описано проектирование архитектур Azure для размещения решений SharePoint.|
 |
 
