@@ -20,16 +20,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52536842"
 ---
-# <a name="payment-information-for-dominican-republic"></a><span data-ttu-id="ccdca-103">Сведения об оплате для Доминиканской Республики</span><span class="sxs-lookup"><span data-stu-id="ccdca-103">Payment information for Dominican Republic</span></span>
+# <a name="payment-information-for-dominican-republic"></a><span data-ttu-id="4766f-103">Сведения об оплате для Доминиканской Республики</span><span class="sxs-lookup"><span data-stu-id="4766f-103">Payment information for Dominican Republic</span></span>
 
-<span data-ttu-id="ccdca-104">[Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="ccdca-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="4766f-104">[Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="4766f-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="ccdca-105">Пожалуйста, оплатите только в долларах США и справочный номер счета-фактуры(ы) на ваш денежный перевод.</span><span class="sxs-lookup"><span data-stu-id="ccdca-105">Please pay in USD only and reference invoice number(s) on your payment remittance.</span></span>
+<span data-ttu-id="4766f-105">Пожалуйста, оплатите только в долларах США и справочный номер счета-фактуры(ы) на ваш денежный перевод.</span><span class="sxs-lookup"><span data-stu-id="4766f-105">Please pay in USD only and reference invoice number(s) on your payment remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="ccdca-106">Электронный платеж</span><span class="sxs-lookup"><span data-stu-id="ccdca-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="4766f-106">Электронный платеж</span><span class="sxs-lookup"><span data-stu-id="4766f-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="ccdca-107">**Банк:** Bank of America</span><span class="sxs-lookup"><span data-stu-id="ccdca-107">**Bank:** Bank of America</span></span>  
-<span data-ttu-id="ccdca-108">**Ветвь:** Даллас</span><span class="sxs-lookup"><span data-stu-id="ccdca-108">**Branch:** Dallas</span></span>  
-<span data-ttu-id="ccdca-109">**Код SWIFT:** BOFAUS3N</span><span class="sxs-lookup"><span data-stu-id="ccdca-109">**SWIFT Code:** BOFAUS3N</span></span>  
-<span data-ttu-id="ccdca-110">**Номер учетной записи:** 4426587954</span><span class="sxs-lookup"><span data-stu-id="ccdca-110">**Account Number:** 4426587954</span></span>  
-<span data-ttu-id="ccdca-111">**Имя учетной записи:** Microsoft</span><span class="sxs-lookup"><span data-stu-id="ccdca-111">**Account Name:** Microsoft</span></span>
+<span data-ttu-id="4766f-107">**Банк:** Bank of America</span><span class="sxs-lookup"><span data-stu-id="4766f-107">**Bank:** Bank of America</span></span>  
+<span data-ttu-id="4766f-108">**Ветвь:** Даллас</span><span class="sxs-lookup"><span data-stu-id="4766f-108">**Branch:** Dallas</span></span>  
+<span data-ttu-id="4766f-109">**Код SWIFT:** BOFAUS3N</span><span class="sxs-lookup"><span data-stu-id="4766f-109">**SWIFT Code:** BOFAUS3N</span></span>  
+<span data-ttu-id="4766f-110">**Номер учетной записи:** 4426587954</span><span class="sxs-lookup"><span data-stu-id="4766f-110">**Account Number:** 4426587954</span></span>  
+<span data-ttu-id="4766f-111">**Имя учетной записи:** Microsoft</span><span class="sxs-lookup"><span data-stu-id="4766f-111">**Account Name:** Microsoft</span></span>

@@ -20,16 +20,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52536638"
 ---
-# <a name="payment-information-for-indonesia"></a><span data-ttu-id="9fc14-103">Сведения об оплате для Индонезии</span><span class="sxs-lookup"><span data-stu-id="9fc14-103">Payment information for Indonesia</span></span>
+# <a name="payment-information-for-indonesia"></a><span data-ttu-id="c96e9-103">Сведения об оплате для Индонезии</span><span class="sxs-lookup"><span data-stu-id="c96e9-103">Payment information for Indonesia</span></span>
 
-<span data-ttu-id="9fc14-104">[Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="9fc14-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="c96e9-104">[Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="c96e9-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="9fc14-105">Пожалуйста, платите только в IDR и справочный номер счета-фактуры (ы) при оплате денежных переводов.</span><span class="sxs-lookup"><span data-stu-id="9fc14-105">Please pay in IDR only and reference invoice number(s) on your payment remittance.</span></span>
+<span data-ttu-id="c96e9-105">Пожалуйста, платите только в IDR и справочный номер счета-фактуры (ы) при оплате денежных переводов.</span><span class="sxs-lookup"><span data-stu-id="c96e9-105">Please pay in IDR only and reference invoice number(s) on your payment remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="9fc14-106">Электронный платеж</span><span class="sxs-lookup"><span data-stu-id="9fc14-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="c96e9-106">Электронный платеж</span><span class="sxs-lookup"><span data-stu-id="c96e9-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="9fc14-107">**Банк:** Citibank, Индонезия</span><span class="sxs-lookup"><span data-stu-id="9fc14-107">**Bank:** Citibank, Indonesia</span></span>  
-<span data-ttu-id="9fc14-108">**Ветвь:** Джакарта</span><span class="sxs-lookup"><span data-stu-id="9fc14-108">**Branch:** Jakarta</span></span>  
-<span data-ttu-id="9fc14-109">**Код SWIFT:** CITIIDJX</span><span class="sxs-lookup"><span data-stu-id="9fc14-109">**SWIFT Code:** CITIIDJX</span></span>  
-<span data-ttu-id="9fc14-110">**Номер учетной записи:** 104468055</span><span class="sxs-lookup"><span data-stu-id="9fc14-110">**Account Number:** 104468055</span></span>  
-<span data-ttu-id="9fc14-111">**Имя учетной записи:** PT Microsoft Indonesia</span><span class="sxs-lookup"><span data-stu-id="9fc14-111">**Account Name:** PT Microsoft Indonesia</span></span>
+<span data-ttu-id="c96e9-107">**Банк:** Citibank, Индонезия</span><span class="sxs-lookup"><span data-stu-id="c96e9-107">**Bank:** Citibank, Indonesia</span></span>  
+<span data-ttu-id="c96e9-108">**Ветвь:** Джакарта</span><span class="sxs-lookup"><span data-stu-id="c96e9-108">**Branch:** Jakarta</span></span>  
+<span data-ttu-id="c96e9-109">**Код SWIFT:** CITIIDJX</span><span class="sxs-lookup"><span data-stu-id="c96e9-109">**SWIFT Code:** CITIIDJX</span></span>  
+<span data-ttu-id="c96e9-110">**Номер учетной записи:** 104468055</span><span class="sxs-lookup"><span data-stu-id="c96e9-110">**Account Number:** 104468055</span></span>  
+<span data-ttu-id="c96e9-111">**Имя учетной записи:** PT Microsoft Indonesia</span><span class="sxs-lookup"><span data-stu-id="c96e9-111">**Account Name:** PT Microsoft Indonesia</span></span>
