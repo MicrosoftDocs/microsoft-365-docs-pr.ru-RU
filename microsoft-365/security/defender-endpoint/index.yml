@@ -78,9 +78,9 @@ landingContent:
     links:
     - text: Microsoft Defender для конечной точки на Mac
       url: microsoft-defender-endpoint-mac.md
-    - text: Защитник Microsoft для конечной точки на iOS
+    - text: Microsoft Defender для конечной точки в iOS
       url: microsoft-defender-endpoint-ios.md
-    - text: Microsoft Defender для конечной точки на Linux
+    - text: Microsoft Defender для конечной точки в Linux
       url: microsoft-defender-endpoint-linux.md
     - text: Microsoft Defender для конечной точки на Android
       url: microsoft-defender-endpoint-android.md

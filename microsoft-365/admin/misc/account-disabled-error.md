@@ -1,5 +1,5 @@
 ---
-title: Получение отключенной ошибки учетной записи в Outlook в Интернете?
+title: Получение отключенной ошибки учетной записи Outlook в Интернете?
 f1.keywords:
 - CSH
 ms.author: pebaum
@@ -24,8 +24,8 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50914946"
 ---
-# <a name="getting-an-account-disabled-error-in-outlook-on-the-web"></a><span data-ttu-id="61062-103">Отключение ошибки учетной записи в Outlook в Интернете</span><span class="sxs-lookup"><span data-stu-id="61062-103">Getting an account disabled error in Outlook on the web</span></span>
+# <a name="getting-an-account-disabled-error-in-outlook-on-the-web"></a><span data-ttu-id="cf082-103">Отключение ошибки учетной записи Outlook в Интернете</span><span class="sxs-lookup"><span data-stu-id="cf082-103">Getting an account disabled error in Outlook on the web</span></span>
 
-<span data-ttu-id="61062-104">Если при попытке  открыть Outlook в Интернете (ранее известная как Outlook Web App) ваша учетная запись была отключена, администратор мог отключить доступ к Outlook в `X-OWA-Error: Microsoft.Exchange.Data.Storage.AccountDisabledException` Интернете.</span><span class="sxs-lookup"><span data-stu-id="61062-104">If you get the error **Your account has been disabled** with `X-OWA-Error: Microsoft.Exchange.Data.Storage.AccountDisabledException` when you try to open Outlook on the web (formerly known as Outlook Web App), your admin might have disabled your access to Outlook on the web.</span></span>
+<span data-ttu-id="cf082-104">Если при попытке  открыть Outlook в Интернете (ранее известная как Outlook Web App) ваша учетная запись была отключена, администратор мог отключить доступ к Outlook в `X-OWA-Error: Microsoft.Exchange.Data.Storage.AccountDisabledException` Интернете.</span><span class="sxs-lookup"><span data-stu-id="cf082-104">If you get the error **Your account has been disabled** with `X-OWA-Error: Microsoft.Exchange.Data.Storage.AccountDisabledException` when you try to open Outlook on the web (formerly known as Outlook Web App), your admin might have disabled your access to Outlook on the web.</span></span>
 
-<span data-ttu-id="61062-105">Администратор может устранить эту ошибку, следуя шагам в разделе Включить или отключить Outlook Web App [для почтового ящика.](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app)</span><span class="sxs-lookup"><span data-stu-id="61062-105">Your admin can fix this error by following the steps in the topic [Enable or disable Outlook Web App for a mailbox](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app).</span></span>
+<span data-ttu-id="cf082-105">Администратор может устранить эту ошибку, следуя шагам в разделе Включить или отключить Outlook Web App [для почтового ящика.](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app)</span><span class="sxs-lookup"><span data-stu-id="cf082-105">Your admin can fix this error by following the steps in the topic [Enable or disable Outlook Web App for a mailbox](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app).</span></span>

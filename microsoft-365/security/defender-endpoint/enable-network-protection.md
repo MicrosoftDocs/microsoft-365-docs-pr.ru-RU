@@ -20,115 +20,115 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/08/2021
 ms.locfileid: "52841778"
 ---
-# <a name="turn-on-network-protection"></a><span data-ttu-id="c7127-104">Включить защиту сети</span><span class="sxs-lookup"><span data-stu-id="c7127-104">Turn on network protection</span></span>
+# <a name="turn-on-network-protection"></a><span data-ttu-id="77b8e-104">Включить защиту сети</span><span class="sxs-lookup"><span data-stu-id="77b8e-104">Turn on network protection</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
-<span data-ttu-id="c7127-105">**Область применения:**</span><span class="sxs-lookup"><span data-stu-id="c7127-105">**Applies to:**</span></span>
-- [<span data-ttu-id="c7127-106">Microsoft Defender для конечной точки</span><span class="sxs-lookup"><span data-stu-id="c7127-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
-- [<span data-ttu-id="c7127-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="c7127-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
+<span data-ttu-id="77b8e-105">**Область применения:**</span><span class="sxs-lookup"><span data-stu-id="77b8e-105">**Applies to:**</span></span>
+- [<span data-ttu-id="77b8e-106">Microsoft Defender для конечной точки</span><span class="sxs-lookup"><span data-stu-id="77b8e-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [<span data-ttu-id="77b8e-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="77b8e-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > [!TIP]
-> <span data-ttu-id="c7127-108">Хотите испытать Defender для конечной точки?</span><span class="sxs-lookup"><span data-stu-id="c7127-108">Want to experience Defender for Endpoint?</span></span> [<span data-ttu-id="c7127-109">Зарегистрився для бесплатной пробной.</span><span class="sxs-lookup"><span data-stu-id="c7127-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
+> <span data-ttu-id="77b8e-108">Хотите испытать Defender для конечной точки?</span><span class="sxs-lookup"><span data-stu-id="77b8e-108">Want to experience Defender for Endpoint?</span></span> [<span data-ttu-id="77b8e-109">Зарегистрився для бесплатной пробной.</span><span class="sxs-lookup"><span data-stu-id="77b8e-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
-<span data-ttu-id="c7127-110">[Защита сети](network-protection.md) помогает предотвратить использование сотрудниками любого приложения для доступа к опасным доменам, в которые могут быть организованы фишинговые атаки, эксплойты и другой вредоносный контент в Интернете.</span><span class="sxs-lookup"><span data-stu-id="c7127-110">[Network protection](network-protection.md) helps to prevent employees from using any application to access dangerous domains that may host phishing scams, exploits, and other malicious content on the internet.</span></span> <span data-ttu-id="c7127-111">Вы можете [проверить защиту сети](evaluate-network-protection.md) в тестовой среде, чтобы просмотреть, какие приложения будут заблокированы, прежде чем включить ее.</span><span class="sxs-lookup"><span data-stu-id="c7127-111">You can [audit network protection](evaluate-network-protection.md) in a test environment to view which apps would be blocked before you enable it.</span></span>
+<span data-ttu-id="77b8e-110">[Защита сети](network-protection.md) помогает предотвратить использование сотрудниками любого приложения для доступа к опасным доменам, в которые могут быть организованы фишинговые атаки, эксплойты и другой вредоносный контент в Интернете.</span><span class="sxs-lookup"><span data-stu-id="77b8e-110">[Network protection](network-protection.md) helps to prevent employees from using any application to access dangerous domains that may host phishing scams, exploits, and other malicious content on the internet.</span></span> <span data-ttu-id="77b8e-111">Вы можете [проверить защиту сети](evaluate-network-protection.md) в тестовой среде, чтобы просмотреть, какие приложения будут заблокированы, прежде чем включить ее.</span><span class="sxs-lookup"><span data-stu-id="77b8e-111">You can [audit network protection](evaluate-network-protection.md) in a test environment to view which apps would be blocked before you enable it.</span></span>
 
-[<span data-ttu-id="c7127-112">Дополнительные информацию о параметрах конфигурации фильтрации сети</span><span class="sxs-lookup"><span data-stu-id="c7127-112">Learn more about network filtering configuration options</span></span>](/mem/intune/protect/endpoint-protection-windows-10#network-filtering)
+[<span data-ttu-id="77b8e-112">Дополнительные информацию о параметрах конфигурации фильтрации сети</span><span class="sxs-lookup"><span data-stu-id="77b8e-112">Learn more about network filtering configuration options</span></span>](/mem/intune/protect/endpoint-protection-windows-10#network-filtering)
 
-## <a name="check-if-network-protection-is-enabled"></a><span data-ttu-id="c7127-113">Проверьте, включена ли защита сети</span><span class="sxs-lookup"><span data-stu-id="c7127-113">Check if network protection is enabled</span></span>
+## <a name="check-if-network-protection-is-enabled"></a><span data-ttu-id="77b8e-113">Проверьте, включена ли защита сети</span><span class="sxs-lookup"><span data-stu-id="77b8e-113">Check if network protection is enabled</span></span>
 
-<span data-ttu-id="c7127-114">Проверьте, включена ли защита сети на локальном устройстве с помощью редактора реестра.</span><span class="sxs-lookup"><span data-stu-id="c7127-114">Check if network protection has been enabled on a local device by using Registry editor.</span></span>
+<span data-ttu-id="77b8e-114">Проверьте, включена ли защита сети на локальном устройстве с помощью редактора реестра.</span><span class="sxs-lookup"><span data-stu-id="77b8e-114">Check if network protection has been enabled on a local device by using Registry editor.</span></span>
 
-1. <span data-ttu-id="c7127-115">Выберите **кнопку Начните** в панели задач и введите **regedit** для открытия редактора реестра</span><span class="sxs-lookup"><span data-stu-id="c7127-115">Select the **Start** button in the task bar and type **regedit** to open Registry editor</span></span>
+1. <span data-ttu-id="77b8e-115">Выберите **кнопку Начните** в панели задач и введите **regedit** для открытия редактора реестра</span><span class="sxs-lookup"><span data-stu-id="77b8e-115">Select the **Start** button in the task bar and type **regedit** to open Registry editor</span></span>
 
-2. <span data-ttu-id="c7127-116">Выберите **HKEY_LOCAL_MACHINE** из бокового меню</span><span class="sxs-lookup"><span data-stu-id="c7127-116">Choose **HKEY_LOCAL_MACHINE** from the side menu</span></span>
+2. <span data-ttu-id="77b8e-116">Выберите **HKEY_LOCAL_MACHINE** из бокового меню</span><span class="sxs-lookup"><span data-stu-id="77b8e-116">Choose **HKEY_LOCAL_MACHINE** from the side menu</span></span>
 
-3. <span data-ttu-id="c7127-117">Перейдите через вложенные меню к **политикам ПРОГРАММНОГО**  >  **ОБЕСПЕЧЕНИЯ**  >  **Microsoft**  >  **Защитник Windows**  >  **Policy Manager**</span><span class="sxs-lookup"><span data-stu-id="c7127-117">Navigate through the nested menus to **SOFTWARE** > **Policies** > **Microsoft** > **Windows Defender** > **Policy Manager**</span></span> 
+3. <span data-ttu-id="77b8e-117">Перейдите через вложенные меню к **политикам ПРОГРАММНОГО**  >  **ОБЕСПЕЧЕНИЯ**  >  **Microsoft**  >  **Защитник Windows**  >  **Policy Manager**</span><span class="sxs-lookup"><span data-stu-id="77b8e-117">Navigate through the nested menus to **SOFTWARE** > **Policies** > **Microsoft** > **Windows Defender** > **Policy Manager**</span></span> 
 
-4. <span data-ttu-id="c7127-118">Выберите **EnableNetworkProtection,** чтобы увидеть текущее состояние сетевой защиты на устройстве</span><span class="sxs-lookup"><span data-stu-id="c7127-118">Select **EnableNetworkProtection** to see the current state of network protection on the device</span></span>
+4. <span data-ttu-id="77b8e-118">Выберите **EnableNetworkProtection,** чтобы увидеть текущее состояние сетевой защиты на устройстве</span><span class="sxs-lookup"><span data-stu-id="77b8e-118">Select **EnableNetworkProtection** to see the current state of network protection on the device</span></span>
 
-    * <span data-ttu-id="c7127-119">0 или **off**</span><span class="sxs-lookup"><span data-stu-id="c7127-119">0, or **Off**</span></span>
-    * <span data-ttu-id="c7127-120">1 или **On**</span><span class="sxs-lookup"><span data-stu-id="c7127-120">1, or **On**</span></span>
-    * <span data-ttu-id="c7127-121">2 или **режим аудита**</span><span class="sxs-lookup"><span data-stu-id="c7127-121">2, or **Audit** mode</span></span>
+    * <span data-ttu-id="77b8e-119">0 или **off**</span><span class="sxs-lookup"><span data-stu-id="77b8e-119">0, or **Off**</span></span>
+    * <span data-ttu-id="77b8e-120">1 или **On**</span><span class="sxs-lookup"><span data-stu-id="77b8e-120">1, or **On**</span></span>
+    * <span data-ttu-id="77b8e-121">2 или **режим аудита**</span><span class="sxs-lookup"><span data-stu-id="77b8e-121">2, or **Audit** mode</span></span>
     
     ![networkprotection](https://user-images.githubusercontent.com/3296790/95341270-b738b280-08d3-11eb-84a0-16abb140c9fd.PNG)
 
-## <a name="enable-network-protection"></a><span data-ttu-id="c7127-123">Включить защиту сети</span><span class="sxs-lookup"><span data-stu-id="c7127-123">Enable network protection</span></span>
+## <a name="enable-network-protection"></a><span data-ttu-id="77b8e-123">Включить защиту сети</span><span class="sxs-lookup"><span data-stu-id="77b8e-123">Enable network protection</span></span>
 
-<span data-ttu-id="c7127-124">Включить защиту сети с помощью любого из этих методов:</span><span class="sxs-lookup"><span data-stu-id="c7127-124">Enable network protection by using any of these methods:</span></span>
+<span data-ttu-id="77b8e-124">Включить защиту сети с помощью любого из этих методов:</span><span class="sxs-lookup"><span data-stu-id="77b8e-124">Enable network protection by using any of these methods:</span></span>
 
-* [<span data-ttu-id="c7127-125">PowerShell</span><span class="sxs-lookup"><span data-stu-id="c7127-125">PowerShell</span></span>](#powershell)
-* [<span data-ttu-id="c7127-126">Управление мобильными устройствами (MDM)</span><span class="sxs-lookup"><span data-stu-id="c7127-126">Mobile Device Management (MDM)</span></span>](#mobile-device-management-mdm)
-* [<span data-ttu-id="c7127-127">Microsoft Endpoint Manager / Intune</span><span class="sxs-lookup"><span data-stu-id="c7127-127">Microsoft Endpoint Manager / Intune</span></span>](#microsoft-endpoint-manager-formerly-intune)
-* [<span data-ttu-id="c7127-128">Групповая политика</span><span class="sxs-lookup"><span data-stu-id="c7127-128">Group Policy</span></span>](#group-policy)
+* [<span data-ttu-id="77b8e-125">PowerShell</span><span class="sxs-lookup"><span data-stu-id="77b8e-125">PowerShell</span></span>](#powershell)
+* [<span data-ttu-id="77b8e-126">Управление мобильными устройствами (MDM)</span><span class="sxs-lookup"><span data-stu-id="77b8e-126">Mobile Device Management (MDM)</span></span>](#mobile-device-management-mdm)
+* [<span data-ttu-id="77b8e-127">Microsoft Endpoint Manager / Intune</span><span class="sxs-lookup"><span data-stu-id="77b8e-127">Microsoft Endpoint Manager / Intune</span></span>](#microsoft-endpoint-manager-formerly-intune)
+* [<span data-ttu-id="77b8e-128">Групповая политика</span><span class="sxs-lookup"><span data-stu-id="77b8e-128">Group Policy</span></span>](#group-policy)
 
-### <a name="powershell"></a><span data-ttu-id="c7127-129">PowerShell</span><span class="sxs-lookup"><span data-stu-id="c7127-129">PowerShell</span></span>
+### <a name="powershell"></a><span data-ttu-id="77b8e-129">PowerShell</span><span class="sxs-lookup"><span data-stu-id="77b8e-129">PowerShell</span></span>
 
-1. <span data-ttu-id="c7127-130">Введите **powershell** в меню Пуск, щелкните правой кнопкой мыши **Windows PowerShell** выберите **Выполнить в качестве администратора**</span><span class="sxs-lookup"><span data-stu-id="c7127-130">Type **powershell** in the Start menu, right-click **Windows PowerShell** and select **Run as administrator**</span></span>
-2. <span data-ttu-id="c7127-131">Введите следующий cmdlet:</span><span class="sxs-lookup"><span data-stu-id="c7127-131">Enter the following cmdlet:</span></span>
+1. <span data-ttu-id="77b8e-130">Введите **powershell** в меню Пуск, щелкните правой кнопкой мыши **Windows PowerShell** выберите **Выполнить в качестве администратора**</span><span class="sxs-lookup"><span data-stu-id="77b8e-130">Type **powershell** in the Start menu, right-click **Windows PowerShell** and select **Run as administrator**</span></span>
+2. <span data-ttu-id="77b8e-131">Введите следующий cmdlet:</span><span class="sxs-lookup"><span data-stu-id="77b8e-131">Enter the following cmdlet:</span></span>
 
     ```PowerShell
     Set-MpPreference -EnableNetworkProtection Enabled
     ```
 
-3. <span data-ttu-id="c7127-132">Необязательный вариант: включить функцию в режиме аудита с помощью следующего cmdlet:</span><span class="sxs-lookup"><span data-stu-id="c7127-132">Optional: Enable the feature in audit mode using the following cmdlet:</span></span>
+3. <span data-ttu-id="77b8e-132">Необязательный вариант: включить функцию в режиме аудита с помощью следующего cmdlet:</span><span class="sxs-lookup"><span data-stu-id="77b8e-132">Optional: Enable the feature in audit mode using the following cmdlet:</span></span>
 
     ```PowerShell
     Set-MpPreference -EnableNetworkProtection AuditMode
     ```
 
-    <span data-ttu-id="c7127-133">Используйте `Disabled` вместо или для `AuditMode` `Enabled` отключения функции.</span><span class="sxs-lookup"><span data-stu-id="c7127-133">Use `Disabled` instead of `AuditMode` or `Enabled` to turn off the feature.</span></span>
+    <span data-ttu-id="77b8e-133">Используйте `Disabled` вместо или для `AuditMode` `Enabled` отключения функции.</span><span class="sxs-lookup"><span data-stu-id="77b8e-133">Use `Disabled` instead of `AuditMode` or `Enabled` to turn off the feature.</span></span>
 
-### <a name="mobile-device-management-mdm"></a><span data-ttu-id="c7127-134">Управление мобильными устройствами (MDM)</span><span class="sxs-lookup"><span data-stu-id="c7127-134">Mobile device management (MDM)</span></span>
+### <a name="mobile-device-management-mdm"></a><span data-ttu-id="77b8e-134">Управление мобильными устройствами (MDM)</span><span class="sxs-lookup"><span data-stu-id="77b8e-134">Mobile device management (MDM)</span></span>
 
-<span data-ttu-id="c7127-135">Используйте [поставщик услуг конфигурации ./Vendor/MSFT/Policy/Config/Defender/EnableNetworkProtection](/windows/client-management/mdm/policy-csp-defender#defender-enablenetworkprotection) (CSP), чтобы включить или отключить защиту сети или включить режим аудита.</span><span class="sxs-lookup"><span data-stu-id="c7127-135">Use the [./Vendor/MSFT/Policy/Config/Defender/EnableNetworkProtection](/windows/client-management/mdm/policy-csp-defender#defender-enablenetworkprotection) configuration service provider (CSP) to enable or disable network protection or enable audit mode.</span></span>
+<span data-ttu-id="77b8e-135">Используйте [поставщик услуг конфигурации ./Vendor/MSFT/Policy/Config/Defender/EnableNetworkProtection](/windows/client-management/mdm/policy-csp-defender#defender-enablenetworkprotection) (CSP), чтобы включить или отключить защиту сети или включить режим аудита.</span><span class="sxs-lookup"><span data-stu-id="77b8e-135">Use the [./Vendor/MSFT/Policy/Config/Defender/EnableNetworkProtection](/windows/client-management/mdm/policy-csp-defender#defender-enablenetworkprotection) configuration service provider (CSP) to enable or disable network protection or enable audit mode.</span></span>
 
-### <a name="microsoft-endpoint-manager-formerly-intune"></a><span data-ttu-id="c7127-136">Microsoft Endpoint Manager (ранее Intune)</span><span class="sxs-lookup"><span data-stu-id="c7127-136">Microsoft Endpoint Manager (formerly Intune)</span></span>
+### <a name="microsoft-endpoint-manager-formerly-intune"></a><span data-ttu-id="77b8e-136">Microsoft Endpoint Manager (ранее Intune)</span><span class="sxs-lookup"><span data-stu-id="77b8e-136">Microsoft Endpoint Manager (formerly Intune)</span></span>
 
-1. <span data-ttu-id="c7127-137">Вход в центр Microsoft Endpoint Manager администратора (https://endpoint.microsoft.com)</span><span class="sxs-lookup"><span data-stu-id="c7127-137">Sign into the Microsoft Endpoint Manager admin center (https://endpoint.microsoft.com)</span></span>
+1. <span data-ttu-id="77b8e-137">Вход в центр Microsoft Endpoint Manager администратора (https://endpoint.microsoft.com)</span><span class="sxs-lookup"><span data-stu-id="77b8e-137">Sign into the Microsoft Endpoint Manager admin center (https://endpoint.microsoft.com)</span></span>
 
-2. <span data-ttu-id="c7127-138">Создание или изменение профиля конфигурации [защиты конечной точки](/mem/intune/protect/endpoint-protection-configure)</span><span class="sxs-lookup"><span data-stu-id="c7127-138">Create or edit an [endpoint protection configuration profile](/mem/intune/protect/endpoint-protection-configure)</span></span>
+2. <span data-ttu-id="77b8e-138">Создание или изменение профиля конфигурации [защиты конечной точки](/mem/intune/protect/endpoint-protection-configure)</span><span class="sxs-lookup"><span data-stu-id="77b8e-138">Create or edit an [endpoint protection configuration profile](/mem/intune/protect/endpoint-protection-configure)</span></span>
 
-3. <span data-ttu-id="c7127-139">В **соответствии Параметры** конфигурации в потоке профилей перейдите к Exploit Guard в Microsoft Defender сетевой **защиты** фильтрующих сетей  >    >    >  **Включить** или аудит **только**</span><span class="sxs-lookup"><span data-stu-id="c7127-139">Under **Configuration Settings** in the profile flow, go to **Microsoft Defender Exploit Guard** > **Network filtering** > **Network protection** > **Enable** or **Audit only**</span></span>
+3. <span data-ttu-id="77b8e-139">В **соответствии Параметры** конфигурации в потоке профилей перейдите к Exploit Guard в Microsoft Defender сетевой **защиты** фильтрующих сетей  >    >    >  **Включить** или аудит **только**</span><span class="sxs-lookup"><span data-stu-id="77b8e-139">Under **Configuration Settings** in the profile flow, go to **Microsoft Defender Exploit Guard** > **Network filtering** > **Network protection** > **Enable** or **Audit only**</span></span>
 
-### <a name="group-policy"></a><span data-ttu-id="c7127-140">Групповая политика</span><span class="sxs-lookup"><span data-stu-id="c7127-140">Group Policy</span></span>
+### <a name="group-policy"></a><span data-ttu-id="77b8e-140">Групповая политика</span><span class="sxs-lookup"><span data-stu-id="77b8e-140">Group Policy</span></span>
 
-<span data-ttu-id="c7127-141">Используйте следующую процедуру, чтобы включить защиту сети на компьютерах с доменом или на автономных компьютерах.</span><span class="sxs-lookup"><span data-stu-id="c7127-141">Use the following procedure to enable network protection on domain-joined computers or on a standalone computer.</span></span>
+<span data-ttu-id="77b8e-141">Используйте следующую процедуру, чтобы включить защиту сети на компьютерах с доменом или на автономных компьютерах.</span><span class="sxs-lookup"><span data-stu-id="77b8e-141">Use the following procedure to enable network protection on domain-joined computers or on a standalone computer.</span></span>
 
-1. <span data-ttu-id="c7127-142">На автономных компьютерах перейдите в **Начните,** а затем введите и выберите **групповую политику редактирования.**</span><span class="sxs-lookup"><span data-stu-id="c7127-142">On a standalone computer, go to **Start** and then type and select **Edit group policy**.</span></span>
+1. <span data-ttu-id="77b8e-142">На автономных компьютерах перейдите в **Начните,** а затем введите и выберите **групповую политику редактирования.**</span><span class="sxs-lookup"><span data-stu-id="77b8e-142">On a standalone computer, go to **Start** and then type and select **Edit group policy**.</span></span>
 
-    <span data-ttu-id="c7127-143">*-Or-*</span><span class="sxs-lookup"><span data-stu-id="c7127-143">*-Or-*</span></span>
+    <span data-ttu-id="77b8e-143">*-Or-*</span><span class="sxs-lookup"><span data-stu-id="77b8e-143">*-Or-*</span></span>
 
-    <span data-ttu-id="c7127-144">На компьютере управления групповой политикой, примыкаемом к домену, откройте консоль управления групповой политикой [правой](https://technet.microsoft.com/library/cc731212.aspx)кнопкой мыши объект групповой политики, который необходимо настроить, и выберите **Изменить**.</span><span class="sxs-lookup"><span data-stu-id="c7127-144">On a domain-joined Group Policy management computer, open the [Group Policy Management Console](https://technet.microsoft.com/library/cc731212.aspx), right-click the Group Policy Object you want to configure and select **Edit**.</span></span>
+    <span data-ttu-id="77b8e-144">На компьютере управления групповой политикой, примыкаемом к домену, откройте консоль управления групповой политикой [правой](https://technet.microsoft.com/library/cc731212.aspx)кнопкой мыши объект групповой политики, который необходимо настроить, и выберите **Изменить**.</span><span class="sxs-lookup"><span data-stu-id="77b8e-144">On a domain-joined Group Policy management computer, open the [Group Policy Management Console](https://technet.microsoft.com/library/cc731212.aspx), right-click the Group Policy Object you want to configure and select **Edit**.</span></span>
 
-2. <span data-ttu-id="c7127-145">В **редакторе управления групповыми политиками** перейдите к **конфигурации компьютера** и выберите **Административные шаблоны**.</span><span class="sxs-lookup"><span data-stu-id="c7127-145">In the **Group Policy Management Editor**, go to **Computer configuration** and select **Administrative templates**.</span></span>
+2. <span data-ttu-id="77b8e-145">В **редакторе управления групповыми политиками** перейдите к **конфигурации компьютера** и выберите **Административные шаблоны**.</span><span class="sxs-lookup"><span data-stu-id="77b8e-145">In the **Group Policy Management Editor**, go to **Computer configuration** and select **Administrative templates**.</span></span>
 
-3. <span data-ttu-id="c7127-146">Расширь **дерево, чтобы Windows компоненты антивирусная программа в Microsoft Defender**  >    >  **Защитник Windows защита сети exploit**  >  **Guard.**</span><span class="sxs-lookup"><span data-stu-id="c7127-146">Expand the tree to **Windows components** > **Microsoft Defender Antivirus** > **Windows Defender Exploit Guard** > **Network protection**.</span></span>
+3. <span data-ttu-id="77b8e-146">Расширь **дерево, чтобы Windows компоненты антивирусная программа в Microsoft Defender**  >    >  **Защитник Windows защита сети exploit**  >  **Guard.**</span><span class="sxs-lookup"><span data-stu-id="77b8e-146">Expand the tree to **Windows components** > **Microsoft Defender Antivirus** > **Windows Defender Exploit Guard** > **Network protection**.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="c7127-147">В более старых версиях Windows путь групповой политики может антивирусная программа вместо "антивирусная программа в Microsoft Defender".</span><span class="sxs-lookup"><span data-stu-id="c7127-147">On older versions of Windows, the group policy path may say "Windows Defender Antivirus" instead of "Microsoft Defender Antivirus."</span></span>
+> <span data-ttu-id="77b8e-147">В более старых версиях Windows путь групповой политики может антивирусная программа вместо "антивирусная программа в Microsoft Defender".</span><span class="sxs-lookup"><span data-stu-id="77b8e-147">On older versions of Windows, the group policy path may say "Windows Defender Antivirus" instead of "Microsoft Defender Antivirus."</span></span>
 
-4. <span data-ttu-id="c7127-148">Дважды щелкните кнопку **Запретить пользователям и приложениям доступ** к опасным настройкам веб-сайтов и установите параметр **Включено**.</span><span class="sxs-lookup"><span data-stu-id="c7127-148">Double-click the **Prevent users and apps from accessing dangerous websites** setting and set the option to **Enabled**.</span></span> <span data-ttu-id="c7127-149">В разделе Параметры необходимо указать один из следующих вариантов:</span><span class="sxs-lookup"><span data-stu-id="c7127-149">In the options section, you must specify one of the following options:</span></span>
-    * <span data-ttu-id="c7127-150">**Block** . Пользователи не могут получить доступ к вредоносным IP-адресам и доменам</span><span class="sxs-lookup"><span data-stu-id="c7127-150">**Block** - Users can't access malicious IP addresses and domains</span></span>
-    * <span data-ttu-id="c7127-151">**Отключение (по умолчанию)** — функция защиты сети не будет работать.</span><span class="sxs-lookup"><span data-stu-id="c7127-151">**Disable (Default)** - The Network protection feature won't work.</span></span> <span data-ttu-id="c7127-152">Пользователям не будет заблокирован доступ к вредоносным доменам</span><span class="sxs-lookup"><span data-stu-id="c7127-152">Users won't be blocked from accessing malicious domains</span></span>
-    * <span data-ttu-id="c7127-153">**Режим аудита** . Если пользователь посещает вредоносный IP-адрес или домен, событие будет записано в журнале Windows событий.</span><span class="sxs-lookup"><span data-stu-id="c7127-153">**Audit Mode** - If a user visits a malicious IP address or domain, an event will be recorded in the Windows event log.</span></span> <span data-ttu-id="c7127-154">Однако пользователю не будет заблокировано посещение адреса.</span><span class="sxs-lookup"><span data-stu-id="c7127-154">However, the user won't be blocked from visiting the address.</span></span>
+4. <span data-ttu-id="77b8e-148">Дважды щелкните кнопку **Запретить пользователям и приложениям доступ** к опасным настройкам веб-сайтов и установите параметр **Включено**.</span><span class="sxs-lookup"><span data-stu-id="77b8e-148">Double-click the **Prevent users and apps from accessing dangerous websites** setting and set the option to **Enabled**.</span></span> <span data-ttu-id="77b8e-149">В разделе Параметры необходимо указать один из следующих вариантов:</span><span class="sxs-lookup"><span data-stu-id="77b8e-149">In the options section, you must specify one of the following options:</span></span>
+    * <span data-ttu-id="77b8e-150">**Block** . Пользователи не могут получить доступ к вредоносным IP-адресам и доменам</span><span class="sxs-lookup"><span data-stu-id="77b8e-150">**Block** - Users can't access malicious IP addresses and domains</span></span>
+    * <span data-ttu-id="77b8e-151">**Отключение (по умолчанию)** — функция защиты сети не будет работать.</span><span class="sxs-lookup"><span data-stu-id="77b8e-151">**Disable (Default)** - The Network protection feature won't work.</span></span> <span data-ttu-id="77b8e-152">Пользователям не будет заблокирован доступ к вредоносным доменам</span><span class="sxs-lookup"><span data-stu-id="77b8e-152">Users won't be blocked from accessing malicious domains</span></span>
+    * <span data-ttu-id="77b8e-153">**Режим аудита** . Если пользователь посещает вредоносный IP-адрес или домен, событие будет записано в журнале Windows событий.</span><span class="sxs-lookup"><span data-stu-id="77b8e-153">**Audit Mode** - If a user visits a malicious IP address or domain, an event will be recorded in the Windows event log.</span></span> <span data-ttu-id="77b8e-154">Однако пользователю не будет заблокировано посещение адреса.</span><span class="sxs-lookup"><span data-stu-id="77b8e-154">However, the user won't be blocked from visiting the address.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="c7127-155">Чтобы полностью включить защиту сети, необходимо настроить  параметр Групповой политики для включения, а также выбрать **Блок** в выпадаемом меню параметров.</span><span class="sxs-lookup"><span data-stu-id="c7127-155">To fully enable network protection, you must set the Group Policy option to **Enabled** and also select **Block** in the options drop-down menu.</span></span>
+> <span data-ttu-id="77b8e-155">Чтобы полностью включить защиту сети, необходимо настроить  параметр Групповой политики для включения, а также выбрать **Блок** в выпадаемом меню параметров.</span><span class="sxs-lookup"><span data-stu-id="77b8e-155">To fully enable network protection, you must set the Group Policy option to **Enabled** and also select **Block** in the options drop-down menu.</span></span>
 
-<span data-ttu-id="c7127-156">Подтверждение того, что защита сети включена на локальном компьютере с помощью редактора реестра:</span><span class="sxs-lookup"><span data-stu-id="c7127-156">Confirm network protection is enabled on a local computer by using Registry editor:</span></span>
+<span data-ttu-id="77b8e-156">Подтверждение того, что защита сети включена на локальном компьютере с помощью редактора реестра:</span><span class="sxs-lookup"><span data-stu-id="77b8e-156">Confirm network protection is enabled on a local computer by using Registry editor:</span></span>
 
-1. <span data-ttu-id="c7127-157">Выберите **regedit Начните и** введите, чтобы открыть **редактор реестра.** </span><span class="sxs-lookup"><span data-stu-id="c7127-157">Select **Start** and type **regedit** to open **Registry Editor**.</span></span>
+1. <span data-ttu-id="77b8e-157">Выберите **regedit Начните и** введите, чтобы открыть **редактор реестра.** </span><span class="sxs-lookup"><span data-stu-id="77b8e-157">Select **Start** and type **regedit** to open **Registry Editor**.</span></span>
 
-2. <span data-ttu-id="c7127-158">Перейдите **кHKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Policy Manager\EnableNetworkProtection**</span><span class="sxs-lookup"><span data-stu-id="c7127-158">Navigate to **HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Policy Manager\EnableNetworkProtection**</span></span>
+2. <span data-ttu-id="77b8e-158">Перейдите **кHKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Policy Manager\EnableNetworkProtection**</span><span class="sxs-lookup"><span data-stu-id="77b8e-158">Navigate to **HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Policy Manager\EnableNetworkProtection**</span></span>
 
-3. <span data-ttu-id="c7127-159">Выберите **EnableNetworkProtection** и подтвердите значение:</span><span class="sxs-lookup"><span data-stu-id="c7127-159">Select **EnableNetworkProtection** and confirm the value:</span></span>
-   * <span data-ttu-id="c7127-160">0=Off</span><span class="sxs-lookup"><span data-stu-id="c7127-160">0=Off</span></span>
-   * <span data-ttu-id="c7127-161">1=On</span><span class="sxs-lookup"><span data-stu-id="c7127-161">1=On</span></span>
-   * <span data-ttu-id="c7127-162">2=Audit</span><span class="sxs-lookup"><span data-stu-id="c7127-162">2=Audit</span></span>
+3. <span data-ttu-id="77b8e-159">Выберите **EnableNetworkProtection** и подтвердите значение:</span><span class="sxs-lookup"><span data-stu-id="77b8e-159">Select **EnableNetworkProtection** and confirm the value:</span></span>
+   * <span data-ttu-id="77b8e-160">0=Off</span><span class="sxs-lookup"><span data-stu-id="77b8e-160">0=Off</span></span>
+   * <span data-ttu-id="77b8e-161">1=On</span><span class="sxs-lookup"><span data-stu-id="77b8e-161">1=On</span></span>
+   * <span data-ttu-id="77b8e-162">2=Audit</span><span class="sxs-lookup"><span data-stu-id="77b8e-162">2=Audit</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="c7127-163">См. также</span><span class="sxs-lookup"><span data-stu-id="c7127-163">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="77b8e-163">См. также</span><span class="sxs-lookup"><span data-stu-id="77b8e-163">See also</span></span>
 
-* [<span data-ttu-id="c7127-164">Защита сети</span><span class="sxs-lookup"><span data-stu-id="c7127-164">Network protection</span></span>](network-protection.md)
-* [<span data-ttu-id="c7127-165">Оценка защиты сети</span><span class="sxs-lookup"><span data-stu-id="c7127-165">Evaluate network protection</span></span>](evaluate-network-protection.md)
-* [<span data-ttu-id="c7127-166">Защита сети от неполадок</span><span class="sxs-lookup"><span data-stu-id="c7127-166">Troubleshoot network protection</span></span>](troubleshoot-np.md)
+* [<span data-ttu-id="77b8e-164">Защита сети</span><span class="sxs-lookup"><span data-stu-id="77b8e-164">Network protection</span></span>](network-protection.md)
+* [<span data-ttu-id="77b8e-165">Оценка защиты сети</span><span class="sxs-lookup"><span data-stu-id="77b8e-165">Evaluate network protection</span></span>](evaluate-network-protection.md)
+* [<span data-ttu-id="77b8e-166">Защита сети от неполадок</span><span class="sxs-lookup"><span data-stu-id="77b8e-166">Troubleshoot network protection</span></span>](troubleshoot-np.md)
