@@ -27,19 +27,19 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/21/2021
 ms.locfileid: "51935753"
 ---
-# <a name="other-security-and-threat-protection-apis"></a><span data-ttu-id="9b050-104">Другие API безопасности и защиты от угроз</span><span class="sxs-lookup"><span data-stu-id="9b050-104">Other security and threat protection APIs</span></span>
+# <a name="other-security-and-threat-protection-apis"></a><span data-ttu-id="2436d-104">Другие API безопасности и защиты от угроз</span><span class="sxs-lookup"><span data-stu-id="2436d-104">Other security and threat protection APIs</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-<span data-ttu-id="9b050-105">**Область применения:**</span><span class="sxs-lookup"><span data-stu-id="9b050-105">**Applies to:**</span></span>
+<span data-ttu-id="2436d-105">**Область применения:**</span><span class="sxs-lookup"><span data-stu-id="2436d-105">**Applies to:**</span></span>
 
-- <span data-ttu-id="9b050-106">API защитника Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="9b050-106">Microsoft 365 Defender API</span></span>
+- <span data-ttu-id="2436d-106">Microsoft 365 Defender API</span><span class="sxs-lookup"><span data-stu-id="2436d-106">Microsoft 365 Defender API</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="9b050-107">Некоторые сведения относятся к предварительным выпускам продуктов, которые могут быть существенно изменены до коммерческого выпуска.</span><span class="sxs-lookup"><span data-stu-id="9b050-107">Some information relates to prereleased product which may be substantially modified before it's commercially released.</span></span> <span data-ttu-id="9b050-108">Корпорация Майкрософт не дает никаких гарантий, явных или подразумеваемых, относительно предоставленных здесь сведений.</span><span class="sxs-lookup"><span data-stu-id="9b050-108">Microsoft makes no warranties, express or implied, with respect to the information provided here.</span></span>
+> <span data-ttu-id="2436d-107">Некоторые сведения относятся к предварительным выпускам продуктов, которые могут быть существенно изменены до коммерческого выпуска.</span><span class="sxs-lookup"><span data-stu-id="2436d-107">Some information relates to prereleased product which may be substantially modified before it's commercially released.</span></span> <span data-ttu-id="2436d-108">Корпорация Майкрософт не дает никаких гарантий, явных или подразумеваемых, относительно предоставленных здесь сведений.</span><span class="sxs-lookup"><span data-stu-id="2436d-108">Microsoft makes no warranties, express or implied, with respect to the information provided here.</span></span>
 
-<span data-ttu-id="9b050-109">Следующие ресурсы предоставляют дополнительные сведения об API, доступных для других решений безопасности Майкрософт, помимо API Защитника Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="9b050-109">The following resources provide more information about APIs available for other Microsoft security solutions, beyond the Microsoft 365 Defender API.</span></span>
+<span data-ttu-id="2436d-109">Следующие ресурсы предоставляют дополнительные сведения об API, доступных для других решений безопасности Майкрософт, помимо API Microsoft 365 Defender.</span><span class="sxs-lookup"><span data-stu-id="2436d-109">The following resources provide more information about APIs available for other Microsoft security solutions, beyond the Microsoft 365 Defender API.</span></span>
 
-- [<span data-ttu-id="9b050-110">Microsoft Defender для конечной точки</span><span class="sxs-lookup"><span data-stu-id="9b050-110">Microsoft Defender for Endpoint</span></span>](/windows/security/threat-protection/microsoft-defender-atp/apis-intro)
-- [<span data-ttu-id="9b050-111">Microsoft Defender для Office 365</span><span class="sxs-lookup"><span data-stu-id="9b050-111">Microsoft Defender for Office 365</span></span>](/office/office-365-management-api/)
-- [<span data-ttu-id="9b050-112">Microsoft Cloud App Security</span><span class="sxs-lookup"><span data-stu-id="9b050-112">Microsoft Cloud App Security</span></span>](/cloud-app-security/api-introduction)
+- [<span data-ttu-id="2436d-110">Microsoft Defender для конечной точки</span><span class="sxs-lookup"><span data-stu-id="2436d-110">Microsoft Defender for Endpoint</span></span>](/windows/security/threat-protection/microsoft-defender-atp/apis-intro)
+- [<span data-ttu-id="2436d-111">Microsoft Defender для Office 365</span><span class="sxs-lookup"><span data-stu-id="2436d-111">Microsoft Defender for Office 365</span></span>](/office/office-365-management-api/)
+- [<span data-ttu-id="2436d-112">Microsoft Cloud App Security</span><span class="sxs-lookup"><span data-stu-id="2436d-112">Microsoft Cloud App Security</span></span>](/cloud-app-security/api-introduction)

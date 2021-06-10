@@ -23,47 +23,47 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/05/2021
 ms.locfileid: "52780181"
 ---
-# <a name="configure-microsoft-defender-for-endpoint-to-stream-advanced-hunting-events-to-your-storage-account"></a><span data-ttu-id="007d6-104">Настройка Microsoft Defender для конечной точки для потоковой передачи событий advanced Hunting в свою служба хранилища учетную запись</span><span class="sxs-lookup"><span data-stu-id="007d6-104">Configure Microsoft Defender for Endpoint to stream Advanced Hunting events to your Storage account</span></span>
+# <a name="configure-microsoft-defender-for-endpoint-to-stream-advanced-hunting-events-to-your-storage-account"></a><span data-ttu-id="73034-104">Настройка Microsoft Defender для конечной точки для потоковой передачи событий advanced Hunting в свою служба хранилища учетную запись</span><span class="sxs-lookup"><span data-stu-id="73034-104">Configure Microsoft Defender for Endpoint to stream Advanced Hunting events to your Storage account</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
-<span data-ttu-id="007d6-105">**Область применения:**</span><span class="sxs-lookup"><span data-stu-id="007d6-105">**Applies to:**</span></span>
-- [<span data-ttu-id="007d6-106">Microsoft Defender для конечной точки</span><span class="sxs-lookup"><span data-stu-id="007d6-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/?linkid=2154037)
+<span data-ttu-id="73034-105">**Область применения:**</span><span class="sxs-lookup"><span data-stu-id="73034-105">**Applies to:**</span></span>
+- [<span data-ttu-id="73034-106">Microsoft Defender для конечной точки</span><span class="sxs-lookup"><span data-stu-id="73034-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/?linkid=2154037)
 
-> <span data-ttu-id="007d6-107">Хотите испытать Defender для конечной точки?</span><span class="sxs-lookup"><span data-stu-id="007d6-107">Want to experience Defender for Endpoint?</span></span> [<span data-ttu-id="007d6-108">Зарегистрився для бесплатной пробной.</span><span class="sxs-lookup"><span data-stu-id="007d6-108">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configuresiem-abovefoldlink) 
+> <span data-ttu-id="73034-107">Хотите испытать Defender для конечной точки?</span><span class="sxs-lookup"><span data-stu-id="73034-107">Want to experience Defender for Endpoint?</span></span> [<span data-ttu-id="73034-108">Зарегистрився для бесплатной пробной.</span><span class="sxs-lookup"><span data-stu-id="73034-108">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configuresiem-abovefoldlink) 
 
-## <a name="before-you-begin"></a><span data-ttu-id="007d6-109">Подготовка</span><span class="sxs-lookup"><span data-stu-id="007d6-109">Before you begin</span></span>
+## <a name="before-you-begin"></a><span data-ttu-id="73034-109">Прежде чем начать</span><span class="sxs-lookup"><span data-stu-id="73034-109">Before you begin</span></span>
 
-1. <span data-ttu-id="007d6-110">Создайте [служба хранилища учетную запись](/azure/storage/common/storage-account-overview) в клиенте.</span><span class="sxs-lookup"><span data-stu-id="007d6-110">Create a [Storage account](/azure/storage/common/storage-account-overview) in your tenant.</span></span>
+1. <span data-ttu-id="73034-110">Создайте [служба хранилища учетную запись](/azure/storage/common/storage-account-overview) в клиенте.</span><span class="sxs-lookup"><span data-stu-id="73034-110">Create a [Storage account](/azure/storage/common/storage-account-overview) in your tenant.</span></span>
 
-2. <span data-ttu-id="007d6-111">Войдите в клиент [Azure,](https://ms.portal.azure.com/)перейдите на подписки > подписки > поставщиков ресурсов **> в Microsoft.insights**.</span><span class="sxs-lookup"><span data-stu-id="007d6-111">Log in to your [Azure tenant](https://ms.portal.azure.com/), go to **Subscriptions > Your subscription > Resource Providers > Register to Microsoft.insights**.</span></span>
+2. <span data-ttu-id="73034-111">Войдите в клиент [Azure,](https://ms.portal.azure.com/)перейдите на подписки > подписки > поставщиков ресурсов **> в Microsoft.insights**.</span><span class="sxs-lookup"><span data-stu-id="73034-111">Log in to your [Azure tenant](https://ms.portal.azure.com/), go to **Subscriptions > Your subscription > Resource Providers > Register to Microsoft.insights**.</span></span>
 
-## <a name="enable-raw-data-streaming"></a><span data-ttu-id="007d6-112">Включить потоковую передачу необработанных данных</span><span class="sxs-lookup"><span data-stu-id="007d6-112">Enable raw data streaming</span></span>
+## <a name="enable-raw-data-streaming"></a><span data-ttu-id="73034-112">Включить потоковую передачу необработанных данных</span><span class="sxs-lookup"><span data-stu-id="73034-112">Enable raw data streaming</span></span>
 
-1. <span data-ttu-id="007d6-113">Войдите на [портал Microsoft Defender для конечных точек](https://securitycenter.windows.com) в качестве ***Глобального** администратора _ или _*_Администратора_ безопасности \*\*.</span><span class="sxs-lookup"><span data-stu-id="007d6-113">Log in to [Microsoft Defender for Endpoint portal](https://securitycenter.windows.com) as a ***Global Administrator** _ or _*_Security Administrator_\*\*.</span></span>
+1. <span data-ttu-id="73034-113">Войдите на [портал Microsoft Defender для конечных точек](https://securitycenter.windows.com) в качестве ***Глобального** администратора _ или _*_Администратора_ безопасности \*\*.</span><span class="sxs-lookup"><span data-stu-id="73034-113">Log in to [Microsoft Defender for Endpoint portal](https://securitycenter.windows.com) as a ***Global Administrator** _ or _*_Security Administrator_\*\*.</span></span>
 
-2. <span data-ttu-id="007d6-114">Перейдите [на страницу Параметры экспорта](https://securitycenter.windows.com/interoperability/dataexport) данных на Центр безопасности в Microsoft Defender.</span><span class="sxs-lookup"><span data-stu-id="007d6-114">Go to [Data export settings page](https://securitycenter.windows.com/interoperability/dataexport) on Microsoft Defender Security Center.</span></span>
+2. <span data-ttu-id="73034-114">Перейдите [на страницу Параметры экспорта](https://securitycenter.windows.com/interoperability/dataexport) данных на Центр безопасности в Microsoft Defender.</span><span class="sxs-lookup"><span data-stu-id="73034-114">Go to [Data export settings page](https://securitycenter.windows.com/interoperability/dataexport) on Microsoft Defender Security Center.</span></span>
 
-3. <span data-ttu-id="007d6-115">Нажмите **кнопку Добавить параметры экспорта данных.**</span><span class="sxs-lookup"><span data-stu-id="007d6-115">Click on **Add data export settings**.</span></span>
+3. <span data-ttu-id="73034-115">Нажмите **кнопку Добавить параметры экспорта данных.**</span><span class="sxs-lookup"><span data-stu-id="73034-115">Click on **Add data export settings**.</span></span>
 
-4. <span data-ttu-id="007d6-116">Выберите имя для новых параметров.</span><span class="sxs-lookup"><span data-stu-id="007d6-116">Choose a name for your new settings.</span></span>
+4. <span data-ttu-id="73034-116">Выберите имя для новых параметров.</span><span class="sxs-lookup"><span data-stu-id="73034-116">Choose a name for your new settings.</span></span>
 
-5. <span data-ttu-id="007d6-117">Выберите **события Forward для служба хранилища Azure**.</span><span class="sxs-lookup"><span data-stu-id="007d6-117">Choose **Forward events to Azure Storage**.</span></span>
+5. <span data-ttu-id="73034-117">Выберите **события Forward для служба хранилища Azure**.</span><span class="sxs-lookup"><span data-stu-id="73034-117">Choose **Forward events to Azure Storage**.</span></span>
 
-6. <span data-ttu-id="007d6-118">Введите **служба хранилища ИД ресурса учетной записи.**</span><span class="sxs-lookup"><span data-stu-id="007d6-118">Type your **Storage Account Resource ID**.</span></span> <span data-ttu-id="007d6-119">Чтобы получить служба хранилища ресурса учетной записи, перейдите на страницу служба хранилища учетной записи на вкладке Свойств [Azure](https://ms.portal.azure.com/) > > скопируйте текст под ИД ресурса служба хранилища учетной записи: </span><span class="sxs-lookup"><span data-stu-id="007d6-119">In order to get your **Storage Account Resource ID**, go to your Storage account page on [Azure portal](https://ms.portal.azure.com/) > properties tab > copy the text under **Storage account resource ID**:</span></span>
+6. <span data-ttu-id="73034-118">Введите **служба хранилища ИД ресурса учетной записи.**</span><span class="sxs-lookup"><span data-stu-id="73034-118">Type your **Storage Account Resource ID**.</span></span> <span data-ttu-id="73034-119">Чтобы получить служба хранилища ресурса учетной записи, перейдите на страницу служба хранилища учетной записи на вкладке Свойств [Azure](https://ms.portal.azure.com/) > > скопируйте текст под ИД ресурса служба хранилища учетной записи: </span><span class="sxs-lookup"><span data-stu-id="73034-119">In order to get your **Storage Account Resource ID**, go to your Storage account page on [Azure portal](https://ms.portal.azure.com/) > properties tab > copy the text under **Storage account resource ID**:</span></span>
 
    ![Изображение ID1 ресурса центра событий](images/storage-account-resource-id.png)
 
-7. <span data-ttu-id="007d6-121">Выберите события, которые необходимо транслировать, и нажмите кнопку **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="007d6-121">Choose the events you want to stream and click **Save**.</span></span>
+7. <span data-ttu-id="73034-121">Выберите события, которые необходимо транслировать, и нажмите кнопку **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="73034-121">Choose the events you want to stream and click **Save**.</span></span>
 
-## <a name="the-schema-of-the-events-in-the-storage-account"></a><span data-ttu-id="007d6-122">Схема событий в служба хранилища учетной записи</span><span class="sxs-lookup"><span data-stu-id="007d6-122">The schema of the events in the Storage account</span></span>
+## <a name="the-schema-of-the-events-in-the-storage-account"></a><span data-ttu-id="73034-122">Схема событий в служба хранилища учетной записи</span><span class="sxs-lookup"><span data-stu-id="73034-122">The schema of the events in the Storage account</span></span>
 
-- <span data-ttu-id="007d6-123">Для каждого типа событий будет создан контейнер blob:</span><span class="sxs-lookup"><span data-stu-id="007d6-123">A blob container will be created for each event type:</span></span> 
+- <span data-ttu-id="73034-123">Для каждого типа событий будет создан контейнер blob:</span><span class="sxs-lookup"><span data-stu-id="73034-123">A blob container will be created for each event type:</span></span> 
 
   ![Изображение ID2 ресурса центра событий](images/storage-account-event-schema.png)
 
-- <span data-ttu-id="007d6-125">Схема каждой строки в blob является следующей JSON:</span><span class="sxs-lookup"><span data-stu-id="007d6-125">The schema of each row in a blob is the following JSON:</span></span> 
+- <span data-ttu-id="73034-125">Схема каждой строки в blob является следующей JSON:</span><span class="sxs-lookup"><span data-stu-id="73034-125">The schema of each row in a blob is the following JSON:</span></span> 
 
   ```
   {
@@ -74,21 +74,21 @@ ms.locfileid: "52780181"
   }               
   ```
 
-- <span data-ttu-id="007d6-126">Каждый blob содержит несколько строк.</span><span class="sxs-lookup"><span data-stu-id="007d6-126">Each blob contains multiple rows.</span></span>
+- <span data-ttu-id="73034-126">Каждый blob содержит несколько строк.</span><span class="sxs-lookup"><span data-stu-id="73034-126">Each blob contains multiple rows.</span></span>
 
-- <span data-ttu-id="007d6-127">Каждая строка содержит имя события, время получения события Defender для Конечной точки, его место для клиента (вы получите события только от клиента) и событие в формате JSON в свойстве под названием "свойства".</span><span class="sxs-lookup"><span data-stu-id="007d6-127">Each row contains the event name, the time Defender for Endpoint received the event, the tenant it belongs (you will only get events from your tenant), and the event in JSON format in a property called "properties".</span></span>
+- <span data-ttu-id="73034-127">Каждая строка содержит имя события, время получения события Defender для Конечной точки, его место для клиента (вы получите события только от клиента) и событие в формате JSON в свойстве под названием "свойства".</span><span class="sxs-lookup"><span data-stu-id="73034-127">Each row contains the event name, the time Defender for Endpoint received the event, the tenant it belongs (you will only get events from your tenant), and the event in JSON format in a property called "properties".</span></span>
 
-- <span data-ttu-id="007d6-128">Дополнительные сведения о схеме событий Microsoft Defender для конечных точек см. в [обзоре Advanced Hunting.](advanced-hunting-overview.md)</span><span class="sxs-lookup"><span data-stu-id="007d6-128">For more information about the schema of Microsoft Defender for Endpoint events, see [Advanced Hunting overview](advanced-hunting-overview.md).</span></span>
+- <span data-ttu-id="73034-128">Дополнительные сведения о схеме событий Microsoft Defender для конечных точек см. в [обзоре Advanced Hunting.](advanced-hunting-overview.md)</span><span class="sxs-lookup"><span data-stu-id="73034-128">For more information about the schema of Microsoft Defender for Endpoint events, see [Advanced Hunting overview](advanced-hunting-overview.md).</span></span>
 
-- <span data-ttu-id="007d6-129">В таблице Advanced Hunting **в таблице DeviceInfo** имеется столбец **MachineGroup,** содержащий группу устройства.</span><span class="sxs-lookup"><span data-stu-id="007d6-129">In Advanced Hunting, the **DeviceInfo** table has a column named **MachineGroup** which contains the group of the device.</span></span> <span data-ttu-id="007d6-130">Здесь каждое событие также будет украшено этим столбцом.</span><span class="sxs-lookup"><span data-stu-id="007d6-130">Here every event will be decorated with this column as well.</span></span> <span data-ttu-id="007d6-131">Дополнительные [сведения см.](machine-groups.md) в группе устройств.</span><span class="sxs-lookup"><span data-stu-id="007d6-131">See [Device Groups](machine-groups.md) for more information.</span></span>
+- <span data-ttu-id="73034-129">В таблице Advanced Hunting **в таблице DeviceInfo** имеется столбец **MachineGroup,** содержащий группу устройства.</span><span class="sxs-lookup"><span data-stu-id="73034-129">In Advanced Hunting, the **DeviceInfo** table has a column named **MachineGroup** which contains the group of the device.</span></span> <span data-ttu-id="73034-130">Здесь каждое событие также будет украшено этим столбцом.</span><span class="sxs-lookup"><span data-stu-id="73034-130">Here every event will be decorated with this column as well.</span></span> <span data-ttu-id="73034-131">Дополнительные [сведения см.](machine-groups.md) в группе устройств.</span><span class="sxs-lookup"><span data-stu-id="73034-131">See [Device Groups](machine-groups.md) for more information.</span></span>
 
-## <a name="data-types-mapping"></a><span data-ttu-id="007d6-132">Сопоставление типов данных</span><span class="sxs-lookup"><span data-stu-id="007d6-132">Data types mapping</span></span>
+## <a name="data-types-mapping"></a><span data-ttu-id="73034-132">Сопоставление типов данных</span><span class="sxs-lookup"><span data-stu-id="73034-132">Data types mapping</span></span>
 
-<span data-ttu-id="007d6-133">Чтобы получить типы данных для свойств событий, сделайте следующее:</span><span class="sxs-lookup"><span data-stu-id="007d6-133">In order to get the data types for our events properties do the following:</span></span>
+<span data-ttu-id="73034-133">Чтобы получить типы данных для свойств событий, сделайте следующее:</span><span class="sxs-lookup"><span data-stu-id="73034-133">In order to get the data types for our events properties do the following:</span></span>
 
-1. <span data-ttu-id="007d6-134">Войдите в [Центр безопасности в Microsoft Defender](https://securitycenter.windows.com) и перейдите на [страницу Расширенный поиск](https://securitycenter.windows.com/hunting-package).</span><span class="sxs-lookup"><span data-stu-id="007d6-134">Log in to [Microsoft Defender Security Center](https://securitycenter.windows.com) and go to [Advanced Hunting page](https://securitycenter.windows.com/hunting-package).</span></span>
+1. <span data-ttu-id="73034-134">Войдите в [Центр безопасности в Microsoft Defender](https://securitycenter.windows.com) и перейдите на [страницу Расширенный поиск](https://securitycenter.windows.com/hunting-package).</span><span class="sxs-lookup"><span data-stu-id="73034-134">Log in to [Microsoft Defender Security Center](https://securitycenter.windows.com) and go to [Advanced Hunting page](https://securitycenter.windows.com/hunting-package).</span></span>
 
-2. <span data-ttu-id="007d6-135">Запустите следующий запрос, чтобы получить сопоставление типов данных для каждого события:</span><span class="sxs-lookup"><span data-stu-id="007d6-135">Run the following query to get the data types mapping for each event:</span></span> 
+2. <span data-ttu-id="73034-135">Запустите следующий запрос, чтобы получить сопоставление типов данных для каждого события:</span><span class="sxs-lookup"><span data-stu-id="73034-135">Run the following query to get the data types mapping for each event:</span></span> 
 
    ```
    {EventType}
@@ -96,12 +96,12 @@ ms.locfileid: "52780181"
    | project ColumnName, ColumnType 
    ```
 
-- <span data-ttu-id="007d6-136">Вот пример события "Информация о устройстве":</span><span class="sxs-lookup"><span data-stu-id="007d6-136">Here is an example for Device Info event:</span></span> 
+- <span data-ttu-id="73034-136">Вот пример события "Информация о устройстве":</span><span class="sxs-lookup"><span data-stu-id="73034-136">Here is an example for Device Info event:</span></span> 
 
   ![Изображение ID3 ресурса центра событий](images/machine-info-datatype-example.png)
 
-## <a name="related-topics"></a><span data-ttu-id="007d6-138">Связанные статьи</span><span class="sxs-lookup"><span data-stu-id="007d6-138">Related topics</span></span>
-- [<span data-ttu-id="007d6-139">Обзор расширенных охоты</span><span class="sxs-lookup"><span data-stu-id="007d6-139">Overview of Advanced Hunting</span></span>](advanced-hunting-overview.md)
-- [<span data-ttu-id="007d6-140">Microsoft Defender для API потоковой передачи конечных точек</span><span class="sxs-lookup"><span data-stu-id="007d6-140">Microsoft Defender for Endpoint Streaming API</span></span>](raw-data-export.md)
-- [<span data-ttu-id="007d6-141">Поток событий Microsoft Defender для событий конечной точки в учетную запись хранилища Azure</span><span class="sxs-lookup"><span data-stu-id="007d6-141">Stream Microsoft Defender for Endpoint events to your Azure storage account</span></span>](raw-data-export-storage.md)
-- [<span data-ttu-id="007d6-142">служба хранилища Azure Документация по учетной записи</span><span class="sxs-lookup"><span data-stu-id="007d6-142">Azure Storage Account documentation</span></span>](/azure/storage/common/storage-account-overview)
+## <a name="related-topics"></a><span data-ttu-id="73034-138">Статьи по теме</span><span class="sxs-lookup"><span data-stu-id="73034-138">Related topics</span></span>
+- [<span data-ttu-id="73034-139">Обзор расширенных охоты</span><span class="sxs-lookup"><span data-stu-id="73034-139">Overview of Advanced Hunting</span></span>](advanced-hunting-overview.md)
+- [<span data-ttu-id="73034-140">Microsoft Defender для API потоковой передачи конечных точек</span><span class="sxs-lookup"><span data-stu-id="73034-140">Microsoft Defender for Endpoint Streaming API</span></span>](raw-data-export.md)
+- [<span data-ttu-id="73034-141">Поток событий Microsoft Defender для событий конечной точки в учетную запись хранилища Azure</span><span class="sxs-lookup"><span data-stu-id="73034-141">Stream Microsoft Defender for Endpoint events to your Azure storage account</span></span>](raw-data-export-storage.md)
+- [<span data-ttu-id="73034-142">служба хранилища Azure Документация по учетной записи</span><span class="sxs-lookup"><span data-stu-id="73034-142">Azure Storage Account documentation</span></span>](/azure/storage/common/storage-account-overview)

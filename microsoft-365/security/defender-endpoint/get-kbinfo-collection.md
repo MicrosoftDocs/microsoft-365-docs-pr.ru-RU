@@ -24,56 +24,56 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 03/24/2021
 ms.locfileid: "51167179"
 ---
-# <a name="get-kb-collection-api"></a><span data-ttu-id="bcac5-104">Получить API коллекции KB</span><span class="sxs-lookup"><span data-stu-id="bcac5-104">Get KB collection API</span></span>
+# <a name="get-kb-collection-api"></a><span data-ttu-id="307d0-104">Получить API коллекции KB</span><span class="sxs-lookup"><span data-stu-id="307d0-104">Get KB collection API</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
-<span data-ttu-id="bcac5-105">**Область применения:**</span><span class="sxs-lookup"><span data-stu-id="bcac5-105">**Applies to:**</span></span>
-- [<span data-ttu-id="bcac5-106">Microsoft Defender для конечной точки</span><span class="sxs-lookup"><span data-stu-id="bcac5-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
-- [<span data-ttu-id="bcac5-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="bcac5-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
+<span data-ttu-id="307d0-105">**Область применения:**</span><span class="sxs-lookup"><span data-stu-id="307d0-105">**Applies to:**</span></span>
+- [<span data-ttu-id="307d0-106">Microsoft Defender для конечной точки</span><span class="sxs-lookup"><span data-stu-id="307d0-106">Microsoft Defender for Endpoint</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2154037)
+- [<span data-ttu-id="307d0-107">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="307d0-107">Microsoft 365 Defender</span></span>](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-> <span data-ttu-id="bcac5-108">Хотите испытать Microsoft Defender для конечной точки?</span><span class="sxs-lookup"><span data-stu-id="bcac5-108">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="bcac5-109">Зарегистрився для бесплатной пробной.</span><span class="sxs-lookup"><span data-stu-id="bcac5-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+> <span data-ttu-id="307d0-108">Хотите испытать Microsoft Defender для конечной точки?</span><span class="sxs-lookup"><span data-stu-id="307d0-108">Want to experience Microsoft Defender for Endpoint?</span></span> [<span data-ttu-id="307d0-109">Зарегистрився для бесплатной пробной.</span><span class="sxs-lookup"><span data-stu-id="307d0-109">Sign up for a free trial.</span></span>](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
-<span data-ttu-id="bcac5-110">Извлекает коллекцию сведений о КБ и КБ.</span><span class="sxs-lookup"><span data-stu-id="bcac5-110">Retrieves a collection of KB's and KB details.</span></span>
+<span data-ttu-id="307d0-110">Извлекает коллекцию сведений о КБ и КБ.</span><span class="sxs-lookup"><span data-stu-id="307d0-110">Retrieves a collection of KB's and KB details.</span></span>
 
-## <a name="permissions"></a><span data-ttu-id="bcac5-111">Разрешения</span><span class="sxs-lookup"><span data-stu-id="bcac5-111">Permissions</span></span>
-<span data-ttu-id="bcac5-112">Пользователю нужны разрешения на чтение.</span><span class="sxs-lookup"><span data-stu-id="bcac5-112">User needs read permissions.</span></span>
+## <a name="permissions"></a><span data-ttu-id="307d0-111">Разрешения</span><span class="sxs-lookup"><span data-stu-id="307d0-111">Permissions</span></span>
+<span data-ttu-id="307d0-112">Пользователю нужны разрешения на чтение.</span><span class="sxs-lookup"><span data-stu-id="307d0-112">User needs read permissions.</span></span>
 
-## <a name="http-request"></a><span data-ttu-id="bcac5-113">HTTP-запрос</span><span class="sxs-lookup"><span data-stu-id="bcac5-113">HTTP request</span></span>
+## <a name="http-request"></a><span data-ttu-id="307d0-113">HTTP-запрос</span><span class="sxs-lookup"><span data-stu-id="307d0-113">HTTP request</span></span>
 ```
 GET /testwdatppreview/kbinfo
 ```
 
-## <a name="request-headers"></a><span data-ttu-id="bcac5-114">Заголовки запросов</span><span class="sxs-lookup"><span data-stu-id="bcac5-114">Request headers</span></span>
+## <a name="request-headers"></a><span data-ttu-id="307d0-114">Заголовки запросов</span><span class="sxs-lookup"><span data-stu-id="307d0-114">Request headers</span></span>
 
-<span data-ttu-id="bcac5-115">Заголовок</span><span class="sxs-lookup"><span data-stu-id="bcac5-115">Header</span></span> | <span data-ttu-id="bcac5-116">Значение</span><span class="sxs-lookup"><span data-stu-id="bcac5-116">Value</span></span> 
+<span data-ttu-id="307d0-115">Заголовок</span><span class="sxs-lookup"><span data-stu-id="307d0-115">Header</span></span> | <span data-ttu-id="307d0-116">Значение</span><span class="sxs-lookup"><span data-stu-id="307d0-116">Value</span></span> 
 :---|:---
-<span data-ttu-id="bcac5-117">Авторизация</span><span class="sxs-lookup"><span data-stu-id="bcac5-117">Authorization</span></span> | <span data-ttu-id="bcac5-118">Bearer {token}.</span><span class="sxs-lookup"><span data-stu-id="bcac5-118">Bearer {token}.</span></span> <span data-ttu-id="bcac5-119">**Обязательное поле**.</span><span class="sxs-lookup"><span data-stu-id="bcac5-119">**Required**.</span></span>
-<span data-ttu-id="bcac5-120">Тип контента</span><span class="sxs-lookup"><span data-stu-id="bcac5-120">Content type</span></span> | <span data-ttu-id="bcac5-121">application/json</span><span class="sxs-lookup"><span data-stu-id="bcac5-121">application/json</span></span>
+<span data-ttu-id="307d0-117">Авторизация</span><span class="sxs-lookup"><span data-stu-id="307d0-117">Authorization</span></span> | <span data-ttu-id="307d0-118">Bearer {token}.</span><span class="sxs-lookup"><span data-stu-id="307d0-118">Bearer {token}.</span></span> <span data-ttu-id="307d0-119">**Обязательное поле**.</span><span class="sxs-lookup"><span data-stu-id="307d0-119">**Required**.</span></span>
+<span data-ttu-id="307d0-120">Тип содержимого</span><span class="sxs-lookup"><span data-stu-id="307d0-120">Content type</span></span> | <span data-ttu-id="307d0-121">application/json</span><span class="sxs-lookup"><span data-stu-id="307d0-121">application/json</span></span>
 
-## <a name="request-body"></a><span data-ttu-id="bcac5-122">Текст запроса</span><span class="sxs-lookup"><span data-stu-id="bcac5-122">Request body</span></span>
-<span data-ttu-id="bcac5-123">переменная Empty</span><span class="sxs-lookup"><span data-stu-id="bcac5-123">Empty</span></span>
+## <a name="request-body"></a><span data-ttu-id="307d0-122">Тело запроса</span><span class="sxs-lookup"><span data-stu-id="307d0-122">Request body</span></span>
+<span data-ttu-id="307d0-123">переменная Empty</span><span class="sxs-lookup"><span data-stu-id="307d0-123">Empty</span></span>
 
-## <a name="response"></a><span data-ttu-id="bcac5-124">Отклик</span><span class="sxs-lookup"><span data-stu-id="bcac5-124">Response</span></span>
-<span data-ttu-id="bcac5-125">Если успешно - 200 ОК.</span><span class="sxs-lookup"><span data-stu-id="bcac5-125">If successful - 200 OK.</span></span>
+## <a name="response"></a><span data-ttu-id="307d0-124">Отклик</span><span class="sxs-lookup"><span data-stu-id="307d0-124">Response</span></span>
+<span data-ttu-id="307d0-125">Если успешно - 200 ОК.</span><span class="sxs-lookup"><span data-stu-id="307d0-125">If successful - 200 OK.</span></span>
 
-## <a name="example"></a><span data-ttu-id="bcac5-126">Пример</span><span class="sxs-lookup"><span data-stu-id="bcac5-126">Example</span></span>
+## <a name="example"></a><span data-ttu-id="307d0-126">Пример</span><span class="sxs-lookup"><span data-stu-id="307d0-126">Example</span></span>
 
-<span data-ttu-id="bcac5-127">**Запрос**</span><span class="sxs-lookup"><span data-stu-id="bcac5-127">**Request**</span></span>
+<span data-ttu-id="307d0-127">**Запрос**</span><span class="sxs-lookup"><span data-stu-id="307d0-127">**Request**</span></span>
 
-<span data-ttu-id="bcac5-128">Ниже приведен пример запроса.</span><span class="sxs-lookup"><span data-stu-id="bcac5-128">Here is an example of the request.</span></span>
+<span data-ttu-id="307d0-128">Ниже приведен пример запроса.</span><span class="sxs-lookup"><span data-stu-id="307d0-128">Here is an example of the request.</span></span>
 
 ```http
 GET https://graph.microsoft.com/testwdatppreview/KbInfo
 ```
 
-<span data-ttu-id="bcac5-129">**Отклик**</span><span class="sxs-lookup"><span data-stu-id="bcac5-129">**Response**</span></span>
+<span data-ttu-id="307d0-129">**Отклик**</span><span class="sxs-lookup"><span data-stu-id="307d0-129">**Response**</span></span>
 
-<span data-ttu-id="bcac5-130">Ниже приведен пример отклика.</span><span class="sxs-lookup"><span data-stu-id="bcac5-130">Here is an example of the response.</span></span>
+<span data-ttu-id="307d0-130">Ниже приведен пример отклика.</span><span class="sxs-lookup"><span data-stu-id="307d0-130">Here is an example of the response.</span></span>
 
 ```json
 {
