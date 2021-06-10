@@ -20,16 +20,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52535462"
 ---
-# <a name="payment-information-for-macedonia-former-yugoslav-republic-of"></a><span data-ttu-id="866e1-103">Сведения о платежах для Македонии, бывшей югославской республики</span><span class="sxs-lookup"><span data-stu-id="866e1-103">Payment information for Macedonia, Former Yugoslav Republic of</span></span>
+# <a name="payment-information-for-macedonia-former-yugoslav-republic-of"></a><span data-ttu-id="6112c-103">Сведения о платежах для Македонии, бывшей югославской республики</span><span class="sxs-lookup"><span data-stu-id="6112c-103">Payment information for Macedonia, Former Yugoslav Republic of</span></span>
 
-<span data-ttu-id="866e1-104">[Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="866e1-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="6112c-104">[Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="6112c-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="866e1-105">Пожалуйста, оплатите только в долларах США и обратитесь с номером счета(ы) в счете-фактуре.</span><span class="sxs-lookup"><span data-stu-id="866e1-105">Please pay in USD only and reference your invoice number(s) on your invoice remittance.</span></span>
+<span data-ttu-id="6112c-105">Пожалуйста, оплатите только в долларах США и обратитесь с номером счета(ы) в счете-фактуре.</span><span class="sxs-lookup"><span data-stu-id="6112c-105">Please pay in USD only and reference your invoice number(s) on your invoice remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="866e1-106">Электронный платеж</span><span class="sxs-lookup"><span data-stu-id="866e1-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="6112c-106">Электронный платеж</span><span class="sxs-lookup"><span data-stu-id="6112c-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="866e1-107">**Банк:** Ситибанк, Лондон</span><span class="sxs-lookup"><span data-stu-id="866e1-107">**Bank:** Citibank, London</span></span>  
-<span data-ttu-id="866e1-108">**Код SWIFT:** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="866e1-108">**SWIFT Code:** CITIGB2L</span></span>  
-<span data-ttu-id="866e1-109">**IBAN:** GB95CITI18500812510049</span><span class="sxs-lookup"><span data-stu-id="866e1-109">**IBAN:** GB95CITI18500812510049</span></span>  
-<span data-ttu-id="866e1-110">**Номер учетной записи:** 12510049</span><span class="sxs-lookup"><span data-stu-id="866e1-110">**Account Number:** 12510049</span></span>  
-<span data-ttu-id="866e1-111">**Имя учетной записи:** Microsoft</span><span class="sxs-lookup"><span data-stu-id="866e1-111">**Account Name:** MICROSOFT</span></span>
+<span data-ttu-id="6112c-107">**Банк:** Ситибанк, Лондон</span><span class="sxs-lookup"><span data-stu-id="6112c-107">**Bank:** Citibank, London</span></span>  
+<span data-ttu-id="6112c-108">**Код SWIFT:** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="6112c-108">**SWIFT Code:** CITIGB2L</span></span>  
+<span data-ttu-id="6112c-109">**IBAN:** GB95CITI18500812510049</span><span class="sxs-lookup"><span data-stu-id="6112c-109">**IBAN:** GB95CITI18500812510049</span></span>  
+<span data-ttu-id="6112c-110">**Номер учетной записи:** 12510049</span><span class="sxs-lookup"><span data-stu-id="6112c-110">**Account Number:** 12510049</span></span>  
+<span data-ttu-id="6112c-111">**Имя учетной записи:** Microsoft</span><span class="sxs-lookup"><span data-stu-id="6112c-111">**Account Name:** MICROSOFT</span></span>
