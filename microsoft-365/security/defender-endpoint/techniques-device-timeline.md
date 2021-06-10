@@ -96,7 +96,7 @@ ms.locfileid: "51185471"
 
 
 ## <a name="see-also"></a>См. также
-- [Просмотр и организация списка Устройств](machines-view-overview.md)
+- [Просмотр и организация списка устройств](machines-view-overview.md)
 - [Флаги событий событий Microsoft Defender для конечных устройств](device-timeline-event-flag.md) 
 
 

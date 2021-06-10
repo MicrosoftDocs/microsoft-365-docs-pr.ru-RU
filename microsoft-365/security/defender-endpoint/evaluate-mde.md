@@ -1,5 +1,5 @@
 ---
-title: Оценка защитника Майкрософт для конечной точки
+title: Microsoft Defender для конечной точки
 ms.reviewer: ''
 description: Оцените различные возможности безопасности в Microsoft Defender для конечной точки.
 keywords: уменьшение поверхности атаки, оценка следующего поколения, защита
@@ -17,14 +17,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: d13f13872954978a14454d8f3c0e66970606bd21
-ms.sourcegitcommit: 8685b0f7d53c99577fa65144ab60295dfa60f46f
+ms.openlocfilehash: e7f065c5f42b62885c3c0fde7b402490f86ec2ba
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51218801"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843202"
 ---
-# <a name="evaluate-microsoft-defender-for-endpoint"></a>Оценка защитника Майкрософт для конечной точки 
+# <a name="evaluate-microsoft-defender-for-endpoint"></a>Microsoft Defender для конечной точки 
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -47,15 +47,15 @@ ms.locfileid: "51218801"
 - [Оценка уменьшения поверхности атаки](./evaluate-attack-surface-reduction.md)
 - [Оценка защиты от эксплойтов](./evaluate-exploit-protection.md)
 - [Оценка защиты сети](./evaluate-exploit-protection.md)
-- [Оценка доступа к управляемой папке](./evaluate-controlled-folder-access.md)
-- [Оценка охраны приложений](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-application-guard/test-scenarios-md-app-guard)
-- [Оценка сетевого брандмауэра](https://docs.microsoft.com/windows/security/threat-protection/windows-firewall/evaluating-windows-firewall-with-advanced-security-design-examples)
+- [Оценка контролируемого доступа к папкам](./evaluate-controlled-folder-access.md)
+- [Оценка охраны приложений](/windows/security/threat-protection/microsoft-defender-application-guard/test-scenarios-md-app-guard)
+- [Оценка сетевого брандмауэра](/windows/security/threat-protection/windows-firewall/evaluating-windows-firewall-with-advanced-security-design-examples)
 
 ## <a name="evaluate-next-generation-protection"></a>Оценка защиты нового поколения
 
 Защита следующего поколения помогает обнаруживать и блокировать последние угрозы.
 
-- [Оценка антивируса](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/evaluate-microsoft-defender-antivirus)
+- [Оценка антивируса](/windows/security/threat-protection/microsoft-defender-antivirus/evaluate-microsoft-defender-antivirus)
 
 ## <a name="see-also"></a>См. также
 

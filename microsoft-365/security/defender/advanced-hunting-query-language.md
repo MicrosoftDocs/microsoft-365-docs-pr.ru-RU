@@ -1,7 +1,7 @@
 ---
-title: Узнайте язык расширенных запросов на охоту в Microsoft 365 Defender
+title: Узнайте язык запросов на расширенный поиск в Microsoft 365 Defender
 description: Создайте ваш первый запрос охоты на угрозы и узнайте о распространенных операторах и других аспектах языка запросов расширенной охоты на угрозы
-keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, Microsoft 365, m365, search, query, language, learn, first query, telemetry, events, telemetry, custom detections, schema, kusto, operators, data types, powershell download, query example
+keywords: передовая охота, охота на угрозы, охота на киберугрозы, Microsoft 365 Defender, Microsoft 365, m365, поиск, запрос, язык, учиться, первый запрос, телеметрия, события, телеметрия, настраиваемые обнаружения, схема, кусто, операторы, типы данных, загрузка powershell, пример запроса
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -40,7 +40,7 @@ ms.locfileid: "51952624"
 
 ## <a name="try-your-first-query"></a>Попробуйте выполнить первый запрос
 
-В центре безопасности Microsoft 365 перейдите в **Службу охоты,** чтобы выполнить первый запрос. Используйте следующий пример:
+В Microsoft 365 центре безопасности перейдите в **Службу охоты,** чтобы выполнить первый запрос. Используйте следующий пример:
 
 ```kusto
 // Finds PowerShell execution events that could involve a download
@@ -157,7 +157,7 @@ FileName, ProcessCommandLine, RemoteIP, RemoteUrl, RemotePort, RemoteIPType
 
 ## <a name="get-help-as-you-write-queries"></a>Помощь при написании запросов
 Ниже перечислены функции, благодаря которым запросы можно создавать быстрее.
-- **Autosuggest**— при записи запросов расширенный поиск предоставляет предложения из IntelliSense. 
+- **Autosuggest**— при написании запросов расширенный поиск предоставляет предложения из IntelliSense. 
 - **Дерево схемы**— представление схемы, которое включает список таблиц и их столбцов, предоставляется рядом с рабочей областью. Чтобы получить об элементе дополнительные сведения, нужно навести на него указатель мыши. Чтобы вставить элемент в редактор запросов, нужно дважды щелкнуть по нему.
 - **[Ссылка схемы](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)**— ссылка на портал с описаниями таблиц и столбцов, а также поддерживаемые типы событий `ActionType` (значения) и примеры запросов
 
@@ -176,16 +176,16 @@ FileName, ProcessCommandLine, RemoteIP, RemoteUrl, RemotePort, RemoteIPType
 ![Изображение окна расширенной охоты](../../media/advanced-hunting-get-started.png)
 
 >[!NOTE]
->Кроме примеров базовых запросов, вы можете получить доступ к [общим запросам](advanced-hunting-shared-queries.md) для определенных сценариев охоты на угрозы. Ознакомьтесь с общими запросами на левой стороне страницы или репозиторием [запросов GitHub.](https://aka.ms/hunting-queries)
+>Кроме примеров базовых запросов, вы можете получить доступ к [общим запросам](advanced-hunting-shared-queries.md) для определенных сценариев охоты на угрозы. Ознакомьтесь с общими запросами в левой части страницы [или репозитории GitHub запроса.](https://aka.ms/hunting-queries)
 
 ## <a name="access-query-language-documentation"></a>Документация по языку условий запросов
 
 Дополнительные сведения о языке запросов Kusto и поддерживаемых операторах см. в статье [Документация по языку запросов Kusto](/azure/kusto/query/).
 
 >[!NOTE]
->Некоторые таблицы в этой статье могут быть недоступны в Microsoft Defender для конечной точки. [Включи Microsoft 365 Defender для](m365d-enable.md) охоты на угрозы с помощью дополнительных источников данных. Вы можете переместить расширенные процессы охоты из Microsoft Defender для конечной точки в Microsoft 365 Defender, следуя шагам в миграции расширенных запросов охоты из [Microsoft Defender для конечной](advanced-hunting-migrate-from-mde.md)точки .
+>Некоторые таблицы в этой статье могут быть недоступны в Microsoft Defender для конечной точки. [Включи Microsoft 365 Defender,](m365d-enable.md) чтобы искать угрозы с помощью дополнительных источников данных. Вы можете переместить расширенные процессы охоты из Microsoft Defender для endpoint в Microsoft 365 Defender, следуя шагам в миграции расширенных запросов охоты из [Microsoft Defender для конечной точки](advanced-hunting-migrate-from-mde.md).
 
-## <a name="related-topics"></a>Похожие темы
+## <a name="related-topics"></a>Статьи по теме
 - [Обзор расширенной охоты](advanced-hunting-overview.md)
 - [Работа с результатами запросов](advanced-hunting-query-results.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)

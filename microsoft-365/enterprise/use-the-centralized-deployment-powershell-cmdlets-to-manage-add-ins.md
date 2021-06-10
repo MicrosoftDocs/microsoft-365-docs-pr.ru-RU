@@ -19,7 +19,7 @@ f1.keywords:
 ms.assetid: 94f4e86d-b8e5-42dd-b558-e6092f830ec9
 ms.custom:
 - seo-marvel-apr2020
-description: Чтобы помочь развертыванию и управлению надстройки Office для организации Microsoft 365, используйте централизованные программы развертывания PowerShell.
+description: Чтобы помочь развертыванию и управлению надстройки Office для вашей Microsoft 365 организации, используйте Office powerShell.
 ms.openlocfilehash: 7872deedfcfe058f0a4ac63c489bbed139699d18
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -29,7 +29,7 @@ ms.locfileid: "50924676"
 ---
 # <a name="use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins"></a>Чтобы управлять надстройкими, используйте централизованные комлеты Deployment PowerShell
 
-В качестве глобального администратора Microsoft 365 вы можете развернуть надстройки Office для пользователей с помощью функции централизованного развертывания (см. статью Развертывание надстройок Office в центре [администрирования).](../admin/manage/manage-deployment-of-add-ins.md) Помимо развертывания надстройок Office через центр администрирования Microsoft 365 вы также можете использовать Microsoft PowerShell. Установите [централизованный модуль развертывания O365 Add-In для Windows PowerShell.](https://www.powershellgallery.com/packages/O365CentralizedAddInDeployment) 
+В качестве Microsoft 365 глобального администратора можно развернуть Office пользователям с помощью функции централизованного развертывания (см. статью [Развертывание](../admin/manage/manage-deployment-of-add-ins.md)Office надстройки в центре администрирования). Помимо развертывания надстройок Office через центр администрирования Microsoft 365, вы также можете использовать Microsoft PowerShell. Установите [централизованный модуль развертывания O365 Add-In для Windows PowerShell.](https://www.powershellgallery.com/packages/O365CentralizedAddInDeployment) 
 
 После загрузки модуля откройте обычное окно Windows PowerShell и запустите следующий командлет:
 
@@ -37,19 +37,19 @@ ms.locfileid: "50924676"
  Import-Module -Name O365CentralizedAddInDeployment
 ```
     
-## <a name="connect-using-your-admin-credentials"></a>Подключение с помощью учетных данных администратора
+## <a name="connect-using-your-admin-credentials"></a>Подключение учетных данных администратора
 
 Прежде чем использовать централизованные кодлеты развертывания, необходимо войти.
   
 1. Запуск PowerShell.
     
-2. Подключение к PowerShell с помощью учетных данных администратора вашей компании. Запустите следующий cmdlet.
+2. Подключение PowerShell с помощью учетных данных администратора вашей компании. Запустите следующий cmdlet.
     
   ```powershell
   Connect-OrganizationAddInService
   ```
 
-3. На странице **Ввод учетных данных** введите глобальные учетные данные администратора Microsoft 365. Поочередно можно ввести учетные данные непосредственно в cmdlet. 
+3. На странице **Ввод учетных данных** введите свои Microsoft 365 учетные данные администратора. Поочередно можно ввести учетные данные непосредственно в cmdlet. 
     
     Запустите следующий комдлет с указанием учетных данных администратора компании в качестве объекта PSCredential.
     
@@ -60,9 +60,9 @@ ms.locfileid: "50924676"
   ```
 
 > [!NOTE]
-> Дополнительные сведения об использовании PowerShell см. в сайте [Connect to Microsoft 365 with PowerShell.](./connect-to-microsoft-365-powershell.md) 
+> Дополнительные сведения об использовании PowerShell см. в Подключение [Microsoft 365 с PowerShell.](./connect-to-microsoft-365-powershell.md) 
   
-## <a name="upload-an-add-in-manifest"></a>Отправка манифеста надстройки
+## <a name="upload-an-add-in-manifest"></a>Upload манифест надстройки
 
 Запустите **комлет New-OrganizationAdd-In,** чтобы загрузить манифест надстройки с пути, который может быть расположением файла или URL-адресом. В следующем примере показано расположение файла для значения _параметра ManifestPath._ 
   
@@ -76,9 +76,9 @@ New-OrganizationAddIn -ManifestPath 'C:\Users\Me\Desktop\taskpane.xml' -Locale '
 New-OrganizationAddIn -ManifestPath 'C:\Users\Me\Desktop\taskpane.xml' -Locale 'en-US' -Members  'KathyBonner@contoso.com', 'MaxHargrave@contoso.com'
 ```
 
-## <a name="upload-an-add-in-from-the-office-store"></a>Отправка надстройки из Магазина Office
+## <a name="upload-an-add-in-from-the-office-store"></a>Upload надстройку из Office Store
 
-Запустите **кодлет New-OrganizationAddIn,** чтобы загрузить манифест из магазина Office.
+Запустите **кодлет New-OrganizationAddIn,** чтобы загрузить манифест из Office Store.
   
 В следующем примере в **кодлете New-OrganizationAddIn** указывается AssetId для надстройки для рынка расположения и контента в США.
   
@@ -86,12 +86,12 @@ New-OrganizationAddIn -ManifestPath 'C:\Users\Me\Desktop\taskpane.xml' -Locale '
 New-OrganizationAddIn -AssetId 'WA104099688' -Locale 'en-US' -ContentMarket 'en-US'
 ```
 
-Чтобы определить значение  _параметра AssetId,_ вы можете скопировать его с URL-адреса веб-страницы Office Store для надстройки. AssetIds всегда начинаются с "WA", за которым следует номер. Например, в предыдущем примере источником значения AssetId WA104099688 является URL-адрес веб-страницы Office Store для надстройки: [https://store.office.com/en-001/app.aspx?assetid=WA104099688](https://store.office.com/en-001/app.aspx?assetid=WA104099688) .
+Чтобы определить значение _параметра AssetId,_ можно скопировать его с URL Office страницы магазина для надстройки. AssetIds всегда начинаются с "WA", за которым следует номер. Например, в предыдущем примере источником значения AssetId WA104099688 является URL-адрес веб-страницы Office Store для надстройки: [https://store.office.com/en-001/app.aspx?assetid=WA104099688](https://store.office.com/en-001/app.aspx?assetid=WA104099688) .
   
 Значения для параметра  _Locale_ и  _параметра ContentMarket_ идентичны и указывают страну или регион, в который вы пытаетесь установить надстройку. Формат en-US, fr-FR. и так далее. 
   
 > [!NOTE]
-> Надстройки, загруженные из Магазина Office, будут автоматически обновляться в течение нескольких дней после последнего обновления, доступного в Магазине Office. 
+> Надстройки, загруженные из Office Store, будут автоматически обновляться в течение нескольких дней после последнего обновления, доступного в Office Store. 
   
 ## <a name="get-details-of-an-add-in"></a>Сведения о надстройки
 
@@ -162,7 +162,7 @@ Set-OrganizationAddIn -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122 -ManifestP
 ```
 
 > [!NOTE]
-> Надстройки, загруженные из Магазина Office, будут автоматически обновляться в течение нескольких дней после последнего обновления, доступного в Магазине Office. 
+> Надстройки, загруженные из Office Store, будут автоматически обновляться в течение нескольких дней после последнего обновления, доступного в Office Store. 
   
 ## <a name="delete-an-add-in"></a>Удаление надстройки
 

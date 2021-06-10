@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 6607d5029e45c77754a431c87eb61cd281e013c1
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: ccff6abcfcd1a2da32a8e1614a2de45afed69aef
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730730"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843002"
 ---
 # <a name="minimum-requirements-for-microsoft-defender-for-endpoint"></a>Минимальные требования к Microsoft Defender для конечной точки
 
@@ -60,7 +60,7 @@ Microsoft Defender для конечной точки требует одно и
 
 Microsoft Defender для конечной точки для серверов требует одного из следующих вариантов лицензирования:
 
-- [Центр безопасности Azure с включенной службой Защитник Azure](https://docs.microsoft.com/azure/security-center/security-center-pricing)
+- [Центр безопасности Azure с включенной службой Защитник Azure](/azure/security-center/security-center-pricing)
 - Microsoft Defender для конечной точки для сервера (по одной на закрытый сервер)
 
 > [!NOTE]
@@ -96,7 +96,7 @@ Microsoft Defender для конечной точки для серверов т
 - Windows 7 sp1 Pro[(требуется ESU для поддержки.)](/troubleshoot/windows-client/windows-7-eos-faq/windows-7-extended-security-updates-faq)
 - Windows 8.1 Корпоративная
 - Windows 8.1 Профессиональная
-- Windows 10 Корпоративная
+- Windows 10 Корпоративная
 - [Windows 10 Корпоративная LTSC 2016 (или более позднее)](/windows/whats-new/ltsc/)
 - Windows 10 для образовательных учреждений
 - Windows 10 Pro
@@ -227,7 +227,7 @@ Microsoft Defender для конечной точки для серверов т
 Если вы работаете с сторонним клиентом противомалярийных программ и используете решения для управления мобильными устройствами или Microsoft Endpoint Manager (текущая ветвь), необходимо убедиться, что антивирусная программа в Microsoft Defender драйвер ELAM включен. Дополнительные сведения см. в антивирусная программа в Microsoft Defender, чтобы политика не [отключалась.](troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy)
 
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 - [Настройка microsoft Defender для развертывания конечных точек](production-deployment.md)
 - [Подключение устройств](onboard-configure.md)

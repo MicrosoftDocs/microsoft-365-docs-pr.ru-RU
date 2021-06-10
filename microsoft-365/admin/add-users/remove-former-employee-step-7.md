@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Выполните следующие действия, чтобы удалить учетную запись пользователя бывшего сотрудника.
-ms.openlocfilehash: e9f87f68650394a81c735346db929bf592e91d18
-ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
+ms.openlocfilehash: 735821c9c4d6edf3d23fa3535ed9fa6b3d294b8c
+ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 06/05/2021
-ms.locfileid: "52779835"
+ms.locfileid: "52782385"
 ---
 # <a name="step-7---delete-a-former-employees-user-account"></a>Шаг 7 . Удаление учетной записи пользователя бывшего сотрудника
 
@@ -84,8 +84,6 @@ ms.locfileid: "52779835"
   
  **Самый быстрый способ для пользователя, присутствующего в локальной среде и в центре обработки данных Exchange.** Завершите сеанс с помощью Центра администрирования Azure Active Directory или Центра администрирования Exchange И внесите это изменение в локальной среде. В противном случае изменение, внесенное в Центре администрирования Azure Active Directory или Центре администрирования Exchange, будет перезаписано средством DirSync.
   
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-content"></a>См. также:
 
-[Восстановление пользователя](restore-user.md)
-
-[Сброс паролей](reset-passwords.md)
+[Восстановление паролей](restore-user.md) пользователя (статья)/ [Сброс паролей](reset-passwords.md) (статья)

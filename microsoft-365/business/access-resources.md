@@ -1,5 +1,5 @@
 ---
-title: Доступ к локальному ресурсу с устройства Azure AD в Microsoft 365 Business
+title: Доступ к локальному ресурсу с устройства Azure AD в Microsoft 365 бизнес
 f1.keywords:
 - NOCSH
 ms.author: efrene
@@ -20,43 +20,43 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
-description: Узнайте, как получить доступ к локальному ресурсу, например к линейке бизнес-приложений, файлам и принтерам с устройства Azure Active Directory, присоединенного к Устройству Windows 10.
-ms.openlocfilehash: 27549d6c3b03413f2f05c69845caad155333ca97
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: Узнайте, как получить доступ к локальному ресурсу, например к линейке бизнес-приложений, файлам и принтерам с Azure Active Directory с Windows 10 устройства.
+ms.openlocfilehash: 72b3c5ae538cad24fc12e25717dedccb2fdc9017
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580321"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843329"
 ---
-# <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business-premium"></a>Доступ к локальному ресурсу с устройства Azure AD в Microsoft 365 Business Premium
+# <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business-premium"></a>Доступ к локальному ресурсу с устройства Azure AD в Microsoft 365 бизнес премиум
 
-Эта статья применима к Microsoft 365 Бизнес Премиум.
+Эта статья применима к Microsoft 365 бизнес премиум.
 
-Любое устройство с Windows 10, к которое присоединилось Azure Active Directory, имеет доступ ко всем облачным ресурсам, таким как приложения Microsoft 365, и может быть защищено Microsoft 365 Business Premium. Вы также можете разрешить доступ к локальному ресурсу, например к приложениям бизнес-сети, файлам и принтерам. Чтобы разрешить доступ, используйте [Azure AD Connect](/azure/active-directory/connect/active-directory-aadconnect) для синхронизации локального Active Directory с Azure Active Directory. 
+Любое Windows 10, которое Azure Active Directory, имеет доступ ко всем облачным ресурсам, например Microsoft 365 приложениям, и может быть защищено Microsoft 365 бизнес премиум. Вы также можете разрешить доступ к локальному ресурсу, например к приложениям бизнес-сети, файлам и принтерам. Чтобы разрешить доступ, используйте [azure AD Подключение](/azure/active-directory/connect/active-directory-aadconnect) для синхронизации локального Active Directory с Azure Active Directory.
 
-Дополнительные дополнительные информации см. [в обзоре Введение в управление устройствами в Azure Active Directory.](/azure/active-directory/device-management-introduction)
+Дополнительные дополнительные информации см. в обзоре Введение в [управление устройствами в Azure Active Directory.](/azure/active-directory/device-management-introduction)
 Действия также суммируются в следующих разделах.
- 
-## <a name="run-azure-ad-connect"></a>Запуск Подключения Azure AD
+
+## <a name="run-azure-ad-connect"></a>Запуск Azure AD Подключение
 
 Выполните следующие действия, чтобы включить присоединенные к вашей организации устройства Azure AD для доступа к локальному ресурсу.
-  
-1. Чтобы синхронизировать пользователей, группы и контакты из локального Active Directory в Azure Active Directory, запустите мастер синхронизации каталогов и Azure AD Connect, как описано в настройках синхронизации каталогов [для Office 365.](../enterprise/set-up-directory-synchronization.md)
-    
-2. После завершения синхронизации каталогов убедитесь, что устройства Windows 10 вашей организации присоединились к Azure AD. Этот шаг делается индивидуально на каждом устройстве Windows 10. Дополнительные сведения см. в материале Настройка устройств Windows для [пользователей Microsoft 365 Business Premium.](set-up-windows-devices.md) 
-    
-3. После того как устройства Windows 10 присоединились к Azure AD, каждый пользователь должен перезагрудить свои устройства и войти с учетными данными Microsoft 365 Бизнес Премиум. Теперь все устройства также имеют доступ к локальному ресурсу.
-    
-Для получения доступа к локальному ресурсу для присоединенных устройств Azure AD не требуется дополнительных действий. Эта функция встроена в Windows 10. 
 
-Если у вас есть планы входа на устройство AADJ, кроме метода пароля, например PIN-код/bio-metric с помощью входа учетных данных WHFB, а затем получить доступ к локальному ресурсу (акции, принтеры.). и т.д.), следуйте https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-hybrid-aadj-sso-base
-  
+1. Чтобы синхронизировать пользователей, групп и контактов из локального Active Directory в Azure Active Directory, запустите мастер синхронизации каталогов и Azure AD Подключение, как описано в настройках синхронизации каталогов для [Office 365](../enterprise/set-up-directory-synchronization.md).
+
+2. После завершения синхронизации каталогов убедитесь, что Windows 10 устройств Azure AD. Этот шаг делается индивидуально на каждом Windows 10 устройстве. Сведения [см. в Windows устройств для Microsoft 365 бизнес премиум пользователей.](set-up-windows-devices.md)
+
+3. После Windows 10 устройств Azure AD каждый пользователь должен перезагрудить свои устройства и войти с Microsoft 365 бизнес премиум учетными данными. Теперь все устройства также имеют доступ к локальному ресурсу.
+
+Для получения доступа к локальному ресурсу для присоединенных устройств Azure AD не требуется дополнительных действий. Эта функциональность встроена в Windows 10.
+
+Если у вас есть планы входа на устройство AADJ, кроме метода пароля, например PIN-код/bio-metric с помощью входа учетных данных WHFB, а затем доступ к локальному ресурсу (акции, принтеры и т.д.), следуйте этой статье [.](/windows/security/identity-protection/hello-for-business/hello-hybrid-aadj-sso-base)
+
 Если организация не готова к развертыванию в описанной выше конфигурации устройств Azure AD, рассмотрите возможность настройки конфигурации устройств [Hybrid Azure AD Joined.](manage-windows-devices.md)
-  
-### <a name="considerations-when-you-join-windows-devices-to-azure-ad"></a>Соображения при вступив устройствах Windows в Azure AD
+
+### <a name="considerations-when-you-join-windows-devices-to-azure-ad"></a>Соображения при вступив Windows устройств в Azure AD
 
 Если устройство Windows, к которое вы присоединились Azure-AD, ранее было соединено с доменом или в группе, рассмотрите следующие ограничения:
-  
+
 - Когда устройство Azure AD присоединяется, оно создает нового пользователя, не ссылаясь на существующий профиль. Профили необходимо перенести вручную. Профиль пользователя содержит такие сведения, как избранное, локальные файлы, параметры браузера и параметры меню Пуск. Оптимальный подход — найти сторонний инструмент для совмещая существующие файлы и параметры с новым профилем.
 
 - Если устройство использует объекты групповой политики (GPO), некоторые [](/windows/configuration/provisioning-packages/how-it-pros-can-use-configuration-service-providers) GPOs могут не иметь сопоставимого поставщика служб конфигурации (CSP) в Intune. Запустите [средство MMAT,](https://www.microsoft.com/download/details.aspx?id=45520) чтобы найти сопоставимые CSP для существующих GPOs.
@@ -67,4 +67,4 @@ ms.locfileid: "51580321"
 
 ### <a name="related-articles"></a>Связанные статьи
 
-[Необходимые условия для подключения Azure AD](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-prerequisites)
+[Необходимые условия для azure AD Подключение](/azure/active-directory/hybrid/how-to-connect-install-prerequisites)

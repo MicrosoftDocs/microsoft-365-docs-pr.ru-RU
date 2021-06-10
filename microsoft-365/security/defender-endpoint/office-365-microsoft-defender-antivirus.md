@@ -31,7 +31,7 @@ ms.locfileid: "52275400"
 **Область применения:**
 - [Microsoft Defender для конечной точки](/microsoft-365/security/defender-endpoint/)
 - Антивирусная программа в Microsoft Defender
-- Microsoft 365
+- Microsoft 365
 
 Возможно, вы уже знаете, что:
 

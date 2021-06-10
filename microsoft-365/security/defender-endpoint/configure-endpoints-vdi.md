@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 04/16/2020
 ms.technology: mde
-ms.openlocfilehash: 3872be343e51c4e28f946192256932b048a23791
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: d09967a18848365702f52f65a7f0624d2b2ae3d6
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933905"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843214"
 ---
 # <a name="onboard-non-persistent-virtual-desktop-infrastructure-vdi-devices"></a>Подключение временных устройств инфраструктуры виртуальных рабочих столов (VDI)
 
@@ -63,17 +63,17 @@ Defender for Endpoint поддерживает непродержку сеанс
 
 ### <a name="for-windows-10-or-windows-server-2019"></a>Для Windows 10 или Windows Server 2019
 
-1.  Откройте пакет конфигурации VDI .zip file *(WindowsDefenderATPOnboardingPackage.zip), загруженный* из мастера бортового обслуживания. Вы также можете получить пакет из [Центра безопасности Защитника Майкрософт:](https://securitycenter.windows.com/)
+1.  Откройте пакет конфигурации VDI .zip *(WindowsDefenderATPOnboardingPackage.zip), который* вы скачали из мастера бортового обслуживания. Вы также можете получить пакет из [Центр безопасности в Microsoft Defender:](https://securitycenter.windows.com/)
 
-    1.  В области навигации выберите **параметры**  >  **onboarding**.
+    1.  В области навигации выберите **Параметры**  >  **onboarding**.
 
     1. Выберите Windows 10 в качестве операционной системы.
 
     1.  В поле **методов развертывания** выберите **скрипты ВДИ для неустанных конечных точек.**
 
-    1. Нажмите **кнопку Скачать пакет** и сохранить файл .zip.
+    1. Нажмите **кнопку Загрузка** пакета и сохраните .zip файл.
 
-2. Скопируйте файлы из папки WindowsDefenderATPOnboardingPackage, извлеченной из файла .zip, в изображение `golden/master` под `C:\WINDOWS\System32\GroupPolicy\Machine\Scripts\Startup` путем. 
+2. Скопируйте файлы из папки WindowsDefenderATPOnboardingPackage, извлеченной из файла .zip в образ под `golden/master` `C:\WINDOWS\System32\GroupPolicy\Machine\Scripts\Startup` путем. 
 
     1. Если вы не реализуете одну запись для каждого устройства, скопируйте WindowsDefenderATPOnboardingScript.cmd.
 
@@ -82,7 +82,7 @@ Defender for Endpoint поддерживает непродержку сеанс
     > [!NOTE]
     > Если папку не видно, она может `C:\WINDOWS\System32\GroupPolicy\Machine\Scripts\Startup` быть скрыта. Вам потребуется выбрать параметр Показать скрытые файлы **и папки** из File Explorer.
 
-3. Откройте окно редактора локальной групповой политики и перейдите **к** запуску сценариев настройки  >    >    >  Windows.
+3. Откройте окно редактора локальной групповой политики и перейдите к запуску  >  **Windows Параметры**  >    >  **конфигурации компьютера.**
 
    > [!NOTE]
    > Политика группы домена также может использоваться для использования на бортовых устройствах СДВ.
@@ -91,11 +91,11 @@ Defender for Endpoint поддерживает непродержку сеанс
 
    - Для одной записи для каждого устройства:
    
-     Выберите **вкладку PowerShell Scripts,** а затем нажмите **кнопку Добавить** (Обозреватель Windows откроется непосредственно в пути, на котором вы скопировали сценарий на борту ранее). Перейдите к сценарию onboarding `Onboard-NonPersistentMachine.ps1` PowerShell. Нет необходимости указывать другой файл, так как он будет активируется автоматически.
+     Выберите **вкладку PowerShell Scripts,** а затем нажмите кнопку **Добавить** (Windows Explorer откроется непосредственно в пути, на котором вы скопировали сценарий для вкладки ранее). Перейдите к сценарию onboarding `Onboard-NonPersistentMachine.ps1` PowerShell. Нет необходимости указывать другой файл, так как он будет активируется автоматически.
    
    - Для нескольких записей для каждого устройства:
    
-     Выберите **вкладку Scripts,** а затем нажмите **кнопку Добавить** (Обозреватель Windows откроется непосредственно в пути, где вы скопировали сценарий для вкладки ранее). Перейдите к сценарию висят `WindowsDefenderATPOnboardingScript.cmd` баш.
+     Выберите **вкладку Scripts,** а затем нажмите кнопку **Добавить** (Windows Explorer откроется непосредственно в пути, где вы скопировали сценарий на борту ранее). Перейдите к сценарию висят `WindowsDefenderATPOnboardingScript.cmd` баш.
 
 5. Проверьте свое решение:
 
@@ -111,11 +111,11 @@ Defender for Endpoint поддерживает непродержку сеанс
    
       - Для одной записи для каждого устройства: 
     
-        Проверьте только одну запись в Центре безопасности Защитника Майкрософт.
+        Проверьте только одну запись в Центр безопасности в Microsoft Defender.
 
       - Для нескольких записей для каждого устройства: 
        
-        Проверьте несколько записей в Центре безопасности Защитника Майкрософт.
+        Проверьте несколько записей в Центр безопасности в Microsoft Defender.
 
 6. Щелкните **список Устройств** на области навигации.
 
@@ -155,9 +155,9 @@ DISM /Unmount-Image /MountDir:"C:\Temp\OfflineServicing" /commit
 ```
 
 Дополнительные сведения о командах DISM и автономном обслуживании см. в статьях ниже:
-- [Изменение образа Windows с помощью DISM](https://docs.microsoft.com/windows-hardware/manufacture/desktop/mount-and-modify-a-windows-image-using-dism)
-- [Параметры управления изображениями DISM Command-Line](https://docs.microsoft.com/windows-hardware/manufacture/desktop/dism-image-management-command-line-options-s14)
-- [Уменьшение размера магазина компонентов в автономном изображении Windows](https://docs.microsoft.com/windows-hardware/manufacture/desktop/reduce-the-size-of-the-component-store-in-an-offline-windows-image)
+- [Изменение Windows с помощью DISM](/windows-hardware/manufacture/desktop/mount-and-modify-a-windows-image-using-dism)
+- [Параметры управления изображениями DISM Command-Line](/windows-hardware/manufacture/desktop/dism-image-management-command-line-options-s14)
+- [Уменьшение размера магазина компонентов в автономном Windows изображении](/windows-hardware/manufacture/desktop/reduce-the-size-of-the-component-store-in-an-offline-windows-image)
 
 Если автономное обслуживание не является жизнеспособным вариантом для среды нестойких VDI, необходимо предпринять следующие действия для обеспечения согласованности и безопасности датчиков:
 
@@ -183,9 +183,9 @@ DISM /Unmount-Image /MountDir:"C:\Temp\OfflineServicing" /commit
 
 5. Повторно запечатыть золотое/мастер-изображение, как обычно.
 
-## <a name="related-topics"></a>Похожие темы
-- [На борту устройств Windows 10 с использованием групповой политики](configure-endpoints-gp.md)
-- [На борту устройств Windows 10 с помощью Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md)
+## <a name="related-topics"></a>Статьи по теме
+- [Onboard Windows 10 с помощью групповой политики](configure-endpoints-gp.md)
+- [На борту Windows 10 устройства с Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md)
 - [Подключение устройств Windows 10 с помощью средств управления мобильными устройствами](configure-endpoints-mdm.md)
 - [Подключение устройств Windows 10 с помощью локального сценария](configure-endpoints-script.md)
 - [Устранение неполадок в Microsoft Defender для проблем с бортовой точкой конечной точки](troubleshoot-onboarding.md)

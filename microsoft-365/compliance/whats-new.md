@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Будь то добавление новых решений в центр соответствия требованиям, обновление существующих функций на основе отзывов или развертывание свежей и обновленной документации, Microsoft 365 поможет вам оставаться на вершине постоянно меняющегося ландшафта соответствия требованиям. Узнайте, чем мы были в этом месяце.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f249108dba279e255efd57ecd56159d3c71dcb4b
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.openlocfilehash: d312b3ac3c2cb43e05a09936f1e5c07b32c22ef1
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706622"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843250"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Новые возможности центра соответствия требованиям Microsoft 365
 
@@ -75,7 +75,7 @@ Outlook выпусков и обновлений:
 
 ### <a name="advanced-ediscovery"></a>Advanced eDiscovery
 
-- **Advanced eDiscovery коллекции** теперь поддерживают новый инструмент и рабочий [процесс коллекций.](/microsoft-365/compliance/collections-overview) Другие новые темы [включают создание черновика коллекции,](https://docs.microsoft.com/microsoft-365/compliance/create-draft-collection)фиксацию [черновика](/microsoft-365/compliance/commit-draft-collection)коллекции в набор обзоров, а также статистику коллекций [и отчеты](/microsoft-365/compliance/collection-statistics-reports).
+- **Advanced eDiscovery коллекции** теперь поддерживают новый инструмент и рабочий [процесс коллекций.](/microsoft-365/compliance/collections-overview) Другие новые темы [включают создание черновика коллекции,](/microsoft-365/compliance/create-draft-collection)фиксацию [черновика](/microsoft-365/compliance/commit-draft-collection)коллекции в набор обзоров, а также статистику коллекций [и отчеты](/microsoft-365/compliance/collection-statistics-reports).
 - **Экспорт документов в** обзоре, за набором для [служба хранилища Azure учетной записи.](/microsoft-365/compliance/download-export-jobs)
 - **Модуль прогностического кодирования для Advanced eDiscovery**. Сначала взгляните на [новую](/microsoft-365/compliance/predictive-coding-overview) функциональность прогностического кодирования, которая заменяет ушедшего модуля релевантности.
 
@@ -169,22 +169,22 @@ Outlook выпусков и обновлений:
 
 Содержимое было добавлено или обновлено в следующих темах:
 
-- [Узнайте о DLP конечных точек](https://docs.microsoft.com/microsoft-365/compliance/endpoint-dlp-learn-about)
-- [Отправка почтовых уведомлений и отображение подсказок для политик защиты от потери данных](https://docs.microsoft.com/microsoft-365/compliance/use-notifications-and-policy-tips)
-- [Сведения о локальном сканере Microsoft 365 защиты от потери данных](https://docs.microsoft.com/microsoft-365/compliance/dlp-on-premises-scanner-learn)
-- [Начало работы с локального сканера предотвращения потери данных](https://docs.microsoft.com/microsoft-365/compliance/dlp-on-premises-scanner-get-started)
-- [Создание политики защиты от потери данных для защиты документов с помощью FCI или других свойств](https://docs.microsoft.com/microsoft-365/compliance/protect-documents-that-have-fci-or-other-properties)
-- [Использование Защиты от потери данных в конечной точке](https://docs.microsoft.com/microsoft-365/compliance/endpoint-dlp-using)
-- [Начало работы с функцией защиты от потери данных в конечной точке](https://docs.microsoft.com/microsoft-365/compliance/endpoint-dlp-getting-started)
+- [Узнайте о DLP конечных точек](/microsoft-365/compliance/endpoint-dlp-learn-about)
+- [Отправка почтовых уведомлений и отображение подсказок для политик защиты от потери данных](/microsoft-365/compliance/use-notifications-and-policy-tips)
+- [Сведения о локальном сканере Microsoft 365 защиты от потери данных](/microsoft-365/compliance/dlp-on-premises-scanner-learn)
+- [Начало работы с локального сканера предотвращения потери данных](/microsoft-365/compliance/dlp-on-premises-scanner-get-started)
+- [Создание политики защиты от потери данных для защиты документов с помощью FCI или других свойств](/microsoft-365/compliance/protect-documents-that-have-fci-or-other-properties)
+- [Использование Защиты от потери данных в конечной точке](/microsoft-365/compliance/endpoint-dlp-using)
+- [Начало работы с функцией защиты от потери данных в конечной точке](/microsoft-365/compliance/endpoint-dlp-getting-started)
 
 ### <a name="ediscovery"></a>Обнаружение электронных данных
 
 Содержимое было добавлено или обновлено в следующих темах:
 
-- [Расшифровка в Microsoft 365 средствах eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/ediscovery-decryption)
-- [Запросы ключевых слов и условия поиска](https://docs.microsoft.com/microsoft-365/compliance/keyword-queries-and-search-conditions#limitations-for-searching-sensitive-data-types)
-- [Выход на пенсию модуля Релевантность в Advanced eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/relevance-module-retirement)
-- [Использование скрипта для добавления пользователей в удержание в случае core eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/use-a-script-to-add-users-to-a-hold-in-ediscovery)
+- [Расшифровка в Microsoft 365 средствах eDiscovery](/microsoft-365/compliance/ediscovery-decryption)
+- [Запросы ключевых слов и условия поиска](/microsoft-365/compliance/keyword-queries-and-search-conditions#limitations-for-searching-sensitive-data-types)
+- [Выход на пенсию модуля Релевантность в Advanced eDiscovery](/microsoft-365/compliance/relevance-module-retirement)
+- [Использование скрипта для добавления пользователей в удержание в случае core eDiscovery](/microsoft-365/compliance/use-a-script-to-add-users-to-a-hold-in-ediscovery)
 
 ### <a name="encryption"></a>Шифрование
 
@@ -192,30 +192,30 @@ Outlook выпусков и обновлений:
 
 #### <a name="azure-rights-management-service-rms"></a>Служба управления правами Azure (RMS)
 
-- [Возможности шифрования под управлением клиента](https://docs.microsoft.com/microsoft-365/compliance/office-365-customer-managed-encryption-features)
-- [Exchange Online шифрование почты с помощью AD RMS](https://docs.microsoft.com/microsoft-365/compliance/information-rights-management-in-exchange-online). Поддержка этой службы была обесценяна. Вы больше не можете использовать AD RMS в Exchange гибридной среде. Вместо этого мигрировать в Azure RMS.
+- [Возможности шифрования под управлением клиента](/microsoft-365/compliance/office-365-customer-managed-encryption-features)
+- [Exchange Online шифрование почты с помощью AD RMS](/microsoft-365/compliance/information-rights-management-in-exchange-online). Поддержка этой службы была обесценяна. Вы больше не можете использовать AD RMS в Exchange гибридной среде. Вместо этого мигрировать в Azure RMS.
 
 #### <a name="customer-key"></a>Ключ клиента
 
-- [Ключ клиента для Microsoft 365 на уровне клиента](https://docs.microsoft.com/microsoft-365/compliance/customer-key-tenant-level)
-- [Обзор безопасности и соответствия требованиям](https://docs.microsoft.com/microsoftteams/security-compliance-overview)
+- [Ключ клиента для Microsoft 365 на уровне клиента](/microsoft-365/compliance/customer-key-tenant-level)
+- [Обзор безопасности и соответствия требованиям](/microsoftteams/security-compliance-overview)
 
 #### <a name="information-rights-management-irm"></a>(IRM) Управления Правами На Доступ К Данным
 
-- [Применение управления правами на информацию (IRM) в списке или библиотеке.](https://docs.microsoft.com/microsoft-365/compliance/configure-irm-to-use-an-on-premises-ad-rms-server) Эти национальные облака не поддерживают этот параметр:
+- [Применение управления правами на информацию (IRM) в списке или библиотеке.](/microsoft-365/compliance/configure-irm-to-use-an-on-premises-ad-rms-server) Эти национальные облака не поддерживают этот параметр:
     - Microsoft Cloud for US Government
     - Microsoft Cloud для Германии
     - Azure и Microsoft 365 21Vianet в Китае)
-- Настройка IRM для использования локального [сервера AD RMS.](https://docs.microsoft.com/microsoft-365/compliance/configure-irm-to-use-an-on-premises-ad-rms-server) Поддержка этой службы в Exchange гибридной среде была обесценилась.
+- Настройка IRM для использования локального [сервера AD RMS.](/microsoft-365/compliance/configure-irm-to-use-an-on-premises-ad-rms-server) Поддержка этой службы в Exchange гибридной среде была обесценилась.
 
 ### <a name="sensitive-information-types"></a>Типы конфиденциальных сведений
 
 Содержимое было добавлено или обновлено в следующих темах:
 
-- [Сведения о типах конфиденциальной информации](https://docs.microsoft.com/microsoft-365/compliance/sensitive-information-type-learn-about)
-- [Создание пользовательского типа конфиденциальной информации с помощью PowerShell](https://docs.microsoft.com/microsoft-365/compliance/create-a-custom-sensitive-information-type-in-scc-powershell)
-- [Создание настраиваемой конфиденциальной информации с помощью классификации точного совпадения данных](https://docs.microsoft.com/microsoft-365/compliance/create-custom-sensitive-information-types-with-exact-data-match-based-classification)
-- [Определения объектов типов конфиденциальной информации](https://docs.microsoft.com/microsoft-365/compliance/sensitive-information-type-entity-definitions)
+- [Сведения о типах конфиденциальной информации](/microsoft-365/compliance/sensitive-information-type-learn-about)
+- [Создание пользовательского типа конфиденциальной информации с помощью PowerShell](/microsoft-365/compliance/create-a-custom-sensitive-information-type-in-scc-powershell)
+- [Создание настраиваемой конфиденциальной информации с помощью классификации точного совпадения данных](/microsoft-365/compliance/create-custom-sensitive-information-types-with-exact-data-match-based-classification)
+- [Определения объектов типов конфиденциальной информации](/microsoft-365/compliance/sensitive-information-type-entity-definitions)
 
 
 ### <a name="sensitivity-labels"></a>Метки конфиденциальности

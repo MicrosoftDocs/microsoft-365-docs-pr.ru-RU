@@ -1,7 +1,7 @@
 ---
-title: Передовые методы запроса на охоту в Microsoft 365 Defender
+title: Передовые методы запросов на охоту в Microsoft 365 Defender
 description: Узнайте, как создавать запросы на быструю, эффективную и без ошибок охоту на угрозы с помощью расширенных методов охоты
-keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, Microsoft 365, m365, search, query, telemetry, schema, kusto, avoid timeout, command lines, process id, optimize, best practice, parse, join, summarize
+keywords: продвинутая охота, охота на угрозы, охота на киберугрозы, Microsoft 365 Defender, Microsoft 365, m365, поиск, запрос, телеметрия, схема, кусто, избегайте времени, командных строк, командных строк, id процесса, оптимизации, оптимальной практики, разметки, присоединиться, суммировать
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -61,7 +61,7 @@ ms.locfileid: "51952696"
 - **Размыть, не** извлекать -По [](/azure/data-explorer/kusto/query/parseoperator) возможности, используйте оператора размыва или функции размыва, [как parse_json()](/azure/data-explorer/kusto/query/parsejsonfunction). Избегайте `matches regex` оператора строки или [функции extract()](/azure/data-explorer/kusto/query/extractfunction)( оба из которых используют регулярное выражение. Зарезервировать использование регулярного выражения для более сложных сценариев. [Узнайте больше о функциях размыкания](#parse-strings)
 - **Фильтрация таблиц не выражений**— не фильтруйте вычисляемую колонку, если можно фильтровать столбец таблицы.
 - **Нет трех характерных терминов**— избегайте сравнения или фильтрации с помощью терминов с тремя символами или меньше. Эти термины не индексироваться, и их соответствие потребует дополнительных ресурсов.
-- **Выборочно** проект — упростите понимание результатов, проецив только нужные столбцы. Проецация определенных столбцов перед запуском [присоединяющихся](/azure/data-explorer/kusto/query/joinoperator) или аналогичных операций также помогает повысить производительность.
+- **Project выборочно**— сделайте результаты более понятными, проецив только нужные столбцы. Проецация определенных столбцов перед запуском [присоединяющихся](/azure/data-explorer/kusto/query/joinoperator) или аналогичных операций также помогает повысить производительность.
 
 ## <a name="optimize-the-join-operator"></a>Оптимизация `join` оператора
 Оператор [объединения объединяет](/azure/data-explorer/kusto/query/joinoperator) строки из двух таблиц, соединяя значения в указанных столбцах. Используйте эти советы для оптимизации запросов, которые используют этот оператор.
@@ -265,9 +265,9 @@ SHA256,ThreatTypes,DetectionMethods
 Чтобы узнать обо всех поддерживаемых функциях размыва, [ознакомьтесь с функциями строк Kusto.](/azure/data-explorer/kusto/query/scalarfunctions#string-functions) 
 
 >[!NOTE]
->Некоторые таблицы в этой статье могут быть недоступны в Microsoft Defender для конечной точки. [Включи Microsoft 365 Defender для](m365d-enable.md) охоты на угрозы с помощью дополнительных источников данных. Вы можете переместить расширенные процессы охоты из Microsoft Defender для конечной точки в Microsoft 365 Defender, следуя шагам в миграции расширенных запросов охоты из [Microsoft Defender для конечной](advanced-hunting-migrate-from-mde.md)точки .
+>Некоторые таблицы в этой статье могут быть недоступны в Microsoft Defender для конечной точки. [Включи Microsoft 365 Defender,](m365d-enable.md) чтобы искать угрозы с помощью дополнительных источников данных. Вы можете переместить расширенные процессы охоты из Microsoft Defender для endpoint в Microsoft 365 Defender, следуя шагам в миграции расширенных запросов охоты из [Microsoft Defender для конечной точки](advanced-hunting-migrate-from-mde.md).
 
-## <a name="related-topics"></a>Похожие темы
+## <a name="related-topics"></a>Статьи по теме
 - [Документация по языку запросов Kusto](/azure/data-explorer/kusto/query/)
 - [Квоты и параметры использования](advanced-hunting-limits.md)
 - [Обработка ошибок, совершенных в области охоты](advanced-hunting-errors.md)

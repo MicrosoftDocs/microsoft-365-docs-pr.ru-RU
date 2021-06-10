@@ -1,5 +1,5 @@
 ---
-title: Просмотр учетных записей пользователей Microsoft 365 с помощью PowerShell
+title: Просмотр Microsoft 365 учетных записей пользователей с помощью PowerShell
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -19,7 +19,7 @@ ms.custom:
 - Ent_Office_Other
 - seo-marvel-apr2020
 ms.assetid: bb12f49d-a85d-4f3b-ada2-5c4e33977b10
-description: Узнайте, как просматривать, перечислять или отображать учетные записи пользователей Microsoft 365 различными способами с помощью PowerShell.
+description: Узнайте, как просматривать, перечислять или отображать учетные записи Microsoft 365 различными способами с помощью PowerShell.
 ms.openlocfilehash: de91195afeb8480bf231d9536e4b3a94502a6da1
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -27,15 +27,15 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50924652"
 ---
-# <a name="view-microsoft-365-user-accounts-with-powershell"></a>Просмотр учетных записей пользователей Microsoft 365 с помощью PowerShell
+# <a name="view-microsoft-365-user-accounts-with-powershell"></a>Просмотр Microsoft 365 учетных записей пользователей с помощью PowerShell
 
-*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
+*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
 
-Вы можете использовать центр администрирования Microsoft 365 для просмотра учетных записей клиента Microsoft 365. PowerShell для Microsoft 365 включает это, но также предоставляет дополнительные функции.
+Вы можете использовать центр администрирования Microsoft 365 для просмотра учетных записей для Microsoft 365 клиента. PowerShell для Microsoft 365 это позволяет, но также предоставляет дополнительные функции.
   
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Использование модуля PowerShell Azure Active Directory для Graph
 
-[Во-первых, подключите клиента Microsoft 365.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
+[Во-первых, подключите Microsoft 365 клиента.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
   
 ### <a name="view-all-accounts"></a>Просмотр всех учетных записей
 
@@ -76,7 +76,7 @@ Get-AzureADUser -ObjectID BelindaN@litwareinc.onmicosoft.com
 
 По умолчанию в **кодлете Get-AzureADUser** отображаются только свойства учетных записей *ObjectID,* *DisplayName* и *UserPrincipalName.*
 
-Чтобы быть более выборочными в отображаемом свойстве, используйте комлет **Select** в сочетании с комдлетом **Get-AzureADUser.** Чтобы объединить два командлета, используйте символ "pipe" ("|"), который сообщает Azure Active Directory PowerShell для Graph, чтобы получить результаты одной команды и отправить ее в следующую команду. Вот пример команды, которая отображает *DisplayName,* *Department* и *UseLocation* для каждой учетной записи пользователя:
+Чтобы быть более выборочными в отображаемом свойстве, используйте комлет **Select** в сочетании с комдлетом **Get-AzureADUser.** Чтобы объединить два командлета, используйте символ "pipe" ("|"), который сообщает Azure Active Directory PowerShell для Graph, чтобы взять результаты одной команды и отправить ее в следующую команду. Вот пример команды, которая отображает *DisplayName,* *Department* и *UseLocation* для каждой учетной записи пользователя:
   
 ```powershell
 Get-AzureADUser | Select DisplayName,Department,UsageLocation
@@ -106,7 +106,7 @@ Get-AzureADUser -ObjectID <sign-in name of the user account> | Select DisplayNam
 
 - Windows Server Active Directory (AD), это учетные записи, синхронизируются с локальной AD в облако.
 
-- Учетные записи Azure Active Directory (Azure AD), созданные непосредственно в облаке.
+- Azure Active Directory (Azure AD) AD-учетные записи, созданные непосредственно в облаке.
 
 
 Следующая команда предписывает PowerShell получить всех пользователей с атрибутом *DirSyncEnabled* для *True*. Его можно использовать для поиска учетных записей, синхронизируются с локальной AD.
@@ -123,13 +123,13 @@ Get-AzureADUser | Where {$_.DirSyncEnabled -ne $false}
 
 ### <a name="view-accounts-based-on-a-common-property"></a>Просмотр учетных записей на основе общего свойства
 
-Чтобы быть более выборочным в списке отображаемой учетной записи, вы можете использовать комлет **Where** в сочетании с комдлетом **Get-AzureADUser.** Чтобы объединить два командлета, используйте символ "pipe" ("|"), который сообщает Azure Active Directory PowerShell для Graph, чтобы получить результаты одной команды и отправить ее в следующую команду. Вот пример команды, которая отображает только те учетные записи пользователей, которые имеют неустановленное расположение использования:
+Чтобы быть более выборочным в списке отображаемой учетной записи, вы можете использовать комлет **Where** в сочетании с комдлетом **Get-AzureADUser.** Чтобы объединить два командлета, используйте символ "pipe" ("|"), который сообщает Azure Active Directory PowerShell для Graph, чтобы взять результаты одной команды и отправить ее в следующую команду. Вот пример команды, которая отображает только те учетные записи пользователей, которые имеют неустановленное расположение использования:
   
 ```powershell
 Get-AzureADUser | Where {$_.UsageLocation -eq $Null}
 ```
 
-Эта команда предписывает Azure Active Directory PowerShell для Graph:
+Эта команда Azure Active Directory PowerShell для Graph:
   
 1. Получите всю информацию о учетных записях пользователей **(Get-AzureADUser)** и отправьте ее в следующую команду ( **|** ).
     
@@ -153,7 +153,7 @@ Get-AzureADUser | Where {$_.City -eq "London"}
 
 ## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a>Использование модуля Microsoft Azure Active Directory для Windows PowerShell
 
-[Во-первых, подключите клиента Microsoft 365.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
+[Во-первых, подключите Microsoft 365 клиента.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
 
 ### <a name="view-all-accounts"></a>Просмотр всех учетных записей
 
@@ -259,7 +259,7 @@ Get-MsolUser -UserPrincipalName <UPN of user account> | Select DisplayName,Block
     
 - isLicensed
     
-Если вам нужны дополнительные свойства, такие как отдел, в котором работает пользователь, и страна/регион, где они используют службы Microsoft 365, вы можете запустить **Get-MsolUser** в сочетании с cmdlet **Select,** чтобы указать список свойств учетных записей пользователей. Пример:
+Если вам нужны дополнительные свойства, такие как отдел, в котором работает пользователь, и страна/регион, в котором они используют Microsoft 365 службы, можно запустить **Get-MsolUser** в сочетании с помощью cmdlet **Select,** чтобы указать список свойств учетной записи пользователя. Пример:
   
 ```powershell
 Get-MsolUser | Select DisplayName, Department, UsageLocation
@@ -313,9 +313,9 @@ Brian Johnson
 Scott Wallace            Operations
 ```
 
-Если для создания и управления пользователями Microsoft 365 используется синхронизация каталогов, можно отобразить локализованную учетную запись, с которой был проецируемый пользователь Microsoft 365. В следующем примере предполагается, что:
+Если используется синхронизация каталогов для создания и управления Microsoft 365 пользователями, можно отобразить локализованную учетную запись, из которой Microsoft 365 был проецируемый пользователь. В следующем примере предполагается, что:
 
-- Azure AD Connect настроен для использования якоря источника objectGUID по умолчанию. (Дополнительные сведения о настройке источника якоря см. в [странице Azure AD Connect: Design concepts).](/azure/active-directory/hybrid/plan-connect-design-concepts)
+- Azure AD Подключение настраивается для использования источника по умолчанию якоря ObjectGUID. Дополнительные сведения о настройке якоря исходных источников см. в Подключение [Azure AD: Design concepts).](/azure/active-directory/hybrid/plan-connect-design-concepts)
 - Установлен модуль служб домена Active Directory для PowerShell (см. [инструменты RSAT).](https://www.microsoft.com/en-gb/download/details.aspx?id=45520)
 
 ```powershell

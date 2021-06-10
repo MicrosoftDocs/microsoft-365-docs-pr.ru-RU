@@ -1,7 +1,7 @@
 ---
-title: Обработка ошибок в продвинутой охоте для Защитника Microsoft 365
+title: Обработка ошибок в продвинутой охоте Microsoft 365 Defender
 description: Понимание ошибок, отображаемой при использовании расширенных методов охоты
-keywords: продвинутая охота, охота на угрозы, поиск киберугроз, Microsoft 365 Defender, Microsoft 365, m365, поиск, запрос, телеметрия, схема, кусто, времяпрепровода, ресурсы, ошибки, неизвестная ошибка, ограничения, квота, параметр, распределение
+keywords: продвинутая охота, охота на угрозы, охота на киберугрозы, Microsoft 365 Defender, Microsoft 365, m365, поиск, запрос, телеметрия, схема, кусто, времяпрепровода, ресурсы, ошибки, неизвестная ошибка, ограничения, квота, параметр, распределение
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -51,7 +51,7 @@ ms.locfileid: "51952684"
 
 
 
-## <a name="related-topics"></a>Похожие темы
+## <a name="related-topics"></a>Статьи по теме
 - [Передовые методы охоты](advanced-hunting-best-practices.md)
 - [Квоты и параметры использования](advanced-hunting-limits.md)
 - [Сведения о схеме](advanced-hunting-schema-tables.md)

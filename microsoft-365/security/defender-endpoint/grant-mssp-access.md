@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 320355f838db5dbb1540350e95e4cc0645acd805
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 311903cdd1409f4ab997641cc842ff199ce2500d
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932755"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843110"
 ---
 # <a name="grant-managed-security-service-provider-mssp-access-preview"></a>Предоставление доступа к поставщику управляемых служб безопасности (MSSP) (предварительный просмотр)
 
@@ -41,9 +41,9 @@ ms.locfileid: "51932755"
 
 1. Включить [управление доступом на основе ролей](rbac.md) в Defender для конечной точки и подключиться к группам Active Directory (AD).
 
-2. Настройка [пакетов доступа к управлению для](https://docs.microsoft.com/azure/active-directory/governance/identity-governance-overview) запроса доступа и подготовка.
+2. Настройка [пакетов доступа к управлению для](/azure/active-directory/governance/identity-governance-overview) запроса доступа и подготовка.
 
-3. Управление запросами и аудитами доступа [в Microsoft Myaccess.](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-request-approve)
+3. Управление запросами и аудитами доступа [в Microsoft Myaccess.](/azure/active-directory/governance/entitlement-management-request-approve)
 
 ## <a name="enable-role-based-access-controls-in-microsoft-defender-for-endpoint"></a>Включить элементы управления доступом на основе ролей в Microsoft Defender для конечной точки
 
@@ -58,7 +58,7 @@ ms.locfileid: "51932755"
 
 2. Создание ролей Defender для конечной точки для соответствующих уровней доступа в защитнике клиента для конечной точки.
 
-    Чтобы включить RBAC в центре безопасности microsoft Defender клиента, вы сможете получить доступ к > разрешениям **>** ролей и "Включить роли" из учетной записи пользователя с правами глобального администратора или администратора безопасности.
+    Чтобы включить RBAC в клиентской Центр безопасности в Microsoft Defender, Параметры > разрешений **> ролей** и "Включить роли" из учетной записи пользователя с правами глобального администратора или администратора безопасности.
 
     ![Изображение доступа MSSP](images/mssp-access.png)
 
@@ -92,7 +92,7 @@ ms.locfileid: "51932755"
 
     ![Изображение нового каталога](images/goverance-catalog.png)
 
-    Дополнительные сведения см. [в книге Создание каталога ресурсов.](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-catalog-create)
+    Дополнительные сведения см. [в книге Создание каталога ресурсов.](/azure/active-directory/governance/entitlement-management-catalog-create)
 
 
 3. **Создание пакетов доступа для ресурсов MSSP Customer AAD: Управление удостоверениями**
@@ -109,7 +109,7 @@ ms.locfileid: "51932755"
     > [!div class="mx-imgBorder"]
     > ![Изображение нового пакета доступа](images/new-access-package.png)
 
-    Дополнительные сведения см. в [дополнительных сведениях о создании нового пакета доступа.](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-access-package-create)
+    Дополнительные сведения см. в [дополнительных сведениях о создании нового пакета доступа.](/azure/active-directory/governance/entitlement-management-access-package-create)
 
 
 4. **Предоставление ссылки запроса на доступ к ресурсам MSSP из AAD клиента: управление удостоверением**
@@ -132,9 +132,9 @@ ms.locfileid: "51932755"
     Пример.   
 2. Утверждение или отказ в запросах в разделе **Утверждения** пользовательского интерфейса.
 
-    На этом этапе был предусмотрен доступ аналитика, и каждый аналитик должен иметь доступ к Центру безопасности Microsoft Defender клиента: `https://securitycenter.Microsoft.com/?tid=<CustomerTenantId>`
+    На этом этапе был предусмотрен доступ аналитика, и каждый аналитик должен иметь доступ к Центр безопасности в Microsoft Defender:`https://securitycenter.Microsoft.com/?tid=<CustomerTenantId>`
 
-## <a name="related-topics"></a>Похожие темы
+## <a name="related-topics"></a>Статьи по теме
 - [Получение доступа к порталу клиентов MSSP](access-mssp-portal.md)
 - [Настройка уведомлений оповещений](configure-mssp-notifications.md)
 - [Получение оповещений от владельца клиента](fetch-alerts-mssp.md)

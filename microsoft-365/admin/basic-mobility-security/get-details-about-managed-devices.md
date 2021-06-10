@@ -41,7 +41,7 @@ ms.locfileid: "52782445"
 >[!NOTE]
 >Команды и скрипты в этой статье также возвращают сведения о любых устройствах, управляемых [Microsoft Intune](https://www.microsoft.com/cloud-platform/microsoft-intune).
 
-## <a name="before-you-begin"></a>Подготовка
+## <a name="before-you-begin"></a>Прежде чем начать
 
 Для запуска команд и сценариев, описанных в этой статье, необходимо настроить несколько вещей.
 

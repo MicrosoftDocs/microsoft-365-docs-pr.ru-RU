@@ -16,12 +16,12 @@ ms.topic: conceptual
 ms.author: macapara
 ms.date: 09/07/2018
 ms.technology: mde
-ms.openlocfilehash: 82841ccdb2a6ad09f43d0bf8d12cb54fe44d6dfe
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: b3babf858ac19e70119a2dc6a58b25359f1b05c1
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51186909"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52842990"
 ---
 # <a name="hardware-based-isolation-in-windows-10"></a>Аппаратная изоляция в Windows 10
 
@@ -38,6 +38,6 @@ ms.locfileid: "51186909"
 
 | Возможность | Описание |
 |------------|-------------|
-| [Application Guard в Защитнике Windows](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-application-guard/md-app-guard-overview.md) | Application Guard защищает устройство от расширенных атак, сохраняя производительность. С помощью уникального аппаратного подхода к изоляции цель состоит в том, чтобы изолировать ненадеженные веб-сайты и документы PDF в легком контейнере, отделенном от операционной системы с помощью родного гипервизора Windows. Если ненастоячивый сайт или pdf-документ окажется вредоносным, он по-прежнему остается в защищенном контейнере Application Guard, сохраняя защиту настольного компьютера и злоумышленника от корпоративных данных. |
-| [Защитник Windows System Guard](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-system-guard/system-guard-how-hardware-based-root-of-trust-helps-protect-windows.md) | System Guard защищает и поддерживает целостность системы при запуске и после ее запуска, а также проверяет целостность системы с помощью проверки.  |
+| [Application Guard в Защитнике Windows](/windows/security/threat-protection/microsoft-defender-application-guard/md-app-guard-overview.md) | Application Guard защищает устройство от расширенных атак, сохраняя производительность. С помощью уникального аппаратного подхода к изоляции цель состоит в том, чтобы изолировать ненадеженные веб-сайты и документы PDF в легком контейнере, отделенном от операционной системы через родной Windows Hypervisor. Если ненастоячивый сайт или pdf-документ окажется вредоносным, он по-прежнему остается в защищенном контейнере Application Guard, сохраняя защиту настольного компьютера и злоумышленника от корпоративных данных. |
+| [Защитник Windows System Guard](/windows/security/threat-protection/windows-defender-system-guard/system-guard-how-hardware-based-root-of-trust-helps-protect-windows.md) | System Guard защищает и поддерживает целостность системы при запуске и после ее запуска, а также проверяет целостность системы с помощью проверки.  |
 

@@ -32,9 +32,9 @@ ms.locfileid: "52275388"
 
 - [Microsoft Defender для конечной точки](/microsoft-365/security/defender-endpoint/)
 
-Если антивирусная программа в Microsoft Defender настроена для обнаружения и устранения угроз на вашем устройстве, антивирусная программа в Microsoft Defender карантин подозрительных файлов. Если вы уверены, что на карантин файл не представляет угрозы, его можно восстановить.
+Если антивирус Microsoft Defender настроен для обнаружения и устранения угроз на вашем устройстве, антивирусНая программа Microsoft Defender карантином засекает подозрительные файлы. Если вы уверены, что на карантин файл не представляет угрозы, его можно восстановить.
 
-1. Откройте **Безопасность Windows**.
+1. Откройте **безопасность Windows.**
 2. Выберите **защиту & вирусов и** нажмите кнопку История **защиты.**
 3. В списке всех последних элементов фильтруем **пункты карантина.**
 4. Выберите элемент, который необходимо сохранить, и примите действие, например восстановление.
@@ -42,10 +42,10 @@ ms.locfileid: "52275388"
 > [!TIP]
 > Восстановление файла из карантина также можно сделать с помощью командной подсказки. См. [восстановление файла из карантина.](/windows/security/threat-protection/microsoft-defender-atp/respond-file-alerts#restore-file-from-quarantine) 
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
 - [Настройка исправлений для сканирования](configure-remediation-microsoft-defender-antivirus.md)
 - [Просмотр результатов сканирования](review-scan-results-microsoft-defender-antivirus.md)
 - [Настройка и проверка исключений на основе имени, расширения и расположения папки](configure-extension-file-exclusions-microsoft-defender-antivirus.md)
 - [Настройка и проверка исключений для файлов, открытых процессами](configure-process-opened-file-exclusions-microsoft-defender-antivirus.md)
-- [Настройка антивирусная программа в Microsoft Defender исключений на Windows Server](configure-server-exclusions-microsoft-defender-antivirus.md)
+- [Настройка исключений антивируса Microsoft Defender на Windows Server](configure-server-exclusions-microsoft-defender-antivirus.md)

@@ -1,5 +1,5 @@
 ---
-title: Изучение проблем со здоровьем агента
+title: Исследование проблем работоспособности агента
 description: Узнайте о значениях, возвращаемых при запуске команды здоровья mdatp
 keywords: mdatp health, command, health, status, command, onboarding status
 search.product: eADQiWindows 10XVcnh
@@ -23,7 +23,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/07/2021
 ms.locfileid: "52281304"
 ---
-# <a name="investigate-agent-health-issues"></a>Изучение проблем со здоровьем агента
+# <a name="investigate-agent-health-issues"></a>Исследование проблем работоспособности агента
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 

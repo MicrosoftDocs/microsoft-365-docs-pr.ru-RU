@@ -55,7 +55,7 @@ ms.locfileid: "51185949"
 
 3. Выберите **файл Import**  >  **Choose**. 
 
-4. Нажмите кнопку **Импорт**. Сделайте это для всех файлов, которые необходимо импортировать. 
+4. Нажмите **Импорт**. Сделайте это для всех файлов, которые необходимо импортировать. 
 
 5. Нажмите кнопку **Готово**.
 
@@ -64,16 +64,16 @@ ms.locfileid: "51185949"
 Параметр | Тип    |   Описание
 :---|:---|:---
 indicatorType | Перечисление | Тип индикатора. Возможные значения: "FileSha1", "FileSha256", "IpAddress", "DomainName" и "URL". **Required**
-indicatorValue | Строка | Удостоверение сущности [индикатора.](ti-indicator.md) **Required**
+indicatorValue | String | Удостоверение сущности [индикатора.](ti-indicator.md) **Required**
 action | Перечисление | Действие, которое будет принято, если индикатор будет обнаружен в организации. Возможные значения: "Alert", "AlertAndBlock" и "Allowed". **Required**
-title | Строка | Название оповещений индикатора. **Required**
-description | Строка |  Описание индикатора. **Required**
+title | String | Название оповещений индикатора. **Required**
+description | String |  Описание индикатора. **Required**
 expirationTime | DateTimeOffset | Срок действия индикатора в следующем формате YYYY-MM-DDTHH:MM:SS.0Z. **Необязательное**
 severity | Перечисление | Серьезность индикатора. Возможные значения: "Информационная", "Низкая", "Средняя" и "Высокая". **Необязательное**
-recommendedActions | Строка | Предупреждение индикатора TI рекомендуемые действия. **Необязательное**
-rbacGroupNames | Строка | Разделенный запятой список имен групп RBAC, к который будет применен индикатор. **Необязательное**
+recommendedActions | String | Предупреждение индикатора TI рекомендуемые действия. **Необязательное**
+rbacGroupNames | String | Разделенный запятой список имен групп RBAC, к который будет применен индикатор. **Необязательное**
 category | String | Категория оповещения. Примеры: выполнение и доступ к учетным данным. **Необязательное**
-mitretechniques| Строка | Методы MITRE code/id (разделенная запятая). Дополнительные сведения см. в [теме Корпоративная тактика.](https://attack.mitre.org/tactics/enterprise/) **Необязательный** Рекомендуется добавлять значение в категории при приеме MITRE.
+mitretechniques| String | Методы MITRE code/id (разделенная запятая). Дополнительные сведения см. [в Enterprise тактике.](https://attack.mitre.org/tactics/enterprise/) **Необязательный** Рекомендуется добавлять значение в категории при приеме MITRE.
 
 Дополнительные сведения см. в [рубрике Microsoft Defender for Endpoint alert categories are now aligned with MITRE ATT&CK!.](https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/microsoft-defender-atp-alert-categories-are-now-aligned-with/ba-p/732748)
 
@@ -81,5 +81,5 @@ mitretechniques| Строка | Методы MITRE code/id (разделенна
 ## <a name="see-also"></a>См. также
 - [Создание индикаторов](manage-indicators.md)
 - [Создание индикаторов для файлов](indicator-file.md)
-- [Создание индикаторов для IPs и URL-адресов/доменов](indicator-ip-domain.md)
+- [Создание индикаторов для протоколов IP и URL-адресов или доменов](indicator-ip-domain.md)
 - [Создание индикаторов на основе сертификатов](indicator-certificates.md)

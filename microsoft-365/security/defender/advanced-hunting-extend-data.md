@@ -1,6 +1,6 @@
 ---
 title: Расширение расширенного охвата охоты с помощью правильных параметров
-description: Проверьте параметры аудита на устройствах Windows и другие параметры, чтобы убедиться в том, что вы получаете самые исчерпывающие данные в ходе предварительной охоты
+description: Проверьте параметры аудита на Windows устройствах и других параметрах, чтобы убедиться в том, что вы получаете самые исчерпывающие данные в ходе предварительной охоты
 keywords: advanced hunting, incident, pivot, entity, audit settings, user account management, security group management, threat hunting, cyber threat hunting, search, query, telemetry, Microsoft 365, Microsoft 365 Defender
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -36,9 +36,9 @@ ms.locfileid: "51952672"
 - Microsoft 365 Defender
 - Microsoft Defender для конечной точки
 
-[Расширенный поиск](advanced-hunting-overview.md) зависит от данных из различных источников, включая устройства, рабочее пространство Office 365, Azure AD и Microsoft Defender for Identity. Чтобы получить наиболее исчерпывающие данные, убедитесь, что у вас есть правильные параметры в соответствующих источниках данных.
+[Расширенный поиск](advanced-hunting-overview.md) зависит от данных из различных источников, включая устройства, Office 365, Azure AD и Microsoft Defender for Identity. Чтобы получить наиболее исчерпывающие данные, убедитесь, что у вас есть правильные параметры в соответствующих источниках данных.
 
-## <a name="advanced-security-auditing-on-windows-devices"></a>Расширенный аудит безопасности на устройствах Windows
+## <a name="advanced-security-auditing-on-windows-devices"></a>Расширенный аудит безопасности на Windows устройствах
 Включите эти расширенные параметры аудита, чтобы получить данные о действиях на устройствах, включая локальное управление учетной записью, локальное управление группой безопасности и создание службы.
 
 | Data | Описание | Таблица схемы | Способ настройки |
@@ -52,11 +52,11 @@ ms.locfileid: "51952672"
 
 | Data | Описание | Таблица схемы | Способ настройки |
 | --- | --- | --- | --- |
-| Контроллер домена | Данные из локального Active Directory, отправленные в Microsoft Defender для удостоверений, обогащая сведения, связанные с удостоверениями, такие как сведения об учетной записи, действия логотипа и запросы Active Directory | Несколько таблиц, включая [IdentityInfo,](advanced-hunting-identityinfo-table.md) [IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md)и [IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)  | - [Установка сенсора Microsoft Defender для удостоверений](/azure-advanced-threat-protection/install-atp-step4)<br>- [Включим соответствующие события Windows](/azure-advanced-threat-protection/configure-event-collection) |
+| Контроллер домена | Данные из локального Active Directory, отправленные в Microsoft Defender для удостоверений, обогащая сведения, связанные с удостоверениями, такие как сведения об учетной записи, действия логотипа и запросы Active Directory | Несколько таблиц, включая [IdentityInfo,](advanced-hunting-identityinfo-table.md) [IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md)и [IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)  | - [Установка сенсора Microsoft Defender для удостоверений](/azure-advanced-threat-protection/install-atp-step4)<br>- [Включим соответствующие Windows события](/azure-advanced-threat-protection/configure-event-collection) |
 
 >[!NOTE]
->Некоторые таблицы в этой статье могут быть недоступны в Microsoft Defender для конечной точки. [Включи Microsoft 365 Defender для](m365d-enable.md) охоты на угрозы с помощью дополнительных источников данных. Вы можете переместить расширенные процессы охоты из Microsoft Defender для конечной точки в Microsoft 365 Defender, следуя шагам в миграции расширенных запросов охоты из [Microsoft Defender для конечной](advanced-hunting-migrate-from-mde.md)точки .
+>Некоторые таблицы в этой статье могут быть недоступны в Microsoft Defender для конечной точки. [Включи Microsoft 365 Defender,](m365d-enable.md) чтобы искать угрозы с помощью дополнительных источников данных. Вы можете переместить расширенные процессы охоты из Microsoft Defender для endpoint в Microsoft 365 Defender, следуя шагам в миграции расширенных запросов охоты из [Microsoft Defender для конечной точки](advanced-hunting-migrate-from-mde.md).
 
-## <a name="related-topics"></a>Похожие темы
+## <a name="related-topics"></a>Статьи по теме
 - [Обзор расширенной охоты](advanced-hunting-overview.md)
 - [Сведения о схеме](advanced-hunting-schema-tables.md)

@@ -1,5 +1,5 @@
 ---
-title: Создание правила уведомления об отборе или отключении
+title: Создание правила уведомления о подключении или отключении
 description: Получите уведомление, когда используется локальный сценарий бортового или оффбординга.
 keywords: onboarding, offboarding, local, script, notification, rule
 search.product: eADQiWindows 10XVcnh
@@ -44,8 +44,8 @@ ms.locfileid: "51187336"
 
 ## <a name="before-you-begin"></a>Прежде чем начать
 Необходимо иметь доступ к:
- - Microsoft Flow (план потока 1 как минимум). Дополнительные сведения см. на странице [Цена потока](https://flow.microsoft.com/pricing/).
- - Azure Table или SharePoint List или Library / SQL DB
+ - Microsoft Flow (Flow план 1 как минимум). Дополнительные сведения см. [в Flow странице ценообразования.](https://flow.microsoft.com/pricing/)
+ - Azure Table или SharePoint список или библиотека / SQL DB
 
 ## <a name="create-the-notification-flow"></a>Создание потока уведомлений
 
@@ -73,11 +73,11 @@ ms.locfileid: "51187336"
    - Метод: "GET" в качестве значения для получения списка устройств.
    - URI. Введите `https://api.securitycenter.microsoft.com/api/machines` .
    - Проверка подлинности. Выберите "Active Directory OAuth".
-   - Клиент. Войдите и перейдите в https://portal.azure.com Azure Active **Directory > регистрации** приложений и получите значение Tenant ID.
+   - Клиент. Войдите и перейдите Azure Active Directory > регистрации приложений и получите значение https://portal.azure.com Tenant ID. 
    - Аудитория: `https://securitycenter.onmicrosoft.com/windowsatpservice\`
-   - Client ID. Войдите и перейдите в Azure Active Directory > регистрации приложений и получите значение https://portal.azure.com Client ID. 
+   - Client ID. Войдите и перейдите Azure Active Directory > регистрации приложений и получите значение https://portal.azure.com Client ID. 
    - Тип учетных данных. Выберите "Секрет".
-   - Секрет. Войдите и перейдите в https://portal.azure.com **Azure Active Directory > регистрации** приложений и получите значение Tenant ID.
+   - Секрет: войдите и перейдите Azure Active Directory > регистрации приложений и получите значение https://portal.azure.com Tenant ID. 
 
     ![Изображение условий HTTP](images/http-conditions.png)
 
@@ -176,9 +176,9 @@ ms.locfileid: "51187336"
 
     ```
 
-10.  Извлечение значений из вызова JSON и проверка того, есть ли в списке SharePoint уже зарегистрированное устройство(ы) в качестве примера:
+10.  Извлечение значений из вызова JSON и проверка того, зарегистрировано ли в списке SharePoint в качестве примера:
 - Если да, уведомление не запускается
-- Если нет, зарегистрирует новое бортовом устройстве (ы) в списке SharePoint и уведомление будет отправлено администратору Defender для конечной точки
+- Если нет, зарегистрирует новое бортовом устройстве (ы) в списке SharePoint и уведомление будет отправлено администратору Defender for Endpoint
 
     ![Изображение, применяемого к каждому](images/flow-apply.png)
 

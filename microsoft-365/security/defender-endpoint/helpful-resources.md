@@ -1,7 +1,7 @@
 ---
 title: Полезные ресурсы Microsoft Defender для конечных точек
 description: Доступ к полезным ресурсам, таким как ссылки на блоги и другие ресурсы, связанные с Microsoft Defender для endpoint
-keywords: Центр безопасности Защитника Майкрософт, краткий продукт, краткий, возможности, лицензирование
+keywords: Центр безопасности в Microsoft Defender, краткое, краткое, возможности, лицензирование
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 727576ab75d77d12be0595c081586f411887da49
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 5ecee4a71ef0b6f607a284766163a90f16bc27dc
+ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165445"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52843074"
 ---
 # <a name="helpful-microsoft-defender-for-endpoint-resources"></a>Полезные ресурсы Microsoft Defender для конечных точек
 
@@ -37,7 +37,7 @@ ms.locfileid: "51165445"
 Доступ к полезным ресурсам, таким как ссылки на блоги и другие ресурсы, связанные с Microsoft Defender для конечной точки.
 
 ## <a name="endpoint-protection-platform"></a>Платформа защиты конечных точек
-- [Top scoring in industry tests](https://docs.microsoft.com/windows/security/threat-protection/intelligence/top-scoring-industry-antivirus-tests)
+- [Top scoring in industry tests](/windows/security/threat-protection/intelligence/top-scoring-industry-antivirus-tests)
 
 - [Наизнанке: узнать о передовых технологиях в центре защиты Defender для Endpoint следующего поколения](https://www.microsoft.com/security/blog/2019/06/24/inside-out-get-to-know-the-advanced-technologies-at-the-core-of-microsoft-defender-atp-next-generation-protection/)
 
@@ -61,4 +61,4 @@ ms.locfileid: "51165445"
 
 - [Как автоматизация приносит ценность группам безопасности](https://techcommunity.microsoft.com/t5/Microsoft-Defender-ATP/How-automation-brings-value-to-your-security-teams/ba-p/729297)
 
-- [Устранение ложных срабатыва-минусов в Microsoft Defender для конечной точки](defender-endpoint-false-positives-negatives.md)
+- [Устранение ложных положительных/отрицательных срабатываний в Microsoft Defender для конечной точки](defender-endpoint-false-positives-negatives.md)
