@@ -1,5 +1,5 @@
 ---
-title: Лицензия и условия использования API Защитника Microsoft 365
+title: Microsoft 365 Лицензия API defender и условия использования
 description: Описание лицензии и условий использования API в Microsoft 365 Defender
 keywords: api, apis, license, terms, apis, legal, notices, code of conduct
 search.product: eADQiWindows 10XVcnh
@@ -27,7 +27,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51070070"
 ---
-# <a name="microsoft-365-defender-apis-license-and-terms-of-use"></a>Лицензия и условия использования API Защитника Microsoft 365
+# <a name="microsoft-365-defender-apis-license-and-terms-of-use"></a>Microsoft 365 Лицензия API defender и условия использования
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -40,7 +40,7 @@ ms.locfileid: "51070070"
 
 ## <a name="official-terms"></a>Официальные термины
 
-API Защитника Microsoft 365 регулируются лицензией [API Microsoft и условиями использования.](/legal/microsoft-apis/terms-of-use)
+Microsoft 365 API Defender регулируются лицензией API Майкрософт и [условиями использования.](/legal/microsoft-apis/terms-of-use)
 
 ## <a name="legal-notices"></a>Юридические уведомления
 
@@ -63,7 +63,7 @@ Microsoft, Windows, Microsoft Azure и/или другие продукты и �
 
 ### <a name="quotas-and-resource-allocation"></a>Квоты и распределение ресурсов
 
-API Защитника Microsoft 365 имеют пороговые значения регулирования.
+API Microsoft 365 Defender имеют пороговые значения регулирования.
 
 - **API инцидентов:** до 50 вызовов в минуту или 1500 вызовов в час.
 - **Расширенный API** охоты: до 15 вызовов в минуту, 10 минут времени работы в час и 4 часа времени работы в день.
@@ -74,6 +74,6 @@ API Защитника Microsoft 365 имеют пороговые значен�
 
 ## <a name="related-articles"></a>Связанные статьи
 
-- [Обзор API защитника Microsoft 365](api-overview.md)
+- [Microsoft 365 Обзор API defender](api-overview.md)
 - [Поддерживаемые API Microsoft 365 Defender](api-supported.md)
-- [Доступ к API защитника Microsoft 365](api-access.md)
+- [Доступ к API Microsoft 365 Defender](api-access.md)

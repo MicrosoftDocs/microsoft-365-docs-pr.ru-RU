@@ -1,5 +1,5 @@
 ---
-title: Получение отключенной ошибки учетной записи в Outlook в Интернете?
+title: Получение отключенной ошибки учетной записи Outlook в Интернете?
 f1.keywords:
 - CSH
 ms.author: pebaum
@@ -24,7 +24,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50914946"
 ---
-# <a name="getting-an-account-disabled-error-in-outlook-on-the-web"></a>Отключение ошибки учетной записи в Outlook в Интернете
+# <a name="getting-an-account-disabled-error-in-outlook-on-the-web"></a>Отключение ошибки учетной записи Outlook в Интернете
 
 Если при попытке  открыть Outlook в Интернете (ранее известная как Outlook Web App) ваша учетная запись была отключена, администратор мог отключить доступ к Outlook в `X-OWA-Error: Microsoft.Exchange.Data.Storage.AccountDisabledException` Интернете.
 

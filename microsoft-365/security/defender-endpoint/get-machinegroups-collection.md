@@ -52,9 +52,9 @@ GET /testwdatppreview/machinegroups
 Заголовок | Значение 
 :---|:---
 Авторизация | Bearer {token}. **Обязательное поле**.
-Тип контента | application/json
+Тип содержимого | application/json
 
-## <a name="request-body"></a>Текст запроса
+## <a name="request-body"></a>Тело запроса
 переменная Empty
 
 ## <a name="response"></a>Отклик

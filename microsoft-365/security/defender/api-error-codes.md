@@ -1,6 +1,6 @@
 ---
-title: Общие коды ошибок API API Defender REST 365 Defender
-description: Узнайте об общих кодах ошибок API API Rest Защитника Майкрософт 365
+title: Общие Microsoft 365 API API Defender REST
+description: Узнайте об общих кодах ошибок Microsoft 365 API Defender REST
 keywords: api, error, codes, common errors, Microsoft 365 Defender, api error codes
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -27,7 +27,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/21/2021
 ms.locfileid: "51932885"
 ---
-# <a name="common-microsoft-365-defender-rest-api-error-codes"></a>Общие коды ошибок API API Defender REST 365 Defender
+# <a name="common-microsoft-365-defender-rest-api-error-codes"></a>Общие Microsoft 365 API API Defender REST
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -38,7 +38,7 @@ ms.locfileid: "51932885"
 > [!IMPORTANT]
 > Некоторые сведения относятся к предварительным выпускам продуктов, которые могут быть существенно изменены до коммерческого выпуска. Корпорация Майкрософт не дает никаких гарантий, явных или подразумеваемых, относительно предоставленных здесь сведений.
 
-Коды ошибок могут быть возвращены операцией на любом из API Защитника Microsoft 365. В каждом ответе на ошибку будет содержаться сообщение об ошибке, которое поможет устранить проблему. Столбец сообщения об ошибке в разделе таблицы содержит некоторые примеры сообщений. Содержимое фактических сообщений зависит от факторов, которые вызвали отклик. Переменное содержимое указывается в таблице угловым скобками.
+Коды ошибок могут быть возвращены операцией на любом Microsoft 365 API Defender. В каждом ответе на ошибку будет содержаться сообщение об ошибке, которое поможет устранить проблему. Столбец сообщения об ошибке в разделе таблицы содержит некоторые примеры сообщений. Содержимое фактических сообщений зависит от факторов, которые вызвали отклик. Переменное содержимое указывается в таблице угловым скобками.
 
 ## <a name="error-codes"></a>Коды ошибок
 
@@ -97,9 +97,9 @@ InternalServerError | Ошибка внутреннего сервера (500) |
 
 Каждый ответ на ошибку содержит уникальный параметр ID для отслеживания. Имя свойства этого параметра является *целевым.* При контакте с нами об ошибке, присоединение этого ID поможет нам найти корневую причину проблемы.
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
-- [Обзор API защитника Microsoft 365](api-overview.md)
+- [Microsoft 365 Обзор API defender](api-overview.md)
 - [Поддерживаемые API Microsoft 365 Defender](api-supported.md)
-- [Доступ к API защитника Microsoft 365](api-access.md)
+- [Доступ к API Microsoft 365 Defender](api-access.md)
 - [Узнайте о ограничениях API и лицензировании](api-terms.md)

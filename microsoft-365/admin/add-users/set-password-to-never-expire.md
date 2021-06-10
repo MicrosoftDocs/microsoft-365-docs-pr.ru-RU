@@ -126,8 +126,8 @@ Run one of the following commands:
     Get-AzureADUser -All $true | Set-AzureADUser -PasswordPolicies None
     ```
 
-## <a name="related-content"></a>См. также:
+## <a name="related-content"></a>Связанные материалы
 
-[Пусть пользователи сбрасывают собственные пароли](../add-users/let-users-reset-passwords.md) (статьи)\
+[Предоставление пользователям прав на самостоятельный сброс пароля](../add-users/let-users-reset-passwords.md) (статья)\
 [Сброс паролей](../add-users/reset-passwords.md) (статья)\
 [Установите политику истечения пароля для организации](../manage/set-password-expiration-policy.md) (статья)

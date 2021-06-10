@@ -1,5 +1,5 @@
 ---
-title: Доступ партнера через API Защитника Microsoft 365
+title: Доступ партнеров Microsoft 365 API Defender
 description: Узнайте, как создать приложение, чтобы получить программный доступ к Microsoft 365 Defender от имени пользователей.
 keywords: партнер, доступ, api, мульти-клиент, согласие, маркер доступа, приложение
 search.product: eADQiWindows 10XVcnh
@@ -27,7 +27,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51070077"
 ---
-# <a name="create-an-app-with-partner-access-to-microsoft-365-defender-apis"></a>Создание приложения с партнерским доступом к API Защитника Microsoft 365
+# <a name="create-an-app-with-partner-access-to-microsoft-365-defender-apis"></a>Создание приложения с партнерским доступом Microsoft 365 API Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -40,43 +40,43 @@ ms.locfileid: "51070077"
 
 На этой странице описывается создание приложения Azure Active Directory, которое имеет программный доступ к Microsoft 365 Defender от имени пользователей нескольких клиентов. Приложения с несколькими клиентами полезны для обслуживания больших групп пользователей.
 
-Если вам необходим программный доступ к Microsoft 365 Defender от имени одного пользователя, см. в раздел Создание приложения для доступа к [API Защитника Microsoft 365](api-create-app-user-context.md)от имени пользователя. Если вам необходим доступ без явно определенного пользователя (например, если вы пишете фоновое приложение или daemon), см. статью Создание приложения для доступа [к Microsoft 365 Defender](api-create-app-web.md)без пользователя . Если вы не уверены, какой доступ вам нужен, см. [в этой ленте Начало](api-access.md)работы.
+Если вам необходим программный доступ к Microsoft 365 Defender от имени одного пользователя, см. в раздел Создание приложения для доступа Microsoft 365 API Defender от [имени пользователя.](api-create-app-user-context.md) Если вам необходим доступ без явно определенного пользователя (например, если вы пишете фоновое приложение или daemon), см. статью Создание приложения для доступа к Microsoft 365 Defender без [пользователя](api-create-app-web.md). Если вы не уверены, какой доступ вам нужен, см. [в этой ленте Начало](api-access.md)работы.
 
-Microsoft 365 Defender предоставляет большую часть своих данных и действий с помощью набора программных API. Эти API помогают автоматизировать рабочий процесс и использовать возможности Microsoft 365 Defender. Этот доступ к API требует проверки подлинности OAuth2.0. Дополнительные сведения см. в [тексте OAuth 2.0 Authorization Code Flow.](/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)
+Microsoft 365 Defender предоставляет большую часть своих данных и действий с помощью набора программных API. Эти API помогают автоматизировать рабочий процесс и использовать возможности Microsoft 365 Defender. Этот доступ к API требует проверки подлинности OAuth2.0. Дополнительные сведения см. [в тексте OAuth 2.0 Authorization Code Flow.](/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)
 
 В общем, для использования этих API необходимо предпринять следующие действия:
 
-- Создание приложения Azure Active Directory (Azure AD).
+- Создание приложения Azure Active Directory Azure AD.
 - Получение маркера доступа с помощью этого приложения.
-- Используйте маркер для доступа к API Защитника Microsoft 365.
+- Используйте маркер для доступа к API Microsoft 365 Defender.
 
 Так как это приложение является нескольким клиентом, вам также потребуется согласие администратора от каждого клиента от имени его пользователей. [](/azure/active-directory/develop/v2-permissions-and-consent#requesting-consent-for-an-entire-tenant)
 
 В этой статье объясняется, как:
 
 - Создание **многоканального приложения** Azure AD
-- Получите разрешение администратора пользователя на доступ к защитнику Microsoft 365, который ему необходим.
+- Получите авторизованный согласие администратора пользователя на доступ к необходимому Microsoft 365 Defender.
 - Получите маркер доступа к Microsoft 365 Defender
 - Проверка маркера
 
-Microsoft 365 Defender предоставляет большую часть своих данных и действий с помощью набора программных API. Эти API помогут автоматизировать потоки работы и вносимые в них новые решения на основе возможностей Microsoft 365 Defender. Доступ к API требует проверки подлинности OAuth2.0. Дополнительные сведения см. в [тексте OAuth 2.0 Authorization Code Flow.](/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)
+Microsoft 365 Defender предоставляет большую часть своих данных и действий с помощью набора программных API. Эти API помогут автоматизировать потоки работы и вносимые Microsoft 365 Defender. Доступ к API требует проверки подлинности OAuth2.0. Дополнительные сведения см. [в тексте OAuth 2.0 Authorization Code Flow.](/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)
 
 В общем, для использования API необходимо предпринять следующие действия:
 
 - Создание приложения Azure AD с **несколькими** клиентами.
-- Получите авторизованный (согласие) администратор пользователя для вашего приложения для доступа к ресурсам Microsoft 365 Defender, которые ему необходимы.
+- Получите авторизованный (согласие) администратор пользователя для приложения для доступа Microsoft 365 Defender.
 - Получение маркера доступа с помощью этого приложения.
-- Используйте маркер для доступа к API Защитника Microsoft 365.
+- Используйте маркер для доступа к API Microsoft 365 Defender.
 
-В следующих действиях вы можете узнать, как создать многоканальный приложение Azure AD, получить маркер доступа к Microsoft 365 Defender и проверить маркер.
+В следующих действиях вы можете узнать, как создать многоканальный приложение Azure AD, получить маркер доступа Microsoft 365 Defender и проверить маркер.
 
 ## <a name="create-the-multi-tenant-app"></a>Создание приложения с несколькими клиентами
 
 1. Во входе [в Azure](https://portal.azure.com) в качестве пользователя с **ролью глобального администратора.**
 
-2. Перейдите к **регистрации приложений Azure Active**  >  **Directory**  >  **.**
+2. Перейдите **к Azure Active Directory**  >  **регистрации Приложений** Новая  >  **регистрация**.
 
-   ![Изображение Microsoft Azure и навигация для регистрации приложений](../../media/atp-azure-new-app2.png)
+   ![Изображение Microsoft Azure и навигации для регистрации приложений](../../media/atp-azure-new-app2.png)
 
 3. В форме регистрации:
 
@@ -88,10 +88,10 @@ Microsoft 365 Defender предоставляет большую часть св
 
    ![Изображение формы приложения Register](../..//media/atp-api-new-app-partner.png)
 
-4. На странице приложения выберите **API Permissions Add**  >  **permission**  >  **API,** которые моя организация использует >, введите Microsoft Threat Protection и выберите **Microsoft Threat Protection**. Теперь ваше приложение может получить доступ к Microsoft 365 Defender.
+4. На странице приложения выберите **API Permissions** Add permission API, которые моя организация использует  >    >   >, **введите** Защита от угроз (Майкрософт) и выберите **Защита от угроз (Майкрософт)**. Теперь приложение может получить доступ к Microsoft 365 Defender.
 
    > [!TIP]
-   > *Microsoft Threat Protection* — это прежнее имя защитника Microsoft 365, которое не будет отображаться в исходном списке. Чтобы увидеть его, необходимо приступить к написанию его имени в текстовом окне.
+   > *Защита от угроз (Майкрософт)* является прежним именем Microsoft 365 Defender и не будет отображаться в исходном списке. Чтобы увидеть его, необходимо приступить к написанию его имени в текстовом окне.
 
    ![Изображение выбора разрешений API](../../media/apis-in-my-org-tab.PNG)
 
@@ -241,11 +241,11 @@ aadToken = jsonResponse["access_token"]
 ### <a name="get-an-access-token-using-curl"></a>Получить маркер доступа с помощью завитка
 
 > [!NOTE]
-> Curl предварительно установлен в Windows 10, версии 1803 и более поздней версии. Для других версий Windows скачайте и установите средство непосредственно на [официальном веб-сайте завитка.](https://curl.haxx.se/windows/)
+> Curl предварительно установлен на Windows 10 версии 1803 и более поздней версии. Для других версий Windows скачайте и установите средство непосредственно с [официального веб-сайта curl.](https://curl.haxx.se/windows/)
 
 1. Откройте командную подсказку и установите CLIENT_ID к вашему ID приложения Azure.
 1. Установите CLIENT_SECRET для секрета приложения Azure.
-1. Установите TENANT_ID в ID клиента Azure пользователя, который хочет использовать приложение для доступа к Microsoft 365 Defender.
+1. Установите TENANT_ID имя клиента Azure для пользователя, который хочет использовать приложение для доступа к Microsoft 365 Defender.
 1. Выполните следующую команду:
 
 ```bash
@@ -267,9 +267,9 @@ curl -i -X POST -H "Content-Type:application/x-www-form-urlencoded" -d "grant_ty
 
 ![Изображение проверки маркеров](../../media/webapp-decoded-token.png)
 
-## <a name="use-the-token-to-access-the-microsoft-365-defender-api"></a>Используйте маркер для доступа к API Защитника Microsoft 365
+## <a name="use-the-token-to-access-the-microsoft-365-defender-api"></a>Используйте маркер для доступа к API Microsoft 365 Defender
 
-1. Выберите API, который вы хотите использовать (инциденты или расширенный поиск). Дополнительные сведения см. в [сайте Supported Microsoft 365 Defender API.](api-supported.md)
+1. Выберите API, который вы хотите использовать (инциденты или расширенный поиск). Дополнительные сведения см. в [Microsoft 365 API Defender.](api-supported.md)
 2. В http-запросе, который вы отправляете, задайте загон авторизации , Bearer является схемой авторизации, а маркер - `"Bearer" <token>` проверенным маркером.  
 3. Срок действия маркера истекает в течение одного часа. За это время вы можете отправить несколько запросов с одним маркером.
 
@@ -286,11 +286,11 @@ curl -i -X POST -H "Content-Type:application/x-www-form-urlencoded" -d "grant_ty
 
 ## <a name="related-articles"></a>Связанные статьи
 
-- [Обзор API защитника Microsoft 365](api-overview.md)
-- [Доступ к API защитника Microsoft 365](api-access.md)
+- [Microsoft 365 Обзор API defender](api-overview.md)
+- [Доступ к API Microsoft 365 Defender](api-access.md)
 - [Создание приложения "Hello world"](api-hello-world.md)
-- [Создание приложения для доступа к Microsoft 365 Defender без пользователя](api-create-app-web.md)
-- [Создание приложения для доступа к API Защитника Microsoft 365 от имени пользователя](api-create-app-user-context.md)
+- [Создание приложения для доступа Microsoft 365 Defender без пользователя](api-create-app-web.md)
+- [Создание приложения для доступа Microsoft 365 API Defender от имени пользователя](api-create-app-user-context.md)
 - [Узнайте о ограничениях API и лицензировании](api-terms.md)
 - [Понимание кодов ошибок](api-error-codes.md)
 - [Управление секретами в приложениях сервера с помощью хранилища ключей Azure](/learn/modules/manage-secrets-with-azure-key-vault/)

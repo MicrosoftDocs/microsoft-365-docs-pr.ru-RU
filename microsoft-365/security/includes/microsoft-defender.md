@@ -12,4 +12,4 @@ ms.lasthandoff: 04/14/2021
 ms.locfileid: "51755292"
 ---
 > [!IMPORTANT]
-> Доступен улучшенный [Центр безопасности Microsoft 365](https://security.microsoft.com). Этот новый интерфейс Центра безопасности Microsoft 365 объединяет Defender для конечной точки, Defender для Office 365, Microsoft 365 Defender и другие решения. [Узнайте о новых возможностях](/microsoft-365/security/mtp/overview-security-center).
+> Улучшенный [Центр безопасности Microsoft 365](https://security.microsoft.com) теперь доступен в общедоступной предварительной версии. Этот новый интерфейс Центра безопасности Microsoft 365 объединяет Defender для конечной точки, Defender для Office 365, Microsoft 365 Defender и другие решения. [Узнайте о новых возможностях](/microsoft-365/security/mtp/overview-security-center).

@@ -1,7 +1,7 @@
 ---
 title: Таблица AlertEvidence в продвинутой схеме охоты
 description: Сведения о сведениях, связанных с оповещениями в таблице AlertEvidence в продвинутой схеме охоты
-keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, Microsoft 365, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, AlertInfo, alert, entities, entities, evidence, file, IP address, device, machine, user, account
+keywords: передовая охота, охота на угрозы, охота на киберугрозы, Microsoft 365 Defender, Microsoft 365, m365, поиск, запрос, телеметрия, ссылка схемы, кусто, таблица, столбец, тип данных, описание, AlertInfo, оповещения, сущности, доказательства, файл, IP-адрес, устройство, машина, пользователь, учетная запись
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -35,7 +35,7 @@ ms.locfileid: "51932587"
 **Область применения:**
 - Microsoft 365 Defender
 
-Таблица в схеме расширенных схем охоты содержит сведения о различных сущностям, файлах, IP-адресах, URL-адресах, пользователях или устройствах, связанных с оповещениями из `AlertEvidence` Microsoft Defender для конечной точки, Microsoft Defender for Office 365, Microsoft Cloud App Security и Microsoft Defender for Identity. [](advanced-hunting-overview.md) Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы.
+Таблица в продвинутой схеме охоты содержит сведения о различных сущностями— `AlertEvidence` файлах, IP-адресах, URL-адресах, пользователях или устройствах, связанных с оповещениями из Microsoft Defender for [](advanced-hunting-overview.md) Endpoint, Microsoft Defender для Office 365, Microsoft Cloud App Security и Microsoft Defender for Identity. Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы.
 
 Сведения о других таблицах в схеме расширенного поиска см. в [справочнике по расширенному поиску](advanced-hunting-schema-tables.md).
 
@@ -73,7 +73,7 @@ ms.locfileid: "51932587"
 | `RegistryValueName` |Строка | Имя значения реестра, к которое было применено записанное действие |
 | `RegistryValueData` |Строка | Данные о значении реестра, которое было применено к зарегистрированным действиям |
 
-## <a name="related-topics"></a>Похожие темы
+## <a name="related-topics"></a>Статьи по теме
 - [Обзор расширенной охоты](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)

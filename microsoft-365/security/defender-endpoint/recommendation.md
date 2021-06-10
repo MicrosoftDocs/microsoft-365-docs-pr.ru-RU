@@ -61,9 +61,9 @@ recommendedVersion | String | Рекомендуемая версия
 recommendationCategory | String | Категория рекомендации. Возможные значения: "Учетные записи", "Приложение", "Сеть", "ОС", "SecurityStack"
 subCategory | String | Под-категория Рекомендации
 severityScore | Двойное с плавающей точкой | Потенциальное влияние конфигурации на оценку microsoft Secure Для устройств организации (1-10)
-publicExploit | Логический | Общедоступный эксплойт доступен 
-activeAlert | Логический | С этой рекомендацией связано активное оповещение
-associatedThreats | Коллекция строк | Отчет аналитики угроз связан с этой рекомендацией
+publicExploit | Boolean | Общедоступный эксплойт доступен 
+activeAlert | Boolean | С этой рекомендацией связано активное оповещение
+associatedThreats | Коллекция объектов string | Отчет аналитики угроз связан с этой рекомендацией
 remediationType | String | Тип исправлений. Возможные значения: "ConfigurationChange", "Update", "Upgrade", "Uninstall"
 Состояние | Перечисление | Состояние исключения рекомендации. Возможные значения: "Active" и "Exception"
 configScoreImpact | Двойное с плавающей точкой | Влияние Microsoft Secure Score для устройств

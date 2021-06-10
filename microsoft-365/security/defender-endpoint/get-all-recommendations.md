@@ -47,7 +47,7 @@ ms.locfileid: "52841538"
 
 Тип разрешения |   Разрешение  |   Имя отображения разрешений
 :---|:---|:---
-Для приложений |   SecurityRecommendation.Read.All |   'Read Threat and Vulnerability Management security recommendation information'
+Приложение |   SecurityRecommendation.Read.All |   'Read Threat and Vulnerability Management security recommendation information'
 Делегированные (рабочая или учебная учетная запись) | SecurityRecommendation.Read |  'Read Threat and Vulnerability Management security recommendation information'
 
 ## <a name="http-request"></a>HTTP-запрос
@@ -59,7 +59,7 @@ GET /api/recommendations
 
 Имя | Тип | Описание
 :---|:---|:---
-Authorization | String | Bearer {token}. **Обязательное поле**.
+Авторизация | String | Bearer {token}. **Обязательное поле**.
 
 
 ## <a name="request-body"></a>Тело запроса

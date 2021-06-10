@@ -1,5 +1,5 @@
 ---
-title: Добавление домена в Microsoft 365
+title: Добавление домена в Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -33,9 +33,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/24/2021
 ms.locfileid: "52635682"
 ---
-# <a name="add-a-domain-to-microsoft-365"></a>Добавление домена в Microsoft 365
+# <a name="add-a-domain-to-microsoft-365"></a>Добавление домена в Microsoft 365
 
- Если вы не нашли то, что вы ищете, обратитесь к разделу **[вопросы и ответы по доменам](domains-faq.yml)**. 
+ Если вы не нашли то, что вы ищете, см. раздел **[Вопросы и ответы по доменам](domains-faq.yml)**. 
   
  *Чтобы добавить, изменить или  удалить домены, необходимо быть **глобальным** администратором [бизнес-или корпоративного плана.](https://products.office.com/business/office) Эти изменения затрагивают весь клиент, *настраиваемые* администраторы или обычные пользователи не смогут вносить эти изменения.*  
 
@@ -136,7 +136,7 @@ ms.locfileid: "52635682"
 
 ## <a name="related-content"></a>См. также:
 
-[FaQ доменов](domains-faq.yml) (статья)\
+[Вопросы и ответы о доменах](domains-faq.yml) (статья)\
 [Что такое домен?](../get-help-with-domains/what-is-a-domain.md) (статья)\
 [Купить доменное имя в Microsoft 365](../get-help-with-domains/buy-a-domain-name.md) (статья)\
 [Настройка домена](../get-help-with-domains/set-up-your-domain-host-specific-instructions.md) (статья)

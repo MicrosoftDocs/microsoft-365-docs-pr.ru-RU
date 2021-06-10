@@ -1,6 +1,6 @@
 ---
 title: Hello World for Microsoft 365 Defender REST API
-description: Узнайте, как создать приложение и использовать маркер для доступа к API Защитника Microsoft 365
+description: Узнайте, как создать приложение и использовать маркер для доступа к API Microsoft 365 Defender
 keywords: app, token, access, aad, app, application registration, powershell, script, global administrator, permission, Microsoft 365 defender
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -46,16 +46,16 @@ ms.locfileid: "51072757"
 
 1. Во входе [в Azure](https://portal.azure.com) в качестве пользователя с **ролью глобального администратора.**
 
-2. Перейдите к **регистрации приложений Azure Active**  >  **Directory**  >  **.**
+2. Перейдите **к Azure Active Directory**  >  **регистрации Приложений** Новая  >  **регистрация**.
 
-   ![Изображение Microsoft Azure и навигация для регистрации приложений](../../media/atp-azure-new-app2.png)
+   ![Изображение Microsoft Azure и навигации для регистрации приложений](../../media/atp-azure-new-app2.png)
 
 3. В форме регистрации выберите имя приложения, а затем выберите **Register**. Выбор URI перенаправления необязателен. Для завершения этого примера не потребуется один пример.
 
-4. На странице приложения выберите **API Permissions Add**  >  **permission**  >  **API,** которые моя организация использует >, введите Microsoft Threat Protection и выберите **Microsoft Threat Protection**. Теперь ваше приложение может получить доступ к Microsoft 365 Defender.
+4. На странице приложения выберите **API Permissions** Add permission API, которые моя организация использует  >    >   >, **введите** Защита от угроз (Майкрософт) и выберите **Защита от угроз (Майкрософт)**. Теперь приложение может получить доступ к Microsoft 365 Defender.
 
    > [!TIP]
-   > *Microsoft Threat Protection* — это прежнее имя защитника Microsoft 365, которое не будет отображаться в исходном списке. Чтобы увидеть его, необходимо приступить к написанию его имени в текстовом окне.
+   > *Защита от угроз (Майкрософт)* является прежним именем Microsoft 365 Defender и не будет отображаться в исходном списке. Чтобы увидеть его, необходимо приступить к написанию его имени в текстовом окне.
    ![Изображение выбора разрешений API](../../media/apis-in-my-org-tab.PNG)
 
    - Выберите **разрешения приложения**  >  **Incident.Read.All** и добавьте **разрешения.**
@@ -172,10 +172,10 @@ Out-File -FilePath $outputJsonPath -InputObject $incidents
 
 ## <a name="related-articles"></a>Связанные статьи
 
-- [Обзор API защитника Microsoft 365](api-overview.md)
-- [Доступ к API защитника Microsoft 365](api-access.md)
-- [Создание приложения для доступа к Microsoft 365 Defender без пользователя](api-create-app-web.md)
-- [Создание приложения для доступа к API Защитника Microsoft 365 от имени пользователя](api-create-app-user-context.md)
-- [Создание приложения с несколькими партнерами-партнерами для API Защитника Microsoft 365](api-partner-access.md)
+- [Microsoft 365 Обзор API defender](api-overview.md)
+- [Доступ к API Microsoft 365 Defender](api-access.md)
+- [Создание приложения для доступа Microsoft 365 Defender без пользователя](api-create-app-web.md)
+- [Создание приложения для доступа Microsoft 365 API Defender от имени пользователя](api-create-app-user-context.md)
+- [Создание приложения с несколькими партнерами-партнерами для доступа Microsoft 365 API Defender](api-partner-access.md)
 - [Управление секретами в приложениях сервера с помощью хранилища ключей Azure](/learn/modules/manage-secrets-with-azure-key-vault/)
 - [OAuth 2.0 Авторизация для входов пользователей и доступа к API](/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)

@@ -1,5 +1,5 @@
 ---
-title: Настройка свойств учетной записи microsoft 365 с помощью PowerShell
+title: Настройка свойств Microsoft 365 учетных записей пользователей с помощью PowerShell
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -17,7 +17,7 @@ ms.custom:
 - Ent_Office_Other
 - PowerShell
 ms.assetid: 30813f8d-b08d-444b-98c1-53df7c29b4d7
-description: Используйте PowerShell для Microsoft 365 для настройки свойств отдельных или нескольких учетных записей пользователей в клиенте Microsoft 365.
+description: Используйте PowerShell для Microsoft 365 для настройки свойств отдельных или нескольких учетных записей пользователей в Microsoft 365 клиента.
 ms.openlocfilehash: 6b674641842f89fd8c8e22dc26350cdd53734b9e
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -25,17 +25,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50911088"
 ---
-# <a name="configure-microsoft-365-user-account-properties-with-powershell"></a>Настройка свойств учетной записи microsoft 365 с помощью PowerShell
+# <a name="configure-microsoft-365-user-account-properties-with-powershell"></a>Настройка свойств Microsoft 365 учетных записей пользователей с помощью PowerShell
 
-*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
+*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
 
-Центр администрирования Microsoft 365 можно использовать для настройки свойств для учетных записей пользователей клиента Microsoft 365. В PowerShell вы также можете сделать это, а также некоторые другие вещи, которые вы не можете сделать в центре администрирования.
+Центр администрирования Microsoft 365 для настройки свойств для учетных записей пользователей Microsoft 365 клиента. В PowerShell вы также можете сделать это, а также некоторые другие вещи, которые вы не можете сделать в центре администрирования.
   
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Использование модуля PowerShell Azure Active Directory для Graph
 
-Чтобы настроить свойства для учетных записей пользователей в модуле Azure Active Directory PowerShell для Graph, используйте командлет [**Set-AzureADUser**](/powershell/module/azuread/set-azureaduser?view=azureadps-2.0) и укажите свойства для настройки или изменения.
+Чтобы настроить свойства для учетных записей пользователей в Azure Active Directory PowerShell для Graph модуля, используйте командлет [**Set-AzureADUser**](/powershell/module/azuread/set-azureaduser?view=azureadps-2.0) и укажите свойства для настройки или изменения.
 
-[Во-первых, подключите клиента Microsoft 365.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
+[Во-первых, подключите Microsoft 365 клиента.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
    
 ### <a name="change-properties-for-a-specific-user-account"></a>Изменение свойств учетной записи пользователя
 
@@ -151,7 +151,7 @@ Get-AzureADUser | Where {$_.Department -eq "Accounting"} | Set-AzureADUser -Usag
 
 Чтобы настроить свойства для учетных записей пользователей с помощью модуля Microsoft Azure Active Directory для Windows PowerShell, используйте командлет **Set-MsolUser** и укажите свойства для настройки или изменения.
 
-[Во-первых, подключите клиента Microsoft 365.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
+[Во-первых, подключите Microsoft 365 клиента.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
   
 >[!Note]
 >В PowerShell Core не поддерживается модуль Microsoft Azure Active Directory для Windows PowerShell и командлеты, имена которых содержат *Msol*. Эти командлеты требуется запускать из Windows PowerShell.

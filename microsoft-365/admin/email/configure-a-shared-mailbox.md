@@ -144,7 +144,7 @@ ms.locfileid: "52635514"
 
 ## <a name="related-content"></a>См. также:
 
-[Об общих почтовых ящиках](about-shared-mailboxes.md) (статья)\
+[Сведения об общих почтовых ящиках](about-shared-mailboxes.md) (статья)\
 [Создание общего почтового ящика](create-a-shared-mailbox.md) (статья)\
 [Преобразование почтового ящика пользователя в общий почтовый ящик](convert-user-mailbox-to-shared-mailbox.md) (статья)\
 [Удаление лицензии из общего почтового ящика](remove-license-from-shared-mailbox.md) (статья)\

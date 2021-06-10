@@ -22,7 +22,7 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Создайте пространство для совместной работы с microsoft Teams.
+description: Создайте пространство для совместной работы с Microsoft Teams.
 ms.openlocfilehash: ddce111b758fcbd4840ca3493601779690684eeb
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -32,7 +32,7 @@ ms.locfileid: "50912226"
 ---
 # <a name="create-teams-for-collaboration-in-microsoft-teams"></a>Создание групп для совместной работы в Microsoft Teams
 
-Microsoft Teams — это приложение для совместной работы, которое помогает сотрудникам оставаться организованными и беседами с любого устройства. Вы можете использовать Microsoft Teams для мгновенных бесед с сотрудниками или гостями за пределами организации. Вы также можете звонить по телефону, проводить собрания и обмениваться файлами.
+Microsoft Teams это приложение для совместной работы, которое помогает сотрудникам оставаться организованными и иметь беседы с любого устройства. Вы можете использовать Microsoft Teams для мгновенных бесед с сотрудниками или гостями за пределами организации. Вы также можете звонить по телефону, проводить собрания и обмениваться файлами.
 
 ## <a name="best-practices"></a>Рекомендации
 
@@ -59,16 +59,16 @@ Microsoft Teams — это приложение для совместной ра
 
 При создании команды создается еще один момент:
 
-- Новая группа [Microsoft 365](/MicrosoftTeams/office-365-groups)
-- [Веб-сайт SharePoint Online](/MicrosoftTeams/sharepoint-onedrive-interact) и библиотека документов для хранения файлов группы
-- Общий [почтовый ящик и](/MicrosoftTeams/exchange-teams-interact) календарь Exchange Online
+- Новая [группа Microsoft 365](/MicrosoftTeams/office-365-groups)
+- [Веб SharePoint и](/MicrosoftTeams/sharepoint-onedrive-interact) библиотека документов в Интернете для хранения файлов команд
+- Общий [Exchange Online](/MicrosoftTeams/exchange-teams-interact) и календарь
 - Записная книжка OneNote
-- Связь с другими приложениями Office 365, такими как Planner и Power BI
+- Связь с другими Office 365 приложениями, такими как Planner и Power BI
 
-Внутри Microsoft Teams можно найти:
+Внутри Microsoft Teams вы можете найти:
 
-1. **Команды:** Найдите каналы, принадлежащие или создайте собственные. Внутри каналов можно проводить встречи на месте, беседы и обмениваться файлами.
-2. **Собрания:** См. все, что вы выстроили в очередь за день или неделю. Или запланировать собрание. Этот календарь синхронизируется с календарем Outlook.
+1. **Teams:** Найдите каналы, принадлежащие или создайте собственные. Внутри каналов можно проводить встречи на месте, беседы и обмениваться файлами.
+2. **Собрания:** См. все, что вы выстроили в очередь за день или неделю. Или запланировать собрание. Этот календарь синхронизируется с Outlook календарем.
 3. **Вызовы:** В некоторых случаях, если в организации она настроена, можно вызвать любого из Microsoft Teams, даже если они не используют Microsoft Teams.
 4. **Действие:** Догонять все непрочитанные сообщения, @mentions, ответы и другие.
 
@@ -88,8 +88,8 @@ Microsoft Teams — это приложение для совместной ра
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FQMp]
 
-Дополнительные подробности о microsoft Teams в [технической документации Microsoft Teams](/microsoftteams/microsoft-teams)
+Дополнительные дополнительные Microsoft Teams в [Microsoft Teams документации](/microsoftteams/microsoft-teams)
 
 ## <a name="admin-settings"></a>Параметры администратора
 
-Вы должны быть администратором для создания всей организации. Дополнительные сведения см. [в статью Что такое администратор в Microsoft 365?](https://support.office.com/article/what-is-an-admin-e123627e-4892-4461-b9aa-1b6d57a5cfa4?ui=en-US&rs=en-US&ad=US).
+Вы должны быть администратором для создания всей организации. Дополнительные сведения см. [в статью Что такое администратор в Microsoft 365?.](https://support.office.com/article/what-is-an-admin-e123627e-4892-4461-b9aa-1b6d57a5cfa4?ui=en-US&rs=en-US&ad=US)

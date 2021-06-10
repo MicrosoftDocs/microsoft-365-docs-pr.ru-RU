@@ -120,10 +120,10 @@ ms.locfileid: "52635574"
 
 Ознакомьтесь со статьей [Я не помню имя пользователя или пароль учетной записи для Office](https://support.microsoft.com/office/eba0b4a2-c0ae-472c-99f6-bc63ee2425a8?wt.mc_id=SCL_reset-passwords_AdmHlp).
   
-## <a name="related-content"></a>См. также:
+## <a name="related-content"></a>Связанные материалы
   
-[Пусть пользователи сбрасывают собственные пароли](../add-users/let-users-reset-passwords.md) (статьи)\
+[Предоставление пользователям прав на самостоятельный сброс пароля](../add-users/let-users-reset-passwords.md) (статья)\
 [Сброс паролей](../add-users/reset-passwords.md) (статья)\
-[Установите пароль отдельного пользователя, который никогда не истекает](set-password-to-never-expire.md) (статья)\
+[Установка бессрочных пользовательских паролей](set-password-to-never-expire.md) (статья)\
 [Установите политику истечения пароля для организации](../manage/set-password-expiration-policy.md) (статья)\
 [Microsoft 365 для видео обучения бизнесу](../../business-video/index.yml) (страница ссылки)
