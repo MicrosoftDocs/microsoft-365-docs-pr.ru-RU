@@ -20,8 +20,8 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52537058"
 ---
-# <a name="payment-information-for-brazil"></a><span data-ttu-id="c7a96-103">Сведения об оплате для Бразилии</span><span class="sxs-lookup"><span data-stu-id="c7a96-103">Payment information for Brazil</span></span>
+# <a name="payment-information-for-brazil"></a><span data-ttu-id="1a402-103">Сведения об оплате для Бразилии</span><span class="sxs-lookup"><span data-stu-id="1a402-103">Payment information for Brazil</span></span>
 
-<span data-ttu-id="c7a96-104">[Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="c7a96-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="1a402-104">[Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="1a402-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="c7a96-105">Следуйте инструкции по оплате в счете-фактуре и справочном номере счета-фактуры(ы) при переводе платежа.</span><span class="sxs-lookup"><span data-stu-id="c7a96-105">Please follow payment instruction on your invoice and reference invoice number(s) on the payment remittance.</span></span>
+<span data-ttu-id="1a402-105">Следуйте инструкции по оплате в счете-фактуре и справочном номере счета-фактуры(ы) при переводе платежа.</span><span class="sxs-lookup"><span data-stu-id="1a402-105">Please follow payment instruction on your invoice and reference invoice number(s) on the payment remittance.</span></span>
