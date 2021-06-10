@@ -54,7 +54,7 @@ ms.locfileid: "51205291"
 
 ![Подробные сведения, которые появляются после нажатия сведений о просмотре сведений о том, как исправить медленное представление правил потока почты](../../media/mfi-fix-slow-mail-flow-rules-details.png)
 
-Дополнительные сведения об условиях и исключениях в правилах потока почты см. в рубрике Условия и исключения правил потока почты [(предикаты)](/Exchange/security-and-compliance/mail-flow-rules/conditions-and-exceptions)в Exchange Online.
+Дополнительные сведения об условиях и исключениях в правилах потока почты см. в [Exchange Online.](/Exchange/security-and-compliance/mail-flow-rules/conditions-and-exceptions)
 
 ## <a name="see-also"></a>См. также
 

@@ -13,12 +13,12 @@ ms.author: dansimp
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 6afdcc16493839e83771ac831831fdbb121663a1
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: b62659360e990467524ec632968dfea313d0b164
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52841778"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861675"
 ---
 # <a name="turn-on-network-protection"></a>Включить защиту сети
 
@@ -43,7 +43,7 @@ ms.locfileid: "52841778"
 
 2. Выберите **HKEY_LOCAL_MACHINE** из бокового меню
 
-3. Перейдите через вложенные меню к **политикам ПРОГРАММНОГО**  >  **ОБЕСПЕЧЕНИЯ**  >  **Microsoft**  >  **Защитник Windows**  >  **Policy Manager** 
+3. Перейдите через вложенные меню в **программное** обеспечение  >  **Microsoft**  >  **Защитник Windows**  >  **Защитник Windows защита сети exploit Guard**  >  
 
 4. Выберите **EnableNetworkProtection,** чтобы увидеть текущее состояние сетевой защиты на устройстве
 
@@ -120,7 +120,7 @@ ms.locfileid: "52841778"
 
 1. Выберите **regedit Начните и** введите, чтобы открыть **редактор реестра.** 
 
-2. Перейдите **кHKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Policy Manager\EnableNetworkProtection**
+2. Перейдите **кHKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Windows Defender Exploit Guard\Network Protection\EnableNetworkProtection**
 
 3. Выберите **EnableNetworkProtection** и подтвердите значение:
    * 0=Off

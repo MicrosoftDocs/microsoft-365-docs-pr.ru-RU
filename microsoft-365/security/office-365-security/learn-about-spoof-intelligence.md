@@ -20,12 +20,12 @@ ms.custom:
 description: Администраторы могут узнать о подмене сведений в Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2fc591bbaf2ecc6f59c2b569acde521453887c2a
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.openlocfilehash: 280743e87ce6039f456cec0b89bff57a31d75691
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52822359"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52877828"
 ---
 # <a name="spoof-intelligence-insight-in-eop"></a>Spoof intelligence insight in EOP
 
@@ -53,13 +53,13 @@ ms.locfileid: "52822359"
   - Отправитель находится в списке рассылки (также известном как список обсуждений), и список рассылки передает сообщение от исходного отправитель всем участникам списка рассылки.
   - Внешняя компания отправляет электронную почту от имени другой компании (например, автоматического отчета или компании по программному обеспечению в качестве службы).
 
-Вы можете  использовать информацию о подмене сведений в центре безопасности Microsoft 365, чтобы быстро определить поддельных отправителей, которые на законных основаниях отправляют вам неавентированные сообщения электронной почты (сообщения из доменов, которые не проходят проверки SPF, DKIM или DMARC), и вручную разрешить этим отправителям.
+Сведения о  подмене сведений можно использовать на портале Microsoft 365 Defender, чтобы быстро определить поддельных отправителей, которые на законных основаниях отправляют вам неавентированные сообщения электронной почты (сообщения из доменов, которые не проходят проверки SPF, DKIM или DMARC), и вручную разрешить этим отправителям.
 
 Разрешив известным отправителям отправлять поддельные сообщения из известных мест, можно уменьшить количество ложных срабатывателей (хорошая электронная почта помечена как плохая). Отслеживая допустимые поддельные отправители, вы предоставляете дополнительный уровень безопасности, чтобы предотвратить прибытие небезопасных сообщений в организацию.
 
 Кроме того, вы можете просмотреть поддельные отправители, которые были разрешены путем подмены разведки и вручную блокировать этих отправителей из подмены аналитики.
 
-В остальной части этой статьи рассказывается, как использовать представление о подмене сведений в центре безопасности и в PowerShell (Exchange Online PowerShell для Microsoft 365 организаций с почтовыми ящиками в Exchange Online; автономный EOP PowerShell для организаций без Exchange Online почтовых ящиков).
+В остальной части этой статьи рассказывается, как использовать сведения о подмене сведений на портале Microsoft 365 Defender и в PowerShell (Exchange Online PowerShell для Microsoft 365 организаций с почтовыми ящиками в Exchange Online; автономный EOP PowerShell для организаций без Exchange Online почтовых ящиков).
 
 > [!NOTE]
 >
@@ -71,7 +71,7 @@ ms.locfileid: "52822359"
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
-- Открытие Центра безопасности производится в <https://security.microsoft.com/>. Чтобы перейти непосредственно на страницу **anti-phishing,** используйте <https://security.microsoft.com/antiphishing> . Чтобы перейти непосредственно на страницу **аналитики Spoof,** используйте <https://security.microsoft.com/spoofintelligence> .
+- Вы открываете портал Microsoft 365 Defender по <https://security.microsoft.com/> ссылке . Чтобы перейти непосредственно на страницу **anti-phishing,** используйте <https://security.microsoft.com/antiphishing> . Чтобы перейти непосредственно на страницу **аналитики Spoof,** используйте <https://security.microsoft.com/spoofintelligence> .
 
 - Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell). Чтобы подключиться к автономному EOP PowerShell, см. раздел [Подключение к PowerShell Exchange Online Protection](/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
@@ -90,9 +90,9 @@ ms.locfileid: "52822359"
 
 - Рекомендуемые параметры для подмены сведений см. в рекомендациях EOP по борьбе [с фишинговыми политиками.](recommended-settings-for-eop-and-office365-atp.md#eop-anti-phishing-policy-settings)
 
-## <a name="open-the-spoof-intelligence-insight-in-the-security-center"></a>Откройте представление о подмене сведений в центре безопасности
+## <a name="open-the-spoof-intelligence-insight-in-the-microsoft-365-defender-portal"></a>Откройте представление о подмене сведений на портале Microsoft 365 Defender
 
-1. В центре безопасности перейдите в раздел Политики **совместной** & электронной почты & политики угрозы правил \>  \>  \>  раздела \> **Anti-phishing**.
+1. На портале Microsoft 365 Defender перейдите в раздел Политики **совместной** & электронной почты & политики угрозы \>  \>  \>  \> правил.
 
 2. На странице **Anti-phishing** аналитика подмены выглядит так:
 

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Администраторы могут включить поддержку меток конфиденциальности для файлов Word, Excel и PowerPoint в SharePoint и OneDrive.
-ms.openlocfilehash: 8007f085e7bcba7f055f616954e2f0549f6f125a
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 695084443ee10de87f091d358b63fad079e03093
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52770401"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861519"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive"></a>Включение меток конфиденциальности для файлов Office в SharePoint и OneDrive
 
@@ -220,7 +220,11 @@ SharePoint управления правами на информацию [(IRM)]
 
 Например, для поиска всех документов, помеченных как "Конфиденциальные", и эта метка имеет GUID "8faca7b8-8d20-48a3-8ea2-0f96310a848e", в поле поиска введите:
 
-`InformationProtectionLabelId: 8faca7b8-8d20-48a3-8ea2-0f96310a848e`    
+```
+InformationProtectionLabelId:8faca7b8-8d20-48a3-8ea2-0f96310a848e
+```
+
+Поиск не будет находить помеченные документы в сжатом файле, например .zip файле.
 
 Чтобы получить GUID-коды для меток конфиденциальности, используйте кодлет [Get-Label:](/powershell/module/exchange/get-label)    
 

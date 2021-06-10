@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 4be87e296739020c80babb864c57bc803f10d3e0
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 6def1b64430ad70dc4b4898ba2b914288826873e
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843690"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861495"
 ---
 # <a name="list-vulnerabilities"></a>Список уязвимостей
 
@@ -39,7 +39,7 @@ ms.locfileid: "52843690"
 
 [!include[Prerelease information](../../includes/prerelease.md)]
 
-Извлекает список всех уязвимостей, влияющих на организацию.
+Извлекает список всех уязвимостей.
 
 ## <a name="permissions"></a>Разрешения
 Для вызова этого API требуется одно из следующих разрешений. Дополнительные сведения, в том числе о выборе разрешений, см. в материале [Use Microsoft Defender for Endpoint API.](apis-intro.md)
@@ -47,7 +47,7 @@ ms.locfileid: "52843690"
 Тип разрешения |   Разрешение  |   Имя отображения разрешений
 :---|:---|:---
 Приложение |   Vulnerability.Read.All |    'Read Threat and Vulnerability Management vulnerability information'
-Делегированные (рабочая или учебная учетная запись) | Vulnerability.Read |   'Read Threat and Vulnerability Management vulnerability information'
+Делегированное (рабочая или учебная учетная запись) | Vulnerability.Read |   'Read Threat and Vulnerability Management vulnerability information'
 
 ## <a name="http-request"></a>HTTP-запрос
 ```

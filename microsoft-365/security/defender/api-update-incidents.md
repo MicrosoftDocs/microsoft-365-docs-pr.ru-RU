@@ -1,5 +1,5 @@
 ---
-title: Обновление API инцидентов
+title: Обновление API инцидента
 description: Узнайте, как обновлять инциденты с Microsoft 365 API Defender
 keywords: обновление, API, инцидент
 search.product: eADQiWindows 10XVcnh
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: e3b445b2f9612f0113f353450ca7bf0b8a1a2bb2
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: b50fe4672dd4cd721464c7414297efcc4a4921b7
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730862"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861507"
 ---
 # <a name="update-incidents-api"></a>Обновление API инцидентов
 
@@ -56,7 +56,7 @@ ms.locfileid: "52730862"
 Тип разрешения | Разрешение | Имя отображения разрешений
 -|-|-
 Приложение | Incident.ReadWrite.All | Чтение и написание всех инцидентов
-Делегированные (рабочая или учебная учетная запись) | Incident.ReadWrite | Чтение и написание инцидентов
+Делегированное (рабочая или учебная учетная запись) | Incident.ReadWrite | Чтение и написание инцидентов
 
 > [!NOTE]
 > При получении маркера с помощью учетных данных пользователей пользователю необходимо иметь разрешение на обновление инцидента на портале.

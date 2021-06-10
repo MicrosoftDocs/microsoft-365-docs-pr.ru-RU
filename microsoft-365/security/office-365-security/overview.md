@@ -16,12 +16,12 @@ ms.collection:
 description: Безопасность в Office 365, от EOP до Defender для Планов 1 и 2 Office 365, стандартные и строгие конфигурации безопасности и т.д. Разберитесь, что у вас есть, и как защитить свои свойства.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: db37718ce2feae9c79ff6b323eb22e30f24e72b2
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 29602d5fe62c84b9293522a94b71c550d360b3e3
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205837"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52877804"
 ---
 # <a name="office-365-security-overview"></a>Обзор безопасности Office 365
 
@@ -117,7 +117,7 @@ Microsoft Defender для Office 365 P1 также **добавляет обна
 
 Таким образом, Microsoft Defender для Office 365 P2 расширяет возможности ***исследования и реагирования*** и добавляет новые возможности для охоты на угрозы. Автоматизация.
 
-В Microsoft Defender для Office 365 P2 основное средство охоты на угрозы называется **обозревателем угроз**, а не обнаружением в реальном времени. Если при переходе в Центр безопасности вы видите обозреватель угроз, значит, вы находитесь в Microsoft Defender для Office 365 P2.
+В Microsoft Defender для Office 365 P2 основное средство охоты на угрозы называется **обозревателем угроз**, а не обнаружением в реальном времени. Если вы видите обозреватель угроз при переходе на портал Microsoft 365 Defender, вы в Microsoft Defender для Office 365 P2.
 
 Чтобы получить сведения о Microsoft Defender для Office 365 P1 и P2, **[перейдите к этой статье](defender-for-office-365.md)**.
 

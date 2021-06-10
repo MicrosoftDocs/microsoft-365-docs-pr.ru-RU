@@ -1,6 +1,6 @@
 ---
 title: Порядок и приоритет защиты электронной почты
-keywords: безопасность, вредоносные программы, Microsoft 365, M365, центр безопасности, Microsoft Defender для конечной точки, Microsoft Defender для Office 365, Microsoft Defender for Identity
+keywords: безопасность, вредоносные программы, Microsoft 365, M365, центр безопасности, портал Microsoft 365 Defender, Microsoft Defender для конечной точки, Microsoft Defender для Office 365, Microsoft Defender for Identity
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -17,12 +17,12 @@ ms.custom:
 description: Администраторы могут узнать о порядке защиты приложений в Exchange Online Protection (EOP), а также о том, как значение приоритета в политиках защиты определяет, какая политика применяется.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 24d43aeb70e2cdef4bdf65fd3943cdfda9ec3862
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 7243fd79287e19528e999774dbd0dd018fa86759
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52539015"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52877852"
 ---
 # <a name="order-and-precedence-of-email-protection"></a>Порядок и приоритет защиты электронной почты
 
@@ -45,7 +45,7 @@ ms.locfileid: "52539015"
 
   ****
 
-  |Приоритет|Защита электронной почты|Категория|Управление|
+  |Priority|Защита электронной почты|Category|Управление|
   |---|---|---|---|
   |1|Вредоносная программа|CAT:MALW|[Настройка политик по борьбе с вредоносными программами в EOP](configure-anti-malware-policies.md)|
   |2|Фишинг|CAT:PHSH|[Настройка политик защиты от спама в EOP](configure-your-spam-filter-policies.md)|
@@ -54,7 +54,7 @@ ms.locfileid: "52539015"
   |5<sup>\*</sup>|Вымысление пользователя (защищенные пользователи)|UIMP|[Настройка политик защиты от фишинга в Microsoft Defender для Office 365](configure-atp-anti-phishing-policies.md)|
   |6<sup>\*</sup>|Вымысление домена (защищенные домены)|DIMP|[Настройка политик защиты от фишинга в Microsoft Defender для Office 365](configure-atp-anti-phishing-policies.md)|
   |7 |Спам|CAT:SPM|[Настройка политик защиты от спама в EOP](configure-your-spam-filter-policies.md)|
-  |8 |Массовая|CAT:BULK|[Настройка политик защиты от спама в EOP](configure-your-spam-filter-policies.md)|
+  |8 |Массовая рассылка|CAT:BULK|[Настройка политик защиты от спама в EOP](configure-your-spam-filter-policies.md)|
   |
 
   <sup>\*</sup>Эти функции доступны только в политиках защиты от фишинга в Microsoft Defender для Office 365.
@@ -69,7 +69,7 @@ ms.locfileid: "52539015"
 
 ****
 
-|Имя политики|Приоритет|Олицетворение пользователя|Защита от спуфинга|
+|Имя политики|Priority|Олицетворение пользователя|Защита от спуфинга|
 |---|---|---|---|
 |Политика A|1|Вкл.|Выкл.|
 |Политика B|2|Выкл.|Вкл.|

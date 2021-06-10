@@ -35,7 +35,7 @@ ms.locfileid: "52345122"
 
 При скатыве ключа необходимо запросить новую версию существующего ключа. Чтобы запросить новую версию существующего ключа, вы используете тот же кодлет [Add-AzKeyVaultKey](/powershell/module/az.keyvault/add-azkeyvaultkey)с тем же синтаксисом, что и для создания ключа. После завершения проката любого ключа, связанного с политикой шифрования данных (DEP), вы запустите еще один комдлет, чтобы клиентский ключ начал использовать новый ключ. Сделайте этот шаг в каждом хранилище ключей Azure (AKV).
 
-Например:
+Пример.
 
 1. Вопишите свою подписку Azure с помощью Azure PowerShell. Инструкции см. в [Azure PowerShell.](/powershell/azure/authenticate-azureps)
 
@@ -63,7 +63,7 @@ ms.locfileid: "52345122"
 
 Где *PolicyName* — это имя или уникальный ID политики. Например, Contoso_Global.
 
-Пример:
+Пример.
 
 ```powershell
 Set-M365DataAtRestEncryptionPolicy -Identity "Contoso_Global" -Refresh

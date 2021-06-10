@@ -47,7 +47,7 @@ ms.locfileid: "52345062"
 
    - *Описание политики* — это удобное описание политики, которое поможет вам вспомнить, для чего нужна политика. В описании можно включить пробелы. Например, "Корневая политика для нескольких рабочих нагрузок для всех пользователей в клиенте".
 
-Пример:
+Пример.
 
 ```powershell
 New-M365DataAtRestEncryptionPolicy -Name "Contoso_Global" -AzureKeyIDs "https://contosoWestUSvault1.vault.azure.net/keys/Key_01","https://contosoCentralUSvault1.vault.azure.net/keys/Key_02" -Description "Policy for multiple workloads for all users in the tenant."
@@ -63,7 +63,7 @@ Set-M365DataAtRestEncryptionPolicyAssignment -DataEncryptionPolicy <PolicyName o
 
  Где *PolicyName* — это имя политики. Например, Contoso_Global.
 
-Пример:
+Пример.
 
 ```powershell
 Set-M365DataAtRestEncryptionPolicyAssignment -DataEncryptionPolicy "Contoso_Global"
@@ -97,7 +97,7 @@ DeP связан с набором ключей, хранимых в храни�
 
    - *KeyVaultURI2* — это URI для второго ключа в политике. Например, <https://contoso_EastUS2vault01.vault.azure.net/keys/USA_Key_02>. Разделять два URL-адреса на запятую и пробел.
 
-   Пример:
+   Пример.
   
    ```powershell
    New-DataEncryptionPolicy -Name USA_mailboxes -Description "Root key for mailboxes in USA and its territories" -AzureKeyIDs https://contoso_EastUSvault02.vault.azure.net/keys/USA_key_01, https://contoso_CentralUSvault02.vault.azure.net/keys/USA_Key_02
@@ -143,7 +143,7 @@ Set-MailUser -Identity <MailUserIdParameter> -DataEncryptionPolicy <PolicyName>
    Register-SPODataEncryptionPolicy -Identity <adminSiteCollectionURL> -PrimaryKeyVaultName <PrimaryKeyVaultName> -PrimaryKeyName <PrimaryKeyName> -PrimaryKeyVersion <PrimaryKeyVersion> -SecondaryKeyVaultName <SecondaryKeyVaultName> -SecondaryKeyName <SecondaryKeyName> -SecondaryKeyVersion <SecondaryKeyVersion>
    ```
 
-   Пример:
+   Пример.
   
    ```powershell
    Register-SPODataEncryptionPolicy -Identity https://contoso.sharepoint.com -PrimaryKeyVaultName 'stageRG3vault' -PrimaryKeyName 'SPKey3' -PrimaryKeyVersion 'f635a23bd4a44b9996ff6aadd88d42ba' -SecondaryKeyVaultName 'stageRG5vault' -SecondaryKeyName 'SPKey5' -SecondaryKeyVersion '2b3e8f1d754f438dacdec1f0945f251a’
@@ -287,7 +287,7 @@ Get-MailboxStatistics -Identity <GeneralMailboxOrMailUserIdParameter> | fl IsEnc
 
 Где *PolicyName* — это имя или уникальный ID политики. Например, Contoso_Global.
 
-Пример:
+Пример.
 
 ```powershell
 Set-M365DataAtRestEncryptionPolicy -Identity "Contoso_Global" -Enabled $false
@@ -301,7 +301,7 @@ Set-M365DataAtRestEncryptionPolicy -Identity "Contoso_Global" -Enabled $false
 Restore-AzKeyVaultKey -VaultName <vault name> -InputFile <filename>
 ```
 
-Например:
+Пример.
   
 ```powershell
 Restore-AzKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -InputFile Contoso-O365EX-NA-VaultA1-Key001-Backup-20170802.backup
@@ -319,7 +319,7 @@ Restore-AzKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -InputFile Contoso-O3
 Get-AzKeyVault -VaultName <vault name>
 ```
 
-Например:
+Пример.
 
 ```powershell
 Get-AzKeyVault -VaultName Contoso-O365EX-NA-VaultA1
@@ -331,7 +331,7 @@ Get-AzKeyVault -VaultName Contoso-O365EX-NA-VaultA1
 Remove-AzKeyVaultAccessPolicy -VaultName <vault name> -UserPrincipalName <UPN of user>
 ```
 
-Например:
+Пример.
 
 ```powershell
 Remove-AzKeyVaultAccessPolicy -VaultName Contoso-O365EX-NA-VaultA1 -UserPrincipalName alice@contoso.com

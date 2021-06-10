@@ -33,7 +33,7 @@ ms.locfileid: "52345110"
 > [!IMPORTANT]
 > Эта статья применяется только к Microsoft Teams организации в Индии.
 
-## <a name="before-you-begin"></a>Подготовка
+## <a name="before-you-begin"></a>Прежде чем начать
 
 Вы должны быть администратором Microsoft Teams бесплатно для обновления Microsoft Teams бесплатной организации. Если вы создали организацию Microsoft Teams, вы автоматически Microsoft Teams администратором.
 
@@ -74,7 +74,7 @@ ms.locfileid: "52345110"
 4. В области **Замените** существующие продукты, Microsoft 365 для бизнес-продукта, который вы купили, и переключите переключатель **на On**.
 5. Выберите **Замените,** а затем выберите **Закрыть**.
 
-## <a name="related-content"></a>Связанные материалы
+## <a name="related-content"></a>См. также:
 
 [Добро пожаловать в Microsoft Teams](https://support.microsoft.com/office/6d79a648-6913-4696-9237-ed13de64ae3c) (статья)\
 [Обновление Microsoft Teams до версии подписки](/microsoftteams/upgrade-freemium) (статья)\
