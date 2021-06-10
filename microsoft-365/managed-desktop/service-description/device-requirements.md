@@ -16,69 +16,69 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/06/2021
 ms.locfileid: "52245796"
 ---
-# <a name="device-requirements"></a><span data-ttu-id="cd6c2-104">Требования к устройству</span><span class="sxs-lookup"><span data-stu-id="cd6c2-104">Device requirements</span></span>
+# <a name="device-requirements"></a><span data-ttu-id="e0d83-104">Требования к устройству</span><span class="sxs-lookup"><span data-stu-id="e0d83-104">Device requirements</span></span>
 
-<span data-ttu-id="cd6c2-105">компьютеры, управляемые Майкрософт регулярно оценивает требования к устройству, которые необходимо включить в службу.</span><span class="sxs-lookup"><span data-stu-id="cd6c2-105">Microsoft Managed Desktop regularly evaluates device requirements to be included in the service.</span></span> <span data-ttu-id="cd6c2-106">В этой статье описываются требования к оборудованию и программному обеспечению, которые необходимо выполнить устройству для работы с компьютеры, управляемые Майкрософт.</span><span class="sxs-lookup"><span data-stu-id="cd6c2-106">This article describes the hardware and software requirements a device must meet in order to work with Microsoft Managed Desktop.</span></span> <span data-ttu-id="cd6c2-107">На основе этих требований можно просмотреть список определенных устройств, уже утвержденных для использования в службе.</span><span class="sxs-lookup"><span data-stu-id="cd6c2-107">You can review a list of specific devices already approved for use with the service based on these requirements.</span></span> <span data-ttu-id="cd6c2-108">Фильтр для компьютеры, управляемые Майкрософт на сайте [Windows 10 Pro бизнес-устройств](https://www.microsoft.com/windowsforbusiness/view-all-devices)</span><span class="sxs-lookup"><span data-stu-id="cd6c2-108">Filter for Microsoft Managed Desktop on the [Shop Windows 10 Pro business devices](https://www.microsoft.com/windowsforbusiness/view-all-devices) site</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="cd6c2-109">Эти требования могут изменяться в любое время, но мы предоставляем уведомление за 30 дней о любых изменениях требований к оборудованию.</span><span class="sxs-lookup"><span data-stu-id="cd6c2-109">These requirements can change at any time, but we will provide 30 days notice of any hardware requirement changes.</span></span> <span data-ttu-id="cd6c2-110">Требования, недавно измененные, отмечены **\*** .</span><span class="sxs-lookup"><span data-stu-id="cd6c2-110">The requirements most recently changed are marked with **\***.</span></span> 
-
-## <a name="check-hardware-requirements"></a><span data-ttu-id="cd6c2-111">Проверка требований к оборудованию</span><span class="sxs-lookup"><span data-stu-id="cd6c2-111">Check hardware requirements</span></span>
-
-<span data-ttu-id="cd6c2-112">Помимо проверки спецификаций устройств, вы также [](../get-ready/readiness-assessment-downloadable.md) можете использовать проверку готовности для загрузки, чтобы убедиться, что заданное устройство соответствует необходимым требованиям.</span><span class="sxs-lookup"><span data-stu-id="cd6c2-112">Besides reviewing device specs, you can also use the downloadable [readiness assessment checker](../get-ready/readiness-assessment-downloadable.md) to verify that a given device meets the necessary requirements.</span></span> <span data-ttu-id="cd6c2-113">Этот инструмент также проверяет параметры сети и конечные точки, которые также необходимы для работы службы.</span><span class="sxs-lookup"><span data-stu-id="cd6c2-113">This tool also checks network settings and endpoints that are also necessary for the service to work.</span></span>
-
-## <a name="minimum-requirements"></a><span data-ttu-id="cd6c2-114">Минимальные требования</span><span class="sxs-lookup"><span data-stu-id="cd6c2-114">Minimum requirements</span></span>
-
-<span data-ttu-id="cd6c2-115">Чтобы быть зарегистрированным в компьютеры, управляемые Майкрософт, устройство должно соответствовать или превышать все эти требования.</span><span class="sxs-lookup"><span data-stu-id="cd6c2-115">To be enrolled in Microsoft Managed Desktop, a device must meet or exceed all of these requirements.</span></span>
-
-### <a name="manufacturer"></a><span data-ttu-id="cd6c2-116">Производитель</span><span class="sxs-lookup"><span data-stu-id="cd6c2-116">Manufacturer</span></span>
-
-<span data-ttu-id="cd6c2-117">Устройство должно быть сделано одним из этих производителей:</span><span class="sxs-lookup"><span data-stu-id="cd6c2-117">The device must have been made by one of these manufacturers:</span></span>
-
-- <span data-ttu-id="cd6c2-118">Dell</span><span class="sxs-lookup"><span data-stu-id="cd6c2-118">Dell</span></span>
-- <span data-ttu-id="cd6c2-119">HP</span><span class="sxs-lookup"><span data-stu-id="cd6c2-119">HP</span></span>
-- <span data-ttu-id="cd6c2-120">Lenovo</span><span class="sxs-lookup"><span data-stu-id="cd6c2-120">Lenovo</span></span>
-- <span data-ttu-id="cd6c2-121">Корпорация Майкрософт</span><span class="sxs-lookup"><span data-stu-id="cd6c2-121">Microsoft</span></span>
-
-
-### <a name="installed-software"></a><span data-ttu-id="cd6c2-122">Установленное программное обеспечение</span><span class="sxs-lookup"><span data-stu-id="cd6c2-122">Installed software</span></span>
-
-<span data-ttu-id="cd6c2-123">На устройстве должно быть предустановлено это программное обеспечение:</span><span class="sxs-lookup"><span data-stu-id="cd6c2-123">The device must have this software preinstalled:</span></span>
-
-- <span data-ttu-id="cd6c2-124">Windows 10 Корпоративная, Pro или Pro workstation edition</span><span class="sxs-lookup"><span data-stu-id="cd6c2-124">Windows 10 Enterprise, Pro, or Pro Workstation edition</span></span>
-- <span data-ttu-id="cd6c2-125">64-битная версия Приложения Microsoft 365 для предприятий</span><span class="sxs-lookup"><span data-stu-id="cd6c2-125">the 64-bit version of Microsoft 365 Apps for enterprise</span></span> 
-- <span data-ttu-id="cd6c2-126">Все применимые драйверы устройств</span><span class="sxs-lookup"><span data-stu-id="cd6c2-126">All applicable device drivers</span></span>
-
-
-### <a name="physical-features"></a><span data-ttu-id="cd6c2-127">Физические возможности</span><span class="sxs-lookup"><span data-stu-id="cd6c2-127">Physical features</span></span>
-
-<span data-ttu-id="cd6c2-128">Устройства должны иметь такие возможности:</span><span class="sxs-lookup"><span data-stu-id="cd6c2-128">Devices must have these capabilities:</span></span>
-
-- <span data-ttu-id="cd6c2-129">Включен для безопасной загрузки UEFI</span><span class="sxs-lookup"><span data-stu-id="cd6c2-129">Enabled for UEFI secure boot</span></span> 
-- <span data-ttu-id="cd6c2-130">Доверенный модуль платформы 2.0</span><span class="sxs-lookup"><span data-stu-id="cd6c2-130">Trusted Platform Module 2.0</span></span> 
-- <span data-ttu-id="cd6c2-131">Безопасность на основе виртуализации</span><span class="sxs-lookup"><span data-stu-id="cd6c2-131">Capable of virtualization-based security</span></span> 
-- <span data-ttu-id="cd6c2-132">[Целостность кода с защитой гипервизора,](/windows-hardware/drivers/bringup/device-guard-and-credential-guard) поддерживаемая BIOS</span><span class="sxs-lookup"><span data-stu-id="cd6c2-132">[Hypervisor-protected code integrity](/windows-hardware/drivers/bringup/device-guard-and-credential-guard) supported by the BIOS</span></span>
-
-<span data-ttu-id="cd6c2-133">Дополнительные данные об этих возможностях и связанных с ними технологиях см. в компьютеры, управляемые Майкрософт [технологиях.](../intro/technologies.md)</span><span class="sxs-lookup"><span data-stu-id="cd6c2-133">For more about these capabilities and the technologies related to them that the service uses, see [Microsoft Managed Desktop technologies](../intro/technologies.md).</span></span>
+<span data-ttu-id="e0d83-105">компьютеры, управляемые Майкрософт регулярно оценивает требования к устройству, которые необходимо включить в службу.</span><span class="sxs-lookup"><span data-stu-id="e0d83-105">Microsoft Managed Desktop regularly evaluates device requirements to be included in the service.</span></span> <span data-ttu-id="e0d83-106">В этой статье описываются требования к оборудованию и программному обеспечению, которые необходимо выполнить устройству для работы с компьютеры, управляемые Майкрософт.</span><span class="sxs-lookup"><span data-stu-id="e0d83-106">This article describes the hardware and software requirements a device must meet in order to work with Microsoft Managed Desktop.</span></span> <span data-ttu-id="e0d83-107">На основе этих требований можно просмотреть список определенных устройств, уже утвержденных для использования в службе.</span><span class="sxs-lookup"><span data-stu-id="e0d83-107">You can review a list of specific devices already approved for use with the service based on these requirements.</span></span> <span data-ttu-id="e0d83-108">Фильтр для компьютеры, управляемые Майкрософт на сайте [Windows 10 Pro бизнес-устройств](https://www.microsoft.com/windowsforbusiness/view-all-devices)</span><span class="sxs-lookup"><span data-stu-id="e0d83-108">Filter for Microsoft Managed Desktop on the [Shop Windows 10 Pro business devices](https://www.microsoft.com/windowsforbusiness/view-all-devices) site</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="cd6c2-134">ARM процессоры не поддерживаются.</span><span class="sxs-lookup"><span data-stu-id="cd6c2-134">ARM processors are not supported.</span></span>
+> <span data-ttu-id="e0d83-109">Эти требования могут изменяться в любое время, но мы предоставляем уведомление за 30 дней о любых изменениях требований к оборудованию.</span><span class="sxs-lookup"><span data-stu-id="e0d83-109">These requirements can change at any time, but we will provide 30 days notice of any hardware requirement changes.</span></span> <span data-ttu-id="e0d83-110">Требования, недавно измененные, отмечены **\*** .</span><span class="sxs-lookup"><span data-stu-id="e0d83-110">The requirements most recently changed are marked with **\***.</span></span> 
 
-<span data-ttu-id="cd6c2-135">Устройства должны соответствовать или превышать следующие ограничения для хранения и памяти:</span><span class="sxs-lookup"><span data-stu-id="cd6c2-135">Devices should meet or exceed following limits for storage and memory:</span></span>
+## <a name="check-hardware-requirements"></a><span data-ttu-id="e0d83-111">Проверка требований к оборудованию</span><span class="sxs-lookup"><span data-stu-id="e0d83-111">Check hardware requirements</span></span>
 
-- <span data-ttu-id="cd6c2-136">Загрузочный диск должен быть любым типом, кроме жесткого диска.</span><span class="sxs-lookup"><span data-stu-id="cd6c2-136">Boot drive must be any type other than a hard disk.</span></span> <span data-ttu-id="cd6c2-137">Например, диски SSD, NVMe и eMMC — это все допустимые решения.</span><span class="sxs-lookup"><span data-stu-id="cd6c2-137">For example, SSD, NVMe, and eMMC drives are all valid choices.</span></span>
-- <span data-ttu-id="cd6c2-138">Накопитель загрузки должен иметь емкость не менее 128 ГБ.</span><span class="sxs-lookup"><span data-stu-id="cd6c2-138">Boot drive must have a capacity of at least 128 GB.</span></span>
-- <span data-ttu-id="cd6c2-139">Внутренняя память устройства (оперативная память) должна равняться или превышать 8 ГБ.</span><span class="sxs-lookup"><span data-stu-id="cd6c2-139">Internal device memory (RAM) must equal or exceed 8 GB.</span></span>
+<span data-ttu-id="e0d83-112">Помимо проверки спецификаций устройств, вы также [](../get-ready/readiness-assessment-downloadable.md) можете использовать проверку готовности для загрузки, чтобы убедиться, что заданное устройство соответствует необходимым требованиям.</span><span class="sxs-lookup"><span data-stu-id="e0d83-112">Besides reviewing device specs, you can also use the downloadable [readiness assessment checker](../get-ready/readiness-assessment-downloadable.md) to verify that a given device meets the necessary requirements.</span></span> <span data-ttu-id="e0d83-113">Этот инструмент также проверяет параметры сети и конечные точки, которые также необходимы для работы службы.</span><span class="sxs-lookup"><span data-stu-id="e0d83-113">This tool also checks network settings and endpoints that are also necessary for the service to work.</span></span>
 
-<span data-ttu-id="cd6c2-140">Если устройство было сделано после 1 июля 2020 г., оно также должно иметь ИК-камеру, сканер отпечатков пальцев или оба устройства, чтобы поддерживать Windows [Hello](/windows-hardware/design/device-experiences/windows-hello-enhanced-sign-in-security).</span><span class="sxs-lookup"><span data-stu-id="cd6c2-140">If the device was made after July 1, 2020, it should also have an IR camera, fingerprint reader, or both, in order to support [Windows Hello](/windows-hardware/design/device-experiences/windows-hello-enhanced-sign-in-security).</span></span>
+## <a name="minimum-requirements"></a><span data-ttu-id="e0d83-114">Минимальные требования</span><span class="sxs-lookup"><span data-stu-id="e0d83-114">Minimum requirements</span></span>
 
-## <a name="recommended-features"></a><span data-ttu-id="cd6c2-141">Рекомендуемые функции</span><span class="sxs-lookup"><span data-stu-id="cd6c2-141">Recommended features</span></span>
+<span data-ttu-id="e0d83-115">Чтобы быть зарегистрированным в компьютеры, управляемые Майкрософт, устройство должно соответствовать или превышать все эти требования.</span><span class="sxs-lookup"><span data-stu-id="e0d83-115">To be enrolled in Microsoft Managed Desktop, a device must meet or exceed all of these requirements.</span></span>
 
-<span data-ttu-id="cd6c2-142">Ваши пользователи будут иметь гораздо больше возможностей, если вы выбираете устройства, которые имеют эти функции:</span><span class="sxs-lookup"><span data-stu-id="cd6c2-142">Your users will have a much better experience if you choose devices that have these features:</span></span>
+### <a name="manufacturer"></a><span data-ttu-id="e0d83-116">Производитель</span><span class="sxs-lookup"><span data-stu-id="e0d83-116">Manufacturer</span></span>
 
-- <span data-ttu-id="cd6c2-143">Процессор intel vPro-platform или процессор AMD Ryzen Pro</span><span class="sxs-lookup"><span data-stu-id="cd6c2-143">Either an Intel vPro-platform processor or an AMD Ryzen Pro processor</span></span>
-- <span data-ttu-id="cd6c2-144">Загрузочный диск типа SSD с емкостью не менее 256 ГБ</span><span class="sxs-lookup"><span data-stu-id="cd6c2-144">Boot drive of the SSD type with a capacity of at least 256 GB</span></span>
-- <span data-ttu-id="cd6c2-145">Внутренняя память устройства (оперативная память) не менее 16 ГБ</span><span class="sxs-lookup"><span data-stu-id="cd6c2-145">Internal device memory (RAM) of at least 16 GB</span></span>
-- <span data-ttu-id="cd6c2-146">Поддержка современного ожидания</span><span class="sxs-lookup"><span data-stu-id="cd6c2-146">Support for Modern Standby</span></span>
-- <span data-ttu-id="cd6c2-147">Устройство имеет тип ПК с защищенным ядром</span><span class="sxs-lookup"><span data-stu-id="cd6c2-147">Device is of Secured-core PC type</span></span>
-- <span data-ttu-id="cd6c2-148">Поддерживает защиту DMA ядра</span><span class="sxs-lookup"><span data-stu-id="cd6c2-148">Supports Kernel DMA Protection</span></span>
+<span data-ttu-id="e0d83-117">Устройство должно быть сделано одним из этих производителей:</span><span class="sxs-lookup"><span data-stu-id="e0d83-117">The device must have been made by one of these manufacturers:</span></span>
+
+- <span data-ttu-id="e0d83-118">Dell</span><span class="sxs-lookup"><span data-stu-id="e0d83-118">Dell</span></span>
+- <span data-ttu-id="e0d83-119">HP</span><span class="sxs-lookup"><span data-stu-id="e0d83-119">HP</span></span>
+- <span data-ttu-id="e0d83-120">Lenovo</span><span class="sxs-lookup"><span data-stu-id="e0d83-120">Lenovo</span></span>
+- <span data-ttu-id="e0d83-121">Корпорация Майкрософт</span><span class="sxs-lookup"><span data-stu-id="e0d83-121">Microsoft</span></span>
+
+
+### <a name="installed-software"></a><span data-ttu-id="e0d83-122">Установленное программное обеспечение</span><span class="sxs-lookup"><span data-stu-id="e0d83-122">Installed software</span></span>
+
+<span data-ttu-id="e0d83-123">На устройстве должно быть предустановлено это программное обеспечение:</span><span class="sxs-lookup"><span data-stu-id="e0d83-123">The device must have this software preinstalled:</span></span>
+
+- <span data-ttu-id="e0d83-124">Windows 10 Корпоративная, Pro или Pro workstation edition</span><span class="sxs-lookup"><span data-stu-id="e0d83-124">Windows 10 Enterprise, Pro, or Pro Workstation edition</span></span>
+- <span data-ttu-id="e0d83-125">64-битная версия Приложения Microsoft 365 для предприятий</span><span class="sxs-lookup"><span data-stu-id="e0d83-125">the 64-bit version of Microsoft 365 Apps for enterprise</span></span> 
+- <span data-ttu-id="e0d83-126">Все применимые драйверы устройств</span><span class="sxs-lookup"><span data-stu-id="e0d83-126">All applicable device drivers</span></span>
+
+
+### <a name="physical-features"></a><span data-ttu-id="e0d83-127">Физические возможности</span><span class="sxs-lookup"><span data-stu-id="e0d83-127">Physical features</span></span>
+
+<span data-ttu-id="e0d83-128">Устройства должны иметь такие возможности:</span><span class="sxs-lookup"><span data-stu-id="e0d83-128">Devices must have these capabilities:</span></span>
+
+- <span data-ttu-id="e0d83-129">Включен для безопасной загрузки UEFI</span><span class="sxs-lookup"><span data-stu-id="e0d83-129">Enabled for UEFI secure boot</span></span> 
+- <span data-ttu-id="e0d83-130">Доверенный модуль платформы 2.0</span><span class="sxs-lookup"><span data-stu-id="e0d83-130">Trusted Platform Module 2.0</span></span> 
+- <span data-ttu-id="e0d83-131">Безопасность на основе виртуализации</span><span class="sxs-lookup"><span data-stu-id="e0d83-131">Capable of virtualization-based security</span></span> 
+- <span data-ttu-id="e0d83-132">[Целостность кода с защитой гипервизора,](/windows-hardware/drivers/bringup/device-guard-and-credential-guard) поддерживаемая BIOS</span><span class="sxs-lookup"><span data-stu-id="e0d83-132">[Hypervisor-protected code integrity](/windows-hardware/drivers/bringup/device-guard-and-credential-guard) supported by the BIOS</span></span>
+
+<span data-ttu-id="e0d83-133">Дополнительные данные об этих возможностях и связанных с ними технологиях см. в компьютеры, управляемые Майкрософт [технологиях.](../intro/technologies.md)</span><span class="sxs-lookup"><span data-stu-id="e0d83-133">For more about these capabilities and the technologies related to them that the service uses, see [Microsoft Managed Desktop technologies](../intro/technologies.md).</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="e0d83-134">ARM процессоры не поддерживаются.</span><span class="sxs-lookup"><span data-stu-id="e0d83-134">ARM processors are not supported.</span></span>
+
+<span data-ttu-id="e0d83-135">Устройства должны соответствовать или превышать следующие ограничения для хранения и памяти:</span><span class="sxs-lookup"><span data-stu-id="e0d83-135">Devices should meet or exceed following limits for storage and memory:</span></span>
+
+- <span data-ttu-id="e0d83-136">Загрузочный диск должен быть любым типом, кроме жесткого диска.</span><span class="sxs-lookup"><span data-stu-id="e0d83-136">Boot drive must be any type other than a hard disk.</span></span> <span data-ttu-id="e0d83-137">Например, диски SSD, NVMe и eMMC — это все допустимые решения.</span><span class="sxs-lookup"><span data-stu-id="e0d83-137">For example, SSD, NVMe, and eMMC drives are all valid choices.</span></span>
+- <span data-ttu-id="e0d83-138">Накопитель загрузки должен иметь емкость не менее 128 ГБ.</span><span class="sxs-lookup"><span data-stu-id="e0d83-138">Boot drive must have a capacity of at least 128 GB.</span></span>
+- <span data-ttu-id="e0d83-139">Внутренняя память устройства (оперативная память) должна равняться или превышать 8 ГБ.</span><span class="sxs-lookup"><span data-stu-id="e0d83-139">Internal device memory (RAM) must equal or exceed 8 GB.</span></span>
+
+<span data-ttu-id="e0d83-140">Если устройство было сделано после 1 июля 2020 г., оно также должно иметь ИК-камеру, сканер отпечатков пальцев или оба устройства, чтобы поддерживать Windows [Hello](/windows-hardware/design/device-experiences/windows-hello-enhanced-sign-in-security).</span><span class="sxs-lookup"><span data-stu-id="e0d83-140">If the device was made after July 1, 2020, it should also have an IR camera, fingerprint reader, or both, in order to support [Windows Hello](/windows-hardware/design/device-experiences/windows-hello-enhanced-sign-in-security).</span></span>
+
+## <a name="recommended-features"></a><span data-ttu-id="e0d83-141">Рекомендуемые функции</span><span class="sxs-lookup"><span data-stu-id="e0d83-141">Recommended features</span></span>
+
+<span data-ttu-id="e0d83-142">Ваши пользователи будут иметь гораздо больше возможностей, если вы выбираете устройства, которые имеют эти функции:</span><span class="sxs-lookup"><span data-stu-id="e0d83-142">Your users will have a much better experience if you choose devices that have these features:</span></span>
+
+- <span data-ttu-id="e0d83-143">Процессор intel vPro-platform или процессор AMD Ryzen Pro</span><span class="sxs-lookup"><span data-stu-id="e0d83-143">Either an Intel vPro-platform processor or an AMD Ryzen Pro processor</span></span>
+- <span data-ttu-id="e0d83-144">Загрузочный диск типа SSD с емкостью не менее 256 ГБ</span><span class="sxs-lookup"><span data-stu-id="e0d83-144">Boot drive of the SSD type with a capacity of at least 256 GB</span></span>
+- <span data-ttu-id="e0d83-145">Внутренняя память устройства (оперативная память) не менее 16 ГБ</span><span class="sxs-lookup"><span data-stu-id="e0d83-145">Internal device memory (RAM) of at least 16 GB</span></span>
+- <span data-ttu-id="e0d83-146">Поддержка современного ожидания</span><span class="sxs-lookup"><span data-stu-id="e0d83-146">Support for Modern Standby</span></span>
+- <span data-ttu-id="e0d83-147">Устройство имеет тип ПК с защищенным ядром</span><span class="sxs-lookup"><span data-stu-id="e0d83-147">Device is of Secured-core PC type</span></span>
+- <span data-ttu-id="e0d83-148">Поддерживает защиту DMA ядра</span><span class="sxs-lookup"><span data-stu-id="e0d83-148">Supports Kernel DMA Protection</span></span>
