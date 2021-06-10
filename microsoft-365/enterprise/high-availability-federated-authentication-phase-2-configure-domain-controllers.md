@@ -23,12 +23,12 @@ ms.locfileid: "50909814"
 ---
 # <a name="high-availability-federated-authentication-phase-2-configure-domain-controllers"></a>Этап 2. Федеративная проверка подлинности для обеспечения высокой доступности: настройка контроллеров домена
 
-На этом этапе развертывания высокой доступности для федерарной проверки подлинности Microsoft 365 в службах инфраструктуры Azure настраиваются два контроллера домена и сервер синхронизации каталогов в виртуальной сети Azure. После этого проверку подлинности клиентов можно выполнять в виртуальной сети Azure, не отправляя трафик проверки подлинности через подключение VPN типа "сеть-сеть" к локальной сети.
+На этом этапе развертывания высокой доступности для Microsoft 365 федерарной проверки подлинности в службах инфраструктуры Azure настраиваются два контроллера домена и сервер синхронизации каталогов в виртуальной сети Azure. После этого проверку подлинности клиентов можно выполнять в виртуальной сети Azure, не отправляя трафик проверки подлинности через подключение VPN типа "сеть-сеть" к локальной сети.
   
 > [!NOTE]
 > Службы Федерации Active Directory (AD FS) не могут использовать Azure Active Directory (Azure AD) в качестве замены контроллеров доменных служб Active Directory (AD DS). 
   
-Перед переходом на этап [3: Настройка серверов AD FS](high-availability-federated-authentication-phase-3-configure-ad-fs-servers.md)необходимо завершить этот этап. Развертывание [федерарной](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md) проверки подлинности с высокой доступностью для Microsoft 365 в Azure для всех этапов.
+Перед переходом на этап [3: Настройка серверов AD FS](high-availability-federated-authentication-phase-3-configure-ad-fs-servers.md)необходимо завершить этот этап. См. в рублях Развертывание [федерарной](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md) проверки подлинности с высокой доступностью для Microsoft 365 в Azure для всех этапов.
   
 ## <a name="create-the-domain-controller-virtual-machines-in-azure"></a>Создание виртуальных машин контроллеров домена в Azure
 
@@ -44,7 +44,7 @@ ms.locfileid: "50909814"
 |6.  <br/> |![линия](../media/Common-Images/TableLine.png) (первый прокси-сервер веб-приложения, пример WEB1)  <br/> |Windows Server 2016 Datacenter  <br/> |Standard_LRS  <br/> |Standard_D2  <br/> |
 |7.  <br/> |![линия](../media/Common-Images/TableLine.png) (второй прокси-сервер веб-приложения, например WEB2)  <br/> |Windows Server 2016 Datacenter  <br/> |Standard_LRS  <br/> |Standard_D2  <br/> |
    
- **Таблица M . Виртуальные машины для федерарной проверки подлинности высокой доступности для Microsoft 365 в Azure**
+ **Таблица M . Виртуальные машины для федерарной проверки подлинности высокой доступности для Microsoft 365 Azure**
   
 Полный список размеров виртуальных машин представлен в [этой статье](/azure/virtual-machines/virtual-machines-windows-sizes).
   
@@ -65,12 +65,12 @@ ms.locfileid: "50909814"
 Напомним, что вы определили таблицы R, V, S, I и A в [фазе 1: Настройка Azure](high-availability-federated-authentication-phase-1-configure-azure.md).
   
 > [!NOTE]
-> Для указанных ниже последовательностей команд используется последняя версия Azure PowerShell. См. [начало работы с Azure PowerShell.](/powershell/azure/get-started-azureps) 
+> Для указанных ниже последовательностей команд используется последняя версия Azure PowerShell. См. [начало работы с Azure PowerShell](/powershell/azure/get-started-azureps). 
   
 Указав правильные значения, выполните полученный блок в командной строке Azure PowerShell или в интегрированной среде сценариев PowerShell (ISE) на локальном компьютере.
   
 > [!TIP]
-> Для создания готовых к запуску командных блоков PowerShell на основе настраиваемой настройки используйте эту книгу конфигурации [Microsoft Excel.](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/O365FedAuthInAzure_Config.xlsx) 
+> Для создания готовых к запуску командных блоков PowerShell на основе настраиваемой настройки используйте Microsoft Excel [конфигурации.](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/O365FedAuthInAzure_Config.xlsx) 
 
 ```powershell
 # Set up variables common to both virtual machines
@@ -245,9 +245,9 @@ Restart-Computer
   
 **Этап 2. Контроллеры домена и сервер синхронизации каталогов для инфраструктуры федерарной проверки подлинности высокой доступности в Azure**
 
-![Этап 2 высокой доступности инфраструктуры федерарной проверки подлинности Microsoft 365 в Azure с контроллерами домена](../media/b0c1013b-3fb4-499e-93c1-bf310d8f4c32.png)
+![Этап 2 высокой доступности Microsoft 365 федерарной проверки подлинности в Azure с контроллерами домена](../media/b0c1013b-3fb4-499e-93c1-bf310d8f4c32.png)
   
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Следующий этап
 
 Используйте [этап 3. Настройка серверов AD FS для](high-availability-federated-authentication-phase-3-configure-ad-fs-servers.md) продолжения настройки этой рабочей нагрузки.
   

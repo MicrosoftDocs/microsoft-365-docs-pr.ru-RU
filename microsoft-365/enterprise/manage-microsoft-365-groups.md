@@ -21,7 +21,7 @@ search.appverid:
 - MED150
 - BCS160
 ms.assetid: 98ca5b3f-f720-4d8e-91be-fe656548a25a
-description: Узнайте, как управлять группами Microsoft 365.
+description: Узнайте, как управлять Microsoft 365 группами.
 ms.openlocfilehash: 529bdb874661329497b103a1207b90625ad33a4b
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -31,9 +31,9 @@ ms.locfileid: "50911011"
 ---
 # <a name="manage-microsoft-365-groups"></a>Управление группами Microsoft 365
 
-*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
+*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
 
-Вы можете управлять группами Microsoft 365 несколькими способами в зависимости от конфигурации. Вы можете управлять учетными записями пользователей в центре администрирования [Microsoft 365,](../admin/add-users/index.yml)PowerShell, в службах домена Active Directory (AD DS) или в центре администрирования [Azure Active Directory (Azure AD).](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal) 
+Вы можете управлять Microsoft 365 различными способами, в зависимости от конфигурации. Вы можете управлять учетными записями пользователей в центре [администрирования Microsoft 365](../admin/add-users/index.yml)PowerShell, в службах домена Active Directory (AD DS) или в центре администрирования [Azure Active Directory Azure AD.](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal) 
 
 ## <a name="plan-for-where-and-how-you-will-manage-your-groups"></a>Планирование, где и как вы будете управлять группами
 

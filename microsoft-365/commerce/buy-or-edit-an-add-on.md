@@ -18,7 +18,7 @@ ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 - commerce_purchase
-description: Узнайте, как покупать и управлять надстройки для microsoft 365 для бизнес-подписки.
+description: Узнайте, как покупать и управлять надстройки для вашей Microsoft 365 для бизнеса подписки.
 ms.date: 04/02/2021
 ms.openlocfilehash: 8cf586114c9b6ab30a9f4e5acdd669e185edd71b
 ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
@@ -71,7 +71,7 @@ ms.locfileid: "52331782"
 
 Вы не можете удалить традиционную надстройка. Если вы хотите удалить традиционную надстройка, обратитесь за помощью в [службу поддержки.](../business-video/get-help-support.md)
   
-## <a name="related-content"></a>Связанные материалы
+## <a name="related-content"></a>См. также:
 
 [Добавление пространства для хранения подписки](add-storage-space.md) (статья)\
 [Покупка или удаление лицензий на подписку](licenses/buy-licenses.md) (статья)\

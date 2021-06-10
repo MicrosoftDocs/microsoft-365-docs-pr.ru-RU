@@ -146,7 +146,7 @@ ms.locfileid: "52332022"
 
 Налоги с продаж рассчитываются по цене единицы, а затем агрегируются.
 
-Например:
+Пример.
 
 >*(ставка налога на единицу цены X) X quantity = total sales tax*
 
@@ -168,7 +168,7 @@ ms.locfileid: "52332022"
 | Соединенные Штаты | Сертификат об освобождении от налогов с продаж |
 | Пуэрто-Рико | Certificado de Compras Exentas |
   
-## <a name="related-content"></a>Связанные материалы
+## <a name="related-content"></a>См. также:
   
 [Просмотр счета](view-your-bill-or-invoice.md) (статья)\
 [Ознакомление со счетом](understand-your-invoice.md) (статья)\

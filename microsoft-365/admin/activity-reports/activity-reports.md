@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: Получите периодический отчет о том, как сотрудники вашей организации используют службы Microsoft 365 и подробно изучайте каждую диаграмму, чтобы получить дополнительные сведения.
-ms.openlocfilehash: 917a44f4b6f7458c50ac193b95c7751c66c9e7cd
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 66cb3436fe6903c429e3c1950eee040b21c6dc9d
+ms.sourcegitcommit: e1e275eb88153bafddf93327adf8f82318913a8d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52530974"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52809003"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center"></a>Отчеты по Microsoft 365 в Центре администрирования
 
@@ -33,7 +33,7 @@ ms.locfileid: "52530974"
   
 Доступны отчеты за последние 7, 30, 90 и 180 дней. В начале каждого из периодов отчетные данные отсутствуют, поэтому отчеты появляются в течение 48 часов.
   
-Смотрите это видео на обзор: о том, как вы можете использовать отчеты:
+## <a name="watch-act-on-a-usage-report-in-office-365"></a>Просмотрите: "Управление с помощью отчета об использовании в Office 365"
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/fb726f8e-aead-43b2-ba0f-53ba5b886bf7?autoplay=false]
   
@@ -88,52 +88,30 @@ ms.locfileid: "52530974"
 - [Использование браузера Майкрософт](browser-usage-report.md) 
   
 - [Действия с почтой](email-activity-ww.md)
-
-- [Действия с почтой для государственных учреждений США](email-activity.md)
     
 - [Использование почтовых ящиков](mailbox-usage.md)
     
 - [Активации Office](microsoft-office-activations-ww.md)
 
-- [Активации Office для государственных учреждений США](microsoft-office-activations.md)
-
 - [Активные пользователи](active-users-ww.md)
-
-- [Активные пользователи для государственных учреждений США](active-users.md)
   
 - [Использование почтовых приложений](email-apps-usage-ww.md)
 
-- [Использование почтовых приложений для государственных учреждений США](email-apps-usage.md)
-
 - [Активность в Forms](forms-activity-ww.md)
 
-- [Активность в Forms для государственных учреждений США](forms-activity.md)
-
 - [Активность в Dynamics 365 Customer Voice](forms-pro-activity-ww.md)
-  
-- [Активность в Dynamics 365 Customer Voice для государственных учреждений США](forms-pro-activity.md)
 
 - [Группы Microsoft 365](office-365-groups-ww.md)
-
-- [Группы Microsoft 365 для государственных учреждений США](office-365-groups.md)
   
 - [Действия пользователей в OneDrive для бизнеса](onedrive-for-business-activity-ww.md)
 
-- [Действия пользователей в OneDrive для бизнеса для государственных учреждений США](onedrive-for-business-activity.md)
-
 - [Использование OneDrive для бизнеса](onedrive-for-business-usage-ww.md)
 
-- [Использование OneDrive для бизнеса для государственных учреждений США](onedrive-for-business-usage.md)
-
-- [Использование Приложений Microsoft 365](microsoft365-apps-usage-ww.md)
+- [Использование приложений Microsoft 365](microsoft365-apps-usage-ww.md)
   
 - [Использование сайтов SharePoint](sharepoint-site-usage-ww.md)
-
-- [Использование сайтов SharePoint для государственных учреждений США](sharepoint-site-usage.md)
   
 - [Действия в SharePoint](sharepoint-activity-ww.md)
-
-- [Действия в SharePoint для государственных учреждений США](sharepoint-activity.md)
   
 - [Действия в Skype для бизнеса Online](/SkypeForBusiness/skype-for-business-online-reporting/activity-report)
   
@@ -145,23 +123,13 @@ ms.locfileid: "52530974"
 
 - [Действия в Yammer](yammer-activity-report-ww.md)
 
-- [Действия в Yammer для государственных учреждений США](yammer-activity-report.md)
-
 - [Использование устройств в Yammer](yammer-device-usage-report-ww.md)
 
-- [Использование устройств в Yammer для государственных учреждений США](yammer-device-usage-report.md)
-
-- [Отчет о действиях групп в Yammer](yammer-groups-activity-report-ww.md)
-
-- [Отчет действиях групп в Yammer для государственных учреждений США](yammer-groups-activity-report.md)
+- [Отчет об активности групп в Yammer](yammer-groups-activity-report-ww.md)
 
 - [Действия пользователей Microsoft Teams](microsoft-teams-user-activity-preview.md)
 
-- [Действия пользователей Microsoft Teams для государственных учреждений США](microsoft-teams-user-activity.md)
-
 - [Использование устройств Microsoft Teams](microsoft-teams-device-usage-preview.md)
-
-- [Использование устройств в Microsoft Teams для государственных учреждений США ](microsoft-teams-device-usage.md)
 
 ## <a name="how-to-view-licensing-information"></a>Просмотр сведений о лицензии
 
@@ -201,8 +169,6 @@ ms.locfileid: "52530974"
   
 ## <a name="related-content"></a>См. также:
 
-[Отчеты в Центре &amp; соответствия требованиям](../../compliance/reports-in-security-and-compliance.md) (статья)
-
-[Аналитика использования Microsoft 365](../usage-analytics/usage-analytics.md) (статья)
-
+[Отчеты в Центре &amp; соответствия требованиям](../../compliance/reports-in-security-and-compliance.md) (статья)\
+[Аналитика использования Microsoft 365](../usage-analytics/usage-analytics.md) (статья)\
 [Настройка отчетов в аналитике использования Microsoft 365](../usage-analytics/customize-reports.md) (статья)

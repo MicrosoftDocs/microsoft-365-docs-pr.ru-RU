@@ -15,7 +15,7 @@ ms.custom:
 - Ent_Solutions
 - seo-marvel-apr2020
 ms.assetid: 202b76ff-74a6-4486-ada1-a9bf099dab8f
-description: Узнайте, как создать и настроить серверы AD FS для федерарной проверки подлинности высокой доступности для Microsoft 365 в Microsoft Azure.
+description: Узнайте, как создавать и настраивать серверы AD FS для федераированной проверки подлинности высокой доступности для Microsoft 365 в Microsoft Azure.
 ms.openlocfilehash: 388a99aa496c4ecd9145759d4dfb1b9441b4fb2c
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -25,9 +25,9 @@ ms.locfileid: "50909802"
 ---
 # <a name="high-availability-federated-authentication-phase-3-configure-ad-fs-servers"></a>Этап 3. Федеративная проверка подлинности для обеспечения высокой доступности: настройка серверов AD FS
 
-На этом этапе развертывания высокой доступности для федерарной проверки подлинности Microsoft 365 в службах инфраструктуры Azure создается внутренний балансировщик нагрузки и два сервера AD FS.
+На этом этапе развертывания высокой доступности для Microsoft 365 федерарной проверки подлинности в службах инфраструктуры Azure создается внутренний балансировщик нагрузки и два сервера AD FS.
   
-Перед переходом на этап [4: Настройка прокси-серверов веб-приложений](high-availability-federated-authentication-phase-4-configure-web-application-pro.md)необходимо завершить этот этап. Развертывание [федерарной](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md) проверки подлинности с высокой доступностью для Microsoft 365 в Azure для всех этапов.
+Перед переходом на этап [4: Настройка прокси-серверов веб-приложений](high-availability-federated-authentication-phase-4-configure-web-application-pro.md)необходимо завершить этот этап. См. в рублях Развертывание [федерарной](deploy-high-availability-federated-authentication-for-microsoft-365-in-azure.md) проверки подлинности с высокой доступностью для Microsoft 365 в Azure для всех этапов.
   
 ## <a name="create-the-ad-fs-server-virtual-machines-in-azure"></a>Создание виртуальных машин серверов AD FS в Azure
 
@@ -48,12 +48,12 @@ ms.locfileid: "50909802"
 Напомним, что вы определили таблицу M в фазе [2:](high-availability-federated-authentication-phase-2-configure-domain-controllers.md) Настройка контроллеров доменов и таблиц R, V, S, I и A на этапе [1: Настройка Azure](high-availability-federated-authentication-phase-1-configure-azure.md).
   
 > [!NOTE]
-> Для указанных ниже последовательностей команд используется последняя версия Azure PowerShell. См. [начало работы с Azure PowerShell.](/powershell/azure/get-started-azureps) 
+> Для указанных ниже последовательностей команд используется последняя версия Azure PowerShell. См. [начало работы с Azure PowerShell](/powershell/azure/get-started-azureps). 
   
 Сначала создайте внутренний балансировщик нагрузки Azure для двух серверов AD FS. Укажите значения для переменных, удалив \< and > символы. Задав правильные значения, выполните полученный блок в командной строке Azure PowerShell или в интегрированной среде сценариев PowerShell.
   
 > [!TIP]
-> Для создания готовых к запуску командных блоков PowerShell на основе настраиваемой настройки используйте эту книгу конфигурации [Microsoft Excel.](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/O365FedAuthInAzure_Config.xlsx) 
+> Для создания готовых к запуску командных блоков PowerShell на основе настраиваемой настройки используйте Microsoft Excel [конфигурации.](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/O365FedAuthInAzure_Config.xlsx) 
 
 ```powershell
 # Set up key variables
@@ -135,7 +135,7 @@ New-AzVM -ResourceGroupName $rgName -Location $locName -VM $vm
   
 Создайте подключение к удаленному рабочему столу для каждой виртуальной машины с помощью любого подходящего клиента. Используйте DNS-имя интрасети или имя компьютера, а также локальные учетные данные администратора.
   
-Для каждой виртуальной машины присоединяйте их к соответствующему домену Active Directory Domain Services (AD DS) с этими командами в Windows PowerShell запросе.
+Для каждой виртуальной машины присоединяйте их к соответствующему домену Active Directory Domain Services (AD DS) с этими командами по Windows PowerShell запросу.
   
 ```powershell
 $domName="<AD DS domain name to join, such as corp.contoso.com>"
@@ -148,9 +148,9 @@ Restart-Computer
   
 **Этап 3. Серверы AD FS и внутренний балансировщик нагрузки для инфраструктуры федеративной проверки подлинности с высоким уровнем доступности в Azure**
 
-![Этап 3 инфраструктуры федерарной проверки подлинности Microsoft 365 в Azure с серверами AD FS](../media/f39b2d2f-8a5b-44da-b763-e1f943fcdbc4.png)
+![Этап 3 высокой доступности Microsoft 365 федерарной инфраструктуры проверки подлинности в Azure с серверами AD FS](../media/f39b2d2f-8a5b-44da-b763-e1f943fcdbc4.png)
   
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Следующий этап
 
 Используйте [этап 4. Настройте прокси-серверы веб-приложений,](high-availability-federated-authentication-phase-4-configure-web-application-pro.md) чтобы продолжить настройку рабочей нагрузки.
   

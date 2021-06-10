@@ -67,10 +67,10 @@ POST https://api.securitycenter.microsoft.com/api/machines/{id}/runAntiVirusScan
 
 Имя | Тип | Описание
 :---|:---|:---
-Authorization | String | Bearer {token}. **Обязательное поле**.
+Авторизация | String | Bearer {token}. **Обязательное поле**.
 Content-Type | string | application/json
 
-## <a name="request-body"></a>Текст запроса
+## <a name="request-body"></a>Тело запроса
 В теле запроса поставляем объект JSON со следующими параметрами:
 
 Параметр | Тип    | Описание

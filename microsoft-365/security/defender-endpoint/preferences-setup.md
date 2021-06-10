@@ -1,5 +1,5 @@
 ---
-title: Настройка параметров Центра безопасности Microsoft Defender
+title: Настройка Центр безопасности в Microsoft Defender параметров
 description: Используйте страницу параметров для настройки общих параметров, разрешений, apis и правил.
 keywords: параметры, общие параметры, разрешения, apis, правила
 search.product: eADQiWindows 10XVcnh
@@ -23,7 +23,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/07/2021
 ms.locfileid: "51604349"
 ---
-# <a name="configure-microsoft-defender-security-center-settings"></a>Настройка параметров Центра безопасности Microsoft Defender
+# <a name="configure-microsoft-defender-security-center-settings"></a>Настройка Центр безопасности в Microsoft Defender параметров
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -33,7 +33,7 @@ ms.locfileid: "51604349"
 
 >Хотите испытать Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-prefsettings-abovefoldlink)
 
-Используйте меню **"Параметры",** чтобы изменить общие параметры, расширенные функции, включить функцию предварительного просмотра, уведомления электронной почты и настраиваемую функцию разведки угроз.
+Используйте меню **Параметры,** чтобы изменить общие параметры, расширенные функции, включить функцию предварительного просмотра, уведомления электронной почты и настраиваемую функцию разведки угроз.
 
 ## <a name="in-this-section"></a>В этом разделе
 

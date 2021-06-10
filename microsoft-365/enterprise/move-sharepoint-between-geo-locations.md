@@ -13,7 +13,7 @@ ms.collection:
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: Узнайте, как переместить сайт SharePoint в другое геопозиционное расположение в многоэтапной среде и сообщить пользователям об изменениях.
+description: Узнайте, как переместить веб-SharePoint в другое геопозиционное расположение в многоэтапной среде и сообщить пользователям об ожиданиях изменений.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: eed323b2e2b8f68a4a603052657e17495bb17690
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
@@ -74,13 +74,13 @@ ms.locfileid: "50910934"
 
 Перемещение географического расположения сайта SharePoint требует подключения и выполнения перемещения из URL-адреса администрирования SharePoint в географическом расположении, в котором находится сайт.
 
-Например, если URL-адрес сайта — <https://contosohealthcare.sharepoint.com/sites/Turbines> подключитесь к URL-адресу администратора SharePoint по <https://contosohealthcare-admin.sharepoint.com> адресу:
+Например, если URL-адрес сайта — подключись к URL SharePoint администратора по <https://contosohealthcare.sharepoint.com/sites/Turbines> <https://contosohealthcare-admin.sharepoint.com> адресу:
 
 ```powershell
 Connect-SPOService -Url https://contosohealthcare-admin.sharepoint.com
 ```
 
-![Окно Командной оболочки SharePoint Online с Connect-SPOService командой](../media/move-onedrive-between-geo-locations-image1.png)
+![SharePoint Окно Online Management Shell с Connect-SPOService командой](../media/move-onedrive-between-geo-locations-image1.png)
 
 ### <a name="validating-the-environment"></a>Проверка среды
 

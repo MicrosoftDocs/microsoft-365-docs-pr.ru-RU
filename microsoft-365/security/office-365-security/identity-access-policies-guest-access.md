@@ -1,5 +1,5 @@
 ---
-title: Политики доступа к удостоверениям и устройствам для допуска гостей и внешних пользователей B2B - Microsoft 365 для корпоративных | Документы Майкрософт
+title: Политики доступа к удостоверениям и устройствам, позволяющие гостевую и внешнюю пользовательскую B2B-Microsoft 365 для корпоративных | Документы Майкрософт
 description: Описывает рекомендуемые политики условного доступа и связанные политики защиты доступа гостей и внешних пользователей.
 ms.prod: m365-security
 ms.topic: article
@@ -54,7 +54,7 @@ ms.locfileid: "51615499"
 
 ## <a name="more-information"></a>Дополнительные сведения
 
-### <a name="guests-and-external-user-access-with-microsoft-teams"></a>Доступ гостей и внешних пользователей в Microsoft Teams
+### <a name="guests-and-external-user-access-with-microsoft-teams"></a>Доступ гостей и внешних пользователей с помощью Microsoft Teams
 
 Microsoft Teams определяет следующих пользователей:
 
@@ -64,7 +64,7 @@ Microsoft Teams определяет следующих пользователе
 
 Дополнительные сведения см. в сопоставлении между гостями и внешним доступом пользователей [для команд.](/microsoftteams/communicate-with-users-from-other-organizations#compare-external-and-guest-access)
 
-Дополнительные сведения о защите политик доступа к удостоверениям и устройствам для Teams см. в рекомендациях политики по обеспечению безопасности чатов, групп и [файлов Teams.](teams-access-policies.md)
+Дополнительные сведения об обеспечении безопасности удостоверений и политик доступа к устройствам для Teams см. в рекомендациях политики по обеспечению безопасности Teams [чатов, групп](teams-access-policies.md)и файлов.
 
 ### <a name="require-mfa-always-for-guest-and-external-users"></a>Обязательное MFA всегда для гостевых и внешних пользователей
 
@@ -80,9 +80,9 @@ Microsoft Teams определяет следующих пользователе
 
 Управлять устройством может только одна организация. Если не исключать гостей и внешних пользователей из политик, которые требуют соответствия требованиям устройств, эти политики будут блокировать этих пользователей.
 
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Следующий этап
 
-![Шаг 4. Политики для облачных приложений Microsoft 365 и безопасности облачных приложений Майкрософт](../../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-4.png)
+![Шаг 4. Политики для Microsoft 365 и Microsoft Cloud App Security](../../media/microsoft-365-policies-configurations/identity-device-access-steps-next-step-4.png)
 
 Настройка политик условного доступа для:
 

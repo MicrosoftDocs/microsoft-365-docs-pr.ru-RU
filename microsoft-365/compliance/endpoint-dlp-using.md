@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Узнайте, как настроить политики защиты от потери данных (DLP), чтобы использовать соответствующие расположения защиты от потери данных в конечной точке Microsoft 365.
-ms.openlocfilehash: cbd95ed3ee70b69b395f73c83852a9f37a269f0b
-ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
+ms.openlocfilehash: 1a0297271c3e0e8fb94a476982f146aa8c221e7a
+ms.sourcegitcommit: e1e275eb88153bafddf93327adf8f82318913a8d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52259491"
+ms.lasthandoff: 06/08/2021
+ms.locfileid: "52809135"
 ---
 # <a name="using-endpoint-data-loss-prevention"></a>Использование защиты от потери данных в конечной точке
 
@@ -70,6 +70,9 @@ ms.locfileid: "52259491"
 > [!IMPORTANT]
 > Путь к исполняемому файлу указывать не нужно, следует только задать имя исполняемого файла (например, browser.exe).
 
+### <a name="unallowed-bluetooth-apps"></a>Неразрешенные приложения Bluetooth
+
+Запретите пользователям перенос файлов, защищенных вашими политиками, с помощью определенных приложений Bluetooth.
 
 ### <a name="browser-and-domain-restrictions"></a>Ограничения браузера и домена
 Запретите отправку конфиденциальных файлов, соответствующих вашим политикам, в домены служб, для которых отсутствуют ограничения.
@@ -97,6 +100,11 @@ ms.locfileid: "52259491"
 - Пользователи могут выбрать только встроенное обоснование.
 - Пользователи могут вводить только собственное обоснование.
 
+### <a name="always-audit-file-activity-for-devices"></a>Всегда контролировать действия с файлами для устройств
+
+По умолчанию при подключении устройств, действия для файлов Office, PDF и CSV автоматически проверяются и доступны для просмотра в обозревателе действий. Отключите эту функцию, если вы хотите, чтобы эти действия проверялись только в том случае, если в активную политику включены подключенные устройства.
+
+Действия с файлами для подключенных устройств всегда будут контролироваться, независимо от того, включены ли они в активную политику.
 
 ## <a name="tying-dlp-settings-together"></a>Установка привязки параметров защиты от потери данных
 
@@ -222,7 +230,7 @@ ms.locfileid: "52259491"
 - [Начало работы с обозревателем действий](data-classification-activity-explorer.md)
 - [Microsoft Defender для конечной точки](/windows/security/threat-protection/)
 - [Средства и методы подключения для компьютеров с Windows 10](/microsoft-365/compliance/dlp-configure-endpoints)
-- [Подписка на Microsoft 365](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1)
+- [Подписка на Microsoft 365](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1)
 - [Подключено к Azure Active Directory (AAD)](/azure/active-directory/devices/concept-azure-ad-join)
 - [Загрузка нового браузера Microsoft Edge на основе Chromium](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium)
 - [Начало работы со стандартной политикой защиты от потери данных](get-started-with-the-default-dlp-policy.md)
