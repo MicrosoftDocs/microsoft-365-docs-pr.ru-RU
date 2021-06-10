@@ -19,22 +19,22 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52296279"
 ---
-# <a name="contact-support-for-el-salvador"></a><span data-ttu-id="31dcf-103">Поддержка контактов для Сальвадора</span><span class="sxs-lookup"><span data-stu-id="31dcf-103">Contact support for El Salvador</span></span>
+# <a name="contact-support-for-el-salvador"></a><span data-ttu-id="0dd97-103">Поддержка контактов для Сальвадора</span><span class="sxs-lookup"><span data-stu-id="0dd97-103">Contact support for El Salvador</span></span>
 
-<span data-ttu-id="31dcf-104">[Найдите другую страну или регион.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="31dcf-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="0dd97-104">[Найдите другую страну или регион.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="0dd97-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="31dcf-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="31dcf-105">Phone number</span></span>
-<span data-ttu-id="31dcf-106">800 6676</span><span class="sxs-lookup"><span data-stu-id="31dcf-106">800 6676</span></span>
+## <a name="phone-number"></a><span data-ttu-id="0dd97-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="0dd97-105">Phone number</span></span>
+<span data-ttu-id="0dd97-106">800 6676</span><span class="sxs-lookup"><span data-stu-id="0dd97-106">800 6676</span></span>
 
-<span data-ttu-id="31dcf-107">Выбор варианта 4</span><span class="sxs-lookup"><span data-stu-id="31dcf-107">Select option 4</span></span>
+<span data-ttu-id="0dd97-107">Выбор варианта 4</span><span class="sxs-lookup"><span data-stu-id="0dd97-107">Select option 4</span></span>
 
-<span data-ttu-id="31dcf-108">Ввод кода 7007</span><span class="sxs-lookup"><span data-stu-id="31dcf-108">Enter code 7007</span></span>
+<span data-ttu-id="0dd97-108">Ввод кода 7007</span><span class="sxs-lookup"><span data-stu-id="0dd97-108">Enter code 7007</span></span>
 
-## <a name="hours"></a><span data-ttu-id="31dcf-109">Часы</span><span class="sxs-lookup"><span data-stu-id="31dcf-109">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="31dcf-110">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="31dcf-110">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="0dd97-109">Часы</span><span class="sxs-lookup"><span data-stu-id="0dd97-109">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="0dd97-110">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="0dd97-110">Billing Support:</span></span>
 
-<span data-ttu-id="31dcf-111">Испанский: Mon-Fri 9 утра-5 вечера</span><span class="sxs-lookup"><span data-stu-id="31dcf-111">Spanish: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="0dd97-111">Испанский: Mon-Fri 9 утра-5 вечера</span><span class="sxs-lookup"><span data-stu-id="0dd97-111">Spanish: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="31dcf-112">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="31dcf-112">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="0dd97-112">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="0dd97-112">Technical Support:</span></span>
 
-<span data-ttu-id="31dcf-113">Испанский: 24 часа в сутки, 7 дней в неделю</span><span class="sxs-lookup"><span data-stu-id="31dcf-113">Spanish: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="0dd97-113">Испанский: 24 часа в сутки, 7 дней в неделю</span><span class="sxs-lookup"><span data-stu-id="0dd97-113">Spanish: 24 hours a day, 7 days a week</span></span>

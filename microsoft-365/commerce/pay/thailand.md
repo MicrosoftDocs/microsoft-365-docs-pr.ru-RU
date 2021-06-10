@@ -20,15 +20,15 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52537731"
 ---
-# <a name="payment-information-for-thailand"></a><span data-ttu-id="f036d-103">Сведения об оплате для Таиланда</span><span class="sxs-lookup"><span data-stu-id="f036d-103">Payment information for Thailand</span></span>
+# <a name="payment-information-for-thailand"></a><span data-ttu-id="79f76-103">Сведения об оплате для Таиланда</span><span class="sxs-lookup"><span data-stu-id="79f76-103">Payment information for Thailand</span></span>
 
-<span data-ttu-id="f036d-104">[Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="f036d-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="79f76-104">[Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="79f76-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="f036d-105">Пожалуйста, оплатите только в долларах США и обратитесь с номером счета(ы) в счете-фактуре.</span><span class="sxs-lookup"><span data-stu-id="f036d-105">Please pay in USD only and reference your invoice number(s) on your invoice remittance.</span></span>
+<span data-ttu-id="79f76-105">Пожалуйста, оплатите только в долларах США и обратитесь с номером счета(ы) в счете-фактуре.</span><span class="sxs-lookup"><span data-stu-id="79f76-105">Please pay in USD only and reference your invoice number(s) on your invoice remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="f036d-106">Электронный платеж</span><span class="sxs-lookup"><span data-stu-id="f036d-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="79f76-106">Электронный платеж</span><span class="sxs-lookup"><span data-stu-id="79f76-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="f036d-107">**Банк:** Citibank, Сингапур</span><span class="sxs-lookup"><span data-stu-id="f036d-107">**Bank:** Citibank, Singapore</span></span>  
-<span data-ttu-id="f036d-108">**КОД SWIFT:** CITISGSG</span><span class="sxs-lookup"><span data-stu-id="f036d-108">**SWIFT CODE:** CITISGSG</span></span>  
-<span data-ttu-id="f036d-109">**Номер учетной записи:** 0-817543-138</span><span class="sxs-lookup"><span data-stu-id="f036d-109">**Account Number:** 0-817543-138</span></span>  
-<span data-ttu-id="f036d-110">**Имя учетной записи:** MICROSOFT REGIONAL SALES CORP</span><span class="sxs-lookup"><span data-stu-id="f036d-110">**Account Name:** MICROSOFT REGIONAL SALES CORP</span></span>
+<span data-ttu-id="79f76-107">**Банк:** Citibank, Сингапур</span><span class="sxs-lookup"><span data-stu-id="79f76-107">**Bank:** Citibank, Singapore</span></span>  
+<span data-ttu-id="79f76-108">**КОД SWIFT:** CITISGSG</span><span class="sxs-lookup"><span data-stu-id="79f76-108">**SWIFT CODE:** CITISGSG</span></span>  
+<span data-ttu-id="79f76-109">**Номер учетной записи:** 0-817543-138</span><span class="sxs-lookup"><span data-stu-id="79f76-109">**Account Number:** 0-817543-138</span></span>  
+<span data-ttu-id="79f76-110">**Имя учетной записи:** MICROSOFT REGIONAL SALES CORP</span><span class="sxs-lookup"><span data-stu-id="79f76-110">**Account Name:** MICROSOFT REGIONAL SALES CORP</span></span>

@@ -19,20 +19,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52296880"
 ---
-# <a name="contact-support-for-botswana"></a><span data-ttu-id="c5fc0-103">Поддержка контактов для Ботсваны</span><span class="sxs-lookup"><span data-stu-id="c5fc0-103">Contact support for Botswana</span></span>
+# <a name="contact-support-for-botswana"></a><span data-ttu-id="6e3e5-103">Поддержка контактов для Ботсваны</span><span class="sxs-lookup"><span data-stu-id="6e3e5-103">Contact support for Botswana</span></span>
 
-<span data-ttu-id="c5fc0-104">[Найдите другую страну или регион.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="c5fc0-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="6e3e5-104">[Найдите другую страну или регион.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="6e3e5-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="c5fc0-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="c5fc0-105">Phone number</span></span>
-<span data-ttu-id="c5fc0-106">+27 21 427 3315</span><span class="sxs-lookup"><span data-stu-id="c5fc0-106">+27 21 427 3315</span></span>
+## <a name="phone-number"></a><span data-ttu-id="6e3e5-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="6e3e5-105">Phone number</span></span>
+<span data-ttu-id="6e3e5-106">+27 21 427 3315</span><span class="sxs-lookup"><span data-stu-id="6e3e5-106">+27 21 427 3315</span></span>
 
-## <a name="hours"></a><span data-ttu-id="c5fc0-107">Часы</span><span class="sxs-lookup"><span data-stu-id="c5fc0-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="c5fc0-108">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="c5fc0-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="6e3e5-107">Часы</span><span class="sxs-lookup"><span data-stu-id="6e3e5-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="6e3e5-108">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="6e3e5-108">Billing Support:</span></span>
 
-<span data-ttu-id="c5fc0-109">Английский: Mon-Fri 09:00</span><span class="sxs-lookup"><span data-stu-id="c5fc0-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="6e3e5-109">Английский: Mon-Fri 09:00</span><span class="sxs-lookup"><span data-stu-id="6e3e5-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="c5fc0-110">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="c5fc0-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="6e3e5-110">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="6e3e5-110">Technical Support:</span></span>
 
-<span data-ttu-id="c5fc0-111">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="c5fc0-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="6e3e5-111">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="6e3e5-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="c5fc0-112">Применяются международные сборы за вызовы</span><span class="sxs-lookup"><span data-stu-id="c5fc0-112">International call charges apply</span></span>
+<span data-ttu-id="6e3e5-112">Применяются международные сборы за вызовы</span><span class="sxs-lookup"><span data-stu-id="6e3e5-112">International call charges apply</span></span>

@@ -20,16 +20,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52537179"
 ---
-# <a name="payment-information-for-bahamas"></a><span data-ttu-id="7f914-103">Сведения об оплате для Багамских островов</span><span class="sxs-lookup"><span data-stu-id="7f914-103">Payment information for Bahamas</span></span>
+# <a name="payment-information-for-bahamas"></a><span data-ttu-id="18c47-103">Сведения об оплате для Багамских островов</span><span class="sxs-lookup"><span data-stu-id="18c47-103">Payment information for Bahamas</span></span>
 
-<span data-ttu-id="7f914-104">[Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="7f914-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="18c47-104">[Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="18c47-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="7f914-105">Пожалуйста, оплатите только в долларах США и обратитесь с номером счета(ы) в счете-фактуре.</span><span class="sxs-lookup"><span data-stu-id="7f914-105">Please pay in USD only and reference your invoice number(s) on your invoice remittance.</span></span>
+<span data-ttu-id="18c47-105">Пожалуйста, оплатите только в долларах США и обратитесь с номером счета(ы) в счете-фактуре.</span><span class="sxs-lookup"><span data-stu-id="18c47-105">Please pay in USD only and reference your invoice number(s) on your invoice remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="7f914-106">Электронный платеж</span><span class="sxs-lookup"><span data-stu-id="7f914-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="18c47-106">Электронный платеж</span><span class="sxs-lookup"><span data-stu-id="18c47-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="7f914-107">**Банк:** Bank of America</span><span class="sxs-lookup"><span data-stu-id="7f914-107">**Bank:** Bank of America</span></span>  
-<span data-ttu-id="7f914-108">**Ветвь:** Даллас</span><span class="sxs-lookup"><span data-stu-id="7f914-108">**Branch:** Dallas</span></span>  
-<span data-ttu-id="7f914-109">**Код SWIFT:** BOFAUS3N</span><span class="sxs-lookup"><span data-stu-id="7f914-109">**SWIFT Code:** BOFAUS3N</span></span>  
-<span data-ttu-id="7f914-110">**Номер учетной записи:** 4426587954</span><span class="sxs-lookup"><span data-stu-id="7f914-110">**Account Number:** 4426587954</span></span>  
-<span data-ttu-id="7f914-111">**Имя учетной записи:** Microsoft</span><span class="sxs-lookup"><span data-stu-id="7f914-111">**Account Name:** Microsoft</span></span>
+<span data-ttu-id="18c47-107">**Банк:** Bank of America</span><span class="sxs-lookup"><span data-stu-id="18c47-107">**Bank:** Bank of America</span></span>  
+<span data-ttu-id="18c47-108">**Ветвь:** Даллас</span><span class="sxs-lookup"><span data-stu-id="18c47-108">**Branch:** Dallas</span></span>  
+<span data-ttu-id="18c47-109">**Код SWIFT:** BOFAUS3N</span><span class="sxs-lookup"><span data-stu-id="18c47-109">**SWIFT Code:** BOFAUS3N</span></span>  
+<span data-ttu-id="18c47-110">**Номер учетной записи:** 4426587954</span><span class="sxs-lookup"><span data-stu-id="18c47-110">**Account Number:** 4426587954</span></span>  
+<span data-ttu-id="18c47-111">**Имя учетной записи:** Microsoft</span><span class="sxs-lookup"><span data-stu-id="18c47-111">**Account Name:** Microsoft</span></span>
