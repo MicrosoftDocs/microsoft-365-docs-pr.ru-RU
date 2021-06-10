@@ -29,7 +29,7 @@ ms.locfileid: "52274464"
 > [!NOTE]
 > Функции, описанные в этой статье, в настоящее время находятся в предварительном просмотре, недоступны для всех и могут изменяться.
 
-Теги карантина в Exchange Online Protection (EOP) позволяют администраторам управлять тем, что пользователи могут делать с их карантинными сообщениями в зависимости от того, как сообщение поступило в карантин.
+Теги карантина в Exchange Online Protection (EOP) позволяют администраторам управлять тем, что пользователи могут делать с их карантинными сообщениями в зависимости от того, как сообщение прибыло в карантин.
 
 EOP традиционно разрешает или предотвращает определенные уровни интерактивности [](find-and-release-quarantined-messages-as-a-user.md) для сообщений в карантине и в уведомлениях о нежелательной почте конечного [пользователя.](use-spam-notifications-to-release-and-report-quarantined-messages.md) Например, конечные пользователи могут просматривать и выпускать сообщения, которые были карантинными в результате фильтрации от нежелательной почты, как спам или массовые, но они не могут просматривать или выпускать сообщения, которые были на карантине, как фишинг с высокой уверенностью.
 
@@ -49,17 +49,17 @@ EOP традиционно разрешает или предотвращает 
 
 |Разрешение|Нет доступа|Ограниченный доступ|Полный доступ|
 |---|:---:|:---:|:---:|
-|**Разрешить отправитель** _(PermissionToAllowSender)_|||![Флажок](../../media/checkmark.png)|
-|**Отправитель блока** _(PermissionToBlockSender)_||![Флажок](../../media/checkmark.png)|![Флажок](../../media/checkmark.png)|
-|**Удаление** _(PermissionToDelete)_||![Флажок](../../media/checkmark.png)|![Флажок](../../media/checkmark.png)|
-|**Предварительный** просмотр _(PermissionToPreview)_||![Флажок](../../media/checkmark.png)|![Флажок](../../media/checkmark.png)|
-|**Разрешить получателям освободить сообщение из карантина** _(PermissionToRelease)_|||![Флажок](../../media/checkmark.png)|
-|**Разрешить получателям запрашивать сообщение, которое будет выпущено из** карантина _(PermissionToRequestRelease)_||![Флажок](../../media/checkmark.png)||
+|**Разрешить отправитель** _(PermissionToAllowSender)_|||![Галочка](../../media/checkmark.png)|
+|**Отправитель блока** _(PermissionToBlockSender)_||![Галочка](../../media/checkmark.png)|![Галочка](../../media/checkmark.png)|
+|**Удаление** _(PermissionToDelete)_||![Галочка](../../media/checkmark.png)|![Галочка](../../media/checkmark.png)|
+|**Предварительный** просмотр _(PermissionToPreview)_||![Галочка](../../media/checkmark.png)|![Галочка](../../media/checkmark.png)|
+|**Разрешить получателям освободить сообщение из карантина** _(PermissionToRelease)_|||![Галочка](../../media/checkmark.png)|
+|**Разрешить получателям запрашивать сообщение, которое будет выпущено из** карантина _(PermissionToRequestRelease)_||![Галочка](../../media/checkmark.png)||
 |
 
 Если вам не нравятся разрешения по умолчанию в предустановленных группах разрешений, можно использовать настраиваемые разрешения при создании или изменении настраиваемой карантинской метки. Дополнительные сведения о том, что делает каждое разрешение, см. в разделе [Сведения](#quarantine-tag-permission-details) о разрешении тегов карантина в этой статье.
 
-Вы создаете и назначаете теги карантина в Центре & безопасности или в PowerShell (Exchange Online PowerShell для организаций Microsoft 365 с почтовыми ящиками Exchange Online; автономные EOP PowerShell в организациях EOP без почтовых ящиков Exchange Online).
+Вы создаете и назначаете теги карантина в Центре соответствия требованиям безопасности & или в PowerShell (Exchange Online PowerShell для Microsoft 365 организаций с Exchange Online почтовыми ящиками; автономных EOP PowerShell в организациях EOP без Exchange Online почтовых ящиков).
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
@@ -92,7 +92,7 @@ EOP традиционно разрешает или предотвращает 
        - **Разрешить получателям запрашивать сообщение, которое будет выпущено из карантина**
 
      - **Выберите дополнительные действия, которые** получатели могут принимать на карантин сообщения: Выберите некоторые, все или ни одно из следующих значений:
-       - **удаление**;
+       - **Delete**
        - **Предварительная версия**
        - **Разрешить отправитель**
        - **Отправитель блока**
@@ -236,7 +236,7 @@ New-QuarantineTag -Name LimitedAccess -EndUserQuarantinePermissions $LimitedAcce
 
 ****
 
-|Функция|Поддерживаемые теги карантина?|Используемые теги карантина по умолчанию|
+|Возможность|Поддерживаемые теги карантина?|Используемые теги карантина по умолчанию|
 |---|:---:|---|
 |[Политики борьбы со спамом:](configure-your-spam-filter-policies.md) <ul><li>**Spam** _(SpamAction)_</li><li>**Высокая достоверность** нежелательной почты _(HighConfidenceSpamAction)_</li><li>**Фишинговая электронная** _почта (PhishSpamAction)_</li><li>**Высокая достоверность фишинговой почты** _(HighConfidencePhishAction_)</li><li>**Массовая электронная** почта _(BulkSpamAction)_</li></ul>|Да|<ul><li>DefaultSpamTag (Полный доступ)</li><li>DefaultHighConfSpamTag (Полный доступ)</li><li>DefaultPhishTag (Полный доступ)</li><li>DefaultHighConfPhishTag (Без доступа)</li><li>DefaultBulkTag (Полный доступ)</li></ul>
 |Политики защиты от фишинга: <ul><li>[Защита от спуф-аналитики](set-up-anti-phishing-policies.md#spoof-settings) _(AuthenticationFailAction)_</li><li>[Защита от обезличения:](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)<sup>\*</sup> <ul><li>**Если электронная почта отправляется обезличенным пользователем** _(TargetedUserProtectionAction)_</li><li>**Если электронная почта отправляется с помощью обезличенных доменов** _(TargetedDomainProtectionAction)_</li><li>**Аналитика почтовых ящиков** \> **Если электронная почта отправляется обезличенным пользователем** _(MailboxIntelligenceProtectionAction)_</li></ul></li></ul></ul>|Нет|н/д|
@@ -265,7 +265,7 @@ New-QuarantineTag -Name LimitedAccess -EndUserQuarantinePermissions $LimitedAcce
 
    ![Выбор карантиных тегов в политике борьбы со спамом](../../media/quarantine-tags-in-anti-spam-policies.png)
 
-5. Когда закончите, нажмите **Сохранить**.
+5. Выполнив необходимые действия, нажмите кнопку **Сохранить**.
 
 #### <a name="assign-quarantine-tags-in-anti-spam-policies-in-powershell"></a>Назначение тегов карантина в политиках по борьбе со спамом в PowerShell
 

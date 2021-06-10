@@ -63,31 +63,31 @@ ms.locfileid: "51933785"
 - **Правила уменьшения поверхности** атаки — правила ASR не содержат каких-либо определенных правил для предотвращения "mshta.exe". Этот контроль находится в области защиты от эксплойтов или Защитник Windows управления приложениями.
 - **Другие рекомендуемые** функции — включить Защитник Windows управления приложениями, чтобы предотвратить mshta.exe выполнения. Если организации требуется "mshta.exe" для линейки бизнес-приложений, настройте определенное правило Защитник Windows exploit Protection, чтобы предотвратить mshta.exe запуска детских процессов.
 
-### <a name="block-outlook-from-launching-child-processes"></a>Блокировка Outlook от запуска детских процессов
+### <a name="block-outlook-from-launching-child-processes"></a>Блокировка Outlook запуска детских процессов
 
-- **Применяется к**— Outlook
+- **Применяется к**- Outlook
 - **Процессы**— outlook.exe
 - **Операция**— выполнение процесса
 - **Примеры файлов и папок, ключей и** значений реестра, процессов, служб — powershell.exe
-- Правила уменьшения поверхности атаки **—** правила ASR имеют встроенное правило, чтобы запретить приложениям связи Office (Outlook, Skype и Teams) запускать детские процессы: "Заблокировать приложение связи Office от создания детских процессов", GUID "26190899-1602-49e8-8b27-eb1d0a1ce869".
+- Правила уменьшения поверхности атаки — правила ASR имеют встроенное правило, которое не позволяет приложениям связи Office (Outlook, Skype и Teams) запускать детские процессы: "Запретить приложению связи Office создавать детские процессы", GUID "26190899-1602-49e8-8b27-eb1d0a1ce869".
 - **Другие рекомендуемые функции**. Рекомендуется включить режим с ограниченным языком PowerShell, чтобы свести к минимуму поверхность атаки от PowerShell.
 
 
-### <a name="block-office-apps-from-launching-child-processes-and-from-creating-executable-content"></a>Блокировка приложений Office от запуска детских процессов и создания исполняемого контента
+### <a name="block-office-apps-from-launching-child-processes-and-from-creating-executable-content"></a>Блокировка Office приложений от запуска детских процессов и создания исполняемого контента
 
-- **Применяется к**— Office  
+- **Применяется к**- Office  
 - **Процессы**— winword.exe, powerpnt.exe, excel.exe
 - **Операция**— выполнение процесса
 - **Примеры** файлов и папок, ключей и значений реестра, процессов, служб — powershell.exe, cmd.exe, wscript.exe, mshta.exe, EQNEDT32.EXE, regsrv32.exe
-- **Правила** уменьшения поверхности атаки — правила ASR имеют встроенное правило, которое не позволяет приложениям Office запускать детские процессы: "Блокировать все приложения Office от создания детских процессов", GUID "D4F940AB-401B-4EFC-AADC-AD5F3C50688A".
+- Правила уменьшения поверхности атаки **—** правила ASR имеют встроенное правило, чтобы предотвратить запуск детских процессов Office приложений: "Блокировать создание детских процессов всеми Office приложениями", GUID "D4F940AB-401B-4EFC-AADC-AD5F3C50688A".
 - **Другие рекомендуемые функции**— N/A
     
-### <a name="block-office-apps-from-launching-child-processes-and-from-creating-executable-content"></a>Блокировка приложений Office от запуска детских процессов и создания исполняемого контента
+### <a name="block-office-apps-from-launching-child-processes-and-from-creating-executable-content"></a>Блокировка Office приложений от запуска детских процессов и создания исполняемого контента
 
-- **Применяется к**— Office
+- **Применяется к**- Office
 - **Процессы**— winword.exe, powerpnt.exe, excel.exe
 - **Операция**— создание файлов
-- **Примеры файлов и папок, ключей и** значений реестра, процессов, служб — C:\Users *\AppData **.exe, C:\ProgramData**.exe, C:\ProgramData**.com, C:\Users* AppData\Local\Temp.com,**C:\Users*\Downloads**.exe, C:\Users *\AppData **.scf, C:\ProgramData .scf,** C:\Users\Public*.exe, C:\Users*\Desktop**.exe
+- **Примеры файлов и папок,** ключей и значений реестра, процессов, служб — C:\Users *\AppData **.exe, C:\ProgramData**.exe, C:\ProgramData**.com, C:\Users* AppData\Local\Temp.com,**C:\Users*\Downloads**.exe, C:\Users *\AppData **.scf, C:\ProgramData .scf,** C:\Users\Public*.exe, C:\Users*\Desktop***.exe
 - **Правила уменьшения поверхности** атаки — N/A.
 
 ### <a name="block-wscript-from-reading-certain-types-of-files"></a>Блокировка Wscript чтения определенных типов файлов
@@ -115,7 +115,7 @@ ms.locfileid: "51933785"
 - **Процессы**— certutil.exe
 - **Операция**— создание файлов
 - **Примеры файлов и папок, ключей и** значений реестра, процессов, служб — *.exe
-- **Правила уменьшения поверхности** атаки — правила ASR не поддерживают эти сценарии, так как они являются частью антивирусной защиты Microsoft Defender.
+- **Правила уменьшения поверхности** атаки — правила ASR не поддерживают эти сценарии, так как они являются частью антивирусная программа в Microsoft Defender защиты.
 - **Другие рекомендуемые функции**— Microsoft Defender AV не позволяет CertUtil создавать или скачивать исполняемый контент.
 
 
@@ -125,7 +125,7 @@ ms.locfileid: "51933785"
 - **Процессы**- *
 - **Operation**— завершение процесса
 - Примеры файлов **и папок,** ключей и значений реестра, процессов, служб — MsSense.exe, MsMpEng.exe, NisSrv.exe, svchost.exe*, services.exe, csrss.exe, smss.exe, wininit.exe и т. д.
-- **Правила уменьшения поверхности** атаки — правила ASR не поддерживают эти сценарии, так как они защищены встроенными средствами безопасности Windows 10.
+- **Правила уменьшения поверхности** атаки — правила ASR не поддерживают эти сценарии, так как они защищены Windows 10 встроенными средствами безопасности.
 - **Другие рекомендуемые функции**: ELAM (ранний запуск antiMalware), PPL (Защита процесса света), PPL AntiMalware Light и System Guard.
 
 ### <a name="block-specific-launch-process-attempt"></a>Блокировка конкретной попытки запуска
@@ -137,12 +137,12 @@ ms.locfileid: "51933785"
 - **Правила уменьшения поверхности** атаки . В целом правила ASR не предназначены для работы в качестве диспетчера приложений.
 - **Другие рекомендуемые** функции . Чтобы запретить пользователям запускать определенные процессы или программы, рекомендуется использовать Защитник Windows управления приложениями. Индикаторы Microsoft Defender для конечного файла и cert можно использовать в сценарии реагирования на инциденты (не следует рассматривать как механизм управления приложениями).
     
-### <a name="block-unauthorized-changes-to-microsoft-defender-antivirus-configurations"></a>Блокировка несанкционированных изменений конфигураций антивируса Microsoft Defender
+### <a name="block-unauthorized-changes-to-microsoft-defender-antivirus-configurations"></a>Блокировка несанкционированных изменений антивирусная программа в Microsoft Defender конфигураций
 
 - **Применяется к**. - Все процессы
 - **Процессы**- *
 - **Operation**— Изменения реестра
-- Примеры файлов и папок, ключей реестра/значений, **процессов,** служб - HKLM\SOFTWARE\Policies\Microsoft\Защитник Windows\DisableAntiSpyware, HKLM\SOFTWARE\Policies\Microsoft\Защитник Windows\Policy Manager\AllowRealTimeMonitoring и т. д.
+- Примеры файлов и папок, ключей и значений **реестра, процессов,** служб - HKLM\SOFTWARE\Policies\Microsoft\Защитник Windows\DisableAntiSpyware, HKLM\SOFTWARE\Policies\Microsoft\Защитник Windows\Policy Manager\AllowRealTimeMonitoring и т. д.
 - **Правила уменьшения поверхности** атаки — правила ASR не охватывают эти сценарии, так как они являются частью встроенной защиты Microsoft Defender для конечной точки.
 - Другие рекомендуемые функции **—** Tamper Protection (оповещание, управление от Intune) предотвращает несанкционированные изменения в disableAntiVirus, DisableAntiSpyware, DisableRealtimeMonitoring, DisableOnAccessProtection, DisableBehaviorMonitoring и disableIOAVProtection registry keys (и т. п.).
 

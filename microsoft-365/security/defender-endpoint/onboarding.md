@@ -40,7 +40,7 @@ ms.locfileid: "51933545"
 
 Развертывание Defender для конечной точки — это трех этапный процесс:
 
-| [![этап развертывания — подготовка](images/phase-diagrams/prepare.png)](prepare-deployment.md)<br>[Этап 1. Подготовка](prepare-deployment.md) | [![этап развертывания — установка](images/phase-diagrams/setup.png)](production-deployment.md)<br>[Этап 2. Настройка](production-deployment.md) | ![этап развертывания — на борту](images/phase-diagrams/onboard.png)<br>Этап 3. Подключение |
+| [![этап развертывания — подготовка](images/phase-diagrams/prepare.png)](prepare-deployment.md)<br>[Этап 1. Подготовка](prepare-deployment.md) | [![этап развертывания — установка](images/phase-diagrams/setup.png)](production-deployment.md)<br>[Этап 2. Настройка](production-deployment.md) | ![этап развертывания — на борту](images/phase-diagrams/onboard.png)<br>Этап 3. Подключение |
 | ----- | ----- | ----- |
 | | |*Вы здесь!*|
 
@@ -71,15 +71,15 @@ ms.locfileid: "51933545"
 
 | Endpoint     | Параметры инструмента                       |
 |--------------|------------------------------------------|
-| **Windows**  |  [Локальный скрипт (до 10 устройств)](configure-endpoints-script.md) <br>  [Групповая политика](configure-endpoints-gp.md) <br>  [Microsoft Endpoint Manager/ Mobile Device Manager](configure-endpoints-mdm.md) <br> [Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md) <br> [Скрипты VDI](configure-endpoints-vdi.md) <br> [Интеграция с Защитником Azure](configure-server-endpoints.md#integration-with-azure-defender) |
-| **macOS**    | [Локальные сценарии](mac-install-manually.md) <br> [Менеджер конечных точек Майкрософт](mac-install-with-intune.md) <br> [JAMF Pro](mac-install-with-jamf.md) <br> [Управление мобильными устройствами](mac-install-with-other-mdm.md) |
+| **Windows**  |  [Локальный скрипт (до 10 устройств)](configure-endpoints-script.md) <br>  [Групповая политика](configure-endpoints-gp.md) <br>  [Microsoft Endpoint Manager/ Диспетчер мобильных устройств](configure-endpoints-mdm.md) <br> [Microsoft Endpoint Configuration Manager](configure-endpoints-sccm.md) <br> [Скрипты VDI](configure-endpoints-vdi.md) <br> [Интеграция с Защитником Azure](configure-server-endpoints.md#integration-with-azure-defender) |
+| **macOS**    | [Локальные сценарии](mac-install-manually.md) <br> [Microsoft Endpoint Manager](mac-install-with-intune.md) <br> [JAMF Pro](mac-install-with-jamf.md) <br> [Управление мобильными устройствами](mac-install-with-other-mdm.md) |
 | **Linux Server** | [Локальный скрипт](linux-install-manually.md) <br> [Puppet](linux-install-with-puppet.md) <br> [Ansible](linux-install-with-ansible.md)|
 | **iOS**      | [На основе приложения](ios-install.md)                                |
-| **Android**  | [Менеджер конечных точек Майкрософт](android-intune.md)               | 
+| **Android**  | [Microsoft Endpoint Manager](android-intune.md)               | 
 
 
 ## <a name="step-2-configure-capabilities"></a>Шаг 2. Настройка возможностей
-После настроя конечных точек вы настроите различные возможности, такие как обнаружение конечной точки и реагирование, защита следующего поколения и уменьшение поверхности атаки. 
+После встройки конечных точек вы настроите различные возможности, такие как обнаружение и нейтрализация атак на конечные точки, защита следующего поколения и уменьшение поверхности атаки. 
 
 
 ## <a name="example-deployments"></a>Пример развертывания
@@ -94,7 +94,7 @@ ms.locfileid: "51933545"
 - Конфигурация защиты следующего поколения
 - Конфигурация уменьшения поверхности атаки
 
-## <a name="related-topics"></a>Похожие темы
+## <a name="related-topics"></a>Статьи по теме
 - [Подключение с помощью Microsoft Endpoint Configuration Manager](onboarding-endpoint-configuration-manager.md)
 - [Подключение с помощью Microsoft Endpoint Manager](onboarding-endpoint-manager.md)
 - [Безопасные документы в Microsoft 365 E5](../office-365-security/safe-docs.md)

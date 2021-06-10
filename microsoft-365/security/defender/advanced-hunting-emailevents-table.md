@@ -1,6 +1,6 @@
 ---
 title: Таблица EmailEvents в схеме расширенного поиска
-description: Узнайте о событиях, связанных с электронной почтой Microsoft 365 в таблице EmailEvents в продвинутой схеме охоты
+description: Узнайте о событиях, связанных с Microsoft 365 электронной почты в таблице EmailEvents в продвинутой схеме охоты
 keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, Microsoft 365, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, EmailEvents, network message id, sender, recipient, attachment id, attachment name, malware verdict, phishing verdict, attachment count, link count, url count
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -35,7 +35,7 @@ ms.locfileid: "51935489"
 
 - Microsoft 365 Defender
 
-Таблица в продвинутой схеме охоты содержит сведения о событиях, связанных с обработкой электронных писем `EmailEvents` в Microsoft Defender для Office 365. [](advanced-hunting-overview.md) Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы.
+Таблица в продвинутой схеме охоты содержит сведения о событиях, связанных с обработкой электронных писем в `EmailEvents` Microsoft Defender для Office 365. [](advanced-hunting-overview.md) Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы.
 
 >[!TIP]
 > Подробные сведения о типах событий (значениях), поддерживаемых таблицей, используйте встроенную ссылку на схему, доступную `ActionType` в центре безопасности.
@@ -45,7 +45,7 @@ ms.locfileid: "51935489"
 | Имя столбца | Тип данных | Описание |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | Дата и время записи события |
-| `NetworkMessageId` | string | Уникальный идентификатор для электронной почты, созданный Корпорацией Майкрософт 365 |
+| `NetworkMessageId` | string | Уникальный идентификатор для электронной почты, созданный Microsoft 365 |
 | `InternetMessageId` | string | Общедоступный идентификатор сообщения электронной почты, устанавливаемый системой отправки электронной почты |
 | `SenderMailFromAddress` | string | Адрес отправителя электронной почты в заголовке "MAIL FROM", также называемый "отправителем конверта" или "адресом Return-Path" |
 | `SenderFromAddress` | string | Адрес электронной почты отправителя в заголовке "ОТ", который получатели электронной почты видят в своих почтовых клиентах |
@@ -79,7 +79,7 @@ ms.locfileid: "51935489"
 | `UserLevelPolicy` | Строка | Политика почтовых ящиков конечных пользователей, которая вызвала действия, принятые в электронной почте |
 | `ReportId` | long | Идентификатор события на основе повторяющегося счетчика. Для определения уникальных событий этот столбец должен использоваться в сочетании со столбцами DeviceName и Timestamp. |
 
-## <a name="related-topics"></a>Похожие темы
+## <a name="related-topics"></a>Статьи по теме
 
 - [Обзор расширенной охоты](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)

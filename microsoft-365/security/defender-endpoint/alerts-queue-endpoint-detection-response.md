@@ -1,7 +1,7 @@
 ---
-title: Очередь оповещений в Центре безопасности Защитника Майкрософт
+title: Очередь оповещений в Центр безопасности в Microsoft Defender
 ms.reviewer: ''
-description: Просмотр и управление оповещениями, которые всплыли в Центре безопасности Защитника Майкрософт
+description: Просмотр и управление оповещениями, которые всплыли в Центр безопасности в Microsoft Defender
 keywords: ''
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -25,7 +25,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51075438"
 ---
-# <a name="alerts-queue-in-microsoft-defender-security-center"></a>Очередь оповещений в Центре безопасности Защитника Майкрософт
+# <a name="alerts-queue-in-microsoft-defender-security-center"></a>Очередь оповещений в Центр безопасности в Microsoft Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 

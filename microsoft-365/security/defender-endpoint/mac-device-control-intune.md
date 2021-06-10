@@ -426,6 +426,6 @@ ms.locfileid: "51933821"
 </plist>
 ```
 
-## <a name="related-topics"></a>Похожие темы
+## <a name="related-topics"></a>Статьи по теме
 
 - [Обзор управления устройствами для macOS](mac-device-control-overview.md)

@@ -1,7 +1,7 @@
 ---
-title: Оценка экспозиции в управлении угрозами и уязвимостью
-description: Оценка воздействия на управление рисками и уязвимостями отражает уязвимость организации к угрозам кибербезопасности.
-keywords: оценка экспозиции, оценка экспозиции Microsoft Defender для конечной точки, оценка экспозиции Microsoft Defender для endpoint tvm, оценка экспозиции организации, оценка экспозиции в организации tvm, управление угрозами и уязвимостью, Microsoft Defender для Endpoint
+title: Оценка экспозиции в контроль угроз и уязвимостей
+description: Оценка контроль угроз и уязвимостей отображает, насколько ваша организация уязвима для угроз кибербезопасности.
+keywords: оценка экспозиции, оценка экспозиции Microsoft Defender для конечной точки, оценка экспозиции Microsoft Defender для endpoint tvm, оценка экспозиции организации, оценка экспозиции организации tvm, контроль угроз и уязвимостей, Microsoft Defender для Endpoint
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -25,19 +25,19 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/21/2021
 ms.locfileid: "51934109"
 ---
-# <a name="exposure-score---threat-and-vulnerability-management"></a>Оценка экспозиции — управление угрозами и уязвимостью
+# <a name="exposure-score---threat-and-vulnerability-management"></a>Оценка экспозиции — контроль угроз и уязвимостей
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Область применения:**
 
 - [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/?linkid=2154037)
-- [Управление угрозами и уязвимостями](next-gen-threat-and-vuln-mgt.md)
+- [Угроза и управление уязвимостями](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Хотите испытать Microsoft Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
 
-Оценка экспозиции отображается на [панели](tvm-dashboard-insights.md) управления угрозами и уязвимостью Центра безопасности Microsoft Defender. Это отражает уязвимость организации к угрозам кибербезопасности. Низкая оценка экспозиции означает, что ваши устройства менее уязвимы от эксплуатации.
+Оценка экспозиции отображается в панели управление уязвимостями и [Центр безопасности в Microsoft Defender.](tvm-dashboard-insights.md) Это отражает уязвимость организации к угрозам кибербезопасности. Низкая оценка экспозиции означает, что ваши устройства менее уязвимы от эксплуатации.
 
 - Быстрое понимание и определение высокоуровневой информации о состоянии безопасности в вашей организации.
 - Обнаружение и реагирование на области, которые требуют расследования или действий для улучшения текущего состояния.
@@ -59,11 +59,11 @@ ms.locfileid: "51934109"
 
 ## <a name="reduce-your-threat-and-vulnerability-exposure"></a>Уменьшение воздействия угроз и уязвимостей
 
-Снижение воздействия угрозы и уязвимости путем устранения [рекомендаций по безопасности.](tvm-security-recommendation.md) Сделайте наибольшее влияние на оценку экспозиции, изменив верхние рекомендации по безопасности, которые можно просмотреть в панели управления угрозами и [уязвимостями.](tvm-dashboard-insights.md)
+Снижение воздействия угрозы и уязвимости путем устранения [рекомендаций по безопасности.](tvm-security-recommendation.md) Сделайте наибольшее влияние на оценку экспозиции, изменив верхние рекомендации по [безопасности,](tvm-dashboard-insights.md)которые можно просмотреть на панели мониторинга контроль угроз и уязвимостей.
 
-## <a name="related-topics"></a>Похожие темы
+## <a name="related-topics"></a>Статьи по теме
 
-- [Обзор управления угрозами и уязвимостью](next-gen-threat-and-vuln-mgt.md)
+- [Обзор угроз и управление уязвимостями](next-gen-threat-and-vuln-mgt.md)
 - [Оценка безопасности (Майкрософт) для устройств](tvm-microsoft-secure-score-devices.md)
 - [Рекомендации по безопасности](tvm-security-recommendation.md)
 - [Временная шкала события](threat-and-vuln-mgt-event-timeline.md)

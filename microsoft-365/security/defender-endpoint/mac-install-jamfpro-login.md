@@ -1,6 +1,6 @@
 ---
-title: Вход в Jamf Pro
-description: Вход в Jamf Pro
+title: Войдите в Jamf Pro
+description: Войдите в Jamf Pro
 keywords: Microsoft, defender, Microsoft Defender for Endpoint, mac, installation, deploy, uninstallation, intune, jamfpro, macos, catalina, mojave, high sierra
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -25,7 +25,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/21/2021
 ms.locfileid: "51935585"
 ---
-# <a name="log-in-to-jamf-pro"></a>Вход в Jamf Pro
+# <a name="log-in-to-jamf-pro"></a>Войдите в Jamf Pro
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -37,17 +37,17 @@ ms.locfileid: "51935585"
 
 1. Введите учетные данные.
 
-    ![Изображение панели мониторинга Jamf Pro1](images/jamf-pro-portal1.png)
+    ![Изображение панели мониторинга Jamf Pro 1](images/jamf-pro-portal1.png)
 
 2. Выбор **компьютеров**.
 
-    ![Изображение панели мониторинга Jamf Pro2](images/jamf-pro-dashboard.png)
+    ![Изображение панели мониторинга Jamf Pro 2](images/jamf-pro-dashboard.png)
 
 3. Вы увидите доступные параметры.
 
-     ![Изображение панели мониторинга Jamf Pro3](images/jamfpro-settings.png)
+     ![Изображение панели мониторинга Jamf Pro 3](images/jamfpro-settings.png)
 
 
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Следующий этап
 [Настройка групп устройств в Jamf Pro](mac-jamfpro-device-groups.md)
 

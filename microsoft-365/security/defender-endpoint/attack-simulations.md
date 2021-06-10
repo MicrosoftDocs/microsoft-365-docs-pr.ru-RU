@@ -70,7 +70,7 @@ ms.locfileid: "51934385"
 > Хотите испытать Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-attacksimulations-belowfoldlink)
 
 
-## <a name="related-topics"></a>Похожие темы
+## <a name="related-topics"></a>Статьи по теме
 
-- [Бортовых устройств](onboard-configure.md)
+- [Подключение устройств](onboard-configure.md)
 - [Подключение устройств Windows 10](configure-endpoints.md)

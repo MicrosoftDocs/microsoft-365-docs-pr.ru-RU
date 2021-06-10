@@ -1,6 +1,6 @@
 ---
 title: Новые возможности в Microsoft Secure Score
-description: Описывает, какие изменения произошли с Microsoft Secure Score в центре безопасности Microsoft 365.
+description: Описывает, какие изменения произошли с Microsoft Secure Score в центре Microsoft 365 безопасности.
 keywords: microsoft secure score, secure score, office 365 secure score, microsoft security score, Microsoft 365 security center
 ms.prod: m365-security
 ms.mktglfcycl: deploy
@@ -34,19 +34,19 @@ ms.locfileid: "51933869"
 
 Чтобы сделать Microsoft Secure Score лучшим представителем вашей позиции в области безопасности, мы внося некоторые изменения. Чтобы узнать о запланированных изменениях, см. в записи "Что [будет в Microsoft Secure Score"?](microsoft-secure-score-whats-coming.md)
 
-Microsoft Secure Score можно найти в https://security.microsoft.com/securescore [центре безопасности Microsoft 365.](overview-security-center.md)
+Microsoft Secure Score можно найти в центре Microsoft 365 https://security.microsoft.com/securescore [безопасности.](overview-security-center.md)
     
 ## <a name="february-2021"></a>Февраль 2021 г.
 
-### <a name="compatibility-with-graph-api"></a>Совместимость с API Graph
+### <a name="compatibility-with-graph-api"></a>Совместимость с Graph API
 
-Рекомендации Microsoft Secure Score, доставленные с помощью API graph, будут выглядеть и взвешиться так же, как рекомендации, которые в настоящее время вы видите в центре безопасности Microsoft 365.
+Рекомендации Microsoft Secure Score, Graph API, будут выглядеть и взвешить так же, как рекомендации, которые в настоящее время Microsoft 365 центре безопасности.
 
-## <a name="january-2021"></a>Январь 2021 г.
+## <a name="january-2021"></a>Январь 2021 г.
 
 ### <a name="added-our-first-security-recommendation-for-microsoft-teams"></a>Добавлена наша первая рекомендация по безопасности для Microsoft Teams
 
-Клиенты Microsoft Teams увидят "Ограничение анонимным пользователям присоединения к собраниям" в качестве нового действия по улучшению в Secure Score.
+Microsoft Teams пользователи увидят "Ограничение анонимных пользователей от присоединения к собраниям" в качестве нового действия по улучшению в Secure Score.
 
 ## <a name="december-2020"></a>Декабрь 2020 г.
 
@@ -67,7 +67,7 @@ Microsoft Secure Score можно найти в https://security.microsoft.com/s
 
 ### <a name="added-three-services-related-improvement-actions-for-microsoft-defender-for-endpoint"></a>Добавлены три действия по улучшению, связанные с службами, для Microsoft Defender для конечной точки:
 
-- Исправление пути неквалификации службы Windows
+- Исправление незакавратного пути службы для Windows служб
 - Изменение исполняемого пути службы в общее защищенное расположение
 - Изменение учетной записи службы, чтобы избежать кэшного пароля в реестре Windows
 
@@ -75,11 +75,11 @@ Microsoft Secure Score можно найти в https://security.microsoft.com/s
 
 ### <a name="remove-improvement-action-related-to-microsoft-defender-for-endpoint"></a>Удаление действия по улучшению, связанного с Microsoft Defender для конечной точки
 
-- Установите проверку веб-контента приложения Microsoft Defender SmartScreen Windows Store, чтобы предупредить
+- Установите фильтр SmartScreen в Microsoft Defender Windows для проверки веб-контента приложения Store, чтобы предупредить
 
 ## <a name="august-2020"></a>Август 2020 г.
 
-### <a name="updated-improvement-action-for-azure-active-directory"></a>Обновленное действие по улучшению для Azure Active Directory
+### <a name="updated-improvement-action-for-azure-active-directory"></a>Обновленное действие по улучшению Azure Active Directory
 
 - Включить политику для блокировки устаревшей проверки подлинности
 
@@ -91,7 +91,7 @@ Microsoft Secure Score можно найти в https://security.microsoft.com/s
 
 ## <a name="updated-improvement-actions"></a>Обновленные действия по улучшению
 
-- Добавлены действия по улучшению Azure Active Directory
+- Добавлены Azure Active Directory действий по улучшению
 - Добавлены действия по улучшению удостоверений в Microsoft Defender
 - Поддержка рекомендаций по безопасности управления & [угрозы конечной](/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt) точки Microsoft Defender
     - Все выпущенные рекомендации по безопасности, предоставленные TVM, теперь доступны

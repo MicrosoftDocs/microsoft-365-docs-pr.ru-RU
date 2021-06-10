@@ -1,7 +1,7 @@
 ---
 title: Функция DeviceFromIP() в продвинутой охоте для Microsoft 365 Defender
 description: Узнайте, как использовать функцию DeviceFromIP() для получения устройств, которые были назначены определенному IP-адресу
-keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, Microsoft 365, m365, search, query, telemetry, schema reference, kusto, device, devicefromIP, function, enrichment
+keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, microsoft 365, m365, search, query, telemetry, schema reference, kusto, device, devicefromIP, function, enrichment
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -45,7 +45,7 @@ ms.locfileid: "51933185"
 
 | Column | Тип данных | Описание |
 |------------|-------------|-------------|
-| `IP` | string | IP-адрес  |
+| `IP` | string | IP-адрес.  |
 | `DeviceId` | Строка | Уникальный идентификатор устройства в службе |
 
 
@@ -74,7 +74,7 @@ DeviceNetworkEvents
 | invoke DeviceFromIP()
 ```
 
-## <a name="related-topics"></a>Похожие темы
+## <a name="related-topics"></a>Статьи по теме
 - [Обзор расширенной охоты](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Сведения о схеме](advanced-hunting-schema-tables.md)

@@ -1,7 +1,7 @@
 ---
 title: Таблица EmailPostDeliveryEvents в продвинутой схеме охоты
-description: Узнайте о действиях после доставки, принятых в электронной почте Microsoft 365 в таблице EmailPostDeliveryEvents в продвинутой схеме охоты
-keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, Microsoft 365, m365, search, query, telemetry, schema reference, kusto, table, column, data type, description, EmailPostDeliveryEvents, network message id, sender, recipient, attachment id, attachment name, malware verdict, phishing verdict, phishing verdict, attachment count, url count
+description: Узнайте о действиях после доставки Microsoft 365 электронной почты в таблице EmailPostDeliveryEvents в продвинутой схеме охоты
+keywords: передовая охота, охота на угрозы, поиск киберугроз, Microsoft 365 Defender, Microsoft 365, m365, поиск, запрос, телеметрия, ссылка схемы, kusto, таблица, столбец, тип данных, описание, EmailPostDeliveryEvents, сетевой код сообщения, отправитель, получатель, имя вложения, имя вложения, вердикт вредоносных программ, вердикт фишинга, граф вложений, количество ссылок, url-адрес
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -35,7 +35,7 @@ ms.locfileid: "51935477"
 **Область применения:**
 - Microsoft 365 Defender
 
-Таблица в продвинутой схеме охоты содержит сведения о действиях после доставки, принятых в сообщениях электронной `EmailPostDeliveryEvents` почты, обработанных Корпорацией Майкрософт [](advanced-hunting-overview.md) 365. Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы.
+Таблица `EmailPostDeliveryEvents` в [продвинутой](advanced-hunting-overview.md) схеме охоты содержит сведения о действиях после доставки, принятых в сообщениях электронной почты, обрабатываемых Microsoft 365. Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы.
 
 >[!TIP]
 > Подробные сведения о типах событий (значениях), поддерживаемых таблицей, используйте встроенную ссылку на схему, доступную `ActionType` в центре безопасности.
@@ -45,7 +45,7 @@ ms.locfileid: "51935477"
 | Имя столбца | Тип данных | Описание |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | Дата и время записи события |
-| `NetworkMessageId` | string | Уникальный идентификатор для электронной почты, созданный Корпорацией Майкрософт 365 |
+| `NetworkMessageId` | string | Уникальный идентификатор для электронной почты, созданный Microsoft 365 |
 | `InternetMessageId` | string | Общедоступный идентификатор сообщения электронной почты, устанавливаемый системой отправки электронной почты |
 | `Action` | string | Действия, принятые в отношении объекта |
 | `ActionType` | Строка | Тип действий, которые вызвали событие: исправление вручную, Фишинг ZAP, ZAP вредоносных программ |
@@ -62,7 +62,7 @@ ms.locfileid: "51935477"
 - **Phish ZAP** — автоматическая очистка нулевого часа [(ZAP)](../office-365-security/zero-hour-auto-purge.md) приняла меры по фишинговой электронной почте после доставки.
 - **ZaP вредоносных** программ — автоматическая очистка нулевого часа (ZAP) приняла меры по сообщению электронной почты, обнаруженного с вредоносными программами после доставки.
 
-## <a name="related-topics"></a>Похожие темы
+## <a name="related-topics"></a>Статьи по теме
 - [Обзор расширенной охоты](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)

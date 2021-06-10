@@ -50,7 +50,7 @@ ms.locfileid: "51933101"
 
 ## <a name="enrollment-method-1-enrollment-invitations"></a>Метод регистрации 1. Приглашения на регистрацию
 
-1. В панели мониторинга Jamf Pro перейдите к **приглашениям для регистрации.**
+1. В панели мониторинга jamf Pro перейдите к **приглашениям для регистрации.**
 
     ![Изображение параметров конфигурации1](images/a347307458d6a9bbfa88df7dbe15398f.png)
 
@@ -80,7 +80,7 @@ ms.locfileid: "51933101"
 
 ## <a name="enrollment-method-2-prestage-enrollments"></a>Метод регистрации 2. Предварительная регистрация
 
-1. В панели мониторинга Jamf Pro перейдите к **предварительной регистрации.**
+1. В панели мониторинга Jamf Pro перейдите к **предварительной записи.**
 
     ![Изображение параметров конфигурации9](images/6fd0cb2bbb0e60a623829c91fd0826ab.png)
 
@@ -90,15 +90,15 @@ ms.locfileid: "51933101"
 
 1. Выберите **Продолжить** и установить сертификат ЦС из окна **"Параметры системы".**
 
-    ![Изображение регистрации Jamf Pro1](images/jamfpro-ca-certificate.png)
+    ![Изображение jamf Pro 1](images/jamfpro-ca-certificate.png)
 
 2. После установки сертификата CA вернись в окно браузера и выберите **Продолжить** и установить профиль MDM. 
 
-    ![Изображение регистрации Jamf Pro2](images/jamfpro-install-mdm-profile.png)
+    ![Изображение jamf Pro enrollment2](images/jamfpro-install-mdm-profile.png)
 
 3. Выберите **Разрешить** скачивание из JAMF.
 
-    ![Изображение регистрации Jamf Pro3](images/jamfpro-download.png)
+    ![Изображение jamf Pro 3](images/jamfpro-download.png)
 
 4. Выберите **Продолжить** работу с установкой профиля MDM. 
 
@@ -110,4 +110,4 @@ ms.locfileid: "51933101"
 
 6. Выберите **Продолжить**  для завершения конфигурации. 
 
-    ![Изображение jamf Pro enrollment6](images/jamfpro-mdm-profile.png)
+    ![Изображение jamf Pro регистрации6](images/jamfpro-mdm-profile.png)

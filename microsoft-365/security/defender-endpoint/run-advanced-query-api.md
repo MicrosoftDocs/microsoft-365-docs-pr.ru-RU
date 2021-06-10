@@ -78,7 +78,7 @@ POST https://api.securitycenter.microsoft.com/api/advancedqueries/run
 Авторизация | Bearer {token}. **Обязательное поле**.
 Content-Type    | application/json
 
-## <a name="request-body"></a>Текст запроса
+## <a name="request-body"></a>Тело запроса
 
 В теле запроса поставляем объект JSON со следующими параметрами:
 
@@ -155,7 +155,7 @@ POST https://api.securitycenter.microsoft.com/api/advancedqueries/run
 }
 ```
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 - [Microsoft Defender для внедрения API конечных точек](apis-intro.md)
 - [Расширенный поиск с портала](advanced-hunting-query-language.md)

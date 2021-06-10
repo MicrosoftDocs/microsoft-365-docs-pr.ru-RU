@@ -75,10 +75,10 @@ POST https://api.securitycenter.microsoft.com/api/alerts/CreateAlertByReference
 
 Имя | Тип | Описание
 :---|:---|:---
-Authorization | String | Bearer {token}. **Обязательное поле**.
+Авторизация | String | Bearer {token}. **Обязательное поле**.
 Content-Type | String | application/json. **Обязательное поле**.
 
-## <a name="request-body"></a>Текст запроса
+## <a name="request-body"></a>Тело запроса
 
 В теле запроса укажи следующие значения (все необходимые):
 

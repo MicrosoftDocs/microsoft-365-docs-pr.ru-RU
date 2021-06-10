@@ -100,7 +100,7 @@ ms.locfileid: "52772559"
 
   ![Изображение ID3 ресурса центра событий](../defender-endpoint/images/machine-info-datatype-example.png)
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 - [Обзор расширенных охоты](../defender/advanced-hunting-overview.md)
 - [Microsoft 365 API потоковой передачи Defender](streaming-api.md)
 - [Поток событий Microsoft 365 Defender в учетную запись хранилища Azure](streaming-api-storage.md)

@@ -144,7 +144,7 @@ ms.locfileid: "52635850"
 
 Предоплата Azure доступна в качестве метода оплаты только для подходящих продуктов и служб Azure
 
-## <a name="need-help-contact-support"></a>Нужна помощь? Обращение в службу поддержки
+## <a name="need-help-contact-support"></a>Нужна помощь? Обратитесь в службу поддержки
 
 Если у вас есть вопросы или вам нужна помощь с ежемесячной суммой денег на счете Azure, <a href="https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest" target="_blank">создайте запрос в службу поддержки Azure</a>.
 

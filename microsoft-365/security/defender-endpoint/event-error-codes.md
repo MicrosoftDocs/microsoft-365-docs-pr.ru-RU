@@ -42,9 +42,9 @@ ms.locfileid: "51933845"
 
 **Откройте для просмотра событий и найдите журнал событий службы Microsoft Defender для конечных точек:**
 
-1. Нажмите **кнопку Пуск** в меню Windows, введите **viewer событий** и нажмите **кнопку Ввод**.
+1. Нажмите **кнопку** Пуск в меню Windows, введите **viewer событий** и нажмите **кнопку Ввод**.
 
-2. В списке журнала в **статье Сводка журнала** прокрутите до тех пор, пока не увидите **Microsoft-Windows-SENSE/Operational.** Дважды щелкните элемент, чтобы открыть журнал.
+2. В списке журнала, в **статье Сводка** журнала, прокрутите до тех пор, пока не увидите **Microsoft-Windows-SENSE/Operational**. Дважды щелкните элемент, чтобы открыть журнал.
 
    а.  Вы также можете получить доступ к журналу, расширяя журналы приложений и служб Microsoft Windows SENSE и нажмите  >    >    >   кнопку **Оперативный**.
 
@@ -99,14 +99,14 @@ ms.locfileid: "51933845"
 <td>Устройство не было правильно на борту и не будет сообщать на портал.</td>
 <td>Перед запуском службы необходимо запустить бортовую службу.<br>
 Убедитесь, что параметры и сценарии бортовой установки были развернуты должным образом. Попробуйте передиплоять пакеты конфигурации.<br>
-См. <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">на сайте onboard Windows 10 devices.</a></td>
+См. <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Windows 10 устройства.</a></td>
 </tr>
 <tr>
 <td>7 </td>
 <td>Служба Microsoft Defender для конечной точки не считыла параметры бортовой записи. Сбой: <code>variable</code> .</td>
 <td>Переменная = подробное описание ошибки. Устройство не было правильно на борту и не будет сообщать на портал.</td>
 <td>Убедитесь, что параметры и сценарии бортовой установки были развернуты должным образом. Попробуйте передиплоять пакеты конфигурации.<br>
-См. <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">на сайте onboard Windows 10 devices.</a></td>
+См. <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Windows 10 устройства.</a></td>
 </tr>
 <tr>
 <td>8 </td>
@@ -114,21 +114,21 @@ ms.locfileid: "51933845"
 <td><b>Во время бортового октагона:</b> Службе не удалось очистить конфигурацию во время бортовой работы. Процесс вмеяния продолжается. <br><br> <b>Во время offboarding:</b> Служба не смогла очистить конфигурацию во время отключения. Процесс offboarding завершен, но служба продолжает работать.
  </td>
 <td><b>Onboarding:</b> Никаких действий не требуется. <br><br> <b>Offboarding:</b> Перезагрузка системы.<br>
-См. <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">на сайте onboard Windows 10 devices.</a></td>
+См. <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Windows 10 устройства.</a></td>
 </tr>
 <tr>
 <td>9 </td>
 <td>Служба Microsoft Defender для конечной точки не смогла изменить тип запуска. Код отказа: <code>variable</code> .</td>
 <td><b>Во время бортового октагона:</b> Устройство не было правильно на борту и не будет сообщать на портал. <br><br><b>Во время offboarding:</b> Не удалось изменить тип запуска службы. Процесс offboarding продолжается. </td>
 <td>Убедитесь, что параметры и сценарии бортовой установки были развернуты должным образом. Попробуйте передиплоять пакеты конфигурации.<br>
-См. <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">на сайте onboard Windows 10 devices.</a></td>
+См. <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Windows 10 устройства.</a></td>
 </tr>
 <tr>
 <td>10 </td>
 <td>Служба Microsoft Defender для конечных точек не смогла сохранить сведения о взимаемой информации. Код отказа: <code>variable</code> .</td>
 <td>Устройство не было правильно на борту и не будет сообщать на портал.</td>
 <td>Убедитесь, что параметры и сценарии бортовой установки были развернуты должным образом. Попробуйте передиплоять пакеты конфигурации.<br>
-См. <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">на сайте onboard Windows 10 devices.</a></td>
+См. <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Windows 10 устройства.</a></td>
 </tr>
 <tr>
 <td>11</td>
@@ -150,7 +150,7 @@ ms.locfileid: "51933845"
 <td>Нормальное операционное уведомление; никаких действий.</td>
 </tr>
 <tr>
-<td>15 </td>
+<td>15</td>
 <td>Microsoft Defender для конечной точки не может запустить командный канал с URL-адресом: <code>variable</code> .</td>
 <td>Переменная = URL-адрес серверов обработки конечных точек Defender.<br>
 Служба не смогла связаться с внешними серверами обработки по этому URL-адресу.</td>
@@ -159,29 +159,29 @@ ms.locfileid: "51933845"
 <tr>
 <td>17 </td>
 <td>Служба Microsoft Defender для конечных точек не смогла изменить расположение службы подключенных пользователей и службы телеметрии. Код отказа: <code>variable</code> .</td>
-<td>Ошибка произошла в службе телеметрии Windows.</td>
+<td>Ошибка произошла в службе Windows телеметрии.</td>
 <td><a href="troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy" data-raw-source="[Ensure the diagnostic data service is enabled](troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy)">Убедитесь, что служба диагностических данных включена.</a><br>
 Убедитесь, что параметры и сценарии бортовой установки были развернуты должным образом. Попробуйте передиплоять пакеты конфигурации.<br>
-См. <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">на сайте onboard Windows 10 devices.</a></td>
+См. <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Windows 10 устройства.</a></td>
 </tr>
 <tr>
 <td>18 </td>
-<td>OOBE (Добро пожаловать в Windows) завершено.</td>
-<td>Служба начнется только после завершения установки обновлений Windows.</td>
+<td>OOBE (Windows Welcome) завершен.</td>
+<td>Служба начнется только после Windows после завершения установки обновлений.</td>
 <td>Нормальное операционное уведомление; никаких действий.</td>
 </tr>
 <tr>
 <td>19</td>
-<td>OOBE (Windows Welcome) еще не завершена.</td>
-<td>Служба начнется только после завершения установки обновлений Windows.</td>
+<td>OOBE (Windows Welcome) еще не завершен.</td>
+<td>Служба начнется только после Windows после завершения установки обновлений.</td>
 <td>Нормальное операционное уведомление; никаких действий.<br>
-Если эта ошибка сохраняется после перезапуска системы, убедитесь, что все обновления Windows установлены полностью.</td>
+Если эта ошибка сохраняется после перезапуска системы, убедитесь, что Windows обновления полностью установлены.</td>
 </tr>
 <tr>
 <td>20</td>
 <td>Не удается дождаться завершения OOBE (Windows Welcome). Код отказа: <code>variable</code> .</td>
 <td>Внутренняя ошибка.</td>
-<td>Если эта ошибка сохраняется после перезапуска системы, убедитесь, что все обновления Windows установлены полностью.</td>
+<td>Если эта ошибка сохраняется после перезапуска системы, убедитесь, что Windows обновления полностью установлены.</td>
 </tr>
 <tr>
 <td>25</td>
@@ -189,7 +189,7 @@ ms.locfileid: "51933845"
 <td>Устройство не было правильно на борту.
 Он будет сообщать на портал, однако служба не может отображаться как зарегистрированная в SCCM или реестре.</td>
 <td>Убедитесь, что параметры и сценарии бортовой установки были развернуты должным образом. Попробуйте передиплоять пакеты конфигурации.<br>
-См. <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">на сайте onboard Windows 10 devices.</a></td>
+См. <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Windows 10 устройства.</a></td>
 </tr>
 <tr>
 <td>26</td>
@@ -197,23 +197,23 @@ ms.locfileid: "51933845"
 <td>Устройство не было правильно на борту.<br>
 Он будет сообщать на портал, однако служба не может отображаться как зарегистрированная в SCCM или реестре.</td>
 <td>Убедитесь, что параметры и сценарии бортовой установки были развернуты должным образом. Попробуйте передиплоять пакеты конфигурации.<br>
-См. <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">на сайте onboard Windows 10 devices.</a></td>
+См. <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Windows 10 устройства.</a></td>
 </tr>
 <tr>
 <td>27</td>
-<td>Служба Microsoft Defender для конечной точки не смогла включить режим sense в антивирусе Microsoft Defender. Сбой в процессе onboarding. Код отказа: <code>variable</code> .</td>
-<td>Обычно антивирус Microsoft Defender вступает в специальное пассивное состояние, если на устройстве правильно работает другой антивирусный продукт в режиме реального времени, а устройство сообщается в Defender for Endpoint.</td>
+<td>Служба Microsoft Defender для конечных точек не смогла включить режим sense aware в антивирусная программа в Microsoft Defender. Сбой в процессе onboarding. Код отказа: <code>variable</code> .</td>
+<td>Как правило, антивирусная программа в Microsoft Defender вступает в специальное пассивное состояние, если на устройстве правильно работает другой антивирусный продукт в режиме реального времени, и устройство сообщается в Defender for Endpoint.</td>
 <td>Убедитесь, что параметры и сценарии бортовой установки были развернуты должным образом. Попробуйте передиплоять пакеты конфигурации.<br>
-См. <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">на сайте onboard Windows 10 devices.</a><br>
+См. <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Windows 10 устройства.</a><br>
 Убедитесь, что защита от антивирусных программ в режиме реального времени работает должным образом.</td>
 </tr>
 <tr>
 <td>28</td>
 <td>В Microsoft Defender для подключенных к конечной точке пользовательских интерфейсов и регистрации службы телеметрии не удалось. Код отказа: <code>variable</code> .</td>
-<td>Ошибка произошла в службе телеметрии Windows.</td>
+<td>Ошибка произошла в службе Windows телеметрии.</td>
 <td><a href="troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy" data-raw-source="[Ensure the diagnostic data service is enabled](troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy)">Убедитесь, что служба диагностических данных включена.</a><br>
 Убедитесь, что параметры и сценарии бортовой установки были развернуты должным образом. Попробуйте передиплоять пакеты конфигурации.<br>
-См. <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">на сайте onboard Windows 10 devices.</a></td>
+См. <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Windows 10 устройства.</a></td>
 </tr>
 <tr>
 <td>29</td>
@@ -223,17 +223,17 @@ ms.locfileid: "51933845"
 </tr>
 <tr>
 <td>30</td>
-<td>Службе Microsoft Defender для конечных точек не удалось отключить режим зная SENSE в антивирусе Microsoft Defender. Код отказа: <code>variable</code> .</td>
-<td>Обычно антивирус Microsoft Defender вступает в специальное пассивное состояние, если на устройстве правильно работает другой антивирусный продукт в режиме реального времени, а устройство сообщается в Defender for Endpoint.</td>
+<td>Служба Microsoft Defender для конечной точки не смогла отключить режим зная SENSE в антивирусная программа в Microsoft Defender. Код отказа: <code>variable</code> .</td>
+<td>Как правило, антивирусная программа в Microsoft Defender вступает в специальное пассивное состояние, если на устройстве правильно работает другой антивирусный продукт в режиме реального времени, и устройство сообщается в Defender for Endpoint.</td>
 <td>Убедитесь, что параметры и сценарии бортовой установки были развернуты должным образом. Попробуйте передиплоять пакеты конфигурации.<br>
-См. <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">на сайте устройств с Windows 10</a><br>
+См. <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Windows 10 устройства</a><br>
 Убедитесь, что защита от антивирусных программ в режиме реального времени работает должным образом.</td>
 </tr>
 <tr>
 <td>31</td>
 <td>Сбой в работе Microsoft Defender для подключенных к конечным точкам пользователей и регистрации службы телеметрии. Код отказа: <code>variable</code> .</td>
-<td>Ошибка произошла в службе телеметрии Windows во время бортовой работы. Процесс offboarding продолжается.</td>
-<td><a href="troubleshoot-onboarding.md#ensure-the-diagnostic-data-service-is-enabled" data-raw-source="[Check for errors with the Windows telemetry service](troubleshoot-onboarding.md#ensure-the-diagnostic-data-service-is-enabled)">Проверьте ошибки в службе телеметрии Windows.</a></td>
+<td>Ошибка произошла в службе Windows телеметрии во время бортовой работы. Процесс offboarding продолжается.</td>
+<td><a href="troubleshoot-onboarding.md#ensure-the-diagnostic-data-service-is-enabled" data-raw-source="[Check for errors with the Windows telemetry service](troubleshoot-onboarding.md#ensure-the-diagnostic-data-service-is-enabled)">Проверьте ошибки в службе Windows телеметрии.</a></td>
 </tr>
 <tr>
 <td>32</td>
@@ -251,17 +251,17 @@ ms.locfileid: "51933845"
 <tr>
 <td>34</td>
 <td>Служба Microsoft Defender для конечных точек не смогла добавить себя в зависимость от службы подключенных пользователей и службы телеметрии, из-за чего процесс подключения не удалось. Код отказа: <code>variable</code> .</td>
-<td>Ошибка произошла в службе телеметрии Windows.</td>
+<td>Ошибка произошла в службе Windows телеметрии.</td>
 <td><a href="troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy" data-raw-source="[Ensure the diagnostic data service is enabled](troubleshoot-onboarding.md#ensure-that-microsoft-defender-antivirus-is-not-disabled-by-a-policy)">Убедитесь, что служба диагностических данных включена.</a><br>
 Убедитесь, что параметры и сценарии бортовой установки были развернуты должным образом. Попробуйте передиплоять пакеты конфигурации.<br>
-См. <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">на сайте onboard Windows 10 devices.</a></td>
+См. <a href="configure-endpoints.md" data-raw-source="[Onboard Windows 10 devices](configure-endpoints.md)">Windows 10 устройства.</a></td>
 </tr>
 <tr>
 <td>35</td>
 <td>Служба Microsoft Defender для конечных точек не смогла удалить себя в качестве зависимости от службы подключенных пользователей и службы телеметрии. Код отказа: <code>variable</code> .</td>
-<td>В службе телеметрии Windows во время отключения произошла ошибка. Процесс offboarding продолжается.
+<td>Во время отключения в службе Windows телеметрии произошла ошибка. Процесс offboarding продолжается.
 </td>
-<td>Проверьте ошибки в службе диагностических данных Windows.</td>
+<td>Проверьте ошибки в службе диагностических Windows данных.</td>
 </tr>
 <tr>
 <td>36</td>
@@ -494,7 +494,7 @@ ms.locfileid: "51933845"
 </tr>
 <tr>
    <td>84</td>
-   <td>Установите Защитник Windows режим работы антивируса. Пассивный режим force: %1, код результатов: %2.</td>
+   <td>Установите антивирусная программа режим работы. Пассивный режим force: %1, код результатов: %2.</td>
    <td>Установите режим работы защитника (активный или пассивный).</td>
    <td>Нормальное операционное уведомление; никаких действий.</td>
 </tr>
@@ -611,7 +611,7 @@ ms.locfileid: "51933845"
 
 >Хотите испытать Microsoft Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-eventerrorcodes-belowfoldlink)
 
-## <a name="related-topics"></a>Похожие темы
+## <a name="related-topics"></a>Статьи по теме
 - [Подключение устройств Windows 10](configure-endpoints.md)
-- [Настройка параметров прокси-сервера устройства и подключения к Интернету](configure-proxy-internet.md)
+- [Настройка параметров прокси-сервера устройства и соединения с Интернетом](configure-proxy-internet.md)
 - [Устранение неполадок Microsoft Defender для конечной точки](troubleshoot-onboarding.md)

@@ -28,7 +28,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/24/2021
 ms.locfileid: "52635894"
 ---
-# <a name="overview-of-the-microsoft-365-admin-center"></a>Обзор Центра администрирования Microsoft 365
+# <a name="overview-of-the-microsoft-365-admin-center"></a>Обзор Центра администрирования Microsoft 365
 
 - [Центр администрирования в упрощенном представлении](#watch-the-admin-center-in-simplified-view)
 - [Центр администрирования в представлении панели мониторинга](#watch-the-admin-center-in-dashboard-view)

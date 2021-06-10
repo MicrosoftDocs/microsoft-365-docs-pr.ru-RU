@@ -96,7 +96,7 @@ ms.locfileid: "52635862"
 - Microsoft 365 бизнес премиум
 - Microsoft 365 E3
 - Microsoft 365 E5
-- Microsoft 365 F1
+- Microsoft 365 F1
 
 > [!NOTE]
 > Office 365 с дополнительным хранилищем также доступен для GCC, GCC и doD-планов.

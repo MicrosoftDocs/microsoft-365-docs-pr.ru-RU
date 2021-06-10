@@ -1,7 +1,7 @@
 ---
 title: Таблица AlertInfo в продвинутой схеме охоты
 description: Узнайте о событиях генерации оповещений в таблице AlertInfo в продвинутой схеме охоты
-keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, Microsoft 365, m365, search, query, telemetry, schema reference, kusto, table, data type, description, AlertInfo, alert, severity, category, MITRE, ATT&CK, Microsoft Defender for Endpoint, Microsoft Defender for Office 365, Microsoft Cloud App Security, MCAS, and Microsoft Defender for Identity
+keywords: передовая охота, охота на угрозы, охота на киберугрозы, Microsoft 365 Defender, Microsoft 365, m365, поиск, запрос, телеметрия, ссылка на схему, кусто, таблица, столбец, тип данных, описание, AlertInfo, предупреждение, серьезность, категория, MITRE, ATT&CK, Microsoft Defender для Endpoint, Microsoft Defender для Office 365, Microsoft Cloud App Security, MCAS, и Защитник Майкрософт для identity
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -37,7 +37,7 @@ ms.locfileid: "51933701"
 
 
 
-В таблице в схеме расширенных схем охоты содержатся сведения о оповещениях из `AlertInfo` Microsoft Defender for Endpoint, Microsoft Defender for Office 365, Microsoft Cloud App Security и Microsoft Defender for Identity. [](advanced-hunting-overview.md) Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы.
+Таблица в схеме предварительной охоты содержит сведения о оповещениях из Microsoft Defender для конечной точки, Microsoft Defender для Office 365, Microsoft Cloud App Security и `AlertInfo` Microsoft Defender for Identity. [](advanced-hunting-overview.md) Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы.
 
 Сведения о других таблицах в схеме расширенного поиска см. в [справочнике по расширенному поиску](advanced-hunting-schema-tables.md).
 
@@ -52,7 +52,7 @@ ms.locfileid: "51933701"
 | `DetectionSource` | Строка | Технология обнаружения или датчик, которые определили заметный компонент или действие |
 | `AttackTechniques` | Строка | МЕТОДЫ ATT MITRE&CK, связанные с действиями, которые вызвали оповещение |
 
-## <a name="related-topics"></a>Похожие темы
+## <a name="related-topics"></a>Статьи по теме
 - [Обзор расширенной охоты](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)

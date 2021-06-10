@@ -91,7 +91,7 @@ ms.locfileid: "52272899"
 
 ### <a name="event-logs"></a>Журналы событий
 
-- Для приложений
+- Приложение
 - Microsoft-Windows-AppLocker/EXE и DLL
 - Microsoft-Windows-AppLocker/MSI и script
 - Microsoft-Windows-AppLocker/Packaged app-Deployment

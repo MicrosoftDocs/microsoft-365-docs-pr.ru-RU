@@ -1,6 +1,6 @@
 ---
 title: Поиск представленных устройств
-description: Узнайте, как управление угрозами и уязвимостью может использоваться для совместной работы администраторов безопасности, ИТ-администраторов и secOps.
+description: Узнайте, контроль угроз и уязвимостей можно использовать для совместной работы администраторов безопасности, ИТ-администраторов и SecOps.
 keywords: Сценарии Microsoft Defender для endpoint-tvm, сценарии Microsoft Defender для конечной точки, tvm, сценарии твм, снижение воздействия уязвимости & угрозы, снижение уровня угрозы и уязвимости, улучшение конфигурации безопасности, увеличение показателей безопасности Microsoft & для устройств, повышение степени уязвимости Microsoft Secure Score для устройств, оценка безопасности Microsoft для устройств, оценка экспозиции, контроль безопасности
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -25,14 +25,14 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/21/2021
 ms.locfileid: "51934097"
 ---
-# <a name="hunt-for-exposed-devices---threat-and-vulnerability-management"></a>Hunt for exposed devices - threat and vulnerability management
+# <a name="hunt-for-exposed-devices---threat-and-vulnerability-management"></a>Охота на выставленные устройства — контроль угроз и уязвимостей
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Область применения:**
 
 - [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/?linkid=2154037)
-- [Управление угрозами и уязвимостями](next-gen-threat-and-vuln-mgt.md)
+- [Угроза и управление уязвимостями](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 >Хотите испытать Microsoft Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
@@ -49,13 +49,13 @@ ms.locfileid: "51934097"
 
 - [DeviceTvmSoftwareVulnerabilitiesKB](advanced-hunting-devicetvmsoftwarevulnerabilitieskb-table.md) — база знаний об открытых уязвимостях, в том числе о том, доступен ли код эксплойта.
 
-- [DeviceTvmSecureConfigurationAssessment](advanced-hunting-devicetvmsecureconfigurationassessment-table.md) — события оценки угроз и уязвимостей, указывающие на состояние различных конфигураций безопасности на устройствах.
+- [DeviceTvmSecureConfigurationAssessment](advanced-hunting-devicetvmsecureconfigurationassessment-table.md) — события управление уязвимостями и управление уязвимостями, указывающие на состояние различных конфигураций безопасности на устройствах.
 
 - [DeviceTvmSecureConfigurationAssessmentKB](advanced-hunting-devicetvmsecureconfigurationassessmentkb-table.md) — база знаний о различных конфигурациях безопасности, используемых управлением & уязвимостей для оценки устройств; включает сопоставления с различными стандартами и эталонами
 
 ## <a name="check-which-devices-are-involved-in-high-severity-alerts"></a>Проверьте, какие устройства участвуют в оповещениях высокой степени тяжести
 
-1. Перейдите **к продвинутой охоте** с левой области навигации Центра безопасности Microsoft Defender.
+1. Перейдите **к продвинутой охоте** с левой области навигации Центр безопасности в Microsoft Defender.
 
 2. Прокрутите до расширенных схем охоты TVM, чтобы ознакомиться с именами столбцов.
 
@@ -75,11 +75,11 @@ DeviceName=any(DeviceName) by DeviceId, AlertId
 | order by NumOfVulnerabilities desc
 ```
 
-## <a name="related-topics"></a>Похожие темы
+## <a name="related-topics"></a>Статьи по теме
 
-- [Обзор управления угрозами и уязвимостью](next-gen-threat-and-vuln-mgt.md)
+- [Обзор угроз и управление уязвимостями](next-gen-threat-and-vuln-mgt.md)
 - [Рекомендации по безопасности](tvm-security-recommendation.md)
 - [Интерфейсы API](next-gen-threat-and-vuln-mgt.md#apis)
-- [Настройка доступа к данным для ролей управления угрозами и уязвимостями](user-roles.md#create-roles-and-assign-the-role-to-an-azure-active-directory-group)
+- [Настройка доступа к данным для контроль угроз и уязвимостей ролей](user-roles.md#create-roles-and-assign-the-role-to-an-azure-active-directory-group)
 - [Обзор расширенной охоты](/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview)
 - [Все расширенные таблицы охоты](/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-schema-reference.md)

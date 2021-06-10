@@ -75,7 +75,7 @@ rbacGroupName | String | Имя группы машин.
 riskScore | Nullable Enum | Оценка риска, оцениваемая Microsoft Defender для конечной точки. Возможные значения: "Нет", "Информационный", "Низкий", "Средний" и "Высокий".
 exposureScore | Nullable Enum | [Оценка экспозиции,](tvm-exposure-score.md) оцениваемая Microsoft Defender для конечной точки. Возможные значения: "Нет", "Низкий", "Средний" и "Высокий".
 aadDeviceId | Nullable representation Guid | AAD Device ID (когда [машина](machine.md) является AAD Joined).
-machineTags | Коллекция строк | Набор [тегов](machine.md) машин.
+machineTags | Коллекция объектов string | Набор [тегов](machine.md) машин.
 exposureLevel | Nullable Enum | Уровень экспозиции, оцениваемый Microsoft Defender для конечной точки. Возможные значения: "Нет", "Низкий", "Средний" и "Высокий".
 deviceValue | Nullable Enum | Значение [устройства](tvm-assign-device-value.md). Возможные значения: "Нормальный", "Низкий" и "Высокий".
 ipAddresses | Коллекция IpAddress | Набор ***объектов IpAddress.*** См. [API get machines](get-machines.md).

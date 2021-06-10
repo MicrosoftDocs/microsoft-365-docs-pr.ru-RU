@@ -165,7 +165,7 @@ ms.locfileid: "52635966"
 > [!TIP]
 > Вы также можете добавить файлы, которые необходимо заблокировать, в список антивирусных программ на [шаге 4.](#4-raise-the-level-of-protection-against-malware-in-mail)
 
-Дополнительные сведения см. в статьях:
+Дополнительные сведения см. в указанных ниже статьях.
 
 - [Вымогателей: снижение риска](https://www.microsoft.com/security/blog/2020/04/28/ransomware-groups-continue-to-target-healthcare-critical-services-heres-how-to-reduce-risk/)
 

@@ -25,7 +25,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/21/2021
 ms.locfileid: "51933809"
 ---
-# <a name="set-up-microsoft-defender-for-endpoint-on-macos-device-groups-in-jamf-pro"></a>Настройка Microsoft Defender для конечной точки в группах устройств macOS в Jamf Pro
+# <a name="set-up-microsoft-defender-for-endpoint-on-macos-device-groups-in-jamf-pro"></a>Настройка Microsoft Defender для конечной точки для групп устройств macOS в Jamf Pro
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -35,7 +35,7 @@ ms.locfileid: "51933809"
 
 > Хотите испытать Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-investigateip-abovefoldlink)
 
-Настройка групп устройств, аналогичных организационным группам групповой политики, коллекции устройств Microsoft Endpoint Configuration Manager и группам устройств Intune.
+Настройка групп устройств, аналогичных организационным группам групповой политики, Microsoft Endpoint Configuration Manager коллекции устройств и групп устройств Intune.
 
 1. Перейдите к **статическим компьютерным группам.**
 
@@ -51,5 +51,5 @@ ms.locfileid: "51933809"
 
     ![Изображение Jamf Pro3](images/contoso-machine-group.png)
 
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Следующий этап
 - [Настройка Microsoft Defender для конечной точки для политик macOS в Jamf Pro](mac-jamfpro-policies.md)

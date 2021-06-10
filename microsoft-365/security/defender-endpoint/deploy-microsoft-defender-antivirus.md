@@ -1,7 +1,7 @@
 ---
 title: Развертывание и включение антивирусной программы в Microsoft Defender
-description: Развертывание антивируса Microsoft Defender для защиты конечных точек с помощью Microsoft Intune, Microsoft Endpoint Configuration Manager, Group Policy, PowerShell и WMI.
-keywords: развертывание, включить, антивирус Microsoft Defender
+description: Развертывание антивирусная программа в Microsoft Defender для защиты конечных точек с помощью Microsoft Intune, Microsoft Endpoint Configuration Manager, групповой политики, cmdlets PowerShell или WMI.
+keywords: развертывание, включить, антивирусная программа в Microsoft Defender
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
@@ -32,16 +32,16 @@ ms.locfileid: "52274500"
 
 - [Microsoft Defender для конечной точки](/microsoft-365/security/defender-endpoint/)
 
-В зависимости от используемой системы управления может потребоваться включить или настроить антивирусную защиту Microsoft Defender. 
+В зависимости от используемой вами системы управления может потребоваться включить или настроить антивирусная программа в Microsoft Defender защиты. 
 
-В таблице [Развертывание,](deploy-manage-report-microsoft-defender-antivirus.md#ref2) управление и отчет по антивирусу Microsoft Defender см. инструкции по защите с помощью Microsoft Intune, Microsoft Endpoint Configuration Manager, Group Policy, Active Directory, Microsoft Azure, PowerShell и Инструкции по управлению Windows (WMI).
+См. в таблице [Развертывание,](deploy-manage-report-microsoft-defender-antivirus.md#ref2) управление и отчет о антивирусная программа в Microsoft Defender инструкции о том, как включить защиту с помощью Microsoft Intune, Microsoft Endpoint Configuration Manager, групповой политики, Active Directory, Microsoft Azure, powerShell и инструкции по управлению Windows (WMI).
 
-В некоторых сценариях требуются дополнительные рекомендации по успешному развертыванию или настройке антивирусной защиты Microsoft Defender, например среды виртуальной инфраструктуры настольных компьютеров (VDI).
+Некоторые сценарии требуют дополнительных рекомендаций по успешному развертыванию или настройке антивирусная программа в Microsoft Defender защиты, например инфраструктура виртуальных рабочих столов (VDI).
 
-Оставшаяся статья в этом разделе содержит рекомендации и рекомендации по настройке антивируса Microsoft Defender на виртуальных машинах (виртуальных машинах) в среде VDI или [Remote Desktop Services (RDS).](deployment-vdi-microsoft-defender-antivirus.md)
+В оставшейся статье в этом разделе предоставляется советы и рекомендации по настройке антивирусная программа в Microsoft Defender виртуальных машин (виртуальных машин) в среде VDI или [Remote Desktop Services (RDS).](deployment-vdi-microsoft-defender-antivirus.md)
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
-- [Антивирус Microsoft Defender в Windows 10](microsoft-defender-antivirus-in-windows-10.md)
-- [Развертывание, управление обновлениями и отчет об антивирусе Microsoft Defender](deploy-manage-report-microsoft-defender-antivirus.md)
+- [Антивирусная программа в Microsoft Defender (Windows 10)](microsoft-defender-antivirus-in-windows-10.md)
+- [Развертывание, управление обновлениями и отчет о антивирусная программа в Microsoft Defender](deploy-manage-report-microsoft-defender-antivirus.md)
 - [Руководство по развертыванию антивирусной программы в Microsoft Defender в среде инфраструктуры виртуальных рабочих столов (VDI)](deployment-vdi-microsoft-defender-antivirus.md)

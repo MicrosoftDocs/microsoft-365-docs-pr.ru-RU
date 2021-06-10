@@ -1,7 +1,7 @@
 ---
-title: Хронология событий в управлении угрозами и уязвимостью
+title: Хронология событий в контроль угроз и уязвимостей
 description: Временная шкала событий — это лента новостей о рисках, которая позволяет интерпретировать, как вводится риск в организацию и какие меры по ее снижению были смягчаемы.
-keywords: Хронология событий, сроки событий Microsoft Defender для конечных точек, шкала событий Microsoft Defender для конечных точек твм, управление угрозами и уязвимостью, Microsoft Defender для Endpoint
+keywords: временной шкале событий, временной шкале событий Microsoft Defender для конечных точек, временной шкале событий Microsoft Defender для конечной точки, контроль угроз и уязвимостей, Microsoft Defender для endpoint
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -25,7 +25,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/21/2021
 ms.locfileid: "51933485"
 ---
-# <a name="event-timeline---threat-and-vulnerability-management"></a>Временная шкала событий — управление угрозами и уязвимостью
+# <a name="event-timeline---threat-and-vulnerability-management"></a>Временная шкала событий — контроль угроз и уязвимостей
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -45,7 +45,7 @@ ms.locfileid: "51933485"
 
 ## <a name="navigate-to-the-event-timeline-page"></a>Перейдите на страницу временной шкалы событий
 
-Существует также три точки входа из панели управления угрозами и [уязвимостью:](tvm-dashboard-insights.md)
+Кроме того, на панели мониторинга контроль угроз и уязвимостей [три точки входа:](tvm-dashboard-insights.md)
 
 - **Карта оценки экспозиции** организации. Наведите курсор над точками событий в графе "Оценка экспозиции со временем" и выберите "См. все события этого дня". События представляют уязвимости программного обеспечения.
 - **Microsoft Secure Score for Devices:** Hover over the event dots in the "Your score for devices over time" graph and select "See all events from this day". События представляют собой новые оценки конфигурации.
@@ -53,7 +53,7 @@ ms.locfileid: "51933485"
 
 ### <a name="exposure-score-and-microsoft-secure-score-for-devices-graphs"></a>Оценка экспозиции и microsoft Secure Score для устройств
 
-На панели мониторинга управления угрозами и уязвимостями наведите курсор над графиком показателей экспозиции, чтобы просмотреть события уязвимости программного обеспечения с того дня, которые повлияли на ваши устройства. Наведите курсор над графом Microsoft Secure Score для устройств, чтобы просмотреть новые оценки конфигурации безопасности, влияющие на ваш результат.
+На панели контроль угроз и уязвимостей наведите курсор над графиком показателей экспозиции, чтобы просмотреть события уязвимости программного обеспечения с того дня, которые повлияли на ваши устройства. Наведите курсор над графом Microsoft Secure Score для устройств, чтобы просмотреть новые оценки конфигурации безопасности, влияющие на ваш результат.
 
 Если нет событий, влияющих на устройства или оценку для устройств, то ни одно из них не будет показано.
 
@@ -84,7 +84,7 @@ ms.locfileid: "51933485"
 
 ![Страница временной шкалы событий](images/tvm-event-timeline-overview-mixed-type.png)
 
-### <a name="columns"></a>Столбцы
+### <a name="columns"></a>Columns
 
 - **Дата:** месяц, день, год
 - **Event:** impactful event, including component, type and number of impacted devices
@@ -130,9 +130,9 @@ ms.locfileid: "51933485"
 
 ![Страница программного обеспечения со вкладками Временной шкалы событий](images/tvm-event-timeline-software-pages.png)
 
-## <a name="related-topics"></a>Похожие темы
+## <a name="related-topics"></a>Статьи по теме
 
-- [Обзор управления угрозами и уязвимостью](next-gen-threat-and-vuln-mgt.md)
+- [Обзор угроз и управление уязвимостями](next-gen-threat-and-vuln-mgt.md)
 - [Панель мониторинга](tvm-dashboard-insights.md)
 - [Показатель уязвимости](tvm-exposure-score.md)
 - [Рекомендации по безопасности](tvm-security-recommendation.md)

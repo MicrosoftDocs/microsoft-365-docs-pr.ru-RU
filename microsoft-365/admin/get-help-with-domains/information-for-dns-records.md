@@ -32,7 +32,7 @@ ms.locfileid: "52635730"
 ---
 # <a name="gather-the-information-you-need-to-create-dns-records"></a>Сбор сведений, необходимых для создания записей DNS
 
- Если вы не нашли то, что вы ищете, обратитесь к разделу **[вопросы и ответы по доменам](../setup/domains-faq.yml)**. 
+ Если вы не нашли то, что вы ищете, см. раздел **[Вопросы и ответы по доменам](../setup/domains-faq.yml)**. 
   
 ### <a name="step-1-find-the-txt-record-value-and-verify"></a>Шаг 1. Поиск значения записи TXT и проверка
 
@@ -100,6 +100,6 @@ ms.locfileid: "52635730"
 
 ## <a name="related-content"></a>См. также:
 
-[FaQ доменов](../setup/domains-faq.yml) (статья)\
-[Поиск и устранение проблем после добавления записей домена](find-and-fix-issues.md) или DNS (статья)\
+[Вопросы и ответы о доменах](../setup/domains-faq.yml) (статья)\
+[Поиск и устранение неполадок после добавления домена и записей DNS](find-and-fix-issues.md) (статья)\
 [Управление доменами](index.yml) (страница ссылки)

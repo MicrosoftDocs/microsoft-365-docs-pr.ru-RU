@@ -75,7 +75,7 @@ GET /api/domains/{domain}/stats
 :---|:---|:---
 lookBackHours | Int32 | Определяет часы поиска, чтобы получить статистику. По умолчанию до 30 дней. **Необязательное поле**.
 
-## <a name="request-body"></a>Текст запроса
+## <a name="request-body"></a>Тело запроса
 переменная Empty
 
 ## <a name="response"></a>Отклик

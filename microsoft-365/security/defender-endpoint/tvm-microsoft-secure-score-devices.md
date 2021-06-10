@@ -1,7 +1,7 @@
 ---
 title: Оценка безопасности (Майкрософт) для устройств
 description: В вашей оценке для устройств показано общее состояние конфигурации устройств в приложениях, операционной системе, сети, учетных записях и средствах управления безопасностью.
-keywords: Microsoft Secure Score for Devices, Microsoft Defender for Endpoint Microsoft Secure Score for Devices, secure score, configuration score, threat and vulnerability management, security controls, improvement opportunities, security configuration score over time, security posture, baseline
+keywords: Microsoft Secure Score for Devices, Microsoft Defender for Endpoint Microsoft Secure Score for Devices, secure score, configuration score, контроль угроз и уязвимостей, security controls, improvement opportunities, security configuration score over time, security posture, baseline
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -32,16 +32,16 @@ ms.locfileid: "51934085"
 **Область применения:**
 
 - [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/?linkid=2154037)
-- [Управление угрозами и уязвимостями](next-gen-threat-and-vuln-mgt.md)
+- [Угроза и управление уязвимостями](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Хотите испытать Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-pullalerts-abovefoldlink) 
 
 
 >[!NOTE]
-> Оценка конфигурации теперь является частью управления угрозами и уязвимостями в качестве Microsoft Secure Score для устройств.
+> Оценка конфигурации теперь является частью контроль угроз и уязвимостей microsoft Secure Score для устройств.
 
-Оценка для устройств отображается на [](tvm-dashboard-insights.md) панели мониторинга управления угрозами и уязвимостями Центра безопасности Microsoft Defender. Более высокий показатель microsoft Secure Score для устройств означает, что конечные точки более устойчивы к атакам угроз кибербезопасности. Он отражает состояние конфигурации коллективной безопасности устройств в следующих категориях:
+Оценка для устройств отображается на контроль угроз и уязвимостей [панели мониторинга](tvm-dashboard-insights.md) Центр безопасности в Microsoft Defender. Более высокий показатель microsoft Secure Score для устройств означает, что конечные точки более устойчивы к атакам угроз кибербезопасности. Он отражает состояние конфигурации коллективной безопасности устройств в следующих категориях:
 
 - Приложение
 - Операционная система
@@ -57,7 +57,7 @@ Forward Microsoft Defender for Endpoint signals, giving Microsoft Secure Score v
 
 На отражение изменений на панели мониторинга может потребоваться до нескольких часов.
 
-1. В области навигации перейдите к **расширенным** функциям Settings  >  **Advanced** 
+1. В области навигации перейдите **к Параметры**  >  **Расширенные функции** 
 
 2. Прокрутите **вниз до Microsoft Secure Score** и перейдите к параметру **On**.
 
@@ -79,7 +79,7 @@ Forward Microsoft Defender for Endpoint signals, giving Microsoft Secure Score v
 
 Улучшение конфигурации безопасности путем устранения проблем из списка рекомендаций по безопасности. По мере этого ваша оценка microsoft Secure Для устройств улучшается, а ваша организация становится более устойчивой к угрозам и уязвимостям кибербезопасности.
 
-1. Из карты Microsoft Secure Score for Devices в панели управления угрозами и уязвимостью выберите одну из категорий. Вы увидите список рекомендаций, связанных с этой категорией. Он будет принимать вас на [**страницу рекомендации безопасности.**](tvm-security-recommendation.md) Если вы хотите увидеть все рекомендации по безопасности, как только вы доберетсяе до страницы Рекомендации безопасности, очистить поле поиска.
+1. Из карты Microsoft Secure Score for Devices в контроль угроз и уязвимостей панели мониторинга выберите одну из категорий. Вы увидите список рекомендаций, связанных с этой категорией. Он будет принимать вас на [**страницу рекомендации безопасности.**](tvm-security-recommendation.md) Если вы хотите увидеть все рекомендации по безопасности, как только вы доберетсяе до страницы Рекомендации безопасности, очистить поле поиска.
 
 2. Выберите элемент в списке. Панель вылетов откроется с подробными сведениями, связанными с рекомендацией. Выберите **параметры исправлений.**
 
@@ -108,9 +108,9 @@ Forward Microsoft Defender for Endpoint signals, giving Microsoft Secure Score v
 >1. Перейдите [в каталог обновлений Майкрософт](https://www.catalog.update.microsoft.com/home.aspx).
 >2. Вйдите в номер КБ обновления безопасности, который необходимо скачать, а затем нажмите **кнопку Поиск**.  
 
-## <a name="related-topics"></a>Похожие темы
+## <a name="related-topics"></a>Статьи по теме
 
-- [Обзор управления угрозами и уязвимостью](next-gen-threat-and-vuln-mgt.md)
+- [Обзор угроз и управление уязвимостями](next-gen-threat-and-vuln-mgt.md)
 - [Панель мониторинга](tvm-dashboard-insights.md)
 - [Показатель уязвимости](tvm-exposure-score.md)
 - [Рекомендации по безопасности](tvm-security-recommendation.md)

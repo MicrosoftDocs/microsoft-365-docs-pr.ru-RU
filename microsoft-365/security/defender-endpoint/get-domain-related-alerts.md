@@ -71,9 +71,9 @@ GET /api/domains/{domain}/alerts
 
 | Заголовок        | Значение  |
 |:--------------|:-------|
-| Authorization | String |
+| Авторизация | String |
 
-## <a name="request-body"></a>Текст запроса
+## <a name="request-body"></a>Тело запроса
 переменная Empty
 
 ## <a name="response"></a>Отклик

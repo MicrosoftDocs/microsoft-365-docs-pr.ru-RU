@@ -174,7 +174,7 @@ MFA для отдельных учетных записей пользовате
 
 [Настройка MFA для Microsoft 365](set-up-multi-factor-authentication.md)
 
-## <a name="related-content"></a>См. также:
+## <a name="related-content"></a>Родственные материалы
 
-[Включаем многофакторную проверку подлинности](../../business-video/turn-on-mfa.md) (видео)\
+[Включение многофакторной проверки подлинности](../../business-video/turn-on-mfa.md) (видео)\
 [Видео: включение многофакторной проверки подлинности для телефона](../../business-video/set-up-mfa.md)
