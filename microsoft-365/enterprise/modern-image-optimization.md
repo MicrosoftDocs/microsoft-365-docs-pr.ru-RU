@@ -20,7 +20,7 @@ ms.custom:
 ms.reviewer: sstewart
 search.appverid:
 - MET150
-description: Узнайте, как использовать средства, включенные в SharePoint Online, для оптимизации изображений на современных страницах веб-сайтов SharePoint Online.
+description: Узнайте, как использовать средства, включенные в SharePoint Online, для оптимизации изображений на SharePoint веб-страниц Online.
 ms.openlocfilehash: a4f2def86e1378a9fb76ae9ecbe6a55da75ecffc
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT

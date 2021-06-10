@@ -1,7 +1,7 @@
 ---
-title: Функция FileProfile() в продвинутой охоте для Microsoft 365 Defender
+title: Функция FileProfile() в продвинутой охоте на Microsoft 365 Defender
 description: Узнайте, как использовать FileProfile() для обогащения сведений о файлах в результатах запроса на расширенные запросы на охоту
-keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, Microsoft 365, m365, search, query, telemetry, schema reference, kusto, FileProfile, file Profile, function, enrichment
+keywords: передовая охота, охота на угрозы, охота на киберугрозы, Microsoft 365 Defender, Microsoft 365, m365, поиск, запрос, телеметрия, ссылка схемы, kusto, FileProfile, профиль файла, функция, обогащение
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -74,7 +74,7 @@ invoke FileProfile(x,y)
 
 ## <a name="examples"></a>Примеры
 
-### <a name="project-only-the-sha1-column-and-enrich-it"></a>Проект только столбца SHA1 и его обогащение
+### <a name="project-only-the-sha1-column-and-enrich-it"></a>Project только столбец SHA1 и обогатить его
 
 ```kusto
 DeviceFileEvents
@@ -94,7 +94,7 @@ DeviceFileEvents
 | where GlobalPrevalence < 15
 ```
 
-## <a name="related-topics"></a>Похожие темы
+## <a name="related-topics"></a>Статьи по теме
 - [Обзор расширенной охоты](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Сведения о схеме](advanced-hunting-schema-tables.md)

@@ -1,5 +1,5 @@
 ---
-title: Удаление учетных записей пользователей Microsoft 365 с помощью PowerShell
+title: Удаление Microsoft 365 учетных записей пользователей с помощью PowerShell
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -19,7 +19,7 @@ ms.custom:
 - O365ITProTrain
 - seo-marvel-apr2020
 ms.assetid: 209c9868-448c-49bc-baae-11e28b923a39
-description: Узнайте, как использовать различные модули в PowerShell для удаления учетных записей пользователей Microsoft 365.
+description: Узнайте, как использовать различные модули в PowerShell для удаления Microsoft 365 учетных записей пользователей.
 ms.openlocfilehash: 32081d1ce0cbc7aac89b337cf8b5d08bc8e43dfa
 ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
@@ -27,19 +27,19 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50919144"
 ---
-# <a name="delete-microsoft-365-user-accounts-with-powershell"></a>Удаление учетных записей пользователей Microsoft 365 с помощью PowerShell
+# <a name="delete-microsoft-365-user-accounts-with-powershell"></a>Удаление Microsoft 365 учетных записей пользователей с помощью PowerShell
 
 Вы можете использовать PowerShell для Microsoft 365 для удаления и восстановления учетных записей пользователей.
 
 >[!Note]
->Узнайте, как [восстановить учетную запись пользователя](../admin/add-users/restore-user.md) с помощью центра администрирования Microsoft 365.
+>Узнайте, как [восстановить учетную запись пользователя](../admin/add-users/restore-user.md) с помощью Microsoft 365 центра администрирования.
 >
 >Список дополнительных ресурсов см. в списке [Управление пользователями и группами.](../admin/add-users/index.yml)
 >   
    
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Использование модуля PowerShell Azure Active Directory для Graph
 
-[Во-первых, подключите клиента Microsoft 365.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
+[Во-первых, подключите Microsoft 365 клиента.](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module)
 
 После подключения используйте следующий синтаксис для удаления отдельной учетной записи пользователя:
   
@@ -79,9 +79,9 @@ Remove-AzureADUser -ObjectID (Get-AzureADUser | where {$_.DisplayName -eq $userN
 
 ## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a>Использование модуля Microsoft Azure Active Directory для Windows PowerShell
 
-При удалении учетной записи пользователя через модуль Microsoft Azure Active Directory для Windows PowerShell, учетная запись не удаляется окончательно. Удаленную учетную запись пользователя можно восстановить в течение 30 дней.
+При удалении учетной записи пользователя через Microsoft Azure Active Directory модуль для Windows PowerShell, учетная запись не удаляется окончательно. Удаленную учетную запись пользователя можно восстановить в течение 30 дней.
 
-[Во-первых, подключите клиента Microsoft 365.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
+[Во-первых, подключите Microsoft 365 клиента.](connect-to-microsoft-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell)
 
 Чтобы удалить учетную запись пользователя, используйте следующий синтаксис:
   

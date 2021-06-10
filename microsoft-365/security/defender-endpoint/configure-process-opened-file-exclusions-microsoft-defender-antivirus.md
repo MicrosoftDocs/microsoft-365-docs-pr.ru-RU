@@ -1,7 +1,7 @@
 ---
 title: Настройка исключений для файлов, открытых определенными процессами
 description: Вы можете исключить файлы из сканирования, если они были открыты определенным процессом.
-keywords: Антивирус Microsoft Defender, процесс, исключение, файлы, сканирование
+keywords: антивирусная программа в Microsoft Defender, процесс, исключение, файлы, проверки
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
@@ -31,7 +31,7 @@ ms.locfileid: "52274620"
 
 - [Microsoft Defender для конечной точки](/microsoft-365/security/defender-endpoint/)
 
-Можно исключить файлы, открытые определенными процессами из антивирусных сканов Microsoft Defender. Рекомендации [по определению исключений](configure-exclusions-microsoft-defender-antivirus.md#recommendations-for-defining-exclusions) перед определением списков исключений.
+Можно исключить файлы, открытые определенными процессами, из антивирусная программа в Microsoft Defender проверки. См. [Рекомендации для определения исключений](configure-exclusions-microsoft-defender-antivirus.md#recommendations-for-defining-exclusions) перед определением списков исключений.
 
 В этой статье описывается настройка списков исключений. 
 
@@ -44,13 +44,13 @@ ms.locfileid: "52274620"
 |Любой файл на компьютере, открытый определенным процессом в определенной папке | Указание `c:\test\process.exe` исключит файлы, открытые только `c:\test\process.exe` |
 
 
-При добавлении процесса в список исключений процесса антивирус Microsoft Defender не будет проверять файлы, открытые этим процессом, независимо от того, где находятся файлы. Однако сам процесс будет отсканирован, если он не будет добавлен в список [исключений файлов.](configure-extension-file-exclusions-microsoft-defender-antivirus.md)
+При добавлении процесса в список исключений процесса антивирусная программа в Microsoft Defender файлы, открытые этим процессом, независимо от того, где находятся файлы. Однако сам процесс будет отсканирован, если он не будет добавлен в список [исключений файлов.](configure-extension-file-exclusions-microsoft-defender-antivirus.md)
 
 Исключения применяются только к защите и мониторингу в режиме реального времени в [режиме реального времени.](configure-real-time-protection-microsoft-defender-antivirus.md) Они не применяются к запланированным проверкам или проверкам по запросу.
 
-Изменения, внесенные с помощью  групповой политики в списки исключений, будут указаны в списках в [приложении Безопасности Windows.](microsoft-defender-security-center-antivirus.md) Однако изменения, внесенные в приложение Безопасности **Windows, не будут указаны** в списках групповой политики.
+Изменения, внесенные с групповой политикой в списки исключений, будут показываться в списках в [Безопасность Windows приложении.](microsoft-defender-security-center-antivirus.md)  Однако изменения, внесенные в Безопасность Windows, **не будут указаны** в списках групповой политики.
 
-Можно добавить, удалить и просмотреть списки исключений в групповой политике, Microsoft Endpoint Configuration Manager, Microsoft Intune и в приложении Windows Security, а также использовать подгруппы для дальнейшей настройки списков.
+Можно добавить, удалить и просмотреть списки исключений в групповой политике, Microsoft Endpoint Configuration Manager, Microsoft Intune и в приложении Безопасность Windows, а также использовать подгруппы для дальнейшей настройки списков.
 
 Для настройки списков исключений, включая просмотр списков, можно также использовать cmdlets PowerShell и WMI.
 
@@ -60,7 +60,7 @@ ms.locfileid: "52274620"
 
 ## <a name="configure-the-list-of-exclusions-for-files-opened-by-specified-processes"></a>Настройка списка исключений для файлов, открытых указанными процессами
 
-### <a name="use-microsoft-intune-to-exclude-files-that-have-been-opened-by-specified-processes-from-scans"></a>Используйте Microsoft Intune, чтобы исключить файлы, открытые указанными процессами, из сканирований
+### <a name="use-microsoft-intune-to-exclude-files-that-have-been-opened-by-specified-processes-from-scans"></a>Используйте Microsoft Intune, чтобы исключить файлы, открытые указанными процессами, из сканов
 
 Дополнительные сведения см. в статьях [Настройка параметров ограничения устройств в Microsoft Intune](/intune/device-restrictions-configure) и [Параметры ограничений устройств антивирусной программы в Microsoft Defender для Windows 10 в Intune](/intune/device-restrictions-windows-10#microsoft-defender-antivirus).
 
@@ -74,7 +74,7 @@ ms.locfileid: "52274620"
 
 2. В **редакторе управления групповой политикой** перейдите к **конфигурации компьютера** и щелкните **административные шаблоны**.
 
-3. Расширь дерево до **компонентов Windows и > антивирусных**> Microsoft Defender.
+3. Расширь **дерево до Windows компонентов > антивирусная программа в Microsoft Defender > исключений.**
 
 4. Дважды **щелкните исключения процесса** и добавьте исключения:
 
@@ -111,9 +111,9 @@ ms.locfileid: "52274620"
 Add-MpPreference -ExclusionProcess "c:\internal\test.exe"
 ```
 
-Дополнительные сведения о том, как использовать PowerShell с антивирусом Microsoft Defender, см. в рублях Управление антивирусными программами с помощью cmdlets PowerShell и антивирусных программ [Microsoft Defender.](/powershell/module/defender)
+Дополнительные сведения о том, как использовать PowerShell с антивирусная программа в Microsoft Defender, см. в рублях Управление антивирусными программами с помощью cmdlets и [антивирусная программа в Microsoft Defender](/powershell/module/defender)PowerShell.
 
-### <a name="use-windows-management-instruction-wmi-to-exclude-files-that-have-been-opened-by-specified-processes-from-scans"></a>Используйте инструкцию по управлению Windows (WMI), чтобы исключить из сканов файлы, открытые указанными процессами.
+### <a name="use-windows-management-instruction-wmi-to-exclude-files-that-have-been-opened-by-specified-processes-from-scans"></a>Используйте Windows управления (WMI), чтобы исключить файлы, открытые указанными процессами, из сканирований
 
 Используйте [ **методы Set,** **Add** и **Remove** **MSFT_MpPreference**](/previous-versions/windows/desktop/legacy/dn455323(v=vs.85)) класса для следующих свойств:
 
@@ -125,9 +125,9 @@ ExclusionProcess
 
 Дополнительные сведения и разрешенные параметры см. в Защитник Windows [API WMIv2.](/previous-versions/windows/desktop/defender/windows-defender-wmiv2-apis-portal)
 
-### <a name="use-the-windows-security-app-to-exclude-files-that-have-been-opened-by-specified-processes-from-scans"></a>Используйте приложение Безопасности Windows, чтобы исключить файлы, открытые указанными процессами, из сканирований
+### <a name="use-the-windows-security-app-to-exclude-files-that-have-been-opened-by-specified-processes-from-scans"></a>Используйте приложение Безопасность Windows, чтобы исключить файлы, открытые указанными процессами, из сканирования
 
-Дополнительные [исключения см. в приложении Windows Security для](microsoft-defender-security-center-antivirus.md) инструкций.
+Дополнительные [исключения см. в Безопасность Windows для](microsoft-defender-security-center-antivirus.md) инструкций.
 
 ## <a name="use-wildcards-in-the-process-exclusion-list"></a>Использование подкардов в списке исключений процесса
 
@@ -144,11 +144,11 @@ ExclusionProcess
 
 ## <a name="review-the-list-of-exclusions"></a>Просмотр списка исключений
 
-Элементы из списка исключений можно получить с помощью MpCmdRun, PowerShell, [Microsoft Endpoint Configuration Manager,](/configmgr/protect/deploy-use/endpoint-antimalware-policies#exclusion-settings) [Intune](/intune/device-restrictions-configure)или [приложения Windows Security.](microsoft-defender-security-center-antivirus.md)
+Элементы из списка исключений можно получить с помощью MpCmdRun, PowerShell, [Microsoft Endpoint Configuration Manager,](/configmgr/protect/deploy-use/endpoint-antimalware-policies#exclusion-settings) [Intune](/intune/device-restrictions-configure) [или приложения Безопасность Windows.](microsoft-defender-security-center-antivirus.md)
 
 Если вы используете PowerShell, вы можете получить список двумя способами:
 
-- Извлечение состояния всех антивирусных предпочтений Microsoft Defender. Каждый из списков будет отображаться по отдельным строкам, но элементы в каждом списке будут объединены в ту же строку.
+- Извлечение состояния всех антивирусная программа в Microsoft Defender личных предпочтений. Каждый из списков будет отображаться по отдельным строкам, но элементы в каждом списке будут объединены в ту же строку.
 - Напишите состояние всех предпочтений переменной и используйте эту переменную для вызова только заинтересованного списка. Каждое использование `Add-MpPreference` записано на новую строку.
 
 ### <a name="validate-the-exclusion-list-by-using-mpcmdrun"></a>Проверка списка исключений с помощью MpCmdRun
@@ -160,10 +160,10 @@ MpCmdRun.exe -CheckExclusion -path <path>
 ```
 
 > [!NOTE]
-> Проверка исключений с помощью MpCmdRun требует антивирусного лагеря Microsoft Defender версии 4.18.1812.3 (выпущена в декабре 2018 г.) или более поздней версии.
+> Проверка исключений с помощью MpCmdRun антивирусная программа в Microsoft Defender camp версии 4.18.1812.3 (выпущена в декабре 2018 г.) или более поздней версии.
 
 
-### <a name="review-the-list-of-exclusions-alongside-all-other-microsoft-defender-antivirus-preferences-by-using-powershell"></a>Просмотрите список исключений вместе со всеми другими антивирусными предпочтениями Microsoft Defender с помощью PowerShell
+### <a name="review-the-list-of-exclusions-alongside-all-other-microsoft-defender-antivirus-preferences-by-using-powershell"></a>Просмотрите список исключений вместе со всеми другими антивирусная программа в Microsoft Defender с помощью PowerShell
 
 Используйте следующий cmdlet:
 
@@ -184,11 +184,11 @@ $WDAVprefs.ExclusionProcess
 
 Дополнительные сведения об использовании PowerShell с антивирусной программой в Microsoft Defender см. в разделах [Использование командлетов PowerShell для настройки и запуска антивирусной программы в Microsoft Defender](use-powershell-cmdlets-microsoft-defender-antivirus.md) и [Командлеты Defender](/powershell/module/defender).
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
-- [Настройка и проверка исключений в антивирусных проверках Microsoft Defender](configure-exclusions-microsoft-defender-antivirus.md)
+- [Настройка и проверка исключений в антивирусная программа в Microsoft Defender сканирования](configure-exclusions-microsoft-defender-antivirus.md)
 - [Настройка и проверка исключений на основе имени, расширения и расположения папки](configure-extension-file-exclusions-microsoft-defender-antivirus.md)
-- [Настройка исключений антивируса Microsoft Defender на Windows Server](configure-server-exclusions-microsoft-defender-antivirus.md)
+- [Настройка антивирусная программа в Microsoft Defender исключений на Windows Server](configure-server-exclusions-microsoft-defender-antivirus.md)
 - [Распространенные ошибки, которых следует избегать при определении исключений](common-exclusion-mistakes-microsoft-defender-antivirus.md)
-- [Настройка, инициирование и проверка результатов проверки и устранения антивирусных программ Microsoft Defender](customize-run-review-remediate-scans-microsoft-defender-antivirus.md)
-- [антивирусная программа в Microsoft Defender в Windows 10](microsoft-defender-antivirus-in-windows-10.md)
+- [Настройка, инициирование и проверка результатов антивирусная программа в Microsoft Defender и исправлений](customize-run-review-remediate-scans-microsoft-defender-antivirus.md)
+- [Антивирусная программа в Microsoft Defender (Windows 10)](microsoft-defender-antivirus-in-windows-10.md)

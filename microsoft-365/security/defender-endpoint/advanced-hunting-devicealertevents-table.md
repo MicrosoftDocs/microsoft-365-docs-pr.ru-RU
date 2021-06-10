@@ -35,7 +35,7 @@ ms.locfileid: "51939653"
 
 >Хотите испытать Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-advancedhuntingref-abovefoldlink)
 
-Таблица `DeviceAlertEvents` в [продвинутой схеме охоты](advanced-hunting-overview.md) содержит сведения о оповещениях в Центре безопасности Защитника Майкрософт. Используйте этот справочник для создания запросов, возвращающих данные из таблицы.
+Таблица `DeviceAlertEvents` в [продвинутой схеме](advanced-hunting-overview.md) охоты содержит сведения о оповещениях в Центр безопасности в Microsoft Defender. Используйте этот справочник для создания запросов, возвращающих данные из таблицы.
 
 Сведения о других таблицах в продвинутой схеме охоты см. в справке [о схеме охоты.](advanced-hunting-schema-reference.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Атрибуты для политик информационных барьеров
-description: Эта статья является ссылкой на атрибуты учетной записи пользователей Azure Active Directory, которые можно использовать для определения сегментов информационного барьера.
+description: Эта статья является ссылкой на атрибуты Azure Active Directory учетной записи, которые можно использовать для определения сегментов информационного барьера.
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -28,7 +28,7 @@ ms.locfileid: "50919735"
 
 - [Информационные барьеры](information-barriers.md)
 - [Определение политик для информационных барьеров в Microsoft Teams](information-barriers-policies.md)
-- [Изменение (или удаление) политик информационного барьера](information-barriers-edit-segments-policies.md)
+- [Изменение (или удаление) политик информационных барьеров](information-barriers-edit-segments-policies.md)
 
 ## <a name="how-to-use-attributes-in-information-barrier-policies"></a>Использование атрибутов в политиках информационного барьера
 
@@ -38,7 +38,7 @@ ms.locfileid: "50919735"
 
 2. Убедитесь, что учетные записи пользователей имеют значения, заполненные для атрибута (ы), выбранного в шаге 1. Просмотр сведений о учетных записях пользователей, а при необходимости изменить учетные записи пользователей, чтобы включить значения атрибутов. 
 
-    - Чтобы изменить несколько учетных записей (или использовать PowerShell для редактирования одной учетной записи), см. в статью Настройка свойств учетной записи пользователей с [Помощью Office 365 PowerShell.](../enterprise/configure-user-account-properties-with-microsoft-365-powershell.md)
+    - Чтобы изменить несколько учетных записей (или использовать PowerShell для редактирования одной учетной записи), см. в статью Настройка свойств учетной записи пользователей с [помощью Office 365 PowerShell.](../enterprise/configure-user-account-properties-with-microsoft-365-powershell.md)
 
     - Чтобы изменить одну учетную запись, см. статью Добавление или обновление сведений о профиле пользователя с [помощью Azure Active Directory.](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
 
@@ -57,11 +57,11 @@ ms.locfileid: "50919735"
 
 В следующей таблице перечислены атрибуты, которые можно использовать с информационными барьерами.
 
-|**Имя свойства Azure Active Directory <br/> (имя отображения LDAP)**|**Имя свойства Exchange**|
+|**Azure Active Directory <br/> свойства (имя отображения LDAP)**|**Exchange имени свойства**|
 |:---------------------------------------------------------------|:-------------------------|
 | Co | Co |
-| Company | Company |
-| Department | Department |
+| Организация | Организация |
+| Отдел | Отдел |
 | ExtensionAttribute1 | CustomAttribute1 |
 | ExtensionAttribute2 | CustomAttribute2 |
 | ExtensionAttribute3 | CustomAttribute3 |

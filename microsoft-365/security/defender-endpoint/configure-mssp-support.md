@@ -23,7 +23,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 03/24/2021
 ms.locfileid: "51165253"
 ---
-# <a name="configure-managed-security-service-provider-integration"></a>Настройка интеграции поставщиков управляемых служб безопасности
+# <a name="configure-managed-security-service-provider-integration"></a>Настройка интеграции управляемого поставщика службы безопасности
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -44,7 +44,7 @@ ms.locfileid: "51165253"
 
 Интеграция позволит MSSP принять следующие действия:
 
-- Доступ к порталу Центра безопасности Microsoft Defender клиента MSSP
+- Получить доступ к порталу Центр безопасности в Microsoft Defender msSP
 - Получать уведомления электронной почты и 
 - Извлечение оповещений с помощью средств управления безопасностью и событий (SIEM)
 
@@ -57,7 +57,7 @@ ms.locfileid: "51165253"
 В общем, необходимо предпринять следующие действия по настройке:
 
 
-- **Предоставление доступа MSSP к Центру безопасности Защитника Майкрософт** <br>
+- **Предоставление доступа msSP к Центр безопасности в Microsoft Defender** <br>
 Это действие должно быть сделано клиентом MSSP. Предоставляет доступ msSP к клиенту клиента MSSP Defender для конечной точки.
  
 
@@ -75,8 +75,8 @@ ms.locfileid: "51165253"
 
 
 ## <a name="related-topics"></a>Статьи по теме
-- [Предоставление доступа MSSP к порталу](grant-mssp-access.md)
-- [Доступ к порталу клиентов MSSP](access-mssp-portal.md)
+- [Предоставление MSSP доступа к порталу](grant-mssp-access.md)
+- [Получение доступа к порталу клиентов MSSP](access-mssp-portal.md)
 - [Настройка уведомлений оповещений](configure-mssp-notifications.md)
-- [Извлечение оповещений от клиента-клиента](fetch-alerts-mssp.md)
+- [Получение оповещений от владельца клиента](fetch-alerts-mssp.md)
 

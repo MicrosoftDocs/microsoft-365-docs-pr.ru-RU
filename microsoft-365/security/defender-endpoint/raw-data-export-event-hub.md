@@ -34,7 +34,7 @@ ms.locfileid: "52780169"
 
 > Хотите испытать Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configuresiem-abovefoldlink) 
 
-## <a name="before-you-begin"></a>Подготовка
+## <a name="before-you-begin"></a>Прежде чем начать
 
 1. Создайте [центр событий в](/azure/event-hubs/) клиенте.
 
@@ -102,7 +102,7 @@ ms.locfileid: "52780169"
 
   ![Изображение Id2 ресурса концентратора событий](images/machine-info-datatype-example.png)
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 - [Обзор расширенных охоты](advanced-hunting-overview.md)
 - [Microsoft Defender для API потоковой передачи конечных точек](raw-data-export.md)
 - [Поток событий Microsoft Defender для событий конечной точки в учетную запись хранилища Azure](raw-data-export-storage.md)

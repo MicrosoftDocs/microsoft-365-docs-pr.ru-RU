@@ -1,5 +1,5 @@
 ---
-title: Управление SharePoint с помощью PowerShell
+title: Управление SharePoint с PowerShell
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -27,19 +27,19 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 03/19/2021
 ms.locfileid: "50923271"
 ---
-# <a name="manage-sharepoint-with-powershell"></a>Управление SharePoint с помощью PowerShell
+# <a name="manage-sharepoint-with-powershell"></a>Управление SharePoint с PowerShell
 
-*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
+*Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
 
-Администраторы SharePoint должны управлять сайтами, группами сайтов и пользователями. Хотя некоторые из этих задач можно выполнять в центре администрирования Microsoft 365, другие проще выполнять в PowerShell. Дополнительные сведения см. в следующих статьях:
+SharePoint администраторы должны управлять сайтами, группами сайтов и пользователями. Хотя некоторые из этих задач можно выполнять в центре администрирования Microsoft 365, другие проще выполнять в PowerShell. Дополнительные сведения см. в следующих статьях:
 
 - [Начало работы с командной консолью SharePoint Online](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
   
-- [Создание веб-сайтов SharePoint и добавление пользователей с помощью PowerShell](create-sharepoint-sites-and-add-users-with-powershell.md)
+- [Создание SharePoint сайтов и добавление пользователей с Помощью PowerShell](create-sharepoint-sites-and-add-users-with-powershell.md)
     
-- [Управление пользователями и группами SharePoint в Интернете с помощью PowerShell](manage-sharepoint-users-and-groups-with-powershell.md)
+- [Управление SharePoint пользователями и группами с помощью PowerShell](manage-sharepoint-users-and-groups-with-powershell.md)
     
-- [Управление группами веб-сайтов SharePoint с помощью PowerShell](manage-sharepoint-site-groups-with-powershell.md)
+- [Управление SharePoint группами веб-сайтов с помощью PowerShell](manage-sharepoint-site-groups-with-powershell.md)
     
 ## <a name="see-also"></a>См. также
 

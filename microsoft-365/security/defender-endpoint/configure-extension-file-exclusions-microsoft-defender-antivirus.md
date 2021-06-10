@@ -1,6 +1,6 @@
 ---
 title: Настройка и проверка исключений на основе расширения, имени или расположения
-description: Исключить файлы из антивирусных сканов Microsoft Defender в зависимости от их расширения, имени файла или расположения.
+description: Исключить файлы из антивирусная программа в Microsoft Defender на основе расширения файла, имени файла или расположения.
 keywords: исключения, файлы, расширение, тип файла, имя папки, имя файла, сканирование
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -31,19 +31,19 @@ ms.locfileid: "52274536"
 - [Microsoft Defender для конечной точки](/microsoft-365/security/defender-endpoint/)
 
 > [!IMPORTANT]
-> Исключения антивируса Microsoft Defender не применяются к другим возможностям Microsoft Defender для конечных точек, включая обнаружение конечных точек [](/microsoft-365/security/defender-endpoint/controlled-folders)и ответ [(EDR),](/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response)правила уменьшения поверхности атаки [(ASR)](/microsoft-365/security/defender-endpoint/attack-surface-reduction)и управляемый доступ к папкам. Файлы, исключаемые с помощью методов, описанных в этой статье, по-прежнему могут вызывать оповещения EDR и другие обнаружения. Чтобы исключить файлы в широком масштабе, добавьте их в настраиваемые индикаторы Microsoft Defender для [конечных точек.](/microsoft-365/security/defender-endpoint/manage-indicators)
+> антивирусная программа в Microsoft Defender исключений не применяются к другим возможностям Microsoft Defender для конечных точек, в том числе обнаружение и нейтрализация атак на конечные точки [(EDR),](/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response)правилам уменьшения поверхности атаки [(ASR)](/microsoft-365/security/defender-endpoint/attack-surface-reduction)и управляемому доступу к папкам. [](/microsoft-365/security/defender-endpoint/controlled-folders) Файлы, исключаемые с помощью методов, описанных в этой статье, по-прежнему могут вызывать EDR оповещения и другие обнаружения. Чтобы исключить файлы в широком масштабе, добавьте их в настраиваемые индикаторы Microsoft Defender для [конечных точек.](/microsoft-365/security/defender-endpoint/manage-indicators)
 
 ## <a name="exclusion-lists"></a>Списки исключений
 
-Некоторые файлы можно исключить из антивирусных сканов Microsoft Defender, изменяя списки исключений. **Как правило, вам не нужно** применять исключения . Антивирус Microsoft Defender включает множество автоматических исключений, основанных на известных действиях операционной системы и типичных файлах управления, например используемых в управлении предприятиями, управлении базами данных и других корпоративных сценариях и ситуациях.
+Некоторые файлы можно исключить из антивирусная программа в Microsoft Defender, изменяя списки исключений. **Как правило, вам не нужно** применять исключения . антивирусная программа в Microsoft Defender включает множество автоматических исключений, основанных на известных действиях операционной системы и типичных файлах управления, например используемых в управлении предприятиями, управлении базами данных и других корпоративных сценариях и ситуациях.
 
 > [!NOTE]
 > Исключения применяются и к обнаружениям потенциально нежелательных приложений (PUA).
 
 > [!NOTE]
-> Автоматические исключения применяются только к Windows Server 2016 и выше. Эти исключения не видны в приложении Windows Security и в PowerShell.
+> Автоматические исключения применяются только к Windows Server 2016 и выше. Эти исключения не видны в приложении Безопасность Windows и в PowerShell.
 
-В этой статье описывается настройка списков исключений для файлов и папок. Рекомендации [по определению исключений](configure-exclusions-microsoft-defender-antivirus.md#recommendations-for-defining-exclusions) перед определением списков исключений.
+В этой статье описывается настройка списков исключений для файлов и папок. См. [Рекомендации для определения исключений](configure-exclusions-microsoft-defender-antivirus.md#recommendations-for-defining-exclusions) перед определением списков исключений.
 
 | Исключения | Примеры | Список исключений |
 |:---|:---|:---|
@@ -60,15 +60,15 @@ ms.locfileid: "52274536"
 > [!IMPORTANT]
 > - Использование подкардов, таких как звездочка ( ) изменит интерпретировать правила \* исключения. Сведения о [том,](#use-wildcards-in-the-file-name-and-folder-path-or-extension-exclusion-lists) как работают подкарды, см. в разделе Использование подкардов в пути имени файла и пути к папке или в разделе списки исключений расширения.
 > - Нельзя исключать отметь сетевые диски. Необходимо указать фактический сетевой путь.
-> - Папки, которые являются точками репарационного возмещения, созданными после начала работы антивирусной службы Защитника Майкрософт и добавленных в список исключений, не будут включены. Необходимо перезапустить службу (перезапустив Windows), чтобы новые точки репаража были признаны допустимой целью исключения.
+> - Папки, которые являются точками репаража, созданными после антивирусная программа в Microsoft Defender службы и добавленными в список исключений, не будут включены. Необходимо перезапустить службу (перезапустив Windows), чтобы новые точки репаража были признаны допустимой целью исключения.
 
 Чтобы исключить файлы, открытые определенным процессом, см. в руб. Настройка и проверка исключений для файлов, [открытых процессами.](configure-process-opened-file-exclusions-microsoft-defender-antivirus.md)
 
 Исключения применяются к [запланированным](scheduled-catch-up-scans-microsoft-defender-antivirus.md) [проверкам,](run-scan-microsoft-defender-antivirus.md)проверкам по запросу и защите [в режиме реального времени.](configure-real-time-protection-microsoft-defender-antivirus.md)
 
 > [!IMPORTANT]
-> Изменения списка исключений, внесенные в групповую **политику,** будут показываться в списках в [приложении Безопасности Windows.](microsoft-defender-security-center-antivirus.md)
-> Изменения, внесенные в приложение Безопасности **Windows, не будут указаны** в списках групповой политики.
+> Изменения списка исключений, внесенные с помощью групповой **политики,** будут показываться в списках в [Безопасность Windows приложении.](microsoft-defender-security-center-antivirus.md)
+> Изменения, внесенные в **Безопасность Windows, не будут показываться** в списках групповой политики.
 
 По умолчанию локальные изменения, внесенные в списки (пользователями с привилегиями администратора, включая изменения, внесенные с PowerShell и WMI), будут объединены со списками в качестве определенных (и развернутых) групповой политикой, диспетчером конфигурации или Intune. Списки групповой политики имеют приоритет при конфликте.
 
@@ -80,7 +80,7 @@ ms.locfileid: "52274536"
 
 См. следующие статьи:
 - [Настройка параметров ограничения устройств в Microsoft Intune](/intune/device-restrictions-configure)
-- [Параметры ограничения антивирусных устройств Microsoft Defender для Windows 10 в Intune](/intune/device-restrictions-windows-10#microsoft-defender-antivirus)
+- [антивирусная программа в Microsoft Defender параметров ограничения устройств для Windows 10 в Intune](/intune/device-restrictions-windows-10#microsoft-defender-antivirus)
 
 ### <a name="use-configuration-manager-to-configure-file-name-folder-or-file-extension-exclusions"></a>Использование Диспетчер конфигурации для настройки исключений из расширения файлов, имени, папки или файла
 
@@ -95,7 +95,7 @@ ms.locfileid: "52274536"
 
 2. В **редакторе управления групповой политикой** перейдите к **конфигурации компьютера** и выберите **административные шаблоны.**
 
-3. Расширь дерево до **компонентов**  >  **Антивирусного исключения Microsoft Defender**  >  **Microsoft** Defender.
+3. Расширь **дерево до Windows компонентов**  >  **антивирусная программа в Microsoft Defender**  >  **исключений.**
 
 4. Откройте параметр **"Исключения пути"** для редактирования и добавьте исключения.
 
@@ -144,15 +144,15 @@ ms.locfileid: "52274536"
 > [!IMPORTANT]
 > Если вы создали список, с помощью или с помощью `Set-MpPreference` `Add-MpPreference` cmdlet снова `Set-MpPreference` переопишет существующий список.
 
-Например, следующий фрагмент кода приведет к тому, что антивирусная проверка Microsoft Defender исключает любой файл с `.test` расширением файла:
+Например, следующий фрагмент кода приведет к антивирусная программа в Microsoft Defender, чтобы исключить любой файл с `.test` расширением файла:
 
 ```PowerShell
 Add-MpPreference -ExclusionExtension ".test"
 ```
 
-Дополнительные сведения см. в дополнительных сведениях, которые [см.](/powershell/module/defender/)в см. в рублях [Использование cmdlets PowerShell](use-powershell-cmdlets-microsoft-defender-antivirus.md) для настройки и запуска антивирусных и защитников Microsoft Defender.
+Дополнительные сведения см. в разделах [Использование командлетов PowerShell для настройки и запуска антивирусной программы в Microsoft Defender](use-powershell-cmdlets-microsoft-defender-antivirus.md) и [Командлеты Defender](/powershell/module/defender/).
 
-### <a name="use-windows-management-instruction-wmi-to-configure-file-name-folder-or-file-extension-exclusions"></a>Использование инструкции по управлению Windows (WMI) для настройки исключений из расширения файла, имени файла, папки или расширения файлов
+### <a name="use-windows-management-instruction-wmi-to-configure-file-name-folder-or-file-extension-exclusions"></a>Используйте Windows управления (WMI) для настройки исключений из файла, папок или расширений файлов
 
 Используйте [ **методы Set,** **Add** и **Remove** **MSFT_MpPreference**](/previous-versions/windows/desktop/legacy/dn455323(v=vs.85)) класса для следующих свойств:
 
@@ -167,9 +167,9 @@ ExclusionPath
 
 <a id="man-tools"></a>
 
-### <a name="use-the-windows-security-app-to-configure-file-name-folder-or-file-extension-exclusions"></a>Используйте приложение Windows Security для настройки исключений из расширения файла, имени файла, папки или расширения файлов
+### <a name="use-the-windows-security-app-to-configure-file-name-folder-or-file-extension-exclusions"></a>Используйте приложение Безопасность Windows для настройки исключений из расширения файла, имени файла, папки или расширения файлов
 
-Дополнительные [исключения см. в приложении Windows Security для](microsoft-defender-security-center-antivirus.md) инструкций.
+Дополнительные [исключения см. в Безопасность Windows для](microsoft-defender-security-center-antivirus.md) инструкций.
 
 <a id="wildcards"></a>
 
@@ -275,16 +275,16 @@ ExclusionPath
 - [Microsoft Endpoint Configuration Manager](/configmgr/protect/deploy-use/endpoint-antimalware-policies)
 - MpCmdRun
 - PowerShell
-- [Приложение Безопасности Windows](microsoft-defender-security-center-antivirus.md)
+- [Безопасность Windows приложение](microsoft-defender-security-center-antivirus.md)
 
 >[!IMPORTANT]
->Изменения списка исключений, внесенные в групповую **политику,** будут показываться в списках в [приложении Безопасности Windows.](microsoft-defender-security-center-antivirus.md)
+>Изменения списка исключений, внесенные с помощью групповой **политики,** будут показываться в списках в [Безопасность Windows приложении.](microsoft-defender-security-center-antivirus.md)
 >
->Изменения, внесенные в приложение Безопасности **Windows, не будут указаны** в списках групповой политики.
+>Изменения, внесенные в **Безопасность Windows, не будут показываться** в списках групповой политики.
 
 Если вы используете PowerShell, вы можете получить список двумя способами:
 
-- Извлечение состояния всех антивирусных предпочтений Microsoft Defender. Каждый список отображается в отдельных строках, но элементы в каждом списке объединены в ту же строку.
+- Извлечение состояния всех антивирусная программа в Microsoft Defender личных предпочтений. Каждый список отображается в отдельных строках, но элементы в каждом списке объединены в ту же строку.
 - Напишите состояние всех предпочтений переменной и используйте эту переменную для вызова только заинтересованного списка. Каждое использование `Add-MpPreference` записано на новую строку.
 
 ### <a name="validate-the-exclusion-list-by-using-mpcmdrun"></a>Проверка списка исключений с помощью MpCmdRun
@@ -299,9 +299,9 @@ MpCmdRun.exe -CheckExclusion -path <path>
 ```
 
 >[!NOTE]
->Проверка исключений с помощью MpCmdRun требует антивирусного лагеря Microsoft Defender версии 4.18.1812.3 (выпущена в декабре 2018 г.) или более поздней версии.
+>Проверка исключений с помощью MpCmdRun антивирусная программа в Microsoft Defender camp версии 4.18.1812.3 (выпущена в декабре 2018 г.) или более поздней версии.
 
-### <a name="review-the-list-of-exclusions-alongside-all-other-microsoft-defender-antivirus-preferences-by-using-powershell"></a>Просмотрите список исключений вместе со всеми другими антивирусными предпочтениями Microsoft Defender с помощью PowerShell
+### <a name="review-the-list-of-exclusions-alongside-all-other-microsoft-defender-antivirus-preferences-by-using-powershell"></a>Просмотрите список исключений вместе со всеми другими антивирусная программа в Microsoft Defender с помощью PowerShell
 
 Используйте следующий cmdlet:
 
@@ -313,7 +313,7 @@ Get-MpPreference
 
 ![Выход PowerShell для Get-MpPreference списка исключений наряду с другими предпочтениями](images/defender/wdav-powershell-get-exclusions-all.png)
 
-Дополнительные сведения см. в дополнительных сведениях, которые [см.](/powershell/module/defender/)в см. в рублях [Использование cmdlets PowerShell](use-powershell-cmdlets-microsoft-defender-antivirus.md) для настройки и запуска антивирусных и защитников Microsoft Defender.
+Дополнительные сведения см. в разделах [Использование командлетов PowerShell для настройки и запуска антивирусной программы в Microsoft Defender](use-powershell-cmdlets-microsoft-defender-antivirus.md) и [Командлеты Defender](/powershell/module/defender/).
 
 ### <a name="retrieve-a-specific-exclusions-list-by-using-powershell"></a>Извлечение определенного списка исключений с помощью PowerShell
 
@@ -329,7 +329,7 @@ $WDAVprefs.ExclusionPath
 
 ![Выход PowerShell, показывающий только записи в списке исключений](images/defender/wdav-powershell-get-exclusions-variable.png)
 
-Дополнительные сведения см. в дополнительных сведениях, которые [см.](/powershell/module/defender/)в см. в рублях [Использование cmdlets PowerShell](use-powershell-cmdlets-microsoft-defender-antivirus.md) для настройки и запуска антивирусных и защитников Microsoft Defender.
+Дополнительные сведения см. в разделах [Использование командлетов PowerShell для настройки и запуска антивирусной программы в Microsoft Defender](use-powershell-cmdlets-microsoft-defender-antivirus.md) и [Командлеты Defender](/powershell/module/defender/).
 
 <a id="validate"></a>
 
@@ -343,7 +343,7 @@ $WDAVprefs.ExclusionPath
 Invoke-WebRequest "http://www.eicar.org/download/eicar.com.txt" -OutFile "test.txt"
 ```
 
-Если антивирус Microsoft Defender сообщает о вредоносных программах, это правило не работает. Если нет отчета о вредоносных программах и загруженный файл существует, то исключение работает. Вы можете открыть файл, чтобы подтвердить, что содержимое будет таким же, как описано на веб-сайте [тестового файла EICAR.](http://www.eicar.org/86-0-Intended-use.html)
+Если антивирусная программа в Microsoft Defender сообщает о вредоносных программах, то правило не работает. Если нет отчета о вредоносных программах и загруженный файл существует, то исключение работает. Вы можете открыть файл, чтобы подтвердить, что содержимое будет таким же, как описано на веб-сайте [тестового файла EICAR.](http://www.eicar.org/86-0-Intended-use.html)
 
 Вы также можете использовать следующий код PowerShell, который вызывает класс .NET WebClient, чтобы скачать тестовый файл , как и в cmdlet; заменитьc:\test.txtфайлом, который соответствует правилу, которое вы `Invoke-WebRequest` проверяете: 
 
@@ -362,7 +362,7 @@ $client.DownloadFile("http://www.eicar.org/download/eicar.com.txt","c:\test.txt"
 
 ## <a name="related-topics"></a>Статьи по теме
 
-- [Настройка и проверка исключений в антивирусных проверках Microsoft Defender](configure-exclusions-microsoft-defender-antivirus.md)
+- [Настройка и проверка исключений в антивирусная программа в Microsoft Defender сканирования](configure-exclusions-microsoft-defender-antivirus.md)
 - [Настройка и проверка исключений для файлов, открытых процессами](configure-process-opened-file-exclusions-microsoft-defender-antivirus.md)
-- [Настройка исключений антивируса Microsoft Defender на Windows Server](configure-server-exclusions-microsoft-defender-antivirus.md)
+- [Настройка антивирусная программа в Microsoft Defender исключений на Windows Server](configure-server-exclusions-microsoft-defender-antivirus.md)
 - [Распространенные ошибки, которых следует избегать при определении исключений](common-exclusion-mistakes-microsoft-defender-antivirus.md)

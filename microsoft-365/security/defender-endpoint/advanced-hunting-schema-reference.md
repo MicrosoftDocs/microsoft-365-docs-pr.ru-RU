@@ -54,11 +54,11 @@ ms.locfileid: "51939640"
 
 В следующей ссылке перечислены все таблицы в продвинутой схеме охоты. Каждое название таблицы содержит ссылку на страницу, описывающую имена столбцов для этой таблицы.
 
-Имена таблиц и столбцов также перечислены в Центре безопасности Защитника Майкрософт в представлении схемы на продвинутом экране охоты.
+Имена таблиц и столбцов также перечислены в Центр безопасности в Microsoft Defender, в представлении схемы на продвинутом экране охоты.
 
 | Имя таблицы | Описание |
 |------------|-------------|
-| **[DeviceAlertEvents](advanced-hunting-devicealertevents-table.md)** | Оповещений в Центре безопасности Защитника Майкрософт |
+| **[DeviceAlertEvents](advanced-hunting-devicealertevents-table.md)** | Оповещения на Центр безопасности в Microsoft Defender |
 | **[DeviceInfo](advanced-hunting-deviceinfo-table.md)** | Сведения об устройстве, в том числе сведения об ОС |
 | **[DeviceNetworkInfo](advanced-hunting-devicenetworkinfo-table.md)** | Сетевые свойства устройств, включая адаптеры, IP и MAC-адреса, а также подключенные сети и домены |
 | **[DeviceProcessEvents](advanced-hunting-deviceprocessevents-table.md)** | Создание процессов и связанных с ними событий |
@@ -67,7 +67,7 @@ ms.locfileid: "51939640"
 | **[DeviceRegistryEvents](advanced-hunting-deviceregistryevents-table.md)** | Создание и изменение записей реестра |
 | **[DeviceLogonEvents](advanced-hunting-devicelogonevents-table.md)** | Входы и другие события проверки подлинности |
 | **[DeviceImageLoadEvents](advanced-hunting-deviceimageloadevents-table.md)** | События загрузки библиотек DLL |
-| **[DeviceEvents](advanced-hunting-deviceevents-table.md)** | Несколько типов событий, включая события, инициированные средствами безопасности, такими как антивирус Microsoft Defender и защита от эксплойтов |
+| **[DeviceEvents](advanced-hunting-deviceevents-table.md)** | Несколько типов событий, включая события, инициированные средствами управления безопасностью, такие как антивирусная программа в Microsoft Defender и защита от эксплойтов |
 | **[DeviceFileCertificateInfo](advanced-hunting-devicefilecertificateinfo-table.md)** | Сведения о сертификатах подписанных файлов, полученных в ходе событий проверки сертификатов на конечных точках |
 | **[DeviceTvmSoftwareInventory](advanced-hunting-devicetvmsoftwareinventory-table.md)** | Инвентаризация программного обеспечения, установленного на устройствах, включая сведения о версии и состояние конечной поддержки |
 | **[DeviceTvmSoftwareVulnerabilities](advanced-hunting-devicetvmsoftwarevulnerabilities-table.md)** | Уязвимости программного обеспечения, найденные на устройствах, и список доступных обновлений безопасности, которые будут рассматривать каждую уязвимость. |
@@ -76,10 +76,10 @@ ms.locfileid: "51939640"
 | **[DeviceTvmSecureConfigurationAssessmentKB](advanced-hunting-devicetvmsecureconfigurationassessmentkb-table.md)** | База знаний различных конфигураций безопасности, используемых системой контроля угроз и уязвимостей для оценки устройств; включает в себя сопоставления с различными стандартами и контрольными показателями |
 
 >[!TIP]
->Используйте расширенный метод охоты в [Microsoft 365 Defender](/microsoft-365/security/defender/advanced-hunting-overview) для охоты на угрозы с помощью данных defender for Endpoint, Microsoft Defender for Office 365, Microsoft Cloud App Security и Microsoft Defender for Identity. [Включение Microsoft 365 Defender](/microsoft-365/security/defender/m365d-enable)<br><br>
+>Используйте [расширенный](/microsoft-365/security/defender/advanced-hunting-overview) поиск в Microsoft 365 Defender для охоты на угрозы с помощью данных defender for Endpoint, Microsoft Defender для Office 365, Microsoft Cloud App Security и Microsoft Defender for Identity. [Включение Microsoft 365 Defender](/microsoft-365/security/defender/m365d-enable)<br><br>
 Узнайте больше о том, как переместить расширенные процессы охоты из Microsoft Defender для конечной точки в Microsoft 365 Defender в миграции расширенных запросов охоты из [Microsoft Defender для конечной точки](/microsoft-365/security/defender/advanced-hunting-migrate-from-mde).
 
-## <a name="related-topics"></a>Похожие темы
+## <a name="related-topics"></a>Статьи по теме
 - [Обзор расширенной охоты](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Работа с результатами запросов](advanced-hunting-query-results.md)

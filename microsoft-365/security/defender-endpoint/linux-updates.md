@@ -1,5 +1,5 @@
 ---
-title: Развертывание обновлений для Microsoft Defender для конечной точки в Linux
+title: Развертывание обновлений Microsoft Defender для конечной точки в Linux
 ms.reviewer: ''
 description: Описывает развертывание обновлений для Microsoft Defender для конечной точки на Linux в корпоративных средах.
 keywords: Microsoft, defender, Microsoft Defender for Endpoint, Linux, updates, deploy
@@ -26,7 +26,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/07/2021
 ms.locfileid: "52274728"
 ---
-# <a name="deploy-updates-for-microsoft-defender-for-endpoint-on-linux"></a>Развертывание обновлений для Microsoft Defender для конечной точки в Linux
+# <a name="deploy-updates-for-microsoft-defender-for-endpoint-on-linux"></a>Развертывание обновлений Microsoft Defender для конечной точки в Linux
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 

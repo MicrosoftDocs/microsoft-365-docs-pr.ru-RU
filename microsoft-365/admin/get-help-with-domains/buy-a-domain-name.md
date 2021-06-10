@@ -116,7 +116,7 @@ ms.locfileid: "52779690"
     
 ::: moniker-end
 
-## <a name="related-content"></a>Связанные материалы
+## <a name="related-content"></a>См. также:
 
 [Добавление домена в Microsoft 365](../setup/add-domain.md) (статья)\
 [Вопросы и ответы о доменах](../setup/domains-faq.yml) (статья)\

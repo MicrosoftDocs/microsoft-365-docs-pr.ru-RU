@@ -1,7 +1,7 @@
 ---
 title: Таблица CloudAppEvents в продвинутой схеме охоты
 description: Узнайте о событиях из облачных приложений и служб в таблице CloudAppEvents продвинутой схемы охоты
-keywords: передовая охота, охота на угрозы, поиск киберугроз, Microsoft 365 Defender, Microsoft 365, m365, поиск, запрос, телеметрия, ссылка на схему, kusto, таблица, столбец, тип данных, описание, CloudAppEvents, Cloud App Security, MCAS
+keywords: передовая охота, охота на угрозы, охота на киберугрозы, Microsoft 365 Defender, Microsoft 365, m365, поиск, запрос, телеметрия, ссылка схемы, кусто, таблица, столбец, тип данных, описание, CloudAppEvents, Cloud App Security, MCAS
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -37,10 +37,10 @@ ms.locfileid: "51935873"
 
 
 
-Таблица в продвинутой схеме охоты содержит сведения о действиях в различных облачных приложениях и службах, охваченных `CloudAppEvents` microsoft Cloud App Security. [](advanced-hunting-overview.md) Для полного списка переперейти к [приложениям и службам, охваченным](#apps-and-services-covered). Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы. 
+Таблица в продвинутой схеме охоты содержит сведения о действиях в различных облачных приложениях и службах, `CloudAppEvents` охватываемых Microsoft Cloud App Security. [](advanced-hunting-overview.md) Для полного списка переперейти к [приложениям и службам, охваченным](#apps-and-services-covered). Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы. 
 
 >[!IMPORTANT]
->В эту таблицу включены сведения, которые раньше были доступны в `AppFileEvents` таблице. Начиная с 7 марта 2021 г. пользователи, которые охотятся через действия, связанные с файлами, в облачных службах и после этой даты, должны использовать `CloudAppEvents` таблицу вместо этого. <br><br>Не забудьте найти запросы и пользовательские правила обнаружения, которые по-прежнему используются в таблице, и `AppFileEvents` изменить их для использования `CloudAppEvents` таблицы. Дополнительные инструкции по преобразованию затронутых запросов можно найти в Hunt в облачных приложениях с помощью расширенных методов охоты На защитника [Microsoft 365.](https://techcommunity.microsoft.com/t5/microsoft-365-defender/hunt-across-cloud-app-activities-with-microsoft-365-defender/ba-p/1893857)
+>В эту таблицу включены сведения, которые раньше были доступны в `AppFileEvents` таблице. Начиная с 7 марта 2021 г. пользователи, которые охотятся через действия, связанные с файлами, в облачных службах и после этой даты, должны использовать `CloudAppEvents` таблицу вместо этого. <br><br>Не забудьте найти запросы и пользовательские правила обнаружения, которые по-прежнему используются в таблице, и `AppFileEvents` изменить их для использования `CloudAppEvents` таблицы. Дополнительные инструкции по преобразованию затронутых запросов можно найти в Hunt в облачных приложениях с [помощью Microsoft 365 defender advanced hunting.](https://techcommunity.microsoft.com/t5/microsoft-365-defender/hunt-across-cloud-app-activities-with-microsoft-365-defender/ba-p/1893857)
 
 
 Сведения о других таблицах в схеме расширенного поиска см. в [справочнике по расширенному поиску](advanced-hunting-schema-tables.md).
@@ -82,10 +82,10 @@ ms.locfileid: "51935873"
 - Power BI
 - SharePoint Online
 - Skype для бизнеса
-- Office 365
+- Office 365
 - Yammer 
 
-## <a name="related-topics"></a>Похожие темы
+## <a name="related-topics"></a>Статьи по теме
 - [Обзор расширенной охоты](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)

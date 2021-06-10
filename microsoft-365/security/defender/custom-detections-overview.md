@@ -1,7 +1,7 @@
 ---
 title: Обзор настраиваемого обнаружения в Microsoft 365 Defender
 description: Понять, как можно использовать расширенный поиск для создания настраиваемой диагностики и создания оповещений
-keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, Microsoft 365, m365, search, query, telemetry, custom detections, schema, kusto
+keywords: передовая охота, охота на угрозы, охота на киберугрозы, Microsoft 365 Defender, Microsoft 365, m365, поиск, запрос, телеметрия, настраиваемые обнаружения, схема, кусто
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security

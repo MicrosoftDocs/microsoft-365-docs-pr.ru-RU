@@ -49,6 +49,6 @@ ms.locfileid: "51166057"
 
 
 ## <a name="related-topics"></a>Статьи по теме
-- [Предоставление доступа MSSP к порталу](grant-mssp-access.md)
-- [Доступ к порталу клиентов MSSP](access-mssp-portal.md)
-- [Извлечение оповещений от клиента-клиента](fetch-alerts-mssp.md)
+- [Предоставление MSSP доступа к порталу](grant-mssp-access.md)
+- [Получение доступа к порталу клиентов MSSP](access-mssp-portal.md)
+- [Получение оповещений от владельца клиента](fetch-alerts-mssp.md)
