@@ -47,7 +47,7 @@ ms.locfileid: "52843618"
 
 Тип разрешения |   Разрешение  |   Имя отображения разрешений
 :---|:---|:---
-Для приложений | Score.Read.All | 'Read Threat and Vulnerability Management score'
+Приложение | Score.Read.All | 'Read Threat and Vulnerability Management score'
 Делегированные (рабочая или учебная учетная запись) | Score.Read | 'Read Threat and Vulnerability Management score'
 
 ## <a name="http-request"></a>HTTP-запрос
@@ -60,7 +60,7 @@ GET /api/exposureScore/ByMachineGroups
 
 | Имя        | Тип | Описание
 |:--------------|:-------|:--------------|
-| Authorization | String | Bearer {token}. **Обязательно**.
+| Авторизация | String | Bearer {token}. **Обязательно**.
 
 ## <a name="request-body"></a>Тело запроса
 

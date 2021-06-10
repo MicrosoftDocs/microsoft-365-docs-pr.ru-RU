@@ -141,7 +141,7 @@ ms.locfileid: "52789055"
 
 Вы можете сообщать о фишинговых сообщениях, содержащих вымогателей, с помощью одного из нескольких методов. Для получения дополнительной информации см. [Отчет о сообщениях и файлах в Microsoft](report-junk-email-messages-to-microsoft.md).
 
-## <a name="see-also"></a>Дополнительные материалы
+## <a name="see-also"></a>См. также
 
 - [Вымогателей](/windows/security/threat-protection/intelligence/ransomware-malware)
 

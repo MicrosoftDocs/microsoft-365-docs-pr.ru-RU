@@ -60,7 +60,7 @@ Microsoft 365 Defender может помочь обнаружить вредон
  
 :::image type="content" source="../../media/first-incident-path-phishing/first-incident-phishing-actions.png" alt-text="Пример других действий можно принять в сообщениях электронной почты"::: 
 
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Следующий этап
 
 См. путь к расследованию [атаки на](first-incident-path-identity.md) основе удостоверений.
 

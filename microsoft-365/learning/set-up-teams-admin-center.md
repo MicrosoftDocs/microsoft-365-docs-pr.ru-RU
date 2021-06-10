@@ -139,6 +139,6 @@ To make Viva Learning (Preview) available for users in your organization, follow
 
 --->
 
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Следующий этап
 
 [Настройка источников обучающего контента для Viva Learning (Preview) в центре администрирования Microsoft 365](content-sources-365-admin-center.md)

@@ -37,7 +37,7 @@ ms.locfileid: "52086516"
 |имя функции  |действие функции  |является валидатором|
 |---------|---------|---------|
 |Func_Argentina_Unique_Tax_Key|обнаруживает и проверяет уникальный налоговый ключ Аргентины|нет|
-|Func_aba_routing|обнаруживает номер маршрутивки ABA| Да|
+|Func_aba_routing|обнаруживает номер маршрутивки ABA| да|
 |Func_alabama_drivers_license_number|обнаруживает номер лицензии водителя Алабамы|нет|
 |Func_alaska_delaware_oregon_drivers_license_number|обнаруживает номер лицензии на Аляску, Делавэр, Орегон|нет|
 |Func_alaska_drivers_license_number|обнаруживает номер лицензии водителя Аляски|нет|
@@ -48,19 +48,19 @@ ms.locfileid: "52086516"
 |Func_australian_business_number|обнаруживает бизнес-номер Австралии|нет|
 |Func_Australian_Company_Number|определяет номер компании в Австралии|нет|
 |Func_australian_medical_account_number|обнаруживает номер медицинской учетной записи Австралии|нет|
-|Func_australian_tax_file_number|обнаруживает номер налогового файла Австралии|Да|
+|Func_australian_tax_file_number|обнаруживает номер налогового файла Австралии|да|
 |Func_austria_eu_ssn_or_equivalent|определяет номер социального обеспечения в Австрии|нет|
 |Func_austria_eu_tax_file_number|определяет номер налогового файла в Австрии|нет|
 |Func_Austria_Value_Added_Tax|определяет налог на добавленную стоимость в Австрии|нет|
 |Func_belgium_national_number|определяет национальный номер Бельгии|нет|
 |Func_belgium_value_added_tax_number|определяет номер налога на добавленную стоимость в Бельгии|нет|
-|Func_brazil_cnpj|обнаруживает номер юридического лица Бразилии (CNPJ)|Да|
-|Func_brazil_cpf|обнаруживает Бразилии CPF|Да|
+|Func_brazil_cnpj|обнаруживает номер юридического лица Бразилии (CNPJ)|да|
+|Func_brazil_cpf|обнаруживает Бразилии CPF|да|
 |Func_brazil_rg|обнаруживает RG Бразилии|нет|
 |Func_british_columbia_drivers_license_number|определяет номер водительских прав в Британской Колумбии|нет|
 |Func_bulgaria_eu_national_id_card|определяет единый гражданский номер Болгарии|нет|
 |Func_california_drivers_license_number|определяет номер лицензии пилота в Калифорнии|нет|
-|Func_canadian_sin|обнаруживает грех Канады|Да|
+|Func_canadian_sin|обнаруживает грех Канады|да|
 |Func_chile_id_card|обнаруживает удостоверение личности Чили|нет|
 |Func_china_resident_id|обнаруживает ID резидента Китая|нет|
 |Func_colorado_drivers_license_number|обнаруживает номер водительских прав в Колорадо|нет|
@@ -71,7 +71,7 @@ ms.locfileid: "52086516"
 |Func_cyprus_eu_tax_file_number|обнаруживает номер кипрского налогового файла|нет|
 |Func_czech_id_card|обнаруживает чешскую ID-карту|нет|
 |Func_czech_id_card_new_format|обнаружение чешской ID-карты в новом формате|нет|
-|Func_dea_number|обнаруживает номер DEA|Да|
+|Func_dea_number|обнаруживает номер DEA|да|
 |Func_denmark_eu_tax_file_number|обнаруживает личный идентификационный номер Дании|нет|
 |Func_district_of_columbia_drivers_license_number|определяет номер водительских прав округа Колумбия|нет|
 |Func_estonia_eu_national_id_card|обнаружение кода идентификации личности в Эстонии|нет|
@@ -79,7 +79,7 @@ ms.locfileid: "52086516"
 |Func_finnish_national_id|обнаружение финского национального ID|нет|
 |Func_florida_drivers_license_number|обнаруживает номер водительской лицензии Флориды|нет|
 |Func_florida_maryland_michigan_minnesota_drivers_license_number|обнаруживает номер водительских прав во Флориде, Мэриленде, Мичигане и Миннесоте|нет|
-|Func_formatted_itin|обнаруживает отформатированные ITIN США|Да|
+|Func_formatted_itin|обнаруживает отформатированные ITIN США|да|
 |Func_fr_insee|обнаруживает Францию INSEE|нет|
 |Func_fr_passport|обнаруживает паспорт Франции|нет|
 |Func_france_eu_tax_file_number|определяет номер налогового файла Франции|нет|
@@ -99,18 +99,18 @@ ms.locfileid: "52086516"
 |Func_hungary_eu_national_id_card|обнаруживает личный идентификационный номер Венгрии|нет|
 |Func_hungary_eu_ssn_or_equivalent|определяет номер социального обеспечения в Венгрии|нет|
 |Func_hungary_eu_tax_file_number|обнаруживает номер налогового файла Венгрии|нет|
-|Func_iban|обнаруживает IBAN|Да|
+|Func_iban|обнаруживает IBAN|да|
 |Func_idaho_drivers_license_number|определяет номер лицензии водителя Айдахо|нет|
 |Func_illinois_drivers_license_number|определяет номер водительских прав штата Иллинойс|нет|
-|Func_india_aadhaar|обнаруживает Индию aadhaar|Да|
+|Func_india_aadhaar|обнаруживает Индию aadhaar|да|
 |Func_indiana_drivers_license_number|обнаруживает номер водительских прав Индианы|нет|
 |Func_iowa_drivers_license_number|определяет номер лицензии водителя Айовы|нет|
 |Func_ireland_pps|обнаруживает PPS Ирландии|нет|
 |Func_israeli_national_id_number|обнаруживает номер национального ID Израиля|нет|
 |Func_italy_eu_national_id_card |обнаруживает финансовый код Италии|нет|
 |Func_italy_value_added_tax_number|определяет номер налога на добавленную стоимость в Италии|нет|
-|Func_japanese_my_number_corporate|обнаруживает Японию мой корпоративный номер|Да|
-|Func_japanese_my_number_personal|обнаруживает Японию мой личный номер|Да|
+|Func_japanese_my_number_corporate|обнаруживает Японию мой корпоративный номер|да|
+|Func_japanese_my_number_personal|обнаруживает Японию мой личный номер|да|
 |Func_jp_bank_account|обнаруживает банковский счет в Японии|нет|
 |Func_jp_bank_account_branch_code|обнаруживает код филиала учетной записи банка Японии|нет|
 |Func_jp_drivers_license_number|определяет номер водительских прав в Японии|нет|
@@ -167,15 +167,15 @@ ms.locfileid: "52086516"
 |Func_portugal_eu_tax_file_number|определяет номер идентификации налога в Португалии|нет|
 |Func_prince_edward_island_drivers_license_number|обнаруживает номер лицензии водителя острова Принца Эдуарда|нет|
 |Func_quebec_drivers_license_number |обнаруживает номер лицензии водителя Квебека|нет|
-|Func_randomized_formatted_ssn  |обнаруживает рандомизированный форматированный SSN США|Да|
-|Func_randomized_unformatted_ssn|обнаруживает рандомизированные неформатированные SSN США|Да|
+|Func_randomized_formatted_ssn  |обнаруживает рандомизированный форматированный SSN США|да|
+|Func_randomized_unformatted_ssn|обнаруживает рандомизированные неформатированные SSN США|да|
 |Func_rhode_island_drivers_license_number|обнаруживает номер лицензии водителя Род-Айленда|нет|
 |Func_romania_eu_national_id_card   |обнаруживает личный числимый код Румынии (CNP)|нет|
 |Func_saskatchewan_drivers_license_number|обнаруживает номер водительских прав Saskatchewan|нет|
 |Func_slovakia_eu_national_id_card  |определяет личный номер Словакии|нет|
 |Func_slovenia_eu_national_id_card  |определяет уникальный номер гражданина Словении|нет|
 |Func_slovenia_eu_tax_file_number   |определяет номер налогового файла Словении|нет|
-|Func_south_africa_identification_number|обнаруживает идентификационный номер Южной Африки|Да|
+|Func_south_africa_identification_number|обнаруживает идентификационный номер Южной Африки|да|
 |Func_south_carolina_drivers_license_number|обнаруживает номер водительских прав в Южной Каролине|нет|
 |Func_south_dakota_drivers_license_number|определяет номер водительских прав в Южной Дакоте|нет|
 |Func_south_korea_resident_number   |определяет номер резидента Южной Кореи|нет|
@@ -184,23 +184,23 @@ ms.locfileid: "52086516"
 |Func_spain_eu_driver s_license_number  |определяет номер водительских прав в Испании|нет|
 |Func_spain_eu_tax_file_number  |определяет номер налогового файла Испании|нет|
 |Func_spanish_social_security_number|обнаруживает номер испанского социального обеспечения|нет|
-|Func_ssn   |Функция обнаружения неадомизированных форматизированных SSN США|Да|
+|Func_ssn   |Функция обнаружения неадомизированных форматизированных SSN США|да|
 |Func_sweden_eu_tax_file_number|обнаруживает номер налогового файла Швеции|нет|
-|Func_swedish_national_identifier|обнаружение национального идентификатора Швеции|Да|
+|Func_swedish_national_identifier|обнаружение национального идентификатора Швеции|да|
 |Func_swiss_social_security_number_ahv|обнаруживает швейцарский номер социального обеспечения AHV|нет|
 |Func_taiwanese_national_id |обнаружение тайваньского национального ID|нет|
 |Func_tennessee_drivers_license_number|обнаруживает номер лицензии водителей Теннесси|нет|
 |Func_texas_drivers_license_number  |определяет номер лицензии водителя Техаса|нет|
 |Func_Thai_Citizen_Id   |обнаруживает ИД гражданина Таиланда|нет|
-|Func_Turkish_National_Id|обнаружение турецкого национального ID|Да|
+|Func_Turkish_National_Id|обнаружение турецкого национального ID|да|
 |Func_uk_drivers_license|обнаруживает водительские права Великобритании|нет|
 |Func_uk_eu_tax_file_number|определяет уникальный номер налогоплательщика Великобритании|нет|
-|Func_uk_nhs_number |detects UK NHS number|Да|
+|Func_uk_nhs_number |detects UK NHS number|да|
 |Func_uk_nino   |обнаруживает NINO Великобритании|нет|
 |Func_unformatted_canadian_sin|обнаружение неформатированной канадской sin|нет|
-|Func_unformatted_itin  |обнаруживает unformatted US ITIN|Да|
-|Func_unformatted_ssn   |обнаруживает не рандомизированные неформатированные SSN США|Да|
-|Func_usa_uk_passport   |обнаружение паспорта США и Великобритании|Да|
+|Func_unformatted_itin  |обнаруживает unformatted US ITIN|да|
+|Func_unformatted_ssn   |обнаруживает не рандомизированные неформатированные SSN США|да|
+|Func_usa_uk_passport   |обнаружение паспорта США и Великобритании|да|
 |Func_utah_drivers_license_number|определяет номер водительских прав в штате Юта|нет|
 |Func_vermont_drivers_license_number|обнаруживает номер водительских прав Вермонта|нет|
 |Func_virginia_drivers_license_number|обнаруживает номер водительских прав в Штате Вирджиния|нет|

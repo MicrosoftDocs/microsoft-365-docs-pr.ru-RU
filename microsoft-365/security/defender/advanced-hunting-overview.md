@@ -1,7 +1,7 @@
 ---
 title: Обзор — расширенный поиск
 description: В статье рассказывается о запросах расширенного выслеживания в Microsoft 365 и о том, как их использовать для профилактического обнаружения угроз и слабых мест в своей сети.
-keywords: advanced hunting, threat hunting, cyber threat hunting, Microsoft 365 Defender, Microsoft 365, m365, search, query, telemetry, custom detections, schema, kusto
+keywords: передовая охота, охота на угрозы, охота на киберугрозы, Microsoft 365 Defender, Microsoft 365, m365, поиск, запрос, телеметрия, настраиваемые обнаружения, схема, кусто
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -46,14 +46,14 @@ ms.locfileid: "52073965"
 
 Вы можете использовать одни и те же запросы на поиск угроз для создания пользовательских правил обнаружения. Эти правила запускаются автоматически для проверки и реагирования на предполагаемые нарушения, неправильного устройства и других выводов.
 
-Эта возможность аналогична продвинутой охоте [в Microsoft Defender для конечной точки.](/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview) Эта возможность доступна в центре безопасности Microsoft 365 и поддерживает запросы, которые проверяют более широкий набор данных из:
+Эта возможность аналогична продвинутой охоте [в Microsoft Defender для конечной точки.](/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview) Эта Microsoft 365 поддерживает запросы, которые проверяют более широкий набор данных из:
 
 - Microsoft Defender для конечной точки
 - Microsoft Defender для Office 365
 - Microsoft Cloud App Security
 - Microsoft Defender для удостоверений
 
-Чтобы использовать передовую охоту, [включи Microsoft 365 Defender.](m365d-enable.md)
+Чтобы использовать передовую охоту, [включи Microsoft 365 Defender](m365d-enable.md).
 
 ## <a name="get-started-with-advanced-hunting"></a>Начало работы с расширенным выслеживанием
 
@@ -69,9 +69,9 @@ ms.locfileid: "52073965"
 | **Создание настраиваемой системы обнаружения** | Понимание того, как можно использовать расширенные запросы на охоту для запуска оповещений и автоматически принимать ответные действия. | - [Пользовательский обзор обнаружения](custom-detections-overview.md) <br />- [Настраиваемые правила обнаружения](custom-detection-rules.md) |
 
 ## <a name="get-access"></a>Получить доступ
-Чтобы использовать расширенные возможности для охоты или [других возможностей Защитника Microsoft 365,](microsoft-365-defender.md) вам потребуется соответствующая роль в Azure Active Directory. [Ознакомьтесь с требуемой ролью и разрешениями для предварительной охоты.](custom-roles.md)
+Чтобы использовать расширенные возможности [Microsoft 365 Defender,](microsoft-365-defender.md) вам потребуется соответствующая роль в Azure Active Directory. [Ознакомьтесь с требуемой ролью и разрешениями для предварительной охоты.](custom-roles.md)
 
-Кроме того, доступ к данным конечной точки определяется настройками управления доступом на основе ролей (RBAC) в Microsoft Defender for Endpoint. [Узнайте об управлении доступом к Microsoft 365 Defender.](m365d-permissions.md)
+Кроме того, доступ к данным конечной точки определяется настройками управления доступом на основе ролей (RBAC) в Microsoft Defender for Endpoint. [Узнайте об управлении доступом к Microsoft 365 Defender](m365d-permissions.md).
 
 
 ## <a name="data-freshness-and-update-frequency"></a>Свежесть данных и частота обновления

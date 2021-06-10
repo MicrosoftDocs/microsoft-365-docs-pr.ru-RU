@@ -46,7 +46,7 @@ ms.locfileid: "52843690"
 
 Тип разрешения |   Разрешение  |   Имя отображения разрешений
 :---|:---|:---
-Для приложений |   Vulnerability.Read.All |    'Read Threat and Vulnerability Management vulnerability information'
+Приложение |   Vulnerability.Read.All |    'Read Threat and Vulnerability Management vulnerability information'
 Делегированные (рабочая или учебная учетная запись) | Vulnerability.Read |   'Read Threat and Vulnerability Management vulnerability information'
 
 ## <a name="http-request"></a>HTTP-запрос
@@ -58,7 +58,7 @@ GET /api/vulnerabilities
 
 Имя | Тип | Описание
 :---|:---|:---
-Authorization | String | Bearer {token}. **Обязательное поле**.
+Авторизация | String | Bearer {token}. **Обязательное поле**.
 
 
 ## <a name="request-body"></a>Тело запроса

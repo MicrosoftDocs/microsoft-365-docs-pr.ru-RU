@@ -15,12 +15,12 @@ ms.author: dansimp
 ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
-ms.openlocfilehash: 7ade1ae1e045cb52f48d231acbc1712e753b6bc3
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 5bf9f856e93ae1424373a917490a264c04e07feb
+ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52841850"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52861183"
 ---
 # <a name="onboard-windows-10-multi-session-devices-in-windows-virtual-desktop"></a>Подключение многосеансовых устройств Windows 10 на виртуальном рабочем столе Windows 
 6 минут для чтения 
@@ -148,3 +148,7 @@ Microsoft Defender для конечной точки поддерживает �
 
 Примечание о лицензировании. При использовании Windows 10 Корпоративная нескольких сеансов в зависимости от ваших требований можно либо иметь лицензию всех пользователей через Microsoft Defender для конечной точки (для каждого пользователя), Windows Enterprise E5, Microsoft 365 Security или Microsoft 365 E5, либо иметь лицензию VM через Azure Defender.
 Требования к лицензированию для Microsoft Defender для конечной точки можно найти по: [Лицензионные требования.](minimum-requirements.md#licensing-requirements)
+
+#### <a name="related-links"></a>Дополнительные ссылки
+
+[Добавление исключений для Microsoft Defender с помощью PowerShell](/azure/architecture/example-scenario/wvd/windows-virtual-desktop-fslogix#add-exclusions-for-windows-defender-by-using-powershell)
