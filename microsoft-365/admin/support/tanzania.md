@@ -19,24 +19,24 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52297576"
 ---
-# <a name="contact-support-for-tanzania"></a><span data-ttu-id="ea60f-103">Поддержка контактов для Танзании</span><span class="sxs-lookup"><span data-stu-id="ea60f-103">Contact support for Tanzania</span></span>
+# <a name="contact-support-for-tanzania"></a><span data-ttu-id="9ae56-103">Поддержка контактов для Танзании</span><span class="sxs-lookup"><span data-stu-id="9ae56-103">Contact support for Tanzania</span></span>
 
-<span data-ttu-id="ea60f-104">[Найдите другую страну или регион.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="ea60f-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="9ae56-104">[Найдите другую страну или регион.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="9ae56-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="ea60f-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="ea60f-105">Phone number</span></span>
-<span data-ttu-id="ea60f-106">+254 20 286 8800</span><span class="sxs-lookup"><span data-stu-id="ea60f-106">+254 20 286 8800</span></span>
+## <a name="phone-number"></a><span data-ttu-id="9ae56-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="9ae56-105">Phone number</span></span>
+<span data-ttu-id="9ae56-106">+254 20 286 8800</span><span class="sxs-lookup"><span data-stu-id="9ae56-106">+254 20 286 8800</span></span>
 
-<span data-ttu-id="ea60f-107">Выбор варианта 9</span><span class="sxs-lookup"><span data-stu-id="ea60f-107">Select option 9</span></span>
+<span data-ttu-id="9ae56-107">Выбор варианта 9</span><span class="sxs-lookup"><span data-stu-id="9ae56-107">Select option 9</span></span>
 
-<span data-ttu-id="ea60f-108">Ввод кода 7704</span><span class="sxs-lookup"><span data-stu-id="ea60f-108">Enter code 7704</span></span>
+<span data-ttu-id="9ae56-108">Ввод кода 7704</span><span class="sxs-lookup"><span data-stu-id="9ae56-108">Enter code 7704</span></span>
 
-## <a name="hours"></a><span data-ttu-id="ea60f-109">Часы</span><span class="sxs-lookup"><span data-stu-id="ea60f-109">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="ea60f-110">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="ea60f-110">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="9ae56-109">Часы</span><span class="sxs-lookup"><span data-stu-id="9ae56-109">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="9ae56-110">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="9ae56-110">Billing Support:</span></span>
 
-<span data-ttu-id="ea60f-111">Английский: Mon-Fri 10 am-6 PM</span><span class="sxs-lookup"><span data-stu-id="ea60f-111">English: Mon-Fri 10 AM-6 PM</span></span>
+<span data-ttu-id="9ae56-111">Английский: Mon-Fri 10 am-6 PM</span><span class="sxs-lookup"><span data-stu-id="9ae56-111">English: Mon-Fri 10 AM-6 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="ea60f-112">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="ea60f-112">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="9ae56-112">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="9ae56-112">Technical Support:</span></span>
 
-<span data-ttu-id="ea60f-113">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="ea60f-113">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="9ae56-113">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="9ae56-113">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="ea60f-114">Применяются международные сборы за вызовы</span><span class="sxs-lookup"><span data-stu-id="ea60f-114">International call charges apply</span></span>
+<span data-ttu-id="9ae56-114">Применяются международные сборы за вызовы</span><span class="sxs-lookup"><span data-stu-id="9ae56-114">International call charges apply</span></span>

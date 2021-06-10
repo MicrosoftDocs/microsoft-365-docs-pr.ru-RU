@@ -19,24 +19,24 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52299944"
 ---
-# <a name="contact-support-for-central-african-republic"></a><span data-ttu-id="000d9-103">Поддержка контактов для Центральноафриканской Республики</span><span class="sxs-lookup"><span data-stu-id="000d9-103">Contact support for Central African Republic</span></span>
+# <a name="contact-support-for-central-african-republic"></a><span data-ttu-id="13dbc-103">Поддержка контактов для Центральноафриканской Республики</span><span class="sxs-lookup"><span data-stu-id="13dbc-103">Contact support for Central African Republic</span></span>
 
-<span data-ttu-id="000d9-104">[Найдите другую страну или регион.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="000d9-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="13dbc-104">[Найдите другую страну или регион.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="13dbc-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="000d9-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="000d9-105">Phone number</span></span>
-<span data-ttu-id="000d9-106">+1 312 843 5147</span><span class="sxs-lookup"><span data-stu-id="000d9-106">+1 312 843 5147</span></span>
+## <a name="phone-number"></a><span data-ttu-id="13dbc-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="13dbc-105">Phone number</span></span>
+<span data-ttu-id="13dbc-106">+1 312 843 5147</span><span class="sxs-lookup"><span data-stu-id="13dbc-106">+1 312 843 5147</span></span>
 
-## <a name="hours"></a><span data-ttu-id="000d9-107">Часы</span><span class="sxs-lookup"><span data-stu-id="000d9-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="000d9-108">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="000d9-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="13dbc-107">Часы</span><span class="sxs-lookup"><span data-stu-id="13dbc-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="13dbc-108">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="13dbc-108">Billing Support:</span></span>
 
-<span data-ttu-id="000d9-109">Французский: Mon-Fri 9 am-5 PM</span><span class="sxs-lookup"><span data-stu-id="000d9-109">French: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="13dbc-109">Французский: Mon-Fri 9 am-5 PM</span><span class="sxs-lookup"><span data-stu-id="13dbc-109">French: Mon-Fri 9 AM-5 PM</span></span>
 
-<span data-ttu-id="000d9-110">Английский: Mon-Fri 09:00</span><span class="sxs-lookup"><span data-stu-id="000d9-110">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="13dbc-110">Английский: Mon-Fri 09:00</span><span class="sxs-lookup"><span data-stu-id="13dbc-110">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="000d9-111">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="000d9-111">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="13dbc-111">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="13dbc-111">Technical Support:</span></span>
 
-<span data-ttu-id="000d9-112">Французский: Mon-Fri 8 am-9 PM</span><span class="sxs-lookup"><span data-stu-id="000d9-112">French: Mon-Fri 8 AM-9 PM</span></span>
+<span data-ttu-id="13dbc-112">Французский: Mon-Fri 8 am-9 PM</span><span class="sxs-lookup"><span data-stu-id="13dbc-112">French: Mon-Fri 8 AM-9 PM</span></span>
 
-<span data-ttu-id="000d9-113">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="000d9-113">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="13dbc-113">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="13dbc-113">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="000d9-114">Применяются международные сборы за вызовы</span><span class="sxs-lookup"><span data-stu-id="000d9-114">International call charges apply</span></span>
+<span data-ttu-id="13dbc-114">Применяются международные сборы за вызовы</span><span class="sxs-lookup"><span data-stu-id="13dbc-114">International call charges apply</span></span>

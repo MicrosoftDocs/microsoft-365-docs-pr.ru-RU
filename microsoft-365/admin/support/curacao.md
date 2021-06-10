@@ -19,20 +19,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52298990"
 ---
-# <a name="contact-support-for-curacao"></a><span data-ttu-id="a5239-103">Поддержка контактов для Curacao</span><span class="sxs-lookup"><span data-stu-id="a5239-103">Contact support for Curacao</span></span>
+# <a name="contact-support-for-curacao"></a><span data-ttu-id="3a519-103">Поддержка контактов для Curacao</span><span class="sxs-lookup"><span data-stu-id="3a519-103">Contact support for Curacao</span></span>
 
-<span data-ttu-id="a5239-104">[Найдите другую страну или регион.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="a5239-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="3a519-104">[Найдите другую страну или регион.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="3a519-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="a5239-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="a5239-105">Phone number</span></span>
-<span data-ttu-id="a5239-106">+1 377 302 1308</span><span class="sxs-lookup"><span data-stu-id="a5239-106">+1 377 302 1308</span></span>
+## <a name="phone-number"></a><span data-ttu-id="3a519-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="3a519-105">Phone number</span></span>
+<span data-ttu-id="3a519-106">+1 377 302 1308</span><span class="sxs-lookup"><span data-stu-id="3a519-106">+1 377 302 1308</span></span>
 
-## <a name="hours"></a><span data-ttu-id="a5239-107">Часы</span><span class="sxs-lookup"><span data-stu-id="a5239-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="a5239-108">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="a5239-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="3a519-107">Часы</span><span class="sxs-lookup"><span data-stu-id="3a519-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="3a519-108">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="3a519-108">Billing Support:</span></span>
 
-<span data-ttu-id="a5239-109">Английский: Mon-Fri 09:00</span><span class="sxs-lookup"><span data-stu-id="a5239-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="3a519-109">Английский: Mon-Fri 09:00</span><span class="sxs-lookup"><span data-stu-id="3a519-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="a5239-110">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="a5239-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="3a519-110">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="3a519-110">Technical Support:</span></span>
 
-<span data-ttu-id="a5239-111">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="a5239-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="3a519-111">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="3a519-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="a5239-112">Применяются международные сборы за вызовы</span><span class="sxs-lookup"><span data-stu-id="a5239-112">International call charges apply</span></span>
+<span data-ttu-id="3a519-112">Применяются международные сборы за вызовы</span><span class="sxs-lookup"><span data-stu-id="3a519-112">International call charges apply</span></span>

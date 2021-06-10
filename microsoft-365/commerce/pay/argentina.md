@@ -20,16 +20,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52535618"
 ---
-# <a name="payment-information-for-argentina"></a><span data-ttu-id="bec81-103">Сведения об оплате для Аргентины</span><span class="sxs-lookup"><span data-stu-id="bec81-103">Payment information for Argentina</span></span>
+# <a name="payment-information-for-argentina"></a><span data-ttu-id="d2c21-103">Сведения об оплате для Аргентины</span><span class="sxs-lookup"><span data-stu-id="d2c21-103">Payment information for Argentina</span></span>
 
-<span data-ttu-id="bec81-104">[Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="bec81-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="d2c21-104">[Найдите другую страну или регион.](../billing-and-payments/pay-for-your-subscription.md)</span><span class="sxs-lookup"><span data-stu-id="d2c21-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="bec81-105">Пожалуйста, платите только в долларах США и ссылайтесь на номер счета(ы) на ваш денежный перевод.</span><span class="sxs-lookup"><span data-stu-id="bec81-105">Please pay in USD only and reference your invoice number(s) on your payment remittance.</span></span>
+<span data-ttu-id="d2c21-105">Пожалуйста, платите только в долларах США и ссылайтесь на номер счета(ы) на ваш денежный перевод.</span><span class="sxs-lookup"><span data-stu-id="d2c21-105">Please pay in USD only and reference your invoice number(s) on your payment remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="bec81-106">Электронный платеж</span><span class="sxs-lookup"><span data-stu-id="bec81-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="d2c21-106">Электронный платеж</span><span class="sxs-lookup"><span data-stu-id="d2c21-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="bec81-107">**Банк:** Bank of America</span><span class="sxs-lookup"><span data-stu-id="bec81-107">**Bank:** Bank of America</span></span>  
-<span data-ttu-id="bec81-108">**Branch** Даллас</span><span class="sxs-lookup"><span data-stu-id="bec81-108">**Branch** Dallas</span></span>  
-<span data-ttu-id="bec81-109">**Код SWIFT:** BOFAUS3N</span><span class="sxs-lookup"><span data-stu-id="bec81-109">**SWIFT Code:** BOFAUS3N</span></span>  
-<span data-ttu-id="bec81-110">**Номер учетной записи:** 4426587954</span><span class="sxs-lookup"><span data-stu-id="bec81-110">**Account Number:** 4426587954</span></span>  
-<span data-ttu-id="bec81-111">**Имя учетной записи:** Microsoft</span><span class="sxs-lookup"><span data-stu-id="bec81-111">**Account Name:** Microsoft</span></span>
+<span data-ttu-id="d2c21-107">**Банк:** Bank of America</span><span class="sxs-lookup"><span data-stu-id="d2c21-107">**Bank:** Bank of America</span></span>  
+<span data-ttu-id="d2c21-108">**Branch** Даллас</span><span class="sxs-lookup"><span data-stu-id="d2c21-108">**Branch** Dallas</span></span>  
+<span data-ttu-id="d2c21-109">**Код SWIFT:** BOFAUS3N</span><span class="sxs-lookup"><span data-stu-id="d2c21-109">**SWIFT Code:** BOFAUS3N</span></span>  
+<span data-ttu-id="d2c21-110">**Номер учетной записи:** 4426587954</span><span class="sxs-lookup"><span data-stu-id="d2c21-110">**Account Number:** 4426587954</span></span>  
+<span data-ttu-id="d2c21-111">**Имя учетной записи:** Microsoft</span><span class="sxs-lookup"><span data-stu-id="d2c21-111">**Account Name:** Microsoft</span></span>

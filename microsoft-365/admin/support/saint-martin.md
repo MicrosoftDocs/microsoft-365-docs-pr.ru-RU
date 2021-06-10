@@ -19,24 +19,24 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52297792"
 ---
-# <a name="contact-support-for-saint-martin"></a><span data-ttu-id="44d7d-103">Поддержка контактов для Saint Martin</span><span class="sxs-lookup"><span data-stu-id="44d7d-103">Contact support for Saint Martin</span></span>
+# <a name="contact-support-for-saint-martin"></a><span data-ttu-id="c0ecf-103">Поддержка контактов для Saint Martin</span><span class="sxs-lookup"><span data-stu-id="c0ecf-103">Contact support for Saint Martin</span></span>
 
-<span data-ttu-id="44d7d-104">[Найдите другую страну или регион.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="44d7d-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="c0ecf-104">[Найдите другую страну или регион.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="c0ecf-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="44d7d-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="44d7d-105">Phone number</span></span>
-<span data-ttu-id="44d7d-106">+1 312 843 5147</span><span class="sxs-lookup"><span data-stu-id="44d7d-106">+1 312 843 5147</span></span>
+## <a name="phone-number"></a><span data-ttu-id="c0ecf-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="c0ecf-105">Phone number</span></span>
+<span data-ttu-id="c0ecf-106">+1 312 843 5147</span><span class="sxs-lookup"><span data-stu-id="c0ecf-106">+1 312 843 5147</span></span>
 
-## <a name="hours"></a><span data-ttu-id="44d7d-107">Часы</span><span class="sxs-lookup"><span data-stu-id="44d7d-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="44d7d-108">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="44d7d-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="c0ecf-107">Часы</span><span class="sxs-lookup"><span data-stu-id="c0ecf-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="c0ecf-108">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="c0ecf-108">Billing Support:</span></span>
 
-<span data-ttu-id="44d7d-109">Французский: Mon-Fri 4:00</span><span class="sxs-lookup"><span data-stu-id="44d7d-109">French: Mon-Fri 4 AM-noon</span></span>
+<span data-ttu-id="c0ecf-109">Французский: Mon-Fri 4:00</span><span class="sxs-lookup"><span data-stu-id="c0ecf-109">French: Mon-Fri 4 AM-noon</span></span>
 
-<span data-ttu-id="44d7d-110">Английский: Mon-Fri 4:00</span><span class="sxs-lookup"><span data-stu-id="44d7d-110">English: Mon-Fri 4 AM-noon</span></span>
+<span data-ttu-id="c0ecf-110">Английский: Mon-Fri 4:00</span><span class="sxs-lookup"><span data-stu-id="c0ecf-110">English: Mon-Fri 4 AM-noon</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="44d7d-111">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="44d7d-111">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="c0ecf-111">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="c0ecf-111">Technical Support:</span></span>
 
-<span data-ttu-id="44d7d-112">Французский: Mon-Fri 3 am-4 PM</span><span class="sxs-lookup"><span data-stu-id="44d7d-112">French: Mon-Fri 3 AM-4 PM</span></span>
+<span data-ttu-id="c0ecf-112">Французский: Mon-Fri 3 am-4 PM</span><span class="sxs-lookup"><span data-stu-id="c0ecf-112">French: Mon-Fri 3 AM-4 PM</span></span>
 
-<span data-ttu-id="44d7d-113">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="44d7d-113">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="c0ecf-113">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="c0ecf-113">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="44d7d-114">Применяются международные сборы за вызовы</span><span class="sxs-lookup"><span data-stu-id="44d7d-114">International call charges apply</span></span>
+<span data-ttu-id="c0ecf-114">Применяются международные сборы за вызовы</span><span class="sxs-lookup"><span data-stu-id="c0ecf-114">International call charges apply</span></span>

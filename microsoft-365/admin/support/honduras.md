@@ -19,22 +19,22 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52298663"
 ---
-# <a name="contact-support-for-honduras"></a><span data-ttu-id="f58ea-103">Поддержка контактов для Гондураса</span><span class="sxs-lookup"><span data-stu-id="f58ea-103">Contact support for Honduras</span></span>
+# <a name="contact-support-for-honduras"></a><span data-ttu-id="133a4-103">Поддержка контактов для Гондураса</span><span class="sxs-lookup"><span data-stu-id="133a4-103">Contact support for Honduras</span></span>
 
-<span data-ttu-id="f58ea-104">[Найдите другую страну или регион.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="f58ea-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="133a4-104">[Найдите другую страну или регион.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="133a4-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="f58ea-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="f58ea-105">Phone number</span></span>
-<span data-ttu-id="f58ea-106">800 0123</span><span class="sxs-lookup"><span data-stu-id="f58ea-106">800 0123</span></span>
+## <a name="phone-number"></a><span data-ttu-id="133a4-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="133a4-105">Phone number</span></span>
+<span data-ttu-id="133a4-106">800 0123</span><span class="sxs-lookup"><span data-stu-id="133a4-106">800 0123</span></span>
 
-<span data-ttu-id="f58ea-107">После набора введите</span><span class="sxs-lookup"><span data-stu-id="f58ea-107">After dialing, enter</span></span>
+<span data-ttu-id="133a4-107">После набора введите</span><span class="sxs-lookup"><span data-stu-id="133a4-107">After dialing, enter</span></span>
 
-<span data-ttu-id="f58ea-108">877 635 7034</span><span class="sxs-lookup"><span data-stu-id="f58ea-108">877 635 7034</span></span>
+<span data-ttu-id="133a4-108">877 635 7034</span><span class="sxs-lookup"><span data-stu-id="133a4-108">877 635 7034</span></span>
 
-## <a name="hours"></a><span data-ttu-id="f58ea-109">Часы</span><span class="sxs-lookup"><span data-stu-id="f58ea-109">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="f58ea-110">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="f58ea-110">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="133a4-109">Часы</span><span class="sxs-lookup"><span data-stu-id="133a4-109">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="133a4-110">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="133a4-110">Billing Support:</span></span>
 
-<span data-ttu-id="f58ea-111">Испанский: Mon-Fri 9 утра-5 вечера</span><span class="sxs-lookup"><span data-stu-id="f58ea-111">Spanish: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="133a4-111">Испанский: Mon-Fri 9 утра-5 вечера</span><span class="sxs-lookup"><span data-stu-id="133a4-111">Spanish: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="f58ea-112">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="f58ea-112">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="133a4-112">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="133a4-112">Technical Support:</span></span>
 
-<span data-ttu-id="f58ea-113">Испанский: 24 часа в сутки, 7 дней в неделю</span><span class="sxs-lookup"><span data-stu-id="f58ea-113">Spanish: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="133a4-113">Испанский: 24 часа в сутки, 7 дней в неделю</span><span class="sxs-lookup"><span data-stu-id="133a4-113">Spanish: 24 hours a day, 7 days a week</span></span>

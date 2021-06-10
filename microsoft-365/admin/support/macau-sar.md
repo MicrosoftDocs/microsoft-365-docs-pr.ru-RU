@@ -19,30 +19,30 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52298401"
 ---
-# <a name="contact-support-for-macau-sar"></a><span data-ttu-id="681c9-103">Поддержка контактов для SAR Макао</span><span class="sxs-lookup"><span data-stu-id="681c9-103">Contact support for Macau SAR</span></span>
+# <a name="contact-support-for-macau-sar"></a><span data-ttu-id="bc49d-103">Поддержка контактов для SAR Макао</span><span class="sxs-lookup"><span data-stu-id="bc49d-103">Contact support for Macau SAR</span></span>
 
-<span data-ttu-id="681c9-104">[Найдите другую страну или регион.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="681c9-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="bc49d-104">[Найдите другую страну или регион.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="bc49d-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="681c9-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="681c9-105">Phone number</span></span>
-<span data-ttu-id="681c9-106">0800 111</span><span class="sxs-lookup"><span data-stu-id="681c9-106">0800 111</span></span>
+## <a name="phone-number"></a><span data-ttu-id="bc49d-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="bc49d-105">Phone number</span></span>
+<span data-ttu-id="bc49d-106">0800 111</span><span class="sxs-lookup"><span data-stu-id="bc49d-106">0800 111</span></span>
 
-<span data-ttu-id="681c9-107">После набора введите</span><span class="sxs-lookup"><span data-stu-id="681c9-107">After dialing, enter</span></span>
+<span data-ttu-id="bc49d-107">После набора введите</span><span class="sxs-lookup"><span data-stu-id="bc49d-107">After dialing, enter</span></span>
 
-<span data-ttu-id="681c9-108">877 860 4890</span><span class="sxs-lookup"><span data-stu-id="681c9-108">877 860 4890</span></span>
+<span data-ttu-id="bc49d-108">877 860 4890</span><span class="sxs-lookup"><span data-stu-id="bc49d-108">877 860 4890</span></span>
 
-## <a name="hours"></a><span data-ttu-id="681c9-109">Часы</span><span class="sxs-lookup"><span data-stu-id="681c9-109">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="681c9-110">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="681c9-110">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="bc49d-109">Часы</span><span class="sxs-lookup"><span data-stu-id="bc49d-109">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="bc49d-110">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="bc49d-110">Billing Support:</span></span>
 
-<span data-ttu-id="681c9-111">Кантонский: Mon-Fri 9 am-5 PM</span><span class="sxs-lookup"><span data-stu-id="681c9-111">Cantonese: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="bc49d-111">Кантонский: Mon-Fri 9 am-5 PM</span><span class="sxs-lookup"><span data-stu-id="bc49d-111">Cantonese: Mon-Fri 9 AM-5 PM</span></span>
 
-<span data-ttu-id="681c9-112">Мандарин: Mon-Fri 9 am-5 PM</span><span class="sxs-lookup"><span data-stu-id="681c9-112">Mandarin: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="bc49d-112">Мандарин: Mon-Fri 9 am-5 PM</span><span class="sxs-lookup"><span data-stu-id="bc49d-112">Mandarin: Mon-Fri 9 AM-5 PM</span></span>
 
-<span data-ttu-id="681c9-113">Английский: Mon-Fri 09:00</span><span class="sxs-lookup"><span data-stu-id="681c9-113">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="bc49d-113">Английский: Mon-Fri 09:00</span><span class="sxs-lookup"><span data-stu-id="bc49d-113">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="681c9-114">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="681c9-114">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="bc49d-114">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="bc49d-114">Technical Support:</span></span>
 
-<span data-ttu-id="681c9-115">Кантонский: Mon-Fri 9 am-5 PM</span><span class="sxs-lookup"><span data-stu-id="681c9-115">Cantonese: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="bc49d-115">Кантонский: Mon-Fri 9 am-5 PM</span><span class="sxs-lookup"><span data-stu-id="bc49d-115">Cantonese: Mon-Fri 9 AM-5 PM</span></span>
 
-<span data-ttu-id="681c9-116">Мандарин: Mon-Fri 9 am-5 PM</span><span class="sxs-lookup"><span data-stu-id="681c9-116">Mandarin: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="bc49d-116">Мандарин: Mon-Fri 9 am-5 PM</span><span class="sxs-lookup"><span data-stu-id="bc49d-116">Mandarin: Mon-Fri 9 AM-5 PM</span></span>
 
-<span data-ttu-id="681c9-117">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="681c9-117">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="bc49d-117">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="bc49d-117">English: 24 hours a day, 7 days a week</span></span>

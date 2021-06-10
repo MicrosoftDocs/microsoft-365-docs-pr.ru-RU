@@ -19,18 +19,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52298449"
 ---
-# <a name="contact-support-for-latvia"></a><span data-ttu-id="1d9a6-103">Поддержка контактов для Латвии</span><span class="sxs-lookup"><span data-stu-id="1d9a6-103">Contact support for Latvia</span></span>
+# <a name="contact-support-for-latvia"></a><span data-ttu-id="0bd2e-103">Поддержка контактов для Латвии</span><span class="sxs-lookup"><span data-stu-id="0bd2e-103">Contact support for Latvia</span></span>
 
-<span data-ttu-id="1d9a6-104">[Найдите другую страну или регион.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="1d9a6-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="0bd2e-104">[Найдите другую страну или регион.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="0bd2e-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="1d9a6-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="1d9a6-105">Phone number</span></span>
-<span data-ttu-id="1d9a6-106">8000 42 33</span><span class="sxs-lookup"><span data-stu-id="1d9a6-106">8000 42 33</span></span>
+## <a name="phone-number"></a><span data-ttu-id="0bd2e-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="0bd2e-105">Phone number</span></span>
+<span data-ttu-id="0bd2e-106">8000 42 33</span><span class="sxs-lookup"><span data-stu-id="0bd2e-106">8000 42 33</span></span>
 
-## <a name="hours"></a><span data-ttu-id="1d9a6-107">Часы</span><span class="sxs-lookup"><span data-stu-id="1d9a6-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="1d9a6-108">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="1d9a6-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="0bd2e-107">Часы</span><span class="sxs-lookup"><span data-stu-id="0bd2e-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="0bd2e-108">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="0bd2e-108">Billing Support:</span></span>
 
-<span data-ttu-id="1d9a6-109">Английский: Mon-Fri 09:00</span><span class="sxs-lookup"><span data-stu-id="1d9a6-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="0bd2e-109">Английский: Mon-Fri 09:00</span><span class="sxs-lookup"><span data-stu-id="0bd2e-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="1d9a6-110">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="1d9a6-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="0bd2e-110">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="0bd2e-110">Technical Support:</span></span>
 
-<span data-ttu-id="1d9a6-111">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="1d9a6-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="0bd2e-111">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="0bd2e-111">English: 24 hours a day, 7 days a week</span></span>

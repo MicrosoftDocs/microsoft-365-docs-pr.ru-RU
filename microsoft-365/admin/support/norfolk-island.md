@@ -19,20 +19,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52297958"
 ---
-# <a name="contact-support-for-norfolk-island"></a><span data-ttu-id="9e8fa-103">Поддержка контактов для острова Норфолк</span><span class="sxs-lookup"><span data-stu-id="9e8fa-103">Contact support for Norfolk Island</span></span>
+# <a name="contact-support-for-norfolk-island"></a><span data-ttu-id="943a0-103">Поддержка контактов для острова Норфолк</span><span class="sxs-lookup"><span data-stu-id="943a0-103">Contact support for Norfolk Island</span></span>
 
-<span data-ttu-id="9e8fa-104">[Найдите другую страну или регион.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="9e8fa-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="943a0-104">[Найдите другую страну или регион.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="943a0-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="9e8fa-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="9e8fa-105">Phone number</span></span>
-<span data-ttu-id="9e8fa-106">+1 312 843 5148</span><span class="sxs-lookup"><span data-stu-id="9e8fa-106">+1 312 843 5148</span></span>
+## <a name="phone-number"></a><span data-ttu-id="943a0-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="943a0-105">Phone number</span></span>
+<span data-ttu-id="943a0-106">+1 312 843 5148</span><span class="sxs-lookup"><span data-stu-id="943a0-106">+1 312 843 5148</span></span>
 
-## <a name="hours"></a><span data-ttu-id="9e8fa-107">Часы</span><span class="sxs-lookup"><span data-stu-id="9e8fa-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="9e8fa-108">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="9e8fa-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="943a0-107">Часы</span><span class="sxs-lookup"><span data-stu-id="943a0-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="943a0-108">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="943a0-108">Billing Support:</span></span>
 
-<span data-ttu-id="9e8fa-109">Английский: Mon-Fri 12 вечера-8 вечера</span><span class="sxs-lookup"><span data-stu-id="9e8fa-109">English: Mon-Fri 12 PM-8 PM</span></span>
+<span data-ttu-id="943a0-109">Английский: Mon-Fri 12 вечера-8 вечера</span><span class="sxs-lookup"><span data-stu-id="943a0-109">English: Mon-Fri 12 PM-8 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="9e8fa-110">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="9e8fa-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="943a0-110">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="943a0-110">Technical Support:</span></span>
 
-<span data-ttu-id="9e8fa-111">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="9e8fa-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="943a0-111">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="943a0-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="9e8fa-112">Применяются международные сборы за вызовы</span><span class="sxs-lookup"><span data-stu-id="9e8fa-112">International call charges apply</span></span>
+<span data-ttu-id="943a0-112">Применяются международные сборы за вызовы</span><span class="sxs-lookup"><span data-stu-id="943a0-112">International call charges apply</span></span>

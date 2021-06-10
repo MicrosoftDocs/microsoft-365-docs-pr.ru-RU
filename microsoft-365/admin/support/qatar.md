@@ -19,30 +19,30 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52297840"
 ---
-# <a name="contact-support-for-qatar"></a><span data-ttu-id="402ac-103">Поддержка контактов для Катара</span><span class="sxs-lookup"><span data-stu-id="402ac-103">Contact support for Qatar</span></span>
+# <a name="contact-support-for-qatar"></a><span data-ttu-id="22f24-103">Поддержка контактов для Катара</span><span class="sxs-lookup"><span data-stu-id="22f24-103">Contact support for Qatar</span></span>
 
-<span data-ttu-id="402ac-104">[Найдите другую страну или регион.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="402ac-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="22f24-104">[Найдите другую страну или регион.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="22f24-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="402ac-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="402ac-105">Phone number</span></span>
-<span data-ttu-id="402ac-106">44 119418</span><span class="sxs-lookup"><span data-stu-id="402ac-106">44 119418</span></span>
+## <a name="phone-number"></a><span data-ttu-id="22f24-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="22f24-105">Phone number</span></span>
+<span data-ttu-id="22f24-106">44 119418</span><span class="sxs-lookup"><span data-stu-id="22f24-106">44 119418</span></span>
 
-<span data-ttu-id="402ac-107">Выбор варианта 2</span><span class="sxs-lookup"><span data-stu-id="402ac-107">Select option 2</span></span>
+<span data-ttu-id="22f24-107">Выбор варианта 2</span><span class="sxs-lookup"><span data-stu-id="22f24-107">Select option 2</span></span>
 
-<span data-ttu-id="402ac-108">Выбор варианта 9</span><span class="sxs-lookup"><span data-stu-id="402ac-108">Select option 9</span></span>
+<span data-ttu-id="22f24-108">Выбор варианта 9</span><span class="sxs-lookup"><span data-stu-id="22f24-108">Select option 9</span></span>
 
-<span data-ttu-id="402ac-109">Ввод кода 7700</span><span class="sxs-lookup"><span data-stu-id="402ac-109">Enter code 7700</span></span>
+<span data-ttu-id="22f24-109">Ввод кода 7700</span><span class="sxs-lookup"><span data-stu-id="22f24-109">Enter code 7700</span></span>
 
-## <a name="hours"></a><span data-ttu-id="402ac-110">Часы</span><span class="sxs-lookup"><span data-stu-id="402ac-110">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="402ac-111">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="402ac-111">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="22f24-110">Часы</span><span class="sxs-lookup"><span data-stu-id="22f24-110">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="22f24-111">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="22f24-111">Billing Support:</span></span>
 
-<span data-ttu-id="402ac-112">Арабский: Sun-Thu 10 am-6 PM</span><span class="sxs-lookup"><span data-stu-id="402ac-112">Arabic: Sun-Thu 10 AM-6 PM</span></span>
+<span data-ttu-id="22f24-112">Арабский: Sun-Thu 10 am-6 PM</span><span class="sxs-lookup"><span data-stu-id="22f24-112">Arabic: Sun-Thu 10 AM-6 PM</span></span>
 
-<span data-ttu-id="402ac-113">Английский: Mon-Fri 10 am-6 PM</span><span class="sxs-lookup"><span data-stu-id="402ac-113">English: Mon-Fri 10 AM-6 PM</span></span>
+<span data-ttu-id="22f24-113">Английский: Mon-Fri 10 am-6 PM</span><span class="sxs-lookup"><span data-stu-id="22f24-113">English: Mon-Fri 10 AM-6 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="402ac-114">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="402ac-114">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="22f24-114">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="22f24-114">Technical Support:</span></span>
 
-<span data-ttu-id="402ac-115">Арабский: Sun-Thu 10 am-6 PM</span><span class="sxs-lookup"><span data-stu-id="402ac-115">Arabic: Sun-Thu 10 AM-6 PM</span></span>
+<span data-ttu-id="22f24-115">Арабский: Sun-Thu 10 am-6 PM</span><span class="sxs-lookup"><span data-stu-id="22f24-115">Arabic: Sun-Thu 10 AM-6 PM</span></span>
 
-<span data-ttu-id="402ac-116">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="402ac-116">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="22f24-116">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="22f24-116">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="402ac-117">Применяются локальные платежи за вызовы</span><span class="sxs-lookup"><span data-stu-id="402ac-117">Local call charges apply</span></span>
+<span data-ttu-id="22f24-117">Применяются локальные платежи за вызовы</span><span class="sxs-lookup"><span data-stu-id="22f24-117">Local call charges apply</span></span>
