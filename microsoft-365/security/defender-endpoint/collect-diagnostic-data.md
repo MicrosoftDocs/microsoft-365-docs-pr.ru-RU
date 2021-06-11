@@ -16,57 +16,57 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: ccf6da0e1bc91a29865868305b5333f7ef9c47cc
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 7686f28646135986a78b4c269e41e2fc3a70dff9
+ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274788"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52904048"
 ---
-# <a name="collect-microsoft-defender-av-diagnostic-data"></a><span data-ttu-id="ad84a-104">Сбор диагностических данных Microsoft Defender AV</span><span class="sxs-lookup"><span data-stu-id="ad84a-104">Collect Microsoft Defender AV diagnostic data</span></span>
+# <a name="collect-microsoft-defender-av-diagnostic-data"></a><span data-ttu-id="4c3be-104">Сбор диагностических данных Microsoft Defender AV</span><span class="sxs-lookup"><span data-stu-id="4c3be-104">Collect Microsoft Defender AV diagnostic data</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 
-<span data-ttu-id="ad84a-105">**Область применения:**</span><span class="sxs-lookup"><span data-stu-id="ad84a-105">**Applies to:**</span></span>
+<span data-ttu-id="4c3be-105">**Область применения:**</span><span class="sxs-lookup"><span data-stu-id="4c3be-105">**Applies to:**</span></span>
 
-- [<span data-ttu-id="ad84a-106">Microsoft Defender для конечной точки</span><span class="sxs-lookup"><span data-stu-id="ad84a-106">Microsoft Defender for Endpoint</span></span>](/microsoft-365/security/defender-endpoint/)
+- [<span data-ttu-id="4c3be-106">Microsoft Defender для конечной точки</span><span class="sxs-lookup"><span data-stu-id="4c3be-106">Microsoft Defender for Endpoint</span></span>](/microsoft-365/security/defender-endpoint/)
 
-<span data-ttu-id="ad84a-107">В этой статье описывается сбор диагностических данных, которые могут использоваться группами поддержки Майкрософт и инженерными группами для устранения неполадок, с которыми вы можете столкнуться при использовании AV Microsoft Defender.</span><span class="sxs-lookup"><span data-stu-id="ad84a-107">This article describes how to collect diagnostic data that can be used by Microsoft support and engineering teams to help troubleshoot issues you might encounter when using the Microsoft Defender AV.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="ad84a-108">В рамках процесса расследования или ответа можно собрать пакет исследований с устройства.</span><span class="sxs-lookup"><span data-stu-id="ad84a-108">As part of the investigation or response process, you can collect an investigation package from a device.</span></span> <span data-ttu-id="ad84a-109">Вот как: [сбор пакета исследований с устройств.](/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#collect-investigation-package-from-devices)</span><span class="sxs-lookup"><span data-stu-id="ad84a-109">Here's how: [Collect investigation package from devices](/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#collect-investigation-package-from-devices).</span></span>
-
-<span data-ttu-id="ad84a-110">По крайней мере на двух устройствах, столкнующихся с одной и той же проблемой, .cab диагностический файл с помощью следующих действий:</span><span class="sxs-lookup"><span data-stu-id="ad84a-110">On at least two devices that are experiencing the same issue, obtain the .cab diagnostic file by taking the following steps:</span></span>
-
-1. <span data-ttu-id="ad84a-111">Откройте версию командной подсказки на уровне администратора следующим образом:</span><span class="sxs-lookup"><span data-stu-id="ad84a-111">Open an administrator-level version of the command prompt as follows:</span></span>
-
-    <span data-ttu-id="ad84a-112">а.</span><span class="sxs-lookup"><span data-stu-id="ad84a-112">a.</span></span> <span data-ttu-id="ad84a-113">Откройте меню **Пуск.**</span><span class="sxs-lookup"><span data-stu-id="ad84a-113">Open the **Start** menu.</span></span>
-
-    <span data-ttu-id="ad84a-114">б.</span><span class="sxs-lookup"><span data-stu-id="ad84a-114">b.</span></span> <span data-ttu-id="ad84a-115">Введите **cmd**.</span><span class="sxs-lookup"><span data-stu-id="ad84a-115">Type **cmd**.</span></span> <span data-ttu-id="ad84a-116">Щелкните правой кнопкой мыши **командный запрос** и нажмите **кнопку Выполнить в качестве администратора.**</span><span class="sxs-lookup"><span data-stu-id="ad84a-116">Right-click on **Command Prompt** and click **Run as administrator**.</span></span>
-
-    <span data-ttu-id="ad84a-117">в.</span><span class="sxs-lookup"><span data-stu-id="ad84a-117">c.</span></span> <span data-ttu-id="ad84a-118">Ввод учетных данных администратора или утверждение запроса.</span><span class="sxs-lookup"><span data-stu-id="ad84a-118">Enter administrator credentials or approve the prompt.</span></span>
-
-2. <span data-ttu-id="ad84a-119">Перейдите к каталогу Microsoft Defender.</span><span class="sxs-lookup"><span data-stu-id="ad84a-119">Navigate to the Microsoft Defender directory.</span></span> <span data-ttu-id="ad84a-120">По умолчанию это значение равно `C:\Program Files\Windows Defender`.</span><span class="sxs-lookup"><span data-stu-id="ad84a-120">By default, this is `C:\Program Files\Windows Defender`.</span></span>
+<span data-ttu-id="4c3be-107">В этой статье описывается сбор диагностических данных, которые могут использоваться группами поддержки Майкрософт и инженерными группами для устранения неполадок, с которыми вы можете столкнуться при использовании AV Microsoft Defender.</span><span class="sxs-lookup"><span data-stu-id="4c3be-107">This article describes how to collect diagnostic data that can be used by Microsoft support and engineering teams to help troubleshoot issues you might encounter when using the Microsoft Defender AV.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="ad84a-121">Если вы работаете с [обновленной версией платформы Защитника Майкрософт,](https://support.microsoft.com/help/4052623/update-for-microsoft-defender-antimalware-platform)запустите ее в `MpCmdRun` следующем расположении: `C:\ProgramData\Microsoft\Windows Defender\Platform\<version>` .</span><span class="sxs-lookup"><span data-stu-id="ad84a-121">If you're running an [updated Microsoft Defender Platform version](https://support.microsoft.com/help/4052623/update-for-microsoft-defender-antimalware-platform), please run `MpCmdRun` from the following location: `C:\ProgramData\Microsoft\Windows Defender\Platform\<version>`.</span></span>
+> <span data-ttu-id="4c3be-108">В рамках процесса расследования или ответа можно собрать пакет исследований с устройства.</span><span class="sxs-lookup"><span data-stu-id="4c3be-108">As part of the investigation or response process, you can collect an investigation package from a device.</span></span> <span data-ttu-id="4c3be-109">Вот как: [сбор пакета исследований с устройств.](/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#collect-investigation-package-from-devices)</span><span class="sxs-lookup"><span data-stu-id="4c3be-109">Here's how: [Collect investigation package from devices](/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#collect-investigation-package-from-devices).</span></span>
 
-3. <span data-ttu-id="ad84a-122">Введите следующую команду и нажмите **кнопку Ввод**</span><span class="sxs-lookup"><span data-stu-id="ad84a-122">Type the following command, and then press **Enter**</span></span>  
+<span data-ttu-id="4c3be-110">По крайней мере на двух устройствах, столкнующихся с одной и той же проблемой, .cab диагностический файл с помощью следующих действий:</span><span class="sxs-lookup"><span data-stu-id="4c3be-110">On at least two devices that are experiencing the same issue, obtain the .cab diagnostic file by taking the following steps:</span></span>
+
+1. <span data-ttu-id="4c3be-111">Откройте версию командной подсказки на уровне администратора следующим образом:</span><span class="sxs-lookup"><span data-stu-id="4c3be-111">Open an administrator-level version of the command prompt as follows:</span></span>
+
+    <span data-ttu-id="4c3be-112">а.</span><span class="sxs-lookup"><span data-stu-id="4c3be-112">a.</span></span> <span data-ttu-id="4c3be-113">Откройте меню **Пуск.**</span><span class="sxs-lookup"><span data-stu-id="4c3be-113">Open the **Start** menu.</span></span>
+
+    <span data-ttu-id="4c3be-114">б.</span><span class="sxs-lookup"><span data-stu-id="4c3be-114">b.</span></span> <span data-ttu-id="4c3be-115">Введите **cmd**.</span><span class="sxs-lookup"><span data-stu-id="4c3be-115">Type **cmd**.</span></span> <span data-ttu-id="4c3be-116">Щелкните правой кнопкой мыши **командную подсказку** и выберите **Выполнить в качестве администратора.**</span><span class="sxs-lookup"><span data-stu-id="4c3be-116">Right-click on **Command Prompt** and then select **Run as administrator**.</span></span>
+
+    <span data-ttu-id="4c3be-117">в.</span><span class="sxs-lookup"><span data-stu-id="4c3be-117">c.</span></span> <span data-ttu-id="4c3be-118">Укажите учетные данные администратора или одобрить запрос.</span><span class="sxs-lookup"><span data-stu-id="4c3be-118">Specify administrator credentials or approve the prompt.</span></span>
+
+2. <span data-ttu-id="4c3be-119">Перейдите к каталогу Microsoft Defender.</span><span class="sxs-lookup"><span data-stu-id="4c3be-119">Navigate to the Microsoft Defender directory.</span></span> <span data-ttu-id="4c3be-120">По умолчанию это значение равно `C:\Program Files\Windows Defender`.</span><span class="sxs-lookup"><span data-stu-id="4c3be-120">By default, this is `C:\Program Files\Windows Defender`.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="4c3be-121">Если вы работаете с [обновленной версией платформы Защитника Майкрософт,](https://support.microsoft.com/help/4052623/update-for-microsoft-defender-antimalware-platform)запустите ее в `MpCmdRun` следующем расположении: `C:\ProgramData\Microsoft\Windows Defender\Platform\<version>` .</span><span class="sxs-lookup"><span data-stu-id="4c3be-121">If you're running an [updated Microsoft Defender Platform version](https://support.microsoft.com/help/4052623/update-for-microsoft-defender-antimalware-platform), please run `MpCmdRun` from the following location: `C:\ProgramData\Microsoft\Windows Defender\Platform\<version>`.</span></span>
+
+3. <span data-ttu-id="4c3be-122">Введите следующую команду и нажмите **кнопку Ввод**</span><span class="sxs-lookup"><span data-stu-id="4c3be-122">Type the following command, and then press **Enter**</span></span>  
 
     ```Dos
     mpcmdrun.exe -GetFiles
     ```
   
-4. <span data-ttu-id="ad84a-123">Будет .cab файл, содержащий различные диагностические журналы.</span><span class="sxs-lookup"><span data-stu-id="ad84a-123">A .cab file will be generated that contains various diagnostic logs.</span></span> <span data-ttu-id="ad84a-124">Расположение файла будет указано в выходе в командной подсказке.</span><span class="sxs-lookup"><span data-stu-id="ad84a-124">The location of the file will be specified in the output in the command prompt.</span></span> <span data-ttu-id="ad84a-125">По умолчанию расположение `C:\ProgramData\Microsoft\Microsoft Defender\Support\MpSupportFiles.cab` является .</span><span class="sxs-lookup"><span data-stu-id="ad84a-125">By default, the location is `C:\ProgramData\Microsoft\Microsoft Defender\Support\MpSupportFiles.cab`.</span></span>
+4. <span data-ttu-id="4c3be-123">Будет .cab файл, содержащий различные диагностические журналы.</span><span class="sxs-lookup"><span data-stu-id="4c3be-123">A .cab file will be generated that contains various diagnostic logs.</span></span> <span data-ttu-id="4c3be-124">Расположение файла будет указано в выходе в командной подсказке.</span><span class="sxs-lookup"><span data-stu-id="4c3be-124">The location of the file will be specified in the output in the command prompt.</span></span> <span data-ttu-id="4c3be-125">По умолчанию расположение `C:\ProgramData\Microsoft\Microsoft Defender\Support\MpSupportFiles.cab` является .</span><span class="sxs-lookup"><span data-stu-id="4c3be-125">By default, the location is `C:\ProgramData\Microsoft\Microsoft Defender\Support\MpSupportFiles.cab`.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="ad84a-126">Чтобы перенаправить файл кабины на другой путь или долю UNC, используйте следующую команду: `mpcmdrun.exe -GetFiles -SupportLogLocation <path>`</span><span class="sxs-lookup"><span data-stu-id="ad84a-126">To redirect the cab file to a a different path or UNC share, use the following command: `mpcmdrun.exe -GetFiles -SupportLogLocation <path>`</span></span>  <br/><span data-ttu-id="ad84a-127">Дополнительные сведения см. в [раздел Перенаправление диагностических данных в раздел UNC.](#redirect-diagnostic-data-to-a-unc-share)</span><span class="sxs-lookup"><span data-stu-id="ad84a-127">For more information, see [Redirect diagnostic data to a UNC share](#redirect-diagnostic-data-to-a-unc-share).</span></span>
+> <span data-ttu-id="4c3be-126">Чтобы перенаправить файл кабины на другой путь или долю UNC, используйте следующую команду: `mpcmdrun.exe -GetFiles -SupportLogLocation <path>`</span><span class="sxs-lookup"><span data-stu-id="4c3be-126">To redirect the cab file to a a different path or UNC share, use the following command: `mpcmdrun.exe -GetFiles -SupportLogLocation <path>`</span></span>  <br/><span data-ttu-id="4c3be-127">Дополнительные сведения см. в [раздел Перенаправление диагностических данных в раздел UNC.](#redirect-diagnostic-data-to-a-unc-share)</span><span class="sxs-lookup"><span data-stu-id="4c3be-127">For more information, see [Redirect diagnostic data to a UNC share](#redirect-diagnostic-data-to-a-unc-share).</span></span>
 
-5. <span data-ttu-id="ad84a-128">Скопируйте .cab файлы в расположение, к нему можно получить доступ с помощью службы поддержки Майкрософт.</span><span class="sxs-lookup"><span data-stu-id="ad84a-128">Copy these .cab files to a location that can be accessed by Microsoft support.</span></span> <span data-ttu-id="ad84a-129">Примером может быть защищенная паролем папка OneDrive которую вы можете поделиться с нами.</span><span class="sxs-lookup"><span data-stu-id="ad84a-129">An example could be a password-protected OneDrive folder that you can share with us.</span></span>
+5. <span data-ttu-id="4c3be-128">Скопируйте .cab файлы в расположение, к нему можно получить доступ с помощью службы поддержки Майкрософт.</span><span class="sxs-lookup"><span data-stu-id="4c3be-128">Copy these .cab files to a location that can be accessed by Microsoft support.</span></span> <span data-ttu-id="4c3be-129">Примером может быть защищенная паролем папка OneDrive которую вы можете поделиться с нами.</span><span class="sxs-lookup"><span data-stu-id="4c3be-129">An example could be a password-protected OneDrive folder that you can share with us.</span></span>
 
 > [!NOTE]
-><span data-ttu-id="ad84a-130">Если у вас возникла проблема с соответствием требованиям обновления, отправьте сообщение электронной почты с помощью шаблона поддержки обновления и заполните шаблон следующими сведениями: <a href="mailto:ucsupport@microsoft.com?subject=WDAV assessment issue&body=I%20am%20encountering%20the%20following%20issue%20when%20using%20Windows%20Defender%20AV%20in%20Update%20Compliance%3a%20%0d%0aI%20have%20provided%20at%20least%202%20support%20.cab%20files%20at%20the%20following%20location%3a%20%3Caccessible%20share%2c%20including%20access%20details%20such%20as%20password%3E%0d%0aMy%20OMS%20workspace%20ID%20is%3a%20%0d%0aPlease%20contact%20me%20at%3a"></a></span><span class="sxs-lookup"><span data-stu-id="ad84a-130">If you have a problem with Update compliance, send an email using the <a href="mailto:ucsupport@microsoft.com?subject=WDAV assessment issue&body=I%20am%20encountering%20the%20following%20issue%20when%20using%20Windows%20Defender%20AV%20in%20Update%20Compliance%3a%20%0d%0aI%20have%20provided%20at%20least%202%20support%20.cab%20files%20at%20the%20following%20location%3a%20%3Caccessible%20share%2c%20including%20access%20details%20such%20as%20password%3E%0d%0aMy%20OMS%20workspace%20ID%20is%3a%20%0d%0aPlease%20contact%20me%20at%3a">Update Compliance support email template</a>, and fill out the template with the following information:</span></span>
+><span data-ttu-id="4c3be-130">Если у вас возникла проблема с соответствием требованиям обновления, отправьте сообщение электронной почты с помощью шаблона поддержки обновления и заполните шаблон следующими сведениями: <a href="mailto:ucsupport@microsoft.com?subject=WDAV assessment issue&body=I%20am%20encountering%20the%20following%20issue%20when%20using%20Windows%20Defender%20AV%20in%20Update%20Compliance%3a%20%0d%0aI%20have%20provided%20at%20least%202%20support%20.cab%20files%20at%20the%20following%20location%3a%20%3Caccessible%20share%2c%20including%20access%20details%20such%20as%20password%3E%0d%0aMy%20OMS%20workspace%20ID%20is%3a%20%0d%0aPlease%20contact%20me%20at%3a"></a></span><span class="sxs-lookup"><span data-stu-id="4c3be-130">If you have a problem with Update compliance, send an email using the <a href="mailto:ucsupport@microsoft.com?subject=WDAV assessment issue&body=I%20am%20encountering%20the%20following%20issue%20when%20using%20Windows%20Defender%20AV%20in%20Update%20Compliance%3a%20%0d%0aI%20have%20provided%20at%20least%202%20support%20.cab%20files%20at%20the%20following%20location%3a%20%3Caccessible%20share%2c%20including%20access%20details%20such%20as%20password%3E%0d%0aMy%20OMS%20workspace%20ID%20is%3a%20%0d%0aPlease%20contact%20me%20at%3a">Update Compliance support email template</a>, and fill out the template with the following information:</span></span>
 >```
 > I am encountering the following issue when using Microsoft Defender Antivirus in Update Compliance:
 > I have provided at least 2 support .cab files at the following location:  
@@ -76,48 +76,48 @@ ms.locfileid: "52274788"
 >
 >    Please contact me at:
 
-## <a name="redirect-diagnostic-data-to-a-unc-share"></a><span data-ttu-id="ad84a-131">Перенаправление диагностических данных на долю UNC</span><span class="sxs-lookup"><span data-stu-id="ad84a-131">Redirect diagnostic data to a UNC share</span></span>
-<span data-ttu-id="ad84a-132">Для сбора диагностических данных в центральном репозитории можно указать параметр SupportLogLocation.</span><span class="sxs-lookup"><span data-stu-id="ad84a-132">To collect diagnostic data on a central repository, you can specify the SupportLogLocation parameter.</span></span>
+## <a name="redirect-diagnostic-data-to-a-unc-share"></a><span data-ttu-id="4c3be-131">Перенаправление диагностических данных на долю UNC</span><span class="sxs-lookup"><span data-stu-id="4c3be-131">Redirect diagnostic data to a UNC share</span></span>
+<span data-ttu-id="4c3be-132">Для сбора диагностических данных в центральном репозитории можно указать параметр SupportLogLocation.</span><span class="sxs-lookup"><span data-stu-id="4c3be-132">To collect diagnostic data on a central repository, you can specify the SupportLogLocation parameter.</span></span>
 
 ```Dos
 mpcmdrun.exe -GetFiles -SupportLogLocation <path>
 ```
 
-<span data-ttu-id="ad84a-133">Копирует диагностические данные в указанный путь.</span><span class="sxs-lookup"><span data-stu-id="ad84a-133">Copies the diagnostic data to the specified path.</span></span> <span data-ttu-id="ad84a-134">Если путь не указан, диагностические данные будут скопированы в расположение, указанное в конфигурации расположения журнала поддержки.</span><span class="sxs-lookup"><span data-stu-id="ad84a-134">If the path is not specified, the diagnostic data will be copied to the location specified in the Support Log Location Configuration.</span></span>
+<span data-ttu-id="4c3be-133">Копирует диагностические данные в указанный путь.</span><span class="sxs-lookup"><span data-stu-id="4c3be-133">Copies the diagnostic data to the specified path.</span></span> <span data-ttu-id="4c3be-134">Если путь не указан, диагностические данные будут скопированы в расположение, указанное в конфигурации расположения журнала поддержки.</span><span class="sxs-lookup"><span data-stu-id="4c3be-134">If the path is not specified, the diagnostic data will be copied to the location specified in the Support Log Location Configuration.</span></span>
 
-<span data-ttu-id="ad84a-135">Когда используется параметр SupportLogLocation, в пути назначения будет создана структура папок, как по следующим параметрам:</span><span class="sxs-lookup"><span data-stu-id="ad84a-135">When the SupportLogLocation parameter is used, a folder structure like as follows will be created in the destination path:</span></span>
+<span data-ttu-id="4c3be-135">Когда используется параметр SupportLogLocation, в пути назначения будет создана структура папок, как по следующим параметрам:</span><span class="sxs-lookup"><span data-stu-id="4c3be-135">When the SupportLogLocation parameter is used, a folder structure like as follows will be created in the destination path:</span></span>
 
 ```Dos
 <path>\<MMDD>\MpSupport-<hostname>-<HHMM>.cab
 ```
 
-| <span data-ttu-id="ad84a-136">поле</span><span class="sxs-lookup"><span data-stu-id="ad84a-136">field</span></span>  | <span data-ttu-id="ad84a-137">Описание</span><span class="sxs-lookup"><span data-stu-id="ad84a-137">Description</span></span>   |
+| <span data-ttu-id="4c3be-136">поле</span><span class="sxs-lookup"><span data-stu-id="4c3be-136">field</span></span>  | <span data-ttu-id="4c3be-137">Описание</span><span class="sxs-lookup"><span data-stu-id="4c3be-137">Description</span></span>   |
 |:----|:----|
-| <span data-ttu-id="ad84a-138">path</span><span class="sxs-lookup"><span data-stu-id="ad84a-138">path</span></span> | <span data-ttu-id="ad84a-139">Путь, указанный в командной строке или извлеченный из конфигурации</span><span class="sxs-lookup"><span data-stu-id="ad84a-139">The path as specified on the command line or retrieved from configuration</span></span>
-| <span data-ttu-id="ad84a-140">MMDD</span><span class="sxs-lookup"><span data-stu-id="ad84a-140">MMDD</span></span> | <span data-ttu-id="ad84a-141">Месяц и день сбора диагностических данных (например, 0530)</span><span class="sxs-lookup"><span data-stu-id="ad84a-141">Month and day when the diagnostic data was collected (for example, 0530)</span></span>
-| <span data-ttu-id="ad84a-142">имя хозяйского имени</span><span class="sxs-lookup"><span data-stu-id="ad84a-142">hostname</span></span> | <span data-ttu-id="ad84a-143">Имя хозяина устройства, на котором собирались диагностические данные</span><span class="sxs-lookup"><span data-stu-id="ad84a-143">The hostname of the device on which the diagnostic data was collected</span></span>
-| <span data-ttu-id="ad84a-144">HHMM</span><span class="sxs-lookup"><span data-stu-id="ad84a-144">HHMM</span></span> | <span data-ttu-id="ad84a-145">Часы и минуты при сборе диагностических данных (например, 1422)</span><span class="sxs-lookup"><span data-stu-id="ad84a-145">Hours and minutes when the diagnostic data was collected (for example, 1422)</span></span>
+| <span data-ttu-id="4c3be-138">path</span><span class="sxs-lookup"><span data-stu-id="4c3be-138">path</span></span> | <span data-ttu-id="4c3be-139">Путь, указанный в командной строке или извлеченный из конфигурации</span><span class="sxs-lookup"><span data-stu-id="4c3be-139">The path as specified on the command line or retrieved from configuration</span></span>
+| <span data-ttu-id="4c3be-140">MMDD</span><span class="sxs-lookup"><span data-stu-id="4c3be-140">MMDD</span></span> | <span data-ttu-id="4c3be-141">Месяц и день сбора диагностических данных (например, 0530)</span><span class="sxs-lookup"><span data-stu-id="4c3be-141">Month and day when the diagnostic data was collected (for example, 0530)</span></span>
+| <span data-ttu-id="4c3be-142">имя хозяйского имени</span><span class="sxs-lookup"><span data-stu-id="4c3be-142">hostname</span></span> | <span data-ttu-id="4c3be-143">Имя хозяина устройства, на котором собирались диагностические данные</span><span class="sxs-lookup"><span data-stu-id="4c3be-143">The hostname of the device on which the diagnostic data was collected</span></span>
+| <span data-ttu-id="4c3be-144">HHMM</span><span class="sxs-lookup"><span data-stu-id="4c3be-144">HHMM</span></span> | <span data-ttu-id="4c3be-145">Часы и минуты при сборе диагностических данных (например, 1422)</span><span class="sxs-lookup"><span data-stu-id="4c3be-145">Hours and minutes when the diagnostic data was collected (for example, 1422)</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="ad84a-146">При использовании файла убедитесь, что учетная запись, используемая для сбора диагностического пакета, имеет доступ к файлу записи.</span><span class="sxs-lookup"><span data-stu-id="ad84a-146">When using a file share please make sure that account used to collect the diagnostic package has write access to the share.</span></span>  
+> <span data-ttu-id="4c3be-146">При использовании файла убедитесь, что учетная запись, используемая для сбора диагностического пакета, имеет доступ к файлу записи.</span><span class="sxs-lookup"><span data-stu-id="4c3be-146">When using a file share please make sure that account used to collect the diagnostic package has write access to the share.</span></span>  
 
-## <a name="specify-location-where-diagnostic-data-is-created"></a><span data-ttu-id="ad84a-147">Укажите расположение, где создаются диагностические данные</span><span class="sxs-lookup"><span data-stu-id="ad84a-147">Specify location where diagnostic data is created</span></span>
+## <a name="specify-location-where-diagnostic-data-is-created"></a><span data-ttu-id="4c3be-147">Укажите расположение, где создаются диагностические данные</span><span class="sxs-lookup"><span data-stu-id="4c3be-147">Specify location where diagnostic data is created</span></span>
 
-<span data-ttu-id="ad84a-148">Вы также можете указать, .cab диагностический файл будет создан с помощью объекта групповой политики (GPO).</span><span class="sxs-lookup"><span data-stu-id="ad84a-148">You can also specify where the diagnostic .cab file will be created using a Group Policy Object (GPO).</span></span> 
+<span data-ttu-id="4c3be-148">Вы также можете указать, .cab диагностический файл будет создан с помощью объекта групповой политики (GPO).</span><span class="sxs-lookup"><span data-stu-id="4c3be-148">You can also specify where the diagnostic .cab file will be created using a Group Policy Object (GPO).</span></span> 
 
-1. <span data-ttu-id="ad84a-149">Откройте редактор локальной групповой политики и найдите GPO SupportLogLocation по: `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\SupportLogLocation`</span><span class="sxs-lookup"><span data-stu-id="ad84a-149">Open the Local Group Policy Editor and find the SupportLogLocation GPO at: `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\SupportLogLocation`</span></span>
+1. <span data-ttu-id="4c3be-149">Откройте редактор локальной групповой политики и найдите GPO SupportLogLocation по: `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\SupportLogLocation`</span><span class="sxs-lookup"><span data-stu-id="4c3be-149">Open the Local Group Policy Editor and find the SupportLogLocation GPO at: `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\SupportLogLocation`</span></span>
    
-1. <span data-ttu-id="ad84a-150">Выберите **Определение пути каталога для копирования файлов журнала поддержки.**</span><span class="sxs-lookup"><span data-stu-id="ad84a-150">Select **Define the directory path to copy support log files**.</span></span>
+1. <span data-ttu-id="4c3be-150">Выберите **Определение пути каталога для копирования файлов журнала поддержки.**</span><span class="sxs-lookup"><span data-stu-id="4c3be-150">Select **Define the directory path to copy support log files**.</span></span>
 
     ![Снимок экрана редактора локальной групповой политики](images/GPO1-SupportLogLocationDefender.png)  
         
      ![Снимок экрана определения пути для параметра файлов журналов](images/GPO2-SupportLogLocationGPPage.png)  
-3. <span data-ttu-id="ad84a-153">В редакторе политики выберите **Включено**.</span><span class="sxs-lookup"><span data-stu-id="ad84a-153">Inside the policy editor, select **Enabled**.</span></span>
+3. <span data-ttu-id="4c3be-153">В редакторе политики выберите **Включено**.</span><span class="sxs-lookup"><span data-stu-id="4c3be-153">Inside the policy editor, select **Enabled**.</span></span>
        
-4. <span data-ttu-id="ad84a-154">Укажите путь каталога, в котором необходимо скопировать файлы журнала поддержки в поле **Параметры.**</span><span class="sxs-lookup"><span data-stu-id="ad84a-154">Specify the directory path where you want to copy the support log files in the **Options** field.</span></span>
-     <span data-ttu-id="ad84a-155">![Снимок экрана настраиваемого параметра путь к каталогам с включенной поддержкой](images/GPO3-SupportLogLocationGPPageEnabledExample.png)</span><span class="sxs-lookup"><span data-stu-id="ad84a-155">![Screenshot of Enabled directory path custom setting](images/GPO3-SupportLogLocationGPPageEnabledExample.png)</span></span> 
-5. <span data-ttu-id="ad84a-156">Выберите **ОК** или **Применить**.</span><span class="sxs-lookup"><span data-stu-id="ad84a-156">Select **OK** or **Apply**.</span></span>
+4. <span data-ttu-id="4c3be-154">Укажите путь каталога, в котором необходимо скопировать файлы журнала поддержки в поле **Параметры.**</span><span class="sxs-lookup"><span data-stu-id="4c3be-154">Specify the directory path where you want to copy the support log files in the **Options** field.</span></span>
+     <span data-ttu-id="4c3be-155">![Снимок экрана настраиваемого параметра путь к каталогам с включенной поддержкой](images/GPO3-SupportLogLocationGPPageEnabledExample.png)</span><span class="sxs-lookup"><span data-stu-id="4c3be-155">![Screenshot of Enabled directory path custom setting](images/GPO3-SupportLogLocationGPPageEnabledExample.png)</span></span> 
+5. <span data-ttu-id="4c3be-156">Выберите **ОК** или **Применить**.</span><span class="sxs-lookup"><span data-stu-id="4c3be-156">Select **OK** or **Apply**.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="ad84a-157">См. также</span><span class="sxs-lookup"><span data-stu-id="ad84a-157">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4c3be-157">См. также</span><span class="sxs-lookup"><span data-stu-id="4c3be-157">See also</span></span>
 
-- [<span data-ttu-id="ad84a-158">Устранение антивирусная программа в Microsoft Defender отчетов</span><span class="sxs-lookup"><span data-stu-id="ad84a-158">Troubleshoot Microsoft Defender Antivirus reporting</span></span>](troubleshoot-reporting.md)
+- [<span data-ttu-id="4c3be-158">Устранение антивирусная программа в Microsoft Defender отчетов</span><span class="sxs-lookup"><span data-stu-id="4c3be-158">Troubleshoot Microsoft Defender Antivirus reporting</span></span>](troubleshoot-reporting.md)
