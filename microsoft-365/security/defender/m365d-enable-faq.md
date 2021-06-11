@@ -96,7 +96,7 @@ Microsoft 365 Defender доступен в центре Microsoft 365 безоп
 ## <a name="is-microsoft-365-defender-available-for-us-government-community-cloud-gcc-or-gcc-high"></a>Доступен ли Microsoft 365 Defender для облако сообщества для государственных организаций (GCC) или GCC High?
 В настоящее время она недоступна.
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 - [Microsoft 365 Обзор defender](microsoft-365-defender.md)
 - [Включи Microsoft 365 Defender](m365d-enable.md).

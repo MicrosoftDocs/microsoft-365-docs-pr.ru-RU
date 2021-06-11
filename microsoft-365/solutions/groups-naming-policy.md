@@ -130,7 +130,7 @@ ms.locfileid: "52538175"
 
 ![Снимок экрана параметров политики имен групп в Azure Active Directory](../media/groups-naming-policy-azure.png)
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 [Пошаговая пошаговая работа по планированию управления совместной работой](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
 

@@ -128,7 +128,7 @@ EDR режиме блокировки не влияет на сторонную 
 
 - Windows 10 (все выпуски)
 - Windows Сервер, версия 1803 или более новая 
-- Windows Server 2019 
+- Windows Server 2019 
 
 Если Windows Server 2016 работает антивирусная программа в Microsoft Defender активном режиме, а конечная точка находится на борту в Defender для конечной точки, EDR в режиме блокировки технически поддерживается. Однако EDR в режиме блокировки предназначен для дополнительной защиты, антивирусная программа в Microsoft Defender не является основным антивирусным решением на конечной точке. В этих случаях антивирусная программа в Microsoft Defender в пассивном режиме. В настоящее время антивирусная программа в Microsoft Defender в пассивном режиме не поддерживается Windows Server 2016. Дополнительные новости см. [в антивирусная программа в Microsoft Defender антивирусных](microsoft-defender-antivirus-compatibility.md#microsoft-defender-antivirus-and-non-microsoft-antivirusantimalware-solutions)и антивирусных решениях, не в microsoft.
 

@@ -124,7 +124,7 @@ DLP в Teams может защитить конфиденциальную инф
 
 - [План для Microsoft 365 Multi-Geo](/microsoft-365/enterprise/plan-for-multi-geo)
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 [Пошаговая пошаговая работа по планированию управления совместной работой](collaboration-governance-overview.md#collaboration-governance-planning-step-by-step)
 

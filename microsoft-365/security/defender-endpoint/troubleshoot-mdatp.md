@@ -86,6 +86,6 @@ ms.locfileid: "52538355"
 
 
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 - [Устранение неполадок в Microsoft Defender для проблем с бортовой точкой конечной точки](troubleshoot-onboarding.md)
 - [Просмотр событий и ошибок с помощью viewer событий](event-error-codes.md)

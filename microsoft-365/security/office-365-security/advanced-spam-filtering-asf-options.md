@@ -19,12 +19,12 @@ ms.custom:
 description: Администраторы могут узнать о параметрах advanced Spam Filter (ASF), доступных в политиках по борьбе со спамом в Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 12f193ef61205e8568341c774b957ce4a9dd7988
-ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
+ms.openlocfilehash: 77676277678bd6f8dcfade2b6929a9e1e113bf4b
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52779426"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878236"
 ---
 # <a name="advanced-spam-filter-asf-settings-in-eop"></a>Расширенные параметры фильтра нежелательной почты (ASF) в EOP
 
@@ -47,7 +47,7 @@ ms.locfileid: "52779426"
 > - Наличие фильтруемого сообщения в карантине.
 > - Конкретные поля X-header, добавленные в `X-CustomSpam:` сообщения, описанные в этой статье.
 
-В следующих разделах описываются параметры и параметры ASF, доступные в политиках по борьбе со спамом в центре безопасности Microsoft 365, а также в Exchange Online PowerShell или автономных EOP PowerShell[(New-HostedContentFilterPolicy](/powershell/module/exchange/new-hostedcontentfilterpolicy) и [Set-HostedContentFilterPolicy).](/powershell/module/exchange/set-hostedcontentfilterpolicy) Дополнительные сведения см. в статье [Настройка политик защиты от спама в EOP](configure-your-spam-filter-policies.md).
+В следующих разделах описываются параметры и параметры ASF, доступные в политиках по борьбе со спамом на портале Microsoft 365 Defender, а также в Exchange Online PowerShell или автономных EOP PowerShell[(New-HostedContentFilterPolicy](/powershell/module/exchange/new-hostedcontentfilterpolicy) и [Set-HostedContentFilterPolicy).](/powershell/module/exchange/set-hostedcontentfilterpolicy) Дополнительные сведения см. в статье [Настройка политик защиты от спама в EOP](configure-your-spam-filter-policies.md).
 
 ## <a name="enable-disable-or-test-asf-settings"></a>Включить, отключить или протестировать параметры ASF
 
@@ -58,7 +58,7 @@ ms.locfileid: "52779426"
 - **Тест:** ASF добавляет соответствующее поле X-header в сообщение. Что происходит с сообщением, определяется **значением** *TestModeAction*:
   - **Нет.** Доставка сообщений не влияет на обнаружение ASF. Сообщение по-прежнему подчиняется другим типам фильтрации и правилам в EOP.
   - **Добавление текста X-header по умолчанию *(AddXHeader)***: К сообщению добавляется значение X-header. `X-CustomSpam: This message was filtered by the custom spam filter option` Это значение можно использовать в правилах почтовых ящиков или правилах потока почты (также известные как правила транспорта), чтобы повлиять на доставку сообщения.
-  - **Отправка сообщения *Bcc (BccMessage)***: Указанные адреса электронной почты (значение параметра *TestModeBccToRecipients* в PowerShell) добавляются в поле Bcc сообщения, и сообщение доставляется дополнительным получателям Bcc. В центре безопасности несколько адресов электронной почты разделяют по полуколонам (;). В PowerShell можно отделить несколько адресов электронной почты от запятых.
+  - **Отправка сообщения *Bcc (BccMessage)***: Указанные адреса электронной почты (значение параметра *TestModeBccToRecipients* в PowerShell) добавляются в поле Bcc сообщения, и сообщение доставляется дополнительным получателям Bcc. На портале Microsoft 365 Defender можно разделить несколько адресов электронной почты по полуколонам (;). В PowerShell можно отделить несколько адресов электронной почты от запятых.
 
   **Примечания**:
 

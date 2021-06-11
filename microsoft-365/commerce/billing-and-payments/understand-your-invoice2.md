@@ -21,12 +21,12 @@ ms.custom:
 search.appverid: MET150
 description: Интерпретирует сведения об оплате, выставлении счетов и платежей в Microsoft 365 счета или счета-фактуры, а также о том, как изменить номер заказа на покупку.
 ms.date: 05/04/2021
-ms.openlocfilehash: 63d532ddfb86eb80a1cdeb6001fff683c5999146
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: ba20e390e279d45d56671d49e32250d2db04c220
+ms.sourcegitcommit: 03aa8ed22d9ef685a851e28c7d0cfb725732fe4b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635838"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52888377"
 ---
 # <a name="understand-your-bill-or-invoice-for-microsoft-365-for-business"></a>Общие сведения о счетах за Microsoft 365 для бизнеса
 
@@ -129,6 +129,7 @@ ms.locfileid: "52635838"
 ## <a name="related-content"></a>См. также:
 
 [Узнайте, как найти и просмотреть счет или счет](view-your-bill-or-invoice.md) (статья)\
+[Сведения о выставлении Microsoft 365 для бизнеса в Мексике](/microsoft-365/commerce/billing-and-payments/mexico-billing-info) (статья) \
 [Изменение адресов выставления счета](change-your-billing-addresses.md) (статья)\
 [Изменение адреса организации, электронной](../../admin/manage/change-address-contact-and-more.md) почты технического контакта и других сведений (статья)\
 [Оплата Microsoft 365 подписки](pay-for-your-subscription.md) на бизнес (статья)\

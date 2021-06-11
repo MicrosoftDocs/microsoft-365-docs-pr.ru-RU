@@ -15,12 +15,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: da3722294957593fc9cb89abfaec13e45106eefc
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: a3b017a9a05964c15411668787b035f1052c68cf
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187389"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878284"
 ---
 # <a name="machineaction-resource-type"></a>Тип ресурса MachineAction
 
@@ -53,6 +53,9 @@ ms.locfileid: "51187389"
 | [Запуск проверки на вирусы](run-av-scan.md)                              | [Действие компьютера](machineaction.md) | Запустите av-сканирование Защитник Windows (если применимо).    |
 | [Отключение компьютера](offboard-machine-api.md)                       | [Действие компьютера](machineaction.md) | Offboard [machine](machine.md) from Microsoft Defender for Endpoint. |
 | [Остановка и помещение на карантин файла](stop-and-quarantine-file.md)           | [Действие компьютера](machineaction.md) | Остановите выполнение файла на компьютере и удалите его.        |
+| [Запуск ответа в прямом эфире](run-live-response.md)                     | [Действие компьютера](machineaction.md)  | Выполняет последовательность команд живого ответа на устройстве                       |
+| [Получить результат ответа в прямом эфире](get-live-response-result.md) | Объект URL-адреса      | Извлекает определенную ссылку на результат загрузки командной команды в прямом эфире по индексу. |
+|[Отмена действия машины](cancel-machine-action.md)                                | [Действие компьютера](machineaction.md)  | Отмена активного действия машины.                                            |
 
 <br>
 
@@ -71,6 +74,7 @@ ms.locfileid: "51187389"
 | creationDateTimeUtc | DateTimeOffset | Дата и время создания действия.                                                                                                                                                                 |
 | lastUpdateTimeUtc   | DateTimeOffset | Последняя дата и время обновления состояния действия.                                                                                                                                                     |
 | relatedFileInfo     | Класс          | Содержит два свойства. ```fileIdentifier```строка, Enum ```fileIdentifierType``` с возможными значениями: "Sha1", "Sha256" и "Md5".                                                                         |
+
 
 
 ## <a name="json-representation"></a>Представление Json

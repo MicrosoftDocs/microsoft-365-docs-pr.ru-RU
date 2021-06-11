@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 587d6107b0c09b2178311d8da6606968e7fda083
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: 0c0c2e280f63076687a0854e25c47577b050a8f7
+ms.sourcegitcommit: 03aa8ed22d9ef685a851e28c7d0cfb725732fe4b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730934"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52888437"
 ---
 # <a name="microsoft-365-defender-incidents-api-and-the-incidents-resource-type"></a>Microsoft 365 API инцидентов Defender и тип ресурса инцидентов
 
@@ -56,6 +56,7 @@ API инцидентов требует различных разрешений 
 -|-|-
 [Получение списка инцидентов](api-list-incidents.md) | [Список инцидентов](api-incident.md) | Получите список инцидентов.
 [Обновление данных об инциденте](api-update-incidents.md) | [Инцидент](api-incident.md) | Обновление определенного инцидента.
+[Получить инцидент](api-get-incident.md) | [Инцидент](api-incident.md) | Получите один инцидент.
 
 ## <a name="request-body-response-and-examples"></a>Запрос тела, ответа и примеров
 
@@ -67,10 +68,10 @@ API инцидентов требует различных разрешений 
 -|-|-
 incidentId | long | Уникальный ID инцидента.
 redirectIncidentId | nullable long | ID инцидента, в который был объединено текущее происшествие.
-incidentName | Строка | Имя инцидента.
+incidentName | string | Имя инцидента.
 createdTime | DateTimeOffset | Дата и время (в UTC) был создан инцидент.
 lastUpdateTime | DateTimeOffset | Дата и время (в UTC) инцидент был последним обновлением.
-assignedTo | Строка | Владелец инцидента.
+assignedTo | string | Владелец инцидента.
 severity | Перечисление | Серьезность инцидента. Возможные значения: ```UnSpecified``` ```Informational``` , , , , ```Low``` и ```Medium``` ```High``` .
 status | Перечисление | Указывает текущее состояние инцидента. Возможные значения: ```Active``` , ```Resolved``` и ```Redirected``` .
 classification | Перечисление | Спецификация инцидента. Возможные значения: ```Unknown```, ```FalsePositive```, ```TruePositive```.

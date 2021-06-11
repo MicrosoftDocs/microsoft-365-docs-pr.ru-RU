@@ -71,6 +71,6 @@ ms.locfileid: "52538055"
 
 **Хотите узнать больше? См. [в веб-сайте Microsoft Defender для конечной точки](microsoft-defender-endpoint.md).**
 
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Следующий этап
 
 - Приступить к [подготовке к миграции](mcafee-to-microsoft-defender-prepare.md).

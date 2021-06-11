@@ -63,7 +63,7 @@ ms.locfileid: "52537827"
 
 Если некоторые функции общего доступа Microsoft 365 с политиками управления, см. в разделе Limit [sharing in Microsoft 365,](microsoft-365-limit-sharing.md) чтобы узнать о вариантах ограничения общего доступа.
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 [Intro to file collaboration in Microsoft 365](/sharepoint/intro-to-file-collaboration)
 

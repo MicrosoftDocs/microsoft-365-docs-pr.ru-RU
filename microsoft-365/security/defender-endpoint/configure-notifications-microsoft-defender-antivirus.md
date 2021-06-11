@@ -23,7 +23,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52572349"
 ---
-# <a name="configure-the-notifications-that-appear-on-endpoints"></a>Настройка уведомлений, которые отображаются в конечных точках
+# <a name="configure-the-notifications-that-appear-on-endpoints"></a>Настройка уведомлений, отображающихся в конечных точках
 
 **Область применения:**
 
@@ -104,7 +104,7 @@ ms.locfileid: "52572349"
 
 5. Дважды нажмите **кнопку Подавляет уведомления о** перезагрузке и установите параметр **Включено**. Нажмите кнопку **ОК**. Это позволит избежать появления дополнительных уведомлений.
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 - [Антивирусная программа в Microsoft Defender (Windows 10)](microsoft-defender-antivirus-in-windows-10.md)
 - [Настройка взаимодействия конечных пользователей с антивирусная программа в Microsoft Defender](configure-end-user-interaction-microsoft-defender-antivirus.md)
