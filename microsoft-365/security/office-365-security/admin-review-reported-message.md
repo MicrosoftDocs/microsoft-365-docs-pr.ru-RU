@@ -13,12 +13,12 @@ ms.collection:
 description: Узнайте, как просмотреть сообщения, которые сообщаются, и дать отзывы пользователям.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 217f5ebb1692d68b5dc70988888bf78d4bd36a0c
-ms.sourcegitcommit: d0c160e89e17f451199bc4a85699effd2d935213
+ms.openlocfilehash: 9e6969b6dee38135ee2d1d41bbcdb2561943d1fe
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52893732"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878716"
 ---
 # <a name="admin-review-for-reported-messages"></a>Административная проверка сообщений, на которые получены жалобы
 
@@ -39,11 +39,13 @@ ms.locfileid: "52893732"
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
-- Вы открываете портал Microsoft 365 Defender по <https://security.microsoft.com/> ссылке . Чтобы перейти непосредственно на **страницу Отправки,** используйте <https://security.microsoft.com/reportsubmission> .
+
+- Вы открываете центр Microsoft 365 безопасности по <https://security.microsoft.com/> . Чтобы перейти непосредственно на **страницу Отправки,** используйте <https://security.microsoft.com/reportsubmission> .
 
 - Чтобы изменить конфигурацию для пользовательских представлений, необходимо быть членом одной из следующих групп ролей:
-  - Управление организацией или администратор безопасности [на портале Microsoft 365 Defender.](permissions-microsoft-365-security-center.md)
+  - Управление организацией или администратор безопасности [в центре Microsoft 365 безопасности.](permissions-microsoft-365-security-center.md)
   - Управление организацией [в Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups).
+
 
 - Вам также потребуется доступ к Exchange Online PowerShell. Если учетная запись, которую вы пытаетесь использовать, не имеет доступа к Exchange Online PowerShell, вы получите ошибку с указанием адреса электронной почты в *домене.* Дополнительные сведения о включив или отключив доступ к Exchange Online PowerShell, см. в следующих темах:
   - [Включить или отключить доступ к Exchange Online PowerShell](/powershell/exchange/disable-access-to-exchange-online-powershell)
