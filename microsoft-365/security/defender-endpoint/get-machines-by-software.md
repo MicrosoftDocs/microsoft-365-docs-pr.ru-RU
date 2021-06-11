@@ -44,7 +44,7 @@ ms.locfileid: "52845382"
 
 Тип разрешения |   Разрешение  |   Имя отображения разрешений
 :---|:---|:---
-Для приложений | Software.Read.All | 'Read Threat and Vulnerability Management Software information'
+Приложение | Software.Read.All | 'Read Threat and Vulnerability Management Software information'
 Делегированные (рабочая или учебная учетная запись) | Software.Read | 'Read Threat and Vulnerability Management Software information'
 
 ## <a name="http-request"></a>HTTP-запрос
@@ -56,7 +56,7 @@ GET /api/Software/{Id}/machineReferences
 
 | Имя        | Тип | Описание
 |:--------------|:-------|:--------------|
-| Authorization | String | Bearer {token}. **Обязательно**.
+| Авторизация | String | Bearer {token}. **Обязательно**.
 
 ## <a name="request-body"></a>Тело запроса
 переменная Empty

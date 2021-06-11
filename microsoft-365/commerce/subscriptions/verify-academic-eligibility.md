@@ -33,7 +33,7 @@ ms.locfileid: "52333090"
 
 В этой статье описывается проверка академических прав на учебу в школе, проверка состояния и покупка подписки по академическим ценам после утверждения учебного заведения.
 
-## <a name="before-you-begin"></a>Подготовка
+## <a name="before-you-begin"></a>Прежде чем начать
 
 У вас уже должна быть Microsoft 365 для образования пробная подписка. Если у вас нет пробной подписки, посетите эту [веб-страницу](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans?activetab=tab%3aprimaryr1) и выберите **Начало работы бесплатно**.
 
@@ -98,7 +98,7 @@ ms.locfileid: "52333090"
 
 Чтобы узнать, как развернуть учебные Microsoft 365, посетите Microsoft 365 для образования [документацию и ресурсы.](/microsoft-365/education/deploy/) Далее можно [добавлять пользователей и назначать лицензии](../../admin/add-users/add-users.md)одновременно. Если это необходимо, вы также можете [приобрести больше лицензий для подписки.](../licenses/buy-licenses.md)
 
-## <a name="related-content"></a>Связанные материалы
+## <a name="related-content"></a>См. также:
 
 [Microsoft 365 для образования документации для ИТ-администраторов](/education/itadmins) (ссылки на статьи)\
 [Microsoft Teams для образования](https://microsoft.com/education/products/teams/default.aspx) (страница продукта)\

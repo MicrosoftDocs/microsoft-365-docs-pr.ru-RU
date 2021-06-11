@@ -70,6 +70,6 @@ ms.locfileid: "52593505"
 
 **Хотите узнать больше? См. [в "Защитнике для конечной точки".](microsoft-defender-endpoint.md)**
 
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Следующий этап
 
 - Приступить к [подготовке к миграции](switch-to-microsoft-defender-prepare.md).

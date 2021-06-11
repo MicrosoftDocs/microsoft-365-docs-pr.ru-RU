@@ -37,12 +37,12 @@ Microsoft Viva Learning (Preview) позволяет группам и отде�
 | Если вы хотите узнать больше: | Источник |
 |:-----|:-----|
 |Дополнительные знания о Viva Learning (Preview)|[Обзор microsoft Viva Learning (Preview)](overview-viva-learning.md)|
-|Поиск ресурсов в центре ресурсов сообщества Майкрософт|[Техническое сообщество Microsoft Viva Learning (Preview)](https://resources.techcommunity.microsoft.com/viva-learning/)|
+|Поиск ресурсов в Центре Community Microsoft Tech|[Microsoft Viva Learning (Preview) Tech Community](https://resources.techcommunity.microsoft.com/viva-learning/)|
 |Найдите руководство по обучению Viva (Preview) для конечных пользователей|[Справка microsoft Viva Learning (Preview)](https://support.microsoft.com/office/learning-preview-app-01bfed12-c327-41e0-a68f-7fa527dcc98a)|
 
 ## <a name="set-up-and-administration"></a>Настройка и администрирование
 
-Ресурсы в этом разделе помогают администратору в организации настроить и настроить Viva Learning (Preview) в среде Microsoft 365.
+Ресурсы в этом разделе помогают администратору в организации настроить и настроить Viva Learning (Preview) в Microsoft 365 среде.
 
 | Если вы хотите узнать больше: | Источник |
 |:-----|:-----|

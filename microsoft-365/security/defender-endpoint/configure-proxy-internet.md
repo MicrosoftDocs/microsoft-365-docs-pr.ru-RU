@@ -24,7 +24,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/21/2021
 ms.locfileid: "52594101"
 ---
-# <a name="configure-device-proxy-and-internet-connectivity-settings"></a>Настройка параметров прокси-сервера устройства и подключения к Интернету
+# <a name="configure-device-proxy-and-internet-connectivity-settings"></a>Настройка параметров прокси-сервера устройства и соединения с Интернетом
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -243,7 +243,7 @@ netsh winhttp reset proxy
 > [!NOTE]
 > При наборе TelemetryProxyServer в реестре или через групповую политику защитник для конечной точки отпадет на прямую, если не может получить доступ к определенному прокси-серверу.
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 - [Подключение устройств Windows 10](configure-endpoints.md)
 - [Устранение неполадок в Microsoft Defender для проблем с бортовой точкой конечной точки](troubleshoot-onboarding.md)
