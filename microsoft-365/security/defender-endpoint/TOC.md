@@ -273,7 +273,10 @@
 #### [Обнаружение и блокировка потенциально нежелательных приложений](detect-block-potentially-unwanted-apps-microsoft-defender-antivirus.md)
 #### [Включение и настройка постоянной защиты антивирусной программы в Microsoft Defender в групповой политике](configure-real-time-protection-microsoft-defender-antivirus.md)
 #### [Настройка исправления для обнаружения антивирусной программы в Microsoft Defender](configure-remediation-microsoft-defender-antivirus.md)
-#### [Настройка запланированного быстрого или полного сканирования антивирусной программы в Microsoft Defender](scheduled-catch-up-scans-microsoft-defender-antivirus.md)
+#### [Настройка сканирования антивирусной программой в Microsoft Defender](schedule-antivirus-scans.md)
+##### [Планирование антивирусного сканирования с помощью групповой политики](schedule-antivirus-scans-group-policy.md)
+##### [Планирование антивирусного сканирования с помощью PowerShell](schedule-antivirus-scans-powershell.md)
+##### [Планирование антивирусного сканирования с помощью инструментария управления Windows (WMI)](schedule-antivirus-scans-wmi.md)
 #### [Использование ограниченного периодического сканирования в антивирусной программе в Microsoft Defender](limited-periodic-scanning-microsoft-defender-antivirus.md)
 #### [Совместимость с другими продуктами безопасности](microsoft-defender-antivirus-compatibility.md)
 
@@ -468,6 +471,8 @@
 ###### [Получение доступа с помощью контекста приложения](exposed-apis-create-app-webapp.md)
 ###### [Получение доступа с помощью контекста пользователя](exposed-apis-create-app-nativeapp.md)
 ###### [Получение доступа к приложению с партнерским доступом](exposed-apis-create-app-partners.md)
+
+
 ##### [Схема API Microsoft Defender для конечной точки]()
 ###### [Поддерживаемые API Microsoft Defender для конечной точки](exposed-apis-list.md)
 ###### [Распространенные коды ошибок REST API](common-errors.md)
@@ -520,6 +525,7 @@
 ####### [Получать оповещения, связанные с протоколами IP](get-ip-related-alerts.md)
 ####### [Получить статистику протоколов IP](get-ip-statistics.md)
 
+
 ###### [Компьютер]()
 ####### [Методы и свойства компьютера](machine.md)
 ####### [Список компьютеров](get-machines.md)
@@ -535,19 +541,23 @@
 ####### [Получить недостающие КБ](get-missing-kbs-machine.md)
 ####### [Установить значение устройства](set-device-value.md)
 
+
 ###### [Действие компьютера]()
 ####### [Методы и свойства действия компьютера](machineaction.md)
 ####### [Список действий компьютера](get-machineactions-collection.md)
 ####### [Получить действие компьютера](get-machineaction-object.md)
 ####### [Сбор пакета исследования](collect-investigation-package.md)
 ####### [Получить универсальный код ресурса (URI) SAS пакета исследования](get-package-sas-uri.md)
+####### [Получение результата реагирования в реальном времени](get-live-response-result.md)
 ####### [Изолировать компьютер](isolate-machine.md)
 ####### [Освобождение компьютера от изоляции](unisolate-machine.md)
 ####### [Ограничить выполнение приложения](restrict-code-execution.md)
 ####### [Удалить ограничение приложения](unrestrict-code-execution.md)
 ####### [Запуск проверки на вирусы](run-av-scan.md)
+####### [Запуск реагирования в реальном времени](run-live-response.md) 
 ####### [Отключение компьютера](offboard-machine-api.md)
 ####### [Остановка и помещение на карантин файла](stop-and-quarantine-file.md)
+####### [Отмена действия компьютера](cancel-machine-action.md)
 
 ###### [Рекомендация]()
 ####### [Методы и свойства рекомендаций](recommendation.md)
