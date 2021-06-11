@@ -20,12 +20,12 @@ ms.custom:
 description: Пользователи могут узнать о том, как просматривать сообщения, помещенные на карантин в Exchange Online Protection (EOP), и управлять ими.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 4913d0c6fc34d912474bcceac8b1785c4a7e07b3
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.openlocfilehash: 60b319b81362b9d88afcd734021db227969b04d0
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52821299"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52877876"
 ---
 # <a name="find-and-release-quarantined-messages-as-a-user-in-eop"></a>Поиск и разблокирование сообщений, находящихся на карантине, для пользователя в EOP
 
@@ -46,16 +46,16 @@ ms.locfileid: "52821299"
 
 |Причина помещения на карантин|Просмотреть|Выпуск|Удалить|
 |---|:---:|:---:|:---:|
-|Массовая рассылка|![Галочка](../../media/checkmark.png)|![Галочка](../../media/checkmark.png)|![Галочка](../../media/checkmark.png)|
-|Спам|![Галочка](../../media/checkmark.png)|![Галочка](../../media/checkmark.png)|![Галочка](../../media/checkmark.png)|
-|Фишинг (не с высокой вероятностью)|![Галочка](../../media/checkmark.png)||![Галочка](../../media/checkmark.png)|
+|Массовая рассылка|![Галочка](../../media/checkmark.png)|![Флажок](../../media/checkmark.png)|![Галочка](../../media/checkmark.png)|
+|Спам|![Галочка](../../media/checkmark.png)|![Флажок](../../media/checkmark.png)|![Галочка](../../media/checkmark.png)|
+|Фишинг (не с высокой вероятностью)|![Галочка](../../media/checkmark.png)||![Флажок](../../media/checkmark.png)|
 |
 
-Можно просматривать сообщения, помещенные на карантин, в Центре безопасности Microsoft 365 (если администратор настроил этот вариант) в разделе [уведомления о спаме для пользователей](use-spam-notifications-to-release-and-report-quarantined-messages.md).
+Вы можете просматривать помещенные на карантин сообщения, а также управлять ими на портале Microsoft 365 Defender или (если администратор настроил этот вариант) в разделе [уведомлений о спаме для пользователей](use-spam-notifications-to-release-and-report-quarantined-messages.md).
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
-- Чтобы открыть Центр безопасности, перейдите на <https://security.microsoft.com>. Чтобы открыть страницу Карантина напрямую, перейдите на <https://security.microsoft.com/quarantine>.
+- Чтобы открыть портал Microsoft 365 Defender, перейдите на сайт <https://security.microsoft.com>. Чтобы открыть страницу Карантина напрямую, перейдите на <https://security.microsoft.com/quarantine>.
 
 - Администраторы могут настроить продолжительность хранения сообщений в карантине до их окончательного удаления в политиках защиты от спама. Сообщения, срок действия которых истек из карантина, невозможно восстановить. Дополнительные сведения см. в статье [Настройка политик защиты от спама в EOP](configure-your-spam-filter-policies.md).
 
@@ -67,7 +67,7 @@ ms.locfileid: "52821299"
 
 ## <a name="view-your-quarantined-messages"></a>Просмотр сообщений на карантине
 
-1. В Центре безопасности перейдите в раздел **Электронная почта и совместная работа** \> **Просмотреть** \> **Карантин**.
+1. На портале Microsoft 365 Defender перейдите в раздел **Сообщения электронной почты и совместная работа** \> **Просмотр** \> **Карантин**.
 
 2. Вы можете отсортировать результаты, нажав на доступный заголовок столбца. Нажмите кнопку **изменить столбцы**, чтобы отобразить не более семи столбцов. Значения по умолчанию помечены звездочкой (<sup>\*</sup>):
 
