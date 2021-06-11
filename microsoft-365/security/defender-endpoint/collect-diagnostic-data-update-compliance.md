@@ -16,23 +16,21 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 2aaf3d1c650713a7f6cfb7b9abb9f2232013d6db
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 9fbe2b624bec6bbe17bcf6bc8d3f842ba1e43ad7
+ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274800"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52903736"
 ---
-# <a name="collect-update-compliance-diagnostic-data-for-microsoft-defender-av-assessment"></a>Сбор диагностических данных об обновлении соответствия требованиям для оценки av Microsoft Defender
-
-[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
+# <a name="collect-update-compliance-diagnostic-data-for-microsoft-defender-antivirus-assessment"></a>Сбор диагностических данных о соответствии требованиям для антивирусная программа в Microsoft Defender оценки
 
 
 **Область применения:**
 
 - [Microsoft Defender для конечной точки](/microsoft-365/security/defender-endpoint/)
 
-В этой статье описывается, как собирать диагностические данные, которые могут использоваться группами поддержки Майкрософт и инженерными группами для устранения проблем, с которыми вы можете столкнуться при использовании раздела Оценки автозаполнения защитника Майкрософт в надстройки "Соответствие требованиям обновления".
+В этой статье описывается сбор диагностических данных, которые могут использоваться группами поддержки Майкрософт и инженерными группами для устранения проблем, с которыми вы можете столкнуться при использовании раздела антивирусная программа в Microsoft Defender оценки в надстройки Update Compliance.
 
 Перед попыткой этого процесса убедитесь, что вы читали отчеты антивирусная программа в Microsoft Defender устранения неполадок, [](troubleshoot-reporting.md)выполнили все необходимые условия и предприняли любые другие предложенные действия по устранению неполадок.
 
@@ -42,9 +40,9 @@ ms.locfileid: "52274800"
         
     а. Откройте меню **Пуск.**
 
-    б. Введите **cmd**. Щелкните правой кнопкой мыши **командный запрос** и нажмите **кнопку Выполнить в качестве администратора.**
+    б. Введите **cmd**. Щелкните правой кнопкой мыши **командную подсказку** и выберите **Выполнить в качестве администратора.**
 
-    в. Ввод учетных данных администратора или утверждение запроса.
+    в. Укажите учетные данные администратора или одобрить запрос.
         
 2. Перейдите к Защитник Windows каталогу. По умолчанию это значение равно `C:\Program Files\Windows Defender`.
 
@@ -58,7 +56,7 @@ ms.locfileid: "52274800"
 
 5. Скопируйте .cab файлы в расположение, к нему можно получить доступ с помощью службы поддержки Майкрософт. Примером может быть защищенная паролем папка OneDrive которую вы можете поделиться с нами.
 
-6. Отправьте сообщение электронной почты <a href="mailto:ucsupport@microsoft.com?subject=WDAV assessment issue&body=I%20am%20encountering%20the%20following%20issue%20when%20using%20Windows%20Defender%20AV%20in%20Update%20Compliance%3a%20%0d%0aI%20have%20provided%20at%20least%202%20support%20.cab%20files%20at%20the%20following%20location%3a%20%3Caccessible%20share%2c%20including%20access%20details%20such%20as%20password%3E%0d%0aMy%20OMS%20workspace%20ID%20is%3a%20%0d%0aPlease%20contact%20me%20at%3a">с</a>помощью шаблона поддержки обновления и заполните шаблон следующими сведениями:
+6. Отправьте сообщение электронной почты <a href="mailto:ucsupport@microsoft.com?subject=MDAV assessment issue&body=I%20am%20encountering%20the%20following%20issue%20when%20using%20Windows%20Defender%20AV%20in%20Update%20Compliance%3a%20%0d%0aI%20have%20provided%20at%20least%202%20support%20.cab%20files%20at%20the%20following%20location%3a%20%3Caccessible%20share%2c%20including%20access%20details%20such%20as%20password%3E%0d%0aMy%20OMS%20workspace%20ID%20is%3a%20%0d%0aPlease%20contact%20me%20at%3a">с</a>помощью шаблона поддержки обновления и заполните шаблон следующими сведениями:
   
     ```
     I am encountering the following issue when using Microsoft Defender Antivirus in Update Compliance:

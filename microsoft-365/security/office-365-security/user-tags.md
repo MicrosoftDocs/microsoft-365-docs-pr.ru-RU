@@ -16,12 +16,12 @@ ms.collection:
 description: Администраторы могут узнать, как определить определенные группы пользователей с тегами пользователей в Microsoft Defender для Office 365 Plan 2. Фильтрация тегов доступна для оповещений, отчетов и расследований в Microsoft Defender для Office 365 для быстрого определения помеченных пользователей.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1fb948d63f7bc42839d6fae8a2138d4ad48d81f6
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 105e927e50f7b1d1217587587b8d7ee3b7d6bd4c
+ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52879172"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52904108"
 ---
 # <a name="user-tags-in-microsoft-defender-for-office-365"></a>Теги пользователей в Microsoft Defender для Office 365
 
@@ -41,7 +41,9 @@ ms.locfileid: "52879172"
 После применения системных тегов или пользовательских тегов для пользователей эти теги можно использовать в качестве фильтров в оповещениях, отчетах и исследованиях:
 
 - [Alerts](alerts.md)
+- [Настраиваемые политики оповещения](../../compliance/alert-policies.md#viewing-alerts)
 - [Обозреватель угроз и обнаружения в режиме реального времени](threat-explorer.md)
+- [Страница сущности электронной почты](mdo-email-entity-page.md#other-innovations)
 - [отчет о состоянии защиты от угроз](view-email-security-reports.md#threat-protection-status-report);
 - [Представления кампании](campaigns.md)
 - Для учетных записей приоритета [](/exchange/monitoring/mail-flow-reports/mfr-email-issues-for-priority-accounts-report) можно использовать проблемы электронной почты для отчета о приоритетных учетных записях в центре администрирования Exchange администратора (EAC).
@@ -52,7 +54,7 @@ ms.locfileid: "52879172"
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
-- Вы открываете портал Microsoft 365 Defender по <https://security.microsoft.com/> ссылке . Чтобы перейти непосредственно на **страницу Теги пользователя,** откройте <https://security.microsoft.com/securitysettings/userTags> .
+- Чтобы открыть портал Microsoft 365 Defender, перейдите на сайт <https://security.microsoft.com/>. Чтобы перейти непосредственно на **страницу Теги пользователя,** откройте <https://security.microsoft.com/securitysettings/userTags> .
 
 - Вам необходимо получить разрешения на портале Microsoft 365 Defender, прежде чем вы сможете сделать процедуры в этой статье:
   - Чтобы создать, изменить и удалить теги пользователей, необходимо быть членом групп ролей **администратора** организации или **администратора** безопасности.

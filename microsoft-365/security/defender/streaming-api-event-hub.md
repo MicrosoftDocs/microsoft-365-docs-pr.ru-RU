@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: c62f175fc8227f64b9f18de78a2a793b2201691c
-ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
+ms.openlocfilehash: 6f5d04d35c8c4fec18e1a689c51ecbc32d416adf
+ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52782373"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52903820"
 ---
 # <a name="configure-microsoft-365-defender-to-stream-advanced-hunting-events-to-your-azure-event-hub"></a>Настройка Microsoft 365 Defender для потоковой передачи событий предварительной охоты в центр событий Azure
 
@@ -42,9 +42,12 @@ ms.locfileid: "52782373"
 3. Создайте пространство имен центра событий, **перейдите в** центр событий > добавить и выбрать уровень цен, единицы пропускной способности и авто-надувка, соответствующие ожидаемой нагрузке. Дополнительные сведения см. в [этой теме Pricing - Event Hub | Microsoft Azure](https://azure.microsoft.com/en-us/pricing/details/event-hubs/).  
 
 ### <a name="add-contributor-permissions"></a>Добавление разрешений для участников 
-После создания пространства имен Центра событий вам потребуется добавить главу службы регистрации приложений в качестве reader, приемник данных Azure Event Hub и пользователя, который будет вход в Microsoft 365 Defender в качестве участника (это также можно сделать на уровне Resource Group или Подписка). 
+После создания пространства имен Центра событий необходимо:
+1. Определите пользователя, который будет войти в Microsoft 365 Defender в качестве участника.
 
-Перейдите в пространство имен узлов событий > управления доступом **(IAM)** > добавить и проверить в соответствии **с назначениями роли**.
+2. Если вы подключались к приложению, добавьте главу службы регистрации приложений в качестве reader, приемник данных Azure Event Hub (это также можно сделать на уровне Группы ресурсов или подписки). 
+
+    Перейдите в пространство имен узлов событий > управления доступом **(IAM)** > добавить и проверить в соответствии **с назначениями роли**.
 
 ## <a name="enable-raw-data-streaming"></a>Включить потоковую передачу необработанных данных
 
@@ -70,7 +73,7 @@ ms.locfileid: "52782373"
 
 ## <a name="the-schema-of-the-events-in-azure-event-hub"></a>Схема событий в центре событий Azure
 
-```
+```JSON
 {
     "records": [
                     {
@@ -103,7 +106,7 @@ ms.locfileid: "52782373"
 
 2. Запустите следующий запрос, чтобы получить сопоставление типов данных для каждого события:
  
-   ```
+   ```kusto
    {EventType}
    | getschema
    | project ColumnName, ColumnType 

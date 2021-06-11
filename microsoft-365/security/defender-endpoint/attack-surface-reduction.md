@@ -16,16 +16,14 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 55b06ca25047fe615bd0011528fbdbe5112a4533
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 58c2230d3a2e3323f7b9a315ca5d2a049f5f44fb
+ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52844986"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52903856"
 ---
 # <a name="use-attack-surface-reduction-rules-to-prevent-malware-infection"></a>Используйте правила уменьшения поверхности атаки, чтобы предотвратить заражение вредоносными программами
-
-[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Область применения:**
 
@@ -97,7 +95,7 @@ ms.locfileid: "52844986"
 
 Кроме того, при запуске определенных правил уменьшения поверхности атаки создаются оповещения.
 
-Уведомления и все генерируемые оповещения можно просмотреть в Центр безопасности в Microsoft Defender () и в центре Microsoft 365 [https://securitycenter.windows.com](https://securitycenter.windows.com) безопасности ( [https://security.microsoft.com](https://security.microsoft.com) ).
+Уведомления и все генерируемые оповещения можно просмотреть на портале Microsoft 365 Defender (ранее назывался [https://security.microsoft.com](https://security.microsoft.com) [Центр безопасности в Microsoft Defender).](microsoft-defender-security-center.md)
 
 ## <a name="advanced-hunting-and-attack-surface-reduction-events"></a>Расширенные события уменьшения поверхности охоты и атаки
 
@@ -116,13 +114,13 @@ ms.locfileid: "52844986"
 - Windows Сервер, [версия 1803 (полугодовой канал)](/windows-server/get-started/whats-new-in-windows-server-1803) или более поздний
 - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 
-Хотя правила уменьшения поверхности атаки не требуют лицензии Windows E5, если у вас есть Windows [E5,](/windows/deployment/deploy-enterprise-licenses)вы получите расширенные возможности управления. Эти возможности, доступные только в Windows E5, включают мониторинг, аналитику и рабочий процесс, доступные в [Defender для](microsoft-defender-endpoint.md)конечной точки, а также возможности отчетности и [конфигурации](/microsoft-365/security/defender/overview-security-center)в центре безопасности Microsoft 365 безопасности . Эти расширенные возможности недоступны с лицензией Windows Professional или Windows E3; Однако, если у вас есть эти лицензии, вы можете использовать журналы viewer и антивирусная программа в Microsoft Defender для просмотра событий правила уменьшения поверхности атаки.
+Хотя правила уменьшения поверхности атаки не требуют лицензии Windows E5, если у вас есть Windows [E5,](/windows/deployment/deploy-enterprise-licenses)вы получите расширенные возможности управления. Эти возможности, доступные только в Windows E5, включают мониторинг, аналитику и рабочий процесс, доступные в [Defender для](microsoft-defender-endpoint.md)конечной точки, а также возможности отчетности и [конфигурации в Microsoft 365 Defender](/microsoft-365/security/defender/overview-security-center). Эти расширенные возможности недоступны с лицензией Windows Professional или Windows E3; Однако, если у вас есть эти лицензии, вы можете использовать журналы viewer и антивирусная программа в Microsoft Defender для просмотра событий правила уменьшения поверхности атаки.
 
-## <a name="review-attack-surface-reduction-events-in-the-microsoft-defender-security-center"></a>Просмотр событий уменьшения поверхности атаки в Центр безопасности в Microsoft Defender
+## <a name="review-attack-surface-reduction-events-in-the-microsoft-365-defender-portal"></a>Просмотр событий уменьшения поверхности атаки на портале Microsoft 365 Defender
 
 Defender for Endpoint предоставляет подробные отчеты о событиях и блоках в рамках сценариев расследования оповещений.
 
-Вы можете запрашивать данные Defender для конечных точек с помощью [расширенных методов охоты.](advanced-hunting-query-language.md) Если вы работаете в режиме [аудита,](audit-windows-defender.md)вы можете использовать расширенный режим охоты, чтобы понять, как правила уменьшения поверхности атаки могут повлиять на среду.
+Вы можете запрашивать данные Defender для [конечных](microsoft-defender-security-center.md) точек в Microsoft 365 Defender с помощью [расширенных методов охоты.](advanced-hunting-query-language.md) Если вы работаете в режиме [аудита,](audit-windows-defender.md)вы можете использовать расширенный режим охоты, чтобы понять, как правила уменьшения поверхности атаки могут повлиять на среду.
 
 Вот пример запроса:
 
@@ -136,10 +134,14 @@ DeviceEvents
 Вы можете просмотреть журнал Windows событий, чтобы просмотреть события, созданные правилами уменьшения поверхности атаки:
 
 1. Скачайте [пакет оценки](https://aka.ms/mp7z2w) и извлеките *файл* cfa-events.xmlв доступное расположение на устройстве.
+
 2. Введите слова *"Просмотр событий"* в меню "Пуск", чтобы открыть Windows просмотра событий.
+
 3. В **статье Действия** выберите импорт **настраиваемого представления...**.
+
 4. Выберите файл *cfa-events.xml,* откуда он был извлечен. Кроме того, [скопируйте XML напрямую.](event-views.md)
-5. Нажмите кнопку **ОК**.
+
+5. Нажмите **ОК**.
 
 Можно создать настраиваемую точку зрения, которая фильтрует события, чтобы показывать только следующие события, все из которых связаны с управляемым доступом к папкам:
 
@@ -503,7 +505,7 @@ GUID: `92E97FA1-2EDF-4476-BDD6-9DD0B4DDDC7B`
 Правило, как правило, забвению на стороне осторожности, чтобы предотвратить вымогателей.
 
 > [!NOTE]
-> Вы должны [включить облачную защиту для](/windows/security/threat-protection/microsoft-defender-antivirus/enable-cloud-protection-microsoft-defender-antivirus) использования этого правила.
+> Вы должны [включить облачную защиту для](enable-cloud-protection-microsoft-defender-antivirus.md) использования этого правила.
 
 Это правило было введено в:
 
@@ -518,9 +520,4 @@ GUID: `92E97FA1-2EDF-4476-BDD6-9DD0B4DDDC7B`
 
 GUID: `c1db55ab-c21a-4637-bb3f-a12568109d35`
 
-## <a name="see-also"></a>См. также
 
-- [Сокращение направлений атак: вопросы и ответы](attack-surface-reduction-faq.md)
-- [Включить правила сокращения направлений атак](enable-attack-surface-reduction.md)
-- [Оценка правил сокращения направлений атак](evaluate-attack-surface-reduction.md)
-- [Совместимость антивирусная программа в Microsoft Defender с другими решениями по антивирусной и антивирусной программам](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-compatibility)

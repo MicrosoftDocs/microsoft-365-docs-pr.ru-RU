@@ -11,18 +11,18 @@ localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 audience: ITPro
-ms.date: 02/03/2021
+ms.date: 06/10/2021
 ms.reviewer: v-maave
 manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: how-to
-ms.openlocfilehash: 7c471dc99a5deafcc60177812f60f1f884b10ee1
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: c60620d2a589c8473764b810d1fcb0e24f674451
+ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52845574"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52904060"
 ---
 # <a name="protect-important-folders-with-controlled-folder-access"></a>Защита важных папок с управляемым доступом к папкам
 
@@ -89,9 +89,9 @@ Windows по умолчанию защищены по умолчанию, а т�
 
 Доступ к управляемой папке требует включения антивирусная программа в Microsoft Defender защиты в [режиме реального времени.](/windows/security/threat-protection/microsoft-defender-antivirus/configure-real-time-protection-microsoft-defender-antivirus)
 
-## <a name="review-controlled-folder-access-events-in-the-microsoft-defender-security-center"></a>Просмотр событий доступа к управляемым папкам в Центр безопасности в Microsoft Defender
+## <a name="review-controlled-folder-access-events-in-the-microsoft-365-defender-portal"></a>Просмотр событий управляемого доступа к папкам на портале Microsoft 365 Defender
 
-Defender for Endpoint предоставляет подробные отчеты о событиях и блоках в рамках сценариев расследования [оповещений.](investigate-alerts.md)
+Defender for Endpoint предоставляет подробные отчеты [](investigate-alerts.md) о событиях и блоках в рамках сценариев расследования предупреждений на портале Microsoft 365 Defender. [(См. microsoft Defender для конечной точки в Microsoft 365 Defender](../defender/microsoft-365-security-center-mde.md).)
 
 Вы можете запрашивать данные Microsoft Defender для конечных точек с помощью [расширенных методов охоты.](/microsoft-365/security/defender-endpoint/advanced-hunting-windows-defender-advanced-threat-protection) Если используется режим аудита, можно [](advanced-hunting-overview.md) использовать расширенный режим охоты, чтобы узнать, как параметры управляемого доступа к папкам влияют на среду, если они включены. [](audit-windows-defender.md)
 
@@ -110,7 +110,7 @@ DeviceEvents
 2. Введите **viewer события** в меню Пуск, чтобы открыть Windows просмотра событий.
 3. На левой панели в статье **Действия** выберите импорт **настраиваемого представления...**.
 4. Перейдите к месту, где *cfa-events.xml* и выберите его. Кроме того, [скопируйте XML напрямую.](event-views.md)
-5. Нажмите кнопку **ОК**.
+5. Нажмите **ОК**.
 
 В следующей таблице показаны события, связанные с доступом к управляемой папке:
 
@@ -135,8 +135,4 @@ DeviceEvents
 > [!NOTE]
 > [Windows по](#windows-system-folders-are-protected-by-default) умолчанию защищены системные папки, и удалить их из списка невозможно.
 
-## <a name="see-also"></a>См. также
 
-- [Оценка контролируемого доступа к папкам](evaluate-controlled-folder-access.md)
-- [Настройка контролируемого доступа к папкам](customize-controlled-folders.md)
-- [Защита дополнительных папок](customize-controlled-folders.md#protect-additional-folders)

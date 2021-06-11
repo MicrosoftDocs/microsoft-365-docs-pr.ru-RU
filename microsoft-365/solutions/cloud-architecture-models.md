@@ -13,12 +13,12 @@ ms.collection:
 - M365solutions
 ms.custom: seo-marvel-jun2020
 f1.keywords: NOCSH
-ms.openlocfilehash: 73e29109a429d8a3fffc69b79939c8dff7ecb087
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 29d52ea4b40cb876c6e8b314ab2f3b07c3123c05
+ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52769273"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52904024"
 ---
 # <a name="microsoft-cloud-for-it-architects-illustrations"></a>Иллюстрации microsoft cloud для ИТ-архитекторов
 
@@ -68,7 +68,7 @@ ms.locfileid: "52769273"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[![Изображение большого пальца для миграций клиента из клиента в клиента Майкрософт](../media/solutions-architecture-center/msft-tenant-to-tenant-migration-thumb.png)](https://download.microsoft.com/download/b/a/1/ba19dfe7-96e2-4983-8783-4dcff9cebe7b/microsoft-365-tenant-to-tenant-migration.pdf) <br/> [PDF](https://download.microsoft.com/download/b/a/1/ba19dfe7-96e2-4983-8783-4dcff9cebe7b/microsoft-365-tenant-to-tenant-migration.pdf) \| [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-tenant-to-tenant-migration.vsdx) <br>Обновленный февраль 2021 г.    |Эта модель содержит: <ul><li>Сопоставление бизнес-сценариев для подходов в отношении архитектуры</li><li>Рекомендации по разработке</li><li>Пример потока миграции одного события</li><li>Пример поэтапного потока миграции</li><li>Пример перемещения или разделения потока клиента</li></ul>|
+|[![Изображение большого пальца для миграций клиента из клиента в клиента Майкрософт](../media/solutions-architecture-center/msft-tenant-to-tenant-migration-thumb.png)](https://download.microsoft.com/download/b/a/1/ba19dfe7-96e2-4983-8783-4dcff9cebe7b/microsoft-365-tenant-to-tenant-migration.pdf) <br/> [PDF](https://download.microsoft.com/download/b/a/1/ba19dfe7-96e2-4983-8783-4dcff9cebe7b/microsoft-365-tenant-to-tenant-migration.pdf) \| Обновленный февраль 2021 г.    |Эта модель содержит: <ul><li>Сопоставление бизнес-сценариев для подходов в отношении архитектуры</li><li>Рекомендации по разработке</li><li>Пример потока миграции одного события</li><li>Пример поэтапного потока миграции</li><li>Пример перемещения или разделения потока клиента</li></ul>|
 
 <a name="attacks"></a>
 ### <a name="common-attacks-and-microsoft-capabilities-that-protect-your-organization"></a>Распространенные атаки и средства Майкрософт для защиты вашей организации

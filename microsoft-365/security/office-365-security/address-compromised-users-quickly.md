@@ -11,20 +11,18 @@ search.appverid:
 - MET150
 - MOE150
 ms.collection: M365-security-compliance
-ms.date: 02/25/2020
+ms.date: 06/10/2021
 description: Узнайте, как ускорить процесс обнаружения и устранения скомпрометизированных учетных записей пользователей с помощью автоматизированных возможностей расследования и ответа в Microsoft Defender для Office 365 Plan 2.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: c500221a10c00cc3b8d9d99c102ce8ec54fa2a48
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: cd84617230e774b92902ef3d11a365c1965ac814
+ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934697"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52904144"
 ---
 # <a name="address-compromised-user-accounts-with-automated-investigation-and-response"></a>Адрес скомпрометировать учетные записи пользователей с помощью автоматического расследования и ответа
-
-[!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
 **Область применения**
 - [Exchange Online Protection](exchange-online-protection-overview.md)
@@ -71,7 +69,7 @@ ms.locfileid: "51934697"
 
 У вас есть несколько вариантов для навигации по списку ограниченных пользователей. Например, в Центре & безопасности можно перейти в **Службу** управления угрозами \> **с** \> **ограниченными пользователями.** В следующей процедуре  описывается навигация с помощью панели оповещений, которая является хорошим способом для наблюдения за различными видами оповещений, которые могли быть срабатывания.
 
-1. Перейдите на <https://protection.office.com> и войдите.
+1. Перейдите на страницу [https://protection.office.com](https://protection.office.com) и войдите.
 
 2. В области навигации выберите панель **оповещений** \> .
 

@@ -10,18 +10,18 @@ ms.sitesec: library
 localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
-ms.date: 05/07/2021
+ms.date: 06/10/2021
 ms.reviewer: ''
 manager: dansimp
 ms.custom: nextgen
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 66b2e882a0f6de21e27dabb3a4bfe2fe113bcb32
-ms.sourcegitcommit: de5fce90de22ba588e75e1a1d2e87e03b9e25ec7
+ms.openlocfilehash: 505270d319a78de20bf6fed01b7ca79c9fc2b400
+ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52296498"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52903808"
 ---
 # <a name="turn-on-definition-retirement"></a>Включив выход на пенсию определения
 
@@ -50,10 +50,3 @@ ms.locfileid: "52296498"
 > [!TIP]
 > Вы используете объекты групповой политики в помещениях? Узнайте, как они переводятся в облаке. [Анализ объектов локальной групповой политики](/mem/intune/configuration/group-policy-analytics)с помощью аналитики групповой политики в Microsoft Endpoint Manager - Preview . 
   
-## <a name="related-articles"></a>Связанные статьи
-
-- [Антивирусная программа в Microsoft Defender (Windows 10)](microsoft-defender-antivirus-in-windows-10.md)
- 
-- [Включение облачной защиты](enable-cloud-protection-microsoft-defender-antivirus.md)
-
-- [Создание и развертывание политик противомалярийных программ: служба облачной защиты](/configmgr/protect/deploy-use/endpoint-antimalware-policies#cloud-protection-service)

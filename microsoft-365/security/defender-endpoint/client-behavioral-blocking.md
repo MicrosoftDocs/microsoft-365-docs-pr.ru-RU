@@ -19,12 +19,12 @@ ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
 ms.technology: mde
-ms.openlocfilehash: 4e416aa9484f251280649035247a59dcc82ce750
-ms.sourcegitcommit: bce733c1152dfbca782e716579074261e3c2ef65
+ms.openlocfilehash: fcf2310929937d1dacfc9c101d3e14414bad262b
+ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52795962"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52903748"
 ---
 # <a name="client-behavioral-blocking"></a>Блокировка с учетом поведения клиента
 
@@ -32,7 +32,7 @@ ms.locfileid: "52795962"
 - [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
->Хотите испытать Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
+> Хотите испытать Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
 ## <a name="overview"></a>Обзор
 
@@ -46,7 +46,7 @@ ms.locfileid: "52795962"
 
 [антивирусная программа в Microsoft Defender](microsoft-defender-antivirus-in-windows-10.md) может обнаруживать подозрительные действия, вредоносный код, атаки без файлов и в памяти и другие действия на устройстве. При обнаружении подозрительного поведения антивирусная программа в Microsoft Defender отслеживает и отправляет эти подозрительные действия и деревья процессов в службу защиты облаков. Машинное обучение различает вредоносные приложения и хорошее поведение в миллисекунд и классифицирует каждый артефакт. Почти в режиме реального времени, как только артефакт будет обнаружен вредоносным, он блокируется на устройстве. 
 
-При обнаружении подозрительного [](alerts-queue.md) поведения создается оповещение, которое отображается в Центр безопасности в Microsoft Defender ( [https://securitycenter.windows.com](https://securitycenter.windows.com) ).
+При обнаружении подозрительного [](alerts-queue.md) поведения создается оповещение, которое отображается в Microsoft 365 [Defender](microsoft-defender-security-center.md) (ранее Центр безопасности в Microsoft Defender [https://securitycenter.windows.com](https://securitycenter.windows.com) ()).
 
 Клиентская поведенческая блокировка эффективна, так как она не только помогает предотвратить начало атаки, но и помогает остановить приступив к выполнению. Кроме того, при блокировке [циклов](feedback-loop-blocking.md) обратной связи (еще одна возможность блокировки и сдерживания поведения) атаки предотвращаются на других устройствах в организации.
 
