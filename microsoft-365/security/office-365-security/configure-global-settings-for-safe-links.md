@@ -18,12 +18,12 @@ ms.collection:
 description: Администраторы могут узнать, как просматривать и настраивать глобальные параметры (список "Блокировка следующих URL-адресов" и защита для Office 365 приложений) для Сейф ссылок в Microsoft Defender для Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 4e77373657d3167ca8f5bafa544923ab3a2320ce
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.openlocfilehash: 5b1bcdaf92412b17b231e3f4849bae8aab72f292
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52821989"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878536"
 ---
 # <a name="configure-global-settings-for-safe-links-in-microsoft-defender-for-office-365"></a>Настройка глобальных параметров для Сейф ссылок в Microsoft Defender для Office 365
 
@@ -45,13 +45,13 @@ ms.locfileid: "52821989"
 - Блок **следующий список URL-адресов.** Этот параметр применяется ко всем пользователям, включенным в активные политики Сейф ссылки. Дополнительные сведения см. в [списке "Блокировка следующих URL-адресов"](safe-links.md#block-the-following-urls-list-for-safe-links) для Сейф ссылки
 - Сейф Защита ссылок для Office 365 приложений. Эти параметры применяются для всех пользователей в организации, которые имеют лицензию на defender для Office 365, независимо от того, включены ли пользователи в активные политики Сейф ссылки или нет. Дополнительные сведения см. [в Сейф ссылки для Office 365 приложений.](safe-links.md#safe-links-settings-for-office-365-apps)
 
-Можно настроить параметры глобальных Сейф ссылок в центре безопасности Microsoft 365 или в PowerShell (Exchange Online PowerShell для подходящих Microsoft 365 организаций с почтовыми ящиками в Exchange Online; автономные EOP PowerShell для организаций без Exchange Online почтовых ящиков, но с Microsoft Defender для Office 365 надстройки).
+Параметры глобальных ссылок Сейф можно настроить на портале Microsoft 365 Defender или в PowerShell (Exchange Online PowerShell для подходящих Microsoft 365 организаций с почтовыми ящиками в Exchange Online; автономные EOP PowerShell для организаций без Exchange Online почтовых ящиков, но с Microsoft Defender для Office 365 надстройки).
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
 - Политика встроенных или Сейф ссылок по умолчанию не существует, поэтому для активной блокировки следующего  списка URL-адресов необходимо создать по крайней мере одну политику Сейф links. Инструкции см. в Сейф ссылки в [Microsoft Defender для Office 365.](set-up-safe-links-policies.md)
 
-- Открытие Центра безопасности производится в <https://security.microsoft.com>. Чтобы перейти непосредственно **на страницу Сейф ссылки,** используйте <https://security.microsoft.com/safelinksv2> .
+- Вы открываете портал Microsoft 365 Defender по <https://security.microsoft.com> ссылке . Чтобы перейти непосредственно **на страницу Сейф ссылки,** используйте <https://security.microsoft.com/safelinksv2> .
 
 - Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell). Чтобы подключиться к автономному EOP PowerShell, см. раздел [Подключение к PowerShell Exchange Online Protection](/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
@@ -72,11 +72,11 @@ ms.locfileid: "52821989"
 
 - [Новые функции постоянно добавляются в Microsoft Defender для](defender-for-office-365.md#new-features-in-microsoft-defender-for-office-365)Office 365 . При добавлении новых функций может потребоваться внести изменения в существующие политики Сейф ссылки.
 
-## <a name="configure-the-block-the-following-urls-list-in-the-security-center"></a>Настройка списка "Блокировка следующих URL-адресов" в центре безопасности
+## <a name="configure-the-block-the-following-urls-list-in-the-microsoft-365-defender-portal"></a>Настройка списка "Блокировка следующих URL-адресов" на портале Microsoft 365 Defender
 
 В **списке Блок следующих** URL-адресов указаны ссылки, которые всегда должны быть заблокированы с помощью Сейф ссылок в поддерживаемых приложениях. Дополнительные сведения см. в [списке "Блокировать следующие URL-адреса" для Сейф ссылки.](safe-links.md#block-the-following-urls-list-for-safe-links)
 
-1. В центре безопасности перейдите в раздел **Политики совместной &** электронной почты & политики политики угроз Сейф \>  \>  \>  \> **ссылки**.
+1. На портале Microsoft 365 Defender перейдите в раздел Политики **совместной** & электронной почты & политики угрозы Сейф \>  \>  \>  \> **ссылки**.
 
 2. На странице **Сейф Ссылки** щелкните **Глобальные параметры**. В политике **Сейф ссылки** для организации вылет, который отображается, перейдите к **блоку следующего URL-адреса.**
 
@@ -117,11 +117,11 @@ ms.locfileid: "52821989"
   Set-AtpPolicyForO365 -BlockUrls @{Add="adatum.com"; Remove="fabrikam"}
   ```
 
-## <a name="configure-safe-links-protection-for-office-365-apps-in-the-security-center"></a>Настройка Сейф ссылок для Office 365 приложений в центре безопасности
+## <a name="configure-safe-links-protection-for-office-365-apps-in-the-microsoft-365-defender-portal"></a>Настройка Сейф ссылок для Office 365 приложений на портале Microsoft 365 Defender
 
 Сейф Защита ссылок для Office 365 приложений применяется к документам в поддерживаемых Office, мобильных и веб-приложениях. Дополнительные сведения см. [в Сейф ссылки для Office 365 приложений.](safe-links.md#safe-links-settings-for-office-365-apps)
 
-1. В центре безопасности перейдите в раздел **Политики совместной &** электронной почты & политики политики угроз Сейф \>  \>  \>  \> **ссылки**.
+1. На портале Microsoft 365 Defender перейдите в раздел Политики **совместной** & электронной почты & политики угрозы Сейф \>  \>  \>  \> **ссылки**.
 
 2. На странице **Сейф Ссылки** щелкните **Глобальные параметры**. В **политике Сейф ссылки** для организации вылет, который появляется, настройте следующие параметры в Параметры, которые применяются к контенту в поддерживаемом разделе **Office 365** приложений:
 
@@ -157,7 +157,7 @@ Set-AtpPolicyForO365 -TrackClicks $true
 
 Чтобы убедиться, что вы успешно настроены глобальные параметры для  ссылок Сейф (блок следующий список URL-адресов и параметры защиты Office 365 приложения), сделайте все следующие действия:
 
-- В центре безопасности перейдите в раздел Политики **совместной** & электронной почты & Политики политики угроз Сейф Ссылки щелкните глобальные параметры и проверьте параметры в вылете, который \>  \>  \>  \>  \> отображается. 
+- На портале Microsoft 365 Defender перейдите  в раздел Политики & совместной работы & Правила политики \>  \>  \>  \> **угрозы Сейф Ссылки** \> нажмите глобальные параметры и проверьте параметры в вылете, который появляется.
 
 - В Exchange Online PowerShell или Exchange Online Protection PowerShell запустите следующую команду и проверьте параметры:
 

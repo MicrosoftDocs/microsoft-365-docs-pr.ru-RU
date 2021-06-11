@@ -15,12 +15,12 @@ ms.collection:
 description: Администраторы могут узнать, как применять стандартные и строгие параметры политики для Exchange Online Protection (EOP) и Microsoft Defender для Office 365
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 244364b423ee633a9131aabf93b5fc1e7cf756c0
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.openlocfilehash: 24fe67a7465ec71451b649dbc5963c28e0dc7cf3
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52822290"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52879016"
 ---
 # <a name="preset-security-policies-in-eop-and-microsoft-defender-for-office-365"></a>Предустановленные политики безопасности в EOP и Microsoft Defender для Office 365
 
@@ -105,7 +105,7 @@ ms.locfileid: "52822290"
 
 ### <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
-- Вы открываете центр Microsoft 365 безопасности по <https://security.microsoft.com> . Чтобы перейти непосредственно на страницу политики безопасности **preset,** используйте <https://security.microsoft.com/presetSecurityPolicies> .
+- Вы открываете портал Microsoft 365 Defender по <https://security.microsoft.com> ссылке . Чтобы перейти непосредственно на страницу политики безопасности **preset,** используйте <https://security.microsoft.com/presetSecurityPolicies> .
 
 - Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
 
@@ -117,14 +117,14 @@ ms.locfileid: "52822290"
 
   **Примечание.** Добавление пользователей к соответствующей роли Azure Active Directory в центре администрирования Microsoft 365 предоставляет  пользователям необходимые разрешения и разрешения для других функций в Microsoft 365. Дополнительные сведения см. в статье [О ролях администраторов](../../admin/add-users/about-admin-roles.md).
 
-### <a name="use-the-security-center-to-assign-preset-security-policies-to-users"></a>Используйте центр безопасности, чтобы назначить пользователям заранее задатки политики безопасности.
+### <a name="use-the-microsoft-365-defender-portal-to-assign-preset-security-policies-to-users"></a>Используйте портал Microsoft 365 Defender, чтобы назначить пользователям заранее задатки политики безопасности
 
-1. В центре безопасности перейдите к разделу Политики **совместной &** электронной почты & политики шаблонных политик правил предустановленной \>  \>  \>  \> **политики безопасности**.
+1. На портале Microsoft 365 Defender перейдите к разделу Политики **совместной** & электронной почты & политики шаблонных политик правил предустановленной \>  \>  \>  \> **политики безопасности**.
 
 2. В **соответствии со стандартной защитой** или **строгой защитой** нажмите **кнопку Изменить**.
 
 3. Начинается **мастер применения стандартной защиты** или мастер **строгой** защиты. На странице **защиты EOP** определите внутренних получателей, к которых применяются защитные средства [EOP](#policies-in-preset-security-policies) (условия получателей):
-   - **пользователи**;
+   - **Пользователи**
    - **Группы**
    - **Домены**
 
@@ -144,9 +144,9 @@ ms.locfileid: "52822290"
 
 5. На странице **Обзор и подтвердите изменения,** проверьте выбор, а затем нажмите **кнопку Подтвердить**.
 
-### <a name="use-the-security-center-to-modify-the-assignments-of-preset-security-policies"></a>Используйте центр безопасности для изменения назначений заранее
+### <a name="use-the-microsoft-365-defender-portal-to-modify-the-assignments-of-preset-security-policies"></a>Использование портала Microsoft 365 Defender для изменения назначений заранее
 
-Действия по изменению назначения политики безопасности **standard protection** или **Strict protection** такие же, как при первоначальном назначении заранее [назначенных политик безопасности пользователям.](#use-the-security-center-to-assign-preset-security-policies-to-users)
+Действия по изменению назначения политики безопасности **standard protection** или **Strict protection** такие же, как при первоначальном назначении заранее [назначенных политик безопасности пользователям.](#use-the-microsoft-365-defender-portal-to-assign-preset-security-policies-to-users)
 
 Чтобы отключить политики безопасности **standard protection** или **Strict protection,** сохраняя существующие условия и исключения, сдвиньте переключение на **отключенное** отключение. ![ ](../../media/scc-toggle-off.png) Чтобы включить политики, сдвиньте окантовку с **включенной** ![ возможностью ](../../media/scc-toggle-on.png) включения.
 

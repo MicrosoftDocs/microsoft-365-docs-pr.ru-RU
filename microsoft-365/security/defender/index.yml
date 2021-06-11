@@ -13,12 +13,12 @@ metadata:
   ms.author: macapara
   ms.date: 09/13/2019
   localization_priority: Priority
-  ms.openlocfilehash: b10d9eebf8ed98e06e98c1e73722f7b3b0d7ba87
-  ms.sourcegitcommit: ddf6c25d1ed6387d07614f7042e033bad7f406f9
+  ms.openlocfilehash: 68909caf8844b5ea4d20029a04d1b7d81ca25e66
+  ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
   ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 05/25/2021
-  ms.locfileid: "52639395"
+  ms.lasthandoff: 06/10/2021
+  ms.locfileid: "52878452"
 landingContent:
 - title: Microsoft 365 Defender
   linkLists:
@@ -59,31 +59,31 @@ landingContent:
   - linkListType: overview
     links:
     - text: Что такое Microsoft Defender для удостоверений?
-      url: /azure-advanced-threat-protection/what-is-atp
+      url: /defender-for-identity/what-is
     - text: Архитектура Microsoft Defender для удостоверений
-      url: /azure-advanced-threat-protection/atp-architecture
+      url: /defender-for-identity/architecture
 - title: Microsoft Defender для Office 365
   linkLists:
   - linkListType: overview
     links:
     - text: Что такое Defender для Office 365?
-      url: /office-365-security/defender-for-office-365
+      url: ../office-365-security/defender-for-office-365.md
     - text: Описание службы Defender для Office 365
       url: /office365/servicedescriptions/office-365-advanced-threat-protection-service-description
     - text: Defender для Office 365 в Microsoft 365 Defender
-      url: /defender/microsoft-365-security-center-mdo
+      url: microsoft-365-security-center-mdo.md
     - text: Перенаправление defender для Office 365 в Microsoft 365 Defender
-      url: /defender/microsoft-365-security-mdo-redirection
+      url: microsoft-365-security-mdo-redirection.md
 - title: Microsoft Defender для конечной точки
   linkLists:
   - linkListType: overview
     links:
     - text: Что такое Microsoft Defender для конечной точки?
-      url: /defender-endpoint/microsoft-defender-endpoint
+      url: ../defender-endpoint/microsoft-defender-endpoint.md
     - text: Защитник для конечной точки в Microsoft 365 Defender
-      url: /defender/microsoft-365-security-cente
+      url: microsoft-365-security-center-mde.md
     - text: Перенаправление защитника для конечной точки в Microsoft 365 Defender
-      url: /defender/microsoft-365-security-mde-redirection
+      url: ../defender/microsoft-365-security-mde-redirection.md
 - title: Центр безопасности Microsoft 365
   linkLists:
   - linkListType: overview

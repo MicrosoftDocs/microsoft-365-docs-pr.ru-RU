@@ -16,7 +16,7 @@ metadata:
   ms.collection:
   - M365-security-compliance
   - m365initiative-defender-office365
-  description: Администраторы могут просматривать часто задамые вопросы и ответы о защите от спуфинга в Exchange Online Protection (EOP).
+  description: Администраторы могут просматривать часто задамые вопросы и ответы о защите от подмены в Exchange Online Protection (EOP).
   ms.technology: mdo
   ms.prod: m365-security
   ms.openlocfilehash: cab4af2dd359b878cdf417a2378c05d2aa706107
@@ -39,7 +39,7 @@ summary: >
   - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
 
-  В этой статье часто задаются вопросы и ответы о защите от спуфинга для организаций Microsoft 365 с почтовыми ящиками в Exchange Online или автономных организаций Exchange Online Protection (EOP) без почтовых ящиков Exchange Online.
+  В этой статье часто задаются вопросы и ответы о защите от спуфинга для Microsoft 365 организаций с почтовыми ящиками в Exchange Online или автономных организаций Exchange Online Protection (EOP) без Exchange Online почтовых ящиков.
 
 
   Вопросы и ответы о защите от нежелательной почты см. в [faq anti-spam protection.](anti-spam-protection-faq.yml)
@@ -61,9 +61,9 @@ sections:
 
       Корпорация Майкрософт впервые приняла новые требования к проверке подлинности электронной почты за несколько недель до ее развертывания для клиентов. Хотя сначала наступали проблемы, их количество постепенно снижалось.
   - question: >
-      Доступна ли подмена сведений клиентам Microsoft 365 без Defender для Office 365?
+      Доступна ли подмена сведений для Microsoft 365 без Defender для Office 365?
     answer: >
-      Да. С октября 2018 г. сведения о подмене доступны всем организациям с почтовыми ящиками в Exchange Online и автономными организациями EOP без почтовых ящиков Exchange Online.
+      Да. По данным на октябрь 2018 г., спуф-аналитика доступна всем организациям с почтовыми ящиками в Exchange Online и автономными организациями EOP без Exchange Online почтовых ящиков.
   - question: >
       Как сообщить спама или фишинговых сообщений назад в корпорацию Майкрософт?
     answer: >

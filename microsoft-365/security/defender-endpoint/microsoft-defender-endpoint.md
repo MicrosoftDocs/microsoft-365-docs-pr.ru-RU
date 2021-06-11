@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 3bab9d0248a2ed8e83807f3c38215e653cba26eb
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 23a9b99a71d700bdeddb3398c592eeb778ceef23
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843558"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52879268"
 ---
 # <a name="microsoft-defender-for-endpoint"></a>Microsoft Defender для конечной точки
 
@@ -74,7 +74,7 @@ Defender for Endpoint использует следующее сочетание
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vnC4?rel=0] 
 
 > [!TIP]
-> - Узнайте о последних улучшениях в Defender для конечной точки: что нового в [Microsoft Defender для конечной точки](https://cloudblogs.microsoft.com/microsoftsecure/2018/11/15/whats-new-in-windows-defender-atp/).
+> - Узнайте о последних улучшениях в Defender для конечной точки: что нового в [Microsoft Defender для конечной точки](whats-new-in-microsoft-defender-atp.md).
 > - В недавней оценке MITRE Microsoft Defender for Endpoint продемонстрировала передовые в отрасли возможности оптики и обнаружения. Read: [Insights from the MITRE ATT&CK-based assessment](https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/insights-from-the-mitre-attack-based-evaluation-of-windows-defender-atp/).
 
 <a name="tvm"></a>

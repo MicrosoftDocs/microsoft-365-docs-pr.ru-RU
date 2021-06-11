@@ -17,12 +17,12 @@ ms.custom: ''
 description: Администраторы могут узнать, как использовать передовую политику доставки в Exchange Online Protection (EOP) для идентификации сообщений, которые не должны фильтроваться в определенных поддерживаемых сценариях (сторонние фишинговые симуляции и сообщения, доставленные в почтовые ящики операций безопасности (SecOps).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: a9c1c6f7635b87e25adcb121db79f67d4ec1988f
-ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+ms.openlocfilehash: deaad11b6397cd53017c0972a624b67a9623887f
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52789004"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52879112"
 ---
 # <a name="configure-the-delivery-of-third-party-phishing-simulations-to-users-and-unfiltered-messages-to-secops-mailboxes"></a>Настройка доставки сторонних фишинговых симуляций пользователям и неотображемых сообщений в почтовые ящики SecOps
 
@@ -62,20 +62,20 @@ ms.locfileid: "52789004"
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
-- Открытие Центра безопасности производится в <https://security.microsoft.com>. Чтобы перейти непосредственно на **страницу advanced delivery,** откройте <https://security.microsoft.com/advanceddelivery> .
+- Вы открываете портал Microsoft 365 Defender по <https://security.microsoft.com> ссылке . Чтобы перейти непосредственно на **страницу advanced delivery,** откройте <https://security.microsoft.com/advanceddelivery> .
 
 - Прежде чем делать процедуры в этой статье, необходимо получить соответствующие разрешения.
-  - Чтобы создать, изменить или удалить настроенные параметры в продвинутой политике доставки,  необходимо быть членом группы ролей администратора  безопасности в центре безопасности и членом группы ролей управления организацией в Exchange Online **.**   
+  - Чтобы создать, изменить или удалить настроенные параметры в продвинутой политике доставки,  необходимо быть членом группы ролей администратора безопасности на  портале **Microsoft 365 Defender** и членом группы ролей управления организацией в **Exchange Online**.  
   - Для доступа только для чтения к продвинутой политике доставки необходимо быть членом групп ролей **Global Reader** или **Security Reader.**
 
-  Дополнительные сведения см. [в Microsoft 365](permissions-microsoft-365-security-center.md) центра безопасности и разрешений [в Exchange Online](/exchange/permissions-exo/permissions-exo).
+  Дополнительные сведения см. [в см.](permissions-microsoft-365-security-center.md) в Microsoft 365 портале Defender и [разрешениях в Exchange Online.](/exchange/permissions-exo/permissions-exo)
 
   > [!NOTE]
-  > Добавление пользователей к соответствующей роли Azure Active Directory дает пользователям необходимые разрешения  в центре безопасности и разрешения на другие функции в Microsoft 365. Дополнительные сведения см. в статье [О ролях администраторов](../../admin/add-users/about-admin-roles.md).
+  > Добавление пользователей к соответствующей роли Azure Active Directory дает пользователям необходимые разрешения на портале Microsoft 365 Defender и разрешения на другие функции в Microsoft 365.  Дополнительные сведения см. в статье [О ролях администраторов](../../admin/add-users/about-admin-roles.md).
 
-## <a name="use-the-security-center-to-configure-secops-mailboxes-in-the-advanced-delivery-policy"></a>Используйте центр безопасности для настройки почтовых ящиков SecOps в усовершенствованой политике доставки
+## <a name="use-the-microsoft-365-defender-portal-to-configure-secops-mailboxes-in-the-advanced-delivery-policy"></a>Используйте портал Microsoft 365 Defender для настройки почтовых ящиков SecOps в усовершенствованой политике доставки
 
-1. В центре безопасности перейдите в раздел **Политики совместной** & электронной почты & правила правил \>  \>  \>  \> **доставки.**
+1. На портале Microsoft 365 Defender перейдите в раздел **Email &** политики совместной & правила правил \>  \>  \>  \> **доставки.**
 
 2. На странице **Advanced delivery** убедитесь, что выбрана вкладка почтовых ящиков **SecOps,** а затем сделайте один из следующих действий:
    - Нажмите ![ кнопку Изменить ](../../media/m365-cc-sc-edit-icon.png) **значок Изменить**.
@@ -93,9 +93,9 @@ ms.locfileid: "52789004"
 
 Настроенные записи почтовых ящиков SecOps отображаются на вкладке **почтовый ящик SecOps.** Чтобы внести изменения, нажмите ![ кнопку Изменить ](../../media/m365-cc-sc-edit-icon.png) **значок Изменить** на вкладке.
 
-## <a name="use-the-security-center-to-configure-third-party-phishing-simulations-in-the-advanced-delivery-policy"></a>Используйте центр безопасности для настройки сторонних имитаций фишинга в продвинутой политике доставки
+## <a name="use-the-microsoft-365-defender-portal-to-configure-third-party-phishing-simulations-in-the-advanced-delivery-policy"></a>Используйте портал Microsoft 365 Defender для настройки сторонних фишинговых симуляций в продвинутой политике доставки
 
-1. В центре безопасности перейдите в раздел **Политики совместной** & электронной почты & правила правил \>  \>  \>  \> **доставки.**
+1. На портале Microsoft 365 Defender перейдите в раздел **Email &** политики совместной & правила правил \>  \>  \>  \> **доставки.**
 
 2. На странице **Advanced delivery** выберите вкладку **фишинг-моделирования** и сделайте один из следующих действий:
    - Нажмите ![ кнопку Изменить ](../../media/m365-cc-sc-edit-icon.png) **значок Изменить**.

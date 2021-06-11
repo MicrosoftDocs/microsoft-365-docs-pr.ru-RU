@@ -19,12 +19,12 @@ ms.collection:
 description: Каковы наилучшие методы для Exchange Online Protection (EOP) и Defender для Office 365 параметров безопасности? Каковы текущие рекомендации по стандартной защите? Что следует использовать, если вы хотите быть более строгими? А какие дополнительные функции вы получите, если вы также используете Defender для Office 365?
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f00e1e2356839e70acafb0f98a5424a1311082e7
-ms.sourcegitcommit: f3d1009840513703c38bab99a6e13a3656eae5ee
+ms.openlocfilehash: 6c126a777d50fae93efdc618a8ac474dcee7ed75
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52793224"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878992"
 ---
 # <a name="recommended-settings-for-eop-and-microsoft-defender-for-office-365-security"></a>Рекомендуемые параметры для EOP и Microsoft Defender для Office 365 безопасности
 
@@ -44,7 +44,7 @@ ms.locfileid: "52793224"
 > [!NOTE]
 > Правило нежелательной почты должно быть включено в почтовых ящиках для правильной работы фильтрации. Она включена по умолчанию, но ее следует проверить, не работает ли фильтрация. Дополнительные сведения см. в разделе [Настройка параметров нежелательной почты в почтовых ящиках Exchange Online](configure-junk-email-settings-on-exo-mailboxes.md).
 
-В этой статье описываются параметры по умолчанию, а также рекомендуемые стандартные и строгие параметры, которые помогут защитить пользователей. Таблицы содержат параметры центра безопасности Microsoft 365 PowerShell (Exchange Online PowerShell или автономных Exchange Online Protection PowerShell для организаций без Exchange Online почтовых ящиков).
+В этой статье описываются параметры по умолчанию, а также рекомендуемые стандартные и строгие параметры, которые помогут защитить пользователей. Таблицы содержат параметры портала Microsoft 365 Defender и PowerShell (Exchange Online PowerShell или автономных Exchange Online Protection PowerShell для организаций без Exchange Online почтовых ящиков).
 
 > [!TIP]
 > Модуль Office 365 Advanced Threat Protection Recommended Configuration Analyzer (ORCA) для PowerShell поможет вам (администраторам) найти текущие значения этих параметров. В частности, в **комлете Get-ORCAReport** создается оценка параметров защиты от нежелательной почты, защиты от фишинга и других параметров гигиены сообщений. Вы можете скачать модуль ORCA по <https://www.powershellgallery.com/packages/ORCA/> ссылке .

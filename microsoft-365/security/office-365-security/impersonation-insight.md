@@ -19,12 +19,12 @@ description: Администраторы могут узнать, как раб
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1b539cc50d3cf6ad637a749faa9d2cb5b2033b81
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.openlocfilehash: e1b99590d7ae96ad8371eb2a2fab5fb7e8f94d07
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52821337"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52879040"
 ---
 # <a name="impersonation-insight-in-defender-for-office-365"></a>Представление о обезличии в Defender для Office 365
 
@@ -46,27 +46,27 @@ ms.locfileid: "52821337"
 
 Защита от обезличения является частью параметров политики защиты от фишинга, которые являются исключительными для Microsoft Defender для Office 365. Дополнительные сведения об этих параметрах см. в дополнительных сведениях о параметрах [Impersonation](set-up-anti-phishing-policies.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)в политиках защиты от фишинга в Microsoft Defender для Office 365.
 
-Вы можете использовать представление о себе в центре безопасности Microsoft 365 для быстрой идентификации сообщений из именных доменов отправителей или отправителей, настроенных для защиты от обезличения.
+Вы можете использовать представление о себе на портале Microsoft 365 Defender для быстрой идентификации сообщений от обезличенных доменов отправителей или отправителей, настроенных для защиты от обезличения.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
-- Открытие Центра безопасности производится в <https://security.microsoft.com>. Чтобы перейти непосредственно к анализу обезличения на странице **Anti-phishing,** используйте <https://security.microsoft.com/antiphishing> . Чтобы перейти непосредственно на страницу **проницательности Impersonation,** используйте <https://security.microsoft.com/impersonationinsight> .
+- Вы открываете портал Microsoft 365 Defender по <https://security.microsoft.com> ссылке . Чтобы перейти непосредственно к анализу обезличения на странице **Anti-phishing,** используйте <https://security.microsoft.com/antiphishing> . Чтобы перейти непосредственно на страницу **проницательности Impersonation,** используйте <https://security.microsoft.com/impersonationinsight> .
 
-- Вам необходимо получить разрешения в центре безопасности, прежде чем вы сможете сделать процедуры в этой статье:
+- Вам необходимо получить разрешения на портале Microsoft 365 Defender, прежде чем вы сможете сделать процедуры в этой статье:
   - **Управление организацией**
   - **Администратор безопасности**
   - **Читатель сведений о безопасности**
   - **Глобальный читатель**
 
-  Дополнительные сведения см. [в дополнительных сведениях в центре безопасности Permissions.](permissions-in-the-security-and-compliance-center.md)
+  Дополнительные сведения см. [в сайте Permissions in the Microsoft 365 Defender.](permissions-in-the-security-and-compliance-center.md)
 
-  **Примечание.** Добавление пользователей к соответствующей роли Azure Active Directory в центре администрирования Microsoft 365 предоставляет пользователям  необходимые разрешения в центре безопасности и разрешения на другие функции в Microsoft 365. Дополнительные сведения см. в статье [О ролях администраторов](../../admin/add-users/about-admin-roles.md).
+  **Примечание.** Добавление пользователей к соответствующей роли Azure Active Directory в центре администрирования Microsoft 365 предоставляет пользователям необходимые разрешения на  портале Microsoft 365 Defender и разрешения на другие функции в Microsoft 365. Дополнительные сведения см. в статье [О ролях администраторов](../../admin/add-users/about-admin-roles.md).
 
 - Вы включаете и настраивает защиту от обезличения в политиках защиты от фишинга в Microsoft Defender для Office 365. Защита от обезличения не включена по умолчанию. Дополнительные сведения см. в [сообщении Configure anti-phishing policies in Microsoft Defender for Office 365.](configure-atp-anti-phishing-policies.md)
 
-## <a name="open-the-impersonation-insight-in-the-security-center"></a>Откройте представление о обезличии в центре безопасности
+## <a name="open-the-impersonation-insight-in-the-microsoft-365-defender-portal"></a>Откройте представление о обезличии на портале Microsoft 365 Defender
 
-1. В центре безопасности перейдите в раздел Политики **совместной** & электронной почты & политики угрозы правил \>  \>  \>  раздела \> **Anti-phishing**.
+1. На портале Microsoft 365 Defender перейдите в раздел Политики **совместной** & электронной почты & политики угрозы \>  \>  \>  \> правил.
 
 2. На странице **Anti-phishing** представление об обезличии выглядит так:
 

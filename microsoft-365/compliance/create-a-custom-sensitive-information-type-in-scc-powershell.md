@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Узнайте, как создавать и импортировать пользовательский тип конфиденциальных данных для политик в Центре безопасности и соответствия требованиям.
-ms.openlocfilehash: deb29b768c136c9c952d2abe791b310f2fd1dbdd
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 75e767b0ea5ebe4940af5ee0fbfa85f858f65e9c
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878248"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52538710"
 ---
 # <a name="create-a-custom-sensitive-information-type-using-powershell"></a>Создание пользовательского типа конфиденциальной информации с помощью PowerShell
 
@@ -38,9 +38,6 @@ ms.locfileid: "52878248"
 См. раздел [Проблемы, которые могут возникнуть при проверке](#potential-validation-issues-to-be-aware-of) в этой статье.
 
 Дополнительные сведения о модуле Boost.RegEx (прежнее название — RegEx++), который используется для обработки текста, см. на странице [Boost.Regex 5.1.3](https://www.boost.org/doc/libs/1_68_0/libs/regex/doc/html/).
-
-> [!NOTE]
-> Если вы используете символ ampersand (&) в качестве ключевого слова в настраиваемом типе конфиденциальной информации, обратите внимание, что существует известная проблема. Необходимо добавить дополнительный термин с пробелами вокруг символа, чтобы убедиться, что символ правильно идентифицирован, например L & P _не_ L&P.
 
 ## <a name="sample-xml-of-a-rule-package"></a>Пример XML-файла пакета правил
 

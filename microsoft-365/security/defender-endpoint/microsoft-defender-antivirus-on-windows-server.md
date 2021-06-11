@@ -31,7 +31,7 @@ ms.locfileid: "52539279"
 - [Microsoft Defender для конечной точки](/microsoft-365/security/defender-endpoint/)
 
 антивирусная программа в Microsoft Defender доступны в следующих выпусках и версиях Windows Server:
-- Windows Server 2019
+- Windows Server 2019
 - Windows Сервер, версия 1803 или более поздней версии
 - Windows Server 2016. 
 

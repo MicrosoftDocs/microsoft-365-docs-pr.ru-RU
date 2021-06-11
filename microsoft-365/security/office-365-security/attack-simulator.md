@@ -20,12 +20,12 @@ ms.custom:
 description: Администраторы могут узнать, как использовать симулятор атак для имитации фишинговых атак и атак паролей в Microsoft 365 E5 или Microsoft Defender для организаций Office 365 Plan 2.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 73ad3501ed9818261c9fbec6ba12b4dc884da84f
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 03e6c0077f13c85bfd20ac0583b64ce29e2535a1
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624829"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878680"
 ---
 # <a name="attack-simulator-in-microsoft-defender-for-office-365"></a>Симулятор атак в Microsoft Defender для Office 365
 
@@ -37,9 +37,9 @@ ms.locfileid: "52624829"
 
 > [!NOTE]
 >
-> Симулятор атаки, как описано в этой статье, теперь  только для  чтения и заменен обучением имитации атаки в узле совместной & электронной почты в центре безопасности [Microsoft 365.](https://security.microsoft.com) Дополнительные сведения см. в [дополнительных сведениях: Начало работы с обучением имитации атаки.](attack-simulation-training-get-started.md)
+> Симулятор атаки, как описано в этой статье, теперь  является только для чтения и заменен обучением моделированию атаки в **узле** совместной & электронной почты на портале Microsoft 365 Defender по <https://security.microsoft.com> ссылке . Дополнительные сведения см. в [дополнительных сведениях: Начало работы с обучением имитации атаки.](attack-simulation-training-get-started.md)
 >
-> Отключена возможность запуска новых имитаций из этой версии симулятора атаки. Однако с 24 января 2021 г. вы можете получать доступ к отчетам сроком до 90 дней.
+> Отключена возможность запуска новых имитаций из этой версии симулятора атаки. Однако до 24 апреля 2021 г. можно получить доступ к отчетам.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 

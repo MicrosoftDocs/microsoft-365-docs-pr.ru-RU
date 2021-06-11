@@ -12,14 +12,16 @@ ms.collection:
 - m365initiative-defender-office365
 description: Администраторы могут узнать, как создавать настраиваемые полезной нагрузки для обучения моделированию атаки в Microsoft Defender для Office 365.
 ms.technology: mdo
-ms.openlocfilehash: 6cc5dd4a48ab89193133cfaf823d0a1b1868fa79
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: ac7963b71c466e8dfdc513a2563776cd4e10af95
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205191"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878764"
 ---
 # <a name="create-a-custom-payload-for-attack-simulation-training"></a>Создание пользовательских полезных данных для обучения имитации атаки
+
+**Применяется к** [Microsoft Defender для Office 365 плана 2](defender-for-office-365.md)
 
 Корпорация Майкрософт предлагает надежный каталог полезной нагрузки для различных методов социальной инженерии в паре с обучением имитации атак. Однако может потребоваться создать настраиваемые рабочие нагрузки, которые будут работать лучше для вашей организации. В этой статье описывается создание полезной нагрузки в обучении имитации атаки в Microsoft Defender для Office 365.
 
@@ -64,7 +66,7 @@ ms.locfileid: "51205191"
 > [!IMPORTANT]
 > Созданные вами полезной нагрузки будут иметь **клиента** в качестве источника. При выборе полезной нагрузки убедитесь, что вы не отфильтруете **Tenant**.
 
-## <a name="related-links"></a>Связанные ссылки
+## <a name="related-links"></a>См. также
 
 [Начало использования обучения имитации атаки](attack-simulation-training-get-started.md)
 

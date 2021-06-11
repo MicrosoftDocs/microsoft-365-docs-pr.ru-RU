@@ -1,6 +1,6 @@
 ---
 title: Порядок и приоритет защиты электронной почты
-keywords: безопасность, вредоносные программы, Microsoft 365, M365, центр безопасности, портал Microsoft 365 Defender, Microsoft Defender для конечной точки, Microsoft Defender для Office 365, Microsoft Defender for Identity
+keywords: безопасность, вредоносные программы, Microsoft 365, M365, центр безопасности, Microsoft Defender для конечной точки, Microsoft Defender для Office 365, Microsoft Defender for Identity
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -17,12 +17,12 @@ ms.custom:
 description: Администраторы могут узнать о порядке защиты приложений в Exchange Online Protection (EOP), а также о том, как значение приоритета в политиках защиты определяет, какая политика применяется.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 7243fd79287e19528e999774dbd0dd018fa86759
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 24d43aeb70e2cdef4bdf65fd3943cdfda9ec3862
+ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52877852"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52539015"
 ---
 # <a name="order-and-precedence-of-email-protection"></a>Порядок и приоритет защиты электронной почты
 

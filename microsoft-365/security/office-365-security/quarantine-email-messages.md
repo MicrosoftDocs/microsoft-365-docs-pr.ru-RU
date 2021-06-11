@@ -38,7 +38,7 @@ ms.locfileid: "52333810"
 - [Microsoft Defender для Office 365 (план 1 и план 2)](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-В организациях Microsoft 365 с почтовыми ящиками в Exchange Online или автономных организациях Exchange Online Protection (EOP) без почтовых ящиков Exchange Online карантин доступен для удержания потенциально опасных или нежелательных сообщений.
+В Microsoft 365 организациях с почтовыми ящиками в Exchange Online или автономных организациях Exchange Online Protection (EOP) без Exchange Online почтовых ящиков карантин доступен для удержания потенциально опасных или нежелательных сообщений.
 
 Политики по борьбе с вредоносными программами автоматически карантином *сообщение,* если любое вложение установлено, содержит вредоносные программы. Дополнительные сведения см. в [программе Configure anti-malware policies in EOP.](configure-anti-malware-policies.md)
 

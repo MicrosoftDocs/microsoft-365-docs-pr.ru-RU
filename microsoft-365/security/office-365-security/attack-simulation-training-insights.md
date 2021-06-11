@@ -10,20 +10,22 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Администраторы могут узнать, как обучение имитации атаки в центре безопасности Microsoft 365 влияет на сотрудников и может получить сведения о результатах моделирования и обучения.
+description: Администраторы могут узнать, как обучение имитации атаки на портале Microsoft 365 Defender влияет на сотрудников и может получить сведения о результатах моделирования и обучения.
 ms.technology: mdo
-ms.openlocfilehash: 0fcb88406558f73b587d8452375c33dbbec1c78b
-ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
+ms.openlocfilehash: e189864a42d025bb5ce720a6edb6c1c2c8c84623
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51600011"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878380"
 ---
 # <a name="gain-insights-through-attack-simulation-training"></a>Получение аналитики с помощью обучения имитации атаки
 
+**Применяется к** [Microsoft Defender для Office 365 плана 2](defender-for-office-365.md)
+
 В рамках обучения моделированию атак Корпорация Майкрософт предоставляет вам сведения, основанные на результатах имитаций и тренингов, которые прошли сотрудники. Эти сведения помогут вам узнать о ходе подготовки сотрудников к готовности к угрозам, а также рекомендовать следующие действия для лучшей подготовки сотрудников и среды к атакам.
 
-Мы постоянно работаем над расширением доступных вам данных. Влияние поведения и рекомендуемые действия в настоящее время доступны. Для начала перенахайте обучение имитации attack в центре Microsoft 365 [безопасности.](https://security.microsoft.com/attacksimulator?viewid=overview)
+Мы постоянно работаем над расширением доступных вам данных. Влияние поведения и рекомендуемые действия в настоящее время доступны. Для начала переехав на обучение имитации атаки на [портале Microsoft 365 Defender.](https://security.microsoft.com/attacksimulator?viewid=overview)
 
 ## <a name="behavior-impact-on-compromise-rate"></a>Влияние поведения на скорость компромисса
 

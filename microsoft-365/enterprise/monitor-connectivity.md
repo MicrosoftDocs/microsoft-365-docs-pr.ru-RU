@@ -43,7 +43,7 @@ ms.locfileid: "52538811"
 
 Вы можете быстро вернуться сюда с помощью этой короткой ссылки: [https://aka.ms/monitorconnectivity365]()
   
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 [Настройка Microsoft 365 корпоративный служб и приложений](configure-services-and-applications.md)
   

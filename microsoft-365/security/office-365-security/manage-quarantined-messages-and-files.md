@@ -19,12 +19,12 @@ ms.custom:
 description: Администраторы могут узнать, как просматривать и управлять карантинными сообщениями для всех пользователей в Exchange Online Protection (EOP). Администраторы в организациях с Microsoft Defender для Office 365 также могут управлять карантинными файлами в SharePoint Online, OneDrive для бизнеса и Microsoft Teams.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 7b484cc3a8462115b5151b34ba93ba0c041e16b4
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.openlocfilehash: 01d5011248d1c0fc0daab0d04e1cca39e26e34bd
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52822302"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878896"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-admin-in-eop"></a>Управление сообщениями и файлами, помещенными в карантин, в качестве администратора в EOP
 
@@ -41,11 +41,11 @@ ms.locfileid: "52822302"
 
 Администраторы в организациях с Microsoft Defender для Office 365 также могут просматривать, скачивать и удалять карантинные файлы в SharePoint Online, OneDrive для бизнеса и Microsoft Teams.
 
-Просмотр и управление карантинными сообщениями в центре безопасности Microsoft 365 или в PowerShell (Exchange Online PowerShell для Microsoft 365 организаций с почтовыми ящиками в Exchange Online; автономный EOP PowerShell для организаций без Exchange Online почтовых ящиков).
+Вы просматривает и управляете карантинными сообщениями на портале Microsoft 365 Defender или в PowerShell (Exchange Online PowerShell для Microsoft 365 организаций с почтовыми ящиками в Exchange Online; автономные EOP PowerShell для организаций без Exchange Online почтовых ящиков).
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
-- Чтобы открыть Центр безопасности, перейдите на <https://security.microsoft.com>. Чтобы открыть страницу Карантина напрямую, перейдите на <https://security.microsoft.com/quarantine>.
+- Чтобы открыть портал Microsoft 365 Defender, перейдите на <https://security.microsoft.com> . Чтобы открыть страницу Карантина напрямую, перейдите на <https://security.microsoft.com/quarantine>.
 
 - Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell). Чтобы подключиться к автономному EOP PowerShell, см. раздел [Подключение к PowerShell Exchange Online Protection](/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
@@ -68,11 +68,11 @@ ms.locfileid: "52822302"
 
   После истечения срока действия сообщения из карантина его не восстановить.
 
-## <a name="use-the-security-center-to-manage-quarantined-email-messages"></a>Используйте центр безопасности для управления карантинными сообщениями электронной почты
+## <a name="use-the-microsoft-365-defender-portal-to-manage-quarantined-email-messages"></a>Использование портала Microsoft 365 Defender для управления карантинными сообщениями электронной почты
 
 ### <a name="view-quarantined-email"></a>Просмотр карантиновой электронной почты
 
-1. В Центре безопасности перейдите в раздел **Электронная почта и совместная работа** \> **Просмотреть** \> **Карантин**.
+1. На портале Microsoft 365 Defender перейдите на карантин **по** & для совместной \>  \> **работы.**
 
 2. На странице **Карантин** убедитесь, что **значение View quarantined** задавалось электронной почте значения **по умолчанию.**
 
@@ -195,7 +195,7 @@ ms.locfileid: "52822302"
 
 Когда закончите, нажмите кнопку **Закрыть**.
 
-## <a name="use-the-security-center-to-manage-quarantined-files-in-defender-for-office-365"></a>Используйте центр безопасности для управления карантинными файлами в Defender для Office 365
+## <a name="use-the-microsoft-365-defender-portal-to-manage-quarantined-files-in-defender-for-office-365"></a>Используйте портал Microsoft 365 Defender для управления карантинными файлами в Defender для Office 365
 
 > [!NOTE]
 > Процедуры для карантинов в этом разделе доступны только microsoft Defender для Office 365 1 и Plan 2 абонентов.
@@ -204,7 +204,7 @@ ms.locfileid: "52822302"
 
 ### <a name="view-quarantined-files"></a>Просмотр карантиных файлов
 
-1. В Центре безопасности перейдите в раздел **Электронная почта и совместная работа** \> **Просмотреть** \> **Карантин**.
+1. На портале Microsoft 365 Defender перейдите на карантин **по** & для совместной \>  \> **работы.**
 
 2. На странице **Карантин** измените **просмотр карантина** на файлы **значений.** Вы можете сортировать на поле, щелкнув доступный заглавной столбец.
 

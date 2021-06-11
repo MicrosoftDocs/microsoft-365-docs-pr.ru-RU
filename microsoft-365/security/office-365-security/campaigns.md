@@ -19,12 +19,12 @@ ms.collection:
 description: Узнайте о представлениях кампании в Microsoft Defender для Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 04e3d76271e95d36d73dd473076029cb60c06900
-ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
+ms.openlocfilehash: ba619c5341913190bfb84dbc34b938deee8f42ca
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52779471"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52879136"
 ---
 # <a name="campaign-views-in-microsoft-defender-for-office-365"></a>Представления кампании в Microsoft Defender для Office 365
 
@@ -33,7 +33,7 @@ ms.locfileid: "52779471"
 **Область применения**
 - [Microsoft Defender для Office 365 (план 2)](defender-for-office-365.md)
 
-Представления кампании — это функция в Microsoft Defender для Office 365 Plan 2 (например, Microsoft 365 E5 или организаций с надстройки Defender for Office 365 Plan 2). Представления кампании в центре Microsoft 365 определяют и классифицируют фишинговые атаки в службе. Представления кампаний помогают:
+Представления кампании — это функция в Microsoft Defender для Office 365 Plan 2 (например, Microsoft 365 E5 или организаций с надстройки Defender for Office 365 Plan 2). Представления кампании на портале Microsoft 365 Defender идентифицируют и классифицируют фишинговые атаки в службе. Представления кампаний помогают:
 
 - эффективно анализировать фишинговые атаки и отвечать на них;
 - точнее устанавливать область, затронутую атакой;
@@ -54,11 +54,11 @@ ms.locfileid: "52779471"
 
 Кампания может быть недолгой или может охватывать несколько дней, недель или месяцев с активными и неактивными периодами. Кампания может быть запущена против конкретной организации, или ваша организация может быть частью более масштабной кампании для нескольких компаний.
 
-## <a name="campaign-views-in-the-security-center"></a>Представления кампании в центре безопасности
+## <a name="campaign-views-in-the-microsoft-365-defender-portal"></a>Представления кампании на портале Microsoft 365 Defender
 
-Представления кампании доступны в центре [Microsoft 365](https://security.microsoft.com) в email **& совместной** кампании или непосредственно в \>  <https://security.microsoft.com/campaigns> .
+Представления кампании доступны на портале Microsoft 365 Defender () в email & совместной кампании <https://security.microsoft.com> или непосредственно по  \>  <https://security.microsoft.com/campaigns> ссылке .
 
-![Обзор кампаний в центре Microsoft 365 безопасности](../../media/campaigns-overview.png)
+![Обзор кампаний на портале Microsoft 365 Defender](../../media/campaigns-overview.png)
 
 Вы также можете получить просмотры кампании из:
 
@@ -67,7 +67,7 @@ ms.locfileid: "52779471"
 - **Совместное & электронной почты** \> **Обозреватель** \> **Просмотр** \> **Фишинг** \> **Вкладка кампании**
 - **Совместное & электронной почты** \> **Обозреватель** \> **Просмотр** \> **Вредоносные программы** \> **Вкладка кампании**
 
-Чтобы получить доступ к представлениям кампании, необходимо быть членом  групп ролей **"Управление** организацией", "Администратор безопасности" или "Читатель безопасности" в центре безопасности. Дополнительные сведения см. [в дополнительных сведениях](permissions-microsoft-365-security-center.md)в центре Microsoft 365 и Microsoft 365 безопасности.
+Чтобы получить доступ к представлениям кампании, необходимо быть членом  групп ролей "Управление организацией", "Администратор безопасности" или "Читатель безопасности" на портале Microsoft 365 Defender. Дополнительные сведения см. [в сайте Permissions in the Microsoft 365 Defender.](permissions-microsoft-365-security-center.md)
 
 ## <a name="campaigns-overview"></a>Обзор кампаний
 

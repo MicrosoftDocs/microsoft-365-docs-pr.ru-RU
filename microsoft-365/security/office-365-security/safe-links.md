@@ -27,12 +27,12 @@ ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: В этой статье администраторы могут узнать о защите Сейф ссылок в Defender для Office 365 для защиты своей организации от фишинга и других атак с использованием вредоносных URL-адресов.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: d42d7563b5267f805756125d1764d506f1700e13
-ms.sourcegitcommit: f3d1009840513703c38bab99a6e13a3656eae5ee
+ms.openlocfilehash: 406450752085817cb49e3cf08a90c0087af3d94b
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52793032"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52879292"
 ---
 # <a name="safe-links-in-microsoft-defender-for-office-365"></a>Сейф Ссылки в Microsoft Defender для Office 365
 
@@ -220,7 +220,7 @@ ms.locfileid: "52793032"
 
 - **Не позволяйте** пользователям щелкнуть безопасные ссылки на исходный [](#warning-pages-from-safe-links) URL-адрес: позволяет пользователям щелкнуть страницу предупреждения на исходный URL-адрес в настольных версиях Word, Excel, PowerPoint и Visio. По умолчанию и рекомендуемое значение **on**.
 
-Чтобы настроить параметры Сейф ссылок для Office 365 приложений, см. в Сейф Ссылки для [Office 365 приложений.](configure-global-settings-for-safe-links.md#configure-safe-links-protection-for-office-365-apps-in-the-security-center)
+Чтобы настроить параметры Сейф ссылок для Office 365 приложений, см. в Сейф Ссылки для [Office 365 приложений.](configure-global-settings-for-safe-links.md#configure-safe-links-protection-for-office-365-apps-in-the-microsoft-365-defender-portal)
 
 Дополнительные сведения о рекомендуемых значениях для параметров стандартных и строгих политик см. в глобальной Сейф [Ссылки.](recommended-settings-for-eop-and-office365.md#global-settings-for-safe-links)
 
@@ -257,7 +257,7 @@ ms.locfileid: "52793032"
 
 Когда пользователь в активной политике Сейф ссылок щелкает заблокированную ссылку в [](#blocked-url-warning) поддерживаемом приложении, он передается на страницу предупреждения о блокировке URL-адресов.
 
-Настраивается список URL-адресов в глобальных настройках для Сейф ссылки. Инструкции см. [в списке "Заблокировать следующие URL-адреса".](configure-global-settings-for-safe-links.md#configure-the-block-the-following-urls-list-in-the-security-center)
+Настраивается список URL-адресов в глобальных настройках для Сейф ссылки. Инструкции см. [в списке "Заблокировать следующие URL-адреса".](configure-global-settings-for-safe-links.md#configure-the-block-the-following-urls-list-in-the-microsoft-365-defender-portal)
 
 **Примечания**:
 

@@ -19,16 +19,21 @@ description: Узнайте о действиях по исправлению в
 ms.technology: mdo
 ms.prod: m365-security
 ms.date: 01/29/2021
-ms.openlocfilehash: f0c42bef1b090412a7a6422fe029323b645e90df
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 525f6cf922f80067219f6c33a2c11559e9e58a39
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275076"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878776"
 ---
 # <a name="review-and-manage-remediation-actions-in-office-365"></a>Просмотр и управление действиями по исправлению в Office 365
 
+**Область применения**
+- [Microsoft Defender для Office 365 (план 2)](defender-for-office-365.md)
+- [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
+
 По мере автоматического расследования & контента совместной работы создаются определенные действия по исправлению, например вредоносные или подозрительные.  В Microsoft Defender для Office 365 действий по исправлению можно включить следующие действия:
+
 - Блокировка URL-адреса (время щелчка мыши)
 - Мягкое удаление сообщений электронной почты или кластеров
 - Карантин вложения электронной почты или электронной почты
@@ -36,13 +41,9 @@ ms.locfileid: "52275076"
 
 Эти действия по исправлению не принимаются до тех пор, пока их не утвердит группа операций безопасности. Мы рекомендуем как можно скорее просмотреть и утвердить все ожидающие действия, чтобы автоматические расследования были завершены своевременно. В некоторых случаях можно отменить действие по исправлению.
 
-**Область применения**
-- [Microsoft Defender для Office 365 (план 2)](defender-for-office-365.md)
-- [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
-
 ## <a name="approve-or-reject-pending-actions"></a>Утверждение (или отклонение) ожидающих действий
 
-1. Перейдите в центр Microsoft 365 безопасности <https://security.microsoft.com> () и войдите.
+1. Перейдите на портал Microsoft 365 Defender <https://security.microsoft.com> () и войдите.
 2. В области навигации выберите **Центр действий.**
 3. На **вкладке Ожидание** просмотрите список действий, ожидающих утверждения.
 4. Выберите элемент в списке. Откроется его поле для вылетов. 
