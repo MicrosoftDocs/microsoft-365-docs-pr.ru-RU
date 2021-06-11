@@ -120,7 +120,7 @@
                   items:
                     - name: Фишинговое письмо
                       href: first-incident-path-phishing.md
-                    - name: Удостоверение
+                    - name: Identity
                       href: first-incident-path-identity.md
             - name: Книги ответов на инциденты
               href: /security/compass/incident-response-playbooks
@@ -336,6 +336,8 @@
                       href: api-list-incidents.md
                     - name: Обновление инцидентов
                       href: api-update-incidents.md
+                    - name: Get Incident
+                      href: api-get-incident.md
     - name: Microsoft Defender для Office 365
       href: ../office-365-security/index.yml
     - name: Microsoft Defender для конечной точки
