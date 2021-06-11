@@ -17,18 +17,18 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Требование для всех решений Microsoft Information Protection: создание, настройка и публикация меток конфиденциальности для классификации и защиты данных организации.'
-ms.openlocfilehash: fc7debbe2fe1d59d4d172fd23587d0b2a1e6705e
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 328bf7bdac3a8de23820d861932ee20d71e911b4
+ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244628"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52878188"
 ---
 # <a name="create-and-configure-sensitivity-labels-and-their-policies"></a>Создание и настройка меток конфиденциальности и соответствующих политик
 
 >*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
-Все решения Microsoft Information Protection (сокращенное название — MIP) реализуются с помощью [меток конфиденциальности](sensitivity-labels.md). Чтобы создать и опубликовать эти метки, перейдите в [Центр соответствия требованиям Microsoft 365](https://compliance.microsoft.com/). Вы также можете использовать Центр безопасности и соответствия требованиям Office 365.
+Все решения Microsoft Information Protection (сокращенное название — MIP) реализуются с помощью [меток конфиденциальности](sensitivity-labels.md). Чтобы создать и опубликовать эти метки, перейдите в [Центр соответствия требованиям Microsoft 365](https://compliance.microsoft.com/). Вы также можете использовать Центр безопасности и соответствия требованиям Office 365.
 
 Сначала создайте и настройте метки конфиденциальности, которые должны быть доступны для приложений и других служб. Например, метки, которые пользователям нужно найти и применить из приложений Office. 
 
@@ -42,7 +42,7 @@ ms.locfileid: "52244628"
 
 1. В своем центре администрирования меток перейдите к меткам конфиденциальности.
     
-    - Центр соответствия требованиям Microsoft 365: 
+    - Центр соответствия требованиям Microsoft 365: 
         - **Решения** > **Защита информации**
         
         Если этот параметр не отображается сразу, сначала выберите пункт **Показать все**. 
@@ -136,7 +136,7 @@ Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $DisplayNameLocaleSet
 
 1. В своем центре администрирования меток перейдите к меткам конфиденциальности.
     
-    - Центр соответствия требованиям Microsoft 365: 
+    - Центр соответствия требованиям Microsoft 365: 
         - **Решения** > **Защита информации**
         
         Если этот параметр не отображается сразу, сначала выберите пункт **Показать все**. 
@@ -181,6 +181,9 @@ Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $DisplayNameLocaleSet
 При нажатии этой кнопки запустится мастер **создания политики**, позволяющий изменить метки, которые будут включены, и параметры меток. После завершения работы мастера все изменения автоматически реплицируются для выбранных пользователей и служб.
 
 Если вы используете встроенные метки в приложениях Office для Windows, macOS, iOS и Android, пользователи увидят новые метки в течение четырех часов, а в Word, Excel и PowerPoint для Интернета — в течение одного часа после обновления браузера. Однако репликация этих изменений для всех приложений и служб может занять до 24 часов.
+
+> [!NOTE]
+> Другие приложения и службы, поддерживающие метки конфиденциальности, могут обновляться чаще, чем раз в 24 часа, используя собственные расписания обновлений и триггеры для обновлений политики. Дополнительные сведения см. в их документации. Например, для клиента унифицированных меток Azure Information Protection см. строку **Обновление политики** в таблице [Подробное сравнение для клиентов Azure Information Protection](/azure/information-protection/rms-client/use-client#detailed-comparisons-for-the-azure-information-protection-clients).
 
 ### <a name="additional-label-policy-settings-with-security--compliance-center-powershell"></a>Дополнительные параметры политики меток в PowerShell в Центре безопасности и соответствия требованиям
 
