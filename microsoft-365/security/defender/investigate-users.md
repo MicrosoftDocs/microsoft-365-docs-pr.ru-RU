@@ -26,49 +26,49 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52572805"
 ---
-# <a name="investigate-users-in-microsoft-365-defender"></a><span data-ttu-id="f7598-104">Исследование пользователей в Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="f7598-104">Investigate users in Microsoft 365 Defender</span></span>
+# <a name="investigate-users-in-microsoft-365-defender"></a><span data-ttu-id="1925e-104">Исследование пользователей в Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="1925e-104">Investigate users in Microsoft 365 Defender</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-<span data-ttu-id="f7598-105">**Область применения:**</span><span class="sxs-lookup"><span data-stu-id="f7598-105">**Applies to:**</span></span>
+<span data-ttu-id="1925e-105">**Область применения:**</span><span class="sxs-lookup"><span data-stu-id="1925e-105">**Applies to:**</span></span>
 
-- <span data-ttu-id="f7598-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="f7598-106">Microsoft 365 Defender</span></span>
+- <span data-ttu-id="1925e-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="1925e-106">Microsoft 365 Defender</span></span>
 
-<span data-ttu-id="f7598-107">Часть расследования инцидента может включать учетные записи пользователей.</span><span class="sxs-lookup"><span data-stu-id="f7598-107">Part of your incident investigation can include user accounts.</span></span> <span data-ttu-id="f7598-108">Начните со вкладки **"Пользователи"** об инциденте из & оповещений о > *>* **пользователи**.</span><span class="sxs-lookup"><span data-stu-id="f7598-108">Start with the **Users** tab for an incident from **Incidents & alerts >** *incident* **> Users**.</span></span> 
+<span data-ttu-id="1925e-107">Часть расследования инцидента может включать учетные записи пользователей.</span><span class="sxs-lookup"><span data-stu-id="1925e-107">Part of your incident investigation can include user accounts.</span></span> <span data-ttu-id="1925e-108">Начните со вкладки **"Пользователи"** об инциденте из & оповещений о > *>* **пользователи**.</span><span class="sxs-lookup"><span data-stu-id="1925e-108">Start with the **Users** tab for an incident from **Incidents & alerts >** *incident* **> Users**.</span></span> 
 
 :::image type="content" source="../../media/investigate-incidents/incident-users.png" alt-text="Пример страницы &quot;Пользователи&quot; для инцидента":::
 
-<span data-ttu-id="f7598-110">Чтобы получить краткое описание учетной записи пользователя для инцидента, выберите контрольный знак рядом с именем учетной записи пользователя.</span><span class="sxs-lookup"><span data-stu-id="f7598-110">To get a quick summary of a user account for the incident, select the check mark next to the user account name.</span></span> <span data-ttu-id="f7598-111">Ниже приведен пример.</span><span class="sxs-lookup"><span data-stu-id="f7598-111">Here's an example.</span></span>
+<span data-ttu-id="1925e-110">Чтобы получить краткое описание учетной записи пользователя для инцидента, выберите контрольный знак рядом с именем учетной записи пользователя.</span><span class="sxs-lookup"><span data-stu-id="1925e-110">To get a quick summary of a user account for the incident, select the check mark next to the user account name.</span></span> <span data-ttu-id="1925e-111">Ниже приведен пример.</span><span class="sxs-lookup"><span data-stu-id="1925e-111">Here's an example.</span></span>
 
 :::image type="content" source="../../media/investigate-users/incidents-ss-user-pane.png" alt-text="Пример сводки учетной записи пользователя для инцидента в центре Microsoft 365 безопасности":::
 
 > [!NOTE]
-> <span data-ttu-id="f7598-113">На странице Пользователя Azure Active Directory организация Azure AD, а также группы, помогающие понять группы и разрешения, связанные с пользователем.</span><span class="sxs-lookup"><span data-stu-id="f7598-113">The User page shows Azure Active Directory (Azure AD) organization as well as groups, helping you understand the groups and permissions associated with a user.</span></span>
+> <span data-ttu-id="1925e-113">На странице Пользователя Azure Active Directory организация Azure AD, а также группы, помогающие понять группы и разрешения, связанные с пользователем.</span><span class="sxs-lookup"><span data-stu-id="1925e-113">The User page shows Azure Active Directory (Azure AD) organization as well as groups, helping you understand the groups and permissions associated with a user.</span></span>
 
-<span data-ttu-id="f7598-114">На этой странице вылетов вы можете просмотреть сведения об угрозах пользователей, включая текущие инциденты, активные оповещения и уровень риска, а также экспозицию пользователей, учетные записи, устройства и т. д.</span><span class="sxs-lookup"><span data-stu-id="f7598-114">In this fly-out page, you can review user threat information, including any current incidents, active alerts, and risk level as well as user exposure, accounts, devices, and more.</span></span>
+<span data-ttu-id="1925e-114">На этой странице вылетов вы можете просмотреть сведения об угрозах пользователей, включая текущие инциденты, активные оповещения и уровень риска, а также экспозицию пользователей, учетные записи, устройства и т. д.</span><span class="sxs-lookup"><span data-stu-id="1925e-114">In this fly-out page, you can review user threat information, including any current incidents, active alerts, and risk level as well as user exposure, accounts, devices, and more.</span></span>
 
-<span data-ttu-id="f7598-115">Кроме того, вы можете принять меры непосредственно в центре Microsoft 365 безопасности, чтобы обратиться к скомпрометированного пользователя, подтвердив, что пользователь скомпрометирован или требует от него снова войти.</span><span class="sxs-lookup"><span data-stu-id="f7598-115">In addition, you can take action directly in the Microsoft 365 security center to address a compromised user, confirming the user is compromised or requiring them to sign in again.</span></span>
+<span data-ttu-id="1925e-115">Кроме того, вы можете принять меры непосредственно в центре Microsoft 365 безопасности, чтобы обратиться к скомпрометированного пользователя, подтвердив, что пользователь скомпрометирован или требует от него снова войти.</span><span class="sxs-lookup"><span data-stu-id="1925e-115">In addition, you can take action directly in the Microsoft 365 security center to address a compromised user, confirming the user is compromised or requiring them to sign in again.</span></span>
 
-<span data-ttu-id="f7598-116">Здесь вы можете выбрать **страницу Перейти на страницу пользователя,** чтобы узнать подробности учетной записи пользователя.</span><span class="sxs-lookup"><span data-stu-id="f7598-116">From here, you can select **Go to user page** to see the details of a user account.</span></span> <span data-ttu-id="f7598-117">Ниже приведен пример.</span><span class="sxs-lookup"><span data-stu-id="f7598-117">Here's an example.</span></span>
+<span data-ttu-id="1925e-116">Здесь вы можете выбрать **страницу Перейти на страницу пользователя,** чтобы узнать подробности учетной записи пользователя.</span><span class="sxs-lookup"><span data-stu-id="1925e-116">From here, you can select **Go to user page** to see the details of a user account.</span></span> <span data-ttu-id="1925e-117">Ниже приведен пример.</span><span class="sxs-lookup"><span data-stu-id="1925e-117">Here's an example.</span></span>
 
 :::image type="content" source="../../media/investigate-users/incidents-ss-user-details.png" alt-text="Пример страницы учетной записи пользователя для инцидента в центре Microsoft 365 безопасности":::
 
-<span data-ttu-id="f7598-119">Вы также можете увидеть эту страницу, выбрав имя учетной записи пользователя из списка на странице **Пользователи.**</span><span class="sxs-lookup"><span data-stu-id="f7598-119">You can also see this page by selecting the name of the user account from the list on the **Users** page.</span></span>
+<span data-ttu-id="1925e-119">Вы также можете увидеть эту страницу, выбрав имя учетной записи пользователя из списка на странице **Пользователи.**</span><span class="sxs-lookup"><span data-stu-id="1925e-119">You can also see this page by selecting the name of the user account from the list on the **Users** page.</span></span>
 
-<span data-ttu-id="f7598-120">Страница Microsoft 365 центра безопасности объединяет сведения из Microsoft Defender for Endpoint, Microsoft Defender for Identity и Microsoft Cloud App Security (в зависимости от лицензий).</span><span class="sxs-lookup"><span data-stu-id="f7598-120">The Microsoft 365 security center user page combines information from Microsoft Defender for Endpoint, Microsoft Defender for Identity, and Microsoft Cloud App Security (depending on what licenses you have).</span></span> 
+<span data-ttu-id="1925e-120">Страница Microsoft 365 центра безопасности объединяет сведения из Microsoft Defender for Endpoint, Microsoft Defender for Identity и Microsoft Cloud App Security (в зависимости от лицензий).</span><span class="sxs-lookup"><span data-stu-id="1925e-120">The Microsoft 365 security center user page combines information from Microsoft Defender for Endpoint, Microsoft Defender for Identity, and Microsoft Cloud App Security (depending on what licenses you have).</span></span> 
 
-<span data-ttu-id="f7598-121">На этой странице показаны сведения, определенные для риска безопасности учетной записи пользователя.</span><span class="sxs-lookup"><span data-stu-id="f7598-121">This page shows information specific to the security risk of a user account.</span></span> <span data-ttu-id="f7598-122">Это включает оценку, которая помогает оценить риски и недавние события и оповещения, которые способствовали общему риску пользователя.</span><span class="sxs-lookup"><span data-stu-id="f7598-122">This includes a score that helps assess risk and recent events and alerts that contributed to the overall risk of the user.</span></span>
+<span data-ttu-id="1925e-121">На этой странице показаны сведения, определенные для риска безопасности учетной записи пользователя.</span><span class="sxs-lookup"><span data-stu-id="1925e-121">This page shows information specific to the security risk of a user account.</span></span> <span data-ttu-id="1925e-122">Это включает оценку, которая помогает оценить риски и недавние события и оповещения, которые способствовали общему риску пользователя.</span><span class="sxs-lookup"><span data-stu-id="1925e-122">This includes a score that helps assess risk and recent events and alerts that contributed to the overall risk of the user.</span></span>
 
-<span data-ttu-id="f7598-123">На этой странице можно сделать дополнительные действия:</span><span class="sxs-lookup"><span data-stu-id="f7598-123">From this page, you can do these additional actions:</span></span> 
+<span data-ttu-id="1925e-123">На этой странице можно сделать дополнительные действия:</span><span class="sxs-lookup"><span data-stu-id="1925e-123">From this page, you can do these additional actions:</span></span> 
 
-- <span data-ttu-id="f7598-124">Пометить учетную запись пользователя как скомпрометированную</span><span class="sxs-lookup"><span data-stu-id="f7598-124">Mark the user account as compromised</span></span>
-- <span data-ttu-id="f7598-125">Требовать от пользователя снова войти</span><span class="sxs-lookup"><span data-stu-id="f7598-125">Require the user to sign in again</span></span>
-- <span data-ttu-id="f7598-126">Приостановка учетной записи пользователя</span><span class="sxs-lookup"><span data-stu-id="f7598-126">Suspend the user account</span></span>
-- <span data-ttu-id="f7598-127">См. Azure Active Directory параметров учетной записи пользователя Azure AD</span><span class="sxs-lookup"><span data-stu-id="f7598-127">See the Azure Active Directory (Azure AD) user account settings</span></span>
-- <span data-ttu-id="f7598-128">Просмотр файлов, которые принадлежат учетной записи пользователя</span><span class="sxs-lookup"><span data-stu-id="f7598-128">View the files owned by the user account</span></span>
-- <span data-ttu-id="f7598-129">Просмотр файлов, общих этому пользователю.</span><span class="sxs-lookup"><span data-stu-id="f7598-129">View files shared with this user.</span></span> 
+- <span data-ttu-id="1925e-124">Пометить учетную запись пользователя как скомпрометированную</span><span class="sxs-lookup"><span data-stu-id="1925e-124">Mark the user account as compromised</span></span>
+- <span data-ttu-id="1925e-125">Требовать от пользователя снова войти</span><span class="sxs-lookup"><span data-stu-id="1925e-125">Require the user to sign in again</span></span>
+- <span data-ttu-id="1925e-126">Приостановка учетной записи пользователя</span><span class="sxs-lookup"><span data-stu-id="1925e-126">Suspend the user account</span></span>
+- <span data-ttu-id="1925e-127">См. Azure Active Directory параметров учетной записи пользователя Azure AD</span><span class="sxs-lookup"><span data-stu-id="1925e-127">See the Azure Active Directory (Azure AD) user account settings</span></span>
+- <span data-ttu-id="1925e-128">Просмотр файлов, которые принадлежат учетной записи пользователя</span><span class="sxs-lookup"><span data-stu-id="1925e-128">View the files owned by the user account</span></span>
+- <span data-ttu-id="1925e-129">Просмотр файлов, общих этому пользователю.</span><span class="sxs-lookup"><span data-stu-id="1925e-129">View files shared with this user.</span></span> 
 
-<span data-ttu-id="f7598-130">Ниже приведен пример.</span><span class="sxs-lookup"><span data-stu-id="f7598-130">Here's an example.</span></span>
+<span data-ttu-id="1925e-130">Ниже приведен пример.</span><span class="sxs-lookup"><span data-stu-id="1925e-130">Here's an example.</span></span>
 
 :::image type="content" source="../../media/investigate-users/incidents-ss-user-details-actions.png" alt-text="Пример действий учетной записи пользователя для инцидента в центре Microsoft 365 безопасности":::
 
@@ -80,12 +80,12 @@ Learn more about how to investigate users and potential risk [in this Cloud App 
 
 --> 
 
-## <a name="next-steps"></a><span data-ttu-id="f7598-132">Дальнейшие действия</span><span class="sxs-lookup"><span data-stu-id="f7598-132">Next steps</span></span>
+## <a name="next-steps"></a><span data-ttu-id="1925e-132">Дальнейшие действия</span><span class="sxs-lookup"><span data-stu-id="1925e-132">Next steps</span></span>
 
-<span data-ttu-id="f7598-133">По мере необходимости для инцидентов в процессе продолжайте [расследование.](investigate-incidents.md)</span><span class="sxs-lookup"><span data-stu-id="f7598-133">As needed for in-process incidents, continue your [investigation](investigate-incidents.md).</span></span>
+<span data-ttu-id="1925e-133">По мере необходимости для инцидентов в процессе продолжайте [расследование.](investigate-incidents.md)</span><span class="sxs-lookup"><span data-stu-id="1925e-133">As needed for in-process incidents, continue your [investigation](investigate-incidents.md).</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="f7598-134">См. также</span><span class="sxs-lookup"><span data-stu-id="f7598-134">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1925e-134">См. также</span><span class="sxs-lookup"><span data-stu-id="1925e-134">See also</span></span>
 
-- [<span data-ttu-id="f7598-135">Обзор инцидентов</span><span class="sxs-lookup"><span data-stu-id="f7598-135">Incidents overview</span></span>](incidents-overview.md)
-- [<span data-ttu-id="f7598-136">Управление приоритетом инцидентов</span><span class="sxs-lookup"><span data-stu-id="f7598-136">Prioritize incidents</span></span>](incident-queue.md)
-- [<span data-ttu-id="f7598-137">Управление инцидентами</span><span class="sxs-lookup"><span data-stu-id="f7598-137">Manage incidents</span></span>](manage-incidents.md)
+- [<span data-ttu-id="1925e-135">Обзор инцидентов</span><span class="sxs-lookup"><span data-stu-id="1925e-135">Incidents overview</span></span>](incidents-overview.md)
+- [<span data-ttu-id="1925e-136">Управление приоритетом инцидентов</span><span class="sxs-lookup"><span data-stu-id="1925e-136">Prioritize incidents</span></span>](incident-queue.md)
+- [<span data-ttu-id="1925e-137">Управление инцидентами</span><span class="sxs-lookup"><span data-stu-id="1925e-137">Manage incidents</span></span>](manage-incidents.md)
