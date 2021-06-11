@@ -19,24 +19,24 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52295515"
 ---
-# <a name="contact-support-for-reunion"></a><span data-ttu-id="29e14-103">Поддержка контактов для реюньона</span><span class="sxs-lookup"><span data-stu-id="29e14-103">Contact support for Reunion</span></span>
+# <a name="contact-support-for-reunion"></a><span data-ttu-id="fffb3-103">Поддержка контактов для реюньона</span><span class="sxs-lookup"><span data-stu-id="fffb3-103">Contact support for Reunion</span></span>
 
-<span data-ttu-id="29e14-104">[Найдите другую страну или регион.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="29e14-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="fffb3-104">[Найдите другую страну или регион.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="fffb3-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="29e14-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="29e14-105">Phone number</span></span>
-<span data-ttu-id="29e14-106">+1 312 843 5147</span><span class="sxs-lookup"><span data-stu-id="29e14-106">+1 312 843 5147</span></span>
+## <a name="phone-number"></a><span data-ttu-id="fffb3-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="fffb3-105">Phone number</span></span>
+<span data-ttu-id="fffb3-106">+1 312 843 5147</span><span class="sxs-lookup"><span data-stu-id="fffb3-106">+1 312 843 5147</span></span>
 
-## <a name="hours"></a><span data-ttu-id="29e14-107">Часы</span><span class="sxs-lookup"><span data-stu-id="29e14-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="29e14-108">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="29e14-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="fffb3-107">Часы</span><span class="sxs-lookup"><span data-stu-id="fffb3-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="fffb3-108">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="fffb3-108">Billing Support:</span></span>
 
-<span data-ttu-id="29e14-109">Французский язык: Mon-Fri-8 вечера</span><span class="sxs-lookup"><span data-stu-id="29e14-109">French: Mon-Fri noon-8 PM</span></span>
+<span data-ttu-id="fffb3-109">Французский язык: Mon-Fri-8 вечера</span><span class="sxs-lookup"><span data-stu-id="fffb3-109">French: Mon-Fri noon-8 PM</span></span>
 
-<span data-ttu-id="29e14-110">Английский: Mon-Fri-8 вечера</span><span class="sxs-lookup"><span data-stu-id="29e14-110">English: Mon-Fri noon-8 PM</span></span>
+<span data-ttu-id="fffb3-110">Английский: Mon-Fri-8 вечера</span><span class="sxs-lookup"><span data-stu-id="fffb3-110">English: Mon-Fri noon-8 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="29e14-111">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="29e14-111">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="fffb3-111">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="fffb3-111">Technical Support:</span></span>
 
-<span data-ttu-id="29e14-112">Французский: Mon-Fri 11:00-11:00</span><span class="sxs-lookup"><span data-stu-id="29e14-112">French: Mon-Fri 11 AM-11 PM</span></span>
+<span data-ttu-id="fffb3-112">Французский: Mon-Fri 11:00-11:00</span><span class="sxs-lookup"><span data-stu-id="fffb3-112">French: Mon-Fri 11 AM-11 PM</span></span>
 
-<span data-ttu-id="29e14-113">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="29e14-113">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="fffb3-113">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="fffb3-113">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="29e14-114">Применяются локальные платежи за вызовы</span><span class="sxs-lookup"><span data-stu-id="29e14-114">Local call charges apply</span></span>
+<span data-ttu-id="fffb3-114">Применяются локальные платежи за вызовы</span><span class="sxs-lookup"><span data-stu-id="fffb3-114">Local call charges apply</span></span>

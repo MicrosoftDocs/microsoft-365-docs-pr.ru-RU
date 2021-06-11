@@ -19,20 +19,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52295551"
 ---
-# <a name="contact-support-for-philippines"></a><span data-ttu-id="0bb77-103">Поддержка контактов для Филиппин</span><span class="sxs-lookup"><span data-stu-id="0bb77-103">Contact support for Philippines</span></span>
+# <a name="contact-support-for-philippines"></a><span data-ttu-id="b3f9a-103">Поддержка контактов для Филиппин</span><span class="sxs-lookup"><span data-stu-id="b3f9a-103">Contact support for Philippines</span></span>
 
-<span data-ttu-id="0bb77-104">[Найдите другую страну или регион.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="0bb77-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="b3f9a-104">[Найдите другую страну или регион.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="b3f9a-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="0bb77-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="0bb77-105">Phone number</span></span>
-<span data-ttu-id="0bb77-106">1800 1441 0625 (PLDT)</span><span class="sxs-lookup"><span data-stu-id="0bb77-106">1800 1441 0625 (PLDT)</span></span>
+## <a name="phone-number"></a><span data-ttu-id="b3f9a-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="b3f9a-105">Phone number</span></span>
+<span data-ttu-id="b3f9a-106">1800 1441 0625 (PLDT)</span><span class="sxs-lookup"><span data-stu-id="b3f9a-106">1800 1441 0625 (PLDT)</span></span>
 
-<span data-ttu-id="0bb77-107">1800 8908 6422 (Глобус)</span><span class="sxs-lookup"><span data-stu-id="0bb77-107">1800 8908 6422 (Globe)</span></span>
+<span data-ttu-id="b3f9a-107">1800 8908 6422 (Глобус)</span><span class="sxs-lookup"><span data-stu-id="b3f9a-107">1800 8908 6422 (Globe)</span></span>
 
-## <a name="hours"></a><span data-ttu-id="0bb77-108">Часы</span><span class="sxs-lookup"><span data-stu-id="0bb77-108">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="0bb77-109">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="0bb77-109">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="b3f9a-108">Часы</span><span class="sxs-lookup"><span data-stu-id="b3f9a-108">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="b3f9a-109">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="b3f9a-109">Billing Support:</span></span>
 
-<span data-ttu-id="0bb77-110">Английский: Mon-Fri 09:00</span><span class="sxs-lookup"><span data-stu-id="0bb77-110">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="b3f9a-110">Английский: Mon-Fri 09:00</span><span class="sxs-lookup"><span data-stu-id="b3f9a-110">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="0bb77-111">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="0bb77-111">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="b3f9a-111">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="b3f9a-111">Technical Support:</span></span>
 
-<span data-ttu-id="0bb77-112">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="0bb77-112">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="b3f9a-112">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="b3f9a-112">English: 24 hours a day, 7 days a week</span></span>

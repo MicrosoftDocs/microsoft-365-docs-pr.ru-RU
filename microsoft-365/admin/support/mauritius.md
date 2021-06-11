@@ -19,22 +19,22 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52295835"
 ---
-# <a name="contact-support-for-mauritius"></a><span data-ttu-id="d21e1-103">Поддержка контактов для Маврикия</span><span class="sxs-lookup"><span data-stu-id="d21e1-103">Contact support for Mauritius</span></span>
+# <a name="contact-support-for-mauritius"></a><span data-ttu-id="b0174-103">Поддержка контактов для Маврикия</span><span class="sxs-lookup"><span data-stu-id="b0174-103">Contact support for Mauritius</span></span>
 
-<span data-ttu-id="d21e1-104">[Найдите другую страну или регион.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="d21e1-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="b0174-104">[Найдите другую страну или регион.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="b0174-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="d21e1-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="d21e1-105">Phone number</span></span>
-<span data-ttu-id="d21e1-106">802 044 0086</span><span class="sxs-lookup"><span data-stu-id="d21e1-106">802 044 0086</span></span>
+## <a name="phone-number"></a><span data-ttu-id="b0174-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="b0174-105">Phone number</span></span>
+<span data-ttu-id="b0174-106">802 044 0086</span><span class="sxs-lookup"><span data-stu-id="b0174-106">802 044 0086</span></span>
 
-## <a name="hours"></a><span data-ttu-id="d21e1-107">Часы</span><span class="sxs-lookup"><span data-stu-id="d21e1-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="d21e1-108">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="d21e1-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="b0174-107">Часы</span><span class="sxs-lookup"><span data-stu-id="b0174-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="b0174-108">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="b0174-108">Billing Support:</span></span>
 
-<span data-ttu-id="d21e1-109">Французский: Mon-Fri 11 am-7 PM</span><span class="sxs-lookup"><span data-stu-id="d21e1-109">French: Mon-Fri 11 AM-7 PM</span></span>
+<span data-ttu-id="b0174-109">Французский: Mon-Fri 11 am-7 PM</span><span class="sxs-lookup"><span data-stu-id="b0174-109">French: Mon-Fri 11 AM-7 PM</span></span>
 
-<span data-ttu-id="d21e1-110">Английский: Mon-Fri 11 am-7 PM</span><span class="sxs-lookup"><span data-stu-id="d21e1-110">English: Mon-Fri 11 AM-7 PM</span></span>
+<span data-ttu-id="b0174-110">Английский: Mon-Fri 11 am-7 PM</span><span class="sxs-lookup"><span data-stu-id="b0174-110">English: Mon-Fri 11 AM-7 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="d21e1-111">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="d21e1-111">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="b0174-111">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="b0174-111">Technical Support:</span></span>
 
-<span data-ttu-id="d21e1-112">Французский: Mon-Fri 11:00-полночь</span><span class="sxs-lookup"><span data-stu-id="d21e1-112">French: Mon-Fri 11 AM-midnight</span></span>
+<span data-ttu-id="b0174-112">Французский: Mon-Fri 11:00-полночь</span><span class="sxs-lookup"><span data-stu-id="b0174-112">French: Mon-Fri 11 AM-midnight</span></span>
 
-<span data-ttu-id="d21e1-113">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="d21e1-113">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="b0174-113">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="b0174-113">English: 24 hours a day, 7 days a week</span></span>

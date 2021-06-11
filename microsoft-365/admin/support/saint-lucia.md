@@ -19,20 +19,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52295479"
 ---
-# <a name="contact-support-for-saint-lucia"></a><span data-ttu-id="64c27-103">Поддержка контактов для Saint Lucia</span><span class="sxs-lookup"><span data-stu-id="64c27-103">Contact support for Saint Lucia</span></span>
+# <a name="contact-support-for-saint-lucia"></a><span data-ttu-id="55fbb-103">Поддержка контактов для Saint Lucia</span><span class="sxs-lookup"><span data-stu-id="55fbb-103">Contact support for Saint Lucia</span></span>
 
-<span data-ttu-id="64c27-104">[Найдите другую страну или регион.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="64c27-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="55fbb-104">[Найдите другую страну или регион.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="55fbb-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="64c27-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="64c27-105">Phone number</span></span>
-<span data-ttu-id="64c27-106">+1 312 843 5145</span><span class="sxs-lookup"><span data-stu-id="64c27-106">+1 312 843 5145</span></span>
+## <a name="phone-number"></a><span data-ttu-id="55fbb-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="55fbb-105">Phone number</span></span>
+<span data-ttu-id="55fbb-106">+1 312 843 5145</span><span class="sxs-lookup"><span data-stu-id="55fbb-106">+1 312 843 5145</span></span>
 
-## <a name="hours"></a><span data-ttu-id="64c27-107">Часы</span><span class="sxs-lookup"><span data-stu-id="64c27-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="64c27-108">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="64c27-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="55fbb-107">Часы</span><span class="sxs-lookup"><span data-stu-id="55fbb-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="55fbb-108">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="55fbb-108">Billing Support:</span></span>
 
-<span data-ttu-id="64c27-109">Английский: Mon-Fri 09:00</span><span class="sxs-lookup"><span data-stu-id="64c27-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="55fbb-109">Английский: Mon-Fri 09:00</span><span class="sxs-lookup"><span data-stu-id="55fbb-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="64c27-110">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="64c27-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="55fbb-110">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="55fbb-110">Technical Support:</span></span>
 
-<span data-ttu-id="64c27-111">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="64c27-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="55fbb-111">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="55fbb-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="64c27-112">Применяются международные сборы за вызовы</span><span class="sxs-lookup"><span data-stu-id="64c27-112">International call charges apply</span></span>
+<span data-ttu-id="55fbb-112">Применяются международные сборы за вызовы</span><span class="sxs-lookup"><span data-stu-id="55fbb-112">International call charges apply</span></span>

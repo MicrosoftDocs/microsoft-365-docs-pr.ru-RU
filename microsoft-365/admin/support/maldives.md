@@ -19,20 +19,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52295871"
 ---
-# <a name="contact-support-for-maldives"></a><span data-ttu-id="d8874-103">Поддержка контактов для Мальдив</span><span class="sxs-lookup"><span data-stu-id="d8874-103">Contact support for Maldives</span></span>
+# <a name="contact-support-for-maldives"></a><span data-ttu-id="25464-103">Поддержка контактов для Мальдив</span><span class="sxs-lookup"><span data-stu-id="25464-103">Contact support for Maldives</span></span>
 
-<span data-ttu-id="d8874-104">[Найдите другую страну или регион.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="d8874-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="25464-104">[Найдите другую страну или регион.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="25464-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="d8874-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="d8874-105">Phone number</span></span>
-<span data-ttu-id="d8874-106">+1 312 843 5148</span><span class="sxs-lookup"><span data-stu-id="d8874-106">+1 312 843 5148</span></span>
+## <a name="phone-number"></a><span data-ttu-id="25464-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="25464-105">Phone number</span></span>
+<span data-ttu-id="25464-106">+1 312 843 5148</span><span class="sxs-lookup"><span data-stu-id="25464-106">+1 312 843 5148</span></span>
 
-## <a name="hours"></a><span data-ttu-id="d8874-107">Часы</span><span class="sxs-lookup"><span data-stu-id="d8874-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="d8874-108">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="d8874-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="25464-107">Часы</span><span class="sxs-lookup"><span data-stu-id="25464-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="25464-108">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="25464-108">Billing Support:</span></span>
 
-<span data-ttu-id="d8874-109">Английский: Mon-Fri 10 am-6 PM</span><span class="sxs-lookup"><span data-stu-id="d8874-109">English: Mon-Fri 10 AM-6 PM</span></span>
+<span data-ttu-id="25464-109">Английский: Mon-Fri 10 am-6 PM</span><span class="sxs-lookup"><span data-stu-id="25464-109">English: Mon-Fri 10 AM-6 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="d8874-110">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="d8874-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="25464-110">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="25464-110">Technical Support:</span></span>
 
-<span data-ttu-id="d8874-111">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="d8874-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="25464-111">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="25464-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="d8874-112">Применяются международные сборы за вызовы</span><span class="sxs-lookup"><span data-stu-id="d8874-112">International call charges apply</span></span>
+<span data-ttu-id="25464-112">Применяются международные сборы за вызовы</span><span class="sxs-lookup"><span data-stu-id="25464-112">International call charges apply</span></span>

@@ -19,22 +19,22 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52295059"
 ---
-# <a name="contact-support-for-turkey"></a><span data-ttu-id="684e3-103">Поддержка контактов для Турции</span><span class="sxs-lookup"><span data-stu-id="684e3-103">Contact support for Turkey</span></span>
+# <a name="contact-support-for-turkey"></a><span data-ttu-id="cf12e-103">Поддержка контактов для Турции</span><span class="sxs-lookup"><span data-stu-id="cf12e-103">Contact support for Turkey</span></span>
 
-<span data-ttu-id="684e3-104">[Найдите другую страну или регион.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="684e3-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="cf12e-104">[Найдите другую страну или регион.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="cf12e-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="684e3-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="684e3-105">Phone number</span></span>
-<span data-ttu-id="684e3-106">0 850 3902777</span><span class="sxs-lookup"><span data-stu-id="684e3-106">0 850 3902777</span></span>
+## <a name="phone-number"></a><span data-ttu-id="cf12e-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="cf12e-105">Phone number</span></span>
+<span data-ttu-id="cf12e-106">0 850 3902777</span><span class="sxs-lookup"><span data-stu-id="cf12e-106">0 850 3902777</span></span>
 
-## <a name="hours"></a><span data-ttu-id="684e3-107">Часы</span><span class="sxs-lookup"><span data-stu-id="684e3-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="684e3-108">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="684e3-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="cf12e-107">Часы</span><span class="sxs-lookup"><span data-stu-id="cf12e-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="cf12e-108">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="cf12e-108">Billing Support:</span></span>
 
-<span data-ttu-id="684e3-109">Турецкий: Mon-Fri 9 am-6 PM</span><span class="sxs-lookup"><span data-stu-id="684e3-109">Turkish: Mon-Fri 9 AM-6 PM</span></span>
+<span data-ttu-id="cf12e-109">Турецкий: Mon-Fri 9 am-6 PM</span><span class="sxs-lookup"><span data-stu-id="cf12e-109">Turkish: Mon-Fri 9 AM-6 PM</span></span>
 
-<span data-ttu-id="684e3-110">Английский: Mon-Fri 9 am-6 PM</span><span class="sxs-lookup"><span data-stu-id="684e3-110">English: Mon-Fri 9 AM-6 PM</span></span>
+<span data-ttu-id="cf12e-110">Английский: Mon-Fri 9 am-6 PM</span><span class="sxs-lookup"><span data-stu-id="cf12e-110">English: Mon-Fri 9 AM-6 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="684e3-111">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="684e3-111">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="cf12e-111">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="cf12e-111">Technical Support:</span></span>
 
-<span data-ttu-id="684e3-112">Турецкий: Mon-Fri 8 am-6 PM</span><span class="sxs-lookup"><span data-stu-id="684e3-112">Turkish: Mon-Fri 8 AM-6 PM</span></span>
+<span data-ttu-id="cf12e-112">Турецкий: Mon-Fri 8 am-6 PM</span><span class="sxs-lookup"><span data-stu-id="cf12e-112">Turkish: Mon-Fri 8 AM-6 PM</span></span>
 
-<span data-ttu-id="684e3-113">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="684e3-113">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="cf12e-113">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="cf12e-113">English: 24 hours a day, 7 days a week</span></span>
