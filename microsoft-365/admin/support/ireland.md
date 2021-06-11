@@ -19,22 +19,22 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52296051"
 ---
-# <a name="contact-support-for-ireland"></a><span data-ttu-id="9918b-103">Поддержка контактов для Ирландии</span><span class="sxs-lookup"><span data-stu-id="9918b-103">Contact support for Ireland</span></span>
+# <a name="contact-support-for-ireland"></a><span data-ttu-id="13494-103">Поддержка контактов для Ирландии</span><span class="sxs-lookup"><span data-stu-id="13494-103">Contact support for Ireland</span></span>
 
-<span data-ttu-id="9918b-104">[Найдите другую страну или регион.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="9918b-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="13494-104">[Найдите другую страну или регион.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="13494-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="9918b-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="9918b-105">Phone number</span></span>
-<span data-ttu-id="9918b-106">1 800 995309</span><span class="sxs-lookup"><span data-stu-id="9918b-106">1 800 995309</span></span>
+## <a name="phone-number"></a><span data-ttu-id="13494-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="13494-105">Phone number</span></span>
+<span data-ttu-id="13494-106">1 800 995309</span><span class="sxs-lookup"><span data-stu-id="13494-106">1 800 995309</span></span>
 
-## <a name="hours"></a><span data-ttu-id="9918b-107">Часы</span><span class="sxs-lookup"><span data-stu-id="9918b-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="9918b-108">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="9918b-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="13494-107">Часы</span><span class="sxs-lookup"><span data-stu-id="13494-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="13494-108">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="13494-108">Billing Support:</span></span>
 
-<span data-ttu-id="9918b-109">Английский: Mon-Fri 09:00</span><span class="sxs-lookup"><span data-stu-id="9918b-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="13494-109">Английский: Mon-Fri 09:00</span><span class="sxs-lookup"><span data-stu-id="13494-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="9918b-110">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="9918b-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="13494-110">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="13494-110">Technical Support:</span></span>
 
-<span data-ttu-id="9918b-111">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="9918b-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="13494-111">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="13494-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="9918b-112">Альтернативный Телефон: 01 656 9837</span><span class="sxs-lookup"><span data-stu-id="9918b-112">Alternative Phone Number: 01 656 9837</span></span>
+<span data-ttu-id="13494-112">Альтернативный Телефон: 01 656 9837</span><span class="sxs-lookup"><span data-stu-id="13494-112">Alternative Phone Number: 01 656 9837</span></span>
 
-<span data-ttu-id="9918b-113">Применяются локальные платежи за вызовы</span><span class="sxs-lookup"><span data-stu-id="9918b-113">Local call charges apply</span></span>
+<span data-ttu-id="13494-113">Применяются локальные платежи за вызовы</span><span class="sxs-lookup"><span data-stu-id="13494-113">Local call charges apply</span></span>

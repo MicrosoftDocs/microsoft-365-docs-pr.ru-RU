@@ -19,22 +19,22 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52296231"
 ---
-# <a name="contact-support-for-finland"></a><span data-ttu-id="68c53-103">Поддержка контактов для Финляндии</span><span class="sxs-lookup"><span data-stu-id="68c53-103">Contact support for Finland</span></span>
+# <a name="contact-support-for-finland"></a><span data-ttu-id="0b650-103">Поддержка контактов для Финляндии</span><span class="sxs-lookup"><span data-stu-id="0b650-103">Contact support for Finland</span></span>
 
-<span data-ttu-id="68c53-104">[Найдите другую страну или регион.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="68c53-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="0b650-104">[Найдите другую страну или регион.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="0b650-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="68c53-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="68c53-105">Phone number</span></span>
-<span data-ttu-id="68c53-106">0800 98462</span><span class="sxs-lookup"><span data-stu-id="68c53-106">0800 98462</span></span>
+## <a name="phone-number"></a><span data-ttu-id="0b650-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="0b650-105">Phone number</span></span>
+<span data-ttu-id="0b650-106">0800 98462</span><span class="sxs-lookup"><span data-stu-id="0b650-106">0800 98462</span></span>
 
-## <a name="hours"></a><span data-ttu-id="68c53-107">Часы</span><span class="sxs-lookup"><span data-stu-id="68c53-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="68c53-108">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="68c53-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="0b650-107">Часы</span><span class="sxs-lookup"><span data-stu-id="0b650-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="0b650-108">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="0b650-108">Billing Support:</span></span>
 
-<span data-ttu-id="68c53-109">Английский: Mon-Fri 09:00</span><span class="sxs-lookup"><span data-stu-id="68c53-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="0b650-109">Английский: Mon-Fri 09:00</span><span class="sxs-lookup"><span data-stu-id="0b650-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="68c53-110">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="68c53-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="0b650-110">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="0b650-110">Technical Support:</span></span>
 
-<span data-ttu-id="68c53-111">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="68c53-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="0b650-111">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="0b650-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="68c53-112">Номер альтернативного Телефон: 09 72 51 96 30</span><span class="sxs-lookup"><span data-stu-id="68c53-112">Alternative Phone Number: 09 72 51 96 30</span></span>
+<span data-ttu-id="0b650-112">Номер альтернативного Телефон: 09 72 51 96 30</span><span class="sxs-lookup"><span data-stu-id="0b650-112">Alternative Phone Number: 09 72 51 96 30</span></span>
 
-<span data-ttu-id="68c53-113">Применяются локальные платежи за вызовы</span><span class="sxs-lookup"><span data-stu-id="68c53-113">Local call charges apply</span></span>
+<span data-ttu-id="0b650-113">Применяются локальные платежи за вызовы</span><span class="sxs-lookup"><span data-stu-id="0b650-113">Local call charges apply</span></span>

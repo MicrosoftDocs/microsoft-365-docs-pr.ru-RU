@@ -19,28 +19,28 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52296087"
 ---
-# <a name="contact-support-for-hong-kong-sar"></a><span data-ttu-id="a6cc1-103">Поддержка контактов для SAR Гонконга</span><span class="sxs-lookup"><span data-stu-id="a6cc1-103">Contact support for Hong Kong SAR</span></span>
+# <a name="contact-support-for-hong-kong-sar"></a><span data-ttu-id="664b2-103">Поддержка контактов для SAR Гонконга</span><span class="sxs-lookup"><span data-stu-id="664b2-103">Contact support for Hong Kong SAR</span></span>
 
-<span data-ttu-id="a6cc1-104">[Найдите другую страну или регион.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="a6cc1-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="664b2-104">[Найдите другую страну или регион.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="664b2-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="a6cc1-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="a6cc1-105">Phone number</span></span>
-<span data-ttu-id="a6cc1-106">3 071 3055</span><span class="sxs-lookup"><span data-stu-id="a6cc1-106">3 071 3055</span></span>
+## <a name="phone-number"></a><span data-ttu-id="664b2-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="664b2-105">Phone number</span></span>
+<span data-ttu-id="664b2-106">3 071 3055</span><span class="sxs-lookup"><span data-stu-id="664b2-106">3 071 3055</span></span>
 
-## <a name="hours"></a><span data-ttu-id="a6cc1-107">Часы</span><span class="sxs-lookup"><span data-stu-id="a6cc1-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="a6cc1-108">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="a6cc1-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="664b2-107">Часы</span><span class="sxs-lookup"><span data-stu-id="664b2-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="664b2-108">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="664b2-108">Billing Support:</span></span>
 
-<span data-ttu-id="a6cc1-109">Кантонский: Mon-Fri 9 am-6 PM</span><span class="sxs-lookup"><span data-stu-id="a6cc1-109">Cantonese: Mon-Fri 9 AM-6 PM</span></span>
+<span data-ttu-id="664b2-109">Кантонский: Mon-Fri 9 am-6 PM</span><span class="sxs-lookup"><span data-stu-id="664b2-109">Cantonese: Mon-Fri 9 AM-6 PM</span></span>
 
-<span data-ttu-id="a6cc1-110">Мандарин: Mon-Fri 9 am-6 PM</span><span class="sxs-lookup"><span data-stu-id="a6cc1-110">Mandarin: Mon-Fri 9 AM-6 PM</span></span>
+<span data-ttu-id="664b2-110">Мандарин: Mon-Fri 9 am-6 PM</span><span class="sxs-lookup"><span data-stu-id="664b2-110">Mandarin: Mon-Fri 9 AM-6 PM</span></span>
 
-<span data-ttu-id="a6cc1-111">Английский: Mon-Fri 9 am-6 PM</span><span class="sxs-lookup"><span data-stu-id="a6cc1-111">English: Mon-Fri 9 AM-6 PM</span></span>
+<span data-ttu-id="664b2-111">Английский: Mon-Fri 9 am-6 PM</span><span class="sxs-lookup"><span data-stu-id="664b2-111">English: Mon-Fri 9 AM-6 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="a6cc1-112">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="a6cc1-112">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="664b2-112">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="664b2-112">Technical Support:</span></span>
 
-<span data-ttu-id="a6cc1-113">Кантонский: Mon-Fri 9 am-6 PM</span><span class="sxs-lookup"><span data-stu-id="a6cc1-113">Cantonese: Mon-Fri 9 AM-6 PM</span></span>
+<span data-ttu-id="664b2-113">Кантонский: Mon-Fri 9 am-6 PM</span><span class="sxs-lookup"><span data-stu-id="664b2-113">Cantonese: Mon-Fri 9 AM-6 PM</span></span>
 
-<span data-ttu-id="a6cc1-114">Мандарин: Mon-Fri 9 am-6 PM</span><span class="sxs-lookup"><span data-stu-id="a6cc1-114">Mandarin: Mon-Fri 9 AM-6 PM</span></span>
+<span data-ttu-id="664b2-114">Мандарин: Mon-Fri 9 am-6 PM</span><span class="sxs-lookup"><span data-stu-id="664b2-114">Mandarin: Mon-Fri 9 AM-6 PM</span></span>
 
-<span data-ttu-id="a6cc1-115">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="a6cc1-115">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="664b2-115">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="664b2-115">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="a6cc1-116">Применяются локальные платежи за вызовы</span><span class="sxs-lookup"><span data-stu-id="a6cc1-116">Local call charges apply</span></span>
+<span data-ttu-id="664b2-116">Применяются локальные платежи за вызовы</span><span class="sxs-lookup"><span data-stu-id="664b2-116">Local call charges apply</span></span>

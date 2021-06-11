@@ -19,20 +19,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/10/2021
 ms.locfileid: "52296099"
 ---
-# <a name="contact-support-for-heard-island-and-mcdonald-islands"></a><span data-ttu-id="11c6e-103">Поддержка контактов для островов Херд и Макдональд</span><span class="sxs-lookup"><span data-stu-id="11c6e-103">Contact support for Heard Island and McDonald Islands</span></span>
+# <a name="contact-support-for-heard-island-and-mcdonald-islands"></a><span data-ttu-id="a4943-103">Поддержка контактов для островов Херд и Макдональд</span><span class="sxs-lookup"><span data-stu-id="a4943-103">Contact support for Heard Island and McDonald Islands</span></span>
 
-<span data-ttu-id="11c6e-104">[Найдите другую страну или регион.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="11c6e-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
+<span data-ttu-id="a4943-104">[Найдите другую страну или регион.](../../business-video/get-help-support.md)</span><span class="sxs-lookup"><span data-stu-id="a4943-104">[Find another country or region](../../business-video/get-help-support.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="11c6e-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="11c6e-105">Phone number</span></span>
-<span data-ttu-id="11c6e-106">+1 312 843 5148</span><span class="sxs-lookup"><span data-stu-id="11c6e-106">+1 312 843 5148</span></span>
+## <a name="phone-number"></a><span data-ttu-id="a4943-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="a4943-105">Phone number</span></span>
+<span data-ttu-id="a4943-106">+1 312 843 5148</span><span class="sxs-lookup"><span data-stu-id="a4943-106">+1 312 843 5148</span></span>
 
-## <a name="hours"></a><span data-ttu-id="11c6e-107">Часы</span><span class="sxs-lookup"><span data-stu-id="11c6e-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="11c6e-108">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="11c6e-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="a4943-107">Часы</span><span class="sxs-lookup"><span data-stu-id="a4943-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="a4943-108">Поддержка по выставлению счетов:</span><span class="sxs-lookup"><span data-stu-id="a4943-108">Billing Support:</span></span>
 
-<span data-ttu-id="11c6e-109">Английский: Mon-Fri 09:00</span><span class="sxs-lookup"><span data-stu-id="11c6e-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="a4943-109">Английский: Mon-Fri 09:00</span><span class="sxs-lookup"><span data-stu-id="a4943-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="11c6e-110">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="11c6e-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="a4943-110">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="a4943-110">Technical Support:</span></span>
 
-<span data-ttu-id="11c6e-111">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="11c6e-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="a4943-111">Английский: круглосуточно, без выходных</span><span class="sxs-lookup"><span data-stu-id="a4943-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="11c6e-112">Применяются международные сборы за вызовы</span><span class="sxs-lookup"><span data-stu-id="11c6e-112">International call charges apply</span></span>
+<span data-ttu-id="a4943-112">Применяются международные сборы за вызовы</span><span class="sxs-lookup"><span data-stu-id="a4943-112">International call charges apply</span></span>
