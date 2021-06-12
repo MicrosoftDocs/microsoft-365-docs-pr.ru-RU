@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 description: Существующие Office 365 клиенты должны отправить запрос до крайнего срока для своей страны, чтобы их Microsoft 365 службы были перемещены в их новый гео.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e68feeca842061c43c7be70d9b8b930f068d8e4e
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: d4421b034c31adc3e8b0b017067b12086d364564
+ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50927316"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52908249"
 ---
 # <a name="how-to-request-your-data-move"></a>Как запросить перемещение данных
 
@@ -74,7 +74,7 @@ ms.locfileid: "50927316"
 
 [Перемещение основных данных в новые Office 365 геоцентра данных](moving-data-to-new-datacenter-geos.md)
 
-[Ответы на общие вопросы о перемещении данных](data-move-faq.md)
+[Ответы на общие вопросы о перемещении данных](data-move-faq.yml)
 
 [Новые геоцентра данных для Microsoft Dynamics CRM Online](/power-platform/admin/new-datacenter-regions)
   

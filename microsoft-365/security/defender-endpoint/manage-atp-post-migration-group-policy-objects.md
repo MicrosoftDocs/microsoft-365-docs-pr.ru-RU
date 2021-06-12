@@ -18,14 +18,14 @@ ms.collection:
 - M365-security-compliance
 - m365solution-scenario
 ms.topic: article
-ms.date: 09/22/2020
+ms.date: 06/11/2021
 ms.reviewer: chventou
-ms.openlocfilehash: 15902e02156c59ec4edaed94f4ba321094bd42ac
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: ce204c1a90e57a651cf9c97974a8b35d405878cc
+ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843026"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52908296"
 ---
 # <a name="manage-microsoft-defender-for-endpoint-with-group-policy-objects"></a>Управление защитником Майкрософт для конечной точки с помощью объектов групповой политики
 
@@ -61,9 +61,7 @@ ms.locfileid: "52843026"
 
 ## <a name="configure-your-microsoft-defender-security-center"></a>Настройка Центр безопасности в Microsoft Defender
 
-Если вы еще этого не сделали, настройте Центр безопасности в Microsoft Defender **()** для просмотра оповещений, настройки функций защиты от угроз и просмотра подробных сведений об общей позиции безопасности [https://securitycenter.windows.com](https://securitycenter.windows.com) организации. 
-
-Вы также можете настроить, можно ли и какие функции конечные пользователи могут видеть в Центр безопасности в Microsoft Defender.
+Если этого еще не сделано, настройте портал Microsoft 365 Defender для просмотра оповещений, настройки функций защиты от угроз и просмотра подробных сведений об общей позиции безопасности организации. См. [Центр безопасности в Microsoft Defender](microsoft-defender-security-center.md). Вы также можете настроить, можно ли и какие функции конечные пользователи могут видеть на портале Microsoft 365 Defender.
 
 - [Обзор Центр безопасности в Microsoft Defender](/microsoft-365/security/defender-endpoint/use)
 

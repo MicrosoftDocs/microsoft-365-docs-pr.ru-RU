@@ -19,12 +19,12 @@ ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
 ms.technology: mde
-ms.openlocfilehash: fcf2310929937d1dacfc9c101d3e14414bad262b
-ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
+ms.openlocfilehash: b85c0c63cc7c72ad555d80bd8ce6c07c95b4b97b
+ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2021
-ms.locfileid: "52903748"
+ms.locfileid: "52908081"
 ---
 # <a name="client-behavioral-blocking"></a>Блокировка с учетом поведения клиента
 
@@ -46,7 +46,7 @@ ms.locfileid: "52903748"
 
 [антивирусная программа в Microsoft Defender](microsoft-defender-antivirus-in-windows-10.md) может обнаруживать подозрительные действия, вредоносный код, атаки без файлов и в памяти и другие действия на устройстве. При обнаружении подозрительного поведения антивирусная программа в Microsoft Defender отслеживает и отправляет эти подозрительные действия и деревья процессов в службу защиты облаков. Машинное обучение различает вредоносные приложения и хорошее поведение в миллисекунд и классифицирует каждый артефакт. Почти в режиме реального времени, как только артефакт будет обнаружен вредоносным, он блокируется на устройстве. 
 
-При обнаружении подозрительного [](alerts-queue.md) поведения создается оповещение, которое отображается в Microsoft 365 [Defender](microsoft-defender-security-center.md) (ранее Центр безопасности в Microsoft Defender [https://securitycenter.windows.com](https://securitycenter.windows.com) ()).
+При обнаружении подозрительного [](alerts-queue.md) поведения создается оповещение, которое отображается на портале [Microsoft 365 Defender](microsoft-defender-security-center.md) (ранее Центр безопасности в Microsoft Defender).
 
 Клиентская поведенческая блокировка эффективна, так как она не только помогает предотвратить начало атаки, но и помогает остановить приступив к выполнению. Кроме того, при блокировке [циклов](feedback-loop-blocking.md) обратной связи (еще одна возможность блокировки и сдерживания поведения) атаки предотвращаются на других устройствах в организации.
 

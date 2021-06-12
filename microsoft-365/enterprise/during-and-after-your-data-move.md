@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: Перемещение данных — это операции, которые происходят при переходе служб и связанных данных Майкрософт для клиента на новый геоцентр обработки данных.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d3d44ffc1650989e5c39f5f79cb6a07065f9e9f1
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: c0ea94a80de993d4d1341b8f9b19850d7149583f
+ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52625261"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52908117"
 ---
 # <a name="during-and-after-your-data-move"></a>Во время и после перемещения данных
 
@@ -122,7 +122,7 @@ Skype для бизнеса больше не доступны.  [Skype для �
  
 [Как запросить перемещение данных](request-your-data-move.md)
     
-[Ответы на общие вопросы о перемещении данных](data-move-faq.md)
+[Ответы на общие вопросы о перемещении данных](data-move-faq.yml)
   
 [Новые геоцентра данных для Microsoft Dynamics CRM Online](/power-platform/admin/new-datacenter-regions)
   

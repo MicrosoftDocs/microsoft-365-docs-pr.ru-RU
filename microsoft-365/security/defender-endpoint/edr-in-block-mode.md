@@ -15,17 +15,17 @@ localization_priority: Normal
 ms.custom:
 - next-gen
 - edr
-ms.date: 05/08/2021
+ms.date: 06/11/2021
 ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
 ms.technology: mde
-ms.openlocfilehash: 86bb27005365b625ee07feaa067c0ac488c3bb4b
-ms.sourcegitcommit: 58d74ff60303a879e35d112f10f79724ba41188f
+ms.openlocfilehash: 402797b22e94129abbeb17f1a3454f95d5eae8fc
+ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52302044"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52908345"
 ---
 # <a name="endpoint-detection-and-response-edr-in-block-mode"></a>Обнаружение конечных точек и ответ (EDR) в режиме блокировки
 
@@ -62,7 +62,7 @@ EDR в режиме блокировки также интегрирована �
 > [!IMPORTANT]
 > Убедитесь, [что требования](#requirements-for-edr-in-block-mode) будут выполнены перед включением EDR в режиме блокировки.
 
-1. Перейдите в Центр безопасности в Microsoft Defender [https://securitycenter.windows.com](https://securitycenter.windows.com) () и войдите. 
+1. Перейдите [на портал Microsoft 365 Defender и](microsoft-defender-security-center.md) войдите. 
 
 2. Выберите **Параметры**  >  **расширенные функции**.
 
@@ -73,7 +73,7 @@ EDR в режиме блокировки также интегрирована �
 
 ## <a name="requirements-for-edr-in-block-mode"></a>Требования к EDR в режиме блокировки
 
-|Требования  |Сведения  |
+|Требование  |Сведения  |
 |---------|---------|
 |Разрешения |Роль глобального администратора или администратора безопасности, назначенная [в Azure Active Directory](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal). См. [основные разрешения.](basic-permissions.md) |
 |Операционная система     |Одна из следующих версий: <br/>- Windows 10 (все выпуски) <br/>- Windows Server, версия 1803 или более новая <br/>- Windows Server 2019 <br/>- Windows Server 2016 (только если антивирусная программа в Microsoft Defender находится в активном режиме)     |

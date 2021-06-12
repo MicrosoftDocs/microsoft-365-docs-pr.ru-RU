@@ -10,22 +10,19 @@ localization_priority: Normal
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.date: 12/28/2020
+ms.date: 06/11/2021
 ms.reviewer: jesquive
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 4ecd14e055646804d81e22da7c192988cf1e6f6f
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: ce200ca12bacc3ae8d9f7b48d36274ca54322586
+ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275256"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52908033"
 ---
 # <a name="deployment-guide-for-microsoft-defender-antivirus-in-a-virtual-desktop-infrastructure-vdi-environment"></a>Руководство по развертыванию антивирусной программы в Microsoft Defender в среде инфраструктуры виртуальных рабочих столов (VDI)
-
-[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
-
 
 **Область применения:**
 
@@ -113,7 +110,7 @@ cmd /c "cd $vdmpath & c: & mpam-fe.exe /x"
 
 2. Введите имя в **качестве распаковщика сведений** безопасности . Перейдите на **вкладку Trigger.** Выберите **новое...** > **Ежедневно** и выберите **ОК**.
 
-3. Перейдите на **вкладку Действия.** Выберите **новое...** Введите **PowerShell** в **поле Program/Script.** Введите `-ExecutionPolicy Bypass c:\wdav-update\vdmdlunpack.ps1` в поле Добавление **аргументов.** Нажмите кнопку **ОК**.
+3. Перейдите на **вкладку Действия.** Выберите **новое...** Введите **PowerShell** в **поле Program/Script.** Введите `-ExecutionPolicy Bypass c:\wdav-update\vdmdlunpack.ps1` в поле Добавление **аргументов.** Нажмите **ОК**.
 
 4. При желании можно настроить дополнительные параметры.
 
@@ -175,7 +172,7 @@ cmd /c "cd $vdmpath & c: & mpam-fe.exe /x"
 
 4. Разверните объект групповой политики, как обычно.
 
-Подавление уведомлений не позволяет антивирусная программа в Microsoft Defender в Центре действий в Windows 10 при сканировании или действиях по исправлению. Однако ваша группа операций безопасности будет видеть результаты сканирования в Центр безопасности в Microsoft Defender ( [https://securitycenter.windows.com](https://securitycenter.windows.com) ).
+Подавление уведомлений не позволяет антивирусная программа в Microsoft Defender в Центре действий в Windows 10 при сканировании или действиях по исправлению. Однако команда операций безопасности увидит результаты проверки на портале [Microsoft 365 Defender.](microsoft-defender-security-center.md)
 
 > [!TIP]
 > Чтобы открыть Центр действий на Windows 10, необходимо сделать один из следующих действий:
@@ -210,7 +207,7 @@ cmd /c "cd $vdmpath & c: & mpam-fe.exe /x"
 
 3. Установите политику **включенной**.
 
-4. Нажмите кнопку **ОК**.
+4. Нажмите **ОК**.
 
 5. Развертывание объекта групповой политики, как обычно.
 
