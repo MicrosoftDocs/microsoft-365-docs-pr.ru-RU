@@ -6,19 +6,19 @@
       items:
         - name: Что такое Microsoft 365 Defender?
           href: microsoft-365-defender.md
-        - name: Microsoft 365 Обзор защитника
+        - name: Обзор Microsoft 365 Defender
           href: overview-security-center.md
         - name: Новые возможности Microsoft 365 Defender
           href: whats-new.md
-        - name: Защитник для конечной точки в Microsoft 365 Defender
+        - name: Defender для конечной точки в Microsoft 365 Defender
           href: microsoft-365-security-center-mde.md
         - name: Defender для Office 365 в Microsoft 365 Defender
           href: microsoft-365-security-center-mdo.md
-        - name: Перенаправление защитника для конечной точки на Microsoft 365 Defender
+        - name: Перенаправление Defender для конечной точки в Microsoft 365 Defender
           href: microsoft-365-security-mde-redirection.md
-        - name: Перенаправление центра Office 365 безопасности и соответствия требованиям на Microsoft 365 Defender
+        - name: Перенаправление Центра безопасности и соответствия требованиям Office 365 в Microsoft 365 Defender
           href: microsoft-365-security-mdo-redirection.md
-        - name: Microsoft 365 Интеграция защитника с Azure Sentinel
+        - name: Интеграция Microsoft 365 Defender с Azure Sentinel
           href: microsoft-365-defender-integration-with-azure-sentinel.md
         - name: Предварительные функции
           href: preview.md
@@ -86,9 +86,9 @@
               href: microsoft-secure-score-whats-new.md
         - name: Защита удостоверений
           items:
-            - name: Управление оповещениями о безопасности
+            - name: Управление оповещениями системы безопасности
               href: ../defender-identity/manage-security-alerts.md
-    - name: Изучение оповещений и реагирование на них
+    - name: Исследование угроз и реагирование на них
       items:
         - name: Инциденты
           items:
@@ -104,15 +104,15 @@
               href: investigate-alerts.md
             - name: Пользователи инцидентов
               href: investigate-users.md
-            - name: Ответ на первый инцидент
+            - name: Реагирование на первый инцидент
               items:
                 - name: Введение
                   href: first-incident-overview.md
                 - name: Подготовка
                   href: first-incident-prepare.md
-                - name: Этап 1. Анализ и анализ
+                - name: Этап 1. Анализ
                   href: first-incident-analyze.md
-                - name: Шаг 2. Исправление
+                - name: Этап 2. Исправление
                   href: first-incident-remediate.md
                 - name: Этап 3. Проверка
                   href: first-incident-post.md
@@ -120,17 +120,17 @@
                   items:
                     - name: Фишинговое письмо
                       href: first-incident-path-phishing.md
-                    - name: Identity
+                    - name: Удостоверение
                       href: first-incident-path-identity.md
-            - name: Книги ответов на инциденты
+            - name: Сборники схем реагирования на инциденты
               href: /security/compass/incident-response-playbooks
             - name: Уведомления по электронной почте
               href: get-incident-notifications.md
         - name: Аналитика угроз
           items:
-            - name: Отслеживание и реагирование на возникающие угрозы
+            - name: Отслеживание возникающих угроз и реагирование на них
               href: threat-analytics.md
-            - name: Понимание отчета аналитика
+            - name: Понимание аналитического отчета
               href: threat-analytics-analyst-reports.md
         - name: Автоматическое исследование и реагирование
           items:
@@ -140,13 +140,13 @@
               href: m365d-configure-auto-investigation-response.md
             - name: Действия по исправлению
               href: m365d-remediation-actions.md
-            - name: через центр уведомлений
+            - name: Использование Центра уведомлений
               href: m365d-action-center.md
-            - name: Просмотр и управление действиями по исправлению
+            - name: Просмотр действий по исправлению и управление ими
               href: m365d-autoir-actions.md
             - name: Просмотр сведений и результатов
               href: m365d-autoir-results.md
-            - name: Устранение ложных срабатыва-
+            - name: Устранение ложноположительных и ложноотрицательных результатов
               href: m365d-autoir-report-false-positives-negatives.md
         - name: Расширенная охота на угрозы
           items:
@@ -318,25 +318,25 @@
               items:
                 - name: Коды распространенных ошибок REST API
                   href: api-error-codes.md
-                - name: Потоковый API
+                - name: API потоковой передачи
                   items:
-                    - name: Microsoft 365 Потоковый API
+                    - name: API потоковой передачи Microsoft 365
                       href: streaming-api.md
-                    - name: Потоковая трансляция событий расширенной охоты в Центре событий Azure
+                    - name: Потоковая передача событий расширенной охоты в Центр событий Azure
                       href: streaming-api-event-hub.md
                     - name: Потоковая передача событий расширенной охоты в учетную запись хранения
                       href: streaming-api-storage.md
-                - name: Программный интерфейс расширенной охоты
+                - name: API расширенной охоты
                   href: api-advanced-hunting.md
                 - name: API инцидентов
                   items:
-                    - name: Методы и свойства инцидентов
+                    - name: 'Методы и свойства, относящиеся к инцидентам'
                       href: api-incident.md
                     - name: Получение списка инцидентов
                       href: api-list-incidents.md
                     - name: Обновление инцидентов
                       href: api-update-incidents.md
-                    - name: Get Incident
+                    - name: Получение инцидента
                       href: api-get-incident.md
     - name: Microsoft Defender для Office 365
       href: ../office-365-security/index.yml

@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: da585eea-f576-4f55-a1e0-87090b6aaa9d
 description: Роли администраторов, такие как "Администратор службы", соответствуют бизнес-функциям и предоставляют разрешения на выполнение определенных задач в Центре администрирования.
-ms.openlocfilehash: 68a5c92faa6f5cdbbd56678649441a45a600ed04
-ms.sourcegitcommit: e1e275eb88153bafddf93327adf8f82318913a8d
+ms.openlocfilehash: 1fea8720b174846dd95d9dd6aeee91f7ecfbc7fa
+ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52809039"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52908057"
 ---
 # <a name="about-admin-roles"></a>Роли администраторов
 
@@ -100,4 +100,5 @@ ms.locfileid: "52809039"
 
 [Назначение ролей администратора](assign-admin-roles.md) (статья)\
 [Роли Azure AD в Центре администрирования Microsoft 365](azure-ad-roles-in-the-mac.md) (статья)\
-[Роль администратора Exchange Online](about-exchange-online-admin-role.md) (статья)\ [Отчеты об активности в Центре администрирования Microsoft 365](../activity-reports/activity-reports.md) (статья)
+[Отчеты о действиях в Центре администрирования Microsoft 365](../activity-reports/activity-reports.md) (статья)\
+[Роль администратора Exchange Online](about-exchange-online-admin-role.md) (статья)

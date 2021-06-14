@@ -21,12 +21,12 @@ ms.custom:
 description: Microsoft Defender для Office 365 включает безопасные вложения, безопасные ссылки, расширенные средства защиты от фишинга, инструменты создания отчетов и возможности аналитики угроз.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e7570a925f4f24148874eada8a835ae473efaeb9
-ms.sourcegitcommit: a46532bb422ee51331f478ff50cc5444586bf6a9
+ms.openlocfilehash: eab7cdbed592975739fdcfa1089e6f7d2c25d880
+ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51650354"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52904120"
 ---
 # <a name="microsoft-defender-for-office-365"></a>Microsoft Defender для Office 365
 
@@ -39,7 +39,7 @@ ms.locfileid: "51650354"
 > [!IMPORTANT]
 > Эта статья предназначена для бизнес-клиентов, использующих [Microsoft Defender для Office 365](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description). Если вы используете Outlook.com, Microsoft 365 для семьи или Microsoft 365 персональный и ищете сведения о функции "Безопасные ссылки"или "Безопасные вложения" в Outlook, см. статью [Расширенные возможности безопасности Outlook.com для подписчиков Microsoft 365](https://support.microsoft.com/office/882d2243-eab9-4545-a58a-b36fee4a46e2).
 
-Microsoft Defender для Office 365 защищает вашу организацию от угроз, которые могут представлять электронные сообщения, ссылки (URL-адреса) и средства совместной работы. Defender для Office 365 включает:
+Microsoft Defender для Office 365 защищает организацию от злонамеренных угроз, связанных с сообщениями электронной почты, ссылками (URL-адресами) и средствами для совместной работы. Defender для Office 365 включает:
 
 - **[Политики защиты от угроз.](#configure-microsoft-defender-for-office-365-policies)** Определите политики защиты от угроз, чтобы задать необходимый уровень защиты для организации.
 
@@ -137,7 +137,7 @@ Microsoft Defender для Office 365 (план 2) включает лучшие 
 
 - **[Трекеры угроз](threat-trackers.md)** предоставляют новейшую аналитику касательно преобладающих проблем кибербезопасности. Например, можно просматривать сведения о новейших вредоносных программах и принимать контрмеры, прежде чем они станут реальной угрозой для организации. К числу доступных трекеров относятся [трекеры, заслуживающие внимания](threat-trackers.md#noteworthy-trackers), [трекеры тенденций](threat-trackers.md#trending-trackers), [Отслеживаемые запросы](threat-trackers.md#tracked-queries) и [Сохраненные запросы](threat-trackers.md#saved-queries).
 
-- **[Отчет обозревателя угроз, также именуемого обозревателем (или обнаружение в режиме реального времени)](threat-explorer.md)**, — это отчет, получаемый в режиме реального времени, с помощью которого можно определить и проанализировать последние угрозы. В обозревателе можно настроить отображение данных для определенных периодов.
+- **[Отчет обозревателя угроз, также именуемого обозревателем (или обнаружение в режиме реального времени)](threat-explorer.md)**, — это отчет, получаемый в режиме реального времени, с помощью которого можно определить и проанализировать последние угрозы. В обозревателе можно настроить отображение данных для определенных периодов.
 
 - **[Эмулятор атак](attack-simulator.md)** позволяет запускать реалистичные сценарии атак в организации для определения уязвимостей. Доступны имитации актуальных типов атак, в том числе целевой фишинг с целью сбора учетных данных, атаки с вложением, атаки путем распыления пароля, атаки методом подбора пароля.
 
@@ -147,7 +147,7 @@ Microsoft Defender для Office 365 (план 2) включает лучшие 
 
 ## <a name="permissions-required-to-use-microsoft-defender-for-office-365-features"></a>Разрешения, необходимые для использования возможностей Microsoft Defender для Office 365
 
-Чтобы получить доступ к возможностям Microsoft Defender для Office 365 в Центре безопасности и соответствия требованиям, вам нужна соответствующая роль. В таблице приведено несколько примеров.
+Чтобы получить доступ к возможностям Microsoft Defender для Office 365 в Центре безопасности и соответствия требованиям, вам нужна соответствующая роль. В следующей таблице приведено несколько примеров.
 
 |Роль или группа ролей|Дополнительные ресурсы|
 |---|---|
@@ -174,7 +174,7 @@ Microsoft Defender для Office 365 (план 2) включает лучшие 
 
 В Microsoft Defender для Office 365 постоянно добавляются новые возможности. Для получения дополнительных сведений ознакомьтесь с приведенными ниже ресурсами.
 
-- На странице [Дорожная карта Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=advanced%2Cthreat%2Cprotection) приведен список новых возможностей разработки и развертывания.
+- На странице [Дорожная карта Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=Microsoft%2CDefender%2Cfor%2COffice%2C365) приведен список новых возможностей разработки и развертывания.
 
 - Статья [Описание службы Microsoft Defender для Office 365](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#whats-new-in-office-365-advanced-threat-protection-atp) содержит информацию о возможностях и доступности в рамках планов Defender для Office 365.
 

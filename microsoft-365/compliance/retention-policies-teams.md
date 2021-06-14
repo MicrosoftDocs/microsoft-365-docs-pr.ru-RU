@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Узнайте о политиках хранения, применимых к Microsoft Teams.
-ms.openlocfilehash: 607fbdd02cfaccfee79df67c4946c178ff3eb383
-ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
+ms.openlocfilehash: 908c6a1482761815995330b71f0d2d2f96677b64
+ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52861579"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52908273"
 ---
 # <a name="learn-about-retention-for-microsoft-teams"></a>Сведения о хранении в Microsoft Teams
 
@@ -44,9 +44,6 @@ ms.locfileid: "52861579"
 ## <a name="whats-included-for-retention-and-deletion"></a>Что включается в хранение и удаление
 
 Сообщения чатов и каналов Teams можно удалять с помощью политик хранения для Teams. Можно хранить не только текст сообщений, но и следующие элементы для обеспечения соответствия требованиям: внедренные изображения, таблицы, гипертекстовые ссылки и ссылки на другие сообщения и файлы Teams, а также [содержимое карточек](/microsoftteams/platform/task-modules-and-cards/what-are-cards). В сообщения чата входят все имена пользователей в чате, а в сообщения канала — имя команды и заголовок сообщения (если он есть). 
-
-> [!NOTE]
-> Добавление содержимого карточек в политику хранения для Teams — довольно недавнее дополнение. Дополнительные сведения см. в статье [Теперь доступны возможности соответствия требованиям Microsoft 365 для содержимого адаптивных карточек через приложения в Teams](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-365-compliance-capabilities-for-adaptive-card-content/ba-p/2095869).
 
 Политики хранения в настоящее время не поддерживают сообщения Teams в закрытых каналах. Фрагменты кода, записанные голосовые напоминания из мобильного клиента Teams, эскизы, изображения объявлений и реакции других пользователей в виде смайликов не сохраняются при использовании политик хранения для Teams.
 
