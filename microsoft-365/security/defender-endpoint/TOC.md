@@ -174,7 +174,7 @@
 
 ### [Устранение неполадок с подключением]()
 #### [Устранение неполадок при подключении](troubleshoot-onboarding.md)
-#### [Устранение неполадок доступа к подписке и порталу](troubleshoot-onboarding-error-messages.md).
+#### [Устранение неполадок доступа к подписке и порталу](troubleshoot-onboarding-error-messages.md)
 
 
 
@@ -303,7 +303,7 @@
 ##### [Отчет об антивирусной программе в Microsoft Defender](report-monitor-microsoft-defender-antivirus.md)
 
 #### [Проверки и исправление](review-scan-results-microsoft-defender-antivirus.md)
-##### [Настройка и запуск проверки антивирусной программой в Microsoft Defender по требованию](run-scan-microsoft-defender-antivirus.md).
+##### [Настройка и запуск проверки антивирусной программой в Microsoft Defender по требованию](run-scan-microsoft-defender-antivirus.md)
 ##### [Запуск и просмотр результатов проверки в автономном Microsoft Defender](microsoft-defender-offline.md)
 ##### [Настройка параметров сканирования антивирусной программы в Microsoft Defender](configure-advanced-scan-types-microsoft-defender-antivirus.md)
 ##### [Восстановление файлов в карантине в антивирусной программе в Microsoft Defender](restore-quarantined-files-microsoft-defender-antivirus.md)
@@ -390,7 +390,7 @@
 ##### [Исследование устройств](investigate-machines.md)
 ##### [Исследование IP-адреса](investigate-ip.md)
 ##### [Исследование домена](investigate-domain.md)
-###### [Исследование событий подключения, происходящих за прокси-серверами переадресации](investigate-behind-proxy.md).
+###### [Исследование событий подключения, происходящих за прокси-серверами переадресации](investigate-behind-proxy.md)
 ##### [Исследование учетной записи пользователя](investigate-user.md)
  
 #### [Список устройств]()
@@ -671,7 +671,7 @@
   
 #### [Устранение неполадок службы Microsoft Defender для конечных точек]()
 ##### [Устранение неполадок службы](troubleshoot-mdatp.md)
-##### [Проверка работоспособности службы](service-status.md).
+##### [Проверка работоспособности службы](service-status.md)
 ##### [Обратитесь в службу поддержки Microsoft Defender для конечной точки](contact-support.md)
 
 #### [Устранение неполадок с live response](troubleshoot-live-response.md)
