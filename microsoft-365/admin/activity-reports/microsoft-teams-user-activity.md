@@ -1,5 +1,5 @@
 ---
-title: Отчеты Microsoft 365 Reports в Центре администрирования — действия пользователей Microsoft Teams
+title: Microsoft 365 центра администрирования — Microsoft Teams действий пользователей
 ms.author: kwekua
 author: kwekua
 manager: scotv
@@ -19,14 +19,14 @@ search.appverid:
 - MOE150
 ms.assetid: 07f67fc4-c0a4-4d3f-ad20-f40c7f6db524
 description: Узнайте, как получить отчет Microsoft Teams действий пользователя и получить сведения о Teams деятельности в вашей организации.
-ms.openlocfilehash: 1f45cd380813a843ad54e6552578941a9741138e
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: c824a0ce285a085c9ae8b7326647ad4bcdf5f013
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579606"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924271"
 ---
-# <a name="microsoft-365-reports-in-the-admin-center---microsoft-teams-user-activity"></a>Отчеты Microsoft 365 Reports в Центре администрирования — действия пользователей Microsoft Teams
+# <a name="microsoft-365-admin-center-reports---microsoft-teams-user-activity"></a>Microsoft 365 центра администрирования — Microsoft Teams действий пользователей
 
 Панель Microsoft 365 **отчетов** показывает обзор действий в продуктах организации. Вы можете просмотреть отчеты по отдельным продуктам, чтобы получить более подробные сведения о действиях с каждым приложением. Ознакомьтесь с [общими сведениями о панели отчетов](activity-reports.md). С помощью отчета о действиях пользователей Microsoft Teams вы можете получить представление об активности этих пользователей в вашей организации.
   

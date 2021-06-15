@@ -20,12 +20,12 @@ search.appverid:
 - BCS160
 ms.assetid: 53cdb60c-a6b2-4848-b3ff-e7b75dc3fd1f
 description: В этой статье вы узнаете о средствах и методах, которые можно использовать для мониторинга и Microsoft 365 подключения.
-ms.openlocfilehash: dfba158085e6642856049d7894b4156f42353236
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 8fa0820cf9b7778001be5184041e5c96930a29dd
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538811"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924203"
 ---
 # <a name="monitor-microsoft-365-connectivity"></a>Проверка подключения Microsoft 365
 
@@ -33,7 +33,7 @@ ms.locfileid: "52538811"
   
 ## <a name="monitoring-microsoft-365-connectivity"></a>Мониторинг Microsoft 365 подключения
 
-|||
+|Тип мониторинга |Описание |
 |:-----|:-----|
 |**Получение уведомления о новых Microsoft 365 конечных точках** <br/> |Если вы управляете конечными точками [Microsoft 365,](https://support.office.com/article/99cab9d4-ef59-4207-9f2b-3728eb46bf9a)вы хотите получать уведомления при публикации новых конечных точек, вы можете подписаться на наш RSS-канал с помощью вашего любимого читателя RSS. Вот как [подписаться через Outlook](https://go.microsoft.com/fwlink/p/?LinkId=532416) или вы можете [иметь RSS-обновления каналов по электронной почте.](https://go.microsoft.com/fwlink/p/?LinkId=532417)  <br/> |
 |**Используйте System Center для мониторинга Microsoft 365** <br/> |Если вы используете Microsoft System Center, вы можете [](https://www.microsoft.com/download/details.aspx?id=43708) скачать пакет System Center управления для Office 365, чтобы начать мониторинг Microsoft 365 сегодня. Дополнительные сведения см. в руководстве по операциям пакетов управления. <br/> |

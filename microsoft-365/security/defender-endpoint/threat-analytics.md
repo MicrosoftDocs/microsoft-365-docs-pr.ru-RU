@@ -1,7 +1,7 @@
 ---
 title: Отслеживание и реагирование на возникающие угрозы с помощью Microsoft Defender для анализа угроз конечной точки
 ms.reviewer: ''
-description: Узнайте о возникающих угрозах и методах атаки и о том, как их остановить. Оцените их влияние на организацию и оцените устойчивость организации.
+description: Понимание формирующихся угроз и методов атаки и их остановки. Оцените их влияние на организацию и оцените устойчивость организации.
 keywords: аналитика угроз, оценка рисков, смягчение последствий ОС, смягчение микрокодов, состояние смягчения последствий
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -19,14 +19,14 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 61b6b0c19730045468c77e5f24bf18470aa5dbd5
-ms.sourcegitcommit: 3fe7eb32c8d6e01e190b2b782827fbadd73a18e6
+ms.openlocfilehash: 63303f9eacd25a8de1c7154ac66c73578bfd495a
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51688265"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924459"
 ---
-# <a name="track-and-respond-to-emerging-threats-with-threat-analytics"></a>Отслеживание и реагирование на возникающие угрозы с помощью аналитики угроз 
+# <a name="track-and-respond-to-emerging-threats-through-threat-analytics"></a>Отслеживание и реагирование на возникающие угрозы с помощью аналитики угроз
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 

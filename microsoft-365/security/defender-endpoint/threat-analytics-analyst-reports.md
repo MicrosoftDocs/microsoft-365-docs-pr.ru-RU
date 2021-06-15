@@ -1,7 +1,7 @@
 ---
-title: Понимание раздела отчетов аналитики в аналитике угроз
+title: Раздел отчетов аналитики в разделе аналитика угроз.
 ms.reviewer: ''
-description: Узнайте о разделе отчетов аналитики каждого отчета аналитики угроз. Сведения об угрозах, смягчении последствий, обнаружениях, расширенных запросах на охоту и другие сведения.
+description: Как в разделе отчетов аналитики угроз предоставляется информация об угрозах, смягчении последствий, обнаружениях, расширенных запросах на охоту и других.
 keywords: аналитический отчет, аналитика угроз, обнаружение, расширенные запросы на охоту, смягчение последствий,
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -17,14 +17,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 2a442a642a71bd6bf3a52dbf3901c4367c2c10d8
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: e791249418503ada5d98b74c8ae273664851cc8e
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52844998"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52926443"
 ---
-# <a name="understand-the-analyst-report-in-threat-analytics"></a>Понимание отчета аналитики в аналитике угроз
+# <a name="the-analyst-report-in-threat-analytics"></a>Отчет аналитика в области аналитики угроз
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 

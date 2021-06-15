@@ -27,12 +27,12 @@ search.appverid:
 - MOE150
 ms.assetid: 21e5551f-fa35-4f13-9418-f80d668b6a2b
 description: Узнайте о настройке параметров политики устройств по умолчанию, которые Windows 10 устройства при входе в свою работу или учетную запись школы.
-ms.openlocfilehash: 86db1c152f9f6ac1fe6093b4a55a74b69fbd8b0f
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 3f85549e722c9aa4196cf50fc02bee2e89506017
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579981"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52925246"
 ---
 # <a name="secure-windows-10-devices"></a>Защита устройств с Windows 10
 
@@ -44,9 +44,10 @@ ms.locfileid: "51579981"
 
 Все параметры **включены** по умолчанию. Доступны следующие параметры:
   
-|||
+
+
+|Setting  <br/> |Описание  <br/> |
 |:-----|:-----|
-|Параметр  <br/> |Описание  <br/> |
 |Использование антивирусной программы "Защитник Windows"  <br/> |Требует включения антивирусной программы "Защитник Windows" для защиты компьютеров, подключенных к Интернету.  <br/> |
 |Защитите компьютеры от угроз из Интернета в Microsoft Edge  <br/> |Включает параметры в Microsoft Edge, которые помогают защитить пользователей от вредоносных сайтов и скачиваний.  <br/> |
 |Защитить файлы и папки на компьютерах от несанкционированного доступа с помощью BitLocker  <br/> |Bitlocker защищает данные, шифруя жесткие диски компьютера и защищая от воздействия данных, если компьютер потерян или украден. Дополнительные сведения см. [в faq Bitlocker.](/windows/security/information-protection/bitlocker/bitlocker-frequently-asked-questions)  <br/> |

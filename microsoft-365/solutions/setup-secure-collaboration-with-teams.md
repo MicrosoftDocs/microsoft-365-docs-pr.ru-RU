@@ -17,12 +17,12 @@ ms.custom:
 f1.keywords: NOCSH
 recommendations: false
 description: Узнайте, как настроить совместную работу с защищенным контентом в Teams для защиты данных в зависимости от их конфиденциальности.
-ms.openlocfilehash: 12c8bfd2c7c59e1cc4dcf149e394d2c7dc456530
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 7a5b8f58cc5e4a23d2d143419f99ecdd87b949c1
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52539063"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924363"
 ---
 # <a name="set-up-secure-collaboration-with-microsoft-365-and-microsoft-teams"></a>Настройка безопасной совместной работы с Microsoft 365 и Microsoft Teams
 
@@ -178,7 +178,7 @@ Microsoft 365 предоставляет множество вариантов �
 |:---|:---|
 |![Настройка и настройка значка подготовки команды](../media/set-up-customize-team-training.png)<br>**[Настройка и настройка команды](https://support.microsoft.com/office/702a2977-e662-4038-bef5-bdf8ee47b17b)**|![SharePoint и синхронизировать значок обучения](../media/sharepoint-share-sync-training.png)<br>**[Совместное и синхронизированное](https://support.microsoft.com/office/98cb2ff2-c27e-42ea-b055-c2d895f8a5de)**|
 |![Teams и найти значок подготовки файлов](../media/smc-teams-upload-find-files-training.png)<br>**[Upload и поиск файлов](https://support.microsoft.com/office/57b669db-678e-424e-b0a0-15d19215cb12)**||
-|![Совместное взаимодействие в командах и значке каналов](../media/teams-collaborate-channels-training.png)<br>**[Сотрудничество в командах и каналах](https://support.microsoft.com/office/c3d63c10-77d5-4204-a566-53ddcf723b46)**|||
+|![Совместное взаимодействие в командах и значке каналов](../media/teams-collaborate-channels-training.png)<br>**[Сотрудничество в командах и каналах](https://support.microsoft.com/office/c3d63c10-77d5-4204-a566-53ddcf723b46)**||
 
 ## <a name="illustrations"></a>Иллюстрации
 

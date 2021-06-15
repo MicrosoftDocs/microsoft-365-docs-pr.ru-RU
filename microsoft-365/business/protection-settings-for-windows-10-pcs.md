@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: bd66c26c-73a4-45a8-8642-3ea4ee7cd89d
 description: Узнайте о параметрах, доступных в Microsoft 365 для бизнеса для Windows 10 устройств.
-ms.openlocfilehash: acfb27b2e4592d4ed1e446a63c9495ae07d916de
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 4859681d5e71a61b8a5dd58114bce899f485967a
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578234"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52925326"
 ---
 # <a name="edit-or-create-device-protection-settings-for-windows-10-pcs"></a>Изменение или создание параметров защиты устройств для Windows 10 компьютеров
 
@@ -67,10 +67,10 @@ ms.locfileid: "51578234"
 Все параметры **включены** по умолчанию. Доступные параметры перечислены ниже.
   
 Дополнительные сведения см. в см. в Microsoft 365 Premium функций защиты в [параметрах Intune.](map-protection-features-to-intune-settings.md) 
-  
-|||
+
+
+|Setting  <br/> |Описание  <br/> |
 |:-----|:-----|
-|Параметр  <br/> |Описание  <br/> |
 |Использование антивирусной программы "Защитник Windows"  <br/> |Требует включения антивирусной программы "Защитник Windows" для защиты компьютеров, подключенных к Интернету.  <br/> |
 |Защитите компьютеры от угроз из Интернета в Microsoft Edge  <br/> |Включает параметры в Microsoft Edge, которые помогают защитить пользователей от вредоносных сайтов и скачиваний.  <br/> |
 |Использовать правила для ограничения направлений атак на устройства  <br/> |Если этот параметр включен, ограничение направлений атак позволяет блокировать действия и приложения, которые вредоносные программы обычно используют для заражения устройств. Этот параметр доступен, только если включена антивирусная программа "Защитник Windows". Дополнительные сведения см. в статье [Уменьшение уязвимой зоны](/windows/security/threat-protection/microsoft-defender-atp/exploit-protection).  <br/> |

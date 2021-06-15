@@ -4,24 +4,24 @@ description: Узнайте, как настроить и настроить с�
 keywords: уведомления, защитник, антивирус, конечная точка, управление, администратор
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
+ms.technology: mde
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
 localization_priority: Normal
 author: denisebmsft
+ms.topic: article
 ms.author: deniseb
 ms.custom: nextgen
 ms.date: 05/17/2021
 ms.reviewer: ''
 manager: dansimp
-ms.technology: mde
-ms.topic: article
-ms.openlocfilehash: f885b6d7991e4175cd14be5bbe9e0a7c96b1580f
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 1e9f733b20b62af7e73a923932057920ff1dc155
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572349"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52926242"
 ---
 # <a name="configure-the-notifications-that-appear-on-endpoints"></a>Настройка уведомлений, отображающихся в конечных точках
 

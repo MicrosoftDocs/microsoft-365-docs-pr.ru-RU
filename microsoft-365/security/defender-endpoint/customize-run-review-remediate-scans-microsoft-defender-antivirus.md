@@ -1,6 +1,6 @@
 ---
-title: Запуск и настройка запланированных и по запросу сканов
-description: Настройка и инициа антивирусная программа в Microsoft Defender проверки на конечных точках в сети.
+title: Выполнить и настроить запланированные и по требованию проверки.
+description: Настройка и инициирование антивирусная программа в Microsoft Defender в конечных точках сети
 keywords: сканирование, расписание, настройка, исключения, исключение файлов, исправление, результаты проверки, карантин, удаление угрозы, быстрое сканирование, полное сканирование, антивирусная программа в Microsoft Defender
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -16,12 +16,12 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 31dbfa2ac6d5537f6d42c0bad612be5ef059368d
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: bce3fe1b6490803cb571a1a8a2387c19cc589114
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275280"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52926251"
 ---
 # <a name="customize-initiate-and-review-the-results-of-microsoft-defender-antivirus-scans-and-remediation"></a>Настройка, инициирование и проверка результатов антивирусная программа в Microsoft Defender и исправлений
 

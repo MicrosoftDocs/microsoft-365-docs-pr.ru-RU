@@ -10,12 +10,12 @@ ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
 description: Узнайте, как планировать безопасность и конфиденциальность Microsoft Viva Topics
-ms.openlocfilehash: 587b6a2921e7d1a3cc8d4ab663ff199fdd36871d
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: b8c82b1914df739ea9086a4ce1585733a7b6d854
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52114066"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52925495"
 ---
 # <a name="microsoft-viva-topics-security-and-privacy"></a>Безопасность и конфиденциальность Microsoft Viva Topics
 
@@ -57,6 +57,10 @@ ms.locfileid: "52114066"
 |Файлы|Файлы видны только тем пользователям, у которых есть разрешения на доступ к исходному контенту.|
 |Страницы|Страницы видны только тем пользователям, у которых есть разрешения на доступ к исходному контенту.|
 |Сайты|Сайты видны только тем пользователям, у которых есть разрешения на доступ к исходному контенту.|
+
+## <a name="users-personal-and-private-data"></a>Персональные и личные данные пользователей
+
+Viva Topics обнаруживает только темы на SharePoint, которые вы указываете. Личное хранилище пользователей, например личная почта или OneDrive, не включено.
 
 ## <a name="best-practices"></a>Рекомендации
 

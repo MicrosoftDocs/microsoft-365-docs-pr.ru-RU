@@ -6,7 +6,8 @@ search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
-localization_priority: Normal
+localization_priority: normal
+ms.topic: article
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
@@ -14,13 +15,12 @@ ms.date: 09/11/2018
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.topic: article
-ms.openlocfilehash: cd222760f3a5cc005c679bf28365237cc70e8950
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: cba7a9d6ed23ac1dc72ef6cbcecfdfc7a0f4c60b
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275352"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52926287"
 ---
 # <a name="review-event-logs-and-error-codes-to-troubleshoot-issues-with-microsoft-defender-antivirus"></a>Просмотр журналов событий и кодов ошибок для устранения неполадок с антивирусной программой в Microsoft Defender
 
@@ -361,7 +361,7 @@ ms.locfileid: "52275352"
 <dt> &lt; &gt; серьезность, например:<ul>
 <li>Низкие</li>
 <li>Умеренно</li>
-<li>Фишинговое сообщение с</li>
+<li>Высокая</li>
 <li>Критический</li>
 </ul>
 </dt>
@@ -433,7 +433,7 @@ ms.locfileid: "52275352"
 <dt> &lt; &gt; серьезность, например:<ul>
 <li>Низкие</li>
 <li>Умеренно</li>
-<li>Фишинговое сообщение с</li>
+<li>Высокая</li>
 <li>Критический</li>
 </ul>
 </dt>
@@ -485,7 +485,7 @@ ms.locfileid: "52275352"
 <dt> &lt; &gt; серьезность, например:<ul>
 <li>Низкие</li>
 <li>Умеренно</li>
-<li>Фишинговое сообщение с</li>
+<li>Высокая</li>
 <li>Критический</li>
 </ul>
 </dt>
@@ -539,7 +539,7 @@ ms.locfileid: "52275352"
 <dt> &lt; &gt; серьезность, например:<ul>
 <li>Низкие</li>
 <li>Умеренно</li>
-<li>Фишинговое сообщение с</li>
+<li>Высокая</li>
 <li>Критический</li>
 </ul>
 </dt>
@@ -581,7 +581,7 @@ ms.locfileid: "52275352"
 <dt> &lt; &gt; серьезность, например:<ul>
 <li>Низкие</li>
 <li>Умеренно</li>
-<li>Фишинговое сообщение с</li>
+<li>Высокая</li>
 <li>Критический</li>
 </ul>
 </dt>
@@ -625,7 +625,7 @@ ms.locfileid: "52275352"
 <dt> &lt; &gt; серьезность, например:<ul>
 <li>Низкие</li>
 <li>Умеренно</li>
-<li>Фишинговое сообщение с</li>
+<li>Высокая</li>
 <li>Критический</li>
 </ul>
 </dt>
@@ -668,7 +668,7 @@ ms.locfileid: "52275352"
 <dt> &lt; &gt; серьезность, например:<ul>
 <li>Низкие</li>
 <li>Умеренно</li>
-<li>Фишинговое сообщение с</li>
+<li>Высокая</li>
 <li>Критический</li>
 </ul>
 </dt>
@@ -774,7 +774,7 @@ ms.locfileid: "52275352"
 <dt> &lt; &gt; серьезность, например:<ul>
 <li>Низкие</li>
 <li>Умеренно</li>
-<li>Фишинговое сообщение с</li>
+<li>Высокая</li>
 <li>Критический</li>
 </ul>
 </dt>
@@ -849,7 +849,7 @@ ms.locfileid: "52275352"
 <dt> &lt; &gt; серьезность, например:<ul>
 <li>Низкие</li>
 <li>Умеренно</li>
-<li>Фишинговое сообщение с</li>
+<li>Высокая</li>
 <li>Критический</li>
 </ul>
 </dt>
@@ -928,7 +928,7 @@ ms.locfileid: "52275352"
 <dt> &lt; &gt; серьезность, например:<ul>
 <li>Низкие</li>
 <li>Умеренно</li>
-<li>Фишинговое сообщение с</li>
+<li>Высокая</li>
 <li>Критический</li>
 </ul>
 </dt>
@@ -1050,7 +1050,7 @@ Windows Server 2008, Windows 2008 R2, Windows Server 2012 и Windows Server 2016
 <dt> &lt; &gt; серьезность, например:<ul>
 <li>Низкие</li>
 <li>Умеренно</li>
-<li>Фишинговое сообщение с</li>
+<li>Высокая</li>
 <li>Критический</li>
 </ul>
 </dt>
@@ -1142,7 +1142,7 @@ Windows Server 2008, Windows 2008 R2, Windows Server 2012 и Windows Server 2016
 <dt> &lt; &gt; серьезность, например:<ul>
 <li>Низкие</li>
 <li>Умеренно</li>
-<li>Фишинговое сообщение с</li>
+<li>Высокая</li>
 <li>Критический</li>
 </ul>
 </dt>
@@ -1204,7 +1204,7 @@ Windows Server 2008, Windows 2008 R2, Windows Server 2012 и Windows Server 2016
 Клиент антивирусная программа в Microsoft Defender эту ошибку из-за критических проблем. Конечная точка может не быть защищена. Просмотрите описание ошибки, а затем <b>выполните</b> соответствующие действия пользователя ниже.
 <table>
 <tr>
-<th>Action</th>
+<th>Действие</th>
 <th>Действие пользователя</th>
 </tr>
 <tr>

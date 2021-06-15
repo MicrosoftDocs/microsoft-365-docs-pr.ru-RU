@@ -7,6 +7,7 @@ ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 localization_priority: normal
+ms.topic: article
 author: martyav
 ms.author: v-maave
 ms.custom: nextgen
@@ -14,12 +15,12 @@ ms.date: 09/11/2018
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 3fcc79e767edb533a20402a2f92ba4abc7d8386a
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.openlocfilehash: 3eb4d01957383efc8df47e9fee6eb6394c80015a
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51764595"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924387"
 ---
 # <a name="troubleshoot-microsoft-defender-antivirus-while-migrating-from-a-third-party-solution"></a>Устранение неполадок с антивирусной программой в Microsoft Defender при миграции из сторонного решения
 
@@ -50,7 +51,7 @@ ms.locfileid: "51764595"
 
  Идентификатор события | Имя журнала | Описание | Источник
 -|-|-|-
-15 | Приложение | Обновленный Защитник Windows успешно для SECURITY_PRODUCT_STATE_OFF. | Центр безопасности
+15 | Для приложений | Обновленный Защитник Windows успешно для SECURITY_PRODUCT_STATE_OFF. | Центр безопасности
 5007 | Microsoft-Windows-Защитник Windows/operational | антивирусная программа Конфигурация изменилась.  Если это неожиданное событие, необходимо просмотреть параметры, так как это может быть результатом вредоносных программ.<br /><br />**Старое значение:** Default\IsServiceRunning = 0x0<br />**Новое значение:** HKLM\SOFTWARE\Microsoft\Защитник Windows\IsServiceRunning = 0x1 | Защитник Windows
 5010 | Microsoft-Windows-Защитник Windows/operational | антивирусная программа для шпионских программ и другого потенциально нежелательного программного обеспечения отключен. | Защитник Windows
 
@@ -87,7 +88,7 @@ GPresult.exe /h gpresult.html
 
 В отчете GPResults в заголовке *Windows компоненты/антивирусная программа* вы можете увидеть что-то похожее на следующую запись, указав, что антивирусная программа в Microsoft Defender отключено.
 
-Политика | Параметр | Выигрыш GPO
+Политика | Setting | Выигрыш GPO
 -|-|-
 Отключите антивирусная программа | Включено | Win10-Workstations
 
@@ -100,7 +101,7 @@ DisableAntiSpyware | -
 Выигрыш GPO | Win10-Workstations
 Результат: успех | 
 **Общие** | 
-Action | Update
+Действие | Update
 **Свойства** | 
 Куст | HKEY_LOCAL_MACHINE
 Путь ключа | SOFTWARE\Policies\Microsoft\Защитник Windows

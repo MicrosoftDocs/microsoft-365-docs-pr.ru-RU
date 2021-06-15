@@ -7,20 +7,20 @@ ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-localization_priority: Normal
+localization_priority: normal
+ms.topic: article
 author: denisebmsft
 ms.author: deniseb
 ms.reviewer: pahuijbr
 manager: dansimp
 ms.custom: nextgen
 ms.technology: mde
-ms.topic: article
-ms.openlocfilehash: 52fe64b096b24dfc52a97fb664e408c5aeb701f4
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 35873b371e773e793ae966a338150e2e5e256a42
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624213"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52926035"
 ---
 # <a name="manage-the-sources-for-microsoft-defender-antivirus-protection-updates"></a>Управление источниками обновлений антивирусной программы в Microsoft Defender
 
@@ -73,7 +73,7 @@ ms.locfileid: "52624213"
 
 Каждый источник имеет типичные сценарии, которые зависят от настройки сети, а также от того, как часто они публикуют обновления, как описано в следующей таблице:
 
-|Расположение | Пример сценария |
+|Местоположение | Пример сценария |
 |---|---|
 |Windows Служба обновления сервера | Вы используете службу Windows сервера для управления обновлениями для вашей сети.|
 |Центр обновления Майкрософт | Вы хотите, чтобы конечные точки подключались непосредственно к Microsoft Update. Это может быть полезно для конечных точек, которые нерегулярно подключаются к корпоративной сети, или если вы не используете службу обновления Windows сервера для управления обновлениями.|

@@ -21,12 +21,12 @@ f1.keywords:
 - NOCSH
 description: В этой статье перечислены диапазоны URL-адресов и IP-адресов для Office 365 при 21Vianet в Китае.
 hideEdit: true
-ms.openlocfilehash: ed9b6fdbef1ca121ccf53b635768ebdaab89763a
-ms.sourcegitcommit: b56a8ff9bb496bf2bc1991000afca3d251f45b72
+ms.openlocfilehash: 80d9dd6626214215a4d84273297f881441992f14
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51418053"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52925197"
 ---
 # <a name="urls-and-ip-address-ranges-for-office-365-operated-by-21vianet"></a>URL-адреса и диапазоны IP-адресов для службы Office 365, предоставляемой компанией 21Vianet
 
@@ -36,9 +36,9 @@ ms.locfileid: "51418053"
   
  **Конечные точки Office 365:**[ по всему миру (включая GCC)](urls-and-ip-address-ranges.md)  | *Office 365, предоставляемый 21 Vianet* | [Office 365 Germany](microsoft-365-germany-endpoints.md) | [Office 365 для DoD государственных организаций США](microsoft-365-u-s-government-dod-endpoints.md) | [Office 365 для GCC High государственных организаций США](microsoft-365-u-s-government-gcc-high-endpoints.md) |
   
-|||
-|:-----|:-----|
-|**Последнее обновление:** 03/29/2021 - ![ Подписка на журнал изменений RSS ](../media/5dc6bb29-25db-4f44-9580-77c735492c4b.png) [](https://endpoints.office.com/version/China?allversions=true&format=rss&clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7)|**Скачивание:** все обязательные и необязательные назначения в одном списке [в формате JSON](https://endpoints.office.com/endpoints/China?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7).  <br/> |
+**Последнее обновление:** 03/29/2021 - ![ Подписка на журнал изменений RSS ](../media/5dc6bb29-25db-4f44-9580-77c735492c4b.png) [](https://endpoints.office.com/version/China?allversions=true&format=rss&clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7)
+
+**Скачивание:** все обязательные и необязательные назначения в одном списке [в формате JSON](https://endpoints.office.com/endpoints/China?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7).
 
 Сначала ознакомьтесь со статьей [Управление конечными точками Office 365](managing-office-365-endpoints.md), содержащей рекомендации по управлению сетевым подключением с использованием этих данных. В начале каждого месяца по мере необходимости данные конечных точек обновляются новыми IP-адресами и URL-адресами, публикуемыми за 30 дней до их активации. Это позволяет пользователям, не имеющим автоматических обновлений, завершить свои процессы до того, как новое подключение станет обязательным. Конечные точки также могут обновляться в течение месяца, если это требуется для устранения проблем, выявленных службой поддержки, инцидентов безопасности или в связи с другими экстренными рабочими требованиями. Данные, представленные ниже на этой странице, получены из веб-служб на базе REST. Если вы используете скрипт или сетевое устройство для доступа к этим данным, сразу переходите к разделу [Веб-служба](microsoft-365-ip-web-service.md).
 

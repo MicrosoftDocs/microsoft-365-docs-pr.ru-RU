@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Определите Office какие функции можно показать или скрыть при выборе справки > Что нового в Приложение Office на Windows с помощью функции "Что нового в Office" в центре администрирования Microsoft 365.
-ms.openlocfilehash: b9d20e3df4a2de540316dce0e6a6905c07e65176
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 319d5c0aabb0a61b01872acaeeb3ad362b72de37
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50915031"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924839"
 ---
 # <a name="manage-which-office-features-appear-in-whats-new"></a>Управление Office функций в What's New
 
@@ -60,9 +60,8 @@ ms.locfileid: "50915031"
 
 Новые функции отображаются на странице в соответствии со следующим расписанием:
 
-||||
+|Канал|Date|Действия|
 |:-----|:-----|:-----|
-|**Канал** <br/> |**Date** <br/> |**Действия** <br/> |
 |**Current** <br/> |15-е место месяца  <br/> |1 — 3 недели до ежемесячного выпуска <br/> |
 |**Monthly Enterprise** <br/> |Первый месяц  <br/> |За две недели до основной версии, которая приносит новые функции |
 |**Полугодовой Enterprise (Предварительный просмотр)** <br/> |1 сентября и 1 марта <br/> | За 2 недели до основной версии, которая приносит новые функции|
