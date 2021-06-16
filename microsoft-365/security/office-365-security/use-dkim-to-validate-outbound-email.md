@@ -20,12 +20,12 @@ ms.custom:
 description: Узнайте, как использовать технологию DomainKeys Identified Mail (DKIM) для Microsoft 365, чтобы обеспечить доверие конечных почтовых систем к сообщениям, отправленным из вашего личного домена.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2cd04911e3663bb6b9fa00d4946b26086dc8094d
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 12c7609635d9140f2e8efda3f6f1397619ce4790
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538271"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52929909"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain"></a>Используйте DKIM для проверки исходящей электронной почты, отправленной с вашего пользовательского домена
 
@@ -158,7 +158,7 @@ Get-DkimSigningConfig -Identity <domain> | Format-List Selector1CNAME, Selector2
 Для записей CNAME используйте указанный ниже формат.
 
 > [!IMPORTANT]
-> Если вы один из наших клиентов GCC High, мы вычисляем _domainGuid_ другим способом. Вместо поиска записи MX для вашего _initialDomain_ с целью вычисления _domainGuid_ мы вычисляем его непосредственно на основании личного домена. Например, если ваш личный домен — contoso.com, ваш domainGuid будет иметь вид contoso-com, то есть все точки будут заменены дефисами. Таким образом, независимо от записи MX, на которую указывает ваш initialDomain, вы всегда можете использовать описанный выше метод для вычисления domainGuid, чтобы использовать его в записях CNAME.
+> Если вы один из наших клиентов GCC High, мы вычисляем _domainGuid_ другим способом. Вместо поиска записи MX для вашего _initialDomain_ с целью вычисления _domainGuid_ мы вычисляем его непосредственно на основании личного домена. Например, если ваш личный домен — contoso.com, ваш domainGuid будет иметь вид contoso-com, то есть все точки будут заменены дефисами. Таким образом, независимо от записи MX, на которую указывает ваш initialDomain, вы всегда можете использовать описанный выше метод для вычисления domainGuid, чтобы использовать его в записях CNAME.
 
 ```console
 Host name:            selector1._domainkey
@@ -213,18 +213,16 @@ TTL:                3600
 
 1. [Войдите в Microsoft 365](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4), используя свою рабочую или учебную учетную запись.
 
-2. Перейдите на сайт [protection.office.com](https://protection.office.com) или [security.microsoft.com](https://security.microsoft.com) в зависимости от того, какой портал вы используете, и следуйте пути, указанному ниже.
+2. Перейдите на сайт [security.microsoft.com](https://security.microsoft.com) и следуйте пути, указанному ниже.
 
-|protection.office.com  |security.microsoft.com  |
-|---------|---------|
-| Управление угрозами > Политика > Дополнительные политики > DKIM     | Сообщение электронной почты и совместная работа > Политики и правила > Политики в отношении угроз > Дополнительные политики > DKIM        | 
+3. Выберите **Сообщение электронной почты и совместная работа > Политики и правила > Политики в отношении угроз > DKIM**.
 
-3. Выберите домен, для которого требуется включить DKIM, а затем в разделе **Добавлять подписи DKIM в сообщения для этого домена** нажмите **Включить**. Повторите этот шаг для каждого личного домена.
+4. Выберите домен, для которого требуется включить DKIM, а затем в разделе **Добавлять подписи DKIM в сообщения для этого домена** нажмите **Включить**. Повторите этот шаг для каждого личного домена.
 
 #### <a name="to-enable-dkim-signing-for-your-custom-domain-by-using-powershell"></a>Как включить подпись с помощью DKIM для личного домена, используя PowerShell
 
 > [!IMPORTANT]
->:::image type="content" source="../../media/DKIMNoKeysSavedForThisDomain.PNG" alt-text="Ошибка &quot;Для этого домена нет сохраненных ключей DKIM&quot;.":::
+>:::image type="content" source="../../media/dkim.png" alt-text="Ошибка &quot;Для этого домена нет сохраненных ключей DKIM&quot;.":::
 > Если вы настраиваете DKIM в первый раз и столкнулись с ошибкой "Для этого домена нет сохраненных ключей DKIM", выполните команду из шага 2 ниже (например, *Set-DkimSigningConfig -Identity contoso.com -Enabled $true*), чтобы увидеть ключ.
 
 1. [Подключение к PowerShell для Exchange Online](/powershell/exchange/connect-to-exchange-online-powershell).
@@ -235,7 +233,7 @@ TTL:                3600
    Set-DkimSigningConfig -Identity <domain> -Enabled $true
    ```
 
-   Где _domain_ — имя личного домена, для которого требуется включить функцию подписывания с помощью DKIM.
+   Где _domain_ — имя личного домена, для которого требуется включить функцию подписывания с помощью DKIM.
 
    Например, для домена contoso.com:
 
