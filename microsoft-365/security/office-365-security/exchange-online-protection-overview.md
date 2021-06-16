@@ -15,12 +15,12 @@ ms.custom:
 description: Узнайте, Exchange Online Protection (EOP) может помочь защитить организацию локальной электронной почты в автономных и гибридных средах.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ad083e828fbed27cce4b8929c1bee3081c983c17
-ms.sourcegitcommit: 76c91e7b0d3172de57988eb4576d2b91c2f9ce18
+ms.openlocfilehash: a925b251ff79aec5acaa0b2c1da2aee3f5a6d70d
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52707288"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52930167"
 ---
 # <a name="exchange-online-protection-overview"></a>Обзор Exchange Online Protection
 
@@ -34,7 +34,7 @@ ms.locfileid: "52707288"
 Exchange Online Protection (EOP) — это облачная служба фильтрации, которая защищает организацию от нежелательной почты, вредоносных программ и других угроз электронной почты. EOP включен во все организации Microsoft 365 с Exchange Online почтовыми ящиками.
 
 > [!NOTE]
-> EOP также сам по себе доступен для защиты локального почтового ящика и в гибридных средах для защиты Exchange почтовых ящиков. Дополнительные сведения см. [в Exchange Online Protection.](/exchange/standalone-eop/standaonline-eop)
+> EOP также сам по себе доступен для защиты локального почтового ящика и в гибридных средах для защиты Exchange почтовых ящиков. Дополнительные сведения см. [в Exchange Online Protection.](/exchange/standalone-eop/standalone-eop)
 
 Действия по настройкам функций безопасности EOP и сравнение с добавленной безопасностью, которую вы получаете в Microsoft Defender для Office 365, см. в руб. Защита от [угроз.](protect-against-threats.md) Рекомендуемые параметры для функций EOP доступны в рекомендуемых параметрах для EOP и [Microsoft Defender для Office 365 безопасности.](recommended-settings-for-eop-and-office365.md)
 
@@ -92,7 +92,7 @@ Exchange Online Protection (EOP) — это облачная служба фил
 <br>
 
 ****
-|Возможность|Комментарии|
+|Функция|Комментарии|
 |---|---|
 |**Protection**||
 |Функции защиты от вредоносных программ|[Защита от вредоносных программ в EOP](anti-malware-protection.md) <p> [Вопросы и ответы по защите от вредоносных программ](anti-malware-protection-faq-eop.yml) <p> [Настройка политик по борьбе с вредоносными программами в EOP](configure-anti-malware-policies.md)|

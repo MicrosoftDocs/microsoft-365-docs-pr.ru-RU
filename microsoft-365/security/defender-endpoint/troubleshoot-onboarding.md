@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: b9d6cd374a107a403269bc3babbe4220d69e1cce
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: cb4bebe3f6998b81a00d7fd15bc919f70381a933
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52844878"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52929699"
 ---
 # <a name="troubleshoot-microsoft-defender-for-endpoint-onboarding-issues"></a>Устранение неполадок в Microsoft Defender для проблем с бортовой точкой конечной точки
 
@@ -334,6 +334,8 @@ WinHTTP не зависит от параметров прокси-сервер�
 - Устройство выключено или перезапущено до выполнения конечным пользователем первого логотипа
 - В этом сценарии служба SENSE не будет автоматически запускаться, даже если развернуты бортовые пакеты
 
+<div class="alert"><b>ПРИМЕЧАНИЕ:</b> Пользовательский логотип после OOBE больше не требуется для службы SENSE для запуска в следующих или более последних версиях Windows: Windows 10, версии 1809 или Windows Server 2019 с обновлением [22 апреля 2021](https://support.microsoft.com/kb/5001384) г. </br> Windows 10 версии 1909 с обновлением в апреле [2021 г.](https://support.microsoft.com/kb/5001396) </br> Windows 10 версии 2004/20H2 с обновлением [28 апреля 2021 г.](https://support.microsoft.com/kb/5001391) </div> 
+<br></br>
 > [!NOTE]
 > Следующие действия актуальны только при использовании Microsoft Endpoint Configuration Manager. Дополнительные сведения о том, как использовать Microsoft Endpoint Configuration Manager, см. в [материале Microsoft Defender for Endpoint.](/mem/configmgr/protect/deploy-use/windows-defender-advanced-threat-protection)
 

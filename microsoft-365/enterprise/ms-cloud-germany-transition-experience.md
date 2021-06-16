@@ -19,12 +19,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: Сводка. Сведения о том, что изменилось для перехода из Microsoft Cloud Germany (Microsoft Cloud Deutschland) в Office 365 службы в новом немецком регионе центра обработки данных.
-ms.openlocfilehash: 74ad9a662d3ea7a68ef1f82961864eb4468f6098
-ms.sourcegitcommit: e0a96e08b7dc29e074065e69a2a86fc3cf0dad01
+ms.openlocfilehash: e503df16cfdbe0985e635b07cb6b4a45bc55d367
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51591784"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52930407"
 ---
 # <a name="what-will-change-after-the-migration-to-office-365-services-in-the-new-german-datacenter-regions"></a>Что изменится после перехода на Office 365 службы в новых немецких регионах центра обработки данных
 
@@ -32,7 +32,7 @@ ms.locfileid: "51591784"
 
 Ниже ключевых различий между Microsoft Cloud Deutschland и службами Office 365 в новых немецких регионах центра обработки данных.
 
-| Category | Microsoft Cloud для Германии (Microsoft Cloud Deutschland) | Службы Office 365 в новых регионах центров обработки данных в Германии |
+| Категория | Microsoft Cloud для Германии (Microsoft Cloud Deutschland) | Службы Office 365 в новых регионах центров обработки данных в Германии |
 |:-------|:-----|:-------|
 | Службы Microsoft 365, доступные для подписки только на один клиент Office 365 | 15 служб | 29 служб <br><br> Дополнительные сведения см. в дополнительных сведениях о доступности служб между различными Office 365 [облачными службами?.](ms-cloud-germany-transition.md#serv-avail) |
 | Новые функции | Новые функции не будут доступны. | Новые функции будут доступны в соответствии с Office 365 службами. |
@@ -75,6 +75,12 @@ ms.locfileid: "51591784"
 - Почтовые ящики переносят в качестве процесса отыгрывки. Пользователи в вашей организации могут быть в Microsoft Cloud Deutschland или в немецком регионе во время перехода и являются частью одной Exchange организации (в том же глобальном списке адресов).
 
 - Пользователи веб-Outlook Web App, которые имеют доступ к службе с помощью URL-адреса, где их почтовый ящик не находится, увидят дополнительные запросы на проверку подлинности. Например, если почтовый ящик пользователя находится в службе Office 365, а подключение Outlook Web App пользователя использует устаревшую конечную точку, пользователь сначала пройдет проверку подлинности, а затем `outlook.office.de` `login.microsoftonline.de` — `login.microsoftonline.com` . После завершения миграции пользователь может получить доступ к новому URL-адресу (), и он увидит только один ожидаемый запрос `https://outlook.office365.com` на вход. 
+
+## <a name="sharepoint-online"></a>SharePoint Online
+
+В SharePoint Online и OneDrive для бизнеса вы можете обмениваться элементами через Outlook. После нажатия Outlook кнопку создается и выталковыв в новое сообщение в Outlook Web App.
+
+Обмен элементами в SharePoint Online и OneDrive для бизнеса через Outlook больше не работает после завершения миграции SharePoint Online. Мы признаем, что это известная проблема. Однако, поскольку Outlook находится на пути обесценения, исправление проблемы не планируется до тех пор, пока не будет откат.
 
 ## <a name="office-services"></a>Office Службы
 

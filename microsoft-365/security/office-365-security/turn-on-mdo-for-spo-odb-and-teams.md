@@ -20,12 +20,12 @@ description: Администраторы могут узнать, как вкл
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 07aea9551faa280cd51bda1d57f017e0a24028ea
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 374e67626eab07cc8ab89a52554658a31e661eec
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51206138"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52929951"
 ---
 # <a name="turn-on-safe-attachments-for-sharepoint-onedrive-and-microsoft-teams"></a>Включение безопасных вложений для SharePoint, OneDrive и Microsoft Teams
 
@@ -41,9 +41,9 @@ Microsoft Defender для Office 365 для SharePoint, OneDrive и Microsoft Te
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
-- Откройте Центр безопасности и соответствия требованиям на сайте <https://protection.office.com>. Чтобы перейти непосредственно на **страницу ATP Сейф вложения,** откройте <https://protection.office.com/safeattachmentv2> .
+- Чтобы открыть портал Microsoft 365 Defender, перейдите на сайт <https://security.microsoft.com>. Чтобы перейти непосредственно **на страницу Сейф вложения,** откройте <https://security.microsoft.com/safeattachmentv2> .
 
-- Чтобы включить Сейф вложения для SharePoint, OneDrive и Microsoft Teams, необходимо быть членом групп ролей управления  организацией или  администратором безопасности в Центре & соответствия требованиям. Дополнительные сведения см. в статье [Разрешения в Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
+- Чтобы включить Сейф вложения для SharePoint, OneDrive и Microsoft Teams, необходимо быть членом групп ролей управления организацией  или  администратора безопасности на портале Microsoft 365 Defender. Дополнительные сведения см. [в сайте Permissions in the Microsoft 365 Defender.](permissions-in-the-security-and-compliance-center.md)
 
 - Чтобы использовать SharePoint PowerShell для предотвращения скачивания вредоносных файлов, необходимо [](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#global-administrator--company-administrator) быть членом [](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#sharepoint-administrator) глобального администратора или администратора SharePoint в Azure AD.
 
@@ -51,13 +51,13 @@ Microsoft Defender для Office 365 для SharePoint, OneDrive и Microsoft Te
 
 - Разрешить до 30 минут, чтобы параметры вступили в силу.
 
-## <a name="step-1-use-the-security--compliance-center-to-turn-on-safe-attachments-for-sharepoint-onedrive-and-microsoft-teams"></a>Шаг 1. Используйте Центр & безопасности, чтобы включить Сейф вложения для SharePoint, OneDrive и Microsoft Teams
+## <a name="step-1-use-the-microsoft-365-defender-portal-to-turn-on-safe-attachments-for-sharepoint-onedrive-and-microsoft-teams"></a>Шаг 1. Используйте портал Microsoft 365 Defender, чтобы включить Сейф вложения для SharePoint, OneDrive и Microsoft Teams
 
-1. В Центре & безопасности перейдите  в центр политики управления угрозами ATP Сейф вложения и нажмите \>  \>  **параметры Global.**
+1. На портале Microsoft 365 Defender **перейдите** к политикам & правил политики угрозы Сейф вложениям и щелкните \>  \>  **глобальные параметры**.
 
 2. В глобальных **параметрах,** которые вылетят, перейдите к параметру Turn on Defender для Office 365 для **SharePoint, OneDrive и Microsoft Teams.** Переместите окантовку вправо, чтобы включить Сейф вложения для SharePoint, OneDrive и ![ ](../../media/scc-toggle-on.png) Microsoft Teams.
 
-   Выполнив необходимые действия, нажмите кнопку **Сохранить**.
+   По завершении нажмите кнопку **Сохранить**.
 
 ### <a name="use-exchange-online-powershell-to-turn-on-safe-attachments-for-sharepoint-onedrive-and-microsoft-teams"></a>Используйте Exchange Online PowerShell, чтобы включить Сейф вложения для SharePoint, OneDrive и Microsoft Teams
 
@@ -86,20 +86,20 @@ Set-SPOTenant -DisallowInfectedFileDownload $true
 
 Подробные сведения о синтаксисах и параметрах см. [в инструкции Set-SPOTenant.](/powershell/module/sharepoint-online/Set-SPOTenant)
 
-## <a name="step-3-recommended-use-the-security--compliance-center-to-create-an-alert-policy-for-detected-files"></a>Шаг 3 (Рекомендуется) Использование Центра & безопасности для создания политики оповещения для обнаруженных файлов
+## <a name="step-3-recommended-use-the-microsoft-365-defender-portal-to-create-an-alert-policy-for-detected-files"></a>Шаг 3 (Рекомендуется) Использование портала Microsoft 365 Defender для создания политики оповещения для обнаруженных файлов
 
-Вы можете создать политику оповещения, которая оповещает вас и других администраторов, Сейф вложения для SharePoint, OneDrive и Microsoft Teams обнаруживает вредоносный файл. Дополнительные дополнительные информацию о оповещениях см. в центре Создания оповещений о действиях в центре [& безопасности.](../../compliance/create-activity-alerts.md)
+Вы можете создать политику оповещения, которая оповещает вас и других администраторов, Сейф вложения для SharePoint, OneDrive и Microsoft Teams обнаруживает вредоносный файл. Дополнительные дополнительные информацию о оповещениях см. в [сайте Create activity alerts in the Microsoft 365 Defender.](../../compliance/create-activity-alerts.md)
 
-1. В Центре [& безопасности](https://protection.office.com)перейдите к политикам **оповещения** оповещений или \>  откройте <https://protection.office.com/alertpolicies> .
+1. На [портале Microsoft 365 Defender](https://security.microsoft.com)перейдите к политике & **правил Оповещения** или \>  откройте <https://security.microsoft.com/alertpolicies> .
 
-2. На странице **Политики оповещения** нажмите кнопку Новая **политика оповещения**.
+2. На странице **Политика оповещения** нажмите кнопку Новая **политика оповещения**.
 
 3. Мастер **политики оповещения открывается** при вылете. На странице **Имя оповещений** настройте следующие параметры:
 
    - **Имя.** Введите уникальное и описательное имя. Например, вредоносные файлы в библиотеках.
    - **Описание.** Введите необязательное описание. Например, сообщает администраторам об обнаружении вредоносных файлов в SharePoint Online, OneDrive или Microsoft Teams.
    - **Серьезность.** Оставьте значение **Low** выбранное по умолчанию или выберите **Medium** или **High**.
-   - **Выберите категорию**: Выберите **управление угрозами.**
+   - **Категория**: Выберите **управление угрозами**.
 
    По завершении нажмите кнопку **Далее**.
 
@@ -139,7 +139,7 @@ New-ActivityAlert -Name "Malicious Files in Libraries" -Description "Notifies ad
 
 - Чтобы убедиться, что вы успешно включили Сейф вложения для SharePoint, OneDrive и Microsoft Teams, используйте один из следующих действий:
 
-  - В Центре обеспечения [&](https://protection.office.com)безопасности перейдите  к политике управления угрозами \>  \> **ATP Сейф Вложения,** выберите глобальные параметры и проверьте значение параметра Turn on Defender для Office 365 для **SharePoint, OneDrive и Microsoft Teams.**
+  - На [портале Microsoft 365 Defender](https://security.microsoft.com)перейдите к политикам **&** правил политики угроз \>  \> **Сейф вложениям,** выберите глобальные параметры и проверьте значение параметра Turn on Defender для Office 365 для **SharePoint, OneDrive и Microsoft Teams.**
 
   - В Exchange Online PowerShell запустите следующую команду, чтобы проверить параметр свойства:
 
@@ -159,9 +159,9 @@ New-ActivityAlert -Name "Malicious Files in Libraries" -Description "Notifies ad
 
 - Чтобы убедиться, что вы успешно настроили политику оповещения для обнаруженных файлов, используйте любой из следующих действий:
 
-  - В Центре & безопасности перейдите к политикам **оповещения** оповещений, выберите политику оповещения и проверьте \>  \> параметры.
+  - На портале Microsoft 365 Defender **перейдите** к политике & правила Оповещения выберите политику оповещения и проверьте \>  \> параметры.
 
-  - В центре & безопасности PowerShell замените имя политики оповещения, запустите следующую команду и проверьте \<AlertPolicyName\> значения свойств:
+  - В Microsoft 365 портала Defender PowerShell замените имя политики оповещения, запустите следующую команду и проверьте \<AlertPolicyName\> значения свойств:
 
     ```powershell
     Get-ActivityAlert -Identity "<AlertPolicyName>"

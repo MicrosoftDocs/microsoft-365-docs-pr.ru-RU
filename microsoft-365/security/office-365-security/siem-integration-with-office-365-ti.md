@@ -19,12 +19,12 @@ description: Интеграция siEM-сервера организации с 
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ca8f86c831df16568ae569e7b21c7e0a33475948
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: f3d6bbacb4a64060ecd03cbb28eee3256f41827e
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205178"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52929783"
 ---
 # <a name="siem-integration-with-microsoft-defender-for-office-365"></a>Интеграция SIEM с Microsoft Defender для Office 365
 
@@ -67,7 +67,7 @@ SiEM-сервер или другая аналогичная система оп
 |
 
 > [!IMPORTANT]
-> Вы должны быть глобальным администратором или иметь роль администратора безопасности, назначенную Центру & безопасности, чтобы настроить интеграцию SIEM с Microsoft Defender для Office 365.
+> Вы должны быть глобальным администратором или иметь роль администратора безопасности, назначенную порталу Microsoft 365 Defender, чтобы настроить интеграцию SIEM с Microsoft Defender для Office 365.
 >
 > Ведение журнала аудита должно быть включено для Microsoft 365 среды. Чтобы получить помощь в этом, см. в справке о включите поиск [журнала аудита включите или отключите.](../../compliance/turn-audit-log-search-on-or-off.md)
 

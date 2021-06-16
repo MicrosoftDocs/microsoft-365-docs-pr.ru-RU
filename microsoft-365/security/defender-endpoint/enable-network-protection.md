@@ -8,17 +8,18 @@ ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
 localization_priority: Normal
+ms.topic: conceptual
 author: dansimp
 ms.author: dansimp
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: b62659360e990467524ec632968dfea313d0b164
-ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
+ms.openlocfilehash: bde97638a39eef4561b898b2cf49e51bed6e77a5
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52861675"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52926659"
 ---
 # <a name="turn-on-network-protection"></a>Включить защиту сети
 
@@ -81,7 +82,7 @@ ms.locfileid: "52861675"
 
 ### <a name="mobile-device-management-mdm"></a>Управление мобильными устройствами (MDM)
 
-Используйте [поставщик услуг конфигурации ./Vendor/MSFT/Policy/Config/Defender/EnableNetworkProtection](/windows/client-management/mdm/policy-csp-defender#defender-enablenetworkprotection) (CSP), чтобы включить или отключить защиту сети или включить режим аудита.
+Используйте [поставщик услуг конфигурации ./Vendor/MSFT/Policy/Config/Defender/EnableNetworkProtection](/windows/client-management/mdm/policy-csp-defender) (CSP), чтобы включить или отключить защиту сети или включить режим аудита.
 
 ### <a name="microsoft-endpoint-manager-formerly-intune"></a>Microsoft Endpoint Manager (ранее Intune)
 

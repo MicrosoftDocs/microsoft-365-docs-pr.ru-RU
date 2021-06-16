@@ -5,7 +5,7 @@ author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 09/30/2020
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -22,12 +22,12 @@ f1.keywords:
 ms.assetid: 6b4ded77-ac8d-42ed-8606-c014fd947560
 description: В этой статье содержится информация о защите глобального доступа администратора к Microsoft 365 подписке.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4ade5fd8070a656f976caa75c16ab92cadb7b64a
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 1c929651f3e70a1aeef16cdf48d853d675820833
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50929052"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52926551"
 ---
 # <a name="protect-your-microsoft-365-global-administrator-accounts"></a>Защита учетных записей Microsoft 365 администратора
 
@@ -91,7 +91,7 @@ ms.locfileid: "50929052"
 > [!NOTE]
 > Это требует дополнительных действий для регистрации в повседневной учетной записи пользователя и вход с помощью выделенной учетной записи глобального администратора. Но это нужно делать только время от времени для глобальных операций администратора. Подумайте, что восстановление Microsoft 365 подписки после глобального нарушения учетной записи администратора требует гораздо больше действий.
   
-## <a name="step-2-configure-multi-factor-authentication-for-your-dedicated-microsoft-365-global-administrator-accounts"></a>Шаг 2. Настройка многофакторной проверки подлинности для Microsoft 365 учетных записей глобального администратора
+## <a name="step-2-configure-multi-factor-authentication-for-your-dedicated-microsoft-365-global-administrator-accounts"></a>Этап 2. Настройка многофакторной проверки подлинности для Microsoft 365 учетных записей глобального администратора
 
 Многофакторная проверка подлинности (MFA) требует дополнительных сведений за пределами имени и пароля учетной записи. Microsoft 365 поддерживает эти дополнительные методы проверки:
   

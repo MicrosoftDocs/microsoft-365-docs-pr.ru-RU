@@ -17,29 +17,27 @@ ms.collection:
 - M365-security-compliance
 - m365solution-migratetomdatp
 - m365solution-overview
+- m365solution-mcafeemigrate
+- m365solution-symantecmigrate
 ms.topic: conceptual
 ms.custom: migrationguides
-ms.date: 05/20/2021
+ms.date: 06/14/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
 ms.technology: mde
-ms.openlocfilehash: 2a2b78089486b432ebf9492de26396b2bb96f94d
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: 2953103cb3812103740f98a6db5b8f4d369731e3
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593505"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52930311"
 ---
 # <a name="make-the-switch-from-non-microsoft-endpoint-protection-to-microsoft-defender-for-endpoint"></a>Переключение с защиты конечных точек, не в microsoft, на Microsoft Defender для конечной точки
 
-Если вы думаете о переходе из защиты конечной точки, не от Microsoft, в Microsoft Defender для конечной точки (Defender for [Endpoint),](microsoft-defender-endpoint.md) вы находитесь в правильном месте. Используйте эту статью в качестве руководства.
+Если вы думаете о переходе из решения защиты конечной точки, не от Microsoft, в Microsoft Defender для конечной точки (Defender for [Endpoint),](microsoft-defender-endpoint.md) вы находитесь в правильном месте. Используйте эту статью в качестве руководства.
 
 :::image type="content" source="images/nonms-mde-migration.png" alt-text="Обзор миграции в Defender для конечной точки":::
 
-При переходе на Defender для конечной точки вы начинаете с вашего решения, не включаемого в Microsoft, работая в активном режиме, настраиваете Defender для конечной точки в пассивном режиме, на борту в Defender для конечной точки, установите Defender for Endpoint в активный режим, а затем удалите решение, не включаемое в Microsoft.
-
-> [!TIP]
-> - Если вы в настоящее время используете безопасность конечных точек McAfee (McAfee), см. в этой ленте миграция из [McAfee в Defender для конечной точки.](mcafee-to-microsoft-defender-migration.md)
-> - Если в настоящее время используется Symantec Endpoint Protection (Symantec), см. в этой ленте Миграция из [Symantec в Defender для конечной точки.](symantec-to-microsoft-defender-endpoint-migration.md)
+При переходе на Defender для конечной точки вы начинаете с решения, не входить в Microsoft, работая в активном режиме. Затем настраивайте Defender для конечной точки в пассивном режиме и на борту устройств в Defender для конечной точки. Далее вы установите Защитник для конечной точки в активный режим. Наконец, вы удалите решение, не в microsoft.
 
 ## <a name="the-migration-process"></a>Процесс миграции
 

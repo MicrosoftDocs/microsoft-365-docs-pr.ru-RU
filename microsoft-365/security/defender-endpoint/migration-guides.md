@@ -15,18 +15,16 @@ ms.collection:
 ms.custom: migrationguides
 ms.reviewer: chriggs, depicker, yongrhee
 f1.keywords: NOCSH
-ms.date: 09/24/2020
+ms.date: 06/14/2021
 ms.technology: mde
-ms.openlocfilehash: 7d6d92f3abc79552406c80a46a8c3390b91e31d0
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 4d10de35358d528f004ee11e931fc6f41ce20482
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843014"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52930503"
 ---
 # <a name="make-the-switch-to-microsoft-defender-for-endpoint-and-microsoft-defender-antivirus"></a>Переключение на Microsoft Defender для конечной точки и антивирусная программа в Microsoft Defender
-
-[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
 **Область применения:**
 - [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2154037)
@@ -42,13 +40,11 @@ ms.locfileid: "52843014"
 |:--|:--|
 |Решение для защиты конечной точки еще не найдено, и вы хотите узнать больше о том, как работает Microsoft Defender для & антивирусная программа в Microsoft Defender конечных точек.  |[Лаборатория оценки Microsoft Defender для конечной точки](evaluation-lab.md)   |
 |У вас есть microsoft Defender для & антивирусная программа в Microsoft Defender и вам потребуется помощь в настройке и настройке всего.  |[Руководство по развертыванию Microsoft Defender для конечной точки](deployment-phases.md)  |
-|Планируется перейти из McAfee Endpoint Security (McAfee) в Microsoft Defender для конечных точек & антивирусная программа в Microsoft Defender. |[Переключение из McAfee в Microsoft Defender для конечной точки](mcafee-to-microsoft-defender-migration.md) |
-|Планируется перейти из Symantec Endpoint Protection (Symantec) в Microsoft Defender для конечных точек & антивирусная программа в Microsoft Defender. |[Переключение из Symantec в Microsoft Defender для конечной точки](symantec-to-microsoft-defender-endpoint-migration.md) |
-|Вы планируете перейти из решения защиты конечных точек, не в microsoft (кроме McAfee или Symantec) в Microsoft Defender для конечной точки & антивирусная программа в Microsoft Defender. |[Переключение на Microsoft Defender для конечной точки](switch-to-microsoft-defender-migration.md)   |
+|Планируется перейти из решения защиты конечных точек, не в microsoft, в Microsoft Defender для конечных точек & антивирусная программа в Microsoft Defender. |[Переключение на Microsoft Defender для конечной точки](switch-to-microsoft-defender-migration.md)   |
 |Вы мигрировали в Microsoft Defender для endpoint & антивирусная программа в Microsoft Defender, и вам нужна помощь в следующих действиях, таких как настройка дополнительных функций или настройка параметров безопасности. | [Управление защитником Майкрософт для конечной точки после миграции](manage-atp-post-migration.md) |
 
 
-## <a name="got-feedback"></a>Есть отзывы?
+## <a name="do-you-have-feedback-for-us"></a>У вас есть отзывы для нас?
 
 Дайте нам знать, что вы думаете! Отправка отзывов в нижней части страницы. Мы будем учитывать ваши отзывы, продолжая улучшать и добавлять в наши рекомендации по миграции.
 

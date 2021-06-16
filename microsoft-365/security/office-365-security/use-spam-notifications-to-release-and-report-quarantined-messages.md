@@ -21,12 +21,12 @@ ms.custom:
 description: Администраторы могут узнать о уведомлениях о нежелательной почте конечных пользователей для карантинов в Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 3f5eafbb51cd0ff32c69fa0cff85729ef95d3d1f
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 30f82abc245a2f6022bd1a75b57e9d20e3e32a32
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274992"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52929891"
 ---
 # <a name="use-user-spam-notifications-to-release-and-report-quarantined-messages"></a>Использование уведомлений о нежелательной почте пользователей для выпуска и сообщения с карантином
 
@@ -58,9 +58,9 @@ ms.locfileid: "52274992"
 
 - **Блок отправитель.** Щелкните эту ссылку, чтобы добавить отправитель в список заблокированных отправителей в почтовом ящике. Подробнее см. в разделе [Блокировка отправителя почтового сообщения](https://support.microsoft.com/office/b29fd867-cac9-40d8-aed1-659e06a706e4).
 
-- **Выпуск.** Для сообщений о нежелательной почте (не фишинга) вы можете освободить это сообщение здесь, не заехав на карантин центра & соответствия требованиям.
+- **Выпуск.** Для сообщений о нежелательной почте (не фишинга) вы можете освободить сообщение здесь, не заехав на карантин на портале Microsoft 365 Defender.
 
-- **Обзор.** Щелкните эту ссылку, чтобы перейти к карантину в Центре соответствия требованиям безопасности &, где можно (в зависимости от причины карантина сообщения) просмотреть, освободить, удалить или сообщить о своих карантинных сообщениях. Дополнительные сведения см. в [сообщении Find and release quarantined messages as a user in EOP.](find-and-release-quarantined-messages-as-a-user.md)
+- **Обзор.** Щелкните эту ссылку, чтобы перейти к карантину на портале Microsoft 365 Defender, где можно (в зависимости от причины карантина сообщения) просмотреть, освободить, удалить или сообщить о своих карантинных сообщениях. Дополнительные сведения см. в [сообщении Find and release quarantined messages as a user in EOP.](find-and-release-quarantined-messages-as-a-user.md)
 
 ![Пример уведомления о нежелательной почте для конечных пользователей](../../media/end-user-spam-notification.png)
 

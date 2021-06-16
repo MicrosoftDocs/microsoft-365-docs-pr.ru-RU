@@ -20,12 +20,12 @@ ms.custom:
 description: В этом разделе вы можете пройти рекомендуемую конфигурацию для параметров для всех клиентов, которые влияют на безопасность Microsoft 365 среды.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: fd9d07388386ecc3d5877736e588393cdc38e7bb
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 623ea316d1ad92790b8818504970a1d35401f617
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52879220"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52929579"
 ---
 # <a name="configure-your-microsoft-365-tenant-for-increased-security"></a>Настройка клиента Microsoft 365 для улучшения безопасности 
 
@@ -63,9 +63,9 @@ Office 365 Secure Score анализирует безопасность орга
 > [!NOTE]
 > Для нестандартных развертывания SPF, гибридных развертывания и устранения неполадок: как Microsoft 365 [использует sender Policy Framework (SPF)](how-office-365-uses-spf-to-prevent-spoofing.md)для предотвращения подмены.
 
-## <a name="view-dashboards-and-reports-in-the-security--compliance-center"></a>Просмотр панелей мониторинга и отчетов в Центре & безопасности
+## <a name="view-dashboards-and-reports-in-the-microsoft-365-defender-portal"></a>Просмотр панелей мониторинга и отчетов на портале Microsoft 365 Defender
 
-Чтобы узнать больше о состоянии среды, посетите эти отчеты и панели мониторинга. Данные в этих отчетах станут богаче по мере использования Office 365 служб. На данный момент ознакомьтесь с тем, что можно отслеживать и принимать меры. Дополнительные сведения см. в сообщении Центра [& безопасности.](../../compliance/reports-in-security-and-compliance.md)
+Чтобы узнать больше о состоянии среды, посетите эти отчеты и панели мониторинга. Данные в этих отчетах станут богаче по мере использования Office 365 служб. На данный момент ознакомьтесь с тем, что можно отслеживать и принимать меры. Дополнительные сведения см. [в сообщении на портале Microsoft 365 Defender.](../../compliance/reports-in-security-and-compliance.md)
 
 <br>
 

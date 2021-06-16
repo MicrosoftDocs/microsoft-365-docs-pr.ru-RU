@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: e621b79d37a2c3a22394bd51e0493334eff461c7
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: de24856e8ea7555a96de18cabca5ccadfe71b431
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932885"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52930275"
 ---
 # <a name="common-microsoft-365-defender-rest-api-error-codes"></a>Общие Microsoft 365 API API Defender REST
 
@@ -62,7 +62,7 @@ DisabledFeature | Запрет (403) | Функция tenant не включен
 DisallowedOperation | Запрет (403) | \<the disallowed operation and the reason\>.
 NotFound | Не найден (404) | Сообщение об ошибке General Not Found.
 ResourceNotFound | Не найден (404) | Ресурс \<the requested resource\> не найден.
-InternalServerError | Ошибка внутреннего сервера (500) | *Примечание. Отсутствие сообщения об ошибке, повторное повторить операцию или связаться с Microsoft, если она не будет решена*
+InternalServerError | Ошибка внутреннего сервера (500) | *Примечание. Отсутствие сообщения об ошибке, повторное повторить операцию или связаться [с Microsoft,](/microsoft-365/business-video/get-help-support) если она не будет решена*
 
 ## <a name="examples"></a>Примеры
 

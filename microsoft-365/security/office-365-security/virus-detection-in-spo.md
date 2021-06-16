@@ -20,12 +20,12 @@ description: Узнайте, как SharePoint Online обнаруживает �
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: dd38b196c106a36fb1a1bfc0a441620b1c5b8ba5
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 2ab11d4c1e2a064ad0717e6619f72a38b0cbc831
+ms.sourcegitcommit: ac3e9ccb7b43a42e600af8f44e6f30019533faeb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205331"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52932834"
 ---
 # <a name="built-in-virus-protection-in-sharepoint-online-onedrive-and-microsoft-teams"></a>Встроенная защита от вирусов в SharePoint Online, OneDrive и Microsoft Teams
 
@@ -68,7 +68,7 @@ Microsoft 365 используется общий механизм обнару�
 
 ## <a name="what-happens-when-the-onedrive-sync-client-tries-to-sync-an-infected-file"></a>Что происходит, когда клиент синхронизации OneDrive пытается синхронизировать зараженный файл?
 
-OneDrive синхронизации клиенты не будут скачивать файлы, содержащие вирусы. Клиент выведет уведомление о том, что файл невозможно синхронизировать.
+Когда вредоносный файл будет загружен в OneDrive, он будет синхронизирован с локальной машиной, прежде чем он будет помечен как вредоносный. После того как он помечен как вредоносный, пользователь не может открыть синхронизированный файл с локального компьютера.
 
 ## <a name="extended-capabilities-with-microsoft-defender-for-office-365"></a>Расширенные возможности с Microsoft Defender для Office 365
 

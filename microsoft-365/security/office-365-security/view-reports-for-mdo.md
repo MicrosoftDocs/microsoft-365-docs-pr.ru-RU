@@ -16,18 +16,18 @@ ms.assetid: e47e838c-d99e-4c0b-b9aa-e66c4fae902f
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Поиск и использование отчетов для Microsoft Defender для Office 365 в Центре & безопасности.
+description: Поиск и использование отчетов для Microsoft Defender для Office 365 на портале Microsoft 365 Defender.
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 0b3e1ddf48ccd74b36c594d232c6761b921dee8c
-ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
+ms.openlocfilehash: a5c45f58ee83de11712b198c85a8e423314289bf
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51599903"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52930232"
 ---
-# <a name="view-defender-for-office-365-reports-in-the-reports-dashboard-in-the-security--compliance-center"></a>Просмотр отчетов Defender для Office 365 отчетов на панели мониторинга отчетов в Центре & безопасности
+# <a name="view-defender-for-office-365-reports-in-the-reports-dashboard-in-the-microsoft-365-defender-portal"></a>Просмотр отчетов Defender для Office 365 отчетов на панели мониторинга отчетов на портале Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -35,9 +35,9 @@ ms.locfileid: "51599903"
 - [Microsoft Defender для Office 365 (план 1 и план 2)](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-Microsoft Defender для Office 365 организаций (например, Microsoft 365 E5 подписки или Microsoft Defender для Office 365 Plan 1 или Microsoft Defender для надстройки Office 365 Plan 2) содержат различные отчеты, связанные с безопасностью. Если у вас есть [необходимые](#what-permissions-are-needed-to-view-the-defender-for-office-365-reports)разрешения, вы можете просмотреть эти отчеты в Центре & безопасности, переехав на панель **мониторинга** \> **отчетов.** Чтобы перейти непосредственно к панели мониторинга Отчетов, откройте <https://protection.office.com/insightdashboard> .
+Microsoft Defender для Office 365 организаций (например, Microsoft 365 E5 подписки или Microsoft Defender для Office 365 Plan 1 или Microsoft Defender для надстройки Office 365 Plan 2) содержат различные отчеты, связанные с безопасностью. Если у вас есть [необходимые](#what-permissions-are-needed-to-view-the-defender-for-office-365-reports)разрешения, эти отчеты можно просмотреть на  портале Microsoft 365 Defender, переехав в отчеты о совместной работе электронной почты. \>  \>  Чтобы перейти непосредственно к панели мониторинга Отчетов, откройте <https://security.microsoft.com/emailandcollabreport> .
 
-![Панель мониторинга отчетов в Центре & безопасности](../../media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
+![Панель мониторинга отчетов на портале Microsoft 365 Defender](../../media/user-reported-messages.png)
 
 ## <a name="defender-for-office-365-file-types-report"></a>отчет о типах файлов Defender для Office 365;
 
@@ -45,7 +45,7 @@ Microsoft Defender для Office 365 организаций (например, M
 
  Совокупное представление отчета позволяет фильтровать в течение 90 дней, в то время как представление детализации позволяет фильтровать только 10 дней.
 
-Чтобы просмотреть отчет, откройте центр & безопасности,  перейдите [в](https://protection.office.com)панель мониторинга отчетов и выберите \>  Defender для Office 365 **типов файлов.** Чтобы перейти непосредственно к отчету, откройте <https://protection.office.com/reportv2?id=ATPFileReport> .
+Чтобы просмотреть отчет, откройте портал [Microsoft 365 Defender,](https://security.microsoft.com)перейдите на панель мониторинга отчетов и выберите  \>  Defender для Office 365 **типов файлов.** Чтобы перейти непосредственно к отчету, откройте <https://protection.office.com/reportv2?id=ATPFileReport> .
 
 ![Виджет defender для Office 365 типов файлов в панели мониторинга Отчетов](../../media/atp-file-types-report-widget.png)
 
@@ -127,7 +127,7 @@ Microsoft Defender для Office 365 организаций (например, M
 
 В **отчете о диспозиции** сообщений ATP показаны действия, принятые для сообщений электронной почты, которые были обнаружены как вредоносные содержимые.
 
-Чтобы просмотреть отчет, откройте центр [&](https://protection.office.com)безопасности,  перейдите на панель мониторинга отчетов и выберите расположение Office 365 \>  Defender.  Чтобы перейти непосредственно к отчету, откройте <https://protection.office.com/reportv2?id=ATPMessageReport> .
+Чтобы просмотреть отчет, откройте портал [Microsoft 365 Defender,](https://security.microsoft.com)перейдите в отчеты электронной почты & совместной & отчеты о совместной работе и выберите расположение Office 365  \>  \>  Defender. Чтобы перейти непосредственно к отчету, откройте <https://protection.office.com/reportv2?id=ATPMessageReport> .
 
 ![Виджет Office 365 расположения сообщений в панели мониторинга Отчетов](../../media/atp-message-disposition-report-widget.png)
 
@@ -215,7 +215,7 @@ Microsoft Defender для Office 365 организаций (например, M
 
 Клиентская сторона и задержка сети не включаются.
 
-Чтобы просмотреть отчет, откройте центр [&](https://protection.office.com)безопасности,  перейдите к панели мониторинга отчетов и выберите отчет о задержке \>  **почты.** Чтобы перейти непосредственно к отчету, откройте <https://protection.office.com/mailLatencyReport?viewid=P50> .
+Чтобы просмотреть отчет, откройте портал [Microsoft 365 Defender,](https://security.microsoft.com)перейдите на отчеты электронной почты & совместной работы & отчеты о совместной работе и щелкните Сведения о просмотре в отчете о задержке  \>  \>  **почты.**  Чтобы перейти непосредственно к отчету, откройте <https://security.microsoft.com/mailLatencyReport> .
 
 ![Виджет отчета о задержке почты в панели мониторинга отчетов](../../media/mail-latency-report-widget.png)
 
@@ -268,7 +268,7 @@ Microsoft Defender для Office 365 организаций (например, M
 
 В **отчете об угрозе** URL-адресов содержится сводка и представления тенденций для обнаруженных угроз и действия, принятые на щелчках [URL-адресов в Сейф ссылки.](safe-links.md) В этом отчете не будут щелкать данные пользователей,  Сейф применяемая политика ссылок имеет выбранный параметр Не отслеживать щелчки пользователя.
 
-Чтобы просмотреть отчет, откройте [центр &](https://protection.office.com)безопасности,  перейдите на панель мониторинга отчетов и выберите отчет о \>  **защите URL-адресов.** Чтобы перейти непосредственно к отчету, откройте <https://protection.office.com/reportv2?id=URLProtectionActionReport> .
+Чтобы просмотреть отчет, откройте портал [Microsoft 365 Defender,](https://security.microsoft.com)перейдите в отчеты электронной почты & совместной & отчеты о совместной работе и щелкните Сведения о просмотре в отчете о защите  \>  \>  **URL-адресов.**  Чтобы перейти непосредственно к отчету, откройте <https://security.microsoft.com/reports/URLProtectionActionReport> .
 
 ![Виджет отчета о защите URL-адресов в панели мониторинга отчетов](../../media/url-protection-report-widget.png)
 
@@ -336,8 +336,8 @@ Microsoft Defender для Office 365 организаций (например, M
 |Отчет|Тема|
 |---|---|
 |**Explorer** (Microsoft Defender для Office 365 Plan 2) или обнаружения в режиме реального времени **(Microsoft** Defender для Office 365 Plan 1)|[Обозреватель угроз (и обнаружение в режиме реального времени)](threat-explorer.md)|
-|**Отчеты о безопасности** электронной почты, такие как отчеты о главных отправителей и получателях, почтовый отчет Spoof и отчет о обнаружениях нежелательной почты.|[Просмотр отчетов о безопасности почты в Центре безопасности и соответствия требованиям](view-email-security-reports.md)|
-|**Отчеты о потоке** почты, такие как отчет о перенаправе, отчет о состоянии почтового потока и отчет о главных отправителей и получателях.|[Просмотр отчетов о потоке почты в центре & безопасности](view-mail-flow-reports.md)|
+|**Отчеты о безопасности** электронной почты, такие как отчеты о главных отправителей и получателях, почтовый отчет Spoof и отчет о обнаружениях нежелательной почты.|[Просмотр отчетов о безопасности электронной почты на портале Microsoft 365 Defender](view-email-security-reports.md)|
+|**Отчеты о потоке** почты, такие как отчет о перенаправе, отчет о состоянии почтового потока и отчет о главных отправителей и получателях.|[Просмотр отчетов о потоке почты на портале Microsoft 365 Defender](view-mail-flow-reports.md)|
 |**Трассировка URL Сейф ссылки** (только PowerShell). На выходе этого комлета показаны результаты действий Сейф ссылки за последние семь дней.|[Get-UrlTrace](/powershell/module/exchange/get-urltrace)|
 |**Результаты трафика почты для EOP** и Microsoft Defender для Office 365 (только PowerShell). Выход этого комлета содержит сведения о домене, дате, типе события, направлении, действии и графе сообщений.|[Get-MailTrafficATPReport](/powershell/module/exchange/get-mailtrafficatpreport)|
 |**Отчеты о подробностях почты** для EOP и Defender для Office 365 обнаружения (только PowerShell). Выход этого комлета содержит сведения о вредоносных файлах или URL-адресах, попытках фишинга, обезличив себя и других потенциальных угрозах в электронной почте или файлах.|[Get-MailDetailATPReport](/powershell/module/exchange/get-maildetailatpreport)|
@@ -345,16 +345,16 @@ Microsoft Defender для Office 365 организаций (например, M
 
 ## <a name="what-permissions-are-needed-to-view-the-defender-for-office-365-reports"></a>Какие разрешения необходимы для просмотра отчетов Defender для Office 365?
 
-Чтобы просмотреть и использовать отчеты, описанные в этой статье, необходимо быть членом одной из следующих групп ролей в Центре & безопасности:
+Чтобы просмотреть и использовать отчеты, описанные в этой статье, необходимо быть членом одной из следующих групп ролей на портале Microsoft 365 Defender:
 
 - **Управление организацией**
 - **Администратор безопасности**
-- **Читатель сведений о безопасности**
+- **Считыватель безопасности**
 - **Глобальный читатель**
 
-Дополнительные сведения см. в статье [Разрешения в Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
+Дополнительные сведения см. [в сайте Permissions in the Microsoft 365 Defender.](permissions-in-the-security-and-compliance-center.md)
 
-**Примечание.** Добавление пользователей к соответствующей роли Azure Active Directory в центре администрирования Microsoft 365 предоставляет пользователям необходимые разрешения  в Центре соответствия требованиям & безопасности и разрешения для других функций в Microsoft 365. Дополнительные сведения см. в статье [О ролях администраторов](../../admin/add-users/about-admin-roles.md).
+**Примечание.** Добавление пользователей к соответствующей роли Azure Active Directory в центре администрирования Microsoft 365 предоставляет пользователям необходимые разрешения на  портале Microsoft 365 Defender и разрешения на другие функции в Microsoft 365. Дополнительные сведения см. в статье [О ролях администраторов](../../admin/add-users/about-admin-roles.md).
 
 ## <a name="what-if-the-reports-arent-showing-data"></a>Что делать, если отчеты не отображают данные?
 
@@ -362,6 +362,6 @@ Microsoft Defender для Office 365 организаций (например, M
 
 ## <a name="related-topics"></a>Статьи по теме
 
-[Интеллектуальные отчеты и аналитика в Центре безопасности и соответствия требованиям](reports-and-insights-in-security-and-compliance.md)
+[Интеллектуальные отчеты и сведения на портале Microsoft 365 Defender](reports-and-insights-in-security-and-compliance.md)
 
 [Разрешения на роль (Azure Active Directory](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#role-permissions)

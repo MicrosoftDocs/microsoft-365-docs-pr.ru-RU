@@ -19,12 +19,12 @@ description: Администраторы могут узнать, как упр
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e810b0146803d22246db6d4248d7d4a6a203834b
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 4ed1d90bdc6e222d44179a77e9617d05909a4258
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52879028"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52926467"
 ---
 # <a name="permissions-in-the-microsoft-365-defender-portal"></a>Разрешения на портале Microsoft 365 Defender
 
@@ -58,7 +58,7 @@ ms.locfileid: "52879028"
 
 ## <a name="roles-and-role-groups-in-the-microsoft-365-defender-portal"></a>Роли и группы ролей на портале Microsoft 365 Defender
 
-На портале Microsoft 365 Defender в разделе **Разрешения и роли** доступны следующие типы ролей и групп ролей.
+На портале Microsoft 365 Defender в разделе **Разрешения и роли** доступны следующие типы ролей и групп ролей:
 
 - **Роли Azure AD**: вы можете просматривать роли и назначенных пользователей, но не можете управлять ими непосредственно на портале Microsoft 365 Defender. Роли Azure AD — это центральные роли, которые назначают разрешения **всем** службам Microsoft 365.
 

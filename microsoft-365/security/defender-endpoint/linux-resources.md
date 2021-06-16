@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 176ee89c8d60a1515855296e2565f0649f908a33
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: aaf9c0a8eef4e050ca034d1aee69d24c5adb909d
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933329"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52930371"
 ---
 # <a name="resources"></a>Ресурсы
 
@@ -31,6 +31,7 @@ ms.locfileid: "51933329"
 
 
 **Область применения:**
+
 - [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
@@ -69,6 +70,7 @@ ms.locfileid: "51933329"
    ```bash
    mdatp log level set --level info
    ```
+
    ```Output
    Log level configured successfully
    ```
@@ -77,7 +79,8 @@ ms.locfileid: "51933329"
 
 Если ошибка возникает во время установки, установщик будет сообщать только об общем сбое.
 
-Подробный журнал будет сохранен до `/var/log/microsoft/mdatp_install.log` . Если во время установки вы испытываете проблемы, отправьте нам этот файл, чтобы мы могли помочь диагностировать причину.
+Подробный журнал будет сохранен до `/var/log/microsoft/mdatp/install.log` .
+Если во время установки вы испытываете проблемы, отправьте нам этот файл, чтобы мы могли помочь диагностировать причину.
 
 ## <a name="uninstall"></a>Удалить
 
@@ -104,7 +107,7 @@ ms.locfileid: "51933329"
 |Group                 |Сценарий                                                |Команда                                                                |
 |----------------------|--------------------------------------------------------|-----------------------------------------------------------------------|
 |Конфигурация         |Включите/отключите защиту в режиме реального времени                        |`mdatp config real-time-protection --value [enabled\|disabled]`        |
-|Конфигурация         |Включите/отключите мониторинг поведения                         |`mdatp config behavior-monitoring --value [enabled\|disabled]` 
+|Конфигурация         |Включите/отключите мониторинг поведения                         |`mdatp config behavior-monitoring --value [enabled\|disabled]`
 |Конфигурация         |Включите/отключите облачную защиту                            |`mdatp config cloud --value [enabled\|disabled]`                       |
 |Конфигурация         |Включите/отключите диагностику продукта                         |`mdatp config cloud-diagnostic --value [enabled\|disabled]`            |
 |Конфигурация         |Включите/отключите автоматическую отправку образца                 |`mdatp config cloud-automatic-sample-submission [enabled\|disabled]`   |
@@ -120,8 +123,8 @@ ms.locfileid: "51933329"
 |Конфигурация         |Включив защиту PUA                                  |`mdatp threat policy set --type potentially_unwanted_application --action block` |
 |Конфигурация         |Отключение защиты PUA                                 |`mdatp threat policy set --type potentially_unwanted_application --action off` |
 |Конфигурация         |Включим режим аудита для защиты PUA                   |`mdatp threat policy set --type potentially_unwanted_application --action audit` |
-|Diagnostics           |Изменение уровня журнала                                    |`mdatp log level set --level verbose [error|warning|info|verbose]`     |
-|Diagnostics           |Создание журналов диагностики                                |`mdatp diagnostic create --path [directory]`                           |
+|Диагностика           |Изменение уровня журнала                                    |`mdatp log level set --level verbose [error|warning|info|verbose]`     |
+|Диагностика           |Создание журналов диагностики                                |`mdatp diagnostic create --path [directory]`                           |
 |Здравоохранение                |Проверка состояния продукта                              |`mdatp health`                                                         |
 |Защита            |Сканирование пути                                             |`mdatp scan custom --path [path] [--ignore-exclusions]`                |
 |Защита            |Быстрое сканирование                                         |`mdatp scan quick`                                                     |

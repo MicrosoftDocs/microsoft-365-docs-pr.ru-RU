@@ -7,20 +7,20 @@ ms.prod: m365-security
 ms.mktglfcycl: manage
 ms.sitesec: library
 ms.pagetype: security
-localization_priority: Normal
+localization_priority: normal
+ms.topic: article
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.topic: article
-ms.openlocfilehash: ccb0d4cf168bbb4d3c1575c1e6611829909d0817
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 48ab72e9700e45cd4eab520a43d6f3d9ef18e227
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275412"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52926539"
 ---
 # <a name="microsoft-defender-antivirus-in-the-windows-security-app"></a>антивирусная программа в Microsoft Defender в приложении Безопасность Windows
 
@@ -109,10 +109,10 @@ ms.locfileid: "52275412"
 
 |Тип исключения  |Определенный  |Что происходит  |
 |---------|---------|---------|
-|**Файл** |Расположение <br/>Пример: `c:\sample\sample.test` |Определенный файл пропускается антивирусная программа в Microsoft Defender. |
-|**Folder**    |Расположение <br/>Пример: `c:\test\sample`       |Все элементы в указанной папке пропускаются антивирусная программа в Microsoft Defender.         |
-|**Тип файла**   |Расширение файла <br/>Пример: `.test` |Все файлы с `.test` расширением в любом месте устройства пропускаются антивирусная программа в Microsoft Defender.         |
-|**Процесс**     |Путь к исполняемым файлам <br>Пример: `c:\test\process.exe`         |Определенный процесс и все файлы, открытые этим процессом, пропускаются антивирусная программа в Microsoft Defender.         |
+|**Файл** |Местоположение <br/>Пример: `c:\sample\sample.test`. |Определенный файл пропускается антивирусная программа в Microsoft Defender. |
+|**Folder**    |Местоположение <br/>Пример: `c:\test\sample`.       |Все элементы в указанной папке пропускаются антивирусная программа в Microsoft Defender.         |
+|**Тип файла**   |Расширение файла <br/>Пример: `.test`. |Все файлы с `.test` расширением в любом месте устройства пропускаются антивирусная программа в Microsoft Defender.         |
+|**Процесс**     |Путь к исполняемым файлам <br>Пример: `c:\test\process.exe`.         |Определенный процесс и все файлы, открытые этим процессом, пропускаются антивирусная программа в Microsoft Defender.         |
 
 Для получения дополнительных сведений ознакомьтесь с приведенными ниже ресурсами.
 - [Настройка и проверка исключений в зависимости от расположения расширения файлов и папок](./configure-extension-file-exclusions-microsoft-defender-antivirus.md) 

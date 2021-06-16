@@ -18,20 +18,20 @@ ms.custom:
 - seo-marvel-apr2020
 - Adm_O365
 description: Эта статья поможет вам спланировать требования к пропускной способности сети для Microsoft 365, а также точной настройки и устранения неполадок.
-ms.openlocfilehash: bf05e4128f8ba5ddecce76cb00dc945f43c9c59a
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 0e125011d06ce15218b8602169c08c538f5eec6c
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50923604"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52926707"
 ---
 # <a name="network-planning-and-performance-tuning-for-microsoft-365"></a>Планирование сети и настройка производительности для Microsoft 365
 Перед развертыванием в первый раз или переносом в Microsoft 365 можно использовать сведения в этих темах для оценки необходимой пропускной способности, а затем для проверки и проверки достаточной пропускной способности для развертывания или миграции в Microsoft 365. Обзор см. в примере: планирование сети и [миграции для Microsoft 365.](network-and-migration-planning.md)
   
-|||||
+|Категория |Описание |Категория |Описание |
 |:-----|:-----|:-----|:-----|
 |**Планирование сети** <br/> ![Сеть](../media/5e9dcd06-601b-4b28-88dc-f524e7548794.png)           <br/> |Хотите быстрые подключения и страницы, которые загружаются быстро?  <br/> Чтение [Получение наилучшего подключения и производительности в Microsoft 365](https://aka.ms/o365perfprinciples).<br/>Ознакомьтесь [Microsoft 365 обзор сетевого подключения,](microsoft-365-networking-overview.md) чтобы понять понятия.<br/> |**Измерение сети** <br/> ![Калькулятор](../media/d690a132-4884-40eb-a918-526bb3dff3cc.png)           <br/> |Чтение [Microsoft 365 производительности с помощью базовых показателей](performance-tuning-using-baselines-and-history.md) и истории производительности и плана устранения [неполадок производительности для Microsoft 365](performance-troubleshooting-plan.md).  <br/> Используйте эти средства для [оценки существующей сети.](network-and-migration-planning.md#calculators)  <br/> |
-|**Рекомендации** <br/> ![Рекомендации](../media/2a659a5c-1007-47d3-a6c6-a19e018ab29b.png)           <br/> |[Лучшие практики для планирования сети и повышения](network-and-migration-planning.md#BestPractices)производительности миграции для Microsoft 365. Хотите сразу начать помогать пользователям? См. [лучшие практики использования Office 365 в медленной сети.](https://support.office.com/article/fd16c8d2-4799-4c39-8fd7-045f06640166)  <br/> [Microsoft 365 принципы](./microsoft-365-network-connectivity-principles.md) сетевого подключения помогут вам понять последние рекомендации по безопасной оптимизации Microsoft 365 подключения к сети.  <br/> |**Справочник** <br/> ![Книга или журнал](../media/56dff3c1-f605-48d8-811f-7d13ce639ecd.png)           <br/> |Нужны сведения, например список IP-адресов и портов? См. [ссылку на](network-and-migration-planning.md#NetReference)планирование сети для Microsoft 365 .  <br/> |
+|**Рекомендации** <br/> ![Лучшие практики](../media/2a659a5c-1007-47d3-a6c6-a19e018ab29b.png)           <br/> |[Лучшие практики для планирования сети и повышения](network-and-migration-planning.md#BestPractices)производительности миграции для Microsoft 365. Хотите сразу начать помогать пользователям? См. [лучшие практики использования Office 365 в медленной сети.](https://support.office.com/article/fd16c8d2-4799-4c39-8fd7-045f06640166)  <br/> [Microsoft 365 принципы](./microsoft-365-network-connectivity-principles.md) сетевого подключения помогут вам понять последние рекомендации по безопасной оптимизации Microsoft 365 подключения к сети.  <br/> |**Справочник** <br/> ![Книга или журнал](../media/56dff3c1-f605-48d8-811f-7d13ce639ecd.png)           <br/> |Нужны сведения, например список IP-адресов и портов? См. [ссылку на](network-and-migration-planning.md#NetReference)планирование сети для Microsoft 365 .  <br/> |
 |![См. плакат Microsoft Cloud Networking для Enterprise архитекторов](../media/3094be9f-2407-4fa5-896d-aa66ef7b9bb9.png)           <br/> |Действия по оптимизации сети для Microsoft 365 и других облачных платформ и служб Майкрософт см. в плакате [Microsoft Cloud Networking for Enterprise Architects.](../solutions/cloud-architecture-models.md)  <br/> |
    
 ## <a name="performance-tuning-and-troubleshooting-resources-for-microsoft-365"></a>Настройка производительности и устранение неполадок для Microsoft 365

@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 4a2c220cab15751671b9b38c3bb2fda3db12c9e1
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 1b03c2671939a3e8e3011b78b8f1484ef02979ea
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245381"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52930191"
 ---
 # <a name="microsoft-secure-score"></a>Оценка безопасности (Майкрософт)
 
@@ -111,7 +111,6 @@ Microsoft Secure Score обновила действия по улучшению
 * Администратор безопасности
 * Администратор Exchange
 * Администратор SharePoint
-* Администратор учетной записи
 
 ### <a name="read-only-roles"></a>Роли только для чтения
 
@@ -119,7 +118,7 @@ Microsoft Secure Score обновила действия по улучшению
 
 * Администратор службы поддержки
 * Администратор пользователей
-* Администратор служб
+* Администратор службы поддержки
 * Читатель сведений о безопасности
 * Оператор безопасности
 * Глобальный читатель

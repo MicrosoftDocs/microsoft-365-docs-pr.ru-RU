@@ -21,12 +21,12 @@ ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2895598c8d891b08229f072b7bff6b6549639093
-ms.sourcegitcommit: bce733c1152dfbca782e716579074261e3c2ef65
+ms.openlocfilehash: 0aa8e10545b43f6e0ee985ac11b161a3b21c3a91
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796070"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52929558"
 ---
 # <a name="whats-new-in-microsoft-defender-for-office-365"></a>Что нового в Microsoft Defender для Office 365
 
@@ -89,7 +89,7 @@ ms.locfileid: "52796070"
   - Расширенные нефильтры (это расширенные параметры фильтрации, которые не содержат, не включают и т.д.)
   - Зернистые фильтры времени (день, час, полчаса)
 
-- Виджет **Incidents** теперь является **виджетом Центра действий.** (Чтобы просмотреть виджеты безопасности в Центре & безопасности, перейдите к **управлению угрозами** \> **Обзор**.) (Microsoft Defender для Office 365 Plan 2)
+- Виджет **Incidents** теперь является **виджетом Центра действий.** (Чтобы просмотреть виджеты безопасности, на портале Microsoft 365 Defender перейдите к совместной & **электронной почты** \> **Обзор**.) (Microsoft Defender для Office 365 Plan 2)
 
 - [Сейф документы в Microsoft 365](safe-docs.md) **(предварительный просмотр)**
 

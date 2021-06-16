@@ -17,16 +17,18 @@ audience: ITPro
 ms.collection:
 - M365-security-compliance
 - m365solution-migratetomdatp
+- m365solution-mcafeemigrate
+- m365solution-symantecmigrate
 ms.custom: migrationguides
 ms.topic: article
-ms.date: 05/20/2021
+ms.date: 06/14/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: 939fea5b815827f5afbe6cdf78fd9335da6337e8
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: 832414e9b2a88114cafafbba78e22ea656cc7949
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52594065"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52930467"
 ---
 # <a name="switch-to-microsoft-defender-for-endpoint---phase-3-onboard"></a>Переход на Microsoft Defender для конечной точки — этап 3. На борту
 
@@ -67,7 +69,7 @@ ms.locfileid: "52594065"
 | Windows 10     | [Групповая политика](configure-endpoints-gp.md)<p>[Диспетчер конфигураций](configure-endpoints-sccm.md)<p>[Управление мобильными устройствами (Intune)](configure-endpoints-mdm.md)<p>[Локальный скрипт](configure-endpoints-script.md) <p>**ПРИМЕЧАНИЕ.** Локальный сценарий подходит для доказательства концепции, но не должен использоваться для развертывания производства. Для развертывания производства рекомендуется использовать групповую политику, Microsoft Endpoint Configuration Manager или Intune.         |
 | Windows 8.1 Корпоративная <p>Windows 8.1 Профессиональная <p>Windows 7 sp1 Enterprise <p>Windows 7 sp1 Pro     | [Microsoft Monitoring Agent](onboard-downlevel.md)<p>**ПРИМЕЧАНИЕ.** Microsoft Monitoring Agent агент Azure Log Analytics. Дополнительные сведения см. в обзоре агента [log Analytics.](/azure/azure-monitor/platform/log-analytics-agent)        |
 | Windows Server 2019 и более поздний <p>Windows Основное издание Server 2019 <p>Windows Сервер версии 1803 и более поздней версии | [Локальный скрипт](configure-endpoints-script.md) <p>[Групповая политика](configure-endpoints-gp.md) <p>[Диспетчер конфигураций](configure-endpoints-sccm.md) <p>[System Center Configuration Manager](configure-endpoints-sccm.md) <p>[Скрипты на борту VDI для нестандартных устройств](configure-endpoints-vdi.md) <p>**ПРИМЕЧАНИЕ.** Локальный сценарий подходит для доказательства концепции, но не должен использоваться для развертывания производства. Для развертывания производства рекомендуется использовать групповую политику, Microsoft Endpoint Configuration Manager или Intune.    |
-| Windows Server 2016 <p>Windows Server 2012 R2 <p>Windows Server 2008 R2 с пакетом обновления 1 (SP1)  | [Центр безопасности в Microsoft Defender](configure-server-endpoints.md)<p>[Azure Defender](/azure/security-center/security-center-wdatp) |
+| Windows Server 2016 <p>Windows Server 2012 R2 <p>Windows Server 2008 R2 с пакетом обновления 1 (SP1)  | [Центр безопасности в Microsoft Defender](configure-server-endpoints.md)<p>[Azure Defender](/azure/security-center/security-center-wdatp) |
 | macOS:<p>11.3.1 (Big Sur) <p>10.15 (Каталина)<p>10.14 (Mojave) | [Подключение устройствах, отличных от Windows](configure-endpoints-non-windows.md)  |
 | iOS | [Подключение устройствах, отличных от Windows](configure-endpoints-non-windows.md)  |
 | Linux:<p>RHEL 7.2+<p>CentOS Linux 7.2+<p>Ubuntu 16 LTS или более высокий LTS<p>SLES 12+<p>Debian 9+<p>Oracle Linux 7.2 | [Подключение устройствах, отличных от Windows](configure-endpoints-non-windows.md)  |
@@ -78,7 +80,7 @@ ms.locfileid: "52594065"
 
 |Операционная система  |Рекомендации  |
 |---------|---------|
-| Windows 10 <p>Windows Server 2019 <p>Windows Сервер, версия 1803 <p>Windows Server 2016 <p>Windows Server 2012 R2     | См. [тест run a detection](run-detection-test.md). <p>Посетите сайт демонстрационных сценариев Defender для конечной точки () и [https://demo.wd.microsoft.com](https://demo.wd.microsoft.com) попробуйте один или несколько сценариев. Например, попробуйте демонстрационный сценарий **облачной** защиты.    |
+| Windows 10 <p>Windows Server 2019 <p>Windows Сервер, версия 1803 <p>Windows Server 2016 <p>Windows Server 2012 R2     | См. [тест run a detection](run-detection-test.md). <p>Посетите сайт демонстрационных сценариев Defender для конечной точки () и [https://demo.wd.microsoft.com](https://demo.wd.microsoft.com) попробуйте один или несколько сценариев. Например, попробуйте демонстрационный сценарий **облачной** защиты.    |
 | macOS:<p>11.3.1 (Big Sur) <p>10.15 (Каталина)<p>10.14 (Mojave)    | Скачайте и используйте приложение DIY по [https://aka.ms/mdatpmacosdiy](https://aka.ms/mdatpmacosdiy) ссылке . <p>Дополнительные сведения см. в [сайте Defender for Endpoint на macOS.](microsoft-defender-endpoint-mac.md)        |
 | Linux:<p>RHEL 7.2+<p>CentOS Linux 7.2+<p>Ubuntu 16 LTS или более высокий LTS<p>SLES 12+<p>Debian 9+<p>Oracle Linux 7.2 | 1. Выполнить следующую команду и искать результат **1**: <br/>`mdatp health --field real_time_protection_enabled`. <p>2. Откройте окно терминала и запустите следующую команду: <br/>`curl -o ~/Downloads/eicar.com.txt https://www.eicar.org/download/eicar.com.txt`. <p>3. Запустите следующую команду, чтобы перечислить все обнаруженные угрозы: <br/>`mdatp threat list`. <p>Дополнительные сведения см. в [выпуске Defender for Endpoint on Linux.](microsoft-defender-endpoint-linux.md) |
 

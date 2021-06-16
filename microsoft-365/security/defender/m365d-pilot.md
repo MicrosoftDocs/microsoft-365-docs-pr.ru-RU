@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-pilotmtpproject
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: b1616b39597a90ff8e8f7b4c92f29f75c62fea18
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 3219b329c53c32e02cd29acdd41a48cd93b2e8bb
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934433"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52930515"
 ---
 # <a name="run-your-pilot-microsoft-365-defender-project"></a>Запуск пилотного проекта Microsoft 365 Defender 
 
@@ -42,7 +42,7 @@ ms.locfileid: "51934433"
 ![Этапы запуска пилотного Microsoft 365 Defender](../../media/pilotphases.png)
 
 
-Запуск пилотного проекта позволяет эффективно определить преимущества принятия Microsoft 365 Defender. Перед включением Microsoft 365 Defender в производственной среде и запуском случаев использования лучше всего спланировать определение задач, которые необходимо выполнить для пилотного проекта, и задавая критерии успешности. 
+Запуск пилотного проекта позволяет эффективно определять преимущества принятия Microsoft 365 Defender. Перед включением Microsoft 365 Defender в производственной среде и запуском случаев использования лучше всего спланировать определение задач, которые необходимо выполнить для пилотного проекта, и задавая критерии успешности. 
 
 
 ## <a name="how-to-use-this-pilot-playbook"></a>Использование этой экспериментальной книги воспроизведения

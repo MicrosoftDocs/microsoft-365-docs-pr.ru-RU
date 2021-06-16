@@ -18,12 +18,12 @@ ms.custom:
 description: Получение обзора интеграции серверов служб безопасности и управления событиями (SIEM) с Microsoft 365 облачными службами и приложениями
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: bea8aa3914da4b813f3928eddbb6df9c98ef6605
-ms.sourcegitcommit: 7ee50882cb4ed37794a3cd82dac9b2f9e0a1f14a
+ms.openlocfilehash: 8b9c17ba2dcefa65b60a53ab8bff405de4850fc0
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51599951"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52929795"
 ---
 # <a name="security-information-and-event-management-siem-server-integration-with-microsoft-365-services-and-applications"></a>Интеграция серверов с данными о безопасности и управление событиями (SIEM) с Microsoft 365 службами и приложениями
 
@@ -58,7 +58,7 @@ ms.locfileid: "51599951"
 |Microsoft 365 Служба или приложение|Входные данные и методы сервера SIEM|Дополнительные ресурсы|
 |---|---|---|
 |[Microsoft Defender для Office 365](defender-for-office-365.md)|Журналы аудита|[Интеграция SIEM с Microsoft Defender для Office 365](siem-integration-with-office-365-ti.md)|
-|[Microsoft Defender для конечной точки](/windows/security/threat-protection/)|Конечная точка HTTPS, организованная в Azure <p> REST API|[Вытащать оповещения в инструменты SIEM](../defender-endpoint/configure-siem.md)|
+|[Microsoft Defender для конечной точки](/windows/security/threat-protection/)|Конечная точка HTTPS, организованная в Azure <p> API REST|[Вытащать оповещения в инструменты SIEM](../defender-endpoint/configure-siem.md)|
 |[Microsoft Cloud App Security](/cloud-app-security/what-is-cloud-app-security)|Интеграция журнала|[Интеграция SIEM с Microsoft Cloud App Security](/cloud-app-security/siem)|
 |
 
@@ -69,7 +69,7 @@ ms.locfileid: "51599951"
 
 Убедитесь, что журнал аудита включен перед настройкой интеграции серверов SIEM.
 
-- Для SharePoint Online, OneDrive для бизнеса и Azure Active Directory журнал аудита включен в Центре & [безопасности.](../../compliance/turn-audit-log-search-on-or-off.md)
+- Для SharePoint Online, OneDrive для бизнеса и Azure Active Directory журнал аудита включен на [портале Microsoft 365 Defender](../../compliance/turn-audit-log-search-on-or-off.md).
 
 - Для Exchange Online см. в этой Exchange Online [Управление аудитом почтовых ящиков.](../../compliance/enable-mailbox-auditing.md)
 

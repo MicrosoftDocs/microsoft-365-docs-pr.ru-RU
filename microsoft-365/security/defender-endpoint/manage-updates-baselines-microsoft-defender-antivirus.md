@@ -16,13 +16,13 @@ ms.custom: nextgen
 ms.reviewer: pahuijbr
 manager: dansimp
 ms.technology: mde
-ms.date: 06/09/2021
-ms.openlocfilehash: 05b2b2af87e423058d18651571d52a97ac387506
-ms.sourcegitcommit: 3584c1fe59d12512d67faf3efc955e1d67e2baa0
+ms.date: 06/14/2021
+ms.openlocfilehash: 1c7ff52398e048aa34fd9c5ab3d8edd1004ea5ec
+ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52862151"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52929447"
 ---
 # <a name="manage-microsoft-defender-antivirus-updates-and-apply-baselines"></a>Управление антивирусная программа в Microsoft Defender обновлениями и применение базовых показателей
 
@@ -31,17 +31,13 @@ ms.locfileid: "52862151"
 - [Microsoft Defender для конечной точки](/microsoft-365/security/defender-endpoint/)
 - Антивирусная программа в Microsoft Defender
 
-Существует два типа обновлений, связанных с антивирусная программа в Microsoft Defender обновлениями:
+Важно антивирусная программа в Microsoft Defender, чтобы убедиться, что устройства имеют новейшие технологии и функции, необходимые для защиты от новых вредоносных программ и методов атак. Убедитесь в обновлении антивирусной защиты, даже если антивирусная программа в Microsoft Defender работает в [пассивном режиме.](microsoft-defender-antivirus-compatibility.md) Существует два типа обновлений, связанных с антивирусная программа в Microsoft Defender обновлениями:
 
 - Обновления аналитики безопасности
 - Обновления продукта
 
-> [!IMPORTANT]
-> Важно антивирусная программа в Microsoft Defender, чтобы убедиться, что устройства имеют новейшие технологии и функции, необходимые для защиты от новых вредоносных программ и методов атак.
-> 
-> Не забудьте обновить антивирусную защиту, даже если антивирусная программа в Microsoft Defender работает в [пассивном режиме.](./microsoft-defender-antivirus-compatibility.md)
-> 
-> Чтобы увидеть наиболее актуальные даты движка, платформы и подписи, посетите обновления аналитики безопасности для антивирусная программа в Microsoft Defender и других антивирусных программ [Майкрософт.](https://www.microsoft.com/en-us/wdsi/defenderupdates)
+> [!TIP]
+> Чтобы увидеть наиболее актуальные даты движка, платформы и подписи, посетите обновления аналитики безопасности для антивирусная программа в Microsoft Defender и других антивирусных программ [Майкрософт](https://www.microsoft.com/en-us/wdsi/defenderupdates)
 
 ## <a name="security-intelligence-updates"></a>Обновления аналитики безопасности
 
@@ -81,7 +77,7 @@ ms.locfileid: "52862151"
 - улучшения производительности;
 - улучшения в обслуживании; и 
 - улучшения интеграции (Cloud, [Microsoft 365 Defender).](/microsoft-365/security/defender/microsoft-365-defender)
-<br/>
+<br/><br/>
 <details>
 <summary> Май-2021 (платформа: 4.18.2105.4 | Двигатель: 1.1.18200.4)</summary>
 
