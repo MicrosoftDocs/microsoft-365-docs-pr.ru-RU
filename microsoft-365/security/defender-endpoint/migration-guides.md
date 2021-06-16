@@ -1,6 +1,6 @@
 ---
 title: Руководство по миграции, чтобы перейти на Microsoft Defender для конечной точки
-description: Узнайте, как перейти от решения defender Microsoft 365 к Microsoft Defender для конечной точки
+description: Узнайте, как перейти из решения, не Microsoft 365 Defender в Microsoft Defender для конечной точки
 search.appverid: MET150
 author: denisebmsft
 ms.author: deniseb
@@ -17,12 +17,12 @@ ms.reviewer: chriggs, depicker, yongrhee
 f1.keywords: NOCSH
 ms.date: 06/14/2021
 ms.technology: mde
-ms.openlocfilehash: a0b1f82ae26ba1103ed4cc7eb0be7e9c376b5f52
-ms.sourcegitcommit: ac3e9ccb7b43a42e600af8f44e6f30019533faeb
+ms.openlocfilehash: 010cea14bebd4e29822b1826c0ec4577d53baca7
+ms.sourcegitcommit: 1c11035dd4432e34603022740baef0c8f7ff4425
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "52933039"
+ms.lasthandoff: 06/16/2021
+ms.locfileid: "52964865"
 ---
 # <a name="make-the-switch-to-microsoft-defender-for-endpoint"></a>Переключение на Microsoft Defender для конечной точки
 
@@ -38,9 +38,9 @@ ms.locfileid: "52933039"
 
 | Сценарий | Рекомендации |
 |:----|:----|
-| Решение для защиты конечной точки еще не установлено, и вы хотите узнать больше о Defender для конечной точки. <p> Перед развертыванием в среде необходимо узнать, как работает Defender для конечной точки.  | [Лаборатория оценки Microsoft Defender для конечной точки](evaluation-lab.md)   |
+| Решение для защиты конечной точки еще не установлено, и вы хотите узнать больше о Defender для конечной точки. Перед развертыванием в среде необходимо узнать, как работает Defender для конечной точки.  | [Лаборатория оценки Microsoft Defender для конечной точки](evaluation-lab.md)   |
 | У вас уже есть Защитник для конечной точки, и вам нужна помощь в настройке и настройке всего.  | [Руководство по развертыванию Microsoft Defender для конечной точки](deployment-phases.md)  |
-| Планируется перейти от решения защиты конечных точек, не от Microsoft, к Defender for Endpoint и антивирусная программа в Microsoft Defender. <p> Вы хотите получить обзор процесса миграции и как сделать переключатель. |[Переключение на Microsoft Defender для конечной точки](switch-to-microsoft-defender-migration.md)   |
+| Планируется перейти от решения защиты конечных точек, не от Microsoft, к Defender for Endpoint и антивирусная программа в Microsoft Defender. Вы хотите получить обзор процесса миграции и как сделать переключатель. |[Переключение на Microsoft Defender для конечной точки](switch-to-microsoft-defender-migration.md)   |
 | Вы уже мигрировали или перенаселились в Defender для конечной точки. Вам нужна помощь в следующих действиях, таких как управление настройками безопасности, настройка дополнительных функций или настройка политик безопасности. | [Управление защитником Майкрософт для конечной точки после миграции](manage-atp-post-migration.md) |
 
 

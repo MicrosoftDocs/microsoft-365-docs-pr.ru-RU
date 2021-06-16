@@ -1,7 +1,7 @@
 ---
 title: Охота на угрозы на устройствах, электронных письмах, приложениях и удостоверениях с расширенным поиском
 description: Изучите распространенные сценарии охоты и примеры запросов, которые охватывают устройства, электронные почты, приложения и удостоверения.
-keywords: расширенный поиск, данные Office365, Windows устройства, электронные почты Office365 нормализуются, электронные почты, приложения, удостоверения, охота на угрозы, поиск, запрос, телеметрия, Microsoft 365, Microsoft 365 Defender
+keywords: расширенный поиск, данные Office365, Windows устройства, электронная почта Office365 нормализуются, электронные почты, приложения, удостоверения, охота на угрозы, охота на киберугрозы, поиск, запрос, телеметрия, Microsoft 365, Microsoft 365 Defender
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 8a811d60af281bb534776736e77c3eb54ab6a760
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: aacd0745ff507356035f8f460ed2b4307e9da6ed
+ms.sourcegitcommit: 1c11035dd4432e34603022740baef0c8f7ff4425
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932969"
+ms.lasthandoff: 06/16/2021
+ms.locfileid: "52964877"
 ---
 # <a name="hunt-for-threats-across-devices-emails-apps-and-identities"></a>Охота за угрозами на различных устройствах, в письмах, приложениях и удостоверениях
 
@@ -100,6 +100,90 @@ DeviceInfo
 | join AlertInfo on AlertId
 | project AlertId, Timestamp, Title, Severity, Category 
 ```
+
+
+### <a name="get-file-event-information"></a>Получения сведений о событиях файлов
+
+Чтобы получить сведения о событиях, связанных с файлами, используйте следующий запрос. 
+
+```kusto
+DeviceInfo
+| where Timestamp > ago(1d)
+| where ClientVersion startswith "20.1"
+| summarize by DeviceId
+| join kind=inner (
+    DeviceFileEvents 
+    | where Timestamp > ago(1d)
+) on DeviceId
+| take 10
+```
+
+
+### <a name="get-network-event-information"></a>Сведения о сетевых событиях
+
+Для получения сведений о событиях, связанных с сетью, используйте следующий запрос.
+
+```kusto
+DeviceInfo
+| where Timestamp > ago(1d)
+| where ClientVersion startswith "20.1"
+| summarize by DeviceId
+| join kind=inner (
+    DeviceNetworkEvents 
+    | where Timestamp > ago(1d)
+) on DeviceId
+| take 10
+```
+
+### <a name="get-device-agent-version-information"></a>Получить сведения о версии агента устройства
+
+Чтобы получить версию агента, запущенного на устройстве, используйте следующий запрос.
+
+```kusto
+DeviceInfo
+| where Timestamp > ago(1d)
+| where ClientVersion startswith "20.1"
+| summarize by DeviceId
+| join kind=inner (
+    DeviceNetworkEvents 
+    | where Timestamp > ago(1d)
+) on DeviceId
+| take 10
+```
+
+
+### <a name="example-query-for-macos-devices"></a>Пример запроса для устройств macOS
+
+Используйте следующий пример запроса, чтобы увидеть все устройства с macOS с версией старше Каталины.
+
+```kusto
+DeviceInfo
+| where Timestamp > ago(1d)
+| where OSPlatform == "macOS" and  OSVersion !contains "10.15" and OSVersion !contains "11."
+| summarize by DeviceId
+| join kind=inner (
+    DeviceInfo
+    | where Timestamp > ago(1d)
+) on DeviceId
+| take 10
+```
+
+### <a name="get-device-status-info"></a>Сведения о состоянии устройства
+
+Чтобы получить состояние устройства, используйте следующий запрос. В следующем примере запрос проверяет, находится ли устройство на борту.
+
+```kusto
+DeviceInfo
+| where Timestamp > ago(1d)
+| where OnboardingStatus != "Onboarded"
+| summarize by DeviceId
+| join kind=inner (
+    DeviceInfo
+    | where Timestamp > ago(1d)
+) on DeviceId
+| take 10
+```
+
 
 ## <a name="hunting-scenarios"></a>Сценарии выслеживания
 

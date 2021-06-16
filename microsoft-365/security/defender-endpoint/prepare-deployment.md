@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: fb10e65258f6264b21851f8325b97b1bad19bf16
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 7841197594941354b21bd2104cd27ef37a1a25c9
+ms.sourcegitcommit: 1c11035dd4432e34603022740baef0c8f7ff4425
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52925655"
+ms.lasthandoff: 06/16/2021
+ms.locfileid: "52964600"
 ---
 # <a name="prepare-microsoft-defender-for-endpoint-deployment"></a>Подготовка Microsoft Defender к развертыванию конечных точек
 
@@ -135,6 +135,7 @@ Defender for Endpoint поддерживает два способа управ�
 
 ## <a name="next-step"></a>Следующий этап
 
-|||
-|:-------|:-----|
-|![Этап 2. Настройка](images/setup.png) <br>[Этап 2. Настройка](production-deployment.md) | Настройка microsoft Defender для развертывания конечных точек |
+
+![Этап 2. Настройка](images/setup.png) <br>[Этап 2. Настройка](production-deployment.md) 
+ 
+Настройка microsoft Defender для развертывания конечных точек 

@@ -15,21 +15,17 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.date: 05/17/2021
-ms.openlocfilehash: d10343538c995534878196cc57092c37fd2dcf7b
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.date: 06/15/2021
+ms.openlocfilehash: f9ca83fcfba4b79898a0fed527e38947a4c230d6
+ms.sourcegitcommit: 959c3c3633e40b7b0f5e2c8372409778005a24db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538067"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52950135"
 ---
 # <a name="common-mistakes-to-avoid-when-defining-exclusions"></a>Распространенные ошибки, которых следует избегать при определении исключений
 
-[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
-
-Список исключений можно определить для элементов, которые не антивирусная программа в Microsoft Defender проверки. Такие исключенные элементы могут содержать угрозы, которые делают ваше устройство уязвимым. 
-
-В этой статье описываются некоторые распространенные ошибки, которые следует избегать при определении исключений. 
+Список исключений можно определить для элементов, которые не антивирусная программа в Microsoft Defender проверки. Такие исключенные элементы могут содержать угрозы, которые делают ваше устройство уязвимым. В этой статье описываются некоторые распространенные ошибки, которые следует избегать при определении исключений. 
 
 Перед определением списков исключений [см. Рекомендации для определения исключений.](configure-exclusions-microsoft-defender-antivirus.md#recommendations-for-defining-exclusions)
 
@@ -231,7 +227,9 @@ ms.locfileid: "52538067"
 
 `dbgsvc.exe`  
 
-`dnx.exe`  
+`dnx.exe`
+
+`dotnet.exe`
 
 `fsi.exe`  
 
@@ -272,9 +270,3 @@ ms.locfileid: "52538067"
 
 Сведения [о](configure-extension-file-exclusions-microsoft-defender-antivirus.md#use-wildcards-in-the-file-name-and-folder-path-or-extension-exclusion-lists) том, как использовать подкарды в списках исключений файлов и папок или списки исключений для расширения, см. в руб.
 
-## <a name="related-articles"></a>Связанные статьи
-
-- [Настройка и проверка исключений в антивирусная программа в Microsoft Defender сканирования](configure-exclusions-microsoft-defender-antivirus.md)
-- [Настройка и проверка исключений в зависимости от расположения расширения файлов и папок](configure-extension-file-exclusions-microsoft-defender-antivirus.md)
-- [Настройка и проверка исключений для файлов, открытых процессами](configure-process-opened-file-exclusions-microsoft-defender-antivirus.md)
-- [Настройка антивирусная программа в Microsoft Defender исключений на Windows Server](configure-server-exclusions-microsoft-defender-antivirus.md)

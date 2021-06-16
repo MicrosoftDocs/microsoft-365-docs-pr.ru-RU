@@ -16,12 +16,12 @@ manager: dansimp
 ms.technology: mde
 ms.date: 05/26/2021
 ms.topic: how-to
-ms.openlocfilehash: 34f423222068236271afdda13afb95cffa58b709
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: 96e4dab96f8ceb149916c908991079bb2dfa866f
+ms.sourcegitcommit: 1c11035dd4432e34603022740baef0c8f7ff4425
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52683815"
+ms.lasthandoff: 06/16/2021
+ms.locfileid: "52964901"
 ---
 # <a name="configure-microsoft-defender-antivirus-scanning-options"></a>Настройка параметров сканирования антивирусной программы в Microsoft Defender
 
@@ -31,14 +31,11 @@ ms.locfileid: "52683815"
 
 ## <a name="use-microsoft-intune-to-configure-scanning-options"></a>Используйте Microsoft Intune для настройки параметров сканирования
 
-См. следующие ресурсы: 
-
-- [Настройка параметров ограничения устройств в Microsoft Intune](/intune/device-restrictions-configure) 
-- [антивирусная программа в Microsoft Defender параметров ограничения устройств для Windows 10 в Intune](/intune/device-restrictions-windows-10#microsoft-defender-antivirus)
+Дополнительные сведения [](/intune/device-restrictions-configure) см. в Microsoft Intune и антивирусная программа в Microsoft Defender параметров ограничения устройств для Windows 10 [в Intune.](/intune/device-restrictions-windows-10#microsoft-defender-antivirus) 
 
 ## <a name="use-microsoft-endpoint-manager-to-configure-scanning-options"></a>Используйте Microsoft Endpoint Manager для настройки параметров сканирования
 
-Узнайте, [как создавать и развертывать политики противомалярийных программ: параметры сканирования.](/configmgr/protect/deploy-use/endpoint-antimalware-policies#scan-settings)
+Дополнительные сведения о настройке Microsoft Endpoint Manager (текущая ветвь) см. в материале [How to create and deploy antimalware policies: Scan settings](/configmgr/protect/deploy-use/endpoint-antimalware-policies#scan-settings).
 
 ## <a name="use-group-policy-to-configure-scanning-options"></a>Использование групповой политики для настройки параметров сканирования
 
@@ -49,6 +46,7 @@ ms.locfileid: "52683815"
 3. В **редакторе управления групповой политикой** перейдите к **конфигурации компьютера** и щелкните **административные шаблоны**.
 
 4. Расширь дерево **до Windows компонентов** антивирусная программа в Microsoft Defender, а затем выберите расположение (обратитесь к Параметры и  >  расположениям в этой [](#settings-and-locations) статье).
+
 
 5. Изменение объекта политики. 
 
@@ -69,13 +67,15 @@ ms.locfileid: "52683815"
 | Укажите максимальную нагрузку ЦП (в процентах) во время сканирования. <p> **Сканирование**  >  **Укажите максимальный процент использования ЦП во время проверки** | 50 |  `-ScanAvgCPULoadFactor` <p>**ПРИМЕЧАНИЕ.** Максимальная нагрузка ЦП не является ограничением жесткой нагрузки, но является руководством для двигателя сканирования, чтобы не превышать максимального в среднем. Проверки вручную будут игнорировать этот параметр и запускаться без ограничений ЦП. |
 | Укажите максимальный размер (в килобайтах) архивных файлов, которые необходимо отсканировать. <p> **Сканирование**  >  **Укажите максимальный размер отсканированных архивных файлов** | Нет ограничений | Недоступно <p>Значение 0 по умолчанию не применяется без ограничений |
 | Настройка низкого приоритета ЦП для запланированных сканов <p> **Сканирование**  >  **Настройка низкого приоритета ЦП для запланированных сканов** | Отключено | Недоступно |
+
  
 > [!NOTE]
 > Если защита включена в режиме реального времени, файлы сканируют перед их доступом и выполнением. Область сканирования включает все файлы, включая файлы на съемных носите, таких как USB-диски. Если устройство, которое выполняет сканирование, имеет защиту в режиме реального времени или включено в режиме реального времени, сканирование также будет включать сетевые акции.
 
 ## <a name="use-powershell-to-configure-scanning-options"></a>Настройка параметров сканирования с помощью PowerShell
 
-См. следующие ресурсы:
+
+Дополнительные сведения об использовании PowerShell с антивирусная программа в Microsoft Defender см. в
 
 - [Управление антивирусная программа в Microsoft Defender с помощью cmdlets PowerShell](use-powershell-cmdlets-microsoft-defender-antivirus.md)
 - [Cmdlets Defender](/powershell/module/defender/)
@@ -99,9 +99,15 @@ PST-файлы, используемые Outlook 2003 или более стар
 - Тема письма
 - Имя вложения
 
+
+## <a name="scanning-mapped-network-drives"></a>Сканирование сетевых дисков с картой
+
+На любой ОС отсканированы только сетевые диски, которые отсканированы на уровне системы. Сетевые диски на уровне пользователя не сканированы. Сетевые диски на уровне пользователя — это диски, которые пользователь совмещут в сеансе вручную и используя собственные учетные данные.
+
 ## <a name="see-also"></a>См. также
 
+
 - [Настройка, инициирование и проверка результатов антивирусная программа в Microsoft Defender и исправлений](customize-run-review-remediate-scans-microsoft-defender-antivirus.md)
-- [Настройка и запуск проверки антивирусной программой в Microsoft Defender по требованию](run-scan-microsoft-defender-antivirus.md).
+- [Настройка и запуск проверки антивирусной программой в Microsoft Defender по требованию](run-scan-microsoft-defender-antivirus.md)
 - [Настройка запланированных антивирусная программа в Microsoft Defender сканирования](scheduled-catch-up-scans-microsoft-defender-antivirus.md)
 - [Антивирусная программа в Microsoft Defender (Windows 10)](microsoft-defender-antivirus-in-windows-10.md)

@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Узнайте о создании пользовательских типов конфиденциальной информации с помощью классификации на основе точного совпадения данных.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6839401bc1dd00acc45992f902a6360eb7f20120
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 05d5889ba690bdf61fd51044b3c059f1476342af
+ms.sourcegitcommit: 1c11035dd4432e34603022740baef0c8f7ff4425
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878200"
+ms.lasthandoff: 06/16/2021
+ms.locfileid: "52964660"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>Создание пользовательских типов конфиденциальной информации с помощью классификации на основе точного совпадения данных
 
@@ -612,7 +612,7 @@ Register-ScheduledTask -TaskName $taskName -InputObject $scheduledTask -User $us
 - Microsoft Teams (беседы)
 - DLP для SharePoint (файлы)
 - Политики DLP Microsoft Cloud App Security
-- Политики автоматической маркировки на стороне сервера, доступные для коммерческих клиентов облачных технологий <!--, UNCOMMENT THIS ON 6/15 and government cloud customers-->
+- Политики автоматической маркировки на стороне сервера, доступные для коммерческих клиентов облачных и государственных облачных клиентов
 
 #### <a name="to-create-a-dlp-policy-with-edm"></a>Создание политики защиты от потери данных с EDM
 

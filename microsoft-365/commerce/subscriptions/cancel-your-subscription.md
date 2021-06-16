@@ -19,17 +19,17 @@ ms.custom:
 search.appverid: MET150
 description: Если вы используете менее 25 пользовательских лицензий, вы можете отменить пробную или платную подписку на Microsoft 365 для бизнеса в Центре администрирования.
 ms.date: 04/08/2021
-ms.openlocfilehash: 5c4ce1c00bfde4a895710d737fab0836998836c6
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: 18e7ca5cec91e1614808f2087ce0394f33a45c7a
+ms.sourcegitcommit: 959c3c3633e40b7b0f5e2c8372409778005a24db
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52929459"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52950087"
 ---
 # <a name="cancel-your-subscription"></a>Отмена подписки
 
 > [!IMPORTANT]
-> Сведения в этой статье относятся только к подпискам Microsoft 365 для бизнеса. Если у вас Microsoft 365 для семьи или Персональный, см. [Отмена подписки на Microsoft 365](https://support.microsoft.com/ru-RU/office/cancel-a-microsoft-365-subscription-46e2634c-c64b-4c65-94b9-2cc9c960e91b).
+> Сведения в этой статье относятся только к подпискам Microsoft 365 для бизнеса. Если у вас Microsoft 365 для семьи или Персональный, см. [Отмена подписки на Microsoft 365](https://support.microsoft.com/en-us/office/cancel-a-microsoft-365-subscription-46e2634c-c64b-4c65-94b9-2cc9c960e91b?OCID=M365_DocsCancel_Link).
 
 *Приемлемость.* Если вам назначено менее 25 лицензий, вы можете отменить пробную или платную подписку на Microsoft 365 для бизнеса через Интернет в Центре администрирования Microsoft 365 в любое время. Если вам назначено более 25 лицензий, уменьшите число до 25 или [обратитесь в службу поддержки для отмены подписки](../../business-video/get-help-support.md).
 
