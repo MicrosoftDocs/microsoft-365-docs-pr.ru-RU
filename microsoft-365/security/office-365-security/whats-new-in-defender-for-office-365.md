@@ -21,12 +21,12 @@ ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 0aa8e10545b43f6e0ee985ac11b161a3b21c3a91
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: 53e60578f575e94dfb51c1c5f44a3d7ffb91110b
+ms.sourcegitcommit: ac3e9ccb7b43a42e600af8f44e6f30019533faeb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52929558"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52932822"
 ---
 # <a name="whats-new-in-microsoft-defender-for-office-365"></a>Что нового в Microsoft Defender для Office 365
 
@@ -42,13 +42,13 @@ ms.locfileid: "52929558"
 > [!TIP]
 > У вас еще нет microsoft Defender для Office 365? [Свяжитесь с продажами, чтобы начать пробную работу.](https://info.microsoft.com/ww-landing-M365SMB-web-contact.html)
 
-## <a name="aprilmay-2021"></a>Апрель/май 2021 г. 
+## <a name="aprilmay-2021"></a>Апрель/май 2021 г.
 
 - [](mdo-email-entity-page.md)Страница сущности электронной почты: унифицированное 360-градусное представление электронной почты с обогащенной информацией об угрозах, проверке подлинности и обнаружениях, сведениях о детонации и совершенно новом опыте предварительного просмотра электронной почты.
 - Office 365 управления [API](/office/office-365-management-api/office-365-management-activity-api-schema#email-message-events): Обновления для EmailEvents (RecordType 28) для добавления действий доставки, исходных и последних местоположений доставки и обновленных сведений об обнаружении.
-- [Аналитика](/microsoft-365/security/defender/threat-analytics)угроз для защитника для Office 365: просмотр активных субъектов угроз, популярных методов и поверхностей атак, а также обширные отчеты от исследователей Майкрософт о текущих кампаниях. 
+- [Аналитика](/microsoft-365/security/defender/threat-analytics)угроз для защитника для Office 365: просмотр активных субъектов угроз, популярных методов и поверхностей атак, а также обширные отчеты от исследователей Майкрософт о текущих кампаниях.
 
-## <a name="februarymarch-2021"></a>Февраль-март 2021 г. 
+## <a name="februarymarch-2021"></a>Февраль-март 2021 г.
 
 - Интеграция оповещений (поиск с помощью alert ID и Alert-Explorer навигации) в [опытом охоты](threat-explorer.md)
 - Увеличение ограничений на экспорт записей с 9990 до 200 000 в [охотничьих опытах](threat-explorer.md)
@@ -89,7 +89,7 @@ ms.locfileid: "52929558"
   - Расширенные нефильтры (это расширенные параметры фильтрации, которые не содержат, не включают и т.д.)
   - Зернистые фильтры времени (день, час, полчаса)
 
-- Виджет **Incidents** теперь является **виджетом Центра действий.** (Чтобы просмотреть виджеты безопасности, на портале Microsoft 365 Defender перейдите к совместной & **электронной почты** \> **Обзор**.) (Microsoft Defender для Office 365 Plan 2)
+- Виджет **Incidents** теперь является **виджетом Центра действий.** (Чтобы просмотреть виджеты безопасности в Центре & безопасности, перейдите к управлению **угрозами** \> **Обзор**.) (Microsoft Defender для Office 365 Plan 2)
 
 - [Сейф документы в Microsoft 365](safe-docs.md) **(предварительный просмотр)**
 

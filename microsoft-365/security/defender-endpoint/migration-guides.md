@@ -17,14 +17,14 @@ ms.reviewer: chriggs, depicker, yongrhee
 f1.keywords: NOCSH
 ms.date: 06/14/2021
 ms.technology: mde
-ms.openlocfilehash: 4d10de35358d528f004ee11e931fc6f41ce20482
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: a0b1f82ae26ba1103ed4cc7eb0be7e9c376b5f52
+ms.sourcegitcommit: ac3e9ccb7b43a42e600af8f44e6f30019533faeb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52930503"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52933039"
 ---
-# <a name="make-the-switch-to-microsoft-defender-for-endpoint-and-microsoft-defender-antivirus"></a>Переключение на Microsoft Defender для конечной точки и антивирусная программа в Microsoft Defender
+# <a name="make-the-switch-to-microsoft-defender-for-endpoint"></a>Переключение на Microsoft Defender для конечной точки
 
 **Область применения:**
 - [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2154037)
@@ -34,14 +34,14 @@ ms.locfileid: "52930503"
 
 ## <a name="migration-guides"></a>Руководства по миграции
 
-Если вы рассматриваете возможность перехода с решения defender Microsoft 365 для Microsoft Defender для конечной точки с помощью антивирусная программа в Microsoft Defender, ознакомьтесь с нашими рекомендациями по миграции. Выберите сценарий, который лучше всего представляет, где вы находитесь в процессе развертывания, и см. инструкции.
+Если вы рассматриваете возможность перехода в Defender для конечной точки, у нас есть рекомендации. В следующей таблице просмотрите сценарии. Выберите сценарий, который лучше всего представляет вашу ситуацию, и см. рекомендуемые рекомендации.
 
-|Сценарий |Рекомендации |
-|:--|:--|
-|Решение для защиты конечной точки еще не найдено, и вы хотите узнать больше о том, как работает Microsoft Defender для & антивирусная программа в Microsoft Defender конечных точек.  |[Лаборатория оценки Microsoft Defender для конечной точки](evaluation-lab.md)   |
-|У вас есть microsoft Defender для & антивирусная программа в Microsoft Defender и вам потребуется помощь в настройке и настройке всего.  |[Руководство по развертыванию Microsoft Defender для конечной точки](deployment-phases.md)  |
-|Планируется перейти из решения защиты конечных точек, не в microsoft, в Microsoft Defender для конечных точек & антивирусная программа в Microsoft Defender. |[Переключение на Microsoft Defender для конечной точки](switch-to-microsoft-defender-migration.md)   |
-|Вы мигрировали в Microsoft Defender для endpoint & антивирусная программа в Microsoft Defender, и вам нужна помощь в следующих действиях, таких как настройка дополнительных функций или настройка параметров безопасности. | [Управление защитником Майкрософт для конечной точки после миграции](manage-atp-post-migration.md) |
+| Сценарий | Рекомендации |
+|:----|:----|
+| Решение для защиты конечной точки еще не установлено, и вы хотите узнать больше о Defender для конечной точки. <p> Перед развертыванием в среде необходимо узнать, как работает Defender для конечной точки.  | [Лаборатория оценки Microsoft Defender для конечной точки](evaluation-lab.md)   |
+| У вас уже есть Защитник для конечной точки, и вам нужна помощь в настройке и настройке всего.  | [Руководство по развертыванию Microsoft Defender для конечной точки](deployment-phases.md)  |
+| Планируется перейти от решения защиты конечных точек, не от Microsoft, к Defender for Endpoint и антивирусная программа в Microsoft Defender. <p> Вы хотите получить обзор процесса миграции и как сделать переключатель. |[Переключение на Microsoft Defender для конечной точки](switch-to-microsoft-defender-migration.md)   |
+| Вы уже мигрировали или перенаселились в Defender для конечной точки. Вам нужна помощь в следующих действиях, таких как управление настройками безопасности, настройка дополнительных функций или настройка политик безопасности. | [Управление защитником Майкрософт для конечной точки после миграции](manage-atp-post-migration.md) |
 
 
 ## <a name="do-you-have-feedback-for-us"></a>У вас есть отзывы для нас?

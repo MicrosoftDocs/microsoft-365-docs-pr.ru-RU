@@ -27,12 +27,12 @@ ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: В этой статье администраторы могут узнать о защите Сейф ссылок в Defender для Office 365 для защиты своей организации от фишинга и других атак с использованием вредоносных URL-адресов.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9775c67a35d45595f68cd364dc4d70e9985b7e9e
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: 240056565d88977aa7019f5a14e2db98a8dbb6db
+ms.sourcegitcommit: ac3e9ccb7b43a42e600af8f44e6f30019533faeb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52930527"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52933195"
 ---
 # <a name="safe-links-in-microsoft-defender-for-office-365"></a>Сейф Ссылки в Microsoft Defender для Office 365
 
@@ -294,7 +294,7 @@ ms.locfileid: "52930527"
 
 Каждая Сейф ссылки содержит  список Не перезаписывать следующий список URL-адресов, которые можно использовать для указания URL-адресов, не переписанные при Сейф ссылки. Другими словами, список позволяет пользователям, включенным в политику, получать доступ к указанным URL-адресам, которые в противном случае будут заблокированы Сейф ссылками. Можно настроить различные списки в различных Сейф ссылок. Обработка политики прекращается после того, как к пользователю применяется первая (вероятно, самая высокая приоритетная) политика. Таким образом,  только один не переписать следующий список URL-адресов применяется к пользователю, который включен в несколько активных политик Сейф ссылки.
 
-Чтобы добавить записи в список в новых или существующих политиках ссылок Сейф, см. в статьях Использование портала [Microsoft 365 Defender](set-up-safe-links-policies.md#use-the-microsoft-365-defender-portal-to-create-safe-links-policies) для создания политик Сейф ссылок или использование портала Microsoft 365 Defender для изменения политик Сейф [ссылки](set-up-safe-links-policies.md#use-the-microsoft-365-defender-portal-to-modify-safe-links-policies).
+Чтобы добавить записи в список в новых или существующих политиках ссылок Сейф, см. в статьях Создание [политик Сейф ссылок](set-up-safe-links-policies.md#use-the-microsoft-365-defender-portal-to-create-safe-links-policies) или изменение [политик Сейф ссылки.](set-up-safe-links-policies.md#use-the-microsoft-365-defender-portal-to-modify-safe-links-policies)
 
 **Примечания**:
 
