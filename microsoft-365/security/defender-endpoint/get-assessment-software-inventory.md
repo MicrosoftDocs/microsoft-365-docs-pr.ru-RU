@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
 ms.custom: api
-ms.openlocfilehash: 3a65fb6d5d3e5c6e68e100aa3ea2b4cf896dc281
-ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+ms.openlocfilehash: 4f2e16acf474d6da8867a6bd392f9e90e0cf166e
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52789402"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52984848"
 ---
 # <a name="export-software-inventory-assessment-per-device"></a>Экспорт оценки инвентаризации программного обеспечения на устройство
 
@@ -34,8 +34,6 @@ ms.locfileid: "52789402"
 
 > Хотите испытать Microsoft Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
-[!include[Prerelease information](../../includes/prerelease.md)]
->
 >
 Существуют различные вызовы API для получения различных типов данных. Так как объем данных может быть большим, их можно получить двумя способами:
 
@@ -71,7 +69,7 @@ ms.locfileid: "52789402"
 
 Тип разрешения | Разрешение | Имя отображения разрешений
 ---|---|---
-Приложение | Software.Read.All | \'Чтение сведений об уязвимостях управления угрозами и уязвимостью\'
+Для приложения | Software.Read.All | \'Чтение сведений об уязвимостях управления угрозами и уязвимостью\'
 Делегированные (рабочая или учебная учетная запись) | Software.Read | \'Чтение сведений об уязвимостях управления угрозами и уязвимостью\'
 
 ### <a name="13-url"></a>1.3 URL-адрес
@@ -98,20 +96,20 @@ GET /api/machines/SoftwareInventoryByMachine
 
 Свойство (ID) | Тип данных | Описание | Пример возвращенного значения
 :---|:---|:---|:---
-DeviceId | Строка | Уникальный идентификатор устройства в службе. | 9eaf3a8b5962e0e6b1af9ec756664a9b823df2d1
-DeviceName | Строка | Полное доменное имя (FQDN) устройства. | johnlaptop.europe.contoso.com
+DeviceId | string | Уникальный идентификатор устройства в службе. | 9eaf3a8b5962e0e6b1af9ec756664a9b823df2d1
+DeviceName | string | Полное доменное имя (FQDN) устройства. | johnlaptop.europe.contoso.com
 DiskPaths | Array[string]  | Дисковые данные о том, что продукт установлен на устройстве. | [C: \\ Файлы программы (x86) \\ Microsoft \\ Silverlight \\ Application \\silverlight.exe" ]
-EndOfSupportDate | Строка | Дата, в которой поддержка этого программного обеспечения имеет или закончится. | 2020-12-30
-EndOfSupportStatus | Строка | Конец состояния поддержки. Может содержать эти возможные значения: None, EOS Version, Upcoming EOS Version, EOS Software, Upcoming EOS Software. | Предстоящий EOS
+EndOfSupportDate | string | Дата, в которой поддержка этого программного обеспечения имеет или закончится. | 2020-12-30
+EndOfSupportStatus | string | Конец состояния поддержки. Может содержать эти возможные значения: None, EOS Version, Upcoming EOS Version, EOS Software, Upcoming EOS Software. | Предстоящий EOS
 Id | string | Уникальный идентификатор для записи. | 123ABG55_573AG&mnp!
 NumberOfWeaknesses | int | Количество недостатков этого программного обеспечения на этом устройстве | 3
-OSPlatform | Строка | Платформа операционной системы, запущенной на устройстве. Здесь указываются конкретные операционные системы, включая варианты одного семейства, например Windows 10 и Windows 7. Подробные сведения см. в материале tvm supported operating systems and platforms. | Windows10
-RbacGroupName | Строка | Группа управления доступом на основе ролей (RBAC). Если это устройство не назначено какой-либо группе RBAC, значение будет "Unassigned". Если организация не содержит групп RBAC, значение будет "Нет". | Servers
+OSPlatform | string | Платформа операционной системы, запущенной на устройстве. Здесь указываются конкретные операционные системы, включая варианты одного семейства, например Windows 10 и Windows 7. Подробные сведения см. в материале tvm supported operating systems and platforms. | Windows10
+RbacGroupName | string | Группа управления доступом на основе ролей (RBAC). Если это устройство не назначено какой-либо группе RBAC, значение будет "Unassigned". Если организация не содержит групп RBAC, значение будет "Нет". | Servers
 RegistryPaths | Array[string] | Свидетельство реестра о том, что продукт установлен на устройстве. | [HKEY_LOCAL_MACHINE \\ ПРОГРАММНОЕ \\ ОБЕСПЕЧЕНИЕ WOW6432Node \\ Microsoft Windows \\ \\ CurrentVersion удалить Microsoft \\ \\ Silverlight" ]
-SoftwareFirstSeenTimestamp | Строка | Впервые это программное обеспечение было замечено на устройстве. | 2019-04-07 02:06:47
-SoftwareName | Строка | Имя программного продукта. | Silverlight
-SoftwareVendor | Строка | Имя поставщика программного обеспечения. | Microsoft
-SoftwareVersion | Строка | Номер версии программного продукта. | 81.0.4044.138
+SoftwareFirstSeenTimestamp | string | Впервые это программное обеспечение было замечено на устройстве. | 2019-04-07 02:06:47
+SoftwareName | string | Имя программного продукта. | Silverlight
+SoftwareVendor | string | Имя поставщика программного обеспечения. | Microsoft
+SoftwareVersion | string | Номер версии программного продукта. | 81.0.4044.138
 
 ### <a name="16-examples"></a>1.6 Примеры
 
@@ -231,7 +229,7 @@ GET https://api.securitycenter.microsoft.com/api/machines/SoftwareInventoryByMac
 
 Тип разрешения | Разрешение | Имя отображения разрешений
 ---|---|---
-Приложение | Software.Read.All | \'Чтение сведений об уязвимостях управления угрозами и уязвимостью\'
+Для приложения | Software.Read.All | \'Чтение сведений об уязвимостях управления угрозами и уязвимостью\'
 Делегированные (рабочая или учебная учетная запись) | Software.Read | \'Чтение сведений об уязвимостях управления угрозами и уязвимостью\'
 
 ### <a name="23-url"></a>2.3 URL-адрес
@@ -257,7 +255,7 @@ GET /api/machines/SoftwareInventoryExport
 Свойство (ID) | Тип данных | Описание | Пример возвращенного значения
 :---|:---|:---|:---
 Экспорт файлов | строка \[ массива\] | Список загрузок URL-адресов для файлов с текущим снимком организации | [  Https://tvmexportstrstgeus.blob.core.windows.net/tvm-export...1”, “https://tvmexportstrstgeus.blob.core.windows.net/tvm-export...2” ]
-GeneratedTime | Строка | Время, за которое был создан экспорт. | 2021-05-20T08:00:00Z ]
+GeneratedTime | string | Время, за которое был создан экспорт. | 2021-05-20T08:00:00Z ]
 
 ### <a name="26-examples"></a>2.6 Примеры
 

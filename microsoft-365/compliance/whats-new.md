@@ -18,25 +18,46 @@ ms.collection:
 - M365-security-compliance
 description: Будь то добавление новых решений в центр соответствия требованиям, обновление существующих функций на основе отзывов или развертывание свежей и обновленной документации, Microsoft 365 поможет вам оставаться на вершине постоянно меняющегося ландшафта соответствия требованиям. Узнайте, чем мы были в этом месяце.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d312b3ac3c2cb43e05a09936f1e5c07b32c22ef1
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 1884989abba56a7da68a2a1372132015a81f5e03
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843250"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52985016"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Новые возможности центра соответствия требованиям Microsoft 365
 
-Будь то добавление новых решений в центр Microsoft 365 [соответствия](microsoft-365-compliance-center.md)требованиям, обновление существующих функций на основе отзывов или развертывание свежей и обновленной документации, Microsoft 365 помогает вам оставаться на вершине постоянно меняющегося ландшафта соответствия требованиям. См. ниже, чтобы узнать, что нового в Microsoft 365 соответствия требованиям.
+Будь то добавление новых решений в [Центр соответствия требованиям Microsoft 365,](microsoft-365-compliance-center.md)обновление существующих функций на основе отзывов или развертывание свежей и обновленной документации, Microsoft 365 поможет вам оставаться на вершине постоянно меняющегося ландшафта соответствия требованиям. См. ниже, чтобы узнать, что нового в Microsoft 365 соответствия требованиям.
 
 > [!NOTE]
 > Некоторые функции соответствия требованиям выкатываются с разной скоростью для наших клиентов. Если вы еще не видите функцию, попробуйте добавить себя в [целевой выпуск](/office365/admin/manage/release-options-in-office-365).
 
 > [!TIP]
-> Интересует, что происходит в других центрах администрирования? Ознакомьтесь с этими статьями:<br>[Новые возможности в центре администрирования Microsoft 365](/office365/admin/whats-new-in-preview)<br>[Новые возможности центра администрирования SharePoint](/sharepoint/what-s-new-in-admin-center)<br>[Новые возможности Microsoft 365 Defender](../security/defender/whats-new.md)<br><br>
+> Интересует, что происходит в других центрах администрирования? Ознакомьтесь с этими статьями:<br>[Что нового в Центр администрирования Microsoft 365](/office365/admin/whats-new-in-preview)<br>[Новые возможности центра администрирования SharePoint](/sharepoint/what-s-new-in-admin-center)<br>[Новые возможности Microsoft 365 Defender](../security/defender/whats-new.md)<br><br>
 И посетите [Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap) дорожную карту, чтобы узнать Microsoft 365, которые были запущены, запущены, находятся в разработке, отменены или ранее выпущены.
 
-## <a name="april-2021"></a>Апрель 2021 г.
+## <a name="may-2021"></a>Май 2021 г.
+
+### <a name="data-loss-prevention"></a>Защита от потери данных
+
+- Новые рекомендации по [планированию стратегии предотвращения потери](dlp-overview-plan-for-dlp.md) данных.
+
+### <a name="retention-and-records-management"></a>Управление хранением и записями
+
+- Если вы освобождаете политику хранения с веб-SharePoint или OneDrive учетной записи, вам больше не придется ждать 30-дневного льготного периода, прежде чем можно удалить сайт или учетную запись. Популярный запрос клиентов, это изменение теперь завершено для всех клиентов.
+- В предварительном просмотре можно просмотреть многоступенчатый обзор диспозиции. Теперь администратор может добавлять до пяти последовательных этапов проверки диспозиции для метки хранения, а рецензенты могут добавлять других пользователей в стадию рассмотрения диспозиции.  [](disposition.md) Вы также можете настроить уведомления и напоминания по электронной почте.
+
+### <a name="sensitive-information-types"></a>Типы конфиденциальных сведений
+
+- Добавлены новые сведения, которые помогут [изменить словарь ключевых слов.](sit-modify-keyword-dictionary.md)
+
+### <a name="sensitivity-labels"></a>Метки конфиденциальности
+
+- При настройке метки  конфиденциальности для групп и сайтов теперь доступен новый параметр для контекста [проверки подлинности.]( sensitivity-labels-teams-groups-sites.md) Этот параметр работает совместно с политиками условного доступа Azure AD для обеспечения более строгих условий при доступе пользователей SharePoint сайтов с меткой. Перед настройкой [](sensitivity-labels-teams-groups-sites.md#more-information-about-the-dependencies-for-the-authentication-context-option) этого параметра убедитесь, что вы читаете зависимости и ограничения.
+- [Политики автоматической](apply-sensitivity-label-automatically.md#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange) маркировки, настроенные только для Exchange, теперь поддерживают метки  конфиденциальности, применяющие шифрование с помощью разрешить пользователям назначать разрешения для параметров Do Not Forward или Encrypt-Only.
+- [Обязательная маркировка](sensitivity-labels-office-apps.md#require-users-to-apply-a-label-to-their-email-and-documents) теперь, как правило, доступна для всех Office приложений на всех платформах.
+
+## <a name="april-2021"></a>Апрель 2021 г.
 
 ### <a name="advanced-ediscovery"></a>Advanced eDiscovery
 
@@ -146,12 +167,12 @@ Outlook выпусков и обновлений:
 ### <a name="sensitivity-labels"></a>Метки конфиденциальности
 
 - **Поддержка DoD**. Поддержка правительственных клиентов США с помощью сред DoD.
-- **Шифровать только для Outlook**. Параметры шифрования для Outlook теперь включают Encrypt-Only при выборе [Разрешить пользователям назначать разрешения.](encryption-sensitivity-labels.md#let-users-assign-permissions)
-- **Применение встроенных меток в Office приложениях.** Обновлено [руководство](sensitivity-labels-office-apps.md#office-built-in-labeling-client-and-the-azure-information-protection-client) по обеспечению применения встроенных меток в Office приложениях при установке клиента единой метки Azure Information Protection.
+- **Шифрование только для Outlook**. Параметры шифрования Outlook теперь включают Encrypt-Only при выборе [Разрешить пользователям назначать разрешения.](encryption-sensitivity-labels.md#let-users-assign-permissions)
+- **Применение встроенных меток в приложениях Office.** Обновлено [руководство](sensitivity-labels-office-apps.md#office-built-in-labeling-client-and-the-azure-information-protection-client) по обеспечению применения встроенных меток в приложениях Office при установке клиента единой метки Azure Information Protection.
 
 ## <a name="february-2021"></a>Февраль 2021 г.
 
-Вот несколько изменений в решениях Microsoft 365 и контенте за февраль.
+Вот несколько изменений в решениях и контенте microsoft 365 за февраль.
 
 ### <a name="auditing"></a>Аудит
 
@@ -171,19 +192,19 @@ Outlook выпусков и обновлений:
 
 - [Узнайте о DLP конечных точек](/microsoft-365/compliance/endpoint-dlp-learn-about)
 - [Отправка почтовых уведомлений и отображение подсказок для политик защиты от потери данных](/microsoft-365/compliance/use-notifications-and-policy-tips)
-- [Сведения о локальном сканере Microsoft 365 защиты от потери данных](/microsoft-365/compliance/dlp-on-premises-scanner-learn)
+- [Сведения о локальном сканере предотвращения потери данных Microsoft 365](/microsoft-365/compliance/dlp-on-premises-scanner-learn)
 - [Начало работы с локального сканера предотвращения потери данных](/microsoft-365/compliance/dlp-on-premises-scanner-get-started)
 - [Создание политики защиты от потери данных для защиты документов с помощью FCI или других свойств](/microsoft-365/compliance/protect-documents-that-have-fci-or-other-properties)
 - [Использование Защиты от потери данных в конечной точке](/microsoft-365/compliance/endpoint-dlp-using)
 - [Начало работы с функцией защиты от потери данных в конечной точке](/microsoft-365/compliance/endpoint-dlp-getting-started)
 
-### <a name="ediscovery"></a>Обнаружение электронных данных
+### <a name="ediscovery"></a>Обнаружение электронных данных (eDiscovery)
 
 Содержимое было добавлено или обновлено в следующих темах:
 
-- [Расшифровка в Microsoft 365 средствах eDiscovery](/microsoft-365/compliance/ediscovery-decryption)
+- [Расшифровка в средствах электронных данных Microsoft 365](/microsoft-365/compliance/ediscovery-decryption)
 - [Запросы ключевых слов и условия поиска](/microsoft-365/compliance/keyword-queries-and-search-conditions#limitations-for-searching-sensitive-data-types)
-- [Выход на пенсию модуля Релевантность в Advanced eDiscovery](/microsoft-365/compliance/relevance-module-retirement)
+- [Выход на пенсию модуля Релевантность в расширенных электронных обнаружений](/microsoft-365/compliance/relevance-module-retirement)
 - [Использование скрипта для добавления пользователей в удержание в случае core eDiscovery](/microsoft-365/compliance/use-a-script-to-add-users-to-a-hold-in-ediscovery)
 
 ### <a name="encryption"></a>Шифрование
@@ -193,7 +214,7 @@ Outlook выпусков и обновлений:
 #### <a name="azure-rights-management-service-rms"></a>Служба управления правами Azure (RMS)
 
 - [Возможности шифрования под управлением клиента](/microsoft-365/compliance/office-365-customer-managed-encryption-features)
-- [Exchange Online шифрование почты с помощью AD RMS](/microsoft-365/compliance/information-rights-management-in-exchange-online). Поддержка этой службы была обесценяна. Вы больше не можете использовать AD RMS в Exchange гибридной среде. Вместо этого мигрировать в Azure RMS.
+- [Шифрование электронной почты Exchange Online с помощью AD RMS.](/microsoft-365/compliance/information-rights-management-in-exchange-online) Поддержка этой службы была обесценяна. Вы больше не можете использовать AD RMS в гибридной среде Exchange. Вместо этого мигрировать в Azure RMS.
 
 #### <a name="customer-key"></a>Ключ клиента
 
@@ -205,8 +226,8 @@ Outlook выпусков и обновлений:
 - [Применение управления правами на информацию (IRM) в списке или библиотеке.](/microsoft-365/compliance/configure-irm-to-use-an-on-premises-ad-rms-server) Эти национальные облака не поддерживают этот параметр:
     - Microsoft Cloud for US Government
     - Microsoft Cloud для Германии
-    - Azure и Microsoft 365 21Vianet в Китае)
-- Настройка IRM для использования локального [сервера AD RMS.](/microsoft-365/compliance/configure-irm-to-use-an-on-premises-ad-rms-server) Поддержка этой службы в Exchange гибридной среде была обесценилась.
+    - Azure и Microsoft 365, управляемые 21Vianet в Китае)
+- Настройка IRM для использования локального [сервера AD RMS.](/microsoft-365/compliance/configure-irm-to-use-an-on-premises-ad-rms-server) Поддержка этой службы в гибридной среде Exchange была обесценяна.
 
 ### <a name="sensitive-information-types"></a>Типы конфиденциальных сведений
 
@@ -222,14 +243,14 @@ Outlook выпусков и обновлений:
 
 Содержимое было добавлено или обновлено в следующих темах:
 
-- **SharePoint внешнего обмена**. Для [меток контейнера](sensitivity-labels-teams-groups-sites.md) опция внешнего SharePoint сайтов теперь выпущена в общем доступе. Кроме того, Microsoft 365 центр администрирования и планировщик теперь поддерживают применение этих меток конфиденциальности. 
+- **Внешний общий доступ к SharePoint.** Для [меток контейнера](sensitivity-labels-teams-groups-sites.md) опция внешнего общего доступа с сайтов SharePoint теперь выпущена в общем доступе. Кроме того, центр администрирования Microsoft 365 и планировщик теперь поддерживают применение этих меток конфиденциальности. 
 - **Совместное авторство и AutoSave**. Поддержка [совместной работы и AutoSave](sensitivity-labels-coauthoring.md) для зашифрованных файлов выпущена в качестве предварительного просмотра для тестирования в несерийных клиентах.
 
 ## <a name="january-2021"></a>Январь 2021 г.
 
 ### <a name="support-for-card-content-in-teams"></a>Поддержка контента карт в Teams
 
-Следующие решения Microsoft 365 теперь поддерживают обнаружение контента карт, генерируемого через приложения в Teams сообщениях: [](/microsoftteams/platform/task-modules-and-cards/what-are-cards)
+Следующие решения по обеспечению соответствия требованиям Microsoft [](/microsoftteams/platform/task-modules-and-cards/what-are-cards) 365 теперь поддерживают обнаружение контента карт, генерируемого через приложения в сообщениях Teams:
 
 - **Core и Advanced eDiscovery**. Теперь содержимое карты можно поместить [на удержание](create-ediscovery-holds.md#preserve-card-content) или включить в поиск [(применяется](/microsoftteams/ediscovery-investigation#search-for-card-content) и к поиску контента).
 - **Аудит**. Теперь действие карты [записуется в журнал аудита.](/microsoftteams/audit-log-events#teams-activities)
@@ -248,7 +269,7 @@ Outlook выпусков и обновлений:
 
 ### <a name="spotlight-new-content-for-insider-risk-solutions"></a>Spotlight: новое содержимое для решений по инсайдерской опасности
 
-Группа Microsoft 365 по обеспечению соответствия требованиям трудна в создании доков "решения контента", чтобы содействовать совместному использования возможностей соответствия требованиям для достижения целей соответствия требованиям.
+Команда контента для соответствия требованиям Microsoft 365 трудна над созданием доков "решения контента", чтобы содействовать совместному использования возможностей соответствия требованиям для достижения целей соответствия требованиям.
 
 Во-первых, это контент, который связывает наши внутренние решения риска: соответствие требованиям к коммуникации, управление рисками, информационные барьеры и управление привилегированным доступом. Вот что вы найдете:
 
@@ -277,7 +298,7 @@ Outlook выпусков и обновлений:
 - Teams (изображения, фрагменты кода, видео, вики-изображения)
 - Teams записи вызовов и собраний, хранимые в Teams хранилище
 - Teams уведомления чата
-- Teams чата от Кортаны
+- Teams чата Кортана
 - Teams сообщений о состоянии
 - Сведения о пользователях и сигналах для Exchange Online
 

@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 4843894638ccf119c0cadcf003e159e793c18368
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: a0191a52c64b32b314d4b2f2f36c85b060226ad6
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843738"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52984656"
 ---
 # <a name="microsoft-defender-for-endpoint-api-release-notes"></a>Заметки о выпуске API для Защитника Майкрософт для конечной точки
 
@@ -39,6 +39,10 @@ ms.locfileid: "52843738"
 > ```
 
 ## <a name="release-notes---newest-to-oldest-ddmmyyyy"></a>Заметки о выпуске — самые новые для самых старых (dd.mm.yyyyy)
+
+### <a name="06102021"></a>06.10.2021
+
+- Добавлен новый метод API оценки экспорта — метод оценки уязвимостей программного обеспечения _Delta Export (OData)_ Методы оценки экспорта и [свойства каждого устройства.](get-assessment-methods-properties.md)
 
 ### <a name="05252021"></a>05.25.2021
 

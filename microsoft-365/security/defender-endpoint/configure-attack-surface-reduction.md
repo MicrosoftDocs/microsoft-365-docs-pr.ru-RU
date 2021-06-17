@@ -17,31 +17,32 @@ ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
 ms.date: 06/02/2021
-ms.openlocfilehash: d2f984e21338e2f9a4ed579cde2d74339031d649
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 948b5dc201526bf54aae0e857cfd40dcc9fe1e19
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52770965"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52984452"
 ---
 # <a name="configure-attack-surface-reduction-capabilities"></a>Настройка возможностей сокращения направлений атак
 
 **Область применения:**
+
 - [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2154037)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > [!TIP]
 > Хотите испытать Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-assignaccess-abovefoldlink)
 
-Defender for Endpoint включает несколько возможностей уменьшения поверхности атаки. Дополнительные сведения см. в обзоре возможностей уменьшения [поверхности атаки.](overview-attack-surface-reduction.md) Чтобы настроить уменьшение поверхности атаки в среде, выполните следующие действия: 
+Defender for Endpoint включает несколько возможностей уменьшения поверхности атаки. Дополнительные сведения см. в обзоре возможностей уменьшения [поверхности атаки.](overview-attack-surface-reduction.md) Чтобы настроить уменьшение поверхности атаки в среде, выполните следующие действия:
 
 1. [Включить аппаратную изоляцию для Microsoft Edge.](/windows/security/threat-protection/microsoft-defender-application-guard/install-md-app-guard)
 
-2. Включить управление приложениями. 
+2. Включить управление приложениями.
 
-   1. Просмотрите базовые политики в Windows. Примеры [базовых политик](/windows/security/threat-protection/windows-defender-application-control/example-wdac-base-policies).
-   2. См. [руководство по разработке управления приложениями.](/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control-design-guide)
-   3. Обратитесь к руководству [по разработке управления приложениями.](/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control-deployment-guide)
+   1. Просмотрите базовые политики в Windows. См. [пример базовых политик](/windows/security/threat-protection/windows-defender-application-control/example-wdac-base-policies).
+   2. См. [руководство по Защитник Windows управления приложениями.](/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control-design-guide)
+   3. Обратитесь [к политикам Защитник Windows управления приложениями (WDAC).](/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control-deployment-guide)
 
 3. [Включить управляемый доступ к папке](enable-controlled-folders.md).
 
@@ -53,12 +54,13 @@ Defender for Endpoint включает несколько возможносте
 
 7. Настройка сетевого брандмауэра.
 
-   1. Получите обзор брандмауэр Защитника Windows [с расширенным обеспечением безопасности.](/windows/security/threat-protection/windows-firewall/windows-firewall-with-advanced-security)
-   2. Руководство по [разработке брандмауэр Защитника Windows](/windows/security/threat-protection/windows-firewall/windows-firewall-with-advanced-security-design-guide) для разработки политик брандмауэра.
-   3. Используйте руководство [брандмауэр Защитника Windows развертывания](/windows/security/threat-protection/windows-firewall/windows-firewall-with-advanced-security-deployment-guide) для настройки брандмауэра организации с расширенным обеспечением безопасности. 
+   1. Получите обзор [брандмауэра Защитник Windows с расширенным обеспечением безопасности.](/windows/security/threat-protection/windows-firewall/windows-firewall-with-advanced-security)
+   2. Используйте руководство Защитник Windows брандмауэра, чтобы решить, как вы хотите создать политики брандмауэра. [](/windows/security/threat-protection/windows-firewall/windows-firewall-with-advanced-security-design-guide)
+   3. Используйте руководство [Защитник Windows](/windows/security/threat-protection/windows-firewall/windows-firewall-with-advanced-security-deployment-guide) брандмауэра для настройки брандмауэра организации с расширенным обеспечением безопасности.
 
 > [!TIP]
 > В большинстве случаев при настройке возможностей уменьшения поверхности атаки можно выбрать один из нескольких методов:
+
 > - Microsoft Endpoint Manager (которая теперь включает Microsoft Intune и Microsoft Endpoint Configuration Manager)
 > - Групповая политика
 > - Командлеты PowerShell

@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: c10b2863503a5bda829cbf67379a606b687ac2e3
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: acd8ec28fb1d78e3724cb0ca0ebee48133e7310f
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730946"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52985088"
 ---
 # <a name="supported-microsoft-365-defender-apis"></a>Поддерживаемые API Microsoft 365 Defender 
 
@@ -41,9 +41,9 @@ ms.locfileid: "52730946"
 
 Статья | Описание
 -|-
-[Программный интерфейс расширенной охоты](api-advanced-hunting.md) | Запустите расширенные запросы на охоту.
+[API расширенной охоты](api-advanced-hunting.md) | Запустите расширенные запросы на охоту.
 [Программные интерфейсы, относящиеся к инцидентам](api-incident.md) | Список и обновление инцидентов, а также другие практические задачи.
-[Потоковый API](../defender-endpoint/raw-data-export.md) (Предварительный просмотр) | Отгрузка событий и оповещений в режиме реального времени в едином потоке данных.
+[Потоковый API](streaming-api.md) (Предварительный просмотр) | Отгрузка событий и оповещений в режиме реального времени в едином потоке данных.
 
 ### <a name="endpoint-uris"></a>URL-адреса конечной точки
 
@@ -59,8 +59,8 @@ ms.locfileid: "52730946"
 
 ## <a name="related-articles"></a>Связанные статьи
 
-- [Microsoft 365 Обзор API defender](api-overview.md)
-- [Доступ к API Microsoft 365 Defender](api-access.md)
-- [Потоковый API](../defender-endpoint/raw-data-export.md)
+- [Microsoft 365 Defender Обзор API](api-overview.md)
+- [Доступ к Microsoft 365 Defender API](api-access.md)
+- [API потоковой передачи](../defender-endpoint/raw-data-export.md)
 - [Узнайте о ограничениях API и лицензировании](api-terms.md)
 - [Понимание кодов ошибок](api-error-codes.md)

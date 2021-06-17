@@ -14,12 +14,12 @@ ms.collection:
 - m365initiative-viva-topics
 localization_priority: None
 description: Обзор Viva Тем.
-ms.openlocfilehash: 60c276e8850ed1b824810131a13bed19424a87fa
-ms.sourcegitcommit: 959c3c3633e40b7b0f5e2c8372409778005a24db
+ms.openlocfilehash: 785fddb7c951bb6f7c170971f0af4eb7ac8f9a83
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "52950027"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52984908"
 ---
 # <a name="microsoft-viva-topics-overview"></a>Обзор тем Microsoft Viva 
 
@@ -39,14 +39,14 @@ Viva Темы используют ИИ для автоматического п
 
 Темы отображаются пользователям с помощью:
 
-- [Основные темы](topic-experiences-overview.md#topic-highlights) на SharePoint страницах
+- [Темы, затронутые](topic-experiences-overview.md#sharepoint-highlights) на SharePoint страницах
 - Ответы на вопросы в [результатах поиска](topic-experiences-overview.md#search-results)
 - Поиск в [приложениях office](topic-experiences-overview.md#office-application-search)
 - [Главная страница центра](topic-experiences-overview.md#topic-center) темы
 
-### <a name="topic-highlights"></a>Выделение тем
+### <a name="sharepoint-highlights"></a>SharePoint основные моменты
 
-Когда тема упоминается в содержимом новостей и страниц SharePoint, соответствующий текст выделяется. С этого выделенного текста можно перейти в сводку темы. Откройте сведения о теме из заголовка сводки, чтобы просмотреть полную страницу темы. Упомянутая тема может быть определена автоматически или может быть добавлена на страницу с прямой ссылкой на эту тему автором страницы. 
+Когда тема упоминается в содержимом новостей и страниц SharePoint, соответствующий текст выделяется. С этого выделенного текста можно перейти в сводку темы. Откройте сведения о теме из заголовка сводки, чтобы просмотреть полную страницу темы. Упомянутая тема может быть определена автоматически или может быть ссылаться непосредственно автором страницы. 
 
    ![Снимок экрана, показывающий основные моменты темы.](../media/knowledge-management/saturn.png) 
 

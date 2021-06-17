@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 18823db8ca8d4bfa82b8ab6265ee8a0902a13e79
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 65d7647e9000152d2eeb8d6bf36e8d45a0d4fa90
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50925896"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52984704"
 ---
 # <a name="add-and-verify-admin-contacts-in-the-admin-portal"></a>Добавление и проверка контактов администратора на портале администрирования
 
@@ -51,15 +51,11 @@ ms.locfileid: "50925896"
 
 **Добавление контактов администратора**
 
-1.  Во входе [на компьютеры, управляемые Майкрософт портал администрирования](https://aka.ms/mwaasportal). 
+1.  Во входе [в Microsoft Endpoint Manager](https://endpoint.microsoft.com). 
 
-2.  В **статье Поддержка** выберите контакты **администратора**. 
-
-    ![Меню поддержки, контакты администратора в верхней части выбранного](../../media/admincontacts.png)
+2.  В **разделе Администрирование** клиента выберите раздел **компьютеры, управляемые Майкрософт,** а затем выберите **контакты администратора.** 
 
 3. Нажмите **Добавить**.
-
-    ![Портал администрирования, кнопка Добавить слева от экспорта и обновления](../../media/adminadd.png)
 
 4.  Выберите область **фокуса** и введите сведения для контакта. 
 

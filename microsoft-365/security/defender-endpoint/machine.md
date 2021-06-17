@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 7b95fc487a8ee3e82e0f215b34aa564e063534af
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 5ca147c9e69168b2f15aa69bba8728567b782fa9
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52772081"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52984464"
 ---
 # <a name="machine-resource-type"></a>Тип ресурса машины
 
@@ -55,6 +55,7 @@ ms.locfileid: "52772081"
 [Поиск компьютеров по тегу](find-machines-by-tag.md) | [коллекция](machine.md) машин | Поиск машин по [тегу](machine-tags.md).
 [Получить недостающие КБ](get-missing-kbs-machine.md) | Коллекция KB | Получить список отсутствующих КБ, связанных с машинным ИД
 [Установить значение устройства](set-device-value.md)| [коллекция](machine.md) машин | Установите [значение устройства.](tvm-assign-device-value.md)
+[Машина обновления](update-machine-method.md) |[коллекция](machine.md) машин | Получите состояние обновления компьютера.
 
 ## <a name="properties"></a>Свойства
 

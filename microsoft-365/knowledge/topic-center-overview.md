@@ -1,6 +1,5 @@
 ---
-title: Обзор центра тем в разделах Microsoft Viva Topics
-description: Узнайте о Центре тем в разделах Microsoft Viva Topics.
+title: Обзор центра темы в Microsoft Viva Темы
 author: chuckedmonson
 ms.author: chucked
 manager: pamgreen
@@ -14,16 +13,17 @@ ms.collection:
 - m365initiative-viva-topics
 ROBOTS: ''
 localization_priority: None
-ms.openlocfilehash: 073c14f84f4858a1853da062bf87ae9e78c05cbd
-ms.sourcegitcommit: 9541d5e6720a06327dc785e3ad7e8fb11246fd72
+description: Узнайте о центре темы в Microsoft Viva Темы.
+ms.openlocfilehash: f782be90e6cd6fa12e57df87ebb1057e58bdca19
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52583596"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52984932"
 ---
-# <a name="topic-center-overview-in-microsoft-viva-topics"></a>Обзор центра тем в разделах Microsoft Viva Topics
+# <a name="topic-center-overview-in-microsoft-viva-topics"></a>Обзор центра темы в Microsoft Viva Темы
 
-В разделе Microsoft Viva Topics тематический центр — это современный веб SharePoint сайт, который служит центром знаний для вашей организации. Он создается во время [установки Viva Topics](set-up-topic-experiences.md) в центре администрирования Microsoft 365.
+В Microsoft Viva Темы центре темы является современный сайт SharePoint, который служит центром знаний для вашей организации. Он создается во время [настройки Viva Topics](set-up-topic-experiences.md) в Центр администрирования Microsoft 365.
 
 В центре темы есть домашняя страница по умолчанию с веб-частью **Topics,** где все лицензированные пользователи могут видеть темы, к которым у них есть подключение. 
 
@@ -34,7 +34,7 @@ ms.locfileid: "52583596"
 Центр тем создается во время установки Viva Topics. После завершения настройки администратор может найти URL-адрес на странице управления [центром темы.](./topic-experiences-administration.md#to-access-topics-management-settings)
 
 
-1. В центре администрирования Microsoft 365 выберите **Параметры,** а затем выберите **параметры Org.**
+1. В Центр администрирования Microsoft 365 **выберите** Параметры, а затем выберите **параметры Org.**
 2. На **вкладке Services** выберите **раздел Experiences**.
 
     ![Подключение к знаниям](../media/admin-org-knowledge-options-completed.png) 
@@ -69,7 +69,7 @@ ms.locfileid: "52583596"
 
 ## <a name="manage-topics-page"></a>Управление страницей тем
 
-Чтобы работать на странице **Управление** темами центра тем, необходимо иметь необходимые разрешения на управление темами, необходимые для роли диспетчера знаний. Администратор может назначить эти разрешения пользователям во время установки [](topic-experiences-knowledge-rules.md) управления знаниями, [](set-up-topic-experiences.md)или новые пользователи могут быть добавлены администратором через центр администрирования Microsoft 365.
+Чтобы работать на странице **Управление** темами центра тем, необходимо иметь необходимые разрешения на управление темами, необходимые для роли диспетчера знаний. Администратор может назначить эти разрешения пользователям во время установки [Viva Topics,](set-up-topic-experiences.md)или после этого администратор может добавить новых пользователей через Центр администрирования Microsoft 365. [](topic-experiences-knowledge-rules.md)
 
 На странице **Управление темами** панель мониторинга тем показывает все темы, к которые вы имеете доступ, которые были определены из указанных исходных местоположений. В каждой теме будет отсвеяна дата обнаружения темы. Пользователь, которому назначены разрешения на управление темами, может просмотреть неподтвержденные темы и выбрать:
 

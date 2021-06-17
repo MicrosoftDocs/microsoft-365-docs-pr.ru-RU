@@ -12,20 +12,17 @@ ms.author: deniseb
 ms.reviewer: marcmcc
 manager: dansimp
 ms.custom: nextgen
-ms.date: 04/28/2021
+ms.date: 06/15/2021
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: ba0f2184ced21aea60b172d44936e3e2d36e5270
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: 3a5f766e21afcb29d3503345a49637061b5f0e38
+ms.sourcegitcommit: 1c11035dd4432e34603022740baef0c8f7ff4425
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274956"
+ms.lasthandoff: 06/16/2021
+ms.locfileid: "52964704"
 ---
 # <a name="turn-on-block-at-first-sight"></a>Включить блокировку при первом подозрении
-
-[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
-
 
 **Область применения:**
 
@@ -34,7 +31,7 @@ ms.locfileid: "52274956"
 В этой статье описывается функция для борьбы с вирусами и вредоносными программами, известная как "блокировка при первом подозрении". В статье описано включение блокировки при первом подозрении в инфраструктуре вашей организации. 
 
 > [!TIP]
-> Эта статья предназначена для администраторов предприятий и сотрудников ИТ, управляющих настройками безопасности для организаций. Если вы не администратор и не сотрудник ИТ, но у вас есть вопросы о блокировке при первом подозрении, см. раздел [Не администратор предприятия и не сотрудник ИТ?](#not-an-enterprise-admin-or-it-pro).
+> Эта статья предназначена для администраторов предприятий и сотрудников ИТ, управляющих настройками безопасности для организаций. Если вы не администратор и не сотрудник ИТ, но у вас есть вопросы о блокировке при первом появлении, см. раздел [Не администратор предприятия и не сотрудник ИТ?](#not-an-enterprise-admin-or-it-pro)
 
 ## <a name="what-is-block-at-first-sight"></a>Что такое блокировка при первом подозрении?
 
@@ -55,7 +52,7 @@ ms.locfileid: "52274956"
 ![Список антивирусных обработчиков в Microsoft Defender](images/microsoft-defender-atp-next-generation-protection-engines.png)  
 
 > [!TIP]
-> Подробности см. в этой статье блога: [Узнайте о передовых технологиях, лежащих в основе защиты нового поколения Microsoft Defender для конечной точки](https://www.microsoft.com/security/blog/2019/06/24/inside-out-get-to-know-the-advanced-technologies-at-the-core-of-microsoft-defender-atp-next-generation-protection/).
+> Подробности см. в блоге [Узнайте о передовых технологиях, лежащих в основе защиты нового поколения Microsoft Defender для конечной точки](https://www.microsoft.com/security/blog/2019/06/24/inside-out-get-to-know-the-advanced-technologies-at-the-core-of-microsoft-defender-atp-next-generation-protection/).
 
 ## <a name="a-few-things-to-know-about-block-at-first-sight"></a>Вот несколько важных фактов о блокировке при первом подозрении
 
@@ -149,7 +146,9 @@ ms.locfileid: "52274956"
 
 ## <a name="validate-block-at-first-sight-is-working"></a>Проверьте, работает ли блокировка при первом подозрении
 
-Чтобы проверить, работает ли функция, следуйте инструкциям, изложенным в разделе [Проверке подключений между сетью и облаком](configure-network-connections-microsoft-defender-antivirus.md#validate-connections-between-your-network-and-the-cloud).
+Чтобы проверить работу функции, скачайте [пример файла блокировки при первом появлении](https://demo.wd.microsoft.com/Page/BAFS). Чтобы скачать файл, вам потребуется учетная запись в Azure AD с назначенной ролью "Администратор безопасности" или "Глобальный администратор".
+
+Чтобы проверить, работает ли облачная защита, следуйте инструкциям, изложенным в разделе [Проверка подключений между сетью и облаком](configure-network-connections-microsoft-defender-antivirus.md#validate-connections-between-your-network-and-the-cloud). 
 
 ## <a name="turn-off-block-at-first-sight"></a>Отключение блокировки при первом подозрении
 
