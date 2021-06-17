@@ -1,0 +1,39 @@
+---
+title: Назначение устройств группе развертывания
+description: Как указать группу развертывания, в которой должны быть устройства
+keywords: Компьютеры, управляемые Майкрософт, Microsoft 365, служба, документация
+ms.service: m365-md
+author: jaimeo
+ms.localizationpriority: normal
+ms.collection: M365-modern-desktop
+ms.author: jaimeo
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: 19465d2d2f077859490c106b9c01f08beb6e3906
+ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52985640"
+---
+# <a name="assign-devices-to-a-deployment-group"></a><span data-ttu-id="5665c-104">Назначение устройств группе развертывания</span><span class="sxs-lookup"><span data-stu-id="5665c-104">Assign devices to a deployment group</span></span>
+
+<span data-ttu-id="5665c-105">компьютеры, управляемые Майкрософт назначит устройства различным группам развертывания, но можно указать или изменить группу, назначенную устройству с помощью портала Admin.</span><span class="sxs-lookup"><span data-stu-id="5665c-105">Microsoft Managed Desktop will assign devices to the various deployment groups, but you can specify or change group a device is assigned to a device by using the Admin portal.</span></span> <span data-ttu-id="5665c-106">Назначение меняется после регистрации устройства или после регистрации пользователя.</span><span class="sxs-lookup"><span data-stu-id="5665c-106">You change the assignment after a device is registered or after a user has enrolled.</span></span>
+
+> [!IMPORTANT]
+> <span data-ttu-id="5665c-107">При изменении назначения к устройству будут применены политики, определенные для этой группы.</span><span class="sxs-lookup"><span data-stu-id="5665c-107">If you change the assignment, policies that are specific to that group will be applied to the device.</span></span> <span data-ttu-id="5665c-108">Изменение может установить последнюю версию Windows 10 (включая любые новые функции или обновления качества).</span><span class="sxs-lookup"><span data-stu-id="5665c-108">The change might install the latest version of Windows 10 (including any new feature or quality updates).</span></span> <span data-ttu-id="5665c-109">Сначала лучше переместить несколько устройств, а затем проверить результат работы пользователя.</span><span class="sxs-lookup"><span data-stu-id="5665c-109">It's best to move just a few devices at first and then check the resulting user experience.</span></span> <span data-ttu-id="5665c-110">Следует помнить, что некоторые обновления перезапустят устройство.</span><span class="sxs-lookup"><span data-stu-id="5665c-110">Be aware that certain updates will restart the device.</span></span> <span data-ttu-id="5665c-111">Дважды убедитесь, что вы выбрали нужные устройства для назначения.</span><span class="sxs-lookup"><span data-stu-id="5665c-111">Double-check that you've selected the right devices to assign.</span></span> <span data-ttu-id="5665c-112">Выполнение назначения может занять до 24 часов.</span><span class="sxs-lookup"><span data-stu-id="5665c-112">It can take up to 24 hours for the assignment to take effect.</span></span>
+
+<span data-ttu-id="5665c-113">Чтобы назначить устройства группе развертывания, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="5665c-113">To assign devices to a deployment group, follow these steps.</span></span> <span data-ttu-id="5665c-114">Если необходимо переместить отдельные устройства в разные группы, повторите эти действия для каждой группы.</span><span class="sxs-lookup"><span data-stu-id="5665c-114">If you want to move separate devices to different groups, repeat these steps for each group.</span></span>
+
+1. <span data-ttu-id="5665c-115">В Microsoft Endpoint Manager выберите **Устройства** в левой области.</span><span class="sxs-lookup"><span data-stu-id="5665c-115">In Microsoft Endpoint Manager, select **Devices** in the left pane.</span></span> <span data-ttu-id="5665c-116">В разделе **компьютеры, управляемые Майкрософт** выберите **Устройства**.</span><span class="sxs-lookup"><span data-stu-id="5665c-116">In the **Microsoft Managed Desktop** section, select **Devices**.</span></span>
+2. <span data-ttu-id="5665c-117">Выберите устройства, которые необходимо назначить.</span><span class="sxs-lookup"><span data-stu-id="5665c-117">Select the devices you want to assign.</span></span> <span data-ttu-id="5665c-118">Все выбранные устройства будут назначены в указанную группу.</span><span class="sxs-lookup"><span data-stu-id="5665c-118">All selected devices will be assigned to the group you specify.</span></span>
+3. <span data-ttu-id="5665c-119">Выберите **действия устройства** из меню.</span><span class="sxs-lookup"><span data-stu-id="5665c-119">Select **Device actions** from the menu.</span></span>
+4. <span data-ttu-id="5665c-120">Выберите **Назначение устройства в группу.**</span><span class="sxs-lookup"><span data-stu-id="5665c-120">Select **Assign device to group**.</span></span> <span data-ttu-id="5665c-121">Откроется флайер.</span><span class="sxs-lookup"><span data-stu-id="5665c-121">A fly-in opens.</span></span>
+5. <span data-ttu-id="5665c-122">Используйте выпадаемое меню, чтобы выбрать группу для перемещения устройств, а затем выберите **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="5665c-122">Use the drop-down menu to select the group to move devices to, and then select **Save**.</span></span> <span data-ttu-id="5665c-123">Назначенная **группа будет** изменяться на **Pending**.</span><span class="sxs-lookup"><span data-stu-id="5665c-123">The **Group assigned by** will change to **Pending**.</span></span>
+
+<span data-ttu-id="5665c-124">Когда назначение выполнено, **группа,** назначенная  администратором (указано, что вы сделали это изменение), и столбец **Group** покажет новое групповое назначение.</span><span class="sxs-lookup"><span data-stu-id="5665c-124">When the assignment is complete, **Group assigned by** will change to **Admin** (indicated that you made the change) and the **Group** column will show the new group assignment.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="5665c-125">Нельзя перемещать устройства в другие группы, если они находятся в состоянии "ошибка" или "ожидание" регистрации.</span><span class="sxs-lookup"><span data-stu-id="5665c-125">You can't move devices to other groups if they're in the "error" or "pending" registration state.</span></span>
+>
+><span data-ttu-id="5665c-126">Если устройство не было правильно удалено, оно может показать состояние "готово".</span><span class="sxs-lookup"><span data-stu-id="5665c-126">If a device hasn't been properly removed, it could show a status of "ready."</span></span> <span data-ttu-id="5665c-127">Если переместить такое устройство, не исключено, что перемещение не будет завершено.</span><span class="sxs-lookup"><span data-stu-id="5665c-127">If you move such a device, it's possible that the move won't complete.</span></span> <span data-ttu-id="5665c-128">Если вы не  видите группу, назначенную изменением на **Ожидающееся** в шаге 5, убедитесь, что устройство доступно, ища его в Intune.</span><span class="sxs-lookup"><span data-stu-id="5665c-128">If you don't see **Group assigned by** change to **Pending** in Step 5, check that the device is available by searching for it in Intune.</span></span> <span data-ttu-id="5665c-129">Дополнительные сведения см. в разделе[Сведения об устройстве в Intune](/mem/intune/remote-actions/device-inventory).</span><span class="sxs-lookup"><span data-stu-id="5665c-129">For more information, see [See device details in Intune](/mem/intune/remote-actions/device-inventory).</span></span>
