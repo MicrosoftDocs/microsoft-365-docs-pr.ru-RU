@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 55bf10d01093c17ba2d186ce0a1d1313db2c3a75
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 4919f082c115d8a57960ec49532b6cda6a63833f
+ms.sourcegitcommit: 787fb30fdae6d49347a87f4baae3cd140067e573
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52770089"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52998732"
 ---
 # <a name="get-ip-statistics-api"></a>Получить API статистики IP
 
@@ -73,7 +73,7 @@ GET /api/ips/{ip}/stats
 :---|:---|:---
 lookBackHours | Int32 | Определяет часы поиска, чтобы получить статистику. По умолчанию до 30 дней. **Необязательное поле**.
 
-## <a name="request-body"></a>Тело запроса
+## <a name="request-body"></a>Текст запроса
 переменная Empty
 
 ## <a name="response"></a>Отклик
@@ -99,7 +99,7 @@ GET https://api.securitycenter.microsoft.com/api/ips/10.209.67.177/stats?lookBac
 {
     "@odata.context": "https://api.securitycenter.microsoft.com/api/$metadata#microsoft.windowsDefenderATP.api.InOrgIPStats",
     "ipAddress": "10.209.67.177",
-    "orgPrevalence": "63515",
+    "organizationPrevalence": 63515,
     "orgFirstSeen": "2017-07-30T13:36:06Z",
     "orgLastSeen": "2017-08-29T13:32:59Z"
 }
@@ -108,7 +108,7 @@ GET https://api.securitycenter.microsoft.com/api/ips/10.209.67.177/stats?lookBac
 
 | Имя | Описание |
 | :--- | :---------- |
-| Распространенность орг | отчетливое количество устройств, открывав сетевое подключение к этому IP. |
+| Распространенность организации | отчетливое количество устройств, открывав сетевое подключение к этому IP. |
 | Первое увидено в Org | первое подключение для этого IP-адреса в организации. |
 | Org последний раз видели  | последнее подключение для этого IP-адреса в организации. |
 
