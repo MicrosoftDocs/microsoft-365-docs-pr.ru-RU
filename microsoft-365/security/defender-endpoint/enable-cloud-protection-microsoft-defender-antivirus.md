@@ -10,17 +10,17 @@ localization_priority: normal
 ms.topic: conceptual
 author: denisebmsft
 ms.author: deniseb
-ms.date: 05/18/2021
+ms.date: 06/17/2021
 ms.reviewer: ''
 manager: dansimp
 ms.custom: nextgen
 ms.technology: mde
-ms.openlocfilehash: e7b7a0ba5c301829633c27f3add8f7f7daa70dfd
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 694c09c5136f874550fa4a47586f3268ee2d0833
+ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52924711"
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "53007189"
 ---
 # <a name="turn-on-cloud-delivered-protection"></a>Включить облачную защиту
 
@@ -146,14 +146,14 @@ SubmitSamplesConsent
 
 2. Выберите **плитку защиты &** вирусов (или значок щита в левой панели меню), а затем **метку** параметров защиты & вирусов:
 
-    ![Снимок экрана: метка параметров защиты от вирусов и угроз в приложении "Безопасность Windows"](images/defender/wdav-protection-settings-wdsc.png)
+    :::image type="content" source="../../media/wdav-protection-settings-wdsc.png" alt-text="Снимок экрана параметров защиты & вирусов":::
 
 3. **Подтвердим, что** облачные средства защиты **и** автоматическая отправка образцов переключаются на **On**.
 
 > [!NOTE]
 > Если автоматическая отправка образца настроена с помощью групповой политики, параметр будет серым и недоступным.
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 - [Настройка времени ожидания блокировки облака](configure-cloud-block-timeout-period-microsoft-defender-antivirus.md)
 - [Настройка блока с первого взгляда](configure-block-at-first-sight-microsoft-defender-antivirus.md)

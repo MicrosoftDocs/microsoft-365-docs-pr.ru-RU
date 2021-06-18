@@ -1,6 +1,6 @@
 ---
 title: Защита параметров безопасности с помощью защиты от подделки
-ms.reviewer: shwjha, hayhov
+ms.reviewer: pahuijbr, hayhov, oogunrinde
 manager: dansimp
 description: Используйте защиту от взлома, чтобы предотвратить изменение важных параметров безопасности вредоносными приложениями.
 keywords: вредоносные программы, защитник, антивирус, защита от взлома
@@ -16,13 +16,13 @@ author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
 ms.technology: mde
-ms.date: 05/17/2021
-ms.openlocfilehash: f6217cccf79b951c3103e1024ac74669d68645cd
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.date: 06/17/2021
+ms.openlocfilehash: 7050a1588b71ac106d5364f29c76d379072e9511
+ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52925939"
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "53007421"
 ---
 # <a name="protect-security-settings-with-tamper-protection"></a>Защита параметров безопасности с помощью защиты от подделки
 
@@ -50,7 +50,7 @@ ms.locfileid: "52925939"
 - Отключение облачной защиты
 - Удаление обновлений разведки безопасности
 
-### <a name="how-it-works"></a>Принципы работы
+### <a name="how-it-works"></a>Принципы действия
 
 Защита от взлома по сути блокирует антивирусная программа в Microsoft Defender и предотвращает изменения параметров безопасности с помощью приложений и методов, таких как:
 
@@ -80,8 +80,8 @@ ms.locfileid: "52925939"
 |:----|:----|
 | Microsoft Intune  | Нет |
 | Microsoft Endpoint Configuration Manager + Присоединение клиента  |     Нет  |
-| Центр безопасности в Microsoft Defender ( [https://securitycenter.microsoft.com](https://securitycenter.microsoft.com) )    |     Да |
-| Microsoft 365 центра безопасности ( [https://security.microsoft.com](https://security.microsoft.com) )  |     Да  |
+| Центр безопасности в Microsoft Defender ( [https://securitycenter.windows.com](https://securitycenter.windows.com) )    |     Да |
+| Microsoft 365 Defender портал ( [https://security.microsoft.com](https://security.microsoft.com) )  |     Да  |
 
 ## <a name="manage-tamper-protection-for-your-organization-using-the-microsoft-defender-security-center"></a>Управление защитой от взлома для организации с помощью Центр безопасности в Microsoft Defender
 
@@ -100,6 +100,7 @@ ms.locfileid: "52925939"
 - Вы должны иметь соответствующие [разрешения,](/microsoft-365/security/defender-endpoint/assign-portal-access)такие как глобальный администратор, администратор безопасности или операции безопасности.
 
 - На Windows устройствах должна быть запущена одна из следующих версий Windows:
+
    - Windows 10
    - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
    - Windows Сервер, версия [1803 или](/windows/release-health/status-windows-10-1803) более поздней версии
@@ -147,6 +148,7 @@ ms.locfileid: "52925939"
 2. Выберите   >  **профили конфигурации устройств.**
 
 3. Создайте профиль, который включает следующие параметры:
+
     - **Платформа: Windows 10 и более поздней**
     - **Тип профиля: защита конечной точки**
     - **Категория: Центр безопасности в Microsoft Defender**
@@ -154,17 +156,19 @@ ms.locfileid: "52925939"
 
 4. Назначьте профиль одной или несколько групп.
 
-### <a name="are-you-using-windows-os-1709-1803-or-1809"></a>Используете ли вы Windows OS 1709, 1803 или 1809?
+### <a name="are-you-using-windows-server-2016-or-windows-version-1709-1803-or-1809"></a>Используете ли вы Windows Server 2016 или Windows версии 1709, 1803 или 1809?
 
-Если вы используете Windows 10 OS [1709](/windows/release-health/status-windows-10-1709), [1803](/windows/release-health/status-windows-10-1803)или [1809,](/windows/release-health/status-windows-10-1809-and-windows-server-2019)вы не увидите защиту **tamper** в Безопасность Windows приложении. Вместо этого с помощью PowerShell можно определить, включена ли защита от взлома.
-
-#### <a name="use-powershell-to-determine-whether-tamper-protection-is-turned-on"></a>Используйте PowerShell, чтобы определить, включена ли защита от взлома
+Если вы используете Windows Server 2016, Windows 10 версии 1709, 1803 или [1809,](/windows/release-health/status-windows-10-1809-and-windows-server-2019)то в  приложении Безопасность Windows не будет Безопасность Windows защиты. Вместо этого с помощью PowerShell можно определить, включена ли защита от взлома. 
+   
+На Windows Server 2016 приложение Параметры не будет точно отражать состояние защиты в режиме реального времени при включенной защите от взлома.
+   
+#### <a name="use-powershell-to-determine-whether-tamper-protection-andor-real-time-protection-are-turned-on"></a>Используйте PowerShell, чтобы определить, включена ли защита от взлома и/или защита в режиме реального времени
 
 1. Откройте приложение Windows PowerShell.
 
 2. Используйте [комлет Get-MpComputerStatus](/powershell/module/defender/get-mpcomputerstatus?preserve-view=true&view=win10-ps) PowerShell.
 
-3. В списке результатов и посмотрите `IsTamperProtected` . (Значение true *означает,* что включена защита от взлома.)
+3. В списке результатов и посмотрите `IsTamperProtected` . (Значение true *означает,* что включена защита от взлома.) В списке результатов и посмотрите `RealTimeProtectionEnabled` . (Значение true означает, что включена защита от взлома.)
 
 ## <a name="manage-tamper-protection-for-your-organization-with-configuration-manager-version-2006"></a>Управление защитой от взлома для организации с помощью Configuration Manager, версия 2006
 
@@ -223,11 +227,7 @@ ms.locfileid: "52925939"
 
 ## <a name="review-your-security-recommendations"></a>Просмотрите рекомендации по безопасности
 
-Защита от взлома интегрируется с [возможностями управления & уязвимостей.](/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt) [Рекомендации по безопасности включают](/microsoft-365/security/defender-endpoint/tvm-security-recommendation) обеспечение включенной защиты от взлома. Например, можно искать в *подделывателье,* как показано на следующем изображении:
-
-![Защита от взлома приводит к рекомендациям по безопасности](/images/securityrecs-tamperprotect.jpg)
-
-В результатах можно выбрать **включить защиту от взлома,** чтобы узнать больше и включить ее.
+Защита от взлома интегрируется с [возможностями управления & уязвимостей.](/microsoft-365/security/defender-endpoint/next-gen-threat-and-vuln-mgt) [Рекомендации по безопасности включают](/microsoft-365/security/defender-endpoint/tvm-security-recommendation) обеспечение включенной защиты от взлома. Например, вы можете искать по *подделыву.* В результатах можно выбрать **включить защиту от взлома,** чтобы узнать больше и включить ее.
 
 ![Включив защиту от взлома](images/tamperprotectsecurityrecos.png)
 

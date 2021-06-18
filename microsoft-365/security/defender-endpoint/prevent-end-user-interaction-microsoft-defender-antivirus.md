@@ -16,12 +16,12 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 06ee2f1cb68df0a957818e1fccb45628487c39fd
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: ff0e134d38288b12cbc46dc3ca5f103fbf8c7ad9
+ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52274920"
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "53007677"
 ---
 # <a name="prevent-users-from-seeing-or-interacting-with-the-microsoft-defender-antivirus-user-interface"></a>Запретить пользователям видеть или взаимодействовать с антивирусная программа в Microsoft Defender пользовательским интерфейсом
 
@@ -40,18 +40,18 @@ ms.locfileid: "52274920"
 
 С набором параметров **включен:**
 
-![Снимок экрана Безопасность Windows без значка щита и раздела защиты от вирусов и угроз](images/defender/wdav-headless-mode-1703.png)
+:::image type="content" source="../../media/wdav-headless-mode-1703.png" alt-text="Безопасность Windows без значка щита и раздела защиты от вирусов и угроз":::
 
 С набором параметра **Отключено или** не настроено:
 
-![Снимок экрана Безопасность Windows, показывающий значок щита и раздел защиты от вирусов и угроз](images/defender/wdav-headless-mode-off-1703.png)
+:::image type="content" source="../../media/wdav-headless-mode-1703.png" alt-text="Снимок экрана Безопасность Windows с значком щита и разделами защиты от угроз":::
 
 >[!NOTE]
 >Сокрытие интерфейса также предотвратит антивирусная программа в Microsoft Defender уведомлений на конечной точке. Уведомления Microsoft Defender для конечной точки по-прежнему будут отображаться. Кроме того, можно настроить уведомления, которые отображаются [в конечных точках.](configure-notifications-microsoft-defender-antivirus.md)
 
 В более ранних версиях Windows 10 параметр будет скрывать интерфейс Защитник Windows клиента. Если пользователь по пытается открыть его, ему будет объявлено предупреждение: "Администратор системы имеет ограниченный доступ к этому приложению".
 
-![Предупреждение при включенном режиме без головы в Windows 10 версиях до 1703 г.](images/defender/wdav-headless-mode-1607.png)
+:::image type="content" source="../../media/wdav-headless-mode-1607.png" alt-text="Предупреждение при включенном режиме без головы в Windows 10 версиях до 1703 г.":::
 
 ## <a name="use-group-policy-to-hide-the-microsoft-defender-av-interface-from-users"></a>Использование групповой политики для сокрытия интерфейса av-интерфейса Microsoft Defender от пользователей
 
@@ -86,7 +86,7 @@ ms.locfileid: "52274920"
 
 5. Дважды щелкните **кнопку Разрешить пользователям приостанавлить** параметр сканирования и установить параметр **Отключен.** Нажмите кнопку **ОК**. 
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 - [Настройка уведомлений, отображающихся в конечных точках](configure-notifications-microsoft-defender-antivirus.md)
 

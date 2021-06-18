@@ -12,15 +12,15 @@ ms.author: deniseb
 ms.reviewer: marcmcc
 manager: dansimp
 ms.custom: nextgen
-ms.date: 06/15/2021
+ms.date: 06/17/2021
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 3a5f766e21afcb29d3503345a49637061b5f0e38
-ms.sourcegitcommit: 1c11035dd4432e34603022740baef0c8f7ff4425
+ms.openlocfilehash: a6bcc023571e544819ae7f276e6c3af5c1fc1335
+ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "52964704"
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "53007405"
 ---
 # <a name="turn-on-block-at-first-sight"></a>Включить блокировку при первом подозрении
 
@@ -82,7 +82,7 @@ ms.locfileid: "52964704"
    - **Дополнительное время для сканирования файла в облаке**: 50
    - **Запрашивать пользователей перед отправкой образца**: отправлять все данные без запроса
 
-   ![Настройка Intune](images/defender/intune-block-at-first-sight.png)
+   :::image type="content" source="../../media/intune-block-at-first-sight.png" alt-text="Конфигурация Intune для блокировки при первом появлении":::
 
 4. Сохраните заданные параметры.
 
@@ -136,7 +136,7 @@ ms.locfileid: "52964704"
 
 2. Выберите **Защита от вирусов и угроз**, а затем в области **Параметры защиты от вирусов и угроз** выберите **Управление параметрами**.
 
-   ![Снимок экрана: метка параметров защиты от вирусов и угроз в приложении "Безопасность Windows"](images/defender/wdav-protection-settings-wdsc.png)
+   :::image type="content" source="../../media/wdav-protection-settings-wdsc.png" alt-text="Снимок экрана: метка параметров защиты от вирусов и угроз в приложении &quot;Безопасность Windows&quot;":::
 
 3. Убедитесь, что оба параметра, **Облачная защита** и **Автоматическая отправка образцов**, включены.
 

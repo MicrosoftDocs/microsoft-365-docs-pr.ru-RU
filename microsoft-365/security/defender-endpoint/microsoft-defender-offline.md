@@ -15,12 +15,12 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: a25a2ec513cd7c25f9f6ddf3d5e328928837bf2d
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: b2a6ee7c3f3ea2fb31b31d2f1db178bfd9847fbc
+ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275148"
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "53007480"
 ---
 # <a name="run-and-review-the-results-of-a-microsoft-defender-offline-scan"></a>Запуск и просмотр результатов проверки в автономном Microsoft Defender
 
@@ -69,7 +69,7 @@ ms.locfileid: "52275148"
 
 Запрос может происходить с помощью уведомления, аналогично следующему:
 
-![Windows уведомления с требованием запуска автономный Microsoft Defender](images/defender/notification.png)
+:::image type="content" source="../../media/notification.png" alt-text="Уведомление для запуска автономный Microsoft Defender":::
 
 Пользователь также будет уведомлен в клиенте Защитник Windows клиента.
 
@@ -77,7 +77,7 @@ ms.locfileid: "52275148"
 
 автономный Microsoft Defender проверки указаны в состоянии **исправление вредоносных** программ, как **автономное сканирование требуется**.
 
-![Microsoft Endpoint Manager, указывающее, автономный Microsoft Defender требуется проверка](images/defender/sccm-wdo.png)
+:::image type="content" source="../../media/sccm-wdo.png" alt-text="автономный Microsoft Defender требуется сканирование":::
 
 ## <a name="configure-notifications"></a>Настройка уведомлений
 
@@ -139,7 +139,7 @@ wmic /namespace:\\root\Microsoft\Windows\Defender path MSFT_MpWDOScan call Start
 автономный Microsoft Defender результаты сканирования будут перечислены в разделе История сканирования [приложения Безопасность Windows.](microsoft-defender-security-center-antivirus.md) 
 
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 - [Настройка, инициирование и проверка результатов проверки и устранения](customize-run-review-remediate-scans-microsoft-defender-antivirus.md)
 - [Антивирусная программа в Microsoft Defender (Windows 10)](microsoft-defender-antivirus-in-windows-10.md)

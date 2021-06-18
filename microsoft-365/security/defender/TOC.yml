@@ -328,6 +328,8 @@
                       href: streaming-api-event-hub.md
                     - name: Потоковая передача событий расширенной охоты в учетную запись хранения
                       href: streaming-api-storage.md
+                    - name: Настройка центра событий
+                      href: configure-event-hub.md
                 - name: API расширенной охоты
                   href: api-advanced-hunting.md
                 - name: API инцидентов

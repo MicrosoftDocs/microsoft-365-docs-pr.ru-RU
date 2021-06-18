@@ -15,17 +15,14 @@ ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 48ab72e9700e45cd4eab520a43d6f3d9ef18e227
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: c15e68a74c9bf518822fce211d6c7d5c4dbc3f2c
+ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52926539"
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "53007453"
 ---
 # <a name="microsoft-defender-antivirus-in-the-windows-security-app"></a>антивирусная программа в Microsoft Defender в приложении Безопасность Windows
-
-[!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
-
 
 **Область применения:**
 
@@ -36,7 +33,7 @@ ms.locfileid: "52926539"
 Параметры, которые ранее были частью Защитник Windows и основного Windows Параметры, были объединены и перемещены в новое приложение, установленное по умолчанию в Windows 10 версии 1703.
 
 > [!IMPORTANT]
-> Отключение Безопасность Windows центра не отключит антивирусная программа в Microsoft Defender [или брандмауэр Защитника Windows.](/windows/security/threat-protection/windows-firewall/windows-firewall-with-advanced-security) Они автоматически отключаются при установке сторонних антивирусных или брандмауэрных продуктов.
+> Отключение Безопасность Windows центра не отключит брандмауэр антивирусная программа в Microsoft Defender [или Защитник Windows.](/windows/security/threat-protection/windows-firewall/windows-firewall-with-advanced-security) Они автоматически отключаются при установке сторонних антивирусных или брандмауэрных продуктов.
 >
 > Если отключить службу центра Безопасность Windows или настроить связанные с ней параметры групповой политики, чтобы предотвратить ее запуск или запуск, приложение Безопасность Windows может отображать устаревшие или неточные сведения о любых антивирусных или брандмауэрных продуктах, установленных на устройстве.
 > Это также может антивирусная программа в Microsoft Defender, если у вас есть старый или устаревший сторонний антивирус или если вы отключаете все сторонние антивирусные продукты, которые вы могли установить ранее.
@@ -48,7 +45,7 @@ ms.locfileid: "52926539"
 
 ## <a name="review-virus-and-threat-protection-settings-in-the-windows-security-app"></a>Просмотр параметров защиты от вирусов и угроз в приложении Безопасность Windows
 
-![Снимок экрана: метка параметров защиты от вирусов и угроз в приложении "Безопасность Windows"](images/defender/wdav-protection-settings-wdsc.png)
+:::image type="content" source="../../media/wdav-protection-settings-wdsc.png" alt-text="Параметры защиты от вирусов и угроз в Безопасность Windows приложении":::
 
 1. Откройте приложение Безопасность Windows, щелкнув значок щита в панели задач или нажав меню пусков для **Defender.**
 
@@ -69,7 +66,7 @@ ms.locfileid: "52926539"
 
 ## <a name="review-the-security-intelligence-update-version-and-download-the-latest-updates-in-the-windows-security-app"></a>Просмотрите версию обновления сведении безопасности и скачайте последние обновления в Безопасность Windows приложении
 
-![Сведения о номере версии версии безопасности](images/defender/wdav-wdsc-defs.png)
+:::image type="content" source="../../media/wdav-wdsc-defs.png" alt-text="Номер версии версии разведки безопасности":::
 
 1. Откройте приложение Безопасность Windows, ища меню пуск для *безопасности,* а затем **выберите Безопасность Windows**.
 

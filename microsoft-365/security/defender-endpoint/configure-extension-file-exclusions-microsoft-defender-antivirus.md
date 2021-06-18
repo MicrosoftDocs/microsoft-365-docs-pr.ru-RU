@@ -14,16 +14,14 @@ ms.topic: article
 ms.custom: nextgen
 ms.reviewer: ''
 manager: dansimp
-ms.openlocfilehash: 71df43639a719acb9436f64deba6b6c5cc9317f5
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 386e4499fec30bf1c564c1e0dc81cb8aaa5912a5
+ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52924283"
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "53007531"
 ---
 # <a name="configure-and-validate-exclusions-based-on-file-extension-and-folder-location"></a>Настройка и проверка исключений в зависимости от расположения расширения файлов и папок
-
-
 
 **Область применения:**
 
@@ -310,7 +308,7 @@ Get-MpPreference
 
 В следующем примере выделяются элементы, содержащиеся в `ExclusionExtension` списке:
 
-![Выход PowerShell для Get-MpPreference списка исключений наряду с другими предпочтениями](images/defender/wdav-powershell-get-exclusions-all.png)
+:::image type="content" source="../../media/wdav-powershell-get-exclusions-variable.png" alt-text="Выход PowerShell для Get-MpPreference":::
 
 Дополнительные сведения см. в разделах [Использование командлетов PowerShell для настройки и запуска антивирусной программы в Microsoft Defender](use-powershell-cmdlets-microsoft-defender-antivirus.md) и [Командлеты Defender](/powershell/module/defender/).
 
@@ -326,7 +324,7 @@ $WDAVprefs.ExclusionPath
 
 В следующем примере список делится на новые строки для каждого использования `Add-MpPreference` cmdlet:
 
-![Выход PowerShell, показывающий только записи в списке исключений](images/defender/wdav-powershell-get-exclusions-variable.png)
+:::image type="content" source="../../media/wdav-powershell-get-exclusions-variable.png" alt-text="Выход PowerShell, показывающий только записи в списке исключений":::
 
 Дополнительные сведения см. в разделах [Использование командлетов PowerShell для настройки и запуска антивирусной программы в Microsoft Defender](use-powershell-cmdlets-microsoft-defender-antivirus.md) и [Командлеты Defender](/powershell/module/defender/).
 
