@@ -34,6 +34,8 @@
           href: service-description/device-services.md
         - name: Профили устройств
           href: service-description/profiles.md
+        - name: Группы развертывания устройств
+          href: service-description/deployment-groups.md
         - name: Конфигурация устройства
           href: service-description/device-policies.md
         - name: Технологии безопасности
@@ -157,6 +159,8 @@
           href: working-with-managed-desktop/work-with-app-control.md
         - name: Изменение профиля устройства
           href: working-with-managed-desktop/change-device-profile.md
+        - name: Назначение устройств для развертывания
+          href: working-with-managed-desktop/assign-deployment-group.md
         - name: Удаление устройств
           href: working-with-managed-desktop/remove-devices.md
         - name: Настраиваемые параметры
