@@ -15,12 +15,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
 ms.technology: m365d
-ms.openlocfilehash: d7625c5a577ff01544a2602092c4ee34875efdb6
-ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
+ms.openlocfilehash: 4d49772eb3932ae98840d2be94c447183e94fade
+ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 06/19/2021
-ms.locfileid: "53028503"
+ms.locfileid: "53029625"
 ---
 # <a name="top-scoring-in-industry-tests"></a>Лучшие результаты в отраслевых тестах
 
@@ -79,7 +79,7 @@ Microsoft 365 Defender объединяет в одном решении воз�
 
 - Бизнес-тест безопасности 2020 г. (март — июнь): [оценка защиты в реальном мире 99,7 %](https://www.av-comparatives.org/tests/business-security-test-2020-march-june/)
 
-- Бизнес-тест безопасности 2019 г. (август — ноябрь): [оценка защиты в реальном мире 99,6 %](https://www.av-comparatives.org/tests/business-security-test-2019-august-november/) 
+- Бизнес-тест безопасности 2019 г. (август — ноябрь): [оценка защиты в реальном мире 99,6 %](https://www.av-comparatives.org/tests/business-security-test-2019-august-november/)
 
 - Бизнес-тест безопасности 2019 г. (март — июнь): [оценка защиты в реальном мире 99,9 %](https://www.av-comparatives.org/tests/business-security-test-2019-march-june/) | [Анализ](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3Esbl)
 
