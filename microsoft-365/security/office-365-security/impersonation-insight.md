@@ -19,12 +19,12 @@ description: Администраторы могут узнать, как раб
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: b6aab20cc9050152b7ba9f86baed887969ad4da0
-ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
+ms.openlocfilehash: 53baecd100851eb5ab05fe79751961baef3acd5c
+ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 06/19/2021
-ms.locfileid: "53029019"
+ms.locfileid: "53029673"
 ---
 # <a name="impersonation-insight-in-defender-for-office-365"></a>Представление о обезличии в Defender для Office 365
 
@@ -53,7 +53,6 @@ ms.locfileid: "53029019"
 - Чтобы открыть портал Microsoft 365 Defender, перейдите на сайт <https://security.microsoft.com>. Чтобы перейти непосредственно к анализу обезличения на странице **Anti-phishing,** используйте <https://security.microsoft.com/antiphishing> . Чтобы перейти непосредственно на страницу **проницательности Impersonation,** используйте <https://security.microsoft.com/impersonationinsight> .
 
 - Вам необходимо получить разрешения на портале Microsoft 365 Defender, прежде чем вы сможете сделать процедуры в этой статье:
-
   - **Управление организацией**
   - **Администратор безопасности**
   - **Считыватель безопасности**
@@ -63,7 +62,7 @@ ms.locfileid: "53029019"
 
   **Примечание.** Добавление пользователей к соответствующей роли Azure Active Directory в Центр администрирования Microsoft 365 дает пользователям необходимые разрешения на  портале Microsoft 365 Defender и разрешения на другие функции в Microsoft 365. Дополнительные сведения см. в статье [О ролях администраторов](../../admin/add-users/about-admin-roles.md).
 
-- Вы включаете и настраивает защиту от обезличения в политиках защиты от фишинга в Microsoft Defender для Office 365. Защита от обезличения не включена по умолчанию. Дополнительные сведения см. в [сообщении Configure anti-phishing policies in Microsoft Defender for Office 365.](configure-atp-anti-phishing-policies.md)
+- Вы включаете и настраивает защиту от обезличения в политиках защиты от фишинга в Microsoft Defender для Office 365. Защита от обезличения не включена по умолчанию. Дополнительные сведения см. в [сообщении Configure anti-phishing policies in Microsoft Defender for Office 365.](configure-mdo-anti-phishing-policies.md)
 
 ## <a name="open-the-impersonation-insight-in-the-microsoft-365-defender-portal"></a>Откройте представление об обезличии на Microsoft 365 Defender портале
 

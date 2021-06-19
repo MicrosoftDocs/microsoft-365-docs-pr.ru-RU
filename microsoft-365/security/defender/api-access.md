@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 03fd82cd5dc24653b6d67fa47cc225d355bfac45
-ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
+ms.openlocfilehash: 3cbd329c63d7cf1868083c66919773e14ed51156
+ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 06/19/2021
-ms.locfileid: "53028803"
+ms.locfileid: "53029601"
 ---
 # <a name="access-the-microsoft-365-defender-apis"></a>Доступ к Microsoft 365 Defender API
 
@@ -59,7 +59,7 @@ Microsoft 365 Defender предоставляет большую часть св
 2. Назначение нужных разрешений приложению.
 3. Создайте ключ для приложения.
 4. Получение маркера безопасности с помощью приложения и его ключа.
-5. Используйте маркер для доступа Microsoft 365 Defender API.
+5. Используйте маркер для доступа к API Microsoft 365 Defender.
 
 Дополнительные сведения см. в **[приложении Create to access Microsoft 365 Defender без пользователя.](api-create-app-web.md)**
 
@@ -70,7 +70,7 @@ Microsoft 365 Defender предоставляет большую часть св
 1. Создание Azure Active Directory приложения.
 2. Назначьте нужное разрешение приложению.
 3. Получение маркера безопасности с помощью учетных данных пользователя для приложения.
-4. Используйте маркер для доступа Microsoft 365 Defender API.
+4. Используйте маркер для доступа к API Microsoft 365 Defender.
 
 Дополнительные сведения см. в приложении **[Create to access Microsoft 365 Defender API от имени пользователя.](api-create-app-user-context.md)**
 
@@ -82,7 +82,7 @@ Microsoft 365 Defender предоставляет большую часть св
 2. Назначьте нужное разрешение приложению.
 3. Получите [согласие администратора](/azure/active-directory/develop/v2-permissions-and-consent#requesting-consent-for-an-entire-tenant) для приложения от каждого клиента.
 4. Получите маркер безопасности с помощью учетных данных пользователей на основе удостоверения клиента клиента.
-5. Используйте маркер для доступа Microsoft 365 Defender API.
+5. Используйте маркер для доступа к API Microsoft 365 Defender.
 
 Дополнительные сведения см. в **[приложении Create with partner access to Microsoft 365 Defender API.](api-partner-access.md)**
 

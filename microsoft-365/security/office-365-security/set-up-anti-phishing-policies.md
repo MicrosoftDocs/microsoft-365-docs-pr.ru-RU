@@ -17,12 +17,12 @@ ms.custom:
 description: Администраторы могут узнать о политиках защиты от фишинга, доступных в Exchange Online Protection (EOP) и Microsoft Defender для Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 0a0c7e9ffa37c5154b8a10b9642d484011674d6a
-ms.sourcegitcommit: 1c11035dd4432e34603022740baef0c8f7ff4425
+ms.openlocfilehash: 846043be72be741e60c09c85fba14dbf291612a1
+ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "52964889"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53029373"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Политики защиты от фишинга в Microsoft 365
 
@@ -35,7 +35,7 @@ ms.locfileid: "52964889"
 
 Политики настройки параметров защиты от фишинга доступны в Microsoft 365 организациях с Exchange Online почтовыми ящиками, автономными организациями Exchange Online Protection (EOP) без Exchange Online почтовых ящиков и Microsoft Defender для Office 365 организаций.
 
-Политики защиты от фишинга в Microsoft Defender для Office 365 доступны только в организациях, в отношении Office 365. Пример:
+Политики защиты от фишинга в Microsoft Defender для Office 365 доступны только в организациях, в отношении Office 365. Например:
 
 - Microsoft 365 корпоративный E5, Microsoft 365 для образования A5 и т. д.
 - [Microsoft 365 корпоративный](https://www.microsoft.com/microsoft-365/enterprise/home)
@@ -48,12 +48,12 @@ ms.locfileid: "52964889"
 
 |Функция|Политики защиты от фишинга в EOP|Политики защиты от фишинга в Microsoft Defender для Office 365|
 |---|:---:|:---:|
-|Автоматически созданная политика по умолчанию|![Флажок](../../media/checkmark.png)|![Флажок](../../media/checkmark.png)|
-|Создание настраиваемых политик|![Флажок](../../media/checkmark.png)|![Флажок](../../media/checkmark.png)|
-|Параметры политики<sup>\*</sup>|![Флажок](../../media/checkmark.png)|![Флажок](../../media/checkmark.png)|
-|Параметры обезличения||![Флажок](../../media/checkmark.png)|
-|Параметры Spoof|![Флажок](../../media/checkmark.png)|![Флажок](../../media/checkmark.png)|
-|Расширенные пороговые значения фишинга||![Флажок](../../media/checkmark.png)|
+|Автоматически созданная политика по умолчанию|![Галочка](../../media/checkmark.png)|![Галочка](../../media/checkmark.png)|
+|Создание настраиваемых политик|![Галочка](../../media/checkmark.png)|![Галочка](../../media/checkmark.png)|
+|Параметры политики<sup>\*</sup>|![Галочка](../../media/checkmark.png)|![Галочка](../../media/checkmark.png)|
+|Параметры обезличения||![Галочка](../../media/checkmark.png)|
+|Параметры Spoof|![Галочка](../../media/checkmark.png)|![Галочка](../../media/checkmark.png)|
+|Расширенные пороговые значения фишинга||![Галочка](../../media/checkmark.png)|
 |
 
 <sup>\*</sup> В политике по умолчанию имя и описание политики являются только для чтения (описание пусто), и нельзя указать, к кому применяется политика (политика по умолчанию применяется ко всем получателям).
@@ -62,7 +62,7 @@ ms.locfileid: "52964889"
 
 - [Настройка политик защиты от фишинга в EOP](configure-anti-phishing-policies-eop.md)
 
-- [Настройка политик защиты от фишинга в Microsoft Defender для Office 365](configure-atp-anti-phishing-policies.md)
+- [Настройка политик защиты от фишинга в Microsoft Defender для Office 365](configure-mdo-anti-phishing-policies.md)
 
 В остальной части этой статьи описываются параметры, доступные в политиках защиты от фишинга в EOP и Defender для Office 365.
 
@@ -131,9 +131,6 @@ ms.locfileid: "52964889"
 - Включить неавентированный знак вопроса отправитель **(?) символ?**: Когда этот параметр включен, знак вопроса добавляется к фотографии отправитель в поле From,  если сообщение не проходит проверки SPF или DKIM и сообщение не проходит DMARC или композитную проверку подлинности [.](email-validation-and-authentication.md#composite-authentication) После отключения этого параметра знак вопроса не добавляется на фотографию отправитель.
 
 - Включить тег **"via"?**: При включении этого параметра тег via (chris@contoso.com через fabrikam.com) добавляется в поле From, если домен в адресе From (отправитель сообщений, отображаемого в клиентах электронной почты) отличается от домена в подписи <sup>\*</sup> DKIM или адреса MAIL <u></u> **FROM.** Дополнительные сведения об этих адресах см. [в обзоре стандартов сообщений электронной почты.](how-office-365-validates-the-from-address.md#an-overview-of-email-message-standards)
-
-> [!NOTE]
-> В настоящее **время параметр Включить тег "через"?** доступен не во всех организациях. Если у вас нет тега **Enable "via"?**  или параметр "Включить", то знак вопроса и тег с помощью тега контролируются символом вопросов Enable **unauthenticated sender (?) или** параметром в организации.
 
 Чтобы предотвратить добавление знака вопроса или тега в сообщения определенных отправителей, у вас есть следующие параметры:
 

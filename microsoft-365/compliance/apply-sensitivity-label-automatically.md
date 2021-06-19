@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: При создании метки конфиденциальности ее можно автоматически назначать файлам или сообщениям электронной почты или можно предложить пользователям выбрать рекомендованную метку.
-ms.openlocfilehash: 4215e6618c1cc6359755c2af1e7b9e93ca07b58d
-ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
+ms.openlocfilehash: 49f50b99d6c1b46394e26447bd33b6bf93e2917f
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52984812"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53029007"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Автоматическое применение метки конфиденциальности к содержимому
 
@@ -369,3 +369,17 @@ New-AutoSensitivityLabelRule -Policy <AutoLabelingPolicyName> -Name <AutoLabelin
 - [Remove-AutoSensitivityLabelRule](/powershell/module/exchange/remove-autosensitivitylabelrule)
 - [Set-AutoSensitivityLabelPolicy](/powershell/module/exchange/set-autosensitivitylabelpolicy)
 - [Set-AutoSensitivityLabelRule](/powershell/module/exchange/set-autosensitivitylabelrule)
+
+## <a name="tips-to-increase-labeling-reach"></a>Советы по увеличению охвата метками
+
+Хотя автоматическое присвоение меток является одним из наиболее эффективных способов классификации, пометки и защиты файлов Office, которыми владеет ваша организация, проверьте, можно ли дополнить ее любым из дополнительных методов, чтобы увеличить охват метками:
+
+- При использовании [клиента унифицированных меток Azure Information Protection](/azure/information-protection/rms-client/aip-clientv2):
+    
+    - Для файлов в локальном хранилище данных, таких как сетевые папки и библиотеки SharePoint Server: используйте [сканер](/azure/information-protection/deploy-aip-scanner) для обнаружения конфиденциальной информации в этих файлах и пометки их соответствующим образом. Если вы планируете перенести или отправить эти файлы в SharePoint в Microsoft 365, используйте сканер для пометки файлов перед их перемещением в облако.
+    
+    - Если вы использовали другое решение для присвоения меток, прежде чем применить метки конфиденциальности: используйте PowerShell и [дополнительный параметр для повторного использования меток](/azure/information-protection/rms-client/clientv2-admin-guide-customizations#migrate-labels-from-secure-islands-and-other-labeling-solutions) из этих решений.
+
+- Рекомендуйте [применение меток вручную](https://support.microsoft.com/office/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9) после обучения пользователей тому, какие метки конфиденциальности следует применять. Если вы уверены, что пользователи понимают, какие метки нужно применять, рассмотрите возможность настройки метки по умолчанию и обязательного применения меток в виде [параметров политики](sensitivity-labels.md#what-label-policies-can-do). 
+
+Кроме того, рассмотрите возможность [помечать новые файлы как конфиденциальные по умолчанию](/sharepoint/sensitive-by-default) в SharePoint, чтобы запретить гостям доступ к добавленным файлам, пока по крайней мере одна политика защиты от потери данных не проверит содержимое файла.

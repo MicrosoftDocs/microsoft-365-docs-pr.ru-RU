@@ -21,12 +21,12 @@ ms.custom:
 description: Администраторы могут узнать о средствах защиты от фишинга в Exchange Online Protection (EOP) и Microsoft Defender для Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 290f5f7797d987fb65a99e3f9e656bfec4cf83f3
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 0e1539153282f14a13ddd9066350cbcdca2a074a
+ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538343"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53029241"
 ---
 # <a name="anti-phishing-protection-in-microsoft-365"></a>Защита от фишинга в Microsoft 365
 
@@ -37,7 +37,7 @@ ms.locfileid: "52538343"
 - [Microsoft Defender для Office 365 (план 1 и план 2)](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-*Фишинг* — это атака по электронной почте в попытке похитить конфиденциальную информацию с помощью сообщений, которые кажутся полученными от официальных или надежных отправителей. Существуют определенные категории фишинга. Пример.
+*Фишинг* — это атака по электронной почте в попытке похитить конфиденциальную информацию с помощью сообщений, которые кажутся полученными от официальных или надежных отправителей. Существуют определенные категории фишинга. Например:
 
 - **При фишинге** копья используется специализированный настраиваемый контент, специально настроенный для целевых получателей (как правило, после разведки получателей злоумышленником).
 
@@ -65,7 +65,7 @@ EOP (то есть Microsoft 365 без Microsoft Defender для Office 365) с
 
 Microsoft Defender для Office 365 содержит дополнительные и более продвинутые функции защиты от фишинга:
 
-- Политики защиты от фишинга в Microsoft Defender для **Office 365: Настройка** параметров защиты от обезличения для определенных доменов отправителей и отправителей сообщений, параметров разведки почтовых ящиков и регулируемых пороговых значений расширенных фишинговых сообщений. Дополнительные сведения см. в [сообщении Configure anti-phishing policies in Microsoft Defender for Office 365.](configure-atp-anti-phishing-policies.md) Дополнительные сведения о различиях между политиками защиты от фишинга в EOP и антифишинговыми политиками в Defender for Office 365 см. в Microsoft 365 [.](set-up-anti-phishing-policies.md)
+- Политики защиты от фишинга в Microsoft Defender для **Office 365: Настройка** параметров защиты от обезличения для определенных доменов отправителей и отправителей сообщений, параметров разведки почтовых ящиков и регулируемых пороговых значений расширенных фишинговых сообщений. Дополнительные сведения см. в [сообщении Configure anti-phishing policies in Microsoft Defender for Office 365.](configure-mdo-anti-phishing-policies.md) Дополнительные сведения о различиях между политиками защиты от фишинга в EOP и антифишинговыми политиками в Defender for Office 365 см. в Microsoft 365 [.](set-up-anti-phishing-policies.md)
 
 - **Просмотры** кампании. Машинное обучение и другие юристики определяют и анализируют сообщения, участвующие в скоординированных фишинговых атаках на всю службу и организацию. Дополнительные сведения см. в [веб-сайте Просмотры кампании](campaigns.md)в Microsoft Defender для Office 365 .
 

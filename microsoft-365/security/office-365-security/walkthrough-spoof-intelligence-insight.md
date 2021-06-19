@@ -19,12 +19,12 @@ description: Администраторы могут узнать, как исп
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f0e5c83bc50197e30c12f8f7aeedc83930d7ff5e
-ms.sourcegitcommit: f3d1009840513703c38bab99a6e13a3656eae5ee
+ms.openlocfilehash: a683ed93e4e483e63fe01281b32661f0b803d1ce
+ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52793212"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53029301"
 ---
 # <a name="manage-spoofed-senders-using-the-spoof-intelligence-policy-and-spoof-intelligence-insight-in-eop"></a>Управление поддельными отправителями с помощью политики подмены сведений и анализа подмены сведений в EOP
 
@@ -67,7 +67,7 @@ ms.locfileid: "52793212"
 - Вы можете включить, отключить и настроить параметры подмены сведений в политиках защиты от фишинга. Инструкции по подписке см. в одном из следующих разделов:
 
   - [Настройка политик защиты от фишинга в EOP](configure-anti-phishing-policies-eop.md).
-  - [Настройка политик защиты от фишинга в Microsoft Defender для](configure-atp-anti-phishing-policies.md)Office 365.
+  - [Настройка политик защиты от фишинга в Microsoft Defender для](configure-mdo-anti-phishing-policies.md)Office 365.
 
 - Рекомендуемые параметры для подмены сведений см. в рекомендациях EOP по борьбе [с фишинговыми политиками.](recommended-settings-for-eop-and-office365.md#eop-anti-phishing-policy-settings)
 
@@ -184,7 +184,7 @@ Get-PhishFilterPolicy -AllowedToSpoof Yes -Detailed -SpoofType Internal
 
 1. В Центре & безопасности перейдите на панель **мониторинга** управления \> **угрозами.**
 
-2. В **строке Insights** посмотрите один из следующих элементов:
+2. В **Аналитика** строке посмотрите один из следующих элементов:
 
    - **Вероятно, поддельные** домены в течение последних семи дней. Это представление указывает на то, что включена разведка подмены (она включена по умолчанию).
    - **Включить защиту от** подмены. Это представление указывает на отключение подмены сведений, а щелкнув по проницательности, вы сможете включить подмену сведений.
