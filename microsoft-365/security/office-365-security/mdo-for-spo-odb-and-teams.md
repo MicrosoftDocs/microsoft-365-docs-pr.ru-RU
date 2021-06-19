@@ -23,12 +23,12 @@ ms.custom:
 description: Узнайте о Microsoft Defender для Office 365 файлов в SharePoint Online, OneDrive для бизнеса и Microsoft Teams.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 7aa375020ce05ca1d484bb7ed18b8cf7a6e7d04e
-ms.sourcegitcommit: ac3e9ccb7b43a42e600af8f44e6f30019533faeb
+ms.openlocfilehash: 67bd2a0952ac630888b07eaf05d365736a0472ea
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "52932846"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53028839"
 ---
 # <a name="safe-attachments-for-sharepoint-onedrive-and-microsoft-teams"></a>Безопасные вложения для SharePoint, OneDrive и Microsoft Teams
 
@@ -67,6 +67,7 @@ SharePoint Сетевые администраторы могут запрети
 Файлы, которые определены как вредоносные Сейф вложения для SharePoint, OneDrive и Microsoft Teams будут показываться в отчетах для [Microsoft Defender](view-reports-for-mdo.md) для Office 365 и в Explorer (и обнаружения в режиме реального [времени).](threat-explorer.md)
 
 С мая 2018 г., когда файл Сейф вложениями для SharePoint, OneDrive и Microsoft Teams, файл также доступен в карантине. Дополнительные сведения см. в [материалах Управление карантинными](manage-quarantined-messages-and-files.md#use-the-microsoft-365-defender-portal-to-manage-quarantined-files-in-defender-for-office-365)файлами в Defender для Office 365.
+
 
 ## <a name="keep-these-points-in-mind"></a>Имейте в виду эти точки
 

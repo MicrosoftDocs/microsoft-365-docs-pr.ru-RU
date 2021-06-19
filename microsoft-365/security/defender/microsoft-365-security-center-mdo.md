@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.prod: m365-security
 ms.technology: m365d
-ms.openlocfilehash: decc991ef1d4a1b92f4e843fd39d595b9a1f7107
-ms.sourcegitcommit: 1c11035dd4432e34603022740baef0c8f7ff4425
+ms.openlocfilehash: 15b1b152966c9c09bf77bea15b9b651f739c3566
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "52964846"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53028959"
 ---
 # <a name="microsoft-defender-for-office-365-in-microsoft-365-defender"></a>Microsoft Defender для Office 365 в Microsoft 365 Defender
 
@@ -34,7 +34,7 @@ ms.locfileid: "52964846"
 
 ## <a name="quick-reference"></a>Быстрая ссылка
 
-В таблице ниже перечислены изменения в навигации между центром Office 365 безопасности & и центром Microsoft 365 Defender.
+В таблице ниже перечислены изменения в навигации между центром Office 365 безопасности & и Microsoft 365 Defender.
 
 <br>
 

@@ -19,12 +19,12 @@ ms.custom:
 description: Администраторы могут узнать, как просматривать и управлять карантинными сообщениями для всех пользователей в Exchange Online Protection (EOP). Администраторы в организациях с Microsoft Defender для Office 365 также могут управлять карантинными файлами в SharePoint Online, OneDrive для бизнеса и Microsoft Teams.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 01d5011248d1c0fc0daab0d04e1cca39e26e34bd
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 59bdfdaddbc091467bfd2ccddc2c40377955fab3
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878896"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53028995"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-admin-in-eop"></a>Управление сообщениями и файлами, помещенными в карантин, в качестве администратора в EOP
 
@@ -41,11 +41,11 @@ ms.locfileid: "52878896"
 
 Администраторы в организациях с Microsoft Defender для Office 365 также могут просматривать, скачивать и удалять карантинные файлы в SharePoint Online, OneDrive для бизнеса и Microsoft Teams.
 
-Вы просматривает и управляете карантинными сообщениями на портале Microsoft 365 Defender или в PowerShell (Exchange Online PowerShell для Microsoft 365 организаций с почтовыми ящиками в Exchange Online; автономные EOP PowerShell для организаций без Exchange Online почтовых ящиков).
+Просмотр и управление карантинными сообщениями на портале Microsoft 365 Defender или в PowerShell (Exchange Online PowerShell для Microsoft 365 организаций с почтовыми ящиками в Exchange Online; автономный EOP PowerShell для организаций без Exchange Online почтовых ящиков).
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
-- Чтобы открыть портал Microsoft 365 Defender, перейдите на <https://security.microsoft.com> . Чтобы открыть страницу Карантина напрямую, перейдите на <https://security.microsoft.com/quarantine>.
+- Чтобы открыть портал Microsoft 365 Defender, перейдите на сайт <https://security.microsoft.com>. Чтобы открыть страницу Карантина напрямую, перейдите на <https://security.microsoft.com/quarantine>.
 
 - Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell). Чтобы подключиться к автономному EOP PowerShell, см. раздел [Подключение к PowerShell Exchange Online Protection](/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
@@ -72,7 +72,7 @@ ms.locfileid: "52878896"
 
 ### <a name="view-quarantined-email"></a>Просмотр карантиновой электронной почты
 
-1. На портале Microsoft 365 Defender перейдите на карантин **по** & для совместной \>  \> **работы.**
+1. На портале Microsoft 365 Defender перейдите в раздел **Сообщения электронной почты и совместная работа** \> **Просмотр** \> **Карантин**.
 
 2. На странице **Карантин** убедитесь, что **значение View quarantined** задавалось электронной почте значения **по умолчанию.**
 
@@ -196,7 +196,6 @@ ms.locfileid: "52878896"
 Когда закончите, нажмите кнопку **Закрыть**.
 
 ## <a name="use-the-microsoft-365-defender-portal-to-manage-quarantined-files-in-defender-for-office-365"></a>Используйте портал Microsoft 365 Defender для управления карантинными файлами в Defender для Office 365
-
 > [!NOTE]
 > Процедуры для карантинов в этом разделе доступны только microsoft Defender для Office 365 1 и Plan 2 абонентов.
 
@@ -204,7 +203,8 @@ ms.locfileid: "52878896"
 
 ### <a name="view-quarantined-files"></a>Просмотр карантиных файлов
 
-1. На портале Microsoft 365 Defender перейдите на карантин **по** & для совместной \>  \> **работы.**
+1. На портале Microsoft 365 Defender перейдите в раздел **Сообщения электронной почты и совместная работа** \> **Просмотр** \> **Карантин**.
+
 
 2. На странице **Карантин** измените **просмотр карантина** на файлы **значений.** Вы можете сортировать на поле, щелкнув доступный заглавной столбец.
 

@@ -18,12 +18,12 @@ description: Узнайте, как распознавать и устранят
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e5675a7a83bb62bae80f20e8e7c86fde38599ec6
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 4c3c3c06974feb2dab3985a60938fe7d543543c3
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538307"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53028923"
 ---
 # <a name="detect-and-remediate-illicit-consent-grants"></a>Обнаружение и исправление незаконных грантов на согласие
 
@@ -50,7 +50,7 @@ ms.locfileid: "52538307"
 
 ### <a name="steps-for-finding-signs-of-this-attack"></a>Действия по обнаружению признаков этой атаки
 
-1. Откройте Центр **соответствия требованиям & безопасности** в <https://protection.office.com> .
+1. Откройте портал **Microsoft 365 Defender** по <https://security.microsoft.com> ссылке .
 
 2. Перейдите к **поиску** и выберите **поиск журнала аудита.**
 
@@ -143,7 +143,7 @@ ms.locfileid: "52538307"
 
 ## <a name="determine-the-scope-of-the-attack"></a>Определение области атаки
 
-После завершения доступа к приложениям для  инвентаризации просмотрите журнал аудита, чтобы определить полный объем нарушения. Поиск пострадавших пользователей, сроки доступа незаконного приложения к организации и разрешения, которые у приложения были. Журнал **аудита** можно найти в центре [& безопасности.](../../compliance/search-the-audit-log-in-security-and-compliance.md)
+После завершения доступа к приложениям для  инвентаризации просмотрите журнал аудита, чтобы определить полный объем нарушения. Поиск пострадавших пользователей, сроки доступа незаконного приложения к организации и разрешения, которые у приложения были. Вы можете искать **журнал аудита** в [Microsoft 365 Defender](../../compliance/search-the-audit-log-in-security-and-compliance.md).
 
 > [!IMPORTANT]
 > [Аудит почтовых ящиков](../../compliance/enable-mailbox-auditing.md) и аудит действий для администраторов и пользователей должны быть включены до атаки, чтобы вы могли получить эту информацию. [](../../compliance/turn-audit-log-search-on-or-off.md)

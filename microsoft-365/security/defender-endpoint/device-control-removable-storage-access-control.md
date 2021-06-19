@@ -8,20 +8,20 @@ ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: v-smandalika
-author: v-smandalika
+ms.author: dansimp
+author: dansimp
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: cf8e74a6886d7086da062d6258e3e1e1a1cbd730
-ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
+ms.openlocfilehash: cb23987600a5f87a99449510f7651c4fdcd45f66
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52861723"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53028407"
 ---
 # <a name="microsoft-defender-for-endpoint-device-control-removable-storage-access-control"></a>Microsoft Defender для управления конечными точками управления устройствами, служба хранилища управления доступом
 
@@ -32,7 +32,7 @@ Microsoft Defender для управления конечными устройс
 
 |Привилегии |Разрешение  |
 |---------|---------|
-|Доступ    |  Чтение, Запись, Выполнение       |
+|Access    |  Чтение, Запись, Выполнение       |
 |Режим действия    |    Аудит, разрешить, предотвратить     |
 |Поддержка CSP   |   Да      |
 |Поддержка GPO    |   Да      |
@@ -41,18 +41,18 @@ Microsoft Defender для управления конечными устройс
 
 ## <a name="prepare-your-endpoints"></a>Подготовка конечных точек
 
-Развертывание служба хранилища управления доступом Windows 10 устройствах с антивирусной клиентской версией **4.18.2103.3 или более поздней версии**.
-1. **4.18.2104** или более поздние : Добавление SerialNumberId, VID_PID, поддержка GPO на основе filepath, ComputerSid
+Развертывание служба хранилища управления доступом Windows 10 устройствах с клиентской версией **4.18.2103.3** или более поздней версии .
 
-2. **4.18.2105** или более поздний: Добавьте поддержку wildcard для HardwareId/DeviceId/InstancePathId/FriendlyNameId/SerialNumberId, сочетание определенного пользователя на определенном компьютере, удаляемая поддержка SSD (SSD SanDisk Extreme)/USB, присоединенная к SCSI (UAS).
+- **4.18.2104** или более поздние : Добавление SerialNumberId, VID_PID, поддержка GPO на основе filepath, ComputerSid
+
+- **4.18.2105** или более поздний: Добавьте поддержку wildcard для HardwareId/DeviceId/InstancePathId/FriendlyNameId/SerialNumberId, сочетание определенного пользователя на определенном компьютере, удаляемая поддержка SSD (SSD SanDisk Extreme)/USB, присоединенная к SCSI (UAS).
 
 :::image type="content" source="images/powershell.png" alt-text="Интерфейс PowerShell":::
 
-   > [!NOTE]
-   > Ни один Безопасность Windows не должен быть активным, вы можете запускать съемные служба хранилища управления доступом независимо от Безопасность Windows состояния.
+> [!NOTE]
+> Ни один Безопасность Windows не должен быть активным, вы можете запускать съемные служба хранилища управления доступом независимо от Безопасность Windows состояния.
 
 ## <a name="policy-properties"></a>Свойства политики
-
 
 Для создания съемной группы хранения можно использовать следующие свойства:
 
@@ -67,6 +67,7 @@ Microsoft Defender для управления конечными устройс
 Дополнительные подробности см. в разделе **Свойства** устройства.
 
 1. Параметры:
+
     - Основной ID
         - RemovableMediaDevices
         - CdRomDevices
@@ -87,11 +88,9 @@ Microsoft Defender для управления конечными устройс
 1. Описание. Если в descriptorIDList используется несколько свойств устройств, MatchType определяет связь.
 
 1. Параметры:
+
     - MatchAll: Любые атрибуты в descriptorIdList **будут** и отношения; например, если администратор ставит DeviceID и InstancePathID, для каждого подключенного USB система будет проверять, соответствует ли USB обоим значениям.
-
     - MatchAny: атрибуты в descriptorIdList будут **или отношения;** например, если администратор ставит DeviceID и InstancePathID, для каждого подключенного USB система будет работать с исполнением до тех пор, пока USB имеет одинаковое значение **DeviceID** или **InstanceID.**
-
-
 
 Ниже следующую ниже следующую следующую политику политики управления доступом:
 
@@ -101,9 +100,9 @@ Microsoft Defender для управления конечными устройс
 
 **Имя свойства: IncludedIdList**
 
-1. Описание. Группа(ы), к которую будет применена политика. Если добавлено несколько групп, политика будет применяться к любым средствам массовой информации во всех этих группах.
+2. Описание. Группа(ы), к которую будет применена политика. Если добавлено несколько групп, политика будет применяться к любым средствам массовой информации во всех этих группах.
 
-1. Параметры. В этом экземпляре необходимо использовать групповой ID/GUID.
+3. Параметры. В этом экземпляре необходимо использовать групповой ID/GUID.
 
 В следующем примере показано использование GroupID:
 
@@ -111,8 +110,9 @@ Microsoft Defender для управления конечными устройс
 
 **Имя свойства: ExcludedIDList**
 
-1. Описание. Группа(ы), к которую политика не будет применяться.
-1. Параметры. В этом экземпляре необходимо использовать групповой ID/GUID.
+Описание. Группа(ы), к которую политика не будет применяться.
+
+Параметры. В этом экземпляре необходимо использовать групповой ID/GUID.
 
 **Имя свойства: Id записи**
 
@@ -123,7 +123,9 @@ Microsoft Defender для управления конечными устройс
 1. Описание. Определяет действие для съемных групп хранения в IncludedIDList.
     - Правоприменители: разрешить или запретить
     - Аудит: AuditAllowed или AuditDenied 
-1. Параметры:
+
+2. Параметры:
+
     - Разрешить
     - "Запретить"
     - AuditAllowed: определяет уведомление и событие при разрешенных доступах
@@ -133,19 +135,19 @@ Microsoft Defender для управления конечными устройс
 
 **Имя свойства: Sid**
 
-1. Описание. Определяет, применяется ли эта политика к определенной группе пользователей или пользователей; одна запись может иметь максимум один Sid и запись без каких-либо средств Sid применения политики на машине.
+Описание. Определяет, применяется ли эта политика к определенной группе пользователей или пользователей; одна запись может иметь максимум один Sid и запись без каких-либо средств Sid применения политики на машине.
 
 **Имя свойства: ComputerSid**
 
-1. Описание. Определяет, применяется ли эта политика к определенной группе машин или машин; одна запись может иметь максимум один ComputerSid и запись без средств ComputerSid, применяющих политику на компьютере. Если вы хотите применить запись к определенному пользователю и определенной машине, добавьте и Sid, и ComputerSid в ту же запись.
+Описание. Определяет, применяется ли эта политика к определенной группе машин или машин; одна запись может иметь максимум один ComputerSid и запись без средств ComputerSid, применяющих политику на компьютере. Если вы хотите применить запись к определенному пользователю и определенной машине, добавьте и Sid, и ComputerSid в ту же запись.
 
 **Имя свойства: Параметры**
 
-1. Описание. Определяет, следует ли отображать уведомление или нет.
+Описание. Определяет, следует ли отображать уведомление или нет.
 
    :::image type="content" source="images/device-status.png" alt-text="Экран, на котором можно увидеть состояние устройства":::
 
-1. Параметры: 0-4. При выборе типа Разрешить или Запретить:
+Параметры: 0-4. При выборе типа Разрешить или Запретить:
 
    - 0: ничего
    - 4. отключить **AuditAllowed и** **AuditDenied для** этой записи. Даже если **произойдет блокировка** и **настроен параметр AuditDenied,** система не будет показывать уведомления.
@@ -159,16 +161,16 @@ Microsoft Defender для управления конечными устройс
 
 **Имя свойства: AccessMask**
 
-1. Описание. Определяет доступ.
+Описание. Определяет доступ.
 
-1. Параметры: 1-7:
-    - 1. Чтение
-    - 2. Записыв
-    - 3. Чтение и написание
-    - 4. Выполнение
-    - 5. Чтение и выполнение
-    - 6. Написать и выполнить
-    - 7. Чтение и написание и выполнение
+Параметры 1-7:
+  - 1. Чтение
+  - 2. Записыв
+  - 3. Чтение и написание
+  - 4. Выполнение
+  - 5. Чтение и выполнение
+  - 6. Написать и выполнить
+  - 7. Чтение и написание и выполнение
 
 ## <a name="common-removable-storage-access-control-scenarios"></a>Распространенные сценарии служба хранилища управления доступом
 
@@ -177,6 +179,7 @@ Microsoft Defender для управления конечными устройс
 ### <a name="scenario-1-prevent-write-and-execute-access-to-all-but-allow-specific-approved-usbs"></a>Сценарий 1. Предотвращение записи и выполнения доступа ко всем пользователям, но разрешить определенные утвержденные usBs
 
 1. Создание групп
+
     1. Группа 1. Любое съемное хранилище и CD/DVD. Пример съемного хранилища и CD/DVD: Group **9b28fae8-72f7-4267-a1a5-685f747a7146** в примере Any Removable служба хранилища и [CD-DVD Group.xmlфайл.](https://github.com/microsoft/mdatp-devicecontrol/tree/main/Removable%20Storage%20Access%20Control%20Samples)
     
     2. Группа 2. Утвержденные usBs на основе свойств устройств. Пример для этого случая использования: Экземпляр ID — Group **65fa649a-a111-4912-9294-fb6337a25038** в примере утвержденных [usBs Group.xml](https://github.com/microsoft/mdatp-devicecontrol/tree/main/Removable%20Storage%20Access%20Control%20Samples) файл.
@@ -185,13 +188,15 @@ Microsoft Defender для управления конечными устройс
     > Вы должны `&` заменить `&amp;` в значении.
 
 2. Создание политики
-    1. Политика 1. Заблокировать записи и выполнить доступ, но разрешить утвержденные usBs. Пример для этого примера использования: PolicyRule **c544a991-5786-4402-949e-a032cb790d0e** в примере [Scenario 1 Block Write and Execute Access,](https://github.com/microsoft/mdatp-devicecontrol/tree/main/Removable%20Storage%20Access%20Control%20Samples) но разрешает утвержденный файл usBs .xml.
+
+    1. Политика 1. Заблокировать записи и выполнить доступ, но разрешить утвержденные usBs. Пример этого примера использования: PolicyRule **c544a991-5786-4402-949e-a032cb790d0e** в примере [Scenario 1 Block Write and Execute Access,](https://github.com/microsoft/mdatp-devicecontrol/tree/main/Removable%20Storage%20Access%20Control%20Samples) но разрешает утвержденный USBs.xmlфайл.
     
     2. Политика 2. Проверка записи и выполнения доступа к разрешенным usBs. Пример этого примера использования: PolicyRule **36ae1037-a639-4cff-946b-b36c53089a4c** в примере [Scenario 1 Audit Write and Execute access to approved USBs.xml](https://github.com/microsoft/mdatp-devicecontrol/tree/main/Removable%20Storage%20Access%20Control%20Samples) file.
 
 ### <a name="scenario-2-audit-write-and-execute-access-to-all-but-block-specific-unapproved-usbs"></a>Сценарий 2. Проверка записи и выполнения доступа ко всем, кроме блокировки определенных неодобренных usBs
 
 1. Создание групп
+
     1. Группа 1. Любое съемное хранилище и CD/DVD. Пример этого примера использования: Group **9b28fae8-72f7-4267-a1a5-685f747a7146** в примере Любые съемные служба хранилища и [CD-DVD-Group.xmlфайл.](https://github.com/microsoft/mdatp-devicecontrol/tree/main/Removable%20Storage%20Access%20Control%20Samples)
     
     2. Группа 2. [Unapproved](https://github.com/microsoft/mdatp-devicecontrol/tree/main/Removable%20Storage%20Access%20Control%20Samples) USBs на основе свойств устройств, например, ID поставщика / ID продукта, Friendly Name — Group **65fa649a-a111-4912-9294-fb6337a25038** в примере неаппровотных usBs Group.xmlфайле. 
@@ -200,6 +205,7 @@ Microsoft Defender для управления конечными устройс
     > Вы должны `&` заменить `&amp;` в значении.
 
 2. Создание политики
+
     1. Политика 1. Блокировка записи и выполнения доступа ко всем, кроме блокировки определенных неодобренных ОКБ. Пример этого примера использования: PolicyRule **23b8e437-66ac-4b32-b3d7-24044637fc98** в примере [Scenario 2 Audit Write and Execute access to all but block specific unapproved USBs.xml](https://github.com/microsoft/mdatp-devicecontrol/tree/main/Removable%20Storage%20Access%20Control%20Samples) file.
     
     2. Политика 2. Проверка записи и выполнения доступа к другим. Пример этого примера использования: PolicyRule **b58ab853-9a6f-405c-a194-740e69422b48** в примере [Scenario 2 Audit Write and Execute access to others.xml](https://github.com/microsoft/mdatp-devicecontrol/tree/main/Removable%20Storage%20Access%20Control%20Samples) file.
@@ -314,3 +320,31 @@ DeviceEvents
 ```
 
 :::image type="content" source="images/block-removable-storage.png" alt-text="Экран, на котором запечатлена блокировка съемного хранилища":::
+
+## <a name="frequently-asked-questions"></a>Вопросы и ответы
+**Какое ограничение для съемных носители хранения для максимального числа пользователей?**
+
+Мы проверили одну группу USB со 100 000 мультимедиа размером до 7 МБ. Политика работает как в Intune, так и в GPO без проблем с производительностью.
+
+**Почему политика не работает?**
+
+Наиболее частой причиной является отсутствие обязательной клиентской версии [антивирусного программного обеспечения.](/microsoft-365/security/defender-endpoint/device-control-removable-storage-access-control?view=o365-worldwide#prepare-your-endpoints)
+
+Другая причина может быть в том, что XML-файл неправильно отформатирован, например, не использует правильный формат разметки для символа "&" в XML-файле, или текстовый редактор может добавить метку заказа в 0xEF 0xBB 0xBF в начале файлов, из-за чего разбор XML не работает. Одним из простых решений является [скачивание](https://github.com/microsoft/mdatp-devicecontrol/tree/main/Removable%20Storage%20Access%20Control%20Samples) примера файла (выберите **Raw,** а затем **Сохранить как),** а затем обновить.
+
+Если имеется значение и политика управляется с помощью групповой политики, проверьте, может ли клиентское устройство получить доступ к пути XML политики.
+
+**Как узнать, какая машина использует устарелую клиентскую версию антивирусных программ в организации?**
+
+Следующий запрос можно использовать для получения клиентской версии антивирусных программ на Microsoft 365 безопасности:
+```kusto
+//check the antimalware client version
+DeviceFileEvents
+| where FileName == "MsMpEng.exe"
+| where FolderPath contains @"C:\ProgramData\Microsoft\Windows Defender\Platform\"
+| extend PlatformVersion=tostring(split(FolderPath, "\\", 5))
+//| project DeviceName, PlatformVersion // check which machine is using legacy platformVersion
+| summarize dcount(DeviceName) by PlatformVersion // check how many machines are using which platformVersion
+| order by PlatformVersion desc
+```
+

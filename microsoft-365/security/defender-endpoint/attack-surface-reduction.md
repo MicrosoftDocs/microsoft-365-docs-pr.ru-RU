@@ -16,19 +16,18 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 409f6d0bbbcf9f8b50119e35bdb7852c4323bbf9
-ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
+ms.openlocfilehash: 7360087e1863e81e4dc9e8acc2817e1320d6f4d8
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52984992"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53028791"
 ---
 # <a name="use-attack-surface-reduction-rules-to-prevent-malware-infection"></a>Используйте правила уменьшения поверхности атаки, чтобы предотвратить заражение вредоносными программами
 
 **Область применения:**
 
 - [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/?linkid=2154037)
-
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 ## <a name="why-attack-surface-reduction-rules-are-important"></a>Why attack surface reduction rules are important
@@ -160,7 +159,7 @@ DeviceEvents
 
 ## <a name="attack-surface-reduction-rules"></a>Правила сокращения направлений атак
 
-В следующей таблице и подсекциях описаны все 15 правил уменьшения поверхности атаки. Правила уменьшения поверхности атаки перечислены в алфавитном порядке по имени правила.
+В следующей таблице и подсекциях описаны все 16 правил уменьшения поверхности атаки. Правила уменьшения поверхности атаки перечислены в алфавитном порядке по имени правила.
 
 Если вы настраиваете правила уменьшения поверхности атаки с помощью групповой политики или PowerShell, вам потребуется GUID. С другой стороны, если вы Microsoft Endpoint Manager или Microsoft Intune, вам не нужны GUID.
 

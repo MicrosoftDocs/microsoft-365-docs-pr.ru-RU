@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 3dac22afb074a58ea2afdf842a9a62c6cee77dcc
-ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
+ms.openlocfilehash: b6830c77a0c5cc93ea202844a8793c5f69f07650
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 06/19/2021
-ms.locfileid: "53022790"
+ms.locfileid: "53028527"
 ---
 # <a name="incidents-in-microsoft-365-defender"></a>Инциденты в Microsoft 365 Defender
 
@@ -144,9 +144,11 @@ Microsoft 365 службы и приложения создают оповеще
 
 Если вы не в новинку [](incidents-overview.md) для анализа безопасности, см. в предисловии к ответу на первый инцидент для получения дополнительных сведений и пошаговую проверку примера инцидента.
 
+Дополнительные сведения о реагировании на инциденты в продуктах Майкрософт см. [в этой статье.](/security/compass/incident-response-overview)
+
 ## <a name="example-security-operations-for-microsoft-365-defender"></a>Пример операций безопасности для Microsoft 365 Defender
 
-Вот пример операций безопасности для Microsoft 365 Defender.
+Вот пример операций безопасности (SecOps) для Microsoft 365 Defender.
 
 :::image type="content" source="../../media/incidents-overview/incidents-example-operations.png" alt-text="Пример операций безопасности для Microsoft 365 Defender":::
 
@@ -168,6 +170,14 @@ Microsoft 365 службы и приложения создают оповеще
 Ежегодные задачи могут включать проведение крупных инцидентов или нарушений для проверки персонала, систем и процессов. 
 
 Ежедневные, ежемесячные, квартальные и ежегодные задачи можно использовать для обновления или уточнения процессов, политик и конфигураций безопасности.
+
+### <a name="secops-resources-across-microsoft-products"></a>Ресурсы SecOps для продуктов Майкрософт
+
+Дополнительные сведения о SecOps в продуктах Корпорации Майкрософт см. в этих ресурсах:
+
+- [Capabilities](/security/compass/security-operations-capabilities)
+- [Рекомендации](/security/compass/security-operations)
+- [Видео и слайды](/security/compass/security-operations-videos-and-decks)
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

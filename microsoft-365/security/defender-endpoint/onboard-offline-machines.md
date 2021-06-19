@@ -2,7 +2,7 @@
 title: На борту устройств без доступа к Интернету в Microsoft Defender для конечной точки
 ms.reviewer: ''
 description: Бортовые устройства без доступа в Интернет, чтобы они могли отправлять данные датчиков в датчик Microsoft Defender для конечной точки
-keywords: onboard, servers, vm, on-premise, oms gateway, log analytics, azure log analytics, mma
+keywords: onboard, servers, vm, on-premises, oms gateway, log analytics, azure log analytics, mma
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: ed33f67695fddc78c0bac646f72ca0c48887bb04
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 73110d89c39319825cc8dc8e347d137de52a510a
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52844422"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53028383"
 ---
 # <a name="onboard-devices-without-internet-access-to-microsoft-defender-for-endpoint"></a>На борту устройств без доступа к Интернету в Microsoft Defender для конечной точки
 
@@ -52,7 +52,7 @@ ms.locfileid: "52844422"
 - [Бортовые серверы службы Microsoft Defender для конечных точек](/microsoft-365/security/defender-endpoint/configure-server-endpoints#windows-server-2008-r2-sp1--windows-server-2012-r2-and-windows-server-2016)
 - [Настройка параметров прокси-сервера устройства и соединения с Интернетом](/microsoft-365/security/defender-endpoint/configure-proxy-internet#configure-the-proxy-server-manually-using-a-registry-based-static-proxy)
 
-## <a name="on-premise-devices"></a>Локальное устройство
+## <a name="on-premises-devices"></a>Локальное устройство
 
 - Настройка Azure Log Analytics (ранее известный как ШЛЮЗ OMS) для действий в качестве прокси-сервера или концентратора:
   - [Агент аналитики журналов Azure](/azure/azure-monitor/platform/gateway#download-the-log-analytics-gateway)
