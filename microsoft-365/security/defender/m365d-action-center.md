@@ -20,12 +20,12 @@ ms.collection:
 ms.topic: how-to
 ms.custom: autoir
 ms.reviewer: evaldm, isco
-ms.openlocfilehash: df3ea2d4df0b7a5bedbbabf19e97d4fddc4c2646
-ms.sourcegitcommit: 3b9fab82d63aea41d5f544938868c5d2cbf52d7a
+ms.openlocfilehash: ee075f34087d28fc9326d408622d05f363bba768
+ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52782985"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53022597"
 ---
 # <a name="the-action-center"></a>Центр уведомлений
 
@@ -49,11 +49,11 @@ ms.locfileid: "52782985"
 
 :::image type="content" source="../../media/m3d-action-center-unified.png" alt-text="Единый центр действий в Microsoft 365 Defender":::
 
-Пример. 
+Например: 
 
-- Если вы ранее использовали центр Office 365 безопасности & (), попробуйте единый центр действий в центре Microsoft 365 [https://protection.office.com](https://protection.office.com) безопасности ( [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) ).
-- Если вы использовали центр действий в центре Центр безопасности в Microsoft Defender (), попробуйте единый центр действий в центре Microsoft 365 [https://securitycenter.windows.com/action-center](https://securitycenter.windows.com/action-center) безопасности ( [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) ).
-- Если вы уже использовали центр Microsoft 365 безопасности ( ), вы увидите несколько улучшений в [https://security.microsoft.com](https://security.microsoft.com) центре действий ( [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) ).
+- Если вы ранее использовали центр Office 365 безопасности & (), попробуйте единый центр действий на портале [https://protection.office.com](https://protection.office.com) Microsoft 365 Defender ( [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) ).
+- Если вы использовали центр действий в центре Центр безопасности в Microsoft Defender (), попробуйте единый центр действий на портале [https://securitycenter.windows.com/action-center](https://securitycenter.windows.com/action-center) Microsoft 365 Defender ( [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) ).
+- Если вы уже использовали портал Microsoft 365 Defender ( ), вы увидите несколько улучшений в центре [https://security.microsoft.com](https://security.microsoft.com) действий ( [https://security.microsoft.com/action-center](https://security.microsoft.com/action-center) ).
 
 Единый центр действий объединяет действия по исправлению в Defender for Endpoint и Defender для Office 365. Он определяет общий язык для всех действий по исправлению и предоставляет унифицированный опыт исследования. Ваша группа операций безопасности имеет "единую стеклянную области" для просмотра и управления действиями по исправлению.  
 
@@ -126,12 +126,12 @@ ms.locfileid: "52782985"
 
 |Действие по исправлению |Обязательные роли и разрешения |
 |--|----|
-|Microsoft Defender для устранения конечных точек (устройства) |**Роль администратора** безопасности, назначенная в Azure Active Directory (Azure AD) () или Microsoft 365 центре [https://portal.azure.com](https://portal.azure.com) администрирования ( [https://admin.microsoft.com](https://admin.microsoft.com) )<br/>--- или ---<br/>**Роль активных действий по исправлению,** назначенная в Microsoft Defender для конечной точки <br/> <br/> Для получения дополнительных сведений ознакомьтесь с приведенными ниже ресурсами. <br/>- [Разрешения на роль администратора в Azure AD](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [Создание ролей для управления доступом на основе ролей (Microsoft Defender для конечной точки)](../defender-endpoint/user-roles.md)  |
-|Microsoft Defender для Office 365 исправлений (Office контента и электронной почты)  |**Роль администратора** безопасности, назначенная в Azure AD () или Microsoft 365 центре [https://portal.azure.com](https://portal.azure.com) администрирования ( [https://admin.microsoft.com](https://admin.microsoft.com) )<br/>--- и --- <br/>**Роль поиска и очистки,** назначенная в Центре & безопасности ( [https://protection.office.com](https://protection.office.com) ) <br/><br/>**ВАЖНО:** Если роль  администратора безопасности назначена только в центре Office 365 безопасности & ( ), вы не сможете получить доступ к центру действий или [https://protection.office.com](https://protection.office.com) возможностям Microsoft 365 Defender. Роль администратора **безопасности** должна быть назначена в Azure AD или Microsoft 365 центре администрирования. <br/><br/>Для получения дополнительных сведений ознакомьтесь с приведенными ниже ресурсами. <br/>- [Разрешения на роль администратора в Azure AD](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [Разрешения в Центре & безопасности](/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center) |
+|Microsoft Defender для устранения конечных точек (устройства) |**Роль администратора** безопасности, назначенная в Azure Active Directory (Azure AD) или [https://portal.azure.com](https://portal.azure.com) Центр администрирования Microsoft 365 ( [https://admin.microsoft.com](https://admin.microsoft.com) )<br/>--- или ---<br/>**Роль активных действий по исправлению,** назначенная в Microsoft Defender для конечной точки <br/> <br/> Для получения дополнительных сведений ознакомьтесь с приведенными ниже ресурсами. <br/>- [Разрешения на роль администратора в Azure AD](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [Создание ролей для управления доступом на основе ролей (Microsoft Defender для конечной точки)](../defender-endpoint/user-roles.md)  |
+|Microsoft Defender для Office 365 исправлений (Office контента и электронной почты)  |**Роль администратора** безопасности, назначенная в Azure AD () или [https://portal.azure.com](https://portal.azure.com) Центр администрирования Microsoft 365 ( [https://admin.microsoft.com](https://admin.microsoft.com) )<br/>--- и --- <br/>**Роль поиска и очистки,** назначенная в Центре & безопасности ( [https://protection.office.com](https://protection.office.com) ) <br/><br/>**ВАЖНО.** Если роль  администратора безопасности назначена только в центре Office 365 безопасности & ( ), вы не сможете получить доступ к центру действий или Microsoft 365 Defender [https://protection.office.com](https://protection.office.com) возможностям. Роль администратора **безопасности должна** быть назначена в Azure AD или Центр администрирования Microsoft 365. <br/><br/>Для получения дополнительных сведений ознакомьтесь с приведенными ниже ресурсами. <br/>- [Разрешения на роль администратора в Azure AD](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [Разрешения в Центре & безопасности](/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center) |
 
 > [!TIP]
 > Пользователи, которым назначена роль **глобального** администратора в Azure AD, могут одобрить или отклонить любое ожидающих действий в центре действий. Однако в качестве наилучшей практики организация должна ограничить число людей, которым назначена роль **глобального** администратора. Рекомендуется использовать роли **администратора** **безопасности,** активные  действия по исправлению и роли поиска и очистки, перечисленные в предыдущей таблице разрешений центра действий.
 
 ## <a name="next-step"></a>Следующий этап 
 
-- [Просмотр и управление действиями по исправлению](m365d-autoir-actions.md)
+- [Просмотр действий по исправлению и управление ими](m365d-autoir-actions.md)

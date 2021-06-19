@@ -1,5 +1,5 @@
 ---
-title: Устранение ложных срабатыва- либо ложных Microsoft 365 Defender
+title: Адрес false positives or false negatives in Microsoft 365 Defender
 description: Было ли что-то пропущено или неправильно обнаружено air в Microsoft 365 Defender? Узнайте, как отправить ложные срабатыва или ложные отрицательные результаты в Корпорацию Майкрософт для анализа.
 keywords: автоматическое, исследование, оповещение, исправление, ложное срабатывательство, ложный отрицательный
 search.appverid: met150
@@ -21,21 +21,21 @@ ms.topic: how-to
 ms.custom: autoir
 ms.reviewer: evaldm, isco
 ms.technology: m365d
-ms.openlocfilehash: 3cffa97d26b2b28de8d9e45d7030e0931a7ba072
-ms.sourcegitcommit: 51b316c23e070ab402a687f927e8fa01cb719c74
+ms.openlocfilehash: f60208b06e66c1e9803e05ee1fc41376824e9b56
+ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52269583"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53022538"
 ---
-# <a name="address-false-positives-or-false-negatives-in-microsoft-365-defender"></a>Устранение ложных срабатыва- либо ложных Microsoft 365 Defender
+# <a name="address-false-positives-or-false-negatives-in-microsoft-365-defender"></a>Адрес false positives or false negatives in Microsoft 365 Defender
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
 **Область применения:**
 - Microsoft 365 Defender
 
-Ложные срабатывательство или негативы могут иногда возникать с любым решением защиты от угроз. Если [автоматизированные возможности](m365d-autoir.md) расследования и реагирования в Microsoft 365 Defender пропустили или неправильно обнаружили что-то, ваша группа операций безопасности может предпринять следующие действия:
+Ложные срабатывательство или негативы могут иногда возникать с любым решением защиты от угроз. Если [автоматизированные возможности](m365d-autoir.md) расследования и реагирования в Microsoft 365 Defender что-то пропустили или неправильно обнаружили, можно предпринять следующие действия:
 
 - [Сообщение о ложном срабатыве или отрицательном срабатывии в Корпорации Майкрософт](#report-a-false-positivenegative-to-microsoft-for-analysis)
 - [Настройка оповещений](#adjust-an-alert-to-prevent-false-positives-from-recurring) (при необходимости)
@@ -73,4 +73,3 @@ ms.locfileid: "52269583"
 
 - [Просмотр сведений и результатов автоматического исследования](m365d-autoir-results.md)
 - [Активная охота на угрозы с расширенным поиском в Microsoft 365 Defender](advanced-hunting-overview.md)
-- [Устранение ложных положительных/отрицательных срабатываний в Microsoft Defender для конечной точки](/windows/security/threat-protection/microsoft-defender-atp/defender-endpoint-false-positives-negatives)

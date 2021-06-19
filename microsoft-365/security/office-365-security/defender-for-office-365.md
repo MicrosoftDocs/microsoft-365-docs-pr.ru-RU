@@ -21,12 +21,12 @@ ms.custom:
 description: Microsoft Defender для Office 365 включает безопасные вложения, безопасные ссылки, расширенные средства защиты от фишинга, инструменты создания отчетов и возможности аналитики угроз.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: eab7cdbed592975739fdcfa1089e6f7d2c25d880
-ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
+ms.openlocfilehash: 00dcd5d8f5d18b59de67318049cc1e5807451f14
+ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52904120"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53022358"
 ---
 # <a name="microsoft-defender-for-office-365"></a>Microsoft Defender для Office 365
 
@@ -122,13 +122,7 @@ Microsoft Defender для Office 365 защищает организацию о�
 Отчеты обновляются в режиме реального времени, обеспечивая вас новейшей аналитикой. Кроме того, эти отчеты содержат рекомендации и оповещения о приближающихся угрозах. Стандартные отчеты включают в себя:
 
 - [отчет обозревателя угроз (или обнаружение в режиме реального времени)](threat-explorer.md);
-
 - [отчет о состоянии защиты от угроз](view-reports-for-mdo.md#threat-protection-status-report);
-
-- [отчет о типах файлов Defender для Office 365](view-reports-for-mdo.md#defender-for-office-365-file-types-report);
-
-- [отчет о действиях с сообщениями в Defender для Office 365](view-reports-for-mdo.md#defender-for-office-365-message-disposition-report)
-
 - и некоторые другие.
 
 ## <a name="use-threat-investigation-and-response-capabilities"></a>Использование возможностей анализа угроз и реагирования на них

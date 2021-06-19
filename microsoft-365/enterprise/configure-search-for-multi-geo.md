@@ -13,12 +13,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Узнайте, как настроить поиск в многоэтабной среде. Только некоторые клиенты, например OneDrive для бизнеса, могут возвращать результаты в среде с несколькими географическими условиями.
-ms.openlocfilehash: b3a96b1d0652cb954c58ae410583befa078460d9
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 31e0c4ae3fe73f2f6e113dbc38989726eb1ca590
+ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911166"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53022334"
 ---
 # <a name="configure-search-for-microsoft-365-multi-geo"></a>Настройка поиска для Microsoft 365 Multi-Geo
 
@@ -324,5 +324,5 @@ https:// \<tenant\> / \_ api/search/query?querytext='site'&ClientType='my_client
 var keywordQuery = new KeywordQuery(ctx);
 keywordQuery.QueryText = query.SearchQueryText;
 keywordQuery.ClientType = <enter a string here>;
-keywordQuery["EnableMultiGeoSearch"] = true;
+keywordQuery.Properties["EnableMultiGeoSearch"] = true;
 ```
