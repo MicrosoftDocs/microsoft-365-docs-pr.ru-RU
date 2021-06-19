@@ -20,12 +20,12 @@ ms.custom:
 description: Пользователи могут узнать о том, как просматривать сообщения, помещенные на карантин в Exchange Online Protection (EOP), и управлять ими.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 02119130df847da48f0c25ba13cbb321c83f59dd
-ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
+ms.openlocfilehash: c0f95561977c453d7040d84ba0c779c3d33e07f0
+ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 06/19/2021
-ms.locfileid: "53028395"
+ms.locfileid: "53029829"
 ---
 # <a name="find-and-release-quarantined-messages-as-a-user-in-eop"></a>Поиск и разблокирование сообщений, находящихся на карантине, для пользователя в EOP
 
@@ -38,6 +38,18 @@ ms.locfileid: "53028395"
 
 В организациях Microsoft 365 с почтовыми ящиками в Exchange Online или в автономных организациях Exchange Online Protection (EOP) без почтовых ящиков Exchange Online на карантине хранятся потенциально опасные или нежелательные сообщения. Дополнительные сведения см. в статье [Карантин в EOP](quarantine-email-messages.md).
 
+Как получатель сообщения помещенного в карантин, вы можете предпринимать над сообщениями действия пользователя, не являющегося администратором, которые описаны в следующей таблице.
+
+<br>
+
+****
+
+|Причина помещения на карантин|Просмотреть|Выпуск|Удалить|
+|---|:---:|:---:|:---:|
+|Массовая рассылка|![Галочка](../../media/checkmark.png)|![Галочка](../../media/checkmark.png)|![Галочка](../../media/checkmark.png)|
+|Спам|![Галочка](../../media/checkmark.png)|![Галочка](../../media/checkmark.png)|![Галочка](../../media/checkmark.png)|
+|Фишинг (не с высокой вероятностью)|![Галочка](../../media/checkmark.png)||![Флажок](../../media/checkmark.png)|
+|
 
 Вы можете просматривать помещенные на карантин сообщения, а также управлять ими на портале Microsoft 365 Defender или (если администратор настроил этот вариант) в разделе [уведомлений о спаме для пользователей](use-spam-notifications-to-release-and-report-quarantined-messages.md).
 
