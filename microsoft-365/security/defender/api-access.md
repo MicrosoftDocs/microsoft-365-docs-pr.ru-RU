@@ -1,6 +1,6 @@
 ---
-title: Доступ к API Microsoft 365 Defender
-description: Узнайте, как получить доступ к API Microsoft 365 Defender
+title: Доступ к Microsoft 365 Defender API
+description: Узнайте, как получить доступ к Microsoft 365 Defender API
 keywords: доступ, apis, контекст приложений, пользовательский контекст, aad-приложение, маркер доступа
 search.product: eADQiWindows 10XVcnh
 ms.prod: m365-security
@@ -20,75 +20,75 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 1fbba132e664f4773496eac7123a0a408db5b3bd
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+ms.openlocfilehash: 03fd82cd5dc24653b6d67fa47cc225d355bfac45
+ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51072758"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53028803"
 ---
-# <a name="access-the-microsoft-365-defender-apis"></a><span data-ttu-id="96c3b-104">Доступ к API Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="96c3b-104">Access the Microsoft 365 Defender APIs</span></span>
+# <a name="access-the-microsoft-365-defender-apis"></a><span data-ttu-id="22e7c-104">Доступ к Microsoft 365 Defender API</span><span class="sxs-lookup"><span data-stu-id="22e7c-104">Access the Microsoft 365 Defender APIs</span></span>
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
-<span data-ttu-id="96c3b-105">**Область применения:**</span><span class="sxs-lookup"><span data-stu-id="96c3b-105">**Applies to:**</span></span>
+<span data-ttu-id="22e7c-105">**Область применения:**</span><span class="sxs-lookup"><span data-stu-id="22e7c-105">**Applies to:**</span></span>
 
-- <span data-ttu-id="96c3b-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="96c3b-106">Microsoft 365 Defender</span></span>
+- <span data-ttu-id="22e7c-106">Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="22e7c-106">Microsoft 365 Defender</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="96c3b-107">Некоторые сведения относятся к предварительным выпускам продуктов, которые могут быть существенно изменены до коммерческого выпуска.</span><span class="sxs-lookup"><span data-stu-id="96c3b-107">Some information relates to prereleased product which may be substantially modified before it's commercially released.</span></span> <span data-ttu-id="96c3b-108">Корпорация Майкрософт не дает никаких гарантий, явных или подразумеваемых, относительно предоставленных здесь сведений.</span><span class="sxs-lookup"><span data-stu-id="96c3b-108">Microsoft makes no warranties, express or implied, with respect to the information provided here.</span></span>
+> <span data-ttu-id="22e7c-107">Некоторые сведения относятся к предварительным выпускам продуктов, которые могут быть существенно изменены до коммерческого выпуска.</span><span class="sxs-lookup"><span data-stu-id="22e7c-107">Some information relates to prereleased product which may be substantially modified before it's commercially released.</span></span> <span data-ttu-id="22e7c-108">Корпорация Майкрософт не дает никаких гарантий, явных или подразумеваемых, относительно предоставленных здесь сведений.</span><span class="sxs-lookup"><span data-stu-id="22e7c-108">Microsoft makes no warranties, express or implied, with respect to the information provided here.</span></span>
 
-<span data-ttu-id="96c3b-109">Microsoft 365 Defender предоставляет большую часть своих данных и действий с помощью набора программных API.</span><span class="sxs-lookup"><span data-stu-id="96c3b-109">Microsoft 365 Defender exposes much of its data and actions through a set of programmatic APIs.</span></span> <span data-ttu-id="96c3b-110">Эти API помогают автоматизировать рабочий процесс и в полной мере использовать Microsoft 365 defender.</span><span class="sxs-lookup"><span data-stu-id="96c3b-110">These APIs help you automate workflows and make full use of Microsoft 365 Defender's capabilities.</span></span>
+<span data-ttu-id="22e7c-109">Microsoft 365 Defender предоставляет большую часть своих данных и действий с помощью набора программных API.</span><span class="sxs-lookup"><span data-stu-id="22e7c-109">Microsoft 365 Defender exposes much of its data and actions through a set of programmatic APIs.</span></span> <span data-ttu-id="22e7c-110">Эти API помогают автоматизировать рабочий процесс и в полной мере использовать Microsoft 365 Defender возможностей компании.</span><span class="sxs-lookup"><span data-stu-id="22e7c-110">These APIs help you automate workflows and make full use of Microsoft 365 Defender's capabilities.</span></span>
 
-<span data-ttu-id="96c3b-111">В общем, для использования API необходимо предпринять следующие действия:</span><span class="sxs-lookup"><span data-stu-id="96c3b-111">In general, you'll need to take the following steps to use the APIs:</span></span>
+<span data-ttu-id="22e7c-111">В общем, для использования API необходимо предпринять следующие действия:</span><span class="sxs-lookup"><span data-stu-id="22e7c-111">In general, you'll need to take the following steps to use the APIs:</span></span>
 
-- <span data-ttu-id="96c3b-112">Создание Azure Active Directory приложения</span><span class="sxs-lookup"><span data-stu-id="96c3b-112">Create an Azure Active Directory application</span></span>
-- <span data-ttu-id="96c3b-113">Получение маркера доступа с помощью этого приложения</span><span class="sxs-lookup"><span data-stu-id="96c3b-113">Get an access token using this application</span></span>
-- <span data-ttu-id="96c3b-114">Используйте маркер для доступа к API Microsoft 365 Defender</span><span class="sxs-lookup"><span data-stu-id="96c3b-114">Use the token to access the Microsoft 365 Defender API</span></span>
+- <span data-ttu-id="22e7c-112">Создание Azure Active Directory приложения</span><span class="sxs-lookup"><span data-stu-id="22e7c-112">Create an Azure Active Directory application</span></span>
+- <span data-ttu-id="22e7c-113">Получение маркера доступа с помощью этого приложения</span><span class="sxs-lookup"><span data-stu-id="22e7c-113">Get an access token using this application</span></span>
+- <span data-ttu-id="22e7c-114">Использование маркера для доступа к Microsoft 365 Defender API</span><span class="sxs-lookup"><span data-stu-id="22e7c-114">Use the token to access the Microsoft 365 Defender API</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="96c3b-115">Доступ к API требует проверки подлинности OAuth2.0.</span><span class="sxs-lookup"><span data-stu-id="96c3b-115">API access requires OAuth2.0 authentication.</span></span> <span data-ttu-id="96c3b-116">Дополнительные сведения см. [в тексте OAuth 2.0 Authorization Code Flow.](/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)</span><span class="sxs-lookup"><span data-stu-id="96c3b-116">For more information, see [OAuth 2.0 Authorization Code Flow](/azure/active-directory/develop/active-directory-v2-protocols-oauth-code).</span></span>
+> <span data-ttu-id="22e7c-115">Доступ к API требует проверки подлинности OAuth2.0.</span><span class="sxs-lookup"><span data-stu-id="22e7c-115">API access requires OAuth2.0 authentication.</span></span> <span data-ttu-id="22e7c-116">Дополнительные сведения см. [в тексте OAuth 2.0 Authorization Code Flow.](/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)</span><span class="sxs-lookup"><span data-stu-id="22e7c-116">For more information, see [OAuth 2.0 Authorization Code Flow](/azure/active-directory/develop/active-directory-v2-protocols-oauth-code).</span></span>
 
-<span data-ttu-id="96c3b-117">После выполнения этих действий вы будете готовы получить доступ к API Microsoft 365 Defender с помощью определенного контекста.</span><span class="sxs-lookup"><span data-stu-id="96c3b-117">Once you've accomplished these steps, you're ready to access the Microsoft 365 Defender API using a particular context.</span></span>
+<span data-ttu-id="22e7c-117">После выполнения этих действий вы будете готовы к доступу к API Microsoft 365 Defender с помощью определенного контекста.</span><span class="sxs-lookup"><span data-stu-id="22e7c-117">Once you've accomplished these steps, you're ready to access the Microsoft 365 Defender API using a particular context.</span></span>
 
-## <a name="application-context-recommended"></a><span data-ttu-id="96c3b-118">Контекст приложения (рекомендуется)</span><span class="sxs-lookup"><span data-stu-id="96c3b-118">Application context (Recommended)</span></span>
+## <a name="application-context-recommended"></a><span data-ttu-id="22e7c-118">Контекст приложения (рекомендуется)</span><span class="sxs-lookup"><span data-stu-id="22e7c-118">Application context (Recommended)</span></span>
 
-<span data-ttu-id="96c3b-119">Используйте этот контекст для приложений, которые работают без участия пользователя, например фоновых служб или daemons.</span><span class="sxs-lookup"><span data-stu-id="96c3b-119">Use this context for apps that run without a signed-in user present, such as background services or daemons.</span></span>
+<span data-ttu-id="22e7c-119">Используйте этот контекст для приложений, которые работают без участия пользователя, например фоновых служб или daemons.</span><span class="sxs-lookup"><span data-stu-id="22e7c-119">Use this context for apps that run without a signed-in user present, such as background services or daemons.</span></span>
 
-1. <span data-ttu-id="96c3b-120">Создание Azure Active Directory приложения.</span><span class="sxs-lookup"><span data-stu-id="96c3b-120">Create an Azure Active Directory web application.</span></span>
-2. <span data-ttu-id="96c3b-121">Назначение нужных разрешений приложению.</span><span class="sxs-lookup"><span data-stu-id="96c3b-121">Assign the desired permissions to the application.</span></span>
-3. <span data-ttu-id="96c3b-122">Создайте ключ для приложения.</span><span class="sxs-lookup"><span data-stu-id="96c3b-122">Create a key for the application.</span></span>
-4. <span data-ttu-id="96c3b-123">Получение маркера безопасности с помощью приложения и его ключа.</span><span class="sxs-lookup"><span data-stu-id="96c3b-123">Get a security token using the application and its key.</span></span>
-5. <span data-ttu-id="96c3b-124">Используйте маркер для доступа к API Microsoft 365 Defender.</span><span class="sxs-lookup"><span data-stu-id="96c3b-124">Use the token to access  Microsoft 365 Defender API.</span></span>
+1. <span data-ttu-id="22e7c-120">Создание Azure Active Directory приложения.</span><span class="sxs-lookup"><span data-stu-id="22e7c-120">Create an Azure Active Directory web application.</span></span>
+2. <span data-ttu-id="22e7c-121">Назначение нужных разрешений приложению.</span><span class="sxs-lookup"><span data-stu-id="22e7c-121">Assign the desired permissions to the application.</span></span>
+3. <span data-ttu-id="22e7c-122">Создайте ключ для приложения.</span><span class="sxs-lookup"><span data-stu-id="22e7c-122">Create a key for the application.</span></span>
+4. <span data-ttu-id="22e7c-123">Получение маркера безопасности с помощью приложения и его ключа.</span><span class="sxs-lookup"><span data-stu-id="22e7c-123">Get a security token using the application and its key.</span></span>
+5. <span data-ttu-id="22e7c-124">Используйте маркер для доступа Microsoft 365 Defender API.</span><span class="sxs-lookup"><span data-stu-id="22e7c-124">Use the token to access Microsoft 365 Defender API.</span></span>
 
-<span data-ttu-id="96c3b-125">Дополнительные сведения см. в приложении **[Create to access Microsoft 365 Defender без пользователя.](api-create-app-web.md)**</span><span class="sxs-lookup"><span data-stu-id="96c3b-125">For more information, see **[Create an app to access Microsoft 365 Defender without a user](api-create-app-web.md)**.</span></span>
+<span data-ttu-id="22e7c-125">Дополнительные сведения см. в **[приложении Create to access Microsoft 365 Defender без пользователя.](api-create-app-web.md)**</span><span class="sxs-lookup"><span data-stu-id="22e7c-125">For more information, see **[Create an app to access Microsoft 365 Defender without a user](api-create-app-web.md)**.</span></span>
 
-## <a name="user-context"></a><span data-ttu-id="96c3b-126">Контекст пользователя</span><span class="sxs-lookup"><span data-stu-id="96c3b-126">User context</span></span>
+## <a name="user-context"></a><span data-ttu-id="22e7c-126">Контекст пользователя</span><span class="sxs-lookup"><span data-stu-id="22e7c-126">User context</span></span>
 
-<span data-ttu-id="96c3b-127">Используйте этот контекст для выполнения действий от имени одного пользователя.</span><span class="sxs-lookup"><span data-stu-id="96c3b-127">Use this context to perform actions on behalf of a single user.</span></span>
+<span data-ttu-id="22e7c-127">Используйте этот контекст для выполнения действий от имени одного пользователя.</span><span class="sxs-lookup"><span data-stu-id="22e7c-127">Use this context to perform actions on behalf of a single user.</span></span>
 
-1. <span data-ttu-id="96c3b-128">Создание Azure Active Directory приложения.</span><span class="sxs-lookup"><span data-stu-id="96c3b-128">Create an Azure Active Directory native application.</span></span>
-2. <span data-ttu-id="96c3b-129">Назначьте нужное разрешение приложению.</span><span class="sxs-lookup"><span data-stu-id="96c3b-129">Assign the desired permission to the application.</span></span>
-3. <span data-ttu-id="96c3b-130">Получение маркера безопасности с помощью учетных данных пользователя для приложения.</span><span class="sxs-lookup"><span data-stu-id="96c3b-130">Get a security token using the user credentials for the application.</span></span>
-4. <span data-ttu-id="96c3b-131">Используйте маркер для доступа к API Microsoft 365 Defender.</span><span class="sxs-lookup"><span data-stu-id="96c3b-131">Use the token to access  Microsoft 365 Defender API.</span></span>
+1. <span data-ttu-id="22e7c-128">Создание Azure Active Directory приложения.</span><span class="sxs-lookup"><span data-stu-id="22e7c-128">Create an Azure Active Directory native application.</span></span>
+2. <span data-ttu-id="22e7c-129">Назначьте нужное разрешение приложению.</span><span class="sxs-lookup"><span data-stu-id="22e7c-129">Assign the desired permission to the application.</span></span>
+3. <span data-ttu-id="22e7c-130">Получение маркера безопасности с помощью учетных данных пользователя для приложения.</span><span class="sxs-lookup"><span data-stu-id="22e7c-130">Get a security token using the user credentials for the application.</span></span>
+4. <span data-ttu-id="22e7c-131">Используйте маркер для доступа Microsoft 365 Defender API.</span><span class="sxs-lookup"><span data-stu-id="22e7c-131">Use the token to access Microsoft 365 Defender API.</span></span>
 
-<span data-ttu-id="96c3b-132">Дополнительные сведения см. в приложении **[Create to access Microsoft 365 API Defender от имени пользователя.](api-create-app-user-context.md)**</span><span class="sxs-lookup"><span data-stu-id="96c3b-132">For more information, see **[Create an app to access Microsoft 365 Defender APIs on behalf of a user](api-create-app-user-context.md)**.</span></span>
+<span data-ttu-id="22e7c-132">Дополнительные сведения см. в приложении **[Create to access Microsoft 365 Defender API от имени пользователя.](api-create-app-user-context.md)**</span><span class="sxs-lookup"><span data-stu-id="22e7c-132">For more information, see **[Create an app to access Microsoft 365 Defender APIs on behalf of a user](api-create-app-user-context.md)**.</span></span>
 
-## <a name="partner-context"></a><span data-ttu-id="96c3b-133">Контекст партнеров</span><span class="sxs-lookup"><span data-stu-id="96c3b-133">Partner context</span></span>
+## <a name="partner-context"></a><span data-ttu-id="22e7c-133">Контекст партнеров</span><span class="sxs-lookup"><span data-stu-id="22e7c-133">Partner context</span></span>
 
-<span data-ttu-id="96c3b-134">Используйте этот контекст, когда необходимо предоставить приложение многим пользователям во [многих клиентах.](/azure/active-directory/develop/single-and-multi-tenant-apps)</span><span class="sxs-lookup"><span data-stu-id="96c3b-134">Use this context when you need to provide an app to many users across [multiple tenants](/azure/active-directory/develop/single-and-multi-tenant-apps).</span></span>
+<span data-ttu-id="22e7c-134">Используйте этот контекст, когда необходимо предоставить приложение многим пользователям во [многих клиентах.](/azure/active-directory/develop/single-and-multi-tenant-apps)</span><span class="sxs-lookup"><span data-stu-id="22e7c-134">Use this context when you need to provide an app to many users across [multiple tenants](/azure/active-directory/develop/single-and-multi-tenant-apps).</span></span>
 
-1. <span data-ttu-id="96c3b-135">Создание Azure Active Directory нескольких клиентов.</span><span class="sxs-lookup"><span data-stu-id="96c3b-135">Create an Azure Active Directory multi-tenant application.</span></span>
-2. <span data-ttu-id="96c3b-136">Назначьте нужное разрешение приложению.</span><span class="sxs-lookup"><span data-stu-id="96c3b-136">Assign the desired permission to the application.</span></span>
-3. <span data-ttu-id="96c3b-137">Получите [согласие администратора](/azure/active-directory/develop/v2-permissions-and-consent#requesting-consent-for-an-entire-tenant) для приложения от каждого клиента.</span><span class="sxs-lookup"><span data-stu-id="96c3b-137">Get [admin consent](/azure/active-directory/develop/v2-permissions-and-consent#requesting-consent-for-an-entire-tenant) for the app from each tenant.</span></span>
-4. <span data-ttu-id="96c3b-138">Получите маркер безопасности с помощью учетных данных пользователей на основе удостоверения клиента клиента.</span><span class="sxs-lookup"><span data-stu-id="96c3b-138">Get a security token using user credentials based on a customer's tenant ID.</span></span>
-5. <span data-ttu-id="96c3b-139">Используйте маркер для доступа к API Microsoft 365 Defender.</span><span class="sxs-lookup"><span data-stu-id="96c3b-139">Use the token to access  Microsoft 365 Defender API.</span></span>
+1. <span data-ttu-id="22e7c-135">Создание Azure Active Directory нескольких клиентов.</span><span class="sxs-lookup"><span data-stu-id="22e7c-135">Create an Azure Active Directory multi-tenant application.</span></span>
+2. <span data-ttu-id="22e7c-136">Назначьте нужное разрешение приложению.</span><span class="sxs-lookup"><span data-stu-id="22e7c-136">Assign the desired permission to the application.</span></span>
+3. <span data-ttu-id="22e7c-137">Получите [согласие администратора](/azure/active-directory/develop/v2-permissions-and-consent#requesting-consent-for-an-entire-tenant) для приложения от каждого клиента.</span><span class="sxs-lookup"><span data-stu-id="22e7c-137">Get [admin consent](/azure/active-directory/develop/v2-permissions-and-consent#requesting-consent-for-an-entire-tenant) for the app from each tenant.</span></span>
+4. <span data-ttu-id="22e7c-138">Получите маркер безопасности с помощью учетных данных пользователей на основе удостоверения клиента клиента.</span><span class="sxs-lookup"><span data-stu-id="22e7c-138">Get a security token using user credentials based on a customer's tenant ID.</span></span>
+5. <span data-ttu-id="22e7c-139">Используйте маркер для доступа Microsoft 365 Defender API.</span><span class="sxs-lookup"><span data-stu-id="22e7c-139">Use the token to access Microsoft 365 Defender API.</span></span>
 
-<span data-ttu-id="96c3b-140">Дополнительные сведения см. в **[приложении Create with partner access to Microsoft 365 API Defender.](api-partner-access.md)**</span><span class="sxs-lookup"><span data-stu-id="96c3b-140">For more information, see **[Create an app with partner access to Microsoft 365 Defender APIs](api-partner-access.md)**.</span></span>
+<span data-ttu-id="22e7c-140">Дополнительные сведения см. в **[приложении Create with partner access to Microsoft 365 Defender API.](api-partner-access.md)**</span><span class="sxs-lookup"><span data-stu-id="22e7c-140">For more information, see **[Create an app with partner access to Microsoft 365 Defender APIs](api-partner-access.md)**.</span></span>
 
-## <a name="related-articles"></a><span data-ttu-id="96c3b-141">Связанные статьи</span><span class="sxs-lookup"><span data-stu-id="96c3b-141">Related articles</span></span>
+## <a name="related-articles"></a><span data-ttu-id="22e7c-141">Статьи по теме</span><span class="sxs-lookup"><span data-stu-id="22e7c-141">Related articles</span></span>
 
-- [<span data-ttu-id="96c3b-142">Microsoft 365 Обзор API defender</span><span class="sxs-lookup"><span data-stu-id="96c3b-142">Microsoft 365 Defender APIs overview</span></span>](api-overview.md)
-- [<span data-ttu-id="96c3b-143">Авторизация OAuth 2.0 для входов пользователей и доступа к API</span><span class="sxs-lookup"><span data-stu-id="96c3b-143">OAuth 2.0 authorization for user sign in and API access</span></span>](/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)
-- [<span data-ttu-id="96c3b-144">Управление секретами в приложениях сервера с помощью хранилища ключей Azure</span><span class="sxs-lookup"><span data-stu-id="96c3b-144">Manage secrets in your server apps with Azure Key Vault</span></span>](/learn/modules/manage-secrets-with-azure-key-vault/)
-- [<span data-ttu-id="96c3b-145">Создание приложения "Hello world", которое имеет доступ Microsoft 365 API</span><span class="sxs-lookup"><span data-stu-id="96c3b-145">Create a 'Hello world' application that accesses the Microsoft 365 APIs</span></span>](api-hello-world.md)
+- [<span data-ttu-id="22e7c-142">Microsoft 365 Defender Обзор API</span><span class="sxs-lookup"><span data-stu-id="22e7c-142">Microsoft 365 Defender APIs overview</span></span>](api-overview.md)
+- [<span data-ttu-id="22e7c-143">Авторизация OAuth 2.0 для входов пользователей и доступа к API</span><span class="sxs-lookup"><span data-stu-id="22e7c-143">OAuth 2.0 authorization for user sign in and API access</span></span>](/azure/active-directory/develop/active-directory-v2-protocols-oauth-code)
+- [<span data-ttu-id="22e7c-144">Управление секретами в приложениях сервера с помощью хранилища ключей Azure</span><span class="sxs-lookup"><span data-stu-id="22e7c-144">Manage secrets in your server apps with Azure Key Vault</span></span>](/learn/modules/manage-secrets-with-azure-key-vault/)
+- [<span data-ttu-id="22e7c-145">Создание приложения "Hello world", которое имеет доступ Microsoft 365 API</span><span class="sxs-lookup"><span data-stu-id="22e7c-145">Create a 'Hello world' application that accesses the Microsoft 365 APIs</span></span>](api-hello-world.md)
