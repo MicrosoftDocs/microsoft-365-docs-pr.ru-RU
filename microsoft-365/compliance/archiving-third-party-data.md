@@ -22,12 +22,12 @@ ms.assetid: 0ce338d5-3666-4a18-86ab-c6910ff408cc
 ms.custom:
 - seo-marvel-apr2020
 description: Узнайте, как импортировать сторонние данные с платформ социальных сетей, платформ обмена мгновенными сообщениями и платформ совместной работы с документами в Microsoft 365 почтовых ящиков.
-ms.openlocfilehash: a51b298b934431a1be8a416dac1f831ddaca5ffe
-ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
+ms.openlocfilehash: a0c4505d3fbd593f5703f4abfb5cba1870c037c5
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52861207"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53054778"
 ---
 # <a name="archive-third-party-data"></a>Архивация сторонних данных
 
@@ -35,7 +35,7 @@ Microsoft 365 позволяет администраторам использо
 
 ## <a name="third-party-data-connectors"></a>Соединители данных сторонних производителей
 
-В следующей таблице перечислены сторонние соединители данных, доступные в центре Microsoft 365 соответствия требованиям. В таблице также подводятся итоги решений по обеспечению соответствия требованиям, которые можно применить к сторонним данным после импорта и архива в Microsoft 365. В следующем [разделе см.](#overview-of-compliance-solutions-that-support-third-party-data) более подробное описание каждого решения по соблюдению требований и способов его получения сторонними данными.
+В следующей таблице перечислены сторонние соединители данных, доступные в Центр соответствия требованиям Microsoft 365. В таблице также подводятся итоги решений по обеспечению соответствия требованиям, которые можно применить к сторонним данным после импорта и архива в Microsoft 365. В следующем [разделе см.](#overview-of-compliance-solutions-that-support-third-party-data) более подробное описание каждого решения по соблюдению требований и способов его получения сторонними данными.
 
 > [!TIP]
 > Щелкните ссылку **в** столбце сторонних данных, чтобы пошаговую инструкцию по созданию соединитетеля для этого типа данных.
@@ -69,8 +69,11 @@ Microsoft 365 позволяет администраторам использо
 |[Reuters FX <sup>2</sup>](archive-reutersfx-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
 |[Chatter Salesforce <sup>2</sup>](archive-salesforcechatter-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|||
 |[ServiceNow <sup>2</sup>](archive-servicenow-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|||
+|[Сигнал <sup>1</sup>](archive-signal-archiver-data.md)     |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Skype для бизнеса <sup>2</sup>](archive-skypeforbusiness-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
 |[Slack eDiscovery <sup>2</sup>](archive-slack-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
 |[Симфония <sup>2</sup>](archive-symphony-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Telegram <sup>1</sup>](archive-telegram-archiver-data.md)     |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
 |[TELUS Network <sup>1</sup>](archive-telus-network-data.md)    |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
 |[Text-delimited <sup>2</sup>](archive-text-delimited-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|||
 |[Twitter](archive-twitter-data-with-sample-connector.md)     |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|||
@@ -135,11 +138,11 @@ Microsoft 365 позволяет администраторам использо
 |:---------|:---------|:---------|:---------|
 |Архивер Android | Да | Нет | Нет |
 |Архив&T SMS/MMS Network Archiver | Да | Нет | Нет |
-|Архив SMS/MMS Network Archiver | Да | Нет | Нет |
+|Архивер сети Bell SMS/MMS | Да | Нет | Нет |
 |Enterprise Архивер номеров | Да | Нет | Нет |
-|Архиварный SMS и голосовой сети | Да         | Нет | Нет |
-|Архивер SMS TELUS | Да | Нет | Нет |
-|Сетевой архивер SMS Verizon SMS/MMS | Да | Нет | Нет |
+|Архивер SMS и голосовой сети O2 | Да         | Нет | Нет |
+|Архивер SMS-сети TELUS | Да | Нет | Нет |
+|Сетевой архивер Verizon SMS/MMS | Да | Нет | Нет |
 |Архивер WeChat | Да | Нет | Нет |
 |Архивер WhatsApp | Да | Нет | Нет |
 |||||

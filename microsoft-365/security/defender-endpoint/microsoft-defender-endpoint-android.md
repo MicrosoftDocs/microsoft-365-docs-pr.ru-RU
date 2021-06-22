@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 499ac9a6ee81bacb79cd83993d510f87e11c62c6
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: ceccd9e3c8a8137f672e7be519675034a84c7881
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52844722"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53055105"
 ---
 # <a name="microsoft-defender-for-endpoint-on-android"></a>Microsoft Defender для конечной точки на Android
 
@@ -44,7 +44,7 @@ ms.locfileid: "52844722"
 
 ## <a name="how-to-install-microsoft-defender-for-endpoint-on-android"></a>Установка Microsoft Defender для конечной точки на Android
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Предварительные требования
 
 -   **Для конечных пользователей**
 
@@ -72,7 +72,8 @@ ms.locfileid: "52844722"
 
 ### <a name="system-requirements"></a>Требования к системе
 
--   Android-устройства под управлением Android 6.0 и выше.
+-   Мобильные телефоны под управлением Android 6.0 и выше. **Планшеты и другие мобильные устройства под управлением Android в настоящее время не поддерживаются.** 
+
 -   Корпоративный портал Intune приложение загружается из [Google Play и](https://play.google.com/store/apps/details?id=com.microsoft.windowsintune.companyportal) устанавливается. Регистрация устройств необходима для принудительного выполнения политик соответствия требованиям к устройствам Intune.
 
 ### <a name="installation-instructions"></a>Инструкции по установке

@@ -12,20 +12,20 @@ search.appverid: ''
 localization_priority: None
 ROBOTS: ''
 description: Узнайте, как использовать Power Automate для создания потока для обработки контрактов с помощью Microsoft 365 решения.
-ms.openlocfilehash: 0ddcbeff6c8bd119850e3e4ea45db2513e774433
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: e6c1d1e53363f996241efb2394189853d840c6c2
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52636258"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53054470"
 ---
 # <a name="step-3-use-power-automate-to-create-your-flow-to-process-your-contracts"></a>Этап 3. Используйте Power Automate для создания потока для обработки контрактов
 
-Вы создали канал управления контрактами и прикрепили SharePoint библиотеку документов. Следующий шаг — создание потока Power Automate обработки контрактов, которые идентифицирует и классифицирует SharePoint syntex. Вы можете сделать этот шаг, [создав поток Power Automate в библиотеке](https://support.microsoft.com/office/create-a-flow-for-a-list-or-library-in-sharepoint-or-onedrive-a9c3e03b-0654-46af-a254-20252e580d01)SharePoint документов.
+Вы создали канал управления контрактами и прикрепили SharePoint библиотеку документов. Следующий шаг — создание потока Power Automate обработки контрактов, которые идентифицирует и классифицирует SharePoint Syntex модель. Вы можете сделать этот шаг, [создав поток Power Automate в библиотеке](https://support.microsoft.com/office/create-a-flow-for-a-list-or-library-in-sharepoint-or-onedrive-a9c3e03b-0654-46af-a254-20252e580d01)SharePoint документов.
 
 Для решения управления контрактами необходимо создать поток Power Automate для следующих действий:
 
--  После того, как контракт был классифицирован SharePoint моделью Syntex, измените состояние контракта на **In review**.
+-  После того как контракт классифицируется SharePoint Syntex моделью, измените состояние контракта на **"В обзоре".**
 - Затем контракт пересматривается и утверждается или отклоняется.
 - Для утвержденных контрактов сведения о контракте вывешив на вкладке для обработки платежей.
 - Для отклоненных контрактов команда уведомлена для дальнейшего анализа. 
@@ -36,7 +36,7 @@ ms.locfileid: "52636258"
 
 ## <a name="prepare-your-contract-for-review"></a>Подготовка контракта для проверки
 
-При выявлении и классификации контракта SharePoint модели понимания документов Syntex поток Power Automate сначала изменит состояние на **Обзор**.
+При выявлении и классификации контракта SharePoint Syntex модели понимания документов поток Power Automate сначала изменит состояние на **"В обзоре".**
 
 ![Состояние обновления.](../media/content-understanding/flow-overview.png)
 
@@ -127,9 +127,9 @@ ms.locfileid: "52636258"
 ```
 
 
-## <a name="conditional"></a>Условный
+## <a name="conditional-context"></a>Условный контекст
 
-В потоке далее необходимо создать условие, при котором ваш контракт будет либо утвержден, либо отклонен.
+В потоке далее необходимо создать условие, при котором [](#if-the-contract-is-approved) ваш контракт будет либо утвержден, либо [отклонен.](#if-the-contract-is-rejected)
 
 ![Условный.](../media/content-understanding/condition.png)
 
@@ -152,6 +152,19 @@ ms.locfileid: "52636258"
 - В потоке создается следующий элемент для перемещения утвержденных контрактов на вкладку **For Payout.**
 
    ![Flow элемент для перемещения в Pay Out.](../media/content-understanding/ready-for-payout.png)
+
+    Чтобы получить выражения для сведений, необходимых с Teams карты, используйте значения, показанные в следующей таблице.
+ 
+    |Имя     |Expression |
+    |---------|-----------|
+    | Состояние утверждения  | body ('Post_an_Adaptive_Card_to_a_Teams_channel_and_wait_for_a_response')?? ['submitActionId']         |
+    | Утверждено     | body ('Post_an_Adaptive_Card_to_a_Teams_channel_and_wait_for_a_response')?? ['responder'] ['displayName']        |
+    | Дата утверждения     | body ('Post_an_Adaptive_Card_to_a_Teams_channel_and_wait_for_a_response')?? ['responseTime']         |
+    | Примечание     | body ('Post_an_Adaptive_Card_to_a_Teams_channel_and_wait_for_a_response')?? ['data'] ['acComments']         |
+    
+    В следующем примере показано, как использовать формулу в Power Automate для записи выражения.
+
+   ![Снимок экрана Power Automate с указанием формулы выражения.](../media/content-understanding/expression-formula-power-automate.png)    
 
 - Адаптивная карта, указывательная, что контракт утвержден, создается и вывешиваться в канале управления контрактами.
 
@@ -250,11 +263,11 @@ ms.locfileid: "52636258"
 
 - В потоке проверьте файл контракта, измените состояние на **Отклонено,** а затем проверьте файл обратно.
 
-   ![Flow статус отклонен.](../media/content-understanding/reject-flow.png)
+   ![Flow отклоняется в файле контракта.](../media/content-understanding/reject-flow.png)
 
 - В потоке создается адаптивная карта, указывляемая, что контракт отклонен.
 
-   ![Flow статус отклонен.](../media/content-understanding/reject-flow-item.png)
+   ![Flow состояния отклоняется на адаптивной карте.](../media/content-understanding/reject-flow-item.png)
 
 Ниже приводится код JSON, используемый для этого шага в потоке Power Automate.
 

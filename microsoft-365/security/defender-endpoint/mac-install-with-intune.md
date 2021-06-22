@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 5aeffdaff39c2f10dfa5164764bff38e99c00010
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: 077411e5af5825efcf81d19ce8cb72ef850ae17b
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684223"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53054317"
 ---
 # <a name="intune-based-deployment-for-microsoft-defender-for-endpoint-on-macos"></a>Развертывание на основе intune для Microsoft Defender для конечной точки на macOS
 
@@ -96,17 +96,17 @@ ms.locfileid: "52684223"
 Этот профиль содержит сведения о лицензии для Microsoft Defender для конечной точки, без нее он будет сообщать, что она не лицензирована.
 
 1. Выберите **Создание профиля в** **профилях конфигурации.**
-1. Выберите  = **шаблоны типов** **профилей Platform** macOS = . **Имя шаблона** = **Настраиваемый**. Щелкните **Создать**.
+1. Выберите  = **шаблоны типов** **профилей Platform** macOS = . **Имя шаблона** = **Настраиваемый**. Нажмите кнопку **Создать**.
 
     > [!div class="mx-imgBorder"]
     > ![Создание настраиваемой конфигурации профиля](images/mdatp-6-systemconfigurationprofiles-1.png)
 
-1. Выберите имя для профиля, например "MDATP для macOS". Нажмите **Далее**.
+1. Выберите имя для профиля, например"MDE onboarding for macOS". Нажмите **Далее**.
 
     > [!div class="mx-imgBorder"]
     > ![Настраиваемый профиль конфигурации — имя](images/mdatp-6-systemconfigurationprofiles-2.png)
 
-1. Выберите имя имени профиля конфигурации, например "MDATP для macOS".
+1. Выберите имя имени профиля конфигурации, например"MDE onboarding for macOS".
 1. Выберите intune/WindowsDefenderATPOnboarding.xml, извлеченный из пакета onboarding выше, в качестве файла профиля конфигурации.
 
     > [!div class="mx-imgBorder"]
@@ -129,7 +129,7 @@ ms.locfileid: "52684223"
 Этот профиль необходим для macOS 10.15 (Catalina) или более нового. Он будет игнорироваться на более старых macOS.
 
 1. Выберите **Создание профиля в** **профилях конфигурации.**
-1. Выберите  = **шаблоны типов** **профилей Platform** macOS = . **Имя шаблона** = **Расширения**. Щелкните **Создать**.
+1. Выберите  = **шаблоны типов** **профилей Platform** macOS = . **Имя шаблона** = **Расширения**. Нажмите кнопку **Создать**.
 1. На **вкладке Basics** назови имя этому новому профилю.
 1. На **вкладке Параметры конфигурации** расширяйте **расширения системы,** добавьте следующие записи в разделе **Разрешенные расширения** системы:
 
@@ -152,7 +152,7 @@ ms.locfileid: "52684223"
 > Устройства Apple Silicon (M1) не поддерживают KEXT. Установка профиля конфигурации, состоящего из политик KEXT, не будет работать на этих устройствах.
 
 1. Выберите **Создание профиля в** **профилях конфигурации.**
-1. Выберите  = **шаблоны типов** **профилей Platform** macOS = . **Имя шаблона** = **Расширения**. Щелкните **Создать**.
+1. Выберите  = **шаблоны типов** **профилей Platform** macOS = . **Имя шаблона** = **Расширения**. Нажмите кнопку **Создать**.
 1. На **вкладке Basics** назови имя этому новому профилю.
 1. На **вкладке Параметры конфигурации** разоширим **расширения ядра.**
 1. Установите **идентификатор команды в** **UBF8T346G9** и нажмите **кнопку Далее**.
@@ -172,7 +172,7 @@ ms.locfileid: "52684223"
 
 Скачайте [**fulldisk.mobileconfig**](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/fulldisk.mobileconfig) из [нашего GitHub репозиторий](https://github.com/microsoft/mdatp-xplat/tree/master/macos/mobileconfig/profiles).
 
-Выполните инструкции по использованию [blob onboarding](#onboarding-blob) сверху, используя "MDATP полный доступ к диску" в качестве имени профиля и скачав **имя профиля конфигурации fulldisk.mobileconfig.**
+Следуйте инструкциям по использованию [blob onboarding](#onboarding-blob) сверху, используя "Полный доступ к дискам MDE" в качестве имени профиля и скачав имя профиля **конфигурации fulldisk.mobileconfig.**
 
 ### <a name="network-filter"></a>Фильтр сети
 
@@ -180,7 +180,7 @@ ms.locfileid: "52684223"
 
 Скачайте [**netfilter.mobileconfig**](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/netfilter.mobileconfig) из [нашего GitHub репозиторий](https://github.com/microsoft/mdatp-xplat/tree/master/macos/mobileconfig/profiles).
 
-Выполните инструкции по использованию [blob onboarding](#onboarding-blob) сверху, используя "фильтр сети MDATP" в качестве имени профиля и скачав **имя профиля конфигурации netfilter.mobileconfig.**
+Следуйте инструкциям по использованию [blob onboarding](#onboarding-blob) сверху, используя "Сетевой фильтр MDE" в качестве имени профиля, а также скачав имя профиля **конфигурации netfilter.mobileconfig.**
 
 ### <a name="notifications"></a>Уведомления
 
@@ -188,7 +188,7 @@ ms.locfileid: "52684223"
 
 Скачайте [**notif.mobileconfig**](https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/macos/mobileconfig/profiles/notif.mobileconfig) из [нашего GitHub репозиторий](https://github.com/microsoft/mdatp-xplat/tree/master/macos/mobileconfig/profiles).
 
-Следуйте инструкциям по использованию [blob onboarding](#onboarding-blob) сверху, используя "фильтр сети MDATP" в качестве имени профиля, а также загрузите **notif.mobileconfig** в качестве имени профиля конфигурации.
+Выполните инструкции по [onboarding blob](#onboarding-blob) сверху, используя "Уведомления MDE" в качестве имени профиля, а также скачав **notif.mobileconfig** как имя профиля конфигурации.
 
 ### <a name="view-status"></a>Просмотр состояния
 

@@ -1,5 +1,5 @@
 ---
-title: Этап 1. Использование SharePoint Syntex для определения файлов контрактов и извлечения данных
+title: Этап 1. Используйте SharePoint Syntex для идентификации файлов контрактов и извлечения данных
 ms.author: chucked
 author: chuckedmonson
 manager: pamgreen
@@ -11,15 +11,15 @@ ms.prod: microsoft-365-enterprise
 search.appverid: ''
 localization_priority: None
 ROBOTS: ''
-description: Узнайте, как использовать SharePoint Syntex для определения файлов контрактов и извлечения данных с помощью Microsoft 365 решения.
-ms.openlocfilehash: b4b11b1bdb980b0ee7629af0cbecbb126a5ae5e5
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+description: Узнайте, как использовать SharePoint Syntex для идентификации файлов контрактов и извлечения данных с помощью Microsoft 365 решения.
+ms.openlocfilehash: c66e46aaaacd5000f1e0d18aa07df527ca8ab7dd
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52636210"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53054500"
 ---
-# <a name="step-1-use-sharepoint-syntex-to-identify-contract-files-and-extract-data"></a>Этап 1. Использование SharePoint Syntex для определения файлов контрактов и извлечения данных
+# <a name="step-1-use-sharepoint-syntex-to-identify-contract-files-and-extract-data"></a>Этап 1. Используйте SharePoint Syntex для идентификации файлов контрактов и извлечения данных
 
 Вашей организации необходим способ определения и классификации всех документов по контрактам из множества файлов, которые вы получаете. Кроме *того,* необходимо быстро просмотреть несколько ключевых элементов в каждом из идентифицированных файлов контрактов (например, клиент, *подрядчик* и сумма *платы).* Это можно сделать с помощью [SharePoint Syntex](index.md) для создания модели понимания документов и ее применения в библиотеке документов.
 
@@ -37,7 +37,7 @@ ms.locfileid: "52636210"
 
    ![Контракты в библиотеке документов](../media/content-understanding/doc-lib-solution.png)
 
-5. Если у вас есть требования к удержанию для [](apply-a-retention-label-to-a-model.md) контрактов, вы также можете использовать модель для применения метки хранения, которая не позволит удалить контракты в течение определенного периода времени.
+5. Если у вас есть требования к хранению или безопасности для контрактов, вы [](apply-a-sensitivity-label-to-a-model.md) также можете использовать модель для применения метки хранения или метки конфиденциальности, которые не будут удалять ваши контракты в течение определенного периода времени или ограничить доступ к контрактам. [](apply-a-retention-label-to-a-model.md)
 
 ## <a name="steps-to-create-and-train-your-model"></a>Действия по созданию и подготовке модели
 
@@ -198,6 +198,11 @@ ms.locfileid: "52636210"
 6. На странице **Models > Contract** в  разделе Библиотеки с этой моделью вы увидите URL-адрес SharePoint сайта.
 
     ![Снимок экрана домашней страницы Contract, показывающая библиотеки с этим разделом модели.](../media/content-understanding/contract-libraries-with-this-model.png)
+
+7. В **Параметры**  >  **параметров библиотеки:**
+
+   - Добавьте столбец с **именем Status** и **выберите Выбор** в качестве типа столбца.
+   - Применить значения **In Review,** **Approved** и **Rejected.**
 
 После применения модели к библиотеке документов можно приступить к отправке документов на сайт и увидеть результаты.
 

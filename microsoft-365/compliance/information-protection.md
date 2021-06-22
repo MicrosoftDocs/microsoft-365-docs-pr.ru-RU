@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-compliance
 recommendations: false
 description: Внедрение Microsoft Information Protection (MIP) для защиты конфиденциальной информации в любом расположении, где она находится или куда перемещается.
-ms.openlocfilehash: 2de9b1e4a3901477df883287a1ee350885de5513
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: 1d8e0340e518bcc66399dcc667e030efca89316a
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52683695"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53055103"
 ---
 # <a name="microsoft-information-protection-in-microsoft-365"></a>Microsoft Information Protection в Microsoft 365
 
@@ -77,7 +77,7 @@ ms.locfileid: "52683695"
 |:------|:------------|:---------------------|
 |[Защита от потери данных](dlp-learn-about-dlp.md)| Предотвращение непреднамеренного предоставления общего доступа к конфиденциальным элементам. | [Начало работы со стандартной политикой защиты от потери данных](get-started-with-the-default-dlp-policy.md)|
 |[Защита от потери данных в конечной точке](endpoint-dlp-learn-about.md)| Расширение возможностей DLP для элементов, которые используются и к которым предоставляется общий доступ на компьютерах с Windows 10. | [Начало работы с функцией защиты от потери данных в конечной точке](endpoint-dlp-getting-started.md)|
-|[Расширение соответствия требованиям Майкрософт (предварительная версия)](dlp-chrome-learn-about.md) | Расширение возможностей защиты от потери данных в браузере Chrome | [Начало работы с расширением соответствия требованиям Майкрософт (предварительная версия)](dlp-chrome-get-started.md)|
+|[Расширение соответствия требованиям Майкрософт](dlp-chrome-learn-about.md) | Расширение возможностей защиты от потери данных в браузере Chrome | [Начало работы с расширением соответствия требованиям Майкрософт](dlp-chrome-get-started.md)|
 |[Локальный сканер для защиты от потери данных Microsoft 365 (предварительная версия)](dlp-on-premises-scanner-learn.md)|Расширяет возможности защиты от потери данных по отслеживанию действий и защитных мер для файлов в локальных общих папках, а также в папках и библиотеках документов SharePoint.|[Начало работы с локальным сканером для защиты от потери данных Microsoft 365 (предварительная версия)](dlp-on-premises-scanner-get-started.md)|
 |[Защита конфиденциальной информации в чатах и сообщениях каналов Microsoft Teams](dlp-microsoft-teams.md) | Расширяет некоторые функции защиты от потери данных для чатов и сообщений каналов Teams | [Сведения о политике защиты от потери данных по умолчанию в Microsoft Teams (предварительная версия)](dlp-teams-default-policy.md)|
 

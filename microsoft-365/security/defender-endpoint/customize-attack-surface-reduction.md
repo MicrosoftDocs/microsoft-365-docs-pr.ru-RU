@@ -14,12 +14,12 @@ ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 6b9814180df2cad2553c4565ebb65891b5cf9bf5
-ms.sourcegitcommit: 34c06715e036255faa75c66ebf95c12a85f8ef42
+ms.openlocfilehash: 0705ba096c2aefc6bd089bd5fba80b055fd881dc
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52985424"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53055237"
 ---
 # <a name="customize-attack-surface-reduction-rules"></a>Настройка правил сокращения направлений атак
 
@@ -90,7 +90,7 @@ ms.locfileid: "52985424"
 
 2. В **редакторе управления групповой политикой** перейдите к **конфигурации компьютера** и щелкните **административные шаблоны**.
 
-3. Расширь **дерево, Windows компоненты антивирусная программа в Microsoft Defender** Защитник Windows с уменьшением поверхности  >    >  **exploit**  >  **Guard Attack.**
+3. Расширь **дерево, Windows компоненты антивирусная программа в Microsoft Defender**  >    >  **Exploit Guard в Microsoft Defender**  >  **атаки.**
 
 4. Дважды нажмите кнопку **Исключить файлы и пути** из параметра Правила уменьшения поверхности атаки и установите параметр **Включено**. Выберите **Показать и** ввести каждый файл или папку в столбце Имя **значения.** Введите **0** в **столбце Значение** для каждого элемента.
 

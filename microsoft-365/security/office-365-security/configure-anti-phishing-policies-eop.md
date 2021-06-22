@@ -15,12 +15,12 @@ ms.collection:
 description: Администраторы могут научиться создавать, изменять и удалять политики защиты от фишинга, доступные в Exchange Online Protection организациях с Exchange Online почтовыми ящиками.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2aaeb10eaa3c06e721df3cf7a00658482e6ffc0c
-ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
+ms.openlocfilehash: 8633644ab0380cf2adcf30c006a7d6d141a6040a
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53029925"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53054573"
 ---
 # <a name="configure-anti-phishing-policies-in-eop"></a>Настройка политик защиты от фишинга в EOP
 
@@ -144,7 +144,7 @@ ms.locfileid: "53029925"
 
 1. На портале Microsoft 365 Defender перейдите в раздел Политики **совместной** & электронной почты & правила политики угрозы \>  \>  \>  \> .
 
-2. На странице **Anti-phishing** в списке политик защиты от фишинга отображаются следующие свойства:
+2. На **странице Anti-phishing** в списке политик отображаются следующие свойства:
 
    - **Имя**
    - **Состояние**
@@ -213,9 +213,11 @@ ms.locfileid: "53029925"
 
 1. На портале Microsoft 365 Defender перейдите в раздел Политики **совместной** & электронной почты & правила политики угрозы \>  \>  \>  \> .
 
-2. Выберите настраиваемую политику из списка, щелкнув имя политики. В открывшемся всплывающем окне сведений о политике щелкните ![значок "Дополнительные действия"](../../media/m365-cc-sc-more-actions-icon.png) **Дополнительные действия** \> ![значок "Удалить политику"](../../media/m365-cc-sc-delete-icon.png) **Удалить политику**.
+2. На странице **Anti-phishing** выберите настраиваемую политику из списка, нажав на имя.
 
-3. В диалоговом окне подтверждения нажмите **Да**.
+3. В открывшемся всплывающем окне сведений о политике щелкните ![значок "Дополнительные действия"](../../media/m365-cc-sc-more-actions-icon.png) **Дополнительные действия** \> ![значок "Удалить политику"](../../media/m365-cc-sc-delete-icon.png) **Удалить политику**.
+
+4. В диалоговом окне подтверждения нажмите **Да**.
 
 ## <a name="use-exchange-online-powershell-to-configure-anti-phishing-policies"></a>Используйте Exchange Online PowerShell для настройки политик защиты от фишинга
 

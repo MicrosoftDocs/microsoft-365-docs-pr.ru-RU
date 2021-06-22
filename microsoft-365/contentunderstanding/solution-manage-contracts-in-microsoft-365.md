@@ -13,12 +13,12 @@ search.appverid: ''
 localization_priority: None
 ROBOTS: ''
 description: Узнайте, как управлять контрактами с Microsoft 365 решения SharePoint Syntex, SharePoint списков, Microsoft Teams и Power Automate.
-ms.openlocfilehash: 352ebd1b9170aaf7829c414e87f7a79c4f17a1df
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: d3be12dbddabbcddc41f7c9d882db5473350266e
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843774"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53054763"
 ---
 # <a name="manage-contracts-using-a-microsoft-365-solution"></a>Управление контрактами с помощью решения Microsoft 365
 
@@ -40,7 +40,7 @@ ms.locfileid: "52843774"
 
 ## <a name="overview-of-the-solution"></a>Обзор решения
 
-  ![Схема решения с использованием SharePoint, SharePoint списков, Teams и Power Automate.](../media/content-understanding/syntex-solution-manage-contracts-setup-steps.png)
+  ![Схема решения с использованием SharePoint Syntex, SharePoint списков, Teams и Power Automate.](../media/content-understanding/syntex-solution-manage-contracts-setup-steps.png)
 
 Это руководство по управлению контрактами включает четыре компонента Microsoft 365:
 
@@ -56,7 +56,7 @@ ms.locfileid: "52843774"
 
   ![Схема решения, показывающая рабочий процесс для отправки документов, извлечения данных, уведомления заинтересованных сторон и утверждения или отказа от контракта.](../media/content-understanding/syntex-solution-manage-contracts-overview.png)
 
-1. Документы загружаются в библиотеку SharePoint документов. К библиотеке документов применена SharePoint модель понимания документов Syntex. Он проверяет каждый файл, чтобы узнать, совпадает ли какой-либо тип контента с "контрактом", который он обучен искать. Если он находит совпадение, он классифицирует файл как "контракт" и обновляет тип контента для документа.
+1. Документы загружаются в библиотеку SharePoint документов. В библиотеку документов была применена SharePoint Syntex модель понимания документов. Он проверяет каждый файл, чтобы узнать, совпадает ли какой-либо тип контента с "контрактом", который он обучен искать. Если он находит совпадение, он классифицирует файл как "контракт" и обновляет тип контента для документа.
 
 2. Модель также извлекет конкретные данные из каждого файла контрактов, которые заинтересованные стороны заинтересованы в том, чтобы увидеть, например, *клиент,* *подрядчик* и сумма *платы.*
 
@@ -86,6 +86,6 @@ ms.locfileid: "52843774"
 
 В следующих разделах будут подробно изуметь, как настроить решение по управлению контрактами. Она разделена на три этапа:
 
-- [Шаг 1. Использование SharePoint Syntex для определения файлов контрактов и извлечения данных](solution-manage-contracts-step1.md)
+- [Шаг 1. Используйте SharePoint Syntex для идентификации файлов контрактов и извлечения данных](solution-manage-contracts-step1.md)
 - [Шаг 2. Используйте Microsoft Teams для создания канала управления контрактами](solution-manage-contracts-step2.md)
 - [Шаг 3. Используйте Power Automate для создания потока для обработки контрактов](solution-manage-contracts-step3.md)

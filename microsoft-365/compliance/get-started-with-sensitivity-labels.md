@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Вы готовы развернуть метки конфиденциальности для защиты данных организации, но не знаете, с чего начать? Ознакомьтесь с практическим руководством, которое поможет вам приступить к работе с метками.
-ms.openlocfilehash: 550a1a84df88340de14caff08284ef6a8cadc9e9
-ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
+ms.openlocfilehash: b5e6c8d6d2972b6aa050e3805c51327a6cf1058c
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53022490"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53055081"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>Начало работы с метками конфиденциальности
 
@@ -90,7 +90,7 @@ ms.locfileid: "53022490"
 |Обнаруживать, применять метки и защищать файлы, хранящиеся в локальных хранилищах данных |[Развертывание сканера Azure Information Protection для автоматической классификации и защиты файлов](/azure/information-protection/deploy-aip-scanner)|
 |Обнаруживать, применять метки и защищать файлы, хранящиеся в облачных хранилищах данных|[Обнаружение, классификация, применение меток и защита регламентированных и конфиденциальных данных, хранящихся в облаке](/cloud-app-security/best-practices#discover-classify-label-and-protect-regulated-and-sensitive-data-stored-in-the-cloud)|
 |Применение и просмотр меток в Power BI и защита данных при сохранении за пределами службы|[Метки конфиденциальности в Power BI](/power-bi/admin/service-security-sensitivity-label-overview)|
-|Отслеживать и понимать использования меток конфиденциальности в организации|[Изучение данных — обзор классификации данных](data-classification-overview.md) <br /><br /> [Начало работы с классификацией данных](data-classification-overview.md)|
+|Отслеживать и понимать использования меток конфиденциальности в организации|[Сведения о классификации данных](data-classification-overview.md)|
 |Расширить применение меток конфиденциальности на сторонние приложения и службы|[Пакет SDK для Microsoft Information Protection](/information-protection/develop/overview#microsoft-information-protection-sdk)|
 |Расширить применение меток конфиденциальности на содержимое в хранилище BLOB-объектов Azure, файлы Azure, Azure Data Lake Storage 1-го поколения и Azure Data Lake Storage 12-го поколения|[Автоматическое применение меток к содержимому в Azure Purview](/azure/purview/create-sensitivity-label) |
 

@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 description: Получите последнюю информацию об изолировании на основе оборудования. Предотвращение текущих и возникающих атак, таких как эксплойты или вредоносные ссылки, от нарушения производительности труда сотрудников и безопасности предприятия.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: d0fa6ad884c6b21457c8359cf82e32e4b8c100ba
-ms.sourcegitcommit: 7ebed5810480d7c49f8ca03207b5ea84993d253f
+ms.openlocfilehash: 39d6a9c3a3c3a5e2c736025a26c22588f9f08bb0
+ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51488315"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53055266"
 ---
 # <a name="application-guard-for-office-for-admins"></a>Application Guard для Office для администраторов
 
@@ -29,7 +29,7 @@ ms.locfileid: "51488315"
 
 Application Guard в Microsoft Defender для Office (Application Guard for Office) помогает предотвратить доступ ненаверенных файлов к доверенным ресурсам и защитить ваше предприятие от новых и новых атак. В этой статье администраторы проходят настройку устройств для предварительного просмотра приложения Guard для Office. Она предоставляет сведения о требованиях к системе и шагах по установке, чтобы включить application Guard для Office на устройстве.
 
-## <a name="prerequisites"></a>Предварительные условия
+## <a name="prerequisites"></a>Предварительные требования
 
 ### <a name="minimum-hardware-requirements"></a>Минимальные требования к оборудованию
 
@@ -83,7 +83,7 @@ Application Guard в Microsoft Defender для Office (Application Guard for Off
 
 Этот шаг гарантирует, что данные, необходимые для выявления и устранения проблем, достигают Корпорации Майкрософт. Выполните следующие действия, чтобы включить диагностику на Windows устройстве:
 
-1. Откройте **Параметры** меню Пуск.
+1. Откройте **Параметры** из меню .
 
    ![Меню "Пуск"](../../media/ag05-diagnostic.png)
 
@@ -120,7 +120,6 @@ Application Guard в Microsoft Defender для Office (Application Guard for Off
 ## <a name="configure-application-guard-for-office"></a>Настройка охраны приложений для Office
 
 Office поддерживает следующие политики, позволяющие настроить возможности application Guard для Office. Эти политики можно настроить с помощью групповых политик или Office [службы облачной политики.](/DeployOffice/overview-office-cloud-policy-service)
-См. параметры конфигурации, заданная администратором, просмотрев параметры групповой политики в административных шаблонах конфигурации **\\ пользователей Microsoft Office \\ 2016 Параметры \\ Trust Center Application \\ \\ Guard.**
 
 
 > [!NOTE]
@@ -234,6 +233,9 @@ Application Guard использует виртуализированный ко
 ## <a name="known-issues"></a>Известные проблемы
 
 * Выбор веб-ссылок `http` `https` (или) не открывает браузер.
-* В настоящее время не поддерживается вклейка контента или изображений в формате RTF в виде Office документов, открытых с помощью application Guard.
-* По умолчанию для политики защиты неподтверщенных типов файлов необходимо заблокировать открытие неподтверщенных неподтверщенных типов файлов управления правами на информацию (IRM), CSV или HTML.
+* Параметр по умолчанию для политики защиты от копирования вклейки — включить доступ буфера обмена данными только к тексту.
+* Параметр по умолчанию для политики защиты неподтверщенных типов файлов состоит в том, чтобы заблокировать открытие неподтверщенных типов файлов, которые зашифрованы или имеют набор управления правами на информацию (IRM). К ним относятся файлы, Microsoft Information Protection метки конфиденциальности с использованием шифрования (конфиденциального или конфиденциального).
+* CSV и HTML-файлы в настоящее время не поддерживаются.
+* Application Guard для Office в настоящее время не работает с сжатыми томами NTFS. Если вы видите ошибку "ERROR_VIRTUAL_DISK_LIMITATION", попробуйте раздавить громкость.
 * Обновления до .NET могут привести к сбойу открытия файлов в Application Guard. Как обходное решение, пользователи могут перезапустить свое устройство, когда они наткнулись на этот сбой. Узнайте больше о проблеме при получении сообщения об ошибке при попытке открыть Application Guard в Защитнике Windows [или Windows песочницу.](https://support.microsoft.com/help/4575917/receiving-an-error-message-when-attempting-to-open-windows-defender-ap)
+* Дополнительные сведения см. в Application Guard в Microsoft Defender [часто задамые вопросы.](/windows/security/threat-protection/microsoft-defender-application-guard/faq-md-app-guard) 
