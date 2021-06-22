@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 1c61e69b5c8d414ab229fa8bf64eb657a6e40304
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: b2c0b986ef6dbb54cd34e9b4413711cd3e5f9c6d
+ms.sourcegitcommit: 4d26a57c37ff7efbb8d235452c78498b06a59714
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245964"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53053159"
 ---
 # <a name="device-discovery-frequently-asked-questions"></a>Обнаружение устройств часто задают вопросы
 
@@ -65,7 +65,7 @@ ms.locfileid: "52245964"
  По умолчанию все бортовые устройства, работающие на Windows 10 версии 1809 или более поздней версии, схватив и анализируя следующие протоколы: ARP, CDP, DHCP, DHCPv6, IP (headers), LLDP, LLMNR, mDNS, MNDP, NBNS, SSDP, TCP (headers), UDP (headers), WSD
 
 ## <a name="which-protocols-do-you-use-for-active-probing-in-standard-discovery"></a>Какие протоколы вы используете для активного прорабтки в стандартном открытии?
- Если устройство настроено для запуска стандартных открытий, подвергаются проверке службы с помощью следующих протоколов: ARP, FTP, HTTP, ICMP, LLMNR, NBNS, RDP, SIP, SMTP, SNMP, SNMP, Telnet, UPNP, WSD, SMB, NBSS, IPP, PJL
+ Если устройство настроено для запуска стандартных открытий, Обнаженные службы зондироваться с помощью следующих протоколов: ARP, FTP, HTTP, HTTPS, ICMP, LLMNR, NBNS, RDP, SIP, SMTP, SNMP, SSH, Telnet, UPNP, WSD, SMB, NBSS, IPP, PJL, RPC, mDNS, DHCP, AFP, CrestonCIP, IphoneSync
 
 ## <a name="how-can-i-exclude-targets-from-being-probed-with-standard-discovery"></a>Как исключить возможность проверки целей с помощью стандартного обнаружения?
  Если в сети есть устройства, которые не следует активно проверять, можно также определить список исключений, чтобы предотвратить их сканирование. Конфигурация доступна на странице параметры обнаружения устройства.
@@ -91,4 +91,5 @@ ms.locfileid: "52245964"
 ## <a name="can-i-onboard-unmanaged-devices-that-were-found"></a>Могу ли я использовать найденные неугодные устройства?
  Да. Неугомонные конечные точки в сети вводят в сеть уязвимости и риски. Их в службу может повысить видимость безопасности на них. 
 
-
+## <a name="ive-noticed-that-unmanaged-device-health-state-is-always-active-why-is-that"></a>Я заметил, что состояние неуравноверяемой службы устройства всегда является "Активным", почему это?
+Временно неустановленное состояние здоровья устройства будет "Активным" в течение стандартного периода хранения инвентаризации устройства независимо от фактического состояния.

@@ -19,11 +19,11 @@ search.appverid:
 ms.custom: seo-marvel-apr2020
 description: Узнайте, как использовать Обозреватель действий с метками в Центре безопасности и соответствия требованиям Microsoft 365 для поиска и просмотра действий с метками.
 ms.openlocfilehash: e21bb867044b2a6644b125aad9983ce3518f70ee
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.sourcegitcommit: 4d26a57c37ff7efbb8d235452c78498b06a59714
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45127276"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53053353"
 ---
 # <a name="view-label-activity-for-documents"></a>Просмотр действий с метками для документов
 

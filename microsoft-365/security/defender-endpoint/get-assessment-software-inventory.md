@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
 ms.custom: api
-ms.openlocfilehash: 639f850119498222684c4b3804b32a29dda3eac4
-ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
+ms.openlocfilehash: 6a0bc142d8fa353e7e5910b0a5eba4842cd7ff50
+ms.sourcegitcommit: 4d26a57c37ff7efbb8d235452c78498b06a59714
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53022886"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53053171"
 ---
 # <a name="export-software-inventory-assessment-per-device"></a>Экспорт оценки инвентаризации программного обеспечения на устройство
 
@@ -45,7 +45,7 @@ ms.locfileid: "53022886"
 
   - Скачайте все файлы с помощью URL-адресов загрузки и обработать данные, как вам нравится.
 
-Собранные данные (с помощью _OData_ или _с_ помощью файлов) являются текущим снимком текущего состояния и не содержат исторических данных. Чтобы собрать исторические данные, клиенты должны сохранять данные в собственных хранилищах данных.
+Собранные данные (с помощью ответа _Json_ или с помощью _файлов)_ являются текущим снимком текущего состояния и не содержат исторических данных. Чтобы собрать исторические данные, клиенты должны сохранять данные в собственных хранилищах данных.
 
 > [!Note]
 >
@@ -98,20 +98,20 @@ GET /api/machines/SoftwareInventoryByMachine
 
 Свойство (ID) | Тип данных | Описание | Пример возвращенного значения
 :---|:---|:---|:---
-DeviceId | Строка | Уникальный идентификатор устройства в службе. | 9eaf3a8b5962e0e6b1af9ec756664a9b823df2d1
-DeviceName | Строка | Полное доменное имя (FQDN) устройства. | johnlaptop.europe.contoso.com
+DeviceId | string | Уникальный идентификатор устройства в службе. | 9eaf3a8b5962e0e6b1af9ec756664a9b823df2d1
+DeviceName | string | Полное доменное имя (FQDN) устройства. | johnlaptop.europe.contoso.com
 DiskPaths | Array[string]  | Дисковые данные о том, что продукт установлен на устройстве. | [C: \\ Файлы программы (x86) \\ Microsoft \\ Silverlight \\ Application \\silverlight.exe" ]
-EndOfSupportDate | Строка | Дата, в которой поддержка этого программного обеспечения имеет или закончится. | 2020-12-30
-EndOfSupportStatus | Строка | Конец состояния поддержки. Может содержать эти возможные значения: None, EOS Version, Upcoming EOS Version, EOS Software, Upcoming EOS Software. | Предстоящий EOS
+EndOfSupportDate | string | Дата, в которой поддержка этого программного обеспечения имеет или закончится. | 2020-12-30
+EndOfSupportStatus | string | Конец состояния поддержки. Может содержать эти возможные значения: None, EOS Version, Upcoming EOS Version, EOS Software, Upcoming EOS Software. | Предстоящий EOS
 Id | string | Уникальный идентификатор для записи. | 123ABG55_573AG&mnp!
 NumberOfWeaknesses | int | Количество недостатков этого программного обеспечения на этом устройстве | 3
-OSPlatform | Строка | Платформа операционной системы, запущенной на устройстве. Здесь указываются конкретные операционные системы, включая варианты одного семейства, например Windows 10 и Windows 7. Подробные сведения см. в материале tvm supported operating systems and platforms. | Windows10
-RbacGroupName | Строка | Группа управления доступом на основе ролей (RBAC). Если это устройство не назначено какой-либо группе RBAC, значение будет "Unassigned". Если организация не содержит групп RBAC, значение будет "Нет". | Servers
+OSPlatform | string | Платформа операционной системы, запущенной на устройстве. Здесь указываются конкретные операционные системы, включая варианты одного семейства, например Windows 10 и Windows 7. Подробные сведения см. в материале tvm supported operating systems and platforms. | Windows10
+RbacGroupName | string | Группа управления доступом на основе ролей (RBAC). Если это устройство не назначено какой-либо группе RBAC, значение будет "Unassigned". Если организация не содержит групп RBAC, значение будет "Нет". | Servers
 RegistryPaths | Array[string] | Свидетельство реестра о том, что продукт установлен на устройстве. | [HKEY_LOCAL_MACHINE \\ ПРОГРАММНОЕ \\ ОБЕСПЕЧЕНИЕ WOW6432Node \\ Microsoft Windows \\ \\ CurrentVersion удалить Microsoft \\ \\ Silverlight" ]
-SoftwareFirstSeenTimestamp | Строка | Впервые это программное обеспечение было замечено на устройстве. | 2019-04-07 02:06:47
-SoftwareName | Строка | Имя программного продукта. | Silverlight
-SoftwareVendor | Строка | Имя поставщика программного обеспечения. | Microsoft
-SoftwareVersion | Строка | Номер версии программного продукта. | 81.0.4044.138
+SoftwareFirstSeenTimestamp | string | Впервые это программное обеспечение было замечено на устройстве. | 2019-04-07 02:06:47
+SoftwareName | string | Имя программного продукта. | Silverlight
+SoftwareVendor | string | Имя поставщика программного обеспечения. | Microsoft
+SoftwareVersion | string | Номер версии программного продукта. | 81.0.4044.138
 
 ### <a name="16-examples"></a>1.6 Примеры
 
@@ -259,7 +259,7 @@ GET /api/machines/SoftwareInventoryExport
 Свойство (ID) | Тип данных | Описание | Пример возвращенного значения
 :---|:---|:---|:---
 Экспорт файлов | строка \[ массива\] | Список загрузок URL-адресов для файлов с текущим снимком организации | [  Https://tvmexportstrstgeus.blob.core.windows.net/tvm-export...1”, “https://tvmexportstrstgeus.blob.core.windows.net/tvm-export...2” ]
-GeneratedTime | Строка | Время, за которое был создан экспорт. | 2021-05-20T08:00:00Z ]
+GeneratedTime | string | Время, за которое был создан экспорт. | 2021-05-20T08:00:00Z ]
 
 ### <a name="26-examples"></a>2.6 Примеры
 

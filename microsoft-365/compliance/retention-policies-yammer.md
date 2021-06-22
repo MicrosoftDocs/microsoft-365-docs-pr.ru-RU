@@ -17,19 +17,19 @@ search.appverid:
 - MOE150
 - MET150
 description: Сведения о политиках хранения, применимых к Yammer.
-ms.openlocfilehash: a8d047845b986029d393816982e6bede3db71485
-ms.sourcegitcommit: 3e971b31435d17ceeaa9871c01e88e25ead560fb
+ms.openlocfilehash: d4988eee419a38497d4fa35cdb3e2f7fec103688
+ms.sourcegitcommit: 4d26a57c37ff7efbb8d235452c78498b06a59714
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52861567"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53052931"
 ---
 # <a name="learn-about-retention-for-yammer"></a>Сведения о хранении содержимого Yammer
 
 >*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).*
 
 > [!NOTE]
-> Эта возможность находится на этапе предварительной версии и еще недоступна всем клиентам.
+> Эта функция в настоящее время находится на этапе тестирования и может быть изменена.
 
 Эта статья дополняет [сведения о хранении](retention.md), так как в ней содержатся сведения, относящиеся к Yammer.
 
