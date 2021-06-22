@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: ed4e0c477bd2a8840e920b337f05c8730965bcff
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 16baaa6fd9865140d42c0ca3a566427f761a28c2
+ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52636246"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53062217"
 ---
 # <a name="device-discovery-overview"></a>Обзор обнаружения устройств
 
@@ -35,7 +35,6 @@ ms.locfileid: "52636246"
 - [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2146631)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
-[!include[Prerelease information](../../includes/prerelease.md)]
 
 Защита среды требует инвентаризации устройств, которые находятся в вашей сети. Однако устройства сопоставления в сети часто могут быть дорогостоящими, сложными и трудоемкими. 
 

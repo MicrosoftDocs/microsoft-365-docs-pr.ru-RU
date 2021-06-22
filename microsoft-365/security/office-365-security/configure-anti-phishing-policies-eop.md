@@ -15,12 +15,12 @@ ms.collection:
 description: Администраторы могут научиться создавать, изменять и удалять политики защиты от фишинга, доступные в Exchange Online Protection организациях с Exchange Online почтовыми ящиками.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8633644ab0380cf2adcf30c006a7d6d141a6040a
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: 1dcfba32a5c76915c8c905d55b69712162efac48
+ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 06/22/2021
-ms.locfileid: "53054573"
+ms.locfileid: "53062223"
 ---
 # <a name="configure-anti-phishing-policies-in-eop"></a>Настройка политик защиты от фишинга в EOP
 
@@ -126,11 +126,14 @@ ms.locfileid: "53054573"
      - **Перемещение сообщения в папки нежелательной почты получателей**
      - **Карантин сообщения**
 
-   - **Советы по &** безопасности: этот параметр доступен только в том случае, если вы выбрали **сведения о** подмене на предыдущей странице:
-     - **Показать (?)** для неавентированных отправителей для подмены: добавляет знак вопроса на фотографию отправителей в поле From в Outlook, если сообщение  не проходит проверки SPF или DKIM и сообщение не проходит DMARC или композитную проверку подлинности [.](email-validation-and-authentication.md#composite-authentication)
-     - **Показать тег "via":** добавляет тег chris@contoso.com через fabrikam.com) в адрес From, если он отличается от домена в подписи DKIM или адреса **MAIL FROM.**
+   - **Советы по & безопасности:**
+     - **Показать первые контактные совет по безопасности:** Дополнительные сведения см. в [совет по безопасности.](set-up-anti-phishing-policies.md#first-contact-safety-tip)
+     - **Показать (?)** для неавентированных отправителей для подмены: добавляет знак вопроса к фотографии отправителей в поле From в Outlook, если сообщение не проходит проверки SPF или DKIM и сообщение не передает <sup>\*</sup> DMARC  или композитную проверку подлинности . [](email-validation-and-authentication.md#composite-authentication)
+     - **Показать тег "via":** Добавляет тег via (chris@contoso.com fabrikam.com) на адрес From, если он отличается от домена в подписи <sup>\*</sup> DKIM или адреса MAIL **FROM.**
 
      Чтобы включить параметр, выберите поле для проверки. Чтобы отключить его, зачистите контрольный ящик.
+
+     <sup>\*</sup> Этот параметр доступен только в том случае, если вы выбрали сведения о подмене **подмены на** предыдущей странице. Дополнительные сведения см. в [перенаправщике, неавентированном.](set-up-anti-phishing-policies.md#unauthenticated-sender)
 
    По завершении нажмите кнопку **Далее**.
 

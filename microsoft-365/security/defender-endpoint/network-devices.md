@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: da15519211599bfc248c20c36cfab456c1661caa
-ms.sourcegitcommit: 22505ce322f68a2d0ce70d71caf3b0a657fa838a
+ms.openlocfilehash: 86b8a37fd6b2d6f9906321b5d74de0e21c45fca3
+ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51862071"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53062145"
 ---
 # <a name="network-device-discovery-and-vulnerability-management"></a>Обнаружение и управление уязвимостями
 
@@ -34,11 +34,6 @@ ms.locfileid: "51862071"
 - [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/?linkid=2154037)
 - [Угроза и управление уязвимостями](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
-
-> [!IMPORTANT]
-> **Сканирование и управление сетевыми устройствами в настоящее время находятся в общедоступных предварительных просмотрах**<br>
-> Эта версия предварительного просмотра предоставляется без соглашения об уровне обслуживания и не рекомендуется для рабочих нагрузок. Некоторые функции могут не поддерживаться или иметь ограниченные возможности.
-> Дополнительные сведения см. в [веб-сайте Microsoft Defender для функций предварительного просмотра конечных точек.](preview.md)
 
 >Хотите испытать Microsoft Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-portaloverview-abovefoldlink)
 
@@ -209,7 +204,7 @@ ms.locfileid: "51862071"
 
 Измените параметры командной строки на устройстве, чтобы разрешить копирование и изменение размера текста.
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 - [Инвентаризация устройств](machines-view-overview.md)
 - [Настройка дополнительных функций](advanced-features.md)

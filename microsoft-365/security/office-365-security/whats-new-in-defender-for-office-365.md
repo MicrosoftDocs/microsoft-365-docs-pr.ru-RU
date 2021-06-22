@@ -21,12 +21,12 @@ ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 53e60578f575e94dfb51c1c5f44a3d7ffb91110b
-ms.sourcegitcommit: ac3e9ccb7b43a42e600af8f44e6f30019533faeb
+ms.openlocfilehash: 0eaf34e6950e265514b14ff1fd0aa1c7bb9ab6b1
+ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "52932822"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53062198"
 ---
 # <a name="whats-new-in-microsoft-defender-for-office-365"></a>Что нового в Microsoft Defender для Office 365
 
@@ -42,6 +42,14 @@ ms.locfileid: "52932822"
 > [!TIP]
 > У вас еще нет microsoft Defender для Office 365? [Свяжитесь с продажами, чтобы начать пробную работу.](https://info.microsoft.com/ww-landing-M365SMB-web-contact.html)
 
+## <a name="june-2021"></a>Июнь 2021 г.
+
+- Новый первый контакт совет по безопасности в политиках защиты от фишинга. Это совет по безопасности, когда получатели сначала получают сообщение от отправитель или не часто получают сообщение от отправитель. Дополнительные сведения об этом параметре и его настройке см. в следующих статьях:
+
+- [Первый контакт совет по безопасности](set-up-anti-phishing-policies.md#first-contact-safety-tip)
+- [Настройка политик защиты от фишинга в EOP](configure-anti-phishing-policies-eop.md)
+- [Настройка политик защиты от фишинга в Microsoft Defender для Office 365](configure-mdo-anti-phishing-policies.md)
+
 ## <a name="aprilmay-2021"></a>Апрель/май 2021 г.
 
 - [](mdo-email-entity-page.md)Страница сущности электронной почты: унифицированное 360-градусное представление электронной почты с обогащенной информацией об угрозах, проверке подлинности и обнаружениях, сведениях о детонации и совершенно новом опыте предварительного просмотра электронной почты.
@@ -54,6 +62,7 @@ ms.locfileid: "52932822"
 - Увеличение ограничений на экспорт записей с 9990 до 200 000 в [охотничьих опытах](threat-explorer.md)
 - Расширение ограничения хранения и поиска данных Explorer (и обнаружения в режиме реального времени) для пробных клиентов с 7 (предыдущего ограничения) до 30 дней в ходе [охоты](threat-explorer.md)
 - Новые поворотные точки охоты,  называемые импотенциозным доменом и обезличенным пользователем в explorer (и обнаружения в режиме реального времени) для поиска атак на защищенных пользователей или доменов.  Дополнительные сведения см. в [дополнительных сведениях.](threat-explorer.md#view-phishing-emails-sent-to-impersonated-users-and-domains) (Microsoft Defender для Office 365 плана 1 или плана 2)
+- Новый первый контакт совет по безопасности, когда получатели сначала получают сообщение от отправитель или не часто получают электронную почту от отправитель. Дополнительные сведения об этом параметре и его настройке с помощью Exchange правил потока почты (также известных как правила транспорта), см. в [совет по безопасности.](set-up-anti-phishing-policies.md#first-contact-safety-tip)
 
 ## <a name="december-2020"></a>Декабрь 2020 г.
 

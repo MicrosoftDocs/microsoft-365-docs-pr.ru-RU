@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: e87a7423d6d69968bdf4224938e10799dcb89d1b
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: ceca8ac76f63ef7da34f4222312e9e03a3b0e23a
+ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52844194"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53062254"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint"></a>Новые возможности Microsoft Defender для конечной точки
 
@@ -45,6 +45,16 @@ ms.locfileid: "52844194"
 > ```https
 > /api/search/rss?search=%22features+are+generally+available+%28GA%29+in+the+latest+release+of+Microsoft+Defender+for+Endpoint%22&locale=en-us&facet=
 > ```
+
+## <a name="june-2021"></a>Июнь 2021 г.
+
+- [Обнаружение устройств](device-discovery.md) <br> Помогает находить неустановленные устройства, подключенные к корпоративной сети без необходимости дополнительных устройств или громоздких изменений процесса. С помощью бортовых устройств можно найти неугодные устройства в сети и оценить уязвимости и риски. Затем можно использовать обнаруженные на борту устройства, чтобы снизить риски, связанные с наличием неугомонные конечные точки в сети.
+
+   > [!IMPORTANT]
+   > Стандартным открытием будет режим по умолчанию для всех клиентов с 19 июля 2021 г. Вы можете сохранить базовый режим через страницу параметров. 
+
+
+- [Определения группы устройств теперь](/microsoft-365/security/defender-endpoint/machine-groups) могут включать несколько значений для каждого условия. Можно установить несколько тегов, имен устройств и доменов для определения одной группы устройств.
 
 ## <a name="march-2021"></a>Март 2021 г.
 - [Управление защитой от взлома с помощью Центр безопасности в Microsoft Defender](prevent-changes-to-security-settings-with-tamper-protection.md#manage-tamper-protection-for-your-organization-using-the-microsoft-defender-security-center) <br> Вы можете управлять настройками защиты от Windows 10, Windows Server 2016 и Windows Server 2019 с помощью метода, называемого *присоединением клиента.* 

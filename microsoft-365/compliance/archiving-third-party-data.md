@@ -22,12 +22,12 @@ ms.assetid: 0ce338d5-3666-4a18-86ab-c6910ff408cc
 ms.custom:
 - seo-marvel-apr2020
 description: Узнайте, как импортировать сторонние данные с платформ социальных сетей, платформ обмена мгновенными сообщениями и платформ совместной работы с документами в Microsoft 365 почтовых ящиков.
-ms.openlocfilehash: a0c4505d3fbd593f5703f4abfb5cba1870c037c5
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: 5e1eab67019184e337b7e5404bf96bdf26d0446d
+ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 06/22/2021
-ms.locfileid: "53054778"
+ms.locfileid: "53061733"
 ---
 # <a name="archive-third-party-data"></a>Архивация сторонних данных
 
@@ -143,7 +143,6 @@ Microsoft 365 позволяет администраторам использо
 |Архивер SMS и голосовой сети O2 | Да         | Нет | Нет |
 |Архивер SMS-сети TELUS | Да | Нет | Нет |
 |Сетевой архивер Verizon SMS/MMS | Да | Нет | Нет |
-|Архивер WeChat | Да | Нет | Нет |
 |Архивер WhatsApp | Да | Нет | Нет |
 |||||
 

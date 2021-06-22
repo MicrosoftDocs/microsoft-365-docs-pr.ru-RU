@@ -18,12 +18,12 @@ ms.collection: M365-security-compliance
 ms.topic: conceptual
 hideEdit: true
 ms.technology: mde
-ms.openlocfilehash: d73ddb3a8defb7697a995c2593d6a240a59c9cfe
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 7a5aa5e049159761c46e2103f7b1ecdd1499f3cd
+ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934625"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53061646"
 ---
 # <a name="microsoft-defender-for-endpoint-on-android-application-license-terms"></a>Microsoft Defender для конечной точки на условиях лицензии на приложения Для Android
 
@@ -56,7 +56,7 @@ ms.locfileid: "51934625"
 
 1.  **INSTALLATION AND USE RIGHTS.**
 
-    1.  **Установка и использование.** Вы можете установить и использовать любое количество копий этого приложения на устройстве или устройствах с поддержкой Android, которые вы владеете или управляете. Вы можете использовать это приложение с действительной подпиской на Microsoft Defender для конечной точки или службой, которая включает функции Microsoft Defender для конечных точек.
+    1.  **Установка и использование.** Вы можете установить и использовать любое количество копий этого приложения на устройстве или устройствах с поддержкой Android, которые вы владеете или управляете. 
 
     2.  **Обновления.** Обновления или обновления до Microsoft Defender для конечной точки могут потребоваться для полной функциональности. Некоторые функции могут быть доступны не во всех странах.
 

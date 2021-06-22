@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Настройте Защиту от потери данных в конечной точке Microsoft 365 для отслеживания действий с файлами и применения в конечных точках защитных мер для этих файлов.
-ms.openlocfilehash: bf607890fcae34e95da15954349e7190bdbb19ac
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 134c5426e428372670a50c76301a9e9e0c10b343
+ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878104"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53061670"
 ---
 # <a name="get-started-with-endpoint-data-loss-prevention"></a>Начало работы с функцией защиты от потери данных в конечной точке
 
@@ -77,9 +77,6 @@ ms.locfileid: "52878104"
 - Администратор соответствия требованиям
 - Администратор безопасности
 - Администратор данных соответствия требованиям
-- Глобальный читатель
-- Читатель сведений о безопасности
-- Читатель отчетов
 
 ### <a name="prepare-your-endpoints"></a>Подготовка конечных точек
 
