@@ -17,12 +17,12 @@ ms.custom:
 description: Администраторы могут узнать о политиках защиты от фишинга, доступных в Exchange Online Protection (EOP) и Microsoft Defender для Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 9e5cd60915699cd2adb42e575c25912f5f164a5b
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: 850756acacc757526352b9249c0e9efbe82fac8d
+ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53055138"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53096803"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Политики защиты от фишинга в Microsoft 365
 
@@ -141,9 +141,11 @@ ms.locfileid: "53055138"
 Параметры первого **контакта Show совет по безопасности** доступны в EOP и Defender для Office 365 организаций и не имеют никакой зависимости от параметров защиты от подмены или обезличения. В совет по безопасности показана получателям в следующих сценариях:
 
 - В первый раз они получают сообщение от отправитель
-- Если они не часто получают сообщения от отправитель.
+- Они не часто получают сообщения от отправитель.
 
-![Текст текста совет по безопасности для защиты от обезличения с несколькими получателями.](../../media/safety-tip-first-contact-multiple-recipients.png)
+![Первый контакт совет по безопасности для сообщений с одним получателем.](../../media/safety-tip-first-contact-one-recipient.png)
+
+![Первый контакт совет по безопасности для сообщений с несколькими получателями.](../../media/safety-tip-first-contact-multiple-recipients.png)
 
 Эта возможность добавляет дополнительный уровень защиты от потенциальных атак обезличения, поэтому рекомендуется включить его.
 

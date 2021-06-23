@@ -23,12 +23,12 @@ ms.custom:
 description: Узнайте о Microsoft Defender для Office 365 файлов в SharePoint Online, OneDrive для бизнеса и Microsoft Teams.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 67bd2a0952ac630888b07eaf05d365736a0472ea
-ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
+ms.openlocfilehash: 5a0c9721c4d8fc2087e0dbbce19305060344430c
+ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53028839"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53096748"
 ---
 # <a name="safe-attachments-for-sharepoint-onedrive-and-microsoft-teams"></a>Безопасные вложения для SharePoint, OneDrive и Microsoft Teams
 
@@ -38,7 +38,7 @@ ms.locfileid: "53028839"
 - [Microsoft Defender для Office 365 (план 1 и план 2)](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-Сейф Вложения для SharePoint, OneDrive и Microsoft Teams [в Microsoft Defender для Office 365](whats-new-in-defender-for-office-365.md) обеспечивают дополнительный уровень защиты для файлов, которые уже были отсканированы во время отправки общим механизмом обнаружения вирусов в [Microsoft 365](virus-detection-in-spo.md). Сейф Вложения для SharePoint, OneDrive и Microsoft Teams помогают обнаруживать и блокировать существующие файлы, идентифицированные как вредоносные на сайтах группы и библиотеках документов.
+Сейф Вложения для SharePoint, OneDrive и Microsoft Teams [в Microsoft Defender для Office 365](whats-new-in-defender-for-office-365.md) обеспечивают дополнительный уровень защиты файлов, которые уже асинхронно отсканированы обычным механизмом обнаружения вирусов в [Microsoft 365](virus-detection-in-spo.md). Сейф Вложения для SharePoint, OneDrive и Microsoft Teams помогают обнаруживать и блокировать существующие файлы, идентифицированные как вредоносные на сайтах группы и библиотеках документов.
 
 Сейф Вложения для SharePoint, OneDrive и Microsoft Teams по умолчанию не включены. Чтобы включить его, включив Сейф вложения для [SharePoint, OneDrive и Microsoft Teams.](turn-on-mdo-for-spo-odb-and-teams.md)
 
@@ -67,7 +67,6 @@ SharePoint Сетевые администраторы могут запрети
 Файлы, которые определены как вредоносные Сейф вложения для SharePoint, OneDrive и Microsoft Teams будут показываться в отчетах для [Microsoft Defender](view-reports-for-mdo.md) для Office 365 и в Explorer (и обнаружения в режиме реального [времени).](threat-explorer.md)
 
 С мая 2018 г., когда файл Сейф вложениями для SharePoint, OneDrive и Microsoft Teams, файл также доступен в карантине. Дополнительные сведения см. в [материалах Управление карантинными](manage-quarantined-messages-and-files.md#use-the-microsoft-365-defender-portal-to-manage-quarantined-files-in-defender-for-office-365)файлами в Defender для Office 365.
-
 
 ## <a name="keep-these-points-in-mind"></a>Имейте в виду эти точки
 

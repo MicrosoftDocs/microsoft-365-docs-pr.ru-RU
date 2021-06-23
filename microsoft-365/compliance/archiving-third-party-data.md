@@ -22,77 +22,141 @@ ms.assetid: 0ce338d5-3666-4a18-86ab-c6910ff408cc
 ms.custom:
 - seo-marvel-apr2020
 description: Узнайте, как импортировать сторонние данные с платформ социальных сетей, платформ обмена мгновенными сообщениями и платформ совместной работы с документами в Microsoft 365 почтовых ящиков.
-ms.openlocfilehash: 5e1eab67019184e337b7e5404bf96bdf26d0446d
-ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
+ms.openlocfilehash: de4c3c6454809cc1b7f78c0e5790fcbe8b3887c0
+ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53061733"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53096172"
 ---
-# <a name="archive-third-party-data"></a>Архивация сторонних данных
+# <a name="archive-third-party-data-in-microsoft-365"></a>Архивировать сторонние данные в Microsoft 365
 
 Microsoft 365 позволяет администраторам использовать соединители данных для импорта и архивации сторонних данных с платформ социальных сетей, платформ обмена мгновенными сообщениями и платформ совместной работы с документами в почтовые ящики Microsoft 365 организации. Одним из основных преимуществ использования соединители данных для импорта и архива сторонних данных в Microsoft 365 является возможность применения различных Microsoft 365 решений по обеспечению соответствия требованиям после импорта. Это позволяет убедиться, что данные организации, не в microsoft, не соответствует требованиям и стандартам, влияющим на организацию.
 
 ## <a name="third-party-data-connectors"></a>Соединители данных сторонних производителей
 
-В следующей таблице перечислены сторонние соединители данных, доступные в Центр соответствия требованиям Microsoft 365. В таблице также подводятся итоги решений по обеспечению соответствия требованиям, которые можно применить к сторонним данным после импорта и архива в Microsoft 365. В следующем [разделе см.](#overview-of-compliance-solutions-that-support-third-party-data) более подробное описание каждого решения по соблюдению требований и способов его получения сторонними данными.
+В Центр соответствия требованиям Microsoft 365 для импорта данных из различных источников данных, таких как LinkedIn, Instant Bloomberg и Twitter, а также соединители данных, поддерживающие решение по управлению рисками insider. Помимо этих соединители данных Корпорация Майкрософт работает со следующими партнерами, чтобы предоставить еще много соединители данных третьей части в Центр соответствия требованиям Microsoft 365. Ваша организация работает с этими партнерами для создания службы архива перед созданием соответствующего соединителя данных в Центр соответствия требованиям Microsoft 365.
 
-> [!TIP]
-> Щелкните ссылку **в** столбце сторонних данных, чтобы пошаговую инструкцию по созданию соединитетеля для этого типа данных.
+- [Veritas](#veritas-data-connectors)
+
+- [TeleMessage](#telemessage-data-connectors)
+
+- [17a-4 LLC](#17a-4-data-connectors)
+
+- [CellTrust](#celltrust-data-connectors)
+
+Сторонние данные, перечисленные в следующих разделах (за исключением кадровых данных и физических данных, используемых для решения по управлению рисками Microsoft 365 insider), импортируются в почтовые ящики пользователей. Решения Microsoft 365, поддерживающие сторонние данные, применяются к почтовому ящику пользователя, в котором хранятся данные.
+
+### <a name="microsoft-data-connectors"></a>Соединители данных Майкрософт
+
+В следующей таблице перечислены родные сторонние соединители данных, доступные в Центр соответствия требованиям Microsoft 365. В таблице также подводятся итоги решений по обеспечению соответствия требованиям, которые можно применить после импорта и архива сторонних данных в Microsoft 365. Дополнительные [сведения](#overview-of-compliance-solutions-that-support-third-party-data) о каждом решении по обеспечению соответствия требованиям и поддержке сторонних данных см. в разделе Обзор решений по обеспечению соответствия требованиям, поддерживающая сторонние данные.
+
+Щелкните ссылку **в** столбце сторонних данных, чтобы пошаговую инструкцию по созданию соединитетеля для этого типа данных.
 
 |Сторонние данные  |Удержание судебного разбирательства|Обнаружение электронных данных  |Параметры хранения  |Управление записями  |Соответствие требованиям к обмену данными  |Управление внутренними рисками  |
 |:---------|:---------|:---------|:---------|:---------|:---------|:---------|
-|[Android <sup>1</sup>](archive-android-archiver-data.md)     |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
-|[AT&T Network <sup>1</sup>](archive-att-network-archiver-data.md)     |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
-|[Сеть <sup>Колокола 1</sup>](archive-bell-network-data.md)     |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
 |[Сообщение Bloomberg](archive-bloomberg-message-data.md)     |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
-|[CellTrust <sup>2</sup>](archive-celltrust-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
-|[Cisco Jabber на ms SQL <sup>2</sup>](archive-ciscojabberonmssql-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
-|[Cisco Jabber на Oracle <sup>2</sup>](archive-ciscojabberonoracle-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
-|[Cisco Jabber на PostgreSQL <sup>2</sup>](archive-ciscojabberonpostgresql-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
-|[EML <sup>2</sup>](archive-eml-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|||
-|[Enterprise Номер <sup>1</sup>](archive-enterprise-number-data.md)     |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
 |[Facebook](archive-facebook-data-with-sample-connector.md)     |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|||
-|[FX Подключение <sup>2</sup>](archive-fxconnect-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
 |[Кадры (HR)](import-hr-data.md) ||||||![Флажок](../media/checkmark.png)
 |[ICE Chat](archive-icechat-data.md)     |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
 |[Instant Bloomberg](archive-instant-bloomberg-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
-|[Jive <sup>2</sup>](archive-jive-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
 |[LinkedIn](archive-linkedin-data.md)   |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|||
-|[MS База данных SQL <sup>2</sup>](archive-mssqldatabaseimporter-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|||
-|[O2 Network <sup>1</sup>](archive-o2-network-data.md)     |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
 |[Физическое плохое состояние](import-physical-badging-data.md) ||||||![Флажок](../media/checkmark.png)|
-|[Pivot <sup>2</sup>](archive-pivot-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
-|[Redtail Speak <sup>2</sup>](archive-redtailspeak-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
-|[Reuters Dealing <sup>2</sup>](archive-reutersdealing-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
-|[Reuters Eikon <sup>2</sup>](archive-reuterseikon-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
-|[Reuters FX <sup>2</sup>](archive-reutersfx-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
-|[Chatter Salesforce <sup>2</sup>](archive-salesforcechatter-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|||
-|[ServiceNow <sup>2</sup>](archive-servicenow-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|||
-|[Сигнал <sup>1</sup>](archive-signal-archiver-data.md)     |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
-|[Skype для бизнеса <sup>2</sup>](archive-skypeforbusiness-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
-|[Slack eDiscovery <sup>2</sup>](archive-slack-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
-|[Симфония <sup>2</sup>](archive-symphony-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
-|[Telegram <sup>1</sup>](archive-telegram-archiver-data.md)     |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
-|[TELUS Network <sup>1</sup>](archive-telus-network-data.md)    |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
-|[Text-delimited <sup>2</sup>](archive-text-delimited-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|||
 |[Twitter](archive-twitter-data-with-sample-connector.md)     |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|||
-|[Verizon Network <sup>1</sup>](archive-verizon-network-data.md)     |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
-|[Webex Teams <sup>2</sup>](archive-webexteams-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
-|[Веб-страницы <sup>2</sup>](archive-webpagecapture-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|||
-|[WeChat <sup>1</sup>](archive-wechat-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
-|[WhatsApp <sup>1</sup>](archive-whatsapp-data.md)     |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
-|[Рабочее место из Facebook <sup>2</sup>](archive-workplacefromfacebook-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
-|[XIP <sup>2</sup>](archive-xip-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
-|[XSLT/XML <sup>2</sup>](archive-xslt-xml-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|||
-|[Yieldbroker <sup>2</sup>](archive-yieldbroker-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
-|[Масштабирование <sup>собраний 2</sup>](archive-zoommeetings-data.md)     |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
 ||||||||
 
-> [!NOTE]
-> <sup>1</sup> Соединители данных, предоставляемые TeleMessage. Прежде чем архивировать данные в Microsoft 365, необходимо работать с TeleMessage, чтобы настроить службу архивизации для вашей организации. Дополнительные сведения см. в разделе Обязательное условие в пошаговом инструкции для этого типа данных. Соединители данных TeleMessage также доступны в GCC средах в облаке Microsoft 365 правительства США. Дополнительные сведения см. в разделе [Соединители](#data-connectors-in-the-us-government-cloud) данных в облачном разделе правительства США в этой статье. <br/><br/><sup>2</sup> Соединитель данных, предоставленный Veritas. Прежде чем архивировать данные в Microsoft 365, необходимо работать с Veritas, чтобы настроить службу архива для организации. Дополнительные сведения см. в разделе Обязательное условие в пошаговом инструкции для этого типа данных.
+### <a name="veritas-data-connectors"></a>Соединители данных Veritas
 
-Сторонние данные, перечисленные в предыдущей таблице (за исключением данных о персонале и физических неустойки), импортируются в почтовые ящики пользователей. Соответствующие решения по обеспечению соответствия требованиям, поддерживающие сторонние данные, применяются к почтовому ящику пользователя, в котором хранятся данные.
+В таблице в этом разделе перечислены сторонние соединители данных, доступные в партнерстве с Veritas. В таблице также подводятся итоги решений по обеспечению соответствия требованиям, которые можно применить к сторонним данным после импорта и архива их Microsoft 365. Дополнительные [сведения](#overview-of-compliance-solutions-that-support-third-party-data) о каждом решении по обеспечению соответствия требованиям и поддержке сторонних данных см. в разделе Обзор решений по обеспечению соответствия требованиям, поддерживающая сторонние данные.
+
+Прежде чем архивировать сторонние данные в Microsoft 365, необходимо работать с Veritas, чтобы настроить службу архива (называемую *Merge1)* для вашей организации. Дополнительные сведения можно получить  по ссылке в столбце сторонних данных, чтобы пошаговую инструкцию по созданию соединитетеля для этого типа данных.
+
+|Сторонние данные  |Удержание судебного разбирательства|Обнаружение электронных данных  |Параметры хранения  |Управление записями  |Соответствие требованиям к обмену данными  |Управление внутренними рисками  |
+|:---------|:---------|:---------|:---------|:---------|:---------|:---------|
+|[CellTrust](archive-celltrust-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Cisco Jabber в MS SQL](archive-ciscojabberonmssql-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Cisco Jabber в Oracle](archive-ciscojabberonoracle-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Cisco Jabber в PostgreSQL](archive-ciscojabberonpostgresql-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[EML](archive-eml-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|||
+|[FX Connect](archive-fxconnect-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Jive](archive-jive-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[База данных SQL MS](archive-mssqldatabaseimporter-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|||
+|[Сводка](archive-pivot-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Redtail Speak](archive-redtailspeak-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Reuters Dealing](archive-reutersdealing-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Reuters Eikon](archive-reuterseikon-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Reuters FX](archive-reutersfx-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Salesforce Chatter](archive-salesforcechatter-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|||
+|[ServiceNow](archive-servicenow-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|||
+|[Slack eDiscovery](archive-slack-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Symphony](archive-symphony-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Text-delimited](archive-text-delimited-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|||
+|[Webex Teams](archive-webexteams-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Веб-страницы](archive-webpagecapture-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|||
+|[Workplace from Facebook](archive-workplacefromfacebook-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[XIP](archive-xip-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[XSLT/XML](archive-xslt-xml-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|||
+|[Yieldbroker](archive-yieldbroker-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Zoom Meetings](archive-zoommeetings-data.md)     |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+||||||||
+
+### <a name="telemessage-data-connectors"></a>Соединители данных TeleMessage
+
+В таблице в этом разделе перечислены сторонние соединители данных, доступные в партнерстве с TeleMessage. В таблице также подводятся итоги решений по обеспечению соответствия требованиям, которые можно применить к сторонним данным после импорта и архива их Microsoft 365. Дополнительные [сведения](#overview-of-compliance-solutions-that-support-third-party-data) о каждом решении по обеспечению соответствия требованиям и поддержке сторонних данных см. в разделе Обзор решений по обеспечению соответствия требованиям, поддерживающая сторонние данные.
+
+Прежде чем архивировать сторонние данные в Microsoft 365, необходимо работать с TeleMessage, чтобы настроить службу архивизации для вашей организации. Дополнительные сведения можно получить  по ссылке в столбце сторонних данных, чтобы пошаговую инструкцию по созданию соединитетеля для этого типа данных.
+
+Соединители данных TeleMessage также доступны в GCC средах в облаке Microsoft 365 правительства США. Дополнительные сведения см. в разделе Соединители данных в облачном разделе правительства США в этой статье.
+
+|Сторонние данные  |Удержание судебного разбирательства|Обнаружение электронных данных  |Параметры хранения  |Управление записями  |Соответствие требованиям к обмену данными  |Управление внутренними рисками  |
+|:---------|:---------|:---------|:---------|:---------|:---------|:---------|
+|[Android ](archive-android-archiver-data.md)     |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Сеть at&T ](archive-att-network-archiver-data.md)     |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Сеть колоколов ](archive-bell-network-data.md)     |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Enterprise Номер](archive-enterprise-number-data.md)     |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[O2 Network ](archive-o2-network-data.md)     |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[TELUS Network ](archive-telus-network-data.md)    |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Verizon Network ](archive-verizon-network-data.md)     |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[WeChat ](archive-wechat-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[WhatsApp ](archive-whatsapp-data.md)     |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+||||||||
+
+### <a name="17a-4-data-connectors"></a>Соединители данных 17a-4
+
+В таблице в этом разделе перечислены сторонние соединители данных, доступные в партнерстве с ООО 17a-4. В таблице также подводятся итоги решений по обеспечению соответствия требованиям, которые можно применить к сторонним данным после импорта и архива их Microsoft 365. Дополнительные [сведения](#overview-of-compliance-solutions-that-support-third-party-data) о каждом решении по обеспечению соответствия требованиям и поддержке сторонних данных см. в разделе Обзор решений по обеспечению соответствия требованиям, поддерживающая сторонние данные.
+
+Прежде чем архивировать сторонние данные в Microsoft 365, необходимо работать с Veritas, чтобы настроить свою службу архивизации (называемую *DataParser)* для вашей организации. Дополнительные сведения можно получить  по ссылке в столбце сторонних данных, чтобы пошаговую инструкцию по созданию соединитетеля для этого типа данных.
+
+|Сторонние данные  |Удержание судебного разбирательства|Обнаружение электронных данных  |Параметры хранения  |Управление записями  |Соответствие требованиям к обмену данными  |Управление внутренними рисками  |
+|:---------|:---------|:---------|:---------|:---------|:---------|:---------|
+|[BlackBerry](archive-17a-4-blackberry-data.md)     |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Bloomberg ](archive-17a-4-bloomberg-data.md)     |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Cisco Jabber ](archive-17a-4-cisco-jabber-data.md)   |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Cisco Webex ](archive-17a-4-webex-teams-data.md)   |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[FactSet ](archive-17a-4-factset-data.md)    |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Fuze ](archive-17a-4-fuze-data.md)    |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[FX Подключение](archive-17a-4-fxconnect-data.md)    |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[ICE Chat](archive-17a-4-ice-im-data.md)    |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[InvestEdge ](archive-17a-4-investedge-data.md)    |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Разговорное облако LivePerson ](archive-17a-4-liveperson-data.md)    |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Quip ](archive-17a-4-quip-data.md)    |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Refinitiv Eikon Messenger](archive-17a-4-refinitiv-messenger-data.md)    |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[ServiceNow ](archive-17a-4-servicenow-data.md)    |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Slack ](archive-17a-4-slack-data.md)    |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Symphony ](archive-17a-4-symphony-data.md)    |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Масштабирование ](archive-17a-4-zoom-data.md)    |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+||||||||
+
+### <a name="celltrust-data-connectors"></a>Соединители данных CellTrust
+
+В таблице в этом разделе перечислены сторонние соединитель данных, доступные в партнерстве с CellTrust. В таблице также подводятся итоги решений по обеспечению соответствия требованиям, которые можно применить к сторонним данным после импорта и архива их Microsoft 365. Дополнительные [сведения](#overview-of-compliance-solutions-that-support-third-party-data) о каждом решении по обеспечению соответствия требованиям и поддержке сторонних данных см. в разделе Обзор решений по обеспечению соответствия требованиям, поддерживающая сторонние данные.
+
+Прежде чем архивировать сторонние данные в Microsoft 365, необходимо работать с CellTrust, чтобы настроить службу архивации (называемую *CellTrust SL2)* для вашей организации. Дополнительные сведения можно найти  в столбце сторонних данных, чтобы пошаговой инструкции по созданию соединиттеля CellTrust SL2.
+
+|Сторонние данные  |Удержание судебного разбирательства|Обнаружение электронных данных  |Параметры хранения  |Управление записями  |Соответствие требованиям к обмену данными  |Управление внутренними рисками  |
+|:---------|:---------|:---------|:---------|:---------|:---------|:---------|
+|[CellTrust SL2](archive-data-from-celltrustsl2.md)     |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+||||||||
 
 ## <a name="overview-of-compliance-solutions-that-support-third-party-data"></a>Обзор решений по обеспечению соответствия требованиям, поддерживающая сторонние данные
 

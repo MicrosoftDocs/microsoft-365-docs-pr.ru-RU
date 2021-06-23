@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 582116047900fc5f28d5580398cf5c065e6a3e23
-ms.sourcegitcommit: 4d26a57c37ff7efbb8d235452c78498b06a59714
+ms.openlocfilehash: 21f6947074f6a14e6ed1af3968ee94e403f0d0cd
+ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53053027"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53096820"
 ---
 # <a name="whats-new-in-microsoft-365-defender"></a>Новые возможности Microsoft 365 Defender
 
@@ -38,6 +38,8 @@ RSS-канал. Получите уведомление об обновлени�
 ```http
 /api/search/rss?search=%22Lists+the+new+features+and+functionality+in+Microsoft+365+defender%22&locale=en-us
 ```
+## <a name="june-2021"></a>Июнь 2021 г.
+- Теги угроз в [отчете Microsoft 365 Defender аналитики угроз](threat-analytics.md) <br> Теги угроз помогают сосредоточиться на определенных категориях угроз и просмотреть наиболее релевантные отчеты. 
 
 ## <a name="april-2021"></a>Апрель 2021 г.
 - Microsoft 365 Defender<br> Теперь доступен [Microsoft 365 Defender](https://security.microsoft.com) улучшенный портал. Этот новый опыт объединяет Defender for Endpoint, Defender for Office 365, Defender for Identity и другие в единый портал. Это новый дом для управления средствами управления безопасностью. [Узнайте о новых возможностях](./overview-security-center.md).
