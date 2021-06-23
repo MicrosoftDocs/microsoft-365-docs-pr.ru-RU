@@ -20,12 +20,12 @@ metadata:
   ms.custom: seo-marvel-apr2020
   ms.technology: mdo
   ms.prod: m365-security
-  ms.openlocfilehash: 42e848309589fa8786346b5921d1cade0ed074b9
-  ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+  ms.openlocfilehash: c8f821381d8e51b843f3a213d8daec5ef6ffaf5f
+  ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
   ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 05/24/2021
-  ms.locfileid: "52625417"
+  ms.lasthandoff: 06/23/2021
+  ms.locfileid: "53083648"
 title: FaQ сообщений в карантине
 summary: >
   [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
@@ -82,14 +82,14 @@ sections:
   - question: >
       Можно ли освободить одновременно несколько сообщений, помещенных на карантин, или сообщить о них?
     answer: >
-      В Центре & безопасности можно выбрать и выпустить до 100 сообщений одновременно.
+      На Microsoft 365 Defender вы можете выбрать и выпустить до 100 сообщений одновременно.
 
 
       Администраторы могут использовать [комлеты Get-QuarantineMessage](/powershell/module/exchange/get-quarantinemessage) и [Release-QuarantineMessage](/powershell/module/exchange/release-quarantinemessage) в Exchange Online PowerShell или автономные EOP PowerShell для поиска и выпуска карантиных сообщений оптом, а также для массовой рассылки ложных срабатывающих сообщений.
   - question: >
       Поддерживаются ли подстановочные знаки при поиске сообщений, помещенных на карантин? Можно ли искать помещенные на карантин сообщения для определенного домена?
     answer: >-
-      Поддиальды не поддерживаются в Центре & безопасности. Например, при поиске отправители необходимо указать полный адрес электронной почты. Но вы можете использовать поддиагры в Exchange Online PowerShell или автономных EOP PowerShell.
+      Поддиальды не поддерживаются на портале Microsoft 365 Defender. Например, при поиске отправители необходимо указать полный адрес электронной почты. Но вы можете использовать поддиагры в Exchange Online PowerShell или автономных EOP PowerShell.
 
 
       Например, скопируйте следующий код PowerShell в NotePad и сохраните файл .ps1 в удобном для вас расположении (например, C:\Data\QuarantineRelease.ps1).

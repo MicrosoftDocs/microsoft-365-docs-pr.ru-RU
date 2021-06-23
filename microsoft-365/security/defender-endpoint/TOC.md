@@ -241,7 +241,7 @@
 #### [Оценка правил сокращения направлений атак](evaluate-attack-surface-reduction.md)
 #### [Включить правила сокращения направлений атак](enable-attack-surface-reduction.md)
 #### [Настройка правил сокращения направлений атак](customize-attack-surface-reduction.md)
-#### [Сокращение направлений атак: вопросы и ответы](attack-surface-reduction-faq.md)
+#### [Сокращение направлений атак: вопросы и ответы](attack-surface-reduction-faq.yml)
 #### [Просмотр событий сокращения направлений атак](event-views.md)
 #### [Использование режима аудита для сокращения направлений атак](audit-windows-defender.md)
 
