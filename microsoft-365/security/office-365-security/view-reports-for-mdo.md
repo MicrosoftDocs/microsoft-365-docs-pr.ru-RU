@@ -20,12 +20,12 @@ description: Администраторы могут узнать, как най
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 5b9279614571c123ad92f1684f86175b410c6c5c
-ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
+ms.openlocfilehash: f7eab856f22ac1c2282e83897db6e3f93d4d97e6
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53022845"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53083516"
 ---
 # <a name="view-defender-for-office-365-reports-in-the-microsoft-365-defender-portal"></a>Просмотр отчетов Defender для Office 365 на портале Microsoft 365 Defender
 
@@ -188,7 +188,7 @@ Microsoft Defender для Office 365 организаций (например, M
 
 ****
 
-|Отчет|Тема|
+|Отчет|Раздел|
 |---|---|
 |**Explorer** (Microsoft Defender для Office 365 Plan 2) или обнаружения в режиме реального времени **(Microsoft** Defender для Office 365 Plan 1)|[Обозреватель угроз (и обнаружение в режиме реального времени)](threat-explorer.md)|
 |**Отчеты о безопасности** электронной почты, такие как отчеты о главных отправителей и получателях, почтовый отчет Spoof и отчет о обнаружениях нежелательной почты.|[Просмотр отчетов о безопасности электронной почты на Microsoft 365 Defender портале](view-email-security-reports.md)|
@@ -207,7 +207,7 @@ Microsoft Defender для Office 365 организаций (например, M
 - **Считыватель безопасности**
 - **Глобальный читатель**
 
-Дополнительные сведения см. [на портале Permissions in the Microsoft 365 Defender.](permissions-in-the-security-and-compliance-center.md)
+Дополнительные сведения см. в статье [Разрешения на портале Microsoft 365 Defender](permissions-microsoft-365-security-center.md).
 
 **Примечание.** Добавление пользователей к соответствующей роли Azure Active Directory в Центр администрирования Microsoft 365 дает пользователям необходимые разрешения на  портале Microsoft 365 Defender и разрешения на другие функции в Microsoft 365. Дополнительные сведения см. в статье [О ролях администраторов](../../admin/add-users/about-admin-roles.md).
 

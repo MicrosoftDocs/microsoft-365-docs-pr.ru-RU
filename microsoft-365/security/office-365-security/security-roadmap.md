@@ -19,12 +19,12 @@ ms.assetid: 28c86a1c-e4dd-4aad-a2a6-c768a21cb352
 description: Рекомендации группы кибербезопасности Корпорации Майкрософт по внедрению возможностей безопасности для защиты Microsoft 365 среды.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 67febc328706121360b2b34e054ae8e208355b89
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 05ea4103abecb10d4eedddf8d5043e339b58804c
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52879260"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53083156"
 ---
 # <a name="security-roadmap---top-priorities-for-the-first-30-days-90-days-and-beyond"></a>Дорожная карта безопасности — главные приоритеты для первых 30 дней, 90 дней и более
 
@@ -78,7 +78,7 @@ ms.locfileid: "52879260"
 
 |Область|Задача|
 |---|---|
-|Управление безопасностью|<ul><li>Проверьте безопасную оценку рекомендуемых действий для вашей среды ( <https://securescore.office.com> ).</li><li>Продолжайте регулярно проверять панели мониторинга и отчеты на портале Microsoft 365 Defender, Cloud App Security и средствах SIEM.</li><li>Найми и реализуй обновления программного обеспечения.</li><li>Проведение имитации атак для фишинга, спрея паролей и атак [](attack-simulator.md) паролей с использованием симулятора атак (включаемого [в Office 365 Threat Intelligence).](office-365-ti.md)</li><li>Просмотрите встроенные отчеты в Cloud App Security (на вкладке Исследование).</li><li>Проверьте [диспетчер соответствия](../../compliance/compliance-manager.md) требованиям, чтобы просмотреть состояние правил, применимых к вашей организации (например, GDPR, NIST 800-171).</li></ul>|
+|Управление безопасностью|<ul><li>Проверьте безопасную оценку рекомендуемых действий для вашей среды ( <https://securescore.office.com> ).</li><li>Продолжайте регулярно проверять панели мониторинга и отчеты на портале Microsoft 365 Defender, Cloud App Security и средствах SIEM.</li><li>Найми и реализуй обновления программного обеспечения.</li><li>Проведение имитации атак для фишинга, спрея паролей и атак с использованием методов моделирования атак [(в](attack-simulation-training.md) том числе с [Office 365 Threat Intelligence).](office-365-ti.md)</li><li>Просмотрите встроенные отчеты в Cloud App Security (на вкладке Исследование).</li><li>Проверьте [диспетчер соответствия](../../compliance/compliance-manager.md) требованиям, чтобы просмотреть состояние правил, применимых к вашей организации (например, GDPR, NIST 800-171).</li></ul>|
 |Защита от угроз|Реализация расширенной защиты учетных записей администратора: <ul><li>Настройка [рабочих станций привилегированного](/security/compass/privileged-access-devices) доступа (PAW) для действий администратора.</li><li>Настройка [azure AD управление привилегированными пользователями](/azure/active-directory/active-directory-privileged-identity-management-configure).</li><li>Настройте средство управления сведениями о безопасности и событиями (SIEM) для сбора данных ведения журнала из Office 365, Cloud App Security и других служб, включая AD FS. Журнал аудита хранит данные только в течение 90 дней. Хранение этих данных в средстве SIEM позволяет хранить данные в течение более длительного периода времени.</li></ul>|
 |Управление идентификацией и доступом|<ul><li>Включить и применить MFA для всех пользователей.</li><li>Реализация набора [условных политик доступа и связанных политик.](microsoft-365-policies-configurations.md)</li></ul>|
 |Защита информации| Адаптация и реализация политик защиты информации. К этим ресурсам относятся примеры: <ul><li>[Защита информации в Office 365 в соответствии с GDPR](/compliance/regulatory/gdpr)</li><li>[Настройка Teams с тремя уровнями защиты](../../solutions/configure-teams-three-tiers-protection.md)</li></ul> <p> Используйте политики предотвращения потери данных и средства мониторинга Microsoft 365 для данных, хранимых в Microsoft 365 (а не Cloud App Security). <p> Используйте Cloud App Security с Microsoft 365 для расширенных функций оповещения (кроме предотвращения потери данных).|

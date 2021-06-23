@@ -13,12 +13,12 @@ ms.collection: M365-modern-desktop
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 description: Интеграция Microsoft Teams классов в Обучение системы управления
-ms.openlocfilehash: 047f640befa967b78597c5eba93f9c64f22ec1c2
-ms.sourcegitcommit: 4d26a57c37ff7efbb8d235452c78498b06a59714
+ms.openlocfilehash: 940c5c695d602ddce6ea49b1f914f2345fbeb7e5
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53053255"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53083247"
 ---
 # <a name="use-microsoft-teams-classes-with-blackboard"></a>Использование Microsoft Teams классов с blackboard
 
@@ -63,8 +63,6 @@ Microsoft Teams классов — это приложение Обучение 
 3. Выберите **средство Регистрация LTI1.3/Advantage.**
 
 4. Введите первый из предоставленных клиентских ИД (blackboard или Microsoft) и выберите **Отправка**.
-
-   ![средство регистрации LTI с полем для ввода клиентского id](../media/lti-media/register-tool.png)
 
 5. Просмотрите предварительно заполненные параметры и убедитесь, что состояние средства помечено как утвержденное.
 

@@ -12,16 +12,16 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Для эффективного расследования и реагирования на угрозы используйте обнаружения в Microsoft 365 Defender в режиме реального времени.
+description: Для эффективного расследования и реагирования на угрозы используйте обнаружения в Microsoft 365 Defender или в режиме реального времени.
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 71052cc5a3874da250772bfa628417824ba51c63
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: 2b0c0c36cb481aac64b55467da4aaf9e3cf7a493
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52930116"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53083564"
 ---
 # <a name="threat-hunting-in-threat-explorer-for-microsoft-defender-for-office-365"></a>Охота на угрозы в обозревателе угроз для Microsoft Defender для Office 365
 
@@ -42,7 +42,7 @@ ms.locfileid: "52930116"
 
 Если в вашей организации есть [microsoft Defender для](defender-for-office-365.md)Office 365, и у вас  есть [разрешения,](#required-licenses-and-permissions)вы можете использовать обнаружения **Explorer** или в режиме реального времени для обнаружения и устранения угроз. 
 
-На **портале Microsoft 365 Defender** перейдите к совместной работе & электронной почты, а затем выберите **Explorer**.
+На **портале Microsoft 365 Defender перейдите** к совместной & электронной почты, а затем выберите **Explorer**.
 
 <br>
 
@@ -68,7 +68,7 @@ ms.locfileid: "52930116"
 
 Defender for Office 365 Plan 1 *использует* обнаружения в режиме реального времени , который является подмножество средства охоты Найт Explorer *(также* называемый *Explorer)* в плане 2. В этой серии статей большинство примеров были созданы с помощью полного обозревателя угроз. Администраторы должны проверить все действия в обнаружениях в режиме реального времени, чтобы узнать, где они применяются.
 
-Чтобы открыть средство Explorer, перейдите **Microsoft 365 портала Электронной** почты &  >    >  **Обозреватель совместной работы.** По умолчанию вы прибудете на страницу **Вредоносные** программы, но для ознакомления с вашими вариантами используйте падение **View.** Если вы охотитесь за фишингом или копаете в кампанию угроз, выберите эти представления.
+Чтобы открыть средство Explorer, перейдите **на Microsoft 365 Defender email**&  >    >  **explorer.** По умолчанию вы прибудете на страницу **Вредоносные** программы, но для ознакомления с вашими вариантами используйте падение **View.** Если вы охотитесь за фишингом или копаете в кампанию угроз, выберите эти представления.
 
 > [!div class="mx-imgBorder"]
 > ![Просмотр drop down в Обозревателе угроз](../../media/view-drop-down.png)
@@ -267,11 +267,11 @@ Defender for Office 365 Plan 1 *использует* обнаружения в 
 
 Дополнительные информацию о ролях и разрешениях см. в следующих ресурсах:
 
-- [Разрешения на портале Microsoft 365 Defender](permissions-in-the-security-and-compliance-center.md)
+- [Разрешения на портале Microsoft 365 Defender](permissions-microsoft-365-security-center.md)
 - [Разрешения компонентов в Exchange Online](/exchange/permissions-exo/feature-permissions)
 - [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell)
 
-## <a name="more-information"></a>Дополнительные сведения
+## <a name="more-information"></a>Дополнительная информация
 
 - [Поиск и изучение доставленной нежелательной почты](investigate-malicious-email-that-was-delivered.md) 
 - [Просмотр вредоносных файлов, обнаруженных в SharePoint Online, OneDrive и Microsoft Teams](mdo-for-spo-odb-and-teams.md) 

@@ -17,12 +17,12 @@ ms.collection:
 description: Администраторы могут научиться настраивать почтовый ящик для сбора нежелательной почты и фишинга, о которых сообщают пользователи.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e990721dacaa373b6782ee916f051e4753f3edfd
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: f59548a1f36e067d8b649f7fe22149362d6fe9c6
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53055124"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53083540"
 ---
 # <a name="user-reported-message-settings"></a>Параметры сообщений пользователя, о чем сообщалось
 
@@ -68,7 +68,7 @@ ms.locfileid: "53055124"
 
 - Чтобы изменить конфигурацию для пользовательских представлений, необходимо быть членом одной из следующих групп ролей:
 
-  - **Управление организацией** или **администратор** безопасности [на Microsoft 365 Defender портале](permissions-in-the-security-and-compliance-center.md).
+  - **Управление организацией** **или администратор безопасности** в [разрешениях на Microsoft 365 Defender портале](permissions-microsoft-365-security-center.md).
   - **Управление организацией** [в Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups).
 
 - Вам необходим доступ к Exchange Online PowerShell. Если учетная запись, которую вы пытаетесь использовать, не имеет доступа к Exchange Online PowerShell, при указании почтового ящика отправки вы получите ошибку, которая выглядит так:

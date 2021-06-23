@@ -74,14 +74,10 @@
       items:
         - name: 'Сведения о службе Office 365, предоставляемой 21Vianet'
           href: services-in-china/services-in-china.md
-        - name: Приобретение или пробное использование подписок
-          href: ../commerce/try-or-buy-microsoft-365.md?view=o365-21vianet
         - name: 'Скачивание приложения Office для Android для службы Office 365, предоставляемой 21Vianet'
           href: services-in-china/download-office-app-for-Android.md
         - name: 'Скачивание приложения Office для iOS для службы Office 365, предоставляемой 21Vianet'
           href: services-in-china/download-office-app-for-iOS.md
-        - name: Просмотр счета или получение счетов фапьяо
-          href: ../commerce/billing-and-payments/view-your-bill-or-invoice.md?view=o365-21vianet
         - name: Заявление на получение счета фапьяо
           href: services-in-china/apply-for-a-fapiao.md
         - name: Поддержка Azure Information Protection

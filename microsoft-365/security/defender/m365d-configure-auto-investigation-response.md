@@ -16,12 +16,12 @@ ms.custom: autoir
 ms.reviewer: evaldm, isco
 f1.keywords: CSH
 ms.technology: m365d
-ms.openlocfilehash: d3acf24d12b72a92af4246afdf11f67e01c45b2c
-ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
+ms.openlocfilehash: 4275339e048a4197590c91c5904733ce99b22f9f
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53022508"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53083444"
 ---
 # <a name="configure-automated-investigation-and-response-capabilities-in-microsoft-365-defender"></a>Настройка возможностей автоматического расследования и ответа в Microsoft 365 Defender
 
@@ -50,7 +50,7 @@ Microsoft 365 Defender включает в себя мощные [возможн
 |Требования к сети|<ul><li>[Microsoft Defender for Identity включен](/azure-advanced-threat-protection/what-is-atp)</li><li>[Microsoft Cloud App Security](/cloud-app-security/what-is-cloud-app-security) настроены</li><li>[Microsoft Defender для интеграции удостоверений](/cloud-app-security/mdi-integration)</li></ul>|
 |Требования к компьютеру Windows:|<ul><li>Windows 10 версии 1709 или более поздней версии (см. Windows 10 [сведения о выпуске)](/windows/release-information/)</li><li>Настроены следующие службы защиты от угроз:<ul><li>[Microsoft Defender для конечной точки](../defender-endpoint/configure-endpoints.md)</li><li>[Антивирусная программа в Microsoft Defender](/windows/security/threat-protection/windows-defender-antivirus/configure-windows-defender-antivirus-features)</li></ul></li></ul>|
 |Защита контента электронной почты и Office файлов|[Microsoft Defender для Office 365](/microsoft-365/security/office-365-security/defender-for-office-365#configure-atp-policies) настроен|
-|Permissions|Чтобы настроить возможности автоматического расследования и ответа, необходимо, чтобы роль глобального администратора или администратора безопасности была назначена в Azure Active Directory () или <https://portal.azure.com> в Центр администрирования Microsoft 365 ( <https://admin.microsoft.com> ). <p> Чтобы получить разрешения, необходимые для работы с автоматизированными возможностями расследования и реагирования, такими как проверка, одобрение или отклонение ожидающих действий, см. в документе [Required permissions for Action Center tasks.](m365d-action-center.md#required-permissions-for-action-center-tasks)|
+|Разрешения|Чтобы настроить возможности автоматического расследования и ответа, необходимо, чтобы роль глобального администратора или администратора безопасности была назначена в Azure Active Directory () или <https://portal.azure.com> в Центр администрирования Microsoft 365 ( <https://admin.microsoft.com> ). <p> Чтобы получить разрешения, необходимые для работы с автоматизированными возможностями расследования и реагирования, такими как проверка, одобрение или отклонение ожидающих действий, см. в документе [Required permissions for Action Center tasks.](m365d-action-center.md#required-permissions-for-action-center-tasks)|
 |
 
 ## <a name="review-or-change-the-automation-level-for-device-groups"></a>Обзор или изменение уровня автоматизации для групп устройств
@@ -73,7 +73,7 @@ Microsoft 365 Defender включает в себя мощные [возможн
 
 Параметры безопасности в Office 365 помогают защитить электронную почту и содержимое. Чтобы просмотреть или изменить эти параметры, следуйте указаниям в ["Защита от угроз".](../office-365-security/protect-against-threats.md)
 
-1. На портале Microsoft 365 Defender [https://security.microsoft.com](https://security.microsoft.com) () перейдите к **политикам & политики** \> **угрозы** правил .
+1. На портале Microsoft 365 Defender <https://security.microsoft.com> () перейдите к **политикам & политики** \> **угрозы** правил .
 
 2. Убедитесь, что все следующие политики настроены. Чтобы получить помощь и рекомендации, см. в [справке "Защита от угроз".](/microsoft-365/security/office-365-security/protect-against-threats)
    - [Anti-malware](../office-365-security/protect-against-threats.md#part-1---anti-malware-protection-in-eop)
@@ -82,9 +82,9 @@ Microsoft 365 Defender включает в себя мощные [возможн
    - [Безопасные ссылки](../office-365-security/protect-against-threats.md#safe-links-policies-in-microsoft-defender-for-office-365)
    - [Противодействие нежелательной почте](../office-365-security/protect-against-threats.md#part-3---anti-spam-protection-in-eop)
 
-3. Убедитесь, что [microsoft Defender Office 365 для SharePoint, OneDrive и](../office-365-security/protect-against-threats.md#part-5---verify-safe-attachments-for-sharepoint-onedrive-and-microsoft-teams-is-turned-on) Microsoft Teams включена.
+3. Убедитесь, Сейф вложения [для SharePoint, OneDrive и](../office-365-security/mdo-for-spo-odb-and-teams.md) Microsoft Teams включен.
 
-4. [Убедитесь, что автоматическая очистка без](../office-365-security/protect-against-threats.md#zero-hour-auto-purge-for-email-in-eop) часов для защиты электронной почты действует.
+4. Убедитесь, что автоматическая очистка нулевого часа [(ZAP)](../office-365-security/zero-hour-auto-purge.md) в Exchange Online действует.
 
 5. (Этот шаг необязателен.) Просмотрите [Office 365 политики](../../compliance/alert-policies.md) оповещения в Центр соответствия требованиям Microsoft 365 ( [https://compliance.microsoft.com/compliancepolicies](https://compliance.microsoft.com/compliancepolicies) ). Несколько политик оповещений по умолчанию находятся в категории управление угрозами. Некоторые из этих оповещений могут вызвать автоматическое расследование и ответ. Дополнительные дополнительные новости см. в [дополнительных правилах оповещения по умолчанию.](../../compliance/alert-policies.md#default-alert-policies)
 

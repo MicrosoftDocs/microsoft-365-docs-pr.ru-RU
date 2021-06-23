@@ -1,5 +1,5 @@
 ---
-title: Симулятор атак в Microsoft Defender для Office 365
+title: Симулятор атак в центре & безопасности
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -17,17 +17,17 @@ ms.collection:
 - m365initiative-defender-office365
 ms.custom:
 - seo-marvel-apr2020
-description: Администраторы могут узнать, как использовать симулятор атак для имитации фишинговых атак и атак паролей в Microsoft 365 E5 или Microsoft Defender для организаций Office 365 Plan 2.
+description: Администраторы могут научиться использовать симулятор атак в центре & complance для запуска имитации фишинга и атак паролей в Microsoft 365 E5 или Microsoft Defender для Office 365 plan 2.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 03e6c0077f13c85bfd20ac0583b64ce29e2535a1
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: aa10c30644562a156964ebaa1d63145047ca9264
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878680"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53082868"
 ---
-# <a name="attack-simulator-in-microsoft-defender-for-office-365"></a>Симулятор атак в Microsoft Defender для Office 365
+# <a name="attack-simulator-in-the-security--compliance-center"></a>Симулятор атак в центре & безопасности
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -37,7 +37,7 @@ ms.locfileid: "52878680"
 
 > [!NOTE]
 >
-> Симулятор атаки, как описано в этой статье, теперь  является только для чтения и заменен обучением моделированию атаки в **узле** совместной & электронной почты на портале Microsoft 365 Defender по <https://security.microsoft.com> ссылке . Дополнительные сведения см. в [дополнительных сведениях: Начало работы с обучением имитации атаки.](attack-simulation-training-get-started.md)
+> Симулятор атаки, как описано в этой статье, теперь  только для чтения и заменен обучением имитации атаки **в узле** совместной работы & электронной почты на портале Microsoft 365 Defender на <https://security.microsoft.com> . Дополнительные сведения см. в [дополнительных сведениях: Начало работы с обучением имитации атаки.](attack-simulation-training-get-started.md)
 >
 > Отключена возможность запуска новых имитаций из этой версии симулятора атаки. Однако до 24 апреля 2021 г. можно получить доступ к отчетам.
 

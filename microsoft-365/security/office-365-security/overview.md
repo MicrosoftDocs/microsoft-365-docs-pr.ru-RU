@@ -16,12 +16,12 @@ ms.collection:
 description: Безопасность в Office 365, от EOP до Defender для Планов 1 и 2 Office 365, стандартные и строгие конфигурации безопасности и т.д. Разберитесь, что у вас есть, и как защитить свои свойства.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 6ecdfe324ded6224745b0e2eac087e432ac76c83
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: db458f0a3a3ac2cc4a06d0827844e156798f6505
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52930251"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53083660"
 ---
 # <a name="microsoft-defender-for-office-365-security-overview"></a>Обзор безопасности Microsoft Defender для Office 365 безопасности
 
@@ -125,7 +125,7 @@ Microsoft Defender для Office 365 P1 также **добавляет обна
 
 |Defender для Office 365 (план 1)|Defender для Office 365 (план 2)|
 |---|---|
-|Конфигурация, защита и возможности обнаружения: <ul><li>[Безопасные вложения](safe-attachments.md)</li><li>[Безопасные ссылки](safe-links.md)</li><li>[Безопасные вложения для SharePoint, OneDrive и Microsoft Teams](mdo-for-spo-odb-and-teams.md)</li><li>[Защита от фишинга в Defender для Office 365](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)</li><li>[Обнаружение в режиме реального времени](threat-explorer.md)</li></ul>|Возможности Defender для Office 365 (план 1) <p> --- плюс --- <p> Автоматизация, исследование, исправления и возможности образования. <ul><li>[Трекеры угроз](threat-trackers.md)</li><li>[Обозреватель угроз](threat-explorer.md)</li><li>[Автоматизированный анализ угроз и реагирование на них](office-365-air.md)</li><li>[Эмулятор атак](attack-simulator.md)</li></ul>|
+|Конфигурация, защита и возможности обнаружения: <ul><li>[Безопасные вложения](safe-attachments.md)</li><li>[Безопасные ссылки](safe-links.md)</li><li>[Безопасные вложения для SharePoint, OneDrive и Microsoft Teams](mdo-for-spo-odb-and-teams.md)</li><li>[Защита от фишинга в Defender для Office 365](set-up-anti-phishing-policies.md#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)</li><li>[Обнаружение в режиме реального времени](threat-explorer.md)</li></ul>|Возможности Defender для Office 365 (план 1) <p> --- плюс --- <p> Автоматизация, исследование, исправления и возможности образования. <ul><li>[Трекеры угроз](threat-trackers.md)</li><li>[Обозреватель угроз](threat-explorer.md)</li><li>[Автоматизированный анализ угроз и реагирование на них](office-365-air.md)</li><li>[Обучение имитации атаки](attack-simulation-training.md)</li></ul>|
 |
 
 - Пакет Microsoft Defender для Office 365 с планом 2 входит в состав Office 365 E5, Office 365 A5 и Microsoft 365 E5.
@@ -153,5 +153,4 @@ Microsoft Defender для Office 365 P1 также **добавляет обна
 
 [Использование обозревателя угроз или обнаружения угроз в режиме реального времени](threat-explorer.md)
 
-Использование [эмулятора атак в Microsoft Defender для Office 365](attack-simulator.md)
-
+Использование [обучения моделированию атаки](attack-simulation-training.md)

@@ -21,12 +21,12 @@ ms.custom:
 description: Администраторы могут узнать о средствах защиты от фишинга в Exchange Online Protection (EOP) и Microsoft Defender для Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 0e1539153282f14a13ddd9066350cbcdca2a074a
-ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
+ms.openlocfilehash: 2a28e2ecc45be941dbd6e346f9918e1692357840
+ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53029241"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53083108"
 ---
 # <a name="anti-phishing-protection-in-microsoft-365"></a>Защита от фишинга в Microsoft 365
 
@@ -66,10 +66,8 @@ EOP (то есть Microsoft 365 без Microsoft Defender для Office 365) с
 Microsoft Defender для Office 365 содержит дополнительные и более продвинутые функции защиты от фишинга:
 
 - Политики защиты от фишинга в Microsoft Defender для **Office 365: Настройка** параметров защиты от обезличения для определенных доменов отправителей и отправителей сообщений, параметров разведки почтовых ящиков и регулируемых пороговых значений расширенных фишинговых сообщений. Дополнительные сведения см. в [сообщении Configure anti-phishing policies in Microsoft Defender for Office 365.](configure-mdo-anti-phishing-policies.md) Дополнительные сведения о различиях между политиками защиты от фишинга в EOP и антифишинговыми политиками в Defender for Office 365 см. в Microsoft 365 [.](set-up-anti-phishing-policies.md)
-
 - **Просмотры** кампании. Машинное обучение и другие юристики определяют и анализируют сообщения, участвующие в скоординированных фишинговых атаках на всю службу и организацию. Дополнительные сведения см. в [веб-сайте Просмотры кампании](campaigns.md)в Microsoft Defender для Office 365 .
-
-- **Симулятор атак.** Администраторы могут создавать поддельные фишинговые сообщения и отправлять их внутренним пользователям в качестве средства обучения. Дополнительные сведения см. в [веб-сайте Attack Simulator в Microsoft Defender для Office 365.](attack-simulator.md)
+- **Обучение имитации атак.** Администраторы могут создавать поддельные фишинговые сообщения и отправлять их внутренним пользователям в качестве средства обучения. Дополнительные сведения см. в [сообщении Simulate a phishing attack.](attack-simulation-training.md)
 
 ## <a name="other-anti-phishing-resources"></a>Другие ресурсы по борьбе с фишингом
 
