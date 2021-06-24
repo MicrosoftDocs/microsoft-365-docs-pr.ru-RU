@@ -273,6 +273,8 @@
 #### [Получите обновления антивирусной и антивредоносной программ](manage-updates-baselines-microsoft-defender-antivirus.md)
 ##### [Управление источниками обновлений антивирусной программы в Microsoft Defender](manage-protection-updates-microsoft-defender-antivirus.md)
 ##### [Управление расписанием загрузки и применения обновлений защиты](manage-protection-update-schedule-microsoft-defender-antivirus.md)
+##### [Управление процессом постепенного выпуска обновлений Microsoft Defender](manage-gradual-rollout.md)
+##### [Настройка процесса постепенного выпуска обновлений Microsoft Defender](configure-updates.md)
 ##### [Управление обновлениями и проверками устаревших конечных точек антивирусной программы в Microsoft Defender](manage-outdated-endpoints-microsoft-defender-antivirus.md)
 ##### [Управление принудительными обновлениями на основе событий](manage-event-based-updates-microsoft-defender-antivirus.md)
 ##### [Управление обновлениями для мобильных устройств и виртуальных машин (ВМ)](manage-updates-mobile-devices-vms-microsoft-defender-antivirus.md)
@@ -309,7 +311,6 @@
 ##### [Устранение неполадок с производительностью](troubleshoot-performance-issues.md)
 ##### [Просмотр журналов событий и кодов ошибок для устранения неполадок с антивирусной программой в Microsoft Defender](troubleshoot-microsoft-defender-antivirus.md)
 ##### [Устранение неполадок с антивирусной программой в Microsoft Defender при миграции из сторонного решения](troubleshoot-microsoft-defender-antivirus-when-migrating.md)
-
 
 #### [Аппаратная изоляция]()
 ##### [Аппаратная изоляция в Windows 10](overview-hardware-based-isolation.md)
