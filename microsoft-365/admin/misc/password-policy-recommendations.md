@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9fa2539a-2211-41fd-85a0-bc37b9619ca4
 description: Надежнее защищайте организацию от атак на пароли, а также запретите распространенные пароли и включите многофакторную проверку подлинности с учетом рисков.
-ms.openlocfilehash: f580ed957b8231bc68c5f21ea9af990808478382
-ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
+ms.openlocfilehash: 6f79116b1188eaab1b843b2e3fa612c4ed01c488
+ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/18/2021
-ms.locfileid: "53006929"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53096628"
 ---
 # <a name="password-policy-recommendations"></a>Рекомендации политики паролей
 
@@ -58,7 +58,7 @@ ms.locfileid: "53006929"
 
 Самый важный шаг к защите паролей — обеспечение их разнообразия. Политика должна позволять создавать множество разных паролей, которые сложно отгадать. Ниже приведено несколько рекомендации, которые помогут защитить организацию.
   
-- Не увеличивайте минимальную длину паролей (8 символов). Больше не значит лучше.
+- Не увеличивайте минимальную длину паролей (8 символов).
 
 - Не требуйте использовать определенные группы символов, например \*&amp;(^%$.
 
@@ -131,6 +131,8 @@ ms.locfileid: "53006929"
 ## <a name="next-steps"></a>Дальнейшие действия
 
 Хотите узнать больше об управлении паролями? Вот некоторые рекомендуемые статьи:
+
+- [Забудьте о паролях, используйте беспарольные решения](https://www.microsoft.com/security/business/identity-access-management/passwordless-authentication)
 
 - [Указания корпорации Майкрософт касательно паролей](https://www.microsoft.com/research/wp-content/uploads/2016/06/Microsoft_Password_Guidance-1.pdf)
 
