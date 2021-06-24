@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 3ed033f137d3329dc208183fe8fad1f300ffd4c9
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 8d7ac39baabca1496a5d2c22521874cfd60c6208
+ms.sourcegitcommit: ccbdf2638fc6646bfb89450169953f4c3ce4b9b0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52841799"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105576"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-linux-manually"></a>Развертывание Microsoft Defender для конечной точки на Linux вручную
 
@@ -349,6 +349,21 @@ ms.locfileid: "52841799"
         ```bash
         mdatp threat list
         ```
+
+## <a name="experience-linux-endpoint-detection-and-response-edr-capabilities-with-simulated-attacks"></a>Опыт использования обнаружение и нейтрализация атак на конечные точки (EDR) с имитацией атак
+
+Чтобы проверить функциональные возможности EDR Linux, выполните ниже шаги, чтобы смоделировать обнаружение на сервере Linux и изучить этот случай. 
+
+1.  Убедитесь, что на борту linux-сервера отображается Центр безопасности в Microsoft Defender. Если это первый бортовой аппарат, это может занять до 20 минут, пока он не появится. 
+
+2.  Скачайте и извлеките [файл скрипта](https://aka.ms/LinuxDIY) на бортовой сервер Linux и запустите следующую команду: `./mde_linux_edr_diy.sh`
+
+3.  Через несколько минут обнаружение должно быть поднято в Центр безопасности в Microsoft Defender.
+
+4.  Посмотрите на сведения оповещений, временную шкалу машины и выполните типичные действия по расследованию.
+
+
+
 
 ## <a name="installer-script"></a>Сценарий установки
 

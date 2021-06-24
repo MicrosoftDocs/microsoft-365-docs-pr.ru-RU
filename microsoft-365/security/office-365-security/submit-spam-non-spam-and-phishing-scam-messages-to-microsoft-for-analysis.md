@@ -18,12 +18,12 @@ description: Администраторы и конечные пользоват
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 4d277df764ce2fb135f11c6320bc990e4d4142d6
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: d0d48c3c6f6d082085390d6e246a088b6d3f6bf0
+ms.sourcegitcommit: ccbdf2638fc6646bfb89450169953f4c3ce4b9b0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52929771"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105552"
 ---
 # <a name="manually-submit-messages-to-microsoft-for-analysis"></a>Вручную отправлять сообщения в Корпорацию Майкрософт для анализа
 
@@ -35,7 +35,7 @@ ms.locfileid: "52929771"
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
 > [!NOTE]
-> Если вы администратор в организации с Exchange Online почтовыми ящиками, рекомендуем использовать портал Отправки на портале Microsoft 365 Defender. Дополнительные сведения см. в материале Использование отправки администратора для отправки в Корпорацию Майкрософт подозрительных [спама, фишинга, URL-адресов и файлов.](admin-submission.md)
+> Если вы администратор в организации с Exchange Online почтовыми ящиками, рекомендуем использовать страницу **Отправки** на Microsoft 365 Defender портале. Дополнительные сведения см. в материале Использование отправки администратора для отправки в Корпорацию Майкрософт подозрительных [спама, фишинга, URL-адресов и файлов.](admin-submission.md)
 
 Это может расстраивать, когда пользователи в вашей организации получают нежелательные сообщения (спам) или фишинговые сообщения в папке "Входящие", или если они не получают законное сообщение электронной почты, так как оно помечено как нежелательное. Мы постоянно настраиваем фильтры нежелательной почты, чтобы быть более точными.
 
@@ -47,7 +47,7 @@ ms.locfileid: "52929771"
 ## <a name="submit-false-negatives-to-microsoft"></a>Отправка ложных негативов в Корпорацию Майкрософт
 
 > [!TIP]
-> Вместо использования следующих процедур для сообщения о ложных отрицательных сигналах пользователи Outlook и Outlook в Интернете (ранее известные как Outlook Web App) могут использовать надстройку Report Message или надстройку Report Phishing. Сведения об установке и использовании этих средств см. в добавлении [Enable the Report Message](enable-the-report-message-add-in.md) и Enable the Report [Phishing add-in.](enable-the-report-phish-add-in.md)
+> Вместо использования следующих процедур для сообщения о ложных негативах пользователи в Outlook и Outlook в Интернете (ранее известные как Outlook Web App) могут использовать надстройку Report Message или надстройку Report Phishing. Сведения об установке и использовании этих средств см. в добавлении [Enable the Report Message](enable-the-report-message-add-in.md) и Enable the Report [Phishing add-in.](enable-the-report-phish-add-in.md)
 
 Если вы получили сообщение, которое прошло через фильтрацию нежелательной почты, которое должно было быть идентифицировано как спам или фишинг, вы можете отправить сообщение в группы анализа нежелательной почты и Microsoft Phishing Analysis по мере необходимости. Аналитики рассмотрят сообщение и добавят его в фильтры для всей службы, если оно соответствует критериям классификации.
 
@@ -72,7 +72,7 @@ ms.locfileid: "52929771"
 ## <a name="submit-false-positives-to-microsoft"></a>Отправка ложных срабатыва-
 
 > [!TIP]
-> Вместо использования следующих процедур для сообщения о ложных срабатываниях пользователи Outlook и Outlook в Интернете (ранее известные как Outlook Web App) могут использовать надстройку Report Message или надстройку Report Phishing. Сведения об установке и использовании этих средств см. в добавлении [Enable the Report Message](enable-the-report-message-add-in.md) и Enable the Report [Phishing add-in.](enable-the-report-phish-add-in.md)
+> Вместо использования следующих процедур для сообщения о ложных срабатываниях пользователи в Outlook и Outlook в Интернете могут использовать надстройку Report Message или надстройку Report Phishing. Сведения об установке и использовании этих средств см. в добавлении [Enable the Report Message](enable-the-report-message-add-in.md) и Enable the Report [Phishing add-in.](enable-the-report-phish-add-in.md)
 
 Если сообщение было неправильно идентифицировано как нежелательное, вы можете отправить сообщение в команду анализа нежелательной почты Майкрософт. Аналитики оценят сообщение, и (в зависимости от результатов анализа) фильтры службы могут быть скорректированы, чтобы разрешить сообщение.
 

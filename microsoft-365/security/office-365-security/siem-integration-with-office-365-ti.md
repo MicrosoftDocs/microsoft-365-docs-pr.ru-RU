@@ -19,12 +19,12 @@ description: Интеграция siEM-сервера организации с 
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f3d6bbacb4a64060ecd03cbb28eee3256f41827e
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: e11d1e64b7c8c3b9d5b93516fe05aed3d5937290
+ms.sourcegitcommit: ccbdf2638fc6646bfb89450169953f4c3ce4b9b0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52929783"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105636"
 ---
 # <a name="siem-integration-with-microsoft-defender-for-office-365"></a>Интеграция SIEM с Microsoft Defender для Office 365
 
@@ -41,7 +41,6 @@ ms.locfileid: "52929783"
 Интеграция SIEM позволяет просматривать сведения, например вредоносные программы или фишинг, обнаруженные Microsoft Defender для Office 365, в отчетах на сервере SIEM.
 
 - Пример интеграции SIEM с Microsoft Defender для Office 365 см. в блоге Tech Community: Повышение эффективности вашего SOC с помощью Defender для Office 365 и API управления [O365](https://techcommunity.microsoft.com/t5/microsoft-security-and/improve-the-effectiveness-of-your-soc-with-office-365-atp-and/ba-p/1525185).
-
 - Дополнительные сведения об API Office 365 управления см. в Office 365 [API управления.](/office/office-365-management-api/office-365-management-apis-overview)
 
 ## <a name="how-siem-integration-works"></a>Работа интеграции SIEM
@@ -58,6 +57,10 @@ SiEM-сервер или другая аналогичная система оп
 
 В следующей таблице суммируют значения **AuditLogRecordType,** которые важны для Microsoft Defender для Office 365 событий:
 
+<br>
+
+****
+
 |Значение|Имя элемента|Описание|
 |---|---|---|
 |28|ThreatIntelligence|События фишинга и вредоносных программ из Exchange Online Protection и Microsoft Defender для Office 365.|
@@ -67,7 +70,7 @@ SiEM-сервер или другая аналогичная система оп
 |
 
 > [!IMPORTANT]
-> Вы должны быть глобальным администратором или иметь роль администратора безопасности, назначенную порталу Microsoft 365 Defender, чтобы настроить интеграцию SIEM с Microsoft Defender для Office 365.
+> Вы должны быть глобальным администратором или иметь роль администратора безопасности, назначенную на портале Microsoft 365 Defender, чтобы настроить интеграцию SIEM с Microsoft Defender для Office 365. Дополнительные сведения см. в статье [Разрешения на портале Microsoft 365 Defender](permissions-microsoft-365-security-center.md).
 >
 > Ведение журнала аудита должно быть включено для Microsoft 365 среды. Чтобы получить помощь в этом, см. в справке о включите поиск [журнала аудита включите или отключите.](../../compliance/turn-audit-log-search-on-or-off.md)
 

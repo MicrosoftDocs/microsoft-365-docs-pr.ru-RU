@@ -16,13 +16,13 @@ ms.custom: nextgen
 ms.reviewer: pahuijbr
 manager: dansimp
 ms.technology: mde
-ms.date: 06/14/2021
-ms.openlocfilehash: 1c7ff52398e048aa34fd9c5ab3d8edd1004ea5ec
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.date: 06/23/2021
+ms.openlocfilehash: 88be32a2c1e9204629682ec678f80ab6daf701f4
+ms.sourcegitcommit: ccbdf2638fc6646bfb89450169953f4c3ce4b9b0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52929447"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105336"
 ---
 # <a name="manage-microsoft-defender-antivirus-updates-and-apply-baselines"></a>Управление антивирусная программа в Microsoft Defender обновлениями и применение базовых показателей
 
@@ -105,6 +105,8 @@ ms.locfileid: "52929447"
 ### <a name="whats-new"></a>Новые возможности
 - Дополнительная логика мониторинга поведения
 - Улучшенное обнаружение кейлоггера режима ядра
+- Добавлены новые элементы управления для управления постепенным процессом выкатки обновлений [Microsoft Defender](manage-gradual-rollout.md)
+
 
 ### <a name="known-issues"></a>Известные проблемы
 Отсутствие известных проблем  

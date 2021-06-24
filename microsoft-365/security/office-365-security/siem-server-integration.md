@@ -18,12 +18,12 @@ ms.custom:
 description: Получение обзора интеграции серверов служб безопасности и управления событиями (SIEM) с Microsoft 365 облачными службами и приложениями
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 8b9c17ba2dcefa65b60a53ab8bff405de4850fc0
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: ea4d844595aaab8d8148666430187edef463b92e
+ms.sourcegitcommit: ccbdf2638fc6646bfb89450169953f4c3ce4b9b0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52929795"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105600"
 ---
 # <a name="security-information-and-event-management-siem-server-integration-with-microsoft-365-services-and-applications"></a>Интеграция серверов с данными о безопасности и управление событиями (SIEM) с Microsoft 365 службами и приложениями
 
@@ -46,31 +46,31 @@ ms.locfileid: "52929795"
 Потребность в siEM-сервере зависит от многих факторов, таких как требования к безопасности организации и место хранения данных. Microsoft 365 включает широкий спектр функций безопасности, которые отвечают требованиям безопасности многих организаций без дополнительных серверов, таких как сервер SIEM. В некоторых организациях имеются особые условия, которые требуют использования сервера SIEM. Ниже приводятся примеры:
 
 - *Fabrikam* имеет некоторое содержимое и приложения на месте, а некоторые в облаке (они имеют гибридное развертывание облака). Чтобы получить отчеты о безопасности во всем их контенте и приложениях, Fabrikam реализовал сервер SIEM.
-
 - *Contoso* — это организация финансовых служб, которая предъявляет особо строгие требования к безопасности. Они добавили сервер SIEM в свою среду, чтобы воспользоваться необходимой дополнительной защитой безопасности.
 
 ## <a name="siem-server-integration-with-microsoft-365"></a>Интеграция сервера SIEM с Microsoft 365
 
 Сервер SIEM может получать данные из различных Microsoft 365 и приложений. В следующей таблице перечислены несколько Microsoft 365 и приложений, а также входные данные и ресурсы сервера SIEM, чтобы узнать больше.
 
+<br>
+
 ****
 
 |Microsoft 365 Служба или приложение|Входные данные и методы сервера SIEM|Дополнительные ресурсы|
 |---|---|---|
 |[Microsoft Defender для Office 365](defender-for-office-365.md)|Журналы аудита|[Интеграция SIEM с Microsoft Defender для Office 365](siem-integration-with-office-365-ti.md)|
-|[Microsoft Defender для конечной точки](/windows/security/threat-protection/)|Конечная точка HTTPS, организованная в Azure <p> API REST|[Вытащать оповещения в инструменты SIEM](../defender-endpoint/configure-siem.md)|
+|[Microsoft Defender для конечной точки](/windows/security/threat-protection/)|Конечная точка HTTPS, организованная в Azure <p> REST API|[Вытащать оповещения в инструменты SIEM](../defender-endpoint/configure-siem.md)|
 |[Microsoft Cloud App Security](/cloud-app-security/what-is-cloud-app-security)|Интеграция журнала|[Интеграция SIEM с Microsoft Cloud App Security](/cloud-app-security/siem)|
 |
 
 > [!TIP]
-> Взгляните на [Azure Sentinel](/azure/sentinel/overview). Azure Sentinel поставляется с соединителями для решений Майкрософт. Эти соединители доступны "из окна" и обеспечивают интеграцию в режиме реального времени. Вы можете использовать Azure Sentinel с решениями Microsoft 365 Defender и Microsoft 365 службами, включая Office 365, Azure AD, Microsoft Defender for Identity, Microsoft Cloud App Security и другие.
+> Взгляните на [Azure Sentinel](/azure/sentinel/overview). Azure Sentinel поставляется с соединителями для решений Майкрософт. Эти соединители доступны "из окна" и обеспечивают интеграцию в режиме реального времени. Вы можете использовать Azure Sentinel с Microsoft 365 Defender решениями и Microsoft 365 службами, включая Office 365, Azure AD, Microsoft Defender for Identity, Microsoft Cloud App Security и другие.
 
 ### <a name="audit-logging-must-be-turned-on"></a>Необходимо включить журнал аудита
 
 Убедитесь, что журнал аудита включен перед настройкой интеграции серверов SIEM.
 
-- Для SharePoint Online, OneDrive для бизнеса и Azure Active Directory журнал аудита включен на [портале Microsoft 365 Defender](../../compliance/turn-audit-log-search-on-or-off.md).
-
+- Для SharePoint Online, OneDrive для бизнеса и Azure Active Directory см. в включите аудит или [отключение.](../../compliance/turn-audit-log-search-on-or-off.md)
 - Для Exchange Online см. в этой Exchange Online [Управление аудитом почтовых ящиков.](../../compliance/enable-mailbox-auditing.md)
 
 ## <a name="more-resources"></a>Дополнительные ресурсы
