@@ -1,5 +1,5 @@
 ---
-title: Оповещений в Центре & безопасности
+title: Оповещения на Microsoft 365 Defender портале
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -17,18 +17,18 @@ ms.assetid: 2bb4e7c0-5f7f-4144-b647-cc6a956aaa53
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Узнайте, как использовать функции оповещений в центре Office 365 безопасности & для просмотра и управления оповещениями, включая управление расширенными оповещениями.
+description: Узнайте, как использовать функции оповещений на Microsoft 365 Defender для просмотра и управления оповещениями, включая управление расширенными оповещениями.
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: cbc1bfbd1fc1f21035edf34ad743755b0f51018b
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 44009ac90dddf9a8f901fdcc5d46496e4bc78338
+ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51205525"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53108287"
 ---
-# <a name="alerts-in-the-security--compliance-center"></a>Оповещений в Центре & безопасности
+# <a name="alerts-in-the-microsoft-365-defender-portal"></a>Оповещения на Microsoft 365 Defender портале
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender-for-office.md)]
 
@@ -36,33 +36,19 @@ ms.locfileid: "51205525"
 - [Exchange Online Protection](exchange-online-protection-overview.md)
 - [Microsoft Defender для Office 365 (план 1 и план 2)](defender-for-office-365.md)
 
-Используйте функции оповещений в Центре & безопасности для просмотра и управления оповещениями для организации, включая управление расширенными оповещениями в [Microsoft Cloud App Security обзоре.](/cloud-app-security/what-is-cloud-app-security)
+Используйте функции оповещений на портале Microsoft 365 Defender для просмотра и управления оповещениями для организации, включая управление расширенными оповещениями в [Microsoft Cloud App Security обзоре.](/cloud-app-security/what-is-cloud-app-security)
 
 ## <a name="how-to-get-to-the-alerts-features"></a>Как добраться до функций оповещений
 
-Оповещений в центре & безопасности. Вот как добраться до страницы.
+Оповещения находятся на портале Microsoft 365 Defender ( <https://security.microsoft.com> ). Вот как добраться до страницы:
 
-### <a name="to-go-directly-to-the-security--compliance-center"></a>Чтобы перейти непосредственно в Центр & безопасности
-
-1. Перейдите на сайт <https://protection.office.com>.
-
-2. Выполните вход с помощью учетной записи вашей организации или учебного заведения.
-
-3. В левой области щелкните **Оповещений,** чтобы увидеть функции оповещений.
-
-### <a name="to-go-to-the-security--compliance-center-using-the-app-launcher"></a>Чтобы перейти в Центр & безопасности с помощью запуска приложения
-
-1. Выполните вход с помощью учетной записи вашей организации или учебного заведения.
-
-2. Нажмите кнопку запуска приложения в левом верхнем углу, а затем нажмите кнопку **& соответствие** требованиям.
-
-   В средстве запуска приложений щелкните ссылку **Все приложения** для просмотра списка доступных приложений Office 365 в алфавитном порядке. В этом списке вы сможете найти конкретное приложение.
-
-3. В левой области щелкните **Оповещений,** чтобы увидеть функции оповещений.
+На **портале Microsoft 365 Defender** перейдите к **оповещений**. Или, чтобы перейти непосредственно на страницу **Оповещений,** используйте <https://security.microsoft.com/alerts> .
 
 ## <a name="alerts-features"></a>Функции оповещений
 
-В следующей таблице описываются средства, доступные в **центре** оповещения в центре & безопасности.
+В следующей таблице описываются средства, доступные в статье **Alerts** на Microsoft 365 Defender портале.
+
+<br>
 
 ****
 

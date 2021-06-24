@@ -15,12 +15,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Узнайте, как защитить конфиденциальные сведения с помощью Microsoft 365 политики и средства предотвращения потери данных, а также пройти экскурсию по жизненному циклу DLP.
-ms.openlocfilehash: 88cf913f62d28c89bce7054473eb577217de9489
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 9b449886e0856f7407fcd49b83192dd0c01474bd
+ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244616"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53108263"
 ---
 # <a name="learn-about-data-loss-prevention"></a>Сведения о защите от потери данных
 
@@ -121,7 +121,9 @@ Microsoft 365 Мониторинг и защита DLP являются родн
 
 #### <a name="enable-the-control-and-tune-your-policies"></a>Включить управление и настроить политики
 
-После того как политика будет отвечать всем вашим целям, включите ее. Продолжайте отслеживать результаты приложения политики и настраивать по мере необходимости. Как правило, политики вступает в силу примерно через час после включаемого. <!--See, раздел LINK TO для slAs для конкретных сведений о расположении — >
+После того как политика будет отвечать всем вашим целям, включите ее. Продолжайте отслеживать результаты приложения политики и настраивать по мере необходимости. Как правило, политики вступает в силу примерно через час после включаемого. 
+
+<!--See, LINK TO topic for SLAs for location specific  details-->
 
 ## <a name="dlp-policy-configuration-overview"></a>Обзор конфигурации политики DLP
 

@@ -20,12 +20,12 @@ ms.custom:
 description: Администраторы могут узнать о подмене сведений в Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 08b9586edf565c4f69c51f732511d3a0956ae500
-ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
+ms.openlocfilehash: a0131266d5830988ed23fc11e01323025aa6d50a
+ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53029253"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53108527"
 ---
 # <a name="spoof-intelligence-insight-in-eop"></a>Spoof intelligence insight in EOP
 
@@ -92,7 +92,7 @@ ms.locfileid: "53029253"
 
 ## <a name="open-the-spoof-intelligence-insight-in-the-microsoft-365-defender-portal"></a>Откройте представление о подмене сведений на Microsoft 365 Defender портале
 
-1. На портале Microsoft 365 Defender перейдите в раздел Политики **совместной** & электронной почты & правила политики угрозы \>  \>  \>  \> .
+1. На портале Microsoft 365 Defender перейдите на страницу Политики **совместной** & электронной почты & политики угрозы правил раздел Политики защиты от \>  \>  \>  \> **фишинга**.
 
 2. На странице **Anti-phishing** аналитика подмены выглядит так:
 

@@ -18,12 +18,12 @@ ms.collection:
 description: Администраторы могут узнать, как использовать анализатор конфигурации для поиска и исправления политик безопасности, которые ниже стандартных политик безопасности и строгой защиты.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f98ab9b251894a5821d308d95fd786b496e396e4
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: 01a9b3a2b01a3cfc95a3911f75907cbe0ef9d58f
+ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878668"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53108431"
 ---
 # <a name="configuration-analyzer-for-protection-policies-in-eop-and-microsoft-defender-for-office-365"></a>Анализатор конфигурации для политик защиты в EOP и Microsoft Defender для Office 365
 
@@ -34,7 +34,7 @@ ms.locfileid: "52878668"
 - [Microsoft Defender для Office 365 (план 1 и план 2)](defender-for-office-365.md)
 - [Microsoft 365 Defender](../defender/microsoft-365-defender.md)
 
-Анализатор конфигурации на портале Microsoft 365 Defender предоставляет центральное расположение для поиска и исправления политик безопасности, в которых параметры находятся ниже параметров стандартных и строгих параметров профилей защиты в заранее заданная политика [безопасности.](preset-security-policies.md)
+Анализатор конфигурации на портале Microsoft 365 Defender предоставляет центральное расположение для поиска и исправления политик безопасности, где параметры ниже параметров standard protection and Strict protection profile settings in [preset security policies.](preset-security-policies.md)
 
 Анализатор конфигурации анализирует следующие типы политик:
 
@@ -57,7 +57,7 @@ ms.locfileid: "52878668"
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
-- Вы открываете портал Microsoft 365 Defender по <https://security.microsoft.com> ссылке . Чтобы перейти непосредственно на страницу **Анализатор конфигурации,** используйте <https://security.microsoft.com/configurationAnalyzer> .
+- Чтобы открыть портал Microsoft 365 Defender, перейдите на сайт <https://security.microsoft.com>. Чтобы перейти непосредственно на страницу **Анализатор конфигурации,** используйте <https://security.microsoft.com/configurationAnalyzer> .
 
 - Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
 
@@ -65,17 +65,17 @@ ms.locfileid: "52878668"
   - Чтобы использовать анализатор  конфигурации и обновлять политики безопасности, необходимо быть членом групп ролей **администратора** организации или **администратора** безопасности.
   - Для доступа только для чтения к анализатору конфигурации необходимо быть членом групп ролей **Global Reader** или **Security Reader.**
 
-  Дополнительные сведения см. [в сайте Permissions in the Microsoft 365 Defender.](permissions-microsoft-365-security-center.md)
+  Дополнительные сведения см. в статье [Разрешения на портале Microsoft 365 Defender](permissions-microsoft-365-security-center.md).
 
   > [!NOTE]
   >  
-  > - Добавление пользователей к соответствующей роли Azure Active Directory дает пользователям необходимые разрешения на портале Microsoft 365 Defender и разрешения на другие функции в Microsoft 365.  Дополнительные сведения см. в статье [О ролях администраторов](../../admin/add-users/about-admin-roles.md).
+  > - Добавление пользователей к соответствующей роли Azure Active Directory дает пользователям необходимые разрешения на  портале Microsoft 365 Defender и разрешения для других функций в Microsoft 365. Дополнительные сведения см. в статье [О ролях администраторов](../../admin/add-users/about-admin-roles.md).
   >
   > - Группа ролей **Управление организацией с правами только на просмотр** в [Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups) также предоставляет доступ только для чтения к этой функции.
 
-## <a name="use-the-configuration-analyzer-in-the-microsoft-365-defender-portal"></a>Используйте анализатор конфигурации на портале Microsoft 365 Defender
+## <a name="use-the-configuration-analyzer-in-the-microsoft-365-defender-portal"></a>Используйте анализатор конфигурации на Microsoft 365 Defender портале
 
-На портале Microsoft 365 Defender **перейдите** в раздел Email & политики совместной & правила шаблонных политик \>  \>  \>  \> **конфигурации.**
+На портале Microsoft 365 Defender перейдите на страницу Политики **совместной** & электронной почты & политики правил Шаблонные политики \>  \>  \>  \> **анализатор конфигурации**.
 
 Страница **анализатора конфигурации** имеет две основные вкладки:
 

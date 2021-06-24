@@ -19,12 +19,12 @@ description: Администраторы могут узнать, как раб
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: cebccf09c30264d1b7c94185eb4ad28a1b1cf75e
-ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
+ms.openlocfilehash: b7254dce40f72ecc01dc532f1b6c51f252a2b3ac
+ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53083408"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53108635"
 ---
 # <a name="impersonation-insight-in-defender-for-office-365"></a>Представление о обезличии в Defender для Office 365
 
@@ -66,7 +66,7 @@ ms.locfileid: "53083408"
 
 ## <a name="open-the-impersonation-insight-in-the-microsoft-365-defender-portal"></a>Откройте представление об обезличии на Microsoft 365 Defender портале
 
-1. На портале Microsoft 365 Defender перейдите в раздел Политики **совместной** & электронной почты & правила политики угрозы \>  \>  \>  \> .
+1. На портале Microsoft 365 Defender перейдите на страницу Политики **совместной** & электронной почты & политики угрозы правил раздел Политики защиты от \>  \>  \>  \> **фишинга**.
 
 2. На странице **Anti-phishing** представление об обезличии выглядит так:
 

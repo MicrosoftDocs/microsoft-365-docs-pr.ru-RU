@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: troubleshooting
 ms.technology: mde
-ms.openlocfilehash: 07593fac6ed9a3fbc00d904718380b386f31dba3
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: 0e7634177e58b558381fdc230533b55cade9dc13
+ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893417"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53108515"
 ---
 # <a name="collect-support-logs-in-microsoft-defender-for-endpoint-using-live-response"></a>Сбор журналов поддержки в Microsoft Defender для конечной точки с помощью живого ответа 
 
@@ -63,7 +63,7 @@ ms.locfileid: "51893417"
 
     ```console
     Run MDELiveAnalyzer.ps1
-    GetFile "C:\ProgramData\Microsoft\Windows Defender Advanced Threat Protection\Downloads\MDEClientAnalyzerResult.zip" -auto
+    GetFile "C:\ProgramData\Microsoft\Windows Defender Advanced Threat Protection\Downloads\MDEClientAnalyzerResult.zip"
     ```
 
     [![Изображение команд ](images/analyzer-commands.png)](images/analyzer-commands.png#lightbox)
@@ -79,7 +79,7 @@ ms.locfileid: "51893417"
 >   ```console
 >   PutFile MDEClientAnalyzerPreview.zip -overwrite
 >   Run MDELiveAnalyzer.ps1
->   GetFile "C:\ProgramData\Microsoft\Windows Defender Advanced Threat Protection\Downloads\MDEClientAnalyzerResult.zip" -auto
+>   GetFile "C:\ProgramData\Microsoft\Windows Defender Advanced Threat Protection\Downloads\MDEClientAnalyzerResult.zip" 
 >   ```
 > 
 > - Дополнительные сведения о локальном сборе данных на компьютере в том случае, если машина не общается с облачными службами Microsoft Defender для конечных точек или не появляется на портале Microsoft Defender для конечных точек, как ожидалось, см. в примере [Verify client connectivity to Microsoft Defender for Endpoint service](configure-proxy-internet.md#verify-client-connectivity-to-microsoft-defender-for-endpoint-service-urls)URL-адреса.

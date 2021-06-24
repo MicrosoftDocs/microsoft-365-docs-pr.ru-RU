@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: c5dc14c71c344bf508cda8d39f892d740781ac87
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 6dca58070d21271ffc832bcd628679303736f99e
+ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933125"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53108144"
 ---
 # <a name="configure-microsoft-defender-for-endpoint-on-linux-for-static-proxy-discovery"></a>Настройка Microsoft Defender для конечной точки в Linux для обнаружения статических прокси-серверов
 
@@ -73,6 +73,9 @@ Microsoft Defender для конечной точки может открыть 
 ## <a name="post-installation-configuration"></a>Конфигурация установки post
   
 После установки `HTTPS_PROXY` переменная среды должна быть определена в файле службы Defender для конечных точек. Для этого откройте в `/lib/systemd/system/mdatp.service` текстовом редакторе во время работы в качестве корневого пользователя. Затем переменную можно распространять в службу одним из двух способов:
+
+    > [!NOTE]
+    > On CentOS or RedHat Linux distributions the location of the Endpoint service file is `/usr/lib/systemd/system/mdatp.service`.
 
 - Откажитесь от строки `#Environment="HTTPS_PROXY=http://address:port"` и укажите свой статичный прокси-адрес.
 

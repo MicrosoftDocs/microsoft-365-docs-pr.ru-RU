@@ -19,12 +19,12 @@ ms.custom:
 description: Администраторы могут научиться настраивать фильтрацию подключения в Exchange Online Protection (EOP), чтобы разрешить или заблокировать сообщения электронной почты с серверов электронной почты.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 416fbd73d8412cf8697577df19f2fd2893b4ce96
-ms.sourcegitcommit: 337e8d8a2fee112d799edd8a0e04b3a2f124f900
+ms.openlocfilehash: ce1eddbf1ac788ad57ffc57da2156aae1ae69f6a
+ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52878824"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53108395"
 ---
 # <a name="configure-connection-filtering"></a>Настройка фильтрации подключений
 
@@ -51,7 +51,7 @@ ms.locfileid: "52878824"
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
-- Вы открываете портал Microsoft 365 Defender по <https://security.microsoft.com> ссылке . Чтобы сразу перейти к странице **Политики защиты от нежелательной почты**, используйте ссылку <https://security.microsoft.com/antispam>.
+- Чтобы открыть портал Microsoft 365 Defender, перейдите на сайт <https://security.microsoft.com>. Чтобы сразу перейти к странице **Политики защиты от нежелательной почты**, используйте ссылку <https://security.microsoft.com/antispam>.
 
 - Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell). Чтобы подключиться к автономному EOP PowerShell, см. раздел [Подключение к PowerShell Exchange Online Protection](/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
@@ -74,7 +74,7 @@ ms.locfileid: "52878824"
 
 ## <a name="use-the-microsoft-365-defender-portal-to-modify-the-default-connection-filter-policy"></a>Используйте портал Microsoft 365 Defender для изменения политики фильтра подключения по умолчанию
 
-1. На портале Microsoft 365 Defender перейдите в раздел Политики **совместной** & электронной почты & политики угрозы \>  \>  \>  \> правил.
+1. На портале Microsoft 365 Defender перейдите на страницу Политики **совместной** & электронной почты & политики угрозы правил раздел Политики борьбы \>  \>  \>  \> **со спамом**.
 
 2. На странице **Политики по борьбе со спамом** выберите политику фильтра подключения **(по умолчанию)** из списка, нажав на имя политики.
 
@@ -82,7 +82,7 @@ ms.locfileid: "52878824"
 
    - **Описание** раздела: **Нажмите изменить имя и описание**. В **вылете Изменить имя** и описание введите необязательный описательный текст в поле **Описание.**
 
-     Выполнив необходимые действия, нажмите кнопку **Сохранить**.
+     По завершении нажмите кнопку **Сохранить**.
 
    - **Раздел фильтрации подключений:** Нажмите **кнопку Изменить политику фильтра подключения**. В вылете, который отображается, настройте следующие параметры:
 
@@ -93,7 +93,7 @@ ms.locfileid: "52878824"
 
        Повторите этот шаг нужное количество раз. Чтобы удалить существующее значение, нажмите "Удалить". ![Значок "Удалить"](../../media/m365-cc-sc-remove-selection-icon.png) рядом со значением.
 
-     Чтобы добавить IP-адрес или диапазон адресов, щелкните в поле и введите itclick **Add Add** ![ Icon ](../../media/ITPro-EAC-AddIcon.png) . Чтобы удалить запись, выберите запись в Разрешенный **IP-адрес** и нажмите кнопку **Удалить** ![ удалить ](../../media/scc-remove-icon.png) . Выполнив необходимые действия, нажмите кнопку **Сохранить**.
+     Чтобы добавить IP-адрес или диапазон адресов, щелкните в поле и введите itclick **Add Add** ![ Icon ](../../media/ITPro-EAC-AddIcon.png) . Чтобы удалить запись, выберите запись в Разрешенный **IP-адрес** и нажмите кнопку **Удалить** ![ удалить ](../../media/scc-remove-icon.png) . По завершении нажмите кнопку **Сохранить**.
 
    - **Всегда блокируют сообщения из следующих IP-адресов или** диапазона адресов. Это список блоков IP. Введите один IP-адрес, IP-диапазон или IP-адрес CIDR в поле, как описано ранее в "Всегда разрешай сообщения" со следующих IP-адресов или параметров диапазона **адресов.**
 
@@ -105,7 +105,7 @@ ms.locfileid: "52878824"
 
 ## <a name="use-the-microsoft-365-defender-portal-to-view-the-default-connection-filter-policy"></a>Используйте портал Microsoft 365 Defender для просмотра политики фильтра подключения по умолчанию
 
-1. На портале Microsoft 365 Defender перейдите в раздел Политики **совместной** & электронной почты & политики угрозы \>  \>  \>  \> правил.
+1. На портале Microsoft 365 Defender перейдите на страницу Политики **совместной** & электронной почты & политики угрозы правил раздел Политики борьбы \>  \>  \>  \> **со спамом**.
 
 2. На странице **Политики по борьбе со спамом** в списке политик отображаются следующие свойства:
 
@@ -118,7 +118,7 @@ ms.locfileid: "52878824"
 
 ## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-modify-the-default-connection-filter-policy"></a>Используйте Exchange Online PowerShell или автономный EOP PowerShell для изменения политики фильтра подключения по умолчанию
 
-Используйте следующий синтаксис:
+Используйте следующий синтаксис.
 
 ```powershell
 Set-HostedConnectionFilterPolicy -Identity Default [-AdminDisplayName <"Optional Comment">] [-EnableSafeList <$true | $false>] [-IPAllowList <IPAddressOrRange1,IPAddressOrRange2...>] [-IPBlockList <IPAddressOrRange1,IPAddressOrRange2...>]
@@ -152,7 +152,7 @@ Set-HostedConnectionFilterPolicy -Identity Default -IPAllowList @{Add="192.168.2
 
 Чтобы убедиться, что политика фильтра подключений по умолчанию успешно изменена, необходимо предпринять следующие действия:
 
-- На портале Microsoft 365 Defender перейдите в раздел Политики совместной работы & email  & Политики угрозы правил и политики выбора фильтра подключения \>  \>  \>  \>  \> **(по умолчанию)** в списке, нажав на имя политики, и проверьте параметры.
+- На портале Microsoft 365 Defender перейдите  на страницу Политики совместной & электронной почты & Политики угрозы правил раздел Политики борьбы со спамом выберите политику фильтра подключения \>  \>  \>  \>  \> **(по умолчанию)** из списка, нажав на имя политики, и проверьте параметры.
 
 - В Exchange Online PowerShell или автономных EOP PowerShell запустите следующую команду и проверьте параметры:
 
@@ -207,4 +207,4 @@ Set-HostedConnectionFilterPolicy -Identity Default -IPAllowList @{Add="192.168.2
 
 ****
 
-![Короткий значок для LinkedIn Learning ](../../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) **New to Microsoft 365?** Откройте для себя бесплатные видео-курсы **для Microsoft 365 администраторов** и ИТ-специалистов, которые будут доставлены в LinkedIn Learning.
+![Короткий значок для LinkedIn Обучение ](../../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) **new to Microsoft 365?** Откройте для себя бесплатные **видео-курсы для Microsoft 365 администраторов** и ИТ-специалистов, которые будут доставлены в LinkedIn Обучение.

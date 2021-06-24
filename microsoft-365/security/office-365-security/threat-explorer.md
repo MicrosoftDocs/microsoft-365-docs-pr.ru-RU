@@ -15,16 +15,16 @@ ms.assetid: 82ac9922-939c-41be-9c8a-7c75b0a4e27d
 ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
-description: Для эффективного расследования и реагирования на угрозы используйте обнаружения обозревателя и Microsoft 365 в режиме реального времени.
+description: Используйте обнаружение explorer и в режиме реального времени на Microsoft 365 Defender для эффективного расследования и реагирования на угрозы.
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 4a9a364f82b7f7836c2f0177dfbde80171b9c36f
-ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
+ms.openlocfilehash: d3dc8c205d5edfe455884d64030c7a6070762adb
+ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53083228"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53108551"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Обнаружение обозревателя угроз и обнаружения в режиме реального времени
 
