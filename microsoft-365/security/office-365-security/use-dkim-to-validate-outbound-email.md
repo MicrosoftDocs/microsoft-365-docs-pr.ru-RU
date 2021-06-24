@@ -20,12 +20,12 @@ ms.custom:
 description: Узнайте, как использовать технологию DomainKeys Identified Mail (DKIM) для Microsoft 365, чтобы обеспечить доверие конечных почтовых систем к сообщениям, отправленным из вашего личного домена.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e9aa3a72a36a146d121c9302a4b6cb126e765671
-ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
+ms.openlocfilehash: 9aa67d7875bb7f81c6569b56704d221b57378962
+ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53082784"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53108503"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain"></a>Используйте DKIM для проверки исходящей электронной почты, отправленной с вашего пользовательского домена
 
@@ -198,7 +198,7 @@ TTL:                3600
 
 1. Откройте портал Microsoft 365 Defender [с помощью своей рабочей или учебной учетной записи](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4).
 
-2. Выберите **Сообщение электронной почты и совместная работа** \> **Политики и правила** \> **Политики в отношении угроз** \> раздел **Правила** \> **DKIM**. Или перейдите непосредственно на страницу DKIM по ссылке <https://security.microsoft.com/dkimv2>.
+2. Выберите **Сообщения электронной почты и совместная работа** \> **Политики и правила** \> страница **Политики в отношении угроз** \> раздел **Правила** \> **DKIM**. Или перейдите непосредственно на страницу DKIM по ссылке <https://security.microsoft.com/dkimv2>.
 
 3. На странице **DKIM** выберите домен, щелкнув имя.
 
