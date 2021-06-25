@@ -20,14 +20,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 8ad5ffe2b175a8f7a42b2fad353fcde13a60cfec
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: b852071c3fbfe12aac62e1d309fa130a4cd81e9c
+ms.sourcegitcommit: b42dd3e706ebf9638cd893b35f75eaa56dd8fd7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730527"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53125402"
 ---
-# <a name="microsoft-365-defender-preview-features"></a>Microsoft 365 Функции предварительного просмотра Defender
+# <a name="microsoft-365-defender-preview-features"></a>Microsoft 365 Defender функции предварительного просмотра
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -39,13 +39,13 @@ ms.locfileid: "52730527"
 
 Служба Microsoft 365 Defender постоянно обновляется, включая в нее новые возможности и возможности.
 
-Узнайте о новых функциях Microsoft 365 релизе предварительного просмотра Defender и опробуйте в числе первых предстоящие функции, включив функции предварительного просмотра.
+Узнайте о новых функциях в Microsoft 365 Defender предварительного просмотра и одними из первых опробуйте предстоящие функции, включив функцию предварительного просмотра.
 
-Дополнительные сведения о новых возможностях, которые обычно доступны, см. в Microsoft 365 [Defender.](whats-new.md)
+Дополнительные сведения о новых возможностях, которые обычно доступны, см. в [Microsoft 365 Defender.](whats-new.md)
 
 ## <a name="required-permissions"></a>Обязательные разрешения
 
-Учетные записи, задав следующие роли Azure Active Directory (Azure AD), могут включить функции предварительного просмотра Microsoft 365 Defender:
+Учетные записи, задав следующие роли Azure Active Directory (Azure AD), могут включить функции Microsoft 365 Defender предварительного просмотра:
 
 - Глобальный администратор
 - Администратор безопасности
@@ -68,8 +68,9 @@ ms.locfileid: "52730527"
 
 В настоящий момент в предварительной версии доступны следующие функции и улучшения.
 
-- **[Потоковый API](../defender-endpoint/raw-data-export.md)** — Microsoft 365 Defender поддерживает потоковую трансляцию всех событий, доступных с помощью Advanced Hunting, в концентраторы событий и/или учетную запись хранилища Azure.
-- **[Microsoft 365 API Defender](api-overview.md)** — API верхнего уровня Microsoft 365 Defender позволит автоматизировать рабочий процесс на основе общих таблиц инцидента и расширенных таблиц охоты. 
+- **[Просмотр отчетов по тегам](threat-analytics.md#view-reports-per-threat-tags)** угроз . Теги угроз помогают сосредоточиться на определенных категориях угроз и просмотреть наиболее релевантные отчеты.
+- **[Потоковый API](../defender-endpoint/raw-data-export.md)** Microsoft 365 Defender поддерживает потоковую трансляцию всех событий, доступных с помощью Advanced Hunting, в концентраторы событий и/или учетную запись хранилища Azure.
+- **[Microsoft 365 Defender API](api-overview.md)** — API верхнего уровня Microsoft 365 Defender позволяют автоматизировать рабочий процесс на основе общих таблиц инцидента и расширенных таблиц охоты. 
 - **[Примите меры в продвинутой охоте](advanced-hunting-take-action.md)** . Быстро сдержать угрозы или решить скомпрометированную активов, которые вы найдете в [продвинутой охоте](advanced-hunting-overview.md).
 - **[Ссылка на схему на](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)** портале — сведения о таблицах расширенных схем охоты непосредственно в центре безопасности. Помимо описаний таблиц и столбцов, эта ссылка включает поддерживаемые типы событий `ActionType` (значения) и примеры запросов.
 - **[Функция DeviceFromIP()](advanced-hunting-devicefromip-function.md)** — получить сведения о том, какие устройства были назначены определенному IP-адресу или адресам в определенном диапазоне времени.
