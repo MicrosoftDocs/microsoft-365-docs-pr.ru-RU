@@ -10,20 +10,20 @@ ms.service: o365-administration
 search.appverid: MET150
 localization_priority: Normal
 description: Узнайте, как управлять обзором тем в разделах Microsoft Viva Topics.
-ms.openlocfilehash: cd6a712687a63c3d131ee678c6c408f516c7b529
-ms.sourcegitcommit: a048fefb081953aefa7747c08da52a7722e77288
+ms.openlocfilehash: 07679b2de668ba5e0c9fdf206310233ce7af84a4
+ms.sourcegitcommit: 410f6e1c6cf53c3d9013b89d6e0b40a050ee9cad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "50107681"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53137755"
 ---
 # <a name="manage-topic-visibility-in-microsoft-viva-topics"></a>Управление обзором тем в Разделах Microsoft Viva
 
-Вы можете управлять набором пользователей, которые могут видеть основные темы, карточки темы и центр темы в центре администрирования Microsoft 365 [администрирования.](https://admin.microsoft.com) Вы должны быть глобальным администратором или администратором SharePoint для выполнения этих задач.
+Вы можете управлять, кто может видеть основные темы, карточки темы и центр темы [в Центр администрирования Microsoft 365](https://admin.microsoft.com). Вы должны быть глобальным администратором или администратором SharePoint и администратором групп для выполнения этих задач.
 
-## <a name="to-access-topics-management-settings"></a>Чтобы получить доступ к настройкам управления темами:
+## <a name="to-access-topics-management-settings"></a>Для доступа к параметрам управления темами:
 
-1. В центре администрирования Microsoft 365 нажмите **кнопку Параметры,** а затем **параметры Org**.
+1. В Центр администрирования Microsoft 365 нажмите **кнопку Параметры,** а затем **параметры Org**.
 2. На **вкладке Services** щелкните **Раздел опытом**.
 
     ![Подключение к знаниям](../media/admin-org-knowledge-options-completed.png) 
