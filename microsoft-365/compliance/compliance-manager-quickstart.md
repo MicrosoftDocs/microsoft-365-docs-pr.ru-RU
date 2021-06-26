@@ -2,8 +2,8 @@
 title: Руководство по быстрой проверке соответствия требованиям Microsoft Compliance Manager
 f1.keywords:
 - NOCSH
-ms.author: chvukosw
-author: chvukosw
+ms.author: v-jgriffee
+author: jmgriffee
 manager: laurawi
 audience: Admin
 ms.topic: article
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Используйте руководство по быстрой проверке соответствия требованиям, чтобы помочь вам в пути к пониманию, настройкам и использованию диспетчера соответствия требованиям.
-ms.openlocfilehash: bb40fe0ace2f4b751e24d77f46dc1fc509eb42f4
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 8ac4245da95192516c57d51d740531fd4af10647
+ms.sourcegitcommit: 46b77a41dfcc0ee80e2b89a7aa49e9bbe5deae5a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50906031"
+ms.lasthandoff: 06/26/2021
+ms.locfileid: "53149050"
 ---
 # <a name="compliance-manager-quickstart"></a>Быстрое начало работы с диспетчером соответствия требованиям
 
@@ -31,7 +31,7 @@ ms.locfileid: "50906031"
 
 ## <a name="first-visit-get-to-know-compliance-manager"></a>Первый визит: узнать диспетчер соответствия требованиям
 
-Диспетчер соответствия требованиям расположен в центре Microsoft 365 по https://compliance.microsoft.com адресу . Глобальному администратору организации необходимо [](compliance-manager-setup.md#set-user-permissions-and-assign-roles) настроить разрешения пользователей и назначить роли, прежде чем приступить к использованию Диспетчер соответствия требованиям.
+Диспетчер соответствия требованиям расположен в Центр соответствия требованиям Microsoft 365 https://compliance.microsoft.com . Глобальному администратору организации необходимо [](compliance-manager-setup.md#set-user-permissions-and-assign-roles) настроить разрешения пользователей и назначить роли, прежде чем приступить к использованию Диспетчер соответствия требованиям.
 
 При первом посещении диспетчера соответствия требованиям вы увидите оценку соответствия требованиям для вашей организации. Диспетчер соответствия требованиям уже оценивает текущую Microsoft 365 среды с базовой базой защиты данных. Лучший способ ознакомиться с диспетчером соответствия требованиям — это понять, что он показывает, его ключевые элементы и как настроить панель мониторинга.
 
@@ -63,8 +63,8 @@ ms.locfileid: "50906031"
 
 Вы также можете настроить автоматическое тестирование всех или подмножество действий по улучшению. Посетите ссылки ниже, чтобы понять более расширенные функции в диспетчере соответствия требованиям:
 
-- [Расширение оценки диспетчера соответствия требованиям путем добавления собственных элементов управления и действий по улучшению](compliance-manager-assessments.md#extend-a-pre-built-assessment)
-- [Создание собственной настраиваемой оценки](compliance-manager-assessments.md#create-your-own-custom-assessment)
+- [Расширение шаблона Диспетчер соответствия требованиям путем добавления собственных действий по контролю и улучшению](compliance-manager-templates.md#extend-an-assessment-template)
+- [Создание собственного пользовательского шаблона](compliance-manager-templates.md#create-an-assessment-template)
 - [Изменение существующего шаблона для добавления или удаления элементов управления и действий](compliance-manager-templates.md#modify-a-template)
 - [Настройка автоматического тестирования действий по улучшению](compliance-manager-setup.md#set-up-automated-testing)
 - [Перенанаменуем действия по улучшению другому пользователю](compliance-manager-setup.md#reassign-improvement-actions-to-another-user)
