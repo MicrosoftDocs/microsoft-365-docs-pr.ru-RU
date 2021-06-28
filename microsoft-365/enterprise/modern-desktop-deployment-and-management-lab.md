@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Сведения о комплекте Deployment Lab Kit для Windows и Office и способе его получения
-ms.openlocfilehash: bb73c303e1266a7d19b3578fb01b849b5e96990f
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 3f9899726838caca678542e17206dae038c39a3d
+ms.sourcegitcommit: 5866e45a6a4e90c661e8f90c91550a9872b68e03
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52770677"
+ms.lasthandoff: 06/28/2021
+ms.locfileid: "53169572"
 ---
 # <a name="windows-10-and-office-365-deployment-lab-kit"></a>Комплект лабораторий развертывания для Windows 10 и Office 365
 
@@ -55,9 +55,11 @@ ms.locfileid: "52770677"
 С помощью подробно проработанного занятия вы выполните несколько сценариев развертывания и управления. Занятия обновлены для последних версий Intune и Configuration Manager. 
 
 ### <a name="plan-and-prepare-infrastructure"></a>Планирование и подготовка инфраструктуры 
+
 - Аналитика компьютеров 
 - Шлюз облачного управления & точки распространения облаков 
-- Нагрузки на клиента, совместное управление и переключение 
+- НОВИНКА! Присоединение клиента и совместное управление
+- НОВИНКА! Аналитика конечных точек 
 - Удаленный доступ (VPN) 
 
 ### <a name="prepare-configuration"></a>Подготовка конфигурации   
@@ -91,6 +93,7 @@ ms.locfileid: "52770677"
 - Enterprise управляемое развертывание с Microsoft Intune  
 - Развертывание и управление LOB с помощью Microsoft Intune
 - Развертывание Microsoft Teams
+- НОВИНКА! Фильтры назначения  
 
 ### <a name="deploy-windows-virtual-desktop"></a>Развертывание Windows виртуальный рабочий стол  
 

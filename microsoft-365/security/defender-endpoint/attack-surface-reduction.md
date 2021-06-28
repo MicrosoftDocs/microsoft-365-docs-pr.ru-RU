@@ -16,12 +16,12 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: 461911a1e14241112f4ff0e8efb0135b4e1a5a25
-ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
+ms.openlocfilehash: eadca063d50bf1f969f1bb247b6e56d8ec46a6e0
+ms.sourcegitcommit: 5866e45a6a4e90c661e8f90c91550a9872b68e03
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53096736"
+ms.lasthandoff: 06/28/2021
+ms.locfileid: "53169584"
 ---
 # <a name="use-attack-surface-reduction-rules-to-prevent-malware-infection"></a>Используйте правила уменьшения поверхности атаки, чтобы предотвратить заражение вредоносными программами
 
@@ -51,6 +51,8 @@ ms.locfileid: "53096736"
 :::image type="content" source="images/asrrecommendation.png" alt-text="Reco безопасности для правила уменьшения поверхности атаки":::
 
 В области сведений о рекомендациях проверьте влияние пользователя, чтобы определить, какой процент устройств может принять новую политику, позволяющую использовать правило в режиме блокировки без отрицательного влияния на производительность.
+
+Сведения [о поддерживаемых](enable-attack-surface-reduction.md#requirements) операционных системах см. в статье "Включить правила уменьшения поверхности атаки".
 
 ## <a name="audit-mode-for-evaluation"></a>Режим аудита для оценки
 
@@ -145,7 +147,7 @@ DeviceEvents
 
 4. Выберите файл *cfa-events.xml,* откуда он был извлечен. Кроме того, [скопируйте XML напрямую.](event-views.md)
 
-5. Нажмите **ОК**.
+5. Нажмите кнопку **ОК**.
 
 Можно создать настраиваемую точку зрения, которая фильтрует события, чтобы показывать только следующие события, все из которых связаны с управляемым доступом к папкам:
 

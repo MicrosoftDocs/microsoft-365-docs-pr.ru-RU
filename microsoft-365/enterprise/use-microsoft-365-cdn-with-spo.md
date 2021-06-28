@@ -21,12 +21,12 @@ search.appverid:
 - SPO160
 ms.assetid: bebb285f-1d54-4f79-90a5-94985afc6af8
 description: Узнайте, как использовать Office 365 сеть доставки содержимого (CDN) для ускорения доставки SharePoint интернет-ресурсов.
-ms.openlocfilehash: 6819f627d3590cd2739b36cb1bc303f197d6aaa5
-ms.sourcegitcommit: 6e5c00f84b5201422aed094f2697016407df8fc2
+ms.openlocfilehash: e6cce93be0e8d893d68ae8bcdb15fde325a2cb59
+ms.sourcegitcommit: 5866e45a6a4e90c661e8f90c91550a9872b68e03
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51570409"
+ms.lasthandoff: 06/28/2021
+ms.locfileid: "53169560"
 ---
 # <a name="use-the-office-365-content-delivery-network-cdn-with-sharepoint-online"></a>Использование сети доставки содержимого Office 365 с SharePoint Online
 
@@ -399,7 +399,7 @@ Add-SPOTenantCdnOrigin -CdnType Private -OriginUrl "sites/test/siteassets/folder
 <a name="ExamplePrivateOriginSiteCollection"> </a>
 ### <a name="example-configure-a-private-origin-for-a-site-collection-for-sharepoint-online"></a>Пример: Настройка частного происхождения для коллекции сайтов для SharePoint Online
 
-Чтобы определить коллекцию сайтов как частное происхождение, используйте смлет **Add-SPOTenantCdnOrigin.** Пример.
+Чтобы определить коллекцию сайтов как частное происхождение, используйте смлет **Add-SPOTenantCdnOrigin.** Например:
 
 ```powershell
 Add-SPOTenantCdnOrigin -CdnType Private -OriginUrl sites/site1/siteassets
@@ -682,7 +682,7 @@ Add-PnPTenantCdnOrigin -CdnType Private -OriginUrl "sites/test/siteassets/folder
 <a name="ExamplePrivateOriginSiteCollectionPnPPosh"> </a>
 ### <a name="example-configure-a-private-origin-for-a-site-collection-for-sharepoint-online"></a>Пример: Настройка частного происхождения для коллекции сайтов для SharePoint Online
 
-Чтобы определить коллекцию сайтов как частное происхождение, используйте кодлет **Add-PnPTenantCdnOrigin.** Пример.
+Чтобы определить коллекцию сайтов как частное происхождение, используйте кодлет **Add-PnPTenantCdnOrigin.** Например:
 
 ```powershell
 Add-PnPTenantCdnOrigin -CdnType Private -OriginUrl sites/site1/siteassets
@@ -898,7 +898,7 @@ spo cdn set --type Public --enabled false
 `https://<TenantHostName>.sharepoint.com/sites/site/CDN_origins/public/image.png`
 
 > [!NOTE]
-> Как правило, не следует жестко кодировать URL-адреса непосредственно к активам в CDN. Однако при необходимости можно вручную создавать URL-адреса для активов в общедоступных источниках. Дополнительные сведения см. в [CDN url-адресов hardcoding для общедоступных активов.](use-microsoft-365-cdn-with-spo.md)
+> Как правило, не следует жестко кодировать URL-адреса непосредственно к активам в CDN. Однако при необходимости можно вручную создавать URL-адреса для активов в общедоступных источниках. Дополнительные сведения см. в [CDN url-адресов hardcoding для общедоступных активов.](use-microsoft-365-cdn-with-spo.md#constructing-cdn-urls-for-public-assets)
 
 Чтобы узнать о том, как убедиться в том, что активы обслуживаются из CDN, см. в руб. Как подтвердить, что активы обслуживаются [CDN?](use-microsoft-365-cdn-with-spo.md#CDNConfirm) в устранении неполадок Office 365 CDN [.](use-microsoft-365-cdn-with-spo.md#CDNTroubleshooting)
 
@@ -962,7 +962,7 @@ https://publiccdn.sharepointonline.com/contoso.sharepoint.com/sites/site/library
 
 Доступ к активам частного происхождения в Office 365 CDN предоставляется маркерами, созданными SharePoint Online. Пользователям, у которых уже есть разрешение на доступ к папке или библиотеке, назначенной происхождением, автоматически выдают маркеры, которые позволяют пользователю получать доступ к файлу на основе уровня разрешений. Эти маркеры доступа действительны в течение 30-90 минут после их получения, чтобы предотвратить атаки повтора маркеров.
 
-После сгенерирования маркера доступа SharePoint Online возвращает пользовательский URI клиенту, содержащим два параметра авторизации едят _(маркер_ авторизации края) и овсяный _(маркер_ авторизации происхождения). Структура каждого маркера —< времени действия в формате времени эпохи _>__<'secure signature'>_. Пример.
+После сгенерирования маркера доступа SharePoint Online возвращает пользовательский URI клиенту, содержащим два параметра авторизации едят _(маркер_ авторизации края) и овсяный _(маркер_ авторизации происхождения). Структура каждого маркера —< времени действия в формате времени эпохи _>__<'secure signature'>_. Например:
 
 ```http
 https://privatecdn.sharepointonline.com/contoso.sharepoint.com/sites/site1/library1/folder1/image1.jpg?eat=1486154359_cc59042c5c55c90b26a2775323c7c8112718431228fe84d568a3795a63912840&oat=1486154359_7d73c2e3ba4b7b1f97242332900616db0d4ffb04312
@@ -975,7 +975,7 @@ https://privatecdn.sharepointonline.com/contoso.sharepoint.com/sites/site1/libra
 
 Важно отметить, что SharePoint Online не поддерживает разрешения на уровне элементов для активов частного происхождения. Например, для файла, расположенного по адресу, пользователи имеют эффективный доступ к файлу с учетом `https://contoso.sharepoint.com/sites/site1/library1/folder1/image1.jpg` следующих условий:
 
-|Пользователь.  |Разрешения  |Эффективный доступ  |
+|Пользователь  |Разрешения  |Эффективный доступ  |
 |---------|---------|---------|
 |Пользователь 1     |Имеет доступ к папке1         |Можно получить image1.jpg из CDN         |
 |Пользователь 2     |Не имеет доступа к папке1         |Не удается image1.jpg из CDN         |
