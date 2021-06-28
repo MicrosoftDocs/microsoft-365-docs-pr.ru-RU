@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Чтобы защитить контент на сайтах SharePoint и Microsoft Teams, а также в группах Microsoft 365, используйте метки конфиденциальности.
-ms.openlocfilehash: 2ffc0350dd61a0064ce2e9891b18a6769a437d2e
-ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
+ms.openlocfilehash: 844391ee20d2c8e8b94261659b18de0690dee119
+ms.sourcegitcommit: 46b77a41dfcc0ee80e2b89a7aa49e9bbe5deae5a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53096760"
+ms.lasthandoff: 06/26/2021
+ms.locfileid: "53149194"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-microsoft-365-groups-and-sharepoint-sites"></a>Используйте метки конфиденциальности, чтобы защитить контент в Microsoft Teams, в группах Microsoft 365 и на сайтах SharePoint.
 
@@ -141,6 +141,8 @@ ms.locfileid: "53096760"
 Не все приложения поддерживают контексты проверки подлинности. Если пользователь с неподдерживаемым приложением подключается к сайту, настроенному для контекста проверки подлинности, то для такого пользователя отображается сообщение о запрещенном доступе или запрос на проверку подлинности (при этом попытка проверки подлинности отклоняется). В настоящее время следующие приложения поддерживают контексты проверки подлинности:
 
 - Пакет Office в Интернете, в состав которого входит Outlook в Интернете
+
+- Microsoft Teams для Windows и macOS (за исключением веб-приложения Teams)
 
 - Планировщик (Майкрософт)
 
