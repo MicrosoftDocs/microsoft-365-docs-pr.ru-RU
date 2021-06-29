@@ -16,12 +16,12 @@ manager: dansimp
 ms.custom: asr
 ms.technology: mde
 ms.topic: article
-ms.openlocfilehash: eadca063d50bf1f969f1bb247b6e56d8ec46a6e0
-ms.sourcegitcommit: 5866e45a6a4e90c661e8f90c91550a9872b68e03
+ms.openlocfilehash: 59f116e3fe2b617803efd9625f399235b79a1142
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/28/2021
-ms.locfileid: "53169584"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177637"
 ---
 # <a name="use-attack-surface-reduction-rules-to-prevent-malware-infection"></a>Используйте правила уменьшения поверхности атаки, чтобы предотвратить заражение вредоносными программами
 
@@ -52,7 +52,7 @@ ms.locfileid: "53169584"
 
 В области сведений о рекомендациях проверьте влияние пользователя, чтобы определить, какой процент устройств может принять новую политику, позволяющую использовать правило в режиме блокировки без отрицательного влияния на производительность.
 
-Сведения [о поддерживаемых](enable-attack-surface-reduction.md#requirements) операционных системах см. в статье "Включить правила уменьшения поверхности атаки".
+Сведения [о поддерживаемых](enable-attack-surface-reduction.md#requirements) операционных системах и дополнительные сведения о требованиях см. в статье "Включить правила уменьшения поверхности атаки".
 
 ## <a name="audit-mode-for-evaluation"></a>Режим аудита для оценки
 

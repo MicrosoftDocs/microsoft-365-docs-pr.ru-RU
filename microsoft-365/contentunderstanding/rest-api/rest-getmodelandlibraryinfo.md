@@ -11,12 +11,12 @@ search.appverid: ''
 ms.collection: m365initiative-syntex
 localization_priority: Priority
 description: Используйте REST API для получения сведений о модели и библиотеке, к которой она была применена.
-ms.openlocfilehash: 6cd61364ed3b360ef235aaba21a2735002fe481e
-ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
+ms.openlocfilehash: 2449084653c6d9af8d774edc306c485e7a466bf6
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52904300"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177073"
 ---
 # <a name="get-model-and-library-information"></a>Получение сведений о модели и библиотеке
 
@@ -25,13 +25,13 @@ ms.locfileid: "52904300"
 ## <a name="http-request"></a>HTTP-запрос
 
 ```HTTP
-GET /_api/machinelearning/publications/getbyuniqueid(‘{modelUniqueId}’) HTTP/1.1
+GET /_api/machinelearning/publications/getbymodeluniqueid('{modelUniqueId}') HTTP/1.1
 ```
 
 ## <a name="uri-parameters"></a>Параметры URI
 
 | Имя | Куда включается | Обязательный | Тип | Описание |
-|--------|-------|--------|------------|
+|--------|-------|--------|------------|-----------|
 |ModelUniqueId|Запрос|True|GUID|Уникальный идентификатор файла модели.|
 
 ## <a name="request-headers"></a>Заголовки запросов
@@ -41,22 +41,11 @@ GET /_api/machinelearning/publications/getbyuniqueid(‘{modelUniqueId}’) HTTP
 |Accept|application/json;odata=verbose|
 
 
-## <a name="request-body"></a>Текст запроса
-
-| Имя | Обязательный | Тип | Описание |
-|--------|-------|--------|------------|
-|ModelUniqueId|да|строка|Уникальный идентификатор файла модели.|
-|TargetSiteUrl|да|строка|Полный URL-адрес сайта целевой библиотеки.|
-|TargetWebServerRelativeUrl|да|строка|Относительный URL-адрес сервера для веб-сайта целевой библиотеки.|
-|TargetLibraryServerRelativeUrl|да|строка|Относительный URL-адрес сервера целевой библиотеки.|
-|TargetLibraryRemoved|да|int|Флажок, который указывает, была ли удалена целевая библиотека.|
-
 ## <a name="response"></a>Отклик
 
 | Имя   | Тип  | Описание|
 |--------|-------|------------|
-|200 OK| |Успешно|
-|201 Создано| |Обратите внимание, что поскольку этот API поддерживает применение модели к нескольким библиотекам, отклик 201 может возвращаться даже в случае сбоя при применении модели к одной из библиотек. <br>Проверьте текст отклика, чтобы понять, была ли модель успешно применена ко всем указанным библиотекам. Подробности см. в разделе [Текст запроса](rest-getmodelandlibraryinfo.md#request-body).|
+|200 OK| |Успешное выполнение|
 
 ## <a name="examples"></a>Примеры
 
@@ -67,7 +56,7 @@ GET /_api/machinelearning/publications/getbyuniqueid(‘{modelUniqueId}’) HTTP
 #### <a name="sample-request"></a>Пример запроса
 
 ```HTTP
-GET /sites/TestCC/_api/machinelearning/publications/getbymodeluniqueid(‘{7645e69d-21fb-4a24-a17a-9bdfa7cb63dc}’) HTTP/1.1
+GET /sites/TestCC/_api/machinelearning/publications/getbymodeluniqueid('7645e69d-21fb-4a24-a17a-9bdfa7cb63dc') HTTP/1.1
 ```
 #### <a name="sample-response"></a>Пример отклика
 
@@ -130,7 +119,7 @@ GET /sites/TestCC/_api/machinelearning/publications/getbymodeluniqueid(‘{7645e
             "ViewOption": "NewViewAsDefault"
         }
     ]
-}```
+}
 ```
 
 ## <a name="see-also"></a>См. также

@@ -11,12 +11,12 @@ search.appverid: ''
 ms.collection: m365initiative-syntex
 localization_priority: Priority
 description: Используйте REST API для получения или обновления сведений о модели осмысления документации SharePoint Syntex с помощью названия модели.
-ms.openlocfilehash: a6fbe9ba9d3f5240c7b775613f97b83bfa2caa50
-ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
+ms.openlocfilehash: b50849d0dc1c9deefa55a5c92303d18f251e2f8b
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52904330"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177133"
 ---
 # <a name="getbytitle"></a>GetByTitle
 
@@ -25,13 +25,13 @@ ms.locfileid: "52904330"
 ## <a name="http-request"></a>HTTP-запрос
 
 ```HTTP
-GET /_api/machinelearning/models/getbytitle('{modelFileName') HTTP/1.1
+GET /_api/machinelearning/models/getbytitle('{modelFileName}') HTTP/1.1
 ```
 
 Этот же метод также можно использовать для удаления модели.
 
 ```HTTP
-DELETE /_api/machinelearning/models/getbytitle('{modelFileName') HTTP/1.1
+DELETE /_api/machinelearning/models/getbytitle('{modelFileName}') HTTP/1.1
 ```
 
 ## <a name="uri-parameters"></a>Параметры URI
@@ -65,12 +65,12 @@ DELETE /_api/machinelearning/models/getbytitle('{modelFileName') HTTP/1.1
 #### <a name="sample-request"></a>Пример запроса
 
 ```HTTP
-GET /_api/machinelearning/models/getbytitle('{Contoso Contract') HTTP/1.1
+GET /_api/machinelearning/models/getbytitle('Contoso Contract') HTTP/1.1
 ```
 
 #### <a name="sample-response"></a>Пример отклика
 
-**Код состояния:** 204
+**Код состояния:** 200
 
 ```HTTP
 {
@@ -109,7 +109,7 @@ GET /_api/machinelearning/models/getbytitle('{Contoso Contract') HTTP/1.1
 ##### <a name="sample-request"></a>Пример запроса
 
 ```HTTP
-DELETE /_api/machinelearning/models/getbytitle('{Contoso Contract') HTTP/1.1
+DELETE /_api/machinelearning/models/getbytitle('Contoso Contract') HTTP/1.1
 ```
 
 ## <a name="see-also"></a>См. также

@@ -18,18 +18,18 @@ ms.custom:
 search.appverid:
 - MET150
 description: Настройка базовой мобильности и безопасности для защиты и управления мобильными устройствами пользователей путем выполнения действий, например удаленного вытирания устройства.
-ms.openlocfilehash: 02ba28deca6286456af5f87841a741262c1a135d
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: f1cfa6cdc8d799ba62c687408cb12a4ba453f313
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52634296"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177277"
 ---
 # <a name="set-up-basic-mobility-and-security"></a>Настройка Basic Mobility + Security
 
 Встроенная базовая мобильность и безопасность для Microsoft 365 позволяет обезопасить и управлять мобильными устройствами пользователей, такими как iPhone, iPad, Android и Windows телефонов. Вы можете создавать политики безопасности устройств и управлять ими, удаленно очищать устройства и просматривать подробные отчеты об устройствах.
 
-Есть вопросы? Вопросы часто задаваемой вопросы см. в справке [Basic Mobility and Security Frequently-asked questions (FAQ).](frequently-asked-questions.md) Следует помнить, что для управления базовой мобильностью и безопасностью нельзя использовать делегированную учетную запись администратора. Дополнительные сведения см. в [сайте Partners: Предложение делегирования администрирования.](https://support.microsoft.com/office/partners-offer-delegated-administration-26530dc0-ebba-415b-86b1-b55bc06b073e) 
+Есть вопросы? Вопросы часто задаваемой вопросы см. в справке [Basic Mobility and Security Frequently-asked questions (FAQ).](frequently-asked-questions.yml) Следует помнить, что для управления базовой мобильностью и безопасностью нельзя использовать делегированную учетную запись администратора. Дополнительные сведения см. в [сайте Partners: Предложение делегирования администрирования.](https://support.microsoft.com/office/partners-offer-delegated-administration-26530dc0-ebba-415b-86b1-b55bc06b073e) 
 
 Управление устройствами является частью Центра & безопасности, поэтому вам потребуется перейти туда, чтобы приумнотить базовую настройку мобильности и безопасности.
 

@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Узнайте, как сохранить содержимое почтового ящика бывшего сотрудника.
-ms.openlocfilehash: d73d7005d2ccea429f66c5b2564220424665439f
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: bd24145b6b5162a03dee0338cc0820e5af271ddd
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244285"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177493"
 ---
 # <a name="step-2---save-the-contents-of-a-former-employees-mailbox"></a>Шаг 2 . Сохранение содержимого почтового ящика бывшего сотрудника
 
@@ -45,4 +45,4 @@ ms.locfileid: "52244285"
 
     **OR**
 
-2. Добавьте адрес электронной почты бывшего сотрудника в версию Outlook, а затем экспортировать данные в файл PST. При необходимости можно импортировать данные в другую учетную запись электронной почты. Проверьте шаг 6 . Предоставить другому сотруднику доступ к [OneDrive и Outlook данным.](remove-former-employee-step-6.md)
+2. Добавьте адрес электронной почты бывшего сотрудника в версию Outlook на настольном компьютере, а затем экспортировать данные в файл PST. При необходимости можно импортировать данные в другую учетную запись электронной почты. Проверьте шаг 6 . Предоставить другому сотруднику доступ к [OneDrive и Outlook данным.](remove-former-employee-step-6.md)

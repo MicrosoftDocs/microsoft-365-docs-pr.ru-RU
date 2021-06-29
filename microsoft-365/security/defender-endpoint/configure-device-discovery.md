@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 0d722b4f4bef5b4d178edc5f2142c887690d4c63
-ms.sourcegitcommit: 7a339c9f7039825d131b39481ddf54c57b021b11
+ms.openlocfilehash: e1efeff77657e04223b21d639a0a09287f3707cc
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51765255"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177589"
 ---
 # <a name="configure-device-discovery"></a>Настройка обнаружения устройств
 
@@ -53,7 +53,7 @@ ms.locfileid: "51765255"
 1.  Перейдите **к Параметры > устройств.**
 2.  Выберите режим обнаружения, который можно использовать на бортовых устройствах. 
 3.  Если вы выбрали для использования стандартные открытия, выберите устройства, которые можно использовать для активного прорабтки: все устройства или подмножество, указав теги устройств.
-4. Щелкните **Сохранить**.
+4. Нажмите кнопку **Сохранить**.
 
 
 ## <a name="exclude-devices-from-being-actively-probed-in-standard-discovery"></a>Исключить активное зондировать устройства при стандартных обнаружениях
@@ -101,7 +101,24 @@ ms.locfileid: "51765255"
 6. Убедитесь, что вы хотите внести изменения. 
 
 
+## <a name="explore-devices-in-the-network"></a>Изучение устройств в сети
 
+Вы можете использовать следующий расширенный запрос для охоты, чтобы получить дополнительный контекст для каждого имени сети, описанного в списке сетей. В запросе перечислены все подключенные устройства, подключенные к определенной сети в течение последних 7 дней.
+
+
+
+```kusto
+DeviceNetworkInfo
+| where Timestamp > ago(7d)
+| summarize arg_max(Timestamp, *) by DeviceId
+| where ConnectedNetworks  != ""
+| extend ConnectedNetworksExp = parse_json(ConnectedNetworks)
+| mv-expand bagexpansion = array ConnectedNetworks=ConnectedNetworksExp
+| extend NetworkName = tostring(ConnectedNetworks ["Name"]), Description = tostring(ConnectedNetworks ["Description"]), NetworkCategory = tostring(ConnectedNetworks ["Category"])
+| where NetworkName == "<your network name here>"
+
+
+```
 
 ## <a name="see-also"></a>См. также
 - [Обзор обнаружения устройств](device-discovery.md)

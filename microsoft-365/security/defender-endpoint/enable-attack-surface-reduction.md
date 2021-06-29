@@ -16,12 +16,12 @@ manager: dansimp
 ms.technology: mde
 ms.topic: how-to
 ms.date: 06/02/2021
-ms.openlocfilehash: eb4819a1dfad5ce94722d3cb283471a52808a4a7
-ms.sourcegitcommit: 5866e45a6a4e90c661e8f90c91550a9872b68e03
+ms.openlocfilehash: cb56872be3cef2e094583e59a702707f79355743
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/28/2021
-ms.locfileid: "53169608"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177625"
 ---
 # <a name="enable-attack-surface-reduction-rules"></a>Включить правила сокращения направлений атак
 
@@ -37,6 +37,8 @@ ms.locfileid: "53169608"
 
 ## <a name="requirements"></a>Требования
 
+Функции уменьшения поверхности атаки в Windows версиях
+
 Вы можете установить правила уменьшения поверхности атаки для устройств, которые работают с любыми из следующих выпусков и версий Windows:
 
 - Windows 10 Pro версии [1709](/windows/whats-new/whats-new-windows-10-version-1709) или более поздней версии
@@ -44,7 +46,13 @@ ms.locfileid: "53169608"
 - Windows Сервер, [версия 1803 (полугодовой канал)](/windows-server/get-started/whats-new-in-windows-server-1803) или более поздний
 - [Windows Server 2019](/windows-server/get-started-19/whats-new-19)
 
-Хотя правила уменьшения поверхности атаки не требуют лицензии Windows E5, если у вас есть Windows [E5,](/windows/deployment/deploy-enterprise-licenses)вы получите расширенные возможности управления. Эти возможности, доступные только в Windows E5, включают мониторинг, аналитику и рабочий процесс, доступные в [Defender для](/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint?view=o365-worldwide&preserve-view=true)конечной точки, а также возможности отчетности и [конфигурации](/microsoft-365/security/defender/overview-security-center?view=o365-worldwide&preserve-view=true)в центре безопасности Microsoft 365 безопасности . Эти расширенные возможности недоступны с лицензией Windows Professional или Windows E3; Однако, если у вас есть эти лицензии, вы можете использовать журналы viewer и антивирусная программа в Microsoft Defender для просмотра событий правила уменьшения поверхности атаки.
+Чтобы использовать весь набор функций правил уменьшения поверхности атаки, необходимо:
+
+- антивирусная программа как основной av (защита в режиме реального времени)
+- [Защита облачной доставки](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/enable-cloud-protection-microsoft-defender-antivirus) (для этого требуются некоторые правила)
+- Windows 10 Корпоративная Лицензия E5 или E3 или Microsoft 365 бизнес-лицензия
+
+Хотя правила уменьшения поверхности атаки не требуют лицензии Windows E5 с лицензией Windows [E5,](/windows/deployment/deploy-enterprise-licenses)вы получаете расширенные возможности управления, включая мониторинг, аналитику и рабочий процесс, доступные в Defender for Endpoint, а также возможности отчетности и конфигурации в центре безопасности Microsoft 365. Эти расширенные возможности недоступны с лицензией E3, но вы все равно можете использовать viewer событий для просмотра событий, чтобы просмотреть события правила уменьшения поверхности атаки.
 
 Каждое правило ASR содержит один из четырех параметров:
 

@@ -21,12 +21,12 @@ ms.custom: seo-marvel-apr2020
 ms.reviewer: vippand
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 0eaf34e6950e265514b14ff1fd0aa1c7bb9ab6b1
-ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
+ms.openlocfilehash: 0a9eb63ed4508ff875324cf6fb0b4a8ad59cb29f
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53062198"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177553"
 ---
 # <a name="whats-new-in-microsoft-defender-for-office-365"></a>Что нового в Microsoft Defender для Office 365
 
@@ -62,7 +62,6 @@ ms.locfileid: "53062198"
 - Увеличение ограничений на экспорт записей с 9990 до 200 000 в [охотничьих опытах](threat-explorer.md)
 - Расширение ограничения хранения и поиска данных Explorer (и обнаружения в режиме реального времени) для пробных клиентов с 7 (предыдущего ограничения) до 30 дней в ходе [охоты](threat-explorer.md)
 - Новые поворотные точки охоты,  называемые импотенциозным доменом и обезличенным пользователем в explorer (и обнаружения в режиме реального времени) для поиска атак на защищенных пользователей или доменов.  Дополнительные сведения см. в [дополнительных сведениях.](threat-explorer.md#view-phishing-emails-sent-to-impersonated-users-and-domains) (Microsoft Defender для Office 365 плана 1 или плана 2)
-- Новый первый контакт совет по безопасности, когда получатели сначала получают сообщение от отправитель или не часто получают электронную почту от отправитель. Дополнительные сведения об этом параметре и его настройке с помощью Exchange правил потока почты (также известных как правила транспорта), см. в [совет по безопасности.](set-up-anti-phishing-policies.md#first-contact-safety-tip)
 
 ## <a name="december-2020"></a>Декабрь 2020 г.
 
@@ -75,6 +74,7 @@ ms.locfileid: "53062198"
 
 ## <a name="septemberoctober-2020"></a>Сентябрь-октябрь 2020 г.
 
+- Новый первый контакт совет по безопасности, когда получатели сначала получают сообщение от отправитель или не часто получают электронную почту от отправитель. Дополнительные сведения об этом параметре и его настройке с помощью Exchange правил потока почты (также известных как правила транспорта), см. в [совет по безопасности.](set-up-anti-phishing-policies.md#first-contact-safety-tip)
 - [Проверка политик с помощью анализатора конфигурации](configuration-analyzer-for-security-policies.md)
 - Расширенные возможности в [Обозревателе](threat-explorer.md#new-features-in-threat-explorer-and-real-time-detections) угроз, включая топ-пользователей, правила транспорта и соединители (defender for Office 365 information in [Threat Explorer](threat-explorer.md) (электронная почта была разрешена/заблокирована политикой клиента или пользователя) (Defender for Office 365 Plan 2)
 - Угрозы URL-адреса в [Обозревателе](threat-explorer.md#threats-in-urls) угроз (вредоносные программы, фишинг, спам или нет) (Defender для Office 365 Plan 2)

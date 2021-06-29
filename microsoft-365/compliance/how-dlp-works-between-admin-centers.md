@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: a7e4342a-a0a1-4b43-b166-3d7eecf5d2fd
 description: Узнайте, как DLP в Центре & безопасности работает с правилами потока DLP и почты (правила транспорта) в центре администрирования Exchange безопасности.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d71c45e5483bc73afbe2598415e30b84e97c2539
-ms.sourcegitcommit: 46b77a41dfcc0ee80e2b89a7aa49e9bbe5deae5a
+ms.openlocfilehash: 34ddee1c1f0997852b6e59295ab9b630acc3ba3c
+ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2021
-ms.locfileid: "53149146"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177181"
 ---
 # <a name="how-dlp-works-between-the-microsoft-365-compliance-center-and-exchange-admin-center"></a>Работа DLP между центром Microsoft 365 соответствия требованиям и Exchange центром администрирования
 
@@ -46,6 +46,8 @@ ms.locfileid: "53149146"
 Это означает, что:
   
 - Сообщения, заблокированные Exchange правил потока почты, не будут проверяться по правилам DLP, созданным в Центре & безопасности.
+
+- Сообщения, которые находятся на карантине по Exchange правилами потока почты или любыми другими фильтрами, которые запускаются перед DLP, не будут отсканированы DLP
     
 - Если правило потока Exchange изменяет сообщение таким образом, чтобы оно совпадает с политикой DLP в Центре соответствия требованиям безопасности & , например добавление внешних пользователей, то правила DLP будут обнаруживать это и применять политику по мере необходимости.
     
