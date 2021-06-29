@@ -393,7 +393,7 @@
             - name: Конфиденциальность и безопасность
               href: basic-mobility-security/privacy-and-security.md
             - name: Вопросы и ответы
-              href: basic-mobility-security/frequently-asked-questions.md
+              href: basic-mobility-security/frequently-asked-questions.yml
             - name: Очистка мобильных устройств
               href: basic-mobility-security/wipe-mobile-device.md
             - name: Отключение Basic Mobility + Security
