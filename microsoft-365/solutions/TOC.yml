@@ -97,40 +97,94 @@
   items:
     - name: Обзор
       href: ./index.yml
-    - name: Управление клиентами
+    - name: Администрирование и миграция
       items:
-        - name: Обзор
-          href: tenant-management-overview.md
-        - name: Этап 1. Ваши клиенты
-          href: tenant-management-tenants.md
-        - name: Этап 2. Оптимальная сеть
-          href: tenant-management-networking.md
-        - name: Этап 3. Удостоверение
-          href: tenant-management-identity.md
-        - name: Этап 4. Миграция
-          href: tenant-management-migration.md
-        - name: Этап 5. Управление устройствами и приложениями
-          href: tenant-management-device-management.md
+        - name: Управление клиентами
+          items:
+            - name: Обзор
+              href: tenant-management-overview.md
+            - name: Этап 1. Ваши клиенты
+              href: tenant-management-tenants.md
+            - name: Этап 2. Оптимальная сеть
+              href: tenant-management-networking.md
+            - name: Этап 3. Удостоверение
+              href: tenant-management-identity.md
+            - name: Этап 4. Миграция
+              href: tenant-management-migration.md
+            - name: Этап 5. Управление устройствами и приложениями
+              href: tenant-management-device-management.md
+            - name: Удаление бывшего сотрудника
+              items:
+                - name: Обзор
+                  href: ../admin/add-users/remove-former-employee.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+                - name: Этап 1. Запрет входа в систему для сотрудника и блокировка доступа к службам Microsoft 365
+                  href: ../admin/add-users/remove-former-employee-step-1.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+                - name: Этап 2. Сохранение содержимого почтового ящика бывшего сотрудника
+                  href: ../admin/add-users/remove-former-employee-step-2.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+                - name: Этап 3. Переадресация электронной почты бывшего сотрудника другому сотруднику или преобразование в общий почтовый ящик
+                  href: ../admin/add-users/remove-former-employee-step-3.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+                - name: Этап 4. Предоставление другому сотруднику доступ к данным OneDrive и Outlook
+                  href: ../admin/add-users/remove-former-employee-step-4.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+                - name: Этап 5. Очистка и блокирование мобильного устройства бывшего сотрудника
+                  href: ../admin/add-users/remove-former-employee-step-5.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+                - name: Этап 6. Удаление лицензии на Microsoft 365 у бывшего сотрудника
+                  href: ../admin/add-users/remove-former-employee-step-6.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+                - name: Этап 7. Удаление учетной записи бывшего сотрудника
+                  href: ../admin/add-users/remove-former-employee-step-7.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+        - name: Перенос общих папок в Microsoft 365
+          items:
+            - name: Обзор
+              href: /sharepointmigration/mm-get-started.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+            - name: Шаг 1. Настройка агентов
+              href: /sharepointmigration/mm-setup-clients.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+            - name: Шаг 2. Создание задачи миграции
+              href: /sharepointmigration/mm-how-to-use.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+            - name: Шаг 3. Отслеживание и отчеты
+              href: /sharepointmigration/mm-reports.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
     - name: Командная и совместная работа
       items:
-        - name: Плакаты с архитектурой Teams
-          href: /MicrosoftTeams/teams-architecture-solutions-posters?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
         - name: Развертывание голосовой связи Teams в Microsoft 365
           items:
             - name: Обзор
               href: deploy-voice.md
             - name: Этап 1. Выбор голосового решения
-              href: /MicrosoftTeams/cloud-voice-landing-page?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+              href: /MicrosoftTeams/cloud-voice-landing-page.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
             - name: Шаг 2. Настройка телефонной системы
-              href: /microsoftteams/setting-up-your-phone-system?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+              href: /MicrosoftTeams/setting-up-your-phone-system.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
             - name: Шаг 3. Настройка связи с ТСОП
               items:
                 - name: Параметр тарифного плана
-                  href: /microsoftteams/set-up-calling-plans?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+                  href: /MicrosoftTeams/set-up-calling-plans.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
                 - name: Параметр прямой маршрутизации
-                  href: /microsoftteams/direct-routing-configure?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+                  href: /MicrosoftTeams/direct-routing-configure.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
             - name: Практический пример для транснациональной корпорации
-              href: /MicrosoftTeams/voice-case-study-overview?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+              href: /MicrosoftTeams/voice-case-study-overview.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+        - name: Управление контрактами для вашей компании
+          items:
+            - name: Обзор
+              href: ../contentunderstanding/solution-manage-contracts-in-microsoft-365.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
+            - name: Этап 1. Использование SharePoint Syntex
+              href: ../contentunderstanding/solution-manage-contracts-step1.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
+            - name: Этап 2. Использование Microsoft Teams
+              href: ../contentunderstanding/solution-manage-contracts-step2.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
+            - name: Этап 3. Power Automate
+              href: ../contentunderstanding/solution-manage-contracts-step3.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
+        - name: Создание интеллектуальной интрасети SharePoint
+          items:
+            - name: Обзор
+              href: /sharepoint/intelligent-internet-overview.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
+            - name: Как рассматривать интеллектуальную интрасеть
+              href: /sharepoint/itrad-vs-modern-intranet.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
+            - name: Дорожная карта интрасети
+              href: /sharepoint/iintranet-overview.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
+            - name: Планирование интрасети
+              href: /sharepoint/iplan-intranet.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
+            - name: Рекомендации по планированию глобальной интрасети
+              href: /sharepoint/iset-up-global-intranet.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
+            - name: Управление интрасетью
+              href: /sharepoint/iintranet-governance.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
+            - name: Коммуникация на рабочем месте
+              href: /sharepoint/iworkplace-communications.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json&view=o365-worldwide
         - name: Управление совместной работой
           items:
             - name: Обзор
@@ -170,57 +224,43 @@
                 - name: Параметры завершения жизненного цикла
                   href: end-life-cycle-groups-teams-sites-yammer.md
         - name: Совместная работа с файлами в SharePoint с помощью Microsoft 365
-          href: /sharepoint/deploy-file-collaboration?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
-        - name: Создание интеллектуальной интрасети SharePoint
-          href: /sharepoint/intelligent-internet-overview?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+          href: /sharepoint/deploy-file-collaboration
         - name: Руководство по OneDrive для предприятий
-          href: /onedrive/plan-onedrive-enterprise?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
-        - name: Перенос общих папок в Microsoft 365
-          items:
-            - name: Обзор
-              href: /sharepointmigration/mm-get-started?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
-            - name: Шаг 1. Настройка агентов
-              href: /sharepointmigration/mm-setup-clients?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
-            - name: Шаг 2. Создание задачи миграции
-              href: /sharepointmigration/mm-how-to-use?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
-            - name: Шаг 3. Отслеживание и отчеты
-              href: /sharepointmigration/mm-reports?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
-    - name: Безопасность
-      items:
-        - name: Основные задачи для отделов обеспечения безопасности при поддержке работы из дома
-          href: ../security/top-security-tasks-for-remote-work.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
-        - name: 'Безопасность Microsoft 365 для лиц, принимающих деловые решения (BDM)'
-          href: 'https://docs.microsoft.com/microsoft-365/security/microsoft-365-security-for-bdm?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
-        - name: Конфигурации доступа для удостоверений и устройств
-          href: 'https://docs.microsoft.com/microsoft-365/security/office-365-security/microsoft-365-policies-configurations?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
-        - name: Развертывание Microsoft Defender для конечной точки
-          href: 'https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/deployment-phases?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
+          href: /onedrive/plan-onedrive-enterprise
     - name: Соответствие требованиям
       items:
         - name: Решения для внутренних рисков в Microsoft 365
-          items:
-            - name: Обзор
-              href: ../compliance/insider-risk-solution-overview.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
-            - name: Соответствие требованиям к обмену данными
-              href: ../compliance/communication-compliance-solution-overview.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
-            - name: Управление внутренними рисками
-              href: ../compliance/insider-risk-management-solution-overview.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
-            - name: Информационные барьеры
-              href: ../compliance/information-barriers-solution-overview.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
-            - name: Управление привилегированным доступом
-              href: ../compliance/privileged-access-management-solution-overview.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+          href: ../compliance/insider-risk-solution-overview.md
+        - name: Решения для аудита
+          href: ../compliance/auditing-solutions-overview.md
+        - name: Microsoft 365 Advanced eDiscovery
+          href: ../compliance/overview-ediscovery-20.md
         - name: Планы действий по соответствию нормативным требованиям
           items:
             - name: 'ISO: рекомендуемый план действий'
-              href: /compliance/regulatory/iso-action-plan?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+              href: /compliance/regulatory/iso-action-plan.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
             - name: 'NIST: рекомендуемый план действий'
-              href: /compliance/regulatory/nist-action-plan?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+              href: /compliance/regulatory/nist-action-plan.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
             - name: 'CCPA: вопросы и ответы'
-              href: /compliance/regulatory/ccpa-faq?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+              href: /compliance/regulatory/ccpa-faq.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
             - name: 'GDPR: рекомендуемый план действий'
-              href: /compliance/regulatory/gdpr?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
-        - name: Пример соответствия требованиям корпорации Contoso
-          href: ../compliance/communication-compliance-case-study.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&view=o365-worldwide%3ftoc%3d%2fmicrosoft-365%2fsolutions%2ftoc.json
+              href: /compliance/regulatory/gdpr.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+    - name: Безопасность
+      items:
+        - name: Основные задачи для отделов обеспечения безопасности при поддержке работы из дома
+          href: ../security/top-security-tasks-for-remote-work.md
+        - name: 'Безопасность Microsoft 365 для лиц, принимающих деловые решения (BDM)'
+          href: ../security/microsoft-365-security-for-bdm.md
+        - name: Конфигурации доступа для удостоверений и устройств
+          href: ../security/office-365-security/microsoft-365-policies-configurations.md
+        - name: Развертывание Microsoft Defender для конечной точки
+          href: /windows/security/threat-protection/microsoft-defender-atp/deployment-phases.md
+        - name: Миграция из Symantec в Microsoft Defender для конечной точки
+          href: ../security/defender-endpoint/symantec-to-microsoft-defender-endpoint-migration.md
+        - name: Миграция из McAfee в Microsoft Defender для конечной точки
+          href: ../security/defender-endpoint/mcafee-to-microsoft-defender-migration.md
+        - name: Миграция со сторонней защиты конечных точек в Microsoft Defender для конечной точки
+          href: ../security/defender-endpoint/switch-to-microsoft-defender-migration.md
     - name: Примеры Contoso
       items:
         - name: Решения Microsoft 365 для корпорации Contoso
@@ -230,9 +270,9 @@
         - name: Изолированная команда для сверхсекретного проекта
           href: contoso-team-for-top-secret-project.md
         - name: Миграция голосовых служб Teams
-          href: /MicrosoftTeams/voice-case-study-overview?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+          href: /MicrosoftTeams/voice-case-study-overview.md
         - name: Пример соответствия требованиям корпорации Contoso
-          href: ../compliance/communication-compliance-case-study.md?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&view=o365-worldwide%3ftoc%3d%2fmicrosoft-365%2fsolutions%2ftoc.json
+          href: ../compliance/communication-compliance-case-study.md
     - name: Руководства по лаборатории тестирования
       items:
         - name: Руководства по лаборатории тестирования для решений и сценариев
@@ -252,17 +292,17 @@
     - name: Здравоохранение
       items:
         - name: Teams для сферы здравоохранения
-          href: /MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+          href: /MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc.md
     - name: Образование
       items:
         - name: Teams для образовательных учреждений
-          href: /MicrosoftTeams/expand-teams-across-your-org/teams-for-education-landing-page?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+          href: /MicrosoftTeams/expand-teams-across-your-org/teams-for-education-landing-page.md
     - name: Государственные организации
       items:
         - name: Teams для государственных организаций
-          href: /MicrosoftTeams/expand-teams-across-your-org/teams-for-government-landing-page?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+          href: /MicrosoftTeams/expand-teams-across-your-org/teams-for-government-landing-page.md
         - name: Поддержка удаленных государственных служащих с помощью Teams
-          href: /MicrosoftTeams/expand-teams-across-your-org/gov-support-remote-work-with-teams?bc=%2fmicrosoft-365%2fsolutions%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoft-365%2fsolutions%2ftoc.json
+          href: /MicrosoftTeams/expand-teams-across-your-org/gov-support-remote-work-with-teams.md
 - name: Принципы разработки корпоративной архитектуры
   items:
     - name: Обзор
