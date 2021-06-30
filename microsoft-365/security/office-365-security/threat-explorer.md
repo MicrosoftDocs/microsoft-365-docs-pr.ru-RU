@@ -19,12 +19,12 @@ description: Используйте обнаружение explorer и в реж
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: d3dc8c205d5edfe455884d64030c7a6070762adb
-ms.sourcegitcommit: ebb1c3b4d94058a58344317beb9475c8a2eae9a7
+ms.openlocfilehash: bb72c99ae0b80c4091e79801c5515190811324a7
+ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53108551"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53195037"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Обнаружение обозревателя угроз и обнаружения в режиме реального времени
 
@@ -56,7 +56,7 @@ ms.locfileid: "53108551"
 
 ## <a name="improvements-to-threat-hunting-experience"></a>Улучшения в области охоты на угрозы
 
-### <a name="introduction-of-alert-id-for-mdo-alerts-within-explorerreal-time-detections-preview"></a>Введение alert ID для оповещений MDO в обнаружениях Explorer и в режиме реального времени (Предварительная версия)
+### <a name="introduction-of-alert-id-for-defender-for-office-365-alerts-within-explorerreal-time-detections-preview"></a>Введение alert ID для Defender для Office 365 оповещений в explorer/Real-time detections (Preview)
 
 Сегодня при переходе из оповещений в Обозреватель угроз открывается фильтрованный вид в Explorer, а представление фильтруется идентификатором политики оповещения (идентификатор политики является уникальным идентификатором для политики оповещения).
 Мы делаем эту интеграцию более актуальной, введя ID оповещений (см. пример оповещений ниже) в обнаружениях Обозреватель угроз и в режиме реального времени, чтобы вы могли видеть сообщения, соответствующие конкретному оповещению, а также количество электронных сообщений. Вы также сможете увидеть, было ли сообщение частью оповещения, а также перейти от этого сообщения к определенному оповещению.
@@ -544,16 +544,16 @@ Url-сигнал ZAP обычно используется для сценари
 
 - Для Центра & безопасности вам должна быть назначена одна из следующих ролей:
 
-  - Управление организацией
+  - "Управление организацией"
   - Администратор безопасности (это может быть назначено в центре администрирования Azure Active Directory ( <https://aad.portal.azure.com> )
   - Читатель сведений о безопасности
 
 - Для Exchange Online, вам должна быть назначена одна из следующих ролей в центре администрирования Exchange () или <https://admin.protection.outlook.com/ecp/> [Exchange Online PowerShell:](/powershell/exchange/exchange-online-powershell)
 
-  - Управление организацией
+  - "Управление организацией"
   - Управление организацией только с правом на просмотр
   - Получатели только для чтения
-  - Управление соответствием требованиям
+  - "Управление соответствием требованиям"
 
 Дополнительные информацию о ролях и разрешениях см. в следующих ресурсах:
 

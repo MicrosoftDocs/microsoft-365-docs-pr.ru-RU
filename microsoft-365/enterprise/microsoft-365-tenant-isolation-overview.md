@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 description: В этой статье содержится сводка о том, как Корпорация Майкрософт обеспечивает изоляцию клиента в облачных службах, таких как Microsoft 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7c5be65186b75f6056a64b776e4f0d25bcd55eb1
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: b52d936bb00ac0adef0baf428cbc5f9a8f8aba49
+ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50923080"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53194653"
 ---
 # <a name="tenant-isolation-in-microsoft-365"></a>Изоляция клиента в Microsoft 365
 
@@ -39,7 +39,7 @@ ms.locfileid: "50923080"
 - Логическая изоляция контента клиента в каждом клиенте для Microsoft 365 служб достигается Azure Active Directory авторизации и управления доступом на основе ролей.
 - SharePoint Online предоставляет механизмы изоляции данных на уровне хранилища.
 - Корпорация Майкрософт использует строгую физическую безопасность, фоновое тестирование и многоуровневую стратегию шифрования для защиты конфиденциальности и целостности контента клиента. Все Microsoft 365 центрах обработки данных имеют элементы управления биометрическим доступом, при этом для получения физического доступа требуется большинство отпечатков ладоней. Кроме того, все сотрудники Корпорации Майкрософт из США должны успешно пройти стандартную проверку фона в рамках процесса найма. Дополнительные сведения о средствах управления, используемых для административного доступа в Microsoft 365, см. в Microsoft 365 [Управления административным доступом.](/compliance/assurance/assurance-administrative-access-controls-overview)
-- Microsoft 365 службы используют технологии, которые шифруют контент клиента в покое и в пути, включая шифрование BitLocker, шифрование каждого файла, безопасность транспортного слоя (TLS) и безопасность протокола Интернета (IPsec). Подробные сведения о шифровании в Microsoft 365 [см.](../compliance/office-365-encryption-in-the-microsoft-cloud-overview.md)в Microsoft 365.
+- Microsoft 365 использует технологии, которые шифруют содержимое клиента в покое и в пути, в том числе BitLocker, шифрование каждого файла, безопасность транспортного слоя (TLS) и безопасность протокола Интернета (IPsec). Подробные сведения о шифровании в Microsoft 365 [см.](../compliance/office-365-encryption-in-the-microsoft-cloud-overview.md)в Microsoft 365.
 
 В совокупности указанные выше средства защиты обеспечивают надежные элементы управления логической изоляцией, которые обеспечивают защиту от угроз и смягчение последствий, эквивалентные средствам физической изоляции.
 
@@ -48,7 +48,6 @@ ms.locfileid: "50923080"
 - [Изоляция и управление доступом в Azure Active Directory](microsoft-365-isolation-in-azure-active-directory.md)
 - [Изоляция клиента в Office Graph и Delve](microsoft-365-isolation-in-graph-and-delve.md)
 - [Изоляция клиента в поиске Microsoft 365](microsoft-365-isolation-in-microsoft-365-search.md)
-- [Изоляция клиента в Office 365 Видео](microsoft-365-isolation-in-microsoft-365-video.md)
 - [Ограничения ресурсов](/compliance/assurance/assurance-resource-limits)
 - [Мониторинг и тестирование границ клиента](/compliance/assurance/assurance-monitoring-and-testing)
 - [Изоляция и управление доступом в Microsoft 365](microsoft-365-isolation-in-microsoft-365.md)

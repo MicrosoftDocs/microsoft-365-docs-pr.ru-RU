@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 8d7ac39baabca1496a5d2c22521874cfd60c6208
-ms.sourcegitcommit: ccbdf2638fc6646bfb89450169953f4c3ce4b9b0
+ms.openlocfilehash: 2b75a9f4446c875e73245aa7d51e8fcc15e8d23c
+ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53105576"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53195025"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-linux-manually"></a>Развертывание Microsoft Defender для конечной точки на Linux вручную
 
@@ -92,7 +92,7 @@ ms.locfileid: "53105576"
     sudo yum-config-manager --add-repo=https://packages.microsoft.com/config/centos/7/prod.repo
     ```
 
-    Или если вы хотите изучить новые функции на выбранных устройствах, возможно, вам захочется развернуть MDE для Linux на канале с быстрыми *инсайдерами:*
+    Или, если вы хотите изучить новые функции на выбранных устройствах, вы можете развернуть Microsoft Defender для конечной точки на Linux в канале с быстрыми *инсайдерами:*
 
     ```bash
     sudo yum-config-manager --add-repo=https://packages.microsoft.com/config/centos/7/insiders-fast.repo
@@ -120,7 +120,7 @@ ms.locfileid: "53105576"
     sudo zypper addrepo -c -f -n microsoft-[channel] https://packages.microsoft.com/config/[distro]/[version]/[channel].repo
     ```
 
-    Например, если вы работаете с SLES 12 и хотите развернуть MDE для Linux из *прод-канала:*
+    Например, если вы работаете с SLES 12 и хотите развернуть Microsoft Defender для конечной точки на Linux из *прод-канала:*
 
     ```bash
     sudo zypper addrepo -c -f -n microsoft-prod https://packages.microsoft.com/config/sles/12/prod.repo
@@ -400,13 +400,13 @@ Options:
 
 ## <a name="how-to-migrate-from-insiders-fast-to-production-channel"></a>Миграция из Insiders-Fast в канал Production
 
-1. Удалить версию MDE для Linux "Insiders-Fast channel".
+1. Удалить версию "Insiders-Fast channel" Defender для конечной точки на Linux.
 
     ``
     sudo yum remove mdatp
     ``
 
-1. Отключение репо MDE для Linux Insiders-Fast  ``
+1. Отключение конечной точки Defender для Linux Insiders-Fast репо  ``
     sudo yum repolist
     ``
 

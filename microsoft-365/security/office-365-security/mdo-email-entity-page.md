@@ -1,5 +1,5 @@
 ---
-title: Страница объекта электронной Office 365 Microsoft Defender для электронной почты (MDO)
+title: Страница Microsoft Defender для Office 365 сущности электронной почты
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 - m365initiative-defender-office365
 description: Microsoft Defender для Office 365 E5 и P1 и P2 теперь может получить 360-градусное представление каждого электронного письма со страницей сущности электронной почты.
-ms.openlocfilehash: d2f5a5b20034ef22b8e3894885079609a9ad5874
-ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
+ms.openlocfilehash: 5621476f8f8f7270d241d642354ab174a25b8b37
+ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53083302"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53194995"
 ---
 # <a name="the-email-entity-page"></a>Страница сущности "Электронная почта"
 
@@ -30,11 +30,11 @@ ms.locfileid: "53083302"
 - [Использование вкладок страниц сущности электронной почты](#use-email-entity-page-tabs)
 - [Новая страница сущности электронной почты](#new-to-the-email-entity-page)
 
-Администраторы Microsoft Defender для Office 365 (или MDO) E5 и MDO P1 и P2 имеют 360-градусное представление электронной почты с помощью страницы сущности **электронной почты**. Эта страница электронной почты была создана для улучшения сведений, доставленных на вылете "сведения электронной почты" [обозревателя угроз.](threat-explorer-views.md)
+Администраторы Microsoft Defender для Office 365 E5 и Defender для Office P1 и P2 имеют 360-градусное представление электронной почты с помощью страницы сущности **электронной почты**. Эта страница электронной почты была создана для улучшения сведений, доставленных на вылете "сведения электронной почты" [обозревателя угроз.](threat-explorer-views.md)
 
 ## <a name="reach-the-email-entity-page"></a>Достижение страницы сущности электронной почты
 
-Страница сущности электронной почты доступна на портале Microsoft 365 защитника () в обозревателе <https://security.microsoft.com> **&** \> **электронной почты.** Или, чтобы перейти непосредственно на **страницу Explorer,** используйте <https://security.microsoft.com/threatexplorer> .
+Страница сущности электронной почты доступна на портале Microsoft 365 Defender <https://security.microsoft.com> () в **обозревателе &** \> **электронной почты.** Или, чтобы перейти непосредственно на **страницу Explorer,** используйте <https://security.microsoft.com/threatexplorer> .
 
 В **Explorer** выберите объект электронной почты, которое вы изучаете. Золотая слитка будет отображаться в верхней части вылетной почты для этой почты. Это приглашение на новую страницу считывания "Попробуйте нашу новую страницу сущности электронной почты с обогащенными данными...". Выберите для просмотра новой страницы.
 

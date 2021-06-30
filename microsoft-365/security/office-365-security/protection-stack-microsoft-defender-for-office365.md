@@ -13,12 +13,12 @@ localization_priority: Normal
 description: Следуйте пути входящих сообщений через стек фильтрации угроз в Microsoft Defender для Office 365.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: e892ebe04887527cf57e4ea44f67c4aaa775b228
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: 1113d04cabdabe2925242cb18dde78daf9ef6e2c
+ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52683299"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53194809"
 ---
 # <a name="step-by-step-threat-protection-in-microsoft-defender-for-office-365"></a>Пошаговая защита от угроз в Microsoft Defender для Office 365
 
@@ -51,7 +51,7 @@ ms.locfileid: "52683299"
 
 Функции в разведданных отправитель имеют решающее значение для обнаружения нежелательной почты, массовой рассылки, обезличения и несанкционированного подмены сообщений, а также фактора обнаружения фишинга. Большинство этих функций настраиваются по отдельности.
 
-:::image type="content" source="../../media/mdo-filtering-stack/mdo-filter-stack-phase2.png" alt-text="Этап 2 фильтрации в MDO — это интеллект отправитель.":::
+:::image type="content" source="../../media/mdo-filtering-stack/mdo-filter-stack-phase2.png" alt-text="Этап 2 фильтрации в Defender для Office 365 — это интеллект отправитель.":::
 
 1. **Триггеры обнаружения компрометации** учетных записей и оповещения поднимаются, если учетная запись имеет аномальное поведение, соответствующее компромиссу. В некоторых случаях учетная запись пользователя блокируется и не может отправлять дополнительные сообщения электронной почты до тех пор, пока проблема не будет устранена командой операций безопасности организации.
 
@@ -133,9 +133,9 @@ ms.locfileid: "52683299"
 
 Окончательная схема (как и все части схемы ее создания) может изменяться по мере роста и *развития продукта.* Закладки на этой странице и используйте вариант **обратной** связи, который вы найдете в нижней части, если вам нужно спросить после обновления. Для записей это стек со всеми этапами в порядке:
 
-:::image type="content" source="../../media/mdo-filtering-stack/mdo-filter-stack-phase5.png" alt-text="Все этапы фильтрации в MDO в порядке от 1 до 4.":::
+:::image type="content" source="../../media/mdo-filtering-stack/mdo-filter-stack-phase5.png" alt-text="Все этапы фильтрации в Defender для Office 365 в порядке, от 1 до 4.":::
 
-## <a name="more-information"></a>Дополнительные сведения
+## <a name="more-information"></a>Дополнительная информация
 
 Необходимо ли настроить Microsoft Defender для Office 365 ***прямо сейчас** _? Используйте этот стек _now*, [](protect-against-threats.md) чтобы пошагово начать защищать организацию.
 

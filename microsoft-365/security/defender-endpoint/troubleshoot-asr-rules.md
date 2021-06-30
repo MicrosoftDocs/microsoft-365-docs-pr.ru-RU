@@ -16,12 +16,12 @@ manager: dansimp
 ms.custom: asr
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: c043e97d6c02e4f41d000e9ce8cfea4a0950252a
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 65e3e8d1baef7ca4440824c9a262f0b5f696b657
+ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52246257"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53194749"
 ---
 # <a name="report-and-troubleshoot-microsoft-defender-for-atp-asr-rules"></a>Отчет и устранение неполадок Microsoft Defender для правил ASR ATP
 
@@ -42,7 +42,7 @@ ms.locfileid: "52246257"
 
 Одна из самых мощных функций Microsoft Defender для конечной точки — это продвинутая охота. Если вы не знакомы с развитой охотой, обратитесь к активной охоте на угрозы [с помощью расширенных охоты.](advanced-hunting-overview.md)
 
-Advanced hunting is a query-based (Kusto Query Language) threat-hunting tool that lets you explore up to 30 days of the captured (raw) data, that MDE Endpoint Detection and Response (EDR) collects from all your machines. С помощью продвинутой охоты можно активно проверять события, чтобы найти интересные индикаторы и объекты. Гибкий доступ к данным помогает безудержно искать как известные, так и потенциальные угрозы.
+Advanced hunting is a query-based (Kusto Query Language) threat-hunting tool that lets you explore up to 30 days of the captured (raw) data, that Defender for Endpoint collects from your devices. С помощью продвинутой охоты можно активно проверять события, чтобы найти интересные индикаторы и объекты. Гибкий доступ к данным помогает безудержно искать как известные, так и потенциальные угрозы.
 
 С помощью продвинутой охоты можно извлечь сведения о правилах ASR, создавать отчеты и получать углубленные сведения о контексте данного аудита или события блокировки правил ASR.
 
