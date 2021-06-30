@@ -19,12 +19,12 @@ description: Используйте обнаружение explorer и в реж
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: bb72c99ae0b80c4091e79801c5515190811324a7
-ms.sourcegitcommit: 6749455c52b0f98a92f6fffbc2bb86caf3538bd8
+ms.openlocfilehash: ee9c4c63817d9c6860942eb8001b02a0535333b1
+ms.sourcegitcommit: 99e67bfe1d677c2f51712b05dcc54908b343cf6f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 06/29/2021
-ms.locfileid: "53195037"
+ms.locfileid: "53203260"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Обнаружение обозревателя угроз и обнаружения в режиме реального времени
 
@@ -56,7 +56,8 @@ ms.locfileid: "53195037"
 
 ## <a name="improvements-to-threat-hunting-experience"></a>Улучшения в области охоты на угрозы
 
-### <a name="introduction-of-alert-id-for-defender-for-office-365-alerts-within-explorerreal-time-detections-preview"></a>Введение alert ID для Defender для Office 365 оповещений в explorer/Real-time detections (Preview)
+
+### <a name="introduction-of-alert-id-for-defender-for-office-365-alerts-within-explorerreal-time-detections"></a>Введение alert ID для Defender для Office 365 оповещений в explorer/Real-time detections
 
 Сегодня при переходе из оповещений в Обозреватель угроз открывается фильтрованный вид в Explorer, а представление фильтруется идентификатором политики оповещения (идентификатор политики является уникальным идентификатором для политики оповещения).
 Мы делаем эту интеграцию более актуальной, введя ID оповещений (см. пример оповещений ниже) в обнаружениях Обозреватель угроз и в режиме реального времени, чтобы вы могли видеть сообщения, соответствующие конкретному оповещению, а также количество электронных сообщений. Вы также сможете увидеть, было ли сообщение частью оповещения, а также перейти от этого сообщения к определенному оповещению.
@@ -69,12 +70,12 @@ ms.locfileid: "53195037"
 > [!div class="mx-imgBorder"]
 > ![Alert ID in details flyout](../../media/AlertID-DetailsFlyout.png)
 
-### <a name="extending-the-explorer-and-real-time-detections-data-retention-and-search-limit-for-trial-tenants-from-7-to-30-days-preview"></a>Расширение ограничения хранения и поиска данных Explorer (и обнаружения в режиме реального времени) для пробных клиентов с 7 до 30 дней (предварительная версия)
+### <a name="extending-the-explorer-and-real-time-detections-data-retention-and-search-limit-for-trial-tenants-from-7-to-30-days"></a>Расширение ограничения хранения и поиска данных Explorer (и обнаружения в режиме реального времени) для клиентов пробных периодов с 7 до 30 дней
 
 В рамках этого изменения вы сможете искать и фильтровать данные электронной почты в течение 30 дней (увеличение по сравнению с предыдущими 7 днями) при обнаружении в режиме реального времени обозревателя угроз для обоих клиентов defender для Office P1 и P2 пробных клиентов.
 Это не влияет на клиентов P1 и P2/E5, у которых уже есть 30-дневные возможности хранения данных и поиска.
 
-### <a name="updated-limits-for-export-of-records-for-threat-explorer-preview"></a>Обновленные ограничения для экспорта записей для обозревателя угроз (Preview)
+### <a name="updated-limits-for-export-of-records-for-threat-explorer"></a>Обновленные ограничения для экспорта записей для обозревателя угроз
 
 В рамках этого обновления количество строк для записей электронной почты, которые можно экспортировать из Обозревателя угроз, увеличивается с 9990 до 200 000 записей. Набор столбцов, которые можно экспортировать в настоящее время, останется тем же, но количество строк увеличится с текущего лимита.
 

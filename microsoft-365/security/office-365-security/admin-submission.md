@@ -19,12 +19,12 @@ ms.custom:
 description: Администраторы могут узнать, как использовать портал Отправки на портале Microsoft 365 Defender для отправки подозрительных сообщений электронной почты, подозрительных фишинговых сообщений, нежелательной почты и других потенциально вредных сообщений, URL-адресов и вложений электронной почты в Корпорацию Майкрософт для повторного использования.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ab25757c79b7978400e98fa36d48163e1681e7c1
-ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
+ms.openlocfilehash: eecb635972be85e1a1a4f95c2786f209ee249745
+ms.sourcegitcommit: 99e67bfe1d677c2f51712b05dcc54908b343cf6f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53062034"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53203284"
 ---
 # <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>Использование функции отправки администратором для отправки подозрительного спама, фишинговых сообщений, URL-адресов и файлов в корпорацию Майкрософт
 
@@ -55,8 +55,7 @@ ms.locfileid: "53062034"
 
 - Чтобы отправить сообщения и файлы в Корпорацию Майкрософт, необходимо быть членом одной из следующих групп ролей:
   - **Управление организацией** или **чтение** безопасности [на Microsoft 365 Defender портале](permissions-microsoft-365-security-center.md).
-  - **Управление организацией** [в Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups).
-
+  
     Обратите внимание, что членство в [](#view-user-submissions-to-microsoft) этой группе ролей необходимо для просмотра пользовательских представлений в настраиваемом почтовом ящике, как описано выше в этой статье.
 
 - Дополнительные сведения о том, как пользователи могут отправлять сообщения и файлы в Корпорацию Майкрософт, см. в материалах [Report messages and files to Microsoft.](report-junk-email-messages-to-microsoft.md)
@@ -142,7 +141,7 @@ ms.locfileid: "53062034"
      - **Причина доставки/блокировки**
      - **ID отправки**
      - **Сетевой ID/Object ID**
-     - **Направление**
+     - **Direction**
      - **IP-адрес отправителя**
      - **Объемный уровень совместимый (BCL)**
      - **Destination**

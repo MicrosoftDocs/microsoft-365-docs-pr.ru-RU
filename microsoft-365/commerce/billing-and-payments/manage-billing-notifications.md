@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 description: Узнайте, как управлять тем, кто получает сообщения уведомлений о выставлении счетов и вложения счетов.
 ms.date: 03/17/2021
-ms.openlocfilehash: f41d93835fed1715803052f1cf79b46f43a1d200
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: a49598cd1b361a85af8455b0aff19e11fcf96526
+ms.sourcegitcommit: 99e67bfe1d677c2f51712b05dcc54908b343cf6f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53054577"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53203248"
 ---
 # <a name="manage-billing-notifications-and-invoice-attachments"></a>Управление уведомлениями о выставлении счетов и вложениями счетов-фактур
 
@@ -55,7 +55,7 @@ ms.locfileid: "53054577"
 3. В правой области на вкладке **Назначены администраторы** выберите **Добавить**.
 4. В области **Добавить администраторов** введите имя или имя пользователя, а затем выберите пользователя из списка предложений.
 5. Добавьте несколько пользователей, пока не будет сделано.
-6. Выберите **Сохранить**. Пользователь добавляется в список назначенных администраторов.
+6. Нажмите **Сохранить**. Пользователь добавляется в список назначенных администраторов.
 
 ### <a name="remove-admin-roles-by-using-the-billing-notifications-page"></a>Удаление ролей администратора с помощью страницы уведомлений о выставлении счета
 
@@ -127,6 +127,6 @@ ms.locfileid: "53054577"
 ## <a name="related-content"></a>См. также:
 
 [Просмотр счета](view-your-bill-or-invoice.md) (статья)\
-[Сведения о выставлении счетов в Microsoft 365 для бизнеса в Мексике](/microsoft-365/commerce/billing-and-payments/mexico-billing-info) (статья) \
+[Сведения о выставлении счетов в Microsoft 365 для бизнеса в Мексике](mexico-billing-info.md) (статья) \
 [Понимание счета или](understand-your-invoice2.md) счета Microsoft 365 для бизнеса (статья)\
 [Добавление пользователей и назначение лицензий](../../admin/add-users/add-users.md) одновременно (статья)

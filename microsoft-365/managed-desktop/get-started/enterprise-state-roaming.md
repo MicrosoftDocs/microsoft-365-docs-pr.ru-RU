@@ -9,20 +9,18 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 61b84b3c7b6550a8ce426a3e41630a0d3e269c41
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: f9d478412d2a1aac6f3e701aca59fcf74ceacce6
+ms.sourcegitcommit: 99e67bfe1d677c2f51712b05dcc54908b343cf6f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50921958"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53203212"
 ---
 # <a name="enable-enterprise-state-roaming"></a>Включение службы Enterprise State Roaming
 
-Для наилучшего опыта работы с компьютеры, управляемые Майкрософт в [Enterprise государственного](/azure/active-directory/devices/enterprise-state-roaming-overview)роуминга, который позволяет пользователям безопасно синхронизировать данные параметров пользователей и приложений в облако. Это означает, что они будут иметь одинаковый опыт независимо от того, Windows устройство они впишут. Например, если заменить одно из компьютеры, управляемые Майкрософт на новое, оно будет выглядеть и вести себя точно так же, как и последнее.
+[Enterprise государственного роуминга](/azure/active-directory/devices/enterprise-state-roaming-overview) позволяет пользователям безопасно синхронизировать данные параметров пользователей и приложений в облаке. Это означает, что они будут иметь одинаковый опыт независимо от того, Windows устройство они впишут. Например, если заменить одно из компьютеры, управляемые Майкрософт на новое, оно будет выглядеть и вести себя точно так же, как и последнее. Enterprise Государственный роуминг является необязательным элементом для службы компьютеры, управляемые Майкрософт, которую можно настроить для пользователей и которая не включена или не управляется в компьютеры, управляемые Майкрософт.
 
-Чтобы включить Enterprise роуминг, выполните действия в Enterprise государственного роуминга в [Azure Active Directory,](/azure/active-directory/devices/enterprise-state-roaming-enable)а затем вернись к этой документации.
-
-Если у вас есть сложности с Enterprise роумингом, обратитесь в службу поддержки [администратора.](../working-with-managed-desktop/admin-support.md)
+Чтобы включить Enterprise государственного роуминга, выполните действия в [Enterprise государственного роуминга в Azure Active Directory](/azure/active-directory/devices/enterprise-state-roaming-enable).
 
 ## <a name="steps-to-get-started-with-microsoft-managed-desktop"></a>Шаги для начала работы с компьютеры, управляемые Майкрософт
 

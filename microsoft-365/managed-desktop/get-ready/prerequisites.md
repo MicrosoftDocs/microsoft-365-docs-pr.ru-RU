@@ -10,12 +10,12 @@ ms.author: jaimeo
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: e4469d8abcfa8308c64e2efa7f7dc4f0156e5718
-ms.sourcegitcommit: b6763a8ab240fbdd56078a7c9452445d0c4b9545
+ms.openlocfilehash: 31077b3ffbddb78ecac8841c22c77fa75f6e2c32
+ms.sourcegitcommit: 99e67bfe1d677c2f51712b05dcc54908b343cf6f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51957531"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53203092"
 ---
 # <a name="prerequisites-for-microsoft-managed-desktop"></a>Предварительные условия для компьютеров, управляемых Майкрософт
 
@@ -29,7 +29,7 @@ ms.locfileid: "51957531"
 --- | ---
 Лицензирование |компьютеры, управляемые Майкрософт требуется лицензия Microsoft 365 E3 Microsoft Defender для конечной точки (или эквивалентов), назначенная пользователям.<br>Дополнительные сведения о конкретных планах служб см. в разделе [Дополнительные сведения о лицензиях](#more-about-licenses) в этом разделе.<br>Дополнительные сведения о доступных лицензиях [см. в Microsoft 365 лицензировании.](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans)
 Подключение |  Все компьютеры, управляемые Майкрософт требуют подключения к многочисленным конечным точкам службы Майкрософт из корпоративной сети.<br><br>Полный список требуемого IPs и URL-адресов см. в [сетевой конфигурации.](../get-ready/network.md) 
-Azure Active Directory |    Azure Active Directory (Azure AD) должно быть либо источником полномочий для всех учетных записей пользователей, либо учетные записи пользователей должны синхронизироваться из локального Active Directory с помощью последней поддерживаемой версии Azure AD Подключение.<br><br>[Enterprise роуминг](/azure/active-directory/devices/enterprise-state-roaming-overview) должен быть включен для компьютеры, управляемые Майкрософт пользователей.<br><br>Дополнительные сведения см. в [Подключение Azure AD.](/azure/active-directory/hybrid/whatis-azure-ad-connect)<br><br>Дополнительные сведения о поддерживаемых версиях Azure AD Подключение см. в Подключение [Azure AD:Version release history.](/azure/active-directory/hybrid/reference-connect-version-history)
+Azure Active Directory |    Azure Active Directory (Azure AD) должно быть либо источником полномочий для всех учетных записей пользователей, либо учетные записи пользователей должны синхронизироваться из локального Active Directory с помощью последней поддерживаемой версии Azure AD Подключение.<br><br>Дополнительные сведения см. в [Подключение Azure AD.](/azure/active-directory/hybrid/whatis-azure-ad-connect)<br><br>Дополнительные сведения о поддерживаемых версиях Azure AD Подключение см. в Подключение [Azure AD:Version release history.](/azure/active-directory/hybrid/reference-connect-version-history)
 Проверка подлинности |    Если Azure AD не является источником первичной проверки подлинности для учетных записей пользователей, необходимо настроить одну из них в Azure AD Подключение:<br>- Синхронизация хаширования паролей<br>- Сквозная проверка подлинности<br>- внешний поставщик удостоверений (в том числе Windows ADFS и неиммигрируемые идентификаторы), настроенный для удовлетворения требований к интеграции Azure AD. Дополнительные [сведения см. в](https://www.microsoft.com/download/details.aspx?id=56843) руководстве. <br><br>При настройке параметров проверки подлинности с помощью Azure AD Подключение рекомендуется также написать пароль. Дополнительные сведения см. в [статью Возвращение пароля.](/azure/active-directory/authentication/howto-sspr-writeback) <br><br>Если реализован внешний поставщик удостоверений, необходимо проверить решение:<br>- соответствует требованиям интеграции Azure AD<br>- Поддерживает условный доступ Azure AD, что позволяет настраивать политику соответствия требованиям компьютеры, управляемые Майкрософт устройств<br>- Включает регистрацию устройств и использование Microsoft 365 служб или функций, необходимых в компьютеры, управляемые Майкрософт <br><br>Дополнительные сведения о параметрах проверки подлинности в Azure AD см. в Подключение [Azure AD Подключение](/azure/active-directory/connect/active-directory-aadconnect-user-signin)вход пользователя.
 Microsoft 365 | OneDrive для бизнеса необходимо включить для компьютеры, управляемые Майкрософт пользователей.<br><br>Несмотря на то, что для регистрации с компьютеры, управляемые Майкрософт не требуется, мы настоятельно рекомендуем перенести в облако следующие службы:<br>- Электронная почта: перенос в облачные почтовые ящики, Exchange в Интернете или настройка с Exchange Online Hybrid с Exchange 2013 или более, локально.<br>- Файлы и папки: миграция в OneDrive для бизнеса или SharePoint Online.<br>- Средства совместной работы в Интернете: миграция в Teams.
 Управление устройствами | компьютеры, управляемые Майкрософт устройствам требуется управление с помощью Microsoft Intune. Intune должен быть назначен в качестве органа управления мобильными устройствами.<br><br>Дополнительные сведения см. [в Microsoft Intune](https://www.microsoft.com/cloud-platform/microsoft-intune). 
