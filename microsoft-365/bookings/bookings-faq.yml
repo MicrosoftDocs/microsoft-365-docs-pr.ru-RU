@@ -9,16 +9,16 @@ metadata:
   ms.service: bookings
   localization_priority: Normal
   description: Microsoft Bookings часто задают вопросы.
-  ms.openlocfilehash: e9617710b70c0b79f855284e789c58b3f1124515
-  ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+  ms.openlocfilehash: 956d423ef89454fa87524ce15165ffd3c8b59507
+  ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
   ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 05/12/2021
-  ms.locfileid: "52334004"
+  ms.lasthandoff: 06/30/2021
+  ms.locfileid: "53227707"
 title: Часто задамые вопросы о резервированиях Майкрософт
 summary: ''
 sections:
-- name: Общий
+- name: Общие
   questions:
   - question: >
       Что такое Microsoft Bookings?
@@ -55,7 +55,7 @@ sections:
   - question: >
       Может ли наш ИТ-отдел управлять доступом конечных пользователей к Bookings?
     answer: >
-      Бронирование доступно в Microsoft 365 бизнес премиум, Microsoft 365 бизнес стандарт, M365 A3/A5 и E3/E5 по умолчанию, но администраторы могут отключить его в центре администрирования Microsoft 365 по умолчанию. Для этого [следуйте этим инструкциям.](turn-bookings-on-or-off.md)
+      Бронирование доступно в Microsoft 365 бизнес премиум, Microsoft 365 бизнес стандарт, M365 A3/A5 и E3/E5 по умолчанию, но администраторы могут отключить его в Центр администрирования Microsoft 365, если они этого Центр администрирования Microsoft 365. Для этого [следуйте этим инструкциям.](turn-bookings-on-or-off.md)
 
 
       Если клиент хочет отключить доступ к bookings для определенных лицензий, имеющих право на получение лицензий в клиенте, он может либо использовать групповую политику для ограничения лицензий, либо реализовать политику почтовых ящиков OWA, которая будет ограничивать возможность создания новых календарей резервирования.
@@ -123,7 +123,7 @@ sections:
   - question: >
       Как получить заказы Microsoft Bookings?
     answer: >
-      Бронирование доступно для клиентов с Office 365 A3, A5, E3 и E5, а также Microsoft 365 бизнес стандарт, Microsoft 365 бизнес премиум, A3, A5, E3 и E5. Вы можете использовать Bookings с приложением-компаньоном для iOS и Android. Бронирование не доступно в качестве автономных приложений. Outlook Web App или Outlook в Интернете необходимо включить резервирование, так как оно хранит данные в Outlook.
+      Бронирование доступно для клиентов с Office 365 A3, A5, E3 и E5, а также Microsoft 365 бизнес стандарт, Microsoft 365 бизнес премиум, A3, A5, E3 и E5. Вы можете использовать Bookings с приложением-компаньоном для iOS и Android. Бронирование не доступно в качестве автономных приложений. Outlook Web App или Outlook в Интернете должно быть включено использование Bookings, так как оно хранит данные в Outlook.
 
 
       Лицензия Bookings предоставляет продукту полные функциональные возможности, включая создание и управление календарями. Он также позволяет пользователям просматривать и изменять существующие календари, если эти пользователи добавляются в качестве сотрудников в роли администратора или просмотра.
@@ -201,9 +201,9 @@ sections:
     answer: >
       Адреса электронной почты контролируются и управляются на уровне Microsoft 365 и зависят от параметров конфигурации домена. Дополнительные сведения можно найти [здесь](/powershell/module/exchange/get-accepteddomain).
   - question: >
-      Зависит ли возможность отправки SMS от другой службы или определенной конфигурации?
+      Зависит ли возможность отправки SMS-сообщений от другой службы или определенной конфигурации?
     answer: >
-      SMS сообщения в настоящее время доступны в Северной Америке, а Skype или учетная запись Twilio будет использоваться для SMS доставки.
+      В настоящее время SMS-сообщения доступны в Северной Америке, а для доставки SMS Skype или учетная запись Twilio.
   - question: >
       Как можно показывать встречи с бронированием в календаре человека?
     answer: >
@@ -305,9 +305,9 @@ sections:
     answer: >
       В этих сценариях сотрудники назначены случайным образом из всех сотрудников, доступных во время записи на прием. В настоящее время нет возможности обеспечить равное распределение случайных назначений между всеми сотрудниками или ограничения количества назначенных назначений каждому сотруднику. Если после ряда случайных назначений необходимо выполнять балансировку нагрузки, ее можно выполнять вручную на вкладке Calendar на странице Bookings.
   - question: >
-      Как пользователи могут отказаться от получения SMS сообщений, если они уже выбрали ранее?
+      Как пользователи могут отказаться от получения SMS-сообщений, если они уже выбрали ранее?
     answer: >
-      При бронировании встречи с включенной SMS с включенными текстовыми сообщениями клиентам будет предложено проверить выбор в поле при каждом бронировании. Клиенты также могут отвечать непосредственно на сообщение SMS (поставщик SMS), указывающее, что они хотели бы, чтобы сообщения прекращались, а затем никакие дополнительные тексты не будут отправляться на этот номер телефона. Если клиент откажется от получения текстовых сообщений от поставщика, а не от самого bookings, он больше не будет получать SMS сообщений в будущем, даже если он будет выбирать со страницы Bookings.
+      При бронировании встречи с включенными SMS-текстовыми сообщениями клиентам будет предложено проверить выбор в поле при каждом бронировании. Клиенты также могут напрямую отвечать на SMS-сообщение (поставщика SMS), указывающее, что они хотели бы, чтобы сообщения прекращались, а затем на этот номер телефона не будут отправляться дополнительные тексты. Если клиент откажется от получения текстовых сообщений от поставщика, а не от самого Bookings, он больше не будет получать SMS-сообщения в будущем, даже если он войт со страницы Bookings.
 - name: Устранение неполадок
   questions:
   - question: >
@@ -318,7 +318,7 @@ sections:
 
       > [!NOTE]
 
-      > Бронирование включено по умолчанию для клиентов с Microsoft 365 бизнес стандарт, Microsoft 365 A3 или Microsoft 365 A5. Бронирование также доступно для клиентов, Office 365 корпоративный E3 и Office 365 корпоративный E5, но по умолчанию оно отключено. Чтобы начать работу, [см. в руб. Получить доступ к microsoft Bookings.](get-access.md) Чтобы включить или отключить бронирование, см. в рублении Включить или отключить бронирование [для вашей организации.](turn-bookings-on-or-off.md)
+      > Бронирование включено по умолчанию для клиентов с Microsoft 365 бизнес стандарт, Microsoft 365 A3 или Microsoft 365 A5 подписками. Бронирование также доступно для клиентов, Office 365 корпоративный E3 и Office 365 корпоративный E5, но по умолчанию оно отключено. Чтобы начать работу, [см. в руб. Получить доступ к microsoft Bookings.](get-access.md) Чтобы включить или отключить бронирование, см. в рублении Включить или отключить бронирование [для вашей организации.](turn-bookings-on-or-off.md)
 
 
       Если вы ищете сведения о синхронизации календаря сотрудников, см. в рубке [Добавить сотрудников в Bookings.](add-staff.md) Убедитесь, что на странице **Сведения о персонале** проверяются события в календаре, **влияющие на** доступность.
@@ -356,4 +356,4 @@ sections:
 
 
       Если вы все еще видите эту ошибку после продолжительного периода времени или видите ее часто, обратитесь в службу поддержки.
-additionalContent: "\n## <a name=\"additional-resources\"></a>Дополнительные ресурсы\n\n- [Microsoft Bookings расширяет доступность в блоге предприятий](https://techcommunity.microsoft.com/t5/microsoft-bookings-blog/microsoft-bookings-expands-availability-in-enterprises/ba-p/1214065)\n\n- [Видео о том, как работает microsoft Bookings](https://support.office.com/article/microsoft-bookings-69c45b78-6de4-4f28-9449-cdcc18b7ae45)\n\n- [Начало использования microsoft Bookings](get-access.md)\n\n- [Включение и отключение Microsoft Bookings](turn-bookings-on-or-off.md)\n\n- [Добавление пользователей по отдельности или оптом](../admin/add-users/add-users.md?view=o365-worldwide.)\n\n- [Добавление сотрудников в Bookings](add-staff.md)\n\n- [Компоненты API для автоматизации после определения шаблона](/graph/api/bookingbusiness-post-bookingbusinesses)\n\n- [URL-адрес календаря резервирования для отображения](https://outlook.office.com/bookings/calendar)\n\n- [Бронирование политик соответствия требованиям](/compliance/regulatory/gdpr-dsr-Office365?view=o365-worldwide#bookings)\n\n- [Настройка и публикация страницы резервирования](customize-booking-page.md)\n\n- [Конфигурация почтового ящика клиента](/powershell/module/exchange/get-accepteddomain)\n\n- [Групповое бронирование](https://techcommunity.microsoft.com/t5/microsoft-bookings-blog/microsoft-bookings-now-supports-online-meetings-and-group/ba-p/1214120)\n\n- [Бронирование метрик и отслеживание действий](metrics-and-activity-tracking.md)\n\n- [M365 Public Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=bookings)\n\n- Отправка отзывов [через UserVoice](https://outlook.uservoice.com/forums/314907-microsoft-bookings/suggestions/39505261-365-admins-should-have-full-access-to-all-bookings)"
+additionalContent: "\n## <a name=\"additional-resources\"></a>Дополнительные ресурсы\n\n- [Microsoft Bookings расширяет доступность в блоге предприятий](https://techcommunity.microsoft.com/t5/microsoft-bookings-blog/microsoft-bookings-expands-availability-in-enterprises/ba-p/1214065)\n\n- [Видео о том, как работает microsoft Bookings](https://support.office.com/article/microsoft-bookings-69c45b78-6de4-4f28-9449-cdcc18b7ae45)\n\n- [Начало использования microsoft Bookings](get-access.md)\n\n- [Включение и отключение Microsoft Bookings](turn-bookings-on-or-off.md)\n\n- [Добавление пользователей по отдельности или оптом](../admin/add-users/add-users.md)\n\n- [Добавление сотрудников в Bookings](add-staff.md)\n\n- [Компоненты API для автоматизации после определения шаблона](/graph/api/bookingbusiness-post-bookingbusinesses)\n\n- [URL-адрес календаря резервирования для отображения](https://outlook.office.com/bookings/calendar)\n\n- [Бронирование политик соответствия требованиям](/compliance/regulatory/gdpr-dsr-Office365#bookings)\n\n- [Настройка и публикация страницы резервирования](customize-booking-page.md)\n\n- [Конфигурация почтового ящика клиента](/powershell/module/exchange/get-accepteddomain)\n\n- [Групповое бронирование](https://techcommunity.microsoft.com/t5/microsoft-bookings-blog/microsoft-bookings-now-supports-online-meetings-and-group/ba-p/1214120)\n\n- [Бронирование метрик и отслеживание действий](metrics-and-activity-tracking.md)\n\n- [M365 Public Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=bookings)\n\n- Отправка отзывов [через UserVoice](https://outlook.uservoice.com/forums/314907-microsoft-bookings/suggestions/39505261-365-admins-should-have-full-access-to-all-bookings)"
