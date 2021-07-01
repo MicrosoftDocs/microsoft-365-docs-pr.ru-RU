@@ -1,4 +1,4 @@
-- name: "Безопасность Microsoft\_365"
+- name: Безопасность Microsoft 365
   href: index.yml
   expanded: true
   items:
@@ -6,7 +6,7 @@
       items:
         - name: Основные задачи для поддержки работы из дома
           href: top-security-tasks-for-remote-work.md
-        - name: "Безопасность в Microsoft\_365 для BDM"
+        - name: Безопасность в Microsoft 365 для BDM
           href: Microsoft-365-security-for-bdm.md
         - name: Рекомендации по безопасности приоритетных учетных записей
           href: ./office-365-security/security-recommendations-for-priority-accounts.md
@@ -22,9 +22,9 @@
           href: ./office-365-security/identity-access-policies-guest-access.md
         - name: Рекомендуемые политики доступа Teams
           href: ./office-365-security/teams-access-policies.md
-        - name: "Рекомендуемые политики доступа Exchange\_Online"
+        - name: Рекомендуемые политики доступа Exchange Online
           href: ./office-365-security/secure-email-recommended-policies.md
-        - name: "Рекомендуемые политики доступа SharePoint\_Online"
+        - name: Рекомендуемые политики доступа SharePoint Online
           href: ./office-365-security/sharepoint-file-access-policies.md
         - name: Рекомендуемые политики MCAS для приложений SaaS
           href: ./office-365-security/mcas-saas-access-policies.md
@@ -35,7 +35,7 @@
     - name: Microsoft Defender для конечной точки
       href: ./defender-endpoint/index.yml
     - name: Microsoft Defender для удостоверений
-      href: 'https://docs.microsoft.com/defender-for-identity'
+      href: /defender-for-identity
     - name: Microsoft 365 для предприятий
       href: ../enterprise/index.yml
     - name: Microsoft 365 для бизнеса

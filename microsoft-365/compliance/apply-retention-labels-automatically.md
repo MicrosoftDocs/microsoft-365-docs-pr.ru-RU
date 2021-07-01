@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Создавайте метки хранения и политики их автоматического применения, чтобы автоматически применять метки для сохранения необходимых сведений и удаления ненужных
-ms.openlocfilehash: 0324f988402d407e30d10a725aa5acebb0a69964
-ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+ms.openlocfilehash: fa1d88271593f0278266004d4a170a807e1cbc32
+ms.sourcegitcommit: 2266c2da090bc9a6dc1e01dea07f26901d20d57b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52788409"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53222686"
 ---
 # <a name="automatically-apply-a-retention-label-to-retain-or-delete-content"></a>Автоматическое применение метки хранения для сохранения или удаления контента
 
@@ -164,7 +164,7 @@ ms.locfileid: "52788409"
 
 - Метки будут автоматически применяться к новым, измененным и существующим элементам в SharePoint, OneDrive и Exchange.
 
-- В SharePoint свойства для обхода и настраиваемые свойства не поддерживаются для таких запросов по ключевым словам, поэтому необходимо использовать только предварительно настроенные управляемые свойства. Однако можно использовать сопоставления на уровне клиента с предварительно настроенными управляемыми свойствами, которые по умолчанию включены как уточнения (RefinableDate00-19, RefinableString00-99, RefinableInt00-49, RefinableDecimals00-09 и RefinableDouble00-09). Дополнительные сведения см. в статье [Обзор свойств для обхода и управляемых свойств в SharePoint Server](/SharePoint/technical-reference/crawled-and-managed-properties-overview) и [Создание нового управляемого свойства](/sharepoint/manage-search-schema#create-a-new-managed-property).
+- В SharePoint свойства для обхода и настраиваемые свойства не поддерживаются для таких запросов по ключевым словам, поэтому необходимо использовать только предварительно настроенные управляемые свойства для документов. Однако можно использовать сопоставления на уровне клиента с предварительно настроенными управляемыми свойствами, которые по умолчанию включены как уточнения (RefinableDate00-19, RefinableString00-99, RefinableInt00-49, RefinableDecimals00-09 и RefinableDouble00-09). Дополнительные сведения см. в статье [Обзор свойств для обхода и управляемых свойств в SharePoint Server](/SharePoint/technical-reference/crawled-and-managed-properties-overview) и [Создание нового управляемого свойства](/sharepoint/manage-search-schema#create-a-new-managed-property).
 
 - Если настраиваемое свойство сопоставляется с одним из свойств уточнения, подождите 24 часа, прежде чем использовать его в запросе по ключевым словам для метки хранения.
 
