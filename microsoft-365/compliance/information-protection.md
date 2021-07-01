@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-compliance
 recommendations: false
 description: Внедрение Microsoft Information Protection (MIP) для защиты конфиденциальной информации в любом расположении, где она находится или куда перемещается.
-ms.openlocfilehash: 1d8e0340e518bcc66399dcc667e030efca89316a
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: bca6ce0dabaa9db2444da374b5d3ee166154fdd8
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53055103"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226543"
 ---
 # <a name="microsoft-information-protection-in-microsoft-365"></a>Microsoft Information Protection в Microsoft 365
 
@@ -43,12 +43,12 @@ ms.locfileid: "53055103"
 > Сведения о классификации данных и присвоении им меток в Azure Purview (в настоящее время доступно в предварительной версии) см. в статье [Автоматическое применение меток к содержимому в Azure Purview](/azure/purview/create-sensitivity-label).
 
 Чтобы ознакомиться с ландшафтом данных и идентифицировать важные данные в гибридной среде, используйте следующие возможности:
- 
+
 |Возможность|Устраняемая проблема|Начало работы|
 |:------|:------------|:--------------------|
 |[Типы конфиденциальной информации](sensitive-information-type-learn-about.md)| Определение конфиденциальных данных с помощью встроенных или пользовательских регулярных выражений либо функции. Прямое свидетельство включает ключевые слова, доверительные уровни и расстояние.| [Настройка встроенных типов конфиденциальной информации](customize-a-built-in-sensitive-information-type.md)|
 |[Обучаемые классификаторы](classifier-learn-about.md)| Определение конфиденциальных данных с помощью использования примеров интересующих вас данных, а не определения частей элемента (сопоставления шаблонов). Вы можете использовать встроенные классификаторы или обучить классификатор с помощью собственного контента.| [Начало работы с обучаемыми классификаторами](classifier-get-started-with.md) |
-|[Классификация данных](data-classification-overview.md) | Графическая идентификация элементов в вашей организации, помеченных меткой конфиденциальности, меткой хранения или классифицированных. Вы также можете использовать эти сведения, чтобы получить аналитику действий, выполняемых вашими пользователями с этими элементами. | [Начало работы с обозревателем содержимого](data-classification-content-explorer.md)<br /><br /> [Начало работы с обозревателем действий](data-classification-activity-explorer.md) |
+|[Классификация данных](data-classification-overview.md) | Графическая идентификация элементов в вашей организации, помеченных меткой конфиденциальности, меткой хранения или классифицированных. Вы также можете использовать эти сведения, чтобы получить аналитику действий, выполняемых вашими пользователями с этими элементами. | [Начало работы с обозревателем содержимого](data-classification-content-explorer.md) <p> [Начало работы с обозревателем действий](data-classification-activity-explorer.md) |
 
 ## <a name="protect-your-data"></a>Защита данных
 
@@ -56,16 +56,16 @@ ms.locfileid: "53055103"
 
 |Возможность|Устраняемая проблема|Начало работы|
 |:------|:------------|---------------------|
-|[Метки конфиденциальности](sensitivity-labels.md)| Единое решение для приложений, служб и устройств, предназначенное для добавления меток и защиты данных в процессе их перемещения внутри организации и за ее пределами. <br /><br />Примеры сценариев: <br /> [Управление метками конфиденциальности для приложений Office](sensitivity-labels-office-apps.md)<br /> [Шифрование документов и сообщений электронной почты](encryption-sensitivity-labels.md )<br /> [Применение и просмотр меток в Power BI](/power-bi/admin/service-security-apply-data-sensitivity-labels) <br /><br /> Полный список сценариев для меток конфиденциальности см. в документации по началу работы.|[Начало работы с метками конфиденциальности](get-started-with-sensitivity-labels.md) |
-|[Клиент унифицированных меток Azure Information Protection](/azure/information-protection/rms-client/aip-clientv2)| Расширение применения меток конфиденциальности для дополнительных функций и возможностей на компьютерах Windows, включая добавление меток и защиту всех типов файлов из проводника и PowerShell<br /><br /> Примеры дополнительных возможностей: [Настраиваемые конфигурации для клиента унифицированных меток Azure Information Protection](/azure/information-protection/rms-client/clientv2-admin-guide-customizations)| [Руководство администратора по клиенту унифицированных меток Azure Information Protection](/azure/information-protection/rms-client/clientv2-admin-guide)|
+|[Метки конфиденциальности](sensitivity-labels.md)| Единое решение для приложений, служб и устройств, предназначенное для добавления меток и защиты данных в процессе их перемещения внутри организации и за ее пределами. <p> Примеры сценариев: <p> [Управление метками конфиденциальности для приложений Office](sensitivity-labels-office-apps.md) <p> [Шифрование документов и сообщений электронной почты](encryption-sensitivity-labels.md) <p> [Применение и просмотр меток в Power BI](/power-bi/admin/service-security-apply-data-sensitivity-labels) <p> Полный список сценариев для меток конфиденциальности см. в документации по началу работы.|[Начало работы с метками конфиденциальности](get-started-with-sensitivity-labels.md) |
+|[Клиент унифицированных меток Azure Information Protection](/azure/information-protection/rms-client/aip-clientv2)| Расширение применения меток конфиденциальности для дополнительных функций и возможностей на компьютерах Windows, включая добавление меток и защиту всех типов файлов из проводника и PowerShell <p> Примеры дополнительных возможностей: [Настраиваемые конфигурации для клиента унифицированных меток Azure Information Protection](/azure/information-protection/rms-client/clientv2-admin-guide-customizations)| [Руководство администратора по клиенту унифицированных меток Azure Information Protection](/azure/information-protection/rms-client/clientv2-admin-guide)|
 |[Шифрование с двойным ключом](double-key-encryption.md)| В любых обстоятельствах только ваша организация сможет расшифровать защищенное содержимое. В соответствии с нормативными требованиями может потребоваться хранить ключи шифрования в определенных географических границах. | [Развертывание шифрования с двойным ключом](double-key-encryption.md#deploy-dke)|
-|[Шифрование сообщений Office 365 (OME)](ome.md)| Шифрование сообщений электронной почты и вложенных документов, отправленных любому пользователю на любое устройство, позволяющее только авторизованным получателям прочитать отправленную информацию.  <br /><br />Пример сценария: [Отзыв электронных писем, зашифрованных с помощью расширенного шифрования сообщений](revoke-ome-encrypted-mail.md) | [Настройка новых возможностей шифрования сообщений](set-up-new-message-encryption-capabilities.md)|
+|[Шифрование сообщений Office 365 (OME)](ome.md)| Шифрование сообщений электронной почты и вложенных документов, отправленных любому пользователю на любое устройство, позволяющее только авторизованным получателям прочитать отправленную информацию. <p> Пример сценария: [Отзыв электронных писем, зашифрованных с помощью расширенного шифрования сообщений](revoke-ome-encrypted-mail.md) | [Настройка новых возможностей шифрования сообщений](set-up-new-message-encryption-capabilities.md)|
 |[Шифрование службы с помощью ключа клиента](customer-key-overview.md) | Защита от просмотра данных неавторизованными системами или сотрудниками и добавление шифрования диска BitLocker в центры обработки данных Microsoft. | [Настройка ключа клиента для Office 365](customer-key-set-up.md)|
 |[Управление правами на доступ к данным (IRM)](set-up-irm-in-sp-admin-center.md#irm-enable-sharepoint-document-libraries-and-lists)|Защита списков и библиотек SharePoint: при извлечении документов только авторизованные пользователи могут просматривать и использовать скачанные файлы в соответствии с заданными политиками. | [Настройка управления правами на доступ к данным (IRM) в Центре администрирования SharePoint](set-up-irm-in-sp-admin-center.md)|
 [Соединитель управления правами](/azure/information-protection/deploy-rms-connector) |Только защита существующих локальных развертываний, использующих Exchange либо SharePoint Server, или файловых серверов, на которых запущены Windows Server и инфраструктура классификации файлов (FCI). | [Шаги по развертыванию соединителей RMS](/azure/information-protection/deploy-rms-connector#steps-to-deploy-the-rms-connector)
 |[Сканер унифицированных меток Azure Information Protection](/azure/information-protection/deploy-aip-scanner)| Поиск, добавление меток и защита конфиденциальной информации, находящейся в локальных хранилищах данных. | [Настройка и установка сканера унифицированных меток Azure Information Protection](/azure/information-protection/deploy-aip-scanner-configure-install)|
 |[Microsoft Cloud App Security](/cloud-app-security/what-is-cloud-app-security)| Поиск, добавление меток и защита конфиденциальной информации, находящейся в облачных хранилищах данных. | [Поиск, классификация, добавление меток и защита регламентированных и конфиденциальных данных, хранящихся в облаке](/cloud-app-security/best-practices#discover-classify-label-and-protect-regulated-and-sensitive-data-stored-in-the-cloud)|
-|[Пакет SDK для Microsoft Information Protection](/information-protection/develop/overview#microsoft-information-protection-sdk)|Расширение применения меток конфиденциальности для сторонних приложений и служб.  <br /><br /> Пример сценария: [Задание и получение метки конфиденциальности (C++)](/information-protection/develop/quick-file-set-get-label-cpp) |[Настройка пакета SDK для Microsoft Information Protection (MIP)](/information-protection/develop/setup-configure-mip)|
+|[Пакет SDK для Microsoft Information Protection](/information-protection/develop/overview#microsoft-information-protection-sdk)|Расширение применения меток конфиденциальности для сторонних приложений и служб. <p> Пример сценария: [Задание и получение метки конфиденциальности (C++)](/information-protection/develop/quick-file-set-get-label-cpp) |[Настройка пакета SDK для Microsoft Information Protection (MIP)](/information-protection/develop/setup-configure-mip)|
 
 
 ## <a name="prevent-data-loss"></a>Защита от потери данных
