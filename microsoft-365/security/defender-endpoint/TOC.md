@@ -66,7 +66,7 @@
 #### [Microsoft Defender для конечной точки в macOS]()
 ##### [Обзор Microsoft Defender для конечной точки в macOS](microsoft-defender-endpoint-mac.md)
 ##### [Новые возможности](mac-whatsnew.md)
- 
+
 ##### [Развертывание]()
 ###### [Развертывание на основе Microsoft Intune](mac-install-with-intune.md)
 ###### [Развертывание на основе JAMF Pro]()
@@ -75,11 +75,11 @@
 ####### [Настройка групп устройств](mac-jamfpro-device-groups.md)
 ####### [Настройка политик](mac-jamfpro-policies.md)
 ####### [Регистрация устройств](mac-jamfpro-enroll-devices.md)
- 
+
 ###### [Развертывание с помощью другой системы управления мобильными устройствами (MDM)](mac-install-with-other-mdm.md)
 ###### [Ручное развертывание](mac-install-manually.md)
 ##### [Обновление](mac-updates.md)
- 
+
 ##### [Настройка]()
 ###### [Настройка и проверка исключений](mac-exclusions.md)
 ###### [Настройка параметров](mac-preferences.md)
@@ -89,14 +89,14 @@
 ####### [Примеры JAMF](mac-device-control-jamf.md)
 ####### [Примеры Intune](mac-device-control-intune.md)
 ###### [Планирование проверок](mac-schedule-scan.md)
- 
+
 ##### [Устранение неполадок]()
 ###### [Устранение неполадок при установке](mac-support-install.md)
 ###### [Устранение неполадок с производительностью](mac-support-perf.md)
 ###### [Устранение неполадок с облачными подключениями](troubleshoot-cloud-connect-mdemac.md)
 ###### [Устранение неполадок с расширением ядра](mac-support-kext.md)
 ###### [Устранение неполадок с лицензиями](mac-support-license.md)
- 
+
 ##### [Конфиденциальность](mac-privacy.md)
 ##### [Ресурсы](mac-resources.md)
 
@@ -104,10 +104,10 @@
 #### [Microsoft Defender для конечной точки в iOS]()
 ##### [Обзор Microsoft Defender для конечной точки в iOS](microsoft-defender-endpoint-ios.md)
 ##### [Новые возможности](ios-whatsnew.md)
- 
+
 ##### [Развертывание]()
 ###### [Развертывание Microsoft Defender для конечной точки в iOS с помощью Intune](ios-install.md)
- 
+
 ##### [Настройка]()
 ###### [Настройка функций iOS](ios-configure-features.md)
 
@@ -115,8 +115,8 @@
 ###### [Вопросы и ответы, а также поиск и устранение неполадок](ios-troubleshoot.md)
 
 ##### [Конфиденциальность](ios-privacy.md)
- 
- 
+
+
 #### [Microsoft Defender для конечной точки в Linux]()
 ##### [Обзор Microsoft Defender для конечной точки в Linux](microsoft-defender-endpoint-linux.md)
 ##### [Новые возможности](linux-whatsnew.md)
@@ -127,7 +127,7 @@
 ###### [Развертывание Defender для конечной точки в Linux с помощью Chef](linux-deploy-defender-for-endpoint-with-chef.md)
 
 ##### [Обновление](linux-updates.md)
- 
+
 ##### [Настройка]()
 ###### [Настройка и проверка исключений](linux-exclusions.md)
 ###### [Конфигурация статического прокси-сервера](linux-static-proxy-configuration.md)
@@ -136,29 +136,29 @@
 ###### [Планирование проверок с помощью Microsoft Defender для конечной точки в Linux](linux-schedule-scan-atp.md)
 ###### [Планирование обновления Microsoft Defender для конечной точки для Linux](linux-update-MDE-Linux.md)
 
- 
+
 ##### [Устранение неполадок]()
 ###### [Устранение неполадок при установке](linux-support-install.md)
 ###### [Исследование проблем работоспособности агента](health-status.md)
 ###### [Устранение неполадок с облачными подключениями](linux-support-connectivity.md)
 ###### [Устранение неполадок с производительностью](linux-support-perf.md)
 ###### [Устранение неполадок с отсутствующими событиями](linux-support-events.md)
- 
+
 ##### [Конфиденциальность](linux-privacy.md)
 ##### [Ресурсы](linux-resources.md)
- 
+
 #### [Microsoft Defender для конечной точки на Android]()
 ##### [Обзор Microsoft Defender для конечной точки на Android](microsoft-defender-endpoint-android.md)
- 
+
 ##### [Развертывание]()
 ###### [Развертывание Microsoft Defender для конечной точки на Android с помощью Microsoft Intune](android-intune.md)
- 
+
 ##### [Настройка]()
 ###### [Настройка функций Microsoft Defender для конечной точки на Android](android-configure.md)
- 
+
 ##### [Конфиденциальность]()
 ###### [Microsoft Defender для конечной точки на Android — сведения о конфиденциальности](android-privacy.md)
- 
+
 ##### [Устранение неполадок]()
 ###### [Поиск и устранение неполадок](android-support-signin.md)
 
@@ -321,13 +321,13 @@
 ##### [Включить защиту от эксплойтов](enable-exploit-protection.md)
 ##### [Настройка защиты от эксплойтов](customize-exploit-protection.md)
 ##### [Импорт, экспорт и развертывание конфигураций защиты от эксплойтов](import-export-exploit-protection-emet-xml.md)
-##### [Справочные материалы по защите от эксплойтов](exploit-protection-reference.md )
+##### [Справочные материалы по защите от эксплойтов](exploit-protection-reference.md)
 
 #### [Защита сети]()
 ##### [Защита сети](network-protection.md)
 ##### [Оценка защиты сети](evaluate-network-protection.md)
 ##### [Включить защиту сети](enable-network-protection.md)
- 
+
 #### [Веб-защита]()
 ##### [Обзор веб-защиты](web-protection-overview.md)
 ##### [Защита от веб-угроз]()
@@ -335,7 +335,7 @@
 ###### [Мониторинг безопасности в Интернете](web-protection-monitoring.md)
 ###### [Реагирование на веб-угрозы](web-protection-response.md)
 ##### [Фильтрация веб-содержимого](web-content-filtering.md)
- 
+
 #### [Контролируемый доступ к папкам]()
 ##### [Защита папок](controlled-folders.md)
 ##### [Оценка контролируемого доступа к папкам](evaluate-controlled-folder-access.md)
@@ -371,7 +371,7 @@
 ##### [Просмотр и организация очереди инцидентов](view-incidents-queue.md)
 ##### [Управление инцидентами](manage-incidents.md)
 ##### [Исследование инцидентов](investigate-incidents.md)
- 
+
 #### [Очередь оповещений]()
 ##### [Просмотр и организация очереди оповещений](alerts-queue.md)
 ##### [Просмотр оповещений](review-alerts.md)
@@ -383,12 +383,12 @@
 ##### [Исследование домена](investigate-domain.md)
 ###### [Исследование событий подключения, происходящих за прокси-серверами переадресации](investigate-behind-proxy.md)
 ##### [Исследование учетной записи пользователя](investigate-user.md)
- 
+
 #### [Список устройств]()
 ##### [Просмотр и организация списка устройств](machines-view-overview.md)
 ##### [Флаги событий временной шкалы устройства](device-timeline-event-flag.md)
 ##### [Управление группой устройств и тегами](machine-tags.md)
- 
+
 #### [Выполнение действий ответов]()
 ##### [Выполнение действий ответов на устройстве]()
 ###### [Действия ответов на устройствах](respond-machine-alerts.md)
@@ -547,7 +547,7 @@
 ####### [Ограничить выполнение приложения](restrict-code-execution.md)
 ####### [Удалить ограничение приложения](unrestrict-code-execution.md)
 ####### [Запуск проверки на вирусы](run-av-scan.md)
-####### [Запуск реагирования в реальном времени](run-live-response.md) 
+####### [Запуск реагирования в реальном времени](run-live-response.md)
 ####### [Отключение компьютера](offboard-machine-api.md)
 ####### [Остановка и помещение на карантин файла](stop-and-quarantine-file.md)
 ####### [Отмена действия компьютера](cancel-machine-action.md)
@@ -661,7 +661,7 @@
 ##### [Неактивные устройства](fix-unhealthy-sensors.md#inactive-devices)
 ##### [Неправильно настроенные устройства](fix-unhealthy-sensors.md#misconfigured-devices)
 ##### [Просмотр событий и ошибок датчика на компьютерах с помощью средства просмотра событий](event-error-codes.md)
-  
+
 #### [Устранение неполадок службы Microsoft Defender для конечных точек]()
 ##### [Устранение неполадок службы](troubleshoot-mdatp.md)
 ##### [Проверка работоспособности службы](service-status.md)
@@ -669,8 +669,8 @@
 
 #### [Устранение неполадок с live response](troubleshoot-live-response.md)
 
-#### [Сбор журналов поддержки с помощью LiveAnalyzer ](troubleshoot-collect-support-log.md)
- 
+#### [Сбор журналов поддержки с помощью LiveAnalyzer](troubleshoot-collect-support-log.md)
+
 #### [Устранение неполадок сокращения направлений атак]()
 ##### [Защита сети](troubleshoot-np.md)
 ##### [Правила сокращения направлений атак](troubleshoot-asr.md)
@@ -678,4 +678,4 @@
 
 # [Microsoft 365 Defender](../defender/index.yml)
 # [Defender для Office 365](../office-365-security/index.yml)
-# [Defender для удостоверений](https://docs.microsoft.com/defender-for-identity/)
+# [Defender для удостоверений](/defender-for-identity/)
