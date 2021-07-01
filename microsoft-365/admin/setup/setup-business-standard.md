@@ -24,12 +24,12 @@ search.appverid:
 - MOE150
 - BEA160
 description: При покупке Microsoft 365 бизнес стандарт вы можете воспользоваться принадлежащим вам доменом или купить домен во время регистрации.
-ms.openlocfilehash: ca9cc359aaabfc16a5d0c57a75362c7826dea0db
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 188f6c396cfb3a4448306070da0fd75dd11a46b3
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635634"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227731"
 ---
 # <a name="set-up-microsoft-business-standard"></a>Настройка Microsoft бизнес стандарт
 
@@ -53,7 +53,7 @@ ms.locfileid: "52635634"
     > Если вы приобрели домен во время регистрации, шаг **Добавить домен** не будет отображаться. Вместо этого перейдите в раздел [Добавить пользователей](#add-users-and-assign-licenses).
 
     
-4. Выполните шаги, описанные в мастере, по [созданию записей DNS для Office 365 у любого поставщика услуг размещения DNS](/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider), который проверяет, являетесь ли вы владельцем домена. Если вы знаете свой узел домена, см. также [инструкции для узла](/office365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions).
+4. Выполните шаги, описанные в мастере, по [созданию записей DNS для Office 365 у любого поставщика услуг размещения DNS](/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider), который проверяет, являетесь ли вы владельцем домена. Если вы знаете узел домена, см. также статью [Добавление домена в Microsoft 365](/microsoft-365/admin/setup/add-domain).
 
     Если ваш поставщик услуг размещения — GoDaddy или другой узел, поддерживающий [подключение доменов](/office365/admin/get-help-with-domains/domain-connect), все просто: вам будет автоматически предложено войти в систему и разрешить Майкрософт проверить подлинность от вашего имени.
 

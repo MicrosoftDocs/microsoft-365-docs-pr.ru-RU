@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 758befc4-0888-4009-9f14-0d147402fd23
 description: Войдите с разрешениями администратора в Центр администрирования Microsoft 365, чтобы настроить организацию в облаке и управлять пользователями и подписками.
-ms.openlocfilehash: 7817861e79b86a6c43ea26fdb03b037b40a3f564
-ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
+ms.openlocfilehash: b7ad483ccfe21ac38edc7db735bccee49b937b6b
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53083057"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228355"
 ---
 # <a name="about-the-microsoft-365-admin-center"></a>Сведения о Центре администрирования Microsoft 365
 
@@ -79,7 +79,7 @@ ms.locfileid: "53083057"
 
 - Просмотр отчетов об активности: [Отчеты об активности](../activity-reports/activity-reports.md)
 
-- [Создание группы Microsoft 365 ](../create-groups/create-groups.md)
+- [Создание группы Microsoft 365](../create-groups/create-groups.md)
 
 - [Управление группой Microsoft 365](../create-groups/manage-groups.md)
 

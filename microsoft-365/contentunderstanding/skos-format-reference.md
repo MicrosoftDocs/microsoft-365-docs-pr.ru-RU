@@ -10,12 +10,12 @@ search.appverid: ''
 ms.collection: enabler-strategic
 localization_priority: Priority
 description: Справка по формату SKOS для таксономии SharePoint
-ms.openlocfilehash: 6a565de9598706e998206304093ed86a1a55704d
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 4c08073f453ef0b6a224829b7d4cb4034b74ed14
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50911178"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228739"
 ---
 # <a name="skos-format-reference-for-sharepoint-taxonomy"></a>Справка по формату SKOS для таксономии SharePoint
 
@@ -49,13 +49,13 @@ ms.locfileid: "50911178"
 
 ## <a name="sharepoint-taxonomy-vocabulary"></a>Словарь таксономии SharePoint
 
-Таксономия — это формальная система классификации. При таксономии описательные слова, метки и термины объединяются в группы, упорядоченные в виде иерархии.
+Таксономия — это формальная система классификации. При таксономии описательные слова, метки и термины объединяются в группы, упорядоченные в виде иерархии.
 
 **sharepoint-taxonomy:Term**
 
 Представляет термин или ключевое слово в иерархии управляемых метаданных.
 
-[Термин](/dotnet/api/microsoft.sharepoint.taxonomy.term) (объект Term) — это неделимая единица хранилища терминов SharePoint [TermStore](/dotnet/api/microsoft.sharepoint.taxonomy.termstore). Каждый [термин](/dotnet/api/microsoft.sharepoint.taxonomy.term) принадлежит к набору [TermSet](/dotnet/api/microsoft.sharepoint.taxonomy.termset), который, в свою очередь, принадлежит к группе терминов [TermGroup](/dotnet/api/microsoft.sharepoint.taxonomy.group). 
+[Термин](/dotnet/api/microsoft.sharepoint.taxonomy.term) (объект Term) — это неделимая единица хранилища терминов SharePoint [TermStore](/dotnet/api/microsoft.sharepoint.taxonomy.termstore). Каждый [термин](/dotnet/api/microsoft.sharepoint.taxonomy.term) принадлежит к набору [TermSet](/dotnet/api/microsoft.sharepoint.taxonomy.termset), который, в свою очередь, принадлежит к группе терминов [TermGroup](/dotnet/api/microsoft.sharepoint.taxonomy.group).
 
 [Term](/dotnet/api/microsoft.sharepoint.taxonomy.term) имеет следующий синтаксис:
 
@@ -68,7 +68,7 @@ ex:TermA    a    sharepoint-taxonomy:Term;
     sharePoint-taxonomy:defaultLabel    “Term A”@en-us.
 ```
 
-[Термин](/dotnet/api/microsoft.sharepoint.taxonomy.term) обязательно находится в наборе [TermSet](/dotnet/api/microsoft.sharepoint.taxonomy.termset). DefaultLabel — это имя [термина](/dotnet/api/microsoft.sharepoint.taxonomy.term), отображаемое при визуальном представлении. Обязательные поля при определении [термина](/dotnet/api/microsoft.sharepoint.taxonomy.term):
+[Термин](/dotnet/api/microsoft.sharepoint.taxonomy.term) обязательно находится в наборе [TermSet](/dotnet/api/microsoft.sharepoint.taxonomy.termset). DefaultLabel — это имя [термина](/dotnet/api/microsoft.sharepoint.taxonomy.term), отображаемое при визуальном представлении. Обязательные поля при определении [термина](/dotnet/api/microsoft.sharepoint.taxonomy.term):
 
 - sharepoint-taxonomy:defaultLabel
 - sharepoint-taxonomy:inTermSet
@@ -79,14 +79,14 @@ ex:TermA    a    sharepoint-taxonomy:Term;
 - иметь несколько дочерних [терминов](/dotnet/api/microsoft.sharepoint.taxonomy.term), но только один родительский [термин](/dotnet/api/microsoft.sharepoint.taxonomy.term);
 - не иметь родительского [термина](/dotnet/api/microsoft.sharepoint.taxonomy.term), если этот термин находится на уровне topLevelTermOf объекта [TermSet](/dotnet/api/microsoft.sharepoint.taxonomy.termset);
 - иметь одно имя defaultLabel на каждый рабочий язык [TermStore](/dotnet/api/microsoft.sharepoint.taxonomy.termstore);
-- не существовать, если у него нет родительского [термина](/dotnet/api/microsoft.sharepoint.taxonomy.term) или он не находится на уровне topLevelTermOf набора [TermSet](/dotnet/api/microsoft.sharepoint.taxonomy.termset); 
+- не существовать, если у него нет родительского [термина](/dotnet/api/microsoft.sharepoint.taxonomy.term) или он не находится на уровне topLevelTermOf набора [TermSet](/dotnet/api/microsoft.sharepoint.taxonomy.termset);
 - иметь уникальное имя defaultLabel на своем уровне иерархии.
 
 **sharepoint-taxonomy:TermSet**
 
 Представляет иерархический или плоский набор объектов Term, называемый также «набором терминов».
 
-Как видно из названия, TermSet — это набор [терминов](/dotnet/api/microsoft.sharepoint.taxonomy.term). [Термин](/dotnet/api/microsoft.sharepoint.taxonomy.term) в хранилище [TermStore](/dotnet/api/microsoft.sharepoint.taxonomy.termstore) должен принадлежать к набору [TermSet](/dotnet/api/microsoft.sharepoint.taxonomy.termset). [Термин](/dotnet/api/microsoft.sharepoint.taxonomy.term) не может существовать независимо. 
+Как видно из названия, TermSet — это набор [терминов](/dotnet/api/microsoft.sharepoint.taxonomy.term). [Термин](/dotnet/api/microsoft.sharepoint.taxonomy.term) в хранилище [TermStore](/dotnet/api/microsoft.sharepoint.taxonomy.termstore) должен принадлежать к набору [TermSet](/dotnet/api/microsoft.sharepoint.taxonomy.termset). [Термин](/dotnet/api/microsoft.sharepoint.taxonomy.term) не может существовать независимо.
 
 [TermSet](/dotnet/api/microsoft.sharepoint.taxonomy.termset) имеет следующий синтаксис:
 
@@ -105,7 +105,7 @@ ex:TermSetA    a    sharepoint-taxonomy:TermSet;
 
 **sharepoint-taxonomy:hasTopLevelTerm**
 
-В SharePoint это свойство используется для обозначения [термина](/dotnet/api/microsoft.sharepoint.taxonomy.term) наивысшего уровня в наборе [TermSet](/dotnet/api/microsoft.sharepoint.taxonomy.termset) — исходной точки иерархии [терминов](/dotnet/api/microsoft.sharepoint.taxonomy.term) в [TermSet](/dotnet/api/microsoft.sharepoint.taxonomy.termset). Оно представляет собой отношение, обратное к sharepoint-taxonomy:topLevelTermOf. 
+В SharePoint это свойство используется для обозначения [термина](/dotnet/api/microsoft.sharepoint.taxonomy.term) наивысшего уровня в наборе [TermSet](/dotnet/api/microsoft.sharepoint.taxonomy.termset) — исходной точки иерархии [терминов](/dotnet/api/microsoft.sharepoint.taxonomy.term) в [TermSet](/dotnet/api/microsoft.sharepoint.taxonomy.termset). Оно представляет собой отношение, обратное к sharepoint-taxonomy:topLevelTermOf.
 
 Это свойство имеет следующий синтаксис:
 
@@ -113,7 +113,7 @@ ex:TermSetA    a    sharepoint-taxonomy:TermSet;
 ex:TermSetA    sharepoint-taxonomy:hasTopLevelTerm    ex:TermA.
 ```
 
->[!NOTE]
+> [!NOTE]
 > Нельзя задать [термин](/dotnet/api/microsoft.sharepoint.taxonomy.term) высшего уровня для родительского [термина](/dotnet/api/microsoft.sharepoint.taxonomy.term).
 
 **sharepoint-taxonomy:topLevelTermOf**
@@ -146,7 +146,7 @@ defaultLabel имеет следующий синтаксис:
 ex:TermA    sharepoint-taxonomy:defaultLabel    “Term A”@en-us.
 ```
 
-defaultLabel состоит из двух частей — строки и тега языка. Язык должен быть одним из рабочих языков [TermStore](/dotnet/api/microsoft.sharepoint.taxonomy.termstore). Значение defaultLabel должно быть уникальным для всех [терминов](/dotnet/api/microsoft.sharepoint.taxonomy.term) в одном наборе [TermSet](/dotnet/api/microsoft.sharepoint.taxonomy.termset) на том же уровне иерархии.
+defaultLabel состоит из двух частей — строки и тега языка. Язык должен быть одним из рабочих языков [TermStore](/dotnet/api/microsoft.sharepoint.taxonomy.termstore). Значение defaultLabel должно быть уникальным для всех [терминов](/dotnet/api/microsoft.sharepoint.taxonomy.term) в одном наборе [TermSet](/dotnet/api/microsoft.sharepoint.taxonomy.termset) на том же уровне иерархии.
 
 **sharepoint-taxonomy:termSetName**
 
@@ -180,7 +180,7 @@ ex:SharedCustomProperty1    sharepoint-taxonomy:propertyName    “Shared Custom
 
 **sharepoint-taxonomy:otherLabel**
 
-Это альтернативная лексическая метка для [термина](/dotnet/api/microsoft.sharepoint.taxonomy.term). 
+Это альтернативная лексическая метка для [термина](/dotnet/api/microsoft.sharepoint.taxonomy.term).
 
 otherLabel имеет следующий синтаксис:
 
@@ -190,11 +190,11 @@ ex:TermA    sharepoint-taxonomy:otherLabel    “Term A”@en-us.
 
 ## <a name="semantic-relationships"></a>Семантические отношения
 
-В таксономиях применяется иерархическое, а иногда — ассоциативное отношение "связанный термин", но некоторые из них также содержат семантические или пользовательские отношения. 
+В таксономиях применяется иерархическое, а иногда — ассоциативное отношение "связанный термин", но некоторые из них также содержат семантические или пользовательские отношения.
 
 **sharepoint-taxonomy:parent**
 
-Это отношение иерархически связывает [термин](/dotnet/api/microsoft.sharepoint.taxonomy.term) с другим [термином](/dotnet/api/microsoft.sharepoint.taxonomy.term). [Термин](/dotnet/api/microsoft.sharepoint.taxonomy.term) может быть [термином](/dotnet/api/microsoft.sharepoint.taxonomy.term) наивысшего уровня в наборе [TermSet](/dotnet/api/microsoft.sharepoint.taxonomy.termset); в противном случае у него должен быть родительский [термин](/dotnet/api/microsoft.sharepoint.taxonomy.term). 
+Это отношение иерархически связывает [термин](/dotnet/api/microsoft.sharepoint.taxonomy.term) с другим [термином](/dotnet/api/microsoft.sharepoint.taxonomy.term). [Термин](/dotnet/api/microsoft.sharepoint.taxonomy.term) может быть [термином](/dotnet/api/microsoft.sharepoint.taxonomy.term) наивысшего уровня в наборе [TermSet](/dotnet/api/microsoft.sharepoint.taxonomy.termset); в противном случае у него должен быть родительский [термин](/dotnet/api/microsoft.sharepoint.taxonomy.term).
 
 Для определения родительского объекта используется следующий синтаксис:
 
@@ -202,11 +202,11 @@ ex:TermA    sharepoint-taxonomy:otherLabel    “Term A”@en-us.
 ex:TermA1    sharepoint-taxonomy:parent    ex:TermA.
 ```
 
-Это означает, что TermA — родительский термин, а TermB — дочерний.
+Это означает, что TermA — родительский термин, а TermB — дочерний.
 
 **sharepoint-taxonomy:child**
 
-Объект содержит один или несколько дочерних экземпляров TermSet, к которым можно обратиться через свойство TermSets. Этот класс также содержит методы для создания новых дочерних объектов TermSet. Разрешения на редактирование дочерних экземпляров Term и TermSet указываются в группе. 
+Объект содержит один или несколько дочерних экземпляров TermSet, к которым можно обратиться через свойство TermSets. Этот класс также содержит методы для создания новых дочерних объектов TermSet. Разрешения на редактирование дочерних экземпляров Term и TermSet указываются в группе.
 
 Это отношение иерархически связывает [термин](/dotnet/api/microsoft.sharepoint.taxonomy.term) с другим [термином](/dotnet/api/microsoft.sharepoint.taxonomy.term).
 
@@ -216,7 +216,7 @@ ex:TermA1    sharepoint-taxonomy:parent    ex:TermA.
 ex:TermA    sharepoint-taxonomy:child    ex:TermA1.
 ```
 
-Это означает, что TermA — родительский термин, а TermB — дочерний.
+Это означает, что TermA — родительский термин, а TermB — дочерний.
 
 ## <a name="documentation-notes"></a>Примечания для документации
 
@@ -224,7 +224,7 @@ ex:TermA    sharepoint-taxonomy:child    ex:TermA1.
 
 **sharepoint-taxonomy:description**
 
-Это подробное описание любой сущности словаря [таксономии SharePoint](/dotnet/api/microsoft.sharepoint.taxonomy). 
+Это подробное описание любой сущности словаря [таксономии SharePoint](/dotnet/api/microsoft.sharepoint.taxonomy).
 
 Для описания используется следующий синтаксис:
 
@@ -280,7 +280,7 @@ ex:TermA    ex:CustomProp3    “5 cm”@en-us.
 
 **sharepoint-taxonomy:isAvailableForTagging**
 
-Это свойство указывает, доступен ли [термин](/dotnet/api/microsoft.sharepoint.taxonomy.term) или набор [TermSet](/dotnet/api/microsoft.sharepoint.taxonomy.termset) в списках и библиотеках SharePoint.  
+Это свойство указывает, доступен ли [термин](/dotnet/api/microsoft.sharepoint.taxonomy.term) или набор [TermSet](/dotnet/api/microsoft.sharepoint.taxonomy.termset) в списках и библиотеках SharePoint.
 
 Используется следующий синтаксис:
 
@@ -315,7 +315,7 @@ propertyName|Есть метка свойства|SharedCustomPropertyForTerm, L
 - Иерархическая избыточность: концепцию [SKOS](https://www.w3.org/TR/skos-primer/) можно одновременно присоединить к нескольким более широким концепциям, но sharepoint-taxonomy:Term может иметь только одно свойство sharepoint-taxonomy:parent, поэтому циклическая зависимость терминов также не разрешена.
 - В таксономии SharePoint не допускаются термины, не имеющие родительских терминов. У каждого объекта sharepoint-taxonomy:Term должен быть sharepoint-taxonomy:parent, или он должен быть sharepoint-taxonomy:topLevelTermOf в TermSet.
 - Таксономия SharePoint не поддерживает ассоциативные отношения.
-- Таксономия SharePoint поддерживает только 2 типа иерархических отношений — sharepoint-taxonomy:parent и sharepoint-Taxonomy:child. 
+- Таксономия SharePoint поддерживает только 2 типа иерархических отношений — sharepoint-taxonomy:parent и sharepoint-Taxonomy:child.
 - В отличие от [SKOS](https://www.w3.org/TR/skos-primer/), иерархическое отношение в словаре таксономии SharePoint можно установить только между терминами из одного набора TermSet.
 
 ## <a name="see-also"></a>См. также

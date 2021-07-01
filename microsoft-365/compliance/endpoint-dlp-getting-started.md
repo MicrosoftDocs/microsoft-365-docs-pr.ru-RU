@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Настройте Защиту от потери данных в конечной точке Microsoft 365 для отслеживания действий с файлами и применения в конечных точках защитных мер для этих файлов.
-ms.openlocfilehash: 134c5426e428372670a50c76301a9e9e0c10b343
-ms.sourcegitcommit: d34cac68537d6e1c65be757956646e73dea6e1ab
+ms.openlocfilehash: 8dc57bfe395ad76e6b8aef336aaadb2cb7e42f81
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53061670"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226675"
 ---
 # <a name="get-started-with-endpoint-data-loss-prevention"></a>Начало работы с функцией защиты от потери данных в конечной точке
 
@@ -44,7 +44,6 @@ ms.locfileid: "53061670"
 - Соответствие требованиям Microsoft 365 A5
 - Защита информации и управление данными в Microsoft 365 E5
 - Защита информации и управление данными в Microsoft 365 A5
-
 
 ### <a name="permissions"></a>Разрешения
 
@@ -84,25 +83,26 @@ ms.locfileid: "53061670"
 
 1. Устройство работает под управлением Windows 10 (64-разрядная) сборки 1809 или более поздней версии.
 
-2. Версия клиента антивредоносной программы: 4.18.2009.7 или более поздняя. Проверьте свою текущую версию, открыв приложение "Безопасность Windows", щелкнув значок "Параметры" и выбрав "О программе". Номер версии указан в строке "Версия клиента антивредоносной программы". Перейдите на последнюю версию клиента антивредоносной программы, установив обновление Windows KB4052623. 
+2. Версия клиента антивредоносной программы: 4.18.2009.7 или более поздняя. Проверьте свою текущую версию, открыв приложение "Безопасность Windows", щелкнув значок "Параметры" и выбрав "О программе". Номер версии указан в строке "Версия клиента антивредоносной программы". Перейдите на последнюю версию клиента антивредоносной программы, установив обновление Windows KB4052623.
 
    > [!NOTE]
    > Не требуется запускать никакие компоненты Безопасности Windows. Вы можете запускать DLP в конечной точке независимо от состояния Безопасность Windows, но [защита в реальном времени и монитор поведения](/windows/security/threat-protection/microsoft-defender-antivirus/configure-real-time-protection-microsoft-defender-antivirus)) должны быть включены.
- 
-3. Устанавливаются следующие обновления Windows. 
- 
+
+3. Устанавливаются следующие обновления Windows.
+
    > [!NOTE]
    > Эти обновления не являются необходимым условием для подключения устройства к DLP в конечной точке, однако они содержат важные исправления, поэтому их требуется установить перед использованием продукта.
 
-    - Для Windows 10 версии 1809 — KB4559003, KB4577069, KB4580390
-    - Для Windows 10 версии 1903 или 1909 — KB4559004, KB4577062, KB4580386
-    - Для Windows 10 версии 2004 — KB4568831, KB4577063
-    - Для устройств с Office 2016 (но не других версий Office) — KB4577063 
+   - Для Windows 10 версии 1809 — KB4559003, KB4577069, KB4580390
+   - Для Windows 10 версии 1903 или 1909 — KB4559004, KB4577062, KB4580386
+   - Для Windows 10 версии 2004 — KB4568831, KB4577063
+   - Для устройств с Office 2016 (но не других версий Office) — KB4577063
 
 4. Все устройства должны соответствовать одному из таких требований:
-- [С присоединением к Azure Active Directory (Azure AD)](/azure/active-directory/devices/concept-azure-ad-join)
-- [С гибридным присоединением к Azure AD](/azure/active-directory/devices/concept-azure-ad-join-hybrid)
-- [С регистрацией в AAD](/azure/active-directory/user-help/user-help-register-device-on-network)
+
+   - [С присоединением к Azure Active Directory (Azure AD)](/azure/active-directory/devices/concept-azure-ad-join)
+   - [С гибридным присоединением к Azure AD](/azure/active-directory/devices/concept-azure-ad-join-hybrid)
+   - [С регистрацией в AAD](/azure/active-directory/user-help/user-help-register-device-on-network)
 
 5. Установите браузер Microsoft Chromium Edge на устройство конечных точек для применения действия политики к отправке в облако. См. статью [Загрузка нового браузера Microsoft Edge на основе Chromium](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium).
 
@@ -124,7 +124,7 @@ ms.locfileid: "53061670"
 
 1. Откройте [Центр соответствия требованиям Microsoft](https://compliance.microsoft.com).
 
-2. Откройте параметры Центра соответствия требованиям и выберите **Подключение устройств**. 
+2. Откройте параметры Центра соответствия требованиям и выберите **Подключение устройств**.
 
    > [!div class="mx-imgBorder"]
    > ![включение управления устройствами](../media/endpoint-dlp-learn-about-1-enable-device-management.png)
@@ -140,7 +140,7 @@ ms.locfileid: "53061670"
 
    > [!div class="mx-imgBorder"]
    > ![метод развертывания](../media/endpoint-dlp-getting-started-3-deployment-method.png)
-   
+
 6. Выполните действия, описанные в разделе [Средства и методы подключения ATP Microsoft Defender для компьютеров с Windows 10](/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints). Эта ссылка открывает начальную страницу доступа к процедурам Microsoft Defender для конечной точки, соответствующим пакету развертывания, который вы выбрали на этапе 5:
 
     - Подключение компьютеров с Windows 10 с помощью групповой политики
@@ -166,13 +166,12 @@ ms.locfileid: "53061670"
 
    > [!div class="mx-imgBorder"]
    > ![управление устройствами](../media/endpoint-dlp-getting-started-2-device-management.png)
-   
+
 4. Чтобы подключить дополнительные устройства, выберите **Подключение**.
 
 5. Выберите способ развертывания для дополнительных устройств в списке **Способ развертывания**, а затем **загрузите пакет**.
 
 6. Выполните действия, описанные в разделе [Средства и методы подключения ATP Microsoft Defender для компьютеров с Windows 10](/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints). Эта ссылка открывает начальную страницу доступа к процедурам Microsoft Defender для конечной точки, соответствующим пакету развертывания, который вы выбрали на этапе 5:
-
     - Подключение компьютеров с Windows 10 с помощью групповой политики
     - Подключение компьютеров с Windows с помощью Microsoft Endpoint Configuration Manager
     - Подключение компьютеров с Windows 10 с помощью инструментов управления мобильными устройствами
@@ -190,7 +189,6 @@ ms.locfileid: "53061670"
 
 2. Используйте процедуры из статьи [Настройка и просмотр оповещений для политик защиты от потери данных](dlp-configure-view-alerts-policies.md), чтобы просмотреть оповещения для своих политик защиты от потери данных в конечной точке.
 
-
 ### <a name="viewing-endpoint-dlp-data-in-activity-explorer"></a>Просмотр данных защиты от потери данных в конечной точке с помощью обозревателя действий
 
 1. Откройте страницу [классификации данных](https://compliance.microsoft.com/dataclassification?viewid=overview) для своего домена в Центре соответствия требованиям Microsoft 365 и выберите обозреватель действий.
@@ -201,14 +199,15 @@ ms.locfileid: "53061670"
    > ![фильтр обозревателя действий для устройств конечных точек](../media/endpoint-dlp-4-getting-started-activity-explorer.png)
 
 ## <a name="next-steps"></a>Следующие шаги
+
 После того, как вы подключили устройства, вы можете просмотреть данные об активности в обозревателе действий и перейти к этапу создания политик защиты от потери данных для конфиденциальных элементов.
 
 - [Использование Защиты от потери данных в конечной точке](endpoint-dlp-using.md)
 
 ## <a name="see-also"></a>См. также
 
-- [Сведения о защите от потери данных в конечной точке ](endpoint-dlp-learn-about.md)
-- [Использование защиты от потери данных в конечной точке ](endpoint-dlp-using.md)
+- [Сведения о защите от потери данных в конечной точке](endpoint-dlp-learn-about.md)
+- [Использование защиты от потери данных в конечной точке](endpoint-dlp-using.md)
 - [Сведения о защите от потери данных](dlp-learn-about-dlp.md)
 - [Создание, тестирование и настройка политики защиты от потери данных](create-test-tune-dlp-policy.md)
 - [Начало работы с обозревателем действий](data-classification-activity-explorer.md)
