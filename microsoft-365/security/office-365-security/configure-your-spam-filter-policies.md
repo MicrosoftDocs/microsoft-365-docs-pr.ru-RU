@@ -17,12 +17,12 @@ ms.collection:
 description: Администраторы могут узнать, как просматривать, создавать, изменять и удалять политики защиты от спама в Exchange Online Protection (EOP).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 1aa37beef940803a3dd399cec4ff23133a10c5ad
-ms.sourcegitcommit: 99e67bfe1d677c2f51712b05dcc54908b343cf6f
+ms.openlocfilehash: 910923e693804c96c109c52606b62d92af51abeb
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53203296"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228667"
 ---
 # <a name="configure-anti-spam-policies-in-eop"></a>Настройка политик защиты от спама в EOP
 
@@ -140,7 +140,7 @@ ms.locfileid: "53203296"
 
      Доступные действия для решений фильтров нежелательной почты описаны в следующей таблице.
 
-     - Галочка ( ![Галочка](../../media/checkmark.png)) указывает, что действие доступно (не все действия доступны для всех решений фильтров нежелательной почты).
+     - Галочка ( ![Галочка](../../media/checkmark.png) ) указывает, что действие доступно (не все действия доступны для всех решений фильтров нежелательной почты).
      - Звездочка ( <sup>\*</sup> ) после галочки указывает на действие по умолчанию для решения фильтра спама.
 
      <br>

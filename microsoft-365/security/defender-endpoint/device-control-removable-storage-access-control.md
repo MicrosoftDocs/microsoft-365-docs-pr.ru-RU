@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: cb23987600a5f87a99449510f7651c4fdcd45f66
-ms.sourcegitcommit: d904f04958a13a514ce10219ed822b9e4f74ca2d
+ms.openlocfilehash: 8b32ab5162e0022d9500f7ddba2fe5bbca1017e7
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53028407"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229579"
 ---
 # <a name="microsoft-defender-for-endpoint-device-control-removable-storage-access-control"></a>Microsoft Defender для управления конечными точками управления устройствами, служба хранилища управления доступом
 
@@ -32,7 +32,7 @@ Microsoft Defender для управления конечными устройс
 
 |Привилегии |Разрешение  |
 |---------|---------|
-|Access    |  Чтение, Запись, Выполнение       |
+|Доступ    |  Чтение, Запись, Выполнение       |
 |Режим действия    |    Аудит, разрешить, предотвратить     |
 |Поддержка CSP   |   Да      |
 |Поддержка GPO    |   Да      |
@@ -328,7 +328,7 @@ DeviceEvents
 
 **Почему политика не работает?**
 
-Наиболее частой причиной является отсутствие обязательной клиентской версии [антивирусного программного обеспечения.](/microsoft-365/security/defender-endpoint/device-control-removable-storage-access-control?view=o365-worldwide#prepare-your-endpoints)
+Наиболее частой причиной является отсутствие обязательной клиентской версии [антивирусного программного обеспечения.](/microsoft-365/security/defender-endpoint/device-control-removable-storage-access-control#prepare-your-endpoints)
 
 Другая причина может быть в том, что XML-файл неправильно отформатирован, например, не использует правильный формат разметки для символа "&" в XML-файле, или текстовый редактор может добавить метку заказа в 0xEF 0xBB 0xBF в начале файлов, из-за чего разбор XML не работает. Одним из простых решений является [скачивание](https://github.com/microsoft/mdatp-devicecontrol/tree/main/Removable%20Storage%20Access%20Control%20Samples) примера файла (выберите **Raw,** а затем **Сохранить как),** а затем обновить.
 

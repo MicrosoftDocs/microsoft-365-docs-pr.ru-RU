@@ -15,12 +15,12 @@ ms.collection:
 - SPO_Content
 localization_priority: Normal
 description: Узнайте о SharePoint квотах хранения в многоэтабных средах и о том, как управлять квотами может администратор SharePoint Online.
-ms.openlocfilehash: ec736a6bd6061f8b028fca7a1c34d5278a84db89
-ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.openlocfilehash: 0843407e7926027e28cdd1f5893c4aafec4e1cd5
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46693578"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53230095"
 ---
 # <a name="sharepoint-storage-quotas-in-multi-geo-environments"></a>Квоты хранилища SharePoint в средах с поддержкой нескольких регионов
 
@@ -32,22 +32,30 @@ ms.locfileid: "46693578"
 
 ## <a name="configure-a-storage-quota-for-a-geo-location"></a>Настройка квоты хранилища для географического расположения
 
-Используйте [модуль Microsoft SharePoint Online](https://www.microsoft.com/download/details.aspx?id=35588 ) и подключитесь к центральному расположению, чтобы выделить квоту хранилища для географического расположения. 
+Используйте [модуль Microsoft SharePoint Online](https://www.microsoft.com/download/details.aspx?id=35588) и подключитесь к центральному расположению, чтобы выделить квоту хранилища для географического расположения.
 
 Чтобы выделить квоту хранилища для расположения, выполните следующий командлет:
 
-`Set-SPOGeoStorageQuota -GeoLocation <geolocationcode> -StorageQuotaMB <value>`
+```powershell
+Set-SPOGeoStorageQuota -GeoLocation <geolocationcode> -StorageQuotaMB <value>
+```
 
 Чтобы просмотреть квоту хранилища для текущего географического расположения, выполните следующую команду:
 
-`Get-SPOGeoStorageQuota`
+```powershell
+Get-SPOGeoStorageQuota
+```
 
 ![Снимок экрана: окно PowerShell с командлетом Get-SPOGeoStorageQuota](../media/multi-geo-storage-quota.png)
 
 Чтобы просмотреть квоту хранилища для всех географических расположений, выполните следующую команду:
 
-`Get-SPOGeoStorageQuota -AllLocations`
+```powershell
+Get-SPOGeoStorageQuota -AllLocations
+```
 
 Чтобы удалить квоту хранилища, выделенную для географического расположения, установите параметр `StorageQuota value = 0`:
 
-`Set-SPOGeoStorageQuota -GeoLocation <geolocationcode> -StorageQuotaMB 0`
+```powershell
+Set-SPOGeoStorageQuota -GeoLocation <geolocationcode> -StorageQuotaMB 0
+```

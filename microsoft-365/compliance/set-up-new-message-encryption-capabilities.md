@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Узнайте о новых возможностях шифрования сообщений Office 365, позволяющих защитить переписку с людьми внутри и за пределами вашей организации.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cf37826c3e1e349947ab83fe211f9406a765e5ea
-ms.sourcegitcommit: 2655bb0ccd66279c35be2fadbd893c937d084109
+ms.openlocfilehash: 9b738c0f93b8958e441b34b458942c2b34c16661
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51876308"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228583"
 ---
 # <a name="set-up-new-message-encryption-capabilities"></a>Настройка новых возможностей шифрования сообщений
 
@@ -39,13 +39,13 @@ ms.locfileid: "51876308"
 
 Кроме того, служба Azure RMS автоматически активируется для большинства соответствующих планов. В этом случае от вас тоже не потребуется никаких действий. Дополнительные сведения см. в статье [Активация службы управления правами Azure](/azure/information-protection/activate-service).
 
->[!IMPORTANT]
->Если вы используете службу управления правами Active Directory (AD RMS) в Exchange Online, перед использованием новых возможностей OME необходимо [перейти на службу Azure Information Protection](/azure/information-protection/migrate-from-ad-rms-to-azure-rms). Служба OME не совместима с AD RMS.  
+> [!IMPORTANT]
+> Если вы используете службу управления правами Active Directory (AD RMS) в Exchange Online, перед использованием новых возможностей OME необходимо [перейти на службу Azure Information Protection](/azure/information-protection/migrate-from-ad-rms-to-azure-rms). Служба OME не совместима с AD RMS.
 
 Дополнительные сведения см. в указанных ниже статьях.
 
 - [Какие подписки необходимо использовать для новых возможностей OME?](ome-faq.yml#what-subscriptions-do-i-need-to-use-the-new-ome-capabilities-) Эта статья поможет вам убедиться, что ваш план подписки включает службу Azure Information Protection (которая включает функции Azure RMS).
-- Сведения о приобретении соответствующей подписки см. в статье [Azure Information Protection](https://azure.microsoft.com/services/information-protection/).  
+- Сведения о приобретении соответствующей подписки см. в статье [Azure Information Protection](https://azure.microsoft.com/services/information-protection/).
 
 ### <a name="manually-activating-azure-rights-management"></a>Активация службы управления правами Azure вручную
 
@@ -63,7 +63,7 @@ ms.locfileid: "51876308"
 ## <a name="verify-new-ome-configuration-in-exchange-online-powershell"></a>Проверка новой конфигурации OME в Exchange Online PowerShell
 
 Вы можете убедиться, что клиент Microsoft 365 настроен для использования новых возможностей OME, с помощью [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell).
-  
+
 1. [Подключитесь к Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) с помощью учетной записи с разрешениями глобального администратора в клиенте Microsoft 365.
 
 2. Запустите командлет Get-IRMConfiguration.
@@ -74,7 +74,7 @@ ms.locfileid: "51876308"
 
      ```powershell
      Test-IRMConfiguration [-Sender <email address >]
-     ```  
+     ```
 
    **Пример**.
 
@@ -114,11 +114,11 @@ ms.locfileid: "51876308"
 
 Если правила потока обработки почты для шифрования почты в организации уже настроены, то для использования новых возможностей OME их необходимо обновить. Для выполнения новых развертываний необходимо создать новые правила потока обработки почты.
 
->[!IMPORTANT]
->Если не обновить существующие правила потока обработки почты, пользователи будут и дальше получать зашифрованные сообщения с вложениями в формате HTML без новых возможностей OME.
+> [!IMPORTANT]
+> Если не обновить существующие правила потока обработки почты, пользователи будут и дальше получать зашифрованные сообщения с вложениями в формате HTML без новых возможностей OME.
 
 Правила потока обработки почты определяют, при каких условиях нужно шифровать электронную почту, а также условия для отмены такого шифрования. Если задать действие для правила, все сообщения, которые удовлетворяют его условиям, будут шифроваться при отправке.
-  
+
 Дополнительные сведения о создании правил потока обработки почты для OME см. в статье [Определение правил потока обработки почты для шифрования сообщений в Office 365](define-mail-flow-rules-to-encrypt-email.md).
 
 Чтобы обновить существующие правила и использовать новые возможности OME, выполните указанные ниже действия.

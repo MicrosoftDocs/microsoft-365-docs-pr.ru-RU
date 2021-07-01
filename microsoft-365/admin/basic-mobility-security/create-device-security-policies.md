@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Используйте Basic Mobility и Security для создания политик устройств, которые защищают сведения о вашей организации.
-ms.openlocfilehash: 5519351db428faa837a63eedb384b42c8d8ee07c
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.openlocfilehash: 62dc2eef87d413a9cb62a01541126860620eec3f
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706326"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228259"
 ---
 # <a name="create-device-security-policies-in-basic-mobility-and-security"></a>Создание политик безопасности устройств в Basic Mobility and Security
 
@@ -39,14 +39,14 @@ ms.locfileid: "52706326"
 - Чтобы создать и развернуть политики базовой мобильности и безопасности в Microsoft 365, необходимо быть глобальным администратором Microsoft 365. Дополнительные сведения см. [в сайте Permissions in the Security & Compliance Center.](../../security/office-365-security/permissions-in-the-security-and-compliance-center.md)
 - Перед развертыванием политик дайте организации знать о потенциальных последствиях регистрации устройства в Basic Mobility and Security. В зависимости от того, как настроить политики, некомплиентные устройства могут быть заблокированы для доступа к Microsoft 365, а данные, включая установленные приложения, фотографии и персональные данные на зарегистрированных устройствах, могут быть удалены.
 
->[!NOTE]
->Политики и правила доступа, созданные в базовой мобильности и безопасности для Microsoft 365 бизнес стандарт для Exchange ActiveSync почтовых ящиков мобильных устройств и правила доступа к устройствам, созданные в центре администрирования Exchange. После регистрации устройства в Basic Mobility and Security for Microsoft 365 бизнес стандарт для Exchange ActiveSync или правила доступа к устройствам, применяемого к устройству, игнорируется любая политика Exchange ActiveSync или правила доступа к устройству. Дополнительные дополнительные Exchange ActiveSync см. [в Exchange ActiveSync в Exchange Online.](/exchange/clients-and-mobile-in-exchange-online/exchange-activesync/exchange-activesync)
+> [!NOTE]
+> Политики и правила доступа, созданные в базовой мобильности и безопасности для Microsoft 365 бизнес стандарт для Exchange ActiveSync почтовых ящиков мобильных устройств и правила доступа к устройствам, созданные в центре администрирования Exchange. После регистрации устройства в Basic Mobility and Security for Microsoft 365 бизнес стандарт для Exchange ActiveSync или правила доступа к устройствам, применяемого к устройству, игнорируется любая политика Exchange ActiveSync или правила доступа к устройству. Дополнительные дополнительные Exchange ActiveSync см. [в Exchange ActiveSync в Exchange Online.](/exchange/clients-and-mobile-in-exchange-online/exchange-activesync/exchange-activesync)
 
 ## <a name="step-1-create-a-device-policy-and-deploy-to-a-test-group"></a>Шаг 1. Создание политики устройства и развертывание в тестовой группе
 
 Перед запуском убедитесь, что активированы и настроены основные функции мобильности и безопасности. Инструкции см. в [обзоре базовой мобильности и безопасности.](overview.md)
 
-1. В браузере введите [https://protection.office.com/devicev2](https://protection.office.com/devicev2) .
+1. В браузере введите <https://protection.office.com/devicev2> .
 
 2. Нажмите кнопку **Создать политику**.
 

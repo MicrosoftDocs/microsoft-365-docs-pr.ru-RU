@@ -1,7 +1,7 @@
 ---
 title: Профиль устройства на Microsoft 365 портале безопасности
 description: Просмотр уровней риска и экспозиции для устройства в организации. Анализ прошлых и нынешних угроз и защита устройства с помощью последних обновлений.
-keywords: безопасность, вредоносные программы, Microsoft 365, M365, Microsoft 365 Defender, центр безопасности, Microsoft Defender для конечной точки, Microsoft Defender для Office 365, Microsoft Defender для identity, страница устройства, профиль устройства, страница машины, профиль машины
+keywords: безопасность, вредоносные программы, Microsoft 365, M365, Microsoft 365 Defender, центр безопасности, Microsoft Defender для конечной точки, Microsoft Defender для Office 365, Microsoft Defender для удостоверения, страница устройства, профиль устройства, страница машины, профиль машины
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 localization_priority: Normal
@@ -13,12 +13,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
 ms.technology: m365d
-ms.openlocfilehash: 8e2788fd9163a27b41bd3788facf5fc9623b0543
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 47b25ba541264d79216748753e9f41fb7435fc10
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935669"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229483"
 ---
 # <a name="device-profile-page"></a>Страница профиля устройства
 
@@ -81,7 +81,7 @@ ms.locfileid: "51935669"
 * **Запуск антивирусной проверки** — обновления антивирусная программа определений и немедленно выполняется антивирусное сканирование. Выберите между быстрым сканированием или полным сканированием.
 * **Сбор пакета исследований** — сбор сведений об устройстве. По завершению расследования его можно скачать.
 * **Инициировать сеанс живого ответа** — загружает удаленную оболочку на устройство для углубленного [расследования безопасности.](/microsoft-365/security/defender-endpoint/live-response)
-* **Инициировать автоматическое** расследование — [автоматически расследует и устраняет угрозы.](../office-365-security/office-365-air.md) Хотя с этой страницы можно запускать автоматические [](../../compliance/alert-policies.md?view=o365-worldwide#default-alert-policies) расследования вручную, некоторые политики оповещения запускают автоматические расследования самостоятельно.
+* **Инициировать автоматическое** расследование — [автоматически расследует и устраняет угрозы.](../office-365-security/office-365-air.md) Хотя с этой страницы можно запускать автоматические [](../../compliance/alert-policies.md#default-alert-policies) расследования вручную, некоторые политики оповещения запускают автоматические расследования самостоятельно.
 * **Центр действий** — отображает сведения о любых действиях реагирования, которые в настоящее время запущены.
 
 ## <a name="tabs-section"></a>Раздел "Вкладки"
@@ -178,9 +178,9 @@ ms.locfileid: "51935669"
 
 При выборе элемента откроется флайер, ссылающийся на обновление.
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 
-* [Microsoft 365 Обзор defender](microsoft-365-defender.md)
+* [Microsoft 365 Defender обзор](microsoft-365-defender.md)
 * [Включение Microsoft 365 Defender](m365d-enable.md)
 * [Исследование сущностями на устройствах с помощью живого ответа](../defender-endpoint/live-response.md)
 * [Автоматическое расследование и ответ (AIR) в Office 365](../office-365-security/office-365-air.md)

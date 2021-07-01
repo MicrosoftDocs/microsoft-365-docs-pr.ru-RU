@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 01/14/2020
 ms.technology: mde
-ms.openlocfilehash: fa111197dfd68cfcca40ce8a39befe20b97d1be8
-ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
+ms.openlocfilehash: fcc7d96f51121824550128e89186074e1ebc3ce0
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51939640"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228883"
 ---
 # <a name="understand-the-advanced-hunting-schema-in-microsoft-defender-for-endpoint"></a>Понимание схемы расширенных схем охоты в Microsoft Defender для конечной точки
 
@@ -76,10 +76,10 @@ ms.locfileid: "51939640"
 | **[DeviceTvmSecureConfigurationAssessmentKB](advanced-hunting-devicetvmsecureconfigurationassessmentkb-table.md)** | База знаний различных конфигураций безопасности, используемых системой контроля угроз и уязвимостей для оценки устройств; включает в себя сопоставления с различными стандартами и контрольными показателями |
 
 >[!TIP]
->Используйте [расширенный](/microsoft-365/security/defender/advanced-hunting-overview) поиск в Microsoft 365 Defender для охоты на угрозы с помощью данных defender for Endpoint, Microsoft Defender для Office 365, Microsoft Cloud App Security и Microsoft Defender for Identity. [Включение Microsoft 365 Defender](/microsoft-365/security/defender/m365d-enable)<br><br>
+>Используйте [расширенный](/microsoft-365/security/defender/advanced-hunting-overview) поиск в Microsoft 365 Defender для охоты на угрозы с помощью данных defender for Endpoint, Microsoft Defender для Office 365, Microsoft Cloud App Security и Microsoft Defender для identity. [Включение Microsoft 365 Defender](/microsoft-365/security/defender/m365d-enable)<br><br>
 Узнайте больше о том, как переместить расширенные процессы охоты из Microsoft Defender для конечной точки в Microsoft 365 Defender в миграции расширенных запросов охоты из [Microsoft Defender для конечной точки](/microsoft-365/security/defender/advanced-hunting-migrate-from-mde).
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 - [Обзор расширенной охоты](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Работа с результатами запросов](advanced-hunting-query-results.md)

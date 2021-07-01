@@ -26,12 +26,12 @@ search.appverid:
 - MBS150
 ms.assetid: 01920974-9e6f-4331-a370-13aea4e82b3e
 description: Описывает, как подготовить пользователей к Microsoft 365 с помощью синхронизации каталогов и долгосрочных преимуществ использования этого метода.
-ms.openlocfilehash: 7f701bf0a8b165323f7fd61b50b41fb5e18268a6
-ms.sourcegitcommit: 5a1cb7d95070eef47d401a4693cc137a90550a5e
+ms.openlocfilehash: ee6cfe9adfe029e620d2465f08a3fbe1e9290503
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52259563"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229771"
 ---
 # <a name="prepare-for-directory-synchronization-to-microsoft-365"></a>Подготовка к синхронизации каталогов с Microsoft 365
 
@@ -180,7 +180,7 @@ Active Directory предназначен для того, чтобы позво
 
 Возможно, потребуется добавить альтернативный суффикс upN, чтобы связать корпоративные учетные данные пользователя с Microsoft 365 средой. Суффикс UPN — это часть имени участника-пользователя, расположенная справа от символа @. UPN-имена, которые используются для единого входа, могут содержать буквы, цифры, точки, дефисы и подчеркивания, другие символы запрещены.
 
-Дополнительные сведения о добавлении альтернативного суффикса UPN в Active Directory см. в статью [Подготовка к синхронизации каталогов.]( https://go.microsoft.com/fwlink/p/?LinkId=525430)
+Дополнительные сведения о добавлении альтернативного суффикса UPN в Active Directory см. в статью [Подготовка к синхронизации каталогов.](https://go.microsoft.com/fwlink/p/?LinkId=525430)
 
 ## <a name="5-match-the-ad-ds-upn-with-the-microsoft-365-upn"></a>5. Соответствие upN AD DS с Microsoft 365 upN
 

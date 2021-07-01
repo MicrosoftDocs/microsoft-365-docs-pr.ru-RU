@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: Сводка. Сведения о действиях и последствиях этапов миграции при переходе из Microsoft Cloud Germany (Microsoft Cloud Deutschland) в Office 365 службы в новом немецком регионе центра обработки данных.
-ms.openlocfilehash: c80a7cfc4f930011f65a07c4b46cdf4921766c34
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: abf58930e2f937922733fedec2f13bfc2949fcb8
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52930455"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229831"
 ---
 # <a name="migration-phases-actions-and-impacts-for-the-migration-from-microsoft-cloud-deutschland"></a>Миграция фазы действий и последствий для миграции из Microsoft Cloud Deutschland
 
@@ -50,7 +50,7 @@ ms.locfileid: "52930455"
 |Power BI & Dynamics 365|15+ дней|Корпорация Майкрософт|Перенос контента Power BI Dynamics 365.|
 |Финализация Azure AD|1-2 дня|Корпорация Майкрософт|Полное сокращение клиента по всему миру.|
 |Clean-Up|1-2 дня|Клиент|Очистка устаревших подключений к Microsoft Cloud Deutschland, таких как Active Directory Federation Services (AD FS) Relying Party Trust, Azure AD Подключение и Office клиента.|
-|Отключены конечные точки|30 дней|Корпорация Майкрософт|Через 30 дней после окончания службы Azure AD служба Microsoft Cloud Deutschland Azure AD прекратит доступ к конечной точке для переходной организации. Запросы конечной точки, такие как проверка подлинности, с этого момента не будут работать в службе Microsoft Cloud Deutschland. Клиенты, работающие с рабочими нагрузками Azure в экземпляре, связанном с Office 365 службами в Microsoft Cloud Deutschland, будут перенесены на заключительный этап миграции позже. |
+|Отключены конечные точки|30 дней|Корпорация Майкрософт|Через 30 дней после окончания службы Azure AD служба Microsoft Cloud Deutschland Azure AD прекратит доступ к конечной точке для переходной организации. Запросы конечной точки, такие как проверка подлинности, с этого момента не будут работать в службе Microsoft Cloud Deutschland. Клиенты, работающие с рабочими нагрузками Azure в экземпляре, связанном с Office 365 службами в Microsoft Cloud Deutschland, будут перенесены на заключительный этап миграции позже. |
 
 Этапы и их действия обеспечивают перенос критически важных данных и опытом в Office 365 глобальные службы. После того как клиент будет добавлен в очередь миграции, каждая рабочая нагрузка будет выполнена в качестве набора действий, выполняемых в службе backend. Некоторые рабочие нагрузки могут требовать действий администратора (или пользователя), или миграция может повлиять на использование для этапов, которые выполняются и обсуждаются в How [is the migration organized?](ms-cloud-germany-transition.md#how-is-the-migration-organized)
 
@@ -134,7 +134,7 @@ New-AuthServer GlobalMicrosoftSts -AuthMetadataUrl https://accounts.accesscontro
 
 - Если ваша организация по-прежнему использует SharePoint 2010 г., они больше не будут функционировать после 31 декабря 2021 г. SharePoint 2013 г. будут поддерживаться, хотя и отключены по умолчанию для новых клиентов с 1 ноября 2020 г. После завершения миграции SharePoint службы Online рекомендуется перейти к Power Automate другим поддерживаемым решениям.
  - Клиентам Microsoft Cloud Deutschland, чей экземпляр SharePoint Online еще не перенесен, необходимо оставаться в модуле SharePoint Online PowerShell/Microsoft.SharePointOnline.CSOM версии 16.0.20616.12000 или ниже. В противном случае подключение SharePoint Online с помощью PowerShell или клиентской объектной модели не удастся.
-- На этом этапе будут изменяться IP-адреса SharePoint URL-адресов. После перехода на Office 365 Глобальные службы адреса сохраненных URL-адресов клиента (например, и) будут изменены на URL-адреса Microsoft 365 и диапазоны IP-адресов `contoso.sharepoint.de` `contoso-my.sharepoint.de` [(SharePoint Online и OneDrive для бизнеса).](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide#sharepoint-online-and-onedrive-for-business)
+- На этом этапе будут изменяться IP-адреса SharePoint URL-адресов. После перехода на Office 365 Глобальные службы адреса сохраненных URL-адресов клиента (например, и) будут изменены на URL-адреса Microsoft 365 и диапазоны IP-адресов `contoso.sharepoint.de` `contoso-my.sharepoint.de` [(SharePoint Online и OneDrive для бизнеса).](/microsoft-365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business)
 - Хотя SharePoint и OneDrive службы переходят, Office Online может работать не так, как ожидалось. 
 
 > [!NOTE]
@@ -169,7 +169,7 @@ New-AuthServer GlobalMicrosoftSts -AuthMetadataUrl https://accounts.accesscontro
 ### <a name="exchange-online-powershell"></a>Exchange Online PowerShell
 **Применяется к: Exchange Online** администраторам с Exchange Online PowerShell
 
-На этапе миграции с помощью cmdlets PowerShell **New-MigrationEndpoint,** **Set-MigrationEndpoint** и **Test-MigrationsServerAvailability** могут привести к ошибкам (ошибка в прокси-сервере). Это происходит, когда почтовый ящик арбитража мигрирует во всем мире, но почтовый ящик администратора не имеет или наоборот. Чтобы устранить это, создав сеанс PowerShell клиента, используйте почтовый ящик арбитража в качестве подсказки маршрутивки **в ConnectionUri**. Пример.
+На этапе миграции с помощью cmdlets PowerShell **New-MigrationEndpoint,** **Set-MigrationEndpoint** и **Test-MigrationsServerAvailability** могут привести к ошибкам (ошибка в прокси-сервере). Это происходит, когда почтовый ящик арбитража мигрирует во всем мире, но почтовый ящик администратора не имеет или наоборот. Чтобы устранить это, создав сеанс PowerShell клиента, используйте почтовый ящик арбитража в качестве подсказки маршрутивки **в ConnectionUri**. Например:
 
 ```powershell
 New-PSSession 
@@ -231,7 +231,7 @@ Set-SendConnector -Identity <SendConnectorName> -TlsDomain "mail.protection.outl
 - Пользователи не смогут войти в Skype для бизнеса между переходами служб времени на Office 365 служб, и только после завершения записей DNS клиента.
 - Контакты и существующие собрания будут по-прежнему функционировать в качестве Skype для бизнеса собраний.
 
-Если домен тщеславия настроен для Skype для бизнеса, записи DNS должны обновляться. Обратитесь к [доменам в центре администрирования Microsoft 365](https://admin.microsoft.com/Adminportal/Home#/Domains) и применяйте изменения в конфигурации DNS. 
+Если домен тщеславия настроен для Skype для бизнеса, записи DNS должны обновляться. Обратитесь к [доменам в Центр администрирования Microsoft 365](https://admin.microsoft.com/Adminportal/Home#/Domains) и применяйте изменения в конфигурации DNS. 
 
 Если после завершения фазы миграции 9 необходимо подключиться к Skype для бизнеса Online с PowerShell, используйте следующий код PowerShell для подключения:
 

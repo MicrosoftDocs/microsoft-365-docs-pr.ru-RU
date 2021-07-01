@@ -18,12 +18,12 @@ search.appverid:
 - PJU120
 - PJW120
 description: Заканчивается поддержка Project Server 2010 13 апреля 2021 г. Используйте эту статью в качестве руководства для обновления Project Online или более новой версии локальной Project Server.
-ms.openlocfilehash: f57fa15da3cabc4b326a52359a29c652fcbe9e7f
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 0ca37d00ee670a8a3f7c83d75864b5af19587951
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52842234"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53229759"
 ---
 # <a name="project-server-2010-end-of-support-roadmap"></a>План действий после прекращения поддержки Project Server 2010
 
@@ -157,11 +157,11 @@ Project профессиональный 2010 года пользователи 
 
 - [Новое обновление Project Server 2013](/project/what-s-new-in-project-server-2013-upgrade) включает важные изменения для этой версии, в том числе:
 
-   - Обновление на месте до Project Server 2013 не происходит. Метод прикрепить базу данных — это единственный поддерживаемый способ обновления с Project Server 2010 до Project Server 2013.
+  - Обновление на месте до Project Server 2013 не происходит. Метод прикрепить базу данных — это единственный поддерживаемый способ обновления с Project Server 2010 до Project Server 2013.
 
-   - Процесс обновления не только преобразует данные Project Server 2010 в формат Project Server 2013, но и консолидирует четыре базы данных Project Server 2010 в одну базу данных Project Web App.
+  - Процесс обновления не только преобразует данные Project Server 2010 в формат Project Server 2013, но и консолидирует четыре базы данных Project Server 2010 в одну базу данных Project Web App.
 
-   - Как SharePoint Server 2013, так и Project Server 2013 изменены на проверку подлинности на основе утверждений из предыдущей версии. Если вы используете классическую проверку подлинности, это необходимо учитывать при обновлении. Дополнительные сведения см. в статье [Migrate from classic-mode to claims-based authentication in SharePoint 2013]( /sharepoint/upgrade-and-update/migrate-from-classic-mode-to-claims-based-authentication-in-sharepoint-2013).
+  - Как SharePoint Server 2013, так и Project Server 2013 изменены на проверку подлинности на основе утверждений из предыдущей версии. Если вы используете классическую проверку подлинности, это необходимо учитывать при обновлении. Дополнительные сведения см. в статье [Migrate from classic-mode to claims-based authentication in SharePoint 2013](/sharepoint/upgrade-and-update/migrate-from-classic-mode-to-claims-based-authentication-in-sharepoint-2013).
 
 Ключевые ресурсы:
 
@@ -213,9 +213,9 @@ Project профессиональный 2010 года пользователи 
 
 - [Что нужно знать об обновлении Project Server 2019](/project/plan-for-upgrade-to-project-server-2016)<br/><br/>Узнайте о важных изменениях для обновления до этой версии, которые включают:
 
-   - Процесс обновления будет мигрировать данные из Project Server 2016 базы данных в SharePoint Server 2019 контента.  Project Server 2019 больше не будет создавать собственную базу данных Project Server в ферме SharePoint Server.
+  - Процесс обновления будет мигрировать данные из Project Server 2016 базы данных в SharePoint Server 2019 контента.  Project Server 2019 больше не будет создавать собственную базу данных Project Server в ферме SharePoint Server.
 
-   - После обновления следует помнить о нескольких изменениях в Project Web App.  Подробные сведения см. в материале [What's new in Project Server 2019.](/project/what-s-new-for-it-pros-in-project-server-2019#PWAChanges)
+  - После обновления следует помнить о нескольких изменениях в Project Web App.  Подробные сведения см. в материале [What's new in Project Server 2019.](/project/what-s-new-for-it-pros-in-project-server-2019#PWAChanges)
 
 **Другие ресурсы:**
 
@@ -233,7 +233,7 @@ Project профессиональный 2010 года пользователи 
 
 Вы также можете [скачать](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Office2010Windows7EndOfSupport.pdf) этот плакат и распечатать его в формате букв, юридических или таблоидов (11 x 17).
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 
 [Переход с SharePoint 2010](upgrade-from-sharepoint-2010.md)
 

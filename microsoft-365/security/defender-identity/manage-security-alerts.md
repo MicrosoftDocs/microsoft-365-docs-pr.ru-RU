@@ -7,14 +7,14 @@ author: dcurwin
 ms.author: dacurwin
 ms.service: microsoft-defender-for-identity
 manager: raynew
-ms.openlocfilehash: 0c48c9076d05cd352229477acc28b32185eef54f
-ms.sourcegitcommit: 4f6ef4cd09c3ed36dc0be3702b0636bad6cff8a9
+ms.openlocfilehash: c81f14b92b285359bda7e291bd8d3a8b636ae54d
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52657852"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228967"
 ---
-# <a name="defender-for-identity-security-alerts-in-microsoft-365-defender"></a>Защитник оповещений о безопасности удостоверений в Microsoft 365 Defender
+# <a name="defender-for-identity-security-alerts-in-microsoft-365-defender"></a>Defender for Identity security alerts in Microsoft 365 Defender
 
 **Область применения:**
 
@@ -23,20 +23,20 @@ ms.locfileid: "52657852"
 
 В этой статье рассказывается об основах работы с оповещений [microsoft Defender](/defender-for-identity) для безопасности удостоверений в центре Microsoft 365 [безопасности.](/microsoft-365/security/defender/overview-security-center)
 
-Оповещения Defender for Identity встроены в [](https://security.microsoft.com) центр безопасности Microsoft 365 с выделенным форматом страницы оповещения о удостоверениях. Это первый шаг на пути к внедрению полного опыта [Microsoft Defender для удостоверений в Microsoft 365 Defender.](/defender-for-identity/defender-for-identity-in-microsoft-365-defender)
+Оповещения Defender for Identity встроены в [](https://security.microsoft.com) центр безопасности Microsoft 365 с выделенным форматом страницы оповещения о удостоверениях. Это первый шаг на пути к внедрению полного [опыта Microsoft Defender для удостоверений](/defender-for-identity/defender-for-identity-in-microsoft-365-defender)в Microsoft 365 Defender.
 
 Новая страница оповещения о удостоверениях позволяет клиентам Microsoft Defender для удостоверений лучше обогатить сигналы меж домена и новые возможности автоматического ответа на запросы удостоверений. Это гарантирует безопасность и повышает эффективность операций безопасности.
 
-Одно из преимуществ проверки оповещений через [Microsoft 365 Defender](/microsoft-365/security/defender/microsoft-365-defender) в том, что оповещений Microsoft Defender для удостоверений дополнительно соотносится с информацией, полученной от каждого из других продуктов пакета. Эти расширенные оповещений соответствуют другим форматам оповещения Microsoft 365 Defender, происходящим из [Microsoft Defender для](/microsoft-365/security/office-365-security) Office 365 и Microsoft Defender для [конечной точки.](/microsoft-365/security/defender-endpoint) Новая страница эффективно устраняет необходимость переходить на другой портал продуктов для проверки оповещений, связанных с удостоверением.
+Одно из преимуществ проверки оповещений через [Microsoft 365 Defender](/microsoft-365/security/defender/microsoft-365-defender) в том, что оповещений Microsoft Defender для удостоверений дополнительно соотносится с информацией, полученной от каждого из других продуктов пакета. Эти расширенные оповещений соответствуют другим форматам Microsoft 365 Defender, возникающим из [Microsoft Defender для](/microsoft-365/security/office-365-security) Office 365 и Microsoft Defender для [конечной точки.](/microsoft-365/security/defender-endpoint) Новая страница эффективно устраняет необходимость переходить на другой портал продуктов для проверки оповещений, связанных с удостоверением.
 
-Оповещения, возникающие из Defender for [Identity,](/microsoft-365/security/defender/m365d-autoir) теперь могут запускать возможности автоматического расследования и ответа Microsoft 365 Defender, включая автоматическое исправление оповещений и смягчение инструментов и процессов, которые могут способствовать подозрительной активности.
+Оповещения, возникающие из Defender for Identity, теперь могут запускать возможности автоматического Microsoft 365 Defender и [реагирования(AIR),](/microsoft-365/security/defender/m365d-autoir) включая автоматическое исправление оповещений и смягчение инструментов и процессов, которые могут способствовать подозрительной активности.
 
->[!IMPORTANT]
->В рамках сближения с Microsoft 365 Defender некоторые параметры и сведения изменились с их расположения на портале Defender for Identity. Подробные сведения см. ниже, чтобы узнать, где найти знакомые и новые функции.
+> [!IMPORTANT]
+> В рамках сближения с Microsoft 365 Defender некоторые параметры и сведения изменились с их расположения на портале Defender for Identity. Подробные сведения см. ниже, чтобы узнать, где найти знакомые и новые функции.
 
 ## <a name="review-security-alerts"></a>Просмотр оповещений о безопасности
 
-Оповещения можно получить из нескольких местоположений, включая страницу **Оповещения,** страницу **Инциденты,** страницы отдельных устройств **и** страницу **расширенный** поиск. В этом примере мы просмотрите страницу **Оповещений.**  
+Оповещения можно получить из нескольких местоположений, включая страницу **Оповещения,** страницу **Инциденты,** страницы отдельных устройств **и** страницу **расширенный** поиск. В этом примере мы просмотрите страницу **Оповещений.**
 
 В центре [Microsoft 365 безопасности](https://security.microsoft.com/)перейдите  к & оповещениям, а затем к **оповещений.**
 
@@ -85,9 +85,9 @@ ms.locfileid: "52657852"
 
     ![Управление оповещением](../../media/defender-identity/manage-alert.png)
 
-    >[!NOTE]
-    >В файле Excel теперь доступны две ссылки: Просмотр в **Microsoft Defender** для удостоверений и **просмотр в Microsoft 365 Defender**. Каждая ссылка приведет вас на соответствующий портал и предоставит сведения о оповещении.
+    > [!NOTE]
+    > В файле Excel теперь доступны две ссылки: Просмотр в **Microsoft Defender** для удостоверений и просмотр **в Microsoft 365 Defender**. Каждая ссылка приведет вас на соответствующий портал и предоставит сведения о оповещении.
 
 ## <a name="see-also"></a>См. также
 
-- [Исследование оповещений в Microsoft 365 Defender](../defender/investigate-alerts.md)
+- [Изучение оповещений в Microsoft 365 Defender](../defender/investigate-alerts.md)

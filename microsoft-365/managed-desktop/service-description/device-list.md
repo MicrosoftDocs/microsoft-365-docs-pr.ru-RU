@@ -8,12 +8,12 @@ ms.localizationpriority: normal
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 636d32f47c4fd9fdd5c0409a4ebbc2d9e79a166d
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 6e5e6b87f17fd4b13945b155bd7e521881242345
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245940"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53230059"
 ---
 # <a name="microsoft-managed-desktop-devices"></a>компьютеры, управляемые Майкрософт устройства
 
@@ -22,13 +22,13 @@ ms.locfileid: "52245940"
 
 компьютеры, управляемые Майкрософт регулярно оценивает устройства, которые будут включены в службу. В этой статье перечислены конкретные устройства, поддерживаемые в настоящее время. Более общее заявление о требованиях к устройству см. в этой [части.](device-requirements.md)
 
-Дополнительные сведения о компьютеры, управляемые Майкрософт см. [в компьютеры, управляемые Майкрософт документации и ресурсах.](../index.yml) 
+Дополнительные сведения о компьютеры, управляемые Майкрософт см. [в компьютеры, управляемые Майкрософт документации и ресурсах.](../index.yml)
 
 [Выбор и проверка новых устройств](../get-started/validate-device.md)
 
 <!-- Microsoft 365 E5; Device as a Service -->
 <!-- Split from device & technologies topic. Destination topic for aka.ms/device-list  -->
-Чтобы быть зарегистрированным в компьютеры, управляемые Майкрософт, устройство должно быть одной из следующих моделей и соответствовать или превышать перечисленные спецификации для оперативной памяти, семейства процессоров и дискового пространства. 
+Чтобы быть зарегистрированным в компьютеры, управляемые Майкрософт, устройство должно быть одной из следующих моделей и соответствовать или превышать перечисленные спецификации для оперативной памяти, семейства процессоров и дискового пространства.
 
 Ссылки на устройства здесь можно найти только для ссылки. Если вы хотите заказать устройства, работайте с контактами коммерческих каналов, чтобы убедиться, что вы выбираете правильные конфигурации. В этой таблице *датой* архива является дата, на которую эти модели будут подвергаться более короткому сроку компьютеры, управляемые Майкрософт службы; любые такие устройства, которые будут на борту после этой даты, не будут получать полную трехлетнюю поддержку от компьютеры, управляемые Майкрософт. Архивные устройства также перечислены в компьютеры, управляемые Майкрософт [архивных устройствах.](archived-device-list.md) *Дата выхода* на пенсию — это дата, на которую эта модель больше не будет поддерживаться компьютеры, управляемые Майкрософт вообще. В этот день все зарегистрированные устройства этой модели будут удалены из компьютеры, управляемые Майкрософт независимо от того, когда они были зарегистрированы.
 
@@ -50,9 +50,9 @@ ms.locfileid: "52245940"
 | **\*[Dell Latitude 7420 / 7420 2-in-1](https://www.dell.com/en-us/work/shop/dell-laptops-and-notebooks/new-latitude-7420-business-laptop-or-2-in-1/spd/latitude-14-7420-2-in-1-laptop)** | 256 ГБ / оперативной памяти Intel i5 / 8 ГБ | Требуется ИК-камера | 22 марта 2023 г.  | 22 марта 2026 г.  |
 | **\*[Dell Latitude 9420 2-in-1](https://www.dell.com/en-us/work/shop/scc/sr/laptops/latitude-laptops?~ck=mn)** | 256 ГБ / оперативной памяти Intel i5 / 8 ГБ | Требуется ИК-камера | Apr 2023  | Apr 2026  |
 | [Dell Latitude 9510](https://www.dell.com/en-us/work/shop/2-in-1-laptops-tablets/new-latitude-9510-laptop-or-2-in-1/spd/latitude-15-9510-2-in-1-laptop) | 256 ГБ / оперативной памяти Intel i5 / 8 ГБ | Требуется ИК-камера | 5 мая 2022 г.  | 5 мая 2025 г.  |
-| [Dell Optiplex 3080](https://www.dell.com/en-us/work/shop/desktops-all-in-one-pcs/optiplex-3080-tower-and-small-form-factor/spd/optiplex-3080-desktop) | 128 ГБ / оперативной памяти Intel i3 / 8 ГБ | Нет | 27 мая 2022 г.  | 27 мая 2025 г.  |
-| [Dell Optiplex 7480](https://www.dell.com/en-us/work/shop/desktops-all-in-one-pcs/optiplex-7480-all-in-one-desktop/spd/optiplex-7480-aio) | 128 ГБ / оперативной памяти Intel i3 / 8 ГБ | Нет | 15 мая 2022 г.  | 15 мая 2025 г.  |
-| [Рабочие станции Dell 5550](https://www.dell.com/en-us/work/shop/laptops/new-15-5550-workstation/spd/precision-15-5550-laptop) | 256 ГБ / оперативной памяти Intel i5 / 8 ГБ | Нет | 27 мая 2022 г.  | 27 мая 2025 г.  |
+| [Dell Optiplex 3080](https://www.dell.com/en-us/work/shop/desktops-all-in-one-pcs/optiplex-3080-tower-and-small-form-factor/spd/optiplex-3080-desktop) | 128 ГБ / оперативной памяти Intel i3 / 8 ГБ | Нет. | 27 мая 2022 г.  | 27 мая 2025 г.  |
+| [Dell Optiplex 7480](https://www.dell.com/en-us/work/shop/desktops-all-in-one-pcs/optiplex-7480-all-in-one-desktop/spd/optiplex-7480-aio) | 128 ГБ / оперативной памяти Intel i3 / 8 ГБ | Нет. | 15 мая 2022 г.  | 15 мая 2025 г.  |
+| [Рабочие станции Dell 5550](https://www.dell.com/en-us/work/shop/laptops/new-15-5550-workstation/spd/precision-15-5550-laptop) | 256 ГБ / оперативной памяти Intel i5 / 8 ГБ | Нет. | 27 мая 2022 г.  | 27 мая 2025 г.  |
 
 ### <a name="hp"></a>HP
 
@@ -72,16 +72,16 @@ ms.locfileid: "52245940"
 
 | Модель    | Минимальные спецификации  | Дополнительные требования    | Дата архива   | Дата выхода на пенсию   |
 |----------|----------------|---------------------------|----------------|--------------------|
-| [Surface Book 3](https://www.microsoft.com/p/surface-book-3-for-business/93h0mb2gqd5b?activetab=pivot%3aoverviewtab) | 256 ГБ / оперативной памяти Intel i5 / 8 ГБ | Нет | 21 мая 2022 г. | 21 мая 2027 г. |
-| [Surface Go 2](https://www.microsoft.com/p/surface-go-2-for-business/8wzd6dhzj7kv?activetab=pivot%3aoverviewtab) | 128 ГБ / ОЗУ Intel Core M3 / 8 ГБ | Нет | 21 мая 2022 г. | 21 мая 2027 г. |
-| [Surface Laptop Go](https://www.microsoft.com/surface/business/surface-laptop-go) | 128 ГБ / оперативной памяти Intel i5 / 8 ГБ | Нет | 12 октября 2022 г. | 12 октября 2025 г. |
-| [Surface Laptop 3](https://www.microsoft.com/surface/business/surface-laptop-3) | 128 ГБ / оперативной памяти Intel i5 / 8 ГБ | Нет | 22 октября 2021 г. | 22 октября 2024 г. |
-| [Surface Pro 7](https://www.microsoft.com/surface/business/surface-pro-7) | 128 ГБ / оперативной памяти Intel i5 / 8 ГБ | Нет | 22 октября 2021 г. | 22 октября 2024 г. |
-| **\*[Surface Pro 7+](https://www.microsoft.com/p/surface-pro-7-for-business/8p43n3k93409?activetab=pivot%3aoverviewtab)** | 128 ГБ / оперативной памяти Intel i5 / 8 ГБ | Нет | 15 января 2022 г. | 15 января 2025 г. |
+| [Surface Book 3](https://www.microsoft.com/p/surface-book-3-for-business/93h0mb2gqd5b?activetab=pivot%3aoverviewtab) | 256 ГБ / оперативной памяти Intel i5 / 8 ГБ | Нет. | 21 мая 2022 г. | 21 мая 2027 г. |
+| [Surface Go 2](https://www.microsoft.com/p/surface-go-2-for-business/8wzd6dhzj7kv?activetab=pivot%3aoverviewtab) | 128 ГБ / ОЗУ Intel Core M3 / 8 ГБ | Нет. | 21 мая 2022 г. | 21 мая 2027 г. |
+| [Surface Laptop Go](https://www.microsoft.com/surface/business/surface-laptop-go) | 128 ГБ / оперативной памяти Intel i5 / 8 ГБ | Нет. | 12 октября 2022 г. | 12 октября 2025 г. |
+| [Surface Laptop 3](https://www.microsoft.com/surface/business/surface-laptop-3) | 128 ГБ / оперативной памяти Intel i5 / 8 ГБ | Нет. | 22 октября 2021 г. | 22 октября 2024 г. |
+| [Surface Pro 7](https://www.microsoft.com/surface/business/surface-pro-7) | 128 ГБ / оперативной памяти Intel i5 / 8 ГБ | Нет. | 22 октября 2021 г. | 22 октября 2024 г. |
+| **\*[Surface Pro 7+](https://www.microsoft.com/p/surface-pro-7-for-business/8p43n3k93409?activetab=pivot%3aoverviewtab)** | 128 ГБ / оперативной памяти Intel i5 / 8 ГБ | Нет. | 15 января 2022 г. | 15 января 2025 г. |
 
-Кроме того, устройство также должно соответствовать этим критериям:     
+Кроме того, устройство также должно соответствовать этим критериям:
 
-- Если определенный SKU указан в требованиях к устройству, убедитесь, что он используется при заказе. Это обеспечивает соответствие устройств требованиям компьютеры, управляемые Майкрософт программного обеспечения. 
+- Если определенный SKU указан в требованиях к устройству, убедитесь, что он используется при заказе. Это обеспечивает соответствие устройств требованиям компьютеры, управляемые Майкрософт программного обеспечения.
 - Не выполнено Windows первого запуска.
 - Регистрация в компьютеры, управляемые Майкрософт с помощью функции [регистрации](../get-started/register-devices-self.md) устройств
 
