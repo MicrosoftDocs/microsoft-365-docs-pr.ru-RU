@@ -20,12 +20,12 @@ ms.custom:
 description: Администраторы могут научиться использовать обучение имитации атаки для имитации фишинга и атак паролей в Microsoft 365 E5 или Microsoft Defender для Office 365 plan 2.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: ad86f77399cfa2a3a780d3fed7e483e3c11bc08d
-ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
+ms.openlocfilehash: 1fa10d0d29b76d1631dd349d255b6c386557b5b8
+ms.sourcegitcommit: 2266c2da090bc9a6dc1e01dea07f26901d20d57b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53082904"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53222674"
 ---
 # <a name="get-started-using-attack-simulation-training"></a>Начало использования обучения имитации атаки
 
@@ -52,7 +52,7 @@ ms.locfileid: "53082904"
 
 - Соответствующие кодлеты PowerShell для подготовки к имитации атаки не имеются.
 
-- Имитация атаки и связанные с обучением данные хранятся с другими данными клиентов для Microsoft 365 служб. Дополнительные сведения [см. в Microsoft 365 расположения данных.](../../enterprise/o365-data-locations.md) Моделирование атак доступно в следующих регионах: NAM, APC, EUR, IND, CAN, AUS, FRA, GBR, JPN и KOR.
+- Имитация атаки и связанные с обучением данные хранятся с другими данными клиентов для Microsoft 365 служб. Дополнительные сведения [см. в Microsoft 365 расположения данных.](../../enterprise/o365-data-locations.md) Моделирование атак доступно в следующих регионах: NAM, APC, EUR, IND, CAN, AUS, FRA, GBR, JPN, KOR, BRA, LAM и CHE.
 
 - С 15 июня 2021 г. обучение имитации атаки доступно в GCC. Если в вашей организации Office 365 G5 GCC или Microsoft Defender для Office 365 (План 2) для правительства, вы можете использовать обучение имитации атаки на портале Microsoft 365 Defender для запуска реалистичных сценариев атак в вашей организации, как описано в этой статье. Обучение моделированию атак пока не доступно в GCC среде High или DoD.
 
