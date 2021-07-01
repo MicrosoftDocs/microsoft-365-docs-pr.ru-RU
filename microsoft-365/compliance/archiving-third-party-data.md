@@ -22,12 +22,12 @@ ms.assetid: 0ce338d5-3666-4a18-86ab-c6910ff408cc
 ms.custom:
 - seo-marvel-apr2020
 description: Узнайте, как импортировать сторонние данные с платформ социальных сетей, платформ обмена мгновенными сообщениями и платформ совместной работы с документами в Microsoft 365 почтовых ящиков.
-ms.openlocfilehash: 6c15da7c21382f6ef286ec493ea3d696c02761f4
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: acd7f9ee838308b277f725e5b7d80c69c6407b59
+ms.sourcegitcommit: 5d3086da935d4ddc8caf79ff19e3afda812fd061
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53227467"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "53243963"
 ---
 # <a name="archive-third-party-data-in-microsoft-365"></a>Архивировать сторонние данные в Microsoft 365
 
@@ -86,6 +86,7 @@ Microsoft 365 позволяет администраторам использо
 |[Reuters Dealing](archive-reutersdealing-data.md)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)||
 |[Reuters Eikon](archive-reuterseikon-data.md)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)||
 |[Reuters FX](archive-reutersfx-data.md)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)||
+|[RingCentral](archive-ringcentral-data.md)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|||
 |[Salesforce Chatter](archive-salesforcechatter-data.md)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|||
 |[ServiceNow](archive-servicenow-data.md)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|||
 |[Slack eDiscovery](archive-slack-data.md)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)||
