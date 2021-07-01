@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Используйте встроенную базовую мобильность и безопасность для удаления сведений с зарегистрированных устройств.
-ms.openlocfilehash: 8c873923505fe527f5a44df0e8b15d290e92023b
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.openlocfilehash: c3cc547ce5e135ccdabf9a09b0d572f1b2530f47
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706146"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228151"
 ---
 # <a name="wipe-a-mobile-device-in-basic-mobility-and-security"></a>Wipe a mobile device in Basic Mobility and Security
 
@@ -45,7 +45,7 @@ ms.locfileid: "52706146"
 
 ## <a name="wipe-a-mobile-device"></a>Протрите мобильное устройство
 
-1. Перейдите в [центр Microsoft 365 администрирования.](../../admin/admin-overview/about-the-admin-center.md)
+1. Перейдите в [Центр администрирования Microsoft 365](../../admin/admin-overview/about-the-admin-center.md).
 
 2. Введите управление мобильными устройствами в поле поиска и выберите **управление** мобильными устройствами из списка результатов.
 
@@ -86,5 +86,6 @@ Wipe a device for these reasons:
 |Microsoft 365 данные приложения стирают, если устройство защищено политиками защиты приложений Intune. Приложения не удаляются. Для устройств, не защищенных политиками управления мобильными приложениями( MAM), Outlook и OneDrive не будут удалять кэшные данные.<br/>**Примечание** Для применения политик защиты приложений Intune необходимо иметь лицензию Intune.|Да|Да|
 |Параметры политики, применяемые Службой базовой мобильности и безопасности для устройств, больше не применяются; пользователи могут изменять параметры.|Да|Да|
 |Профили электронной почты, созданные Basic Mobility and Security, удаляются, а кэшная электронная почта на устройстве удаляется.|Да|Недоступно|
->[!NOTE]
->Корпоративный портал приложение доступно в App Store для iOS и в магазине Play для android-устройств.
+
+> [!NOTE]
+> Корпоративный портал приложение доступно в App Store для iOS и в магазине Play для android-устройств.

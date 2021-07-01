@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: 2c4cf347-b897-45c1-a71f-210bdc8f1061
 description: Узнайте, как перенаправить трафик на существующий общедоступный веб-сайт, который находится за пределами Microsoft, если вы настроили Корпорацию Майкрософт на управление записями DNS для настраиваемого домена.
-ms.openlocfilehash: 2a1559bbb902375bbc363180cdb4f98ec2b3a939
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: d54aa4583862ce19907a3b8494a333bbb925e436
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572145"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228127"
 ---
 # <a name="update-dns-records-to-keep-your-website-with-your-current-hosting-provider"></a>Обновление DNS-записей для сохранения веб-сайта у текущего поставщика услуг размещения веб-сайтов
 
@@ -34,7 +34,7 @@ ms.locfileid: "52572145"
   
  Если Корпорация Майкрософт управляет записями **DNS,** чтобы перенаправить трафик на существующий общедоступный веб-сайт, который находится за пределами Корпорации Майкрософт, после добавления домена в Microsoft, сделайте следующее: 
   
-## <a name="update-dns-records-in-the-microsoft-365-admin-center"></a>Обновление записей DNS в центре Microsoft 365 администрирования
+## <a name="update-dns-records-in-the-microsoft-365-admin-center"></a>Обновление записей DNS в Центр администрирования Microsoft 365
 1. В Центре администрирования перейдите на страницу **Settings** (Параметры) \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domains</a> (Домены).
 
 1. На странице **Домены** выберите домен, а затем выберите **DNS Records**.
@@ -65,6 +65,6 @@ ms.locfileid: "52572145"
     
 Напоследок выполните следующее:
   
-[Обновите записи NS домена,](../get-help-with-domains/set-up-your-domain-host-specific-instructions.md) чтобы указать на Microsoft. 
+[Обновите записи NS домена,](../setup/add-domain.md) чтобы указать на Microsoft. 
   
 Когда записи NS были обновлены, чтобы указать на Microsoft, домен настроен. Электронная почта будет отправлена в Корпорацию Майкрософт, и трафик на ваш веб-сайт будет по-прежнему переходить на текущий веб-сайт.

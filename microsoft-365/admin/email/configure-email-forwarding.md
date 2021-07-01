@@ -23,19 +23,19 @@ search.appverid:
 - MOE150
 ms.assetid: ab5eb117-0f22-4fa7-a662-3a6bdb0add74
 description: Пересылание электронной почты позволяет пересылать сообщения электронной почты, отправленные в почтовый ящик Microsoft 365 пользователя, в другой почтовый ящик внутри организации или за ее пределами.
-ms.openlocfilehash: dfea738f5d786b6e476dd02dc92fd0aef452d62f
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: e0043fe75eefe224c63fd23f352d4bd3ddf2c326
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730142"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228055"
 ---
 # <a name="configure-email-forwarding-in-microsoft-365"></a>Настройка переадэстройки электронной почты в Microsoft 365
 
 В качестве администратора организации у вас могут быть требования к компании, чтобы настроить пересылку электронной почты для почтового ящика пользователя. Переадресация позволяет пересылать сообщения, отправленные в почтовый ящик пользователя, в другой почтовый ящик в организации или за ее пределами.
 
 > [!IMPORTANT]
-> Вы можете использовать политики исходящие фильтры нежелательной почты для управления автоматической переадружаемой к внешним получателям. Дополнительные сведения см. в сообщении [Control automatic external email forwarding in Microsoft 365.](/microsoft-365/security/office-365-security/external-email-forwarding?view=o365-worldwide&preserve-view=true#how-the-outbound-spam-filter-policy-settings-work-with-other-automatic-email-forwarding-controls)
+> Вы можете использовать политики исходящие фильтры нежелательной почты для управления автоматической переадружаемой к внешним получателям. Дополнительные сведения см. в сообщении [Control automatic external email forwarding in Microsoft 365.](/microsoft-365/security/office-365-security/external-email-forwarding#how-the-outbound-spam-filter-policy-settings-work-with-other-automatic-email-forwarding-controls)
 
 ## <a name="configure-email-forwarding"></a>Настройка переадресации электронной почты
 
@@ -55,7 +55,7 @@ ms.locfileid: "52730142"
 
 3. На **вкладке Почта** выберите **Управление пересылками электронной почты.**
 
-4. На странице пересылания электронной почты выберите forward all emails sent **to this mailbox,** enter the forwarding address, and choose whether you want to keep a copy of forwarded emails. Если вы не видите этот параметр, убедитесь, что лицензия назначена учетной записи пользователя. Нажмите кнопку **Сохранить изменения**.
+4. На странице пересылания электронной почты выберите forward all emails sent **to this mailbox,** enter the forwarding address, and choose whether you want to keep a copy of forwarded emails. Если вы не видите этот параметр, убедитесь, что лицензия назначена учетной записи пользователя. Нажмите **Сохранить изменения**.
 
     **Чтобы перенаправить** несколько адресов электронной почты, можно попросить пользователя настроить правило в Outlook переад. 
     

@@ -1,7 +1,7 @@
 ---
-title: Таблицы данных в схеме Microsoft 365 Defender
+title: Таблицы данных в Microsoft 365 Defender схеме охоты
 description: Ознакомьтесь со сведениями о таблицах в схеме расширенной охоты на угрозы, чтобы понять, для каких типов данных можно выполнять запросы на охоту на угрозы
-keywords: передовая охота, охота на угрозы, поиск киберугроз, Microsoft 365 Defender, Microsoft 365, m365, поиск, запрос, телеметрия, ссылка схемы, кусто, таблица, данные
+keywords: передовая охота, охота на угрозы, киберугрозы, Microsoft 365 Defender, microsoft 365, m365, поиск, запрос, телеметрия, ссылка схемы, кусто, таблица, данные
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: 3c8c65d012467317bf8335f47c3f686a5d7255d1
-ms.sourcegitcommit: fb6c5e04ade1e82b26b2f911577b5ac721f1c544
+ms.openlocfilehash: 50a221a65c8264d816de958ec74fa99e9e6db762
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52470584"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53225996"
 ---
 # <a name="understand-the-advanced-hunting-schema"></a>Общие сведения о схеме расширенной охоты на угрозы
 
@@ -48,9 +48,9 @@ ms.locfileid: "52470584"
 - **Пример запроса**— например, запросы, которые повеяют, как можно использовать таблицу.
 
 ### <a name="access-the-schema-reference"></a>Доступ к ссылке схемы
-Чтобы быстро получить доступ к ссылке схемы, выберите действие **View reference** рядом с именем таблицы в представлении схемы. Вы также можете выбрать **ссылку схемы** для поиска таблицы.   
+Чтобы быстро получить доступ к ссылке схемы, выберите действие **View reference** рядом с именем таблицы в представлении схемы. Вы также можете выбрать **ссылку схемы** для поиска таблицы.
 
-![Изображение, показывающая доступ к ссылке на схему на портале ](../../media/mtp-ah/ah-reference.png) 
+![Изображение, показывающая доступ к ссылке на схему на портале](../../media/mtp-ah/ah-reference.png)
 
 ## <a name="learn-the-schema-tables"></a>Узнайте таблицы схем
 В приведенной ниже ссылке перечислены все таблицы в схеме. Каждое название таблицы содержит ссылку на страницу, описывающую имена столбцов для этой таблицы. Имена таблиц и столбцов также перечислены в центре безопасности в рамках представления схемы на продвинутом экране охоты.
@@ -84,7 +84,7 @@ ms.locfileid: "52470584"
 | **[IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md)** | События проверки подлинности в службах Active Directory и Microsoft online |
 | **[IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)** | Запросы для объектов Active Directory, таких как пользователи, группы, устройства и домены |
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 - [Обзор расширенной охоты](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Работа с результатами запросов](advanced-hunting-query-results.md)

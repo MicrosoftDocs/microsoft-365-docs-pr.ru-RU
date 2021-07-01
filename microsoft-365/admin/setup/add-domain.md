@@ -25,13 +25,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 6383f56d-3d09-4dcb-9b41-b5f5a5efd611
-description: Используйте мастер установки, чтобы добавить домен Microsoft 365 в центре администрирования Microsoft 365, добавив запись DNS в вашем DNS-хозяйнике.
-ms.openlocfilehash: 152144737b0ff8cb8b0c27db2a4fc1051fb2a8a7
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+description: Используйте мастер установки, чтобы добавить домен Microsoft 365 в Центр администрирования Microsoft 365, добавив запись DNS на вашем DNS-хозяйнике.
+ms.openlocfilehash: 547a3bf242130993522b00f53819908b10c9e4d1
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635682"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227839"
 ---
 # <a name="add-a-domain-to-microsoft-365"></a>Добавление домена в Microsoft 365
 
@@ -80,8 +80,6 @@ ms.locfileid: "52635682"
 7. Если вы решили самостоятельно добавить записи *DNS,*  выберите **Далее** и увидите страницу со всеми записями, которые необходимо добавить на веб-сайт регистраторов для настройка домена. 
 
     Если порталу не удается распознать регистратор, [воспользуйтесь общими инструкциями](../get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md).
-    
-    Просмотрите наш список [инструкций для конкретных хостов](../get-help-with-domains/set-up-your-domain-host-specific-instructions.md). Найдите в нем свой хост и следуйте указаниям, чтобы добавить все нужные записи. 
     
     Если вы не знаете, какой поставщик услуг размещения DNS или регистратор используется для домена, см. статью [Определение регистратора домена или поставщика услуг размещения DNS](../get-help-with-domains/find-your-domain-registrar.md).    
     
@@ -139,4 +137,3 @@ ms.locfileid: "52635682"
 [Вопросы и ответы о доменах](domains-faq.yml) (статья)\
 [Что такое домен?](../get-help-with-domains/what-is-a-domain.md) (статья)\
 [Купить доменное имя в Microsoft 365](../get-help-with-domains/buy-a-domain-name.md) (статья)\
-[Настройка домена](../get-help-with-domains/set-up-your-domain-host-specific-instructions.md) (статья)

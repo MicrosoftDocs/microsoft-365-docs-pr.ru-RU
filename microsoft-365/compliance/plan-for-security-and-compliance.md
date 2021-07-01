@@ -17,12 +17,12 @@ ms.assetid: dc4f704c-6fcc-4cab-9a02-95a824e4fb57
 description: Эта посадочная страница содержит ссылки и сведения о планировании для обеспечения безопасности и соответствия требованиям в Office 365.
 ms.collection: M365-security-compliance
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3e5e0f5f13511e0890a69c48ab7738f2b1ebab60
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 6300d254e67cad466dc25a902fc70f43ec0b776a
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51198062"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226255"
 ---
 # <a name="plan-for-security-amp-compliance"></a>Планирование соответствия &amp; требованиям безопасности
 
@@ -32,7 +32,7 @@ ms.locfileid: "51198062"
 
 Ориентируйтесь на возможности защиты информации в плакате "Защита информации для Office 365". 
   
-[Развертывание защиты информации для правил конфиденциальности данных с помощью Microsoft 365](../solutions/information-protection-deploy.md?view=o365-worldwide)
+[Развертывание защиты информации для правил конфиденциальности данных с помощью Microsoft 365](../solutions/information-protection-deploy.md)
   
 ## <a name="step-2-check-your-secure-score"></a>Шаг 2. Проверьте безопасную оценку
 
@@ -80,6 +80,6 @@ ms.locfileid: "51198062"
   
 |**Подписка**|**URL-адрес управления**|**Панели мониторинга и центры администрирования**|
 |:-----|:-----|:-----|
-|Microsoft 365  <br/> |`https://admin.microsoft.com`  <br/> | Центр администрирования Microsoft 365  <br/>  Security &amp; Compliance Center  <br/>  Центр администрирования Exchange  <br/>  SharePoint центра администрирования и OneDrive для бизнеса центра администрирования  <br/> |
+|Microsoft 365  <br/> |`https://admin.microsoft.com`  <br/> | В Центр администрирования Microsoft 365  <br/>  Security &amp; Compliance Center  <br/>  Центр администрирования Exchange  <br/>  SharePoint центра администрирования и OneDrive для бизнеса центра администрирования  <br/> |
 |Enterprise Mobility + Security  <br/> |`https://portal.azure.com`  <br/> | Azure Active Directory  <br/>  Управление мобильными приложениями Майкрософт  <br/>  Microsoft Intune  <br/> |
 |Enterprise Mobility + Security  <br/> |`https://portal.cloudappsecurity.com`  <br/> | Cloud App Security  <br/> |

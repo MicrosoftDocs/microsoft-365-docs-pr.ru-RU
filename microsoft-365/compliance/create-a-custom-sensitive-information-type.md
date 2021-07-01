@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Узнайте, как создавать, изменять, удалять и тестировать настраиваемые типы конфиденциальных сведений для DLP в центре & соответствия требованиям.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 911d2dc3a4adeb79e2b41f3a450bbc446feee916
-ms.sourcegitcommit: a6fb731fdf726d7d9fe4232cf69510013f2b54ce
+ms.openlocfilehash: 451b5b222b06ba1ec9770a5e49cc66c5c0f68719
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52683847"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227155"
 ---
 # <a name="get-started-with-custom-sensitive-information-types"></a>Начало работы с пользовательскими типами конфиденциальной информации
 
@@ -45,7 +45,7 @@ ms.locfileid: "52683847"
     - [функций](what-the-dlp-functions-look-for.md)
     - [доверительных уровней](sensitive-information-type-learn-about.md#more-on-confidence-levels)
  
-- Чтобы создать, тестировать и развернуть собственный тип конфиденциальной информации с помощью пользовательского интерфейса, необходимы разрешения глобального администратора или администратора соответствия требованиям. См. [сведения о ролях администраторов](/office365/admin/add-users/about-admin-roles?view=o365-worldwide) в Office 365.
+- Чтобы создать, тестировать и развернуть собственный тип конфиденциальной информации с помощью пользовательского интерфейса, необходимы разрешения глобального администратора или администратора соответствия требованиям. См. [сведения о ролях администраторов](/office365/admin/add-users/about-admin-roles) в Office 365.
 
 - У вашей организации должна быть подписка, например на Office 365 корпоративный, включающая защиту от потери данных (DLP). См. статью [Описание политики обмена сообщениями и соответствия требованиям](/office365/servicedescriptions/exchange-online-protection-service-description/messaging-policy-and-compliance-servicedesc). 
 

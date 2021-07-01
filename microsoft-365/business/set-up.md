@@ -30,12 +30,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Откройте для себя шаги установки Microsoft 365 бизнес премиум, включая добавление домена и пользователей, настройку политик безопасности и другие.
-ms.openlocfilehash: 3e15f16db2a233d2e11d444600398102b075932d
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 74a98e915577cf86ec32a706bd3b8f558f49db95
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624396"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227646"
 ---
 # <a name="set-up-microsoft-365-business-premium-in-the-setup-wizard"></a>Настройка Microsoft 365 бизнес премиум в мастере установки
 
@@ -69,7 +69,7 @@ ms.locfileid: "52624396"
     ![Снимок экрана страницы Personalize your sign-in.](../media/adddomain.png)
 
     
-4. Выполните действия мастера по созданию записей DNS в любом поставщике [DNS-хостинга](/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) для Microsoft 365, которые проверяют ваш домен. Если вы знаете свой узел домена, см. также [инструкции для узла](/office365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions).
+4. Выполните действия мастера по созданию записей DNS в любом поставщике [DNS-хостинга](/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) для Microsoft 365, которые проверяют ваш домен. Если вы знаете свой хост домена, см. также Добавить домен [в Microsoft 365.](/microsoft-365/admin/setup/add-domain)
 
     Если ваш поставщик услуг размещения — GoDaddy или другой узел, поддерживающий [подключение доменов](/office365/admin/get-help-with-domains/domain-connect), все просто: вам будет автоматически предложено войти в систему и разрешить Майкрософт проверить подлинность от вашего имени.
 
@@ -133,6 +133,6 @@ ms.locfileid: "52624396"
 
 Вы также можете установить Office отдельно. Инструкции [по установке Office на компьютере или Mac.](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658)
 
-## <a name="related-content"></a>См. также:
+## <a name="related-content"></a>Связанные материалы
 
-[Microsoft 365 для видео обучения бизнесу](../business-video/index.yml) (страница ссылки)
+[Обучающие видеоролики по Microsoft 365 для бизнеса](../business-video/index.yml) (страница ссылки)

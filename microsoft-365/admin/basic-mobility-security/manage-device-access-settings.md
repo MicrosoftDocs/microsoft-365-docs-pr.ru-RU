@@ -18,12 +18,12 @@ ms.custom:
 search.appverid:
 - MET150
 description: Базовая мобильность и безопасность могут помочь вам обеспечить безопасность и управление мобильными устройствами.
-ms.openlocfilehash: dd9d777798c2c96776a8f9b40a3c4dfe0b95702a
-ms.sourcegitcommit: 8849dd6f80217c29f427c7f008d918f30c792240
+ms.openlocfilehash: 24eeb1dfccef3d30e577b15ecb9d2fda4d902cdc
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49876952"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228163"
 ---
 # <a name="manage-device-access-settings-in-basic-mobility-and-security"></a>Управление настройками доступа к устройствам в Basic Mobility and Security
 
@@ -33,10 +33,10 @@ ms.locfileid: "49876952"
 
 1. Во входе Microsoft 365 с глобальной учетной записью администратора.
 
-2. В браузере введите:  [https://protection.office.com](https://protection.office.com/) .    
+2. В браузере введите:  [https://protection.office.com](https://protection.office.com/) .
 
-    >[!IMPORTANT]
-    >Если вы впервые используете базовую мобильность и безопасность для Microsoft 365 бизнес стандарт, активируйте его здесь: Активируйте базовую [безопасность и мобильность.](https://admin.microsoft.com/EAdmin/Device/IntuneInventory.aspx) После активации управления устройствами с помощью Office 365 [безопасности & соответствия](https://protection.office.com/)требованиям.
+    > [!IMPORTANT]
+    > Если вы впервые используете базовую мобильность и безопасность для Microsoft 365 бизнес стандарт, активируйте его здесь: Активируйте базовую [безопасность и мобильность.](https://admin.microsoft.com/EAdmin/Device/IntuneInventory.aspx) После активации управления устройствами с помощью Office 365 [безопасности & соответствия](https://protection.office.com/)требованиям.
 
 3. Перейдите к политике > **** устройств управления данными и выберите параметры доступа к устройствам для всей   >  **** **организации.**
 

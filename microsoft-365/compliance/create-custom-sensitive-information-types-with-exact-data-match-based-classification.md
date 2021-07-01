@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Узнайте о создании пользовательских типов конфиденциальной информации с помощью классификации на основе точного совпадения данных.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 05d5889ba690bdf61fd51044b3c059f1476342af
-ms.sourcegitcommit: 1c11035dd4432e34603022740baef0c8f7ff4425
+ms.openlocfilehash: e8f6c075d706da46d7163705f6aa9d0ca6cad1a2
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "52964660"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227131"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>Создание пользовательских типов конфиденциальной информации с помощью классификации на основе точного совпадения данных
 
@@ -66,7 +66,7 @@ ms.locfileid: "52964660"
 
 Классификация на основе EDM включена в следующие подписки:
 
-- Office 365 E5
+- Office 365 E5
 - Microsoft 365 E5
 - Соответствие требованиям Microsoft 365 E5
 - Защита информации и управление данными в Microsoft E5/A5
@@ -385,15 +385,15 @@ ms.locfileid: "52964660"
 - рабочая или учебная учетная запись для Microsoft 365, которая будет добавлена в группу безопасности **EDM\_DataUploaders**;
 - компьютер с Windows 10 или Windows Server 2016 с .NET версии 4.6.2 для запуска EDMUploadAgent;
 - каталог на компьютере отправки для следующего:
-    -  EDMUploadAgent
-    - конфиденциальный файл элемента в .csv или формате tsv, **PatientRecords.csv** в наших примерах
-    -  выходной хеш-файл и файл соли;
-    - имя хранилища данных из файла **edm.xml**. В этом примере: `PatientRecords`.
+  - EDMUploadAgent
+  - конфиденциальный файл элемента в .csv или формате tsv, **PatientRecords.csv** в наших примерах
+  - выходные файлы и файлы солей
+  - имя хранилища данных из файла **edm.xml**. В этом примере: `PatientRecords`.
 - Если вы использовали [мастер схемы точного соответствия данных и типа конфиденциальной информации](sit-edm-wizard.md), вам ***необходимо*** загрузить его
 
 #### <a name="set-up-the-security-group-and-user-account"></a>Настройка группы безопасности и учетной записи пользователя
 
-1. Как глобальный администратор перейдите в центр администрирования с помощью соответствующей [ссылки для вашей подписки](#portal-links-for-your-subscription) и [создайте группу безопасности](/office365/admin/email/create-edit-or-delete-a-security-group?view=o365-worldwide) с именем **EDM\_DataUploaders**.
+1. Как глобальный администратор перейдите в центр администрирования с помощью соответствующей [ссылки для вашей подписки](#portal-links-for-your-subscription) и [создайте группу безопасности](/office365/admin/email/create-edit-or-delete-a-security-group) с именем **EDM\_DataUploaders**.
 
 2. Добавьте одного или нескольких пользователей в группу безопасности **EDM\_DataUploaders**. (Эти пользователи будут управлять базой данных конфиденциальной информации.)
 
@@ -401,18 +401,17 @@ ms.locfileid: "52964660"
 
 Этот компьютер должен иметь прямой доступ к вашему клиенту Microsoft 365.
 
->[!NOTE]
+> [!NOTE]
+>
 > Перед началом этой процедуры убедитесь, что вы являетесь участником группы безопасности **EDM\_DataUploaders**.
-
-> [!TIP]
+>
 > Необязательно, вы можете выполнить проверку в отношении .csv или TSV-файла перед отправкой при запуске:
 >
->`EdmUploadAgent.exe /ValidateData /DataFile [data file] /Schema [schema file]`
+> `EdmUploadAgent.exe /ValidateData /DataFile [data file] /Schema [schema file]`
 >
->Для получения дополнительной информации обо всех поддерживаемых параметрах EdmUploadAgent.exe> запустите
+> Для получения дополнительной информации обо всех поддерживаемых параметрах EdmUploadAgent.exe> запустите
 >
 > `EdmUploadAgent.exe /?`
-
 
 #### <a name="links-to-edm-upload-agent-by-subscription-type"></a>Ссылки на агента отправки EDM по типу подписки
 

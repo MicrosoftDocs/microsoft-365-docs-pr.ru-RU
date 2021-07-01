@@ -14,12 +14,12 @@ ms.collection:
 - Adm_TOC
 ms.custom: AdminSurgePortfolio
 description: Удалите группы или политики, чтобы отключить базовую мобильность и безопасность.
-ms.openlocfilehash: 1d81aed01193fb2ba821ebc055958ac6cd8ac382
-ms.sourcegitcommit: 72795ec56a7c4db863dcaaff5e9f7c41c653fda8
+ms.openlocfilehash: 7ec4ec0d47668c21824d8e01e3845d637b9b0922
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52023873"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53228139"
 ---
 # <a name="turn-off-basic-mobility-and-security"></a>Отключение Basic Mobility + Security
 
@@ -29,16 +29,16 @@ ms.locfileid: "52023873"
 
 - Отключить базовую мобильность и безопасность для всех, удалив все политики устройств Basic Mobility и Security.
 
-Эти параметры удаляют правоприменители Basic Mobility и Security для устройств в организации. К сожалению, нельзя просто "отсутвить" базовую мобильность и безопасность после ее настройка. 
+Эти параметры удаляют правоприменители Basic Mobility и Security для устройств в организации. К сожалению, нельзя просто "отсутвить" базовую мобильность и безопасность после ее настройка.
 
->[!IMPORTANT]
->Будьте в курсе влияния на устройства пользователей при удалите группы безопасности пользователей из политик или удалите сами политики. Например, профили электронной почты и кэшные сообщения могут быть удалены в зависимости от устройства. Дополнительные сведения см.  [в публикации What happens when you delete a policy or remove a user from the policy?](../../admin/basic-mobility-security/create-device-security-policies.md)
+> [!IMPORTANT]
+> Будьте в курсе влияния на устройства пользователей при удалите группы безопасности пользователей из политик или удалите сами политики. Например, профили электронной почты и кэшные сообщения могут быть удалены в зависимости от устройства. Дополнительные сведения см.  [в публикации What happens when you delete a policy or remove a user from the policy?](../../admin/basic-mobility-security/create-device-security-policies.md)
 
 ## <a name="remove-user-security-groups-from-basic-mobility-and-security-device-policies"></a>Удаление групп безопасности пользователей из политик устройств Basic Mobility и Security
 
 1. В типе браузера:  [https://protection.office.com/devicev2](https://protection.office.com/devicev2) .
 
-2. Выберите политику устройства и выберите политику **редактирования.** 
+2. Выберите политику устройства и выберите политику **редактирования.**
 
 3. На странице  **Развертывание**   выберите **Удалить**.
 
@@ -48,11 +48,11 @@ ms.locfileid: "52023873"
 
 ## <a name="remove-basic-mobility-and-security-device-policies"></a>Удаление политик устройств с базовой мобильностью и безопасностью
 
-1.  В типе браузера:  [https://protection.office.com/devicev2](https://protection.office.com/devicev2) . 
+1. В типе браузера:  [https://protection.office.com/devicev2](https://protection.office.com/devicev2) .
 
-2.  Выберите политику устройства, а затем выберите  **политику Удаления.**
-    
-3.  В диалоговом окне Предупреждение выберите **Да**.
+2. Выберите политику устройства, а затем выберите  **политику Удаления.**
 
->[!NOTE]
->Дополнительные действия по разблокировать устройства, если устройства организации по-прежнему находятся в заблокированном состоянии, см. в записи блога Удаление управления [доступом из Управление мобильными устройствами для Office 365.](https://techcommunity.microsoft.com/t5/Intune-Customer-Success/Removing-Access-Control-from-Mobile-Device-Management-for-Office/ba-p/279934)
+3. В диалоговом окне Предупреждение выберите **Да**.
+
+> [!NOTE]
+> Дополнительные действия по разблокировать устройства, если устройства организации по-прежнему находятся в заблокированном состоянии, см. в записи блога Удаление управления [доступом из Управление мобильными устройствами для Office 365.](https://techcommunity.microsoft.com/t5/Intune-Customer-Success/Removing-Access-Control-from-Mobile-Device-Management-for-Office/ba-p/279934)

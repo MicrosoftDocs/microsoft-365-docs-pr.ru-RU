@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: bda9633ab37fd21fd66b3a8a53d4dd522e48ced1
-ms.sourcegitcommit: 8b1bd7ca8cd81e4270f0c1e06d2b6ca81804a6aa
+ms.openlocfilehash: b7eb225f04f531c3b6de71bf72df0f8062a8c93d
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "50820282"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226507"
 ---
 # <a name="insider-risk-management-audit-log"></a>Журнал аудита управления рисками изнутри
 
@@ -38,8 +38,8 @@ ms.locfileid: "50820282"
 
 Чтобы просмотреть и экспортировать данные из журнала аудита, необходимо, чтобы пользователи были назначены группам ролей *Insider Risk Management* или *Insider Risk Management Auditors.* Дополнительные информацию о группах ролей для управления рисками, связанных с инсайдерской оценкой рисков, см. в рубрике Начало работы с инсайдерской ролью управления рисками Шаг [1: Включение разрешений.](insider-risk-management-configure.md#step-1-enable-permissions-for-insider-risk-management)
 
->[!NOTE]
->Журнал аудита управления рисками для инсайдеров не связан с журналом аудита Microsoft 365, это независимые системы аудита и захват сведений о отдельных действиях. Отключение Microsoft 365 аудита не влияет на аудит действий в рамках управления рисками.
+> [!NOTE]
+> Журнал аудита управления рисками для инсайдеров не связан с журналом аудита Microsoft 365, это независимые системы аудита и захват сведений о отдельных действиях. Отключение Microsoft 365 аудита не влияет на аудит действий в рамках управления рисками.
 
 ## <a name="view-activity-in-the-insider-risk-audit-log"></a>Просмотр действий в журнале аудита рисков, связанных с инсайдерской деятельностью
 

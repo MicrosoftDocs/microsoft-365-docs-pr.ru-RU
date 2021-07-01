@@ -14,12 +14,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Используйте Диспетчер конфигурации для развертывания пакета конфигурации на устройствах, чтобы они были размещены в службе.
-ms.openlocfilehash: ac05581ce33e94859dbd67848197878595d5ed0f
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: d2db35e50d31a0a19076965da6dcecf9cfeef826
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893300"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226901"
 ---
 # <a name="onboard-windows-10-devices-using-configuration-manager"></a>Подключение устройств Windows 10 с помощью Configuration Manager
 
@@ -35,7 +35,7 @@ ms.locfileid: "51893300"
 2. В области навигации выберите **Параметры**  >  **onboarding**  >  устройства.
 
 3. В поле **Метод развертывания** выберите Microsoft Endpoint Configuration Manager **2012/2012 R2/1511/1602**.
- 
+
 4. Выберите **пакет Загрузка** и сохраните .zip файл.
 
 5. Извлечение содержимого файла .zip в общее расположение только для чтения, к которому могут получить доступ сетевые администраторы, которые будут развертывать пакет. У вас должен быть файл с именем *DeviceComplianceOnboardingScript.cmd.*
@@ -47,12 +47,12 @@ ms.locfileid: "51893300"
 > [!NOTE]
 > Microsoft 365 Предотвращение потери данных конечной точки не поддерживает вовне на этапе [Out-Of-Box Experience (OOBE).](https://answers.microsoft.com/en-us/windows/wiki/windows_10/how-to-complete-the-windows-10-out-of-box/47e3f943-f000-45e3-8c5c-9d85a1a0cf87) Убедитесь, что пользователи заполняют OOBE после Windows установки или обновления.
 
->[!TIP]
+> [!TIP]
 > После работы на устройстве можно выполнить тест обнаружения, чтобы убедиться, что устройство правильно вошел в службу. Дополнительные сведения см. в таблице Выполнить тест обнаружения на недавно созданном [устройстве Microsoft Defender для конечных точек.](/windows/security/threat-protection/microsoft-defender-atp/run-detection-test)
 >
 > Обратите внимание, что в приложении Configuration Manager можно создать правило обнаружения, чтобы постоянно проверять, было ли устройство на борту. Приложение — это другой тип объекта, чем пакет и программа.
 > Если устройство еще не установлено (в связи с завершением OOBE или по какой-либо другой причине), диспетчер конфигурации будет повторно фиксироваться на борту устройства до тех пор, пока правило не обнаружит изменение состояния.
-> 
+>
 > Это поведение может быть выполнено путем проверки правила обнаружения, если значение реестра "OnboardingState" (типа REG_DWORD) = 1.
 > Это значение реестра расположено в статье "HKLM\SOFTWARE\Microsoft\Windows Advanced Threat Protection\Status".
 Дополнительные сведения см. в [руб. В System Center 2012 R2 Configuration Manager.](/previous-versions/system-center/system-center-2012-R2/gg682159(v=technet.10)#step-4-configure-detection-methods-to-indicate-the-presence-of-the-deployment-type)
@@ -61,8 +61,8 @@ ms.locfileid: "51893300"
 
 Для каждого устройства можно установить значение конфигурации, чтобы определить, можно ли собирать образцы с устройства при Центр безопасности в Microsoft Defender отправки файла для глубокого анализа.
 
->[!NOTE]
->Эти параметры конфигурации обычно делаются с помощью Configuration Manager. 
+> [!NOTE]
+> Эти параметры конфигурации обычно делаются с помощью Configuration Manager.
 
 Вы можете установить правило соответствия требованиям для элемента конфигурации в диспетчере конфигурации, чтобы изменить пример параметров обмена данными на устройстве.
 
@@ -112,7 +112,7 @@ Value: 0 or 1
 
 **Уменьшение поверхности атаки** Настройка всех доступных правил для аудита.
 
->[!NOTE]
+> [!NOTE]
 > Блокировка этих действий может прервать законные бизнес-процессы. Оптимальный подход — настройка всех параметров аудита, определение безопасных для включения и включение параметров конечных точек, не обнаруживающих ложных срабатывающих объектов.
 
 **Защита сети**
@@ -147,7 +147,7 @@ Value: 0 or 1
 3. Выберите Windows 10 в качестве операционной системы.
 
 4. В поле **Метод развертывания** выберите Microsoft Endpoint Configuration Manager **2012/2012 R2/1511/1602**.
-    
+
 5. Выберите **пакет Загрузка** и сохраните .zip файл.
 
 6. Извлечение содержимого файла .zip в общее расположение только для чтения, к которому могут получить доступ сетевые администраторы, которые будут развертывать пакет. У вас должен быть *файл с DeviceComplianceOffboardingScript_valid_until_YYYY-MM-DD.cmd.*
@@ -162,7 +162,7 @@ Value: 0 or 1
 
 ## <a name="monitor-device-configuration"></a>Мониторинг конфигурации устройства
 
-Если вы используете текущую Microsoft Endpoint Configuration Manager, используйте встроенную панель мониторинга Microsoft Defender для конечных точек в консоли Configuration Manager. Дополнительные сведения см. [в Расширенная защита от угроз в Microsoft Defender - Monitor](/configmgr/protect/deploy-use/windows-defender-advanced-threat-protection#monitor).
+Если вы используете текущую Microsoft Endpoint Configuration Manager, используйте встроенную панель мониторинга Microsoft Defender для конечных точек в консоли Configuration Manager. Дополнительные сведения см. в [сайте Microsoft Defender Advanced Threat Protection - Monitor.](/configmgr/protect/deploy-use/windows-defender-advanced-threat-protection#monitor)
 
 Если вы используете System Center 2012 R2 Configuration Manager, мониторинг состоит из двух частей:
 
@@ -180,7 +180,7 @@ Value: 0 or 1
 
 4. Просмотрите индикаторы состояния в **статье Статистика завершения** и состояние **контента.**
 
-    При сбойных развертываниях (устройствах с ошибками, невыполнением требований или сбойных состояниях) может потребоваться устранение неполадок устройств. Дополнительные сведения см. в Расширенная защита от угроз в Microsoft Defender [устранение неполадок.](/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding)
+    При сбойных развертываниях (устройствах с ошибками, невыполнением требований или сбойных состояниях) может потребоваться устранение неполадок устройств. Дополнительные сведения см. в выпуске [Устранение неполадок с защитой](/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding)от расширенных угроз Microsoft Defender.
 
     ![Диспетчер конфигурации, показывающий успешное развертывание без ошибок](../media/sccm-deployment.png)
 
@@ -201,10 +201,10 @@ Value: “1”
 ```
 Дополнительные сведения см. в введении параметров соответствия требованиям [в System Center R2 Configuration Manager 2012.](/previous-versions/system-center/system-center-2012-R2/gg682139(v=technet.10))
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Похожие темы
 - [Onboard Windows 10 с помощью групповой политики](dlp-configure-endpoints-gp.md)
 - [Подключение устройств Windows 10 с помощью средств управления мобильными устройствами](dlp-configure-endpoints-mdm.md)
 - [Подключение устройств Windows 10 с помощью локального сценария](dlp-configure-endpoints-script.md)
 - [Подключение временных устройств инфраструктуры виртуальных рабочих столов (VDI)](dlp-configure-endpoints-vdi.md)
 - [Запустите тест обнаружения на недавно созданном устройстве Microsoft Defender для конечных точек](/windows/security/threat-protection/microsoft-defender-atp/run-detection-test)
-- [Устранение неполадок Расширенная защита от угроз в Microsoft Defender бортовых проблем](/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding)
+- [Устранение неполадок с бортовой защитой расширенных угроз Microsoft Defender](/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding)

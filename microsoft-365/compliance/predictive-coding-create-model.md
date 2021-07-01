@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: Узнайте, как создать модель прогностического кодирования в Advanced eDiscovery. Это первый шаг в использовании возможностей машинного обучения в Advanced eDiscovery, чтобы помочь вам определить релевантный и не релевантный контент в наборе обзоров.
-ms.openlocfilehash: 7724062848d8d757fbfd3a7870853d6f2c409d84
-ms.sourcegitcommit: 50908a93554290ff1157b58d0a868a33e012513c
+ms.openlocfilehash: ab84f529169c780e58888cc2726fbabfef33219e
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52822636"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226231"
 ---
 # <a name="create-a-predictive-coding-model-preview"></a>Создание модели прогностического кодирования (предварительный просмотр)
 
@@ -37,7 +37,7 @@ ms.locfileid: "52822636"
 
 ## <a name="create-a-model"></a>Создание модели
 
-1. В центре Microsoft 365, откройте Advanced eDiscovery, а затем выберите вкладку **Наборы отзывов.**
+1. В Центр соответствия требованиям Microsoft 365 откройте Advanced eDiscovery и выберите вкладку **Наборы обзоров.**
 
 2. Откройте набор обзоров и нажмите **кнопку Analytics**  >  **Manage прогностическое кодирование (предварительный просмотр).**
 

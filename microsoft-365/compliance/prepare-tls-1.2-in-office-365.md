@@ -13,12 +13,12 @@ ms.author: shmehta
 ms.reviewer: krowley
 appliesto:
 - Office 365 Business
-ms.openlocfilehash: cbd1ff5f2baf17e9a45a64e46d2e9f9f02e1fb68
-ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
+ms.openlocfilehash: 331dd1ea510983e57c069f8d142aa0f7d3f7062e
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/18/2021
-ms.locfileid: "53007433"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53226087"
 ---
 # <a name="preparing-for-tls-12-in-office-365-and-office-365-gcc"></a>Подготовка к TLS 1.2 в Office 365 и Office 365 GCC
 
@@ -70,7 +70,7 @@ Surface Hub выпустила поддержку TLS 1.2 в мае 2019 год�
 Следующие ресурсы содержат руководство по использованию протокола TLS 1.2 или более поздней версии и для отключения TLS 1.0 и 1.1.
 
 - Клиенты Windows 7, которые подключаются к Office 365, должны убедиться, что TLS 1.2 является безопасным протоколом по умолчанию в WinHTTP в Windows. Дополнительные сведения см. в статье [базы знаний 3140245 - Обновление для включения TLS 1.1 и TLS 1.2 в качестве стандартных протоколов по умолчанию в WinHTTP в Windows](https://support.microsoft.com/help/3140245/update-to-enable-tls-1-1-and-tls-1-2-as-a-default-secure-protocols-in).
-- [Наборы шифров TLS, поддерживаемые Office 365](/microsoft-365/compliance/technical-reference-details-about-encryption?view=o365-worldwide#tls-cipher-suites-supported-by-office-365)
+- [Наборы шифров TLS, поддерживаемые Office 365](/microsoft-365/compliance/technical-reference-details-about-encryption#tls-cipher-suites-supported-by-office-365)
 - Чтобы начать адресацию слабого использования TLS, удалив зависимости TLS 1.0 и 1.1, см. поддержку [TLS 1.2 в Microsoft](https://cloudblogs.microsoft.com/microsoftsecure/2017/06/20/tls-1-2-support-at-microsoft/).
 - [Новые функциональные возможности IIS](https://cloudblogs.microsoft.com/microsoftsecure/2017/09/07/new-iis-functionality-to-help-identify-weak-tls-usage/) упрощают поиск клиентов в [Windows Server 2012 R2](https://support.microsoft.com/help/4025335/windows-8-1-windows-server-2012-r2-update-kb4025335) и [Windows Server 2016](https://support.microsoft.com/help/4025334/windows-10-update-kb4025334), которые подключаются к службе с помощью слабых протоколов безопасности.
 - Дополнительные сведения о том, как решить проблему [TLS 1.0.](https://www.microsoft.com/download/details.aspx?id=55266)
