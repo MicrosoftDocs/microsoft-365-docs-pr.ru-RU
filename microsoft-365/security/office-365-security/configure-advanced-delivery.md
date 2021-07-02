@@ -17,12 +17,12 @@ ms.custom: ''
 description: Администраторы могут узнать, как использовать передовую политику доставки в Exchange Online Protection (EOP) для идентификации сообщений, которые не должны фильтроваться в определенных поддерживаемых сценариях (сторонние фишинговые симуляции и сообщения, доставленные в почтовые ящики операций безопасности (SecOps).
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 01d35c1f0c7abc7b6ce34fc9c2ec4d5fd5b228ae
-ms.sourcegitcommit: 410f6e1c6cf53c3d9013b89d6e0b40a050ee9cad
+ms.openlocfilehash: 053f88da96983b03ad03e75c11a4fa692ac6a850
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53137743"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256871"
 ---
 # <a name="configure-the-delivery-of-third-party-phishing-simulations-to-users-and-unfiltered-messages-to-secops-mailboxes"></a>Настройка доставки сторонних фишинговых симуляций пользователям и неотображемых сообщений в почтовые ящики SecOps
 
@@ -34,7 +34,7 @@ ms.locfileid: "53137743"
 > [!NOTE]
 > Функция, описанная в этой статье, доступна не всем и подлежит изменениям.
 
-Чтобы обеспечить безопасность организации по [умолчанию,](secure-by-default.md)Exchange Online Protection (EOP) не разрешает безопасные списки или обход фильтрации для сообщений, которые определены как вредоносные программы или высокой достоверности фишинга. Но существуют определенные сценарии, которые требуют доставки неотобраченных сообщений. Например:
+Чтобы обеспечить безопасность организации по [умолчанию,](secure-by-default.md)Exchange Online Protection (EOP) не разрешает безопасные списки или обход фильтрации для сообщений, которые определены как вредоносные программы или высокой достоверности фишинга. Но существуют определенные сценарии, которые требуют доставки неотобраченных сообщений. Пример:
 
 - **Сторонние имитации фишинга.** Имитация атак может помочь вам идентифицировать уязвимых пользователей до того, как реальная атака ударит по организации.
 - Почтовые ящики операций безопасности **(SecOps)**— выделенные почтовые ящики, используемые группами безопасности для сбора и анализа неотобраченных сообщений (как хороших, так и плохих).
@@ -91,7 +91,7 @@ ms.locfileid: "53137743"
 
      Чтобы удалить существующее значение, нажмите "Удалить". ![Значок "Удалить"](../../media/m365-cc-sc-remove-selection-icon.png) рядом со значением.
 
-4. Выполнив необходимые действия, нажмите кнопку **Сохранить**.
+4. По завершении нажмите кнопку **Сохранить**.
 
 Настроенные записи почтовых ящиков SecOps отображаются на вкладке **почтовый ящик SecOps.** Чтобы внести изменения, нажмите ![ кнопку Изменить ](../../media/m365-cc-sc-edit-icon.png) **значок Изменить** на вкладке.
 
@@ -161,7 +161,7 @@ New-SecOpsOverridePolicy -Name SecOpsOverridePolicy -SentTo <EmailAddress1>,<Ema
 В этом примере создается политика почтовых ящиков SecOps.
 
 ```powershell
-New-SecOpsOverridePolicy -Name SecOpsOverridePolicy -SendTo secops@contoso.com
+New-SecOpsOverridePolicy -Name SecOpsOverridePolicy -SentTo secops@contoso.com
 ```
 
 Подробные сведения о синтаксисах и параметрах см. в [обзоре New-SecOpsOverridePolicy.](/powershell/module/exchange/new-secopsoverridepolicy)
@@ -293,7 +293,7 @@ New-PhishSimOverridePolicy -Name PhishSimOverridePolicy
 
 #### <a name="step-2-use-powershell-to-create-the-phishing-simulation-override-rule"></a>Шаг 2. Использование PowerShell для создания правила переопределения фишинговых симуляций
 
-Используйте следующий синтаксис.
+Используйте следующий синтаксис:
 
 ```powershell
 New-PhishSimOverrideRule -Name PhishSimOverrideRule -Policy PhishSimOverridePolicy -SenderDomainIs <Domain1>,<Domain2>,...<DomainN> -SenderIpRanges <IPAddressEntry1>,<IPAddressEntry2>,...<IPAddressEntryN>

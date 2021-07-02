@@ -19,13 +19,13 @@ ms.custom:
 - commerce_licensing
 search.appverid: MET150
 description: Узнайте, как просмотреть и утвердить или запретить запросы лицензий от пользователей для Microsoft 365 подписки для бизнеса.
-ms.date: 08/07/2020
-ms.openlocfilehash: 6cbfd81f4f6deba642729f1fef0b826b07a99f56
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.date: 06/07/2021
+ms.openlocfilehash: 23258d21ebb413c56323aa4dab25cee60baf2be0
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52535678"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256811"
 ---
 # <a name="manage-license-requests"></a>Управление запросами лицензий
 
@@ -39,7 +39,7 @@ ms.locfileid: "52535678"
 
 Чтобы увидеть и управлять запросами лицензий, администратор использует вкладку **Запросы** на **странице Лицензирование.** В списке показаны имя запрашиваемого продукта, имя запрашиваемого лица, запрашивающий лицензию, запрашиваемая дата и состояние запроса. Администраторы могут фильтровать список, чтобы показывать ожидающих или завершенных запросов. Запросы проводятся в течение 30 дней.
 
-## <a name="before-you-begin"></a>Прежде чем начать
+## <a name="before-you-begin"></a>Подготовка
 
 Вы должны быть глобальным администратором для выполнения задач в этой статье. Дополнительные сведения см. в статье [О ролях администраторов](../../admin/add-users/about-admin-roles.md).
 
@@ -77,7 +77,7 @@ ms.locfileid: "52535678"
 9. Закрой правую области.
     Пользователи получают сообщение электронной почты, в которое сообщается, что их запрос был утвержден или отклонен.
 
-## <a name="related-content"></a>См. также:
+## <a name="related-content"></a>Связанные материалы
 
 [Назначение лицензий пользователям](../../admin/manage/assign-licenses-to-users.md) (статья)\
 [Перемещение пользователей в другую подписку](../subscriptions/move-users-different-subscription.md) (статья)\

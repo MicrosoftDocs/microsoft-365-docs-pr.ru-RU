@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 4175d3bedff86dc7f8cdafc1ff2366ca1c9cffc4
-ms.sourcegitcommit: d0c160e89e17f451199bc4a85699effd2d935213
+ms.openlocfilehash: 008263bfb948d1a2c52031635d074aca323e6764
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52893744"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256895"
 ---
 # <a name="microsoft-defender-for-endpoint-on-linux"></a>Microsoft Defender для конечной точки в Linux
 
@@ -43,7 +43,7 @@ ms.locfileid: "52893744"
 
 ## <a name="how-to-install-microsoft-defender-for-endpoint-on-linux"></a>Установка Microsoft Defender для конечной точки на Linux
 
-### <a name="prerequisites"></a>Предварительные требования
+### <a name="prerequisites"></a>Необходимые условия
 
 - Доступ к порталу Центр безопасности в Microsoft Defender
 - Дистрибуция Linux с [помощью системного системного](https://systemd.io/) диспетчера
@@ -70,7 +70,8 @@ ms.locfileid: "52893744"
   - Средства управления сторонними средствами управления:
     - [Развертывание с помощью средства управления конфигурацией Puppet](linux-install-with-puppet.md)
     - [Развертывание с помощью средства управления конфигурацией Ansible](linux-install-with-ansible.md)
-
+    - [Развертывание с помощью средства управления конфигурацией Chef](linux-deploy-defender-for-endpoint-with-chef.md)
+    
 Если вы испытываете какие-либо сбои в установке, обратитесь к устранению неполадок установки в [Microsoft Defender для конечной точки на Linux](linux-support-install.md).
 
 

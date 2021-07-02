@@ -23,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: 77f90d4a-dc7f-4f09-8972-c1b03ea85a67
 description: Соберите значения и сведения, необходимые для создания записей DNS для подключения домена к Microsoft 365 подписке.
-ms.openlocfilehash: e65d53269f5fb8625b12c4eb22f78516818045be
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: def9fbe201e158f1e071a67caeaf29ed26732f97
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635730"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256847"
 ---
 # <a name="gather-the-information-you-need-to-create-dns-records"></a>Сбор сведений, необходимых для создания записей DNS
 
@@ -38,29 +38,29 @@ ms.locfileid: "52635730"
 
 ::: moniker range="o365-worldwide"
 
-1. В центре Microsoft 365 администрирования перейдите на страницу **Setup** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domains.</a>
+1. В Центр администрирования Microsoft 365 перейдите на **страницу Параметры** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Домены.</a>
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. В центре администрирования перейдите на страницу **Setup** > <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">Domains.</a>
+1. В Центре администрирования перейдите на страницу **Settings** (Параметры) > <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">Domains</a> (Домены).
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. В центре администрирования перейдите на страницу **Setup** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">Domains.</a>
+1. В Центре администрирования перейдите на страницу **Settings** (Параметры) > <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">Domains</a> (Домены).
 
 ::: moniker-end
     
 2. На странице **Домены** выберите домен, а затем выберите **настройку Начните.** Вы вернетесь в мастер настройки доменов, чтобы просмотреть значение, которое нужно добавить.
     
-3. На странице **Проверка домена** выберите **Добавить запись TXT** вместо этого, а затем выберите **Далее**.
+3. На странице **Проверка домена** выберите Добавить запись **TXT в DNS-записи** домена, а затем выберите **Продолжить**.
     
 4. Скопируйте **показанные значения TXT.** Выглядит так: **MS=msXXXXXXXXXXX.** 
     
-5. Перейдите [к созданию записей DNS](create-dns-records-at-any-dns-hosting-provider.md)в любом поставщике DNS-хостинга и выберите свой DNS-хост из списка регистраторов, чтобы пошаговых инструкций.
+5. Перейдите [к добавлению записей DNS](create-dns-records-at-any-dns-hosting-provider.md)для подключения домена и выполните действия по добавлению записей на веб-сайте хоста DNS.
     
 6. Выполните действия по созданию записи TXT (или записи MX) в вашем DNS-хозяйте, а затем проверьте домен в Microsoft 365.
 
@@ -70,32 +70,32 @@ ms.locfileid: "52635730"
 
 ::: moniker range="o365-worldwide"
 
-1. В центре Microsoft 365 администрирования перейдите на страницу **Setup** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domains.</a>
+1. В Центр администрирования Microsoft 365 перейдите на **страницу Параметры** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Домены.</a>
 
 ::: moniker-end
     
 ::: moniker range="o365-germany"
 
-1. В центре администрирования перейдите на страницу **Setup** > <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">Domains.</a>
+1. В Центре администрирования перейдите на страницу **Settings** (Параметры) > <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">Domains</a> (Домены).
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. В центре администрирования перейдите на страницу **Setup** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">Domains.</a>
+1. В Центре администрирования перейдите на страницу **Settings** (Параметры) > <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">Domains</a> (Домены).
 
 ::: moniker-end
     
-2. На странице **Домены** щелкните свой домен. 
+2. На странице **Домены** щелкните свой домен.
     
-3. В разделе **Обязательные параметры DNS** вы увидите записи DNS, которые нужно добавить.
+3. Выберите **Управление DNS,** выберите **дополнительные параметры** Добавить свой собственный DNS и выберите Продолжить просмотр  >   записей DNS, чтобы добавить. 
     
     Эти сведения понадобятся во время внесения изменений на узле DNS, чтобы можно было скопировать и вставить значения.
     
     То, какие группы записей DNS будут перечислены на странице, зависит от выбранных вами параметров в разделе **Назначение домена**.
     
-4. Перейдите к созданию записей [DNS](create-dns-records-at-any-dns-hosting-provider.md)в любом поставщике DNS-хостинга, а затем выберите свой DNS-хост из списка регистраторов, чтобы пошаговых инструкций по добавлению записей на веб-сайте этого ведущего DNS.
-    
+4. Перейдите [к добавлению записей DNS](create-dns-records-at-any-dns-hosting-provider.md)для подключения домена и выполните действия по добавлению записей на веб-сайте хоста DNS.
+
 5. Следуйте указаниям, чтобы создать записи в своем узле DNS.
 
 ## <a name="related-content"></a>См. также:

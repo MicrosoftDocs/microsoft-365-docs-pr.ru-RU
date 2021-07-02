@@ -3,7 +3,7 @@ title: Использование Microsoft Teams классов с Canvas
 ms.author: v-cichur
 author: cichur
 manager: serdars
-ms.reviewer: amitman
+ms.reviewer: sovaish
 audience: admin
 ms.topic: article
 ms.service: o365-administration
@@ -13,12 +13,12 @@ ms.collection: M365-modern-desktop
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 description: Интеграция Microsoft Teams классов с Canvas
-ms.openlocfilehash: 8e28cc8401dbf37d6e780b8f56dc300982abd0cc
-ms.sourcegitcommit: 410f6e1c6cf53c3d9013b89d6e0b40a050ee9cad
+ms.openlocfilehash: 50e4e8ef912a8f19f379bba29b328a5a27358b5c
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53137683"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256907"
 ---
 # <a name="use-microsoft-teams-classes-with-canvas"></a>Использование Microsoft Teams классов с Canvas
 
@@ -32,18 +32,18 @@ Microsoft Teams классов — это приложение Обучение 
 Перед управлением интеграцией Microsoft Teams в Instructure Canvas важно, чтобы приложение **Microsoft-Teams-Sync-for-Canvas** Azure было одобрено администратором Microsoft Office 365 учреждения в клиенте Microsoft Azure, прежде чем завершить установку администрирования Canvas.
 
 1. Во входе в Canvas.
- 
+
 2. Выберите **ссылку Администратор** в глобальной навигации, а затем выберите учетную запись.
 
-3. В навигации администратора выберите **ссылку Параметры,** а затем вкладку **Интеграции.** 
+3. В навигации администратора выберите **ссылку Параметры,** а затем вкладку **Интеграции.**
 
 4. Включение Microsoft Teams синхронизации, включив очки.
 
    ![teams-sync](media/teams-sync.png)
 
-5. Введите имя клиента Майкрософт и атрибут входа. 
+5. Введите имя клиента Майкрософт и атрибут входа.
 
-   Атрибут входа будет использоваться для связи пользователя Canvas с Azure Active Directory пользователем. 
+   Атрибут входа будет использоваться для связи пользователя Canvas с Azure Active Directory пользователем.
 
 6. Выберите **обновление Параметры** один раз.
 
@@ -52,7 +52,7 @@ Microsoft Teams классов — это приложение Обучение 
    ![permissions](media/permissions.png)
 
 8. Выберите **Accept**.
- 
+
 ## <a name="canvas-admin"></a>Администрирование Canvas
 
 Настройка интеграции Microsoft Teams LTI 1.3.
@@ -63,8 +63,8 @@ Microsoft Teams классов — это приложение Обучение 
 
 1. Access **Admin settings**  >  **Apps**.
 
-2. Выберите **+ Приложение,** чтобы добавить Teams приложения LTI. 
- 
+2. Выберите **+ Приложение,** чтобы добавить Teams приложения LTI.
+
    ![внешние приложения](media/external-apps.png)
 
 3. Выберите **по client ID** для типа конфигурации.
@@ -72,8 +72,8 @@ Microsoft Teams классов — это приложение Обучение 
    ![добавление приложения](media/add-app.png)
 
 4. Введите предоставленный клиентский ID и выберите **Отправить**.
-   
-   Вы заметите имя приложения Microsoft Teams классов LTI для client ID для подтверждения. 
+
+   Вы заметите имя приложения Microsoft Teams классов LTI для client ID для подтверждения.
 
 5. Нажмите кнопку **Установить**.
 

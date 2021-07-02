@@ -1,5 +1,5 @@
 ---
-title: Настройка соединитетеля для архива данных ServiceNow в Microsoft 365
+title: Настройка соединителя для архива данных ServiceNow 17a-4 DataParser в Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Узнайте, как настроить и использовать соединителя 17a-4 ServiceNow DataParser для импорта и архива данных ServiceNow в Microsoft 365.
-ms.openlocfilehash: 9faa5fb1bf03bb7ab1e97b0bbd24aad4c38e91ae
-ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
+ms.openlocfilehash: 992f34864f0de7ddff1f8159e9970157bcffb964
+ms.sourcegitcommit: 8c6a5db0dab99a82a69dd8a0a7c56af1cb825931
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53097164"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53276969"
 ---
 # <a name="set-up-a-connector-to-archive-servicenow-data-preview"></a>Настройка соединитетеля для архива данных ServiceNow (предварительный просмотр)
 

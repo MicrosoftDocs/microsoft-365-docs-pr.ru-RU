@@ -20,12 +20,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: d76bc36ca8c79d318e1b632517e2a182857627ff
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: f099d7bd180843530d23d0bbcee89dc8ae35cdbb
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53227347"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256739"
 ---
 # <a name="get-started-with-communication-compliance"></a>Начало работы с соответствием требованиям к обмену данными
 
@@ -76,7 +76,7 @@ ms.locfileid: "53227347"
 
 ### <a name="option-1-assign-all-compliance-users-to-the-communication-compliance-role-group"></a>Вариант 1. Назначить всех пользователей соответствия требованиям в группу ролей соответствия требованиям связи
 
-1. [https://protection.office.com/permissions](https://protection.office.com/permissions)Впишитесь в использование учетных данных для учетной записи администратора в Microsoft 365 организации.
+1. [https://compliance.microsoft.com/permissions](https://compliance.microsoft.com/permissions)Впишитесь в использование учетных данных для учетной записи администратора в Microsoft 365 организации.
 
 2. В Центре соответствия &amp; требованиям безопасности перейдите к **разрешениям.** Выберите ссылку для просмотра и управления ролями в Office 365.
 
@@ -94,7 +94,7 @@ ms.locfileid: "53227347"
 
 Используйте этот параметр, чтобы назначить пользователей определенным группам ролей для сегментации доступа к связи и обязанностей между различными пользователями в вашей организации.
 
-1. [https://protection.office.com/permissions](https://protection.office.com/permissions)Впишитесь в использование учетных данных для учетной записи администратора в Microsoft 365 организации.
+1. [https://compliance.microsoft.com/permissions](https://compliance.microsoft.com/permissions)Впишитесь в использование учетных данных для учетной записи администратора в Microsoft 365 организации.
 
 2. В Центре соответствия &amp; требованиям безопасности перейдите к **разрешениям.** Выберите ссылку для просмотра и управления ролями в Office 365.
 

@@ -22,12 +22,12 @@ ms.custom:
 search.appverid: MET150
 description: Добавьте хранилище файлов в Microsoft 365 подписку. С помощью дополнительного хранилища файлов можно хранить больше контента в SharePoint и OneDrive.
 ms.date: 04/02/2021
-ms.openlocfilehash: 14b688e850f62a06c39e4a315d871202e57d70d6
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: dee7debfbd2b624f3bf82bd573c81e7e1373b31e
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635862"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256823"
 ---
 # <a name="add-storage-space-for-your-subscription"></a>Добавление пространства для хранения для подписки
 
@@ -36,7 +36,7 @@ ms.locfileid: "52635862"
 > [!NOTE]
 > Если вы приобрели подписку через корпоративное лицензирование или  CSP, вы не можете купить Office 365 с дополнительным хранилищем вашей организации непосредственно у Корпорации Майкрософт. Обратитесь за помощью к представителю или партнеру.
 
-## <a name="before-you-begin"></a>Прежде чем начать
+## <a name="before-you-begin"></a>Подготовка
 
 Вы должны быть глобальным или администратором SharePoint для выполнения задач в этой статье. Дополнительные сведения см. в статье [О ролях администраторов](../admin/add-users/about-admin-roles.md).
 
@@ -87,8 +87,10 @@ ms.locfileid: "52635862"
 - Office 365 для предприятий E3
 - Office 365 корпоративный E4
 - Office 365 корпоративный E5
-- Office веб-страницы с SharePoint 1
-- Office веб-страницы с SharePoint Plan 2
+- Office 365 A3 (факультет)
+- Office 365 A5 (факультет)
+- Office для Интернета с SharePoint 1
+- Office для Интернета с SharePoint 2
 - SharePoint Online (план 1)
 - SharePoint Online (план 2)
 - Microsoft 365 бизнес базовый
@@ -101,7 +103,7 @@ ms.locfileid: "52635862"
 > [!NOTE]
 > Office 365 с дополнительным хранилищем также доступен для GCC, GCC и doD-планов.
 
-## <a name="related-content"></a>См. также:
+## <a name="related-content"></a>Связанные материалы
 
 [Управление ограничениями хранения сайтов](/sharepoint/manage-site-collection-storage-limits) (статья)\
 [Установите пространство хранения по умолчанию для OneDrive пользователей](/onedrive/set-default-storage-space) (статья)

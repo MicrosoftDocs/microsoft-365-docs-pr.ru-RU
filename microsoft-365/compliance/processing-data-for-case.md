@@ -18,16 +18,16 @@ ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
 description: Обзор обработки различных форм данных в Advanced eDiscovery.
-ms.openlocfilehash: d7969b1ef77fc161cccc85a8dee020ebe21acdb0
-ms.sourcegitcommit: 98b889e674ad1d5fa37d4b6c5fc3eda60a1d67f3
+ms.openlocfilehash: ad723195ab0ae8a8d1200428bde00e2fcb0094ae
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "49751516"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256307"
 ---
 # <a name="work-with-processing-errors-in-advanced-ediscovery"></a>Работа с ошибками обработки в Advanced eDiscovery
 
-*Обработка* — это процесс идентификации файлов, расширения встроенных документов и вложений, извлечения текста и оптического распознавания символов (OCR)) файлов изображений и последующей индексации этого контента.  
+*Обработка* — это процесс идентификации файлов, расширения встроенных документов и вложений, извлечения текста и оптического распознавания символов файлов изображений и последующей индексации этого контента.  
 
 При добавлении хранителей и источников данных вне  опеки в дело на вкладке Источники все частично индексируемые элементы из Microsoft 365 обрабатываются, чтобы сделать их полностью поисковыми. Кроме того, если содержимое добавляется в набор обзоров как из Microsoft 365, так и из Microsoft 365, этот контент также обрабатывается.
 
