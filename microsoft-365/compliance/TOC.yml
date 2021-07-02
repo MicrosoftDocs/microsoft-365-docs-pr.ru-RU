@@ -114,7 +114,7 @@
           href: sit-modify-edm-schema-configurable-match.md
         - name: Создание уведомлений для действий точного соответствия данных (предварительная версия)
           href: sit-edm-notifications-activities.md
-        - name: Создание пользовательского типа конфиденциальной информации в Центре соответствия требованиям
+        - name: Начало работы с пользовательскими типами конфиденциальной информации — Центр соответствия требованиям
           href: create-a-custom-sensitive-information-type.md
         - name: Создание пользовательского типа конфиденциальной информации — PowerShell
           href: create-a-custom-sensitive-information-type-in-scc-powershell.md
@@ -417,6 +417,8 @@
               href: archive-reuterseikon-data.md
             - name: Reuters FX
               href: archive-reutersfx-data.md
+            - name: RingCentral
+              href: archive-ringcentral-data.md
             - name: Salesforce Chatter
               href: archive-salesforcechatter-data.md
             - name: ServiceNow
