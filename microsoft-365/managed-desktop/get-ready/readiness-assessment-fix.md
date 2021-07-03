@@ -10,12 +10,12 @@ ms.author: jaimeo
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 0296e8151162ad4f2855fdd29ff2fc0ed4b4d6b2
-ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
+ms.openlocfilehash: 9d2f9a95b3d5d90b79122d55477284083ea8332e
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53177577"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286889"
 ---
 # <a name="fix-issues-found-by-the-readiness-assessment-tool"></a>Исправление проблем, обнаруженных средством проверки готовности
 
@@ -27,7 +27,7 @@ ms.locfileid: "53177577"
 |Ready     | До завершения регистрации не требуется никаких действий.        |
 |Предупреждение    | Следуйте шагам в инструменте или этой статье для наилучшего опыта с регистрацией и для пользователей. Вы *можете* завершить регистрацию, но перед развертыванием первого устройства необходимо устранить эти проблемы.        |
 |Не готов | *Если вы не исправите эти проблемы, регистрация не состоится.* Выполните действия в инструменте или этой статье для их устранения.        |
-|Ошибка | Роль Azure Active Directory (AD), которую вы используете, не имеет достаточного разрешения для запуска этой проверки. |
+|Error | Роль Azure Active Directory (AD), которую вы используете, не имеет достаточного разрешения для запуска этой проверки. |
 
 > [!NOTE]
 > Результаты, полученные с помощью этого средства, отражают состояние параметров только в определенный момент времени, когда вы его запустили. Если позже внести какие-либо изменения в политики в Microsoft Intune, Azure Active Directory или Microsoft 365, элементы, которые были "Готовы", могут стать "Не готовы". Чтобы избежать проблем с компьютеры, управляемые Майкрософт операциями, ознакомьтесь с определенными настройками, описанными в этой статье, прежде чем менять какие-либо политики.
@@ -262,14 +262,13 @@ Windows 10 устройства в вашей организации Azure AD д
 
 Убедитесь, **что область пользователя MDM задарена** как **"Некоторые"** или **"Все",** а не **"Нет".** Если вы выбираете **Некоторые,** возвращайся после регистрации и выберите  группу **Modern Workplace -All** Azure AD для групп или эквивалентную группу, ориентированную на всех компьютеры, управляемые Майкрософт пользователей.  Настройка [регистрации для Windows устройств с помощью Microsoft Intune.](/mem/intune/enrollment/windows-enroll#enable-windows-10-automatic-enrollment)
 
-
 ### <a name="ad-hoc-subscriptions"></a>Ad hoc subscriptions
 
 Советует, как проверить параметр, который (если установлено на "false") может Enterprise государственного роуминга от правильной работы.
 
 **Предупреждение**
 
-Убедитесь, **что allowAdHocSubscriptions** задайте **true**. В противном Enterprise роуминг может не работать. Дополнительные сведения см. [в рублях Set-MsolCompanySettings.](/powershell/module/msonline/set-msolcompanysettings?view=azureadps-1.0)
+Убедитесь, **что allowAdHocSubscriptions** задайте **true**. В противном Enterprise роуминг может не работать. Дополнительные сведения см. [в рублях Set-MsolCompanySettings.](/powershell/module/msonline/set-msolcompanysettings)
 
 
 ### <a name="enterprise-state-roaming"></a>Enterprise State Roaming

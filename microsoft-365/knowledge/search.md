@@ -1,7 +1,7 @@
 ---
-title: Поиск в Microsoft Search используется для поиска тем в темах Microsoft Viva
-ms.author: chuckedmonson
-author: chucked
+title: Используйте Поиск (Майкрософт) для поиска тем в Microsoft Viva Topics
+ms.author: chucked
+author: chuckedmonson
 manager: pamgreen
 ms.reviewer: cjtan
 audience: admin
@@ -10,16 +10,16 @@ ms.service: o365-administration
 search.appverid: ''
 localization_priority: None
 description: Узнайте, как можно искать темы в Microsoft Viva.
-ms.openlocfilehash: 3bd247bfacc6a85bb19c8f4eeedb5aad8662e60e
-ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
+ms.openlocfilehash: a60d1e04c67eb42573bb566a5667f35227def2ad
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52908069"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287261"
 ---
-# <a name="use-microsoft-search-to-find-topics-in-microsoft-viva-topics"></a>Поиск в Microsoft Search используется для поиска тем в темах Microsoft Viva
+# <a name="use-microsoft-search-to-find-topics-in-microsoft-viva-topics"></a>Используйте Поиск (Майкрософт) для поиска тем в Microsoft Viva Topics
 
-Несмотря на то, что пользователи Viva Topics могут находить темы через основные темы на SharePoint сайтах, они также могут найти их через Microsoft Search. 
+В то время как пользователи Viva Topics могут находить темы через основные темы в SharePoint сайтах, они также могут найти их Поиск (Майкрософт). 
 
 ## <a name="topic-answer"></a>Ответ на тему
 
@@ -41,13 +41,13 @@ ms.locfileid: "52908069"
 
 ## <a name="acronyms"></a>Акронимы
 
-В Viva Topics можно вручную редактировать тему, чтобы включить аббревиатуру в качестве *альтернативного имени.* Это позволяет пользователю, который ищет только аббревиатура темы, найти ответ на эту тему с помощью Microsoft Search.
+В Viva Topics можно вручную редактировать тему, чтобы включить аббревиатуру в качестве *альтернативного имени.* Это позволяет пользователю, который ищет только аббревиатура темы, найти ответ на эту тему через Поиск (Майкрософт).
 
-[Ответы на аббревиатуру](/microsoftsearch/manage-acronyms) — это функция, предоставляемая, хотя Microsoft Search и управляется отдельно от Viva Topics.
+[Ответы на аббревиатуру](/microsoftsearch/manage-acronyms) — это функция, Поиск (Майкрософт) и управляется отдельно от Viva Topics.
 
 ## <a name="bookmarks-and-topics"></a>Закладки и темы
 
-[Закладки](/microsoftsearch/manage-bookmarks) — это функция поиска Майкрософт, которая помогает людям быстро находить важные сайты и средства только с помощью поиска (например, средства бронирования путешествий на внешнем сайте за пределами Microsoft 365 клиента). Они создаются администраторами поиска в центре Microsoft 365 администрирования. 
+[Закладки](/microsoftsearch/manage-bookmarks) — это функция Поиск (Майкрософт), которая помогает людям быстро находить важные сайты и средства только с помощью поиска (например, средства бронирования путешествий на внешнем сайте за пределами Microsoft 365 клиента). Они создаются администраторами поиска в Центр администрирования Microsoft 365. 
 
 Для пользователей, которые ищут сведения о бронировании поездки для работы:
 

@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Понимание того, как использовать анализатор конфигурации соответствия требованиям Майкрософт, чтобы быстро встать и работать с Microsoft Compliance Manager.
-ms.openlocfilehash: 36f11597eac1837e3e18885f3c0a5d8dbc89a774
-ms.sourcegitcommit: 46b77a41dfcc0ee80e2b89a7aa49e9bbe5deae5a
+ms.openlocfilehash: 7652a53e0d63e52d92e0d0506207c28f67459029
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2021
-ms.locfileid: "53148966"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287057"
 ---
 # <a name="microsoft-compliance-configuration-analyzer-for-compliance-manager-preview"></a>Анализатор конфигурации соответствия требованиям Майкрософт для диспетчера соответствия требованиям (предварительный просмотр)
 
@@ -101,9 +101,9 @@ C:\Users \<username> \AppData\Local\Microsoft\MCCA.
     ```
   | Input |  Страна | 
   | :------------- | :------------: |
-  | 1  | Азиатско-Тихоокеанский регион |
-  | 2  | Австралия |
-  | 3  | Канада |
+  | 1 | Азиатско-Тихоокеанский регион |
+  | 2 | Австралия |
+  | 3 | Канада |
   | 4  | Европа (за исключением Франции) / Ближний Восток / Африка |
   | 5  | Франция |
   | 6  | Индия |
@@ -167,4 +167,4 @@ MCCA оценивает текущие конфигурации в соотве�
 
 Дополнительные сведения об установке, настройке и использовании MCCA см. в инструкции [README](https://github.com/OfficeDev/MCCA#overview) по GitHub (не требуется GitHub учетной записи).
 
-Дополнительные сведения о Windows PowerShell, начните с использования [документации PowerShell.](/powershell/scripting/how-to-use-docs?view=powershell-7) См. также [начало Windows PowerShell](/powershell/scripting/windows-powershell/starting-windows-powershell?view=powershell-7).
+Дополнительные сведения о Windows PowerShell, начните с использования [документации PowerShell.](/powershell/scripting/how-to-use-docs) См. также [начало Windows PowerShell](/powershell/scripting/windows-powershell/starting-windows-powershell).

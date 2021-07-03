@@ -19,12 +19,12 @@ hideEdit: true
 feedback_system: None
 recommendations: false
 description: В политиках DLP можно использовать 200 типов конфиденциальной информации. В этой статье перечислены все эти типы конфиденциальной информации и показано, что ищет политика DLP при обнаружении каждого типа.
-ms.openlocfilehash: 4efa411f7cc34b4116cc418e328e5c3f7545f788
-ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+ms.openlocfilehash: 614649367e72766d8df210fccbb4e3cdc9cdb4b6
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52789223"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287471"
 ---
 # <a name="sensitive-information-type-entity-definitions"></a>Определения типов конфиденциальной информации
 
@@ -133,16 +133,16 @@ ms.locfileid: "52789223"
 
 #### <a name="keyword_argentina_national_id"></a>Keyword_argentina_national_id
 
-- Argentina National Identity number 
-- cedula 
-- cédula 
-- dni 
-- documento nacional de identidad 
-- documento número 
-- нумеро documento 
-- registro nacional de las personas 
-- rnp 
-   
+- Argentina National Identity number
+- cedula
+- cédula
+- dni
+- documento nacional de identidad
+- documento número
+- нумеро documento
+- registro nacional de las personas
+- rnp
+
 ## <a name="argentina-unique-tax-identification-key-cuitcuil"></a>Уникальный ключ идентификации налогов в Аргентине (CUIT/CUIL)
 
 ### <a name="format"></a>Формат
@@ -224,8 +224,8 @@ ms.locfileid: "52789223"
 - tax identification
 - Número de Identificación Fiscal
 - número de contribuyente
-   
-   
+
+
 ## <a name="australia-bank-account-number"></a>Номер банковского счета в Австралии
 
 ### <a name="format"></a>Формат
@@ -237,8 +237,8 @@ ms.locfileid: "52789223"
 Номер учетной записи — от 6 до 10 цифр.
 
 Номер филиала государственного банка Австралии
-- три цифры 
-- дефис 
+- три цифры
+- дефис
 - три цифры
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -420,15 +420,15 @@ ms.locfileid: "52789223"
 
 ### <a name="pattern"></a>Шаблон
 
-девять букв и цифр: 
+девять букв и цифр:
 
-- две цифры или буквы (не чувствительные к делу) 
-- две цифры 
+- две цифры или буквы (не чувствительные к делу)
+- две цифры
 - пять цифр или букв (не чувствительных к делу)
 
 ИЛИ
 
-- от одного до двух необязательных букв (не чувствительных к делу) 
+- от одного до двух необязательных букв (не чувствительных к делу)
 - четыре-девять цифр
 
 ИЛИ
@@ -525,7 +525,7 @@ ms.locfileid: "52789223"
 - Driver's Lic#
 - Driver's Lics#
 - Driver's Licence#
-- Driver's Licences# 
+- Driver's Licences#
 
 #### <a name="keyword_australia_drivers_license_number_exclusions"></a>Keyword_australia_drivers_license_number_exclusions
 
@@ -562,7 +562,7 @@ ms.locfileid: "52789223"
 - Driver'sLicenses #
 - Driver's License#
 - Driver's Licenses#
-   
+
 ## <a name="australia-medical-account-number"></a>Номер медицинской учетной записи Австралии
 
 ### <a name="format"></a>Формат
@@ -613,12 +613,12 @@ ms.locfileid: "52789223"
 - local service
 - medicare
 
-   
+
 ## <a name="australia-passport-number"></a>Номер паспорта Австралии
 
 ### <a name="format"></a>Формат
 
-восемь или девять символов альфа-цифр 
+восемь или девять символов альфа-цифр
 
 ### <a name="pattern"></a>Шаблон
 
@@ -648,7 +648,7 @@ ms.locfileid: "52789223"
       <Pattern confidenceLevel="65">
         <IdMatch idRef="Regex_australia_passport_number" />
       </Pattern>
-    </Entity>  
+    </Entity>
 ```
 
 ### <a name="keywords"></a>Ключевые слова
@@ -683,10 +683,10 @@ ms.locfileid: "52789223"
 ### <a name="pattern"></a>Шаблон
 
 от восьми до девяти цифр, обычно представленных с пробелами следующим образом:
-- три цифры 
-- необязательный пробел 
-- три цифры 
-- необязательный пробел 
+- три цифры
+- необязательный пробел
+- три цифры
+- необязательный пробел
 - две-три цифры, где последняя цифра — это контрольная цифра
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -729,22 +729,22 @@ ms.locfileid: "52789223"
 ### <a name="format"></a>Формат
 
 восемь цифр без пробелов и делимитеров
-  
+
 ### <a name="pattern"></a>Шаблон
 
 восемь цифр
-  
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Нет
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-  
-- Обычное выражение  `Regex_austria_eu_driver's_license_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_driver's_license_number` из `Keywords_austria_eu_driver's_license_number` или найдено. 
-    
+
+- Обычное выражение  `Regex_austria_eu_driver's_license_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_driver's_license_number` из `Keywords_austria_eu_driver's_license_number` или найдено.
+
 ```xml
       <!-- Austria Driver's License Number -->
       <Entity id="682f18ce-44eb-482b-8198-2bcb96a0761e" patternsProximity="300" recommendedConfidence="75">
@@ -901,26 +901,26 @@ ms.locfileid: "52789223"
 ### <a name="format"></a>Формат
 
 Сочетание букв, цифр и специальных символов с 24 символами
-  
+
 ### <a name="pattern"></a>Шаблон
 
 24 символа:
-  
--  22 буквы (не чувствительные к делу), цифры, задние ресницы, косые черты или знаки плюс 
-    
+
+-  22 буквы (не чувствительные к делу), цифры, задние ресницы, косые черты или знаки плюс
+
 - две буквы (не чувствительные к делу), цифры, backslashes, перенаправляющие черты, плюс знаки или равные знаки
-    
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Неприменимо
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-  
-- Обычное выражение  `Regex_austria_eu_national_id_card` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое  `Keywords_austria_eu_national_id_card` слово. 
-   
+
+- Обычное выражение  `Regex_austria_eu_national_id_card` находит содержимое, которое соответствует шаблону.
+- Найдено ключевое  `Keywords_austria_eu_national_id_card` слово.
+
 ```xml
       <!-- Austria Identity Card -->
       <Entity id="5ec06c3b-007e-4820-8343-7ff73b889735" patternsProximity="300" recommendedConfidence="75">
@@ -944,30 +944,30 @@ ms.locfileid: "52789223"
 ### <a name="format"></a>Формат
 
 Одна буква с необязательным пространством и семью цифрами
-  
+
 ### <a name="pattern"></a>Шаблон
 
 Сочетание одной буквы, семи цифр и одного пространства:
-  
+
 - одна буква (не деликатная)
 - одно пространство (необязательно)
 - семь цифр
-    
+
 ### <a name="checksum"></a>Контрольная сумма
 
 неприменимо
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет высокую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_austria_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_austria_eu_passport_number` или найдено. 
+- Обычное выражение  `Regex_austria_eu_passport_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_austria_eu_passport_number` или найдено.
 - Обычное выражение `Regex_eu_passport_date1` находит дату в формате DD.MM.YYYYY или ключевое слово `Keywords_eu_passport_date` из
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_austria_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_austria_eu_passport_number` или найдено. 
-    
+- Обычное выражение  `Regex_austria_eu_passport_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_austria_eu_passport_number` или найдено.
+
 ```xml
       <!-- Austria Passport Number -->
       <Entity id="1c96ae4e-303b-447d-86c7-77113ac266bf" patternsProximity="300" recommendedConfidence="75">
@@ -1011,7 +1011,7 @@ ms.locfileid: "52789223"
 
 - reisepassnummer
 - reisepasse
-- No-Reisepass 
+- No-Reisepass
 - Nr-Reisepass
 - Reisepass-Nr
 - Passnummer
@@ -1027,28 +1027,28 @@ ms.locfileid: "52789223"
 ### <a name="format"></a>Формат
 
 10 цифр в указанном формате
-  
+
 ### <a name="pattern"></a>Шаблон
 
 10 цифр:
-  
-- три цифры, соответствующие серийному номеру 
+
+- три цифры, соответствующие серийному номеру
 - одна контрольная цифра
 - шесть цифр, соответствующих дате рождения (DDMMYY)
-    
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Да
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет высокую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-- Функция находит  `Func_austria_eu_ssn_or_equivalent` содержимое, которое соответствует шаблону. 
-- найдено  `Keywords_austria_eu_ssn_or_equivalent` ключевое слово. 
-    
+- Функция находит  `Func_austria_eu_ssn_or_equivalent` содержимое, которое соответствует шаблону.
+- найдено  `Keywords_austria_eu_ssn_or_equivalent` ключевое слово.
+
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Функция находит  `Func_austria_eu_ssn_or_equivalent` содержимое, которое соответствует шаблону. 
-    
+- Функция находит  `Func_austria_eu_ssn_or_equivalent` содержимое, которое соответствует шаблону.
+
 ```xml
       <!-- Austria Social Security Number -->
       <Entity id="6896a906-86c9-4d19-a2da-6e43ccd19b7b" patternsProximity="300" recommendedConfidence="85">
@@ -1099,30 +1099,30 @@ ms.locfileid: "52789223"
 ### <a name="format"></a>Формат
 
 девять цифр с необязательными чертами дефиза и вперед
-  
+
 ### <a name="pattern"></a>Шаблон
 
 девять цифр с необязательными чертами дефиза и вперед:
-  
+
 - две цифры
 - дефис (необязательный)
 - три цифры
 - косая черта (необязательный)
 - четыре цифры
-    
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Да
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет высокую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-- Функция находит  `Func_austria_eu_tax_file_number` содержимое, которое соответствует шаблону. 
-- Найдено ключевое  `Keywords_austria_eu_tax_file_number` слово. 
-    
+- Функция находит  `Func_austria_eu_tax_file_number` содержимое, которое соответствует шаблону.
+- Найдено ключевое  `Keywords_austria_eu_tax_file_number` слово.
+
 Политика DLP имеет низкую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-- Функция находит  `Func_austria_eu_tax_file_number` содержимое, которое соответствует шаблону. 
-    
+- Функция находит  `Func_austria_eu_tax_file_number` содержимое, которое соответствует шаблону.
+
 ```xml
       <!-- Austria Tax Identification Number -->
       <Entity id="4fd58d22-af28-4451-b18a-6f722430a56d" patternsProximity="300" recommendedConfidence="85">
@@ -1160,7 +1160,7 @@ ms.locfileid: "52789223"
 - олово нет
 - олово #
 - налоговый номер
- 
+
 ## <a name="austria-value-added-tax"></a>Налог на добавленную стоимость в Австрии
 Этот тип конфиденциальной информации доступен только для использования в:
 - Политики предотвращения потери данных
@@ -1706,21 +1706,21 @@ ms.locfileid: "52789223"
 ### <a name="format"></a>Формат
 
 10 цифр без пробелов и делимитеров
-  
+
 ### <a name="pattern"></a>Шаблон
 
 10 цифр.
-  
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Нет
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_belgium_eu_driver's_license_number` находит содержимое, которое соответствует шаблону. 
+- Обычное выражение  `Regex_belgium_eu_driver's_license_number` находит содержимое, которое соответствует шаблону.
 - Ключевое слово `Keywords_eu_driver's_license_number` из `Keywords_belgium_eu_driver's_license_number` или найдено.
-    
+
 ```xml
       <!-- Belgium Driver's License Number -->
       <Entity id="d89fd329-9324-433c-b687-2c37bd5166f3" patternsProximity="300" recommendedConfidence="75">
@@ -1882,10 +1882,10 @@ ms.locfileid: "52789223"
 ### <a name="pattern"></a>Шаблон
 
 11 цифр, а также разделители:
-- шесть цифр и два необязательных периода в формате YY. MM.DD для даты рождения 
-- Необязательный делимитер из точки, тире, пространства 
-- три последовательной цифры (нечетные для мужчин, даже для женщин) 
-- Необязательный делимитер из точки, тире, пространства 
+- шесть цифр и два необязательных периода в формате YY. MM.DD для даты рождения
+- Необязательный делимитер из точки, тире, пространства
+- три последовательной цифры (нечетные для мужчин, даже для женщин)
+- Необязательный делимитер из точки, тире, пространства
 - две контрольные цифры
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -1982,25 +1982,25 @@ ms.locfileid: "52789223"
 ### <a name="format"></a>Формат
 
 две буквы с шестью цифрами без пробелов или делимитеров
-  
+
 ### <a name="pattern"></a>Шаблон
 
 две буквы и шесть цифр
-  
+
 ### <a name="checksum"></a>Контрольная сумма
 
 неприменимо
-  
+
 ### <a name="definition"></a>Определение
 
  Политика DLP имеет высокую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_belgium_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_belgium_eu_passport_number` или найдено. 
+- Обычное выражение  `Regex_belgium_eu_passport_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_belgium_eu_passport_number` или найдено.
 - Регулярное выражение `Regex_eu_passport_date2` находит дату в формате DD MM YY или ключевое слово из `Keywords_eu_passport_date` или `Keywords_belgium_eu_passport_number` найдено
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_belgium_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_belgium_eu_passport_number` или найдено. 
+- Обычное выражение  `Regex_belgium_eu_passport_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_belgium_eu_passport_number` или найдено.
 
 ```xml
       <!-- Belgium Passport Number -->
@@ -2183,15 +2183,15 @@ Unformatted:
 
 - CPF
 - Идентификация
-- Registration
+- Регистрация
 - Доходы
-- Cadastro de Pessoas Físicas 
-- Imposto 
-- Identificação 
-- Inscrição 
-- Receita 
+- Cadastro de Pessoas Físicas
+- Imposto
+- Identificação
+- Inscrição
+- Receita
 
-   
+
 ## <a name="brazil-legal-entity-number-cnpj"></a>Номер юридического лица в Бразилии (CNPJ)
 
 ### <a name="format"></a>Формат
@@ -2202,14 +2202,14 @@ Unformatted:
 
 14 цифр, а также разделители:
 
-- две цифры 
-- период 
-- три цифры 
-- период 
-- три цифры (эти первые восемь цифр являются регистрационным номером) 
-- перенарезаемая косая черта 
-- четырехзначный номер филиала 
-- дефис 
+- две цифры
+- период
+- три цифры
+- период
+- три цифры (эти первые восемь цифр являются регистрационным номером)
+- перенарезаемая косая черта
+- четырехзначный номер филиала
+- дефис
 - две цифры, которые являются контрольными цифрами
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -2244,27 +2244,27 @@ Unformatted:
 
 #### <a name="keyword_brazil_cnpj"></a>Keyword_brazil_cnpj
 
-- CNPJ 
-- CNPJ/MF 
-- CNPJ-MF 
-- National Registry of Legal Entities 
-- Taxpayers Registry 
-- Legal entity 
-- Legal entities 
-- Registration Status 
-- Для бизнеса 
+- CNPJ
+- CNPJ/MF
+- CNPJ-MF
+- National Registry of Legal Entities
+- Taxpayers Registry
+- Legal entity
+- Legal entities
+- Registration Status
+- Для бизнеса
 - Организация
-- CNPJ 
-- Cadastro Nacional da Pessoa Jurídica 
-- Cadastro Geral de Contribuintes 
-- CGC 
-- Pessoa jurídica 
-- Pessoas jurídicas 
-- Situação cadastral 
-- Inscrição 
-- Empresa 
+- CNPJ
+- Cadastro Nacional da Pessoa Jurídica
+- Cadastro Geral de Contribuintes
+- CGC
+- Pessoa jurídica
+- Pessoas jurídicas
+- Situação cadastral
+- Inscrição
+- Empresa
 
-   
+
 ## <a name="brazil-national-identification-card-rg"></a>Национальная идентификация Бразилии (RG)
 
 ### <a name="format"></a>Формат
@@ -2276,17 +2276,17 @@ Registro de Identidade (RIC) (новый формат): 11 цифр
 ### <a name="pattern"></a>Шаблон
 
 Registro Geral (старый формат):
-- две цифры 
-- период 
-- три цифры 
-- период 
-- три цифры 
-- дефис 
+- две цифры
+- период
+- три цифры
+- период
+- три цифры
+- дефис
 - одна цифра, которая является контрольной цифрой
 
 Registro de Identidade (RIC) (новый формат):
-- 10 цифр. 
-- дефис 
+- 10 цифр.
+- дефис
 - одна цифра, которая является контрольной цифрой
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -2317,12 +2317,12 @@ Registro de Identidade (RIC) (новый формат):
 
 - Cédula de identidade
 - identity card
-- national id 
+- national id
 - número de rregistro
-- registro de Iidentidade 
+- registro de Iidentidade
 - registro geral
-- RG (это ключевое слово является чувствительным к делу) 
-- RIC (это ключевое слово является чувствительным к делу) 
+- RG (это ключевое слово является чувствительным к делу)
+- RIC (это ключевое слово является чувствительным к делу)
 
 
 ## <a name="bulgaria-drivers-license-number"></a>Номер водительского удостоверения Болгарии
@@ -2330,21 +2330,21 @@ Registro de Identidade (RIC) (новый формат):
 ### <a name="format"></a>Формат
 
 девять цифр без пробелов и делимитеров
-  
+
 ### <a name="pattern"></a>Шаблон
 
 девять цифр
-  
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Нет
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_bulgaria_eu_driver's_license_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_driver's_license_number` из `Keywords_bulgaria_eu_driver's_license_number` или найдено. 
-    
+- Обычное выражение  `Regex_bulgaria_eu_driver's_license_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_driver's_license_number` из `Keywords_bulgaria_eu_driver's_license_number` или найдено.
+
 ```xml
       <!-- Bulgaria Driver's License Number -->
       <Entity id="66d39258-94c2-43b2-804b-aa312258e54b" patternsProximity="300" recommendedConfidence="75">
@@ -2355,7 +2355,7 @@ Registro de Identidade (RIC) (новый формат):
             <Match idRef="Keywords_bulgaria_eu_driver's_license_number" />
           </Any>
         </Pattern>
-      </Entity>    
+      </Entity>
 ```
 
 ### <a name="keywords"></a>Ключевые слова
@@ -2501,12 +2501,12 @@ Registro de Identidade (RIC) (новый формат):
 ### <a name="format"></a>Формат
 
 10 цифр без пробелов и делимитеров
-  
+
 ### <a name="pattern"></a>Шаблон
 
 10 цифр без пробелов и делимитеров
-  
-- шесть цифр, соответствующих дате рождения (YYMMDD) 
+
+- шесть цифр, соответствующих дате рождения (YYMMDD)
 - две цифры, соответствующие порядку рождения
 - одна цифра, соответствующая полу: четная цифра для мужчин и нечетная цифра для женщин
 - одна контрольная цифра
@@ -2514,16 +2514,16 @@ Registro de Identidade (RIC) (новый формат):
 ### <a name="checksum"></a>Контрольная сумма
 
 Да
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет высокую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-- Функция находит  `Func_bulgaria_eu_national_id_card` содержимое, которое соответствует шаблону. 
-- Найдено ключевое  `Keywords_bulgaria_eu_national_id_card` слово. 
+- Функция находит  `Func_bulgaria_eu_national_id_card` содержимое, которое соответствует шаблону.
+- Найдено ключевое  `Keywords_bulgaria_eu_national_id_card` слово.
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Функция находит  `Func_bulgaria_eu_national_id_card` содержимое, которое соответствует шаблону. 
-    
+- Функция находит  `Func_bulgaria_eu_national_id_card` содержимое, которое соответствует шаблону.
+
 ```xml
       <!-- Bulgaria Uniform Civil Number -->
       <Entity id="100d58b1-0a35-4fb1-aa89-e4a86fb53fcc" patternsProximity="300" recommendedConfidence="85">
@@ -2594,25 +2594,25 @@ Registro de Identidade (RIC) (новый формат):
 ### <a name="format"></a>Формат
 
 девять цифр без пробелов и делимитеров
-  
+
 ### <a name="pattern"></a>Шаблон
 
-девять цифр 
-  
+девять цифр
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Нет
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет высокую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_bulgaria_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_bulgaria_eu_passport_number` или найдено. 
+- Обычное выражение  `Regex_bulgaria_eu_passport_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_bulgaria_eu_passport_number` или найдено.
 - Обычное выражение `Regex_eu_passport_date1` находит дату в формате DD.MM.YYYYY или ключевое слово `Keywords_eu_passport_date` из
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_bulgaria_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_bulgaria_eu_passport_number` или найдено. 
+- Обычное выражение  `Regex_bulgaria_eu_passport_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_bulgaria_eu_passport_number` или найдено.
 
 ```xml
       <!-- Bulgaria Passport Number -->
@@ -2674,10 +2674,10 @@ Registro de Identidade (RIC) (новый формат):
 Номер учетной записи Банка Канады — 7 или 12 цифр.
 
 Транзитный номер банковского счета в Канаде имеет указанный ниже формат.
-- пять цифр 
-- дефис 
+- пять цифр
+- дефис
 - три цифры OR
-- нулевое значение "0" 
+- нулевое значение "0"
 - восемь цифр
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -2736,7 +2736,7 @@ Registro de Identidade (RIC) (новый формат):
 - banking information
 - direct deposit
 
-   
+
 ## <a name="canada-drivers-license-number"></a>Номер водительских прав в Канаде
 
 ### <a name="format"></a>Формат
@@ -2901,70 +2901,70 @@ Registro de Identidade (RIC) (новый формат):
 - identification #s
 - identification card
 - identification cards
-- идентификация 
+- идентификация
 - DL #
-- DLS # 
-- CDL # 
-- CDLS # 
-- DriverLic # 
-- DriverLics # 
-- DriverLicense # 
-- DriverLicenses # 
-- DriverLicence # 
-- DriverLicences # 
+- DLS #
+- CDL #
+- CDLS #
+- DriverLic #
+- DriverLics #
+- DriverLicense #
+- DriverLicenses #
+- DriverLicence #
+- DriverLicences #
 - Driver Lic#
-- Driver Lics# 
-- Driver License# 
-- Driver Licenses# 
-- Driver License# 
-- Driver Licences# 
-- DriversLic # 
-- DriversLics # 
-- DriversLicense # 
-- DriversLicenses # 
-- DriversLicence # 
-- DriversLicences # 
-- Drivers Lic# 
-- Drivers Lics# 
-- Drivers License# 
-- Drivers Licenses# 
-- Drivers Licence# 
-- Drivers Licences# 
-- Driver'Lic # 
-- Driver'Lics # 
-- Водительские права # 
-- Водительские права # 
-- Водительские права # 
-- Водительские права # 
-- Driver' Lic# 
-- Driver' Lics# 
-- Driver' License# 
-- Driver' Licenses# 
-- Driver' Licence# 
-- Driver' Licences# 
-- Driver'sLic # 
-- Driver'sLics # 
-- Driver'sLicense # 
-- Driver'sLicenses # 
-- Driver'sLicence # 
-- Driver'sLicences # 
-- Driver's Lic# 
-- Driver's Lics# 
-- Driver's License# 
-- Driver's Licenses# 
-- Driver's Licence# 
-- Driver's Licences# 
-- Permis de Conduire# 
-- id # 
-- ids # 
-- idcard card# 
-- idcard cards# 
-- idcard # 
-- identification card# 
-- identification cards# 
-- идентификация # 
+- Driver Lics#
+- Driver License#
+- Driver Licenses#
+- Driver License#
+- Driver Licences#
+- DriversLic #
+- DriversLics #
+- DriversLicense #
+- DriversLicenses #
+- DriversLicence #
+- DriversLicences #
+- Drivers Lic#
+- Drivers Lics#
+- Drivers License#
+- Drivers Licenses#
+- Drivers Licence#
+- Drivers Licences#
+- Driver'Lic #
+- Driver'Lics #
+- Водительские права #
+- Водительские права #
+- Водительские права #
+- Водительские права #
+- Driver' Lic#
+- Driver' Lics#
+- Driver' License#
+- Driver' Licenses#
+- Driver' Licence#
+- Driver' Licences#
+- Driver'sLic #
+- Driver'sLics #
+- Driver'sLicense #
+- Driver'sLicenses #
+- Driver'sLicence #
+- Driver'sLicences #
+- Driver's Lic#
+- Driver's Lics#
+- Driver's License#
+- Driver's Licenses#
+- Driver's Licence#
+- Driver's Licences#
+- Permis de Conduire#
+- id #
+- ids #
+- idcard card#
+- idcard cards#
+- idcard #
+- identification card#
+- identification cards#
+- идентификация #
 
-   
+
 ## <a name="canada-health-service-number"></a>Номер службы здравоохранения Канады
 
 ### <a name="format"></a>Формат
@@ -3011,7 +3011,7 @@ Registro de Identidade (RIC) (новый формат):
 - workers compensation
 - инвалидность
 
-      
+
 ## <a name="canada-passport-number"></a>Номер паспорта Канады
 
 ### <a name="format"></a>Формат
@@ -3032,7 +3032,7 @@ Registro de Identidade (RIC) (новый формат):
 - регулярное выражение Regex_canada_passport_number находит содержимое, которое соответствует шаблону;
 - Найдено ключевое слово Keyword_canada_passport_number Keyword_passport или Keyword_passport.
 
-```xml 
+```xml
 <!-- Canada Passport Number -->
 <Entity id="14d0db8b-498a-43ed-9fca-f6097ae687eb" patternsProximity="300" recommendedConfidence="75">
   <Pattern confidenceLevel="75">
@@ -3079,7 +3079,7 @@ Registro de Identidade (RIC) (новый формат):
 - PasseportNon
 - Passeportn °
 
-   
+
 ## <a name="canada-personal-health-identification-number-phin"></a>Идентификационный номер личного здоровья Канады (PHIN)
 
 ### <a name="format"></a>Формат
@@ -3150,7 +3150,7 @@ Registro de Identidade (RIC) (новый формат):
 - Prince Edward Island
 - Канада
 
-   
+
 ## <a name="canada-social-insurance-number"></a>Номер социального страхования Канады
 
 ### <a name="format"></a>Формат
@@ -3160,10 +3160,10 @@ Registro de Identidade (RIC) (новый формат):
 ### <a name="pattern"></a>Шаблон
 
 Форматированный:
-- три цифры 
-- дефис или пространство 
-- три цифры 
-- дефис или пространство 
+- три цифры
+- дефис или пространство
+- три цифры
+- дефис или пространство
 - три цифры
 
 Unformatted: nine digits
@@ -3209,32 +3209,32 @@ Unformatted: nine digits
 
 #### <a name="keyword_sin"></a>Keyword_sin
 
-- sin 
-- social insurance 
-- numero d'assurance sociale 
-- грехи 
-- ssn 
-- ssns 
-- social security 
-- numero d'assurance social 
-- national identification number 
-- national id 
-- грех # 
-- soc ins 
-- social ins 
+- sin
+- social insurance
+- numero d'assurance sociale
+- грехи
+- ssn
+- ssns
+- social security
+- numero d'assurance social
+- national identification number
+- national id
+- грех #
+- soc ins
+- social ins
 
 #### <a name="keyword_sin_collaborative"></a>Keyword_sin_collaborative
 
-- driver's license 
-- drivers license 
-- driver's licence 
-- drivers licence 
-- DOB 
-- Birthdate 
-- Birthday 
-- Date of Birth 
+- driver's license
+- drivers license
+- driver's licence
+- drivers licence
+- DOB
+- Birthdate
+- Birthday
+- Date of Birth
 
-   
+
 ## <a name="chile-identity-card-number"></a>Номер удостоверения личности в Чили
 
 ### <a name="format"></a>Формат
@@ -3244,12 +3244,12 @@ Unformatted: nine digits
 ### <a name="pattern"></a>Шаблон
 
 семь-восемь цифр плюс делимитеры:
-- от одной до двух цифр 
-- необязательный период 
-- три цифры 
-- необязательный период 
-- три цифры 
-- тире 
+- от одной до двух цифр
+- необязательный период
+- три цифры
+- необязательный период
+- три цифры
+- тире
 - одна цифра или буква (не чувствительная к делу), которая является проверяемой цифрой
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -3319,7 +3319,7 @@ Unformatted: nine digits
 - Номер удостоверения Чили
 - Удостоверение Чили #
 
-   
+
 ## <a name="china-resident-identity-card-prc-number"></a>Номер удостоверения резидента Китая (PRC)
 
 ### <a name="format"></a>Формат
@@ -3329,9 +3329,9 @@ Unformatted: nine digits
 ### <a name="pattern"></a>Шаблон
 
 18 цифр:
-- шесть цифр, которые являются адресным кодом 
-- восемь цифр в форме YYYYYMMDD, которые являются датой рождения 
-- три цифры, которые являются кодом заказа 
+- шесть цифр, которые являются адресным кодом
+- восемь цифр в форме YYYYYMMDD, которые являются датой рождения
+- три цифры, которые являются кодом заказа
 - одна цифра, которая является контрольной цифрой
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -3366,18 +3366,18 @@ Unformatted: nine digits
 
 ### <a name="keyword_china_resident_id"></a>Keyword_china_resident_id
 
-- Resident Identity Card 
-- PRC 
-- National Identification Card 
-- 身份证 
-- 居民 身份证 
-- 居民身份证 
-- 鉴定 
-- 身分證 
+- Resident Identity Card
+- PRC
+- National Identification Card
+- 身份证
+- 居民 身份证
+- 居民身份证
+- 鉴定
+- 身分證
 - 居民 身份證
-- 鑑定 
+- 鑑定
 
-   
+
 ## <a name="credit-card-number"></a>Номер кредитной карты
 
 ### <a name="format"></a>Формат
@@ -3685,21 +3685,21 @@ cód. segurança
 ### <a name="format"></a>Формат
 
 восемь цифр без пробелов и делимитеров
-  
+
 ### <a name="pattern"></a>Шаблон
 
 восемь цифр
-  
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Нет
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-  
-- Обычное выражение  `Regex_croatia_eu_driver's_license_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово `Keywords_eu_driver's_license_number` из `Keywords_croatia_eu_driver's_license_number` или найдено. 
+
+- Обычное выражение  `Regex_croatia_eu_driver's_license_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово `Keywords_eu_driver's_license_number` из `Keywords_croatia_eu_driver's_license_number` или найдено.
 
 ```xml
       <!-- Croatia Driver's License Number -->
@@ -3914,26 +3914,26 @@ cód. segurança
 ### <a name="format"></a>Формат
 
 девять цифр без пробелов и делимитеров
-  
+
 ### <a name="pattern"></a>Шаблон
 
-девять цифр 
-  
+девять цифр
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Нет
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет высокую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_croatia_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_croatia_eu_passport_number` или найдено. 
+- Обычное выражение  `Regex_croatia_eu_passport_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_croatia_eu_passport_number` или найдено.
 - Обычное выражение `Regex_eu_passport_date1` находит дату в формате DD.MM.YYYYY или ключевое слово `Keywords_eu_passport_date` из
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_croatia_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_croatia_eu_passport_number` или найдено. 
-    
+- Обычное выражение  `Regex_croatia_eu_passport_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_croatia_eu_passport_number` или найдено.
+
 ```xml
       <!-- Croatia Passport Number -->
       <Entity id="7d7a729d-32d8-4204-8d01-d5e6a6c25581" patternsProximity="300" recommendedConfidence="75">
@@ -3977,7 +3977,7 @@ cód. segurança
 - broj putovnice
 - br. Putovnice
 - br putovnice
-   
+
 ## <a name="croatia-personal-identification-oib-number"></a>Личный идентификационный номер (OIB) в Хорватии
 
 ### <a name="format"></a>Формат
@@ -3987,7 +3987,7 @@ cód. segurança
 ### <a name="pattern"></a>Шаблон
 
 11 цифр:
-- 10 цифр. 
+- 10 цифр.
 - окончательная цифра — это контрольная цифра
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -4056,19 +4056,19 @@ cód. segurança
 ### <a name="format"></a>Формат
 
 12 цифр без пробелов и делимитеров
-  
+
 ### <a name="pattern"></a>Шаблон
 
 12 цифр.
-  
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Нет
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_cyprus_eu_driver's_license_number` находит содержимое, которое соответствует шаблону. 
+- Обычное выражение  `Regex_cyprus_eu_driver's_license_number` находит содержимое, которое соответствует шаблону.
 - Ключевое слово  `Keywords_eu_driver's_license_number` из `Keywords_cyprus_eu_driver's_license_number` или найдено.
 
 ```xml
@@ -4225,22 +4225,22 @@ cód. segurança
 ### <a name="format"></a>Формат
 
 10 цифр без пробелов и делимитеров
-  
+
 ### <a name="pattern"></a>Шаблон
 
-10 цифр. 
-  
+10 цифр.
+
 ### <a name="checksum"></a>Контрольная сумма
 
 неприменимо
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_cyprus_eu_national_id_card` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое  `Keywords_cyprus_eu_national_id_card` слово. 
-    
-```xml 
+- Обычное выражение  `Regex_cyprus_eu_national_id_card` находит содержимое, которое соответствует шаблону.
+- Найдено ключевое  `Keywords_cyprus_eu_national_id_card` слово.
+
+```xml
       <!-- Cyprus Identity Card -->
       <Entity id="3ba8afe5-7a6c-4929-8247-0001b6878438" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
@@ -4267,26 +4267,26 @@ cód. segurança
 ### <a name="format"></a>Формат
 
 одна буква с 6-8 цифрами без пробелов или делимитеров
-  
+
 ### <a name="pattern"></a>Шаблон
 
 одна буква с шестью или восемью цифрами
-  
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Нет
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет высокую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_cyprus_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_cyprus_eu_passport_number` или найдено. 
+- Обычное выражение  `Regex_cyprus_eu_passport_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_cyprus_eu_passport_number` или найдено.
 - Регулярное выражение `Regex_cyprus_eu_passport_date` находит дату в формате DD/MM/YYYY или найдено ключевое слово `Keywords_cyprus_eu_passport_date` из
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_cyprus_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_cyprus_eu_passport_number` или найдено.  
-    
+- Обычное выражение  `Regex_cyprus_eu_passport_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_cyprus_eu_passport_number` или найдено.
+
 ```xml
       <!-- Cyprus Passport Number -->
       <Entity id="9193e2e8-7f8c-43c1-a274-ac40d651936f" patternsProximity="300" recommendedConfidence="75">
@@ -4357,28 +4357,28 @@ cód. segurança
 ### <a name="format"></a>Формат
 
 восемь цифр и одна буква в указанном шаблоне
-  
+
 ### <a name="pattern"></a>Шаблон
 
 восемь цифр и одна буква:
-  
+
 - "0" или "9"
 - семь цифр
 - одна буква (не деликатная)
-    
+
 ### <a name="checksum"></a>Контрольная сумма
 
 неприменимо
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет высокую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-- Функция находит  `Func_cyprus_eu_tax_file_number` содержимое, которое соответствует шаблону. 
-- Найдено ключевое  `Keywords_cyprus_eu_tax_file_number` слово. 
-    
+- Функция находит  `Func_cyprus_eu_tax_file_number` содержимое, которое соответствует шаблону.
+- Найдено ключевое  `Keywords_cyprus_eu_tax_file_number` слово.
+
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Функция находит  `Func_cyprus_eu_tax_file_number` содержимое, которое соответствует шаблону. 
-    
+- Функция находит  `Func_cyprus_eu_tax_file_number` содержимое, которое соответствует шаблону.
+
 ```xml
       <!-- Cyprus Tax Identification Number -->
       <Entity id="40e64bd9-55f3-4a09-9bd6-1db18dced9dd" patternsProximity="300" recommendedConfidence="85">
@@ -4428,11 +4428,11 @@ cód. segurança
 ### <a name="format"></a>Формат
 
 две буквы, за которыми следуют шесть цифр
-  
+
 ### <a name="pattern"></a>Шаблон
 
 восемь букв и цифр:
-  
+
 - буква "E" (не в случае)
 - письмо
 - пробел (необязательный)
@@ -4441,12 +4441,12 @@ cód. segurança
 ### <a name="checksum"></a>Контрольная сумма
 
 Нет
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_czech_republic_eu_driver's_license_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_driver's_license_number` из `Keywords_czech_republic_eu_driver's_license_number` или найдено. 
+- Обычное выражение  `Regex_czech_republic_eu_driver's_license_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_driver's_license_number` из `Keywords_czech_republic_eu_driver's_license_number` или найдено.
 
 ```xml
       <Entity id="86b40d3b-d8ea-4c36-aab0-ef9416a6769c" patternsProximity="300" recommendedConfidence="75">
@@ -4597,26 +4597,26 @@ cód. segurança
 ### <a name="format"></a>Формат
 
 восемь цифр без пробелов или делимитеров
-  
+
 ### <a name="pattern"></a>Шаблон
 
 восемь цифр без пробелов или делимитеров
-  
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Нет
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет высокую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_czech_republic_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_czech_republic_eu_passport_number` или найдено. 
+- Обычное выражение  `Regex_czech_republic_eu_passport_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_czech_republic_eu_passport_number` или найдено.
 - Обычное выражение `Regex_eu_passport_date1` находит дату в формате DD.MM.YYYYY или ключевое слово `Keywords_eu_passport_date` из
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_czech_republic_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_czech_republic_eu_passport_number` или найдено. 
-    
+- Обычное выражение  `Regex_czech_republic_eu_passport_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_czech_republic_eu_passport_number` или найдено.
+
 ```xml
       <!-- Czech Republic Passport Number -->
       <Entity id="7bcd8ce8-5e92-4bbe-bc92-fa669f0369fa" patternsProximity="300" recommendedConfidence="75">
@@ -4685,7 +4685,7 @@ cód. segurança
 
 10 цифр (новый формат):
 - шесть цифр, которые представляют дату рождения
-- необязательный слэш 
+- необязательный слэш
 - четыре цифры, где последняя цифра — это контрольная цифра
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -4775,21 +4775,21 @@ cód. segurança
 ### <a name="format"></a>Формат
 
 восемь цифр без пробелов и делимитеров
-  
+
 ### <a name="pattern"></a>Шаблон
 
 восемь цифр
-  
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Нет
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_denmark_eu_driver's_license_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_driver's_license_number` из `Keywords_denmark_eu_driver's_license_number` или найдено. 
-    
+- Обычное выражение  `Regex_denmark_eu_driver's_license_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_driver's_license_number` из `Keywords_denmark_eu_driver's_license_number` или найдено.
+
 ```xml
       <!-- Denmark Driver's License Number -->
       <Entity id="98a95812-6203-451a-a220-d39870ebef0e" patternsProximity="300" recommendedConfidence="75">
@@ -4937,26 +4937,26 @@ cód. segurança
 ### <a name="format"></a>Формат
 
 девять цифр без пробелов и делимитеров
-  
+
 ### <a name="pattern"></a>Шаблон
 
-девять цифр 
-  
+девять цифр
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Нет
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет высокую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_denmark_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_denmark_eu_passport_number` или найдено. 
+- Обычное выражение  `Regex_denmark_eu_passport_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_denmark_eu_passport_number` или найдено.
 - Регулярное выражение `Regex_eu_passport_date2` находит дату в формате DD MM YY или ключевое слово `Keywords_eu_passport_date` из найдено
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_denmark_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_denmark_eu_passport_number` или найдено. 
-    
+- Обычное выражение  `Regex_denmark_eu_passport_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_denmark_eu_passport_number` или найдено.
+
 ```xml
       <!-- Denmark Passport Number -->
       <Entity id="25e8c47e-e6fe-4884-a211-74898f8c0196" patternsProximity="300" recommendedConfidence="75">
@@ -5018,8 +5018,8 @@ cód. segurança
 ### <a name="pattern"></a>Шаблон
 
 10 цифр:
-- шесть цифр в формате DDMMYY, которые являются датой рождения 
-- дефис 
+- шесть цифр в формате DDMMYY, которые являются датой рождения
+- дефис
 - четыре цифры, в которых окончательная цифра — это контрольная цифра
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -5039,7 +5039,7 @@ cód. segurança
 
 ```xml
 <!-- Denmark Personal Identification Number -->
-      <!-- Denmark Personal Identification Number -->
+    <!-- Denmark Personal Identification Number -->
       <Entity id="6c4f2fef-56e1-4c00-8093-88d7a01cf460" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
           <IdMatch idRef="Func_denmark_eu_tax_file_number" />
@@ -5135,7 +5135,7 @@ cód. segurança
 ### <a name="pattern"></a>Шаблон
 
 Шаблон должен включать в себя все указанные ниже элементы.
-- одна буква (не деликатная) из этого набора возможных букв: abcdefghjklmnprstux, который является кодом регистратора 
+- одна буква (не деликатная) из этого набора возможных букв: abcdefghjklmnprstux, который является кодом регистратора
 - одна буква (не деликатная), которая является первой буквой фамилии или цифры "9" регистратора.
 - семь цифр, последним из которых является контрольная цифра
 
@@ -5189,24 +5189,24 @@ cód. segurança
 ### <a name="format"></a>Формат
 
 две буквы, за которыми следуют шесть цифр
-  
+
 ### <a name="pattern"></a>Шаблон
 
 две буквы и шесть цифр:
-  
-- буквы "ET" (не чувствительные к делу) 
+
+- буквы "ET" (не чувствительные к делу)
 - шесть цифр
-    
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Нет
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_estonia_eu_driver's_license_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_driver's_license_number` из `Keywords_estonia_eu_driver's_license_number` или найдено. 
-    
+- Обычное выражение  `Regex_estonia_eu_driver's_license_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_driver's_license_number` из `Keywords_estonia_eu_driver's_license_number` или найдено.
+
 ```xml
       <!-- Estonia Driver's License Number -->
       <Entity id="51da8171-da70-4cc1-9d65-055a59ca4f83" patternsProximity="300" recommendedConfidence="75">
@@ -5362,29 +5362,29 @@ cód. segurança
 ### <a name="format"></a>Формат
 
 11 цифр без пробелов и делимитеров
-  
+
 ### <a name="pattern"></a>Шаблон
 
 11 цифр:
-  
+
 - одна цифра, соответствующая полу и столетию рождения (нечетное число мужчин, даже женское; 1-2: 19-й век; 3-4: 20-й век; 5-6: 21 век)
 - шесть цифр, соответствующих дате рождения (YYMMDD)
 - три цифры, соответствующие последовательному номеру, разделяющей лиц, родившихся в ту же дату
 - одна контрольная цифра
-    
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Да
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет высокую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-- Функция находит  `Func_estonia_eu_national_id_card` содержимое, которое соответствует шаблону. 
-- Найдено ключевое  `Keywords_estonia_eu_national_id_card` слово. 
-    
+- Функция находит  `Func_estonia_eu_national_id_card` содержимое, которое соответствует шаблону.
+- Найдено ключевое  `Keywords_estonia_eu_national_id_card` слово.
+
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Функция находит  `Func_estonia_eu_national_id_card` содержимое, которое соответствует шаблону. 
-    
+- Функция находит  `Func_estonia_eu_national_id_card` содержимое, которое соответствует шаблону.
+
 ```xml
       <!-- Estonia Personal Identification Code -->
       <Entity id="bfb26de6-dad5-4d48-ab72-4789cdd0654c" patternsProximity="300" recommendedConfidence="85">
@@ -5443,26 +5443,26 @@ cód. segurança
 ### <a name="format"></a>Формат
 
 одна буква с семью цифрами без пробелов или делимитеров
-  
+
 ### <a name="pattern"></a>Шаблон
 
 одна буква, за которой следуют семь цифр
-  
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Нет
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет высокую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_estonia_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_estonia_eu_passport_number` или найдено. 
+- Обычное выражение  `Regex_estonia_eu_passport_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_estonia_eu_passport_number` или найдено.
 - Обычное выражение `Regex_eu_passport_date1` находит дату в формате DD.MM.YYYYY или ключевое слово `Keywords_eu_passport_date` из
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_estonia_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_estonia_eu_passport_number` или найдено. 
-    
+- Обычное выражение  `Regex_estonia_eu_passport_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_estonia_eu_passport_number` или найдено.
+
 ```xml
       <!-- Estonia Passport Number -->
       <Entity id="61f7073a-509e-425b-a754-bc01bb5d5b8c" patternsProximity="300" recommendedConfidence="75">
@@ -5558,328 +5558,328 @@ eesti kodaniku passi passinumbrid document document no dokumendi nr
 
 #### <a name="keyword_eu_debit_card"></a>Keyword_eu_debit_card
 
-- account number 
-- card number 
-- card no. 
-- security number 
-- cc # 
+- account number
+- card number
+- card no.
+- security number
+- cc #
 
 #### <a name="keyword_card_terms_dict"></a>Keyword_card_terms_dict
 
-- acct nbr 
-- acct num 
-- acct no 
-- american express 
-- americanexpress 
-- americano espresso 
-- amex 
-- atm card 
-- atm cards 
-- atm kaart 
-- atmcard 
-- atmcards 
-- atmkaart 
-- atmkaarten 
-- bancontact 
-- bank card 
-- bankkaart 
-- card holder 
-- card holders 
-- card num 
-- card number 
-- card numbers 
-- card type 
-- cardano numerico 
-- держатель карт 
-- держатели карт 
-- cardnumber 
-- cardnumbers 
-- carta bianca 
-- carta credito 
-- carta di credito 
-- cartao de credito 
-- cartao de crédito 
-- cartao de debito 
-- cartao de débito 
-- carte bancaire 
-- carte blanche 
-- carte bleue 
-- carte de credit 
-- carte de crédit 
-- carte di credito 
-- carteblanche 
-- cartão de credito 
-- cartão de crédito 
-- cartão de debito 
-- cartão de débito 
-- cb 
-- ccn 
-- check card 
-- check cards 
+- acct nbr
+- acct num
+- acct no
+- american express
+- americanexpress
+- americano espresso
+- amex
+- atm card
+- atm cards
+- atm kaart
+- atmcard
+- atmcards
+- atmkaart
+- atmkaarten
+- bancontact
+- bank card
+- bankkaart
+- card holder
+- card holders
+- card num
+- card number
+- card numbers
+- card type
+- cardano numerico
+- держатель карт
+- держатели карт
+- cardnumber
+- cardnumbers
+- carta bianca
+- carta credito
+- carta di credito
+- cartao de credito
+- cartao de crédito
+- cartao de debito
+- cartao de débito
+- carte bancaire
+- carte blanche
+- carte bleue
+- carte de credit
+- carte de crédit
+- carte di credito
+- carteblanche
+- cartão de credito
+- cartão de crédito
+- cartão de debito
+- cartão de débito
+- cb
+- ccn
+- check card
+- check cards
 - checkcard
-- checkcards 
-- chequekaart 
-- cirrus 
-- cirrus-edc-maestro 
-- controlekaart 
-- controlekaarten 
-- credit card 
-- credit cards 
-- creditcard 
-- кредитные карточки 
-- debetkaart 
-- debetkaarten 
-- debit card 
-- debit cards 
-- debitcard 
-- дебетовые карточки 
-- debito automatico 
-- diners club 
-- dinersclub 
-- откройте для себя 
-- discover card 
-- discover cards 
-- discovercard 
-- discovercards 
+- checkcards
+- chequekaart
+- cirrus
+- cirrus-edc-maestro
+- controlekaart
+- controlekaarten
+- credit card
+- credit cards
+- creditcard
+- кредитные карточки
+- debetkaart
+- debetkaarten
+- debit card
+- debit cards
+- debitcard
+- дебетовые карточки
+- debito automatico
+- diners club
+- dinersclub
+- откройте для себя
+- discover card
+- discover cards
+- discovercard
+- discovercards
 - débito automático
-- edc 
-- eigentümername 
-- european debit card 
-- hoofdkaart 
-- hoofdkaarten 
-- in viaggio 
-- japanese card bureau 
-- japanse kaartdienst 
-- jcb 
-- kaart 
-- kaart num 
-- kaartaantal 
-- kaartaantallen 
-- kaarthouder 
-- kaarthouders 
-- karte  
-- karteninhaber 
+- edc
+- eigentümername
+- european debit card
+- hoofdkaart
+- hoofdkaarten
+- in viaggio
+- japanese card bureau
+- japanse kaartdienst
+- jcb
+- kaart
+- kaart num
+- kaartaantal
+- kaartaantallen
+- kaarthouder
+- kaarthouders
+- karte
+- karteninhaber
 - karteninhabers
-- kartennr 
-- kartennummer 
-- kreditkarte 
-- kreditkarten-nummer 
-- kreditkarteninhaber 
-- kreditkarteninstitut 
-- kreditkartennummer 
-- kreditkartentyp 
-- maestro 
-- master card 
-- master cards 
-- mastercard 
-- mastercards 
-- mc 
-- mister cash 
-- n carta 
-- карт 
-- no de tarjeta 
-- no do cartao 
-- no do cartão 
+- kartennr
+- kartennummer
+- kreditkarte
+- kreditkarten-nummer
+- kreditkarteninhaber
+- kreditkarteninstitut
+- kreditkartennummer
+- kreditkartentyp
+- maestro
+- master card
+- master cards
+- mastercard
+- mastercards
+- mc
+- mister cash
+- n carta
+- карт
+- no de tarjeta
+- no do cartao
+- no do cartão
 - no. de tarjeta
- 
+
 - no. do cartao
- 
+
 - no. do cartão
- 
-- nr carta 
+
+- nr carta
 - nr. carta
- 
-- numeri di scheda 
-- numero carta 
-- numero de cartao 
-- numero de carte 
-- numero de cartão 
+
+- numeri di scheda
+- numero carta
+- numero de cartao
+- numero de carte
+- numero de cartão
 - numero de tarjeta
-- numero della carta 
-- numero di carta 
-- numero di scheda 
-- numero do cartao 
-- numero do cartão 
-- numéro de carte 
-- nº carta 
-- nº de carte 
-- nº de la carte 
-- nº de tarjeta 
-- nº do cartao 
-- nº do cartão 
+- numero della carta
+- numero di carta
+- numero di scheda
+- numero do cartao
+- numero do cartão
+- numéro de carte
+- nº carta
+- nº de carte
+- nº de la carte
+- nº de tarjeta
+- nº do cartao
+- nº do cartão
 - nº. do cartão
- 
-- número de cartao 
-- número de cartão 
-- número de tarjeta 
-- número do cartao 
-- scheda dell'assegno 
-- scheda dell'atmosfera 
-- scheda dell'atmosfera 
-- scheda della banca 
-- scheda di controllo 
-- scheda di debito 
-- scheda matrice 
-- schede dell'atmosfera 
-- schede di controllo 
-- schede di debito 
-- schede matrici 
-- scoprono la scheda 
-- scoprono le schede 
-- соло 
-- supporti di scheda 
-- supporto di scheda 
-- switch 
-- tarjeta atm 
-- tarjeta credito 
-- tarjeta de atm 
-- tarjeta de credito 
-- tarjeta de debito 
-- tarjeta debito 
+
+- número de cartao
+- número de cartão
+- número de tarjeta
+- número do cartao
+- scheda dell'assegno
+- scheda dell'atmosfera
+- scheda dell'atmosfera
+- scheda della banca
+- scheda di controllo
+- scheda di debito
+- scheda matrice
+- schede dell'atmosfera
+- schede di controllo
+- schede di debito
+- schede matrici
+- scoprono la scheda
+- scoprono le schede
+- соло
+- supporti di scheda
+- supporto di scheda
+- switch
+- tarjeta atm
+- tarjeta credito
+- tarjeta de atm
+- tarjeta de credito
+- tarjeta de debito
+- tarjeta debito
 - tarjeta no
-- tarjetahabiente 
-- tipo della scheda 
-- ufficio giapponese della 
-- scheda 
-- v pay 
-- v-pay 
-- visa 
-- visa plus 
-- visa electron 
-- visto 
-- visum 
-- vpay   
+- tarjetahabiente
+- tipo della scheda
+- ufficio giapponese della
+- scheda
+- v pay
+- v-pay
+- visa
+- visa plus
+- visa electron
+- visto
+- visum
+- vpay
 
 #### <a name="keyword_card_security_terms_dict"></a>Keyword_card_security_terms_dict
 
 - card identification number
-- card verification 
-- cardi la verifica 
-- cid 
-- cod seg 
-- cod seguranca 
-- cod segurança 
-- cod sicurezza 
+- card verification
+- cardi la verifica
+- cid
+- cod seg
+- cod seguranca
+- cod segurança
+- cod sicurezza
 - cod. seg
- 
+
 - cod. seguranca
- 
+
 - cod. segurança
- 
+
 - cod. sicurezza
- 
-- codice di sicurezza 
-- codice di verifica 
-- codigo 
-- codigo de seguranca 
-- codigo de segurança 
-- crittogramma 
-- cryptogram 
-- cryptogramme 
-- cv2 
-- cvc 
-- cvc2 
-- cvn 
-- cvv 
-- cvv2 
-- cód seguranca 
-- cód segurança 
+
+- codice di sicurezza
+- codice di verifica
+- codigo
+- codigo de seguranca
+- codigo de segurança
+- crittogramma
+- cryptogram
+- cryptogramme
+- cv2
+- cvc
+- cvc2
+- cvn
+- cvv
+- cvv2
+- cód seguranca
+- cód segurança
 - cód. seguranca
- 
+
 - cód. segurança
- 
-- código 
-- código de seguranca 
-- código de segurança 
-- de kaart controle 
-- geeft nr uit 
-- issue no 
-- issue number 
-- kaartidentificatienummer 
-- kreditkartenprufnummer 
-- kreditkartenprüfnummer 
-- kwestieaantal 
+
+- código
+- código de seguranca
+- código de segurança
+- de kaart controle
+- geeft nr uit
+- issue no
+- issue number
+- kaartidentificatienummer
+- kreditkartenprufnummer
+- kreditkartenprüfnummer
+- kwestieaantal
 - no. dell'edizione
- 
+
 - no. di sicurezza
- 
-- numero de securite 
-- numero de verificacao 
-- numero dell'edizione 
-- numero di identificazione della 
-- scheda 
-- numero di sicurezza 
-- numero van veiligheid 
-- numéro de sécurité 
-- nº autorizzazione 
-- número de verificação 
-- perno il blocco 
-- pin block 
-- prufziffer 
-- prüfziffer 
-- security code 
-- security no 
-- security number 
-- sicherheits kode 
-- sicherheitscode 
-- sicherheitsnummer 
-- speldblok 
-- veiligheid nr 
-- veiligheidsaantal 
-- veiligheidscode 
-- veiligheidsnummer 
-- verfalldatum 
+
+- numero de securite
+- numero de verificacao
+- numero dell'edizione
+- numero di identificazione della
+- scheda
+- numero di sicurezza
+- numero van veiligheid
+- numéro de sécurité
+- nº autorizzazione
+- número de verificação
+- perno il blocco
+- pin block
+- prufziffer
+- prüfziffer
+- security code
+- security no
+- security number
+- sicherheits kode
+- sicherheitscode
+- sicherheitsnummer
+- speldblok
+- veiligheid nr
+- veiligheidsaantal
+- veiligheidscode
+- veiligheidsnummer
+- verfalldatum
 
 #### <a name="keyword_card_expiration_terms_dict"></a>Keyword_card_expiration_terms_dict
 
-- ablauf 
-- data de expiracao 
-- data de expiração 
-- data del exp 
-- data di exp 
-- data di scadenza 
-- data em que expira 
-- data scad 
-- data scadenza 
-- date de validité 
-- datum afloop 
-- datum van exp 
-- de afloop 
-- espira 
-- espira 
-- exp date 
-- exp datum 
-- истечение срока действия 
-- истекает срок действия 
-- истекает срок действия 
-- истечение срока действия 
-- fecha de expiracion 
-- fecha de venc 
-- gultig bis 
-- gultigkeitsdatum 
-- gültig bis 
-- gültigkeitsdatum 
-- la scadenza 
-- scadenza 
-- доблестная 
-- validade 
-- valido hasta 
-- доблестная 
-- venc 
-- vencimento 
-- vencimiento 
-- verloopt 
-- vervaldag 
-- vervaldatum 
-- vto 
-- válido hasta 
+- ablauf
+- data de expiracao
+- data de expiração
+- data del exp
+- data di exp
+- data di scadenza
+- data em que expira
+- data scad
+- data scadenza
+- date de validité
+- datum afloop
+- datum van exp
+- de afloop
+- espira
+- espira
+- exp date
+- exp datum
+- истечение срока действия
+- истекает срок действия
+- истекает срок действия
+- истечение срока действия
+- fecha de expiracion
+- fecha de venc
+- gultig bis
+- gultigkeitsdatum
+- gültig bis
+- gültigkeitsdatum
+- la scadenza
+- scadenza
+- доблестная
+- validade
+- valido hasta
+- доблестная
+- venc
+- vencimento
+- vencimiento
+- verloopt
+- vervaldag
+- vervaldatum
+- vto
+- válido hasta
 
 
 ## <a name="eu-drivers-license-number"></a>Номер водительских прав ЕС
 
 Эти сущности находятся в номере лицензии водителя ЕС и являются конфиденциальными типами информации.
 
-- [Австрия](#austria-drivers-license-number) 
+- [Австрия](#austria-drivers-license-number)
 - [Бельгия](#belgium-drivers-license-number)
 - [Болгария](#bulgaria-drivers-license-number)
 - [Хорватия](#croatia-drivers-license-number)
@@ -5888,7 +5888,7 @@ eesti kodaniku passi passinumbrid document document no dokumendi nr
 - [Дания](#denmark-drivers-license-number)
 - [Эстония](#estonia-drivers-license-number)
 - [Финляндия](#finland-drivers-license-number)
-- [Франция](#france-drivers-license-number) 
+- [Франция](#france-drivers-license-number)
 - [Германия](#germany-drivers-license-number)
 - [Греция](#greece-drivers-license-number)
 - [Венгрия](#hungary-drivers-license-number)
@@ -5899,7 +5899,7 @@ eesti kodaniku passi passinumbrid document document no dokumendi nr
 - [Люксембург](#luxemburg-drivers-license-number)
 - [Мальта](#malta-drivers-license-number)
 - [Нидерланды](#netherlands-drivers-license-number)
-- [Польша](#poland-drivers-license-number) 
+- [Польша](#poland-drivers-license-number)
 - [Португалия](#portugal-drivers-license-number)
 - [Румыния](#romania-drivers-license-number)
 - [Словакия](#slovakia-drivers-license-number)
@@ -5939,10 +5939,10 @@ eesti kodaniku passi passinumbrid document document no dokumendi nr
 - [Словакия](#slovakia-personal-number)
 - [Словения](#slovenia-unique-master-citizen-number)
 - [Испания](#spain-dni)
-- [U.K.](#uk-national-insurance-number-nino)                                        
+- [U.K.](#uk-national-insurance-number-nino)
 
 
-## <a name="eu-passport-number"></a>Номер паспорта ЕС 
+## <a name="eu-passport-number"></a>Номер паспорта ЕС
 
 Эти сущности находятся в номере паспорта ЕС и являются типами конфиденциальной информации. Эти сущности находятся в пакете номеров паспортов ЕС.
 
@@ -6034,26 +6034,26 @@ eesti kodaniku passi passinumbrid document document no dokumendi nr
 ### <a name="format"></a>Формат
 
 10 цифр, содержащих дефис.
-  
+
 ### <a name="pattern"></a>Шаблон
 
 10 цифр, содержащих дефис:
-  
-- шесть цифр 
+
+- шесть цифр
 - дефис
-- три цифры 
+- три цифры
 - цифру или букву
-    
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Нет
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_finland_eu_driver's_license_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_driver's_license_number` из `Keywords_finland_eu_driver's_license_number` или найдено. 
-    
+- Обычное выражение  `Regex_finland_eu_driver's_license_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_driver's_license_number` из `Keywords_finland_eu_driver's_license_number` или найдено.
+
 ```xml
       <!-- Finland Driver's License Number -->
       <Entity id="bb3b27a3-79bd-4ac4-81a7-f9fca3c7d1a7" patternsProximity="300" recommendedConfidence="75">
@@ -6273,9 +6273,9 @@ eesti kodaniku passi passinumbrid document document no dokumendi nr
 ### <a name="pattern"></a>Шаблон
 
 Шаблон должен включать в себя все указанные ниже элементы.
-- шесть цифр в формате DDMMYY, которые являются датой рождения 
-- маркер века (или '-', '+' или 'a') 
-- трехзначный личный идентификационный номер 
+- шесть цифр в формате DDMMYY, которые являются датой рождения
+- маркер века (или '-', '+' или 'a')
+- трехзначный личный идентификационный номер
 - цифру или букву (случай нечувствительный), которая является контрольной цифрой
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -6366,7 +6366,7 @@ eesti kodaniku passi passinumbrid document document no dokumendi nr
 
 ### <a name="pattern"></a>Шаблон
 сочетание девяти букв и цифр:
-- две буквы (не чувствительные к делу) 
+- две буквы (не чувствительные к делу)
 - семь цифр
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -6696,7 +6696,7 @@ eesti kodaniku passi passinumbrid document document no dokumendi nr
 - numéro d'assurance maladie
 - numéro de carte vitale
 
-   
+
 ## <a name="france-passport-number"></a>Номер паспорта Франции
 Эта сущность доступна в типе конфиденциальной информации по номеру паспорта ЕС. Он также доступен в качестве отдельного объекта типа конфиденциальной информации.
 
@@ -6707,8 +6707,8 @@ eesti kodaniku passi passinumbrid document document no dokumendi nr
 ### <a name="pattern"></a>Шаблон
 
 девять цифр и букв:
-- две цифры 
-- две буквы (не чувствительные к делу) 
+- две цифры
+- две буквы (не чувствительные к делу)
 - пять цифр
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -6872,36 +6872,36 @@ no. d'identite
 ### <a name="format"></a>Формат
 
 13 цифр.
-  
+
 ### <a name="pattern"></a>Шаблон
 
 13 цифр.
-  
+
 - Одна цифра, которая должна быть 0, 1, 2 или 3
 - Одна цифра
 - пробел (необязательно); 
-- Две цифры 
+- Две цифры
 - пробел (необязательно); 
-- три цифры;  
+- три цифры; 
 - пробел (необязательно); 
-- три цифры;  
+- три цифры; 
 - пробел (необязательно); 
-- Три контрольных цифры 
+- Три контрольных цифры
 
-  
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Да
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет высокую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-- Функция находит  `Func_france_eu_tax_file_number` содержимое, которое соответствует шаблону. 
-- Найдено ключевое  `Keywords_france_eu_tax_file_number` слово. 
-    
+- Функция находит  `Func_france_eu_tax_file_number` содержимое, которое соответствует шаблону.
+- Найдено ключевое  `Keywords_france_eu_tax_file_number` слово.
+
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Функция находит  `Func_france_eu_tax_file_number` содержимое, которое соответствует шаблону. 
-    
+- Функция находит  `Func_france_eu_tax_file_number` содержимое, которое соответствует шаблону.
+
 ```xml
       <!-- France Tax Identification Number (numéro SPI.) -->
       <Entity id="ed59e77e-171d-442c-9ec1-88e2ebcb5b0a" patternsProximity="300" recommendedConfidence="85">
@@ -7021,10 +7021,10 @@ no. d'identite
 ### <a name="pattern"></a>Шаблон
 
 11 цифр и букв (не чувствительных к делу):
-- цифру или букву 
-- две цифры 
-- шесть цифр или букв 
-- цифру 
+- цифру или букву
+- две цифры
+- шесть цифр или букв
+- цифру
 - цифру или букву
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -7211,7 +7211,7 @@ no. d'identite
 ### <a name="pattern"></a>Шаблон
 
 с 1 ноября 2010 г.:
-- одна буква (не деликатная) 
+- одна буква (не деликатная)
 - восемь цифр
 
 с 1 апреля 1987 г. по 31 октября 2010 г.:
@@ -7267,9 +7267,9 @@ no. d'identite
 ### <a name="pattern"></a>Шаблон
 
 Шаблон должен включать в себя все указанные ниже элементы.
-- первый символ — это цифры или буквы из этого набора (C, F, G, H, J, K) 
-- три цифры 
-- пять цифр или букв из этого набора (C, H, J-N, P, R, T, V-Z) 
+- первый символ — это цифры или буквы из этого набора (C, F, G, H, J, K)
+- три цифры
+- пять цифр или букв из этого набора (C, H, J-N, P, R, T, V-Z)
 - цифру
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -7314,7 +7314,7 @@ no. d'identite
 
 - reisepasse
 - reisepassnummer
-- No-Reisepass 
+- No-Reisepass
 - Nr-Reisepass
 - Reisepass-Nr
 - Passnummer
@@ -7341,33 +7341,33 @@ no. d'identite
 ### <a name="format"></a>Формат
 
 11 цифр без пробелов и делимитеров
-  
+
 ### <a name="pattern"></a>Шаблон
 
 11 цифр.
-  
-- Две цифры 
+
+- Две цифры
 - Необязательный пробел
-- Три цифры 
+- Три цифры
 - Необязательный пробел
-- Три цифры 
+- Три цифры
 - Необязательный пробел
 - Две цифры
 - одна контрольная цифра
-    
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Да
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет высокую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-- Функция находит  `Func_germany_eu_tax_file_number` содержимое, которое соответствует шаблону. 
-- Найдено ключевое  `Keywords_germany_eu_tax_file_number` слово. 
-    
+- Функция находит  `Func_germany_eu_tax_file_number` содержимое, которое соответствует шаблону.
+- Найдено ключевое  `Keywords_germany_eu_tax_file_number` слово.
+
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Функция находит  `Func_germany_eu_tax_file_number` содержимое, которое соответствует шаблону. 
-    
+- Функция находит  `Func_germany_eu_tax_file_number` содержимое, которое соответствует шаблону.
+
 ```xml
       <!-- Germany Tax Identification Number -->
       <Entity id="43316a89-9880-40cf-b980-04bc7eefcec5" patternsProximity="300" recommendedConfidence="85">
@@ -7480,21 +7480,21 @@ no. d'identite
 ### <a name="format"></a>Формат
 
 девять цифр без пробелов и делимитеров
-  
+
 ### <a name="pattern"></a>Шаблон
 
-девять цифр 
-  
+девять цифр
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Нет
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_greece_eu_driver's_license_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_driver's_license_number` из `Keywords_greece_eu_driver's_license_number` или найдено. 
-    
+- Обычное выражение  `Regex_greece_eu_driver's_license_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_driver's_license_number` из `Keywords_greece_eu_driver's_license_number` или найдено.
+
 ```xml
       <!-- Greece Driver's License Number -->
       <Entity id="7a2200b5-aacf-4e3c-ab36-136d3e68b7da" patternsProximity="300" recommendedConfidence="75">
@@ -7649,13 +7649,13 @@ no. d'identite
 ### <a name="pattern"></a>Шаблон
 
 Семь букв и чисел (старый формат):
-- одна буква (любая буква греческого алфавита); 
-- тире; 
+- одна буква (любая буква греческого алфавита);
+- тире;
 - шесть цифр.
 
 Восемь букв и чисел (новый формат):
-- две буквы, которые в прописном виде есть как в греческом, так и латинском алфавите (ABEZHIKMNOPTYX); 
-- тире; 
+- две буквы, которые в прописном виде есть как в греческом, так и латинском алфавите (ABEZHIKMNOPTYX);
+- тире;
 - шесть цифр.
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -7703,26 +7703,26 @@ no. d'identite
 ### <a name="format"></a>Формат
 
 Две буквы, за которыми следуют семь цифр без пробелов или делимитеров
-  
+
 ### <a name="pattern"></a>Шаблон
 
 Две буквы, за которыми следуют семь цифр.
-  
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Нет
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет высокую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_greece_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_greece_eu_passport_number` или найдено. 
+- Обычное выражение  `Regex_greece_eu_passport_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_greece_eu_passport_number` или найдено.
 - Регулярное выражение находит дату `Regex_greece_eu_passport_date` в формате DD MMM YY (Пример - 28 августа 19) или ключевое слово `Keywords_greece_eu_passport_date` из
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_greece_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_greece_eu_passport_number` или найдено. 
-    
+- Обычное выражение  `Regex_greece_eu_passport_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_greece_eu_passport_number` или найдено.
+
 ```xml
       <!-- Greece Passport Number -->
       <Entity id="7e65eb47-cdf9-4f52-8f90-2a27d5ee67e3" patternsProximity="300" recommendedConfidence="75">
@@ -7780,25 +7780,25 @@ no. d'identite
 ### <a name="format"></a>Формат
 
 11 цифр без пробелов и делимитеров
-  
+
 ### <a name="pattern"></a>Шаблон
 
 - Шесть цифр в качестве даты рождения YYMMDD
 - Четыре цифры
 - контрольная цифра
-  
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Да
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет высокую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-- Функция находит  `Func_greece_eu_ssn` содержимое, которое соответствует шаблону. 
-- Найдено ключевое  `Keywords_greece_eu_ssn_or_equivalent` слово. 
-    
+- Функция находит  `Func_greece_eu_ssn` содержимое, которое соответствует шаблону.
+- Найдено ключевое  `Keywords_greece_eu_ssn_or_equivalent` слово.
+
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Функция находит  `Func_greece_eu_ssn` содержимое, которое соответствует шаблону. 
+- Функция находит  `Func_greece_eu_ssn` содержимое, которое соответствует шаблону.
 
 ```xml
       <!-- Greece Social Security Number (AMKA) -->
@@ -7838,22 +7838,22 @@ no. d'identite
 ### <a name="format"></a>Формат
 
 Девять цифр без пробелов и делимитеров
-  
+
 ### <a name="pattern"></a>Шаблон
 
 Девять цифр.
-  
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Неприменимо
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-  
-- Обычное выражение  `Regex_greece_eu_tax_file_number` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое  `Keywords_greece_eu_tax_file_number` слово. 
-    
+
+- Обычное выражение  `Regex_greece_eu_tax_file_number` находит содержимое, которое соответствует шаблону.
+- Найдено ключевое  `Keywords_greece_eu_tax_file_number` слово.
+
 ```xml
       <!-- Greek Tax Identification Number -->
       <Entity id="15a54a5a-53d4-4080-ad43-a2a4fe1d3bf7" patternsProximity="300" recommendedConfidence="75">
@@ -7905,8 +7905,8 @@ no. d'identite
 ### <a name="pattern"></a>Шаблон
 
 Сочетание 8–9 букв:
-- 1-2 буквы (не чувствительные к делу) 
-- шесть цифр;  
+- 1-2 буквы (не чувствительные к делу)
+- шесть цифр; 
 - последний символ (любая цифра или буква "A") является проверочной цифрой и заключен в скобки (необязательно).
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -7979,31 +7979,31 @@ no. d'identite
 - 香港特別行政區非永久性居民身分證
 - 香港特別行政區非永久性居民身分証
 
-   
+
 ## <a name="hungary-drivers-license-number"></a>Номер водительских прав в Венгрии
 
 ### <a name="format"></a>Формат
 
 Две буквы с шестью цифрами
-  
+
 ### <a name="pattern"></a>Шаблон
 
 Две буквы и шесть цифр:
-  
-- Две буквы (не чувствительные к делу) 
+
+- Две буквы (не чувствительные к делу)
 - шесть цифр.
-    
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Нет
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-  
-- Обычное выражение  `Regex_hungary_eu_driver's_license_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_driver's_license_number` из `Keywords_hungary_eu_driver's_license_number` или найдено. 
-    
+
+- Обычное выражение  `Regex_hungary_eu_driver's_license_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_driver's_license_number` из `Keywords_hungary_eu_driver's_license_number` или найдено.
+
 ```xml
       <Entity id="9d31c46b-6e6b-444c-aeb1-6dd7e604bb24" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="75">
@@ -8158,31 +8158,31 @@ no. d'identite
 ### <a name="format"></a>Формат
 
 11 цифр.
-  
+
 ### <a name="pattern"></a>Шаблон
 
 11 цифр:
-  
+
 - Одна цифра, соответствующая полу, 1 для мужчины, 2 для женщин. Другие номера также возможны для граждан, родившихся до 1900 г. или граждан с двойным гражданством.
 - Шесть цифр, соответствующих дате рождения (YYMMDD)
 - Три цифры, соответствующие серийному номеру
 - Одна контрольная цифра
-    
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Да
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет высокую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-  
-- Функция находит  `Func_hungary_eu_national_id_card` содержимое, которое соответствует шаблону. 
-- Найдено ключевое  `Keywords_hungary_eu_national_id_card` слово. 
-    
+
+- Функция находит  `Func_hungary_eu_national_id_card` содержимое, которое соответствует шаблону.
+- Найдено ключевое  `Keywords_hungary_eu_national_id_card` слово.
+
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-  
-- Функция находит  `Func_hungary_eu_national_id_card` содержимое, которое соответствует шаблону. 
-    
+
+- Функция находит  `Func_hungary_eu_national_id_card` содержимое, которое соответствует шаблону.
+
 ```xml
       <!-- Hungary Personal Identification Number -->
       <Entity id="7b5cc218-7046-47d9-80c9-f325b50896ca" patternsProximity="300" recommendedConfidence="85">
@@ -8218,26 +8218,26 @@ no. d'identite
 ### <a name="format"></a>Формат
 
 Две буквы с шестью или семью цифрами без пробелов или делимитеров
-  
+
 ### <a name="pattern"></a>Шаблон
 
 Две буквы с шестью или семью цифрами
-  
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Нет
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет высокую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_hungary_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_hungary_eu_passport_number` или найдено. 
+- Обычное выражение  `Regex_hungary_eu_passport_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_hungary_eu_passport_number` или найдено.
 - Обычное выражение находит дату в формате `Regex_hungary_eu_passport_date` DD MMM/MMM YY (Пример - 01 MÁR/MAR 12) или ключевое слово `Keywords_eu_passport_date` из найдено
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_hungary_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_hungary_eu_passport_number` или найдено. 
-    
+- Обычное выражение  `Regex_hungary_eu_passport_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_hungary_eu_passport_number` или найдено.
+
 ```xml
       <!-- Hungary Passport Number -->
       <Entity id="5b483910-9aa7-4c99-9917-f4001464bda7" patternsProximity="300" recommendedConfidence="75">
@@ -8293,26 +8293,26 @@ no. d'identite
 ### <a name="format"></a>Формат
 
 Девять цифр без пробелов и делимитеров
-  
+
 ### <a name="pattern"></a>Шаблон
 
 Девять цифр.
-  
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Да
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет высокую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-  
-- Функция находит  `Func_hungary_eu_ssn_or_equivalent` содержимое, которое соответствует шаблону. 
-- Найдено ключевое  `Keywords_hungary_eu_ssn_or_equivalent` слово. 
-    
+
+- Функция находит  `Func_hungary_eu_ssn_or_equivalent` содержимое, которое соответствует шаблону.
+- Найдено ключевое  `Keywords_hungary_eu_ssn_or_equivalent` слово.
+
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-  
-- Функция находит  `Func_hungary_eu_ssn_or_equivalent` содержимое, которое соответствует шаблону. 
-    
+
+- Функция находит  `Func_hungary_eu_ssn_or_equivalent` содержимое, которое соответствует шаблону.
+
 ```xml
       <!-- Hungarian Social Security Number (TAJ) -->
       <Entity id="0de78315-9537-47f5-95ab-b3e77eba3993" patternsProximity="300" recommendedConfidence="85">
@@ -8360,30 +8360,30 @@ no. d'identite
 ### <a name="format"></a>Формат
 
 10 цифр без пробелов или делимитеров
-  
+
 ### <a name="pattern"></a>Шаблон
 
 10 цифр:
-  
-- Одна цифра, которая должна быть "8" 
+
+- Одна цифра, которая должна быть "8"
 - Восемь цифр
 - Одна контрольная цифра
-    
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Да
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет высокую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-  
-- Функция находит  `Func_hungary_eu_tax_file_number` содержимое, которое соответствует шаблону. 
-- Найдено ключевое  `Keywords_hungary_eu_tax_file_number` слово. 
-    
+
+- Функция находит  `Func_hungary_eu_tax_file_number` содержимое, которое соответствует шаблону.
+- Найдено ключевое  `Keywords_hungary_eu_tax_file_number` слово.
+
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-  
-- Функция находит  `Func_hungary_eu_tax_file_number` содержимое, которое соответствует шаблону. 
-    
+
+- Функция находит  `Func_hungary_eu_tax_file_number` содержимое, которое соответствует шаблону.
+
 ```xml
       <!-- Hungary Tax Identification Number -->
       <Entity id="ede42eb4-59d9-49eb-9603-d7853fbda91d" patternsProximity="300" recommendedConfidence="85">
@@ -8504,10 +8504,10 @@ no. d'identite
 ### <a name="pattern"></a>Шаблон
 
 10 букв или цифр:
-- Три буквы (не чувствительные к делу) 
+- Три буквы (не чувствительные к делу)
 - Буквы C, P, H, F, A, T, B, L, J, G (не чувствительны к делу)
 - Письмо
-- Четыре цифры 
+- Четыре цифры
 - Буква, которая является алфавитной цифрой проверки
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -8543,9 +8543,9 @@ no. d'identite
 
 #### <a name="keyword_india_permanent_account_number"></a>Keyword_india_permanent_account_number
 
-- Permanent Account Number 
-- PAN 
-   
+- Permanent Account Number
+- PAN
+
 ## <a name="india-unique-identification-aadhaar-number"></a>Уникальный идентификационный номер Индии (Aadhaar)
 
 ### <a name="format"></a>Формат
@@ -8556,10 +8556,10 @@ no. d'identite
 
 12 цифр:
 - Цифры, не 0 или 1
-- Три цифры 
-- необязательный пробел или тире; 
-- четыре цифры; 
-- необязательный пробел или тире; 
+- Три цифры
+- необязательный пробел или тире;
+- четыре цифры;
+- необязательный пробел или тире;
 - Окончательная цифра, которая является чековой цифрой
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -8572,7 +8572,7 @@ no. d'identite
 - функция Func_india_aadhaar находит содержимое, которое соответствует шаблону;
 - находится ключевое слово из Keyword_india_aadhar;
 - Контрольная сумма проходит проверку.
-- 
+-
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
 
 - функция Func_india_aadhaar находит содержимое, которое соответствует шаблону;
@@ -8591,7 +8591,7 @@ no. d'identite
 </Entity>
 ```
 ### <a name="keywords"></a>Ключевые слова
-   
+
 #### <a name="keyword_india_aadhar"></a>Keyword_india_aadhar
 - aadhaar
 - aadhar
@@ -8599,7 +8599,7 @@ no. d'identite
 - uid
 - आधार
 - uidai
-   
+
 ## <a name="indonesia-identity-card-ktp-number"></a>Номер удостоверения личности (KTP) в Индонезии
 
 ### <a name="format"></a>Формат
@@ -8609,13 +8609,13 @@ no. d'identite
 ### <a name="pattern"></a>Шаблон
 
 16 цифр:
-- две цифры (код провинции); 
-- точка (необязательно); 
-- две цифры (код округа или города); 
-- две цифры (код района); 
-- точка (необязательно); 
-- Шесть цифр в формате DDMMYY, которые являются датой рождения 
-- точка (необязательно); 
+- две цифры (код провинции);
+- точка (необязательно);
+- две цифры (код округа или города);
+- две цифры (код района);
+- точка (необязательно);
+- Шесть цифр в формате DDMMYY, которые являются датой рождения
+- точка (необязательно);
 - четыре цифры.
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -8639,13 +8639,13 @@ no. d'identite
 ```
 
 ### <a name="keywords"></a>Ключевые слова
-   
+
 #### <a name="keyword_indonesia_id_card"></a>Keyword_indonesia_id_card
 
 - KTP
-- Kartu Tanda Penduduk 
-- Nomor Induk Kependudukan 
-   
+- Kartu Tanda Penduduk
+- Nomor Induk Kependudukan
+
 ## <a name="international-banking-account-number-iban"></a>Номер международного банковского счета (IBAN)
 
 ### <a name="format"></a>Формат
@@ -8657,7 +8657,7 @@ no. d'identite
 Шаблон должен включать в себя все указанные ниже элементы.
 
 - Двухбуквенный код страны
-- Две проверочные цифры (после которых может следовать пробел)  
+- Две проверочные цифры (после которых может следовать пробел) 
 - 1–7 групп из четырех букв или цифр (могут разделяться пробелами)
 - 1–3 буквы или цифры
 
@@ -8710,7 +8710,7 @@ no. d'identite
 - mt
 - mu
 - nl
-- нет
+- Нет
 - pl
 - pt
 - ro
@@ -8745,9 +8745,9 @@ no. d'identite
 
 ### <a name="keywords"></a>Ключевые слова
 
-Нет
+Нет.
 
-   
+
 ## <a name="international-classification-of-diseases-icd-10-cm"></a>Международная классификация заболеваний (ICD-10-CM)
 
 ### <a name="format"></a>Формат
@@ -8831,7 +8831,7 @@ Dictionary
 
 Любой термин из словаря Dictionary_icd_9_codes ключевого слова, который основан на международной классификации болезней, девятой ревизии, клинической модификации [(ICD-9-CM).](https://go.microsoft.com/fwlink/?linkid=852605) Этот тип ищет только коды страхования, а не описание.
 
-## <a name="ip-address"></a>IP-адрес.
+## <a name="ip-address"></a>IP-адрес
 
 ### <a name="format"></a>Формат
 
@@ -8890,35 +8890,35 @@ Dictionary
 #### <a name="keyword_ipaddress"></a>Keyword_ipaddress
 
 - IP (это ключевое слово является чувствительным к делу)
-- ip address 
+- ip address
 - ip addresses
 - internet protocol
-- IP-כתובת ה 
+- IP-כתובת ה
 
 ## <a name="ireland-drivers-license-number"></a>Номер лицензии водителя Ирландии
 
 ### <a name="format"></a>Формат
 
 Шесть цифр, за которыми следуют четыре буквы
-  
+
 ### <a name="pattern"></a>Шаблон
 
 Шесть цифр и четыре буквы:
-  
+
 - Шесть цифр
 - Четыре буквы (не чувствительные к делу)
-    
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Нет
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-  
-- Обычное выражение  `Regex_ireland_eu_driver's_license_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_driver's_license_number` из `Keywords_ireland_eu_driver's_license_number` или найдено. 
-    
+
+- Обычное выражение  `Regex_ireland_eu_driver's_license_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_driver's_license_number` из `Keywords_ireland_eu_driver's_license_number` или найдено.
+
 ```xml
       <!-- Ireland Driver's License Number -->
       <Entity id="e01bccd9-eb4d-414f-ace1-e9b6a4c4a2ca" patternsProximity="300" recommendedConfidence="75">
@@ -9066,29 +9066,29 @@ Dictionary
 ### <a name="format"></a>Формат
 
 Две буквы или цифры, за которыми следуют семь цифр без пробелов или делимитеров
-  
+
 ### <a name="pattern"></a>Шаблон
 
 Две буквы или цифры, за которыми следуют семь цифр:
-  
+
 - Две цифры или буквы (не чувствительные к делу)
 - семь цифр.
-    
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Нет
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет высокую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_ireland_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_ireland_eu_passport_number` или найдено. 
+- Обычное выражение  `Regex_ireland_eu_passport_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_ireland_eu_passport_number` или найдено.
 - Регулярное выражение находит дату в формате `Regex_ireland_eu_passport_date` DD MMM/MMM YYYY (Пример - 01 BEA/MAY 1988) или ключевое слово из `Keywords_eu_passport_date` найденного
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_ireland_eu_passport_number` находит содержимое, которое соответствует шаблону. 
+- Обычное выражение  `Regex_ireland_eu_passport_number` находит содержимое, которое соответствует шаблону.
 - Ключевое слово  `Keywords_eu_passport_number` из `Keywords_ireland_eu_passport_number` или найдено.
-    
+
 ```xml
       <!-- Ireland Passport Number -->
       <Entity id="a2130f27-9ee2-4103-84f9-a6b1ee7d0cbf" patternsProximity="300" recommendedConfidence="75">
@@ -9149,7 +9149,7 @@ Dictionary
 ### <a name="format"></a>Формат
 
 Старый формат (до 31 декабря 2012 г.):
-- семь цифр, за которыми следуют 1-2 буквы 
+- семь цифр, за которыми следуют 1-2 буквы
 
 Новый формат (1 января 2013 г. и после):
 - семь цифр, за которыми следуют две буквы
@@ -9157,12 +9157,12 @@ Dictionary
 ### <a name="pattern"></a>Шаблон
 
 Старый формат (до 31 декабря 2012 г.):
-- семь цифр 
-- от одной до двух букв (не чувствительных к делу) 
+- семь цифр
+- от одной до двух букв (не чувствительных к делу)
 
 Новый формат (1 января 2013 г. и после):
-- семь цифр 
-- буква (не чувствительная к делу), которая является алфавитной цифрой проверки 
+- семь цифр
+- буква (не чувствительная к делу), которая является алфавитной цифрой проверки
 - Необязательная буква в диапазоне A-I или "W"
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -9250,10 +9250,10 @@ Dictionary
 ### <a name="pattern"></a>Шаблон
 
 Форматированный:
-- две цифры 
-- тире 
-- три цифры 
-- тире 
+- две цифры
+- тире
+- три цифры
+- тире
 - восемь цифр
 
 Unformatted:
@@ -9285,11 +9285,11 @@ Unformatted:
 
 #### <a name="keyword_israel_bank_account_number"></a>Keyword_israel_bank_account_number
 
-- Bank Account Number 
-- Bank Account 
-- Account Number 
-- מספר חשבון בנק 
-   
+- Bank Account Number
+- Bank Account
+- Account Number
+- מספר חשבון בנק
+
 ## <a name="israel-national-identification-number"></a>Национальный идентификационный номер Израиля
 
 ### <a name="format"></a>Формат
@@ -9344,7 +9344,7 @@ Unformatted:
 -   личный id
 -   уникальный id  
 
-   
+
 ## <a name="italy-drivers-license-number"></a>Номер водительских прав в Италии
 
 Этот тип объекта включен в тип конфиденциальной информации о номере лицензии водителя ЕС. Он также доступен в качестве отдельного объекта типа конфиденциальной информации.
@@ -9356,8 +9356,8 @@ Unformatted:
 ### <a name="pattern"></a>Шаблон
 
 сочетание 10 букв и цифр:
-- одна буква (не деликатная) 
-- буквы "A" или "V" (не чувствительные к делу) 
+- одна буква (не деликатная)
+- буквы "A" или "V" (не чувствительные к делу)
 - семь цифр
 - одна буква (не деликатная)
 
@@ -9510,7 +9510,7 @@ Unformatted:
 #### <a name="keyword_italy_drivers_license_number"></a>Keyword_italy_drivers_license_number
 
 - патент numero di
-- patente di guida 
+- patente di guida
 - patente guida
 - patenti di guida
 - guida patenti
@@ -9527,7 +9527,7 @@ Unformatted:
 ### <a name="format"></a>Формат
 
 16-символьное сочетание букв и цифр в указанном шаблоне
-  
+
 ### <a name="pattern"></a>Шаблон
 
 Сочетание букв и цифр в 16 символов:
@@ -9538,20 +9538,20 @@ Unformatted:
 - две цифры, соответствующие дню рождения, чтобы различать полы, добавляется 40 к дню рождения для женщин
 - четыре цифры, соответствующие коду области, определенному муниципалитету, в котором родился человек (коды по всей стране используются для иностранных стран)
 - одно число паритета
-    
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Да
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет высокую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-- Функция находит  `Func_italy_eu_national_id_card` содержимое, которое соответствует шаблону. 
-- Найдено ключевое  `Keywords_italy_eu_national_id_card` слово. 
-    
+- Функция находит  `Func_italy_eu_national_id_card` содержимое, которое соответствует шаблону.
+- Найдено ключевое  `Keywords_italy_eu_national_id_card` слово.
+
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Функция находит  `Func_italy_eu_national_id_card` содержимое, которое соответствует шаблону. 
-    
+- Функция находит  `Func_italy_eu_national_id_card` содержимое, которое соответствует шаблону.
+
 ```xml
       <!-- Italy Fiscal Code -->
       <Entity id="4cd79172-8da9-4ff5-9188-98b1e7e2eca6" patternsProximity="300" recommendedConfidence="85">
@@ -9608,29 +9608,29 @@ Unformatted:
 ### <a name="format"></a>Формат
 
 две буквы или цифры, за которыми следуют семь цифр без пробелов или делимитеров
-  
+
 ### <a name="pattern"></a>Шаблон
 
 две буквы или цифры, а затем семь цифр:
-  
+
 - две цифры или буквы (не чувствительные к делу)
 - семь цифр
-    
+
 ### <a name="checksum"></a>Контрольная сумма
 
 неприменимо
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет высокую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_italy_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_italy_eu_passport_number` или найдено. 
+- Обычное выражение  `Regex_italy_eu_passport_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_italy_eu_passport_number` или найдено.
 - Обычное выражение находит дату в формате `Regex_italy_eu_passport_date` DD MMM/MMM YYYYY (Пример - 01 GEN/JAN 1988) или ключевое слово из `Keywords_eu_passport_date` найденного
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_italy_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_italy_eu_passport_number` или найдено. 
-    
+- Обычное выражение  `Regex_italy_eu_passport_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_italy_eu_passport_number` или найдено.
+
 ```xml
       <!-- Italy Passport Number -->
       <Entity id="39811019-4750-445f-b26d-4c0e6c431544" patternsProximity="300" recommendedConfidence="75">
@@ -9755,8 +9755,8 @@ Unformatted:
 Номер банковского счета:
 - семь или восемь цифр
 - Код филиала банковского счета:
-- четыре цифры 
-- пространство или тире (необязательно) 
+- четыре цифры
+- пространство или тире (необязательно)
 - три цифры
 
 Контрольная сумма
@@ -9788,7 +9788,7 @@ Unformatted:
             <Match idRef="Keyword_jp_bank_branch_code" />
           </Any>
       </Pattern>
-  </Version>    
+  </Version>
      <Pattern confidenceLevel="75">
         <IdMatch idRef="Func_jp_bank_account" />
         <Match idRef="Keyword_jp_bank_account" />
@@ -9800,34 +9800,34 @@ Unformatted:
 
 #### <a name="keyword_jp_bank_account"></a>Keyword_jp_bank_account
 
-- Checking Account Number 
-- Checking Account 
-- Checking Account # 
-- Checking Acct Number 
-- Checking Acct # 
-- Checking Acct No. 
-- Checking Account No. 
-- Bank Account Number 
-- Bank Account 
-- Bank Account # 
-- Bank Acct Number 
-- Bank Acct # 
-- Bank Acct No. 
-- Bank Account No. 
-- Savings Account Number 
-- Savings Account 
-- Savings Account # 
-- Savings Acct Number 
-- Savings Acct # 
-- Savings Acct No. 
-- Savings Account No. 
-- Debit Account Number 
-- Debit Account 
-- Debit Account # 
-- Debit Acct Number 
-- Debit Acct # 
-- Debit Acct No. 
-- Debit Account No. 
+- Checking Account Number
+- Checking Account
+- Checking Account #
+- Checking Acct Number
+- Checking Acct #
+- Checking Acct No.
+- Checking Account No.
+- Bank Account Number
+- Bank Account
+- Bank Account #
+- Bank Acct Number
+- Bank Acct #
+- Bank Acct No.
+- Bank Account No.
+- Savings Account Number
+- Savings Account
+- Savings Account #
+- Savings Acct Number
+- Savings Acct #
+- Savings Acct No.
+- Savings Account No.
+- Debit Account Number
+- Debit Account
+- Debit Account #
+- Debit Acct Number
+- Debit Acct #
+- Debit Acct No.
+- Debit Account No.
 - 口座番号
 - 銀行口座
 - 銀行口座番号
@@ -10042,7 +10042,7 @@ Unformatted:
 - 個人識別ナンバー
 - 通知カード
 
-   
+
 ## <a name="japan-passport-number"></a>Номер паспорта Японии
 
 ### <a name="format"></a>Формат
@@ -10103,7 +10103,7 @@ Unformatted:
 
 12 букв и цифр:
 - две буквы (не чувствительные к делу)
-- восемь цифр 
+- восемь цифр
 - две буквы (не чувствительные к делу)
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -10172,17 +10172,17 @@ Unformatted:
 #### <a name="keyword_jp_resident_registration_number"></a>Keyword_jp_resident_registration_number
 
 - Resident Registration Number
-- Residents Basic Registry Number 
-- Resident Registration No. 
-- Resident Register No. 
-- Residents Basic Registry No. 
-- Basic Resident Register No. 
+- Residents Basic Registry Number
+- Resident Registration No.
+- Resident Register No.
+- Residents Basic Registry No.
+- Basic Resident Register No.
 - 外国人登録証明書番号
 - 証明書番号
 - 登録番号
 - 外国人登録証
 
-   
+
 ## <a name="japan-social-insurance-number-sin"></a>Номер социального страхования Японии (SIN)
 
 ### <a name="format"></a>Формат
@@ -10192,8 +10192,8 @@ Unformatted:
 ### <a name="pattern"></a>Шаблон
 
 7–12 цифр
-- четыре цифры 
-- дефис (необязательный) 
+- четыре цифры
+- дефис (необязательный)
 - шесть цифр OR
 - 7–12 последовательных цифр.
 
@@ -10229,9 +10229,9 @@ Unformatted:
 
 #### <a name="keyword_jp_sin"></a>Keyword_jp_sin
 
-- Social Insurance No. 
-- Social Insurance Num 
-- Social Insurance Number 
+- Social Insurance No.
+- Social Insurance Num
+- Social Insurance Number
 - 健康保険被保険者番号
 - 健保番号
 - 基礎年金番号
@@ -10254,24 +10254,24 @@ Unformatted:
 ### <a name="format"></a>Формат
 
 три буквы, за которыми следуют шесть цифр
-  
+
 ### <a name="pattern"></a>Шаблон
 
 три буквы и шесть цифр:
-  
-- три буквы (не чувствительные к делу) 
+
+- три буквы (не чувствительные к делу)
 - шесть цифр
-    
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Нет
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_latvia_eu_driver's_license_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_driver's_license_number` из `Keywords_latvia_eu_driver's_license_number` или найдено. 
-    
+- Обычное выражение  `Regex_latvia_eu_driver's_license_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_driver's_license_number` из `Keywords_latvia_eu_driver's_license_number` или найдено.
+
 ```xml
       <!-- Latvia Driver's License Number -->
       <Entity id="ec996de0-30f2-46b1-b192-4d2ff8805fa7" patternsProximity="300" recommendedConfidence="75">
@@ -10420,14 +10420,14 @@ Unformatted:
 ### <a name="format"></a>Формат
 
 11 цифр и необязательный дефис
-  
+
 ### <a name="pattern"></a>Шаблон
 
 Старый формат
 
 11 цифр и дефис:
-  
-- шесть цифр, соответствующих дате рождения (DDMMYY) 
+
+- шесть цифр, соответствующих дате рождения (DDMMYY)
 - дефис
 - одна цифра, соответствующая столетию рождения ("0" для 19-го века, "1" для 20-го века и "2" для 21-го века)
 - четыре цифры, случайно созданные
@@ -10438,20 +10438,20 @@ Unformatted:
 
 - Две цифры "32"
 - девять цифр.
-    
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Да
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет высокую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-- Функция или  `Func_latvia_eu_national_id_card` regex находит `Regex_latvia_eu_national_id_card_new_format` содержимое, которое соответствует шаблону. 
-- Найдено ключевое  `Keywords_latvia_eu_national_id_card` слово. 
-    
+- Функция или  `Func_latvia_eu_national_id_card` regex находит `Regex_latvia_eu_national_id_card_new_format` содержимое, которое соответствует шаблону.
+- Найдено ключевое  `Keywords_latvia_eu_national_id_card` слово.
+
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Функция или  `Func_latvia_eu_national_id_card` regex находит `Regex_latvia_eu_national_id_card_new_format` содержимое, которое соответствует шаблону. 
-    
+- Функция или  `Func_latvia_eu_national_id_card` regex находит `Regex_latvia_eu_national_id_card_new_format` содержимое, которое соответствует шаблону.
+
 ```xml
       <!-- Latvia Personal Code -->
       <Entity id="03fcf763-27c2-49ed-9422-2641c6c895c9" patternsProximity="300" recommendedConfidence="85">
@@ -10551,29 +10551,29 @@ Unformatted:
 ### <a name="format"></a>Формат
 
 две буквы или цифры, за которыми следуют семь цифр без пробелов или делимитеров
-  
+
 ### <a name="pattern"></a>Шаблон
 
 две буквы или цифры, а затем семь цифр:
-  
+
 - две цифры или буквы (не чувствительные к делу)
 - семь цифр
-    
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Нет
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет высокую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_latvia_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_latvia_eu_passport_number` или найдено. 
+- Обычное выражение  `Regex_latvia_eu_passport_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_latvia_eu_passport_number` или найдено.
 - Обычное выражение `Regex_eu_passport_date1` находит дату в формате DD.MM.YYYYY или ключевое слово `Keywords_eu_passport_date` из
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_latvia_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_latvia_eu_passport_number` или найдено. 
-    
+- Обычное выражение  `Regex_latvia_eu_passport_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_latvia_eu_passport_number` или найдено.
+
 ```xml
       <!-- Latvia Passport Number -->
       <Entity id="23ae25ec-cc28-421b-b77a-3054eadf1ede" patternsProximity="300" recommendedConfidence="75">
@@ -10633,21 +10633,21 @@ Unformatted:
 ### <a name="format"></a>Формат
 
 восемь цифр без пробелов и делимитеров
-  
+
 ### <a name="pattern"></a>Шаблон
 
-восемь цифр 
-  
+восемь цифр
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Нет
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_lithuania_eu_driver's_license_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_driver's_license_number` из `Keywords_lithuania_eu_driver's_license_number` или найдено. 
-    
+- Обычное выражение  `Regex_lithuania_eu_driver's_license_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_driver's_license_number` из `Keywords_lithuania_eu_driver's_license_number` или найдено.
+
 ```xml
       <!-- Lithuania Driver's License Number -->
       <Entity id="86f7628b-e0f4-4dc3-9fbc-e4300e4c7d78" patternsProximity="300" recommendedConfidence="75">
@@ -10802,29 +10802,29 @@ Unformatted:
 ### <a name="format"></a>Формат
 
 11 цифр без пробелов и делимитеров
-  
+
 ### <a name="pattern"></a>Шаблон
 
 11 цифр без пробелов и делимитеров:
-  
+
 - одна цифра (1-6), соответствующая полу и столетию рождения
-- шесть цифр, соответствующих дате рождения (YYMMDD) 
+- шесть цифр, соответствующих дате рождения (YYMMDD)
 - три цифры, соответствующие серийному номеру даты рождения
 - одна контрольная цифра
-    
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Да
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет высокую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-- Функция находит  `Func_lithuania_eu_tax_file_number` содержимое, которое соответствует шаблону. 
-- Найдено ключевое  `Keywords_lithuania_eu_tax_file_number` слово. 
-    
+- Функция находит  `Func_lithuania_eu_tax_file_number` содержимое, которое соответствует шаблону.
+- Найдено ключевое  `Keywords_lithuania_eu_tax_file_number` слово.
+
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Функция находит  `Func_lithuania_eu_tax_file_number` содержимое, которое соответствует шаблону. 
-    
+- Функция находит  `Func_lithuania_eu_tax_file_number` содержимое, которое соответствует шаблону.
+
 ```xml
       <!-- Lithuania Personal Code -->
       <Entity id="cd6d3786-8ec3-4524-a2cf-1e0095379171" patternsProximity="300" recommendedConfidence="85">
@@ -10884,26 +10884,26 @@ Unformatted:
 ### <a name="format"></a>Формат
 
 восемь цифр или букв без пробелов или делимитеров
-  
+
 ### <a name="pattern"></a>Шаблон
 
 восемь цифр или букв (не чувствительных к делу)
-  
+
 ### <a name="checksum"></a>Контрольная сумма
 
 неприменимо
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет высокую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_lithuania_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_lithuania_eu_passport_number` или найдено. 
+- Обычное выражение  `Regex_lithuania_eu_passport_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_lithuania_eu_passport_number` или найдено.
 - Регулярное выражение `Regex_eu_passport_date3` находит дату в формате DD MM YYYY или ключевое слово `Keywords_eu_passport_date` из
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_lithuania_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_lithuania_eu_passport_number` или найдено. 
-    
+- Обычное выражение  `Regex_lithuania_eu_passport_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_lithuania_eu_passport_number` или найдено.
+
 ```xml
       <!-- Lithuania Passport Number -->
       <Entity id="1b79900f-047b-4c3f-846f-7d73b5534bce" patternsProximity="300" recommendedConfidence="75">
@@ -10960,21 +10960,21 @@ Unformatted:
 ### <a name="format"></a>Формат
 
 шесть цифр без пробелов и делимитеров
-  
+
 ### <a name="pattern"></a>Шаблон
 
-шесть цифр 
-  
+шесть цифр
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Нет
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_luxemburg_eu_driver's_license_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_driver's_license_number` из `Keywords_luxemburg_eu_driver's_license_number` или найдено. 
-    
+- Обычное выражение  `Regex_luxemburg_eu_driver's_license_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_driver's_license_number` из `Keywords_luxemburg_eu_driver's_license_number` или найдено.
+
 ```xml
       <!-- Luxemburg Driver's License Number -->
       <Entity id="89daf717-1544-4860-9a2e-fc9166dd8852" patternsProximity="300" recommendedConfidence="75">
@@ -11128,26 +11128,26 @@ Unformatted:
 ### <a name="format"></a>Формат
 
 13 цифр без пробелов или делимитеров
-  
+
 ### <a name="pattern"></a>Шаблон
 
 13 цифр:
-  
-- 11 цифр. 
+
+- 11 цифр.
 - две контрольные цифры
-    
+
 ### <a name="checksum"></a>Контрольная сумма
 
 да
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет высокую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-- Функция находит  `Func_luxemburg_eu_tax_file_number` содержимое, которое соответствует шаблону. 
-- Найдено ключевое  `Keywords_luxemburg_eu_national_id_card` слово. 
+- Функция находит  `Func_luxemburg_eu_tax_file_number` содержимое, которое соответствует шаблону.
+- Найдено ключевое  `Keywords_luxemburg_eu_national_id_card` слово.
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Функция находит  `Func_luxemburg_eu_tax_file_number` содержимое, которое соответствует шаблону. 
+- Функция находит  `Func_luxemburg_eu_tax_file_number` содержимое, которое соответствует шаблону.
 
 
 ```xml
@@ -11197,26 +11197,26 @@ Unformatted:
 ### <a name="format"></a>Формат
 
 восемь цифр или букв без пробелов или делимитеров
-  
+
 ### <a name="pattern"></a>Шаблон
 
 восемь цифр или букв (не чувствительных к делу)
-  
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Нет
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет высокую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_luxemburg_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_luxemburg_eu_passport_number` или найдено. 
+- Обычное выражение  `Regex_luxemburg_eu_passport_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_luxemburg_eu_passport_number` или найдено.
 - Регулярное выражение `Regex_eu_passport_date3` находит дату в формате DD MM YYYY или ключевое слово `Keywords_eu_passport_date` из
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_luxemburg_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_luxemburg_eu_passport_number` или найдено. 
-    
+- Обычное выражение  `Regex_luxemburg_eu_passport_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_luxemburg_eu_passport_number` или найдено.
+
 ```xml
       <!-- Luxemburg Passport Number -->
       <Entity id="81d5c027-bed9-4421-91a0-3b2e55b3eb85" patternsProximity="300" recommendedConfidence="75">
@@ -11284,33 +11284,33 @@ Unformatted:
 ### <a name="format"></a>Формат
 
 11 цифр.
-  
+
 ### <a name="pattern"></a>Шаблон
 
 11 цифр.
-  
+
 - две цифры
-- необязательный пробел 
-- три цифры 
 - необязательный пробел
-- три цифры 
+- три цифры
+- необязательный пробел
+- три цифры
 - необязательный пробел
 - две цифры
 - одна контрольная цифра
-    
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Да
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет высокую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-- Функция находит  `Func_luxemburg_eu_tax_file_number_non_natural` содержимое, которое соответствует шаблону. 
-- Найдено ключевое  `Keywords_luxemburg_eu_tax_file_number` слово. 
-    
+- Функция находит  `Func_luxemburg_eu_tax_file_number_non_natural` содержимое, которое соответствует шаблону.
+- Найдено ключевое  `Keywords_luxemburg_eu_tax_file_number` слово.
+
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Функция находит  `Func_luxemburg_eu_tax_file_number_non_natural` содержимое, которое соответствует шаблону. 
-    
+- Функция находит  `Func_luxemburg_eu_tax_file_number_non_natural` содержимое, которое соответствует шаблону.
+
 ```xml
       <!-- Luxemburg National Identification Number (Non-natural persons) -->
       <Entity id="84bffa3a-d805-4788-a613-b1e4df3804cf" patternsProximity="300" recommendedConfidence="85">
@@ -11380,11 +11380,11 @@ Unformatted:
 ### <a name="pattern"></a>Шаблон
 
 12 цифр:
-- шесть цифр в формате YYMMDD, которые являются датой рождения 
-- тире (необязательный) 
-- двух-буквный код места рождения 
-- тире (необязательный) 
-- три случайных цифры 
+- шесть цифр в формате YYMMDD, которые являются датой рождения
+- тире (необязательный)
+- двух-буквный код места рождения
+- тире (необязательный)
+- три случайных цифры
 - однозначный гендерный код
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -11409,7 +11409,7 @@ Unformatted:
 ```
 
 ### <a name="keywords"></a>Ключевые слова
-   
+
 #### <a name="keyword_malaysia_id_card_number"></a>Keyword_malaysia_id_card_number
 
 - карта цифрового приложения
@@ -11442,27 +11442,27 @@ Unformatted:
 ### <a name="format"></a>Формат
 
 Сочетание двух символов и шести цифр в указанном шаблоне
-  
+
 ### <a name="pattern"></a>Шаблон
 
 сочетание двух символов и шести цифр:
-  
+
 - два символа (цифры или буквы, не чувствительные к делу)
 - пробел (необязательный)
 - три цифры
 - пробел (необязательный)
 - три цифры
-    
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Нет
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_malta_eu_driver's_license_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_driver's_license_number` из `Keywords_malta_eu_driver's_license_number` или найдено. 
-    
+- Обычное выражение  `Regex_malta_eu_driver's_license_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_driver's_license_number` из `Keywords_malta_eu_driver's_license_number` или найдено.
+
 ```xml
       <!-- Malta Driver's License Number -->
       <Entity id="a3bdaa4a-8371-4735-8fa5-56ee0fb4afc4" patternsProximity="300" recommendedConfidence="75">
@@ -11617,27 +11617,27 @@ Unformatted:
 ### <a name="format"></a>Формат
 
 семь цифр, за которыми следует одна буква
-  
+
 ### <a name="pattern"></a>Шаблон
 
 семь цифр, за которыми следует одна буква:
-  
-- семь цифр 
+
+- семь цифр
 - одна буква в "M, G, A, P, L, H, B, Z" (случай нечувствительный)
-    
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Неприменимо
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_malta_eu_national_id_card` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое  `Keywords_malta_eu_national_id_card` слово. 
-    
+- Обычное выражение  `Regex_malta_eu_national_id_card` находит содержимое, которое соответствует шаблону.
+- Найдено ключевое  `Keywords_malta_eu_national_id_card` слово.
+
 Политика DLP имеет низкую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_malta_eu_national_id_card` находит содержимое, которое соответствует шаблону. 
-    
+- Обычное выражение  `Regex_malta_eu_national_id_card` находит содержимое, которое соответствует шаблону.
+
 ```xml
       <!-- Malta Identity Card Number -->
       <Entity id="854b36b3-a388-4ac8-a4ec-677c2b5e4356" patternsProximity="300" recommendedConfidence="75">
@@ -11676,26 +11676,26 @@ Unformatted:
 ### <a name="format"></a>Формат
 
 семь цифр без пробелов или делимитеров
-  
+
 ### <a name="pattern"></a>Шаблон
 
-семь цифр 
-  
+семь цифр
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Нет
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет высокую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_malta_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_malta_eu_passport_number` или найдено. 
+- Обычное выражение  `Regex_malta_eu_passport_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_malta_eu_passport_number` или найдено.
 - Найдено `Keywords_eu_passport_date` ключевое слово
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_malta_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_malta_eu_passport_number` или найдено. 
-    
+- Обычное выражение  `Regex_malta_eu_passport_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_malta_eu_passport_number` или найдено.
+
 ```xml
       <!-- Malta Passport Number -->
       <Entity id="b2b21198-48f9-4d13-b2a5-03969bff0fb8" patternsProximity="300" recommendedConfidence="75">
@@ -11750,34 +11750,34 @@ Unformatted:
 
 Для граждан Мальты:
 - семь цифр и одна буква в указанном шаблоне
-  
+
 Не мальтийские граждане и мальтийские юридические лица:
 - девять цифр
-  
+
 ### <a name="pattern"></a>Шаблон
 
 Граждане Мальты: семь цифр и одна буква
-  
-- семь цифр 
+
+- семь цифр
 - одна буква (не деликатная)
-    
+
 Не мальтийские граждане и мальтийские сущностями: девять цифр
-  
-- девять цифр 
-    
+
+- девять цифр
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Неприменимо
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Regex  `Regex_malta_eu_tax_file_number`  или `Regex_malta_eu_tax_file_number_non_maltese_national` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое  `Keywords_malta_eu_tax_file_number` слово. 
-    
+- Regex  `Regex_malta_eu_tax_file_number`  или `Regex_malta_eu_tax_file_number_non_maltese_national` находит содержимое, которое соответствует шаблону.
+- Найдено ключевое  `Keywords_malta_eu_tax_file_number` слово.
+
 Политика DLP имеет низкую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-- Regex  `Regex_malta_eu_tax_file_number` или `Regex_malta_eu_tax_file_number_non_maltese_national` находит содержимое, которое соответствует шаблону. 
-    
+- Regex  `Regex_malta_eu_tax_file_number` или `Regex_malta_eu_tax_file_number_non_maltese_national` находит содержимое, которое соответствует шаблону.
+
 ```xml
       <!-- Malta Tax ID Number -->
       <Entity id="ec830c63-65f4-45d0-9d8c-910dc8334b20" patternsProximity="300" recommendedConfidence="75">
@@ -11839,7 +11839,7 @@ Unformatted:
 ### <a name="format"></a>Формат
 
 Альфанумерный шаблон 11 символов
-  
+
 ### <a name="pattern"></a>Шаблон
 
 - одна цифра от 1 до 9
@@ -11853,20 +11853,20 @@ Unformatted:
 - необязательный дефис
 - две буквы, за исключением S, L, O, I, B, Z
 - две цифры
-    
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Нет
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет высокую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_mbi_card` находит содержимое, которое соответствует шаблону. 
-- Найдено ключевое  `Keyword_mbi_card` слово. 
-    
+- Обычное выражение  `Regex_mbi_card` находит содержимое, которое соответствует шаблону.
+- Найдено ключевое  `Keyword_mbi_card` слово.
+
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_mbi_card` находит содержимое, которое соответствует шаблону. 
-    
+- Обычное выражение  `Regex_mbi_card` находит содержимое, которое соответствует шаблону.
+
 ```xml
     <!-- Medicare Beneficiary Identifier (MBI) card -->
       <Entity id="f753a286-f5cc-47e6-a592-4be25fd02591" patternsProximity="300" recommendedConfidence="75" relaxProximity="true">
@@ -11898,7 +11898,7 @@ Unformatted:
 ### <a name="format"></a>Формат
 
 Альфанумерный шаблон 18 символов
-  
+
 ### <a name="pattern"></a>Шаблон
 
 - четыре буквы (случай нечувствительный)
@@ -11908,20 +11908,20 @@ Unformatted:
 - три буквы
 - одна буква или цифра
 - одна цифра
-    
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Нет
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет высокую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-- Функция находит  `Func_mexico_population_registry_code` содержимое, которое соответствует шаблону. 
-- Найдено ключевое  `Keyword_mexico_population_registry_code` слово. 
-    
+- Функция находит  `Func_mexico_population_registry_code` содержимое, которое соответствует шаблону.
+- Найдено ключевое  `Keyword_mexico_population_registry_code` слово.
+
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Функция находит  `Func_mexico_population_registry_code` содержимое, которое соответствует шаблону. 
-    
+- Функция находит  `Func_mexico_population_registry_code` содержимое, которое соответствует шаблону.
+
 ```xml
     <!-- Mexico Unique Population Registry Code (CURP) -->
       <Entity id="e905ad4d-5a74-406d-bf36-b1efca798af4" patternsProximity="300" recommendedConfidence="75" relaxProximity="true">
@@ -11968,10 +11968,10 @@ Unformatted:
 ### <a name="pattern"></a>Шаблон
 
 восемь-девять цифр:
-- три цифры 
-- пробел (необязательный) 
-- три цифры 
-- пробел (необязательный) 
+- три цифры
+- пробел (необязательный)
+- три цифры
+- пробел (необязательный)
 - две-три цифры
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -11998,7 +11998,7 @@ Unformatted:
 ### <a name="keywords"></a>Ключевые слова
 
 #### <a name="keywords_netherlands_eu_national_id_card"></a>Keywords_netherlands_eu_national_id_card
-  
+
 - bsn #
 - bsn
 - burgerservicenummer
@@ -12026,21 +12026,21 @@ Unformatted:
 ### <a name="format"></a>Формат
 
 10 цифр без пробелов и делимитеров
-  
+
 ### <a name="pattern"></a>Шаблон
 
 10 цифр.
-  
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Нет
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_netherlands_eu_driver's_license_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_driver's_license_number` из `Keywords_netherlands_eu_driver's_license_number` или найдено. 
-    
+- Обычное выражение  `Regex_netherlands_eu_driver's_license_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_driver's_license_number` из `Keywords_netherlands_eu_driver's_license_number` или найдено.
+
 ```xml
       <!-- Netherlands Driver's License Number -->
       <Entity id="6247fbea-ab80-4be5-8233-308b7c031401" patternsProximity="300" recommendedConfidence="75">
@@ -12193,26 +12193,26 @@ Unformatted:
 ### <a name="format"></a>Формат
 
 девять букв или цифр без пробелов или делимитеров
-  
+
 ### <a name="pattern"></a>Шаблон
 
 девять букв или цифр
-  
+
 ### <a name="checksum"></a>Контрольная сумма
 
 неприменимо
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет высокую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_netherlands_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_netherlands_eu_passport_number` или найдено. 
+- Обычное выражение  `Regex_netherlands_eu_passport_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_netherlands_eu_passport_number` или найдено.
 - Регулярное выражение находит дату в формате `Regex_netherlands_eu_passport_date` DD MMM/MMM YYYY (Пример - 26 MAA/MAR 2012)
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_netherlands_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_netherlands_eu_passport_number` или найдено. 
-    
+- Обычное выражение  `Regex_netherlands_eu_passport_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_netherlands_eu_passport_number` или найдено.
+
 ```xml
       <!-- Netherlands Passport Number -->
       <Entity id="61786727-bafd-45f6-94d9-888d815e228e" patternsProximity="300" recommendedConfidence="75">
@@ -12267,24 +12267,24 @@ Unformatted:
 ### <a name="format"></a>Формат
 
 девять цифр без пробелов или делимитеров
-  
+
 ### <a name="pattern"></a>Шаблон
 
-девять цифр 
-  
+девять цифр
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Да
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет высокую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-- Функция находит  `Func_netherlands_eu_tax_file_number` содержимое, которое соответствует шаблону. 
-- Найдено ключевое  `Keywords_netherlands_eu_tax_file_number` слово. 
-    
+- Функция находит  `Func_netherlands_eu_tax_file_number` содержимое, которое соответствует шаблону.
+- Найдено ключевое  `Keywords_netherlands_eu_tax_file_number` слово.
+
 Политика DLP имеет низкую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-- Функция находит  `Func_netherlands_eu_tax_file_number` содержимое, которое соответствует шаблону. 
-    
+- Функция находит  `Func_netherlands_eu_tax_file_number` содержимое, которое соответствует шаблону.
+
 ```xml
       <!-- Netherlands Tax Identification Number -->
       <Entity id="01f42a64-eba7-4892-a67b-398237e4ade2" patternsProximity="300" recommendedConfidence="85">
@@ -12479,7 +12479,7 @@ Unformatted:
 
 восемь шаблонов альфа-цифр символов
 
-- две буквы 
+- две буквы
 - шесть цифр
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -12647,7 +12647,7 @@ Unformatted:
 ### <a name="pattern"></a>Шаблон
 
 - три буквы (не чувствительные к делу), кроме "I" и "O"
-- пробел (необязательный) 
+- пробел (необязательный)
 - четыре цифры
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -12754,7 +12754,7 @@ Unformatted:
 - номер социального обеспечения
 - swn #
 
-   
+
 ## <a name="norway-identification-number"></a>Идентификационный номер Норвегии
 
 ### <a name="format"></a>Формат
@@ -12764,8 +12764,8 @@ Unformatted:
 ### <a name="pattern"></a>Шаблон
 
 11 цифр:
-- шесть цифр в формате DDMMYY, которые являются датой рождения 
-- трехзначный индивидуальный номер 
+- шесть цифр в формате DDMMYY, которые являются датой рождения
+- трехзначный индивидуальный номер
 - две контрольные цифры
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -12807,7 +12807,7 @@ Unformatted:
 - Personnummer
 - Fødselsnummer
 
-   
+
 ## <a name="philippines-unified-multi-purpose-identification-number"></a>Филиппины единый многоцелевой идентификационный номер
 
 ### <a name="format"></a>Формат
@@ -12817,10 +12817,10 @@ Unformatted:
 ### <a name="pattern"></a>Шаблон
 
 12 цифр:
-- четыре цифры 
-- дефис 
-- семь цифр 
-- дефис 
+- четыре цифры
+- дефис
+- семь цифр
+- дефис
 - одна цифра
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -12844,12 +12844,12 @@ Unformatted:
 ```
 
 ### <a name="keywords"></a>Ключевые слова
-   
+
 #### <a name="keyword_philippines_id"></a>Keyword_philippines_id
 
-- Unified Multi-Purpose ID 
-- UMID 
-- Identity Card 
+- Unified Multi-Purpose ID
+- UMID
+- Identity Card
 - Pinag-isang Multi-Layunin ID
 
 ## <a name="poland-drivers-license-number"></a>Номер водительских прав в Польше
@@ -12857,27 +12857,27 @@ Unformatted:
 ### <a name="format"></a>Формат
 
 14 цифр, содержащих две косые черты
-  
+
 ### <a name="pattern"></a>Шаблон
 
 14 цифр и две косые черты:
-  
-- пять цифр 
+
+- пять цифр
 - перенарезаемая косая черта
 - две цифры
 - перенарезаемая косая черта
 - семь цифр
-    
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Нет
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_poland_eu_driver's_license_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_driver's_license_number` из `Keywords_poland_eu_driver's_license_number` или найдено. 
-    
+- Обычное выражение  `Regex_poland_eu_driver's_license_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_driver's_license_number` из `Keywords_poland_eu_driver's_license_number` или найдено.
+
 ```xml
       <!-- Poland Driver's License Number -->
       <Entity id="24d51f99-ee9e-4060-a077-cae58cab1ee4" patternsProximity="300" recommendedConfidence="75">
@@ -13064,7 +13064,7 @@ Unformatted:
 - dow. os.
 
 
-   
+
 ## <a name="poland-national-id-pesel"></a>Польский национальный ID (PESEL)
 
 ### <a name="format"></a>Формат
@@ -13119,7 +13119,7 @@ Unformatted:
 - pesel
 - tożsamości narodowej
 
-   
+
 ## <a name="poland-passport-number"></a>Номер паспорта Польши
 Этот тип конфиденциальной информации входит в тип конфиденциальной информации номера паспорта ЕС. Он также доступен в качестве отдельного объекта типа конфиденциальной информации.
 
@@ -13224,7 +13224,7 @@ Unformatted:
 
 девять цифр или 14-значное число:
 
-- девять цифр или 
+- девять цифр или
 - девять цифр
 - дефис
 - пять цифр
@@ -13285,22 +13285,22 @@ Unformatted:
 ### <a name="format"></a>Формат
 
 11 цифр без пробелов или делимитеров
-  
+
 ### <a name="pattern"></a>Шаблон
 
 11 цифр.
-  
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Да
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет высокую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-- Функция находит  `Func_poland_eu_tax_file_number` содержимое, которое соответствует шаблону. 
-- Найдено ключевое  `Keywords_poland_eu_tax_file_number` слово. 
-    
-  
+- Функция находит  `Func_poland_eu_tax_file_number` содержимое, которое соответствует шаблону.
+- Найдено ключевое  `Keywords_poland_eu_tax_file_number` слово.
+
+
 ```xml
       <!-- Poland Tax Identification Number -->
       <Entity id="1ff28b4d-40f2-49e9-b677-9606a88e2bca" patternsProximity="300" recommendedConfidence="85">
@@ -13342,7 +13342,7 @@ Unformatted:
 - vatid #
 - vatid
 - vatno #
-   
+
 
 ## <a name="portugal-citizen-card-number"></a>Номер карточки гражданина Португалии
 
@@ -13402,7 +13402,7 @@ Unformatted:
 ### <a name="format"></a>Формат
 
 два шаблона : две буквы с 5-8 цифрами со специальными символами
-  
+
 ### <a name="pattern"></a>Шаблон
 
 Шаблон 1. Две буквы, за которыми следуют 5/6 со специальными символами:
@@ -13419,17 +13419,17 @@ Unformatted:
 - Пробел
 - одна цифра.
 
-    
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Нет
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_portugal_eu_driver's_license_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_driver's_license_number` из `Keywords_portugal_eu_driver's_license_number` или найдено. 
-    
+- Обычное выражение  `Regex_portugal_eu_driver's_license_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_driver's_license_number` из `Keywords_portugal_eu_driver's_license_number` или найдено.
+
 ```xml
       <!-- Portugal Driver's License Number -->
       <Entity id="977f1e5a-2c33-4bcc-b516-95bb275cff23" patternsProximity="300" recommendedConfidence="75">
@@ -13585,29 +13585,29 @@ Unformatted:
 ### <a name="format"></a>Формат
 
 одна буква с шестью цифрами без пробелов или делимитеров
-  
+
 ### <a name="pattern"></a>Шаблон
 
 одна буква с шестью цифрами:
-  
+
 - одна буква (не деликатная)
 - шесть цифр
-    
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Нет
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет высокую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_portugal_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_portugal_eu_passport_number` или найдено. 
+- Обычное выражение  `Regex_portugal_eu_passport_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_portugal_eu_passport_number` или найдено.
 - Обычное выражение `Regex_eu_passport_date1` находит дату в формате DD.MM.YYYYY или ключевое слово `Keywords_eu_passport_date` из
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_portugal_eu_passport_number` находит содержимое, которое соответствует шаблону. 
+- Обычное выражение  `Regex_portugal_eu_passport_number` находит содержимое, которое соответствует шаблону.
 - Ключевое слово  `Keywords_eu_passport_number` из `Keywords_portugal_eu_passport_number` или найдено.
-    
+
 ```xml
       <!-- Portugal Passport Number -->
       <Entity id="080a52fd-a7bc-431e-b54d-51f08f59db11" patternsProximity="300" recommendedConfidence="75">
@@ -13671,7 +13671,7 @@ Unformatted:
 ### <a name="format"></a>Формат
 
 девять цифр с необязательными пробелами
-  
+
 ### <a name="pattern"></a>Шаблон
 
 - три цифры
@@ -13679,20 +13679,20 @@ Unformatted:
 - три цифры
 - необязательный пробел
 - три цифры
-  
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Да
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет высокую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-- Функция находит  `Func_portugal_eu_tax_file_number` содержимое, которое соответствует шаблону. 
-- Найдено ключевое  `Keywords_portugal_eu_tax_file_number` слово. 
-    
+- Функция находит  `Func_portugal_eu_tax_file_number` содержимое, которое соответствует шаблону.
+- Найдено ключевое  `Keywords_portugal_eu_tax_file_number` слово.
+
 Политика DLP имеет низкую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-- Функция находит  `Func_portugal_eu_tax_file_number` содержимое, которое соответствует шаблону. 
-    
+- Функция находит  `Func_portugal_eu_tax_file_number` содержимое, которое соответствует шаблону.
+
 ```xml
       <!-- Portugal Tax Identification Number -->
       <Entity id="65372402-3131-4f1e-9983-4439841d1f15" patternsProximity="300" recommendedConfidence="85">
@@ -13739,23 +13739,23 @@ Unformatted:
 ### <a name="format"></a>Формат
 
 один символ с восемью цифрами
-  
+
 ### <a name="pattern"></a>Шаблон
 
 один символ с восемью цифрами:
-- одна буква (не чувствительная к делу) или цифра 
+- одна буква (не чувствительная к делу) или цифра
 - восемь цифр
-    
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Нет
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_romania_eu_driver's_license_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_driver's_license_number` из `Keywords_romania_eu_driver's_license_number` или найдено. 
-    
+- Обычное выражение  `Regex_romania_eu_driver's_license_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_driver's_license_number` из `Keywords_romania_eu_driver's_license_number` или найдено.
+
 ```xml
       <!-- Romania Driver's License Number -->
       <Entity id="b5511ace-2fd8-4ae4-b6fc-c7c6e4689e3c" patternsProximity="300" recommendedConfidence="75">
@@ -13913,7 +13913,7 @@ Unformatted:
 ### <a name="format"></a>Формат
 
 13 цифр без пробелов и делимитеров
-  
+
 ### <a name="pattern"></a>Шаблон
 
 - одна цифра из 1-9
@@ -13924,16 +13924,16 @@ Unformatted:
 ### <a name="checksum"></a>Контрольная сумма
 
 Да
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет высокую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-- Функция находит  `Func_romania_eu_national_id_card` содержимое, которое соответствует шаблону. 
-- Найдено ключевое  `Keywords_romania_eu_national_id_card` слово. 
-    
+- Функция находит  `Func_romania_eu_national_id_card` содержимое, которое соответствует шаблону.
+- Найдено ключевое  `Keywords_romania_eu_national_id_card` слово.
+
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Функция находит  `Func_romania_eu_national_id_card` содержимое, которое соответствует шаблону. 
-    
+- Функция находит  `Func_romania_eu_national_id_card` содержимое, которое соответствует шаблону.
+
 ```xml
       <!-- Romania Personal Numerical Code (CNP) -->
       <Entity id="eb5fa399-fe28-4c67-8188-d63a616ed89c" patternsProximity="300" recommendedConfidence="85">
@@ -14005,26 +14005,26 @@ Unformatted:
 ### <a name="format"></a>Формат
 
 восемь или девять цифр без пробелов и делимитеров
-  
+
 ### <a name="pattern"></a>Шаблон
 
 восемь или девять цифр
-  
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Нет
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет высокую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_romania_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_romania_eu_passport_number` или найдено. 
+- Обычное выражение  `Regex_romania_eu_passport_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_romania_eu_passport_number` или найдено.
 - Регулярное выражение находит дату в формате `Regex_romania_eu_passport_date` DD MMM/MMM YY (Пример- 01 FEB/FEB 10) или ключевое слово `Keywords_eu_passport_date` из
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_romania_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_romania_eu_passport_number` или найдено. 
-    
+- Обычное выражение  `Regex_romania_eu_passport_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_romania_eu_passport_number` или найдено.
+
 ```xml
       <!-- Romania Passport Number -->
       <Entity id="5d31b90c-7fe2-4a76-a14b-767b8fd19d6c" patternsProximity="300" recommendedConfidence="75">
@@ -14232,12 +14232,12 @@ numărul paşaportului numarul pasaportului numerele paşaportului paşaport nr
 
 #### <a name="keyword_saudi_arabia_national_id"></a>Keyword_saudi_arabia_national_id
 
-- Identification Card 
-- I card number 
-- ID number 
-- الوطنية الهوية بطاقة رقم 
+- Identification Card
+- I card number
+- ID number
+- الوطنية الهوية بطاقة رقم
 
-   
+
 ## <a name="singapore-national-registration-identity-card-nric-number"></a>Номер удостоверения удостоверения национальной регистрации Сингапура (NRIC)
 
 ### <a name="format"></a>Формат
@@ -14247,8 +14247,8 @@ numărul paşaportului numarul pasaportului numerele paşaportului paşaport nr
 ### <a name="pattern"></a>Шаблон
 
 - девять букв и цифр:
-- буквы "F", "G", "S" или "T" (не чувствительны к делу) 
-- семь цифр 
+- буквы "F", "G", "S" или "T" (не чувствительны к делу)
+- семь цифр
 - цифру проверки алфавита
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -14280,41 +14280,41 @@ numărul paşaportului numarul pasaportului numerele paşaportului paşaport nr
 ```
 
 ### <a name="keywords"></a>Ключевые слова
-   
+
 #### <a name="keyword_singapore_nric"></a>Keyword_singapore_nric
 
-- National Registration Identity Card 
-- Identity Card Number 
-- NRIC 
-- IC 
-- Foreign Identification Number 
-- FIN 
-- 身份证 
-- 身份證 
+- National Registration Identity Card
+- Identity Card Number
+- NRIC
+- IC
+- Foreign Identification Number
+- FIN
+- 身份证
+- 身份證
 
 ## <a name="slovakia-drivers-license-number"></a>Номер лицензии водителя Словакии
 
 ### <a name="format"></a>Формат
 
 один символ, за которым следуют семь цифр
-  
+
 ### <a name="pattern"></a>Шаблон
 
 один символ, за которым следуют семь цифр
-  
+
 - одна буква (не чувствительная к делу) или цифра
-- семь цифр 
-    
+- семь цифр
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Нет
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_slovakia_eu_driver's_license_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_driver's_license_number` из `Keywords_slovakia_eu_driver's_license_number` или найдено. 
-    
+- Обычное выражение  `Regex_slovakia_eu_driver's_license_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_driver's_license_number` из `Keywords_slovakia_eu_driver's_license_number` или найдено.
+
 ```xml
       <!-- Slovakia Driver's License Number -->
       <Entity id="14240c22-b6de-4ce5-a90b-137f74252513" patternsProximity="300" recommendedConfidence="75">
@@ -14470,27 +14470,27 @@ numărul paşaportului numarul pasaportului numerele paşaportului paşaport nr
 ### <a name="format"></a>Формат
 
 9 или 10 цифр, содержащих необязательный ответный ответ
-  
+
 ### <a name="pattern"></a>Шаблон
 
 - шесть цифр, представляющих дату рождения
 - необязательный слэш (/)
 - три цифры
 - одна необязательная цифра проверки
-  
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Да
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет высокую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-- Функция находит  `Func_slovakia_eu_national_id_card` содержимое, которое соответствует шаблону. 
-- Найдено ключевое  `Keywords_slovakia_eu_national_id_card` слово. 
-    
+- Функция находит  `Func_slovakia_eu_national_id_card` содержимое, которое соответствует шаблону.
+- Найдено ключевое  `Keywords_slovakia_eu_national_id_card` слово.
+
 Политика DLP имеет низкую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-- Функция находит  `Func_slovakia_eu_national_id_card` содержимое, которое соответствует шаблону. 
-    
+- Функция находит  `Func_slovakia_eu_national_id_card` содержимое, которое соответствует шаблону.
+
 ```xml
       <!-- Slovakia Personal Number -->
       <Entity id="951c26b7-3b35-4f73-924b-15dd599cb9ab" patternsProximity="300" recommendedConfidence="85">
@@ -14559,26 +14559,26 @@ numărul paşaportului numarul pasaportului numerele paşaportului paşaport nr
 ### <a name="format"></a>Формат
 
 одна цифра или буква, за которыми следуют семь цифр без пробелов или делимитеров
-  
+
 ### <a name="pattern"></a>Шаблон
 
 одна цифра или буква (не чувствительные к делу) с последующим семизначным числом
-  
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Нет
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет высокую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_slovakia_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_slovakia_eu_passport_number` или найдено. 
+- Обычное выражение  `Regex_slovakia_eu_passport_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_slovakia_eu_passport_number` или найдено.
 - Обычное выражение `Regex_eu_passport_date1` находит дату в формате DD.MM.YYYYY или ключевое слово `Keywords_eu_passport_date` из
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_slovakia_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_slovakia_eu_passport_number` или найдено. 
-    
+- Обычное выражение  `Regex_slovakia_eu_passport_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_slovakia_eu_passport_number` или найдено.
+
 ```xml
       <!-- Slovakia Passport Number -->
       <Entity id="238e1f08-d80e-4793-af33-9b57918335b7" patternsProximity="300" recommendedConfidence="75">
@@ -14637,21 +14637,21 @@ numărul paşaportului numarul pasaportului numerele paşaportului paşaport nr
 ### <a name="format"></a>Формат
 
 девять цифр без пробелов и делимитеров
-  
+
 ### <a name="pattern"></a>Шаблон
 
 девять цифр
-  
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Нет
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_slovenia_eu_driver's_license_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_driver's_license_number` из `Keywords_slovenia_eu_driver's_license_number` или найдено. 
-    
+- Обычное выражение  `Regex_slovenia_eu_driver's_license_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_driver's_license_number` из `Keywords_slovenia_eu_driver's_license_number` или найдено.
+
 ```xml
       <!-- Slovenia Driver's License Number -->
       <Entity id="d5bc089a-f2ee-433d-a6b1-5c253051d6f2" patternsProximity="300" recommendedConfidence="75">
@@ -14808,29 +14808,29 @@ numărul paşaportului numarul pasaportului numerele paşaportului paşaport nr
 ### <a name="format"></a>Формат
 
 13 цифр без пробелов или делимитеров
-  
+
 ### <a name="pattern"></a>Шаблон
 
 13 цифр в указанном шаблоне:
-  
-- семь цифр, соответствующих дате рождения (DDMMLLL), где "LLL" соответствует последним трем цифрам года рождения 
+
+- семь цифр, соответствующих дате рождения (DDMMLLL), где "LLL" соответствует последним трем цифрам года рождения
 - две цифры, соответствующие области рождения "50"
 - три цифры, соответствующие сочетанию пола и серийного номера для лиц, родившихся в один день. 000-499 для мужчин и 500-999 для женщин.
 - одна контрольная цифра
-    
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Да
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет высокую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-- Функция находит  `Func_slovenia_eu_national_id_card` содержимое, которое соответствует шаблону. 
-- Найдено ключевое  `Keywords_slovenia_eu_national_id_card` слово. 
-    
+- Функция находит  `Func_slovenia_eu_national_id_card` содержимое, которое соответствует шаблону.
+- Найдено ключевое  `Keywords_slovenia_eu_national_id_card` слово.
+
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Функция находит  `Func_slovenia_eu_national_id_card` содержимое, которое соответствует шаблону. 
-    
+- Функция находит  `Func_slovenia_eu_national_id_card` содержимое, которое соответствует шаблону.
+
 ```xml
       <!-- Slovenia Unique Master Citizen Number -->
       <Entity id="68948b27-803d-41e4-adf1-13e05eb541bb" patternsProximity="300" recommendedConfidence="85">
@@ -14879,30 +14879,30 @@ numărul paşaportului numarul pasaportului numerele paşaportului paşaport nr
 ### <a name="format"></a>Формат
 
 две буквы, за которыми следуют семь цифр без пробелов или делимитеров
-  
+
 ### <a name="pattern"></a>Шаблон
 
 две буквы, за которыми следуют семь цифр:
-  
+
 - буква "P"
 - одно верхнее письмо
 - семь цифр
-    
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Нет
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет высокую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_slovenia_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_slovenia_eu_passport_number` или найдено. 
+- Обычное выражение  `Regex_slovenia_eu_passport_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_slovenia_eu_passport_number` или найдено.
 - Обычное выражение `Regex_eu_passport_date1` находит дату в формате DD.MM.YYYYY или ключевое слово `Keywords_eu_passport_date` из
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_slovenia_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_slovenia_eu_passport_number` или найдено. 
-    
+- Обычное выражение  `Regex_slovenia_eu_passport_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_slovenia_eu_passport_number` или найдено.
+
 ```xml
       <!-- Slovenia Passport Number -->
       <Entity id="235b7976-7bbe-4df5-bb40-08678e749d1a" patternsProximity="300" recommendedConfidence="75">
@@ -14968,26 +14968,26 @@ numărul paşaportului numarul pasaportului numerele paşaportului paşaport nr
 ### <a name="format"></a>Формат
 
 восемь цифр без пробелов или делимитеров
-  
+
 ### <a name="pattern"></a>Шаблон
 
 - одна цифра из 1-9
 - шесть цифр
 - одна контрольная цифра
-  
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Да
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет высокую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-- Функция находит  `Func_slovenia_eu_tax_file_number` содержимое, которое соответствует шаблону. 
-- Найдено ключевое  `Keywords_slovenia_eu_tax_file_number` слово. 
-    
+- Функция находит  `Func_slovenia_eu_tax_file_number` содержимое, которое соответствует шаблону.
+- Найдено ключевое  `Keywords_slovenia_eu_tax_file_number` слово.
+
 Политика DLP имеет низкую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-- Функция находит  `Func_slovenia_eu_tax_file_number` содержимое, которое соответствует шаблону. 
-    
+- Функция находит  `Func_slovenia_eu_tax_file_number` содержимое, которое соответствует шаблону.
+
 ```xml
       <!-- Slovenia Tax Identification Number -->
       <Entity id="e47b071e-c352-4d70-8241-8c215ad65505" patternsProximity="300" recommendedConfidence="85">
@@ -15037,10 +15037,10 @@ numărul paşaportului numarul pasaportului numerele paşaportului paşaport nr
 ### <a name="pattern"></a>Шаблон
 
 13 цифр:
-- шесть цифр в формате YYMMDD, которые являются датой рождения 
-- четыре цифры 
-- однозначный индикатор гражданства 
-- цифры "8" или "9" 
+- шесть цифр в формате YYMMDD, которые являются датой рождения
+- четыре цифры
+- однозначный индикатор гражданства
+- цифры "8" или "9"
 - одна цифра, которая является цифрой чека
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -15065,13 +15065,13 @@ numărul paşaportului numarul pasaportului numerele paşaportului paşaport nr
 ```
 
 ### <a name="keywords"></a>Ключевые слова
-   
+
 #### <a name="keyword_south_africa_identification_number"></a>Keyword_south_africa_identification_number
 
 - Identity card
-- ID
-- Идентификация 
-   
+- Идентификатор
+- Идентификация
+
 ## <a name="south-korea-resident-registration-number"></a>Номер регистрации резидента Южной Кореи
 
 ### <a name="format"></a>Формат
@@ -15081,11 +15081,11 @@ numărul paşaportului numarul pasaportului numerele paşaportului paşaport nr
 ### <a name="pattern"></a>Шаблон
 
 13 цифр:
-- шесть цифр в формате YYMMDD, которые являются датой рождения 
-- дефис 
-- одна цифра, определяемая веком и полом 
-- четырехзначный код региона рождения 
-- одна цифра, используемая для дифференцировки людей, для которых предыдущие номера идентичны 
+- шесть цифр в формате YYMMDD, которые являются датой рождения
+- дефис
+- одна цифра, определяемая веком и полом
+- четырехзначный код региона рождения
+- одна цифра, используемая для дифференцировки людей, для которых предыдущие номера идентичны
 - контрольная цифра.
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -15117,13 +15117,13 @@ numărul paşaportului numarul pasaportului numerele paşaportului paşaport nr
 ```
 
 ### <a name="keywords"></a>Ключевые слова
-   
+
 #### <a name="keyword_south_korea_resident_number"></a>Keyword_south_korea_resident_number
 
-- National ID card 
-- Citizen's Registration Number 
-- Jumin deungnok beonho 
-- RRN 
+- National ID card
+- Citizen's Registration Number
+- Jumin deungnok beonho
+- RRN
 - 주민등록번호
 
 ## <a name="spain-drivers-license-number"></a>Номер водительских прав Испании
@@ -15131,27 +15131,27 @@ numărul paşaportului numarul pasaportului numerele paşaportului paşaport nr
 ### <a name="format"></a>Формат
 
 восемь цифр, за которыми следует один символ
-  
+
 ### <a name="pattern"></a>Шаблон
 
 восемь цифр, за которыми следует один символ:
-  
-- восемь цифр 
+
+- восемь цифр
 - одна цифра или буква (не чувствительные к делу)
-    
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Да
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет высокую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-- Функция или  `Func_spain_eu_DL_and_NI_number_citizen` `Func_spain_eu_DL_and_NI_number_foreigner` поиск контента, который соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_driver's_license_number` из `Keywords_spain_eu_driver's_license_number` или найдено. 
+- Функция или  `Func_spain_eu_DL_and_NI_number_citizen` `Func_spain_eu_DL_and_NI_number_foreigner` поиск контента, который соответствует шаблону.
+- Ключевое слово  `Keywords_eu_driver's_license_number` из `Keywords_spain_eu_driver's_license_number` или найдено.
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Функция или  `Func_spain_eu_DL_and_NI_number_citizen` `Func_spain_eu_DL_and_NI_number_foreigner` поиск контента, который соответствует шаблону. 
-    
+- Функция или  `Func_spain_eu_DL_and_NI_number_citizen` `Func_spain_eu_DL_and_NI_number_foreigner` поиск контента, который соответствует шаблону.
+
 ```xml
       <!-- Spain Driver's License Number -->
       <Entity id="d5a82922-b501-4f40-8868-341321146aa2" patternsProximity="300" recommendedConfidence="75">
@@ -15328,29 +15328,29 @@ numărul paşaportului numarul pasaportului numerele paşaportului paşaport nr
 ### <a name="format"></a>Формат
 
 восемь цифр, за которыми следует один символ
-  
+
 ### <a name="pattern"></a>Шаблон
 
 семь цифр, за которыми следует один символ
-  
+
 - восемь цифр
 - Необязательный пробел или дефис
 - одно чековая буква (не чувствительное к делу)
-    
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Да
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет высокую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-- Функция или  `Func_spain_eu_DL_and_NI_number_citizen` `Func_spain_eu_DL_and_NI_number_foreigner` поиск контента, который соответствует шаблону. 
-- Найдено ключевое  `Keywords_spain_eu_national_id_card"` слово. 
+- Функция или  `Func_spain_eu_DL_and_NI_number_citizen` `Func_spain_eu_DL_and_NI_number_foreigner` поиск контента, который соответствует шаблону.
+- Найдено ключевое  `Keywords_spain_eu_national_id_card"` слово.
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Функция или  `Func_spain_eu_DL_and_NI_number_citizen` `Func_spain_eu_DL_and_NI_number_foreigner` поиск контента, который соответствует шаблону. 
+- Функция или  `Func_spain_eu_DL_and_NI_number_citizen` `Func_spain_eu_DL_and_NI_number_foreigner` поиск контента, который соответствует шаблону.
 
-    
+
 ```xml
       <!-- Spain DNI -->
       <Entity id="8e6251b9-47b4-40e8-a42b-0f80876be192" patternsProximity="300" recommendedConfidence="85">
@@ -15402,30 +15402,30 @@ numărul paşaportului numarul pasaportului numerele paşaportului paşaport nr
 ### <a name="format"></a>Формат
 
 сочетание букв и номеров с восемью или девятью символами без пробелов или делимитеров
-  
+
 ### <a name="pattern"></a>Шаблон
 
 сочетание букв и номеров с восемью или девятью символами:
-  
-- две цифры или буквы 
+
+- две цифры или буквы
 - одна цифра или буква (необязательно)
 - шесть цифр
-    
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Неприменимо
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет высокую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_spain_eu_passport_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_spain_eu_passport_number` или найдено. 
+- Обычное выражение  `Regex_spain_eu_passport_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_passport_number` из `Keywords_spain_eu_passport_number` или найдено.
 - Регулярное выражение `Regex_spain_eu_passport_date` находит дату в формате DD-MM-YYYYY или найдено ключевое слово `Keywords_eu_passport_date` из
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_spain_eu_passport_number` находит содержимое, которое соответствует шаблону. 
+- Обычное выражение  `Regex_spain_eu_passport_number` находит содержимое, которое соответствует шаблону.
 - Ключевое слово  `Keywords_eu_passport_number` из `Keywords_spain_eu_passport_number` или найдено.
-    
+
 ```xml
       <!-- Spain Passport Number -->
       <Entity id="d17a57de-9fa5-4e9f-85d3-85c26d89686e" patternsProximity="300" recommendedConfidence="75">
@@ -15496,10 +15496,10 @@ numărul paşaportului numarul pasaportului numerele paşaportului paşaport nr
 ### <a name="pattern"></a>Шаблон
 
 11-12 цифр:
-- две цифры 
-- косая черта (необязательный) 
-- семь-восемь цифр 
-- косая черта (необязательный) 
+- две цифры
+- косая черта (необязательный)
+- семь-восемь цифр
+- косая черта (необязательный)
 - две цифры
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -15511,7 +15511,7 @@ numărul paşaportului numarul pasaportului numerele paşaportului paşaport nr
 Политика DLP имеет высокую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
 - функция Func_spanish_social_security_number находит содержимое, которое соответствует шаблону;
 - Контрольная сумма проходит проверку.
-- - Найдено ключевое  `Keywords_spain_eu_ssn_or_equivalent` слово. 
+- - Найдено ключевое  `Keywords_spain_eu_ssn_or_equivalent` слово.
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
 - функция Func_spanish_social_security_number находит содержимое, которое соответствует шаблону;
@@ -15552,51 +15552,51 @@ numărul paşaportului numarul pasaportului numerele paşaportului paşaport nr
 ### <a name="format"></a>Формат
 
 семь или восемь цифр и одна или две буквы в указанном шаблоне
-  
+
 ### <a name="pattern"></a>Шаблон
 
 Испанские граждане с национальным удостоверением личности Испании:
-  
-- восемь цифр 
-- одно верхнее письмо (чувствительный к делу) 
-    
+
+- восемь цифр
+- одно верхнее письмо (чувствительный к делу)
+
 Испанцы-нерезиденты без национального удостоверения личности Испании
-  
+
 - одно верхнее письмо "L" (чувствительный к делу)
 - семь цифр
-- одно верхнее письмо (чувствительный к делу) 
-    
-Resident Spaniards under the age of 14 years without a Spain National Identity Card:
-  
-- одно верхнее письмо "K" (чувствительный к делу)
-- семь цифр 
 - одно верхнее письмо (чувствительный к делу)
-    
+
+Resident Spaniards under the age of 14 years without a Spain National Identity Card:
+
+- одно верхнее письмо "K" (чувствительный к делу)
+- семь цифр
+- одно верхнее письмо (чувствительный к делу)
+
 Иностранцы с идентификационным номером иностранца
-  
-- одно верхнее письмо с буквами "X", "Y" или "Z" (чувствительные к делу) 
+
+- одно верхнее письмо с буквами "X", "Y" или "Z" (чувствительные к делу)
 - семь цифр
-- одно верхнее письмо (чувствительный к делу) 
-    
+- одно верхнее письмо (чувствительный к делу)
+
 Иностранцы без идентификации иностранца
-  
-- одно верхнее письмо с буквой "M" (чувствительный к делу) 
+
+- одно верхнее письмо с буквой "M" (чувствительный к делу)
 - семь цифр
-- одно верхнее письмо (чувствительный к делу) 
-    
+- одно верхнее письмо (чувствительный к делу)
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Да
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет высокую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-- Функция или  `Func_spain_eu_tax_file_number` `Func_spain_eu_DL_and_NI_number_citizen` поиск контента, который соответствует шаблону. 
-- Найдено ключевое  `Keywords_spain_eu_tax_file_number` слово. 
-    
+- Функция или  `Func_spain_eu_tax_file_number` `Func_spain_eu_DL_and_NI_number_citizen` поиск контента, который соответствует шаблону.
+- Найдено ключевое  `Keywords_spain_eu_tax_file_number` слово.
+
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Функция или  `Func_spain_eu_tax_file_number` `Func_spain_eu_DL_and_NI_number_citizen` поиск контента, который соответствует шаблону. 
-    
+- Функция или  `Func_spain_eu_tax_file_number` `Func_spain_eu_DL_and_NI_number_citizen` поиск контента, который соответствует шаблону.
+
 ```xml
       <!-- Spain Tax Identification Number -->
       <Entity id="10f0d113-b0e1-47dc-872a-a4f45b9376a3" patternsProximity="300" recommendedConfidence="85">
@@ -15732,25 +15732,25 @@ Resident Spaniards under the age of 14 years without a Spain National Identity C
 ### <a name="format"></a>Формат
 
 10 цифр, содержащих дефис.
-  
+
 ### <a name="pattern"></a>Шаблон
 
 10 цифр, содержащих дефис:
-  
-- шесть цифр 
+
+- шесть цифр
 - дефис
 - четыре цифры
-    
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Нет
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Обычное выражение  `Regex_sweden_eu_driver's_license_number` находит содержимое, которое соответствует шаблону. 
-- Ключевое слово  `Keywords_eu_driver's_license_number` из `Keywords_sweden_eu_driver's_license_number` или найдено. 
-    
+- Обычное выражение  `Regex_sweden_eu_driver's_license_number` находит содержимое, которое соответствует шаблону.
+- Ключевое слово  `Keywords_eu_driver's_license_number` из `Keywords_sweden_eu_driver's_license_number` или найдено.
+
 ```xml
       <!-- Sweden Driver's License Number -->
       <Entity id="70088720-90dd-47f5-805e-5525f3567391" patternsProximity="300" recommendedConfidence="75">
@@ -15911,8 +15911,8 @@ Resident Spaniards under the age of 14 years without a Spain National Identity C
 ### <a name="pattern"></a>Шаблон
 
 10 или 12 цифр с необязательным разделителем
-- две цифры (необязательно) 
-- Шесть цифр в формате даты ГГММДД. 
+- две цифры (необязательно)
+- Шесть цифр в формате даты ГГММДД.
 - delimiter из "-" или "+" (необязательно)
 - четыре цифры
 
@@ -15965,7 +15965,7 @@ Resident Spaniards under the age of 14 years without a Spain National Identity C
 - personnummer #
 - personnummer
 - skatteidentifikationsnummer
-   
+
 ## <a name="sweden-passport-number"></a>Номер паспорта Швеции
 
 ### <a name="format"></a>Формат
@@ -16017,7 +16017,7 @@ Resident Spaniards under the age of 14 years without a Spain National Identity C
 ```
 
 ### <a name="keywords"></a>Ключевые слова
-   
+
 #### <a name="keywords_eu_passport_number"></a>Keywords_eu_passport_number
 
 - паспорт #
@@ -16070,31 +16070,31 @@ Resident Spaniards under the age of 14 years without a Spain National Identity C
 ### <a name="format"></a>Формат
 
 10 цифр и символ в указанном шаблоне
-  
+
 ### <a name="pattern"></a>Шаблон
 
 10 цифр и символ:
-  
-- шесть цифр, соответствующих дате рождения (YYMMDD) 
+
+- шесть цифр, соответствующих дате рождения (YYMMDD)
 - знак плюс или минус
-- три цифры, которые делают идентификационный номер уникальным, где: 
+- три цифры, которые делают идентификационный номер уникальным, где:
   - для номеров, выдавшихся до 1990 г., седьмая и восьмая цифры определяют округ родившихся или родившихся за
   - цифра в девятой позиции указывает пол по нечетным для мужчин или даже для женщин
 - одна контрольная цифра
-    
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Да
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет высокую уверенность в том, что этот тип конфиденциальной информации обнаружен, если в непосредственной близости от 300 символов:
-- Функция находит  `Func_sweden_eu_tax_file_number` содержимое, которое соответствует шаблону. 
-- Найдено ключевое  `Keywords_sweden_eu_tax_file_number` слово. 
-    
+- Функция находит  `Func_sweden_eu_tax_file_number` содержимое, которое соответствует шаблону.
+- Найдено ключевое  `Keywords_sweden_eu_tax_file_number` слово.
+
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Функция находит  `Func_sweden_eu_tax_file_number` содержимое, которое соответствует шаблону. 
-    
+- Функция находит  `Func_sweden_eu_tax_file_number` содержимое, которое соответствует шаблону.
+
 ```xml
       <!-- Sweden Tax Identification Number -->
       <Entity id="139acba0-a5bc-4fbb-876d-f7a493ae8a40" patternsProximity="300" recommendedConfidence="85">
@@ -16150,10 +16150,10 @@ Resident Spaniards under the age of 14 years without a Spain National Identity C
 ### <a name="pattern"></a>Шаблон
 
 четыре буквы, за которыми следуют 5-31 буквы или цифры:
-- банковский код с четырьмя буквами (не чувствительный к делу) 
-- необязательный пробел 
-- 4–28 букв или цифр (основной номер банковского счета, BBAN) 
-- необязательный пробел 
+- банковский код с четырьмя буквами (не чувствительный к делу)
+- необязательный пробел
+- 4–28 букв или цифр (основной номер банковского счета, BBAN)
+- необязательный пробел
 - от одной до трех букв или цифр (остальная часть BBAN)
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -16176,7 +16176,7 @@ Resident Spaniards under the age of 14 years without a Spain National Identity C
 ```
 
 ### <a name="keywords"></a>Ключевые слова
-   
+
 #### <a name="keyword_swift"></a>Keyword_swift
 
 - international organization for standardization 9362
@@ -16287,7 +16287,7 @@ Resident Spaniards under the age of 14 years without a Spain National Identity C
 - идентификационный код personnelle
 - numéro de sécurité sociale
 
-   
+
 ## <a name="taiwan-national-identification-number"></a>Национальный идентификационный номер Тайваня
 
 ### <a name="format"></a>Формат
@@ -16297,8 +16297,8 @@ Resident Spaniards under the age of 14 years without a Spain National Identity C
 ### <a name="pattern"></a>Шаблон
 
 одна буква (на английском языке), а затем девять цифр:
-- одна буква (на английском языке, а не на английском языке) 
-- цифры "1" или "2" 
+- одна буква (на английском языке, а не на английском языке)
+- цифры "1" или "2"
 - восемь цифр
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -16333,21 +16333,21 @@ Resident Spaniards under the age of 14 years without a Spain National Identity C
 
 #### <a name="keyword_taiwan_national_id"></a>Keyword_taiwan_national_id
 
-- 身份證字號 
-- 身份證 
-- 身份證號碼 
-- 身份證號 
-- 身分證字號 
-- 身分證 
-- 身分證號碼 
-- 身份證號 
-- 身分證統一編號 
-- 國民身分證統一編號 
-- 簽名 
-- 蓋章 
-- 簽名或蓋章 
-- 簽章   
-   
+- 身份證字號
+- 身份證
+- 身份證號碼
+- 身份證號
+- 身分證字號
+- 身分證
+- 身分證號碼
+- 身份證號
+- 身分證統一編號
+- 國民身分證統一編號
+- 簽名
+- 蓋章
+- 簽名或蓋章
+- 簽章
+
 ## <a name="taiwan-passport-number"></a>Номер паспорта Тайваня
 
 ### <a name="format"></a>Формат
@@ -16357,7 +16357,7 @@ Resident Spaniards under the age of 14 years without a Spain National Identity C
 
 ### <a name="pattern"></a>Шаблон
 биометрический номер паспорта:
-- символ "3" 
+- символ "3"
 - восемь цифр
 
 не биометрический номер паспорта:
@@ -16387,15 +16387,15 @@ Resident Spaniards under the age of 14 years without a Spain National Identity C
 
 #### <a name="keyword_taiwan_passport"></a>Keyword_taiwan_passport
 
-- ROC passport number 
-- Passport number 
-- Passport no 
-- Passport Num 
-- Passport # 
-- 护照 
-- 中華民國護照 
+- ROC passport number
+- Passport number
+- Passport no
+- Passport Num
+- Passport #
+- 护照
+- 中華民國護照
 - Zhōnghuá Mínguó hùzhào
-   
+
 ## <a name="taiwan-resident-certificate-arctarc-number"></a>Номер сертификата жителя Тайваня (ARC/TARC)
 
 ### <a name="format"></a>Формат
@@ -16405,7 +16405,7 @@ Resident Spaniards under the age of 14 years without a Spain National Identity C
 ### <a name="pattern"></a>Шаблон
 
 10 букв и цифр:
-- две буквы (не чувствительные к делу) 
+- две буквы (не чувствительные к делу)
 - восемь цифр
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -16432,17 +16432,17 @@ Resident Spaniards under the age of 14 years without a Spain National Identity C
 
 #### <a name="keyword_taiwan_resident_certificate"></a>Keyword_taiwan_resident_certificate
 
-- Resident Certificate 
-- Resident Cert 
-- Resident Cert. 
-- Identification card 
-- Alien Resident Certificate 
-- ARC 
-- Taiwan Area Resident Certificate 
-- TARC 
-- 居留證 
-- 外僑居留證 
-- 台灣地區居留證 
+- Resident Certificate
+- Resident Cert
+- Resident Cert.
+- Identification card
+- Alien Resident Certificate
+- ARC
+- Taiwan Area Resident Certificate
+- TARC
+- 居留證
+- 外僑居留證
+- 台灣地區居留證
 
 ## <a name="thai-population-identification-code"></a>Код идентификации населения Таиланда
 
@@ -16453,7 +16453,7 @@ Resident Spaniards under the age of 14 years without a Spain National Identity C
 ### <a name="pattern"></a>Шаблон
 
 13 цифр:
-- первая цифра не ноль или девять 
+- первая цифра не ноль или девять
 - 12 цифр.
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -16492,7 +16492,7 @@ Resident Spaniards under the age of 14 years without a Spain National Identity C
 - รหัสบัตรประชาชน
 - บัตรประชาชน
 - รหัสบัตรประชาชน
-  
+
 ## <a name="turkish-national-identification-number"></a>Турецкий национальный идентификационный номер
 
 ### <a name="format"></a>Формат
@@ -16547,10 +16547,10 @@ Resident Spaniards under the age of 14 years without a Spain National Identity C
 ### <a name="pattern"></a>Шаблон
 
 18 букв и цифр
-- Пять букв (не чувствительных к делу) или цифра "9" на месте буквы. 
+- Пять букв (не чувствительных к делу) или цифра "9" на месте буквы.
 - Одна цифра.
 - Пять цифр в формате даты MMDDY для даты рождения. Седьмой символ приумножен на 50, если драйвер женский; для экзамена, от 51 до 62 вместо 01 до 12.
-- Две буквы (не чувствительные к делу) или цифра "9" на месте буквы. 
+- Две буквы (не чувствительные к делу) или цифра "9" на месте буквы.
 - Пять цифр.
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -16704,7 +16704,7 @@ Resident Spaniards under the age of 14 years without a Spain National Identity C
 - dlno
 - номер dl
 
-   
+
 ## <a name="uk-electoral-roll-number"></a>U.K. номер списка выборов
 
 ### <a name="format"></a>Формат
@@ -16741,12 +16741,12 @@ Resident Spaniards under the age of 14 years without a Spain National Identity C
 
 #### <a name="keyword_uk_electoral"></a>Keyword_uk_electoral
 
-- council nomination 
-- nomination form 
-- electoral register 
+- council nomination
+- nomination form
+- electoral register
 - electoral roll
 
-   
+
 ## <a name="uk-national-health-service-number"></a>U.K. номер службы здравоохранения
 
 ### <a name="format"></a>Формат
@@ -16756,10 +16756,10 @@ Resident Spaniards under the age of 14 years without a Spain National Identity C
 ### <a name="pattern"></a>Шаблон
 
 10-17 цифр
-- 3 или 10 цифр 
-- пространство 
-- три цифры 
-- пространство 
+- 3 или 10 цифр
+- пространство
+- три цифры
+- пространство
 - четыре цифры
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -16791,29 +16791,29 @@ Resident Spaniards under the age of 14 years without a Spain National Identity C
 ```
 
 ### <a name="keywords"></a>Ключевые слова
-   
+
 #### <a name="keyword_uk_nhs_number"></a>Keyword_uk_nhs_number
 
-- national health service 
-- NHS 
-- health services authority 
+- national health service
+- NHS
+- health services authority
 - health authority
 
 #### <a name="keyword_uk_nhs_number1"></a>Keyword_uk_nhs_number1
 
-- patient id 
-- patient identification 
-- patient no 
+- patient id
+- patient identification
+- patient no
 - patient number
 
 #### <a name="keyword_uk_nhs_number_dob"></a>Keyword_uk_nhs_number_dob
 
-- GP 
-- DOB 
-- D.O.B 
-- Date of Birth 
-- Birth Date 
-   
+- GP
+- DOB
+- D.O.B
+- Date of Birth
+- Birth Date
+
 ## <a name="uk-national-insurance-number-nino"></a>U.K. номер национального страхования (NINO)
 Этот тип конфиденциальной информации входит в тип конфиденциальной информации о номере национальной идентификации ЕС. Он также доступен в качестве отдельного объекта типа конфиденциальной информации.
 
@@ -16891,7 +16891,7 @@ Resident Spaniards under the age of 14 years without a Spain National Identity C
 - nationalinsurance #
 - nationalinsurancenumber
 
-    
+
 ## <a name="uk-unique-taxpayer-reference-number"></a>U.K. Уникальный номер ссылки на налогоплательщика
 Этот тип конфиденциальной информации доступен только для использования в:
 - Политики предотвращения потери данных
@@ -16903,22 +16903,22 @@ Resident Spaniards under the age of 14 years without a Spain National Identity C
 ### <a name="format"></a>Формат
 
 10 цифр без пробелов и делимитеров
- 
-  
+
+
 ### <a name="pattern"></a>Шаблон
 
 10 цифр.
-  
+
 ### <a name="checksum"></a>Контрольная сумма
 
 Нет
-  
+
 ### <a name="definition"></a>Определение
 
 Политика DLP имеет среднюю уверенность в том, что она обнаруживает этот тип конфиденциальной информации, если в непосредственной близости от 300 символов:
-- Функция находит  `Func_uk_eu_tax_file_number` содержимое, которое соответствует шаблону. 
-- Найдено ключевое  `Keywords_uk_eu_tax_file_number` слово. 
-    
+- Функция находит  `Func_uk_eu_tax_file_number` содержимое, которое соответствует шаблону.
+- Найдено ключевое  `Keywords_uk_eu_tax_file_number` слово.
+
 ```xml
       <!-- U.K. Unique Taxpayer Reference Number -->
       <Entity id="ad4a8116-0db8-439a-b545-6d967642f0ec" patternsProximity="300" recommendedConfidence="85">
@@ -16985,33 +16985,33 @@ Resident Spaniards under the age of 14 years without a Spain National Identity C
 
 #### <a name="keyword_usa_bank_account"></a>Keyword_usa_Bank_Account
 
-- Checking Account Number 
-- Checking Account 
-- Checking Account # 
-- Checking Acct Number 
-- Checking Acct # 
-- Checking Acct No. 
-- Checking Account No. 
-- Bank Account Number 
-- Bank Account # 
-- Bank Acct Number 
-- Bank Acct # 
-- Bank Acct No. 
-- Bank Account No. 
-- Savings Account Number 
-- Savings Account. 
-- Savings Account # 
-- Savings Acct Number 
-- Savings Acct # 
-- Savings Acct No. 
-- Savings Account No. 
-- Debit Account Number 
-- Debit Account 
-- Debit Account # 
-- Debit Acct Number 
-- Debit Acct # 
-- Debit Acct No. 
-- Debit Account No. 
+- Checking Account Number
+- Checking Account
+- Checking Account #
+- Checking Acct Number
+- Checking Acct #
+- Checking Acct No.
+- Checking Account No.
+- Bank Account Number
+- Bank Account #
+- Bank Acct Number
+- Bank Acct #
+- Bank Acct No.
+- Bank Account No.
+- Savings Account Number
+- Savings Account.
+- Savings Account #
+- Savings Acct Number
+- Savings Acct #
+- Savings Acct No.
+- Savings Account No.
+- Debit Account Number
+- Debit Account
+- Debit Account #
+- Debit Acct Number
+- Debit Acct #
+- Debit Acct No.
+- Debit Account No.
 
 ## <a name="us-drivers-license-number"></a>Номер водительских прав в США
 
@@ -17064,105 +17064,105 @@ Resident Spaniards under the age of 14 years without a Spain National Identity C
 
 #### <a name="keyword_us_drivers_license_abbreviations"></a>Keyword_us_drivers_license_abbreviations
 
-- DL 
-- DLS 
-- CDL 
-- CDLS 
-- ID 
-- ID 
-- DL # 
-- DLS # 
-- CDL # 
-- CDLS # 
+- DL
+- DLS
+- CDL
+- CDLS
+- Идентификатор
+- ID
+- DL #
+- DLS #
+- CDL #
+- CDLS #
 - ID #
-- ID # 
-- ID number 
-- ID numbers 
-- LIC 
-- LIC # 
+- ID #
+- ID number
+- ID numbers
+- LIC
+- LIC #
 
 #### <a name="keyword_us_drivers_license"></a>Keyword_us_drivers_license
 
-- DriverLic 
-- DriverLics 
-- DriverLicense 
-- DriverLicenses 
-- Driver Lic 
-- Driver Lics 
-- Driver License 
-- Driver Licenses 
-- DriversLic 
-- DriversLics 
-- DriversLicense 
-- DriversLicenses 
-- Drivers Lic 
-- Drivers Lics 
-- Drivers License 
-- Drivers Licenses 
-- Driver'Lic 
-- Driver'Lics 
-- Водительские права 
-- Водительские права 
-- Driver' Lic 
-- Driver' Lics 
-- Driver' License 
+- DriverLic
+- DriverLics
+- DriverLicense
+- DriverLicenses
+- Driver Lic
+- Driver Lics
+- Driver License
+- Driver Licenses
+- DriversLic
+- DriversLics
+- DriversLicense
+- DriversLicenses
+- Drivers Lic
+- Drivers Lics
+- Drivers License
+- Drivers Licenses
+- Driver'Lic
+- Driver'Lics
+- Водительские права
+- Водительские права
+- Driver' Lic
+- Driver' Lics
+- Driver' License
 - Driver' Licenses
-- Driver'sLic 
-- Driver'sLics 
-- Driver'sLicense 
-- Driver'sLicenses 
-- Driver's Lic 
-- Driver's Lics 
-- Driver's License 
-- Driver's Licenses 
-- identification number 
-- identification numbers 
-- identification # 
-- id card 
-- id cards 
-- identification card 
-- identification cards 
-- DriverLic # 
-- DriverLics # 
-- DriverLicense # 
-- DriverLicenses # 
-- Driver Lic# 
-- Driver Lics# 
-- Driver License# 
-- Driver Licenses# 
-- DriversLic # 
-- DriversLics # 
-- DriversLicense # 
-- DriversLicenses # 
-- Drivers Lic# 
-- Drivers Lics# 
-- Drivers License# 
-- Drivers Licenses# 
-- Driver'Lic # 
-- Driver'Lics # 
-- Водительские права # 
-- Водительские права # 
-- Driver' Lic# 
-- Driver' Lics# 
-- Driver' License# 
-- Driver' Licenses# 
-- Driver'sLic # 
-- Driver'sLics # 
-- Driver'sLicense # 
-- Driver'sLicenses # 
-- Driver's Lic# 
-- Driver's Lics# 
-- Driver's License# 
-- Driver's Licenses# 
-- id card# 
-- id cards# 
-- identification card# 
-- identification cards# 
+- Driver'sLic
+- Driver'sLics
+- Driver'sLicense
+- Driver'sLicenses
+- Driver's Lic
+- Driver's Lics
+- Driver's License
+- Driver's Licenses
+- identification number
+- identification numbers
+- identification #
+- id card
+- id cards
+- identification card
+- identification cards
+- DriverLic #
+- DriverLics #
+- DriverLicense #
+- DriverLicenses #
+- Driver Lic#
+- Driver Lics#
+- Driver License#
+- Driver Licenses#
+- DriversLic #
+- DriversLics #
+- DriversLicense #
+- DriversLicenses #
+- Drivers Lic#
+- Drivers Lics#
+- Drivers License#
+- Drivers Licenses#
+- Driver'Lic #
+- Driver'Lics #
+- Водительские права #
+- Водительские права #
+- Driver' Lic#
+- Driver' Lics#
+- Driver' License#
+- Driver' Licenses#
+- Driver'sLic #
+- Driver'sLics #
+- Driver'sLicense #
+- Driver'sLicenses #
+- Driver's Lic#
+- Driver's Lics#
+- Driver's License#
+- Driver's Licenses#
+- id card#
+- id cards#
+- identification card#
+- identification cards#
 
 
 #### <a name="keyword_state_name_drivers_license_name"></a>Keyword_[state_name]_drivers_license_name
 
-- аббревиатура состояния (например, "NY") 
+- аббревиатура состояния (например, "NY")
 - имя состояния (например, "Нью-Йорк")
 
 ## <a name="us-individual-taxpayer-identification-number-itin"></a>Индивидуальный идентификационный номер налогоплательщика США (ITIN)
@@ -17174,18 +17174,18 @@ Resident Spaniards under the age of 14 years without a Spain National Identity C
 ### <a name="pattern"></a>Шаблон
 
 форматированный:
-- цифра "9" 
-- две цифры 
-- пространство или тире 
-- "7" или "8" 
-- цифру 
-- пространство или тире 
+- цифра "9"
+- две цифры
+- пространство или тире
+- "7" или "8"
+- цифру
+- пространство или тире
 - четыре цифры
 
 unformatted:
-- цифра "9" 
-- две цифры 
-- "7" или "8" 
+- цифра "9"
+- две цифры
+- "7" или "8"
 - пять цифр
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -17229,18 +17229,18 @@ unformatted:
 
 #### <a name="keyword_itin"></a>Keyword_itin
 
-- налогоплательщик 
-- tax id 
-- tax identification 
-- itin 
+- налогоплательщик
+- tax id
+- tax identification
+- itin
 - i.t.i.n.
-- ssn 
-- олово 
-- social security 
-- tax payer 
-- itins 
-- таксомоторный 
-- individual taxpayer 
+- ssn
+- олово
+- social security
+- tax payer
+- itins
+- таксомоторный
+- individual taxpayer
 
 
 ## <a name="us-social-security-number-ssn"></a>Номер социального обеспечения США (SSN)
@@ -17322,7 +17322,7 @@ unformatted:
 - SSN #
 - SS #
 - SSID
-   
+
 ## <a name="us--uk-passport-number"></a>U.S. / U.K. passport number
 
 ### <a name="format"></a>Формат
@@ -17386,8 +17386,8 @@ unformatted:
 
 #### <a name="keywords_uk_eu_passport_number"></a>Keywords_uk_eu_passport_number
 
-- британский паспорт 
-- uk passport 
+- британский паспорт
+- uk passport
 
 
 ## <a name="ukraine-passport-domestic"></a>Внутренний паспорт Украины

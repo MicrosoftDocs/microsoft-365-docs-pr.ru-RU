@@ -20,24 +20,29 @@ search.appverid: MET150
 ms.assetid: cbd2369c-fd96-464c-bf48-c99826b459ee
 description: В этой статье вы найдете конечные точки, которые можно достичь для клиентов, использующих Office 365 правительственных GCC высокими планами.
 hideEdit: true
-ms.openlocfilehash: da721d7d0a8965c4dea9bc812df755f19e69ea55
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: 2febfec744dfb527dd99b205f3b2b78f5b9af4e7
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730166"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286361"
 ---
 # <a name="office-365-us-government-gcc-high-endpoints"></a>Конечные точки Office 365 U.S. Government GCC High
 
- *Применяется к: Администратор Office 365*
+*Применяется к: Администратор Office 365*
 
-Office 365 подключение к Интернету. Конечные точки, которые ниже, должны быть досяжимы для клиентов, использующих Office 365 только GCC высокими планами.
+Office 365 требует подключения к Интернету. Конечные точки, которые ниже, должны быть досяжимы для клиентов, использующих Office 365 только GCC высокими планами.
   
- **Конечные точки Office 365:**[ по всему миру (включая GCC)](urls-and-ip-address-ranges.md) | [Office 365, предоставляемый 21 Vianet](urls-and-ip-address-ranges-21vianet.md)  | [Office 365 Germany](microsoft-365-germany-endpoints.md)  | [Office 365 для DoD государственных организаций США](microsoft-365-u-s-government-dod-endpoints.md) | *Office 365 для GCC High государственных организаций США* |
-  
-|||
-|:-----|:-----|
-|**Последнее обновление:** 28.05.2021, ![RSS](../media/5dc6bb29-25db-4f44-9580-77c735492c4b.png) [подписка на журнал изменений](https://endpoints.office.com/version/USGOVGCCHigh?allversions=true&format=rss&clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7) <br/> |**Загрузка:** полный список в [формате JSON](https://endpoints.office.com/endpoints/USGOVGCCHigh?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7) <br/> |
+ **Office 365 конечных точек:** [worldwide (включая GCC)](urls-and-ip-address-ranges.md) \| [Office 365 управляется 21 Vianet](urls-and-ip-address-ranges-21vianet.md) Office 365 \| [Германия](microsoft-365-germany-endpoints.md) \| [Office 365 DoD](microsoft-365-u-s-government-dod-endpoints.md) Office 365 \|  правительства GCC High
+
+<br>
+
+****
+
+|Заметки|Скачать|
+|---|---|
+|**Последнее обновление:** 28.05.2021, ![RSS](../media/5dc6bb29-25db-4f44-9580-77c735492c4b.png) [подписка на журнал изменений](https://endpoints.office.com/version/USGOVGCCHigh?allversions=true&format=rss&clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7)|**Загрузка:** полный список в [формате JSON](https://endpoints.office.com/endpoints/USGOVGCCHigh?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7)|
+|
 
  Начните применять [управление конечными точками Office 365](managing-office-365-endpoints.md), чтобы освоить наши рекомендации по управлению сетевым соединением с использованием этих данных. По мере необходимости в начале каждого месяца данные конечной точки обновляются новыми IP- и URL-адресами, публикуемыми за 30 дней до активации. Это позволяет клиентам, у которых еще нет автоматизированных обновлений, завершить процессы перед новым подключением. Кроме того, конечные точки могут обновляться и в течение месяца, если это требуется для повышения уровня обращений в службу поддержки, устранения инцидентов в области безопасности или немедленного выполнения других действий. Данные, представленные ниже на этой странице, сгенерированы с помощью веб-служб на основе REST. Если для доступа к этим данным вы используете скрипт или сетевое устройство, вам нужно перейти непосредственно в раздел [Веб-служба](microsoft-365-ip-web-service.md).
 
@@ -54,9 +59,9 @@ Office 365 подключение к Интернету. Конечные точ
 - **ER.** Это **да,** если набор конечной точки поддерживается над Azure ExpressRoute с Office 365 префиксами маршрута. Сообщество BGP, которое включает префиксы маршрутов, показанные, совпадает с указанным в списке областью обслуживания. Если ER **нет,** это означает, что ExpressRoute не поддерживается для этого набора конечных точек. Однако не следует предполагать, что маршруты не рекламируются для набора конечной точки, где ER **нет**. Если вы планируете использовать Azure AD Подключение, ознакомьтесь с разделом специальные соображения, чтобы убедиться, что у вас есть соответствующая конфигурация Azure AD Подключение. [](/azure/active-directory/hybrid/reference-connect-instances#microsoft-azure-government)
 
 - **Адреса**. Перечисляет полные доменные имена или подстановочные доменные имена, а также диапазоны IP-адресов для набора конечной точки. Обратите внимание, что диапазон IP-адресов представлен в формате CIDR и может содержать несколько отдельных IP-адресов в указанной сети.
- 
+
 - **Порты**. Перечисляет порты TCP или UDP, которые объединяются с адресами для создания конечной точки сети. Можно заметить дублирование в диапазонах IP-адресов при перечислении разных портов.
- 
+
 [!INCLUDE [Office 365 U.S. Government GCC High endpoints](../includes/office-365-u.s.-government-gcc-high-endpoints.md)]
 
 Примечания для таблицы.

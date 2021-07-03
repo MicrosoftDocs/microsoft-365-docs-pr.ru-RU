@@ -24,16 +24,16 @@ search.appverid:
 - BCS160
 - MET150
 description: Узнайте, как Microsoft 365 защитить локальные устройства с Windows 10 active-Directory.
-ms.openlocfilehash: ec80159bdceffd8a13d09a297a2acc1b78c9b1b3
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: eb95c437030ae13a44f5e8043b3544d5846001c2
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52636093"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287702"
 ---
 # <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business-premium"></a>Включить устройства с Windows 10 с помощью Microsoft 365 бизнес премиум
 
-Если в организации используется Windows Server Active Directory, можно настроить Microsoft 365 бизнес премиум для защиты Windows 10 устройств, сохраняя при этом доступ к локальным ресурсам, которые требуют локальной проверки подлинности.
+Если организация использует Windows Server Active Directory локально, вы можете настроить Microsoft 365 бизнес премиум для защиты Windows 10 устройств, сохраняя при этом доступ к локальным ресурсам, которые требуют локальной проверки подлинности.
 Чтобы настроить эту защиту, можно реализовать устройства **hybrid Azure AD.** Эти устройства присоединяются как к локальному Active Directory, так и к Azure Active Directory.
 
 ## <a name="watch-configure-hybrid-azure-active-directory-join"></a>Watch: Настройка гибридной Azure Active Directory присоединиться
@@ -42,7 +42,7 @@ ms.locfileid: "52636093"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3C9hO]
   
-## <a name="before-you-begin"></a>Прежде чем начать
+## <a name="before-you-begin"></a>Подготовка
 
 - Синхронизация пользователей с Azure AD с azure AD Подключение.
 - Выполните синхронизацию Подключение Azure AD.
@@ -109,17 +109,17 @@ PS C:\> Initialize-SecMgmtHybirdDeviceEnrollment -GroupPolicyDisplayName 'Device
 
 Если вы не видите политику Включить автоматическую регистрацию **MDM** с помощью учетных данных Azure AD по умолчанию, это может быть из-за того, что у вас нет установки ADMX для Windows 10 версии 1803 или более поздней версии. Чтобы устранить проблему, выполните следующие действия (Примечание: последняя версия MDM.admx совместима с обратной совместимость):
 
-1.  Загрузка: [Административные шаблоны (.admx) для Windows 10 2020 обновления (20H2).](https://www.microsoft.com/download/102157)
-2.  Установите пакет на контроллер домена.
-3.  Перейдите в зависимости от версии административных шаблонов в папку: **C:\Program Files (x86)\Microsoft Group Policy\Windows 10 октябрь 2020 г. Обновление (20H2)**.
-4.  Переименовать **папку Определения политики** в вышеуказанном пути в **PolicyDefinitions**.
-5.  Скопируйте **папку PolicyDefinitions** в свою долю SYSVOL по умолчанию, расположенную в **C:\Windows\SYSVOL\domain\Policies**. 
-    -   Если вы планируете использовать центральный магазин политик для всего домена, добавьте туда содержимое PolicyDefinitions.
-6.  Если у вас есть несколько контроллеров домена, подождите, пока SYSVOL будет реплицировать доступные политики. Эта процедура будет работать и для любой будущей версии административных шаблонов.
+1. Загрузка: [Административные шаблоны (.admx) для Windows 10 2020 обновления (20H2).](https://www.microsoft.com/download/102157)
+2. Установите пакет на контроллер домена.
+3. Перейдите в зависимости от версии административных шаблонов в папку: **C:\Program Files (x86)\Microsoft Group Policy\Windows 10 октябрь 2020 г. Обновление (20H2)**.
+4. Переименовать **папку Определения политики** в вышеуказанном пути в **PolicyDefinitions**.
+5. Скопируйте **папку PolicyDefinitions** в свою долю SYSVOL по умолчанию, расположенную в **C:\Windows\SYSVOL\domain\Policies**.
+   - Если вы планируете использовать центральный магазин политик для всего домена, добавьте туда содержимое PolicyDefinitions.
+6. Если у вас есть несколько контроллеров домена, подождите, пока SYSVOL будет реплицировать доступные политики. Эта процедура будет работать и для любой будущей версии административных шаблонов.
 
 На этом этапе вы сможете увидеть политику Включить автоматическую регистрацию **MDM** с помощью доступных учетных данных Azure AD по умолчанию.
 
-## <a name="related-content"></a>См. также:
+## <a name="related-content"></a>Связанные материалы
 
 [Синхронизация пользователей домена с Microsoft 365](manage-domain-users.md) (статья)\
 [Создание группы в центре администрирования](../admin/create-groups/create-groups.md) (статья)\

@@ -16,12 +16,12 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: Используйте мониторинг Exchange Online для получения сведений об инцидентах или предупреждениях электронной почты в Microsoft 365.
-ms.openlocfilehash: ee31f8e152d7c54e37b850563bea57971e07f61c
-ms.sourcegitcommit: 76c91e7b0d3172de57988eb4576d2b91c2f9ce18
+ms.openlocfilehash: 3d88378449879d451b21ba8bf2a7b5c3032a2c07
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52707300"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286445"
 ---
 # <a name="exchange-online-monitoring-for-microsoft-365"></a>Мониторинг Exchange Online для Microsoft 365
 
@@ -133,4 +133,3 @@ ms.locfileid: "52707300"
 #### <a name="7-where-is-the-data-instrumented-for-the-scenarios-that-show-activity-trends"></a>7. Где обрабатываются данные для сценариев, демонстрирующих тренды действий?
 
 Данные обрабатываются в службе Exchange Online. Если возникнет сбой, прежде чем запрос достигнет службы Exchange Online, или возникнет сбой в Exchange Online, вы увидите падение сигнала активности.
-

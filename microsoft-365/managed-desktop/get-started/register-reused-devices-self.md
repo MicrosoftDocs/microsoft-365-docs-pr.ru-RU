@@ -11,12 +11,12 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 21b0062a337dbeb3c7dec8b715971dbbc4917db1
-ms.sourcegitcommit: 55791ddab9ae484f76b30f0470eec8a4cf7b46d1
+ms.openlocfilehash: ed254234109bc5ff9865ff49ed3fa0fff8770ab0
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51893279"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286913"
 ---
 # <a name="register-existing-devices-yourself"></a>Самостоятельная регистрация существующих устройств
 
@@ -75,13 +75,13 @@ ms.locfileid: "51893279"
 - Убедитесь, что у вас есть параметр учетных данных домена, который имеет разрешение на удаленное выполнение на устройствах.
 - Убедитесь, что Windows брандмауэр позволяет получить доступ к WMI. Для этого выполните следующие действия:
 
-    1. Откройте панель **брандмауэр Защитника Windows** и выберите Разрешить приложение или функцию **через брандмауэр Защитника Windows.**
-    
+    1. Откройте панель **Защитник Windows брандмауэра** и выберите Разрешить приложение или функцию Защитник Windows **брандмауэра.**
+
     2. Найдите **Windows инструментов управления (WMI)** в списке, встройку как для частных, так и для общедоступных, а затем выберите **ОК.**
 
-1.  Откройте запрос PowerShell с административными правами.
+1. Откройте запрос PowerShell с административными правами.
 
-2.  Запустите *один* из этих скриптов:
+2. Запустите *один* из этих скриптов:
 
     ```powershell
     Install-script -name Get-WindowsAutoPilotInfo 
@@ -94,7 +94,7 @@ ms.locfileid: "51893279"
     Set-ExecutionPolicy powershell -ExecutionPolicy Unrestricted Get-WindowsAutoPilotInfo.ps1 -credential Domainname\<accountname> -Name Machine1,Machine2,Machine3
     ```
 
-3. Доступ к любым каталогам, в которых могут быть записи для устройств. Удалите записи для  каждого устройства из всех каталогов, в том числе Windows Службы домена Active Directory и Azure Active Directory. Следует помнить, что для полного процесса удаления может занять несколько часов.
+3. Доступ к любым каталогам, в которых могут быть записи для устройств. Удалите записи для каждого устройства *из* всех каталогов, включая Windows Server Active Directory и Azure Active Directory. Следует помнить, что для полного процесса удаления может занять несколько часов.
 
 4. Доступ к службам управления, в которых могут быть записи для устройств. Удалите записи для  каждого устройства из всех служб управления, включая Microsoft Endpoint Configuration Manager, Microsoft Intune и Windows автопилот. Следует помнить, что для полного процесса удаления может занять несколько часов.
 
@@ -102,9 +102,9 @@ ms.locfileid: "51893279"
 
 #### <a name="manual-powershell-script-method"></a>Метод скрипта Manual PowerShell
 
-1.  Откройте запрос PowerShell с административными правами.
-2.  Запуск `Install-Script -Name Get-WindowsAutoPilotInfo`
-3.  Запуск `powershell -ExecutionPolicy Unrestricted Get-WindowsAutoPilotInfo -OutputFile <path>\hardwarehash.csv`
+1. Откройте запрос PowerShell с административными правами.
+2. Запуск `Install-Script -Name Get-WindowsAutoPilotInfo`
+3. Запуск `powershell -ExecutionPolicy Unrestricted Get-WindowsAutoPilotInfo -OutputFile <path>\hardwarehash.csv`
 4. [Объединение данных с hash.](#merge-hash-data)
 
 #### <a name="flash-drive-method"></a>Метод флэш-накопителя
@@ -120,10 +120,8 @@ ms.locfileid: "51893279"
 9. Удалите USB-накопитель, а затем отключите устройство при запуске `shutdown -s -t 0`
 10. [Объединение данных с hash.](#merge-hash-data)
 
->[!IMPORTANT]
->Не делайте питания на устройстве, которое вы регистрируете снова, пока не завершите регистрацию для него. 
-
-
+> [!IMPORTANT]
+> Не делайте питания на устройстве, которое вы регистрируете снова, пока не завершите регистрацию для него. 
 
 ### <a name="merge-hash-data"></a>Объединение данных с hash
 
@@ -135,18 +133,15 @@ Import-CSV -Path (Get-ChildItem -Filter *.csv) | ConvertTo-Csv -NoTypeInformatio
 
 С помощью слитых в один CSV-файл данных можно зарегистрировать [устройства.](#register-devices-by-using-the-admin-portal)
 
-
 ## <a name="register-devices-by-using-the-admin-portal"></a>Регистрация устройств с помощью портала администрирования
 
 В [Microsoft Endpoint Manager](https://endpoint.microsoft.com/)выберите **Устройства** в левой области навигации. Посмотрите раздел компьютеры, управляемые Майкрософт меню и выберите **Устройства**. В рабочей компьютеры, управляемые Майкрософт Устройства выберите **+ Регистрация** устройств, что открывает флайер для регистрации новых устройств.
 
 <!-- Update with new picture [![Fly-in after selecting Register devices, listing devices with columns for assigned users, serial number, status, last-seen date, and age](../../media/new-registration-ui.png)](../../media/new-registration-ui.png) -->
 
-
 <!--Registering any existing devices with Managed Desktop will completely re-image them; make sure you've backed up any important data prior to starting the registration process.-->
 
-
-Выполните следующие действия.
+Выполните приведенные ниже действия.
 
 1. В **файле отправки** у вас есть путь к созданному ранее CSV-файлу.
 2. Выберите профиль [устройства в](../service-description/profiles.md) выпадающее меню.
@@ -162,7 +157,7 @@ Import-CSV -Path (Get-ChildItem -Filter *.csv) | ConvertTo-Csv -NoTypeInformatio
 | Регистрация в ожидании | Регистрация еще не завершена. Проверьте позже. |
 | Регистрация не удалась | Регистрация не может быть завершена. Дополнительные [сведения обратитесь к регистрации](#troubleshooting-device-registration) устройств для устранения неполадок. |
 | Готово для пользователя | Регистрация была успешной, и теперь устройство готово к доставке пользователю. компьютеры, управляемые Майкрософт будет направлять их по первой подготовке, поэтому вам не нужно делать какие-либо дополнительные подготовительные работы. |
-| Активация | Устройство доставлено пользователю и зарегистрировано у клиента. Это также указывает на то, что они регулярно используют устройство. |
+| Активное | Устройство доставлено пользователю и зарегистрировано у клиента. Это также указывает на то, что они регулярно используют устройство. |
 | Неактивный | Устройство доставлено пользователю и зарегистрировано у клиента. Однако они не использовали устройство в последнее время (за последние 7 дней).  | 
 
 ### <a name="troubleshooting-device-registration"></a>Устранение неполадок при регистрации устройств
@@ -187,12 +182,3 @@ Import-CSV -Path (Get-ChildItem -Filter *.csv) | ConvertTo-Csv -NoTypeInformatio
 > Перед тем как передать устройство пользователю, убедитесь, что вы получили и применили [соответствующие лицензии](../get-ready/prerequisites.md) для этого пользователя.
 
 Если все лицензии применяются, вы можете получить пользователей готовыми к использованию [устройств,](get-started-devices.md)а затем пользователь может запустить устройство и перейти через Windows настройки.
-
-
-
-
-
-
-
-
-

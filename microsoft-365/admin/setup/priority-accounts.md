@@ -13,12 +13,12 @@ ms.collection:
 - Adm_O365
 ms.custom: AdminSurgePortfolio
 description: Отслеживание сбойных и отложенных сообщений по электронной почте, отправленных в учетные записи с высокими последствиями для бизнеса или из них.
-ms.openlocfilehash: 2a58f4090244fc6d68be69cf6b3c8ab6e00874fa
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 86e01e591823c94d8279f975ed7de24cc65776dc
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52535810"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286145"
 ---
 # <a name="manage-and-monitor-priority-accounts"></a>Управление приоритетными учетными записями и их отслеживание
 
@@ -37,7 +37,7 @@ ms.locfileid: "52535810"
 
 Рекомендации по безопасности для приоритетных учетных записей см. в рекомендациях по безопасности [для учетных записей приоритетов.](../../security/office-365-security/security-recommendations-for-priority-accounts.md)
 
-## <a name="before-you-begin"></a>Прежде чем начать
+## <a name="before-you-begin"></a>Подготовка
 
 Функция **защиты учетных записей Priority,** описанная в этом разделе, доступна только организациям, которые соответствуют следующим требованиям:
 
@@ -45,7 +45,7 @@ ms.locfileid: "52535810"
 
 Функция **мониторинга Premium почты Flow,** описанная в этой теме, доступна только организациям, которые соответствуют следующим требованиям:
 
-- Ваша организация должна иметь количество лицензий не менее 10 000 из одного или сочетания следующих продуктов: Office 365 E3, Microsoft 365 E3, Office 365 E5, Microsoft 365 E5. Например, ваша организация может иметь 3000 лицензий Office 365 E3 и 8500 Microsoft 365 E5, в общей сложности 11 500 лицензий из продуктов, подав их.
+- Ваша организация должна иметь количество лицензий не менее 5000 из одного из следующих продуктов: Office 365 E3, Microsoft 365 E3, Office 365 E5, Microsoft 365 E5. Например, у вашей организации может быть 3 000 лицензий Office 365 E3 и 2 500 лицензий Microsoft 365 E5, что в итоге составляет 5 500 лицензий на соответствующие продукты.
 - У вашей организации должно быть как минимум 50 активных пользователей Exchange Online ежемесячно.
 
 > [!NOTE]
@@ -57,7 +57,7 @@ ms.locfileid: "52535810"
 
 Добавление учетных записей приоритетов со страницы **Установки.**
 
-1. Перейдите в центр администрирования Microsoft 365 по <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> крайней .
+1. Перейдите в Центр администрирования Microsoft 365 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> .
 
 2. Перейдите к  >  **организационным знаниям установки** и выберите **Просмотр** в **режиме Monitor ваших наиболее важных учетных записей.**
 
@@ -83,7 +83,7 @@ ms.locfileid: "52535810"
 
 ## <a name="remove-a-user-from-the-priority-accounts-list"></a>Удаление пользователя из списка приоритетных учетных записей
 
-1. Перейдите в центр администрирования Microsoft 365 по <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> крайней .
+1. Перейдите в Центр администрирования Microsoft 365 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> .
 
 2. Перейдите к  >  **организационным знаниям установки** и выберите **Просмотр** в **режиме Monitor ваших наиболее важных учетных записей.**
 
