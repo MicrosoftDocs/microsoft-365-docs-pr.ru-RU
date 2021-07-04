@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: c578a353501ac7b38ac541b0200ffaad1d6743e1
-ms.sourcegitcommit: 03aa8ed22d9ef685a851e28c7d0cfb725732fe4b
+ms.openlocfilehash: 2e051803a4cd228e3b455ec08b30e5c2197ca9a3
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52888456"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289611"
 ---
 # <a name="get-incident-information-api"></a>Получить API сведений об инцидентах
 
@@ -38,27 +38,31 @@ ms.locfileid: "52888456"
 
 
 ## <a name="api-description"></a>Описание API
+
 Извлечение определенного инцидента по его ID
 
-
 ## <a name="limitations"></a>Ограничения
+
 1. Ограничения скорости для этого API : 100 вызовов в минуту и 1500 вызовов в час.
 
 
 ## <a name="permissions"></a>Разрешения
+
 Для вызова этого API требуется одно из следующих разрешений. 
 
-Тип разрешения |   Разрешение  |   Имя отображения разрешений
+Тип разрешения | Разрешение | Имя отображения разрешений
 :---|:---|:---
-Приложение |   Incident.Read.All | 'Read all Incidents'
-Приложение |   Incident.ReadWrite.All |    'Read and write all Incidents'
+Application | Incident.Read.All | 'Read all Incidents'
+Application | Incident.ReadWrite.All | 'Read and write all Incidents'
 Делегированные (рабочая или учебная учетная запись) | Incident.Read | 'Read Incidents'
 Делегированные (рабочая или учебная учетная запись) | Incident.ReadWrite | 'Read and write Incidents'
 
->[!Note]
+> [!NOTE]
+>
 > При получении маркера с помощью учетных данных пользователей:
->- У пользователя должно быть по крайней мере следующее разрешение на роль: "Просмотр данных"
->- Ответ будет включать только инциденты, которые пользователь подвергается воздействию
+>
+> - У пользователя должно быть по крайней мере следующее разрешение на роль: "Просмотр данных"
+> - Ответ будет включать только инциденты, которые пользователь подвергается воздействию
 
 ## <a name="http-request"></a>HTTP-запрос
 
@@ -70,10 +74,10 @@ GET .../api/incidents/{id}
 
 Имя | Тип | Описание
 :---|:---|:---
-Authorization | String | Bearer {token}. **Обязательное поле**.
-
+Authorization | Строка | Bearer {token}. **Обязательное поле**.
 
 ## <a name="request-body"></a>Текст запроса
+
 переменная Empty
 
 ## <a name="response"></a>Отклик

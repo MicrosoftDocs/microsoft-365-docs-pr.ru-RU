@@ -14,12 +14,12 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 ms.assetid: 36743c86-46c2-46be-b9ed-ad9d4e85d186
 description: Сводка. Используйте PowerShell для Microsoft 365 для назначения параметров связи для каждого пользователя с помощью Skype для бизнеса online политик.
-ms.openlocfilehash: 2d3d953fe0beb74cc63f914137942f068ce90be7
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: d7f369e96f3db95c741e6d4f2178eaf9032ab0bb
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50905408"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288087"
 ---
 # <a name="assign-per-user-skype-for-business-online-policies-with-powershell-for-microsoft-365"></a>Назначение политик Skype для бизнеса Для каждого пользователя в PowerShell для Microsoft 365
 
@@ -102,11 +102,10 @@ Grant-CsExternalAccessPolicy -Identity "Alex Darrow" -PolicyName $Null
 ```
 
 Эта команда задает значение Null ($Null) для имени политики внешнего доступа, назначенной Семену. Значение Null означает "ничего". Другими словами, Семену не назначена ни одна политика внешнего доступа. Если пользователю не назначена ни одна политика внешнего доступа, для управления им используется глобальная политика.
-  
 
 ## <a name="managing-large-numbers-of-users"></a>Управление большим числом пользователей
 
-Чтобы управлять большим количеством пользователей (1000 или более), необходимо пакетовать команды с помощью блока скриптов с помощью командлета [Invoke-Command.](/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7)  В предыдущих примерах при каждом выполнении cmdlet необходимо настроить вызов, а затем дождаться результата перед отправкой обратно.  При использовании блока скриптов это позволяет выполняться удаленно, а после завершения отправлять данные обратно. 
+Чтобы управлять большим количеством пользователей (1000 или более), необходимо пакетовать команды с помощью блока скриптов с помощью командлета [Invoke-Command.](/powershell/module/microsoft.powershell.core/invoke-command)  В предыдущих примерах при каждом выполнении cmdlet необходимо настроить вызов, а затем дождаться результата перед отправкой обратно.  При использовании блока скриптов это позволяет выполняться удаленно, а после завершения отправлять данные обратно.
 
 ```powershell
 $users = Get-CsOnlineUser -Filter { ClientPolicy -eq $null } -ResultSize 500

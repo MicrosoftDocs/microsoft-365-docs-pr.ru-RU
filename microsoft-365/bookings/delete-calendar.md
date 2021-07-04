@@ -8,20 +8,20 @@ ms.topic: article
 ms.service: bookings
 localization_priority: Normal
 ms.assetid: 8c3a913c-2247-4519-894d-b6263eeb9920
-description: Используйте центр администрирования Microsoft 365 или Windows PowerShell для удаления календарей Bookings.
-ms.openlocfilehash: 21fc7b9994ffd7f76ed04000a50bd0ee8f7f167e
-ms.sourcegitcommit: 8998f70d3f7bd673f93f8d1cf12ce981b1b771c3
+description: Используйте Центр администрирования Microsoft 365 или Windows PowerShell для удаления календарей Bookings.
+ms.openlocfilehash: 1ef67ce4dbf67da6f081106815f76ff85f11ef92
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51034095"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288447"
 ---
 # <a name="delete-a-booking-calendar-in-bookings"></a>Удаление календаря бронирования в Bookings
 
-В этой статье рассказывается, как можно удалить нежелательный календарь бронирования. Календарь бронирования можно удалить в центре администрирования Microsoft 365 или использовать PowerShell. Календарь Bookings — это почтовый ящик в Exchange Online поэтому для удаления календаря бронирования необходимо удалить соответствующую учетную запись пользователя.
+В этой статье рассказывается, как можно удалить нежелательный календарь бронирования. Календарь бронирования можно удалить в Центр администрирования Microsoft 365 или использовать PowerShell. Календарь Bookings — это почтовый ящик в Exchange Online поэтому для удаления календаря бронирования необходимо удалить соответствующую учетную запись пользователя.
 
 > [!IMPORTANT]
-> Все календари бронирования, созданные в 2017 году или ранее, должны быть удалены с помощью инструкций PowerShell по этому вопросу. Все календари бронирования, созданные в 2018 году или после этого, могут быть удалены в центре Microsoft 365 администрирования.
+> Все календари бронирования, созданные в 2017 году или ранее, должны быть удалены с помощью инструкций PowerShell по этому вопросу. Все календари бронирования, созданные в 2018 г. или после этого, можно удалить в Центр администрирования Microsoft 365.
 
 В календаре бронирования хранятся все релевантные сведения о календаре и данных бронирования, в том числе:
 
@@ -32,21 +32,21 @@ ms.locfileid: "51034095"
 > [!WARNING]
 > После удаления календаря бронирования эта дополнительная информация также будет удалена и не может быть восстановлена.
 
-## <a name="delete-a-booking-calendar-in-the-microsoft-365-admin-center"></a>Удаление календаря бронирования в центре Microsoft 365 администрирования
+## <a name="delete-a-booking-calendar-in-the-microsoft-365-admin-center"></a>Удаление календаря бронирования в Центр администрирования Microsoft 365
 
 1. Перейдите в Центр администрирования Microsoft 365.
 
 1. В Центре администрирования выберите пункт **Пользователи**.
 
-   ![Изображение пользовательского интерфейса пользователей в Microsoft 365 центре администрирования](../media/bookings-admin-center-users.png)
+   ![Изображение пользовательского интерфейса пользователей в Центр администрирования Microsoft 365](../media/bookings-admin-center-users.png)
 
 1. На странице **Активные пользователи** выберите имена пользователей, которых хотите удалить, и нажмите кнопку **Удалить пользователя**.
 
-   ![Изображение пользовательского интерфейса delete user in Microsoft 365 центре администрирования](../media/bookings-delete-user.png)
+   ![Изображение пользовательского интерфейса delete user in Центр администрирования Microsoft 365](../media/bookings-delete-user.png)
 
 ## <a name="delete-a-booking-calendar-using-exchange-online-powershell"></a>Удаление календаря бронирования с Exchange Online PowerShell
 
-См. [Подключение в Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps) для необходимых условий и рекомендаций по подключению к Exchange Online PowerShell.
+См. [Подключение в Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell-v2) для необходимых условий и рекомендаций по подключению к Exchange Online PowerShell.
 
 Для выполнения этих действий необходимо использовать активное командное окно Microsoft PowerShell, которое было выполнено, выбрав параметр "Запуск в качестве администратора".
 
@@ -57,7 +57,7 @@ ms.locfileid: "51034095"
    ```
 
    > [!NOTE]
-   > Если [модуль EXO v2 уже установлен](/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps#install-and-maintain-the-exo-v2-module), предыдущая команда будет действовать как написанная.
+   > Если [модуль EXO v2 уже установлен](/powershell/exchange/exchange-online-powershell-v2#install-and-maintain-the-exo-v2-module), предыдущая команда будет действовать как написанная.
    
 2. В команде, которую вам нужно выполнить, используется следующий синтаксис:
 

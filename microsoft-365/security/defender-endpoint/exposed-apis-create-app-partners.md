@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 5546b69fa924025491e1762d199678fa549a9c7c
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 695dfbec007b259b7daec2346201737d57c4ad30
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52842150"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289779"
 ---
 # <a name="partner-access-through-microsoft-defender-for-endpoint-apis"></a>Доступ партнера через API Endpoint Defender для Microsoft Defender
 
@@ -60,13 +60,13 @@ Microsoft Defender для конечной точки предоставляет
 
 3. В форме регистрации:
 
-    - Выберите имя приложения.
+   - Выберите имя приложения.
 
-    - Поддерживаемые типы учетных записей — учетные записи в любом организационном каталоге.
+   - Поддерживаемые типы учетных записей — учетные записи в любом организационном каталоге.
 
-    - Перенаправление URI — тип: Web, URI: https://portal.azure.com
+   - Перенаправление URI — тип: Web, URI: https://portal.azure.com
 
-    ![Изображение регистрации Microsoft Azure партнеров](images/atp-api-new-app-partner.png)
+   ![Изображение регистрации Microsoft Azure партнеров](images/atp-api-new-app-partner.png)
 
 
 4. Разрешить приложению доступ к Microsoft Defender для конечной точки и назначить его с минимальным набором разрешений, необходимых для завершения интеграции.
@@ -94,13 +94,13 @@ Microsoft Defender для конечной точки предоставляет
 
 5. Выберите **согласие гранта**
 
-    - **Примечание.** Каждый раз, когда вы добавляете разрешение, необходимо выбрать по согласию **гранта,** чтобы новое разрешение вступает в силу.
+   - **Примечание.** Каждый раз, когда вы добавляете разрешение, необходимо выбрать по согласию **гранта,** чтобы новое разрешение вступает в силу.
 
-    ![Изображение разрешений гранта](images/grant-consent.png)
+   ![Изображение разрешений гранта](images/grant-consent.png)
 
 6. Добавьте секрет в приложение.
 
-    - Выберите **сертификаты &,** добавьте описание в секрет и выберите **Добавить**.
+   - Выберите **сертификаты &,** добавьте описание в секрет и выберите **Добавить**.
 
     **Важно.** После щелчка Добавить **скопируйте сгенерированную секретную ценность.** Вы не сможете получить после того, как уйдете!
 
@@ -114,36 +114,36 @@ Microsoft Defender для конечной точки предоставляет
 
 8. Добавьте приложение клиенту.
 
-    Необходимо, чтобы ваше приложение было утверждено в каждом клиенте, где вы собираетесь его использовать. Это происходит потому, что ваше приложение взаимодействует с приложением Microsoft Defender для конечной точки от имени клиента.
+   Необходимо, чтобы ваше приложение было утверждено в каждом клиенте, где вы собираетесь его использовать. Это происходит потому, что ваше приложение взаимодействует с приложением Microsoft Defender для конечной точки от имени клиента.
 
-    Пользователь с **глобальным администратором** из клиента клиента должен выбрать ссылку на согласие и утвердить ваше приложение.
+   Пользователь с **глобальным администратором** из клиента клиента должен выбрать ссылку на согласие и утвердить ваше приложение.
 
-    Ссылка согласие имеет форму:
+   Ссылка согласие имеет форму:
 
-    ```
-    https://login.microsoftonline.com/common/oauth2/authorize?prompt=consent&client_id=00000000-0000-0000-0000-000000000000&response_type=code&sso_reload=true
-    ```
+   ```http
+   https://login.microsoftonline.com/common/oauth2/authorize?prompt=consent&client_id=00000000-0000-0000-0000-000000000000&response_type=code&sso_reload=true
+   ```
 
-    Где 00000000-0000-0000-0000-00000000000 следует заменить вашим ИД приложения
+   Где 00000000-0000-0000-0000-00000000000 следует заменить вашим ИД приложения
 
-    Нажав на ссылку согласие, войдите в глобальный администратор клиента клиента и согласиться с приложением.
+   Нажав на ссылку согласие, войдите в глобальный администратор клиента клиента и согласиться с приложением.
 
-    ![Изображение согласия](images/app-consent-partner.png)
+   ![Изображение согласия](images/app-consent-partner.png)
 
-    Кроме того, при приобретении маркера необходимо спросить у клиента его ИД клиента и сохранить его для дальнейшего использования.
+   Кроме того, при приобретении маркера необходимо спросить у клиента его ИД клиента и сохранить его для дальнейшего использования.
 
-- **Договорились!** Вы успешно зарегистрировали приложение! 
+- **Договорились!** Вы успешно зарегистрировали приложение!
 - Ниже приведены примеры приобретения и проверки маркеров.
 
-## <a name="get-an-access-token-example"></a>Пример маркера доступа:
+## <a name="get-an-access-token-example"></a>Пример маркера доступа
 
 **Примечание:** Чтобы получить маркер доступа от имени клиента, используйте ID клиента в следующих приобретениях маркеров.
 
-<br>Дополнительные сведения о маркере AAD см. в [учебнике AAD](/azure/active-directory/develop/active-directory-v2-protocols-oauth-client-creds)
+Дополнительные сведения о маркере AAD см. в [учебнике AAD](/azure/active-directory/develop/active-directory-v2-protocols-oauth-client-creds)
 
-### <a name="using-powershell"></a>Использование PowerShell
+### <a name="using-powershell"></a>С помощью PowerShell
 
-```
+```powershell
 # That code gets the App Context Token and save it to a file named "Latest-token.txt" under the current directory
 # Paste below your Tenant ID, App ID and App Secret (App key).
 
@@ -165,21 +165,21 @@ Out-File -FilePath "./Latest-token.txt" -InputObject $token
 return $token
 ```
 
-### <a name="using-c"></a>Использование C#:
+### <a name="using-c"></a>Использование C #
 
->Ниже код был протестирован с помощью Nuget Microsoft.IdentityModel.Clients.ActiveDirectory
+> Ниже код был протестирован с помощью Nuget Microsoft.IdentityModel.Clients.ActiveDirectory
 
 - Создание нового приложения консоли
 - Установка NuGet [Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/)
 - Добавление приведенного ниже использования
 
-    ```
+    ```console
     using Microsoft.IdentityModel.Clients.ActiveDirectory;
     ```
 
-- Copy/Paste the below code in your application (do not forget to update the three variables: ```tenantId, appId, appSecret``` )
+- Copy/Paste the below code in your application (do not forget to update the three variables: `tenantId` `appId` , and `appSecret` )
 
-    ```
+    ```console
     string tenantId = "00000000-0000-0000-0000-000000000000"; // Paste your own tenant ID here
     string appId = "11111111-1111-1111-1111-111111111111"; // Paste your own app ID here
     string appSecret = "22222222-2222-2222-2222-222222222222"; // Paste your own app secret here for a test, and then store it in a safe place! 
@@ -192,7 +192,6 @@ return $token
     AuthenticationResult authenticationResult = auth.AcquireTokenAsync(wdatpResourceId, clientCredential).GetAwaiter().GetResult();
     string token = authenticationResult.AccessToken;
     ```
-
 
 ### <a name="using-python"></a>Использование Python
 
@@ -209,19 +208,20 @@ return $token
 - Установите TENANT_ID клиента Azure, который хочет использовать приложение для доступа к приложению Microsoft Defender для конечных точек.
 - Запустите приведенную ниже команду:
 
-```
+```curl
 curl -i -X POST -H "Content-Type:application/x-www-form-urlencoded" -d "grant_type=client_credentials" -d "client_id=%CLIENT_ID%" -d "scope=https://securitycenter.onmicrosoft.com/windowsatpservice/.default" -d "client_secret=%CLIENT_SECRET%" "https://login.microsoftonline.com/%TENANT_ID%/oauth2/v2.0/token" -k
 ```
 
 Вы получите ответ формы:
 
-```
+```console
 {"token_type":"Bearer","expires_in":3599,"ext_expires_in":0,"access_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIn <truncated> aWReH7P0s0tjTBX8wGWqJUdDA"}
 ```
 
 ## <a name="validate-the-token"></a>Проверка маркера
 
 Проверка вменяемости, чтобы убедиться, что вы получили правильный маркер:
+
 - Скопируйте или вклеите [в JWT](https://jwt.ms) маркер, который вы получаете на предыдущем шаге, чтобы расшифровать его
 - Проверка получения утверждения "роли" с нужными разрешениями
 - На приведенной ниже скриншоте можно увидеть расшифровав маркер, приобретенный из приложения с несколькими разрешениями в Microsoft Defender для конечной точки:
@@ -235,8 +235,9 @@ curl -i -X POST -H "Content-Type:application/x-www-form-urlencoded" -d "grant_ty
 - Установите заглавную запись авторизации в http-запросе, который вы отправляете в "Bearer {token}" (Bearer — это схема авторизации)
 - Срок действия маркера составляет 1 час (вы можете отправить несколько запросов с одним и тем же маркером)
 
-- Пример отправки запроса для получения списка оповещений **с помощью C#** 
-    ```
+- Пример отправки запроса для получения списка оповещений **с помощью C#**
+
+    ```csharp
     var httpClient = new HttpClient();
 
     var request = new HttpRequestMessage(HttpMethod.Get, "https://api.securitycenter.microsoft.com/api/alerts");
@@ -249,5 +250,6 @@ curl -i -X POST -H "Content-Type:application/x-www-form-urlencoded" -d "grant_ty
     ```
 
 ## <a name="see-also"></a>См. также
+
 - [Поддерживаемые API Microsoft Defender для конечной точки](exposed-apis-list.md)
 - [Доступ к Microsoft Defender для конечной точки от имени пользователя](exposed-apis-create-app-nativeapp.md)

@@ -14,12 +14,12 @@ f1.keywords:
 ms.custom: ''
 ms.assetid: b3209b1a-40c7-4ede-8e78-8a88bb2adc8a
 description: Сводка. Понять, почему необходимо использовать PowerShell для управления Microsoft 365, в некоторых случаях более эффективно и в других случаях по необходимости.
-ms.openlocfilehash: baae3f5682edb65f1bc8114fcc96021b144b93ab
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: cbbceddc98bebaed030f4cff2f183d473d716df6
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53228427"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288471"
 ---
 # <a name="why-you-need-to-use-powershell-for-microsoft-365"></a>Зачем использовать PowerShell для Microsoft 365
 
@@ -236,7 +236,7 @@ Get-SPOSite | ForEach {Remove-SPOUser -Site $_.Url -LoginName "kenmyer@litwarein
 ```
 
 > [!NOTE]
-> Эта команда требует установки модуля [SharePoint PowerShell.](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
+> Эта команда требует установки модуля [SharePoint PowerShell.](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
 
 Интерпретация этой команды PowerShell: получить все SharePoint сайты в текущей подписке Microsoft 365 **(Get-SPOSite)** и для каждого сайта удалить Кена Мейера из списка пользователей, которые могут получить к нему доступ **(ForEach {Remove-SPOUser-Site $ \_ . . URL-LoginName "kenmyer \@ litwareinc.com"}**).
 

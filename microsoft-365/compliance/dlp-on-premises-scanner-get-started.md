@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Настройка локального сканера для защиты от потери данных Microsoft 365
-ms.openlocfilehash: b21474f3a9e045bf353d62ef6c7c8d4174801a1b
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 0390ac48b351b30b75109a3e3a5d18c80847c9d2
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52623837"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289203"
 ---
 # <a name="get-started-with-the-data-loss-prevention-on-premises-scanner-preview"></a>Начало работы с локальным сканером для защиты от потери данных (предварительная версия)
 
@@ -115,7 +115,7 @@ ms.locfileid: "52623837"
 
 2. Выполните действия, описанные в статье [Начало работы с обозревателем действий](data-classification-activity-explorer.md), чтобы получить доступ к данным и отфильтровать их в расположениях локального сканера.
 
-3. Откройте [Журнал аудита](https://security.microsoft.com/auditlogsearch) в Центре соответствия требованиям. В общедоступной предварительной версии соответствия правилу защиты от потери данных доступны в пользовательском интерфейсе журнала аудита или с помощью командлета [Search-UnifiedAuditLog](/powershell/module/exchange/search-unifiedauditlog?view=exchange-ps) в PowerShell 
+3. Откройте [Журнал аудита](https://security.microsoft.com/auditlogsearch) в Центре соответствия требованиям. В общедоступной предварительной версии соответствия правилу защиты от потери данных доступны в пользовательском интерфейсе журнала аудита или с помощью командлета [Search-UnifiedAuditLog](/powershell/module/exchange/search-unifiedauditlog) в PowerShell 
 
 
 ## <a name="next-steps"></a>Дальнейшие действия

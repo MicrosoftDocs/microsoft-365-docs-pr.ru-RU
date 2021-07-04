@@ -19,12 +19,12 @@ ms.custom:
 search.appverid: MET150
 description: Если вы используете менее 25 пользовательских лицензий, вы можете отменить пробную или платную подписку на Microsoft 365 для бизнеса в Центре администрирования.
 ms.date: 04/08/2021
-ms.openlocfilehash: 18e7ca5cec91e1614808f2087ce0394f33a45c7a
-ms.sourcegitcommit: 959c3c3633e40b7b0f5e2c8372409778005a24db
+ms.openlocfilehash: d327a09eba06e9a2bbc92959b6048649b41b72fe
+ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "52950087"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53256799"
 ---
 # <a name="cancel-your-subscription"></a>Отмена подписки
 

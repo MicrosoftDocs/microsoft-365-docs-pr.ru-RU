@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 248e08913e6210fabed26955a1015533e055dcb6
-ms.sourcegitcommit: bbad1938b6661d4a6bca99f235c44e521b1fb662
+ms.openlocfilehash: 82052634b79bf433731d0afdab45e3d75e6497e0
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/18/2021
-ms.locfileid: "53007073"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289335"
 ---
 # <a name="live-response-command-examples"></a>Примеры команд Live response
 
@@ -38,8 +38,7 @@ ms.locfileid: "53007073"
 
 В зависимости от роли, предоставленной вам, можно запускать базовые или расширенные команды живого ответа. Дополнительные сведения о базовых и расширенных командах см. в см. в руб. Исследование сущностями на [устройствах с использованием живого ответа.](live-response.md)
 
-
-## <a name="analyze"></a>анализ 
+## <a name="analyze"></a>анализ
 
 ```console
 # Analyze the file malware.txt
@@ -110,12 +109,12 @@ getfile c:\Users\user\Desktop\work.txt -auto
 >
 > Следующие типы файлов **не могут** быть загружены с помощью этой команды в Live Response:
 >
-> * [Reparse point files](/windows/desktop/fileio/reparse-points/)
-> * [Sparse files](/windows/desktop/fileio/sparse-files/)
-> * Пустые файлы
-> * Виртуальные файлы или файлы, которые не полностью представлены локально
+> - [Reparse point files](/windows/desktop/fileio/reparse-points/)
+> - [Sparse files](/windows/desktop/fileio/sparse-files/)
+> - Пустые файлы
+> - Виртуальные файлы или файлы, которые не полностью представлены локально
 >
-> Эти типы **файлов поддерживаются** [PowerShell.](/powershell/scripting/overview?view=powershell-6/?&preserve-view=true)
+> Эти типы **файлов поддерживаются** [PowerShell.](/powershell/scripting/overview)
 >
 > Используйте PowerShell в качестве альтернативы, если у вас возникли проблемы с использованием этой команды из live Response.
 
@@ -132,6 +131,7 @@ library delete script.ps1
 ```
 
 ## <a name="processes"></a>processes
+
 ```console
 # Show all processes
 processes
@@ -210,11 +210,12 @@ run script.ps1
 # Run PowerShell script from the library with arguments
 run get-process-by-name.ps1 -parameters "-processName Registry"
 ```
+
 >[!NOTE]
 >
 > Для длительных команд, таких как **'run'** или **getfile',** для выполнения этого действия в фоновом режиме может потребоваться использовать символ '' в конце **&** команды.
 > Это позволит продолжить изучение компьютера и вернуться к фоновой команде при использовании базовой [команды](live-response.md#basic-commands)**fg**.
->
+
 ## <a name="scheduledtask"></a>scheduledtask
 
 ```console
@@ -232,7 +233,6 @@ scheduledtasks Microsoft\Windows\Subscription\LicenseAcquisition
 scheduledtasks "Microsoft\Configuration Manager\Configuration Manager Health Evaluation"
 ```
 
-
 ## <a name="undo"></a>отмена
 
 ```console
@@ -249,4 +249,3 @@ undo scheduledtask Microsoft\Windows\Subscription\LicenseAcquisition
 # Restore remediated file
 undo file c:\Users\user\Desktop\malware.exe
 ```
-

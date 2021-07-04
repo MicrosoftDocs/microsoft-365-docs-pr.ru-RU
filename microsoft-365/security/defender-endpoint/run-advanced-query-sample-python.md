@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 17ad28121935adfc958629f7999311c11a8d784e
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 7ee431c88430916fcba60266a3a3a5180d830c0d
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52771454"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289263"
 ---
 # <a name="advanced-hunting-using-python"></a>Расширенная охота с помощью Python
 
@@ -30,7 +30,7 @@ ms.locfileid: "52771454"
 
 **Применяется к:** [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/?linkid=2154037)
 
-- Хотите испытать Microsoft Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+- Хотите испытать Microsoft Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
@@ -40,14 +40,13 @@ ms.locfileid: "52771454"
 
 В этом разделе мы делимся примерами Python, чтобы получить маркер и использовать его для выполнения запроса.
 
->**Обязательное** условие. Сначала [необходимо создать приложение.](apis-intro.md)
+> **Обязательное** условие. Сначала [необходимо создать приложение.](apis-intro.md)
 
 ## <a name="get-token"></a>Get token
 
 - Выполните следующие команды:
 
-```
-
+```python
 import json
 import urllib.request
 import urllib.parse
@@ -73,10 +72,10 @@ req = urllib.request.Request(url, data)
 response = urllib.request.urlopen(req)
 jsonResponse = json.loads(response.read())
 aadToken = jsonResponse["access_token"]
-
 ```
 
 где
+
 - tenantId. ID клиента, от имени которого требуется выполнить запрос (то есть запрос будет работать на данных этого клиента)
 - appId: ID приложения Azure AD (приложение должно иметь разрешение "Выполнить расширенные запросы" в Microsoft Defender для конечной точки)
 - appSecret: секрет приложения Azure AD
@@ -85,7 +84,7 @@ aadToken = jsonResponse["access_token"]
 
  Запустите следующий запрос:
 
-```
+```python
 query = 'RegistryEvents | limit 10' # Paste your own query here
 
 url = "https://api.securitycenter.microsoft.com/api/advancedqueries/run"
@@ -102,7 +101,6 @@ response = urllib.request.urlopen(req)
 jsonResponse = json.loads(response.read())
 schema = jsonResponse["Schema"]
 results = jsonResponse["Results"]
-
 ```
 
 - схема содержит схему результатов запроса
@@ -110,9 +108,9 @@ results = jsonResponse["Results"]
 
 ### <a name="complex-queries"></a>Сложные запросы
 
-Если вы хотите запускать сложные запросы (или многолинейные запросы), сохраните запрос в файле и вместо первой строки в приведенном выше примере запустите приведенную ниже команду:
+Если вы хотите выполнить сложные запросы (или многоуровневые запросы), сохраните запрос в файле и вместо первой строки в приведенном выше примере запустите ниже команду:
 
-```
+```python
 queryFile = open("D:\\Temp\\myQuery.txt", 'r') # Replace with the path to your file
 query = queryFile.read()
 queryFile.close()
@@ -124,18 +122,15 @@ queryFile.close()
 
 Чтобы итерировать результаты, сделайте ниже:
 
-```
+```python
 for result in results:
     print(result) # Prints the whole result
     print(result["EventTime"]) # Prints only the property 'EventTime' from the result
-
-
 ```
-
 
 Для вывода результатов запроса в формате CSV в файле file1.csv ниже:
 
-```
+```python
 import csv
 
 outputFile = open("D:\\Temp\\file1.csv", 'w')
@@ -149,14 +144,14 @@ outputFile.close()
 
 Для вывода результатов запроса в формате JSON в файле file1.jsдалее:
 
-```
+```python
 outputFile = open("D:\\Temp\\file1.json", 'w')
 json.dump(results, outputFile)
 outputFile.close()
 ```
 
-
 ## <a name="related-topic"></a>Связанная тема
+
 - [Microsoft Defender для API конечных точек](apis-intro.md)
-- [Программный интерфейс расширенной охоты](run-advanced-query-api.md)
+- [API расширенной охоты](run-advanced-query-api.md)
 - [Расширенная охота с помощью PowerShell](run-advanced-query-sample-powershell.md)

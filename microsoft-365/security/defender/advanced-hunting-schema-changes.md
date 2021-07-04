@@ -1,5 +1,5 @@
 ---
-title: Изменение имен в схеме Microsoft 365 Defender
+title: Изменение имен в схеме Microsoft 365 Defender схемы охоты
 description: Отслеживание и проверка именования изменений таблиц и столбцов в продвинутой схеме охоты
 keywords: передовая охота, охота на угрозы, охота на киберугрозы, Microsoft 365 Defender, Microsoft 365, m365, поиск, запрос, телеметрия, ссылка схемы, кусто, таблица, данные, изменения имен, переименование
 search.product: eADQiWindows 10XVcnh
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: a387892dde0fbe96e4a523b2247448a3c7e374b8
-ms.sourcegitcommit: fb6c5e04ade1e82b26b2f911577b5ac721f1c544
+ms.openlocfilehash: 9406653a2d16c83f974e2a0ce7597b5c4f833252
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52470500"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289503"
 ---
 # <a name="advanced-hunting-schema---naming-changes"></a>Advanced hunting schema - Naming changes
 
@@ -55,22 +55,22 @@ ms.locfileid: "52470500"
 
 | Имя столбца | Имя исходного значения | Новое имя значения | Причина изменений
 |--|--|--|--|
-| `DetectionSource` | MCAS |    Microsoft Cloud App Security | Ребрендинг |
-| `DetectionSource` | WindowsDefenderAtp|   EDR| Ребрендинг |
+| `DetectionSource` | MCAS | Microsoft Cloud App Security | Ребрендинг |
+| `DetectionSource` | WindowsDefenderAtp| EDR| Ребрендинг |
 | `DetectionSource` | WindowsDefenderAv | Защита от вирусов | Ребрендинг |
 | `DetectionSource` | WindowsDefenderSmartScreen |  SmartScreen | Ребрендинг |
-| `DetectionSource` | CustomerTI |  Настраиваемый TI | Ребрендинг |
+| `DetectionSource` | CustomerTI | Настраиваемый TI | Ребрендинг |
 | `DetectionSource` | OfficeATP | Microsoft Defender для Office 365 | Ребрендинг |
-| `DetectionSource` | MTP   | Microsoft 365 Defender | Ребрендинг |
-| `DetectionSource` | AzureATP |    Microsoft Defender для удостоверений | Ребрендинг |
-| `DetectionSource` | CustomDetection   | Настраиваемый обнаружение | Ребрендинг |
+| `DetectionSource` | MTP | Microsoft 365 Defender | Ребрендинг |
+| `DetectionSource` | AzureATP | Microsoft Defender для удостоверений | Ребрендинг |
+| `DetectionSource` | CustomDetection | Настраиваемый обнаружение | Ребрендинг |
 | `DetectionSource` | Автоматическаяинвестигация |Автоматическое расследование | Ребрендинг |
 | `DetectionSource` | ThreatExperts | Эксперты Майкрософт по угрозам | Ребрендинг |
 | `DetectionSource` | TI третьей стороны | Датчики 3-й стороны | Ребрендинг |
 | `ServiceSource` | ATP в Защитнике Windows| Microsoft Defender для конечной точки | Ребрендинг |
-|`ServiceSource` |Защита от угроз (Майкрософт)   | Microsoft 365 Defender | Ребрендинг |
-| `ServiceSource` | Office 365 ATP  |Microsoft Defender для Office 365 | Ребрендинг |
-| `ServiceSource` |Azure ATP    |Microsoft Defender для удостоверений | Ребрендинг |
+|`ServiceSource` |Защита от угроз (Майкрософт) | Microsoft 365 Defender | Ребрендинг |
+| `ServiceSource` | Office 365 ATP |Microsoft Defender для Office 365 | Ребрендинг |
+| `ServiceSource` |Azure ATP |Microsoft Defender для удостоверений | Ребрендинг |
 
 `DetectionSource`доступна в таблице [AlertInfo.](advanced-hunting-alertinfo-table.md) `ServiceSource`доступно в [таблицах AlertEvidence](advanced-hunting-alertevidence-table.md) и [AlertInfo.](advanced-hunting-alertinfo-table.md) 
 
@@ -103,7 +103,7 @@ ms.locfileid: "52470500"
 
 Таблица `DeviceTvmSoftwareInventoryVulnerabilities` обесценилась. Его заменяют `DeviceTvmSoftwareInventory` таблицы `DeviceTvmSoftwareVulnerabilities` и таблицы.
 
-## <a name="may-2021"></a>Май 2021 г.
+## <a name="may-2021"></a>Май 2021 г.
 
 Таблица `AppFileEvents` обесценилась. В таблице содержатся сведения, которые раньше были в таблице, а также другие действия `CloudAppEvents` `AppFileEvents` в облачных службах.
 

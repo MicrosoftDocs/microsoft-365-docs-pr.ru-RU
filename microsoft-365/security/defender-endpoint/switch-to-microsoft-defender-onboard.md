@@ -23,12 +23,12 @@ ms.custom: migrationguides
 ms.topic: article
 ms.date: 06/14/2021
 ms.reviewer: jesquive, chventou, jonix, chriggs, owtho
-ms.openlocfilehash: 832414e9b2a88114cafafbba78e22ea656cc7949
-ms.sourcegitcommit: 3d30ec03628870a22c54b6ec5d865cbe94f34245
+ms.openlocfilehash: 8fcf0491629a068f1ebc97e226a2c9b05e306cbf
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52930467"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289515"
 ---
 # <a name="switch-to-microsoft-defender-for-endpoint---phase-3-onboard"></a>Переход на Microsoft Defender для конечной точки — этап 3. На борту
 
@@ -69,7 +69,7 @@ ms.locfileid: "52930467"
 | Windows 10     | [Групповая политика](configure-endpoints-gp.md)<p>[Диспетчер конфигураций](configure-endpoints-sccm.md)<p>[Управление мобильными устройствами (Intune)](configure-endpoints-mdm.md)<p>[Локальный скрипт](configure-endpoints-script.md) <p>**ПРИМЕЧАНИЕ.** Локальный сценарий подходит для доказательства концепции, но не должен использоваться для развертывания производства. Для развертывания производства рекомендуется использовать групповую политику, Microsoft Endpoint Configuration Manager или Intune.         |
 | Windows 8.1 Корпоративная <p>Windows 8.1 Профессиональная <p>Windows 7 sp1 Enterprise <p>Windows 7 sp1 Pro     | [Microsoft Monitoring Agent](onboard-downlevel.md)<p>**ПРИМЕЧАНИЕ.** Microsoft Monitoring Agent агент Azure Log Analytics. Дополнительные сведения см. в обзоре агента [log Analytics.](/azure/azure-monitor/platform/log-analytics-agent)        |
 | Windows Server 2019 и более поздний <p>Windows Основное издание Server 2019 <p>Windows Сервер версии 1803 и более поздней версии | [Локальный скрипт](configure-endpoints-script.md) <p>[Групповая политика](configure-endpoints-gp.md) <p>[Диспетчер конфигураций](configure-endpoints-sccm.md) <p>[System Center Configuration Manager](configure-endpoints-sccm.md) <p>[Скрипты на борту VDI для нестандартных устройств](configure-endpoints-vdi.md) <p>**ПРИМЕЧАНИЕ.** Локальный сценарий подходит для доказательства концепции, но не должен использоваться для развертывания производства. Для развертывания производства рекомендуется использовать групповую политику, Microsoft Endpoint Configuration Manager или Intune.    |
-| Windows Server 2016 <p>Windows Server 2012 R2 <p>Windows Server 2008 R2 с пакетом обновления 1 (SP1)  | [Центр безопасности в Microsoft Defender](configure-server-endpoints.md)<p>[Azure Defender](/azure/security-center/security-center-wdatp) |
+| Windows Server 2016 <p>Windows Server 2012 R2 <p>Windows Server 2008 R2 с пакетом обновления 1 (SP1)  | [Центр безопасности в Microsoft Defender](configure-server-endpoints.md)<p>[Azure Defender](/azure/security-center/security-center-wdatp) |
 | macOS:<p>11.3.1 (Big Sur) <p>10.15 (Каталина)<p>10.14 (Mojave) | [Подключение устройствах, отличных от Windows](configure-endpoints-non-windows.md)  |
 | iOS | [Подключение устройствах, отличных от Windows](configure-endpoints-non-windows.md)  |
 | Linux:<p>RHEL 7.2+<p>CentOS Linux 7.2+<p>Ubuntu 16 LTS или более высокий LTS<p>SLES 12+<p>Debian 9+<p>Oracle Linux 7.2 | [Подключение устройствах, отличных от Windows](configure-endpoints-non-windows.md)  |
@@ -103,7 +103,7 @@ ms.locfileid: "52930467"
 1. Откройте редактор реестра и перейдите к <br/>
    `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Advanced Threat Protection`.
 
-2. Изменить (или создать) запись DWORD под названием **ForcePassiveMode** и указать следующие параметры:
+2. Изменить (или создать) запись DWORD под названием **ForceDefenderPassiveMode** и указать следующие параметры:
    - Установите значение DWORD в **1**.
    - В **базовой** статье выберите **Hexadecimal**.
 

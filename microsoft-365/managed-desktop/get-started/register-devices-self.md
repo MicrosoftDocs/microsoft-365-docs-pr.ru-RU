@@ -11,12 +11,12 @@ ms.collection: M365-modern-desktop
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 850d7e6692d3ccbfda6e15c8d5ca95301bd4d094
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: a66ad53faf1b38c3db4ab4446dbc1d175fbd99e4
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245616"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289539"
 ---
 # <a name="register-new-devices-yourself"></a>Самостоятельная регистрация новых устройств
 
@@ -50,11 +50,10 @@ ms.locfileid: "52245616"
 
 Вы можете использовать [ сценарийGet-WindowsAutoPilotInfo.ps1](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) PowerShell на веб-сайте PowerShell Gallery. Дополнительные сведения об идентификации устройств и оборудовании см. в дополнительных сведениях о добавлении устройств [в Windows автопилот.](/mem/autopilot/add-devices#device-identification)
 
-1.  Откройте запрос PowerShell с административными правами.
-2.  Запуск `Install-Script -Name Get-WindowsAutoPilotInfo`
-3.  Запуск `powershell -ExecutionPolicy Unrestricted Get-WindowsAutoPilotInfo -OutputFile <path>\hardwarehash.csv`
-4.  `powershell -ExecutionPolicy restricted`Запустите, чтобы предотвратить запуск последующих неограниченных скриптов.
-
+1. Откройте запрос PowerShell с административными правами.
+2. Запуск `Install-Script -Name Get-WindowsAutoPilotInfo`
+3. Запуск `powershell -ExecutionPolicy Unrestricted Get-WindowsAutoPilotInfo -OutputFile <path>\hardwarehash.csv`
+4. `powershell -ExecutionPolicy restricted`Запустите, чтобы предотвратить запуск последующих неограниченных скриптов.
 
 #### <a name="flash-drive-method"></a>Метод флэш-накопителя
 
@@ -68,9 +67,8 @@ ms.locfileid: "52245616"
 8. Запуск `.\Get-WindowsAutoPilotInfo -OutputFile <path>\hardwarehash.csv`
 9. Удалите USB-накопитель, а затем отключите устройство при запуске `shutdown -s -t 0`
 
->[!IMPORTANT]
->Не делайте питания на устройстве, которое вы регистрируете снова, пока не завершите регистрацию для него. 
-
+> [!IMPORTANT]
+> Не делайте питания на устройстве, которое вы регистрируете снова, пока не завершите регистрацию для него. 
 
 ### <a name="merge-hash-data"></a>Объединение данных с hash
 
@@ -78,18 +76,15 @@ ms.locfileid: "52245616"
 
 `Import-CSV -Path (Get-ChildItem -Filter *.csv) | ConvertTo-Csv -NoTypeInformation | % {$_.Replace('"', '')} | Out-File .\aggregatedDevices.csv`
 
-
 ### <a name="register-devices-by-using-the-admin-portal"></a>Регистрация устройств с помощью портала администрирования
 
 В [Microsoft Endpoint Manager](https://endpoint.microsoft.com/)выберите **Устройства** в левой области навигации. Посмотрите раздел компьютеры, управляемые Майкрософт меню и выберите **Устройства**. В рабочей компьютеры, управляемые Майкрософт Устройства выберите **+ Регистрация** устройств, что открывает флайер для регистрации новых устройств.
 
 <!-- [![Fly-in after selecting Register devices, listing devices with columns for assigned users, serial number, status, last-seen date, and age](../../media/new-registration-ui.png)](../../media/new-registration-ui.png) -->
 
-
 <!--Registering any existing devices with Managed Desktop will completely re-image them; make sure you've backed up any important data prior to starting the registration process.-->
 
-
-Выполните следующие действия.
+Выполните приведенные ниже действия.
 
 1. В **файле отправки** у вас есть путь к созданному ранее CSV-файлу.
 2. Выберите профиль [устройства в](../service-description/profiles.md) выпадающее меню.
@@ -105,7 +100,7 @@ ms.locfileid: "52245616"
 | Регистрация в ожидании | Регистрация еще не завершена. Проверьте позже. |
 | Регистрация не удалась | Регистрация не может быть завершена. Дополнительные [сведения обратитесь к регистрации](#troubleshooting-device-registration) устройств для устранения неполадок. |
 | Готово для пользователя | Регистрация была успешной, и теперь устройство готово к доставке пользователю. компьютеры, управляемые Майкрософт будет направлять их по первой подготовке, поэтому вам не нужно делать какие-либо дополнительные подготовительные работы. |
-| Активация | Устройство доставлено пользователю и зарегистрировано у клиента. Это состояние также указывает, что они регулярно используют устройство. |
+| Активное | Устройство доставлено пользователю и зарегистрировано у клиента. Это состояние также указывает, что они регулярно используют устройство. |
 | Неактивный | Устройство доставлено пользователю и зарегистрировано у клиента. Однако они не использовали устройство в последнее время (за последние 7 дней).  | 
 
 #### <a name="troubleshooting-device-registration"></a>Устранение неполадок при регистрации устройств

@@ -11,8 +11,7 @@ ms.author: dansimp
 author: dansimp
 manager: dansimp
 audience: ITPro
-ms.collection:
-- M365-security-compliance
+ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid:
 - MOE150
@@ -21,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: 8b321fc8883cf490cb5b2814d5c2b617a52dbb29
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: c4d4958c03bee7301465c16fef2cd4ff8adb1722
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52246401"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288459"
 ---
 # <a name="assess-your-security-posture-with-microsoft-secure-score"></a>Оценка позы безопасности с помощью microsoft Secure Score
 
@@ -36,9 +35,9 @@ ms.locfileid: "52246401"
 
 Чтобы быстрее найти нужные сведения, действия по улучшению Майкрософт организованы в группы:
 
-* Identity (Azure Active Directory учетные записи & ролей)
-* Device (Microsoft Defender for Endpoint, known as [Microsoft Secure Score for Devices)](/windows/security/threat-protection/microsoft-defender-atp/tvm-microsoft-secure-score-devices)
-* Приложения (приложения электронной почты и облачные приложения, включая Office 365 и Microsoft Cloud App Security)
+- Identity (Azure Active Directory учетные записи & ролей)
+- Device (Microsoft Defender for Endpoint, known as [Microsoft Secure Score for Devices)](/windows/security/threat-protection/microsoft-defender-atp/tvm-microsoft-secure-score-devices)
+- Приложения (приложения электронной почты и облачные приложения, включая Office 365 и Microsoft Cloud App Security)
 
 >[!NOTE]
 >В недавнем выпуске Microsoft Secure Score была выпущена улучшенная модель оценки, которая временно несовместима с показателем безопасности удостоверений и API Graph API. [Просмотреть сведения](microsoft-secure-score-whats-new.md)
@@ -106,7 +105,7 @@ ms.locfileid: "52246401"
 
 Раздел под **названием "С** первого взгляда" расскажет вам о категории, атаках, которые она может защитить, и о продукте.
 
-**Влияние пользователя** — это то, что пользователи будут  испытывать, если будет принято действие по улучшению, а затронутыми пользователями будут люди, которые будут затронуты.
+**Влияние пользователя** — это то, что пользователи будут испытывать, если будет принято действие по улучшению, а затронутые пользователи — это люди, которые будут затронуты. 
 
 ### <a name="implement-the-improvement-action"></a>Реализация действия по улучшению
 

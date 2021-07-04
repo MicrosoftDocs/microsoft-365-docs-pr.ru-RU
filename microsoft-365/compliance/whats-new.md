@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Будь то добавление новых решений в центр соответствия требованиям, обновление существующих функций на основе отзывов или развертывание свежей и обновленной документации, Microsoft 365 поможет вам оставаться на вершине постоянно меняющегося ландшафта соответствия требованиям. Узнайте, чем мы были в этом месяце.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6cd82e66a0b01f4cd329d846cf43581759dec0b6
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: aec9135a00b53f504d19a80e428d52f21b92cf9c
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53228463"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53288135"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Новые возможности Центра соответствия требованиям Microsoft 365
 
@@ -201,7 +201,7 @@ Outlook выпусков и обновлений:
 - [Сведения о локальном сканере Microsoft 365 защиты от потери данных](/microsoft-365/compliance/dlp-on-premises-scanner-learn)
 - [Начало работы с локального сканера предотвращения потери данных](/microsoft-365/compliance/dlp-on-premises-scanner-get-started)
 - [Создание политики защиты от потери данных для защиты документов с помощью FCI или других свойств](/microsoft-365/compliance/protect-documents-that-have-fci-or-other-properties)
-- [Использование Защиты от потери данных в конечной точке](/microsoft-365/compliance/endpoint-dlp-using)
+- [Использование защиты от потери данных в конечной точке](/microsoft-365/compliance/endpoint-dlp-using)
 - [Начало работы с функцией защиты от потери данных в конечной точке](/microsoft-365/compliance/endpoint-dlp-getting-started)
 
 ### <a name="ediscovery"></a>Обнаружение электронных данных
