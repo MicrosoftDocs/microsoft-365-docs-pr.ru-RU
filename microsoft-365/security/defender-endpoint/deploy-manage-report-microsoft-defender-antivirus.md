@@ -16,12 +16,12 @@ ms.date: 09/03/2018
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 4be9116b83c2ee4eec410f3d8d68c289f3c8b9a5
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 15fd70a2a60da7b0541446a98f0094c73c831d51
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52925831"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289827"
 ---
 # <a name="deploy-manage-and-report-on-microsoft-defender-antivirus"></a>Развертывание, управление и отчет о антивирусная программа в Microsoft Defender
 
@@ -57,7 +57,7 @@ Microsoft Azure|Развертывание Microsoft Antimalware Azure на по
 
 1. <span id="fn1" />Доступность некоторых функций и функций, особенно связанных с облачной защитой, отличается от Microsoft Endpoint Manager (Current Branch) и System Center 2012 года. В этой библиотеке мы сосредоточились на Windows 10, Windows Server 2016 и Microsoft Endpoint Manager (Current Branch). См. в статье Использование облачной защиты [Майкрософт антивирусная программа в Microsoft Defender](cloud-protection-microsoft-defender-antivirus.md) для таблицы, описываемой основными различиями. [(Возвращение в таблицу)](#ref2)
   
-2.  <span id="fn2" />В Windows 10 антивирусная программа в Microsoft Defender является компонентом, доступным без установки или развертывания дополнительного клиента или службы. Он автоматически будет включен, если сторонние антивирусные продукты будут либо неустановлены, либо устарели[(за](microsoft-defender-antivirus-on-windows-server.md)исключением Windows Server 2016). Поэтому традиционное развертывание не требуется. Развертывание здесь относится к обеспечению антивирусная программа в Microsoft Defender компонент доступен и включен на конечных точках или серверах. [(Возвращение в таблицу)](#ref2)
+2. <span id="fn2" />В Windows 10 антивирусная программа в Microsoft Defender является компонентом, доступным без установки или развертывания дополнительного клиента или службы. Он автоматически будет включен, если сторонние антивирусные продукты будут либо неустановлены, либо устарели[(за](microsoft-defender-antivirus-on-windows-server.md)исключением Windows Server 2016). Поэтому традиционное развертывание не требуется. Развертывание здесь относится к обеспечению антивирусная программа в Microsoft Defender компонент доступен и включен на конечных точках или серверах. [(Возвращение в таблицу)](#ref2)
 
 3. <span id="fn3" />Конфигурация функций и защиты, включая настройку обновлений продукта и защиты, далее описана в разделе [Configure антивирусная программа в Microsoft Defender](configure-notifications-microsoft-defender-antivirus.md) в этой библиотеке. [(Возвращение в таблицу)](#ref2)
 

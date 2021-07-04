@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: eaef6b25e2db72149a1a1128899d8a79a38a4c60
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 1541e1d6e177416d77d768cef04d2524e6907ab5
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52771025"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289923"
 ---
 # <a name="delete-indicator-api"></a>Удаление API индикатора
 
@@ -39,24 +39,25 @@ ms.locfileid: "52771025"
 
 
 ## <a name="api-description"></a>Описание API
+
 Удаляет объект [индикатора](ti-indicator.md) по ID.
 
-
 ## <a name="limitations"></a>Ограничения
-1. Ограничения скорости для этого API : 100 вызовов в минуту и 1500 вызовов в час.
 
+Ограничения скорости для этого API : 100 вызовов в минуту и 1500 вызовов в час.
 
 ## <a name="permissions"></a>Разрешения
+
 Для вызова этого API требуется одно из следующих разрешений. Дополнительные новости, в том числе выбор разрешений, см. в [руб. Начало работы](apis-intro.md)
 
-Тип разрешения |   Разрешение  |   Имя отображения разрешений
+Тип разрешения | Разрешение | Имя отображения разрешений
 :---|:---|:---
-Приложение |   Ti.ReadWrite |  "Чтение и написание индикаторов TI"
-Приложение |   Ti.ReadWrite.All |  'Read and write Indicators'
-
+Application | Ti.ReadWrite | "Чтение и написание индикаторов TI"
+Application | Ti.ReadWrite.All | 'Read and write Indicators'
 
 ## <a name="http-request"></a>HTTP-запрос
-```
+
+```http
 Delete https://api.securitycenter.microsoft.com/api/indicators/{id}
 ```
 
@@ -66,19 +67,21 @@ Delete https://api.securitycenter.microsoft.com/api/indicators/{id}
 
 Имя | Тип | Описание
 :---|:---|:---
-Авторизация | String | Bearer {token}. **Обязательное поле**.
+Authorization | Строка | Bearer {token}. **Обязательное поле**.
 
+## <a name="request-body"></a>Текст запроса
 
-## <a name="request-body"></a>Тело запроса
 переменная Empty
 
 ## <a name="response"></a>Отклик
+
 Если Индикатор существует и успешно удаляется — 204 ОК без контента.
+
 Если индикатор с указанным id не найден - 404 Не найден.
 
 ## <a name="example"></a>Пример
 
-**Запрос**
+### <a name="request"></a>Запрос
 
 Ниже приведен пример запроса.
 

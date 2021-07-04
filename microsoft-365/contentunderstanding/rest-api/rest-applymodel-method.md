@@ -11,12 +11,12 @@ search.appverid: ''
 ms.collection: m365initiative-syntex
 localization_priority: Priority
 description: Используйте REST API для применения модели осмысления документации к одной или нескольким библиотекам.
-ms.openlocfilehash: 24ea9a480bc3ce5a7745857de17a6fab6ed97685
-ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
+ms.openlocfilehash: 04f1dfdb0c16110c9ba7de12f5f0735d498d50cf
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53177265"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53286541"
 ---
 # <a name="batch-apply-model"></a>Пакетное применение модели
 
@@ -48,6 +48,7 @@ None;
 |Publications|Да|MachineLearningPublicationEntityData[]|Коллекция объектов MachineLearningPublicationEntityData, каждый из которых определяет модель и целевую библиотеку документов.|
 
 ### <a name="machinelearningpublicationentitydata"></a>MachineLearningPublicationEntityData
+
 | Имя | Обязательный | Тип | Описание |
 |--------|-------|--------|------------|
 |ModelUniqueId|да|строка|Уникальный идентификатор файла модели.|
@@ -63,6 +64,7 @@ None;
 |201 Создано||Это настраиваемый API для поддержки применения модели к библиотекам с несколькими документами. В случае частичного успеха также может возвращаться отклик "201 создано" и вызывающей стороне необходимо проверить текст отклика, чтобы понять, применена ли модель к библиотеке документов.|
 
 ## <a name="response-body"></a>Текст отклика
+
 | Имя   | Тип  | Описание|
 |--------|-------|------------|
 |TotalSuccesses|int|Общее количество успешных применений модели к библиотеке документов.|
@@ -70,6 +72,7 @@ None;
 |Сведения|MachineLearningPublicationResult[]|Коллекция объектов MachineLearningPublicationResult, каждый из которых определяет подробный результат применения модели к библиотеке документов.|
 
 ### <a name="machinelearningpublicationresult"></a>MachineLearningPublicationResult
+
 | Имя   | Тип  | Описание|
 |--------|-------|------------|
 |StatusCode|int|Код состояния HTTP.|
@@ -77,6 +80,7 @@ None;
 |Publication|MachineLearningPublicationEntityData|Указывает сведения о модели и целевую библиотеку документов.| 
 
 ### <a name="machinelearningpublicationentitydata"></a>MachineLearningPublicationEntityData
+
 | Имя | Тип | Описание |
 |--------|--------|------------|
 |ModelUniqueId|строка|Уникальный идентификатор файла модели.|

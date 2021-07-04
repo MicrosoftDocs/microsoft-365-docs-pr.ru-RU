@@ -19,12 +19,12 @@ ms.collection:
 - m365-security-compliance
 - m365initiative-defender-endpoint
 ms.technology: mde
-ms.openlocfilehash: b85c0c63cc7c72ad555d80bd8ce6c07c95b4b97b
-ms.sourcegitcommit: 3e197d1ff7d8100faeaf1f5a33f1ad4ed2f72e99
+ms.openlocfilehash: 83f269a13a54ee38b7e7a464d794d87ddbd7b520
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52908081"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289935"
 ---
 # <a name="client-behavioral-blocking"></a>Блокировка с учетом поведения клиента
 
@@ -46,7 +46,7 @@ ms.locfileid: "52908081"
 
 [антивирусная программа в Microsoft Defender](microsoft-defender-antivirus-in-windows-10.md) может обнаруживать подозрительные действия, вредоносный код, атаки без файлов и в памяти и другие действия на устройстве. При обнаружении подозрительного поведения антивирусная программа в Microsoft Defender отслеживает и отправляет эти подозрительные действия и деревья процессов в службу защиты облаков. Машинное обучение различает вредоносные приложения и хорошее поведение в миллисекунд и классифицирует каждый артефакт. Почти в режиме реального времени, как только артефакт будет обнаружен вредоносным, он блокируется на устройстве. 
 
-При обнаружении подозрительного [](alerts-queue.md) поведения создается оповещение, которое отображается на портале [Microsoft 365 Defender](microsoft-defender-security-center.md) (ранее Центр безопасности в Microsoft Defender).
+При обнаружении подозрительного [](alerts-queue.md) поведения создается оповещение, которое отображается на портале Microsoft 365 Defender [(ранее](microsoft-defender-security-center.md) Центр безопасности в Microsoft Defender).
 
 Клиентская поведенческая блокировка эффективна, так как она не только помогает предотвратить начало атаки, но и помогает остановить приступив к выполнению. Кроме того, при блокировке [циклов](feedback-loop-blocking.md) обратной связи (еще одна возможность блокировки и сдерживания поведения) атаки предотвращаются на других устройствах в организации.
 
@@ -54,26 +54,24 @@ ms.locfileid: "52908081"
 
 Обнаружения на основе поведения называются в соответствии с [матрицей ATT MITRE&CK для](https://attack.mitre.org/matrices/enterprise)Enterprise . Конвенция именования помогает определить стадию атаки, на которой было отмечено вредоносное поведение:
 
-
-|Tactic |   Имя угрозы обнаружения |
+|Tactic | Имя угрозы обнаружения |
 |----|----|
 |Начальный доступ | `Behavior:Win32/InitialAccess.*!ml` |
-|Выполнение  | `Behavior:Win32/Execution.*!ml` |
-|Упорство    | `Behavior:Win32/Persistence.*!ml` |
-|Эскалация привилегий   | `Behavior:Win32/PrivilegeEscalation.*!ml` |
-|Уклонение от защиты    | `Behavior:Win32/DefenseEvasion.*!ml` |
-|Доступ к учетным данным  | `Behavior:Win32/CredentialAccess.*!ml` |
-|Обнаружение  | `Behavior:Win32/Discovery.*!ml` |
+|Выполнение | `Behavior:Win32/Execution.*!ml` |
+|Упорство | `Behavior:Win32/Persistence.*!ml` |
+|Эскалация привилегий | `Behavior:Win32/PrivilegeEscalation.*!ml` |
+|Уклонение от защиты | `Behavior:Win32/DefenseEvasion.*!ml` |
+|Доступ к учетным данным | `Behavior:Win32/CredentialAccess.*!ml` |
+|Discovery | `Behavior:Win32/Discovery.*!ml` |
 |Lateral Movement | `Behavior:Win32/LateralMovement.*!ml` |
-|Collection |   `Behavior:Win32/Collection.*!ml` |
+|Collection | `Behavior:Win32/Collection.*!ml` |
 |Команда и управление | `Behavior:Win32/CommandAndControl.*!ml` |
-|Exfiltration   | `Behavior:Win32/Exfiltration.*!ml` |
+|Exfiltration | `Behavior:Win32/Exfiltration.*!ml` |
 |Влияние | `Behavior:Win32/Impact.*!ml` |
-|Uncategorized  | `Behavior:Win32/Generic.*!ml` |
+|Uncategorized | `Behavior:Win32/Generic.*!ml` |
 
 > [!TIP]
 > Дополнительные данные о конкретных угрозах см. в недавней **[глобальной активности угроз.](https://www.microsoft.com/wdsi/threats)**
-
 
 ## <a name="configuring-client-behavioral-blocking"></a>Настройка клиентской поведенческой блокировки
 
@@ -88,4 +86,3 @@ ms.locfileid: "52908081"
 - [Сокращение направлений атак](attack-surface-reduction.md)
 
 - [Защита нового поколения](configure-microsoft-defender-antivirus-features.md) (антивирусные, антивирусные и другие возможности защиты от угроз)
-

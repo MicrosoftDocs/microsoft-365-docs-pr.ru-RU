@@ -20,18 +20,18 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: bb12f49d-a85d-4f3b-ada2-5c4e33977b10
 description: Узнайте, как просматривать, перечислять или отображать учетные записи Microsoft 365 различными способами с помощью PowerShell.
-ms.openlocfilehash: de91195afeb8480bf231d9536e4b3a94502a6da1
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 77219fb89430ed257ef2a68a7b24bf9ebac715b2
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50924652"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53290175"
 ---
 # <a name="view-microsoft-365-user-accounts-with-powershell"></a>Просмотр Microsoft 365 учетных записей пользователей с помощью PowerShell
 
 *Эта статья относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
 
-Вы можете использовать центр администрирования Microsoft 365 для просмотра учетных записей для Microsoft 365 клиента. PowerShell для Microsoft 365 это позволяет, но также предоставляет дополнительные функции.
+Вы можете использовать Центр администрирования Microsoft 365 для просмотра учетных записей для Microsoft 365 клиента. PowerShell для Microsoft 365 это позволяет, но также предоставляет дополнительные функции.
   
 ## <a name="use-the-azure-active-directory-powershell-for-graph-module"></a>Использование модуля PowerShell Azure Active Directory для Graph
 
@@ -104,7 +104,7 @@ Get-AzureADUser -ObjectID <sign-in name of the user account> | Select DisplayNam
 
 Учетные записи пользователей имеют два источника: 
 
-- Windows Server Active Directory (AD), это учетные записи, синхронизируются с локальной AD в облако.
+- Windows Server Active Directory (AD), которые являются учетные записи, синхронизируются с локальной AD в облако.
 
 - Azure Active Directory (Azure AD) AD-учетные записи, созданные непосредственно в облаке.
 
@@ -148,8 +148,7 @@ Get-AzureADUser | Where {$_.City -eq "London"}
 ```
 
 > [!TIP]
->  Синтаксис для cmdlet **Where** в этих примерах — **Where {$ \_ .** [имя свойства учетной записи пользователя] [оператор сравнения] [значение] **}**.> [оператор сравнения] — **это -eq** для равных, **-ne** для не равного, **-lt** для меньшего, **-gt** для большей, чем и другие.  [значение], как правило, строка (последовательность букв, чисел и других  символов), числовые значения или $Null для неустановленного. Дополнительные сведения см. в [дополнительных сведениях.](/powershell/module/microsoft.powershell.core/where-object?view=powershell-7)
-  
+> Синтаксис для cmdlet **Where** в этих примерах — **Where {$ \_ .** [имя свойства учетной записи пользователя] [оператор сравнения] [значение] **}**.> [оператор сравнения] — **это -eq** для равных, **-ne** для не равного, **-lt** для меньшего, **-gt** для большей, чем и другие.  [значение], как правило, строка (последовательность букв, чисел и других  символов), числовые значения или $Null для неустановленного. Дополнительные сведения см. в [дополнительных сведениях.](/powershell/module/microsoft.powershell.core/where-object)
 
 ## <a name="use-the-microsoft-azure-active-directory-module-for-windows-powershell"></a>Использование модуля Microsoft Azure Active Directory для Windows PowerShell
 
@@ -241,7 +240,7 @@ Get-MsolUser | Where {$_.City -eq "London"}
 ```
 
 > [!TIP]
->  Синтаксис для cmdlet **Where** в этих примерах — **Where {$ \_ .** [имя свойства учетной записи пользователя] [оператор сравнения] [значение] **}**.  [оператор сравнения] **— eq** для равных, **-ne** для не равного, **-lt** для меньшего, **-gt** для большей, чем и другие.  [значение], как правило, строка (последовательность букв, чисел и других  символов), числовые значения или $Null для неустановленного. Дополнительные сведения см. в [дополнительных сведениях.](/powershell/module/microsoft.powershell.core/where-object?view=powershell-7)
+> Синтаксис для cmdlet **Where** в этих примерах — **Where {$ \_ .** [имя свойства учетной записи пользователя] [оператор сравнения] [значение] **}**.  [оператор сравнения] **— eq** для равных, **-ne** для не равного, **-lt** для меньшего, **-gt** для большей, чем и другие.  [значение], как правило, строка (последовательность букв, чисел и других  символов), числовые значения или $Null для неустановленного. Дополнительные сведения см. в [дополнительных сведениях.](/powershell/module/microsoft.powershell.core/where-object)
   
 Чтобы проверить заблокированный статус учетной записи пользователя, используйте следующую команду:
   
@@ -254,11 +253,11 @@ Get-MsolUser -UserPrincipalName <UPN of user account> | Select DisplayName,Block
 По умолчанию в **комлете Get-MsolUser** отображаются три свойства учетных записей пользователей:
   
 - UserPrincipalName
-    
+
 - DisplayName
-    
+
 - isLicensed
-    
+
 Если вам нужны дополнительные свойства, такие как отдел, в котором работает пользователь, и страна/регион, в котором они используют Microsoft 365 службы, можно запустить **Get-MsolUser** в сочетании с помощью cmdlet **Select,** чтобы указать список свойств учетной записи пользователя. Пример:
   
 ```powershell

@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 4da646a52392871cde99271a17ed6eb9111f51ab
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: dcc8a9214e0a6d0a0ede3b08aa6a019f2f0c4d2c
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52769261"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53289851"
 ---
 # <a name="list-alerts-api"></a>API оповещений списка
 
@@ -59,20 +59,22 @@ ms.locfileid: "52769261"
 ## <a name="permissions"></a>Разрешения
 Для вызова этого API требуется одно из следующих разрешений. Дополнительные дополнительные информации, в том числе о выборе разрешений, см. в этой [ссылке: Использование API endpoint Defender для Microsoft Defender](apis-intro.md)
 
-Тип разрешения |   Разрешение  |   Имя отображения разрешений
+Тип разрешения | Разрешение | Имя отображения разрешений
 :---|:---|:---
-Приложение |   Alert.Read.All |    'Read all alerts'
-Приложение |   Alert.ReadWrite.All |   'Read and write all alerts'
+Application | Alert.Read.All | 'Read all alerts'
+Application | Alert.ReadWrite.All | 'Read and write all alerts'
 Делегированные (рабочая или учебная учетная запись) | Alert.Read | 'Read alerts'
 Делегированные (рабочая или учебная учетная запись) | Alert.ReadWrite | 'Read and write alerts'
 
->[!Note]
+> [!NOTE]
 > При получении маркера с помощью учетных данных пользователей:
->- Пользователю необходимо иметь по крайней мере следующее разрешение на роль: "Просмотр данных" (см. [создание](user-roles.md) и управление ролями для получения дополнительных сведений)
->- В ответ будут включены только оповещения, связанные с устройствами, к которые пользователь может получить доступ на основе параметров группы устройств (см. дополнительные сведения о создании и управлении [группами](machine-groups.md) устройств).
+>
+> - Пользователю необходимо иметь по крайней мере следующее разрешение на роль: "Просмотр данных" (см. [создание](user-roles.md) и управление ролями для получения дополнительных сведений)
+> - В ответ будут включены только оповещения, связанные с устройствами, к которые пользователь может получить доступ на основе параметров группы устройств (см. дополнительные сведения о создании и управлении [группами](machine-groups.md) устройств).
 
 ## <a name="http-request"></a>HTTP-запрос
-```
+
+```http
 GET /api/alerts
 ```
 
@@ -80,19 +82,19 @@ GET /api/alerts
 
 Имя | Тип | Описание
 :---|:---|:---
-Авторизация | String | Bearer {token}. **Обязательное поле**.
+Authorization | Строка | Bearer {token}. **Обязательное поле**.
 
+## <a name="request-body"></a>Текст запроса
 
-## <a name="request-body"></a>Тело запроса
 переменная Empty
 
 ## <a name="response"></a>Отклик
-В случае успеха этот метод возвращает 200 [](alerts.md) ОК и список объектов оповещения в теле отклика.
 
+В случае успеха этот метод возвращает 200 [](alerts.md) ОК и список объектов оповещения в теле отклика.
 
 ## <a name="example-1---default"></a>Пример 1 . По умолчанию
 
-**Запрос**
+### <a name="request"></a>Запрос
 
 Ниже приведен пример запроса.
 
@@ -100,13 +102,12 @@ GET /api/alerts
 GET https://api.securitycenter.microsoft.com/api/alerts
 ```
 
-**Отклик**
+### <a name="response"></a>Отклик
 
 Ниже приведен пример отклика.
 
->[!NOTE]
->Список ответов, показанный здесь, может быть усечен для краткости. Все оповещения будут возвращены с фактического вызова.
-
+> [!NOTE]
+> Список ответов, показанный здесь, может быть усечен для краткости. Все оповещения будут возвращены с фактического вызова.
 
 ```json
 {
@@ -162,7 +163,7 @@ GET https://api.securitycenter.microsoft.com/api/alerts
 
 ## <a name="example-2---get-10-latest-alerts-with-related-evidence"></a>Пример 2 . Получить 10 последних оповещений со связанными доказательствами
 
-**Запрос**
+### <a name="request"></a>Запрос
 
 Ниже приведен пример запроса.
 
@@ -170,14 +171,12 @@ GET https://api.securitycenter.microsoft.com/api/alerts
 GET https://api.securitycenter.microsoft.com/api/alerts?$top=10&$expand=evidence
 ```
 
-
-**Отклик**
+### <a name="response"></a>Отклик
 
 Ниже приведен пример отклика.
 
->[!NOTE]
->Список ответов, показанный здесь, может быть усечен для краткости. Все оповещения будут возвращены с фактического вызова.
-
+> [!NOTE]
+> Список ответов, показанный здесь, может быть усечен для краткости. Все оповещения будут возвращены с фактического вызова.
 
 ```json
 {
@@ -314,6 +313,6 @@ GET https://api.securitycenter.microsoft.com/api/alerts?$top=10&$expand=evidence
 }
 ```
 
-
 ## <a name="see-also"></a>См. также
-- [Запросы OData в Microsoft Defender для конечной точки](exposed-apis-odata-samples.md)
+
+[Запросы OData в Microsoft Defender для конечной точки](exposed-apis-odata-samples.md)

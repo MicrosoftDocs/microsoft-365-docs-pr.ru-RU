@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 2d022e903111c498d6f3b7411857748fcb637b64
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: e7c208998e436245c53b90905858b7cf7ebe91d6
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52844662"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53290199"
 ---
 # <a name="use-basic-permissions-to-access-the-portal"></a>Использование основных разрешений для доступа к порталу
 
@@ -47,14 +47,14 @@ ms.locfileid: "52844662"
 - Полный доступ (чтение и записи)
 - Доступ только для чтения
 
-### <a name="before-you-begin"></a>Прежде чем начать
+### <a name="before-you-begin"></a>Подготовка
 
 - Установка Azure PowerShell. Дополнительные сведения см. в [том, как установить](https://azure.microsoft.com/documentation/articles/powershell-install-configure/)и настроить Azure PowerShell.<br>
 
     > [!NOTE]
     > Необходимо выполнить командлеты PowerShell в повышенной командной строке.
 
-- Подключение к Azure Active Directory. Дополнительные сведения см. [в Подключение-MsolService](/powershell/module/msonline/connect-msolservice?view=azureadps-1.0&preserve-view=true).
+- Подключение к Azure Active Directory. Дополнительные сведения см. [в Подключение-MsolService](/powershell/module/msonline/connect-msolservice).
 
 **Полный доступ** <br>
 Пользователи с полным доступом могут войти в систему, просмотреть всю системную информацию и разрешить оповещения, отправить файлы для глубокого анализа и скачать бортовой пакет.

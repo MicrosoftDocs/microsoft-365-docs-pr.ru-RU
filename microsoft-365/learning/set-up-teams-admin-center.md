@@ -1,5 +1,5 @@
 ---
-title: Настройка microsoft Viva Learning (Preview) в центре администрирования Teams
+title: Настройка microsoft Viva Обучение (Preview) в центре администрирования Teams
 ms.author: chucked
 author: chuckedmonson
 manager: pamgreen
@@ -14,76 +14,75 @@ ms.collection:
 - enabler-strategic
 - m365initiative-viva-learning
 localization_priority: None
-description: Узнайте, как настроить Microsoft Viva Learning (Preview) в центре Teams администрирования.
-ms.openlocfilehash: 860f16bee7d93f2212072c5d738263402704272f
-ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+description: Узнайте, как настроить Microsoft Viva Обучение (Preview) в центре Teams администрирования.
+ms.openlocfilehash: 99e63210e8f8c10e3721c35fb69df7880c7e1929
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52789235"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53290223"
 ---
-# <a name="set-up-microsoft-viva-learning-preview-in-the-teams-admin-center"></a>Настройка microsoft Viva Learning (Preview) в центре администрирования Teams
+# <a name="set-up-microsoft-viva-learning-preview-in-the-teams-admin-center"></a>Настройка microsoft Viva Обучение (Preview) в центре администрирования Teams
 
 > [!NOTE]
 > Сведения в этой статье относятся к продукту предварительного просмотра, который может быть существенно изменен до его коммерческого выпуска. 
 
-Администратору Teams выполнить определенные действия, чтобы включить Viva Learning (Preview) для своих пользователей в клиенте. Эти действия зависят от того, как включен клиент: [*public Preview*](set-up-teams-admin-center.md#public-preview-tenants) или [ *Private Preview* (или бета-версия).](set-up-teams-admin-center.md#private-preview-tenants)
+Администратору Teams выполнить определенные действия, чтобы включить viva Обучение (Preview) для своих пользователей в клиенте. Эти действия зависят от того, как включен клиент: [*public Preview*](set-up-teams-admin-center.md#public-preview-tenants) или [ *Private Preview* (или бета-версия).](set-up-teams-admin-center.md#private-preview-tenants)
 
 ## <a name="public-preview-tenants"></a>Клиенты public Preview
 
 ### <a name="administrator-steps-for-public-preview-tenants"></a>Действия администратора для клиентов public Preview
 
-Поскольку обучение Viva (Preview) еще не доступно, необходимы определенные действия, чтобы включить функции и установить разрешения для определенных пользователей или групп. 
+Так как viva Обучение (Preview) еще не доступна, необходимы определенные действия, чтобы включить функции и установить разрешения для определенных пользователей или групп. 
 
-1. Включить общедоступные функции предварительного просмотра для пользователей Viva Learning (Preview).
+1. Включить функции public Preview для пользователей Viva Обучение (Preview).
 
     а. Измените Teams обновления, чтобы включить функции public Preview. Просмотреть [Microsoft Teams просмотра.](/microsoftteams/public-preview-doc-updates)
 
-    б. Включить политику обновления для пользователей или групп, которые будут выполнять тестирование Viva Learning (Preview). См. [назначение политик пользователям и группам.](/microsoftteams/assign-policies-users-and-groups)
+    б. Включить политику обновления для пользователей или групп, которые будут выполнять тестирование Viva Обучение (Preview). См. [назначение политик пользователям и группам.](/microsoftteams/assign-policies-users-and-groups)
 
-2. Измените политику разрешений приложений для пользователей Viva Learning (Preview).
+2. Измените политику разрешений на приложения для пользователей Viva Обучение (Preview).
 
     а. Если в настоящее время она не является частью глобальной политики, разрешить все приложения Майкрософт в политике разрешений приложений. Управление [политиками разрешений приложений см.](/microsoftteams/teams-app-permission-policies)в Microsoft Teams. 
 
-    б. Включить политику разрешений приложений для пользователей или групп, которые будут выполнять тестирование Viva Learning (Preview). См. [назначение политик пользователям и группам.](/microsoftteams/assign-policies-users-and-groups)
+    б. Включить политику разрешений приложений для пользователей или групп, которые будут выполнять тестирование Viva Обучение (Preview). См. [назначение политик пользователям и группам.](/microsoftteams/assign-policies-users-and-groups)
 
-3.  Уведомите пользователей, которые будут тестировать Viva Learning (Preview), чтобы переключить их клиент [сборки](set-up-teams-admin-center.md#user-steps-for-public-preview-tenants)на общедоступный предварительный просмотр для Teams .
+3. Уведомите пользователей, которые будут тестировать Viva Обучение (Preview), чтобы переключить их клиент [сборки](set-up-teams-admin-center.md#user-steps-for-public-preview-tenants)на общедоступный предварительный просмотр для Teams .
 
 > [!IMPORTANT]
-> Для клиентов предварительного просмотра Viva Learning (Preview)  не будет отображаться в управляемых приложениях в центре администрирования Teams до окончательного выпуска продукта. Однако пользователи с включенным общедоступным предварительным просмотром могут найти Viva Learning (Preview) в Teams магазине приложений и использовать его после того, как будут настроены правильные политики и разрешения.
+> Для клиентов предварительного просмотра viva Обучение (Preview) не будет  отображаться в управляемых приложениях в центре администрирования Teams до окончательного выпуска продукта. Однако пользователи с включенным общедоступным предварительным просмотром могут найти viva Обучение (Preview) в Teams магазине приложений и использовать его, как только будут настроены правильные политики и разрешения.
 
 ### <a name="user-steps-for-public-preview-tenants"></a>Действия пользователей для клиентов предварительного просмотра общего просмотра
 
 Пользователям, которые были включены для тестирования общедоступных предварительных просмотров, [](/microsoftteams/public-preview-doc-updates#enable-public-preview) включив описанные ранее [политики,](set-up-teams-admin-center.md#administrator-steps-for-public-preview-tenants) необходимо перейти на общедоступный предварительный просмотр в Teams клиенте.
 
 1. Пользователи должны выбрать свое изображение профиля > **о просмотре**  >  **общего просмотра**.
-   
+
     ![Верхняя навигация в приложении Teams с профилем пользователя](../media/learning/learning-app-select-profile-teams.png)
-    
+
 2. Пользователи должны принимать общедоступные условия предварительного просмотра.
 
     ![Переход на сборку общедоступных предварительных просмотров](../media/learning/learning-app-switch-to-public-preview.png)
- 
-3. Теперь пользователи могут найти Viva Learning (Preview) в Teams и начать использовать его.
+
+3. Теперь пользователи могут найти viva Обучение (Preview) в Teams и приступить к его использованию.
 
 ## <a name="private-preview-tenants"></a>Частные клиенты предварительного просмотра
 
 ### <a name="administrator-steps-for-private-preview-or-beta-tenants"></a>Действия администратора для частных клиентов предварительного просмотра (или бета-версии)
 
-Для частных клиентов предварительного просмотра дополнительные политики, которые необходимо включить, не требуется. Однако viva Learning (Preview) должен быть доступен пользователям в вашей организации.
+Для частных клиентов предварительного просмотра дополнительные политики, которые необходимо включить, не требуется. Однако viva Обучение (Preview) должна быть доступна пользователям в вашей организации.
 
 1. В левой навигации центра администрирования Teams перейдите к Teams   >  **приложениям Управление приложениями.**
 
    ![Левая навигация в центре администрирования Teams с Teams приложениями и разделом Управление приложениями.](../media/learning/learning-app-teams-manage-apps-nav.png)
 
-2. На странице **Управление приложениями** в поле поиска введите *Viva Learning* и выберите **Viva Learning (Preview).**
+2. На странице **Управление приложениями** в поле поиска введите *Viva Обучение,* а затем выберите **Viva Обучение (Preview)**.
 
    ![Управление страницей приложений в центре администрирования Teams с полем поиска.](../media/learning/learning-app-teams-manage-apps-page.png)
 
-3. На странице **Обучение Viva (Предварительный просмотр)** в статье **Состояние** выберите Разрешено включить Обучение Viva (Предварительная версия). 
+3. На странице **Viva Обучение (Preview)** в статье  **Состояние** выберите Разрешено включить Viva Обучение (Preview).
 
-   ![Страница обучения в центре администрирования Teams разделе Параметры состояния и приложения.](../media/learning/learning-app-teams-learning-page.png)
-
+   ![Обучение в центре администрирования Teams разделе Параметры состояния и приложения.](../media/learning/learning-app-teams-learning-page.png)
 
 <!---
 The Teams admin installs Viva Learning (Preview) and applies permission policies through the Teams admin center.
@@ -141,4 +140,4 @@ To make Viva Learning (Preview) available for users in your organization, follow
 
 ## <a name="next-step"></a>Следующий этап
 
-[Настройка источников обучающего контента для Viva Learning (Preview) в центре администрирования Microsoft 365](content-sources-365-admin-center.md)
+[Настройка источников обучающего контента для Viva Обучение (Preview) в Центр администрирования Microsoft 365](content-sources-365-admin-center.md)

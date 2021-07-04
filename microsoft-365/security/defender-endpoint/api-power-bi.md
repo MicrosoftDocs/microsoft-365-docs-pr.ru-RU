@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: 0ddb38e713f08c101639976b9f2c8c1ee32e63a3
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 23d9d61644b4c9adad69a5e467e49ca2b1d92413
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843786"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53290235"
 ---
 # <a name="create-custom-reports-using-power-bi"></a>Создание настраиваемой отчетности с Power BI
 
@@ -33,7 +33,7 @@ ms.locfileid: "52843786"
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 
-- Хотите испытать Microsoft Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink) 
+- Хотите испытать Microsoft Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
 
 [!include[Microsoft Defender for Endpoint API URIs for US Government](../../includes/microsoft-defender-api-usgov.md)]
 
@@ -49,16 +49,16 @@ ms.locfileid: "52843786"
 
 - Нажмите **кнопку Получить пустой** запрос  >  **данных**
 
-    ![Изображение создания пустого запроса](images/power-bi-create-blank-query.png)
+  ![Изображение создания пустого запроса](images/power-bi-create-blank-query.png)
 
 - Нажмите **кнопку Расширенный редактор**
 
-    ![Изображение открытого продвинутого редактора](images/power-bi-open-advanced-editor.png)
+  ![Изображение открытого продвинутого редактора](images/power-bi-open-advanced-editor.png)
 
 - Скопируйте ниже и вклеите его в редактор:
 
 ```
-    let 
+    let
         AdvancedHuntingQuery = "DeviceEvents | where ActionType contains 'Anti' | limit 20",
 
         HuntingUrl = "https://api.securitycenter.microsoft.com/api/advancedqueries",
@@ -93,7 +93,6 @@ ms.locfileid: "52843786"
         Table = Table.TransformColumnTypes(Rows, Table.ToList(TypedSchema, (c) => {c{0}, c{2}}))
 
     in Table
-
 ```
 
 - Нажмите **кнопку Готово**
@@ -118,7 +117,7 @@ ms.locfileid: "52843786"
 
 ## <a name="connect-power-bi-to-odata-apis"></a>Подключение Power BI API OData
 
-- Единственное отличие от вышеуказанного примера — запрос внутри редактора. 
+- Единственное отличие от вышеуказанного примера — запрос внутри редактора.
 
 - Скопируйте ниже и вклейте его в редактор, чтобы вытащить все **действия машины** из организации:
 
@@ -130,22 +129,21 @@ ms.locfileid: "52843786"
         Source = OData.Feed("https://api.securitycenter.microsoft.com/api/" & Query, null, [Implementation="2.0", MoreColumns=true])
     in
         Source
-
 ```
 
 - Вы можете сделать то же самое для **оповещений** и **машин.**
-
 - Запросы OData также можно использовать для фильтрации запросов, см. в [рублях Using OData Queries](exposed-apis-odata-samples.md)
 
-
 ## <a name="power-bi-dashboard-samples-in-github"></a>Power BI панели мониторинга в GitHub
+
 Дополнительные сведения см. [в Power BI отчетов.](https://github.com/microsoft/MicrosoftDefenderATP-PowerBI)
 
 ## <a name="sample-reports"></a>Примеры отчетов
+
 Просмотр примеров отчетов microsoft Defender для Power BI конечных точек. Дополнительные сведения см. в [обзоре примеров кода.](/samples/browse/?products=mdatp)
 
+## <a name="related-topics"></a>Статьи по теме
 
-## <a name="related-topic"></a>Связанная тема
 - [Defender for Endpoint API](apis-intro.md)
-- [Программный интерфейс расширенной охоты](run-advanced-query-api.md)
+- [API расширенной охоты](run-advanced-query-api.md)
 - [Использование запросов OData](exposed-apis-odata-samples.md)

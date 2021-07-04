@@ -11,12 +11,12 @@ search.appverid: ''
 ms.collection: m365initiative-syntex
 localization_priority: Priority
 description: Используйте REST API, чтобы удалить примененную модель осмысления документации из одной или нескольких библиотек.
-ms.openlocfilehash: e95c0583b1b0e2f5de08228afbf161c339544047
-ms.sourcegitcommit: cfd7644570831ceb7f57c61401df6a0001ef0a6a
+ms.openlocfilehash: bbd3e496b50d3fddb31342fbc07d30984544e744
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53177241"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287457"
 ---
 # <a name="batchdelete"></a>BatchDelete
 
@@ -47,6 +47,7 @@ None;
 |Publications|Да|MachineLearningPublicationEntityData[]|Коллекция объектов MachineLearningPublicationEntityData, каждый из которых определяет модель и целевую библиотеку документов.|
 
 ### <a name="machinelearningpublicationentitydata"></a>MachineLearningPublicationEntityData
+
 | Имя | Обязательный | Тип | Описание |
 |--------|-------|--------|------------|
 |ModelUniqueId|да|строка|Уникальный идентификатор файла модели.|
@@ -58,9 +59,10 @@ None;
 
 | Имя   | Тип  | Описание|
 |--------|-------|------------|
-|200 OK||Это настраиваемый API для поддержки удаления модели из библиотек с несколькими документами. В случае частичного успеха также может возвращаться отклик 200 OK и вызывающей стороне необходимо проверить текст отклика, чтобы понять, удалена ли модель из библиотеки документов.|
+|200 OK||Это настраиваемый API для поддержки удаления модели из библиотек с несколькими документами. В случае частичного успеха также может возвращаться отклик "200 OK" и вызывающей стороне необходимо проверить текст отклика, чтобы понять, удалена ли модель из библиотеки документов.|
 
 ## <a name="response-body"></a>Текст отклика
+
 | Имя   | Тип  | Описание|
 |--------|-------|------------|
 |TotalSuccesses|int|Общее количество успешных удалений модели из библиотеки документов.|
@@ -68,6 +70,7 @@ None;
 |Сведения|MachineLearningPublicationResult[]|Коллекция объектов MachineLearningPublicationResult, каждый из которых определяет подробный результат удаления модели из библиотеки документов.|
 
 ### <a name="machinelearningpublicationresult"></a>MachineLearningPublicationResult
+
 | Имя   | Тип  | Описание|
 |--------|-------|------------|
 |StatusCode|int|Код состояния HTTP.|
@@ -75,6 +78,7 @@ None;
 |Publication|MachineLearningPublicationEntityData|Указывает сведения о модели и целевую библиотеку документов.| 
 
 ### <a name="machinelearningpublicationentitydata"></a>MachineLearningPublicationEntityData
+
 | Имя | Тип | Описание |
 |--------|--------|------------|
 |ModelUniqueId|строка|Уникальный идентификатор файла модели.|
@@ -102,7 +106,6 @@ None;
     ] 
 } 
 ```
-
 
 #### <a name="sample-response"></a>Пример отклика
 

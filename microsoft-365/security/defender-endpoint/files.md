@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 MS.technology: mde
 ms.custom: api
-ms.openlocfilehash: c4d392c9c7777a5ab5435d70e36822e11aa39dae
-ms.sourcegitcommit: 5d8de3e9ee5f52a3eb4206f690365bb108a3247b
+ms.openlocfilehash: 83a011e649a7289f62acd6a8d985f020b27b1e10
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "52771193"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53290019"
 ---
 # <a name="file-resource-type"></a>Тип ресурса file
 
@@ -36,10 +36,10 @@ ms.locfileid: "52771193"
 
 [!include[Improve request performance](../../includes/improve-request-performance.md)]
 
-
 Представляет объект файла в Защитнике для конечной точки.
 
 ## <a name="methods"></a>Методы
+
 Метод|Возвращаемый тип |Описание
 :---|:---|:---
 [Получить файл](get-file-information.md) | [file](files.md) | Получить один файл 
@@ -49,25 +49,25 @@ ms.locfileid: "52771193"
 
 
 ## <a name="properties"></a>Свойства
-|Свойство | Тип    |   Описание |
+
+|Свойство | Тип | Описание |
 |:---|:---|:---|
-|sha1 | String | Sha1 hash of the file content |
-|sha256 | String | Sha256 hash of the file content |
+|sha1 | Строка | Sha1 hash of the file content |
+|sha256 | Строка | Sha256 hash of the file content |
 |globalPrevalence | Nullable long | Распространенность файлов в организации |
 |globalFirstObserved | DateTimeOffset | При первом наблюдении файла |
 |globalLastObserved | DateTimeOffset | Последний раз, когда файл был замечен |
 |size | Nullable long | Размер файла |
-|fileType | String | Тип файла |
+|fileType | Строка | Тип файла |
 |isPeFile | Boolean | верно, если файл является переносным для выполнения (например, "DLL", "EXE" и т.д.) |
-|filePublisher | String | Издатель файлов |
-|fileProductName | String | Название продукта |
-|подписывка | String | Подписатель файлов |
-|эмитент | String | Эмитент файлов |
-|signerHash | String | Hash of the signing certificate |
+|filePublisher | Строка | Издатель файлов |
+|fileProductName | Строка | Название продукта |
+|подписывка | Строка | Подписатель файлов |
+|эмитент | Строка | Эмитент файлов |
+|signerHash | Строка | Hash of the signing certificate |
 |isValidCertificate | Boolean | Был успешно проверен сертификат подписи агентом Microsoft Defender для конечных точек. |
-|determinationType | String | Тип определения файла |
-|determinationValue | String | Значение определения |
-
+|determinationType | Строка | Тип определения файла |
+|determinationValue | Строка | Значение определения |
 
 ## <a name="json-representation"></a>Представление Json
 
