@@ -1,5 +1,5 @@
 ---
-title: Используйте политики предотвращения потери данных для облачных приложений, не в microsoft (предварительный просмотр)
+title: Использование политик предотвращения потери данных для облачных приложений, не в microsoft
 f1.keywords:
 - CSH
 ms.author: chrfox
@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Узнайте, как использовать политики dlp для облачных приложений, не в microsoft.
-ms.openlocfilehash: 3c3c687bd1362182d35891ed1ebbfae12416d5d4
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: fbba87fc5bb3bbca7e67ba374e202098a22f4a5c
+ms.sourcegitcommit: 17d82e5617f0466eb825e15ab88594afcdaf4437
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53226843"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "53300128"
 ---
 # <a name="use-data-loss-prevention-policies-for-non-microsoft-cloud-apps-preview"></a>Используйте политики предотвращения потери данных для облачных приложений, не в microsoft (предварительный просмотр)
 
@@ -42,6 +42,12 @@ ms.locfileid: "53226843"
 - Microsoft 365 E5
 - Соответствие требованиям Microsoft 365 E5
 - Безопасность Microsoft 365 E5
+
+### <a name="permissions"></a>Разрешения.
+Пользователь, создавший политику DLP, должен быть:
+- Глобальный администратор
+- Администратор соответствия требованиям
+- Администратор данных о соответствии требованиям
 
 ### <a name="prepare-your-cloud-app-security-environment"></a>Подготовка среды Cloud App Security
 
@@ -81,7 +87,8 @@ ms.locfileid: "53226843"
 
 ![Ограничение сторонних приложений](../media/4-dlp-non-microsoft-cloud-app-restrict-third-party-apps.png)
 
-> [ПРИМЕЧАНИЕ] Политики DLP, применяемые к приложениям, не относя к Майкрософт, Microsoft Cloud App Security. После создания политики DLP для приложения, не включаемого в Корпорацию Майкрософт, в Microsoft Cloud App Security.
+> [!NOTE]
+> Политики DLP, применяемые к приложениям, не относя к Майкрософт, Microsoft Cloud App Security. После создания политики DLP для приложения, не включаемого в Корпорацию Майкрософт, в Microsoft Cloud App Security.
 
 Сведения о создании и настройке политик DLP см. в таблице [Create test and tune a DLP policy.](./create-test-tune-dlp-policy.md)
 
