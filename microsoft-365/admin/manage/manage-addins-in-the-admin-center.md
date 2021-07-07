@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: Узнайте об использовании централизованных надстройок для развертывания надстройок для пользователей и групп в организации.
-ms.openlocfilehash: d678755b28daea1578ce2a5d2e387492cf32d368
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: ed9086c77cdf10435bae09f76493af6058d2d758
+ms.sourcegitcommit: 8b0718f5607ab509092cb80bda854010d885c54f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52636062"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53314391"
 ---
 # <a name="manage-add-ins-in-the-admin-center"></a>Управление надстройками в Центре администрирования
 
@@ -121,6 +121,9 @@ Office надстройки помогут вам персонализирова
 - Веб - в настоящее время доступен.
     
 Это не мешает администратору использовать централизованное развертывание для назначения надстройки из Office Store.
+
+> [!NOTE] 
+> Надстройки, такие как Visio data Visualizer, Карты Bing и People Graph, по-прежнему будут показываться в ленте, даже если администратор отключил Магазин. Чтобы удалить эти ссылки, администраторы должны отключить Хранилище через объект групповой политики (GPO).
   
 Чтобы предотвратить вход пользователя в учетную запись Майкрософт, можно ограничить использование только учетной записи организации. Дополнительные сведения см. в [рублях Identity, authentication и authorization in Office 2016.](/DeployOffice/security/identity-authentication-and-authorization-in-office)  
 
@@ -155,7 +158,7 @@ Office надстройки помогут вам персонализирова
   
 2. Выберите **Управляемые администратором** в области навигации слева. 
 
-## <a name="related-content"></a>См. также:
+## <a name="related-content"></a>Связанные материалы
 
 [Развертывание надстройок в центре администрирования](./manage-deployment-of-add-ins.md) (статья)\
 Дополнительные данные о создании и [создании Office надстроек](/office/dev/add-ins/overview/office-add-ins) (статья)\

@@ -14,12 +14,12 @@ ms.author: dansimp
 ms.reviewer: ''
 manager: dansimp
 ms.technology: mde
-ms.openlocfilehash: 03d05966401c8f3a8bdcec413e85c9a6d2a3ec5c
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 98e4c80c2e0262712885f1e7a2da82886b2ebe80
+ms.sourcegitcommit: b6e63febe24ef1f1793dfb3ecc5ed41a4e730578
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52926575"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "53309376"
 ---
 # <a name="evaluate-network-protection"></a>Оценка защиты сети
 
@@ -40,7 +40,7 @@ ms.locfileid: "52926575"
 
 Включить защиту сети в режиме аудита, чтобы узнать, какие IP-адреса и домены были бы заблокированы. Вы можете убедиться, что это не влияет на бизнес-приложения, или получить представление о том, как часто возникают блоки.
 
-1. Введите **powershell** в меню Пуск, щелкните правой кнопкой мыши **Windows PowerShell** выберите **Выполнить в качестве администратора**
+1. Введите **powershell** в меню , щелкните правой кнопкой **мыши Windows PowerShell** выберите Выполнить в **качестве администратора**
 2. Введите следующий cmdlet:
 
     ```PowerShell
@@ -55,7 +55,7 @@ ms.locfileid: "52926575"
 
 Подключение к сети будет разрешено, и будет отображаться тестовая сообщение.
 
-![Например, уведомление о блокировке подключения: администратор ИТ-Безопасность Windows заблокировать это сетевое подключение. Свяжитесь со своей службой поддержки ИТ.](/microsoft-365/security/defender-endpoint/images/np-notif)
+![Например, уведомление о блокировке подключения: администратор ИТ-Безопасность Windows заблокировать это сетевое подключение. Свяжитесь со своей службой поддержки ИТ.](images/np-notif.png)
 
 ## <a name="review-network-protection-events-in-windows-event-viewer"></a>Просмотр событий защиты сети в Windows просмотра событий
 

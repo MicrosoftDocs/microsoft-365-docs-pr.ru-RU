@@ -13,16 +13,16 @@ ms.topic: article
 author: denisebmsft
 ms.author: deniseb
 ms.custom: nextgen
-ms.reviewer: pahuijbr
+ms.reviewer: pahuijbr, mkaminska
 manager: dansimp
 ms.technology: mde
-ms.date: 06/23/2021
-ms.openlocfilehash: 88be32a2c1e9204629682ec678f80ab6daf701f4
-ms.sourcegitcommit: ccbdf2638fc6646bfb89450169953f4c3ce4b9b0
+ms.date: 07/06/2021
+ms.openlocfilehash: f64c71501a550aabdf16b9de2d7a5db93e48caef
+ms.sourcegitcommit: 8b0718f5607ab509092cb80bda854010d885c54f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53105336"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53314468"
 ---
 # <a name="manage-microsoft-defender-antivirus-updates-and-apply-baselines"></a>Управление антивирусная программа в Microsoft Defender обновлениями и применение базовых показателей
 
@@ -56,7 +56,7 @@ ms.locfileid: "53105336"
 
 ## <a name="product-updates"></a>Обновления продукта
 
-антивирусная программа в Microsoft Defender требует ежемесячных обновлений [(KB4052623)](https://support.microsoft.com/help/4052623/update-for-windows-defender-antimalware-platform) (известный как обновления платформы) и будет получать основные обновления функций наряду с Windows 10 выпусками.
+антивирусная программа в Microsoft Defender требует [ежемесячных обновлений (KB4052623),](https://support.microsoft.com/help/4052623/update-for-windows-defender-antimalware-platform) известных как *обновления платформы.*
 
 Вы можете управлять распространением обновлений с помощью одного из следующих методов: 
 
@@ -67,7 +67,10 @@ ms.locfileid: "53105336"
 Дополнительные сведения см. [в ссылке Управление источниками обновлений антивирусная программа в Microsoft Defender защиты.](/mem/configmgr/protect/deploy-use/endpoint-definitions-wsus#to-synchronize-endpoint-protection-definition-updates-in-standalone-wsus)
 
 > [!NOTE]
-> Ежемесячные обновления выпускаются поэтапно, в результате чего в службах обновления window Server отображается несколько [пакетов.](/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus)
+> - Ежемесячные обновления выпускаются поэтапно, в результате чего в службах обновления window Server отображается несколько [пакетов.](/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus)
+> - В этой статье перечислены изменения, включенные в широкий канал выпуска. [Последние выпуски широкого канала см. здесь.](https://www.microsoft.com/security/encyclopedia/adlpackages.aspx?action=info) 
+> - Дополнительные сведения о постепенном процессе выкатки и дополнительные сведения о следующем выпуске см. в руб. Управление процессом постепенного выката обновлений [Microsoft Defender.](manage-gradual-rollout.md)
+> - Дополнительные сведения об обновлениях сведений о безопасности см. в антивирусная программа в Microsoft Defender и других антивирусных программах [Майкрософт.](https://www.microsoft.com/wdsi/defenderupdates) 
 
 ## <a name="monthly-platform-and-engine-versions"></a>Ежемесячные версии платформы и двигателя
 
@@ -77,8 +80,26 @@ ms.locfileid: "53105336"
 - улучшения производительности;
 - улучшения в обслуживании; и 
 - улучшения интеграции (Cloud, [Microsoft 365 Defender).](/microsoft-365/security/defender/microsoft-365-defender)
-<br/><br/>
+<br/>
 <details>
+<summary> Июнь-2021 (платформа: 4.18.2106.5 | Двигатель: 1.1.18300.4)</summary>
+
+&ensp;Версия обновления аналитики безопасности: **1.343.17.0**  
+&ensp;Выпущено: **28 июня 2021 г.**  
+&ensp;Платформа: **4.18.2106.5**  
+&ensp;Двигатель: **1.1.18300.4**  
+&ensp;Этап поддержки: **безопасность и критически важные обновления**
+    
+### <a name="whats-new"></a>Новые возможности
+- Новые элементы управления процессом постепенного выкатки обновлений Microsoft Defender. См. [в рубке Управление постепенным процессом выкатки обновлений Microsoft Defender.](manage-gradual-rollout.md)
+- Улучшение движка мониторинга поведения
+- Улучшения в октановке определений противомалярийных программ
+- Расширенные проверки сетевых событий Edge
+
+### <a name="known-issues"></a>Известные проблемы
+Отсутствие известных проблем  
+<br/>
+</details><details>
 <summary> Май-2021 (платформа: 4.18.2105.4 | Двигатель: 1.1.18200.4)</summary>
 
 &ensp;Версия обновления аналитики безопасности: **1.341.8.0**  
@@ -104,21 +125,26 @@ ms.locfileid: "53105336"
     
 ### <a name="whats-new"></a>Новые возможности
 - Дополнительная логика мониторинга поведения
-- Улучшенное обнаружение кейлоггера режима ядра
+- Улучшено обнаружение регистратора ключей режима ядра
 - Добавлены новые элементы управления для управления постепенным процессом выкатки обновлений [Microsoft Defender](manage-gradual-rollout.md)
 
 
 ### <a name="known-issues"></a>Известные проблемы
 Отсутствие известных проблем  
 <br/>
-</details><details>
+</details>
+
+### <a name="previous-version-updates-technical-upgrade-support-only"></a>Предыдущие обновления версий: только поддержка технического обновления
+
+После выпуска новой версии пакета поддержка двух предыдущих версий снижается только до технической поддержки. Версии старше, чем указанные в этом разделе, и предоставляются только для технической поддержки обновления. 
+<details>
 <summary> Март-2021 (платформа: 4.18.2103.7 | Двигатель: 1.1.18000.5)</summary>
 
 &ensp;Версия обновления аналитики безопасности: **1.335.36.0**  
 &ensp;Выпущено: **2 апреля 2021 г.**  
 &ensp;Платформа: **4.18.2103.7**  
 &ensp;Двигатель: **1.1.18000.5**  
-&ensp;Этап поддержки: **безопасность и критически важные обновления**
+&ensp;Этап поддержки: **техническая поддержка обновления (только)**
     
 ### <a name="whats-new"></a>Новые возможности
 
@@ -129,13 +155,7 @@ ms.locfileid: "53105336"
 ### <a name="known-issues"></a>Известные проблемы
 Отсутствие известных проблем  
 <br/>
-</details>
-
-### <a name="previous-version-updates-technical-upgrade-support-only"></a>Предыдущие обновления версий: только поддержка технического обновления
-
-После выпуска новой версии пакета поддержка двух предыдущих версий снижается только до технической поддержки. Версии старше, чем указанные в этом разделе, и предоставляются только для технической поддержки обновления. 
-<br/><br/>
-<details>
+</details><details>
 <summary> Февраль-2021 (платформа: 4.18.2102.3 | Двигатель: 1.1.17900.7)</summary>
 
 &ensp;Версия обновления аналитики безопасности: **1.333.7.0**  
@@ -484,10 +504,10 @@ ms.locfileid: "53105336"
 &ensp;Версия подписи: **1.339.1923.0**    
     
 ### <a name="fixes"></a>Исправления
-- Нет
+- Нет.
 
 ### <a name="additional-information"></a>Дополнительные сведения
-- Нет  
+- Нет.  
 <br/>
 </details><details>
 <summary>1.1.2105.01</summary>
@@ -498,10 +518,10 @@ ms.locfileid: "53105336"
 &ensp;Версия подписи: **1.339.42.0**    
     
 ### <a name="fixes"></a>Исправления
-- Нет
+- Нет.
 
 ### <a name="additional-information"></a>Дополнительные сведения
-- Нет  
+- Нет.  
 <br/>
 </details><details>
 <summary>1.1.2104.01</summary>
@@ -512,10 +532,10 @@ ms.locfileid: "53105336"
 &ensp;Версия подписи: **1.335.232.0**    
     
 ### <a name="fixes"></a>Исправления
-- Нет
+- Нет.
 
 ### <a name="additional-information"></a>Дополнительные сведения
-- Нет  
+- Нет.  
 <br/>
 </details><details>
 <summary>1.1.2103.01</summary>
@@ -526,10 +546,10 @@ ms.locfileid: "53105336"
 &ensp;Версия подписи: **1.331.2302.0**    
     
 ### <a name="fixes"></a>Исправления
-- Нет
+- Нет.
 
 ### <a name="additional-information"></a>Дополнительные сведения
-- Нет  
+- Нет.  
 <br/>
 </details><details>
 <summary>1.1.2102.03</summary>
@@ -540,10 +560,10 @@ ms.locfileid: "53105336"
 &ensp;Версия подписи: **1.331.174.0**    
     
 ### <a name="fixes"></a>Исправления
-- Нет
+- Нет.
 
 ### <a name="additional-information"></a>Дополнительные сведения
-- Нет  
+- Нет.  
 <br/>
 </details><details>
 <summary>1.1.2101.02</summary>
@@ -554,10 +574,10 @@ ms.locfileid: "53105336"
 &ensp;Версия подписи: **1.329.1796.0**    
     
 ### <a name="fixes"></a>Исправления
-- Нет
+- Нет.
 
 ### <a name="additional-information"></a>Дополнительные сведения
-- Нет  
+- Нет.  
 <br/>
 </details><details>
 <summary>1.1.2012.01</summary>
@@ -568,10 +588,10 @@ ms.locfileid: "53105336"
 &ensp;Версия для подписи: **1.327.1991.0**    
     
 ### <a name="fixes"></a>Исправления
-- Нет
+- Нет.
 
 ### <a name="additional-information"></a>Дополнительные сведения
-- Нет  
+- Нет.  
 <br/>
 </details><details>
 <summary>1.1.2011.02</summary>
@@ -582,7 +602,7 @@ ms.locfileid: "53105336"
 &ensp;Версия подписи: **1.327.658.0**    
     
 ### <a name="fixes"></a>Исправления
-- Нет
+- Нет.
 
 ### <a name="additional-information"></a>Дополнительные сведения
 - Обновленные антивирусная программа в Microsoft Defender подписи  
@@ -596,10 +616,10 @@ ms.locfileid: "53105336"
 &ensp;Версия подписи: **1.327.344.0**    
     
 ### <a name="fixes"></a>Исправления
-- Нет
+- Нет.
 
 ### <a name="additional-information"></a>Дополнительные сведения
-- Нет  
+- Нет.  
 <br/>
 </details><details>
 <summary>1.1.2009.10</summary>
@@ -610,7 +630,7 @@ ms.locfileid: "53105336"
 &ensp;Версия для подписи: **1.327.2216.0**    
     
 ### <a name="fixes"></a>Исправления
-- Нет
+- Нет.
 
 ### <a name="additional-information"></a>Дополнительные сведения
 - Добавлена поддержка Windows 10 RS1 или более поздней оси установки изображений.  

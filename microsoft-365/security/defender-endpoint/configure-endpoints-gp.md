@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: 24b24c634eac7ee125810d96587c9c1e209b6491
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: b4418cca035710c6b938dad31a2b55423d2ab458
+ms.sourcegitcommit: 8b0718f5607ab509092cb80bda854010d885c54f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53286961"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53314408"
 ---
 # <a name="onboard-windows-10-devices-using-group-policy"></a>Onboard Windows 10 с помощью групповой политики 
 
@@ -211,7 +211,7 @@ Enable\Disable Sample collection| Включено - "Включить колл�
 
 7. Выберите **Выполнить, вошел** ли пользователь в систему или нет, и проверьте поле **Выполнить** с самыми высокими привилегиями.
 
-8. Перейдите на **вкладку Действия** и нажмите **кнопку New...**. **Убедитесь, что программа Start** выбрана в поле **Действия.** Введите имя файла и расположение *общего WindowsDefenderATPOffboardingScript_valid_until_YYYY-MM-DD.cmd.*
+8. Перейдите на **вкладку Действия** и нажмите **кнопку New...**. **Убедитесь, что программа Start** выбрана в поле **Действия.** Введите путь NetBIOS общего *WindowsDefenderATPOffboardingScript_valid_until_YYYY-MM-DD.cmd.*
 
 9. Нажмите **кнопку ОК** и закрой все открытые окна GPMC.
 

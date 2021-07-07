@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 8880f045202fd1c4374e9cec3076144f81eb68d2
-ms.sourcegitcommit: 4f6ef4cd09c3ed36dc0be3702b0636bad6cff8a9
+ms.openlocfilehash: 8babc8c5e7464637e29ddacef50c92f252033d26
+ms.sourcegitcommit: 8b0718f5607ab509092cb80bda854010d885c54f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52657721"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53314372"
 ---
 # <a name="whats-coming-to-microsoft-secure-score"></a>Что происходит в Microsoft Secure Score
 
@@ -35,11 +35,16 @@ Microsoft Secure Score можно найти в центре Microsoft 365 https
 
 В ближайшее время мы внося некоторые изменения, чтобы [сделать Microsoft Secure Score](microsoft-secure-score.md) лучшим представителем вашей позиции в области безопасности и повысить эффективность использования. Ваш счет и максимально возможный балл могут измениться.
 
-### <a name="june-2021"></a>Июнь 2021 г.
+### <a name="july-2021"></a>Июль 2021 г.
 
-#### <a name="remove-improvement-action-related-to-microsoft-cloud-app-security"></a>Удаление действия по улучшению, связанного с Microsoft Cloud App Security
+#### <a name="add-improvement-action-related-to-microsoft-teams"></a>Добавление действия по улучшению, связанное с Microsoft Teams
 
-- Использование Cloud App Security для обнаружения аномального поведения
+- Ограничить пользователей, взбирающихся в диалог, обходя вестибюль собрания.
+- Ограничить доступ внешних участников к контролю Teams собрания.
+- Запретить анонимным пользователям начинать Teams собрания.
+- Необходимо настроить лобби для Teams собраний.
+- Настройка того, какие пользователи могут присутствовать на собраниях Teams собраниях.
+
 
 ## <a name="related-resources"></a>Связанные ресурсы
 

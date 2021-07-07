@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 0b0bd900-68b1-4bf5-808b-5d240a7739f4
 description: 'Узнайте, как можно использовать несколько адресов электронной почты, называемых псевдонимом электронной почты, связанных с Microsoft 365 учетной записью бизнеса. '
-ms.openlocfilehash: ec5bc69a42c5183413f11649b7d7ec6baaf40b01
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: e6eac45c3ade3fd737f93c88c29b56ccd497212e
+ms.sourcegitcommit: 8b0718f5607ab509092cb80bda854010d885c54f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572109"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53314360"
 ---
 # <a name="add-another-email-alias-for-a-user"></a>Добавление дополнительных псевдонимов электронной почты для пользователя
   
@@ -83,9 +83,9 @@ ms.locfileid: "52572109"
 
 ## <a name="sending-email-from-the-proxy-address-easily"></a>Отправка электронной почты с прокси-адреса легко
 
-В апреле 2021 г. выходит новая функция, которая позволяет пользователям легко отправлять их псевдонимы при использовании Outlook в Интернете. Когда функция выходит в аренду, где администратор клиента использует этот кодлет, пользователи в аренде получат доступ к списку контрольных ящиков, где каждая запись соответствует псевдониму в Outlook `Set-OrganizationConfig -SendFromAliasEnabled $true` параметров. При выборе псевдонима он появится в формате From dropdown в форме Compose.
+В июле 2021 г. выходит новая функция, которая позволяет пользователям легко отправлять их псевдонимы при использовании Outlook в Интернете. Когда функция выходит в аренду, где администратор клиента использует этот кодлет, пользователи в аренде получат доступ к списку контрольных ящиков, где каждая запись соответствует псевдониму в Outlook `Set-OrganizationConfig -SendFromAliasEnabled $true` параметров. При выборе псевдонима он появится в формате From dropdown в форме Compose.
   
-## <a name="related-content"></a>См. также:
+## <a name="related-content"></a>Связанные материалы
 
 [Отправка электронной почты с другого адреса](https://support.microsoft.com/office/ccba89cb-141c-4a36-8c56-6d16a8556d2e) (статья)
 

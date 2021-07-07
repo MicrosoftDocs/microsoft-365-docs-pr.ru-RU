@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 ms.technology: m365d
-ms.openlocfilehash: b3f86dfbc1ae89eff61c680737061b01998a527b
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 2f02de4b738d9d61ef9f98cd03d15bd91709339e
+ms.sourcegitcommit: 8b0718f5607ab509092cb80bda854010d885c54f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933869"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53314432"
 ---
 # <a name="whats-new-in-microsoft-secure-score"></a>Новые возможности в Microsoft Secure Score
 
@@ -35,7 +35,13 @@ ms.locfileid: "51933869"
 Чтобы сделать Microsoft Secure Score лучшим представителем вашей позиции в области безопасности, мы внося некоторые изменения. Чтобы узнать о запланированных изменениях, см. в записи "Что [будет в Microsoft Secure Score"?](microsoft-secure-score-whats-coming.md)
 
 Microsoft Secure Score можно найти в центре Microsoft 365 https://security.microsoft.com/securescore [безопасности.](overview-security-center.md)
-    
+
+## <a name="june-2021"></a>Июнь 2021 г.
+
+### <a name="remove-improvement-action-related-to-microsoft-cloud-app-security"></a>Удаление действия по улучшению, связанного с Microsoft Cloud App Security
+
+- Используйте Cloud App Security для обнаружения аномального поведения.
+
 ## <a name="february-2021"></a>Февраль 2021 г.
 
 ### <a name="compatibility-with-graph-api"></a>Совместимость с Graph API
