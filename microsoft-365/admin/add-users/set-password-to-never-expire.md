@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: f493e3af-e1d8-4668-9211-230c245a0466
 description: Вопишите в свою учетную запись Microsoft 365 администратора, чтобы установить некоторые отдельные пароли пользователей, которые никогда не истекают с помощью Windows PowerShell.
-ms.openlocfilehash: a0b247f4b736ecccab57398e1e7131f0a06a2958
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: c9f0c245aca0e028183c42f6a257068d74aa563d
+ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53286277"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53326727"
 ---
 # <a name="set-an-individual-users-password-to-never-expire"></a>Установка бессрочных пользовательских паролей
 
@@ -43,8 +43,6 @@ ms.locfileid: "53286277"
 
 Это руководство применяется к другим поставщикам, таким как Intune и Microsoft 365, которые также используют Azure AD для служб удостоверений и каталогов. Срок действия пароля — это единственная часть политики, которую можно изменить.
 
-> [!NOTE]
-> Можно настроить только пароли для учетных записей пользователей, которые не синхронизируются с помощью синхронизации каталогов. Дополнительные сведения о синхронизации каталогов см. в Подключение [AD с Azure AD.](/azure/active-directory/connect/active-directory-aadconnect)
 
 ## <a name="how-to-check-the-expiration-policy-for-a-password"></a>Проверка политики истечения срока действия пароля
 

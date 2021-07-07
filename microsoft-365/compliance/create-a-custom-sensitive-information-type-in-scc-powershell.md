@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Узнайте, как создавать и импортировать пользовательский тип конфиденциальных данных для политик в Центре безопасности и соответствия требованиям.
-ms.openlocfilehash: ef63adc5fb4f032b6224e054950f8c40f5e78f5a
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: ab89104804fd1af781ca30ed8893bed60cd29e47
+ms.sourcegitcommit: b0f464b6300e2977ed51395473a6b2e02b18fc9e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53287615"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53322261"
 ---
 # <a name="create-a-custom-sensitive-information-type-using-powershell"></a>Создание пользовательского типа конфиденциальной информации с помощью PowerShell
 
@@ -348,6 +348,86 @@ ms.locfileid: "53287615"
 По завершении этих действий элемент RulePack должен выглядеть, как показано ниже.
   
 ![Разметка XML с элементом RulePack](../media/fd0f31a7-c3ee-43cd-a71b-6a3813b21155.png)
+
+## <a name="validators"></a>Валидаторы
+
+Microsoft 365 предоставляет обработчики функций для часто используемых SITs в качестве валидаторов. Вот их список. 
+
+### <a name="list-of-validators-currently-available"></a>Список доступных в настоящее время валидаторов
+
+- Func_credit_card
+- Func_ssn
+- Func_unformatted_ssn
+- Func_randomized_formatted_ssn
+- Func_randomized_unformatted_ssn
+- Func_aba_routing
+- Func_south_africa_identification_number
+- Func_brazil_cpf
+- Func_iban
+- Func_brazil_cnpj
+- Func_swedish_national_identifier
+- Func_india_aadhaar
+- Func_uk_nhs_number
+- Func_Turkish_National_Id
+- Func_australian_tax_file_number
+- Func_usa_uk_passport
+- Func_canadian_sin
+- Func_formatted_itin
+- Func_unformatted_itin
+- Func_dea_number_v2
+- Func_dea_number
+- Func_japanese_my_number_personal
+- Func_japanese_my_number_corporate
+
+Это позволяет определить собственный regex и проверить их. Чтобы использовать валидаторы, определите собственный regex и при определении regex используйте свойство валидатора, чтобы добавить обработчик функций по вашему выбору. После определения можно использовать этот regex в sit. 
+
+В приведенном ниже примере для кредитной Regex_credit_card_AdditionalDelimiters определяется регулярное выражение , которое затем проверяется с помощью функции checksum для кредитной карты с помощью Func_credit_card в качестве валидатора.
+
+```xml
+<Regex id="Regex_credit_card_AdditionalDelimiters" validators="Func_credit_card"> (?:^|[\s,;\:\(\)\[\]"'])([0-9]{4}[ -_][0-9]{4}[ -_][0-9]{4}[ -_][0-9]{4})(?:$|[\s,;\:\(\)\[\]"'])</Regex>
+<Entity id="675634eb7-edc8-4019-85dd-5a5c1f2bb085" patternsProximity="300" recommendedConfidence="85">
+<Pattern confidenceLevel="85">
+<IdMatch idRef="Regex_credit_card_AdditionalDelimiters" />
+<Any minMatches="1">
+<Match idRef="Keyword_cc_verification" />
+<Match idRef="Keyword_cc_name" />
+<Match idRef="Func_expiration_date" />
+</Any>
+</Pattern>
+</Entity>
+```
+
+Microsoft 365 предоставляет два общих валидатора
+
+### <a name="checksum-validator"></a>Валидатор проверки
+
+В этом примере для проверки regex для EmployeeID определяется валидатор проверки для удостоверения сотрудника.
+
+```xml
+<Validators id="EmployeeIDChecksumValidator">
+<Validator type="Checksum">
+<Param name="Weights">2, 2, 2, 2, 2, 1</Param>
+<Param name="Mod">28</Param>
+<Param name="CheckDigit">2</Param> <!-- Check 2nd digit -->
+<Param name="AllowAlphabets">1</Param> <!— 0 if no Alphabets -->
+</Validator>
+</Validators>
+<Regex id="Regex_EmployeeID" validators="ChecksumValidator">(\d{5}[A-Z])</Regex>
+<Entity id="675634eb7-edc8-4019-85dd-5a5c1f2bb085" patternsProximity="300" recommendedConfidence="85">
+<Pattern confidenceLevel="85">
+<IdMatch idRef="Regex_EmployeeID"/>
+</Pattern>
+</Entity>
+```
+
+### <a name="date-validator"></a>Валикатор даты
+
+В этом примере для части regex, которая является датой, определяется валидатор дат.
+
+```xml
+<Validators id="date_validator_1"> <Validator type="DateSimple"> <Param name="Pattern">DDMMYYYY</Param> <!—supported patterns DDMMYYYY, MMDDYYYY, YYYYDDMM, YYYYMMDD, DDMMYYYY, DDMMYY, MMDDYY, YYDDMM, YYMMDD --> </Validator> </Validators>
+<Regex id="date_regex_1" validators="date_validator_1">\d{8}</Regex>
+```
   
 ## <a name="changes-for-exchange-online"></a>Изменения для Exchange Online
 
@@ -356,8 +436,6 @@ ms.locfileid: "53287615"
 Обратите внимание, что для отправки пакета правил в центре соответствия требованиям можно использовать командлет **[New-DlpSensitiveInformationTypeRulePackage](/powershell/module/exchange/new-dlpsensitiveinformationtyperulepackage)**. (Ранее в центре администрирования Exchange использовался командлет **ClassificationRuleCollection**`.) 
   
 ## <a name="upload-your-rule-package"></a>Отправка пакета правил
-
-
 
 Чтобы отправить пакет правил, выполните указанные ниже действия.
   
@@ -460,121 +538,6 @@ Microsoft 365 использует поисковую программу-обх�
   
 В Microsoft 365 вам не удастся вручную запросить повторный обход всего клиента, но вы можете сделать это для набора сайтов, списка или библиотеки. См. статью [Ручной запрос обхода контента и переиндексации сайта, библиотеки или списка](/sharepoint/crawl-site-content).
   
-## <a name="remove-a-custom-sensitive-information-type"></a>Удаление пользовательского типа конфиденциальных данных
-
-> [!NOTE]
-> Перед удалением пользовательского типа конфиденциальной информации убедитесь, что политики защиты от потери данных и правила потока обработки почты Exchange (также называемые правилами транспорта) не ссылаются на этот тип.
-
-В PowerShell центра соответствия требованиям пользовательские типы конфиденциальных данных можно удалить двумя способами.
-
-- **Удаление отдельных пользовательских типов конфиденциальных данных.** Используйте способ, описанный в разделе [Изменение пользовательского типа конфиденциальных данных](#modify-a-custom-sensitive-information-type). При этом экспортируется пакет настраиваемых правил, содержащий пользовательский тип конфиденциальных данных, удаляется тип конфиденциальных данных из XML-файла и импортируется обновленный XML-файл обратно в существующий пакет настраиваемых правил.
-
-- **Удаление пакета настраиваемых правил и всех пользовательских типов конфиденциальных данных, содержащихся в нем**. Этот метод описан в текущем разделе.
-
-1. [Подключение к центру соответствия требованиям PowerShell](/powershell/exchange/exchange-online-powershell)
-
-2. Чтобы удалить пакет настраиваемых правил, используйте командлет [Remove-DlpSensitiveInformationTypeRulePackage](/powershell/module/exchange/remove-dlpsensitiveinformationtyperulepackage):
-
-   ```powershell
-   Remove-DlpSensitiveInformationTypeRulePackage -Identity "RulePackageIdentity"
-   ```
-
-   Для определения пакета правил можно использовать значение Name (для любого языка) или значение `RulePack id` (GUID).
-
-   В этом примере удаляется пакет правил под названием "Employee ID Custom Rule Pack".
-
-   ```powershell
-   Remove-DlpSensitiveInformationTypeRulePackage -Identity "Employee ID Custom Rule Pack"
-   ```
-
-   Дополнительные сведения о синтаксисе и параметрах см. в статье [Remove-DlpSensitiveInformationTypeRulePackage](/powershell/module/exchange/remove-dlpsensitiveinformationtyperulepackage).
-
-3. Чтобы убедиться в успешном удалении пользовательского типа конфиденциальных данных, выполните одно из указанных ниже действий.
-
-   - Выполните командлет [Get-DlpSensitiveInformationTypeRulePackage](/powershell/module/exchange/get-dlpsensitiveinformationtyperulepackage) и убедитесь в отсутствии пакета правил:
-
-     ```powershell
-     Get-DlpSensitiveInformationTypeRulePackage
-     ```
-
-   - Выполните командлет [Get-DlpSensitiveInformationType](/powershell/module/exchange/get-dlpsensitiveinformationtype), чтобы убедиться в отсутствии типов конфиденциальных данных в удаленном пакете правил:
-
-     ```powershell
-     Get-DlpSensitiveInformationType
-     ```
-
-     Для пользовательских типов конфиденциальных данных значение свойства Publisher будет отличаться от "Корпорация Майкрософт".
-
-   - Замените \<Name\> значением Name типа конфиденциальных данных (например, Employee ID) и запустите командлет [Get-DlpSensitiveInformationType](/powershell/module/exchange/get-dlpsensitiveinformationtype), чтобы убедиться в отсутствии типа конфиденциальных данных:
-
-     ```powershell
-     Get-DlpSensitiveInformationType -Identity "<Name>"
-     ```
-
-## <a name="modify-a-custom-sensitive-information-type"></a>Изменение пользовательского типа конфиденциальных данных
-
-Чтобы изменить пользовательский тип конфиденциальных данных в PowerShell центра соответствия требованиям, необходимо выполнить следующие действия.
-
-1. Экспортируйте существующий пакет правил, содержащий пользовательский тип конфиденциальных данных в XML-файл (или используйте существующий XML-файл при наличии).
-
-2. Измените пользовательский тип конфиденциальных данных в экспортированном XML-файле.
-
-3. Импортируйте обновленный XML-файл обратно в существующий пакет правил.
-
-Чтобы подключиться к центру соответствия требованиям PowerShell, см. статью [Подключение к центру соответствия требованиям PowerShell](/powershell/exchange/exchange-online-powershell).
-
-### <a name="step-1-export-the-existing-rule-package-to-an-xml-file"></a>Этап 1. Экспорт существующего пакета правил в XML-файл
-
-> [!NOTE]
-> Если у вас есть копия XML-файла (например, вы только что создали и импортировали его), вы можете перейти к следующему этапу по изменению XML-файла.
-
-1. Если вы еще не знаете имени пакета настраиваемых правил, выполните командлет [Get-DlpSensitiveInformationTypeRulePackage](/powershell/module/exchange/get-dlpsensitiveinformationtype), чтобы найти его:
-
-   ```powershell
-   Get-DlpSensitiveInformationTypeRulePackage
-   ```
-
-   > [!NOTE]
-   > Встроенный пакет правил, содержащий встроенные типы конфиденциальной информации, называется пакетом правил Майкрософт. Пакет правил, содержащий настраиваемые типы конфиденциальной информации, созданные в пользовательском интерфейсе центра соответствия требованиям, называется Microsoft.SCCManaged.CustomRulePack.
-
-2. Чтобы сохранить пакет настраиваемых правил в переменной, используйте командлет [Get-DlpSensitiveInformationTypeRulePackage](/powershell/module/exchange/get-dlpsensitiveinformationtyperulepackage):
-
-   ```powershell
-   $rulepak = Get-DlpSensitiveInformationTypeRulePackage -Identity "RulePackageName"
-   ```
-
-   Например, если пакет правил называется "Employee ID Custom Rule Pack", выполните следующий командлет:
-
-   ```powershell
-   $rulepak = Get-DlpSensitiveInformationTypeRulePackage -Identity "Employee ID Custom Rule Pack"
-   ```
-
-3. Чтобы экспортировать пакет настраиваемых правил в XML-файл, используйте командлет [Set-Content](/powershell/module/microsoft.powershell.management/set-content).
-
-   ```powershell
-   Set-Content -Path "XMLFileAndPath" -Encoding Byte -Value $rulepak.SerializedClassificationRuleCollection
-   ```
-
-   В этом примере пакет правил экспортируется в файл с именем ExportedRulePackage.xml в папку C:\My Documents.
-
-   ```powershell
-   Set-Content -Path "C:\My Documents\ExportedRulePackage.xml" -Encoding Byte -Value $rulepak.SerializedClassificationRuleCollection
-   ```
-
-#### <a name="step-2-modify-the-sensitive-information-type-in-the-exported-xml-file"></a>Этап 2. Изменение типа конфиденциальных данных в экспортированном XML-файле
-
-Типы конфиденциальных данных в XML-файле и другие элементы в файле описаны выше в этой статье.
-
-#### <a name="step-3-import-the-updated-xml-file-back-into-the-existing-rule-package"></a>Этап 3. Импорт обновленного XML-файла обратно в существующий пакет правил
-
-Чтобы импортировать обновленный XML-файл обратно в существующий пакет правил, используйте командлет [Set-DlpSensitiveInformationTypeRulePackage](/powershell/module/exchange/set-dlpsensitiveinformationtyperulepackage):
-
-```powershell
-Set-DlpSensitiveInformationTypeRulePackage -FileData ([Byte[]]$(Get-Content -Path "C:\My Documents\External Sensitive Info Type Rule Collection.xml" -Encoding Byte -ReadCount 0))
-```
-
-Дополнительные сведения о синтаксисе и параметрах см. в статье [Set-DlpSensitiveInformationTypeRulePackage](/powershell/module/exchange/set-dlpsensitiveinformationtyperulepackage).
-
 ## <a name="reference-rule-package-xml-schema-definition"></a>Справка: определение схемы XML пакета правил
 
 Вы можете скопировать эту разметку, сохранить ее в виде XSD-файла и использовать для проверки XML-файла пакета правил.

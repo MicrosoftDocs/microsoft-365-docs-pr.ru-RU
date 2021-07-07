@@ -20,14 +20,14 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Узнайте, как использовать политики dlp для облачных приложений, не в microsoft.
-ms.openlocfilehash: fbba87fc5bb3bbca7e67ba374e202098a22f4a5c
-ms.sourcegitcommit: 17d82e5617f0466eb825e15ab88594afcdaf4437
+ms.openlocfilehash: 4bda45a6da6b9626391da37eb9a806b3308c5e7f
+ms.sourcegitcommit: b0f464b6300e2977ed51395473a6b2e02b18fc9e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "53300128"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53322321"
 ---
-# <a name="use-data-loss-prevention-policies-for-non-microsoft-cloud-apps-preview"></a>Используйте политики предотвращения потери данных для облачных приложений, не в microsoft (предварительный просмотр)
+# <a name="use-data-loss-prevention-policies-for-non-microsoft-cloud-apps"></a>Используйте политики предотвращения потери данных для облачных приложений, не в microsoft
 
 Политики предотвращения потери данных (DLP) для не microsoft cloud apps являются частью пакета функций Microsoft 365 DLP; С помощью этих функций можно обнаружить и защитить конфиденциальные элементы в Microsoft 365 службах. Дополнительные сведения обо всех предложениях Microsoft DLP см. в дополнительных сведениях [о предотвращении потери данных.](dlp-learn-about-dlp.md)
 
@@ -43,7 +43,7 @@ ms.locfileid: "53300128"
 - Соответствие требованиям Microsoft 365 E5
 - Безопасность Microsoft 365 E5
 
-### <a name="permissions"></a>Разрешения.
+### <a name="permissions"></a>Разрешения
 Пользователь, создавший политику DLP, должен быть:
 - Глобальный администратор
 - Администратор соответствия требованиям

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Администраторы могут включить поддержку меток конфиденциальности для файлов Word, Excel и PowerPoint в SharePoint и OneDrive.
-ms.openlocfilehash: 08ea7c88fffebd4466d81ca18f273281ff74c06a
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 67aa69ef8505290b6fde47c4e523a09870312b97
+ms.sourcegitcommit: b0f464b6300e2977ed51395473a6b2e02b18fc9e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53286553"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53322237"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive"></a>Включение меток конфиденциальности для файлов Office в SharePoint и OneDrive
 
@@ -65,7 +65,7 @@ ms.locfileid: "53286553"
 
 Если в настоящее время вы защищаете документы в SharePoint с помощью SharePoint управления правами на информацию (IRM), обязательно ознакомьтесь с разделом управления правами на SharePoint информации [(IRM)](#sharepoint-information-rights-management-irm-and-sensitivity-labels) и меток конфиденциальности на этой странице.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements
 
 Эти новые возможности работают только с [метами конфиденциальности.](sensitivity-labels.md) Если в настоящее время у вас есть метки Azure Information Protection, сначала перенаселите их на метки конфиденциальности, чтобы включить эти функции для новых файлов, которые вы загружаете. Дополнительные сведения об этом процессе см. в статье [Перенос меток Azure Information Protection на платформу унифицированных меток конфиденциальности](/azure/information-protection/configure-policy-migrate-labels).
 
@@ -241,7 +241,7 @@ InformationProtectionLabelId:8faca7b8-8d20-48a3-8ea2-0f96310a848e
 
 ## <a name="remove-encryption-for-a-labeled-document"></a>Удаление шифрования для помеченного документа
 
-Могут быть редкие случаи, когда администратору SharePoint удалить шифрование из документа, хранимом в SharePoint. Любой пользователь, [](/azure/information-protection/configure-usage-rights#usage-rights-and-descriptions) которому назначено право управления правами на экспорт или полный контроль для этого документа, может удалить шифрование, примененное службой управления правами Azure из Azure Information Protection. Например, пользователи с одним из этих прав на использование могут заменить метку, применяемую шифрование, меткой без шифрования. Кроме того, [супер-пользователь может](/azure/information-protection/configure-super-users) скачать файл и сохранить локализованную копию без шифрования.
+Могут быть редкие случаи, когда администратору SharePoint удалить шифрование из документа, хранимом в SharePoint. Любой пользователь, [](/azure/information-protection/configure-usage-rights#usage-rights-and-descriptions) которому назначено право управления правами на экспорт или полный контроль для этого документа, может удалить шифрование, примененное службой управления правами Azure из Azure Information Protection. Например, пользователи с одним из этих прав на использование могут заменить метку, применяемую шифрование, меткой без шифрования. [Супер-пользователь](/azure/information-protection/configure-super-users) также может скачать файл и сохранить локализованную копию без шифрования.
 
 В качестве альтернативы глобальный администратор или администратор SharePoint может запустить команды [Unlock-SPOSensitivityLabelEncryptedFile,](/powershell/module/sharepoint-online/unlock-sposensitivitylabelencryptedFile) которые удаляют метку конфиденциальности и шифрование. [](/sharepoint/sharepoint-admin-role) Этот комдлет выполняется, даже если у администратора нет разрешений на доступ к сайту или файлу, или если служба управления правами Azure недоступна.
 

@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 04/24/2018
 ms.technology: mde
-ms.openlocfilehash: b4418cca035710c6b938dad31a2b55423d2ab458
-ms.sourcegitcommit: 8b0718f5607ab509092cb80bda854010d885c54f
+ms.openlocfilehash: 454e60b26f84aca26a0f8f317105ec5457b55ca2
+ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 07/07/2021
-ms.locfileid: "53314408"
+ms.locfileid: "53326967"
 ---
 # <a name="onboard-windows-10-devices-using-group-policy"></a>Onboard Windows 10 с помощью групповой политики 
 
@@ -101,7 +101,7 @@ ms.locfileid: "53314408"
 
 4. Щелкните **Политики,** а затем **административные шаблоны**.
 
-5. Щелкните **Windows компоненты** и **Защитник Windows SmartScreen**.
+5. Щелкните **Windows компоненты** и **Защитник Windows ATP**.
 
 6. Выберите, чтобы включить или отключить общий доступ к примеру с устройств.
 

@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 9a7ad1241ce73bb9b68e173faa9433c7326e14e5
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: d423c5051634334f9dbb19b236446cdb579aef69
+ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53286937"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53327039"
 ---
 # <a name="configure-alert-notifications-in-microsoft-defender-for-endpoint"></a>Настройка оповещений в Microsoft Defender для конечной точки
 
@@ -66,7 +66,7 @@ ms.locfileid: "53286937"
     - **Устройства** — выберите, следует ли уведомлять получателей о оповещениях на всех устройствах (только роли глобального администратора) или на отдельных группах устройств. Дополнительные сведения см. в [дополнительных сведениях о создании и управлении группами устройств.](machine-groups.md)
     - **Степень серьезности** оповещений . Выберите уровень серьезности оповещения.
 
-4. Нажмите кнопку **Далее**.
+4. Нажмите **Далее**.
 
 5. Введите адрес электронной почты получателя и нажмите **кнопку Добавить получателя**. Вы можете добавить несколько адресов электронной почты.
 
@@ -104,3 +104,4 @@ ms.locfileid: "53286937"
 
 - [Обновление параметров хранения данных](data-retention-settings.md)
 - [Настройка дополнительных функций](advanced-features.md)
+- [Настройка уведомлений электронной почты об уязвимости в Microsoft Defender для конечной точки](/microsoft-365/security/defender-endpoint/configure-vulnerability-email-notifications)

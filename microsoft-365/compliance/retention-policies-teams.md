@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Узнайте о политиках хранения, применимых к Microsoft Teams.
-ms.openlocfilehash: b459665d9b92705bd575a7a79a4d4d6adc2a3f68
-ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
+ms.openlocfilehash: 5d888232d94ccd6634fc6102c26958e20d88fb4d
+ms.sourcegitcommit: b0f464b6300e2977ed51395473a6b2e02b18fc9e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53256319"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53322405"
 ---
 # <a name="learn-about-retention-for-microsoft-teams"></a>Сведения о хранении в Microsoft Teams
 
@@ -196,12 +196,6 @@ ms.locfileid: "53256319"
 Если пользователь, у которого есть почтовый ящик в Exchange Online, покидает организацию, а его учетная запись Microsoft 365 удаляется, его сообщения чата, подлежащие хранению, находятся в неактивном почтовом ящике. Сообщения чата не удаляются, но при этом подчиняются любой политике хранения, которая была установлена для почтового ящика до того, как он стал неактивным, и содержимое доступно для поиска eDiscovery. Дополнительные сведения см. в разделе [Неактивные почтовые ящики в Exchange Online](inactive-mailboxes-in-office-365.md). 
 
 Если пользователь хранил файлы в Teams, см. [аналогичный раздел](retention-policies-sharepoint.md#when-a-user-leaves-the-organization) в SharePoint и OneDrive.
-
-## <a name="limitations"></a>Ограничения
-
-Мы постоянно работаем над оптимизацией функциональности удержания в Teams. Кроме того, учитывайте следующие ограничения при использовании политик хранения для сообщений каналов и чатов Teams:
-
-- **Неверная проблема с изображением в Outlook**. Если вы создаете политики хранения для местоположений Skype или Teams, одна из этих политик отображается в качестве политики папок по умолчанию, когда пользователь просматривает свойства папки почтового ящика в клиенте Outlook на рабочем столе. Это проблема неверного отображения в Outlook, являющаяся [известной проблемой](https://support.microsoft.com/help/4491013/outlook-client-displays-teams-or-skype-for-business-retention-policies). Вместо этого вы увидите политику хранения почтового ящика, которая применяется к папке. Политика хранения Skype или Teams не применяется к почтовому ящику пользователя.
 
 ## <a name="configuration-guidance"></a>Рекомендации по настройке
 

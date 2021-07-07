@@ -1,0 +1,62 @@
+### YamlMime:Landing
+title: Тестовая база для Microsoft 365 документации
+summary: Тестовая база Microsoft 365 является службой Azure, которая облегчает тестирование приложений на основе данных. Благодаря силе данных и облаку это позволяет ИТ-специалистам использовать интеллектуальные возможности тестирования из любой точки мира. Это поможет вам протестировать приложения без проблем, времени и затрат на настройку и обслуживание сложных тестовых сред. Самое главное, это даст вам доступ к предварительному выпуску Windows обновлений на защищенных виртуальных машинах (виртуальных машинах) и разведке мирового класса для ваших приложений.
+metadata:
+  title: Тестовая база для документации M365
+  description: Тестовая база Microsoft 365 является службой Azure, которая облегчает тестирование приложений на основе данных. Благодаря силе данных и облаку это позволяет ИТ-специалистам использовать интеллектуальные возможности тестирования из любой точки мира.
+  ms.service: service
+  ms.subservice: subservice
+  ms.topic: landing-page
+  ms.collection: collection
+  author: v-zhifufeng
+  ms.author: v-zhifufeng
+  ms.date: 03/29/2021
+  ms.openlocfilehash: 3833e05eea8f8598d228e261734fedb1b0cf2647
+  ms.sourcegitcommit: b0f464b6300e2977ed51395473a6b2e02b18fc9e
+  ms.translationtype: MT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 07/07/2021
+  ms.locfileid: "53323040"
+landingContent:
+- title: О тестовой базе
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Что такое тестовая база?
+      url: overview.md
+  - linkListType: get-started
+    links:
+    - text: Создание учетной записи тестовой базы
+      url: createAccount.md
+  - linkListType: tutorial
+    links:
+    - text: дополнительные ресурсы
+      url: faq.md
+- title: Начало работы
+  linkLists:
+  - linkListType: quickstart
+    links:
+    - text: Создание учетной записи тестовой базы
+      url: createAccount.md
+    - text: Upload приложение
+      url: uploadApplication.md
+    - text: Upload ваших бинарей
+      url: binaries.md
+    - text: Настройка тестовых задач
+      url: testtask.md
+    - text: Выберите параметры Test
+      url: testoptions.md
+    - text: Просмотр выборов
+      url: review.md
+    - text: Рекомендации по тестовой упаковке
+      url: contentguideline.md
+    - text: Анализ регрессии памяти
+      url: memory.md
+    - text: Анализ регрессии ЦП
+      url: cpu.md
+- title: Получить ссылки
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: Вопросы и ответы
+      url: faq.md

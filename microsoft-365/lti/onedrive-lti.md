@@ -13,12 +13,12 @@ ms.collection: M365-modern-desktop
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 description: Создание и оценка назначений, создание и куратор контента курсов и совместное взаимодействие с файлами в режиме реального времени с новым приложением Microsoft OneDrive Обучение средства взаимодействия.
-ms.openlocfilehash: 985a316bac689b9bc6c53ab65782d548fcad0db8
-ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
+ms.openlocfilehash: bcb374ed1666f23fa5f3d4692f43a4369670e891
+ms.sourcegitcommit: b0f464b6300e2977ed51395473a6b2e02b18fc9e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53257072"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53322225"
 ---
 # <a name="integrate-microsoft-onedrive-lti-with-canvas"></a>Интеграция Microsoft OneDrive LTI с Canvas
 
@@ -40,7 +40,11 @@ ms.locfileid: "53257072"
 
 1. Вход на <a href="https://onedrivelti.microsoft.com/admin" target="_blank">портал регистрации Microsoft OneDrive LTI</a>
 1. Выберите **кнопку Согласие администратора** и примите разрешения.
-1. Выберите **кнопку Создание нового клиента LTI.** На странице Регистрация LTI выберите **Canvas** в отсеве и введите базовый URL-адрес экземпляра Canvas.
+
+> [!CAUTION]
+> Если этот шаг не выполнен, следующий шаг даст вам ошибку, и вы не сможете сделать этот шаг в течение часа после того, как вы получили ошибку.
+
+3. Выберите **кнопку Создание нового клиента LTI.** На странице Регистрация LTI выберите **Canvas** в отсеве и введите базовый URL-адрес экземпляра Canvas.
 
 > [!NOTE]
 > Если экземпляр Canvas , https://contoso.test.instructure.com например, ]( (, то полный https://contoso.test.instructure.com) URL-адрес должен быть введен.

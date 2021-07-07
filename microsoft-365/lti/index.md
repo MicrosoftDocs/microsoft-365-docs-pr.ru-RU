@@ -13,12 +13,12 @@ ms.collection:
 - M365-modern-desktop
 localization_priority: None
 description: Узнайте о приложениях Обучение Tools Interoperability (LTI) Office m365, а также о том, как они помогут преподавателям при интеграции Office приложений в свою систему управления Обучение (LMS).
-ms.openlocfilehash: 4fd7b25b6463eec4f681e3090bb65db8b00351a8
-ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
+ms.openlocfilehash: 34956eac57a7e3af44ca1c8cf8ae2714327e3e96
+ms.sourcegitcommit: b0f464b6300e2977ed51395473a6b2e02b18fc9e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53256686"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53322345"
 ---
 # <a name="integrating-microsoft-products-with-your-learning-management-system-lms"></a>Интеграция продуктов Майкрософт с Обучение системой управления (LMS)
 
@@ -78,3 +78,5 @@ Microsoft Teams для собраний приложение LTI помогае�
 Приложение Microsoft Teams классов LTI помогает преподавателям и учащимся перемещаться между их LMS и Teams. Пользователи могут получать доступ к группам классов, связанным с их курсом непосредственно из LMS. Ниже приведены действия по настройке:
 
 - **Teams классов LTI** с canvas [Use Microsoft Teams с Canvas](teams-classes-with-canvas.md).
+
+- **Teams классов LTI** с blackboard [Use Microsoft Teams с blackboard Learn Ultra](teams-classes-with-blackboard.md)
