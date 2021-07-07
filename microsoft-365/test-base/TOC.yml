@@ -1,0 +1,38 @@
+- name: Документация по тестовой базе
+  href: index.yml
+- name: Обзор
+  items:
+    - name: Что такое тестовая база?
+      href: overview.md
+- name: Примеры использования
+  items:
+    - name: Создание учетной записи тестовой базы
+      href: createAccount.md
+    - name: Загрузка пакета
+      href: uploadApplication.md
+    - name: Upload Binaries & зависимостей
+      href: binaries.md
+    - name: Настройка тестовых задач
+      href: testtask.md
+    - name: Настройка тестовых параметров
+      href: testoptions.md
+    - name: Проверка
+      href: review.md
+    - name: Руководство по пакету
+      href: contentguideline.md
+- name: Практические руководства
+  items:
+    - name: Тестирование приложений на сервере
+      href: server.md
+    - name: Функциональное тестирование
+      href: functional.md
+    - name: Проверка обновления функций
+      href: feature.md
+    - name: Анализ регрессии памяти
+      href: memory.md
+    - name: Анализ регрессии ЦП
+      href: cpu.md
+- name: Справка
+  items:
+    - name: Вопросы и ответы
+      href: faq.md
