@@ -19,18 +19,21 @@ ms.collection:
 search.appverid:
 - MET150
 description: 'Защита от потери данных в конечной точке Microsoft 365 расширяет отслеживание действий с файлами и защитных действий с этими файлами до конечных точек. В решениях для обеспечения соответствия требованиям Microsoft 365 файлы являются видимыми '
-ms.openlocfilehash: 39474f54440ba33c8d7140981c1495a5c46bf0fc
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: c97368dd48515dc787dbac66aa93844889efbdbc
+ms.sourcegitcommit: 8b0718f5607ab509092cb80bda854010d885c54f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53226687"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53314420"
 ---
 # <a name="learn-about-microsoft-365-endpoint-data-loss-prevention"></a>Сведения о защите от потери данных в конечной точке Microsoft 365
 
 Защиту от потери данных (DLP) в Microsoft 365 можно использовать для отслеживания действий, принятых в отношении элементов, которые были определены как конфиденциальные, и для защиты от непреднамеренного обмена этими элементами. Подробная информация приведена в статье [Сведения о защите от потери данных](dlp-learn-about-dlp.md).
 
 **Защита от потери данных в конечной точке (DLP в конечной точке)** расширяет возможности отслеживания действий и защиты от потери данных для конфиденциальных элементов на устройствах с Windows 10. После того как устройства будут подключены к решениям по обеспечению соответствия требованиям Microsoft 365, сведения о действиях пользователей с конфиденциальными элементами становятся видимыми в [обозревателе действий](data-classification-activity-explorer.md) и вы можете принудительно применять защитные действия к ним с помощью [политик защиты от потери данных](create-test-tune-dlp-policy.md).
+
+> [!TIP]
+> Если вы ищете управление устройствами для съемного хранилища, см. [Управление доступом к управлению устройствами съемного хранилища в Microsoft Defender для конечной точки](../security/defender-endpoint/device-control-removable-storage-access-control.md#microsoft-defender-for-endpoint-device-control-removable-storage-access-control).
 
 ## <a name="endpoint-activities-you-can-monitor-and-take-action-on"></a>Действия в конечных точках, которые вы можете отслеживать и реагировать на них
 
@@ -86,7 +89,7 @@ ms.locfileid: "53226687"
 
 - локальный сценарий (до 10 компьютеров)
 - Групповая политика
-- System Center Configuration Manager (версия 1610 или более поздняя)
+- System Center Configuration Manager (версия 1610 или более поздняя)
 - Управление мобильными устройствами/Microsoft Intune
 - Сценарии подключения в инфраструктуре виртуальных рабочих столов (VDI) для временных компьютеров
 
