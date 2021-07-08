@@ -54,8 +54,8 @@
           href: insider-risk-management-settings.md
         - name: Создание политик в отношении внутренних рисков и управление ими
           href: insider-risk-management-policies.md
-        - name: Расследование оповещений о внутренних рисках
-          href: insider-risk-management-alerts.md
+        - name: Исследование действий внутренних рисков
+          href: insider-risk-management-activities.md
         - name: Принятие мер в случае внутренних рисков
           href: insider-risk-management-cases.md
         - name: Просмотр действий с помощью журнала аудита внутренних рисков
@@ -118,6 +118,12 @@
           href: create-a-custom-sensitive-information-type.md
         - name: Создание пользовательского типа конфиденциальной информации — PowerShell
           href: create-a-custom-sensitive-information-type-in-scc-powershell.md
+        - name: Удаление пользовательского типа конфиденциальной информации — PowerShell
+          href: sit-remove-a-custom-sensitive-information-type-in-powershell.md
+        - name: Изменение пользовательского типа конфиденциальной информации — PowerShell
+          href: sit-modify-a-custom-sensitive-information-type-in-powershell.md
+        - name: Справочник по фильтрам пользовательских типов конфиденциальной информации
+          href: sit-custom-sit-filters.md
         - name: Создание словаря ключевых слов
           href: create-a-keyword-dictionary.md
         - name: Изменение словаря ключевых слов
@@ -915,7 +921,7 @@
         - name: Средство анализа конфигурации соответствия требованиям
           href: compliance-manager-mcca.md
         - name: Вопросы и ответы
-          href: compliance-manager-faq.md
+          href: compliance-manager-faq.yml
         - name: Диспетчер соответствия требованиям (классический)
           href: meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md
     - name: Microsoft Service Trust Portal
