@@ -13,12 +13,12 @@ ms.collection:
 - m365initiative-viva-topics
 localization_priority: None
 description: Узнайте, как найти ресурсы по Microsoft Viva Темам.
-ms.openlocfilehash: 4596f703f86465e4d2d37e2744493bcaef440b7b
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: 7d8a95e924c269660e50355078f4fc9eee9bd333
+ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52538919"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53326847"
 ---
 # <a name="introduction-to-microsoft-viva-topics"></a>Общие сведения о Microsoft Viva Темах
 
@@ -39,11 +39,11 @@ Viva Topics — это Microsoft 365, которая помогает орган
 
 | Если вы хотите узнать больше: | Источник |
 |:-----|:-----|
-|Подробнее о Viva Темах|[Обзор Microsoft Viva Тем](topic-experiences-overview.md)|
+|Подробнее о Viva Темах|[Обзор тем Viva](topic-experiences-overview.md)|
 |Узнайте, как ИИ обнаруживает и предлагает темы|[Обнаружение Microsoft Viva Тем](topic-experiences-discovery.md)|
-|Сведения о безопасности тем|[Безопасность и конфиденциальность Microsoft Viva](topic-experiences-security-privacy.md)|
-|Узнайте, как получить Viva Темы|[Страница продукта "Microsoft Viva Темы"](https://www.microsoft.com/microsoft-viva/topics?activetab=pivot%3aoverviewtab)|
-|Ознакомьтесь со статьями в центре ресурсов сообщества Microsoft Tech|[Техническое сообщество Microsoft Viva Тем](https://resources.techcommunity.microsoft.com/viva-topics/)|
+|Сведения о безопасности тем|[Безопасность и конфиденциальность Viva Topics](topic-experiences-security-privacy.md)|
+|Узнайте, как получить Viva Темы|[Страница продукта Viva Topics](https://www.microsoft.com/microsoft-viva/topics?activetab=pivot%3aoverviewtab)|
+|Ознакомьтесь со статьями в центре ресурсов сообщества Microsoft Tech|[Технология Viva Topics Community](https://resources.techcommunity.microsoft.com/viva-topics/)|
 
 
 
@@ -53,7 +53,8 @@ Viva Topics — это Microsoft 365, которая помогает орган
 
 | Если вы хотите узнать больше: | Источник |
 |:-----|:-----|
-|Узнайте, как приступить к планированию использования Microsoft Viva. |[Начало работы](topics-adoption-getstarted.md)<br><br>|  
+|Узнайте, как начать планирование использования Viva Topics |[Начало работы](topics-adoption-getstarted.md)|  
+|Настройка и запуск пробной пилотной программы для Viva Topics |[Запуск пробной пробной](trial-topics.md)|
 
 ## <a name="set-up-and-administration"></a>Настройка и администрирование
 
@@ -61,7 +62,7 @@ Viva Topics — это Microsoft 365, которая помогает орган
 
 | Если вы хотите узнать больше: | Источник |
 |:-----|:-----|
-|Узнайте, как настроить Microsoft Viva|[Настройка Microsoft Viva](set-up-topic-experiences.md)|
+|Узнайте, как настроить и настроить Viva Topics|[Настройка тем Viva](set-up-topic-experiences.md)|
 |Узнайте, как настроить пользовательские разрешения|[Управление разрешениями тем](topic-experiences-user-permissions.md)|
 |Узнайте, как выбирать тех, кто может просматривать темы|[Управление видимостью тем](topic-experiences-knowledge-rules.md)|
 |Узнайте, как управлять настройками обнаружения тем|[Управление обнаружением тем](topic-experiences-discovery.md)|

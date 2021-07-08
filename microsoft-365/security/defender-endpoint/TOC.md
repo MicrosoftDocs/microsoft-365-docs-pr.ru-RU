@@ -246,7 +246,8 @@
 #### [Использование режима аудита для сокращения направлений атак](audit-windows-defender.md)
 
 ### Защита нового поколения
-#### [Обзор антивирусной программы в Microsoft Defender](microsoft-defender-antivirus-in-windows-10.md)
+#### [Обзор защиты нового поколения](next-generation-protection.md)
+##### [Обзор антивирусной программы в Microsoft Defender](microsoft-defender-antivirus-windows.md)
 ##### [Антивирусная программа в Microsoft Defender в Windows Server](microsoft-defender-antivirus-on-windows-server.md)
 ##### [Вместе лучше: антивирусная программа в Microsoft Defender и Microsoft Defender для конечной точки](why-use-microsoft-defender-antivirus.md)
 ##### [Вместе лучше: антивирусная программа в Microsoft Defender и Office 365](office-365-microsoft-defender-antivirus.md)

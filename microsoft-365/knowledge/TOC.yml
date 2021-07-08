@@ -48,3 +48,5 @@
   items:
     - name: Начало работы по внедрению
       href: topics-adoption-getstarted.md
+    - name: Запуск пробной версии
+      href: trial-topics.md

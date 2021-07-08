@@ -15,12 +15,12 @@ ms.collection:
 - m365-security-compliance
 - m365solution-insiderrisk
 - m365initiative-compliance
-ms.openlocfilehash: 8bcd9577308e31eb4bd48a5b1e0ad5748ef738e9
-ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
+ms.openlocfilehash: f9cd78cb41a7cbe5011163d1f5734ff0b3c2261e
+ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53256331"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53326799"
 ---
 # <a name="get-started-with-insider-risk-management"></a>Начало работы с управлением внутренними рисками
 
@@ -251,4 +251,4 @@ ms.locfileid: "53256331"
 
 После завершения этих действий по созданию первой политики управления рисками изнутри вы начнете получать оповещения из индикаторов активности примерно через 24 часа. Настройка дополнительных политик по мере необходимости с помощью руководства в шаге 4 этой статьи или действий в Создании новой политики риска для [инсайдеров.](insider-risk-management-policies.md#create-a-new-policy)
 
-Дополнительные данные о расследовании оповещений об инсайдерской опасности и панели мониторинга оповещений **см.** в рубрике Оповещение об управлении [рисками.](insider-risk-management-alerts.md)
+Дополнительные данные о расследовании оповещений о рисках, связанных с инсайдерской деятельностью, и панели мониторинга оповещений **см.** в странице [Insider risk management activities.](insider-risk-management-activities.md#alert-dashboard)

@@ -46,6 +46,8 @@
       href: adoption-getstarted.md
     - name: Сценарии и варианты использования
       href: adoption-scenarios.md
+    - name: Запуск пробной версии
+      href: trial-syntex.md
     - name: Управление контрактами в Microsoft 365
       items:
         - name: Обзор
