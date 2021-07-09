@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: In-Place eDiscovery и In-Place Hold (и соответствующие cmdlets PowerShell) в Exchange Online будут отменены в первой половине 2020 г. Также Search-Mailbox и Advanced eDiscovery v1.0 в течение того же периода времени.
-ms.openlocfilehash: 97be285ae348b018866e3f91f92be523b03e6616
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: 77a7daf36c86cd302f774e5a4b934148d3dfd5a7
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53055072"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341000"
 ---
 # <a name="retirement-of-legacy-ediscovery-tools"></a>Прекращение поддержки устаревших средств обнаружения электронных данных
 
@@ -94,7 +94,7 @@ ms.locfileid: "53055072"
 <tr class="header">
 <th>функциональность.</th>
 <th>Альтернативный инструмент</th>
-<th>Комментарии</th>
+<th>Comments</th>
 </tr>
 </thead>
 <tbody>
@@ -197,7 +197,7 @@ ms.locfileid: "53055072"
 <tr class="header">
 <th>функциональность.</th>
 <th>Альтернативные средства</th>
-<th>Комментарии</th>
+<th>Comments</th>
 </tr>
 </thead>
 <tbody>
@@ -222,7 +222,7 @@ ms.locfileid: "53055072"
 </tr>
 <tr class="odd">
 <td>Копирование результатов поиска в почтовый ящик обнаружения</td>
-<td>Нет.</td>
+<td>Нет</td>
 <td>Прямой замены этой функции нет, так как она не предоставляет доступ ко всем Microsoft 365 службам. Ниже приведены следующие вопросы по альтернативным решениям.</td>
 </tr>
   <tr class=even>
@@ -276,7 +276,7 @@ API [<span class="underline">microsoft Graph</span>](https://developer.microsoft
 <tr class="header">
 <th>функциональность.</th>
 <th>Альтернативные средства</th>
-<th>Комментарии</th>
+<th>Comments</th>
 </tr>
 </thead>
 <tbody>
@@ -345,9 +345,9 @@ Advanced eDiscovery v1.0, которая является версией Advance
 
 Чтобы определить, использует ли ваша организация Advanced eDiscovery v1.0:
 
-1. Перейдите в [центр Office 365 безопасности & соответствия](https://protection.office.com)требованиям.
+1. Перейдите в [Центр соответствия требованиям Microsoft 365](https://compliance.microsoft.com).
 
-2. В левой области навигации Центра & безопасности нажмите кнопку **eDiscovery > eDiscovery** и откройте дело core eDiscovery.
+2. В левой области навигации центра соответствия нажмите **кнопку eDiscovery > Core** и откройте дело core eDiscovery.
 
 3. Если вы видите **кнопку Переключатель** Advanced eDiscovery, щелкнув ее, вы перейдете к версии 1.0 Advanced eDiscovery, которая в настоящее время отключена. Возможность создания и управления случаями в core eDiscovery не будет затронута. Отключается только возможность добавления и анализа данных Advanced eDiscovery v1.0 (щелкнув **переключатель** Advanced eDiscovery).
 

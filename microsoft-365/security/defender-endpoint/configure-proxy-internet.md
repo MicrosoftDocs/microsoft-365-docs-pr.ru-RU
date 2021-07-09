@@ -17,12 +17,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: af50e3c2a6db1a09d546bfa06b26c80dcf4481e5
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 6a3bbc46bb5859743d5170451b0d1c68793f93bf
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53290091"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53338725"
 ---
 # <a name="configure-device-proxy-and-internet-connectivity-settings"></a>Настройка параметров прокси-сервера устройства и соединения с Интернетом
 
@@ -170,7 +170,7 @@ netsh winhttp reset proxy
 
 1. На борту предыдущей операционной системы с Microsoft Monitoring Agent (MMA) в Defender для конечной точки (дополнительные сведения см. в предыдущих версиях Windows [Defender для](https://go.microsoft.com/fwlink/p/?linkid=2010326) конечной точки и на Windows серверах. [](configure-server-endpoints.md#windows-server-2008-r2-sp1-windows-server-2012-r2-and-windows-server-2016)
 
-2. Убедитесь, что машина успешно сообщается на Центр безопасности в Microsoft Defender портале.
+2. Убедитесь, что машина успешно сообщается на Microsoft 365 Defender портале.
 
 3. Запустите TestCloudConnection.exe из "C:\Program Files\Microsoft Monitoring Agent\Agent", чтобы проверить подключение и увидеть необходимые URL-адреса для конкретного рабочего пространства.
 
@@ -178,7 +178,7 @@ netsh winhttp reset proxy
 
     ![Изображение администратора в Windows PowerShell](images/admin-powershell.png)
 
-Конечные точки URL \* \* ods.opinsights.azure.com, \* \* .oms.opinsights.azure.com и .agentsvc.azure-automation.net URL-адресов. ID Рабочей области имеет особый характер для среды и рабочего пространства и может быть найден в разделе Onboarding клиента в Центр безопасности в Microsoft Defender портале.
+Конечные точки URL \* \* ods.opinsights.azure.com, \* \* .oms.opinsights.azure.com и .agentsvc.azure-automation.net URL-адресов. ID Рабочей области имеет особый характер для среды и рабочего пространства и может быть найден в разделе Onboarding клиента в Microsoft 365 Defender портале.
 
 Конечную blob.core.windows.net URL-адрес можно заменить URL-адресами, показанными в разделе "Правило брандмауэра: \* \* .blob.core.windows.net" результатов тестирования.
 

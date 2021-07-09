@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: b83e6682ce0c11d076e0bbef60fdef365c9be564
-ms.sourcegitcommit: d4604e333507c6f57d5bf327531a241b649052de
+ms.openlocfilehash: eb9e4b905112d3d144b10d68418695df3cda29cb
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51471105"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339254"
 ---
 # <a name="verify-data-storage-location-and-update-data-retention-settings-for-microsoft-defender-for-endpoint"></a>Проверка расположения хранилища данных и обновление параметров хранения данных для Microsoft Defender для конечной точки
 
@@ -42,13 +42,13 @@ ms.locfileid: "51471105"
 ## <a name="verify-data-storage-location"></a>Проверка расположения хранилища данных
 На [этапе Настройка](production-deployment.md)выбрано расположение для хранения данных. 
 
-Вы можете проверить расположение данных, перенавигав Параметры  >  **хранения данных.**
+Вы можете проверить расположение данных, переназначив Параметры  >  **конечных**  >  **точек хранения данных.**
 
 ## <a name="update-data-retention-settings"></a>Обновление параметров хранения данных
 
 Вы можете обновить параметры хранения данных. По умолчанию период хранения составляет 180 дней. 
 
-1. В области навигации выберите **Параметры**  >  **хранения данных.**
+1. В области навигации выберите **Параметры**  >  **конечных точек**  >  **хранения данных.**
 
 2. Выберите продолжительность хранения данных из выпадаемого списка.
 

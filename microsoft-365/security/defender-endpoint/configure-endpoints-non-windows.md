@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 265a7e9093638caa2111c7d1d82e51c8c2437d12
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 777f5f63c4739f277ec24f826bc8a61a226fb65f
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52845466"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339674"
 ---
 # <a name="onboard-non-windows-devices"></a>Подключение устройствах, отличных от Windows
 
@@ -38,7 +38,7 @@ ms.locfileid: "52845466"
 
 >Хотите испытать Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-nonwindows-abovefoldlink) 
 
-Defender for Endpoint предоставляет централизованный опыт операций безопасности для Windows, а также Windows платформ. Вы сможете видеть оповещения из различных поддерживаемых операционных систем (ОС) в Центр безопасности в Microsoft Defender и лучше защищать сеть организации. 
+Defender for Endpoint предоставляет централизованный опыт операций безопасности для Windows, а также Windows платформ. Вы сможете видеть оповещения из различных поддерживаемых операционных систем (ОС) в Microsoft 365 Defender и лучше защищать сеть организации. 
 
 Вам необходимо знать точные версии дистрофии Linux и macOS, совместимые с Defender для конечной точки для работы интеграции. Дополнительные сведения см. в указанных ниже статьях.
 - [Microsoft Defender для конечной точки в требованиях к системе Linux](microsoft-defender-endpoint-linux.md#system-requirements)  

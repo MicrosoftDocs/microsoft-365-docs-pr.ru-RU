@@ -1,6 +1,6 @@
 ---
 title: Настройка условного доступа в Microsoft Defender для конечной точки
-description: Узнайте о действиях, которые необходимо выполнить в Intune, Центр безопасности в Microsoft Defender и Azure для реализации условного доступа
+description: Узнайте о действиях, которые необходимо выполнить в Intune, Microsoft 365 Defender и Azure для реализации условного доступа
 keywords: условный доступ, условный, доступ, риск устройства, уровень риска, интеграция, интеграция intune
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: ceb69d59dc5208c0908e33d0880d9352562ec140
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 2c9462fa0d4be4d6ff78ba3e5db2cd4fa71fef0b
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843978"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339518"
 ---
 # <a name="configure-conditional-access-in-microsoft-defender-for-endpoint"></a>Настройка условного доступа в Microsoft Defender для конечной точки
 
@@ -35,7 +35,7 @@ ms.locfileid: "52843978"
 
 В этом разделе вы сможете выполнить все необходимые действия для правильной реализации условного доступа.
 
-### <a name="before-you-begin"></a>Прежде чем начать
+### <a name="before-you-begin"></a>Подготовка к работе
 >[!WARNING]
 >Важно отметить, что зарегистрированные устройства Azure AD не поддерживаются в этом сценарии.</br>
 >Поддерживаются только зарегистрированные устройства Intune.
@@ -50,10 +50,10 @@ ms.locfileid: "52843978"
 
 
 
-Необходимо предпринять действия в Центр безопасности в Microsoft Defender, портале Intune и портале Azure AD.
+Необходимо предпринять действия в Microsoft 365 Defender, портале Intune и портале Azure AD.
 
 Важно отметить необходимые роли для доступа к этим порталам и реализации условного доступа:
-- **Центр безопасности в Microsoft Defender** — чтобы включить интеграцию, необходимо войти на портал с ролью глобального администратора.
+- **Microsoft 365 Defender** — чтобы включить интеграцию, необходимо войти на портал с ролью глобального администратора.
 - **Intune** . Необходимо войти на портал с правами администратора безопасности с разрешениями управления. 
 - **Портал Azure AD** . Вам потребуется войти в качестве глобального администратора, администратора безопасности или администратора условного доступа.
 
@@ -62,7 +62,7 @@ ms.locfileid: "52843978"
 > Вам понадобится среда Microsoft Intune с управляемым управлением Intune и к устройствам Azure AD Windows 10.
 
 Чтобы включить условный доступ, необходимо предпринять следующие действия:
-- Шаг 1. Включим подключение Microsoft Intune из Центр безопасности в Microsoft Defender
+- Шаг 1. Включим подключение Microsoft Intune из Microsoft 365 Defender
 - Шаг 2. Включение интеграции Defender для конечных точек в Intune
 - Шаг 3. Создание политики соответствия требованиям в Intune
 - Шаг 4. Назначение политики 
@@ -70,15 +70,15 @@ ms.locfileid: "52843978"
 
 
 ### <a name="step-1-turn-on-the-microsoft-intune-connection"></a>Шаг 1. Включим подключение Microsoft Intune
-1. В области навигации выберите **Параметры**  >  **расширенные** функции Microsoft Intune  >  **подключения.**
+1. В области навигации выберите **Параметры**  >  **конечные** точки  >  **общие**  >  **расширенные** функции Microsoft Intune  >  **подключения.**
 2. Настройка Microsoft Intune **параметра On**.
 3. Нажмите **кнопку Сохранить предпочтения**.
 
 
 ### <a name="step-2-turn-on-the-defender-for-endpoint-integration-in-intune"></a>Шаг 2. Включение интеграции Defender для конечных точек в Intune
 1. Войдите на [портал Azure](https://portal.azure.com).
-2. Выберите **соответствие требованиям**  >  **ATP в Защитнике Microsoft.**
-3. Установите **Подключение Windows 10.0.15063+** для Расширенная защита от угроз в Microsoft Defender **on**.
+2. Выберите **соответствие требованиям** устройства Microsoft Defender  >  **ATP**.
+3. Установите **Подключение Windows 10.0.15063+** для устройств Microsoft Defender Advanced Threat Protection to **On**.
 4. Щелкните **Сохранить**.
 
 

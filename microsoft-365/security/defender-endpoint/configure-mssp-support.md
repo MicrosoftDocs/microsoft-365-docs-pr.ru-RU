@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 6786d423d20ec90c12d2ea712003acc787ed599d
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: d82bffd6eea54256f2c6773f843030a19e27275d
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51165253"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339362"
 ---
 # <a name="configure-managed-security-service-provider-integration"></a>Настройка интеграции управляемого поставщика службы безопасности
 
@@ -44,7 +44,7 @@ ms.locfileid: "51165253"
 
 Интеграция позволит MSSP принять следующие действия:
 
-- Получить доступ к порталу Центр безопасности в Microsoft Defender msSP
+- Получить доступ к порталу Microsoft 365 Defender msSP
 - Получать уведомления электронной почты и 
 - Извлечение оповещений с помощью средств управления безопасностью и событий (SIEM)
 
@@ -57,7 +57,7 @@ ms.locfileid: "51165253"
 В общем, необходимо предпринять следующие действия по настройке:
 
 
-- **Предоставление доступа msSP к Центр безопасности в Microsoft Defender** <br>
+- **Предоставление доступа msSP к Microsoft 365 Defender** <br>
 Это действие должно быть сделано клиентом MSSP. Предоставляет доступ msSP к клиенту клиента MSSP Defender для конечной точки.
  
 

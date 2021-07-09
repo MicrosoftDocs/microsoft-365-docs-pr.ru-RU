@@ -1,6 +1,6 @@
 ---
 title: Подключение устройств Windows 10 с помощью средств управления мобильными устройствами
-description: Используйте средства управления мобильными устройствами для развертывания пакета конфигурации на устройствах, чтобы они были размещены в службе.
+description: Используйте средства управления мобильными устройствами для развертывания пакета конфигурации на устройствах, чтобы устройства были размещены в службе.
 keywords: бортовые устройства с использованием mdm, управления устройствами, на борту устройств Microsoft Defender для конечных точек, mdm
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 45aa406212fe39f088f58bf311b1aed3fed16498
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: f0a0a35d41d56abfcc7975c9e79ff7d537b72f40
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843438"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53338581"
 ---
-# <a name="onboard-windows-10-devices-using-mobile-device-management-tools"></a>Подключение устройств Windows 10 с помощью средств управления мобильными устройствами
+# <a name="onboard-the-windows-10-devices-using-mobile-device-management-tools"></a>На борту Windows 10 с помощью средств управления мобильными устройствами
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -37,7 +37,7 @@ ms.locfileid: "52843438"
 
 Дополнительные сведения об использовании CSP Defender для конечных точек см. в [CSP WindowsAdvancedThreatProtection и](https://msdn.microsoft.com/library/windows/hardware/mt723296(v=vs.85).aspx) [DDF WindowsAdvancedThreatProtection.](https://msdn.microsoft.com/library/windows/hardware/mt723297(v=vs.85).aspx)
 
-## <a name="before-you-begin"></a>Прежде чем начать
+## <a name="before-you-begin"></a>Подготовка к работе
 Если вы используете Microsoft Intune, необходимо зарегистрироваться на устройстве MDM. В противном случае параметры не будут успешно применены. 
 
 Дополнительные сведения о включаемом MDM с помощью Microsoft Intune см. в [Microsoft Intune.](/mem/intune/enrollment/device-enrollment)
@@ -70,9 +70,9 @@ ms.locfileid: "52843438"
 > [!NOTE]
 > На одном устройстве одновременно не следует развертывать политики бортового и оффбординга, в противном случае это приведет к непредсказуемым столкновениям.
 
-1. Получите пакет offboarding из [Центр безопасности в Microsoft Defender:](https://securitycenter.windows.com/)
+1. Получите пакет offboarding с [Microsoft 365 Defender:](https://security.microsoft.com/)
 
-   1. В области навигации выберите **Параметры**  >  **Offboarding**.
+   1. В области навигации выберите отключение **Параметры** конечных  >  **точек** управления  >    >  **устройствами.**
 
    1. Выберите Windows 10 в качестве операционной системы.
 

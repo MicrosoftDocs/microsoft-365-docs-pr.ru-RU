@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: d423c5051634334f9dbb19b236446cdb579aef69
-ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
+ms.openlocfilehash: 2b638742e29d5ca0a8b74adfa6796380114d24a3
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53327039"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339506"
 ---
 # <a name="configure-alert-notifications-in-microsoft-defender-for-endpoint"></a>Настройка оповещений в Microsoft Defender для конечной точки
 
@@ -50,7 +50,7 @@ ms.locfileid: "53327039"
 Можно создавать правила, определяя серьезности устройств и оповещения для отправки уведомлений электронной почты для получателей и получателей уведомлений.
 
 
-1. В области навигации выберите **Параметры**  >  **уведомления электронной почты.**
+1. В области навигации выберите **Параметры**  >  **конечных** точек  >  **общего**  >  **уведомления электронной почты**.
 
 2. Нажмите **кнопку Добавить элемент**.
 

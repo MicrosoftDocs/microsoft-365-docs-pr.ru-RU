@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Узнайте, как настроить и использовать соединители в Центр соответствия требованиям Microsoft 365 для импорта и архива данных с Skype для бизнеса до Microsoft 365.
-ms.openlocfilehash: 93128af0c7f305cb2bef55efd5520de77555a222
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: 4a66ee19530860bd482168297a8c935153442fee
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53054868"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339458"
 ---
-# <a name="set-up-a-connector-to-archive-skype-for-business-data-preview"></a>Настройка соединитетеля для архива Skype для бизнеса данных (предварительный просмотр)
+# <a name="set-up-a-connector-to-archive-skype-for-business-data"></a>Настройка соединитетеля для архива Skype для бизнеса данных
 
 Используйте соединитель Veritas в Центр соответствия требованиям Microsoft 365 для импорта и архива данных с платформы Skype для бизнеса для почтовых ящиков пользователей в Microsoft 365 организации. Veritas предоставляет [](https://www.veritas.com/en/au/insights/merge1/skype-for-business) Skype для бизнеса, настроенный для захвата элементов из стороннего источника данных (на регулярной основе) и импорта этих элементов в Microsoft 365. Соединитатель преобразует содержимое, например сообщения между пользователями, постоянные чаты и конференц-сообщения из Skype для бизнеса в формат электронной почты, а затем импортирует эти элементы в почтовый ящик пользователя в Microsoft 365.
 

@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: 8babc8c5e7464637e29ddacef50c92f252033d26
-ms.sourcegitcommit: 8b0718f5607ab509092cb80bda854010d885c54f
+ms.openlocfilehash: 910eb16ad33555ca61875a346b50cea7e63b2220
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53314372"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53338557"
 ---
 # <a name="whats-coming-to-microsoft-secure-score"></a>Что происходит в Microsoft Secure Score
 
@@ -44,6 +44,33 @@ Microsoft Secure Score можно найти в центре Microsoft 365 https
 - Запретить анонимным пользователям начинать Teams собрания.
 - Необходимо настроить лобби для Teams собраний.
 - Настройка того, какие пользователи могут присутствовать на собраниях Teams собраниях.
+
+#### <a name="add-improvement-action-related-to-microsoft-defender-for-endpoint"></a>Добавление действий по улучшению, связанных с Microsoft Defender для конечной точки
+- Исправление microsoft Defender для сбора данных датчиков конечных точек для macOS
+- Исправление microsoft Defender для связи с нарушениями конечных точек для macOS
+- Установите минимальную длину пароля до 15 или более символов в macOS
+- Установите в macOS 'Enforce password history' to '24 or more password(s)'
+- Установите "Максимальный возраст пароля" до "90 или меньше дней, но не 0" в macOS
+- Установите пороговое значение блокировки учетной записи до 5 или ниже в macOS
+- Включи брандмауэр на macOS
+- Включить привратник
+- Включить защиту целостности системы (SIP)
+- Включить шифрование дисков FileVault
+- Настройка экрана для блокировки при старте экрана в macOS
+- Убедитесь в том, что набор экрана должен начинаться через 20 минут или менее в macOS
+- Безопасность домашних папок
+- Включаем антивирусная программа в Microsoft Defender защиту в режиме реального времени для macOS
+- Включить защиту антивирусная программа в Microsoft Defender PUA в режиме блокировки для macOS
+- Включить антивирусная программа в Microsoft Defender облачной защиты для macOS
+- Обновление антивирусная программа в Microsoft Defender определений для macOS
+- Исправление microsoft Defender для сбора данных датчиков конечной точки для Linux
+- Исправление microsoft Defender для нарушенных коммуникаций конечной точки для Linux
+- Неограниченные учетные записи доступа
+- Включи антивирусная программа в Microsoft Defender защиту в режиме реального времени для Linux
+- Включаем антивирусная программа в Microsoft Defender защиты PUA в режиме блокировки для Linux
+- Включить антивирусная программа в Microsoft Defender облачной защиты для Linux
+- Обновление антивирусная программа в Microsoft Defender определений для Linux
+
 
 
 ## <a name="related-resources"></a>Связанные ресурсы

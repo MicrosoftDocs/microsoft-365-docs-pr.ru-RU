@@ -22,12 +22,12 @@ ms.collection:
 ms.topic: how-to
 ms.reviewer: ramarom, evaldm, isco, mabraitm, chriggs, yonghree, jcedola
 ms.custom: FPFN
-ms.openlocfilehash: d3821f4f1f581da5353ee33bd406af8558c0e903
-ms.sourcegitcommit: c70067b4ef9c6f8f04aca68c35bb5141857c4e4b
+ms.openlocfilehash: 7da28ea308994663549c2c490f53a3e0e75a0857
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53029961"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339266"
 ---
 # <a name="address-false-positivesnegatives-in-microsoft-defender-for-endpoint"></a>Устранение ложных положительных/отрицательных срабатываний в Microsoft Defender для конечной точки
 
@@ -141,7 +141,7 @@ ms.locfileid: "53029961"
 
 ### <a name="review-completed-actions"></a>Просмотр завершенных действий
 
-1. Перейдите в центр действий <https://security.microsoft.com/action-center> () и войдите.
+1. В левой области навигации портала Microsoft 365 Defender нажмите **кнопку Центр действий**.
 
 2. Выберите **вкладку** "История", чтобы просмотреть список принятых действий.
 
@@ -149,7 +149,7 @@ ms.locfileid: "53029961"
 
 ### <a name="restore-a-quarantined-file-from-the-action-center"></a>Восстановление карантинового файла из Центра действий
 
-1. Перейдите в центр действий <https://security.microsoft.com/action-center> () и войдите.
+1. В левой области навигации портала Microsoft 365 Defender нажмите **кнопку Центр действий**.
 
 2. На **вкладке История** выберите действие, которое необходимо отменить.
 
@@ -157,7 +157,7 @@ ms.locfileid: "53029961"
 
 ### <a name="undo-multiple-actions-at-one-time"></a>Отмена нескольких действий одновременно
 
-1. Перейдите в центр действий <https://security.microsoft.com/action-center> () и войдите.
+1. В левой области навигации портала Microsoft 365 Defender нажмите **кнопку Центр действий**.
 
 2. На **вкладке История** выберите действия, которые необходимо отменить.
 
@@ -168,7 +168,7 @@ ms.locfileid: "53029961"
 > [!div class="mx-imgBorder"]
 > ![Файл карантина](images/autoir-quarantine-file-1.png)
 
-1. Перейдите в центр действий <https://security.microsoft.com/action-center> () и войдите.
+1. В левой области навигации портала Microsoft 365 Defender нажмите **кнопку Центр действий**.
 
 2. На **вкладке История** выберите файл с карантиным файлом типа **Action.**
 
@@ -344,7 +344,7 @@ ms.locfileid: "53029961"
 
 Microsoft Defender для конечной точки предлагает широкий спектр параметров, в том числе возможность настройки параметров для различных функций и возможностей. Если вы получаете множество ложных срабатыважений, просмотрите параметры защиты от угроз в организации. Возможно, потребуется внести некоторые изменения в:
 
-- [Защита с облачным доставкой](#cloud-delivered-protection)
+- [Облачная защита](#cloud-delivered-protection)
 - [Исправление потенциально нежелательных приложений](#remediation-for-potentially-unwanted-applications)
 - [Автоматическое расследование и исправление](#automated-investigation-and-remediation)
 

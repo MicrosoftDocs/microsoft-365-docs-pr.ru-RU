@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 11/20/2018
 ms.technology: mde
-ms.openlocfilehash: 6ecbf98c81b1f68e42f39269809592fb446e6036
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 9a56167f0025ec42f4fd441886f83026c1bf23d6
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934385"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339542"
 ---
 # <a name="experience-microsoft-defender-for-endpoint-through-simulated-attacks"></a>Опыт Microsoft Defender для конечной точки с помощью имитации атак 
 
@@ -37,11 +37,11 @@ ms.locfileid: "51934385"
 
 >[!TIP]
 >- Узнайте о последних улучшениях в Microsoft Defender для конечной точки: что нового в [Defender для конечной точки?.](https://cloudblogs.microsoft.com/microsoftsecure/2018/11/15/whats-new-in-windows-defender-atp/)
->- Defender for Endpoint в недавней оценке MITRE продемонстрировал ведущие в отрасли возможности оптики и обнаружения. Read: [Insights from the MITRE ATT&CK-based assessment](https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/insights-from-the-mitre-attack-based-evaluation-of-windows-defender-atp/).
+>- Defender for Endpoint в недавней оценке MITRE продемонстрировал ведущие в отрасли возможности оптики и обнаружения. Read: Аналитика из оценки [ATT MITRE&на](https://cloudblogs.microsoft.com/microsoftsecure/2018/12/03/insights-from-the-mitre-attack-based-evaluation-of-windows-defender-atp/)основе CK .
 
 Может потребоваться испытать Defender для конечной точки, прежде чем вы на борту более нескольких устройств в службу. Для этого можно выполнить управляемые имитации атак на нескольких тестовых устройствах. После запуска смоделированных атак вы можете просмотреть, как Defender для конечной точки просматривает вредоносную активность и изучите, как она позволяет эффективно отвечать.
 
-## <a name="before-you-begin"></a>Прежде чем начать
+## <a name="before-you-begin"></a>Подготовка к работе
 
 Для запуска любого из предоставленных симуляций необходимо по крайней мере [одно бортовом устройстве.](onboard-configure.md) 
 
@@ -49,7 +49,7 @@ ms.locfileid: "51934385"
 
 ## <a name="run-a-simulation"></a>Запуск моделирования
 
-1. В   >  **справке & руководства**, выберите, какой из доступных сценариев атак вы хотите имитировать:
+1. В **endpoints** Assessment & учебники & моделирования , выберите, какой из доступных сценариев атаки вы хотели бы  >    >  имитировать:
 
    - **Сценарий 1. Отбрасыватель** документа — имитирует доставку социально разработанного документа-приманки. В документе запускается специально созданный backdoor, который дает злоумышленникам контроль.
 

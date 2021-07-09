@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-m365-defender
 ms.topic: conceptual
 ms.technology: m365d
-ms.openlocfilehash: 78783ab98c50252115c28008680197256bfd7aa5
-ms.sourcegitcommit: 8b79d276f71f22bcaeb150e78e35101cb1ae0375
+ms.openlocfilehash: af5efb669b1f73b4008ac2c3fae251a4d08511dd
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53114741"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53340988"
 ---
 # <a name="whats-new-in-microsoft-365-defender"></a>Новые возможности Microsoft 365 Defender
 
@@ -38,8 +38,10 @@ RSS-канал. Получите уведомление об обновлени�
 ```http
 /api/search/rss?search=%22Lists+the+new+features+and+functionality+in+Microsoft+365+defender%22&locale=en-us
 ```
-## <a name="june-2021"></a>Июнь 2021 г.
-- Теги угроз в [отчете Microsoft 365 Defender аналитики угроз](threat-analytics.md) <br> Теги угроз помогают сосредоточиться на определенных категориях угроз и просмотреть наиболее релевантные отчеты. 
+
+## <a name="july-2021"></a>Июль 2021 г.
+- [Professional служб](https://sip.security.microsoft.com/interoperability/professional_services)<br>Расширение возможностей обнаружения, расследования и сведении об угрозах платформы с помощью поддерживаемых партнерских подключений.
+    
 
 ## <a name="may-2021"></a>Май 2021 г.
 

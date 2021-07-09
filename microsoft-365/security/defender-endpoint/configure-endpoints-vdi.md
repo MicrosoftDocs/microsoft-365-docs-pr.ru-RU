@@ -17,14 +17,14 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 04/16/2020
 ms.technology: mde
-ms.openlocfilehash: d09967a18848365702f52f65a7f0624d2b2ae3d6
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 555f96dc1f45fb6a406b5993d0b8e4a3745c283b
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843214"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339638"
 ---
-# <a name="onboard-non-persistent-virtual-desktop-infrastructure-vdi-devices"></a>Подключение временных устройств инфраструктуры виртуальных рабочих столов (VDI)
+# <a name="onboard-the-non-persistent-virtual-desktop-infrastructure-vdi-devices"></a>На борту неустойких устройств виртуальной инфраструктуры настольных компьютеров (VDI)
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -63,9 +63,9 @@ Defender for Endpoint поддерживает непродержку сеанс
 
 ### <a name="for-windows-10-or-windows-server-2019"></a>Для Windows 10 или Windows Server 2019
 
-1.  Откройте пакет конфигурации VDI .zip *(WindowsDefenderATPOnboardingPackage.zip), который* вы скачали из мастера бортового обслуживания. Вы также можете получить пакет из [Центр безопасности в Microsoft Defender:](https://securitycenter.windows.com/)
+1.  Откройте пакет конфигурации VDI .zip *(WindowsDefenderATPOnboardingPackage.zip), который* вы скачали из мастера бортового обслуживания. Вы также можете получить пакет с [Microsoft 365 Defender портала:](https://security.microsoft.com/)
 
-    1.  В области навигации выберите **Параметры**  >  **onboarding**.
+    1. В области навигации выберите **Параметры** управление устройствами конечных  >    >    >  **точек.**
 
     1. Выберите Windows 10 в качестве операционной системы.
 
@@ -111,11 +111,11 @@ Defender for Endpoint поддерживает непродержку сеанс
    
       - Для одной записи для каждого устройства: 
     
-        Проверьте только одну запись в Центр безопасности в Microsoft Defender.
+        Проверьте только одну запись на Microsoft 365 Defender портале.
 
       - Для нескольких записей для каждого устройства: 
        
-        Проверьте несколько записей в Центр безопасности в Microsoft Defender.
+        Проверьте несколько записей на Microsoft 365 Defender портале.
 
 6. Щелкните **список Устройств** на области навигации.
 

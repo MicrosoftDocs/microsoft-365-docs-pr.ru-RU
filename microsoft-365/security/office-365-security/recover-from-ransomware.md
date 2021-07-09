@@ -15,12 +15,12 @@ ms.collection:
 description: Microsoft 365 администраторы могут узнать, как восстановиться после атаки вымогателей.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 473591a02b78043153d505dda6dd7ef5ac6e3961
-ms.sourcegitcommit: b09aee96a1e2266b33ba81dfe497f24c5300bb56
+ms.openlocfilehash: 6c3664cb2a60a7173e345de4abaddefefea6e2b1
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52789055"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341440"
 ---
 # <a name="recover-from-a-ransomware-attack-in-microsoft-365"></a>Восстановление после атаки вымогателей в Microsoft 365
 
@@ -49,7 +49,7 @@ ms.locfileid: "52789055"
 
 Если у вас нет резервных копий или резервные копии также пострадали от программ-вымогателей, вы можете пропустить этот шаг.
 
-## <a name="step-2-disable-exchange-activesync-and-onedrive-sync"></a>Шаг 2. Отключение Exchange ActiveSync и OneDrive синхронизации
+## <a name="step-2-disable-exchange-activesync-and-onedrive-sync"></a>Шаг 2. Отключение Exchange ActiveSync и приложение синхронизации OneDrive
 
 Ключевой момент здесь — остановить распространение шифрования данных программ-вымогателей.
 
@@ -63,7 +63,7 @@ ms.locfileid: "52789055"
 
 - [Включить или отключить доступ к POP3 или IMAP4 для пользователя](/Exchange/clients-and-mobile-in-exchange-online/pop3-and-imap4/enable-or-disable-pop3-or-imap4-access)
 
-Синхронизация OneDrive поможет защитить облачные данные от обновления потенциально зараженными устройствами. Дополнительные сведения см. в дополнительных сведениях о том, как приостановить синхронизацию и [возобновить синхронизацию в OneDrive.](https://support.microsoft.com/office/2152bfa4-a2a5-4d3a-ace8-92912fb4421e)
+Приочное приложение синхронизации OneDrive поможет защитить облачные данные от обновления потенциально зараженными устройствами. Дополнительные сведения см. в дополнительных сведениях о том, как приостановить синхронизацию и [возобновить синхронизацию в OneDrive.](https://support.microsoft.com/office/2152bfa4-a2a5-4d3a-ace8-92912fb4421e)
 
 ## <a name="step-3-remove-the-malware-from-the-affected-devices"></a>Шаг 3. Удаление вредоносных программ с затронутых устройств
 
@@ -81,7 +81,7 @@ ms.locfileid: "52789055"
 
 После завершения предыдущего шага по удалению полезной нагрузки вымогателей из среды (что не позволит вымогателям шифровать или удалять файлы), вы можете использовать историю файлов в Windows 10 и Windows 8.1 или system Protection в Windows 7, чтобы попытаться восстановить локальные файлы и папки. [](https://support.microsoft.com/help/17128)
 
-**Примечания**:
+**Примечания**.
 
 - Некоторые программы-вымогательы также шифруют или удаляют резервные версии, поэтому для восстановления файлов нельзя использовать историю файлов или систему защиты. Если это произойдет, необходимо использовать резервные копии на внешних дисках или устройствах, не затронутых программой-вымогателями или OneDrive, как описано в следующем разделе.
 
@@ -99,11 +99,11 @@ ms.locfileid: "52789055"
 
 - [Восстановление удаленных элементов в Outlook для Windows](https://support.microsoft.com/office/49e81f3c-c8f4-4426-a0b9-c0fd751d48ce)
 
-## <a name="step-7-re-enable-exchange-activesync-and-onedrive-sync"></a>Шаг 7. Повторное Exchange ActiveSync и OneDrive синхронизации
+## <a name="step-7-re-enable-exchange-activesync-and-onedrive-sync"></a>Шаг 7. Повторное Exchange ActiveSync и приложение синхронизации OneDrive
 
-После очистки компьютеров и устройств и восстановления данных можно повторно включить синхронизацию Exchange ActiveSync и OneDrive, отключаемую ранее в шаге [2.](#step-2-disable-exchange-activesync-and-onedrive-sync)
+После очистки компьютеров и устройств и восстановления данных можно повторно включить Exchange ActiveSync и приложение синхронизации OneDrive, которые ранее были отключены в шаге [2.](#step-2-disable-exchange-activesync-and-onedrive-sync)
 
-## <a name="step-8-optional-block-onedrive-sync-for-specific-file-extensions"></a>Шаг 8 (необязательный): OneDrive синхронизации для определенных расширений файлов
+## <a name="step-8-optional-block-onedrive-sync-for-specific-file-extensions"></a>Шаг 8 (необязательный): блок приложение синхронизации OneDrive для определенных расширений файлов
 
 После восстановления вы можете запретить OneDrive для бизнеса синхронизировать типы файлов, затронутые этим программой-вымогателями. Дополнительные сведения см. [в рубрезе Set-SPOTenantSyncClientRestriction.](/powershell/module/sharepoint-online/set-spotenantsyncclientrestriction)
 
@@ -141,30 +141,30 @@ ms.locfileid: "52789055"
 
 Вы можете сообщать о фишинговых сообщениях, содержащих вымогателей, с помощью одного из нескольких методов. Для получения дополнительной информации см. [Отчет о сообщениях и файлах в Microsoft](report-junk-email-messages-to-microsoft.md).
 
-## <a name="see-also"></a>См. также
+## <a name="additional-ransomware-resources"></a>Дополнительные ресурсы вымогателей
 
-- [Вымогателей](/windows/security/threat-protection/intelligence/ransomware-malware)
+[Обзор программ-вымогателей, управляемых людьми](/security/compass/human-operated-ransomware)
 
-- [Ответ вымогателей — платить или не платить?](https://www.microsoft.com/security/blog/2019/12/16/ransomware-response-to-pay-or-not-to-pay/)
+[Быстрая защита от вымогателей и вымогательства](/security/compass/protect-against-ransomware)
 
-- [Norsk Hydro реагирует на атаки вымогателей с прозрачностью](https://www.microsoft.com/security/blog/2019/12/17/norsk-hydro-ransomware-attack-transparency/)
+[Последний отчет портал для обнаружения угроз (Microsoft) PDF)](https://www.microsoft.com/securityinsights/) (поиск "вымогателей")
+
+**Вымогателей: распространенный и текущий** отчет об угрозах в узле аналитики угроз Microsoft 365 Defender портала 
+
+Microsoft 365 защиты:
 
 - [Обнаружение и восстановление файлов в OneDrive](https://support.microsoft.com/office/0d90ec50-6bfd-40f4-acc7-b8c12c73637f)
-
-- [портал для обнаружения угроз (Microsoft) Отчет](https://www.microsoft.com/securityinsights/)
-
 - [Включить или отключить макрос в Office файлах](https://support.microsoft.com/office/12b036fd-d140-4e74-b45e-16fed1a7e5c6)
-
 - [Рекомендуемые параметры для EOP и Microsoft Defender для Office 365 безопасности](recommended-settings-for-eop-and-office365.md)
 
-- [Достойное обновление: безопасность следующего поколения на Windows 10 в 2017 г.](https://www.microsoft.com/security/blog/2018/01/10/a-worthy-upgrade-next-gen-security-on-windows-10-proves-resilient-against-ransomware-outbreaks-in-2017/)
+Записи блога группы безопасности Майкрософт:
 
-- [Нет мас, Samas: Что в modus operandi этого вымогателя?](https://www.microsoft.com/security/blog/2016/03/17/no-mas-samas-whats-in-this-ransomwares-modus-operandi/)
+- [Устойчивость к рискам кибербезопасности: часть 4 — навигация по текущим угрозам (май 2021 г.)](https://www.microsoft.com/security/blog/2021/05/26/becoming-resilient-by-understanding-cybersecurity-risks-part-4-navigating-current-threats/)
 
-- [Locky malware, lucky to avoid it](https://www.microsoft.com/security/blog/2016/02/24/locky-malware-lucky-to-avoid-it/)
+  См. **раздел Вымогателей.**
 
-- [MSRT July 2016: Cerber ransomware](https://www.microsoft.com/security/blog/2016/07/12/msrt-july-2016-cerber-ransomware/)
+- [Атаки вымогателей, управляемые людьми: предотвратимая катастрофа (март 2020 г.)](https://www.microsoft.com/security/blog/2020/03/05/human-operated-ransomware-attacks-a-preventable-disaster/)
+- [Ответ вымогателей — платить или не платить? (декабрь 2019 г.)](https://www.microsoft.com/security/blog/2019/12/16/ransomware-response-to-pay-or-not-to-pay/)
+- [Norsk Hydro отвечает на атаки вымогателей с прозрачностью (декабрь 2019 г.)](https://www.microsoft.com/security/blog/2019/12/17/norsk-hydro-ransomware-attack-transparency/)
+- [Достойное обновление: безопасность следующего поколения на Windows 10 в 2017 г. (январь 2018 г.)](https://www.microsoft.com/security/blog/2018/01/10/a-worthy-upgrade-next-gen-security-on-windows-10-proves-resilient-against-ransomware-outbreaks-in-2017/)
 
-- [Три главы вируса-вымогателя Cerber, похожего на Cerber](https://www.microsoft.com/security/blog/2016/03/09/the-three-heads-of-the-cerberus-like-cerber-ransomware/)
-
-- [Troldesh ransomware influenced by the () Da Vinci code](https://www.microsoft.com/security/blog/2016/07/13/troldesh-ransomware-influenced-by-the-da-vinci-code/)

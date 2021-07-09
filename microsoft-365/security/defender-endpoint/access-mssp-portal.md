@@ -1,6 +1,6 @@
 ---
-title: Доступ к Центр безопасности в Microsoft Defender клиентского портала MSSP
-description: Доступ к Центр безопасности в Microsoft Defender клиентского портала MSSP
+title: Доступ к Microsoft 365 Defender клиентского портала MSSP
+description: Доступ к Microsoft 365 Defender клиентского портала MSSP
 keywords: поставщик управляемых служб безопасности, mssp, настройка, интеграция
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 97122decede91e8b4f059b3b66999ac12b300172
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: 8583b28adecd892ec6875faa934fd7ab08e5db11
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51164861"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339590"
 ---
-# <a name="access-the-microsoft-defender-security-center-mssp-customer-portal"></a>Доступ к Центр безопасности в Microsoft Defender клиентского портала MSSP
+# <a name="access-the-microsoft-365-defender-mssp-customer-portal"></a>Доступ к Microsoft 365 Defender клиентского портала MSSP
 
 **Область применения:**
 - [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/p/?linkid=2154037)

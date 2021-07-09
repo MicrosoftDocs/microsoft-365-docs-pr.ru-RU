@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 47d57e51eca4950f7a8f4284fbc916e9d030b2c7
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 08fe4314c1461710d83ea7aeba1fdf9a60dd33a8
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52844338"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339242"
 ---
 # <a name="onboard-windows-servers-to-the-microsoft-defender-for-endpoint-service"></a>На Windows серверов службы Microsoft Defender для конечных точек
 
@@ -29,7 +29,7 @@ ms.locfileid: "52844338"
 
 **Область применения:**
 
-- Windows Server 2008 R2 с пакетом обновления 1 (SP1)
+- Windows Server 2008 R2 с пакетом обновления 1 (SP1)
 - Windows Server 2012 R2
 - Windows Server 2016
 - Windows Версия 1803 Server (SAC) и более поздней версии
@@ -38,7 +38,7 @@ ms.locfileid: "52844338"
 
 > Хотите испытать Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-configserver-abovefoldlink)
 
-Defender for Endpoint расширяет поддержку и включает операционную Windows Server. Эта поддержка обеспечивает расширенные возможности обнаружения и расследования атак с помощью консоли Центр безопасности в Microsoft Defender.
+Defender for Endpoint расширяет поддержку и включает операционную Windows Server. Эта поддержка обеспечивает расширенные возможности обнаружения и расследования атак с помощью консоли Microsoft 365 Defender.
 
 Практические рекомендации по вопросам лицензирования и инфраструктуры см. в Windows [Servers with Defender for Endpoint.](https://techcommunity.microsoft.com/t5/What-s-New/Protecting-Windows-Server-with-Windows-Defender-ATP/m-p/267114#M128)
 
@@ -66,14 +66,14 @@ Defender for Endpoint расширяет поддержку и включает 
 В общем, необходимо предпринять следующие действия:
 
 1. Выполните требования к вмеяниям, описанным в **разделе Перед началом** работы.
-2. Включим мониторинг сервера в центре безопасности Microsoft Defender.
+2. Включаем мониторинг сервера с Microsoft 365 Defender портала.
 3. Установка и настройка ммА для сервера для передачи данных датчиков в Defender для конечной точки.
 4. Настройка и обновление System Center Endpoint Protection клиентов.
 
 > [!TIP]
 > После работы с устройством можно выполнить тест обнаружения, чтобы убедиться, что оно правильно вложено в службу. Дополнительные сведения см. в сайте [Run a detection test on a newly onboarded Defender for Endpoint endpoint.](run-detection-test.md)
 
-#### <a name="before-you-begin"></a>Прежде чем начать
+#### <a name="before-you-begin"></a>Подготовка к работе
 
 Выполните следующие действия для выполнения требований к вмеяниям:
 
@@ -121,7 +121,7 @@ Defender for Endpoint расширяет поддержку и включает 
 
 ### <a name="option-2-onboard-windows-servers-through-azure-security-center"></a>Вариант 2. Серверы Windows через Центр безопасности Azure
 
-1. В области Центр безопасности в Microsoft Defender навигации выберите **Параметры**  >  **управления**  >  **устройствами.**
+1. В области Microsoft 365 Defender навигации выберите **Параметры** управление устройствами конечных  >    >    >  **точек.**
 
 2. Выберите **Windows 2008 R2 SP1, 2012 R2 и 2016** в качестве операционной системы.
 
@@ -200,7 +200,7 @@ Defender for Endpoint расширяет поддержку и включает 
     > Интеграция между Azure Defender для серверов и Microsoft Defender для конечной точки была расширена для поддержки [Windows Server 2019](/azure/security-center/release-notes#microsoft-defender-for-endpoint-integration-with-azure-defender-now-supports-windows-server-2019-and-windows-10-virtual-desktop-wvd-in-preview)и Windows Виртуальный рабочий стол (WVD).
 
 - Windows серверы, отслеживаемые Защитником Azure, также будут доступны в Defender for Endpoint — Azure Defender легко подключается к клиенту Defender для конечной точки, обеспечивая единое представление между клиентами и серверами.  Кроме того, оповещения Defender для конечной точки будут доступны в консоли Azure Defender.
-- Исследование сервера . Клиенты Azure Defender могут Центр безопасности в Microsoft Defender для выполнения подробного расследования, чтобы выявить область потенциального нарушения.
+- Исследование сервера . Клиенты Azure Defender могут Microsoft 365 Defender на портале, чтобы выполнить подробное исследование, чтобы выявить область потенциального нарушения.
 
 > [!IMPORTANT]
 > - При использовании Azure Defender для мониторинга серверов автоматически создается клиент Defender для конечных точек (в США для пользователей США, в ЕС для европейских и британских пользователей).<br>
@@ -255,7 +255,7 @@ Defender for Endpoint интегрируется с System Center Endpoint Prote
 
 1. Получите свой ID рабочего пространства:
 
-   1. В области навигации выберите **Параметры**  >  **onboarding**.
+   1. В области Microsoft 365 Defender навигации выберите **Параметры** управление устройствами конечных  >    >    >  **точек.**
 
    1. Выберите **Windows Server 2008 R2 SP1, 2012 R2 и 2016** в качестве операционной системы и получите свой ID рабочего пространства:
 

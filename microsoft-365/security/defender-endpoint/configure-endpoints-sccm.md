@@ -1,6 +1,6 @@
 ---
 title: Подключение устройств Windows 10 с помощью Configuration Manager
-description: Используйте Диспетчер конфигурации для развертывания пакета конфигурации на устройствах, чтобы они были размещены в службе.
+description: Используйте Диспетчер конфигурации для развертывания пакета конфигурации на устройствах, чтобы устройства были размещены в службе.
 keywords: бортовые устройства с помощью sccm, управления устройствами, настройка Microsoft Defender для устройств endpoint
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -17,14 +17,14 @@ ms.collection: M365-security-compliance
 ms.topic: article
 ms.date: 02/07/2020
 ms.technology: mde
-ms.openlocfilehash: d827fb89a082286b1b7b77ea0a14e588ce171161
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: d7c319e37fb804ee4dac3b6bff402942bbc2fa79
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52842198"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339662"
 ---
-# <a name="onboard-windows-10-devices-using-configuration-manager"></a>Подключение устройств Windows 10 с помощью Configuration Manager
+# <a name="onboard-the-windows-10-devices-using-configuration-manager"></a>На борту Windows 10 с помощью диспетчера конфигурации
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -71,9 +71,9 @@ ms.locfileid: "52842198"
 
 
 
-1. Откройте пакет конфигурации Configuration Manager .zip файл *(WindowsDefenderATPOnboardingPackage.zip), загруженный* из мастера бортового обслуживания. Вы также можете получить пакет из [Центр безопасности в Microsoft Defender:](https://securitycenter.windows.com/)
+1. Откройте пакет конфигурации Configuration Manager .zip файл *(WindowsDefenderATPOnboardingPackage.zip), загруженный* из мастера бортового обслуживания. Вы также можете получить пакет с [Microsoft 365 Defender портала:](https://security.microsoft.com/)
 
-    1. В области навигации выберите **Параметры**  >  **onboarding**.
+    1. В области навигации выберите **Параметры** управление устройствами конечных  >    >    >  **точек.**
     
     1. Выберите Windows 10 в качестве операционной системы.
 
@@ -102,10 +102,10 @@ ms.locfileid: "52842198"
 
 ### <a name="configure-sample-collection-settings"></a>Настройка параметров коллекции образцов
 
-Для каждого устройства можно установить значение конфигурации, чтобы определить, можно ли собирать образцы с устройства при Центр безопасности в Microsoft Defender отправки файла для глубокого анализа.
+Для каждого устройства можно установить значение конфигурации, чтобы определить, можно ли собирать образцы с устройства при Microsoft 365 Defender отправки файла для глубокого анализа.
 
 >[!NOTE]
->Эти параметры конфигурации обычно делаются с помощью Configuration Manager. 
+>Эти параметры конфигурации обычно делаются с помощью Configuration Manager.
 
 Вы можете установить правило соответствия требованиям для элемента конфигурации в диспетчере конфигурации, чтобы изменить пример параметров обмена данными на устройстве.
 
@@ -179,9 +179,9 @@ Value: 0 or 1
 
 ### <a name="offboard-devices-using-system-center-2012-r2-configuration-manager"></a>Offboard devices using System Center R2 Configuration Manager 2012
 
-1. Получите пакет offboarding из [Центр безопасности в Microsoft Defender:](https://securitycenter.windows.com/)
+1. Получите пакет offboarding с [Microsoft 365 Defender:](https://security.microsoft.com/)
 
-    1. В области навигации выберите **Параметры**  >   **Offboarding**.
+    1. В области навигации выберите отключение **Параметры** конечных  >  **точек** управления  >    >   **устройствами.**
 
     1. Выберите Windows 10 в качестве операционной системы.
 

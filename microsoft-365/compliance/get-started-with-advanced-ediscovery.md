@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: В этой статье описывается настройка Advanced eDiscovery, чтобы можно было приступить к созданию и управлению делами. В нем также описываются необходимые подписки и лицензирование Майкрософт. После выполнения нескольких быстрых действий средство Advanced eDiscovery готово к использованию.
-ms.openlocfilehash: 6c6aed482da8f203154d94313ec04519d6a330ea
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: be5e5aea03950d28889590004bd796455a71c5be
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50919753"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341452"
 ---
 # <a name="set-up-microsoft-365-advanced-ediscovery"></a>Настройка Microsoft 365 Advanced eDiscovery
 
@@ -46,7 +46,7 @@ Advanced eDiscovery в Microsoft 365 предоставляет конечный
 
 Выполните следующие действия, чтобы добавить пользователей в группу ролей диспетчера электронных данных:
 
-1. Перейдите и войдите в использование учетных данных учетной записи администратора в <https://protection.office.com/permissions> Microsoft 365 организации.
+1. Перейдите и войдите в использование учетных данных учетной записи администратора в <https://compliance.microsoft.com/permissions> Microsoft 365 организации.
 
 2. На странице **Разрешения выберите** группу **ролей диспетчера** электронных открытий.
 

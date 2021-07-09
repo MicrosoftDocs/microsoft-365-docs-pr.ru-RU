@@ -11,7 +11,7 @@ ms.topic: article
 ms.service: O365-seccomp
 ms.collection:
 - m365-security-compliance
-- m365solution-aed
+- m365solution-ediscovery
 - m365initiative-compliance
 - m365solution-overview
 localization_priority: Normal
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365 предлагает три средства для поиска и экспорта контента, найденного в разных местах, таких как Exchange почтовые ящики, сайты SharePoint и OneDrive для бизнеса, Microsoft 365 Группы, Microsoft Teams и Skype для бизнеса беседы. Core eDiscovery и Advanced eDiscovery предоставляют множество дополнительных функций, которые помогут вам управлять расследованиями.
-ms.openlocfilehash: dc332e1a399588e4a1e969af45da6cff92008461
-ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
+ms.openlocfilehash: a62c8a53081a79e4afd98c82bfaca486a6155a6b
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53256354"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341716"
 ---
 # <a name="ediscovery-solutions-in-microsoft-365"></a>решения по обнаружению электронных данных в Microsoft 365
 

@@ -17,12 +17,12 @@ ms.collection:
 description: Администраторы могут научиться настраивать почтовый ящик для сбора нежелательной почты и фишинга, о которых сообщают пользователи.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 2dded27d87ee5db0d1e71b643fe8244408ef1a24
-ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
+ms.openlocfilehash: 4f14f87355181e9b7f6c0b52aa6b122b560c5f23
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53096160"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53338689"
 ---
 # <a name="user-reported-message-settings"></a>Параметры сообщений пользователя, о чем сообщалось
 
@@ -69,15 +69,14 @@ ms.locfileid: "53096160"
 - Чтобы изменить конфигурацию для пользовательских представлений, необходимо быть членом одной из следующих групп ролей:
 
   - **Управление организацией** **или администратор безопасности** в [разрешениях на Microsoft 365 Defender портале](permissions-microsoft-365-security-center.md).
-  - **Управление организацией** [в Exchange Online](/Exchange/permissions-exo/permissions-exo#role-groups).
-
+  
 - Вам необходим доступ к Exchange Online PowerShell. Если учетная запись, которую вы пытаетесь использовать, не имеет доступа к Exchange Online PowerShell, при указании почтового ящика отправки вы получите ошибку, которая выглядит так:
 
   > Укажите адрес электронной почты в домене
 
   Дополнительные сведения о включив или отключив доступ к Exchange Online PowerShell, см. в следующих темах:
 
-  - [Включить или отключить доступ к Exchange Online PowerShell](/powershell/exchange/disable-access-to-exchange-online-powershell) 
+  - [Разрешение или отключение доступа к Exchange Online PowerShell](/powershell/exchange/disable-access-to-exchange-online-powershell) 
   - [Правила клиентского доступа в Exchange Online](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules)
 
 ## <a name="use-the-microsoft-365-defender-portal-to-configure-the-user-submissions-mailbox"></a>Используйте портал Microsoft 365 Defender для настройки почтового ящика отправки пользователей
@@ -140,7 +139,7 @@ ms.locfileid: "53096160"
 - 2| или Не нежелательной
 - 3| или фишинг
 
-Например:
+Пример:
 
 `3|This part is ignored by the system` <br>
 `Not Junk:This part of the subject is ignored as well`

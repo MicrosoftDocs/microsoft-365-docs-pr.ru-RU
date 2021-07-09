@@ -22,12 +22,12 @@ ms.assetid: 0ce338d5-3666-4a18-86ab-c6910ff408cc
 ms.custom:
 - seo-marvel-apr2020
 description: Узнайте, как импортировать сторонние данные с платформ социальных сетей, платформ обмена мгновенными сообщениями и платформ совместной работы с документами в Microsoft 365 почтовых ящиков.
-ms.openlocfilehash: 76df1ffa7afdeeda9a35744e9e4bfffae4576ca9
-ms.sourcegitcommit: 8c6a5db0dab99a82a69dd8a0a7c56af1cb825931
+ms.openlocfilehash: c5eebef3e2c6021efc08ff1ed41ba28bacc92487
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53276957"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339434"
 ---
 # <a name="archive-third-party-data-in-microsoft-365"></a>Архивировать сторонние данные в Microsoft 365
 
@@ -55,14 +55,14 @@ Microsoft 365 позволяет администраторам использо
 
 |Сторонние данные  |Удержание судебного разбирательства|Обнаружение электронных данных  |Параметры хранения  |Управление записями  |Соответствие требованиям к обмену данными  |Управление внутренними рисками  |
 |:---------|:---------|:---------|:---------|:---------|:---------|:---------|
-|[Сообщение Bloomberg](archive-bloomberg-message-data.md)     |![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)||
-|[Facebook](archive-facebook-data-with-sample-connector.md)     |![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|||
-|[Кадры (HR)](import-hr-data.md) ||||||![Галочка](../media/checkmark.png)
-|[ICE Chat](archive-icechat-data.md)     |![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)||
-|[Instant Bloomberg](archive-instant-bloomberg-data.md)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)||
-|[LinkedIn](archive-linkedin-data.md)   |![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|||
-|[Физическое плохое состояние](import-physical-badging-data.md) ||||||![Галочка](../media/checkmark.png)|
-|[Twitter](archive-twitter-data-with-sample-connector.md)     |![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|||
+|[Сообщение Bloomberg](archive-bloomberg-message-data.md)     |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Facebook](archive-facebook-data-with-sample-connector.md)     |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|||
+|[Кадры (HR)](import-hr-data.md) ||||||![Флажок](../media/checkmark.png)
+|[ICE Chat](archive-icechat-data.md)     |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Instant Bloomberg](archive-instant-bloomberg-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[LinkedIn](archive-linkedin-data.md)   |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|||
+|[Физическое плохое состояние](import-physical-badging-data.md) ||||||![Флажок](../media/checkmark.png)|
+|[Twitter](archive-twitter-data-with-sample-connector.md)     |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|||
 ||||||||
 
 ### <a name="veritas-data-connectors"></a>Соединители данных Veritas
@@ -73,32 +73,33 @@ Microsoft 365 позволяет администраторам использо
 
 |Сторонние данные  |Удержание судебного разбирательства|Обнаружение электронных данных  |Параметры хранения  |Управление записями  |Соответствие требованиям к обмену данными  |Управление внутренними рисками  |
 |:---------|:---------|:---------|:---------|:---------|:---------|:---------|
-|[CellTrust](archive-celltrust-data.md)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)||
-|[Cisco Jabber в MS SQL](archive-ciscojabberonmssql-data.md)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)||
-|[Cisco Jabber в Oracle](archive-ciscojabberonoracle-data.md)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)||
-|[Cisco Jabber в PostgreSQL](archive-ciscojabberonpostgresql-data.md)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)||
-|[EML](archive-eml-data.md)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|||
-|[FX Connect](archive-fxconnect-data.md)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)||
-|[Jive](archive-jive-data.md)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)||
-|[База данных SQL MS](archive-mssqldatabaseimporter-data.md)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|||
-|[Сводка](archive-pivot-data.md)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)||
-|[Redtail Speak](archive-redtailspeak-data.md)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)||
-|[Reuters Dealing](archive-reutersdealing-data.md)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)||
-|[Reuters Eikon](archive-reuterseikon-data.md)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)||
-|[Reuters FX](archive-reutersfx-data.md)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)||
-|[RingCentral](archive-ringcentral-data.md)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|||
-|[Salesforce Chatter](archive-salesforcechatter-data.md)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|||
-|[ServiceNow](archive-servicenow-data.md)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|||
-|[Slack eDiscovery](archive-slack-data.md)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)||
-|[Symphony](archive-symphony-data.md)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)||
-|[Text-delimited](archive-text-delimited-data.md)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|||
-|[Webex Teams](archive-webexteams-data.md)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)||
-|[Веб-страницы](archive-webpagecapture-data.md)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|||
-|[Workplace from Facebook](archive-workplacefromfacebook-data.md)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)||
-|[XIP](archive-xip-data.md)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)||
-|[XSLT/XML](archive-xslt-xml-data.md)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|||
-|[Yieldbroker](archive-yieldbroker-data.md)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)||
-|[Zoom Meetings](archive-zoommeetings-data.md)     |![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)||
+|[CellTrust](archive-celltrust-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Cisco Jabber в MS SQL](archive-ciscojabberonmssql-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Cisco Jabber в Oracle](archive-ciscojabberonoracle-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Cisco Jabber в PostgreSQL](archive-ciscojabberonpostgresql-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[EML](archive-eml-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|||
+|[FX Connect](archive-fxconnect-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Jive](archive-jive-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[База данных SQL MS](archive-mssqldatabaseimporter-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|||
+|[Сводка](archive-pivot-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Redtail Speak](archive-redtailspeak-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Reuters Dealing](archive-reutersdealing-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Reuters Eikon](archive-reuterseikon-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Reuters FX](archive-reutersfx-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[RingCentral](archive-ringcentral-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|||
+|[Salesforce Chatter](archive-salesforcechatter-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|||
+|[ServiceNow](archive-servicenow-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|||
+|[Skype для бизнеса](archive-skypeforbusiness-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|||
+|[Slack eDiscovery](archive-slack-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Symphony](archive-symphony-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Text-delimited](archive-text-delimited-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|||
+|[Webex Teams](archive-webexteams-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Веб-страницы](archive-webpagecapture-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|||
+|[Workplace from Facebook](archive-workplacefromfacebook-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[XIP](archive-xip-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[XSLT/XML](archive-xslt-xml-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|||
+|[Yieldbroker](archive-yieldbroker-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Zoom Meetings](archive-zoommeetings-data.md)     |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
 ||||||||
 
 ### <a name="telemessage-data-connectors"></a>Соединители данных TeleMessage
@@ -111,15 +112,17 @@ Microsoft 365 позволяет администраторам использо
 
 |Сторонние данные  |Удержание судебного разбирательства|Обнаружение электронных данных  |Параметры хранения  |Управление записями  |Соответствие требованиям к обмену данными  |Управление внутренними рисками  |
 |:---------|:---------|:---------|:---------|:---------|:---------|:---------|
-|[Android](archive-android-archiver-data.md)     |![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)||
-|[Сеть at&T](archive-att-network-archiver-data.md)     |![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)||
-|[Bell Network](archive-bell-network-data.md)     |![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)||
-|[Enterprise Number](archive-enterprise-number-data.md)     |![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)||
-|[O2 Network](archive-o2-network-data.md)     |![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)||
-|[TELUS Network](archive-telus-network-data.md)    |![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)||
-|[Verizon Network](archive-verizon-network-data.md)     |![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)||
-|[WeChat](archive-wechat-data.md)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)||
-|[WhatsApp](archive-whatsapp-data.md)     |![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)||
+|[Android](archive-android-archiver-data.md)     |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Сеть at&T](archive-att-network-archiver-data.md)     |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Bell Network](archive-bell-network-data.md)     |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Enterprise Number](archive-enterprise-number-data.md)     |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[O2 Network](archive-o2-network-data.md)     |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Signal](archive-signal-archiver-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Telegram](archive-telegram-archiver-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[TELUS Network](archive-telus-network-data.md)    |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Verizon Network](archive-verizon-network-data.md)     |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[WeChat](archive-wechat-data.md)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[WhatsApp](archive-whatsapp-data.md)     |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
 ||||||||
 
 ### <a name="17a-4-data-connectors"></a>Соединители данных.17a-4
@@ -130,23 +133,23 @@ Microsoft 365 позволяет администраторам использо
 
 |Сторонние данные  |Удержание судебного разбирательства|Обнаружение электронных данных  |Параметры хранения  |Управление записями  |Соответствие требованиям к обмену данными  |Управление внутренними рисками  |
 |:---------|:---------|:---------|:---------|:---------|:---------|:---------|
-|[BlackBerry](archive-17a-4-blackberry-data.md)     |![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)||
-|[Bloomberg](archive-17a-4-bloomberg-data.md)     |![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)||
-|[Cisco Jabber](archive-17a-4-cisco-jabber-data.md)   |![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)||
-|[Cisco Webex](archive-17a-4-webex-teams-data.md)   |![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)||
-|[FactSet](archive-17a-4-factset-data.md)    |![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)||
-|[Fuze](archive-17a-4-fuze-data.md)    |![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)||
-|[FX Connect](archive-17a-4-fxconnect-data.md)    |![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)||
-|[ICE Chat](archive-17a-4-ice-im-data.md)    |![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)||
-|[InvestEdge](archive-17a-4-investedge-data.md)    |![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)||
-|[Разговорное облако LivePerson](archive-17a-4-liveperson-data.md)    |![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)||
-|[Quip](archive-17a-4-quip-data.md)    |![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)||
-|[Refinitiv Eikon Messenger](archive-17a-4-refinitiv-messenger-data.md)    |![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)||
-|[ServiceNow](archive-17a-4-servicenow-data.md)    |![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)||
-|[Slack](archive-17a-4-slack-data.md)    |![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)||
-|[SQL](archive-17a-4-sql-database-data.md)    |![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)||
-|[Symphony](archive-17a-4-symphony-data.md)    |![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)||
-|[Zoom](archive-17a-4-zoom-data.md)    |![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)||
+|[BlackBerry](archive-17a-4-blackberry-data.md)     |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Bloomberg](archive-17a-4-bloomberg-data.md)     |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Cisco Jabber](archive-17a-4-cisco-jabber-data.md)   |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Cisco Webex](archive-17a-4-webex-teams-data.md)   |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[FactSet](archive-17a-4-factset-data.md)    |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Fuze](archive-17a-4-fuze-data.md)    |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[FX Connect](archive-17a-4-fxconnect-data.md)    |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[ICE Chat](archive-17a-4-ice-im-data.md)    |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[InvestEdge](archive-17a-4-investedge-data.md)    |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Разговорное облако LivePerson](archive-17a-4-liveperson-data.md)    |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Quip](archive-17a-4-quip-data.md)    |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Refinitiv Eikon Messenger](archive-17a-4-refinitiv-messenger-data.md)    |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[ServiceNow](archive-17a-4-servicenow-data.md)    |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Slack](archive-17a-4-slack-data.md)    |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[SQL](archive-17a-4-sql-database-data.md)    |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Symphony](archive-17a-4-symphony-data.md)    |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
+|[Масштаб](archive-17a-4-zoom-data.md)    |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
 ||||||||
 
 ### <a name="celltrust-data-connectors"></a>Соединители данных CellTrust
@@ -157,7 +160,7 @@ Microsoft 365 позволяет администраторам использо
 
 |Сторонние данные  |Удержание судебного разбирательства|Обнаружение электронных данных  |Параметры хранения  |Управление записями  |Соответствие требованиям к обмену данными  |Управление внутренними рисками  |
 |:---------|:---------|:---------|:---------|:---------|:---------|:---------|
-|[CellTrust SL2](archive-data-from-celltrustsl2.md)     |![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)|![Галочка](../media/checkmark.png)||
+|[CellTrust SL2](archive-data-from-celltrustsl2.md)     |![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)|![Флажок](../media/checkmark.png)||
 ||||||||
 
 ## <a name="overview-of-compliance-solutions-that-support-third-party-data"></a>Обзор решений по обеспечению соответствия требованиям, поддерживающая сторонние данные

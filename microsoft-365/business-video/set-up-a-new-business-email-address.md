@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Узнайте, как настроить новый бизнес-адрес электронной почты.
-ms.openlocfilehash: df984cbee8bdd1bdd40ca8d9b87c71222db0f69d
-ms.sourcegitcommit: ddb1bf56bcba4f03c803f79492e8cd0dc41a3d7a
+ms.openlocfilehash: 004cdd3abf9b8f8dec34dbfe9739102af081c769
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52065187"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341548"
 ---
 # <a name="set-up-a-new-business-email-address"></a>Настройка нового рабочего адреса электронной почты
 
@@ -55,7 +55,7 @@ ms.locfileid: "52065187"
 
 Используйте доменное имя, которое уже принадлежит вам, независимо от того, используете ли вы его для веб-сайта или адреса электронной почты у другого поставщика. 
 
-## <a name="try-it"></a>Проверьте, как это работает!
+## <a name="give-it-a-try"></a>Попробуйте!
  
 1. Вопишитесь на веб-сайт, на котором размещен ваш домен. Нажмите кнопку, чтобы проверить автоматически или обновить домен вручную. 
 1. Настройте адрес электронной почты или оставьте его как есть. 

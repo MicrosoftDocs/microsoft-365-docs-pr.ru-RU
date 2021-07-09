@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Администраторы могут настроить соединители TeleMessage для импорта и архива данных передачи сигнала в Microsoft 365. Это позволяет архивировать данные из сторонних источников данных в Microsoft 365, чтобы управлять сторонними данными с помощью функций соответствия требованиям, таких как юридические удержания, поиск контента и политики хранения.
-ms.openlocfilehash: a779cb312e20fdf5fac0987a33734e7e81ba9c74
-ms.sourcegitcommit: fa9efab24a84f71fec7d001f2ad8949125fa8eee
+ms.openlocfilehash: bce1788f2ce08ca8678c5ba29c01e1bec2d1c834
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53054893"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339470"
 ---
-# <a name="set-up-a-connector-to-archive-signal-communications-data-preview"></a>Настройка соединитетеля для архива данных передачи сигнала (предварительный просмотр)
+# <a name="set-up-a-connector-to-archive-signal-communications-data"></a>Настройка соединитетеля для архива данных передачи сигнала
 
 Используйте соединители TeleMessage в Центр соответствия требованиям Microsoft 365 для импорта и архива чатов, вложений, файлов и удаленных сообщений и вызовов. После настройки соединители он подключается к учетной записи TeleMessage вашей организации и импортирует мобильную связь сотрудников с помощью архива сигналов TeleMessage в почтовые ящики в Microsoft 365.
 

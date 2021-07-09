@@ -1,6 +1,6 @@
 ---
 title: Подключение устройств Windows 10 с помощью локального сценария
-description: Чтобы развернуть пакет конфигурации на устройствах, чтобы они были на борту службы, используйте локальный скрипт.
+description: Использование локального скрипта для развертывания пакета конфигурации на устройствах, чтобы включить развертывание устройств в службу.
 keywords: настройка устройств с помощью локального скрипта, управления устройствами, настройка Microsoft Defender для устройств endpoint
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,14 +16,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 2510fb1a187bbe136669e11bc73103438b51d811
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: e15a02753c7a1b346021a4351af24b8fd28315da
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52842174"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339650"
 ---
-# <a name="onboard-windows-10-devices-using-a-local-script"></a>Подключение устройств Windows 10 с помощью локального сценария
+# <a name="onboard-the-windows-10-devices-using-a-local-script"></a>На борту Windows 10 с помощью локального скрипта
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../../includes/microsoft-defender.md)]
 
@@ -47,9 +47,9 @@ ms.locfileid: "52842174"
 Ознакомьтесь с [PDF или Visio,](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.pdf) чтобы увидеть различные пути развертывания Defender для конечной точки. [](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/security/defender-endpoint/downloads/mdatp-deployment-strategy.vsdx) 
 
 
-1.  Откройте пакет конфигурации GP .zip *(WindowsDefenderATPOnboardingPackage.zip),* который вы скачали из мастера бортового обслуживания. Вы также можете получить пакет из [Центр безопасности в Microsoft Defender:](https://securitycenter.windows.com/)
+1.  Откройте пакет конфигурации GP .zip *(WindowsDefenderATPOnboardingPackage.zip),* который вы скачали из мастера бортового обслуживания. Вы также можете получить пакет с [портала Microsoft 365 Defender:](https://security.microsoft.com/)
 
-    1. В области навигации выберите **Параметры**  >  **onboarding**.
+    1. В области навигации выберите **Параметры** управление устройствами конечных  >    >    >  **точек.**
 
     1. Выберите Windows 10 в качестве операционной системы.
 
@@ -66,7 +66,7 @@ ms.locfileid: "52842174"
 
     1.  Щелкните правой кнопкой мыши пункт **Командная строка** и выберите команду **Запуск от имени администратора**.
 
-        ![Меню Пуск окна, указывав на запуск в качестве администратора](images/run-as-admin.png)
+        ![Окно меню , указывав на запуск в качестве администратора](images/run-as-admin.png)
 
 4.  Введите расположение файла скрипта. Если вы скопировали файл на рабочий стол, введите: *%userprofile%\Desktop\WindowsDefenderATPLocalOnboardingScript.cmd*
 
@@ -79,7 +79,7 @@ ms.locfileid: "52842174"
 > После работы на устройстве можно выполнить тест обнаружения, чтобы убедиться, что устройство правильно вошел в службу. Дополнительные сведения см. в сайте [Run a detection test on a newly onboarded Microsoft Defender for Endpoint endpoint.](run-detection-test.md)
 
 ## <a name="configure-sample-collection-settings"></a>Настройка параметров коллекции образцов
-Для каждого устройства можно установить значение конфигурации, чтобы определить, можно ли собирать образцы с устройства при Центр безопасности в Microsoft Defender отправки файла для глубокого анализа.
+Для каждого устройства можно установить значение конфигурации, чтобы определить, можно ли собирать образцы с устройства при Microsoft 365 Defender отправки файла для глубокого анализа.
 
 Вы можете вручную настроить параметр обмена примерами на устройстве с помощью *regedit* или создания и запуска *файла .reg.*  
 
@@ -105,9 +105,9 @@ Value: 0 or 1
 > [!NOTE]
 > На одном устройстве одновременно не следует развертывать политики бортового и оффбординга, в противном случае это приведет к непредсказуемым столкновениям.
 
-1. Получите пакет offboarding из [Центр безопасности в Microsoft Defender:](https://securitycenter.windows.com/)
+1. Получите пакет offboarding с [Microsoft 365 Defender:](https://security.microsoft.com/)
 
-    1. В области навигации выберите **Параметры**  >  **Offboarding**.
+    1. В области навигации выберите отключение **Параметры** конечных  >  **точек** управления  >    > **устройствами.**
 
     1. Выберите Windows 10 в качестве операционной системы.
 
@@ -123,7 +123,7 @@ Value: 0 or 1
 
     1.  Щелкните правой кнопкой мыши пункт **Командная строка** и выберите команду **Запуск от имени администратора**.
 
-        ![Меню Пуск окна, указывав на запуск в качестве администратора](images/run-as-admin.png)
+        ![Окно меню , указывав на запуск в качестве администратора](images/run-as-admin.png)
 
 4.  Введите расположение файла скрипта. Если вы скопировали файл на рабочий стол, введите: *%userprofile%\Desktop\WindowsDefenderATPOffboardingScript_valid_until_YYYY-MM-DD.cmd*
 
@@ -139,9 +139,9 @@ Value: 0 or 1
 Мониторинг также можно сделать непосредственно на портале или с помощью различных средств развертывания.
 
 ### <a name="monitor-devices-using-the-portal"></a>Мониторинг устройств с помощью портала
-1. Перейдите в Центр безопасности в Microsoft Defender.
+1. Перейдите на Microsoft 365 Defender портал.
 
-2. Щелкните **список Устройств**.
+2. Щелкните **инвентаризацию устройств.**
 
 3. Убедитесь, что устройства отображаются.
 

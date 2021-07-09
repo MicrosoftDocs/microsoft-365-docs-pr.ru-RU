@@ -1,6 +1,6 @@
 ---
 title: Поля API для обнаружения конечных точек Microsoft Defender
-description: Понимание того, как поля API обнаружения соотносят с значениями в Центр безопасности в Microsoft Defender
+description: Понимание того, как поля API обнаружения соотносят с значениями в Microsoft 365 Defender
 keywords: обнаружения, обнаружения полей, полей, api, полей, обнаружения тяги, api отдыха, запроса, ответа
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: d6d2ad9abe88d0099b58dd2df486120082bb22c1
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: f9a0d4ddeee5c1dc49c53e324854cabccc5f79e5
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933641"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339554"
 ---
 # <a name="microsoft-defender-for-endpoint-detections-api-fields"></a>Поля API для обнаружения конечных точек Microsoft Defender
 
@@ -33,11 +33,11 @@ ms.locfileid: "51933641"
 
 >Хотите испытать Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-apiportalmapping-abovefoldlink)
 
-Сведения о том, какие поля данных находятся в API обнаружения и как они соотносят с Центр безопасности в Microsoft Defender.
+Сведения о том, какие поля данных находятся в API обнаружения и как они соотносят с Microsoft 365 Defender.
 
 >[!Note]
 >- [Defender for Endpoint Alert](alerts.md) состоит из одного или нескольких обнаружений.
->- **ATP в Защитнике Microsoft обнаружения** состоит из подозрительного события, произошедшего на устройстве, и связанных с ним сведений **оповещения.**
+>- **Обнаружение ATP Защитника Майкрософт** состоит из подозрительного события, произошедшего на устройстве, и связанных с ним сведений **оповещения.**
 >- API оповещений Microsoft Defender для конечных точек — это последний API для потребления оповещений и содержит подробный список связанных данных для каждого оповещения. Дополнительные сведения см. в [дополнительных сведениях о](alerts.md) методах и свойствах alert и [list alerts.](get-alerts.md)
 
 ## <a name="detections-api-fields-and-portal-mapping"></a>Обнаружение полей API и сопоставления портала
@@ -52,8 +52,8 @@ ms.locfileid: "51933641"
 > | Метка портала   | Имя поля SIEM           | Поле ArcSight      | Пример значения                                                                      | Описание                                                                                                                                                                    |
 > |------------------|---------------------------|---------------------|------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 > | 1                | AlertTitle                | name                | Microsoft Defender AV обнаружил вредоносные программы с высокой степенью серьезности "Mikatz" | Значение, доступное для каждого обнаружения.                                                                                                                                               |
-> | 2                | Серьезность                  | deviceSeverity      | Фишинговое сообщение с                                                                             | Значение, доступное для каждого обнаружения.                                                                                                                                               |
-> | 3                | Category                  | deviceEventCategory | Вредоносные программы                                                               | Значение, доступное для каждого обнаружения.                                                                                                                                               |
+> | 2                | Severity                  | deviceSeverity      | Высокая                                                                             | Значение, доступное для каждого обнаружения.                                                                                                                                               |
+> | 3                | Категория                  | deviceEventCategory | Вредоносные программы                                                               | Значение, доступное для каждого обнаружения.                                                                                                                                               |
 > | 4                 | Источник обнаружения                    | sourceServiceName   | Защита от вирусов                                                                 | антивирусная программа в Microsoft Defender или Defender для конечной точки. Значение, доступное для каждого обнаружения.                                                                                         |
 > | 5                 | MachineName               | sourceHostName      | desktop-4a5ngd6                                                                           | Значение, доступное для каждого обнаружения.                                                                                                                                               |
 > | 6                 | FileName                  | fileName            | Robocopy.exe                                                                       | Доступно для обнаружения, связанного с файлом или процессом.                                                                                                                      |
@@ -61,7 +61,7 @@ ms.locfileid: "51933641"
 > | 8                 | UserDomain                | sourceNtDomain      | CONTOSO                                                                            | Домен пользовательского контекста, в котором работает действие, доступен для обнаружения поведенческих данных Defender для конечной точки.                                                           |
 > | 9                 | UserName                  | sourceUserName      | liz.bean                                                                           | Пользовательский контекст действия, доступный для обнаружения поведенческих данных Defender для конечной точки.                                                                           |
 > | 10                | Sha1                      | fileHash            | 3da065e07b990034e9db7842167f70b63aa5329                                           | Доступно для обнаружения, связанного с файлом или процессом.                                                                                                                      |
-> | 11               | Sha256                    | deviceCustomString6 | ebf54f745dc81e1958f75e4ca91dd0ab989fc9787bb6b0bf993e2f5                   | Доступно для обнаружения av Microsoft Defender.                                                                                                                                    |
+> | 11                | Sha256                    | deviceCustomString6 | ebf54f745dc81e1958f75e4ca91dd0ab989fc9787bb6b0bf993e2f5                   | Доступно для обнаружения av Microsoft Defender.                                                                                                                                    |
 > | 12                | Md5                       | deviceCustomString5 | db979c04a99b96d370988325bb5a8b21                                                   | Доступно для обнаружения av Microsoft Defender.                                                                                                                                    |
 > | 13               | ThreatName                | deviceCustomString1  | HackTool:Win32/Mikatz!dha                                                         | Доступно для обнаружения av Microsoft Defender.                                                                                                                                    |
 > | 14                | IpAddress                 | sourceAddress       | 218.90.204.141                                                                     | Доступно для обнаружения, связанного с сетевыми событиями. Например, "Связь с вредоносным сетевым назначением".                                                        |
@@ -82,7 +82,7 @@ ms.locfileid: "51933641"
 | | IncidentLinkToWDATP | Нет сопоставления | `https://securitycenter.windows.com/incidents/byalert?alertId=da637370718981685665_16349121&source=SIEM` | Значение, доступное для каждого обнаружения.
 > | Внутреннее поле | LastProcessedTimeUtc      | Нет сопоставления          | 2017-05-07T01:56:58.9936648Z                                                       | Время, когда событие прибыло в задней части. Это поле можно использовать при настройке параметра запроса для диапазона времени получения обнаружения.                         |
 > |                  | Не входит в схему    | deviceVendor        |                                                                                    | Статическое значение в сопоставлении ArcSight — "Microsoft".                                                                                                                          |
-> |                  | Не входит в схему    | deviceProduct       |                                                                                    | Статическое значение в сопоставлении ArcSight — "ATP в Защитнике Microsoft".                                                                                                               |
+> |                  | Не входит в схему    | deviceProduct       |                                                                                    | Статическое значение в сопоставлении ArcSight — "Microsoft Defender ATP".                                                                                                               |
 > |                  | Не входит в схему    | deviceVersion       |                                                                                    | Статическое значение в сопоставлении ArcSight — "2.0", используемом для определения версий сопоставления.                                                                                         
 
 

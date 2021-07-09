@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 0ed494cc29eb990430be590e62db5f0365ace494
-ms.sourcegitcommit: b0f464b6300e2977ed51395473a6b2e02b18fc9e
+ms.openlocfilehash: 0b6edbdcda61eaf402275ae0b6dc9a38c5fe19f7
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53322429"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339494"
 ---
 # <a name="microsoft-defender-for-endpoint-preview-features"></a>Функции предварительного просмотра в Microsoft Defender для конечной точки
 
@@ -54,7 +54,7 @@ ms.locfileid: "53322429"
 - Полностью поддерживается Корпорацией Майкрософт.
 - Может быть доступно только в отдельных географических регионах или облачных средах. Например, эта функция может не существовать в облаке правительства.
 - Отдельные функции в предварительном просмотре могут иметь больше ограничений на использование и поддержку. Если это так, эти сведения обычно отмечаются в документации по функциям.
-- Предварительные версии обеспечиваются стандартным уровнем поддержки и рекомендуется для рабочих нагрузок. 
+- Предварительные версии обеспечиваются стандартным уровнем поддержки и могут использоваться для производственных сред. 
 
 
 

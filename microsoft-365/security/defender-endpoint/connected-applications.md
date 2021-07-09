@@ -17,12 +17,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 06ef716e9deee7b20e8615bd22c93130ee18b77f
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 4b212acdf4bdf8fa53ef00763463190e204fc1ed
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52845586"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339170"
 ---
 # <a name="connected-applications-in-microsoft-defender-for-endpoint"></a>Подключенные приложения в Microsoft Defender для конечной точки
 
@@ -42,7 +42,7 @@ ms.locfileid: "52845586"
 Чтобы использовать API [](/microsoft-365/security/defender-endpoint/apis-intro) с подключенным приложением, необходимо следовать этим шагам.
  
 ## <a name="access-the-connected-application-page"></a>Доступ к подключенной странице приложения
-Из левого меню навигации выберите **приложения &**  >  **AAD.**
+В левом меню навигации выберите **приложения Endpoints**  >  **Partners и API**  >  **Connected.**
 
  
 ## <a name="view-connected-application-details"></a>Просмотр сведений о подключенных приложениях

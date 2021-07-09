@@ -29,12 +29,12 @@ search.appverid:
 - ODB160
 ms.assetid: 7aa9cdc8-2245-4218-81ee-86fa7c35f1de
 description: Узнайте, как использовать OneDrive и сайт группы для Microsoft 365 и Microsoft 365 общего доступа к файлам.
-ms.openlocfilehash: 3ededbf2899ffd45915ad25370d5e5c93906c862
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 5ab0a192cb5706b6aff6cdeb30fa566de74dd510
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52924615"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53338665"
 ---
 # <a name="set-up-file-storage-and-sharing-in-microsoft-365"></a>Настройка хранения и общего доступа к файлам в Microsoft 365
 
@@ -44,7 +44,7 @@ ms.locfileid: "52924615"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FTHX] 
 
-Если это видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](../../business-video/index.yml).
+Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](../../business-video/index.yml).
 
 ## <a name="microsoft-365-document-storage-and-management"></a>Microsoft 365 хранения и управления документами
 
@@ -62,7 +62,7 @@ ms.locfileid: "52924615"
 |Место хранения|Для чего это нужно|Что следует хранить|
 |:-----|:-----|:-----|
 |**OneDrive** |Хранение контента в OneDrive как хранение файлов на компьютере; никто другой не может легко получить к ним доступ.<br/> Дополнительные сведения см. [в OneDrive для бизнеса?](https://support.microsoft.com/office/187f90af-056f-47c0-9656-cc0ddca7fdc2) <br/> |Рабочие файлы, регулярный доступ к которым или возможность их совместного использования участниками рабочей группы не требуются.<br/> |
-|**Сайты групп SharePoint** <br/> |Совместная работа. При создании Microsoft 365 группы (например, в центре администрирования Microsoft 365, в Outlook или при создании группы в Microsoft Teams) для этой группы создается сайт SharePoint группы. Кроме того, при создании SharePoint на домашней странице SharePoint или из центра администрирования SharePoint создается Microsoft 365 группа. Дополнительные сведения см. в SharePoint сайте [группы?](https://support.microsoft.com/office/75545757-36c3-46a7-beed-0aaa74f0401e) и создать сайт [группы в SharePoint Online](https://support.microsoft.com/office/ef10c1e7-15f3-42a3-98aa-b5972711777d).  <br/> |Файлы, которые имеют общую собственность. Мы рекомендуем отдельные сайты группы для каждого подразделения работы в вашей организации. Например, чтобы сохранить персонал и финансовые документы закрытыми для небольшой группы, создайте отдельный сайт группы.  <br/> |
+|**Сайты групп SharePoint** <br/> |Совместная работа. При создании Microsoft 365 группы (например, в Центр администрирования Microsoft 365, Outlook или путем создания группы в Microsoft Teams) для этой группы создается сайт SharePoint группы. Кроме того, при создании SharePoint на домашней странице SharePoint или из центра администрирования SharePoint создается Microsoft 365 группа. Дополнительные сведения см. в SharePoint сайте [группы?](https://support.microsoft.com/office/75545757-36c3-46a7-beed-0aaa74f0401e) и создать сайт [группы в SharePoint Online](https://support.microsoft.com/office/ef10c1e7-15f3-42a3-98aa-b5972711777d).  <br/> |Файлы, которые имеют общую собственность. Мы рекомендуем отдельные сайты группы для каждого подразделения работы в вашей организации. Например, чтобы сохранить персонал и финансовые документы закрытыми для небольшой группы, создайте отдельный сайт группы.  <br/> |
 
 > [!NOTE]
 > SharePoint также имеет другие типы сайтов, которые можно использовать для бизнеса. Вы можете использовать [сайты связи](https://support.microsoft.com/office/7fb44b20-a72f-4d2c-9173-fc8f59ba50eb) в интрасети для публикации сведений для широкой аудитории. И вы можете использовать [сайты-концентраторы](https://support.microsoft.com/office/fe26ae84-14b7-45b6-a6d1-948b3966427f) для подключения сайтов в интрасети.
@@ -77,7 +77,7 @@ ms.locfileid: "52924615"
   
 Вот как каждый человек в вашей команде может настроить OneDrive и поделиться файлами.
 
-1. Перейдите на <a href="https://portal.office.com/ " target="_blank">портал Microsoft 365 и</a>войдите с именем пользователя и паролем.
+1. Перейдите в <a href="https://admin.mirosoft.com/ " target="_blank">Центр администрирования Microsoft 365</a>и войдите с именем пользователя и паролем.
 
 2. В пусковом **пусков OneDrive ом**
 
@@ -205,8 +205,8 @@ ms.locfileid: "52924615"
 
   - [Настройка Office на Windows Phone с Microsoft 365](https://support.microsoft.com/office/2b7c1b51-a717-45d6-90c9-ee1c1c5ee0b7)
 
-## <a name="related-content"></a>См. также:
+## <a name="related-content"></a>Связанные материалы
 
 [Добавление пространства для хранения подписки](../../commerce/add-storage-space.md) (статья)\
-[Делитесь файлами](https://support.microsoft.com/office/share-files-and-folders-with-microsoft-365-business-72f26d6c-bf9e-432c-8b96-e3c2437f5b65) и папками с Microsoft 365 бизнес (видео)\
+[Делитесь файлами](https://support.microsoft.com/office/share-files-and-folders-with-microsoft-365-business-72f26d6c-bf9e-432c-8b96-e3c2437f5b65) и папками с Microsoft 365 business (видео)\
 [Настройка сайта группы для хранения и обмена](customize-team-site.md) файлами (статья)

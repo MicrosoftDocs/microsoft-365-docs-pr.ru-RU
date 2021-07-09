@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: 72bbad69-035b-4d33-b8f4-549a2743e97d
 ROBOTS: NOINDEX, NOFOLLOW
 description: Добавление и управление оповещениями о действиях в Центре & безопасности, чтобы Microsoft 365 отправлять уведомления по электронной почте при выполнении пользователями определенных действий
-ms.openlocfilehash: d0daa9249a8ea69c376ef7bbc8b7a90253e411db
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: b48093de66fdefa9a298b6cdc0f0324ee720fbbf
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53227167"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341608"
 ---
 # <a name="create-activity-alerts"></a>Создание оповещений об активности
 
@@ -46,9 +46,9 @@ ms.locfileid: "53227167"
 
 ## <a name="create-an-activity-alert"></a>Создание оповещений об активности
 
-1. Перейдите по ссылке [https://protection.office.com/managealerts](https://protection.office.com/managealerts).
+1. Перейдите на сайт <https://compliance.microsoft.com/managealerts>.
 
-2. Выполните вход с помощью рабочей или учебной учетной записи.
+2. Выполните вход с помощью учетной записи вашей организации или учебного заведения.
 
 3. На странице **Оповещений об активности** нажмите ![ кнопку Добавить значок ](../media/8ee52980-254b-440b-99a2-18d068de62d3.gif) **New**.
 
@@ -85,7 +85,7 @@ ms.locfileid: "53227167"
 
 Вы можете отключить оповещение о действии, чтобы уведомление электронной почты не было отправлено. После отключения оповещений о действии оно по-прежнему отображается в списке оповещений о действиях для организации, и вы можете просматривать его свойства.
 
-1. Перейти к [https://protection.office.com/managealerts](https://protection.office.com/managealerts) Перейти к .
+1. Перейдите на сайт <https://compliance.microsoft.com/managealerts>.
 
 2. Выполните вход с помощью учетной записи вашей организации или учебного заведения.
 
@@ -97,7 +97,7 @@ ms.locfileid: "53227167"
 
 Чтобы включить оповещение о действии, просто повторите эти действия и щелкните переключатель **Off** toggle, чтобы изменить состояние **на On**.
 
-## <a name="more-information"></a>Дополнительная информация
+## <a name="more-information"></a>Дополнительные сведения
 
 - Вот пример уведомления электронной почты, которое отправляется пользователям, указанным в поле Отправка этого оповещения  (и перечисленное в статье **Получатели** на странице Оповещений об активности) в Центре & соответствия требованиям.
 
