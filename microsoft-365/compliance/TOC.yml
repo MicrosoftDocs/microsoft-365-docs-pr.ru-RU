@@ -429,7 +429,7 @@
               href: archive-salesforcechatter-data.md
             - name: ServiceNow
               href: archive-servicenow-data.md
-            - name: Skype для бизнеса (предварительная версия)
+            - name: Skype для бизнеса
               href: archive-skypeforbusiness-data.md
             - name: Slack eDiscovery
               href: archive-slack-data.md
@@ -463,9 +463,9 @@
               href: archive-enterprise-number-data.md
             - name: Архиватор SMS и голосовой сети O2 Telefonica
               href: archive-o2-network-data.md
-            - name: Signal (предварительная версия)
+            - name: Архиватор сигналов
               href: archive-signal-archiver-data.md
-            - name: Telegram (предварительная версия)
+            - name: Архиватор Telegram
               href: archive-telegram-archiver-data.md
             - name: TELUS Network
               href: archive-telus-network-data.md
