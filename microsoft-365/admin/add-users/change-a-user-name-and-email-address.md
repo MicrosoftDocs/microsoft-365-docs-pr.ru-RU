@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: fb5ac074-e203-4e1f-9843-b9d1a3e03297
 description: 'Узнайте, как глобальный администратор Microsoft 365 может изменить адрес электронной почты при изменении имени пользователя. '
-ms.openlocfilehash: fdba2191449bc3ea5aae5b5bde73fe5294b1f9d3
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 3215044f94d3b4e77860434ab28eed8a36754f12
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53228367"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341024"
 ---
 # <a name="change-a-user-name-and-email-address"></a>Изменение имени пользователя и адреса электронной почты
 
@@ -64,9 +64,9 @@ ms.locfileid: "53228367"
 
 1. Выберите имя пользователя, а затем на вкладке **Учетная запись** выберите **Управление именем пользователя**.
 
-1. В первом поле введите первую часть нового адреса электронной почты. Если вы добавили в Microsoft 365 собственный домен, выберите домен для нового псевдонима электронной почты в раскрывающемся списке.
+1. В первом поле введите первую часть нового адреса электронной почты. Если вы добавили в Microsoft 365 собственный домен, его можно выбрать для нового псевдонима в раскрывающемся списке. [Узнайте, как добавить домен](../setup/add-domain.md).
 
-1. Нажмите кнопку **Сохранить изменения**.
+1. Нажмите **Сохранить изменения**.
 
 > [!IMPORTANT]
 > Если появляется сообщение об ошибке, см. статью [Устранение сообщений об ошибках](#resolve-error-messages).
@@ -118,7 +118,7 @@ ms.locfileid: "53228367"
 
 ::: moniker range="o365-worldwide"
 
-1. В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Активные пользователи</a>.
+1. В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Активные пользователи</a>. 
 
 ::: moniker-end
 
@@ -177,6 +177,7 @@ Set-MsolUserPrincipalName -UserPrincipalName anne.wallace@contoso.onmicrosoft.co
 
 ## <a name="related-content"></a>См. также:
 
-[Для администраторов: сброс пароля для одного или нескольких пользователей](reset-passwords.md) (статья)\
-[Добавление еще одного адреса электронной почты для пользователя](../email/add-another-email-alias-for-a-user.md) (статья)\
-[Создание общего почтового ящика](../email/create-a-shared-mailbox.md) (статья)
+[Добавление домена](../setup/add-domain.md)
+[Для администраторов: сброс пароля для одного или нескольких пользователей](reset-passwords.md)
+[Добавление дополнительных адресов электронной почты для пользователя](../email/add-another-email-alias-for-a-user.md)
+[Создание общего почтового ящика](../email/create-a-shared-mailbox.md)

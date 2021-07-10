@@ -12,16 +12,16 @@ localization_priority: Normal
 ms.custom: AdminSurgePortfolio
 ROBOTS: NOINDEX, NOFOLLOW
 description: Узнайте, как перейти от Microsoft Cloud Germany Exchange Online к глобальной Exchange Online службе
-ms.openlocfilehash: 8de64e30205b07a0c20a8ae4f7cdedbf6cc6824f
-ms.sourcegitcommit: 628f195cbe3c00910f7350d8b09997a675dde989
+ms.openlocfilehash: 93eab2c4e0ab2f841359061ebdca69967d8d7d33
+ms.sourcegitcommit: 7dc3b4dec05299abb4290a6e3d1ebe0fdc622ed7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48644859"
+ms.lasthandoff: 07/10/2021
+ms.locfileid: "53363875"
 ---
 # <a name="update-your-mx-records-to-transition-to-the-global-exchange-online-service"></a>Обновление записей MX для перехода на глобальную Exchange Online службу
 
-1. Войдите в [Microsoft 365 портал администрирования](https://admin.microsoft.com)и перейдите **в Параметры**  >  **домены**
+1. Войдите в [Центр администрирования Microsoft 365](https://admin.microsoft.com)и перейдите **в Параметры**  >  **домены**
 
 2. Состояние будет показано справа для каждого домена. Если домены организации указывают на microsoft Cloud Germany Exchange Online, вам потребуется обновить запись MX.
 

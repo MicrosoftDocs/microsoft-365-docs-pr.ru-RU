@@ -12,13 +12,13 @@ ms.collection: Strat_SP_gtc
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: Узнайте, как настроить поиск в многоэтабной среде. Только некоторые клиенты, например OneDrive для бизнеса, могут возвращать результаты в среде с несколькими географическими условиями.
-ms.openlocfilehash: 31e0c4ae3fe73f2f6e113dbc38989726eb1ca590
-ms.sourcegitcommit: bc64d9f619259bd0a94e43a9010aae5cffb4d6c4
+description: Узнайте, как настроить поиск в многоэтабной среде. Только некоторые клиенты, например OneDrive, могут возвращать результаты в среде с несколькими географическими условиями.
+ms.openlocfilehash: dfc9e3dd986132810f363ba47ba18eae45666fc7
+ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53022334"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53362274"
 ---
 # <a name="configure-search-for-microsoft-365-multi-geo"></a>Настройка поиска для Microsoft 365 Multi-Geo
 
@@ -30,13 +30,13 @@ ms.locfileid: "53022334"
 
 Возвращать результаты поиска из всех географических расположений могут такие клиенты:
 
-- OneDrive для бизнеса;
+- OneDrive
 - Delve;
 - домашняя страница SharePoint;
 - центр поиска;
 - специальные поисковые приложения, которые используют API поиска SharePoint.
 
-### <a name="onedrive-for-business"></a>OneDrive для бизнеса
+### <a name="onedrive"></a>OneDrive
 
 Как только завершится настройка среды с поддержкой нескольких регионов, пользователи, выполняющие поиск в OneDrive, получат результаты из всех географических расположений.
 
@@ -65,9 +65,9 @@ ms.locfileid: "53022334"
 <table>
 <thead>
 <tr class="header">
-<th align="left"><strong>Функция</strong></th>
-<th align="left"><strong>Принцип работы</strong></th>
-<th align="left"><strong>Решение</strong></th>
+<th align="left">Функция</th>
+<th align="left">Принципы работы</th>
+<th align="left">Обходной путь</th>
 </tr>
 </thead>
 <tbody>
@@ -111,8 +111,8 @@ ms.locfileid: "53022334"
 <table>
 <thead>
 <tr class="header">
-<th align="left"><strong>Функция поиска</strong></th>
-<th align="left"><strong>Примечание</strong></th>
+<th align="left">Функция поиска</th>
+<th align="left">Примечание</th>
 </tr>
 </thead>
 <tbody>
@@ -121,8 +121,8 @@ ms.locfileid: "53022334"
 <td align="left">При поиске в среде с поддержкой нескольких регионов невозможна проверка подлинности только для приложений (привилегированный доступ из служб).</td>
 </tr>
 <tr class="even">
-<td align="left">Гостевые пользователи</td>
-<td align="left">Гостевые пользователи получают результаты только из того географического расположения, из которого они выполняют поиск.</td>
+<td align="left">Гости</td>
+<td align="left">Гости получают результаты только из геолокации, в которую они ищут.</td>
 </tr>
 </tbody>
 </table>
@@ -253,18 +253,22 @@ MultiGeoSearchStatus — свойство, которое API поиска Share
 
 #### <a name="sample-get-request-thats-fanned-out-to-all-geo-locations"></a>Пример GET-запроса, развертывание которого выполняется для **всех** геообъектов
 
-https:// \<tenant\> / \_ api/search/query?querytext='sharepoint'&Properties='EnableMultiGeoSearch:true'&ClientType='my \_ client \_ id'
+```http
+https:// \<tenant\>/\_api/search/query?querytext='sharepoint'&Properties='EnableMultiGeoSearch:true'&ClientType='my\_client\_id'
+```
 
 #### <a name="sample-get-request-to-fan-out-to-some-geo-locations"></a>Пример GET-запроса, развертывание которого выполняется для **некоторых** геообъектов
 
-https:// \<tenant\> / \_ api/search/query?querytext='site'&ClientType='my_client_id'&Properties='EnableMultiGeoSearch:true, MultiGeoSearchConfiguration:[{DataLocation \\ :"NAM" \\ \\ ,Endpoint :"https \\ ://contosoNAM.sharepoint.com" \\ ,SourceId \\ :"B81EAB55-3140-4312-B0F4-9459D1B4FFEE"} \\ ,{DataLocation \\ :"CAN", \\ "Endpoint:"https \\ \\ ://contosoCAN.sharepoint-df.com"}]
+```http
+https:// \<tenant\>/\_api/search/query?querytext='site'&ClientType='my_client_id'&Properties='EnableMultiGeoSearch:true, MultiGeoSearchConfiguration:[{DataLocation\\:"NAM"\\,Endpoint\\:"https\\://contosoNAM.sharepoint.com"\\,SourceId\\:"B81EAB55-3140-4312-B0F4-9459D1B4FFEE"}\\,{DataLocation\\:"CAN"\\,Endpoint\\:"https\\://contosoCAN.sharepoint-df.com"}]'
+```
 
 > [!NOTE]
 > Перед запятыми и двоеточиями в списке геообъектов для свойства MultiGeoSearchConfiguration используется символ **обратной косой черты**. Это обусловлено тем, что запросы GET используют двоеточия для разделения свойств и запятые для разделения аргументов свойств. Без обратной косой черты в качестве экранирующего символа свойство MultiGeoSearchConfiguration будет распознаваться неправильно.
 
 #### <a name="sample-post-request-thats-fanned-out-to-all-geo-locations"></a>Пример POST-запроса, развертывание которого выполняется для **всех** геообъектов
 
-```text
+```http
     {
     "request": {
             "__metadata": {
@@ -289,7 +293,7 @@ https:// \<tenant\> / \_ api/search/query?querytext='site'&ClientType='my_client
 
 #### <a name="sample-post-request-thats-fanned-out-to-some-geo-locations"></a>Пример POST-запроса, развертывание которого выполняется для **некоторых** геообъектов
 
-```text
+```http
     {
         "request": {
             "Querytext": "SharePoint",
@@ -320,7 +324,7 @@ https:// \<tenant\> / \_ api/search/query?querytext='site'&ClientType='my_client
 
 Пример CSOM-запроса, развертывание которого выполняется для **всех** геообъектов
 
-```text
+```CSOM
 var keywordQuery = new KeywordQuery(ctx);
 keywordQuery.QueryText = query.SearchQueryText;
 keywordQuery.ClientType = <enter a string here>;

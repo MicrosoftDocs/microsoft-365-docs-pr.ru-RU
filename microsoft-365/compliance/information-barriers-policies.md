@@ -15,12 +15,12 @@ localization_priority: None
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: eec4869c5ff0b4caeedc52891a56d604c4b54348
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 08a0b3722bad18b2823b0ba0e5c998d570f3654e
+ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53286037"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53362586"
 ---
 # <a name="define-information-barrier-policies"></a>Определение политик информационных барьеров
 
@@ -53,7 +53,7 @@ ms.locfileid: "53286037"
 | (По мере необходимости) [Изменение сегмента или политики](information-barriers-edit-segments-policies.md) | - Изменение сегмента<br/>- Изменить или удалить политику<br/>- Повторное повторяемо приложение политики<br/>- Просмотр состояния политики |
 | (По мере необходимости) [Устранение неполадок](information-barriers-troubleshooting.md)| - Принимайте меры, если все работает не так, как ожидалось|
 
-## <a name="prerequisites"></a>Необходимые условия
+## <a name="prerequisites"></a>Предварительные условия
 
 В дополнение к [необходимым лицензиям](information-barriers.md#required-licenses-and-permissions)и разрешениям убедитесь, что следующие требования будут выполнены:
 
@@ -83,8 +83,8 @@ ms.locfileid: "53286037"
       ```powershell
       Connect-AzAccount -Tenant "<yourtenantdomain.com>"  //for example: Connect-AzAccount -Tenant "Contoso.onmicrosoft.com"
       $appId="bcf62038-e005-436d-b970-2a472f8c1982" 
-      $sp=Get-AzADServicePrincipal -ServicePrincipalName $appId
-      if ($sp -eq $null) { New-AzADServicePrincipal -ApplicationId $appId }
+      $sp=Get-AzureADServicePrincipal -Filter "appid eq '$($appid)'"
+      if ($sp -eq $null) { New-AzureADServicePrincipal -ApplicationId $appId }
       Start-Process  "https://login.microsoftonline.com/common/adminconsent?client_id=$appId"
       ```
 

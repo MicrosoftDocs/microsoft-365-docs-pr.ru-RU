@@ -18,16 +18,16 @@ ms.collection:
 localization_priority: Normal
 ms.assetid: 094e86f2-9ff0-40ac-af31-28fcaba00c1d
 description: Расширьте свою географию присутствия Microsoft 365 с поддержкой нескольких регионов в OneDrive Online.
-ms.openlocfilehash: 8f42b071abef0602304f1a468190c33700fe3e82
-ms.sourcegitcommit: 321610fd312e5c54ae8a757a71ab0c9fd2f1ac03
+ms.openlocfilehash: 405f876317a6cec6defdf3f1a49b0dc32ac0add2
+ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "48995913"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53362286"
 ---
 # <a name="multi-geo-capabilities-in-onedrive-and-sharepoint-online"></a>Поддержка нескольких регионов в OneDrive и SharePoint Online
 
-Возможности multi-Geo в OneDrive и SharePoint Online позволяют управлять общими ресурсами, например сайтами SharePoint и почтовыми ящиками Microsoft 365 Group, хранимых в покое в стране или регионе.
+Возможности multi-Geo в OneDrive и SharePoint Online позволяют управлять общими ресурсами, например сайтами SharePoint и почтовыми ящиками Microsoft 365 Group, хранимых в покое в указанном географическом расположении.
 
 У каждого пользователя, почтового ящика группы и сайта SharePoint есть предпочтительное расположение данных (PDL), обозначающее географическое расположение для хранения соответствующих данных. Персональные данные пользователей (почтовый ящик Exchange и OneDrive), а также любые созданные им группы Microsoft 365 или сайты SharePoint могут храниться в указанном географическом расположении для соблюдения требований к месту расположения данных. Можно [указывать разных администраторов для каждого географического расположения](add-a-sharepoint-geo-admin.md).
 
@@ -43,7 +43,7 @@ ms.locfileid: "48995913"
 
 Когда пользователь создает подключенный к группе сайт SharePoint в среде с поддержкой нескольких регионов, его значение PDL используется для определения географического расположения, в котором создается сайт и почтовый ящик связанной группы. (Если значение PDL пользователя не задано или присвоено географическое расположение, не настроенное в качестве периферийного расположения, сайт и почтовый ящик создаются в центральном расположении.)
 
-В службах Microsoft 365, кроме Exchange, OneDrive и SharePoint, отсутствует поддержка нескольких регионов. Однако группы Microsoft 365, созданные с помощью этих служб, помечаются значением PDL создавшего их пользователя, а почтовый ящик Exchange группы и сайт группы SharePoint Office 365 подготавливаются в соответствующем географическом расположении. 
+Microsoft 365, кроме Exchange, OneDrive, SharePoint и Teams, не являются Multi-Geo. Однако Microsoft 365 группы, созданные этими службами, будут настроены с помощью PDL создателя и их Exchange группового почтового ящика, SharePoint сайт будет создан в соответствующем geo. 
 
 ## <a name="managing-the-multi-geo-environment"></a>Управление средой с поддержкой нескольких регионов
 

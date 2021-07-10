@@ -17,16 +17,16 @@ search.appverid:
 - MET150
 description: Узнайте, как создавать уведомления для действий точного соответствия данных.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: da00c43ae9ba5b129129027df16f49ef80b8757d
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 263dc319d7e7d3ee5f12ebe374e8f5bd44c4cc8c
+ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53288171"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341680"
 ---
 # <a name="create-notifications-for-exact-data-match-activities"></a>Создание уведомлений для действий точного соответствия данных
 
-Когда вы создаете [пользовательские типы конфиденциальной информации с точным соответствием данных (EDM)](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md), в [журнале аудита](search-the-audit-log-in-security-and-compliance.md#requirements-to-search-the-audit-log) создается несколько действий. Вы можете использовать командлет [New-ProtectionAlert](/powershell/module/exchange/new-protectionalert) в PowerShell, чтобы создать уведомления, которые будут оповещать вас о таких действиях:
+Когда вы создаете [пользовательские типы конфиденциальной информации с точным соответствием данных (EDM)](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md), в [журнале аудита](search-the-audit-log-in-security-and-compliance.md#before-you-search-the-audit-log) создается несколько действий. Вы можете использовать командлет [New-ProtectionAlert](/powershell/module/exchange/new-protectionalert) в PowerShell, чтобы создать уведомления, которые будут оповещать вас о таких действиях:
 
 - CreateSchema
 - EditSchema
@@ -55,19 +55,19 @@ ms.locfileid: "53288171"
 
 ## <a name="configure-notifications-for-edm-activities"></a>Настройка уведомлений для действий EDM
 
-1. Подключитесь к [интерфейсу PowerShell Центра безопасности и соответствия требованиям](/powershell/exchange/connect-to-scc-powershell). 
+1. Подключитесь к [интерфейсу PowerShell Центра безопасности и соответствия требованиям](/powershell/exchange/connect-to-scc-powershell).
 
-2. Запустите командлет `New-ProtectionAlert`, используя действие, для которого нужно создать уведомление.  Например, если вы хотите получать уведомление при выполнении действия **UploadDataCompleted**, запустите
+2. Запустите командлет `New-ProtectionAlert`, используя действие, для которого нужно создать уведомление.  Например, если вы хотите получать уведомление при выполнении действия **UploadDataCompleted**, запустите:
 
-```powershell
-New-ProtectionAlert -Name "EdmUploadCompleteAlertPolicy" -Category Others -NotifyUser <***address to send  notification to***> -ThreatType Activity -Operation UploadDataCompleted -Description "Custom alert policy to track when EDM upload Completed" -AggregationType None
-```
-
-для **UploadDataFailed** можно запустить
-
-```powershell
-New-ProtectionAlert -Name "EdmUploadFailAlertPolicy" -Category Others -NotifyUser <***SMTP address to send notification to***> -ThreatType Activity -Operation UploadDataFailed -Description "Custom alert policy to track when EDM upload Failed" -AggregationType None -Severity High
-```
+    ```powershell
+    New-ProtectionAlert -Name "EdmUploadCompleteAlertPolicy" -Category Others -NotifyUser <address to send notification to> -ThreatType Activity -Operation UploadDataCompleted -Description "Custom alert policy to track when EDM upload Completed" -AggregationType None
+    ```
+    
+    для **UploadDataFailed** можно запустить:
+    
+    ```powershell
+    New-ProtectionAlert -Name "EdmUploadFailAlertPolicy" -Category Others -NotifyUser <SMTP address to send notification to> -ThreatType Activity -Operation UploadDataFailed -Description "Custom alert policy to track when EDM upload Failed" -AggregationType None -Severity High
+    ```
 
 ## <a name="related-articles"></a>Статьи по теме
 

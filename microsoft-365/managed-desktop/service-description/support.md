@@ -1,5 +1,5 @@
 ---
-title: Поддержка компьютеры, управляемые Майкрософт
+title: Поддержка администраторов
 description: Описывает проактивное и реактивное управление инцидентами для компьютеры, управляемые Майкрософт.
 keywords: Компьютеры, управляемые Майкрософт, Microsoft 365, служба, документация
 ms.service: m365-md
@@ -9,14 +9,14 @@ manager: laurawi
 ms.topic: article
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 90787ec28aa2c421df50757fc29bf20b2b5d55f7
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 1c4d94fb89aef76617ebd0995a6849de428afea4
+ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52925507"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53362478"
 ---
-# <a name="support-for-microsoft-managed-desktop"></a>Поддержка компьютеры, управляемые Майкрософт
+# <a name="admin-support"></a>Поддержка администраторов
 
 Корпорация Майкрософт обеспечит упреждающий и реактивное управление инцидентами. Корпорация Майкрософт отслеживает инциденты на компьютеры, управляемые Майкрософт портале администрирования. Они классифицируются в соответствии [с определениями серьезности](../working-with-managed-desktop/admin-support.md#sev).
 
@@ -38,7 +38,7 @@ ms.locfileid: "52925507"
 - Windows 10 с Microsoft Defender для конечной точки
 - Эти Приложения Microsoft 365 для предприятий: Outlook, Word, PowerPoint, Excel, Skype для бизнеса клиент, Microsoft Teams 
 - Microsoft Store для бизнеса 
-- OneDrive для бизнеса клиента 
+- OneDrive клиента 
 
 Сведения о поддержке:
 

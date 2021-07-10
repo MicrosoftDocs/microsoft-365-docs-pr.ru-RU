@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: b9ce161a472366d11b267824c9bd08ceccf285aa
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 21e44090cf21ac8bba29885a2f97242faf3e2164
+ms.sourcegitcommit: 7dc3b4dec05299abb4290a6e3d1ebe0fdc622ed7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51933461"
+ms.lasthandoff: 07/10/2021
+ms.locfileid: "53363971"
 ---
 # <a name="examples-of-device-control-policies-for-jamf"></a>Примеры политик управления устройствами для JAMF
 
@@ -34,8 +34,6 @@ ms.locfileid: "51933461"
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Хотите испытать Microsoft Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-exposedapis-abovefoldlink)
-
-[!include[Prerelease information](../../includes/prerelease.md)]
 
 В этом документе представлены примеры политик управления устройствами, которые можно настроить для своей организации. Эти примеры применимы, если вы используете JAMF для управления устройствами на предприятии.
 

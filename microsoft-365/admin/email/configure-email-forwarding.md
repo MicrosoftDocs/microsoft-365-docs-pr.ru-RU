@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: ab5eb117-0f22-4fa7-a662-3a6bdb0add74
 description: Пересылание электронной почты позволяет пересылать сообщения электронной почты, отправленные в почтовый ящик Microsoft 365 пользователя, в другой почтовый ящик внутри организации или за ее пределами.
-ms.openlocfilehash: e0043fe75eefe224c63fd23f352d4bd3ddf2c326
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 9d645c2b36bdac2ab53dcb8af4ff6ebdbd0ee601
+ms.sourcegitcommit: 7dc3b4dec05299abb4290a6e3d1ebe0fdc622ed7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53228055"
+ms.lasthandoff: 07/10/2021
+ms.locfileid: "53363795"
 ---
 # <a name="configure-email-forwarding-in-microsoft-365"></a>Настройка переадэстройки электронной почты в Microsoft 365
 
@@ -49,6 +49,8 @@ ms.locfileid: "53228055"
 
 Вы должны быть администратором Exchange или глобальным администратором в Microsoft 365 для этих действий. Дополнительные сведения см. в разделе [О ролях администратора.](../add-users/about-admin-roles.md)
 
+::: moniker range="o365-worldwide"
+
 1. В центре администрирования перейдите на страницу **Пользователи** \> **[Активные пользователи.](https://go.microsoft.com/fwlink/p/?linkid=834822)**
 
 2. Выберите имя пользователя, адрес электронной почты которого необходимо переадранить, а затем откройте страницу свойств.
@@ -59,8 +61,8 @@ ms.locfileid: "53228055"
 
     **Чтобы перенаправить** несколько адресов электронной почты, можно попросить пользователя настроить правило в Outlook переад. 
     
-    1.  Правила **open outlook**  >  **home**  >   **>** Выберите правила управления & **оповещений**
-    1. Выберите **правило New Rule** Select Apply rule on message I  >  **receive** located near bottom of list, then click **Next**.
+    1.  Правила **open outlook** > **home** > **>** Выберите правила управления & **оповещений**  
+    1. Выберите **правило New Rule** Select Apply rule on message I > **receive** located near bottom of list, then click **Next**.
     1. Нажмите **кнопку Да,** если это правило будет применено к каждому получаемом сообщению. 
     1. В следующем списке выберите действия, перенаправляющие его на людей или группу общего **государственного** государственного ресе, и **прекратите обработку дополнительных правил.**
     1. Щелкните заощренную **фразу люди или общественная группа** в нижней части окна.

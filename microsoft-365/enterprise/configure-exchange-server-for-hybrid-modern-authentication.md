@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Узнайте, как настроить локальное Exchange Server для использования гибридной современной проверки подлинности (HMA), предлагая более безопасную проверку подлинности и авторизацию пользователей.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d30d1b2b14efd66d973e9bf6d45b970d7af681bc
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 21ffec620ac3e262679fc0e2385f6f0f1b31933b
+ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52841634"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53362262"
 ---
 # <a name="how-to-configure-exchange-server-on-premises-to-use-hybrid-modern-authentication"></a>Как настроить локальное развертывание Exchange Server для использования гибридной современной проверки подлинности
 
@@ -171,7 +171,7 @@ Set-OrganizationConfig -OAuth2ClientProfileEnabled $true
 
 ## <a name="verify"></a>Проверка
 
-После встраив HMA, следующий вход клиента будет использовать новый поток auth. Обратите внимание, что включение HMA не вызовет повторной оценки для любого клиента. Клиенты повторно обнародуются в зависимости от срока службы маркеров auth и/или сертификатов, которые у них есть.
+После встраив HMA, следующий вход клиента будет использовать новый поток auth. Обратите внимание, что простое включение HMA не вызовет повторной оценки для любого клиента, и для Exchange может потребоваться некоторое время.
 
 Кроме того, необходимо удерживать клавишу CTRL одновременно с правой кнопкой мыши значок для клиента Outlook (также в подносе Windows уведомлений) и нажмите кнопку "Состояние подключения". Иском адрес SMTP клиента в отношении типа 'Authn' 'Bearer', который представляет маркер носители, используемый \* в OAuth.
 

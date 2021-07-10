@@ -18,12 +18,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 description: Создайте политики оповещения в Центр соответствия требованиям Microsoft 365 для мониторинга потенциальных угроз, потери данных и проблем с разрешениями.
-ms.openlocfilehash: 4ae85f69eea5221945c531b2b63000be7eb43fb7
-ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
+ms.openlocfilehash: 02b5727f0c844fa6b825b4c0c032ea6c2633d6df
+ms.sourcegitcommit: 7dc3b4dec05299abb4290a6e3d1ebe0fdc622ed7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53341072"
+ms.lasthandoff: 07/10/2021
+ms.locfileid: "53363995"
 ---
 # <a name="alert-policies-in-the-microsoft-365-compliance-center"></a>Политики оповещения в Центр соответствия требованиям Microsoft 365
 
@@ -62,6 +62,9 @@ ms.locfileid: "53341072"
 Перейдите <https://compliance.microsoft.com> к политикам **оповещений и** выберите политики  >    >  **оповещения.** Кроме того, вы можете перейти непосредственно <https://compliance.microsoft.com/alertpolicies> к .
 
 ![В центре соответствия выберите политики и в соответствии с оповещением выберите политики оповещения для просмотра и создания политик оповещения](../media/LaunchAlertPoliciesMCC.png)
+
+> [!NOTE]
+> Для просмотра политик оповещений в View-Only для просмотра политик оповещения в Центр соответствия требованиям Microsoft 365. Для создания и редактирования политик оповещений вам должна быть назначена роль Manage Alerts. Дополнительные сведения см. [в центре Разрешений в центре](../security/office-365-security/permissions-in-the-security-and-compliance-center.md)безопасности и соответствия требованиям.
 
 Политика оповещения состоит из следующих параметров и условий.
 
