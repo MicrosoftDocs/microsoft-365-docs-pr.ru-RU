@@ -9,12 +9,12 @@ manager: laurawi
 ms.topic: article
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 8cb1b30da84ece597235d8eef674a12208ab6456
-ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
+ms.openlocfilehash: 8063e1b0e76241df946a29ef2c5115bc0dc39aad
+ms.sourcegitcommit: 7dc3b4dec05299abb4290a6e3d1ebe0fdc622ed7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53362682"
+ms.lasthandoff: 07/10/2021
+ms.locfileid: "53363771"
 ---
 # <a name="user-support"></a>Поддержка пользователей
 
@@ -83,7 +83,7 @@ ms.locfileid: "53362682"
 
 ### <a name="elevation-portal"></a>Портал Elevation 
 
-Поскольку компьютеры, управляемые Майкрософт по умолчанию работают на стандартном пользователе, некоторые задачи требуют повышения привилегий. (Дополнительные сведения о контроле учетных записей пользователей см. в [этой области. Управление учетной записью пользователя)](/windows/security/identity-protection/user-account-control/user-account-control-overview) Чтобы сотрудники службы поддержки [](../working-with-managed-desktop/end-user-support.md#elevation-requests) могли выполнять задачи при устранении неполадок для пользователей, мы предоставляем "вовремя" доступ к учетной записи администратора. Этот пароль защищен только теми, кого вы назначаете, и вращается каждые пару часов.  
+Поскольку компьютеры, управляемые Майкрософт по умолчанию работают на стандартном пользователе, некоторые задачи требуют повышения привилегий. Дополнительные сведения о контроле учетных записей пользователей см. в [см. в этой записи.](/windows/security/identity-protection/user-account-control/user-account-control-overview) Чтобы сотрудники службы поддержки [](../working-with-managed-desktop/end-user-support.md#elevation-requests) могли выполнять задачи при устранении неполадок для пользователей, мы предоставляем "вовремя" доступ к учетной записи администратора. Этот пароль защищен только теми, кого вы назначаете, и вращается каждые пару часов.  
 
 Действия по настройкам пользователей для доступа к этому порталу см. в ссылке [Включить функции поддержки пользователей.](../get-started/enable-support.md)
 
