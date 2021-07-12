@@ -10,12 +10,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: 0c08f5d05c42ed8d1e84632377be28e542771c2a
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: e70a67f9472dff155b8554d5d6ae26c79d49a67a
+ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52841370"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53362621"
 ---
 # <a name="what-is-microsoft-managed-desktop"></a>Что собой представляют компьютеры, управляемые Майкрософт?
 
@@ -25,7 +25,6 @@ ms.locfileid: "52841370"
 - Развертывание устройств пользователя
 - Управление ИТ-службой и ее использование
 - Мониторинг безопасности и реагирование
-- Поддержка пользователей
 
 Компьютеры, управляемые Майкрософт, предлагают решение нескольких вызовов, с которыми в современных условиях сталкиваются компании и их сотрудники:
 - Переход к гибкому миру программного обеспечения как услуги может внушать страх.

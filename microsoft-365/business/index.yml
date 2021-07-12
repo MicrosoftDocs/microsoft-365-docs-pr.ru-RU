@@ -27,10 +27,10 @@ productDirectory:
       imageSrc: 'https://docs.microsoft.com/office/media/icons/get-started-blue.svg'
       summary: Управление антивирусными программами и универсальная печать теперь доступны в Microsoft 365 бизнес премиум.
       url: 'https://aka.ms/M365BPQ1Update'
-    - title: Просмотрите серию вебинаров партнера
+    - title: Присоединяйтесь к вебинару партнера Microsoft 365 Lighthouse 28 июля
       imageSrc: 'https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg'
-      summary: Ускорьте рост бизнеса благодаря управлению службами с помощью Microsoft 365 бизнес премиум.
-      url: 'https://aka.ms/acceleratewithm365bp'
+      summary: Использование Microsoft 365 Lighthouse для защиты и стандартизации клиентов Microsoft 365 бизнес премиум.
+      url: 'https://aka.ms/m365lighthousewebinar'
 conceptualContent:
   items:
     - title: Что такое Microsoft 365 бизнес премиум?
