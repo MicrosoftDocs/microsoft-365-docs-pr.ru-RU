@@ -41,8 +41,10 @@
           href: service-description/privacy-personal-data.md
         - name: Обновления
           href: service-description/updates.md
-        - name: Поддержка
+        - name: Поддержка администраторов
           href: service-description/support.md
+        - name: Поддержка пользователей
+          href: service-description/user-support.md
         - name: Операции и мониторинг
           href: service-description/operations-and-monitoring.md
         - name: Журналы диагностики
@@ -115,6 +117,8 @@
                   href: get-started/register-devices-partner.md
             - name: Самостоятельная регистрация существующих устройств
               href: get-started/register-reused-devices-self.md
+        - name: Включение функций поддержки пользователей
+          href: get-started/enable-support.md
         - name: Подготовка пользователей к работе с устройствами
           href: get-started/get-started-devices.md
         - name: Первый запуск с помощью Autopilot и страницы состояния регистрации
