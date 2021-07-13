@@ -13,12 +13,12 @@ ms.collection: M365-modern-desktop
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 description: Интеграция Microsoft Teams собраний с Canvas
-ms.openlocfilehash: 946abaec52cb1c5060d5490b409758cf230a4e5a
-ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
+ms.openlocfilehash: 7e13052cb029fef369f6386c2039785e40acc4ff
+ms.sourcegitcommit: 8c698d1a0c41baf5f35d07b0d765b4a5ead593d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53256883"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "53409096"
 ---
 # <a name="use-microsoft-teams-meetings-with-canvas"></a>Использование Microsoft Teams собраний с Canvas
 
@@ -78,3 +78,9 @@ Microsoft Teams собрания — это приложение Обучени�
 5. Нажмите кнопку **Установить**.
 
    Приложение Microsoft Teams собраний LTI будет добавлено в список внешних приложений.
+   
+## <a name="enable-for-canvas-courses"></a>Включить курсы canvas
+
+Чтобы использовать LTI в течение курса, инструктор курса Canvas должен включить синхронизацию интеграций. Каждый курс должен быть включен инструктором для создания соответствующего Teams; глобального механизма создания Teams нет. Это разработано с осторожностью, чтобы предотвратить нежелательные Teams создания.
+
+Обратитесь к преподавателям в [документацию для](https://support.microsoft.com/en-us/topic/use-microsoft-teams-classes-in-your-lms-preview-ac6a1e34-32f7-45e6-b83e-094185a1e78a#ID0EBD=Instructure_Canvas) включения LTI для каждого курса и завершения установки интеграции.

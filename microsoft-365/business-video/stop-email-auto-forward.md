@@ -15,18 +15,19 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- AdminTemplateSet
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Узнайте, как остановить автонападение электронных писем, создав правило потока почты, чтобы избежать кражи несвободных данных.
-ms.openlocfilehash: 82e4c80b0edc501889e0fc4dc28f1ec1ad703568
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.openlocfilehash: 23b1afa7a851c0b00fb9fca574ca0bb32057ea42
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706478"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394801"
 ---
 # <a name="stop-email-auto-forward"></a>Остановка автопродажа электронной почты
 
@@ -38,7 +39,7 @@ ms.locfileid: "52706478"
 
 ## <a name="try-it"></a>Проверьте, как это работает!
 
-1. В центре Microsoft 365 выберите **Exchange,** поток почты **и** на  вкладке правила выберите знак плюс и создайте **новое правило.**
+1. Из Центр администрирования Microsoft 365 выберите **Exchange,** поток почты **и** на  вкладке правила выберите знак плюс и **создайте новое правило.**
 1. Выберите **дополнительные параметры**. Назови новое правило.
 1. Затем откройте выпадаю для **применения этого правила,** если , выберите **отправитель**, а затем **внешний внутренний**.
 1. Выберите **Внутри организации,** а затем **ОК**.

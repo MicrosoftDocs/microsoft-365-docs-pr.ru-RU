@@ -17,12 +17,12 @@ ms.collection:
 description: Узнайте, как пулы доставки используются для защиты репутации серверов электронной почты в Microsoft 365 центрах обработки данных.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 85f200cf226a050762db4ea37255f71241d1f98c
-ms.sourcegitcommit: 410f6e1c6cf53c3d9013b89d6e0b40a050ee9cad
+ms.openlocfilehash: c5881b20eaed8387988d01b69a4acd022c5924a2
+ms.sourcegitcommit: 8c698d1a0c41baf5f35d07b0d765b4a5ead593d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53137731"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "53409144"
 ---
 # <a name="outbound-delivery-pools"></a>Пулы доставки исходящей почты
 
@@ -82,3 +82,6 @@ Microsoft 365, чтобы убедиться, что исходный отпра
 Чтобы DKIM работал, убедитесь, что вы включаете DKIM для отправки домена. Например, fabrikam.com является частью contoso.com и определяется в принятых доменах организации. Если отправитель сообщения sender@fabrikam.com, DKIM необходимо включить для fabrikam.com. Вы можете прочитать о том, как включить в Use DKIM для проверки исходящие сообщения электронной почты, отправленной [из настраиваемого домена.](use-dkim-to-validate-outbound-email.md)
 
 Чтобы добавить настраиваемые домены, выполните действия в [Add a domain to Microsoft 365.](../../admin/setup/add-domain.md)
+
+Если запись MX для домена указывает на службу сторонних клиентов или на локальном сервере электронной почты, необходимо использовать усиленную фильтрацию для [соединителок.](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors) Улучшенная фильтрация гарантирует правильность проверки SPF для входящие почты и позволит избежать отправки электронной почты через пул ретрансляций.
+

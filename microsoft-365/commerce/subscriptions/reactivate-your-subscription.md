@@ -18,15 +18,16 @@ ms.custom:
 - fwlink 874703
 - AdminSurgePortfolio
 - commerce_subscriptions
+- AdminTemplateSet
 search.appverid: MET150
 description: Администраторы могут повторно активировать подписку по истечении срока действия, отключению или отмене или отмене подписки в середине срока действия подписки.
 ms.date: 04/07/2021
-ms.openlocfilehash: ad408648253b3805d66b0e7b51ad90107f4eab95
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: 1637e1db74e1b22de3739282f08e70e08b842fb9
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572517"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394921"
 ---
 # <a name="reactivate-your-subscription"></a>Повторная активация подписки
 
@@ -61,7 +62,7 @@ ms.locfileid: "52572517"
 2. На вкладке **Продукты** найдите подписку, которую нужно повторно активировать. Выберите три точки (больше действий), а затем выберите **Повторно активировать эту подписку**.\
     Если эта подписка не **активирована,** обратитесь [в службу поддержки.](../../business-video/get-help-support.md)
 3. В области **Повторно активировать эту подписку** выберите способ оплаты из раскрывающегося списка или нажмите **Добавить способ оплаты**.
-4. Нажмите **Сохранить**.
+4. Нажмите кнопку **Сохранить**.
 
 ## <a name="related-content"></a>Связанные материалы
 

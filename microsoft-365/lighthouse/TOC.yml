@@ -1,0 +1,42 @@
+- name: Microsoft 365 Lighthouse
+  items:
+    - name: Обзор Microsoft 365 Lighthouse
+      href: m365-lighthouse-overview.md
+    - name: Требования к Microsoft 365 Lighthouse
+      href: m365-lighthouse-requirements.md
+- name: Начало работы
+  items:
+    - name: Регистрация
+      href: m365-lighthouse-sign-up.md
+- name: Безопасные Microsoft 365 Lighthouse
+  items:
+    - name: Настройка безопасности портала
+      href: m365-lighthouse-configure-portal-security.md
+- name: Защита клиентов базовыми показателями
+  items:
+    - name: Обзор использования базовых данных для развертывания стандартных конфигураций клиента
+      href: m365-lighthouse-deploying-standard-tenant-configurations-overview.md
+    - name: Развертывание базовых показателей
+      href: m365-lighthouse-deploy-baselines.md
+- name: Управление клиентами
+  items:
+    - name: Обзор списка клиентов
+      href: m365-lighthouse-tenant-list-overview.md
+- name: Управление пользователями в клиентах
+  items:
+    - name: Обзор страницы пользователей
+      href: m365-lighthouse-users-page-overview.md
+- name: Управление устройствами
+  items:
+    - name: Обзор страницы соответствия требованиям устройств
+      href: m365-lighthouse-device-compliance-page-overview.md
+- name: Управление угрозами
+  items:
+    - name: Обзор страницы управления угрозами
+      href: m365-lighthouse-threat-management-page-overview.md
+- name: Получить помощь и поддержку
+  items:
+    - name: Получить помощь и поддержку
+      href: m365-lighthouse-get-help-and-support.md
+    - name: Часто задаваемые вопросы (часто задаваемые вопросы)
+      href: m365-lighthouse-faq.yml

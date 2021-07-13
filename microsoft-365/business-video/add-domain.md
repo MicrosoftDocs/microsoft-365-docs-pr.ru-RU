@@ -15,18 +15,19 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - adminvideo
+- AdminTemplateSet
 monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Вашей организации может потребоваться несколько доменов, чтобы клиенты могли найти вас. Узнайте, как добавить другой домен в подписку.
-ms.openlocfilehash: 13fc3cf73a112945db4372231cce70c1837c1321
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.openlocfilehash: 766d0f6c1e3c68a262bc01ba432e042f0d274ce8
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706434"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394849"
 ---
 # <a name="add-another-domain"></a>Добавление еще одного домена
 
@@ -36,7 +37,7 @@ ms.locfileid: "52706434"
 
 ## <a name="try-it"></a>Проверьте, как это работает!
 
-1. В центре администрирования Microsoft 365 настройка **.**
+1. В Центр администрирования Microsoft 365 выберите **установку**.
 1. В **соответствии с настройками настраиваемой области** выберите **View**.
 1. Выберите **Управление,** а затем **добавить домен**.
 1. Введите новое доменное имя, которое необходимо добавить, а затем выберите **Далее**.
