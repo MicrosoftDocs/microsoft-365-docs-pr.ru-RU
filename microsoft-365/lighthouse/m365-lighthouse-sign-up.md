@@ -16,19 +16,19 @@ ms.custom:
 - M365-Lighthouse
 search.appverid: MET150
 description: Для поставщиков управляемых служб (MSP) узнайте, как зарегистрироваться на Microsoft 365 Lighthouse.
-ms.openlocfilehash: 08ef5dabaad8e35cfff611325641b99b5a86ad18
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: 01e17b9c1f3f4e8a877f0b8489288e57ae9fa392
+ms.sourcegitcommit: 8c698d1a0c41baf5f35d07b0d765b4a5ead593d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53395348"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "53409012"
 ---
 # <a name="sign-up-for-microsoft-365-lighthouse"></a>Подпишитесь на Microsoft 365 Lighthouse
 
 > [!NOTE]
 > Функции, описанные в этой статье, подлежат изменениям и доступны только партнерам, которые соответствуют [требованиям.](m365-lighthouse-requirements.md) Если в организации нет Microsoft 365 Lighthouse, следуйте инструкциям в этой статье для регистрации.
 
-## <a name="before-you-begin"></a>Прежде чем начать
+## <a name="before-you-begin"></a>Подготовка
 
 - Убедитесь, что вы и клиенты соответствуют требованиям, указанным в Microsoft 365 Lighthouse [требования.](m365-lighthouse-requirements.md)
 
@@ -62,7 +62,7 @@ ms.locfileid: "53395348"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-[Настройка Microsoft 365 Lighthouse безопасности портала]() 
+[Настройка Microsoft 365 Lighthouse безопасности портала](m365-lighthouse-configure-portal-security.md) 
 
 ## <a name="related-content"></a>См. также:
 

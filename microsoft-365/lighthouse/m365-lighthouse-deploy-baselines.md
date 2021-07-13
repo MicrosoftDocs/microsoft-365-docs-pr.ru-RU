@@ -16,12 +16,12 @@ ms.custom:
 - M365-Lighthouse
 search.appverid: MET150
 description: Для поставщиков управляемых служб (MSP) с помощью Microsoft 365 Lighthouse узнайте, как развернуть Microsoft 365 Lighthouse базовых данных.
-ms.openlocfilehash: 0bda7edec2a200e51e734db64e2b703a027e57bb
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: f329993443b4bd3003a3e8460d77f9b73ac10fc6
+ms.sourcegitcommit: 8c698d1a0c41baf5f35d07b0d765b4a5ead593d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53395365"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "53409108"
 ---
 # <a name="deploy-microsoft-365-lighthouse-baselines"></a>Развертывание Microsoft 365 Lighthouse базовых показателей 
 
@@ -37,7 +37,7 @@ Microsoft 365 Lighthouse позволяет развертывать станд�
 - Настройка антивирусной политики Defender для Windows устройств
 - Настройка политики соответствия требованиям для Windows устройств
 
-## <a name="before-you-begin"></a>Прежде чем начать
+## <a name="before-you-begin"></a>Подготовка
 
 Убедитесь, что вы и клиенты соответствуют требованиям, указанным в требованиях [к Microsoft 365 Lighthouse.](m365-lighthouse-requirements.md)
 
@@ -61,5 +61,5 @@ Microsoft 365 Lighthouse позволяет развертывать станд�
 
 ## <a name="related-content"></a>См. также:
 
-[Обзор использования базовых данных для развертывания стандартных конфигураций клиента](m365-lighthouse-deploying-standard-tenant-configurations-overview.md) (статья)\
+[Обзор использования базовых данных для развертывания стандартных конфигураций клиента](m365-lighthouse-deploy-standard-tenant-configurations-overview.md) (статья)\
 [Microsoft 365 Lighthouse (статья)](m365-lighthouse-faq.yml)

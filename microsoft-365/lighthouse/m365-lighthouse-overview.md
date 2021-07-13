@@ -16,12 +16,12 @@ ms.custom:
 - M365-Lighthouse
 search.appverid: MET150
 description: Для поставщиков управляемых служб (MSP) узнайте, Microsoft 365 Lighthouse помочь вам обеспечить безопасность клиентов и управлять ими в одном расположении.
-ms.openlocfilehash: a8af12e2fecade0b78f95f1d38bda34f7934ccd6
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: af03495f7bf47fe3c72ebb7487b8709d2e2b0736
+ms.sourcegitcommit: 8c698d1a0c41baf5f35d07b0d765b4a5ead593d0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53395358"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "53409036"
 ---
 # <a name="overview-of-microsoft-365-lighthouse"></a>Обзор Microsoft 365 Lighthouse
 
@@ -42,7 +42,7 @@ Microsoft 365 Lighthouse упрощает учет Microsoft 365 бизнес п
 Дополнительные сведения о программе CSP см. в поставщик облачных решений [обзоре программы.](/partner-center/csp-overview)
 
 > [!NOTE]  
-> Аналогичное предложение, Azure Lighthouse, помогает поставщикам услуг предоставлять управляемые службы для служб Azure с помощью комплексного и надежного инструмента управления, встроенного в платформу Azure. Дополнительные дополнительные информации см. в ["Маяке Azure"?](/azure/lighthouse/overview)   
+> Аналогичное предложение, Azure Lighthouse, помогает поставщикам услуг предоставлять управляемые службы для служб Azure с помощью комплексного и надежного инструмента управления, встроенного в платформу Azure. Дополнительные дополнительные информации см. [в видеоролике What is Azure Lighthouse?](/azure/lighthouse/overview)   
 
 ## <a name="microsoft-365-lighthouse-benefits"></a>Microsoft 365 Lighthouse преимущества
 
