@@ -21,13 +21,14 @@ ms.custom:
 - seo-marvel-may2020
 - AdminSurgePortfolio
 - okr_smb
+- AdminTemplateSet
 description: Теперь, когда вы настроили Microsoft 365, узнайте, как установить отдельные Office приложения на mac, PC или мобильных устройствах.
-ms.openlocfilehash: 47f6a04e8fe42f03de0cd2008f15fd1f6f5617f3
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: dc32009bd42027890457bee97e19cdd94f49c6b7
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593821"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393527"
 ---
 # <a name="install-office-applications"></a>Установка приложений Office
 
@@ -47,7 +48,7 @@ ms.locfileid: "52593821"
 
 ::: moniker range="o365-21vianet"
 
-Если вы приобрели Azure Active Directory Premium (AADP) Plan 1 или Plan 2, вы имеете право на Microsoft Identity Manager (MIM). Чтобы скачать MIM, перейдите в [Центр загрузки](https://www.microsoft.com/zh-cn/download/details.aspx?id=58498).
+Если вы приобрели Azure Active Directory Premium (AADP) Plan 1 или Plan 2, вы имеете право на получение Microsoft Identity Manager (MIM). Чтобы скачать MIM, перейдите в [Центр загрузки](https://www.microsoft.com/zh-cn/download/details.aspx?id=58498).
 
 ::: moniker-end
 

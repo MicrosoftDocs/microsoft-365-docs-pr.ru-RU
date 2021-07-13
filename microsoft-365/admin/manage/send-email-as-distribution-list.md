@@ -15,18 +15,19 @@ ms.collection:
 ms.custom:
 - MSStore_Link
 - AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: a7c98273-067e-4162-b3a1-4ba081796012
 description: Отправка электронной почты в качестве списка рассылки в Microsoft 365, чтобы при ответе участника на сообщение оно было из списка рассылки.
-ms.openlocfilehash: eb5ce4a08fae13ee0d2631499a8df1724ef3ef66
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: c77455b5b990a9c35fc7e47ee81cc9ddef4d0a23
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635718"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53392519"
 ---
 # <a name="send-email-as-a-distribution-list"></a>Отправка электронной почты в качестве списка рассылки
 
@@ -64,6 +65,6 @@ ms.locfileid: "52635718"
 
 ## <a name="related-content"></a>См. также:
 
-[Создание, редактирование](../email/create-edit-or-delete-a-security-group.md) или удаление группы безопасности в центре администрирования Microsoft 365 (статья)\
+[Создание, редактирование](../email/create-edit-or-delete-a-security-group.md) или удаление группы безопасности в Центр администрирования Microsoft 365 (статья)\
 [Совместная работа по](../email/email-collaboration.md) электронной почте (статья)\
 [Добавление пользователя или контакта в группу рассылки](../email/add-user-or-contact-to-distribution-list.md) (статья)

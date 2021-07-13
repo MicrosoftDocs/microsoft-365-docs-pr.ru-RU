@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 758759ad-63ee-4ea9-90a3-39f941897b7d
 description: Участники группы Microsoft 365 получают электронную почту группы, общую рабочую область для бесед, файлов и событий календаря, а также Stream и Планировщик.
-ms.openlocfilehash: 038c4b9f6d9d28e62c0fb9b8f117db96ac42ddfb
-ms.sourcegitcommit: 33d19853a38dfa4e6ed21b313976643670a14581
+ms.openlocfilehash: 37bead3ab878aac087c5ec16016dc2c8ddce410c
+ms.sourcegitcommit: 022d9d91263994c48efcebe08a84319573dc3a8c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52903844"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53377185"
 ---
 # <a name="compare-groups"></a>Сравнение групп
 
@@ -61,6 +61,8 @@ ms.locfileid: "52903844"
 
 Группы рассылки можно добавить в команду в Microsoft Teams.
 
+Группы Microsoft 365 не могут быть членами групп рассылки.
+
 ## <a name="security-groups"></a>Группы безопасности
 
 [Группы безопасности](../email/create-edit-or-delete-a-security-group.md) используются для предоставления доступа к ресурсам Microsoft 365, например SharePoint. Они упрощают администрирование, так как вам нужно просто выполнять администрирование группы вместо того, чтобы добавлять пользователей для каждого ресурса отдельно.
@@ -70,6 +72,8 @@ ms.locfileid: "52903844"
 Группы безопасности можно [настроить для динамического членства в Azure Active Directory](/azure/active-directory/users-groups-roles/groups-change-type), что позволяет добавлять или удалять участников группы или устройства автоматически на основе таких атрибутов пользователя, как отдел, расположение или должность, или таких атрибутов устройства, как версия операционной системы.
 
 Группы безопасности можно добавить в команду.
+
+Группы Microsoft 365 не могут быть членами групп безопасности.
 
 ## <a name="mail-enabled-security-groups"></a>Группы безопасности, поддерживающие почту
 

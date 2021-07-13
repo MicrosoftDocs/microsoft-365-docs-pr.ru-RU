@@ -1,5 +1,5 @@
 ---
-title: Доступ к локальному ресурсу с устройства Azure AD в Microsoft 365 бизнес
+title: Доступ к локальному ресурсу с устройства Azure AD в Microsoft 365 Бизнес
 f1.keywords:
 - NOCSH
 ms.author: efrene
@@ -16,17 +16,18 @@ ms.custom:
 - MSB365
 - OKR_SMB_M365
 - AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
 description: Узнайте, как получить доступ к локальному ресурсу, например к линейке бизнес-приложений, файлам и принтерам с Azure Active Directory с Windows 10 устройства.
-ms.openlocfilehash: 72b3c5ae538cad24fc12e25717dedccb2fdc9017
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 71d60e0187c917dffb7390afcedf22dc73f44008
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843329"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393466"
 ---
 # <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business-premium"></a>Доступ к локальному ресурсу с устройства Azure AD в Microsoft 365 бизнес премиум
 
@@ -57,7 +58,7 @@ ms.locfileid: "52843329"
 
 Если устройство Windows, к которое вы присоединились Azure-AD, ранее было соединено с доменом или в группе, рассмотрите следующие ограничения:
 
-- Когда устройство Azure AD присоединяется, оно создает нового пользователя, не ссылаясь на существующий профиль. Профили необходимо перенести вручную. Профиль пользователя содержит такие сведения, как избранное, локальные файлы, параметры браузера и параметры меню Пуск. Оптимальный подход — найти сторонний инструмент для совмещая существующие файлы и параметры с новым профилем.
+- Когда устройство Azure AD присоединяется, оно создает нового пользователя, не ссылаясь на существующий профиль. Профили необходимо перенести вручную. Профиль пользователя содержит сведения, такие как избранное, локальные файлы, параметры браузера и меню параметров. Оптимальный подход — найти сторонний инструмент для совмещая существующие файлы и параметры с новым профилем.
 
 - Если устройство использует объекты групповой политики (GPO), некоторые [](/windows/configuration/provisioning-packages/how-it-pros-can-use-configuration-service-providers) GPOs могут не иметь сопоставимого поставщика служб конфигурации (CSP) в Intune. Запустите [средство MMAT,](https://www.microsoft.com/download/details.aspx?id=45520) чтобы найти сопоставимые CSP для существующих GPOs.
 

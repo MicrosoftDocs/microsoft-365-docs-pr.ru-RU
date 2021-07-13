@@ -13,19 +13,21 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid: MET150
 description: Узнайте, как управлять Office скриптами для пользователей в организации.
-ms.openlocfilehash: e0cb52c4a8f48ff2310c83ffce61e08a0236ed59
-ms.sourcegitcommit: 0936f075a1205b8f8a71a7dd7761a2e2ce6167b3
+ms.openlocfilehash: fea50838cf1089b73a6af5bbf86d490293831085
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52572313"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53392675"
 ---
 # <a name="manage-office-scripts-settings"></a>Управление параметрами сценариев Office
 
-[Office скрипты](/office/dev/scripts)позволяют пользователям автоматизировать задачи путем записи, редактирования и запуска сценариев в Excel в Интернете. Office Скрипты работают с Power Automate, а пользователи запускают сценарии в книгах с помощью соединиттеля Excel Online (Бизнес). Microsoft 365 администраторы могут управлять Office скриптами из центра Microsoft 365 администрирования.
+[Office скрипты](/office/dev/scripts)позволяют пользователям автоматизировать задачи путем записи, редактирования и запуска сценариев в Excel в Интернете. Office Скрипты работают с Power Automate, а пользователи запускают сценарии в книгах с помощью соединиттеля Excel Online (Бизнес). Microsoft 365 администраторы могут управлять Office скриптами из Центр администрирования Microsoft 365.
 
 ## <a name="before-you-begin"></a>Прежде чем начать
 
@@ -37,13 +39,13 @@ ms.locfileid: "52572313"
     - Приложения Microsoft 365 для бизнеса
     - Приложения Microsoft 365 для предприятий
     - Office 365 E3
-    - Office 365 E5
+    - Office 365 E5
     - Office 365 A3
     - Office 365 A5
 
 ## <a name="manage-availability-of-office-scripts-and-sharing-of-scripts"></a>Управление доступностью Office скриптов и обменом скриптами
 
-1. В центре Microsoft 365 администрирования перейдите на **вкладку Параметры** \> **параметров Org** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">Services.</a>
+1. В Центр администрирования Microsoft 365 перейдите на **вкладку Параметры** \> **параметров Org.** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank"></a>
 
 2. Выберите **Office скрипты**.
 
@@ -92,13 +94,13 @@ ms.locfileid: "52572313"
 
     - Дополнительные новости об использовании Office с Power Automate см. в Office [Run Power Automate.](/office/dev/scripts/develop/power-automate-integration)
 
-8. Нажмите **Сохранить**.
+8. Нажмите кнопку **Сохранить**.
 
-    Для внесения изменений в параметры Office скриптов может занять до 48 часов.
+    Изменение параметров сценариев Office может занять до 48 часов.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-Поскольку Office скрипты работают с Power Automate, рекомендуется просмотреть существующие политики предотвращения потери данных (DLP), чтобы обеспечить защиту данных организации во время использования пользователями Office скриптов. Дополнительные сведения см. в политике предотвращения потери данных [(DLP).](/power-automate/prevent-data-loss)
+Поскольку Office скрипты работают с Power Automate, рекомендуется просмотреть существующие политики предотвращения потери данных (DLP), чтобы обеспечить защиту данных организации во время использования пользователями Office скриптов. Дополнительные сведения см. в статье [Политики защиты от потери данных (DLP)](/power-automate/prevent-data-loss).
 
 ## <a name="related-content"></a>См. также:
 

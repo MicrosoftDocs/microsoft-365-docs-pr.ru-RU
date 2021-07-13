@@ -22,17 +22,18 @@ ms.custom:
 - seo-marvel-mar
 - AdminSurgePortfolio
 - okr_smb
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
 description: Настройка устройств Windows, Windows 10 Pro для Microsoft 365 бизнес премиум пользователей, что позволяет централизованно контролировать управление и безопасность.
-ms.openlocfilehash: 7a9c75f6ec14605225d40c103c18e62937e773bf
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: a911414b1a7abef259f4c5fffbdd48e07f9ebfdd
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635881"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393366"
 ---
 # <a name="set-up-windows-devices-for-microsoft-365-business-premium-users"></a>Настройка Windows устройств для Microsoft 365 бизнес премиум пользователей
 
@@ -46,7 +47,7 @@ ms.locfileid: "52635881"
   
 Проверьте, подключено ли устройство к [Azure AD,](#verify-the-device-is-connected-to-azure-ad) чтобы убедиться, что обновление обновлено, или убедиться, что обновление сработало.
 
-## <a name="watch-connect-your-pc-to-microsoft-365-business"></a>Часы: Подключение компьютер Microsoft 365 бизнес
+## <a name="watch-connect-your-pc-to-microsoft-365-business"></a>Часы: Подключение компьютер для Microsoft 365 бизнеса
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3yXh3] 
 
@@ -128,6 +129,6 @@ ms.locfileid: "52635881"
 
 Чтобы настроить мобильные устройства, см. в Microsoft 365 бизнес премиум настройка мобильных устройств [для](set-up-mobile-devices.md)пользователей, чтобы установить политики защиты устройств или приложений, см. в Microsoft 365 [для бизнеса.](manage.md)
   
-## <a name="related-content"></a>См. также:
+## <a name="related-content"></a>Связанные материалы
 
-[Microsoft 365 для видео обучения бизнесу](../business-video/index.yml) (страница ссылки)
+[Обучающие видеоролики по Microsoft 365 для бизнеса](../business-video/index.yml) (страница ссылки)

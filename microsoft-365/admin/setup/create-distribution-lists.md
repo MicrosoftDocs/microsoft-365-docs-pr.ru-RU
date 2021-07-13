@@ -22,15 +22,16 @@ ms.custom:
 - seo-marvel-may2020
 - AdminSurgePortfolio
 - okr_smb
-description: Создайте группы рассылки или списки в центре администрирования Microsoft 365, чтобы можно было отправлять сообщения электронной почты в группу без ввода имени каждого получателя.
-ms.openlocfilehash: 845aa04e5e26beb14fca0fa3bc08c0599077b152
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+- AdminTemplateSet
+description: Создайте группы рассылки или списки в Центр администрирования Microsoft 365, чтобы можно было отправлять сообщения электронной почты в группу без ввода имени каждого получателя.
+ms.openlocfilehash: 87b3f375f5e90ec7fc97332abb801d814bf4939b
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635670"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393575"
 ---
-# <a name="create-distribution-groups-in-the-microsoft-365-admin-center"></a>Создание групп рассылки в центре Microsoft 365 администрирования
+# <a name="create-distribution-groups-in-the-microsoft-365-admin-center"></a>Создание групп рассылки в Центр администрирования Microsoft 365
   
 Используется при отправке электронной почты группе людей без необходимости ввести имя каждого отдельного получателя, группы рассылки (списки рассылки) организуются определенным субъектом обсуждения (например, "Маркетинг") или пользователями, которые совместно работают, что требует от них частого общения. Они также предоставляют вам возможность автоматически переададовать электронную почту на несколько адресов электронной почты.
 
@@ -70,12 +71,12 @@ ms.locfileid: "52635670"
     
 6. Чтобы добавить пользователей в список рассылки, см. в записи Добавить пользователя или [связаться с группой рассылки.](../email/add-user-or-contact-to-distribution-list.md)
     
-Узнайте, как использовать группу в Outlook 2016 и Outlook в Интернете в use [contact groups (ранее](https://support.microsoft.com/office/1c97fcb2-0ed4-41e6-b401-58f9d7d40e39)списки рассылки) в Outlook . 
+Узнайте, как использовать группу в Outlook 2016 и Outlook в Интернете в [use contact groups (ранее](https://support.microsoft.com/office/1c97fcb2-0ed4-41e6-b401-58f9d7d40e39)списки рассылки) в Outlook . 
   
 Ознакомьтесь [с вопросами группы рассылки,](/office365/troubleshoot/groups/distribution-list-issues) чтобы помочь с вопросами списка рассылки. 
 
 ## <a name="related-content"></a>См. также:
 
 [Параметры электронной почты](../email/office-365-user-email-settings.md) пользователя (статья)\
-[Создание, редактирование](../email/create-edit-or-delete-a-security-group.md) или удаление группы безопасности в центре администрирования Microsoft 365 (статья)\
+[Создание, редактирование](../email/create-edit-or-delete-a-security-group.md) или удаление группы безопасности в Центр администрирования Microsoft 365 (статья)\
 [Создание общего почтового ящика](../email/create-a-shared-mailbox.md) (статья)

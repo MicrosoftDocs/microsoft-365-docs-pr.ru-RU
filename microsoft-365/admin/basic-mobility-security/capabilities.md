@@ -15,15 +15,16 @@ ms.collection:
 - Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - MET150
 description: Базовая мобильность и безопасность могут помочь вам обеспечить безопасность и управление мобильными устройствами.
-ms.openlocfilehash: a5f20b2999a1a54070433560904e9535a4d1524a
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 5619ce6a8fa2c705acc6be08e3af8ad6f90a6d99
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53228283"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393311"
 ---
 # <a name="capabilities-of-basic-mobility-and-security"></a>Возможности Basic Mobility + Security
 
@@ -141,8 +142,8 @@ Basic Mobility and Security может помочь вам обеспечить 
 |Блокировать резервное копирование в облаке |Да|Нет|Нет|
 |Блокировать синхронизацию документов |Да|Нет|Нет|
 |Блокировать синхронизацию фотографий  |Да|Нет|Нет|
-|Разрешить резервное копирование Google  |Недоступно|Нет|Да|
-|Разрешить автоконцернкт учетной записи Google  |Недоступно|Нет|Да|
+|Разрешить резервное копирование Google  |Н/Д|Нет|Да|
+|Разрешить автоконцернкт учетной записи Google  |Н/Д|Нет|Да|
 
 ## <a name="system-settings"></a>Параметры системы
 

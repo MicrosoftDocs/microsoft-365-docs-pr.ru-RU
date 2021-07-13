@@ -13,19 +13,21 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 787d7a75-e201-46f3-a242-f698162ff09f
 description: Узнайте, как обновить один или несколько списков рассылки до Microsoft 365 групп в Outlook и как использовать PowerShell для обновления нескольких списков рассылки одновременно.
-ms.openlocfilehash: d4686e7f2ec305194130b60fbacab24c9cf7f4e9
-ms.sourcegitcommit: 4bcac4cb4f9399ebbd7c8cff0abb4d6ecedb731e
+ms.openlocfilehash: aef797a2bf052fcc84c9220993c2e6706eae5f61
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "52698944"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53391391"
 ---
 # <a name="upgrade-distribution-lists-to-microsoft-365-groups-in-outlook"></a>Обновление списков рассылки для Microsoft 365 групп в Outlook
 
@@ -153,7 +155,6 @@ Get-DistributionGroup| Foreach-Object{
 |Группы безопасности  <br/> |Нет  <br/> |
 |Динамические списки рассылки.  <br/> |Нет  <br/> |
 |Списки рассылки, преобразованные в **RoomLists**  <br/> |Нет  <br/> |
-|Списки рассылки, в которых **закрывается MemberJoinRestriction** и/или **MemberDepartRestriction**   <br/> |Нет  <br/> |
 
 ### <a name="check-which-dls-are-eligible-for-upgrade"></a>Проверьте, какие DLs имеют право на обновление
 
@@ -173,7 +174,7 @@ Get-DistributionGroup| Foreach-Object{
 
 - Для Outlook. Если кто-то пытается отправить сообщение в Outlook, введя имя группы Microsoft 365 после миграции, получатель будет решен в качестве списка рассылки, а не группы. Карточка контакта этого получателя останется в списке рассылки. Это связано с кэшем получателей или кэшем псевдонимов в Outlook. Сообщение будет успешно отправлено в группу, но может вызвать путаницу в отправитель.<br/>Вы можете выполнить шаги в этой статье, сведения о списке Outlook [AutoComplete](/outlook/troubleshoot/contacts/information-about-the-outlook-autocomplete-list) для сброса кэша, который исправит эту проблему.
 
-- Для Outlook в Интернете: в случае Outlook в Интернете получатель списка рассылки по-прежнему будет оставаться в кэше. Чтобы обновить кэш, можно выполнить действия в ["Удалить](https://support.microsoft.com/office/9E1419D9-E88F-445B-B07F-F558B8A37C58) предложенное имя или адрес электронной почты из списка автозаполнений", чтобы увидеть контактную карточку группы.
+- Для Outlook в Интернете. В случае Outlook в Интернете получатель списка рассылки по-прежнему будет оставаться в кэше. Чтобы обновить кэш, можно выполнить действия в ["Удалить](https://support.microsoft.com/office/9E1419D9-E88F-445B-B07F-F558B8A37C58) предложенное имя или адрес электронной почты из списка автозаполнений", чтобы увидеть контактную карточку группы.
 
 ### <a name="do-new-group-members-get-a-welcome-email-in-their-inbox"></a>Получат ли участники группы приветственные сообщения?
 

@@ -21,6 +21,7 @@ ms.custom:
 - OKR_SMB_Videos
 - seo-marvel-may2020
 - AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
@@ -29,12 +30,12 @@ search.appverid:
 - ODB160
 ms.assetid: 7aa9cdc8-2245-4218-81ee-86fa7c35f1de
 description: Узнайте, как использовать OneDrive и сайт группы для Microsoft 365 и Microsoft 365 общего доступа к файлам.
-ms.openlocfilehash: 5ab0a192cb5706b6aff6cdeb30fa566de74dd510
-ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
+ms.openlocfilehash: 40c62842f59fe932fdf297629b456acd595a7b0d
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "53338665"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393503"
 ---
 # <a name="set-up-file-storage-and-sharing-in-microsoft-365"></a>Настройка хранения и общего доступа к файлам в Microsoft 365
 
@@ -44,7 +45,7 @@ ms.locfileid: "53338665"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FTHX] 
 
-Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](../../business-video/index.yml).
+Если это видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](../../business-video/index.yml).
 
 ## <a name="microsoft-365-document-storage-and-management"></a>Microsoft 365 хранения и управления документами
 
@@ -205,7 +206,7 @@ ms.locfileid: "53338665"
 
   - [Настройка Office на Windows Phone с Microsoft 365](https://support.microsoft.com/office/2b7c1b51-a717-45d6-90c9-ee1c1c5ee0b7)
 
-## <a name="related-content"></a>Связанные материалы
+## <a name="related-content"></a>См. также:
 
 [Добавление пространства для хранения подписки](../../commerce/add-storage-space.md) (статья)\
 [Делитесь файлами](https://support.microsoft.com/office/share-files-and-folders-with-microsoft-365-business-72f26d6c-bf9e-432c-8b96-e3c2437f5b65) и папками с Microsoft 365 business (видео)\

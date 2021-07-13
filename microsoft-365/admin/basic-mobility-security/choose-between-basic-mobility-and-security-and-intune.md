@@ -15,15 +15,16 @@ ms.collection:
 - Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - MET150
 description: Базовая мобильность и безопасность являются частью Microsoft 365 планов.
-ms.openlocfilehash: 869968fa46e09fbc7a983957a83a9ad308c9f40c
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 3404d2aeecd047fecec573bf1d60407ad3659efe
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53228271"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393299"
 ---
 # <a name="choose-between-basic-mobility-and-security-or-intune"></a>Выбор между базовой мобильностью и безопасностью или Intune
 
@@ -33,7 +34,7 @@ ms.locfileid: "53228271"
 
 Основные функции мобильности и безопасности и Intune включены в различные планы, описанные в следующей таблице.
 
-| Планирование | Basic Mobility + Security | Microsoft Intune |
+| План | Basic Mobility + Security | Microsoft Intune |
 |:-----|:-----|:-----|
 |Приложения Microsoft 365|Да|Нет|
 |Microsoft 365 бизнес базовый|Да|Нет|
@@ -41,7 +42,7 @@ ms.locfileid: "53228271"
 |Office 365 E1 |Да|Нет|
 |Office 365 E3 |Да|Нет|
 |Office 365 E5 |Да|Нет|
-|Microsoft 365 бизнес премиум |Да|Да|
+|Подписка на Microsoft 365 бизнес премиум |Да|Да|
 |Microsoft 365 Firstline 3 |Да|Да|
 |Microsoft 365 корпоративный E3 |Да|Да|
 |Microsoft 365 корпоративный E5 |Да|Да|

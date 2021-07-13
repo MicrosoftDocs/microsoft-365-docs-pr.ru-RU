@@ -13,19 +13,21 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 767349fa-f646-46d9-9dab-4a65049bdd1f
 description: Обновите номер телефона администратора и адрес электронной почты в центре администрирования, если вы хотите сбросить собственный пароль администратора.
-ms.openlocfilehash: ab4e200ae680e40dea7ca7cc4d095be0690ad375
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 1335f5ff7a39fab53e6f45f47bec293db5650336
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624517"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53391307"
 ---
 # <a name="update-your-admin-phone-number-and-email-address"></a>Обновление номера телефона администратора и адреса электронной почты
 
@@ -39,7 +41,7 @@ ms.locfileid: "52624517"
 
 Используйте **страницу Сведения о безопасности,** чтобы изменить номер мобильного телефона и альтернативный адрес электронной почты. Альтернативный адрес электронной почты используется для важных уведомлений, например сброса пароля администратора (а не пароля администратора компьютера). 
   
-1. Просмотрите Microsoft 365 центр администрирования.
+1. Просмотрите Центр администрирования Microsoft 365.
 
 2. В загонах выберите значок профиля \> **"Сведения о** \> **безопасности учетной записи".**
 

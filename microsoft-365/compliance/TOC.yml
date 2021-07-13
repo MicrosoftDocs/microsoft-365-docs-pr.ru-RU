@@ -932,6 +932,18 @@
           href: ../solutions/financial-services-secure-collaboration.md
         - name: Безопасность и соответствие требованиям для энергетических услуг
           href: ../solutions/energy-secure-collaboration.md
+- name: Управление рисками конфиденциальности
+  items:
+    - name: Сведения об управлении конфиденциальностью
+      href: privacy-management.md
+    - name: Начало работы с управлением конфиденциальностью
+      href: privacy-management-setup.md
+    - name: Поиск и визуализация персональных данных при управлении конфиденциальностью
+      href: privacy-management-data-profile.md
+    - name: Создание и настройка политик управления конфиденциальностью
+      href: privacy-management-policies.md
+    - name: Управление запросами прав субъекта при управлении конфиденциальностью
+      href: privacy-management-subject-rights-requests.md
 - name: Гибридные возможности по соответствию требованиям
   items:
     - name: Шифрование почты Exchange Online с помощью AD RMS

@@ -13,19 +13,21 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 7e453a40-66df-44ab-92a1-96786cb7fb34
 description: Узнайте о согласии пользователей на приложения и о том, как включить их, чтобы позволить сторонним приложениям получать доступ к Microsoft 365 пользователям.
-ms.openlocfilehash: b8f65b50e50b0e0b4d978388463bbd380ca60d4e
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 629e64494c6d72a13c3b155370a8f47505e9fa20
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624505"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53391235"
 ---
 # <a name="managing-user-consent-to-apps-in-microsoft-365"></a>Управление согласием пользователей на приложения в Microsoft 365
 
@@ -36,7 +38,6 @@ ms.locfileid: "52624505"
 Пользователь может предоставить доступ только тем приложениям, которые уже имеют доступ к их данным Office 365. Предоставить доступ к другой информации пользователя невозможно.
 
 ## <a name="turning-user-consent-on-or-off"></a>Включение или отключение согласия пользователя
-<a name="__toc379982114"> </a>
 
 Вот как включить или отключить согласие пользователя на приложения.
 
@@ -44,8 +45,7 @@ ms.locfileid: "52624505"
 
 2. На странице **Согласие пользователя на приложения** выберите вариант, чтобы включить или отключить согласие пользователя.
 
-## <a name="related-content"></a>Связанные материалы 
-<a name="__toc379982114"> </a>
+## <a name="related-content"></a>См. также: 
 
 [Настройка рабочего процесса согласия администратора](/azure/active-directory/manage-apps/configure-admin-consent-workflow) (статья)\
 [Управление согласием на приложения и оценка](/azure/active-directory/manage-apps/manage-consent-requests) запросов на согласие (статья)

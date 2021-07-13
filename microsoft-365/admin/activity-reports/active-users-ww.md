@@ -11,20 +11,22 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 - GEA150
 ms.assetid: fc1cf1d0-cd84-43fd-adb7-a4c4dfa8112d
-description: Узнайте, как получить отчет активных пользователей с помощью панели Microsoft 365 отчетов в центре администрирования Microsoft 365 и узнайте, сколько лицензий на продукт используется.
-ms.openlocfilehash: 8ea9feeb18cb1885023ec14f1ffb4d77b2775877
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+description: Узнайте, как получить отчет активных пользователей с помощью панели Microsoft 365 отчетов в Центр администрирования Microsoft 365 и узнайте, сколько лицензий на продукт используется.
+ms.openlocfilehash: d127ddccd4944279052c628cbee9cc37dd3c8358
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52924375"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53391367"
 ---
 # <a name="assess-the-microsoft-365-active-users-report"></a>Оценка отчета Microsoft 365 активных пользователей
 
@@ -65,4 +67,4 @@ ms.locfileid: "52924375"
 
 
 
-Если политики организации не позволяют просматривать отчеты, в которых есть личные сведения пользователей, можно изменить параметр конфиденциальности для всех отчетов. Ознакомьтесь с **разделом Как** скрыть сведения об уровне пользователя? в разделе Отчеты об активности в [центре администрирования Microsoft 365.](activity-reports.md)  
+Если политики организации не позволяют просматривать отчеты, в которых есть личные сведения пользователей, можно изменить параметр конфиденциальности для всех отчетов. Ознакомьтесь с **разделом Как скрыть** сведения об уровне пользователя? в разделе [Отчеты](activity-reports.md)об активности в Центр администрирования Microsoft 365 .  

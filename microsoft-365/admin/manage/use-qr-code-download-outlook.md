@@ -14,13 +14,14 @@ ms.collection:
 - Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
+- AdminTemplateSet
 description: Узнайте, как использовать QR-код для проверки подлинности и загрузки Outlook мобильного телефона.
-ms.openlocfilehash: a403fbbed90229300e707653062c552104c47d97
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: c13fbeabd320c64925165ba16797d5a3471961ad
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53286709"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53391343"
 ---
 # <a name="use-a-qr-code-to-sign-in-to-the-outlook-mobile-apps"></a>Для регистрации в мобильных приложениях Outlook QR-код
 
@@ -45,7 +46,7 @@ ms.locfileid: "53286709"
 Set-OrganizationConfig -MobileAppEducationEnabled <Boolean>
 ```
 
-## <a name="related-content"></a>Связанные материалы
+## <a name="related-content"></a>См. также:
 
 [Настройка стандартных или целевых параметров](release-options-in-office-365.md) выпуска (статья)\
 [Set-OrganizationConfig](/powershell/module/exchange/set-organizationconfig) (статья)

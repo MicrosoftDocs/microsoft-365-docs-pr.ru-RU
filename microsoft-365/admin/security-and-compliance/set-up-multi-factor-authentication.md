@@ -13,7 +13,9 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
@@ -23,14 +25,14 @@ search.appverid:
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
 description: Сведения о настройке многофакторной проверки подлинности для организации.
 monikerRange: o365-worldwide
-ms.openlocfilehash: 480e09e42ea53cc78cd738a6e0650feae7a9f8c8
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 7ee6f3a7fc01fa998e3b984683ddad1402fe5587
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635954"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393623"
 ---
-# <a name="set-up-multi-factor-authentication"></a>Настройка многофакторной проверки подлинности
+# <a name="set-up-multifactor-authentication"></a>Настройка многофакторной проверки подлинности
 
 С учетом знакомства с [многофакторной проверкой подлинности (MFA) и ее поддержкой в Microsoft 365](multi-factor-authentication-microsoft-365.md) пришло время развернуть и настроить ее для вашей организации.
 
@@ -105,4 +107,4 @@ ms.locfileid: "52635954"
 ## <a name="related-content"></a>Родственные материалы
 
 [Включение многофакторной проверки подлинности](../../business-video/turn-on-mfa.md) (видео)\
-[Видео: включение многофакторной проверки подлинности для телефона](../../business-video/set-up-mfa.md)
+[Включение многофакторной проверки подлинности для телефона](../../business-video/set-up-mfa.md) (видео)
