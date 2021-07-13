@@ -1,5 +1,5 @@
 <!-- This file is generated automatically. Changes made to this file will be overwritten.-->
-|Клиенты|Android|iOS|"Mac";|Windows 10<br>Desktop|Windows 10<br>Современные приложения|
+|Клиенты|Android|iOS|"Mac";|Windows 10<br>Рабочий стол|Windows 10<br>Современные приложения|
 |:-|:-|:-|:-|:-|:-|
 |ACCESS|Н/Д|Н/Д|Н/Д|✔|Н/Д|
 |АДМИНИСТРАТОР AZURE ACTIVE DIRECTORY|Н/Д|Н/Д|Н/Д|✔|Н/Д|
@@ -36,7 +36,7 @@
 |TEAMS|✔|✔|✔|✔|Н/Д|
 |TO-DO|✔|✔|✔|Н/Д|✔|
 |VISIO|Н/Д|✔|Н/Д|✔|Н/Д|
-|WHITEBOARD|✔|Запланированные|Н/Д|Н/Д|✔|
+|WHITEBOARD|✔|✔|Н/Д|Н/Д|✔|
 |WORD|✔|✔|✔|✔|✔|
 |АНАЛИТИКА РАБОЧИХ МЕСТ|Н/Д|Н/Д|Н/Д|Н/Д|Н/Д|
 |YAMMER|✔|✔|Запланированные|Запланированные|Н/Д|

@@ -16,18 +16,19 @@ ms.collection:
 ms.custom:
 - MSStore_Link
 - AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 0b0bd900-68b1-4bf5-808b-5d240a7739f4
 description: 'Узнайте, как можно использовать несколько адресов электронной почты, называемых псевдонимом электронной почты, связанных с Microsoft 365 учетной записью бизнеса. '
-ms.openlocfilehash: e6eac45c3ade3fd737f93c88c29b56ccd497212e
-ms.sourcegitcommit: 8b0718f5607ab509092cb80bda854010d885c54f
+ms.openlocfilehash: ab1a7b846bb35cce4656a3a5edf941961f5398c2
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53314360"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394031"
 ---
 # <a name="add-another-email-alias-for-a-user"></a>Добавление дополнительных псевдонимов электронной почты для пользователя
   
@@ -85,7 +86,7 @@ ms.locfileid: "53314360"
 
 В июле 2021 г. выходит новая функция, которая позволяет пользователям легко отправлять их псевдонимы при использовании Outlook в Интернете. Когда функция выходит в аренду, где администратор клиента использует этот кодлет, пользователи в аренде получат доступ к списку контрольных ящиков, где каждая запись соответствует псевдониму в Outlook `Set-OrganizationConfig -SendFromAliasEnabled $true` параметров. При выборе псевдонима он появится в формате From dropdown в форме Compose.
   
-## <a name="related-content"></a>Связанные материалы
+## <a name="related-content"></a>См. также:
 
 [Отправка электронной почты с другого адреса](https://support.microsoft.com/office/ccba89cb-141c-4a36-8c56-6d16a8556d2e) (статья)
 

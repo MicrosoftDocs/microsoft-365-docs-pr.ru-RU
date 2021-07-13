@@ -13,19 +13,21 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: b7c66b59-657a-4e1a-8aa0-8163b1f4eb54
 description: Удаленная группа сохраняется в течение 30 дней, и вы все еще можете восстановить группу. Через 30 дней группа и ее содержимое будут удалены навсегда.
-ms.openlocfilehash: 2c20c2bd3ce91331e7160132047dbf3ecd79c4b8
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: ddc3da57c05b7c5f54c10a0cc429c9a3f24b859c
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635742"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394055"
 ---
 # <a name="restore-a-deleted-microsoft-365-group"></a>Восстановление удаленной Microsoft 365 группы
 
@@ -56,7 +58,7 @@ ms.locfileid: "52635742"
 
 # <a name="outlook"></a>[Outlook](#tab/outlook)
 
-Если вы владелец группы Microsoft 365, вы можете восстановить группу самостоятельно Outlook интернете, следуя следующим шагам:
+Если вы владелец группы Microsoft 365, вы можете восстановить группу самостоятельно в Outlook в Интернете, следуя следующим шагам:
 
 1. На странице [удаленные группы](https://outlook.office.com/people/group/deleted)выберите параметр **Управление** группами в узле **Группы,** а затем выберите **Удаленный**.
 
@@ -66,7 +68,7 @@ ms.locfileid: "52635742"
 
 # <a name="admin-center"></a>[Центр администрирования](#tab/admin-center)
 
-Если вы глобальный администратор или администратор групп, вы можете восстановить удаленную группу в центре администрирования Microsoft 365:
+Если вы глобальный администратор или администратор групп, вы можете восстановить удаленную группу в Центр администрирования Microsoft 365:
 
 1. Перейдите в [Центр администрирования](https://admin.microsoft.com).
 2. **Расширь** группы и нажмите **кнопку Удаленные группы.**

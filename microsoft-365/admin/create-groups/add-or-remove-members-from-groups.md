@@ -13,17 +13,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - MET150
 ms.assetid: e186d224-a324-4afa-8300-0e4fc0c3000a
-description: Узнайте, как добавить участника в группу, удалить его из группы и управлять состоянием владельца группы в центре Microsoft 365 администратора.
-ms.openlocfilehash: b5b0a398a5ebb47a5f27066f1daea1a822adbff2
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+description: Узнайте, как добавить участника в группу, удалить его из группы и управлять состоянием владельца группы в Центр администрирования Microsoft 365.
+ms.openlocfilehash: 7eaa74a53ac5f27d801d1cf16c9af035c63c68b1
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635610"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393767"
 ---
 # <a name="add-or-remove-members-from-microsoft-365-groups-using-the-admin-center"></a>Добавление или удаление участников из Microsoft 365 групп с помощью центра администрирования
 
@@ -42,7 +44,7 @@ ms.locfileid: "52635610"
 
 4. Найдите или выберите имя нужного пользователя.
 
-5. Нажмите **Сохранить**.
+5. Нажмите кнопку **Сохранить**.
 
 ## <a name="add-a-group-to-a-member-in-the-admin-center"></a>Добавление группы к члену центра администрирования
 
@@ -54,7 +56,7 @@ ms.locfileid: "52635610"
 
 4. Поиск или выбор имени группы, которая будет добавлена.
 
-5. Нажмите **Сохранить**.
+5. Нажмите кнопку **Сохранить**.
 
 ## <a name="remove-a-member-from-a-group-in-the-admin-center"></a>Удаление участника из группы в центре администрирования
 

@@ -16,6 +16,7 @@ ms.collection:
 ms.custom:
 - MSStore_Link
 - AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
@@ -23,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 2c261e42-5dd1-48b0-845f-2a016d29cfc1
 description: В течение 30 дней после удаления учетной записи пользователя можно восстановить учетную запись и все данные, а пользователь может войти с одной учетной записью.
-ms.openlocfilehash: f849fe8e403aa9a72eccb4dd65665ec9f33618d1
-ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
+ms.openlocfilehash: e37f913bcc6a54bdcc1e0f52168fe1aab0c8afdd
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52779654"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394271"
 ---
 # <a name="restore-a-user"></a>Восстановление пользователя
    

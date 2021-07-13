@@ -17,17 +17,18 @@ ms.custom:
 - MSStore_Link
 - AdminSurgePortfolio
 - okr_smb
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: При настройках общих почтовых ящиков могут возникнуть ошибки. Попробуйте эти решения, если у вас возникли проблемы с общими почтовыми ящиками.
-ms.openlocfilehash: 89cdfbe29ab035b1eb6c3a0183629eef59d67477
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.openlocfilehash: ae76bc1cb97c44087be57adc7791ea8814b94b40
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706134"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393947"
 ---
 # <a name="resolve-issues-with-shared-mailboxes"></a>Решение проблем с общими почтовыми ящиками
 

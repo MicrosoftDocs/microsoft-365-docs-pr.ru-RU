@@ -19,13 +19,14 @@ ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 - commerce_billing
+- AdminTemplateSet
 ms.date: 03/17/2021
-ms.openlocfilehash: 5c472615846ba6460bc829bc0157c6c6da940292
-ms.sourcegitcommit: 967f64dfa1a05f31179c8316b96bfb7758a5d990
+ms.openlocfilehash: 9429a4fc5adc3447a0238a3e8aa84ab39585fc50
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52332022"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394525"
 ---
 # <a name="tax-information"></a>Сведения о налогах
 
@@ -140,13 +141,13 @@ ms.locfileid: "52332022"
 2. На вкладке **Продукты** выберите подписку, которую нужно обновить.
 3. На странице сведения о подписке в разделе Адрес использования **службы** выберите **адрес использования службы Редактирование.**
 4. На области **адресов** использования службы  Редактирование в поле номерОВ НДС введите свой номер НДС, включая префикс, и без пробелов.
-5. Нажмите **Сохранить**.
+5. Нажмите кнопку **Сохранить**.
 
 ## <a name="how-taxes-are-calculated"></a>Как рассчитываются налоги
 
 Налоги с продаж рассчитываются по цене единицы, а затем агрегируются.
 
-Пример.
+Пример:
 
 >*(ставка налога на единицу цены X) X quantity = total sales tax*
 

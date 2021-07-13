@@ -17,6 +17,7 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - okr_smb
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
@@ -24,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: 40398b0b-bdd0-4afd-ab5e-b5ae6b7990bf
 description: Узнайте, как отслеживать любые проблемы, с которыми вы можете возникнуть при настройке настраиваемой области, убедившись, что записи DNS настроены правильно.
-ms.openlocfilehash: 70beb877251c333766a0963316287796eb81d595
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 1dcc52be68fca11245e1a2437d9fe5a3f23ed694
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52623969"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393899"
 ---
 # <a name="find-and-fix-issues-after-adding-your-domain-or-dns-records"></a>Поиск и устранение неполадок после добавления домена и записей DNS
 

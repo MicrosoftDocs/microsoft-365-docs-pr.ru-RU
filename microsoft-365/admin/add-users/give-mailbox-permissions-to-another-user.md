@@ -17,18 +17,19 @@ ms.custom:
 - MSStore_Link
 - AdminSurgePortfolio
 - okr_smb
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 1dbcf12f-a9de-4d1d-b0b3-a227f8a736d8
 description: Предоставьте пользователю право на доступ к почтовому ящику другого пользователя, что позволит ему читать и отправлять письма из почтового ящика другого пользователя.
-ms.openlocfilehash: 0e5f7b154fa37ae9775e7208574b2a5395e7c239
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 1c1b591ff9053e20e8754df5b7c69288d198cc98
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52634284"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394343"
 ---
 # <a name="give-mailbox-permissions-to-another-user---admin-help"></a>Предоставление другому пользователю разрешений доступа к почтовому ящику — справка для администраторов
 

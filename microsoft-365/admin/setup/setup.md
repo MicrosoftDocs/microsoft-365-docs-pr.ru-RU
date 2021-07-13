@@ -19,18 +19,19 @@ ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
 - AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - MET150
 - MOE150
 - BEA160
 ms.assetid: 6a3a29a0-e616-4713-99d1-15eda62d04fa
 description: Сведения о настройке подписки Microsoft бизнес премиум, Microsoft 365 бизнес стандарт, Microsoft 365 бизнес базовый, приложений Microsoft 365 для бизнеса или Office 365 для образования.
-ms.openlocfilehash: 44e15e71be85eabdf6aa80bdb8d4b5dc4cd3b8d7
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 139235926d6e7ad740b16169fa6ec08fd55b74be
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635622"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393803"
 ---
 # <a name="set-up-microsoft-365-for-business"></a>Настройка Microsoft 365 для бизнеса
 

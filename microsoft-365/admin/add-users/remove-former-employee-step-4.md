@@ -19,17 +19,18 @@ ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
 - AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Следуйте шагам в этой статье, чтобы предоставить другому сотруднику доступ к данным OneDrive и Outlook сотрудников.
-ms.openlocfilehash: abcad87498f6670fe7fe2f5457321f1b3f6e0930
-ms.sourcegitcommit: e8f5d88f0fe54620308d3bec05263568f9da2931
+ms.openlocfilehash: b5868ab1622fea68cc3dabb54a3d06208ccaa165
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52730202"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394307"
 ---
 # <a name="step-4---give-another-employee-access-to-onedrive-and-outlook-data"></a>Шаг 4 . Предоставить другому сотруднику доступ к OneDrive и Outlook данным
 

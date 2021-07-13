@@ -13,18 +13,20 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: 9de497a9-2f5c-43d6-ae18-767f2e6fe6e0
 description: Узнайте, как добавлять гостей в группу Microsoft 365, просматривать гостевых пользователей и использовать PowerShell для управления гостевых доступом.
-ms.openlocfilehash: 00a6353f02ae7f3675961c3ee2ee31e3715652f2
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 41a42a0b4fc76b71892f758519db56f4c1adc897
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635766"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394067"
 ---
 # <a name="manage-guest-access-in-microsoft-365-groups"></a>Управление гостевом доступом в Microsoft 365 группах
 
@@ -45,7 +47,7 @@ ms.locfileid: "52635766"
 
 ## <a name="manage-groups-guest-access"></a>Управление гостевом доступом групп
 
-Если вы хотите включить или отключить гостевой доступ в группах, вы можете сделать это в центре Microsoft 365 администратора.
+Если вы хотите включить или отключить гостевой доступ в группах, вы можете сделать это в Центр администрирования Microsoft 365.
 
 1. В центре администрирования  перейдите к просмотру всех параметров Параметры Org и на вкладке \>  \>  **Services** выберите **Microsoft 365 группы**.
   
@@ -53,7 +55,7 @@ ms.locfileid: "52635766"
 
 ## <a name="add-guests-to-a-microsoft-365-group-from-the-admin-center"></a>Добавление гостей в группу Microsoft 365 из центра администрирования
 
-Если гость уже существует в каталоге, его можно добавить в группы из центра администрирования Microsoft 365 администратора. (Группы с динамическим членством должны управляться [в Azure Active Directory.)](/azure/active-directory/enterprise-users/groups-create-rule)
+Если гость уже существует в каталоге, его можно добавить в группы из Центр администрирования Microsoft 365. (Группы с динамическим членством должны управляться [в Azure Active Directory.)](/azure/active-directory/enterprise-users/groups-create-rule)
   
 1. В центре администрирования перейдите на страницу **Группы**  >  **групп.**
   
@@ -61,7 +63,7 @@ ms.locfileid: "52635766"
   
 4. Выберите **Добавить участников** и выбрать имя гостя, которого вы хотите добавить.
     
-5. Нажмите **Сохранить**.
+5. Нажмите кнопку **Сохранить**.
 
 Если вы хотите напрямую добавить гостя в каталог, вы можете добавить пользователей совместной [Azure Active Directory B2B на портале Azure.](/azure/active-directory/b2b/add-users-administrator)
 
@@ -70,6 +72,6 @@ ms.locfileid: "52635766"
 ## <a name="related-content"></a>См. также:
 
 [Блокировка гостевых пользователей из определенной группы](../../solutions/per-group-guest-access.md) (статья)\
-[Управление членством в группе Microsoft 365 центра администрирования](add-or-remove-members-from-groups.md) (статья)\
+[Управление членством](add-or-remove-members-from-groups.md) группы в Центр администрирования Microsoft 365 (статья)\
 [Azure Active Directory доступа](/azure/active-directory/active-directory-azure-ad-controls-perform-access-review) (статья)\
 [Set-AzureADUser](/powershell/module/azuread/set-azureaduser) (статья)

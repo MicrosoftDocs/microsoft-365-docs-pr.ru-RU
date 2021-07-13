@@ -15,15 +15,16 @@ ms.collection:
 - Adm_TOC
 ms.custom:
 - AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - MET150
 description: Используйте Basic Mobility и Security для создания политик устройств, которые защищают сведения о вашей организации.
-ms.openlocfilehash: 62dc2eef87d413a9cb62a01541126860620eec3f
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 5c8794b53dc11d1cee2fc13c8fbc4933e18dd9a3
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53228259"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394091"
 ---
 # <a name="create-device-security-policies-in-basic-mobility-and-security"></a>Создание политик безопасности устройств в Basic Mobility and Security
 

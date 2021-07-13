@@ -24,17 +24,18 @@ ms.custom:
 - OKR_SMB_Videos
 - seo-marvel-mar
 - AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Узнайте о Microsoft 365 бизнес премиум, службе подписки, которая включает Office приложения и расширенные средства защиты от киберугроз.
-ms.openlocfilehash: b7b71032ffc19c582f9658b93dae7dd9f89e02eb
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 96b915924013c29c8f30dd22c85ed389cb66a772
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53287634"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394198"
 ---
 # <a name="overview-of-microsoft-365-business-premium"></a>Общие сведения о Microsoft 365 бизнес премиум
 
@@ -111,6 +112,6 @@ Microsoft 365 бизнес премиум помогает **защититьс�
 
 - Если у вас нет партнера и вы хотите получить Microsoft 365 бизнес премиум, вы можете [купить его здесь](https://www.microsoft.com/microsoft-365/business) и следовать инструкциям по [регистрации](sign-up.md).
 
-## <a name="related-content"></a>Связанные материалы
+## <a name="related-content"></a>См. также:
 
 [Microsoft 365 бизнес премиум обучающие видео](../business-video/index.yml) (страница ссылки)

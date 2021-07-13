@@ -17,17 +17,18 @@ ms.custom:
 - MSStore_Link
 - AdminSurgePortfolio
 - okr_smb
+- AdminTemplateSet
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: 9cdfa29d-7681-4af2-a79d-3e72e7ab9778
 description: Добавление новых сотрудников в Microsoft 365 для бизнеса для электронной почты, Skype и Office приложений.
-ms.openlocfilehash: 2dbdb9cb931b95241b0bd3599fdae154ab72ea24
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.openlocfilehash: 24b31e22423fe7f0d51da5a71c4c14b54f1525f0
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706194"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394115"
 ---
 # <a name="add-a-new-employee-to-microsoft-365"></a>Добавление нового сотрудника в Microsoft 365
 
@@ -76,7 +77,7 @@ ms.locfileid: "52706194"
   
 И вот быстрая ссылка, чтобы помочь им начать работу:
   
-|**Задача**|**Поиск сведений**|
+|**Task**|**Поиск сведений**|
 |:-----|:-----|
 |Вход в Office  <br/> |Перейдите [https://www.office.com](https://www.office.com) к , выберите **вход,** а затем введите свой пользовательский код и пароль.  <br/> |
 |Установите Office на компьютер.  <br/><br/> |При входе на домашней странице есть ссылка на загрузку и установку приложений, таких как Word и Outlook.  Выберите **установите Office**.         Инструкции см. [в Office.](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658)  <br/> |

@@ -18,15 +18,16 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - commerce_billing
+- AdminTemplateSet
 search.appverid: MET150
 description: Узнайте, как профили выставления счетов поддерживают счета-фактуры.
 ms.date: 04/02/2021
-ms.openlocfilehash: e66efe12e05d2aaf286b689c955f17c8401144f1
-ms.sourcegitcommit: f780de91bc00caeb1598781e0076106c76234bad
+ms.openlocfilehash: ecea09a9ceea12fa92b92eac3e5a7595b2510042
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52537335"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394633"
 ---
 # <a name="understand-billing-profiles"></a>Общие сведения о профилях выставления счетов
 
@@ -34,7 +35,7 @@ ms.locfileid: "52537335"
 
 > [!NOTE]
 >
-> Профили биллинга недоступны клиентам, которые покупают продукты и Microsoft.com или  на странице Службы покупки центра администрирования Microsoft 365.
+> Профили биллинга недоступны клиентам, которые покупают продукты и Microsoft.com или  на странице Службы покупки Центр администрирования Microsoft 365.
 
 ## <a name="what-are-billing-profile-roles"></a>Что такое роли профилей для вы выставления счета?
 
@@ -73,7 +74,7 @@ ms.locfileid: "52537335"
 
 Если у вас есть вопросы или вам нужна помощь с зарядами Azure, создайте запрос на поддержку <a href="https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest" target="_blank">с помощью службы поддержки Azure.</a>
 
-Если у вас есть вопросы или требуется помощь с профилем вы выставления Microsoft 365 центре администрирования, обратитесь [в службу поддержки.](../../business-video/get-help-support.md)
+Если у вас есть вопросы или вам нужна помощь в профиле Центр администрирования Microsoft 365, обратитесь [в службу поддержки.](../../business-video/get-help-support.md)
 
 ## <a name="related-content"></a>См. также:
 

@@ -19,15 +19,16 @@ ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
 - commerce_purchase
+- AdminTemplateSet
 search.appverid: MET150
 description: Добавьте хранилище файлов в Microsoft 365 подписку. С помощью дополнительного хранилища файлов можно хранить больше контента в SharePoint и OneDrive.
 ms.date: 04/02/2021
-ms.openlocfilehash: dee7debfbd2b624f3bf82bd573c81e7e1373b31e
-ms.sourcegitcommit: a4c93a4c7d7db08fe3b032b58d5c7dbbb9476e90
+ms.openlocfilehash: 28716c9506f31fd32f821cfff90bd8eaa19e6495
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53256823"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394657"
 ---
 # <a name="add-storage-space-for-your-subscription"></a>Добавление пространства для хранения для подписки
 
@@ -36,7 +37,7 @@ ms.locfileid: "53256823"
 > [!NOTE]
 > Если вы приобрели подписку через корпоративное лицензирование или  CSP, вы не можете купить Office 365 с дополнительным хранилищем вашей организации непосредственно у Корпорации Майкрософт. Обратитесь за помощью к представителю или партнеру.
 
-## <a name="before-you-begin"></a>Подготовка
+## <a name="before-you-begin"></a>Прежде чем начать
 
 Вы должны быть глобальным или администратором SharePoint для выполнения задач в этой статье. Дополнительные сведения см. в статье [О ролях администраторов](../admin/add-users/about-admin-roles.md).
 
@@ -76,7 +77,7 @@ ms.locfileid: "53256823"
 3. На странице сведения о продукте в разделе **Надстройки** выберите **Управление надстройки**.
 4. В области **Управление надстройки** из списка **надстройки** выберите **Office 365 с дополнительным хранилищем**.
 5. В **текстовом окне** Количество введите количество ГБ пространства хранения, которое необходимо для подписки.
-6. Нажмите **Сохранить**.
+6. Нажмите кнопку **Сохранить**.
 
 ## <a name="is-my-plan-eligible-for-office-365-extra-file-storage"></a>Доступна ли в моем плане надстройка "Office 365 с дополнительным хранилищем"?
 
@@ -103,7 +104,7 @@ ms.locfileid: "53256823"
 > [!NOTE]
 > Office 365 с дополнительным хранилищем также доступен для GCC, GCC и doD-планов.
 
-## <a name="related-content"></a>Связанные материалы
+## <a name="related-content"></a>См. также:
 
 [Управление ограничениями хранения сайтов](/sharepoint/manage-site-collection-storage-limits) (статья)\
 [Установите пространство хранения по умолчанию для OneDrive пользователей](/onedrive/set-default-storage-space) (статья)

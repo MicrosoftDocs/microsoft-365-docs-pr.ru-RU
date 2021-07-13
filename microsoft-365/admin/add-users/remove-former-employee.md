@@ -19,17 +19,18 @@ ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
 - AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Выполните действия в этом решении, чтобы удалить бывшего сотрудника из Microsoft 365 и защитить данные организации.
-ms.openlocfilehash: 36441e51a7f9fe89434f633ee98fe2015d72827d
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: dcc206cc0b088749c3936dcf1c548cc83b6fa595
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53286349"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394295"
 ---
 # <a name="overview-remove-a-former-employee-and-secure-data"></a>Обзор. Удаление бывших сотрудников и безопасные данные
 
@@ -37,7 +38,7 @@ ms.locfileid: "53286349"
 
 :::image type="content" source="../../media/delete-user-overview.png" alt-text="Снимок экрана. Общие действия для удаления бывшего сотрудника":::
 
-## <a name="before-you-begin"></a>Подготовка
+## <a name="before-you-begin"></a>Прежде чем начать
 
 Чтобы выполнить действия в этом решении, необходимо быть глобальным администратором.
 
@@ -63,7 +64,7 @@ ms.locfileid: "53286349"
 |[Шаг 7 . Удаление учетной записи пользователя бывшего сотрудника](remove-former-employee-step-7.md)|Это удаляет учетную запись из центра администрирования. Это помогает поддерживать порядок.|
 |
 
-## <a name="related-content"></a>Связанные материалы
+## <a name="related-content"></a>См. также:
 
 [Восстановление пользователя](restore-user.md) (статья)\
 [Добавление нового сотрудника в Microsoft 365](add-new-employee.md) (статья)\

@@ -1,5 +1,5 @@
 ---
-title: Создание, редактирование или удаление группы безопасности в центре Microsoft 365 администрирования
+title: Создание, редактирование или удаление группы безопасности в Центр администрирования Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -13,21 +13,23 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 55c96b32-e086-4c9e-948b-a018b44510cb
 description: Научитесь создавать, редактировать или удалять группу безопасности.
-ms.openlocfilehash: 7887a6371287ebef3a91cc1a37f2ed696df1948d
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 525acc45b293563f58bb9aa12c40bec1438cb055
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624005"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393959"
 ---
-# <a name="create-edit-or-delete-a-security-group-in-the-microsoft-365-admin-center"></a>Создание, редактирование или удаление группы безопасности в центре Microsoft 365 администрирования
+# <a name="create-edit-or-delete-a-security-group-in-the-microsoft-365-admin-center"></a>Создание, редактирование или удаление группы безопасности в Центр администрирования Microsoft 365
 
 На странице Microsoft 365 **Группы** можно создать группы учетных записей пользователей, которые можно использовать для назначения тех же разрешений в SharePoint Online и CRM Online. Например, администратор может создать группу безопасности, чтобы предоставить определенной группе людей доступ к SharePoint сайту. Только администраторы глобального и управления пользователями имеют разрешения на создание, редактирование или удаление групп безопасности; Дополнительные сведения о ролях администратора см. в [дополнительных сведениях о назначении ролей администратора.](../add-users/assign-admin-roles.md) 
   
@@ -40,7 +42,7 @@ ms.locfileid: "52624005"
 
 ### <a name="add-a-security-group"></a>Добавление группы безопасности
 
-1. В центре Microsoft 365 перейдите на страницу **Группы**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank"></a> групп.
+1. В Центр администрирования Microsoft 365 перейдите на страницу **Группы**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">групп.</a>
   
 2. На странице **Группы** выберите **Добавить группу.**
     
@@ -102,6 +104,6 @@ ms.locfileid: "52624005"
 
 ## <a name="related-content"></a>См. также:
 
-[Создание группы в центре администрирования Microsoft 365](../create-groups/create-groups.md) (статья)\
+[Создание группы в Центр администрирования Microsoft 365](../create-groups/create-groups.md) (статья)\
 [Объяснение групп Microsoft 365 пользователям](../create-groups/explain-groups-knowledge-worker.md) (статья)\
-[Управление группой в центре администрирования Microsoft 365 (статья)](../create-groups/manage-groups.md)
+[Управление группой в Центр администрирования Microsoft 365](../create-groups/manage-groups.md) (статья)

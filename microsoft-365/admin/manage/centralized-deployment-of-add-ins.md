@@ -13,19 +13,21 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: b4527d49-4073-4b43-8274-31b7a3166f92
 description: Определите, соответствуют ли требованиям клиент и пользователи, чтобы можно было использовать централизованное развертывание для развертывания Office надстройки.
-ms.openlocfilehash: 5d6f225acb56d1ec092046297d708444bb8d93d2
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: cb1cc019cfd87ee05112ea0ac1f0f1675316c6d3
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53227960"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393707"
 ---
 # <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>Определите, работает ли централизованное развертывание надстройок для вашей организации
 
@@ -155,7 +157,7 @@ Microsoft Exchange хранит манифесты надстройки в кл�
 
 |**Платформа**|**Данные отладки**|
 |:-----|:-----|
-|Кабинет  <br/> | Журналы Charles/Fiddler  <br/>  ID клиента[(узнайте, как)](/onedrive/find-your-office-365-tenant-id)  <br/>  CorrelationID. Просмотреть источник одной из страниц office и найти значение Correlation ID и отправить его в поддержку:  <br/>`<input name=" **wdCorrelationId**" type="hidden" value=" **{BC17079E-505F-3000-C177-26A8E27EB623}**">`  <br/>  `<input name="user_id" type="hidden" value="1003bffd96933623"></form>`  <br/> |
+|Office  <br/> | Журналы Charles/Fiddler  <br/>  ID клиента[(узнайте, как)](/onedrive/find-your-office-365-tenant-id)  <br/>  CorrelationID. Просмотреть источник одной из страниц office и найти значение Correlation ID и отправить его в поддержку:  <br/>`<input name=" **wdCorrelationId**" type="hidden" value=" **{BC17079E-505F-3000-C177-26A8E27EB623}**">`  <br/>  `<input name="user_id" type="hidden" value="1003bffd96933623"></form>`  <br/> |
 |Классические клиенты (Windows, Mac)  <br/> | Журналы Charles/Fiddler  <br/>  Сборка номеров клиентского приложения (желательно в качестве скриншота из **File/Account)**  <br/> |
 
 ## <a name="related-content"></a>См. также:

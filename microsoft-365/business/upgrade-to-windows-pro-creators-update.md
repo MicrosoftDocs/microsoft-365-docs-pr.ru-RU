@@ -21,17 +21,18 @@ ms.custom:
 - OKR_SMB_Videos
 - seo-marvel-mar
 - AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: ffc4d886-9e1d-453d-a0d0-2f62f18635e2
 description: Узнайте, как можно обновить Windows устройства, Windows 10 Pro использовать более современные функции безопасности и бизнес-сетей.
-ms.openlocfilehash: 39a7224ea585f8e1fb5052cb6fbb62329bd15656
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: e87a9bc4ebbb4d5437e2174dc9f41c4700346ffd
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53227522"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394158"
 ---
 # <a name="upgrade-windows-devices-to-windows-10-pro"></a>Обновление Windows устройств для Windows 10 Pro
 
@@ -39,11 +40,11 @@ ms.locfileid: "53227522"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3t58j]
 
-Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](../business-video/index.yml).
+Если это видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](../business-video/index.yml).
 
 ## <a name="upgrade-to-windows-10-pro"></a>Переход на Windows 10 Pro
 
-Чтобы обновить Windows 10 Pro, у вас есть несколько вариантов. Варианты действий:
+Чтобы обновить Windows 10 Pro, у вас есть несколько вариантов. Вы можете:
 
 - Установите обновление с сайта [Загрузка программного обеспечения Майкрософт](https://go.microsoft.com/fwlink/?LinkID=836951).
   - Выберите этот параметр, если устройство, в которое вы вошли, находится на том же устройстве, что и необходимо обновить.

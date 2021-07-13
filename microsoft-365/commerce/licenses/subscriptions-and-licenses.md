@@ -18,15 +18,16 @@ ms.custom:
 - AdminSurgePortfolio
 - manage_licenses
 - commerce_licensing
+- AdminTemplateSet
 search.appverid: MET150
 description: Получаемые приложения и службы зависят от Microsoft 365 приобретенного продукта, например Приложения Microsoft 365 для бизнеса.
 ms.date: 07/01/2020
-ms.openlocfilehash: 817ea454bf471fdc2f175658af9030925d29189a
-ms.sourcegitcommit: 50f484fc501d81506a714b127a56a6979888d849
+ms.openlocfilehash: 69996a97b582ec3323a31efbe4cb70fe4a61e19d
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52779883"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394429"
 ---
 # <a name="understand-subscriptions-and-licenses-in-microsoft-365-for-business"></a>Понимание подписок и лицензий в Microsoft 365 для бизнеса
 
@@ -55,7 +56,7 @@ ms.locfileid: "52779883"
   
 |**Если в подписке есть эта служба**|**Автоматическое действие**|
 |:-----|:-----|
-|Exchange Online  <br/> |Для пользователя создается почтовый ящик. <br/> Чтобы узнать о SLA для завершения этой задачи, см. в статью ["Настройка...". сообщения в центре Microsoft 365 администрирования.](https://support.microsoft.com/help/2635238/setting-up-messages-in-the-office-365-admin-center) |
+|Exchange Online  <br/> |Для пользователя создается почтовый ящик. <br/> Чтобы узнать о SLA для завершения этой задачи, см. в статью ["Настройка...". сообщения в Центр администрирования Microsoft 365](https://support.microsoft.com/help/2635238/setting-up-messages-in-the-office-365-admin-center). |
 |SharePoint Online  <br/> |Назначаются разрешения на изменение стандартного сайта группы SharePoint Online.  <br/> |
 |Skype для бизнеса online  <br/> |У человека есть доступ к функциям, связанным с лицензией.  <br/> |
 |Приложения Microsoft 365 для предприятий  <br/> |Человек может скачать Office на пять компьютеров или компьютеров, пять планшетов и пять смартфонов.  <br/> |

@@ -13,18 +13,20 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Роли администратора относят к бизнес-функциям и предоставляют разрешения на выполнение определенных задач в центре администрирования. Например, администратор служб создает запросы в службу поддержки Майкрософт.
-ms.openlocfilehash: 4e2b1db207a2a590855f7fb2d0bf2019d4b57ea5
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: 20ba46c94f94267df7117d4baf020bbdc21cad7c
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52924567"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394391"
 ---
 # <a name="get-started-with-the-roles-page"></a>Начало работы со страницей ролей
 

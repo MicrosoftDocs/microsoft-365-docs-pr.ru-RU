@@ -14,19 +14,21 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 9eec911d-5773-422c-9593-40e1147ffbde
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб в Windows DNS для Microsoft.
-ms.openlocfilehash: b9088fe3efd58700db0234a2839665a783731eb0
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.openlocfilehash: 86deaac256c0d657ad9604be91349b113e9c0ded
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706120"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393731"
 ---
 # <a name="create-dns-records-for-microsoft-using-windows-based-dns"></a>Создание записей DNS для Microsoft с Windows DNS на основе Windows.
 
@@ -49,7 +51,7 @@ ms.locfileid: "52706120"
 - Из строки MX в разделе Exchange Online страницы Записи добавить DNS в Microsoft скопируйте значение, перечисленное в разделе Пункты для адреса. Это значение будет использоваться в записи, которую вы создаете в этой задаче. 
 - На странице Диспетчер DNS для домена перейдите к **exchanger** почты действий  >  **(MX).** Чтобы найти эту страницу для домена, см. в этой странице Найти записи DNS в Windows [DNS.](#find-your-dns-records-in-windows-based-dns)  
 - В **диалоговом окне Запись** новых ресурсов убедитесь, что поля задают следующие значения: 
-    - Host Name (Имя узла):  
+    - Имя хозяина: 
     - @Address: вклеить пункты для адреса значения, которое вы только что скопировали из Microsoft здесь.  
     - Преф: 
 - Выберите **Сохранить изменения.**
@@ -76,14 +78,14 @@ ms.locfileid: "52706120"
     - Имя хозяина: sip
     - Тип: CNAME
     - Адрес: sipdir.online.lync.com
-- Нажмите кнопку **ОК**.
+- Нажмите **ОК**.
 
 Добавьте запись автообнаружения CNAME для Skype для бизнеса online.  
 - На странице Диспетчер DNS для домена перейдите к **действию** \> **CNAME (CNAME).** В **диалоговом окне Запись** новых ресурсов убедитесь, что поля задают следующие значения:  
     - Имя хозяина: lyncdiscover
     - Тип: CNAME
     - Адрес: webdir.online.lync.com
-- Нажмите кнопку **ОК**.
+- Нажмите **ОК**.
    
 ### <a name="add-two-cname-records-for-mobile-device-management-mdm-for-microsoft"></a>Добавление двух записей CNAME для управления мобильными устройствами (MDM) для Microsoft
 
@@ -97,7 +99,7 @@ ms.locfileid: "52706120"
 - Имя хозяина: корпоративная регистрация
 - Тип: CNAME
 - Адрес: enterpriseregistration.windows.net
-- Нажмите кнопку **ОК**. 
+- Нажмите **ОК**. 
 
 Добавьте запись CNAME MDM Enterpriseenrollment. 
 -  На странице Диспетчер DNS для домена перейдите к **действию** \> **CNAME (CNAME).** 
@@ -105,7 +107,7 @@ ms.locfileid: "52706120"
     - Имя хозяина: enterpriseenrollment
     - Тип: CNAME
     - Адрес: enterpriseenrollment-s.manage.microsoft.com
-- Нажмите кнопку **ОК**.
+- Нажмите **ОК**.
    
 ## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавление записи TXT для SPF, предотвращающей рассылку спама
 <a name="BKMK_add_TXT"> </a>
@@ -125,7 +127,7 @@ ms.locfileid: "52706120"
 -  Тип записи: TXT
 -  Адрес: v=spf1 include:spf.protection.outlook.com -all 
          
--  Нажмите кнопку **ОК**.
+-  Нажмите **ОК**.
    
 ## <a name="add-srv-records"></a>Добавление SRV-записей
 <a name="BKMK_add_SRV"> </a>
@@ -142,7 +144,7 @@ ms.locfileid: "52706120"
     -  Вес: 1
     -  Порт: 443
     -  Target (Hostname): sipdir.online.lync.com
--  Нажмите кнопку **ОК**. 
+-  Нажмите **ОК**. 
 
 
 Добавьте запись SRV SIP для федерации Skype для бизнеса online.  
@@ -155,7 +157,7 @@ ms.locfileid: "52706120"
     -  Вес: 1
     -  Порт: 5061
     -  Target (Hostname): sipfed.online.lync.com
--  Нажмите кнопку **ОК**. 
+-  Нажмите **ОК**. 
    
 ## <a name="add-a-record-to-verify-that-you-own-the-domain-if-you-havent-already"></a>Добавление записи для подтверждения владения доменом, если это еще не сделано
 <a name="BKMK_verify"> </a>

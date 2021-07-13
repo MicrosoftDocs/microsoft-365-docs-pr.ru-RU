@@ -13,19 +13,21 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 832276bd-d024-47b6-a80a-a6b884907a5b
 description: 'Узнайте, как включить или отключить функцию Clutter для всех или определенных пользователей в вашей организации с помощью Exchange PowerShell. '
-ms.openlocfilehash: 059fb8e626a0b05e0224fc89931453aaae43be0b
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.openlocfilehash: 91098047bdf2ab8190283990bdc6b0292e3e57ba
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706119"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393983"
 ---
 # <a name="configure-clutter-for-your-organization"></a>Настройка функции 'Несрочные' для организации
 
@@ -60,7 +62,7 @@ ms.locfileid: "52706119"
 
 В качестве администратора можно повторно включить clutter с помощью Exchange PowerShell. После этого функция "Сортировка почты" отключается, а функция "Несрочные" снова становится активной. 
   
- **Если вы используете Outlook в Интернете с Microsoft 365 бизнес премиум подпиской:**
+ **Если вы используете Outlook в Интернете подписку Microsoft 365 бизнес премиум:**
   
 - если у пользователя включена функция "Несрочные": 
     

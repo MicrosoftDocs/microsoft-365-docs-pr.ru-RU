@@ -16,27 +16,28 @@ ms.collection:
 ms.custom:
 - AdminSurgePortfolio
 - okr_smb
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 74a1ef8b-3844-4d08-9980-9f8f7a36000f
 description: Научитесь создавать и Microsoft 365 группы, добавлять и удалять их, а также настраивать работу группы.
-ms.openlocfilehash: b8cbd194825ef114fa8e4ce999355248a61e7830
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: 1afa8d38d05ca0383f56cdba795f26739457347c
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52635586"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393755"
 ---
-# <a name="create-a-group-in-the-microsoft-365-admin-center"></a>Создание группы в центре Microsoft 365 администрирования
+# <a name="create-a-group-in-the-microsoft-365-admin-center"></a>Создание группы в Центр администрирования Microsoft 365
   
-Хотя пользователи могут создать группу Microsoft 365 из Outlook или других приложений в качестве администратора, вам может потребоваться создать или удалить группы, добавить или удалить членов и настроить их работу. Это Microsoft 365 центр администрирования. 
+Хотя пользователи могут создать группу Microsoft 365 из Outlook или других приложений в качестве администратора, вам может потребоваться создать или удалить группы, добавить или удалить членов и настроить их работу. Это Центр администрирования Microsoft 365 это место. 
 
 > [!TIP]
-> Microsoft 365 связанные Yammer группы должны создаваться в Yammer, но управлять их можно в центре администрирования Microsoft 365, как и другие Microsoft 365 группы. Подробнее см. в [Yammer и Microsoft 365 группах.](/yammer/manage-yammer-groups/yammer-and-office-365-groups) 
+> Microsoft 365 связанные Yammer группы должны быть созданы в Yammer, но могут управляться в Центр администрирования Microsoft 365, как и другие Microsoft 365 группы. Подробнее см. в [Yammer и Microsoft 365 группах.](/yammer/manage-yammer-groups/yammer-and-office-365-groups) 
 
-## <a name="create-a-microsoft-365-group"></a>Создание Microsoft 365 группы
+## <a name="create-a-microsoft-365-group"></a>Создание группы Microsoft 365
 
 1. В центре администрирования разойдите **группы** и нажмите кнопку **Группы**.
 

@@ -18,15 +18,16 @@ ms.custom:
 - okr_smb
 - AdminSurgePortfolio
 - commerce_subscriptions
+- AdminTemplateSet
 search.appverid: MET150
 description: Узнайте, какие подписки есть у организации, переехав на страницу Ваши продукты.
 ms.date: 01/21/2021
-ms.openlocfilehash: b0f5f11f34ec4cf84648709ae5557bc5f637a55f
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.openlocfilehash: bb11ab4fc8933e2e199998992f0c12ea8de0d23a
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706302"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394223"
 ---
 # <a name="what-subscription-do-i-have"></a>Какая у меня подписка?
 
@@ -41,7 +42,7 @@ ms.locfileid: "52706302"
 
 ## <a name="related-content"></a>См. также:
   
-[Подписки и выставление счета](../../commerce/index.yml) (ссылки)\
+[Подписки и выставление счета](../../commerce/index.yml) (страница ссылки)\
 [Просмотр счета](../../commerce/billing-and-payments/view-your-bill-or-invoice.md) (статья)\
 [Оплата подписки](../../commerce/billing-and-payments/pay-for-your-subscription.md) (статья)\
 [Изменение адресов вы выставления счета](../../commerce/billing-and-payments/change-your-billing-addresses.md) (статья)

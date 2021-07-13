@@ -19,18 +19,19 @@ ms.custom:
 - OKR_SMB_Videos
 - AdminSurgePortfolio
 - okr_smb
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 5bc3f460-13cc-48c0-abd6-b80bae72d04a
 description: Узнайте, как настроить политику, позволяющую пользователям сбросить собственные пароли с помощью средства сброса паролей самообслуживки.
-ms.openlocfilehash: 81fbe1949b8d5e4a601411703d86165f95cc7b7f
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: ac6d7f16cb35cec757340a94c262c3541bea927a
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52634272"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53394319"
 ---
 # <a name="let-users-reset-their-own-passwords"></a>Предоставление пользователям прав на самостоятельный сброс пароля
 
@@ -42,7 +43,7 @@ ms.locfileid: "52634272"
 
 - Эта функция использует платформу Azure. Она предоставляется в Azure автоматически и **бесплатно** при выполнении описанной ниже процедуры. Если вы не используете другие функции Azure, плата за включение функции самостоятельного сброса пароля не взимается.
 
-- **Если вы используете локальное Active Directory,** эти два пункта не применяются. Это можно настроить, но для этого требуется платная подписка на **Azure AD Premium.**
+- **Если вы используете локальное Active Directory,** эти два пункта не применяются. Скорее, вы можете настроить это, но для этого требуется **платная** подписка на Azure AD Premium .
 
 Эта статья адресована тем, кто устанавливает политику срока действия паролей в компании, учебном заведении или некоммерческой организации. Чтобы выполнить эти действия, вам нужно войти с помощью своей учетной записи администратора Microsoft 365. [Что такое учетная запись администратора?](../../business-video/admin-center-overview.md)
 
@@ -76,4 +77,4 @@ ms.locfileid: "52634272"
 
 [Установите политику истечения пароля для организации](../manage/set-password-expiration-policy.md) (статья)\
 [Установка бессрочных пользовательских паролей](set-password-to-never-expire.md) (статья)\
-[Microsoft 365 бизнес обучающие видео](../../business-video/index.yml) (страница ссылки)
+[Microsoft 365 бизнес-обучение](../../business-video/index.yml) (страница ссылки)
