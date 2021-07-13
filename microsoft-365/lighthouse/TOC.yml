@@ -15,7 +15,7 @@
 - name: Защита клиентов базовыми показателями
   items:
     - name: Обзор использования базовых данных для развертывания стандартных конфигураций клиента
-      href: m365-lighthouse-deploying-standard-tenant-configurations-overview.md
+      href: m365-lighthouse-deploy-standard-tenant-configurations-overview.md
     - name: Развертывание базовых показателей
       href: m365-lighthouse-deploy-baselines.md
 - name: Управление клиентами
