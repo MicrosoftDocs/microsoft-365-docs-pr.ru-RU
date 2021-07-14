@@ -1,6 +1,6 @@
 ### YamlMime:Landing
 title: Документация Microsoft 365 по соответствию требованиям
-summary: Если вашей организации необходимо соответствовать правовым или нормативным стандартам, начните с этой статьи, где изложена информация о соответствии требованиям в Microsoft 365.
+summary: Если вашей организации необходимо соответствовать правовым или нормативным стандартам, начните с этой статьи, где изложена информация о соответствии требованиям в Microsoft 365.
 metadata:
   title: Документация Microsoft 365 по соответствию требованиям
   description: Эта страница содержит ссылки на некоторые важные статьи, в которых рассматриваются функции соответствия требованиям Microsoft 365. Начните отсюда, чтобы узнать о соответствии требованиям в Microsoft 365.
@@ -13,12 +13,12 @@ metadata:
   ms.author: robmazz
   ms.date: 09/20/2019
   localization_priority: Priority
-  ms.openlocfilehash: 79c9bf21fe480faffac90b6b5f5f134e72eff119
-  ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+  ms.openlocfilehash: 5fbddbbf65d987817e793233fe3384c0f47fd04f
+  ms.sourcegitcommit: 4046c2c390851dffcdb430e1ba38c4df23fe2e69
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 03/19/2021
-  ms.locfileid: "50916844"
+  ms.lasthandoff: 07/13/2021
+  ms.locfileid: "53415539"
 landingContent:
 - title: Управление защитой данных и руководством ими
   linkLists:
@@ -76,6 +76,8 @@ landingContent:
   linkLists:
   - linkListType: how-to-guide
     links:
+    - text: Защита данных с принципом "Никому не доверяй"
+      url: /security/zero-trust/data
     - text: Развертывание защиты информации в соответствии с требованиями к конфиденциальности данных
       url: ../solutions/information-protection-deploy.md
     - text: Изображения защиты информации и соответствия требованиям

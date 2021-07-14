@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Начало работы с обнаружением угроз и исправлением угроз приложений.
-ms.openlocfilehash: 6229d2cf94ec1ba892929f399fe49cf88da608d1
-ms.sourcegitcommit: 41c7f7bd5c808ee5ceca0f6efe13d4e67da0262b
+ms.openlocfilehash: 77de3676a9a486bbed572a4a16bf62ad4d038406
+ms.sourcegitcommit: 997a21b83795789cda0a6b4a77f9985a3233d0c0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 07/14/2021
-ms.locfileid: "53420342"
+ms.locfileid: "53430724"
 ---
 # <a name="get-started-with-app-threat-detection-and-remediation"></a>Начало работы с обнаружением и устранением угроз приложений
 
@@ -27,7 +27,7 @@ ms.locfileid: "53420342"
 
 Система управления приложениями Майкрософт собирает оповещения об угрозах, созданные встроенными методами обнаружения системы управления приложениями на основе действий вредоносных приложений и оповещений на основе политик, созданных активными политиками приложений.
 
-Первое место для просмотра оповещений приложений — это панель управления приложениями по адресу [https://compliance.microsoft.com/appgovernance](https://compliance.microsoft.com/appgovernance).
+Первое место для просмотра оповещений приложений — это панель управления приложениями по адресу [https://aka.ms/appgovernance](https://aka.ms/appgovernance).
 
 ![Страница обзора управления приложениями в Центре соответствия требованиям Microsoft 365 с выделенным разделом "Оповещения обнаружения и политик".](..\media\manage-app-protection-governance\mapg-cc-overview-alerts.png)
 

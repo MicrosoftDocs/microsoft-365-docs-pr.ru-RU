@@ -16,18 +16,29 @@ ms.collection:
 - m365solution-insiderrisk
 - m365initiative-compliance
 - m365solution-scenario
-ms.openlocfilehash: 3e057677b7d8ef4e74abe705bc3b23e8ea539853
-ms.sourcegitcommit: 53aebd492a4b998805c70c8e06a2cfa5d453905c
+ms.openlocfilehash: bee4c2d01579733ff7b1c5583b00cdd48e437af2
+ms.sourcegitcommit: 997a21b83795789cda0a6b4a77f9985a3233d0c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53326763"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53430544"
 ---
 # <a name="insider-risk-management-in-microsoft-365"></a>Управление рисками в Microsoft 365
 
 Все чаще сотрудники имеют больше доступа к созданию, управлению и совместному доступу к данным в широком спектре платформ и служб. В большинстве случаев организации имеют ограниченные ресурсы и средства для выявления и смягчения рисков для всей организации, а также для соответствия требованиям и стандартам конфиденциальности сотрудников. Эти риски могут включать кражу данных, выбыв сотрудников, а также утечку данных из вашей организации путем случайного перепреднамеренного или злонамеренного намерения.
 
 Управление рисками в Microsoft 365 использует всю ширину службы и трехсторонние индикаторы, чтобы помочь вам быстро выявлять, выявлять и действовать в рискованных действиях пользователей. С помощью журналов из Microsoft 365 и Microsoft Graph управление рисками позволяет определить конкретные политики для определения показателей риска и принятия мер по снижению этих рисков.
+
+Просмотрите ниже видео, чтобы узнать, как управление рисками изнутри может помочь вашей организации предотвращать, обнаруживать и содержать риски, при этом приоритизируя значения организации, культуру и пользовательский опыт:
+<br>
+<br>
+
+Решение по управлению рисками **& разработки:**
+>[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4j9CN]
+<br>
+
+**Рабочий процесс управления рисками, связанный с инсайдерской деятельностью:**
+>[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OUXB]
 
 ## <a name="configure-insider-risk-management-for-microsoft-365"></a>Настройка управления рисками изнутри для Microsoft 365
 
@@ -44,5 +55,5 @@ ms.locfileid: "53326763"
 ## <a name="more-information-about-insider-risk-management"></a>Дополнительные сведения об управлении рисками изнутри
 
 - [Управление политиками риска для инсайдеров](insider-risk-management-policies.md)
-- [Исследование действий, связанных с инсайдерской угрозой](insider-risk-management-activities.md)
+- [Исследование действий внутренних рисков](insider-risk-management-activities.md)
 - [Act on insider risk cases](insider-risk-management-cases.md)

@@ -10,12 +10,12 @@ ms.author: jaimeo
 manager: laurawi
 ms.topic: article
 audience: Admin
-ms.openlocfilehash: 571acc9c240fc0243998050ac3013258a2f85a3e
-ms.sourcegitcommit: e02cf5702af178ddd2968877a808874ecb49ed2c
+ms.openlocfilehash: 37f533f34753d66d975cb557239b2b168ac78f8e
+ms.sourcegitcommit: 997a21b83795789cda0a6b4a77f9985a3233d0c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52028948"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53430772"
 ---
 # <a name="apps-in-microsoft-managed-desktop"></a>Приложения на компьютерах, управляемых Майкрософт
 
@@ -31,7 +31,7 @@ ms.locfileid: "52028948"
 
 ## <a name="apps-provided-by-microsoft"></a>Приложения, предоставляемые Корпорацией Майкрософт
 
-В компьютеры, управляемые Майкрософт лицензии включены 64-битные версии приложений в Приложения Microsoft 365 для предприятий Standard Suite (Word, Excel, PowerPoint, Outlook, Publisher, Access, Skype для бизнеса и OneNote.) По умолчанию не включаются Microsoft Project и Visio, но  их можно запросить. Дополнительные сведения об этих приложениях см. в [Microsoft Project или Microsoft Visio на компьютеры, управляемые Майкрософт устройствах.](../get-started/project-visio.md)
+В компьютеры, управляемые Майкрософт лицензии включены 64-битные версии приложений в Приложения Microsoft 365 для предприятий Standard Suite (Word, Excel, PowerPoint, Outlook, Publisher, Access, Teams и OneNote.) По умолчанию не включаются Microsoft Project и Visio, но  их можно запросить. Дополнительные сведения об этих приложениях см. в [Microsoft Project или Microsoft Visio на компьютеры, управляемые Майкрософт устройствах.](../get-started/project-visio.md)
 
 ### <a name="what-microsoft-does-to-support-the-apps-we-provide"></a>Что корпорация Майкрософт делает для поддержки приложений, которые мы предоставляем
 

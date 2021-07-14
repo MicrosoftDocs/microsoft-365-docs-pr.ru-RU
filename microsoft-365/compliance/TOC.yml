@@ -555,6 +555,44 @@
           href: record-versioning.md
         - name: Ресурсы для нормативных требований
           href: retention-regulatory-requirements.md
+- name: Управление приложениями
+  items:
+    - name: Защита приложений и управление ими
+      href: app-governance-manage-app-protection-governance.md
+    - name: Начало работы с управлением приложениями
+      href: app-governance-get-started.md
+    - name: Отправка отзывов об управлении приложениями
+      href: app-governance-feedback.md
+    - name: Обеспечение видимости и получение аналитики
+      items:
+        - name: Сведения о видимости и аналитике
+          href: app-governance-visibility-insights-overview.md
+        - name: Начало работы
+          href: app-governance-visibility-insights-get-started.md
+        - name: Просмотр приложений
+          href: app-governance-visibility-insights-view-apps.md
+        - name: Определение состояния соответствия требованиям
+          href: app-governance-visibility-insights-compliance-posture.md
+    - name: Реализация политик приложений
+      items:
+        - name: Сведения о политиках приложения
+          href: app-governance-app-policies-overview.md
+        - name: Начало работы
+          href: app-governance-app-policies-get-started.md
+        - name: Создание политик приложений
+          href: app-governance-app-policies-create.md
+        - name: Управление политиками приложений
+          href: app-governance-app-policies-manage.md
+    - name: Обнаружение и устранение угроз приложений
+      items:
+        - name: Сведения об обнаружении и устранении
+          href: app-governance-detect-remediate-overview.md
+        - name: Начало работы
+          href: app-governance-detect-remediate-get-started.md
+        - name: Изучение оповещений об обнаружении аномалий
+          href: app-governance-anomaly-detection-alerts.md
+        - name: Устранение угроз приложений
+          href: app-governance-detect-remediate-detect-threats.md
 - name: Управление обнаружением электронных данных
   items:
     - name: Решения Microsoft 365 eDiscovery
