@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: 08fe4314c1461710d83ea7aeba1fdf9a60dd33a8
-ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
+ms.openlocfilehash: ff4c44199e4b6f8f1b3ca4806908813d7e710e4b
+ms.sourcegitcommit: 4046c2c390851dffcdb430e1ba38c4df23fe2e69
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "53339242"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "53415615"
 ---
 # <a name="onboard-windows-servers-to-the-microsoft-defender-for-endpoint-service"></a>На Windows серверов службы Microsoft Defender для конечных точек
 
@@ -73,7 +73,7 @@ Defender for Endpoint расширяет поддержку и включает 
 > [!TIP]
 > После работы с устройством можно выполнить тест обнаружения, чтобы убедиться, что оно правильно вложено в службу. Дополнительные сведения см. в сайте [Run a detection test on a newly onboarded Defender for Endpoint endpoint.](run-detection-test.md)
 
-#### <a name="before-you-begin"></a>Подготовка к работе
+#### <a name="before-you-begin"></a>Подготовка
 
 Выполните следующие действия для выполнения требований к вмеяниям:
 
@@ -222,6 +222,12 @@ Defender for Endpoint интегрируется с System Center Endpoint Prote
 ## <a name="offboard-windows-servers"></a>Offboard Windows серверов
 
 Вы можете использовать Windows Server (SAC), Windows Server 2019 и Windows Server 2019 Core в том же методе, что и для Windows 10 клиентских устройств.
+
+- [Offboarding using Group Policy](configure-endpoints-gp.md#offboard-devices-using-group-policy)
+- [Offboard devices using Configuration Manager](configure-endpoints-sccm.md#offboard-devices-using-configuration-manager)
+- [Offboard и мониторинг устройств с помощью средств управления мобильными устройствами](configure-endpoints-mdm.md#offboard-and-monitor-devices-using-mobile-device-management-tools)
+- [Offboard devices using a local script](configure-endpoints-script.md#offboard-devices-using-a-local-script)
+
 
 Для других Windows серверных версий у вас есть два варианта отключения Windows серверов из службы:
 

@@ -17,12 +17,12 @@ metadata:
   - M365-Lighthouse
   search.appverid: MET150
   description: Для поставщиков управляемых служб (MSP) с помощью Microsoft 365 Lighthouse, получите ответы на часто задаваемые вопросы (часто задаваемые вопросы) о Microsoft 365 Lighthouse.
-  ms.openlocfilehash: 05ed433a5f7afb6418cab77c99a401351f3a5565
-  ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+  ms.openlocfilehash: 5f15453f21ef48fcc1f8266d9474fc0cbc4190c2
+  ms.sourcegitcommit: 4046c2c390851dffcdb430e1ba38c4df23fe2e69
   ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 07/12/2021
-  ms.locfileid: "53395268"
+  ms.lasthandoff: 07/13/2021
+  ms.locfileid: "53415542"
 title: Microsoft 365 Lighthouse часто задаваемые вопросы (часто задаваемые вопросы)
 summary: >
   > [!NOTE]
@@ -49,6 +49,12 @@ sections:
   - question: Каковы требования к использованию Microsoft 365 Lighthouse?
     answer: >
       Список текущих требований см. в [Microsoft 365 Lighthouse.](m365-lighthouse-requirements.md)
+  - question: В каких странах и регионах Microsoft 365 Lighthouse доступны?
+    answer: >
+      Microsoft 365 Lighthouse доступны во всех странах, Microsoft 365 доступны, за исключением Китая и Палестинской автономии. Однако такие функции Microsoft 365 Lighthouse, как управление устройствами и управление угрозами, зависят от Microsoft Intune, а управление пользователями зависит от Azure Active Directory (Azure AD), а Intune и Azure AD могут быть недоступны в некоторых странах и регионах. Полный список доступности Microsoft 365, Azure AD и Intune см. [в видеоролике International availability.](https://www.microsoft.com/microsoft-365/business/international-availability)
+
+
+      Microsoft 365 Lighthouse недоступна в национальных облаках.
   - question: Как зарегистрироваться для Microsoft 365 Lighthouse?
     answer: >
       Чтобы зарегистрироваться Microsoft 365 Lighthouse, необходимо зарегистрироваться в программе CSP. В настоящее время мы не можем поддерживать непрямых поставщиков. Инструкции по регистрации см. в [Microsoft 365 Lighthouse.](m365-lighthouse-sign-up.md) Дополнительные сведения о программе CSP см. в поставщик облачных решений [обзоре программы.](/partner-center/csp-overview)

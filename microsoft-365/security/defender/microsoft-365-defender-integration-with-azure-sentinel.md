@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 - MET150
 ms.technology: m365d
-ms.openlocfilehash: b9a9a6381c93e2d252f75710adc206868c0a5546
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: adb65c82713464da2df4d473d2fd7a055e0dbeb3
+ms.sourcegitcommit: 4046c2c390851dffcdb430e1ba38c4df23fe2e69
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53229915"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "53415588"
 ---
 # <a name="microsoft-365-defender-integration-with-azure-sentinel"></a>Интеграция Microsoft 365 Defender с Azure Sentinel
 
@@ -40,7 +40,7 @@ ms.locfileid: "53229915"
 
 После добавления соединителя Microsoft 365 Defender инциденты, которые включают все связанные оповещения, объекты и релевантные сведения, полученные от Microsoft Defender для конечной точки, Защитника Майкрософт для удостоверений, Microsoft Defender для Office 365 и Microsoft Cloud App Security, будут передаваться в Azure Sentinel в качестве данных по безопасности и управлению событиями (SIEM), предоставляя контекст для выполнения триажа и реагирования на инциденты в &mdash; &mdash; Azure Sentinel. 
 
-После работы в Azure Sentinel инциденты по-прежнему синхронизируются с Microsoft 365 Defender, что позволяет использовать преимущества центра безопасности Microsoft 365 и Azure Sentinel на портале Azure для расследования инцидентов и реагирования на них.
+После работы в Azure Sentinel инциденты по-прежнему синхронизируются с Microsoft 365 Defender, что позволяет использовать преимущества портала Microsoft 365 Defender и Azure Sentinel на портале Azure для расследования инцидентов и реагирования на них.
 
 Просмотрите краткий обзор интеграции Azure Sentinel с Microsoft 365 Defender (4 минуты).
 

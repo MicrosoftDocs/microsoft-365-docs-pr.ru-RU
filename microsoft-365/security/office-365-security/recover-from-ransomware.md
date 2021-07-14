@@ -15,12 +15,12 @@ ms.collection:
 description: Microsoft 365 администраторы могут узнать, как восстановиться после атаки вымогателей.
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: 6c3664cb2a60a7173e345de4abaddefefea6e2b1
-ms.sourcegitcommit: 5db5047c24b56f3af90c2bc5c830a7a13eeeccad
+ms.openlocfilehash: 608fac50fc65f20a612b80ed151252eb2a0c2e01
+ms.sourcegitcommit: 4046c2c390851dffcdb430e1ba38c4df23fe2e69
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53341440"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "53415557"
 ---
 # <a name="recover-from-a-ransomware-attack-in-microsoft-365"></a>Восстановление после атаки вымогателей в Microsoft 365
 
@@ -143,16 +143,19 @@ ms.locfileid: "53341440"
 
 ## <a name="additional-ransomware-resources"></a>Дополнительные ресурсы вымогателей
 
-[Обзор программ-вымогателей, управляемых людьми](/security/compass/human-operated-ransomware)
+Ключевые отраслевые сведения:
 
-[Быстрая защита от вымогателей и вымогательства](/security/compass/protect-against-ransomware)
+- [Обзор программ-вымогателей, управляемых людьми](/security/compass/human-operated-ransomware)
 
-[Последний отчет портал для обнаружения угроз (Microsoft) PDF)](https://www.microsoft.com/securityinsights/) (поиск "вымогателей")
+- [Быстрая защита от вымогателей и вымогательства](/security/compass/protect-against-ransomware)
 
-**Вымогателей: распространенный и текущий** отчет об угрозах в узле аналитики угроз Microsoft 365 Defender портала 
+- [Последний отчет портал для обнаружения угроз (Microsoft)](https://www.microsoft.com/securityinsights/) (см. страницы 22-24)
+
+- **Вымогателей: распространенный** и  текущий отчет об угрозах в узле аналитики угроз портала Microsoft 365 Defender (см. эти [требования к лицензированию)](/microsoft-365/security/defender/prerequisites#licensing-requirements)
 
 Microsoft 365 защиты:
 
+- [Защита от вредоносных программ и программ-шантажистов](/compliance/assurance/assurance-malware-and-ransomware-protection)
 - [Обнаружение и восстановление файлов в OneDrive](https://support.microsoft.com/office/0d90ec50-6bfd-40f4-acc7-b8c12c73637f)
 - [Включить или отключить макрос в Office файлах](https://support.microsoft.com/office/12b036fd-d140-4e74-b45e-16fed1a7e5c6)
 - [Рекомендуемые параметры для EOP и Microsoft Defender для Office 365 безопасности](recommended-settings-for-eop-and-office365.md)
