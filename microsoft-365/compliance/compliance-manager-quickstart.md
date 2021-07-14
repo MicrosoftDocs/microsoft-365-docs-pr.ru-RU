@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Используйте руководство по быстрой проверке соответствия требованиям, чтобы помочь вам в пути к пониманию, настройкам и использованию диспетчера соответствия требованиям.
-ms.openlocfilehash: 8ac4245da95192516c57d51d740531fd4af10647
-ms.sourcegitcommit: 46b77a41dfcc0ee80e2b89a7aa49e9bbe5deae5a
+ms.openlocfilehash: 59d833c74c0d56d82d3f4ae4170e1bbd32638a49
+ms.sourcegitcommit: 41c7f7bd5c808ee5ceca0f6efe13d4e67da0262b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2021
-ms.locfileid: "53149050"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53419599"
 ---
 # <a name="compliance-manager-quickstart"></a>Быстрое начало работы с диспетчером соответствия требованиям
 
@@ -63,7 +63,7 @@ ms.locfileid: "53149050"
 
 Вы также можете настроить автоматическое тестирование всех или подмножество действий по улучшению. Посетите ссылки ниже, чтобы понять более расширенные функции в диспетчере соответствия требованиям:
 
-- [Расширение шаблона Диспетчер соответствия требованиям путем добавления собственных действий по контролю и улучшению](compliance-manager-templates.md#extend-an-assessment-template)
+- [Расширение шаблона Диспетчер соответствия требованиям путем добавления собственных действий по контролю и улучшению](compliance-manager-templates.md#extend-microsoft-365-assessment-templates)
 - [Создание собственного пользовательского шаблона](compliance-manager-templates.md#create-an-assessment-template)
 - [Изменение существующего шаблона для добавления или удаления элементов управления и действий](compliance-manager-templates.md#modify-a-template)
 - [Настройка автоматического тестирования действий по улучшению](compliance-manager-setup.md#set-up-automated-testing)

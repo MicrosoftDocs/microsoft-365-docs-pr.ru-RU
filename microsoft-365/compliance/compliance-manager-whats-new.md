@@ -14,16 +14,20 @@ search.appverid:
 - MOE150
 - MET150
 description: Узнайте, что нового в "Яслях соответствия требованиям" и что будет в будущем. Узнайте об обновленных оценках, новых шаблонах оценки, новых действиях и других действиях.
-ms.openlocfilehash: 72390f167e0f573223210a02a4b08e1b0efdf3dd
-ms.sourcegitcommit: 46b77a41dfcc0ee80e2b89a7aa49e9bbe5deae5a
+ms.openlocfilehash: 823df0ac274dad0ae278ce981a0dca0f0ad8a9ed
+ms.sourcegitcommit: 41c7f7bd5c808ee5ceca0f6efe13d4e67da0262b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2021
-ms.locfileid: "53149026"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53419527"
 ---
 # <a name="whats-new-in-microsoft-compliance-manager"></a>Новые возможности в Microsoft Compliance Manager
 
 **В этой статье:** Узнайте о последних обновлениях в диспетчере соответствия требованиям.
+
+## <a name="july-2021"></a>Июль 2021 г.
+
+Мы добавили возможность создания оценок для продуктов, не Microsoft 365, на основе новых универсальных версий наших шаблонов. Чтобы узнать больше, начните [с работы с шаблонами оценки.](compliance-manager-templates.md)
 
 ## <a name="may-2021"></a>Май 2021 г.
 

@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 841f22421ac81ba447dad70a68c4c7bc95605b16
-ms.sourcegitcommit: 7dc3b4dec05299abb4290a6e3d1ebe0fdc622ed7
+ms.openlocfilehash: 6ef594d4ccb25f688be21b4e8fe6aac2f024eb1d
+ms.sourcegitcommit: 41c7f7bd5c808ee5ceca0f6efe13d4e67da0262b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2021
-ms.locfileid: "53363899"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53419755"
 ---
 # <a name="whats-new-in-microsoft-defender-for-endpoint-on-mac"></a>Новые возможности в Microsoft Defender для конечной точки на Mac
 
@@ -37,6 +37,10 @@ ms.locfileid: "53363899"
 
 > [!IMPORTANT]
 > В macOS 11 (Big Sur) Microsoft Defender для конечной точки требует дополнительных профилей конфигурации. Если вы существующий клиент, обновляющийся из более ранних версий macOS, не забудьте развернуть дополнительные профили конфигурации, перечисленные [на этой странице.](mac-sysext-policies.md)
+
+## <a name="1013427-20121052134270"></a>101.34.27 (20.121052.13427.0)
+
+- Исправление ошибок
 
 ## <a name="1013420-20121051134200"></a>101.34.20 (20.121051.13420.0)
 
