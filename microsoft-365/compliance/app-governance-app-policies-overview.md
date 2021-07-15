@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Сведения о политиках приложения.
-ms.openlocfilehash: 6d4ff23ca0e09f5e410d32d6ced144afc0c4bb15
-ms.sourcegitcommit: 41c7f7bd5c808ee5ceca0f6efe13d4e67da0262b
+ms.openlocfilehash: b5d36d6597de54d7936bc542d37d91d0fac0ba45
+ms.sourcegitcommit: 2fd60871975d61e60d4827b36cd689021fd2a4c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53420359"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53437968"
 ---
 # <a name="learn-about-app-policies"></a>Сведения о политиках приложения
 
@@ -29,18 +29,7 @@ ms.locfileid: "53420359"
 
 Эти политики для шаблонов и поведения приложений и пользователей могут защитить ваших пользователей от использования несоответствующих требованиям или вредоносных приложений и ограничить доступ подозрительных приложений к данным вашего клиента.
 
-Вот краткий обзор необходимых ролей администратора для управления политикой приложения.
-
-| Роль | Политики чтения | Создание, обновление и удаление политик |
-|:-------|:-----|:-------|
-| Администратор соответствия требованиям | ![Флажок](..\media\checkmark.png) | ![Флажок](..\media\checkmark.png) |
-| Средство чтения соответствия требованиям | ![Флажок](..\media\checkmark.png) |  |
-| Глобальный администратор | ![Флажок](..\media\checkmark.png) | ![Флажок](..\media\checkmark.png) |
-| Глобальный читатель  | ![Флажок](..\media\checkmark.png) |  |
-| Администратор безопасности | ![Флажок](..\media\checkmark.png) | ![Флажок](..\media\checkmark.png) |
-| Читатель сведений о безопасности  | ![Флажок](..\media\checkmark.png) |  |
-| Оператор безопасности | ![Флажок](..\media\checkmark.png) | ![Флажок](..\media\checkmark.png) |
-||||
+Сведения о том, каким ролям можно изменять политики, см. в статье [Роли администратора](app-governance-get-started.md#administrator-roles).
 
 <!--
 How app policies are the method by which MAPG detects app anomolies resulting in detection (alerts) and remediation (manual or automatic) 

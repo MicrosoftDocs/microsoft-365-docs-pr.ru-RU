@@ -16,12 +16,12 @@ ms.custom:
 - M365-Lighthouse
 search.appverid: MET150
 description: Для поставщиков управляемых служб (MSP) узнайте, как зарегистрироваться на Microsoft 365 Lighthouse.
-ms.openlocfilehash: f0e67dc6cab0ac135a8ff752e1d2b97aff846cf2
-ms.sourcegitcommit: 4046c2c390851dffcdb430e1ba38c4df23fe2e69
+ms.openlocfilehash: 41482a97a7e940fab61b5b4884431ca7b385c3c0
+ms.sourcegitcommit: 2fd60871975d61e60d4827b36cd689021fd2a4c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "53415639"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53438004"
 ---
 # <a name="sign-up-for-microsoft-365-lighthouse"></a>Подпишитесь на Microsoft 365 Lighthouse
 
@@ -53,7 +53,7 @@ ms.locfileid: "53415639"
 
     Чтобы убедиться, Microsoft 365 Lighthouse был успешно добавлен в клиент, Microsoft 365 Lighthouse в статье **Billing > Your Products** in the Центр администрирования Microsoft 365.
 
-1. Если вы не перенаправлены на портал Microsoft 365 Lighthouse, перейдите на <a href="https://lighthouse.microsoft.com" target="_blank">https://lighthouse.microsoft.com</a> .
+1. Если вы не перенаправлены на портал Microsoft 365 Lighthouse, перейдите на <a href="https://go.microsoft.com/fwlink/p/?linkid=2168110" target="_blank">https://lighthouse.microsoft.com</a> .
 
 1. Выберите **Согласование & Продолжить** завершение поправок о соглашении партнеров.
 

@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: fcd7f192ba0846e3bf3051cde927095088f32d26
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: b17585f7449f1151c7a5f5cd75d06b8e723fbe4b
+ms.sourcegitcommit: 2fd60871975d61e60d4827b36cd689021fd2a4c8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245796"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53438016"
 ---
 # <a name="device-requirements"></a>Требования к устройству
 
@@ -49,7 +49,9 @@ ms.locfileid: "52245796"
 - 64-битная версия Приложения Microsoft 365 для предприятий 
 - Все применимые драйверы устройств
 
-
+> [!NOTE]
+> Windows 11 будет дополнительным вариантом предустановленного программного обеспечения после того, как оно станет общедоступной.
+>
 ### <a name="physical-features"></a>Физические возможности
 
 Устройства должны иметь такие возможности:
@@ -62,7 +64,8 @@ ms.locfileid: "52245796"
 Дополнительные данные об этих возможностях и связанных с ними технологиях см. в компьютеры, управляемые Майкрософт [технологиях.](../intro/technologies.md)
 
 > [!NOTE]
-> ARM процессоры не поддерживаются.
+>- ARM процессоры не поддерживаются.
+>- Windows 11 имеет дополнительные [требования к оборудованию.](/windows/whats-new/windows-11-requirements)
 
 Устройства должны соответствовать или превышать следующие ограничения для хранения и памяти:
 
@@ -70,7 +73,7 @@ ms.locfileid: "52245796"
 - Накопитель загрузки должен иметь емкость не менее 128 ГБ.
 - Внутренняя память устройства (оперативная память) должна равняться или превышать 8 ГБ.
 
-Если устройство было сделано после 1 июля 2020 г., оно также должно иметь ИК-камеру, сканер отпечатков пальцев или оба устройства, чтобы поддерживать Windows [Hello](/windows-hardware/design/device-experiences/windows-hello-enhanced-sign-in-security).
+Если устройство было сделано после 1 июля 2020 г., оно также должно иметь ИК-камеру, сканер отпечатков пальцев или оба устройства для поддержки [Windows Hello](/windows-hardware/design/device-experiences/windows-hello-enhanced-sign-in-security).
 
 ## <a name="recommended-features"></a>Рекомендуемые функции
 

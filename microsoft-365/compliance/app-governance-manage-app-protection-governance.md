@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Реализация возможностей управления приложениями (Майкрософт).
-ms.openlocfilehash: bc8c739132de52abb69c15479cd851462e9f6ce7
-ms.sourcegitcommit: 41c7f7bd5c808ee5ceca0f6efe13d4e67da0262b
+ms.openlocfilehash: 63bd6684bc041c3c82ba6b8ddcc28c2600182b26
+ms.sourcegitcommit: 997a21b83795789cda0a6b4a77f9985a3233d0c0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 07/14/2021
-ms.locfileid: "53420311"
+ms.locfileid: "53430700"
 ---
 # <a name="app-governance-add-on-to-microsoft-cloud-app-security-in-preview"></a>Надстройка управления приложениями в Microsoft Cloud App Security (в предварительной версии)
 
@@ -53,7 +53,7 @@ Microsoft allows developers to build cloud applications using Azure Active Direc
 
 ## <a name="a-first-glimpse-at-app-governance"></a>Первое знакомство с управлением приложениями
 
-Чтобы увидеть панель мониторинга управления приложениями, перейдите в раздел [https://compliance.microsoft.com/appgovernance](https://compliance.microsoft.com/appgovernance). Обратите внимание на то, что для просмотра любых данных управления приложениями вашей учетной записи, с которой вы выполняете вход, должна быть назначена одна из [ролей администратора](app-governance-get-started.md#administrator-roles).
+Чтобы увидеть панель мониторинга управления приложениями, перейдите в раздел [https://aka.ms/appgovernance](https://aka.ms/appgovernance). Обратите внимание на то, что для просмотра любых данных управления приложениями вашей учетной записи, с которой вы выполняете вход, должна быть назначена одна из [ролей администратора](app-governance-get-started.md#administrator-roles).
 
 ## <a name="app-governance-integration-with-azure-ad-and-microsoft-cloud-app-security"></a>Интеграция управления приложениями с Azure AD и Microsoft Cloud App Security
 
@@ -63,7 +63,7 @@ Microsoft allows developers to build cloud applications using Azure Active Direc
 - Azure AD предоставляет основные метаданные приложений и подробные сведения о входе в них.
 - Microsoft Cloud App Security предоставляет сведения о рисках, связанных с приложениями.
 
-Обеспечивая обмен информацией между управлением приложениями, Azure AD и Microsoft Cloud App Security, вы можете отображать сводную информацию на одном портале и легко привязать другой портал для получения дополнительных сведений. Ниже приведены примеры.
+Обеспечивая обмен информацией между управлением приложениями, Azure AD и Microsoft Cloud App Security, вы можете отображать сводную информацию на одном портале и легко привязать другой портал для получения дополнительных сведений. Ниже приводятся примеры.
 
 - Сведения о входе в приложения на портале управления приложениями.
 
