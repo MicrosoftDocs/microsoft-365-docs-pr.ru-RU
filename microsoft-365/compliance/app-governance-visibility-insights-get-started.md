@@ -14,18 +14,18 @@ search.appverid:
 - MOE150
 - MET150
 description: Начало работы с видимостью и аналитикой.
-ms.openlocfilehash: 12c1a01667b1bda545b619e931d99132e6611e35
-ms.sourcegitcommit: 41c7f7bd5c808ee5ceca0f6efe13d4e67da0262b
+ms.openlocfilehash: 93be3557c32345e81c7126b669ead8edf8ebac21
+ms.sourcegitcommit: 997a21b83795789cda0a6b4a77f9985a3233d0c0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 07/14/2021
-ms.locfileid: "53420268"
+ms.locfileid: "53430484"
 ---
 # <a name="get-started-with-visibility-and-insights"></a>Начало работы с видимостью и аналитикой
 
 >*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](https://aka.ms/ComplianceSD).*
 
-Начните работу с панели мониторинга управления приложениями по адресу [https://compliance.microsoft.com/appgovernance](https://compliance.microsoft.com/appgovernance). Обратите внимание на то, что для просмотра любых данных управления приложениями вашей учетной записи, в которой вы выполняете вход, должна быть назначена одна из [ролей администратора управления приложениями](app-governance-get-started.md#administrator-roles).
+Начните работу с панели мониторинга управления приложениями по адресу [https://aka.ms/appgovernance](https://aka.ms/appgovernance). Обратите внимание на то, что для просмотра любых данных управления приложениями вашей учетной записи, в которой вы выполняете вход, должна быть назначена одна из [ролей администратора управления приложениями](app-governance-get-started.md#administrator-roles).
 
 ![Страница обзора управления приложениями в Центре соответствия требованиям Microsoft 365](..\media\manage-app-protection-governance\mapg-cc-overview.png)
 
