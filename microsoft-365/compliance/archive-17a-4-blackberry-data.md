@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Узнайте, как настроить и использовать соединитель 17a-4 BlackBerry DataParser для импорта и архива данных BlackBerry в Microsoft 365.
-ms.openlocfilehash: 1e84a2c5273a503ccb5d88381e01160ae2abf3cd
-ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
+ms.openlocfilehash: 565b51c4575324bfe1c80299adf82d391a8d14e1
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53096483"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454557"
 ---
-# <a name="set-up-a-connector-to-archive-blackberry-data-preview"></a>Настройка соединителю для архива данных BlackBerry (предварительный просмотр)
+# <a name="set-up-a-connector-to-archive-blackberry-data"></a>Настройка соединителю для архива данных BlackBerry
 
 Используйте [BlackBerry DataParser](https://www.17a-4.com/BlackBerry-dataparser/) от 17a-4 LLC для импорта и архива корпоративных данных BlackBerry в почтовые ящики пользователей в Microsoft 365 организации. DataParser включает соединителю BlackBerry, который настроен для захвата элементов из стороннего источника данных и импорта этих элементов в Microsoft 365. Соединиттель BlackBerry DataParser преобразует данные BlackBerry в формат сообщений электронной почты, а затем импортирует эти элементы в почтовые ящики пользователей в Microsoft 365.
 

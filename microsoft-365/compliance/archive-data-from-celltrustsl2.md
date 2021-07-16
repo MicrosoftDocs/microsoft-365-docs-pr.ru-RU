@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Узнайте, как настроить и использовать соединитель данных CellTrust SL2 для импорта и архивации данных мобильной связи.
-ms.openlocfilehash: 0929a92978f9b48d40153b3cc7328e5e05b54fd0
-ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
+ms.openlocfilehash: 191160921c9e949aa7b82520d72dc7a18bfb26ef
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53097224"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53453982"
 ---
-# <a name="archive-data-from-celltrust-sl2-to-microsoft-365-preview"></a>Архив данных из CellTrust SL2 в Microsoft 365 (предварительный просмотр)
+# <a name="archive-data-from-celltrust-sl2-to-microsoft-365"></a>Архив данных из CellTrust SL2 в Microsoft 365
 
 CellTrust SL2 захватывает данные мобильной связи и интегрируется с ведущими технологиями архивации для удовлетворения требований к электронным открытиям для таких правил, как FINRA, HIPAA, FOIA и TCPA. Соединителю данных SL2 импортирует элементы мобильной связи для Microsoft 365. В этой статье описывается процесс интеграции SL2 с Microsoft 365 с помощью соединитель данных CellTrust SL2 для архивации. Завершение этого процесса предполагает, что вы подписались на службу SL2 CellTrust и знакомы с архитектурой SL2. Сведения о SL2 см. в <www.celltrust.com>.
 

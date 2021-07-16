@@ -17,12 +17,12 @@ ms.collection:
 - m365solution-spintranet
 localization_priority: Normal
 description: Узнайте, как Teams с Microsoft 365 Multi-Geo.
-ms.openlocfilehash: 9fe9b289b0ffbef12327c4232b9deb6727b6d718
-ms.sourcegitcommit: f7fbf45af64c5c0727fd5eaab309d20ad097a483
+ms.openlocfilehash: 7da2032e1106d03178eccf3bcfb4f37fc63780d7
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53362670"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53453529"
 ---
 # <a name="multi-geo-capabilities-in-microsoft-teams"></a>Возможности Multi-Geo в Microsoft Teams
 
@@ -48,7 +48,7 @@ Get-MultiGeoRegion -EntityType User -EntityId <UPN>
 
 ## <a name="channel-messages"></a>Сообщения канала
 
-Каждая Microsoft 365 группа имеет предпочтительное расположение данных (PDL), которое обозначает географическое расположение, в котором должны храниться соответствующие данные. Teams использует PDL для группы, связанной с каждой командой, чтобы определить, где хранить данные обмена сообщениями каналов для этой группы. Это включает чат, который происходит в собрании канала.
+Каждая Microsoft 365 группа имеет предпочтительное расположение данных (PDL), которое обозначает географическое расположение, в котором должны храниться соответствующие данные. Teams использует PDL для группы, связанной с каждой командой, чтобы определить, где хранить данные обмена сообщениями каналов для этой группы. Это включает частные каналы, а также чат, который происходит в собрании канала.
 
 Когда пользователь создает новую команду, PDL этого пользователя определяет, какой PDL назначен Microsoft 365 группе. PDL группы определяет, где хранятся данные этой группы. Если PDL этого пользователя позже изменяется, PDL группы не изменяется.
 

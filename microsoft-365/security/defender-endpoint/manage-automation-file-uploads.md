@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: c8935368e4439221f2ce21cfa620e540c02165f8
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: b7d330388dd698cb524c1f4a8edaf9039ba4d16e
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51185853"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454833"
 ---
 # <a name="manage-automation-file-uploads"></a>Управление отправкой файлов автоматизации
 
@@ -41,7 +41,7 @@ ms.locfileid: "51185853"
 
 ## <a name="add-file-extension-names-and-attachment-extension-names"></a>Добавление имен расширений файлов и имен расширений вложений.
 
-1. В области навигации выберите **Параметры**  >  **файл автоматизации.** 
+1. В области навигации выберите **Параметры**  >  **конечные точки**  >    >  **автоматизации правил.**
 
 2. Переключить параметр анализа контента между **"Включите" и** **"Отключение".**
 
@@ -49,5 +49,5 @@ ms.locfileid: "51185853"
    - **Имена расширений файлов** . Подозрительные файлы, кроме вложений электронной почты, будут отправлены для дополнительной проверки
   
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 - [Управление исключениями папок автоматизации](manage-automation-folder-exclusions.md)

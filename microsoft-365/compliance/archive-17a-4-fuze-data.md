@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Узнайте, как настроить и использовать соединителю fuze DataParser 17a-4 для импорта и архива данных взрывателя в Microsoft 365.
-ms.openlocfilehash: eb7e66bf3a8d00431ad7e393471110b36efa8e65
-ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
+ms.openlocfilehash: 9f3c7590a033c2c19d9b588167d67c24f917ec5f
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53096503"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454509"
 ---
-# <a name="set-up-a-connector-to-archive-fuze-data-preview"></a>Настройка соединителю для архива данных взрывателя (предварительный просмотр)
+# <a name="set-up-a-connector-to-archive-fuze-data"></a>Настройка соединителю для архива данных взрывателя
 
 Используйте [fuze DataParser](https://www.17a-4.com/fuze-dataparser/) от 17a-4 LLC для импорта и архива данных из fuze в почтовые ящики пользователей в Microsoft 365 организации. DataParser включает соединителю fuze, который настроен для захвата элементов из стороннего источника данных и импорта этих элементов в Microsoft 365. Соединиттель Fuze DataParser преобразует данные взрывателя в формат сообщений электронной почты, а затем импортирует эти элементы в почтовые ящики пользователей в Microsoft 365.
 

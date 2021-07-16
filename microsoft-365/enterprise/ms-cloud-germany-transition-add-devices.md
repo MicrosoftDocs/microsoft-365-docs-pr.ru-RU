@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 description: Сводка. Дополнительные сведения об службах устройств при переходе из Microsoft Cloud Germany (Microsoft Cloud Deutschland) в Office 365 службы в новом немецком регионе центра обработки данных.
-ms.openlocfilehash: 684af01b2d90f44b2cda1cf050d1e4db70f92915
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 1eb7b18360cefeeb2d5770c3d77e564d5a757a5e
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53289443"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53453571"
 ---
 # <a name="additional-device-information-for-the-migration-from-microsoft-cloud-deutschland"></a>Дополнительные сведения об устройстве для миграции из Microsoft Cloud Deutschland
 
@@ -167,6 +167,10 @@ ms.locfileid: "53289443"
 
 Чтобы проверить, зарегистрированы ли устройства в общеобязуемом облаке, необходимо экспортировать и загружать список устройств с портала Azure AD в Excel таблицу. Затем фильтруйте устройства, зарегистрированные (с помощью столбца _registeredTime)_ после даты, когда ваша организация прошла [этап 9 процесса миграции.](ms-cloud-germany-transition-phases.md#phase-9--10-azure-ad-finalization)
 
+**Нужно ли мне добавить имя DNS, как указано в записях создания DNS для Корпорации Майкрософт с Windows [DNS на основе?](/microsoft-365/admin/dns/create-dns-records-using-windows-based-dns?view=o365-worldwide#add-two-cname-records-for-mobile-device-management-mdm-for-microsoft)**
+
+Эта запись DNS больше не требуется для повторной регистрации устройства. 
+
 ## <a name="additional-considerations"></a>Дополнительные рекомендации
 
 > [!IMPORTANT]
@@ -176,7 +180,7 @@ ms.locfileid: "53289443"
 Get-AzureADServicePrincipal -All:$true |Where-object -Property AppId -eq "0000000a-0000-0000-c000-000000000000" | Set-AzureADServicePrincipal -AccountEnabled:$false
 ```
 
-## <a name="more-information"></a>Дополнительные сведения
+## <a name="more-information"></a>Дополнительная информация
 
 Начало работы:
 

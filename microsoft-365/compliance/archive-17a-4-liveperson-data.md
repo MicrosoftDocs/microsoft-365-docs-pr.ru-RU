@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Узнайте, как настроить и использовать соединитель 17a-4 LivePerson Conversational Cloud DataParser для импорта и архива данных разговорного облака LivePerson в Microsoft 365.
-ms.openlocfilehash: 3a4156d817e1b7471f769a2365c5af9d58ade991
-ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
+ms.openlocfilehash: 70b8e8bd1c8c411894a90e0f919581b3faf58cae
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53097296"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454461"
 ---
-# <a name="set-up-a-connector-to-archive-liveperson-conversational-cloud-data-preview"></a>Настройка соединителя для архива данных разговорного облака LivePerson (предварительный просмотр)
+# <a name="set-up-a-connector-to-archive-liveperson-conversational-cloud-data"></a>Настройка соединителя для архива данных livePerson Conversational Cloud
 
 Для импорта и архива данных [из livePerson Conversational Cloud DataParser](https://www.17a-4.com/liveperson-dataparser/) от 17a-4 LLC в почтовые ящики пользователей в вашей Microsoft 365 организации. В состав DataParser входит соединитель диалогового облака LivePerson, настроенный для захвата элементов из стороннего источника данных и импорта этих элементов в Microsoft 365. Соединитель разговорного облака LivePerson DataParser преобразует данные в формат сообщений электронной почты, а затем импортирует эти элементы в почтовые ящики пользователей в Microsoft 365.
 

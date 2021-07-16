@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Узнайте, как настроить и использовать соединиттель Zoom DataParser 17a-4 для импорта и архивирования данных Zoom в Microsoft 365.
-ms.openlocfilehash: dffececb0719999abf19ea58eab1a52afdb3daea
-ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
+ms.openlocfilehash: 1c70099efa17b5ff6c1c4dfcd71c6bf6790535c8
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53097219"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53453949"
 ---
-# <a name="set-up-a-connector-to-archive-zoom-data-preview"></a>Настройка соединитетеля для архивирования данных Zoom (предварительная версия)
+# <a name="set-up-a-connector-to-archive-zoom-data"></a>Настройка соединитетеля для архивирования данных Zoom
 
 Используйте [zoom DataParser](https://www.17a-4.com/dataparser/) от 17a-4 LLC для импорта и архивирования данных с платформы Zoom в почтовые ящики пользователей в Microsoft 365 организации. В dataParser включен соединиттель Zoom, настроенный для захвата элементов из стороннего источника данных и импорта этих элементов в Microsoft 365. Соединиттель Zoom DataParser преобразует масштабирование данных в формат сообщений электронной почты, а затем импортирует эти элементы в почтовые ящики пользователей в Microsoft 365.
 

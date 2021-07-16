@@ -20,12 +20,12 @@ description: Администраторы могут узнать, как най
 ms.custom: seo-marvel-apr2020
 ms.technology: mdo
 ms.prod: m365-security
-ms.openlocfilehash: f7eab856f22ac1c2282e83897db6e3f93d4d97e6
-ms.sourcegitcommit: cd55fe6abe25b1e4f5fbe8295d3a99aebd97ce66
+ms.openlocfilehash: e8bb03202139137adf55c4c10230b1c4e99253ba
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53083516"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454725"
 ---
 # <a name="view-defender-for-office-365-reports-in-the-microsoft-365-defender-portal"></a>Просмотр отчетов Defender для Office 365 на портале Microsoft 365 Defender
 
@@ -144,7 +144,7 @@ Microsoft Defender для Office 365 организаций (например, M
 
 - **Время щелчка**
 - **Пользователь**
-- **URL-адрес**
+- **URL**
 - **Действие**
 - **Приложение**
 
@@ -176,7 +176,7 @@ Microsoft Defender для Office 365 организаций (например, M
 
 - **Время щелчка**
 - **Пользователь**
-- **URL-адрес**
+- **URL**
 - **Действие**
 - **Приложение**
 
@@ -191,11 +191,24 @@ Microsoft Defender для Office 365 организаций (например, M
 |Отчет|Раздел|
 |---|---|
 |**Explorer** (Microsoft Defender для Office 365 Plan 2) или обнаружения в режиме реального времени **(Microsoft** Defender для Office 365 Plan 1)|[Обозреватель угроз (и обнаружение в режиме реального времени)](threat-explorer.md)|
-|**Отчеты о безопасности** электронной почты, такие как отчеты о главных отправителей и получателях, почтовый отчет Spoof и отчет о обнаружениях нежелательной почты.|[Просмотр отчетов о безопасности электронной почты на Microsoft 365 Defender портале](view-email-security-reports.md)|
-|**Отчеты о потоке** почты, такие как отчет о перенаправе, отчет о состоянии почтового потока и отчет о главных отправителей и получателях.|[Отчеты о потоке почты в новом центре администрирования Exchange](/exchange/monitoring/mail-flow-reports/mail-flow-reports)|
-|**Трассировка URL Сейф ссылки** (только PowerShell). На выходе этого комлета показаны результаты действий Сейф ссылки за последние семь дней.|[Get-UrlTrace](/powershell/module/exchange/get-urltrace)|
-|**Результаты трафика почты для EOP** и Microsoft Defender для Office 365 (только PowerShell). Выход этого комлета содержит сведения о домене, дате, типе события, направлении, действии и графе сообщений.|[Get-MailTrafficATPReport](/powershell/module/exchange/get-mailtrafficatpreport)|
-|**Отчеты о подробностях почты** для EOP и Defender для Office 365 обнаружения (только PowerShell). Выход этого комлета содержит сведения о вредоносных файлах или URL-адресах, попытках фишинга, обезличив себя и других потенциальных угрозах в электронной почте или файлах.|[Get-MailDetailATPReport](/powershell/module/exchange/get-maildetailatpreport)|
+|Отчеты о безопасности электронной почты, для защиты от Office 365|[Просмотр отчетов о безопасности электронной почты на Microsoft 365 Defender портале](view-email-security-reports.md)|
+|Отчеты о потоке почты в центре администрирования Exchange (EAC)|[Отчеты о потоке почты в новом центре администрирования Exchange](/exchange/monitoring/mail-flow-reports/mail-flow-reports)|
+|
+
+Cmdlets отчетов PowerShell:
+
+<br>
+
+****
+
+|Отчет|Раздел|
+|---|---|
+|Пользователи, которые чаще всего отправляют и получают почту|[Get-MailTrafficTopReport](/powershell/module/exchange/get-mailtraffictopreport) <p> [Get-MailTrafficSummaryReport](/powershell/module/exchange/get-mailtrafficsummaryreport)|
+|Топ вредоносных программ|[Get-MailTrafficSummaryReport](/powershell/module/exchange/get-mailtrafficsummaryreport)|
+|Трафик почты|[Get-MailTrafficATPReport](/powershell/module/exchange/get-mailtrafficatpreport) <p> [Get-MailDetailATPReport](/powershell/module/exchange/get-maildetailatpreport)|
+|Безопасные ссылки|[Get-SafeLinksAggregateReport](/powershell/module/exchange/get-safelinksaggregatereport) <p> [Get-SafeLinksDetailReport](/powershell/module/exchange/get-safelinksdetailreport)|
+|Скомпрометированная пользователей|[Get-CompromisedUserAggregateReport](/powershell/module/exchange/get-compromiseduseraggregatereport) <p> [Get-CompromisedUserDetailReport](/powershell/module/exchange/get-compromiseduserdetailreport)|
+|Состояние потока почты|[Get-MailflowStatusReport](/powershell/module/exchange/get-mailflowstatusreport)|
 |
 
 ## <a name="what-permissions-are-needed-to-view-the-defender-for-office-365-reports"></a>Какие разрешения необходимы для просмотра отчетов Defender для Office 365?
@@ -204,7 +217,7 @@ Microsoft Defender для Office 365 организаций (например, M
 
 - **Управление организацией**
 - **Администратор безопасности**
-- **Считыватель безопасности**
+- **Читатель сведений о безопасности**
 - **Глобальный читатель**
 
 Дополнительные сведения см. в статье [Разрешения на портале Microsoft 365 Defender](permissions-microsoft-365-security-center.md).
@@ -215,7 +228,7 @@ Microsoft Defender для Office 365 организаций (например, M
 
 Если в отчете Defender не Office 365 данные, убедитесь, что политики настроены правильно. Ваша организация должна [иметь Сейф ссылки](set-up-safe-links-policies.md) и политики Сейф вложения, определенные для того, чтобы для defender Office 365 была установлена защита. [](set-up-safe-attachments-policies.md) Также [см. защиту от нежелательной почты и](anti-spam-and-anti-malware-protection.md)защиты от вредоносных программ.
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 [Интеллектуальные отчеты и сведения на Microsoft 365 Defender портале](reports-and-insights-in-security-and-compliance.md)
 

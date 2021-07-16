@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Узнайте, как настроить и использовать соединителя 17a-4 FX Подключение DataParser для импорта и архива данных fx Подключение в Microsoft 365.
-ms.openlocfilehash: 1126b6f427d650367c837abe0146f1d4e0ebc547
-ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
+ms.openlocfilehash: 667f36d111a877a7e2e04aa54653f61556d337d9
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53096513"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454497"
 ---
-# <a name="set-up-a-connector-to-archive-fx-connect-data-preview"></a>Настройка соединитетеля для архива данных fx Подключение (предварительный просмотр)
+# <a name="set-up-a-connector-to-archive-data-from-fx-connect"></a>Настройка соединитетеля для архива данных из FX Подключение
 
 Используйте [fx Подключение DataParser](https://www.17a-4.com/dataparser-roadmap/) от 17a-4 LLC для импорта и архива данных из FX Подключение в почтовые ящики пользователей в Microsoft 365 организации. DataParser включает соединителер FX Подключение, настроенный для захвата элементов из стороннего источника данных и импорта этих элементов в Microsoft 365. Соединиттель FX Подключение DataParser преобразует данные FX Подключение в формат сообщений электронной почты, а затем импортирует эти элементы в почтовые ящики пользователей в Microsoft 365.
 

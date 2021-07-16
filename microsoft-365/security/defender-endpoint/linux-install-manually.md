@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: 3579e9dab975d8776a53d400121d98fe119fe6cc
-ms.sourcegitcommit: 2fd60871975d61e60d4827b36cd689021fd2a4c8
+ms.openlocfilehash: 4c4ed845a31f044e17c97e0b43adfc86dd3f68ba
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 07/15/2021
-ms.locfileid: "53438076"
+ms.locfileid: "53454809"
 ---
 # <a name="deploy-microsoft-defender-for-endpoint-on-linux-manually"></a>Развертывание Microsoft Defender для конечной точки на Linux вручную
 
@@ -266,13 +266,13 @@ ms.locfileid: "53438076"
 
 ## <a name="download-the-onboarding-package"></a>Скачайте пакет onboarding
 
-Скачайте бортовой пакет из Центр безопасности в Microsoft Defender:
+Скачайте пакет onboarding с Microsoft 365 Defender портала:
 
-1. В Центр безопасности в Microsoft Defender перейдите **к Параметры > управления устройствами > onboarding**.
-2. В первом выпадаемом меню выберите **Linux Server** в качестве операционной системы. Во втором выпадаемом меню выберите локальный скрипт **(для до 10 устройств)** в качестве метода развертывания.
+1. На портале Microsoft 365 Defender перейдите в Параметры > конечные точки > управления устройствами **> onboarding**.
+2. В первом выпадаемом меню выберите **Linux Server** в качестве операционной системы. Во втором выпадаемом меню выберите **локальный скрипт** в качестве метода развертывания.
 3. Выберите **пакет загрузки.** Сохраните файл как WindowsDefenderATPOnboardingPackage.zip.
 
-    ![Центр безопасности в Microsoft Defender скриншот](images/atp-portal-onboarding-linux.png)
+    ![Microsoft 365 Defender скриншот портала](images/atp-portal-onboarding-linux.png)
 
 4. С командной подсказки убедитесь, что у вас есть файл.
     Извлечение содержимого архива:
@@ -359,11 +359,11 @@ ms.locfileid: "53438076"
 
 Чтобы проверить функциональные возможности EDR Linux, выполните ниже шаги, чтобы смоделировать обнаружение на сервере Linux и изучить этот случай. 
 
-1.  Убедитесь, что на борту linux-сервера отображается Центр безопасности в Microsoft Defender. Если это первый бортовой аппарат, это может занять до 20 минут, пока он не появится. 
+1.  Убедитесь, что на борту linux-сервера отображается Microsoft 365 Defender. Если это первый бортовой аппарат, это может занять до 20 минут, пока он не появится. 
 
 2.  Скачайте и извлеките [файл скрипта](https://aka.ms/LinuxDIY) на бортовой сервер Linux и запустите следующую команду: `./mde_linux_edr_diy.sh`
 
-3.  Через несколько минут обнаружение должно быть поднято в Центр безопасности в Microsoft Defender.
+3.  Через несколько минут обнаружение должно быть поднято в Microsoft 365 Defender.
 
 4.  Посмотрите на сведения оповещений, временную шкалу машины и выполните типичные действия по расследованию.
 

@@ -17,11 +17,11 @@ f1.keywords:
 description: В этой статье найдите объяснение работы изоляции клиента для раздельного хранения данных клиента в Microsoft 365 Search.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 3416afdeceaa7000b516ec89b4a2a1e59d8708d0
-ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
+ms.sourcegitcommit: 27addd4dac07926528b788215d2dcd0e46301eb1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "47332404"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "53464116"
 ---
 # <a name="tenant-isolation-in-microsoft-365-search"></a>Изоляция клиента в поиске Microsoft 365
 

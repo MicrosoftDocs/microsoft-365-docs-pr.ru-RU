@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Узнайте, как настроить и использовать соединителя dataParser 17a-4 FactSet для импорта и архива данных FactSet в Microsoft 365.
-ms.openlocfilehash: 06f4948b28a84a9dca249d08abe6973d44f0a520
-ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
+ms.openlocfilehash: 26beead657618dc3b33a11d8b6202c914a9c49bc
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53096508"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454521"
 ---
-# <a name="set-up-a-connector-to-archive-factset-data-preview"></a>Настройка соединитетеля для архива данных FactSet (предварительный просмотр)
+# <a name="set-up-a-connector-to-archive-factset-data"></a>Настройка соединитетеля для архива данных FactSet
 
 Используйте [DataParser FactSet](https://www.17a-4.com/factset-dataparser/) из 17a-4 LLC для импорта и архива данных с платформы FactSet в почтовые ящики пользователей в Microsoft 365 организации. В dataParser включен соединиттель FactSet, настроенный для захвата элементов из стороннего источника данных и импорта этих элементов в Microsoft 365. Соединиттель FactSet DataParser преобразует данные FactSet в формат сообщений электронной почты, а затем импортирует эти элементы в почтовые ящики пользователей в Microsoft 365.
 

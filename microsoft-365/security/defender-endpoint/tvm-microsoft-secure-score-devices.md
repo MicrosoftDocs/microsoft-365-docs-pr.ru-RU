@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-defender-endpoint
 ms.topic: conceptual
 ms.technology: mde
-ms.openlocfilehash: f2c799d477c400482c16b09b4d8a5cdc01106dfa
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 13307d3205818d41e7b2219b4e3a4ed6e9f2d5bb
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51934085"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454790"
 ---
 # <a name="microsoft-secure-score-for-devices"></a>Оценка безопасности (Майкрософт) для устройств
 
@@ -32,7 +32,7 @@ ms.locfileid: "51934085"
 **Область применения:**
 
 - [Microsoft Defender для конечной точки](https://go.microsoft.com/fwlink/?linkid=2154037)
-- [Угроза и управление уязвимостями](next-gen-threat-and-vuln-mgt.md)
+- [Контроль угроз и уязвимостей](next-gen-threat-and-vuln-mgt.md)
 - [Microsoft 365 Defender](https://go.microsoft.com/fwlink/?linkid=2118804)
 
 > Хотите испытать Defender для конечной точки? [Зарегистрився для бесплатной пробной.](https://www.microsoft.com/microsoft-365/windows/microsoft-defender-atp?ocid=docs-wdatp-pullalerts-abovefoldlink) 
@@ -41,13 +41,13 @@ ms.locfileid: "51934085"
 >[!NOTE]
 > Оценка конфигурации теперь является частью контроль угроз и уязвимостей microsoft Secure Score для устройств.
 
-Оценка для устройств отображается на контроль угроз и уязвимостей [панели мониторинга](tvm-dashboard-insights.md) Центр безопасности в Microsoft Defender. Более высокий показатель microsoft Secure Score для устройств означает, что конечные точки более устойчивы к атакам угроз кибербезопасности. Он отражает состояние конфигурации коллективной безопасности устройств в следующих категориях:
+Ваша оценка для устройств отображается на контроль угроз и уязвимостей панели [мониторинга](tvm-dashboard-insights.md) Microsoft 365 Defender портала. Более высокий показатель microsoft Secure Score для устройств означает, что конечные точки более устойчивы к атакам угроз кибербезопасности. Он отражает состояние конфигурации коллективной безопасности устройств в следующих категориях:
 
 - Приложение
 - Операционная система
 - Сеть
 - Учетные записи
-- Элементы управления безопасностью
+- Средства контроля безопасности
 
 Выберите категорию, чтобы перейти на страницу [**Рекомендации безопасности**](tvm-security-recommendation.md) и просмотреть соответствующие рекомендации.
 
@@ -57,7 +57,7 @@ Forward Microsoft Defender for Endpoint signals, giving Microsoft Secure Score v
 
 На отражение изменений на панели мониторинга может потребоваться до нескольких часов.
 
-1. В области навигации перейдите **к Параметры**  >  **Расширенные функции** 
+1. В области навигации перейдите **к Параметры**  >  **Конечные точки**  >  **Общие**  >  **расширенные функции** 
 
 2. Прокрутите **вниз до Microsoft Secure Score** и перейдите к параметру **On**.
 
@@ -83,15 +83,17 @@ Forward Microsoft Defender for Endpoint signals, giving Microsoft Secure Score v
 
 2. Выберите элемент в списке. Панель вылетов откроется с подробными сведениями, связанными с рекомендацией. Выберите **параметры исправлений.**
 
-   ![Рекомендации по контролю безопасности, связанные с безопасностью](images/tvm_security_controls.png)
+   :::image type="content" alt-text="Рекомендации по контролю безопасности, связанные с безопасностью." source="images/security-controls.png":::
 
 3. Ознакомьтесь с описанием, чтобы понять контекст проблемы и что делать дальше. Выберите дату, добавить заметки и экспортировать все данные о деятельности по исправлению в **CSV,** чтобы можно было прикрепить их к электронной почте для последующей работы.
 
 4. **Отправка запроса**. Вы увидите сообщение подтверждения о том, что задача по исправлению была создана.
-   ![Подтверждение создания задач по исправлению](images/tvm_remediation_task_created.png)
+
+   :::image type="content" alt-text="Подтверждение создания задач по исправлению." source="images/remediation-task-created.png":::
 
 5. Сохраните CSV-файл.
-   ![Сохранение csv-файла](images/tvm_save_csv_file.png)
+
+   :::image type="content" alt-text="Сохранение csv-файла." source="images/tvm_save_csv_file.png":::
 
 6. Отправьте ИТ-администратору по электронной почте последующее письмо и дайте время, отведенное для распространения исправлений в системе.
 
@@ -108,7 +110,7 @@ Forward Microsoft Defender for Endpoint signals, giving Microsoft Secure Score v
 >1. Перейдите [в каталог обновлений Майкрософт](https://www.catalog.update.microsoft.com/home.aspx).
 >2. Вйдите в номер КБ обновления безопасности, который необходимо скачать, а затем нажмите **кнопку Поиск**.  
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 - [Обзор угроз и управление уязвимостями](next-gen-threat-and-vuln-mgt.md)
 - [Панель мониторинга](tvm-dashboard-insights.md)

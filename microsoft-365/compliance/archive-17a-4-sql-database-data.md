@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Узнайте, как настроить и использовать соединителя 17a-4 SQL DataParser для импорта и архива данных SQL в Microsoft 365.
-ms.openlocfilehash: 51fd433ad072ba5afe0b314d7b61041728337240
-ms.sourcegitcommit: 410f6e1c6cf53c3d9013b89d6e0b40a050ee9cad
+ms.openlocfilehash: 67ad3332a05356702df7b0624ee05519ff30bcac
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53137671"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454033"
 ---
-# <a name="set-up-a-connector-to-archive-sql-data-preview"></a>Настройка соединитетеля для архива SQL данных (предварительный просмотр)
+# <a name="set-up-a-connector-to-archive-sql-data"></a>Настройка соединитетеля для архива SQL данных
 
 Используйте [SQL DataParser](https://www.17a-4.com/sql-dataparser/) от 17a-4 LLC для импорта и архива данных из базы данных SQL в почтовые ящики пользователей в Microsoft 365 организации. DataParser включает SQL, настроенный для захвата элементов из стороннего источника данных и импорта этих элементов в Microsoft 365. Соедините SQL DataParser преобразует SQL в формат сообщений электронной почты, а затем импортирует эти элементы в почтовые ящики пользователей в Microsoft 365.
 

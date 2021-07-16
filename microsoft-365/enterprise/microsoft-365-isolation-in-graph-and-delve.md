@@ -17,11 +17,11 @@ f1.keywords:
 description: В этой статье найдите объяснение того, как Microsoft 365 изоляции клиента в Office Graph и Delve.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 966f02726a2cce18e30e4d5bc7ab0beb5db51a29
-ms.sourcegitcommit: c029834c8a914b4e072de847fc4c3a3dde7790c5
+ms.sourcegitcommit: 27addd4dac07926528b788215d2dcd0e46301eb1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "47332392"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "53464121"
 ---
 # <a name="microsoft-365-tenant-isolation-in-the-microsoft-graph-and-delve"></a>Microsoft 365 Изоляция клиента в microsoft Graph и Delve
 

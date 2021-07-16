@@ -15,13 +15,13 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection:
 - M365-security-compliance
-description: ''
-ms.openlocfilehash: 3f64b981b60db9f9089af0555e4bf734864913b9
-ms.sourcegitcommit: 17d82e5617f0466eb825e15ab88594afcdaf4437
+description: В этой статье представлен обзор типов конфиденциальной информации и их обнаружения конфиденциальных сведений, таких как номера социального обеспечения, кредитных карт или банковских счетов для идентификации конфиденциальных элементов.
+ms.openlocfilehash: dee4ec59ce5fe6140c4aef33d147e89e11facd59
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "53300385"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53453625"
 ---
 # <a name="learn-about-sensitive-information-types"></a>Дополнительные сведения о типах конфиденциальной информации
 
@@ -35,12 +35,13 @@ ms.locfileid: "53300385"
 
 ## <a name="sensitive-information-types-are-used-in"></a>Типы конфиденциальной информации используются в
 
-- [Политики предотвращения потери данных](dlp-learn-about-dlp.md) 
+- [Политики предотвращения потери данных](dlp-learn-about-dlp.md)
 - [Метки конфиденциальности](sensitivity-labels.md)
 - [Метки хранения](retention.md)
-- [Управление внутренними рисками](insider-risk-management.md)
+- [Управление рисками, связанными с инсайдерами](insider-risk-management.md)
 - [Соответствие требованиям к обмену данными](communication-compliance.md)
 - [Политики автоматической маркировки](apply-sensitivity-label-automatically.md#how-to-configure-auto-labeling-for-office-apps)
+- [Управление конфиденциальностью (предварительный просмотр)](privacy-management.md)
 
 ## <a name="fundamental-parts-of-a-sensitive-information-type"></a>Основные части типа конфиденциальной информации
 
@@ -104,7 +105,7 @@ ms.locfileid: "53300385"
 #### <a name="keyword_argentina_national_id"></a>Keyword_argentina_national_id
 
 - Argentina National Identity number 
-- Identity 
+- Удостоверение 
 - Удостоверение национальной идентификации 
 - DNI 
 - Национальный реестр лиц NIC 
@@ -148,7 +149,7 @@ ms.locfileid: "53300385"
 > Microsoft 365 Защита информации теперь поддерживает языки набора символов двойного byte для:
 > - Китайский (упрощенное письмо)
 > - Китайский (традиционное письмо)
-> - Корейский
+> - Korean
 > - Японский
 > 
 > Эта поддержка доступна для конфиденциальных типов информации. Дополнительные сведения см. в статье [Заметки о выпуске: поддержка защиты информации для наборов двухбайтовых символов (предварительная версия)](mip-dbcs-relnotes.md).

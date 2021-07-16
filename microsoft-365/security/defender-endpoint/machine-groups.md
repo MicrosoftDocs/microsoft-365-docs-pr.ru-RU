@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: d4f62acde4e7d790c7a7c8635f51c99f0823687d
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 49bd90d8a082f55622e54976cc8fc78229d8c646
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52842774"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53453541"
 ---
 # <a name="create-and-manage-device-groups"></a>Создание групп устройств и управление ими
 
@@ -59,7 +59,7 @@ ms.locfileid: "52842774"
 
 ## <a name="create-a-device-group"></a>Создание группы устройств
 
-1. В области навигации выберите **группы Параметры**  >  **устройств.**
+1. В области навигации выберите группы **Параметры**  >  конечных **точек.**  >    >  
 
 2. Нажмите **кнопку Добавить группу устройств**.
 
@@ -107,7 +107,7 @@ ms.locfileid: "52842774"
 
 Дополнительные сведения о привязке к определениям групп устройств см. в группе [Device groups - Microsoft 365 безопасности.](https://sip.security.microsoft.com/homepage)
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 - [Управление доступом к порталу с помощью управления доступом на основе ролей](rbac.md)
 - [Создание тегов устройств и управление ими](machine-tags.md)

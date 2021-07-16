@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Узнайте, как настроить и использовать соединитель Bloomberg DataParser 17a-4 для импорта и архива данных Bloomberg в Microsoft 365.
-ms.openlocfilehash: 7fcc02384ce7bea6b9903fddef1256b97b8e340c
-ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
+ms.openlocfilehash: 2d4005468d7df7987d1794e8d61262c8fde70b5f
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53096488"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454545"
 ---
-# <a name="set-up-a-connector-to-archive-bloomberg-data-preview"></a>Настройка соединитетеля для архива данных Bloomberg (предварительный просмотр)
+# <a name="set-up-a-connector-to-archive-bloomberg-data"></a>Настройка соединитетеля для архива данных Bloomberg
 
 Используйте [Bloomberg DataParser](https://www.17a-4.com/Bloomberg-dataparser/) от 17a-4 LLC для импорта и архива данных из Bloomberg в почтовые ящики пользователей в Microsoft 365 организации. DataParser включает соединитель Bloomberg, настроенный для захвата элементов из стороннего источника данных и импорта этих элементов в Microsoft 365. Соединиттель Bloomberg DataParser преобразует данные Bloomberg в формат сообщений электронной почты, а затем импортирует эти элементы в почтовые ящики пользователей в Microsoft 365.
 

@@ -14,12 +14,12 @@ ms.collection:
 - m365initiative-coredeploy
 ms.custom: it-pro
 description: Дорожная карта для набора клиентов для Microsoft 365.
-ms.openlocfilehash: fb3b6eecd893a5ab9b71bfa7bdfaea53af43470d
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 4b94540293b86bd922ce4b29f970e52eb1245a01
+ms.sourcegitcommit: 84e70051bb61b1171cebfbabe500b4904dfac04f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50909458"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "53464037"
 ---
 # <a name="tenant-roadmap-for-microsoft-365"></a>Дорожная карта клиента для Microsoft 365
 
@@ -43,14 +43,14 @@ ms.locfileid: "50909458"
 - [Планирование поддержки клиентских приложений](microsoft-365-client-support-certificate-based-authentication.md)
 - [Определение использования гибридной современной проверки подлинности](hybrid-modern-auth-overview.md)
 - [Планирование обновления Office 2007 и Office 2010 г.](plan-upgrade-previous-versions-office.md)
-- [Понимание изоляции клиента](microsoft-365-tenant-isolation-overview.md)
+- [Понимание изоляции клиента](/compliance/assurance/microsoft-365-isolation-controls)
 
 ### <a name="deploy"></a>Развертывание
 
 Развертывание клиента: 
 
 - Добавление [доменов DNS для](../admin/setup/add-domain.md) организации.
-- Используйте руководства [по настройке в центре Microsoft 365 администрирования.](setup-guides-for-microsoft-365.md)
+- Используйте руководства [по настройке в Центр администрирования Microsoft 365](setup-guides-for-microsoft-365.md).
 - Создайте [инфраструктуру удостоверений](identity-roadmap-microsoft-365.md) [и обезопасите входы пользователя.](microsoft-365-secure-sign-in.md)
 
 ### <a name="move-a-tenants-geographic-locations"></a>Перемещение географических местоположений клиента
@@ -76,6 +76,6 @@ ms.locfileid: "50909458"
 - [Миграция почтовых ящиков между клиентами](cross-tenant-mailbox-migration.md)
 - [Миграция между клиентами](microsoft-365-tenant-to-tenant-migrations.md)
 
-## <a name="next-step"></a>Следующий этап
+## <a name="next-step"></a>Следующее действие
 
 Начните планирование клиента [с подписки, лицензий, учетных записей и клиентов.](subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings.md)

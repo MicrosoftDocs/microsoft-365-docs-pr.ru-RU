@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Узнайте, как настроить и использовать соединителя 17a-4 Quip DataParser для импорта и архива данных Quip в Microsoft 365.
-ms.openlocfilehash: 6db47d79cdab0f130d2b7b3483d37c08b267cdfd
-ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
+ms.openlocfilehash: e3379e238b0142522d4161149fd38892843e6eae
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53097289"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454449"
 ---
-# <a name="set-up-a-connector-to-archive-quip-data-preview"></a>Настройка соединитетеля для архива данных Quip (предварительный просмотр)
+# <a name="set-up-a-connector-to-archive-quip-data"></a>Настройка соединитетеля для архива данных Quip
 
 Используйте [quip DataParser](https://www.17a-4.com/quip-dataparser/) от 17a-4 LLC для импорта и архива данных из Quip в почтовые ящики пользователей в Microsoft 365 организации. DataParser включает соединители Quip, настроенные для захвата элементов из стороннего источника данных и импорта этих элементов в Microsoft 365. Соединиттель Quip DataParser преобразует данные Quip в формат сообщений электронной почты, а затем импортирует эти элементы в почтовые ящики пользователей в Microsoft 365.
 

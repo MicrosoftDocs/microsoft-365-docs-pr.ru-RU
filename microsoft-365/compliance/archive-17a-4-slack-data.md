@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Узнайте, как настроить и использовать соединителер Slack DataParser 17a-4 для импорта и архива данных Slack в Microsoft 365.
-ms.openlocfilehash: 0eb9564ac5a6e8a3fa76cf1a336f266a456b272a
-ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
+ms.openlocfilehash: 66c1db3f37512ec6988fc9385f50b2df1dc6d8ed
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53097169"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454413"
 ---
-# <a name="set-up-a-connector-to-archive-slack-data-preview"></a>Настройка соединитетеля для архива данных Slack (предварительный просмотр)
+# <a name="set-up-a-connector-to-archive-slack-data"></a>Настройка соединитетеля для архива данных Slack
 
 Используйте [DataParser из 17a-4 LLC](https://www.17a-4.com/slack-dataparser/) для импорта и архива данных с платформы Slack в почтовые ящики пользователей в Microsoft 365 организации. DataParser включает разъем Slack, настроенный для захвата элементов из стороннего источника данных и импорта этих элементов в Microsoft 365. Соединиттель Slack DataParser преобразует данные Slack в формат сообщений электронной почты, а затем импортирует эти элементы в почтовые ящики пользователей в Microsoft 365.
 

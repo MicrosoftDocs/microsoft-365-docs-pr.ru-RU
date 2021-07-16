@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Узнайте, как настроить и использовать соединителя 17a-4 ServiceNow DataParser для импорта и архива данных ServiceNow в Microsoft 365.
-ms.openlocfilehash: 992f34864f0de7ddff1f8159e9970157bcffb964
-ms.sourcegitcommit: 8c6a5db0dab99a82a69dd8a0a7c56af1cb825931
+ms.openlocfilehash: a01e075b6cbf400bc3b7dc38950d87443a46f81c
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53276969"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454425"
 ---
-# <a name="set-up-a-connector-to-archive-servicenow-data-preview"></a>Настройка соединитетеля для архива данных ServiceNow (предварительный просмотр)
+# <a name="set-up-a-connector-to-archive-data-from-servicenow"></a>Настройка соединитетеля для архива данных из ServiceNow
 
 Используйте [ServiceNow DataParser](https://www.17a-4.com/dataparser/) от 17a-4 LLC для импорта и архива данных из ServiceNow в почтовые ящики пользователей в Microsoft 365 организации. В dataParser включен соединиттель ServiceNow, настроенный для захвата элементов из стороннего источника данных и импорта этих элементов в Microsoft 365. Соединиттель ServiceNow DataParser преобразует данные ServiceNow в формат сообщений электронной почты, а затем импортирует эти элементы в почтовые ящики пользователей в Microsoft 365.
 

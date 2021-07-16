@@ -1,15 +1,15 @@
 ---
-title: Настройка пробной лаборатории Microsoft 365 Defender или пилотной среды
-description: Затем Microsoft 365 центр безопасности Microsoft 365 средой пробной лаборатории Defender
-keywords: Microsoft 365 Установка пробных пробных Microsoft 365 Defender, попробуйте Microsoft 365 Defender, Microsoft 365 лаборатории оценки Defender
+title: Настройка пробной Microsoft 365 Defender или пилотной среды
+description: Затем Microsoft 365 центр безопасности установите среду Microsoft 365 Defender пробной лаборатории
+keywords: Microsoft 365 Defender пробной установки, Microsoft 365 Defender экспериментальной установки, попробуйте Microsoft 365 Defender, Microsoft 365 Defender лаборатории оценки
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: dolmont
-author: DulceMontemayor
+ms.author: v-lsaldanha
+author: lovina-saldanha
 localization_priority: Normal
 manager: dansimp
 audience: ITPro
@@ -19,14 +19,14 @@ ms.collection:
 - m365solution-evalutatemtp
 ms.topic: article
 ms.technology: m365d
-ms.openlocfilehash: ae81f6be0a83d5d0141f0f0c8c89f8f2207cc56c
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.openlocfilehash: 6db3003aa6465df90a3d2e4af55b28ccccf44100
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51935429"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454737"
 ---
-# <a name="set-up-your-microsoft-365-defender-trial-lab-environment"></a>Настройка среды пробной лаборатории Microsoft 365 Defender 
+# <a name="set-up-your-microsoft-365-defender-trial-in-a-lab-environment"></a>Настройка пробной Microsoft 365 Defender в лабораторных условиях 
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -34,31 +34,13 @@ ms.locfileid: "51935429"
 **Область применения:**
 - Microsoft 365 Defender 
 
+В этом разделе вы можете настроить специальную лабораторную среду. Сведения о настройке пробной оценки см. в новом руководстве по оценке [и Microsoft 365 Defender.](eval-overview.md) 
 
-Создание пробной Microsoft 365 Defender или пилотной среды и ее развертывание — это трех этапный процесс:
-
-|[![Этап 1. Подготовка](../../media/phase-diagrams/prepare.png)](prepare-m365d-eval.md)<br/>[Этап 1. Подготовка](prepare-m365d-eval.md) |![Этап 2. Настройка](../../media/phase-diagrams/setup.png)<br/>Этап 2. Настройка |[![Этап 3. Подключение](../../media/phase-diagrams/onboard.png)](config-m365d-eval.md)<br/>[Этап 3. Подключение](config-m365d-eval.md) | [![Назад к пилоту](../../media/phase-diagrams/backtopilot.png)](m365d-pilot.md)<br/>[Вернуться к экспериментальной книге воспроизведения](m365d-pilot.md) |
-|--|--|--|--|
-||*Вы здесь!*  | | |
-
-
-Вы в настоящее время на этапе настройка. Сначала необходимо получить доступ к Microsoft 365 центру безопасности, а затем настроить пробную лабораторию или пилотную среду.
-
-Зарегистрируйся Office 365 или Azure Active Directory, чтобы создать *клиент .onmicrosoft.com,* который можно использовать для регистрации Microsoft 365 E5 лицензии. 
-
+## <a name="create-an-office-365-e5-trial-tenant"></a>Создание клиента Office 365 E5 пробного клиента
 >[!NOTE]
->Если у вас уже есть Office 365 или Azure Active Directory подписка, вы можете пропустить этапы Office 365 E5 или экспериментальный этап создания клиента.
+>Если у вас уже есть Office 365 или Azure Active Directory подписка, можно пропустить этапы создания Office 365 E5 клиента.
 
-На этом этапе вы будете руководствоваться:
-- Создание клиента Office 365 E5
-- Включить Microsoft 365 пробную подписку
-
-
-## <a name="create-an-office-365-e5-trial-tenant"></a>Создание клиента Office 365 E5
->[!NOTE]
->Если у вас уже есть Office 365 или Azure Active Directory подписка, можно пропустить этапы создания Office 365 E5.
-
-1. Перейдите на [портал продуктов Office 365 E5](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e5-business-software?activetab=pivot%3aoverviewtab) и выберите **бесплатную пробную.**
+1. Перейдите на [портал Office 365 E5 продукта и](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e5-business-software?activetab=pivot%3aoverviewtab) выберите **бесплатную пробную версия**.
 
    ![Страница of_Office 365 E5](../../media/mtp-eval-9.png)
   
@@ -85,9 +67,9 @@ ms.locfileid: "51935429"
 
    ![Страница of_Office 365 E5 для установки пробной регистрации, на которой можно установить свою бизнес-идентичность](../../media/mtp-eval-14.png)
 
-7. Нажмите **кнопку Перейти** к установке для завершения Office 365 предварительного клиента E5.
+7. Нажмите **кнопку Перейти** к установке, чтобы завершить Office 365 E5 предварительного клиента.
 
-   ![Изображение страницы установки пробной Office 365 E5 с запросом на кнопку Перейти настройка](../../media/mtp-eval-15.png)
+   ![Изображение страницы Office 365 E5 настройки пробной регистрации с запросом на кнопку Go Setup](../../media/mtp-eval-15.png)
 
 8. Подключение корпоративного домена Office 365 клиента. [Необязательный] Выберите Подключение домен, который вы **уже владеете,** и введите в доменное имя. Нажмите **Далее**.
 
@@ -126,7 +108,7 @@ ms.locfileid: "51935429"
 >[!NOTE]
 >Регистрация для пробной пробной записи дает вам 25 лицензий пользователей, которые можно использовать в течение месяца. Дополнительные [сведения см. в материале Try or Buy an M365 subscription.](../../commerce/try-or-buy-microsoft-365.md)
 
-1. Из [Microsoft 365 центра администрирования](https://admin.microsoft.com/)щелкните **Биллинг** и перейдите к **службам покупки.**
+1. Из [Microsoft 365 Admin Центра](https://admin.microsoft.com/)щелкните **Биллинг** и перейдите к **службам покупки.**
 
 2. Выберите **Microsoft 365 E5** и нажмите **кнопку Начните бесплатную пробную версия**. 
 
@@ -144,7 +126,7 @@ ms.locfileid: "51935429"
 
    ![Изображение of_Microsoft 365 E5 Начало бесплатной пробной страницы, где вы должны часы кнопку Попробуйте сейчас, чтобы начать](../../media/mtp-eval-27.png)
  
-6. Перейдите в **Microsoft 365 Центр администрирования**  >    >  **Активные пользователи**. Выберите учетную запись пользователя, **выберите Управление** лицензиями на продукты, а затем обмен лицензией с Office 365 E5 на **Microsoft 365 E5**. Щелкните **Сохранить**.
+6. Перейдите в **центр Microsoft 365 Admin**  >    >  **активных пользователей**. Выберите учетную запись пользователя, **выберите Управление лицензиями** на продукты, а затем обмен лицензией с Office 365 E5 на **Microsoft 365 E5**. Щелкните **Сохранить**.
 
    ![Страница of_Microsoft центра администрирования 365, на которой можно выбрать Microsoft 365 E5 лицензию](../../media/mtp-eval-28.png)
  
@@ -158,6 +140,6 @@ ms.locfileid: "51935429"
 
 
 
-## <a name="next-step"></a>Следующий этап
-|[Этап 3. Настройка & на борту](config-m365d-eval.md) | Настройте каждый столб Microsoft 365 Defender для Microsoft 365 лаборатории или пилотной среды Defender и на борту конечных точек.
+## <a name="next-step"></a>Следующее действие
+|[Этап 3. Настройка & на борту](config-m365d-eval.md) | Настройте каждый столб Microsoft 365 Defender для Microsoft 365 Defender пробной лаборатории или пилотной среды и на борту конечных точек.
 |:-------|:-----|

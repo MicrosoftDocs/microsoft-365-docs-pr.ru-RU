@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Узнайте, как настроить и использовать соединителя 17a-4 ICE Подключение Chat DataParser для импорта и архива данных чата ICE Подключение в Microsoft 365.
-ms.openlocfilehash: 2c9eb6524e4f5e131603b5998d215e0b2d8111d3
-ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
+ms.openlocfilehash: 0aac5c701f122eaf99497635281ebc07d835fc2e
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53097320"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454485"
 ---
-# <a name="set-up-a-connector-to-archive-ice-connect-chat-data-preview"></a>Настройка соединитетеля для архива данных Подключение чата (предварительный просмотр)
+# <a name="set-up-a-connector-to-archive-ice-connect-chat-data"></a>Настройка соединитетеля для архива данных Подключение чата
 
 Используйте [ICE DataParser](https://www.17a-4.com/ice-dataparser/) от 17a-4 LLC для импорта и архива данных из ICE Подключение Chat в почтовые ящики пользователей в Microsoft 365 организации. DataParser включает соединители ICE Chat, настроенные для захвата элементов из стороннего источника данных и импорта этих элементов в Microsoft 365. Соединиттель ICE DataParser преобразует данные ice Подключение чата в формат сообщений электронной почты, а затем импортирует эти элементы в почтовые ящики пользователей в Microsoft 365.
 

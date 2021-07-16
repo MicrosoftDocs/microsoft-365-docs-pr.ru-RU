@@ -16,12 +16,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.technology: mde
-ms.openlocfilehash: ffe7d13ca0943e8927d0d9ce663527fedf880e48
-ms.sourcegitcommit: 6f2288e0c863496dfd0ee38de754bd43096ab3e1
+ms.openlocfilehash: 83dd2483b93b2f4fe520973ce05346f59baf2f28
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51187593"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53453581"
 ---
 # <a name="create-and-manage-device-tags"></a>Создание тегов устройств и управление ими
 
@@ -58,11 +58,11 @@ ms.locfileid: "51187593"
 
 2. Выберите **Управление тегами** в строке действий ответа.
 
-    ![Изображение кнопки управления тегами](images/manage-tags.png)
+    :::image type="content" alt-text="Изображение кнопки управления тегами." source="images/manage-tags-option.png":::
 
 3. Введите, чтобы найти или создать теги
 
-    ![Изображение добавления тегов на устройстве1](images/new-tags.png)
+    :::image type="content" alt-text="Изображение добавления тегов на устройстве1." source="images/create-new-tag.png":::
 
 Теги добавляются в представление устройства и будут также отражены в представлении **списка Устройств.** Затем можно использовать фильтр **Теги,** чтобы увидеть соответствующий список устройств.
 
@@ -72,7 +72,7 @@ ms.locfileid: "51187593"
 
 Вы также можете удалить теги из этого представления.
 
-![Изображение добавления тегов на устройстве2](images/more-manage-tags.png)
+:::image type="content" alt-text="Изображение добавления тегов на устройстве2." source="images/new-tag-label-display.png":::
 
 ## <a name="add-device-tags-by-setting-a-registry-key-value"></a>Добавление тегов устройств, установив ключевое значение реестра
 
@@ -80,11 +80,11 @@ ms.locfileid: "51187593"
 > Применимо только на следующих устройствах:
 >- Windows 10 версии 1709 или более поздней версии
 >- Windows Сервер, версия 1803 или более поздней версии
->- Windows Server 2016
+>- Windows Server 2016
 >- Windows Server 2012 R2
->- Windows Server 2008 R2 с пакетом обновления 1 (SP1)
->- Windows 8.1
->- Windows 7 SP1
+>- Windows Server 2008 R2 с пакетом обновления 1 (SP1)
+>- Windows 8.1
+>- Windows 7 с пакетом обновления 1 (SP1)
 
 > [!NOTE] 
 > Максимальное количество символов, которые можно установить в теге, — 200.

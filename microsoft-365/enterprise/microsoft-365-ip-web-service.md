@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 - BCS160
 description: Узнайте, как использовать веб-службу IP-адресов и URL-адресов в Office 365, чтобы лучше выявлять и разграничивать сетевой трафик Office 365.
-ms.openlocfilehash: 0469070ed6d46b7695526697c255e23c0dc009ec
-ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
+ms.openlocfilehash: 4de78934a76a7dba16f79cb9cc6f93a7c935a314
+ms.sourcegitcommit: 41c7f7bd5c808ee5ceca0f6efe13d4e67da0262b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "53286421"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53419791"
 ---
 # <a name="office-365-ip-address-and-url-web-service"></a>Веб-служба IP-адресов и URL-адресов в Office 365
 
@@ -63,22 +63,22 @@ ms.locfileid: "53286421"
 
 Эти параметры являются общими для всех методов веб-службы:
 
-- **format=<JSON | CSV>**. По умолчанию данные возвращаются в формате JSON. Используйте этот необязательный параметр для возврата данных в формате данных с разделителями-запятыми (CSV).
-- **ClientRequestId=\<guid>**. Обязательный GUID, создаваемый для сопоставления клиента. Создайте уникальный GUID для каждого компьютера, который вызывает веб-службу (скрипты, указанные на этой странице, позволяют создать GUID). Не используйте GUID, показанные в примерах ниже, так как они могут быть заблокированы веб-службой в будущем. Формат GUID: _xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx_. Здесь "x" означает шестнадцатеричное число.
+- **format=\<JSON \| CSV\>**. По умолчанию данные возвращаются в формате JSON. Используйте этот необязательный параметр для возврата данных в формате данных с разделителями-запятыми (CSV).
+- **ClientRequestId=\<guid\>**. Обязательный GUID, создаваемый для сопоставления клиента. Создайте уникальный GUID для каждого компьютера, который вызывает веб-службу (скрипты, указанные на этой странице, позволяют создать GUID). Не используйте GUID, показанные в примерах ниже, так как они могут быть заблокированы веб-службой в будущем. Формат GUID: _xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx_. Здесь "x" означает шестнадцатеричное число.
 
   Чтобы создать GUID, можно использовать команду PowerShell [New-Guid](/powershell/module/microsoft.powershell.utility/new-guid) или веб-службу, например [Online GUID Generator](https://www.guidgenerator.com/).
 
 ## <a name="version-web-method"></a>Веб-метод версии
 
-Корпорация Майкрософт обновляет записи IP-адресов и FQDN Office 365 в конце каждого месяца. Иногда обновления публикуются вне цикла для устранения инцидентов, поддержки обновлений для системы безопасности или выполнения других операционных требований.
+Корпорация Майкрософт обновляет записи IP-адресов и FQDN Office 365 в начале каждого месяца. Иногда обновления публикуются вне цикла для устранения инцидентов, поддержки обновлений для системы безопасности или выполнения других операционных требований.
 
 Данным для каждого опубликованного экземпляра назначается номер версии, а веб-метод версии позволяет проверить наличие последней версии каждого экземпляра службы Office 365. Рекомендуется проверять версию не чаще, чем раз в час.
 
 Параметры для веб-метода версии:
 
-- **AllVersions=<true | false>**. По умолчанию возвращается последний номер версии. Включите этот необязательный параметр для запрашивания всех версий, опубликованных с момента первого выпуска веб-службы.
-- **Format=<JSON | CSV | RSS>**. Кроме форматов JSON и CSV, веб-метод версии поддерживает RSS. Вы можете использовать этот необязательный параметр вместе с параметром _AllVersions=true_ для запрашивания RSS-канала, который можно применять в Outlook или других средствах чтения RSS.
-- **Instance=<Worldwide | China | Germany | USGovDoD | USGovGCCHigh>**. Этот необязательный параметр указывает экземпляр, для которого возвращается версия. Если его опустить, будут возвращены все экземпляры. Допустимые экземпляры: Worldwide, China, Germany, USGovDoD, USGovGCCHigh.
+- **AllVersions=\<true \| false\>**. По умолчанию возвращается последний номер версии. Включите этот необязательный параметр, чтобы запросить все версии, опубликованные с момента первого выпуска веб-службы.
+- **Format=\<JSON \| CSV \| RSS\>**. Кроме форматов JSON и CSV, веб-метод версии поддерживает RSS. Вы можете использовать этот необязательный параметр вместе с параметром _AllVersions=true_ для запрашивания RSS-канала, который можно применять в Outlook или других средствах чтения RSS.
+- **Instance=\<Worldwide \| China \| Germany \| USGovDoD \| USGovGCCHigh\>**. Этот необязательный параметр указывает экземпляр, для которого возвращается версия. Если его опустить, будут возвращены все экземпляры. Допустимые экземпляры: Worldwide, China, Germany, USGovDoD, USGovGCCHigh.
 
 Веб-метод версии не имеет ограничения по частоте и не возвращает HTTP-код отклика 429. Отклик для веб-метода версии включает заголовок с контролем кэша, рекомендующий кэширование данных в течение 1 часа. Результатом веб-метода версии может быть отдельная запись или массив записей. Ниже перечислены элементы каждой записи.
 
@@ -86,9 +86,9 @@ ms.locfileid: "53286421"
 - latest — последняя версия для конечных точек указанного экземпляра.
 - versions — список всех предыдущих версий для указанного экземпляра. Этот элемент включен, только если параметр _AllVersions_ имеет значение true.
 
-### <a name="examples"></a>Примеры:
+### <a name="version-web-method-examples"></a>Примеры веб-метода версии
 
-Пример 1. Запрос URI: [https://endpoints.office.com/version?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7](https://endpoints.office.com/version?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7)
+Пример 1. Запрос URI: <https://endpoints.office.com/version?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7>
 
 Этот URI возвращает последнюю версию каждого экземпляра службы Office 365. Пример результата:
 
@@ -120,7 +120,7 @@ ms.locfileid: "53286421"
 > [!IMPORTANT]
 > GUID для параметра ClientRequestID в этих URI приведен только в качестве примера. Чтобы попробовать применить URI веб-службы, создайте собственный GUID. GUID, показанные в этих примерах, могут быть заблокированы веб-службой в будущем.
 
-Пример 2. Запрос URI: [https://endpoints.office.com/version/Worldwide?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7](https://endpoints.office.com/version/Worldwide?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7)
+Пример 2. Запрос URI: <https://endpoints.office.com/version/Worldwide?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7>
 
 Этот URI возвращает последнюю версию указанного экземпляра службы Office 365. Пример результата:
 
@@ -131,7 +131,7 @@ ms.locfileid: "53286421"
 }
 ```
 
-Пример 3. Запрос URI: [https://endpoints.office.com/version/Worldwide?Format=CSV&amp;ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7](https://endpoints.office.com/version/Worldwide?Format=CSV&amp;ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7)
+Пример 3. Запрос URI: <https://endpoints.office.com/version/Worldwide?Format=CSV&amp;ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7>
 
 Этот URI показывает выходные данные в формате CSV. Пример результата:
 
@@ -140,7 +140,7 @@ instance,latest
 Worldwide,2018063000
 ```
 
-Пример 4. Запрос URI: [https://endpoints.office.com/version/Worldwide?AllVersions=true&amp;ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7](https://endpoints.office.com/version/Worldwide?AllVersions=true&amp;ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7)
+Пример 4. Запрос URI: <https://endpoints.office.com/version/Worldwide?AllVersions=true&amp;ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7>
 
 Этот URI показывает все более ранние версии, которые были опубликованы для экземпляра службы Office 365 Worldwide. Пример результата:
 
@@ -155,7 +155,7 @@ Worldwide,2018063000
 }
 ```
 
-Пример 5. URI RSS-канала: [https://endpoints.office.com/version/worldwide?clientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7&allVersions=true&format=RSS](https://endpoints.office.com/version/worldwide?clientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7&allVersions=true&format=RSS)
+Пример 5. URI RSS-канала: <https://endpoints.office.com/version/worldwide?clientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7&allVersions=true&format=RSS>
 
 Этот URI показывает RSS-канал опубликованных версий, которые содержат ссылки на список изменений для каждой версии. Пример результата:
 
@@ -180,10 +180,10 @@ Worldwide,2018063000
 
 Параметры веб-метода конечных точек представлены ниже.
 
-- **ServiceAreas=<Common | Exchange | SharePoint | Skype>**. Список областей обслуживания, разделенных запятыми. Допустимые элементы: _Common_, _Exchange_, _SharePoint_ и _Skype_. Так как элементы области обслуживания _Common_ обязательны для всех других областей обслуживания, веб-служба всегда включает их. Если не включить этот параметр, будут возвращены все области обслуживания.
-- **TenantName=<имя_клиента>**. Имя клиента Office 365. Веб-служба получает предоставленное вами имя и вставляет его в части URL-адресов, которые включают имя клиента. Если вы не предоставляете имя клиента, эти части URL-адресов будут содержать подстановочный знак (\*).
-- **NoIPv6=<true | false>**. Установите для него значение _true_, чтобы исключить адреса IPv6 из выходных данных, если в вашей сети не используется IPv6.
-- **Instance=<Worldwide | China | Germany | USGovDoD | USGovGCCHigh>**. Этот обязательный параметр указывает экземпляр, из которого должны быть возвращены конечные точки. Допустимые экземпляры: _Worldwide_, _China_, _Germany_, _USGovDoD_ и _USGovGCCHigh_.
+- **ServiceAreas=\<Common \| Exchange \| SharePoint \| Skype\>**. Список областей служб, разделенных запятыми. Допустимые элементы: _Common_, _Exchange_, _SharePoint_ и _Skype_. Так как элементы области обслуживания _Common_ обязательны для всех других областей обслуживания, веб-служба всегда включает их. Если не включить этот параметр, будут возвращены все области обслуживания.
+- **TenantName=\<tenant_name\>**. Имя клиента Office 365. Веб-служба получает предоставленное вами имя и вставляет его в части URL-адресов, которые включают имя клиента. Если вы не предоставляете имя клиента, эти части URL-адресов будут содержать подстановочный знак (\*).
+- **NoIPv6=\<true \| false\>**. Установите значение _true_, чтобы исключить адреса IPv6 из выходных данных, если в вашей сети не используется IPv6.
+- **Instance=\<Worldwide \| China \| Germany \| USGovDoD \| USGovGCCHigh\>**. Этот обязательный параметр указывает экземпляр, из которого должны быть возвращены конечные точки. Допустимые экземпляры: _Worldwide_, _China_, _Germany_, _USGovDoD_ и _USGovGCCHigh_.
 
 Если вы вызываете веб-метод конечных точек слишком часто с одного клиентского IP-адреса, то можете получить код HTTP-отклика _429 (слишком большое количество запросов)_. Если вы получили этот код отклика, подождите 1 час перед повтором своего запроса или сгенерируйте новый GUID для запроса. Рекомендуется запланировать вызов веб-метода конечных точек, только если веб-метод версии указывает, что доступна новая версия.
 
@@ -200,9 +200,9 @@ Worldwide,2018063000
 - required — имеет значение _True_, если этот набор конечных точек требуется для подключения к Office 365. _False_, если этот набор конечных точек необязателен.
 - notes — текст, который в случае необязательных конечных точек описывает функциональность Office 365, которая будет недоступна, если IP- или URL-адреса в этом наборе конечных точек недоступны на сетевом уровне. Если значение не указано, опускается.
 
-### <a name="examples"></a>Примеры:
+### <a name="endpoints-web-method-examples"></a>Примеры веб-метода конечных точек
 
-Пример 1. Запрос URI: [https://endpoints.office.com/endpoints/Worldwide?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7](https://endpoints.office.com/endpoints/Worldwide?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7)
+Пример 1. Запрос URI: <https://endpoints.office.com/endpoints/Worldwide?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7>
 
 Этот URI получает все конечные точки для экземпляра Office 365 Worldwide для всех рабочих нагрузок. В примере результата показан фрагмент выходных данных:
 
@@ -278,9 +278,9 @@ Worldwide,2018063000
   ips — элементы, удаляемые из массива _ips_.
   urls — элементы, удаляемые из массива _urls_.
 
-### <a name="examples"></a>Примеры:
+### <a name="changes-web-method-examples"></a>Примеры веб-метода изменений
 
-Пример 1. Запрос URI: [https://endpoints.office.com/changes/worldwide/0000000000?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7](https://endpoints.office.com/changes/worldwide/0000000000?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7)
+Пример 1. Запрос URI: <https://endpoints.office.com/changes/worldwide/0000000000?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7>
 
 Запрашивает все предыдущие изменения в экземпляре службы Office 365 Worldwide. Пример результата:
 
@@ -318,7 +318,7 @@ Worldwide,2018063000
      [
 ```
 
-Пример 2. Запрос URI: [https://endpoints.office.com/changes/worldwide/2018062700?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7](https://endpoints.office.com/changes/worldwide/2018062700?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7)
+Пример 2. Запрос URI: <https://endpoints.office.com/changes/worldwide/2018062700?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7>
 
 Запрашивает изменения, внесенные в экземпляр Office 365 Worldwide после выхода указанной версии. В этом случае указанная версия является последней. Пример результата:
 

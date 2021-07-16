@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Узнайте, как настроить и использовать соединителя 17a-4 Cisco Webex DataParser для импорта и архива данных Cisco Webex в Microsoft 365.
-ms.openlocfilehash: 055152f2d566f7cfc32dac132a70bbaf63ceb503
-ms.sourcegitcommit: 778103d20a2b4c43e524aa436775764d8d8d4c33
+ms.openlocfilehash: ca17ffb9313c6c59884d2c7a55d1bc81816acda7
+ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53097174"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53453961"
 ---
-# <a name="set-up-a-connector-to-archive-cisco-webex-data-preview"></a>Настройка соединитетеля для архива данных Cisco Webex (предварительный просмотр)
+# <a name="set-up-a-connector-to-archive-cisco-webex-data"></a>Настройка соединитетеля для архива данных Cisco Webex
 
 Используйте [Cisco Webex DataParser](https://www.17a-4.com/webex-dataparser/) от 17a-4 LLC для импорта и архива данных с платформы Cisco Cisco Webex в почтовые ящики пользователей в Microsoft 365 организации. В состав DataParser входит соединиттель Cisco Webex, настроенный для захвата элементов из стороннего источника данных и импорта этих элементов в Microsoft 365. Соединиттель Cisco Webex DataParser преобразует данные Cisco Webex в формат сообщений электронной почты, а затем импортирует эти элементы в почтовые ящики пользователей в Microsoft 365.
 

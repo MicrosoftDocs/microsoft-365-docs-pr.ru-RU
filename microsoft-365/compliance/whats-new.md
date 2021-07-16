@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Будь то добавление новых решений в центр соответствия требованиям, обновление существующих функций на основе отзывов или развертывание свежей и обновленной документации, Microsoft 365 поможет вам оставаться на вершине постоянно меняющегося ландшафта соответствия требованиям. Узнайте, чем мы были в этом месяце.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4e298a9dc8b23e3977db51d5a3b96f7b0723a0d1
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: acbad7a1c5fa541ee83da668768cc42af7a5afda
+ms.sourcegitcommit: 84e70051bb61b1171cebfbabe500b4904dfac04f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53394945"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "53464013"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Новые возможности Центра соответствия требованиям Microsoft 365
 
@@ -46,6 +46,10 @@ ms.locfileid: "53394945"
 ### <a name="customer-key"></a>Ключ клиента
 
 - [Шифрование службы с помощью ключа](customer-key-overview.md) клиента (dePs уровня клиентского ключа клиента теперь шифрует конфигурацию метки конфиденциальности для Microsoft Information Protection.)
+
+### <a name="data-connectors"></a>Соединители данных
+
+- Мы выпустили 17 новых соединители данных в партнерстве с [17a-4 LLC](archiving-third-party-data.md#17a-4-data-connectors) и один новый соединитель в партнерстве с [CellTrust](archiving-third-party-data.md#celltrust-data-connectors). Мы также выпустили дополнительные соединители данных в партнерстве с [Veritas](archiving-third-party-data.md#veritas-data-connectors) и [TeleMessage.](archiving-third-party-data.md#telemessage-data-connectors) На сегодняшний день это позволяет в общей сложности 65 подключений к данным импортировать и архивировать сторонние данные для Microsoft 365.
 
 ### <a name="ediscovery"></a>Обнаружение электронных данных
 
@@ -146,7 +150,7 @@ Outlook выпусков и обновлений:
 - **Ключ клиента для Microsoft 365**. [Обзор ключа клиента](/microsoft-365/compliance/customer-key-tenant-level) для Microsoft 365 на уровне клиента (общедоступный предварительный просмотр).
 - **Двойное шифрование ключей**. Дополнительные возможности [поддержки помеченных](/microsoft-365/compliance/double-key-encryption) и защищенных документов можно узнать в SharePoint и OneDrive для бизнеса.
 
-### <a name="insider-risk-management"></a>Управление внутренними рисками
+### <a name="insider-risk-management"></a>Управление рисками, связанными с инсайдерами
 
 В марте для общего просмотра были выпущены следующие обновления функции управления рисками изнутри:
 
