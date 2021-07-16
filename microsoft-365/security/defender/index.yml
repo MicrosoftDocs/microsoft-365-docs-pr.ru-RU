@@ -13,12 +13,12 @@ metadata:
   ms.author: macapara
   ms.date: 09/13/2019
   localization_priority: Priority
-  ms.openlocfilehash: d4fa7ecef5bb132ca23084b5f46af230a3d181aa
-  ms.sourcegitcommit: 4d26a57c37ff7efbb8d235452c78498b06a59714
+  ms.openlocfilehash: 4ce4681ff5008cc3209789139bacd8441a7f724f
+  ms.sourcegitcommit: 718759c7146062841f7eb4a0a9a8bdddce0139b0
   ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 06/22/2021
-  ms.locfileid: "53053135"
+  ms.lasthandoff: 07/15/2021
+  ms.locfileid: "53454617"
 landingContent:
 - title: Microsoft 365 Defender
   linkLists:
@@ -41,9 +41,9 @@ landingContent:
   - linkListType: get-started
     links:
     - text: Создание испытательной лаборатории
-      url: m365d-evaluation.md
+      url: eval-overview.md
     - text: Запуск пилотного проекта в производстве
-      url: m365d-pilot.md
+      url: eval-overview.md
 - title: Начало работы
   linkLists:
   - linkListType: get-started
@@ -106,7 +106,7 @@ landingContent:
       url: m365d-autoir.md
     - text: Охота на угрозы
       url: advanced-hunting-overview.md
-- title: Справка
+- title: Справочные материалы
   linkLists:
   - linkListType: reference
     links:
