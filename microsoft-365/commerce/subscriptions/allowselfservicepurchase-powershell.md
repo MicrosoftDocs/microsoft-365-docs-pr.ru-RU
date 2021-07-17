@@ -20,13 +20,13 @@ search.appverid:
 - MET150
 description: Узнайте, как использовать комлет AllowSelfServicePurchase PowerShell для отключения покупки самообслужива.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.date: 03/18/2021
-ms.openlocfilehash: fbba7f4385684a8a34f9feebc28a27e8e867bacb
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.date: 07/16/2021
+ms.openlocfilehash: 77cb1c753db22929ea2c3d14226a3927e6406b89
+ms.sourcegitcommit: ea8de1b48adb6df92fb9351ea862184a9f16cbbb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53227479"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "53461367"
 ---
 # <a name="use-allowselfservicepurchase-for-the-mscommerce-powershell-module"></a>Использование AllowSelfServicePurchase для модуля MSCommerce PowerShell
 
@@ -103,8 +103,10 @@ Get-MSCommerceProductPolicies -PolicyId AllowSelfServicePurchase
 | Project, план 1 | CFQ7TTC0KXND |
 | Project, план 3 | CFQ7TTC0KXNC |
 | Visio, план 1 | CFQ7TTC0KXN9 |
-| Visio, план 2 | CFQ7TTC0KXN8 |
-
+| Visio Plan 2 | CFQ7TTC0KXN8 |
+| Windows 365 Enterprise | CFQ7TTC0HHS9 |
+| Windows 365 Бизнес | CFQ7TTC0J203 |
+| Windows 365 Бизнес с Windows гибридной выгодой | CFQ7TTC0HX99 |
 ## <a name="view-or-set-the-status-for-allowselfservicepurchase"></a>Просмотр или настройка состояния для AllowSelfServicePurchase
 
 После просмотра списка продуктов, доступных для самостоятельной покупки, можно просмотреть или изменить параметр для определенного продукта.

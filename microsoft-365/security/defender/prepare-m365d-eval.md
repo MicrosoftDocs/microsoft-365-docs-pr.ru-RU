@@ -1,7 +1,7 @@
 ---
-title: Подготовка среды пробной лаборатории Microsoft 365 Defender
-description: Подготовка регистрации заинтересованных сторон, сроков, соображений среды и порядка принятия при настройке пробной лаборатории Microsoft 365 Defender или пилотной среды
-keywords: Microsoft 365 Подготовка к пробной Microsoft 365 Defender, подготовка к запуску пилотного проекта Microsoft 365 Defender, запуск пилотного проекта Microsoft 365 Defender, развертывание, подготовка, заинтересованные стороны, сроки, среда, конечная точка, сервер, управление, принятие
+title: Подготовка среды Microsoft 365 Defender пробной лаборатории
+description: Подготовка регистрации заинтересованных сторон, сроков, соображений среды и порядка принятия при настройке Microsoft 365 Defender лаборатории или пилотной среды
+keywords: Microsoft 365 Defender пробной подготовки, Microsoft 365 Defender пилотной подготовки, подготовки к запуску пилотного проекта Microsoft 365 Defender, запуск пилотного проекта Microsoft 365 Defender, развертывание, подготовка, заинтересованные стороны, сроки, среда, конечная точка, сервер, управление, принятие
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -20,13 +20,13 @@ ms.collection:
 ms.topic: article
 ms.technology: m365d
 ms.openlocfilehash: 7ebb7074b0e06eda96d21142044bd8b9997e094b
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.sourcegitcommit: 9856f86532bdcf0befbcdbdb7c6dc6bf89fe63b5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52841658"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "53458850"
 ---
-# <a name="prepare-your-microsoft-365-defender-trial-lab-or-pilot-environment"></a>Подготовка пробной лаборатории Microsoft 365 Defender или пилотной среды
+# <a name="prepare-your-microsoft-365-defender-trial-lab-or-pilot-environment"></a>Подготовка пробной Microsoft 365 Defender или пилотной среды
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -43,10 +43,10 @@ ms.locfileid: "52841658"
 Вы в настоящее время на стадии подготовки.
 
 
-Подготовка является ключом к успешному развертыванию. В этом разделе вы сможете найти то, что необходимо учитывать при подготовке к созданию пробной лаборатории или пилотной среды для развертывания Microsoft 365 Defender.
+Подготовка является ключом к успешному развертыванию. В этом разделе вы сможете найти то, что необходимо учитывать при подготовке к созданию пробной лаборатории или пилотной среды для Microsoft 365 Defender развертывания.
 
-## <a name="prerequisites"></a>Предварительные условия
-Узнайте о требованиях к лицензированию, оборудованию и программному обеспечению и других параметрах конфигурации для Microsoft 365 Defender. См. минимальные требования [к Microsoft 365 Defender,](/microsoft-365/security/defender/prerequisites) [Microsoft Defender для](/windows/security/threat-protection/microsoft-defender-atp/minimum-requirements)конечной точки, Microsoft Defender [для](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)Office 365, Microsoft [Defender для](/azure-advanced-threat-protection/atp-prerequisites)удостоверений , [Microsoft Cloud App Security](/azure-advanced-threat-protection/atp-prerequisites).
+## <a name="prerequisites"></a>Предварительные требования
+Узнайте о требованиях к лицензированию, оборудованию и программному обеспечению и других параметрах конфигурации для Microsoft 365 Defender. См. минимальные требования [к Microsoft 365 Defender,](/microsoft-365/security/defender/prerequisites) [Microsoft Defender для](/windows/security/threat-protection/microsoft-defender-atp/minimum-requirements)конечной точки, Microsoft Defender для [Office 365,](/office365/servicedescriptions/office-365-advanced-threat-protection-service-description) [Microsoft Defender для](/azure-advanced-threat-protection/atp-prerequisites)удостоверений , [Microsoft Cloud App Security](/azure-advanced-threat-protection/atp-prerequisites).
 
 ## <a name="stakeholders-and-sign-off"></a>Заинтересованные стороны и вход
 Определите всех заинтересованных лиц, которые участвуют в проекте и которым может потребоваться подписать, просмотреть или остаться в курсе, будь то для оценки или запуска пилотного проекта.
@@ -62,7 +62,7 @@ ms.locfileid: "52841658"
 
 -   I = Informed of this project
 
-| Имя                 | Role                                                                                                                                                                                                          | Action |
+| Имя                 | Роль                                                                                                                                                                                                          | Действие |
 |----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|
 | Ввод имени и электронной почты | **Главный сотрудник по информационной безопасности (CISO)** Исполнительный представитель, который выступает в качестве спонсора в организации для *развертывания новых технологий.*                                                  | SO     |
 | Ввод имени и электронной почты | Руководитель Центра операций киберзащиты **(CDOC)** Представитель группы *CDOC,* отвечающий за определение того, как это изменение согласуется с процессами в группе операций безопасности клиентов.       | SO     |
@@ -71,7 +71,7 @@ ms.locfileid: "52841658"
 | Ввод имени и электронной почты | **Аналитик безопасности** Представитель из *группы CDOC,* который может предоставлять отзывы о возможностях обнаружения, пользовательском опыте и общей полезности этого изменения с точки зрения операций безопасности. | I      |
 
 ## <a name="prepare-your-azure-active-directory"></a>Подготовка Azure Active Directory
-Пропустить этот шаг, если вы уже включили синхронизацию между Active Directory и Azure Active Directory на месте. Просмотрите документацию о существующих практиках из Azure Active Directory. Следующие действия оптимизированы для оценки или запуска пилотного проекта Microsoft 365 Defender.
+Пропустить этот шаг, если вы уже включили синхронизацию между Active Directory и Azure Active Directory на месте. Просмотрите документацию о существующих практиках из Azure Active Directory. Следующие действия оптимизированы для оценки или запуска пилотного Microsoft 365 Defender проекта.
 
 1. Перейдите на [Azure Active Directory](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade) > **Azure AD Подключение**. 
 ![Изображение страницы Azure Active Directory портала](../../media/mtp-eval-1.png) <br> 
@@ -107,9 +107,9 @@ ms.locfileid: "52841658"
 |-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|
 |Microsoft Defender для Office 365|Microsoft Defender для Office 365 защищает вашу организацию от угроз, которые могут представлять электронные сообщения, ссылки (URL-адреса) и средства совместной работы. <br> [Подробнее.](/microsoft-365/security/office-365-security/defender-for-office-365)                                                                                                                                                                                                                                             | 1                   |
 |Microsoft Defender для удостоверений|Microsoft Defender for Identity использует сигналы Active Directory для выявления, обнаружения и расследования расширенных угроз, скомпрометации удостоверений и вредоносных действий инсайдеров, направленных на организацию. <br> [Подробнее](/azure-advanced-threat-protection/).| 2 |
-|Microsoft Cloud App Security| Microsoft Cloud App Security — это брокер безопасного доступа в облако (CASB), который работает в нескольких облачных службах. Эта служба дает возможность следить за состоянием данных и контролировать их перемещение, а подробная аналитика помогает обезвреживать киберугрозы во всех облачных службах. <br> [Подробнее](/cloud-app-security/).                                                                                                                                                                                                                                                                                                                                                                       |3                   |
+|Microsoft Cloud App Security| Microsoft Cloud App Security — это брокер безопасного доступа в облако (CASB), который работает в нескольких облачных службах. Эта служба дает возможность следить за состоянием данных и контролировать их перемещение, а подробная аналитика помогает обезвреживать киберугрозы во всех облачных службах. <br> [Подробнее](/cloud-app-security/).                                                                                                                                                                                                                                                                                                                                                                       |3                   |
 |Microsoft Defender для конечной точки | Функции обнаружения угроз и реагирования на них для конечных точек в Microsoft Defender для конечной точки обеспечивают обнаружение расширенных атак, работают в режиме практически реального времени, а результаты, предоставляемые такими функциями, можно использовать в качестве основания для выполнения тех или иных действий. Аналитики систем безопасности могут эффективно определять приоритеты предупреждений, получать полную картину всех возможных брешей в системе безопасности, а также предпринимать действия по реагированию для устранения угроз. <br> [Подробнее.](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)                                     |4                    |                                                                                                                                                                                                                                    
 
-## <a name="next-step"></a>Следующий этап
-|![Этап 2. Настройка](../../media/setup.png) <br>[Этап 2. Настройка](setup-m365deval.md) | Настройка пробной лаборатории Microsoft 365 Defender или пилотной среды
+## <a name="next-step"></a>Следующее действие
+|![Этап 2. Настройка](../../media/setup.png) <br>[Этап 2. Настройка](setup-m365deval.md) | Настройка пробной Microsoft 365 Defender или пилотной среды
 |:-------|:-----|

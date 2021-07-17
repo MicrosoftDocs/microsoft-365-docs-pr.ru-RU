@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Сведения для ИТ-администраторов об управлении метками конфиденциальности в приложениях Office для настольных компьютеров, мобильных устройств и в Интернете.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1cdfe9d106a55cef79a63b42b47f28b2d9bb9c53
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.openlocfilehash: 2484aed7dd5f70a92b1199f472c983848326db7c
+ms.sourcegitcommit: 997a21b83795789cda0a6b4a77f9985a3233d0c0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53228595"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53430760"
 ---
 # <a name="manage-sensitivity-labels-in-office-apps"></a>Управление метками конфиденциальности в приложениях Office
 
@@ -361,6 +361,8 @@ ${If.App.<application type>}<your visual markings text> ${If.End}
 > [Клиент унифицированных меток Azure Information Protection](/azure/information-protection/rms-client/install-unifiedlabelingclient-app) поддерживает эту конфигурацию, которая также называется обязательным применением меток. Для меток, встроенных в приложения Office, минимальные версии см. в таблицах в разделе [Возможности](#support-for-sensitivity-label-capabilities-in-apps) на этой странице.
 >
 > Чтобы использовать обязательное применение меток для документов, но не для сообщений электронной почты, см. инструкции в следующем разделе, где объясняется, как настроить параметры Outlook.
+> 
+> Чтобы использовать обязательное применение меток для Power BI, см. статью [Обязательная политика меток для Power BI](/power-bi/admin/service-security-sensitivity-label-mandatory-label-policy).
 
 Если выбран параметр политики **Требовать, чтобы пользователи присваивали метки своим сообщениям и документам**, пользователи, которым назначена политика, должны выбрать и применить метку конфиденциальности в следующих сценариях:
 

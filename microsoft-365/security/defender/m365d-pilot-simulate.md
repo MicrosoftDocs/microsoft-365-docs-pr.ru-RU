@@ -22,11 +22,11 @@ ms.collection:
 ms.topic: conceptual
 ms.technology: m365d
 ms.openlocfilehash: 18dc8158ef3c806e5dac5a01778adebc6eecc1ce
-ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
+ms.sourcegitcommit: 9856f86532bdcf0befbcdbdb7c6dc6bf89fe63b5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53230023"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "53458835"
 ---
 # <a name="run-your-microsoft-365-defender-attack-simulations"></a>Запуск имитации Microsoft 365 Defender атак
 
@@ -281,10 +281,10 @@ Microsoft 365 Defender сопоставляет аналитику и совме
 
 1. Убедитесь, что клиент включил [Microsoft 365 Defender.](m365d-enable.md#confirm-that-the-service-is-on)
 2. Определите целевой почтовый ящик, который будет использоваться для получения электронной почты.
-    а. Этот почтовый ящик должен контролироваться Защитником Майкрософт для Office 365 b. Устройство из требования 3 должно получить доступ к этому почтовому ящику
+    a. Этот почтовый ящик должен контролироваться Защитником Майкрософт для Office 365 b. Устройство из требования 3 должно получить доступ к этому почтовому ящику
 3. Настройка тестового устройства: a. Убедитесь, что вы используете Windows 10 версии 1903 или более поздней версии.
-    б. Присоединитесь к тестовом устройству в тестовом домене.
-    в. [Включи антивирусная программа](/windows/security/threat-protection/windows-defender-antivirus/configure-windows-defender-antivirus-features). Если у вас возникли проблемы с включением антивирусная программа , см. эту тему [устранения неполадок.](/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding#ensure-that-windows-defender-antivirus-is-not-disabled-by-a-policy)
+    b. Присоединитесь к тестовом устройству в тестовом домене.
+    c. [Включи антивирусная программа](/windows/security/threat-protection/windows-defender-antivirus/configure-windows-defender-antivirus-features). Если у вас возникли проблемы с включением антивирусная программа , см. эту тему [устранения неполадок.](/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-onboarding#ensure-that-windows-defender-antivirus-is-not-disabled-by-a-policy)
     г. [На борту в Microsoft Defender для конечной точки](/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints).
 
 ### <a name="run-the-simulation"></a>Запуск моделирования
@@ -420,7 +420,7 @@ Microsoft 365 Defender сопоставляет аналитику и совме
 
    Для этого пилотного проекта может потребоваться ограничить это правило подмножество устройств тестирования в производственной среде.
 
-6. Нажмите **Создать**. Затем выберите **настраиваемые правила обнаружения** из панели навигации.
+6. Нажмите кнопку **Создать**. Затем выберите **настраиваемые правила обнаружения** из панели навигации.
 
    ![Снимок экрана параметра Настраиваемые правила обнаружения в меню](../../media/mtp/fig27a.png)
 
@@ -437,7 +437,7 @@ Microsoft 365 Defender сопоставляет аналитику и совме
 > [!NOTE]
 > Будьте готовы с помощью GitHub учетной записи для запуска запросов на охоту в среде экспериментальной лаборатории тестирования.
 
-|Название|Описание|Загрузка MP4|Смотреть на YouTube|CSL-файл для использования|
+|Title|Описание|Загрузка MP4|Смотреть на YouTube|CSL-файл для использования|
 |---|---|---|---|---|
 |Эпизод 1. Основы KQL|Мы покроем основы расширенных возможностей охоты в Microsoft 365 Defender. Сведения о доступных расширенных данных охоты и основных синтаксисах и операторах KQL.|[MP4](https://aka.ms/MTP15JUL20_MP4)|[YouTube](https://youtu.be/0D9TkGjeJwM)|[Эпизод 1. CSL-файл в Git](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%201%20-%20KQL%20Fundamentals.csl)|
 |Эпизод 2. Присоединяется|Мы продолжим изучение данных в области предварительной охоты и совместной работы с таблицами. Узнайте о внутренних, внешних, уникальных и полусемейных присоединяется, а также нюансы присоединиться по умолчанию Kusto innerunique.|[MP4](https://aka.ms/MTP22JUL20_MP4)|[YouTube](https://youtu.be/LMrO6K5TWOU)|[Эпизод 2. CSL-файл в Git](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%202%20-%20Joins.csl)|
@@ -445,7 +445,7 @@ Microsoft 365 Defender сопоставляет аналитику и совме
 |Эпизод 4. Давайте охотиться! Применение KQL для отслеживания инцидентов|Время отслеживать действия злоумышленников! В этом эпизоде для отслеживания атаки мы будем использовать улучшенное понимание KQL и улучшенную охоту в Microsoft 365 Defender. Узнайте некоторые советы и приемы, используемые в поле для отслеживания активности злоумышленников, включая АБС кибербезопасности и их применение к реагированию на инциденты.|[MP4](https://aka.ms/MTP5AUG20_MP4)|[YouTube](https://youtu.be/2EUxOc_LNd8)|[Эпизод 4. CSL-файл в Git](https://github.com/microsoft/Microsoft-threat-protection-Hunting-Queries/blob/master/Webcasts/TrackingTheAdversary/Episode%204%20-%20Lets%20Hunt.csl)|
 |
 
-## <a name="next-step"></a>Следующий этап
+## <a name="next-step"></a>Следующее действие
 
 |![Этап закрытия и сводки](../../media/mtp/close.png) <br>[Этап закрытия и сводки](m365d-pilot-close.md)|Проанализируйте результаты Microsoft 365 Defender, предо представить их заинтересованным лицам и сделать следующий шаг.
 |:-----|:-----|

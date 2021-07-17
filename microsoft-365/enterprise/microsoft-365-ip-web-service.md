@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 - BCS160
 description: Узнайте, как использовать веб-службу IP-адресов и URL-адресов в Office 365, чтобы лучше выявлять и разграничивать сетевой трафик Office 365.
-ms.openlocfilehash: 4de78934a76a7dba16f79cb9cc6f93a7c935a314
-ms.sourcegitcommit: 41c7f7bd5c808ee5ceca0f6efe13d4e67da0262b
+ms.openlocfilehash: 6a8786d99c92fae43113d550b76a87281cde0c5b
+ms.sourcegitcommit: ea8de1b48adb6df92fb9351ea862184a9f16cbbb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53419791"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "53461295"
 ---
 # <a name="office-365-ip-address-and-url-web-service"></a>Веб-служба IP-адресов и URL-адресов в Office 365
 
@@ -131,7 +131,7 @@ ms.locfileid: "53419791"
 }
 ```
 
-Пример 3. Запрос URI: <https://endpoints.office.com/version/Worldwide?Format=CSV&amp;ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7>
+Пример 3. Запрос URI: <https://endpoints.office.com/version/Worldwide?Format=CSV&ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7>
 
 Этот URI показывает выходные данные в формате CSV. Пример результата:
 
@@ -140,7 +140,7 @@ instance,latest
 Worldwide,2018063000
 ```
 
-Пример 4. Запрос URI: <https://endpoints.office.com/version/Worldwide?AllVersions=true&amp;ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7>
+Пример 4. Запрос URI: <https://endpoints.office.com/version/Worldwide?AllVersions=true&ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7>
 
 Этот URI показывает все более ранние версии, которые были опубликованы для экземпляра службы Office 365 Worldwide. Пример результата:
 

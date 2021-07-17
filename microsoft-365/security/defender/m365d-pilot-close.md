@@ -1,7 +1,7 @@
 ---
-title: Обобщение результатов пилотного Microsoft 365 Defender
+title: Обобщение результатов пилотного Microsoft 365 Defender проекта
 description: Завершите пилотный Microsoft 365 Defender, заполнив свою карту показателей, проанализировав результаты отчета и решив, как двигаться вперед.
-keywords: Microsoft 365 Пилот defender, определите, что делать после пилотного проекта Microsoft 365 Defender, что делать после оценки Microsoft 365 Defender в производстве, перехода от пилотного Microsoft 365 Defender к развертыванию, кибербезопасности, передовой постоянной угрозы, корпоративной безопасности, устройств, устройств, удостоверений, пользователей, данных, приложений, инцидентов, автоматического расследования и восстановления, продвинутой охоты
+keywords: Microsoft 365 Defender пилота определите, что делать после пилотного проекта Microsoft 365 Defender, что делать после оценки Microsoft 365 Defender в производстве, перехода от пилотного Microsoft 365 Defender к развертыванию, кибербезопасности, расширенных настойчивых угроз, корпоративной безопасности, устройств, устройств, удостоверений, пользователей, данных, приложений, инцидентов, автоматического расследования и восстановления, продвинутой охоты
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: m365-security
@@ -22,13 +22,13 @@ ms.collection:
 ms.topic: conceptual
 ms.technology: m365d
 ms.openlocfilehash: 64cdb37b64780a651b2689e68e21c5a385df5ba9
-ms.sourcegitcommit: a8d8cee7df535a150985d6165afdfddfdf21f622
+ms.sourcegitcommit: 9856f86532bdcf0befbcdbdb7c6dc6bf89fe63b5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51932873"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "53458843"
 ---
-# <a name="closing-and-summarizing-your-microsoft-365-defender-pilot"></a>Закрытие и обобщение Microsoft 365 Defender  
+# <a name="closing-and-summarizing-your-microsoft-365-defender-pilot"></a>Закрытие и обобщение Microsoft 365 Defender пилота  
 
 [!INCLUDE [Microsoft 365 Defender rebranding](../includes/microsoft-defender.md)]
 
@@ -59,7 +59,7 @@ ms.locfileid: "51932873"
 
 Мы надеемся, что вам понравилось это моделирование. Начните реализацию того, что вы узнали в более широком масштабе в организации, чтобы извлечь большую часть из интегрированного решения безопасности.
 
-## <a name="next-step"></a>Следующий этап
+## <a name="next-step"></a>Следующее действие
 Узнайте больше о столбах Microsoft 365 Defender в следующих интерактивных руководствах:
 - [Защита организации с помощью Microsoft Defender для Office 365](https://aka.ms/O365ATP-Interactive-Guide)
 - [Обнаружение подозрительных действий и возможных атак с помощью Microsoft Defender для удостоверений](https://aka.ms/AATP-Interactive-Guide)

@@ -14,23 +14,23 @@ search.appverid:
 - MOE150
 - MET150
 description: Начало работы с возможностями управления приложениями.
-ms.openlocfilehash: 0fc00819947d3d472de9199b0381c6f33de0acd6
-ms.sourcegitcommit: 41c7f7bd5c808ee5ceca0f6efe13d4e67da0262b
+ms.openlocfilehash: 80487298f2c3c3a93f0083337ddb223bd68e2611
+ms.sourcegitcommit: 2fd60871975d61e60d4827b36cd689021fd2a4c8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53420318"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53438040"
 ---
 # <a name="get-started-with-app-governance-in-preview"></a>Начало работы с управлением приложениями (в предварительной версии)
 
-Чтобы начать использовать управление приложениями для Microsoft Cloud App Security:
+Чтобы начать использовать надстройку управления приложениями для Microsoft Cloud App Security:
 
 1. Убедитесь, что ваша учетная запись имеет соответствующий уровень лицензирования. Управление приложениями — это дополнительная возможность для Microsoft Cloud App Security (MCAS), требующая наличия MCAS в учетной записи в составе одного из пакетов лицензий, перечисленных ниже, либо отдельно.
 1. Для доступа к страницам управления приложениями на портале вам необходима одна из ролей администратора, приведенных ниже.
 
 ## <a name="licensing-for-app-governance"></a>Лицензирование для управления приложениями
 
-Прежде чем приступить к управлению приложениями, подтвердите [подписку Microsoft 365](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans) и любые дополнительные надстройки. Чтобы получить доступ к управлению приложениями и использовать эту возможность, у вашей организации должна быть одна из следующих подписок или надстроек:
+Прежде чем приступить к управлению приложениями, подтвердите [подписки в Центре администрирования Microsoft 365](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans) и любые надстройки. Чтобы получить доступ к управлению приложениями и использовать эту возможность, у вашей организации должна быть одна из следующих подписок или надстроек:
 
 - Microsoft Cloud App Security
 - Microsoft 365 E5
@@ -70,16 +70,19 @@ ms.locfileid: "53420318"
 - Оператор безопасности
 - Читатель сведений о безопасности (только для чтения)
 
+> [!NOTE]
+> Только глобальный администратор может активировать бесплатную пробную версию управления приложениями.
+
 Ниже указаны возможности каждой роли.
 
-| Роль | Чтение панели мониторинга | Чтение всех приложений |Чтение политик | Создание, обновление или удаление политик | Чтение оповещений | Обновление оповещений | Чтение параметров | Обновление параметров | Чтение исправлений | Обновление исправлений |
+| Роль | Чтение панели мониторинга | Чтение всех приложений |Политики чтения | Создание, обновление и удаление политик | Чтение оповещений | Обновление оповещений | Чтение параметров | Обновление параметров | Чтение исправлений | Обновление исправлений |
 |:-------|:-----|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|
 | Администратор приложений | ![Флажок](..\media\checkmark.png) | ![Флажок](..\media\checkmark.png) | ![Флажок](..\media\checkmark.png) | ![Флажок](..\media\checkmark.png) | ![Флажок](..\media\checkmark.png) | ![Флажок](..\media\checkmark.png) | ![Флажок](..\media\checkmark.png) | ![Флажок](..\media\checkmark.png) | ![Флажок](..\media\checkmark.png) | ![Флажок](..\media\checkmark.png) |
 | Администратор облачных приложений | ![Флажок](..\media\checkmark.png) | | | | | | | | | |
 | Администратор компании | ![Флажок](..\media\checkmark.png) | ![Флажок](..\media\checkmark.png) | ![Флажок](..\media\checkmark.png) | ![Флажок](..\media\checkmark.png) | ![Флажок](..\media\checkmark.png) | ![Флажок](..\media\checkmark.png) | ![Флажок](..\media\checkmark.png) | ![Флажок](..\media\checkmark.png) | ![Флажок](..\media\checkmark.png) | ![Флажок](..\media\checkmark.png) |
 | Администратор соответствия требованиям | ![Флажок](..\media\checkmark.png) | ![Флажок](..\media\checkmark.png) | ![Флажок](..\media\checkmark.png) | ![Флажок](..\media\checkmark.png) | ![Флажок](..\media\checkmark.png) |  | ![Флажок](..\media\checkmark.png) | ![Флажок](..\media\checkmark.png) | ![Флажок](..\media\checkmark.png) | |
 | Администратор данных соответствия требованиям | ![Флажок](..\media\checkmark.png) | ![Флажок](..\media\checkmark.png) | ![Флажок](..\media\checkmark.png) | ![Флажок](..\media\checkmark.png) | ![Флажок](..\media\checkmark.png) |  | ![Флажок](..\media\checkmark.png) | ![Флажок](..\media\checkmark.png) | ![Флажок](..\media\checkmark.png) | |
-| Читатель соответствия требованиям | ![Флажок](..\media\checkmark.png) | ![Флажок](..\media\checkmark.png) | ![Флажок](..\media\checkmark.png) |  | ![Флажок](..\media\checkmark.png) |  | ![Флажок](..\media\checkmark.png) |  | | |
+| Средство чтения соответствия требованиям | ![Флажок](..\media\checkmark.png) | ![Флажок](..\media\checkmark.png) | ![Флажок](..\media\checkmark.png) |  | ![Флажок](..\media\checkmark.png) |  | ![Флажок](..\media\checkmark.png) |  | | |
 | Глобальный читатель  | ![Флажок](..\media\checkmark.png) | ![Флажок](..\media\checkmark.png) | ![Флажок](..\media\checkmark.png) |  | ![Флажок](..\media\checkmark.png) |  | ![Флажок](..\media\checkmark.png) |  | | |
 | Администратор безопасности | ![Флажок](..\media\checkmark.png) | ![Флажок](..\media\checkmark.png) | ![Флажок](..\media\checkmark.png) | ![Флажок](..\media\checkmark.png) | ![Флажок](..\media\checkmark.png) |  | ![Флажок](..\media\checkmark.png) | ![Флажок](..\media\checkmark.png) | ![Флажок](..\media\checkmark.png) | |
 | Оператор безопасности | ![Флажок](..\media\checkmark.png) | ![Флажок](..\media\checkmark.png) | ![Флажок](..\media\checkmark.png) | ![Флажок](..\media\checkmark.png) | ![Флажок](..\media\checkmark.png) | ![Флажок](..\media\checkmark.png) | ![Флажок](..\media\checkmark.png) | ![Флажок](..\media\checkmark.png) | ![Флажок](..\media\checkmark.png) | |
